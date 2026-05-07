@@ -81,6 +81,16 @@ jobs:
           
           echo "UPDATED=$UPDATED" >> "$GITHUB_ENV"
 
+      - name: Descargar paquetes grandes específicos (ignorados por git)
+        shell: bash
+        run: |
+          cd main/gnulinex-trixie/amd64
+          echo "Descargando paquetes grandes especificados en .gitignore..."
+          # Usamos apt-get download para traer los paquetes.
+          # El workflow se encargará de subirlos a releases si superan el tamaño.
+          # Añadimos '|| true' para no fallar si el paquete no existe en el upstream.
+          apt-get download libreoffice-dev-doc enlightenment-data || true
+
       - name: Generar Packages.gz con redirección para archivos gigantes
         if: env.UPDATED == 'true' || github.event_name != 'schedule'
         env:
@@ -89,6 +99,13 @@ jobs:
           GH_TOKEN: ${{ secrets.GGITHUB_TOKEN }}
         run: |
           set -e
+
+          # Asegurar que el release para paquetes grandes existe con el título correcto
+          echo "Asegurando que el release 'paquetes-grandes' existe..."
+          gh release view paquetes-grandes >/dev/null || gh release create paquetes-grandes \
+            --title "Paquetes Grandes del Repositorio" \
+            --notes "Paquetes grandes que no se almacenan en Git."
+
           find . -maxdepth 10 -type f -name "*.deb" -exec dirname {} + | sort -u | while read dir; do
             echo "Procesando: $dir"
             cd "$dir"
