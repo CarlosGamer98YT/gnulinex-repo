@@ -2429,20 +2429,20 @@ Cnf-Extra-Commands: java,jexec
 
 Package: deja-dup
 Architecture: amd64
-Version: 50.0-3
+Version: 50.1-1
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5252
+Installed-Size: 5274
 Depends: fuse3, restic (>= 0.17.1), dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~beta), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.18), libjson-glib-1.0-0 (>= 1.5.2), libpackagekit-glib2-18 (>= 1.1.0), libpango-1.0-0 (>= 1.50.3), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3)
 Recommends: gvfs-backends, gvfs-fuse, packagekit, rclone
 Suggests: duplicity (>= 2.1.0)
-Filename: ./deja-dup_50.0-3_amd64.deb
-Size: 786068
-MD5sum: 8456ccfa3f3cc0665a2dcf9559032e5c
-SHA1: 600617950df0cfa531e4cec248213764cacbac83
-SHA256: 6659d84a8fd41934cc4d2f6ad96aad0a27690874039529cddb973854929ec5c6
-SHA512: 1511c0085825949998ba082bdb8e5da494e8f4dae0cdfca7df8da999f8c7eeecc95b9e712cd6afb644e77de0a91ed731aa563517461f3db6d1dc5b7471c8a122
+Filename: ./deja-dup_50.1-1_amd64.deb
+Size: 795240
+MD5sum: dc057559e2364d2b3fbe28d589d58a73
+SHA1: b1c64854a788f779213f318f445d033d10634c67
+SHA256: 3706dcf6ebdee2c4b2eb060f6c8aa7dab0f47f99f1b014b2a0dc7631fe72bd53
+SHA512: b2d6de255273c3bffd1ac096b8a47effb640b1cca6000252a4dc0dedf49917152a1b56ab70775aa9623b97144b5d6388108294c37f3f425e90bcc3fa7c8441ac
 Homepage: https://apps.gnome.org/DejaDup/
 Description: Backup utility
  Déjà Dup is a simple backup tool. It hides the complexity of backing up the
@@ -3079,19 +3079,19 @@ Description: Modern replacement for ls
 
 Package: fastfetch
 Architecture: amd64
-Version: 2.61.0+dfsg-1
+Version: 2.62.1+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: Hiago De Franco <hiago@defranco.dev.br>
-Installed-Size: 1875
+Installed-Size: 1915
 Depends: libc6 (>= 2.38), libyyjson0 (>= 0.12.0+ds)
-Filename: ./fastfetch_2.61.0+dfsg-1_amd64.deb
-Size: 574144
-MD5sum: ff57c84af0523d5191501c853d0a5b5e
-SHA1: b9b0dc071e68ee01e2896af5f9c9046b918bda44
-SHA256: e8cdb1a946be0361243d908d6ece37f2dcb427b21d44b446a1e5e23f0e4b9cb7
-SHA512: 0f5436da58552b651cfe5923dd270828b5750bf36bd5aec23beb3b1f352aa6aeaa193a4558a16fc13a05bdb87221bea6ff24300b1ac689e30b7c5b8d57c3595f
+Filename: ./fastfetch_2.62.1+dfsg-1_amd64.deb
+Size: 585764
+MD5sum: 97c7fc229735237835c882fd0debe361
+SHA1: 949c712221408568731a28564fd8b482c06569aa
+SHA256: ee11cbc473ffe2ea36f8f34b98c94aa528ed431089055de32810f6b3a853066d
+SHA512: 6adb386237377e0418d4b81eafcb86652c2340b5e25235d20d55ce5c23ba274b097638e9d2b83159ff5311c372c1f720f1277d48e735939e855364e5244e36ac
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Description: neofetch-like tool for fetching system information
  Fastfetch is a neofetch-like tool for fetching system information and
