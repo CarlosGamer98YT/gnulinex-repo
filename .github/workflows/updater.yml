@@ -22,7 +22,13 @@ jobs:
       - name: Instalar dependencias en Debian
         run: |
           apt-get update 
-          apt-get install -y --no-install-recommends git dpkg-dev apt-utils gnupg ca-certificates curl gh
+          apt-get install -y --no-install-recommends git dpkg-dev apt-utils gnupg ca-certificates curl
+          
+          # Añadir el repositorio oficial de GitHub CLI e instalar 'gh'
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" > /etc/apt/sources.list.d/github-cli.list
+          apt-get update
+          apt-get install -y --no-install-recommends gh
 
       - name: Configurar Git
         run: git config --global --add safe.directory '*'
