@@ -2658,6 +2658,34 @@ Description: DVI to SVG converter
  dvisvgm is a utility for TeX/LaTeX users. It converts DVI, EPS, and
  PDF files to the XML-based scalable vector graphics format SVG.
 
+Package: efibootmgr
+Architecture: amd64
+Version: 18-4.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 94
+Depends: libc6 (>= 2.38), libefiboot1t64 (>= 39), libefivar1t64 (>= 39), libpopt0 (>= 1.14)
+Filename: ./efibootmgr_18-4.1_amd64.deb
+Size: 30632
+MD5sum: add371a7c4bb4b8cb964ba0df7395753
+SHA1: c308490edd26961b4f4ecce262d6225a40951ec2
+SHA256: 6baa563ca2cc028920a1a427f88245ffbd0ca459c67d5b6fc999920e8bb533a0
+SHA512: a85778225daeb39295b51a5366349d58d0e01f8a6463e238baa43eb6b966d81f6567c546628e28454b32773c43294661ec1fe77d9cd7cf4998fc68f2bcbaacaa
+Homepage: https://github.com/rhboot/efibootmgr
+Description: Interact with the EFI Boot Manager
+ This is a Linux user-space application to modify the Intel Extensible
+ Firmware Interface (EFI) Boot Manager configuration. This application can
+ create and destroy boot entries, change the boot order, change the next
+ running boot option, and more.
+ .
+ Additional information about (U)EFI can be found at http://www.uefi.org/.
+ .
+ Note: efibootmgr requires that the kernel module efivars be loaded prior
+ to use. 'modprobe efivars' should do the trick if it does not
+ automatically load.
+
 Package: enchant-2
 Architecture: amd64
 Version: 2.8.2+dfsg1-3+b2
@@ -11671,6 +11699,253 @@ Description: DVD+-RW/R recorder
  .
  This package also contains dvd+rw-format, a utility to format a DVD+RW media.
 
+Package: grub-common
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12
+Depends: grub2-common (= 2.14-2)
+Filename: ./grub-common_2.14-2_amd64.deb
+Size: 2364
+MD5sum: 23e25be72d59762aca2ac8a8d65f4575
+SHA1: 99e0cd78f91614f01c200bef4ae117b864b2c8b6
+SHA256: 39ae705d94308eb7f5e1baa390399993a4f90a5c041911d5872fdff5e9946c47
+SHA512: 7c42a23f94f9e8290000976360bd2d4fd02a3366ee37cf07a006a61fa72f8fd0165f509cde45003ef4b04e059f9d7c811d76afd8a21106509eb4de8a8779082d
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy transitional package that depends on grub2-common.
+ It can be safely removed.
+
+Package: grub-efi-amd64-bin
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 4060
+Depends: grub2-common (= 2.14-2), grub-efi-amd64-unsigned
+Recommends: grub-efi-amd64-signed, efibootmgr
+Breaks: grub-efi-amd64-signed (<< 1+2.12~rc1)
+Replaces: grub2 (<< 2.14-2)
+Filename: ./grub-efi-amd64-bin_2.14-2_amd64.deb
+Size: 1304512
+MD5sum: b905d3b1c303b17cc1a5ce57e7268fc5
+SHA1: 5013baf859ed687468e38c74b01566d094e71d3f
+SHA256: bce09a710be523986355d793ce6a52c213d8e9eb93500f03b195961d4c8977cd
+SHA512: 28b40dec4dba2cec94df56133d080369806616adb7a0f4be78ff84dcd26a70d26733cce591d65bbe26b6ec464ac44e7b5f31bdc4022301940d91054cecb6dfb7
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-efi-amd64-signed
+Architecture: amd64
+Version: 1+2.14+2
+Built-Using: grub2 (= 2.14-2)
+Priority: optional
+Protected: yes
+Section: admin
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 10052
+Depends: grub2-common (= 2.14-2)
+Recommends: shim-signed
+Filename: ./grub-efi-amd64-signed_1+2.14+2_amd64.deb
+Size: 1419668
+MD5sum: 587af330353b92add6e43c4e1f6c85cc
+SHA1: f105c4d632b5ee5ea9c955822f084a3b038e78c1
+SHA256: 73f6552b5eb9d98f6a51f893db56f9a02ccf201314fdf660c13addb3129228c5
+SHA512: 0c5031b7c629578629f27393a1b92ba5f33fc4a7ae601fbe280260e646e6f3984943e8d87f2a323344e4cd840100359f34458325a569825bdd6e1d38a9b9a6bc
+Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains the binaries signed by the Debian UEFI CA to be used by
+ shim-signed.
+
+Package: grub-efi-amd64-unsigned
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 10047
+Depends: grub2-common (= 2.14-2)
+Breaks: grub-efi-amd64-bin (<< 2.12-3~)
+Replaces: grub-efi-amd64-bin (<< 2.12-3~)
+Filename: ./grub-efi-amd64-unsigned_2.14-2_amd64.deb
+Size: 1417660
+MD5sum: fc345a8141ca85ede502c20388a3a8f1
+SHA1: 837986ab4b721c97a46b8e81b4cd9ce73a435b3f
+SHA256: 65cfd680271c19bebaa9c4fa905570fdf2e4d20d7bed0d3916082da2aa033e1b
+SHA512: 1c9d1a760ab33ff195be6b1810fd4c383be63efba3e288e3ab00d48535044ee45cdb121163dafeba10c4b7e31cfec20a18516cb34cb998aaaa2e2db7388f6eb6
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 images)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB images that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-efi-amd64
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 142
+Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.14-2), grub2-common (= 2.14-2), ucf
+Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Replaces: grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.14-2)
+Filename: ./grub-efi-amd64_2.14-2_amd64.deb
+Size: 42852
+MD5sum: d0d344053daaa0b85bb2a383a13eddda
+SHA1: e1c92d28ae468f59adb0c2bf30435c6e4475f2f0
+SHA256: 307596502056cc59d1b1e712f2b7091386de732079bc0b676dcf520e72fdf406
+SHA512: 5059de5d07babdf6ac4aab5834cb51af2a85184a82930f737ff3b710b62ff87aaf11cde799eccc4530e427b9d7801ac268ee3de6609a506c4afb966fb4529116
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS
+ interface has been activated).  Installing this package indicates that this
+ version of GRUB should be the active boot loader.
+
+Package: grub-efi
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12
+Depends: grub2-common (= 2.14-2), grub-efi-amd64 (= 2.14-2)
+Filename: ./grub-efi_2.14-2_amd64.deb
+Size: 2380
+MD5sum: 474b03cfae604d2963b519c5f682934d
+SHA1: 340b5fb0bfa2674d57ddf3c140079d2246b6c3e7
+SHA256: 50af5254f3b808bb81fb1d7b28fd446fd1d8ff284e28e2e6432bb752508fa805
+SHA512: d785dc176782d0969f85305cbbbdce5465f4fb11ec6b6afe29f63fae81f34fcac605d6c76c9668c07380d49882cb079e1f9d5754b844055b0b94a9756c69d6be
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
+Package: grub-pc-bin
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 3814
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub2-common (= 2.14-2)
+Suggests: desktop-base
+Replaces: grub2 (<< 2.14-2)
+Filename: ./grub-pc-bin_2.14-2_amd64.deb
+Size: 1236280
+MD5sum: e1335ad204aebf62f027a765831904fe
+SHA1: 4fae34fa8149e2539b9108a6ed4fa32e2d1074a4
+SHA256: 8bf3969ac84d413bfbcf290d96298b2540a0d853594bc0cec12949a502d25b00
+SHA512: 24a6398a120410cf5cff63158c465a0532e9958f6adb9b2378030ef6928738665bfbbe484ada9be48afb6291dbf4caab81bee527d35b81869252ec43d51c100a
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains GRUB modules that have been built for use with the
+ traditional PC/BIOS architecture.  It can be installed in parallel with
+ other flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-pc is also
+ installed.
+
+Package: grub2-common
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 22401
+Provides: grub-common (= 2.14-2)
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libefiboot1t64 (>= 39), libefivar1t64 (>= 39), libfreetype6 (>= 2.2.1), libfuse3-4 (>= 3.17.2), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober
+Suggests: multiboot-doc, grub-emu, mtools, xorriso, desktop-base, console-setup
+Breaks: grub-common (<< 2.14~), grub-legacy (<< 0.97-83~)
+Replaces: grub, grub-common, grub-legacy
+Filename: ./grub2-common_2.14-2_amd64.deb
+Size: 3597244
+MD5sum: 8765d1403dc635ee654bcdca375edf96
+SHA1: a76836e5cf71a1324725e7d742b5dc1270b385e7
+SHA256: fc318972eacb320ce77e3db49c54a48dc5641bee2a07e8cbb9b29b14a881ec6e
+SHA512: 3ba32633b0cdf52f09d32fe18589a956de4a25fc38de28d10984d8cbb4bf28208c87bb4a8fabc8c36a95a87f315c80f918025da33090f9ec11c16537cd38346a
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files for version 2)
+ This package contains common files shared by the distinct flavours of GRUB.
+ The files in this package are specific to GRUB 2, and would break GRUB
+ Legacy if installed on the same system.
+
 Package: gsettings-desktop-schemas
 Architecture: all
 Version: 50~alpha-1
@@ -18971,6 +19246,52 @@ Description: EFL udev device manipulation
  device information the instant it becomes known to the system.
  .
  This is part of the Enlightenment Foundation Libraries (EFL).
+
+Package: libefiboot1t64
+Architecture: amd64
+Version: 39-2+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: efivar (39-2)
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 137
+Provides: libefiboot1 (= 39-2+b2)
+Depends: libc6 (>= 2.38), libefivar1t64 (>= 39)
+Breaks: libefiboot1 (<< 39-2)
+Replaces: libefiboot1
+Filename: ./libefiboot1t64_39-2+b2_amd64.deb
+Size: 44060
+MD5sum: d4770c4829fad61632ffdb104d138d2c
+SHA1: b2d63a62524afce3eff4e6eb71b62d3dfec42849
+SHA256: 14c944aaf965ae832f8af4fc5ff48fd2f2926e33308a7e964038540024723311
+SHA512: 3c850510ad4daf2eb0fc0376629f1ca2904b6e843bd45e11d9120b0c9ad8a239b6582b52fb535dde8a2e763ffdaba10df505f3e970d41879a738a6e615817668
+Homepage: https://github.com/rhboot/efivar
+Description: Library to manage UEFI variables
+ Library to allow for the manipulation of UEFI variables related to booting.
+
+Package: libefivar1t64
+Architecture: amd64
+Version: 39-2+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: efivar (39-2)
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 230
+Provides: libefivar1 (= 39-2+b2)
+Depends: libc6 (>= 2.38)
+Breaks: libefivar1 (<< 39-2)
+Replaces: libefivar1
+Filename: ./libefivar1t64_39-2+b2_amd64.deb
+Size: 60500
+MD5sum: 1493266556fa6da82c38ea478e4acd29
+SHA1: 2b97385f97bb2e18836d0beac40041c26db368b1
+SHA256: 805590194b2c623da20d3225fffc74ffb1808b8a8aef4cf23910127059d1ba32
+SHA512: de3674175d13be3ff32d8c9ed53b896a994657593754083ed3198b357fb5282c5eba7eaf00894b78be6a1436a439b74511c5ed594b1f827dd3197e7798c3093d
+Homepage: https://github.com/rhboot/efivar
+Description: Library to manage UEFI variables
+ Library to allow for the simple manipulation of UEFI variables.
 
 Package: libefreet-bin
 Architecture: amd64
@@ -54956,6 +55277,31 @@ Description: easy MATE menu editing tool
  menu specification and should work with any desktop environment
  that uses the spec.
 
+Package: mtools
+Architecture: amd64
+Version: 4.0.49-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Chris Hofstaedtler <zeha@debian.org>
+Installed-Size: 400
+Depends: libc6 (>= 2.38), libc-gconv-modules-extra | libc6 (<< 2.42-1~)
+Suggests: floppyd
+Filename: ./mtools_4.0.49-1_amd64.deb
+Size: 199024
+MD5sum: 24481694bd49ce0671e85f34f998a4ff
+SHA1: 04ce0a36058a2e2f35bbb01a9b7d708e61f10021
+SHA256: 81af1fd07a8c966afb50d24d1ef6edeadbc0cc6650b4e75df1c77aea0a0219bf
+SHA512: 9c3b1d463d9036256a85d0e747bbce359de85089d2f96ef7cb391f33a5db63c73630c2ad504f1ca326f96bb3572a4a5d14eb62790bcfb357a03aa66bbede1237
+Homepage: https://www.gnu.org/software/mtools/
+Description: Tools for manipulating MSDOS files
+ Mtools is a collection of utilities to access MS-DOS disks from Unix without
+ mounting them. It supports Win'95 style long file names, OS/2 Xdf disks,
+ ZIP/JAZ disks and 2m disks (store up to 1992kB on a high density 3 1/2 disk).
+ .
+ Also included in this package are commands to eject and manipulate the
+ write/password protection control of Zip disks.
+
 Package: muffin-common
 Architecture: all
 Version: 6.6.3-1
@@ -55765,6 +56111,24 @@ Description: Scriptable screen reader
  and key bindings, and the application specific ones. Orca provides the
  infrastructure to activate and deactivate scripts, as well as a host of
  services accessible from within the scripts.
+
+Package: os-prober
+Architecture: amd64
+Version: 1.84
+Priority: optional
+Section: utils
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 98
+Depends: libc6 (>= 2.34), grub-common, mount
+Filename: ./os-prober_1.84_amd64.deb
+Size: 18472
+MD5sum: 67346bdc334a588c6009c1e71eda2609
+SHA1: dd1319e958b0a0ccb3fb4b04f8ea349625862efd
+SHA256: b61f323a0b2541f6348c068af6b1021c406f1314676b4386df93be9d91ab631f
+SHA512: d7b0257ade0cf8100346a1a0a8f4d4d37a3ff7606252103f3942852027c213a3ebf3237776c2540f1f22fed8fc1266d2a8bc8e0a2724d3118161448c9add2ea3
+Description: utility to detect other OSes on a set of drives
+ This package detects other OSes available on a system and outputs the
+ results in a generic machine-readable format.
 
 Package: osinfo-db
 Architecture: all
