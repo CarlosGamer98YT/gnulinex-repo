@@ -1,0 +1,161 @@
+name: Actualizar Repositorio APT (Debian)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.deb'
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    container: debian:forky
+    permissions:
+      contents: write
+      packages: write
+
+    steps:
+      - name: Instalar dependencias en Debian
+        run: |
+          apt-get update 
+          apt-get install -y --no-install-recommends git dpkg-dev apt-utils gnupg ca-certificates curl gh
+
+      - name: Configurar Git
+        run: git config --global --add safe.directory '*'
+
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Sincronizar paquetes desde Debian Forky
+        shell: bash
+        run: |
+          mkdir -p main/gnulinex-trixie/amd64
+          cd main/gnulinex-trixie/amd64
+          
+          UPDATED="false"
+          
+          if ls *.deb 1> /dev/null 2>&1; then
+            for deb in *.deb; do
+              if [ ! -f "$deb" ]; then continue; fi
+              
+              PKG_NAME="${deb%%_*}"
+              REST="${deb#*_}"
+              LOCAL_VER="${REST%%_*}"
+              LOCAL_VER="${LOCAL_VER//%3a/:}"
+              
+              REMOTE_VER=$(apt-cache policy "$PKG_NAME" | awk '/Candidate:/ {print $2}')
+              
+              if [ -z "$REMOTE_VER" ] || [ "$REMOTE_VER" = "(none)" ]; then
+                continue
+              fi
+              
+              if dpkg --compare-versions "$REMOTE_VER" gt "$LOCAL_VER"; then
+                echo "-> Actualizando $PKG_NAME: $LOCAL_VER -> $REMOTE_VER..."
+                mkdir -p tmp_dl
+                cd tmp_dl
+                
+                if apt-get download "$PKG_NAME" 2>/dev/null; then
+                  NUEVO_DEB=$(ls *.deb 2>/dev/null | head -n 1)
+                  cd ..
+                  
+                  if [ -n "$NUEVO_DEB" ]; then
+                    rm -f "${PKG_NAME}_"*.deb
+                    mv "tmp_dl/$NUEVO_DEB" .
+                    UPDATED="true"
+                  fi
+                else
+                  cd ..
+                fi
+                rm -rf tmp_dl
+              fi
+            done
+          else
+            echo "No hay paquetes .deb para procesar localmente, pero el workflow sigue vivo."
+          fi
+          
+          echo "UPDATED=$UPDATED" >> "$GITHUB_ENV"
+
+      - name: Generar Packages.gz con redirección para archivos gigantes
+        if: env.UPDATED == 'true' || github.event_name != 'schedule'
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+          GH_TOKEN: ${{ secrets.GGITHUB_TOKEN }}
+        run: |
+          set -e
+          find . -maxdepth 10 -type f -name "*.deb" -exec dirname {} + | sort -u | while read dir; do
+            echo "Procesando: $dir"
+            cd "$dir"
+            
+            echo 'APT::FTPArchive::Release::Origin "GnuLinex";' > apt-release.conf
+            echo 'APT::FTPArchive::Release::Label "GnuLinex Repository";' >> apt-release.conf
+            echo 'APT::FTPArchive::Release::Suite "stable";' >> apt-release.conf
+            echo 'APT::FTPArchive::Release::Codename "forky";' >> apt-release.conf
+            echo 'APT::FTPArchive::Release::Architectures "amd64 all";' >> apt-release.conf
+            echo 'APT::FTPArchive::Release::Components "main";' >> apt-release.conf
+
+            rm -f Packages Packages.gz Release Release.gpg InRelease
+
+            # 1. Generar el índice con TODOS los archivos físicos (calcula hashes y tamaños)
+            apt-ftparchive packages . > Packages
+            
+            # 2. Interceptar y redirigir los archivos > 95MB a GitHub Releases
+            find . -type f -name "*.deb" -size +95M | while read -r large_file; do
+              filename=$(basename "$large_file")
+              echo ">>> Detectado archivo gigante: $filename"
+              
+              gh release upload "paquetes-grandes" "$large_file" --clobber
+              download_url="https://github.com/${{ github.repository }}/releases/download/paquetes-grandes/$filename"
+              
+              # Modificar la ruta en el archivo Packages
+              sed -i "s|Filename: .*/$filename|Filename: $download_url|" Packages
+              
+              echo ">>> Eliminando $filename localmente."
+              rm "$large_file"
+            done
+
+            # 3. Comprimir el índice modificado
+            gzip -9c Packages > Packages.gz
+            
+            # 4. Generar el Release
+            apt-ftparchive -c apt-release.conf release . > Release
+            
+            if [ -n "$GPG_PRIVATE_KEY" ] && [ -n "$GPG_KEY_ID" ]; then
+              echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+              gpg --batch --yes --local-user "$GPG_KEY_ID" -abs -o Release.gpg Release
+              gpg --batch --yes --local-user "$GPG_KEY_ID" --clearsign -o InRelease Release
+            fi
+            
+            # index.html simple
+            echo "<html><body><h1>Indice de $dir</h1><pre>" > index.html
+            for f in *.deb; do
+              echo "<a href=\"$f\">$f</a>" >> index.html
+            done
+            echo "</pre></body></html>" >> index.html
+            
+            rm -f apt-release.conf
+            cd - > /dev/null
+          done
+
+      - name: Guardar y subir cambios
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git lfs uninstall || true
+          rm -f .gitattributes
+          
+          git add --all
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Auto-update: Paquetes e indices (Archivos grandes en Releases)"
+            git push
+          else
+            echo "Nada que subir."
+          fi

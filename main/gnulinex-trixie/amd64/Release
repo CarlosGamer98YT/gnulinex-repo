@@ -1,0 +1,23 @@
+Architectures: amd64 all
+Codename: forky
+Components: main
+Date: Thu, 07 May 2026 07:59:26 +0000
+Label: GnuLinex Repository
+Origin: GnuLinex
+Suite: stable
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Packages
+ 7bdf5624814adadfe8769044212e48f8               29 Packages.gz
+ fd3331d76bf86d2bbcca26c3bc28db45              154 Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages
+ 9c104fa4898a0f9bee36cfa46ad5c3bcf06b2b61               29 Packages.gz
+ d06108d0112f78db77a1d849317d1a399b5e7301              154 Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages
+ 7611e3011fc13ec5335dff81614b6836f6a7b491ae545895db1823603946d6bd               29 Packages.gz
+ 06b93f0f2558aab0d9fa214e57122e5324986f1f1bc81616fa895b5af740fbd8              154 Release
+SHA512:
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Packages
+ 4e13ff8b1e58e31bc8b5a42eb61954492be29a8ca83d2abdc3dfafb55fe23bba32d78c126824b365619287c51ef06edb636bdfd0aa679bd78fda300e571ee6c2               29 Packages.gz
+ c4dc07876b1786a93a8971951b325b614df2e039e0469cd2cb1cca0ff7511e79e04c6646a89408c1db7005c19ae736a6b8d01f95d971b770506ce26f1197ff9a              154 Release
