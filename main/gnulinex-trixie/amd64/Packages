@@ -8181,21 +8181,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.2-1
+Version: 1.28.2-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 645
-Provides: gir1.2-cudagst-1.0 (= 1.28.2-1), gir1.2-gstanalytics-1.0 (= 1.28.2-1), gir1.2-gstbadaudio-1.0 (= 1.28.2-1), gir1.2-gstcodecparsers-1.0 (= 1.28.2-1), gir1.2-gstcodecs-1.0 (= 1.28.2-1), gir1.2-gstcuda-1.0 (= 1.28.2-1), gir1.2-gstdxva-1.0 (= 1.28.2-1), gir1.2-gsthip-1.0 (= 1.28.2-1), gir1.2-gsthipgl-1.0 (= 1.28.2-1), gir1.2-gstinsertbin-1.0 (= 1.28.2-1), gir1.2-gstmpegts-1.0 (= 1.28.2-1), gir1.2-gstmse-1.0 (= 1.28.2-1), gir1.2-gstplay-1.0 (= 1.28.2-1), gir1.2-gstplayer-1.0 (= 1.28.2-1), gir1.2-gsttranscoder-1.0 (= 1.28.2-1), gir1.2-gstva-1.0 (= 1.28.2-1), gir1.2-gstwebrtc-1.0 (= 1.28.2-1)
+Provides: gir1.2-cudagst-1.0 (= 1.28.2-2), gir1.2-gstanalytics-1.0 (= 1.28.2-2), gir1.2-gstbadaudio-1.0 (= 1.28.2-2), gir1.2-gstcodecparsers-1.0 (= 1.28.2-2), gir1.2-gstcodecs-1.0 (= 1.28.2-2), gir1.2-gstcuda-1.0 (= 1.28.2-2), gir1.2-gstdxva-1.0 (= 1.28.2-2), gir1.2-gsthip-1.0 (= 1.28.2-2), gir1.2-gsthipgl-1.0 (= 1.28.2-2), gir1.2-gstinsertbin-1.0 (= 1.28.2-2), gir1.2-gstmpegts-1.0 (= 1.28.2-2), gir1.2-gstmse-1.0 (= 1.28.2-2), gir1.2-gstplay-1.0 (= 1.28.2-2), gir1.2-gstplayer-1.0 (= 1.28.2-2), gir1.2-gsttranscoder-1.0 (= 1.28.2-2), gir1.2-gstva-1.0 (= 1.28.2-2), gir1.2-gstwebrtc-1.0 (= 1.28.2-2)
 Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.0), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.0), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.2)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.2-1_amd64.deb
-Size: 238488
-MD5sum: f677ee73e38da43984a0c183ff69e2a4
-SHA1: 60acd5b3b1841fe531a3d97df1f90ed8597ba0de
-SHA256: 7cb0b6b9e85f00d91198bc0ee8e0cd5c9bb1f981f707e09cdf7b985b4ceff343
-SHA512: 5b71132f410f7c209fcec2cd9189e1fdc9255241d3d9c9da0904dbbec43139191969c485b441b021fb97f74b4e867e74287bf3dcc64b7d7e6250a48e77790920
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.2-2_amd64.deb
+Size: 238572
+MD5sum: a2eecd482bb3a4b7fb1e190f99a9676b
+SHA1: 43de7f14ea9c892e3544d48f05b2131180134ee8
+SHA256: 2580eb5c32cbfc30bb26a1d92e92b8ff1f9a1f59256e45a5fe7fefabe0b53e5b
+SHA512: 7f152780adf1a65c1752fec2c1053c0473e21d0097f5e7c4111b1210c6ed5be42931c0a6ea468007fdb53a6e25fad0af887023548de778520d9a2152cd86fc2d
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12325,7 +12325,7 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.2-1
+Version: 1.28.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -12333,17 +12333,17 @@ Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 12025
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.2-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.63.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.2-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.63.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.2-1_amd64.deb
-Size: 3354696
-MD5sum: 68c732ffb09a9eaa7b28e827be683708
-SHA1: a42cbbb64006d4b753bc7dcc9c74974a74bf2070
-SHA256: ae425a582d8681e23779f1fd75213490a23af251ff9cac3919a6e6aa583f4749
-SHA512: cfb593da89d76f2f38557a6cc4e340b189a46d720e611a4c998ea9711941ad2595f5ae9e3a34d93412d0a8a4edc059dd9a510851ffb65ace1162dcb5e8df36ec
+Filename: ./gstreamer1.0-plugins-bad_1.28.2-2_amd64.deb
+Size: 3355472
+MD5sum: e4aaf3ad654c15352dab989bf7b5289d
+SHA1: 68face8c4bf2a4fca25b9a8b4f3f64a45c444cf2
+SHA256: e2a9aeec8ae4415c040fdf31f88cbb5de9462c40fb039a6821330a8c2d06e02a
+SHA512: ec3efc5faa72984e94b4cff4d88e2c2574ad5b9e237607ff56f21bd2797b0be0994c06c3f14a0c806ba1ee1ffa5c02121d6c279facf86de44be58922188236c5
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -14404,21 +14404,21 @@ Description: data files for kirigami-addons
 
 Package: kitty-doc
 Architecture: all
-Version: 0.46.1-1
-Built-Using: sphinx (= 8.2.3-12)
+Version: 0.46.2-1
+Built-Using: sphinx (= 9.1.0-2)
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 17246
-Depends: libjs-sphinxdoc (>= 8.2)
-Filename: ./kitty-doc_0.46.1-1_all.deb
-Size: 3075376
-MD5sum: 1e997549cc0ed9f5813d096840a6cca2
-SHA1: 32023c90706dcead19aae68c65ac505f42a84e9f
-SHA256: 995e721fdf1fe58c0efc67bb2f7d555bc19711e6958bf62506c90dc15d81da8b
-SHA512: ad13c9695df351e5da720b069ffd0a1783aa98c7296585121879e28b3208c81f775b1d6eaa702b99e55ec70215f087724410f1725b16606c9c4ac809b1111a75
+Installed-Size: 17281
+Depends: libjs-sphinxdoc (>= 9.0)
+Filename: ./kitty-doc_0.46.2-1_all.deb
+Size: 3076976
+MD5sum: 5b51e750c77e50b96c891bd1e523529f
+SHA1: d09038d35befbb53322c2ef68445fa77f095d822
+SHA256: 05c346002edb2b02c720fa481d4deb40a61cea69001290dfc87c738d6f33f0cd
+SHA512: 075a5a1166fe2a8bb5f8af3ab42370efd286e6a9406787d8765fabb6e246963df9675b7bfadf3ee1a0de6762fd9fa4b4ed164fb4220253403969c655f794cee0
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (documentation)
  This package contains the AsciiDoc/HTML documentation for the kitty terminal
@@ -14426,19 +14426,19 @@ Description: fast, featureful, GPU based terminal emulator (documentation)
 
 Package: kitty-shell-integration
 Architecture: all
-Version: 0.46.1-1
+Version: 0.46.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 214
-Filename: ./kitty-shell-integration_0.46.1-1_all.deb
-Size: 104676
-MD5sum: b8a82f97b24aabf8c5dc1dc81268dd38
-SHA1: 8eac95b14fa7195bfc111874fba144303be0da3f
-SHA256: 3c06d27307cb085dc685d1178584195e038f2bc829d9f32eadf0152156e02317
-SHA512: a0e5e5e844ee481fba8c0dc4a0b9c6ee7ebf0c10ec58335f6e102d69bb23a9fdbad572e3ea13e718b6f5be7a6e9e29b91ddc6d26f9924ad3d366fff2a772073b
+Installed-Size: 215
+Filename: ./kitty-shell-integration_0.46.2-1_all.deb
+Size: 104968
+MD5sum: 2220839fdce2eb2b01776c8144335cef
+SHA1: 8dee91ac212fb1a1c2bfd1d69a72f1b487651739
+SHA256: 4f4b39f4a19c706281bc40932539acfc4d30d0e5daa1bc5d5db9d8934a8ac96e
+SHA512: 99e4c3d18af382d950b2457c70c2537a9ed6b304c660c7f4bb6fb98dc3862436913b53d84615aec498aadf2a9a982a3cef63350582cbdbe061c7df39831baaa5
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (shell integration files)
  This package provides Kitty's shell-integration files so that it can easily
@@ -14446,19 +14446,19 @@ Description: fast, featureful, GPU based terminal emulator (shell integration fi
 
 Package: kitty-terminfo
 Architecture: all
-Version: 0.46.1-1
+Version: 0.46.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 114
-Filename: ./kitty-terminfo_0.46.1-1_all.deb
-Size: 83764
-MD5sum: 6b2e0c5b9b8b7ef7894cf5a4ecf08e1d
-SHA1: 21e4f203f023559f357e10580cce18a69177db7c
-SHA256: 9197f7060ff0e0092cc95b502a4c86fa0861bdf2f703fcd8c025dd46ed89ceff
-SHA512: 5228849366e696e809b443345e3e47e8f446317c384151ad930ee659dd5420c0065826d13541951a62a1d0bcae1adefaf037e7304aef0887c2cea19ac5d5269c
+Installed-Size: 115
+Filename: ./kitty-terminfo_0.46.2-1_all.deb
+Size: 84072
+MD5sum: 826f159070f9ccbe3bf2b9ef563bd518
+SHA1: 84ddc72d9931007f4951e9b0a70507c266fd94f5
+SHA256: fd95f2118cd974ebd0752395c7d54ef11d75afde4c5fe24fe14d26fe93b6b1c6
+SHA512: b6ca732a4e60c30d7b0b55bad23a46502b201302ee31d8857f840a2095beb9d5b43076db921893fa64cd46067abcf9df48f079c0bde7f1172e24a2aff90c3b4a
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (terminfo file)
  This package provides the xterm-kitty terminfo definition for the kitty
@@ -14466,23 +14466,22 @@ Description: fast, featureful, GPU based terminal emulator (terminfo file)
 
 Package: kitty
 Architecture: amd64
-Version: 0.46.1-1+b1
-Built-Using: golang-1.26 (= 1.26.2-1), golang-github-alecthomas-chroma-v2 (= 2.23.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.1+ds1-1), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.2-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.25.2-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20250911.df92998-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
+Version: 0.46.2-1
+Built-Using: golang-1.26 (= 1.26.2-3), golang-github-alecthomas-chroma-v2 (= 2.23.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.1+ds1-1), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.2-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.25.2-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20250911.df92998-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
 Priority: optional
 Section: x11
-Source: kitty (0.46.1-1)
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 31385
+Installed-Size: 31391
 Provides: x-terminal-emulator
 Depends: kitty-shell-integration, kitty-terminfo, python3 (<< 3.14), python3 (>= 3.13~), python3.13, python3:any, libc6 (>= 2.38), libcairo2 (>= 1.17.8), libdbus-1-3 (>= 1.12), libfreetype6 (>= 2.11.0), libharfbuzz0b (>= 1.6.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.46), libpython3.13 (>= 3.13.0~rc3), libssl3t64 (>= 3.0.0), libwayland-client0 (>= 1.20.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcursor1 (>> 1.1.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.1.4)
 Recommends: kitty-doc, libcanberra0
 Suggests: imagemagick, fonts-noto-color-emoji
-Filename: ./kitty_0.46.1-1+b1_amd64.deb
-Size: 9437036
-MD5sum: d4162467ed56f0644bd9e75258f24b68
-SHA1: 83ece3ea22a990e46827bc6f9fc4f51eebcec8f9
-SHA256: dd4ddaa467eeacdebd72d42e058a9ea2046cfd6a4f24ff968ad583eae78aba96
-SHA512: 996b4c8a122751c756c9ad9d8cfef708f7cce855ce0aa1721f4436a63f22d4440b6b846fadf9d5cd0f3f778f6032acac98ea7c243def5142590c07c01739dc35
+Filename: ./kitty_0.46.2-1_amd64.deb
+Size: 9431068
+MD5sum: f802aedeaab75343eb8038e2e5f9f8e2
+SHA1: 0321eb7252c8b18bd06f5f7393da31c545fe6d62
+SHA256: 20d126b68670d51a19e5f434e09ff191e92f8f556ca8b3e90ab84575eedcad4d
+SHA512: 995f1e881c1d9ea29f47f79016319e2df1f9abc2ac488b3be7166614ccbbeb173963cf105c44720a77adac3a486f39fa57c73e9168150cd4c81d1a7fbc83391c
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator
  Kitty supports modern terminal features like: graphics, unicode,
@@ -24076,40 +24075,6 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: gst-plugins-bad1.0
-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3087
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
-Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.2-1_amd64.deb
-Size: 982652
-MD5sum: eb6f5d3c7cbb411df27cc512739830ba
-SHA1: 23a054ad7e324cb36f782ba7025eed7c40025e1e
-SHA256: 9ab4179a3ccc6be5722223db7faabd9b991bf4bda1ee6abcbb20b72ba720fbdf
-SHA512: 2bef420af6c604619ee0808b4930a8ce92f3a7b563a0848f62c80d163c9740d9928ecd6b89b0f3c598e8582990b21afe30574bc2d0a3a7882fc3bd1433d356e8
-Homepage: https://gstreamer.freedesktop.org
-Description: GStreamer libraries from the "bad" set
- GStreamer is a streaming media framework, based on graphs of filters
- which operate on media data.  Applications using this library can do
- anything from real-time sound processing to playing videos, and just
- about anything else media-related.  Its plugin-based architecture means
- that new data types or processing capabilities can be added simply by
- installing new plug-ins.
- .
- GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
- to the rest. They might be close to being good quality, but they're missing
- something - be it a good code review, some documentation, a set of tests, a
- real live maintainer, or some actual wide use.
- .
- This package contains shared GStreamer libraries from the "bad" set. The API
- is not guaranteed to be stable.
-
-Package: libgstreamer-plugins-bad1.0-0
-Architecture: amd64
 Version: 1.28.2-2
 Multi-Arch: same
 Priority: optional
@@ -26045,28 +26010,6 @@ Description: JavaScript display engine for LaTeX and MathML
  mathematics and be confident that users will be able to view it naturally and
  easily. Simply include MathJax and some mathematics in a web page, and MathJax
  will do the rest.
-
-Package: libjs-sphinxdoc
-Architecture: all
-Version: 8.2.3-12
-Multi-Arch: foreign
-Priority: optional
-Section: javascript
-Source: sphinx
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 83
-Filename: ./libjs-sphinxdoc_8.2.3-12_all.deb
-Size: 27884
-MD5sum: f2a56cf2bad5114d570dcfd06135574e
-SHA1: 78f0399acfa0ee0903e65ee33c19feb7bffa067c
-SHA256: 17685efbb42b0d1f5e189fbd00ad2160ec1160d5371679ec432769d1d95faf02
-SHA512: 725457f02c736d1e6f66f4dfcec5f3abc8bebc715fe980ae32a4532e0dc02203aaced72febcadd65cde8b2a4ab71168c4179354e11afb24649a718d6981b512c
-Homepage: https://www.sphinx-doc.org/
-Description: JavaScript support for Sphinx documentation
- Sphinx is a tool for producing documentation for Python projects, using
- reStructuredText as markup language.
- .
- This package provides JavaScript code for documentation generated by Sphinx.
 
 Package: libjs-sphinxdoc
 Architecture: all
@@ -49048,7 +48991,7 @@ Description: UDF reader library
 
 Package: libudis86-0
 Architecture: amd64
-Version: 1.7.2+git20221013.5336633-1
+Version: 1.7.2+git20221013.5336633-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -49056,12 +48999,12 @@ Source: udis86
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
 Installed-Size: 967
 Depends: libc6 (>= 2.4)
-Filename: ./libudis86-0_1.7.2+git20221013.5336633-1_amd64.deb
-Size: 46468
-MD5sum: c13db038ff862a47bc8908632b6de633
-SHA1: ba57ba6a7078bfe8736a24788f7cb17c14627653
-SHA256: b3ce84619df4a6b2edcf84cff2bd205d166f149d05cea6506e6ba164a7b53b8f
-SHA512: 94b164ac4030bf95036041858a3df73078de035096ea19218f621801f9787766e5a69dd30e6f512e66bea54eb7b60aadf081e6d3fafcbda890e991a6ea959b27
+Filename: ./libudis86-0_1.7.2+git20221013.5336633-2_amd64.deb
+Size: 46740
+MD5sum: 072de76e51ad84003b3fdb4cbaa6e6ad
+SHA1: bf321f8c872b24111250aa765377fe46d041ddc8
+SHA256: bd04181e2771bb801ca4f45dda44230cf989b5a4dd5200cd50e12226406d5ee1
+SHA512: d2b9fdd0b91211351049c83dadba30b86f006e4bbbe143f2bd4d8d9eda4b01e7d0ee5b10788d111894e3e07b597ff511a89df69620bed4689e0d0c0bed145674
 Homepage: https://github.com/canihavesomecoffee/udis86
 Description: Disassembler for x86 and x86-64 class ISA (library)
  Udis86 is a disassembler for the x86 and x86-64 class of instruction
