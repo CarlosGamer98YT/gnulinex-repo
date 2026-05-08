@@ -11859,6 +11859,81 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
  interface has been activated).  Installing this package indicates that this
  version of GRUB should be the active boot loader.
 
+Package: grub-efi-ia32-bin
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 2659
+Depends: grub2-common (= 2.14-2), grub-efi-ia32-unsigned
+Recommends: efibootmgr
+Breaks: grub-efi-ia32-signed (<< 1+2.12~rc1)
+Replaces: grub-efi, grub2 (<< 2.14-2)
+Filename: ./grub-efi-ia32-bin_2.14-2_amd64.deb
+Size: 828868
+MD5sum: a261a49389c550cbb6831c1f979269c9
+SHA1: 0d9fb3029c2fa22b3d8d942f49687b7a48ba35a7
+SHA256: d4aa53971d76d25a8147e763935a95c0cd86e9e24f1512cac1b80c65d6425443
+SHA512: 142349b9892948ef98482d36d8c3a0abb57c432fe1a6b5344ef8872eb218a533d7b1ec5818450a22ba64cb39ac2e98a9e0b5e5a48e126a9d2e7892f6f5d5f564
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-efi-ia32-unsigned
+Architecture: amd64
+Version: 2.14-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 7903
+Depends: grub2-common (= 2.14-2)
+Breaks: grub-efi-ia32-bin (<< 2.12-3~)
+Replaces: grub-efi-ia32-bin (<< 2.12-3~)
+Filename: ./grub-efi-ia32-unsigned_2.14-2_amd64.deb
+Size: 1364840
+MD5sum: 467805dc6bf5e8e1d93696b9bc469b25
+SHA1: 09c2d9eb0027760da3b80a9acb47ccc0546688ac
+SHA256: 5dfa007c2f4cdf36b42901daa3799c2f9dcdb4c030103f33e0a4710b1ba1e330
+SHA512: 0327764173aad22a9d2d3900adee0b096d64256a8e18c14ed45063eb4ac5dea470dae8c16ff49c71122f5cf006a83a188a06bdba021458ee1ba496ffb7a44ddd
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 images)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB images that have been built for use with the
+ EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
+ installed.
+Efi-Vendor: debian
+
 Package: grub-efi
 Architecture: amd64
 Version: 2.14-2
