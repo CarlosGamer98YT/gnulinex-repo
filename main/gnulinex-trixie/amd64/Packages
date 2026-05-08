@@ -2818,7 +2818,7 @@ Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
 Installed-Size: 403117
 Conflicts: enlightenment-data
 Enhances: enlightenment
-Filename: ./enlightenment-data_0.27.1-2_all.deb
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
 Size: 400653372
 MD5sum: 1eca4262b66d69f7496f7f5886340caa
 SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
@@ -6482,18 +6482,18 @@ Description: Free patch set for MIDI audio synthesis
 
 Package: galculator
 Architecture: amd64
-Version: 2.1.4-2
+Version: 2.1.4-2.1
 Priority: optional
 Section: math
 Maintainer: Dmitry Smirnov <onlyjob@debian.org>
 Installed-Size: 1474
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.16.0), libgtk-3-0t64 (>= 3.3.16), libpango-1.0-0 (>= 1.14.0), libquadmath0 (>= 4.6)
-Filename: ./galculator_2.1.4-2_amd64.deb
-Size: 170720
-MD5sum: 26905e7854208119e6ad63081313c68e
-SHA1: 89c693413d0782a5e6741e6abd9740d09bce1a8b
-SHA256: bd80f82dd1f505c23efb2be6e8810e5b4e2791d71a1dbd758a87ef7ab0fa9122
-SHA512: 2a6c9188e1ef4888155177682a3b053daa51110a057a84406fd2eff9ad227757c049c23839e4225847ee732d65517890af874447aeaa4df62996f4c2731b29c7
+Filename: ./galculator_2.1.4-2.1_amd64.deb
+Size: 170220
+MD5sum: 6bda3d61ba711077d9f3c550fa16e431
+SHA1: a03546c177b08a109dc0e181ccb230a32d16bb0f
+SHA256: 5db48b58542995cde8205bbf44b4ffa5ce2d678aa281db9ccd80e7d6304f3051
+SHA512: 33d97c798daede045838fa8c6ef4f064ec63523d45101160777b7b0852cfbf8f379e994d4129ca8b32afbbdd2e5756aec93691c89350f48029d8861c8177b442
 Homepage: http://galculator.mnim.org/
 Description: scientific calculator
  galculator is a scientific calculator. It supports different number
@@ -11532,20 +11532,20 @@ Description: desktop note taking program using Wiki style links
 
 Package: gnuplot-data
 Architecture: all
-Version: 6.0.2+dfsg1-1
+Version: 6.0.3+dfsg1-1
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: gnuplot
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 378
+Installed-Size: 379
 Depends: aglfn
-Filename: ./gnuplot-data_6.0.2+dfsg1-1_all.deb
-Size: 72408
-MD5sum: ecfafc7be8fda9ee3909b0a7659cefea
-SHA1: 535a41cd819946d56fa753057d2d372040536b37
-SHA256: 0ae0197e66f9305bac50e14c66c4e3dfe6c89677e8a6ccbce7d4c70cc29580bc
-SHA512: 928d58b5dd2bbc5246a35666fdd2e30c2987f4a1b865d66ac4215ff27458bc7db44a690566926b99835e08486b7c62e6eec0d4af4e0f6e45b0dc9e20ed0262a7
+Filename: ./gnuplot-data_6.0.3+dfsg1-1_all.deb
+Size: 72952
+MD5sum: a5d2dbb57f08224739573b76a477e31a
+SHA1: 10173b3999a3f6a95f1b50781570052c619ded51
+SHA256: a63df2236b1a4bdf1f5fdef8d94622cae1f5271bb4fd8cdcc00d784454ccc7cd
+SHA512: 54f3cd3c84967492c5241df580d54d642bd0a71ec82d0b996aa11d25256f71ac2456f959568447059fde0af853400f5a3872922911e462f0680b4007f9e1f44d
 Homepage: https://gnuplot.sourceforge.net/
 Description: Command-line driven interactive plotting program. Data-files
  Gnuplot is a portable command-line driven interactive data and function
@@ -11561,23 +11561,23 @@ Description: Command-line driven interactive plotting program. Data-files
 
 Package: gnuplot-x11
 Architecture: amd64
-Version: 6.0.2+dfsg1-1
+Version: 6.0.3+dfsg1-1
 Priority: optional
 Section: math
 Source: gnuplot
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 3053
+Installed-Size: 3067
 Provides: gnuplot, gnuplot-nox
-Depends: gnuplot-data (= 6.0.2+dfsg1-1), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libedit2 (>= 3.1-20140620-0), libgcc-s1 (>= 4.0), libgd3 (>= 2.1.0~alpha~), libglib2.0-0t64 (>= 2.12.0), liblua5.4-0 (>= 5.4.6), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libstdc++6 (>= 13.1), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libwxbase3.2-1t64 (>= 3.2.6+dfsg), libwxgtk3.2-1t64 (>= 3.2.6+dfsg), libx11-6
+Depends: gnuplot-data (= 6.0.3+dfsg1-1), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libedit2 (>= 3.1-20140620-0), libgcc-s1 (>= 4.0), libgd3 (>= 2.1.0~alpha~), libglib2.0-0t64 (>= 2.12.0), liblua5.4-0 (>= 5.4.6), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libstdc++6 (>= 13.1), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg), libx11-6
 Suggests: gnuplot-doc
 Conflicts: gnuplot-nox, gnuplot-qt
 Replaces: gnuplot-nox, gnuplot-qt
-Filename: ./gnuplot-x11_6.0.2+dfsg1-1_amd64.deb
-Size: 1066088
-MD5sum: 729ab553ed21764a94c86a67b71df1bb
-SHA1: 4ab65ec20e4dd8ce6e209e7fc1b6536d6db67d57
-SHA256: 387265d9899ca1516b0cfb16d0196439a61b506a4a3ccd18f071e2f31f214c2a
-SHA512: c7c6b9697a0024b2301d6317f1f606c98bae7a2af7f6c81779e761011c332c8f0f4cea2b421bdcc09b1454ee7da0c3b07b0984c849506895b502e7e133cb24f5
+Filename: ./gnuplot-x11_6.0.3+dfsg1-1_amd64.deb
+Size: 1072152
+MD5sum: 99db7e2f6660b23c6cf36230cdc2d4bf
+SHA1: 3cdda6ac7ed9a7838ce9647058c2d4a06420438b
+SHA256: 731999a1ef41321c52c7052cffea36b107f5e5c9a855398bb4b4351c71f45a6b
+SHA512: aa9a5830ec60eb97b03aa01d47fc67062688296fa3507ae7551892f9225757cf656fbdd614befa16fb6129cb2690d727af2d0f54bb666b15d396231101e67401
 Homepage: https://gnuplot.sourceforge.net/
 Description: Command-line driven interactive plotting program. X-package
  Gnuplot is a portable command-line driven interactive data and function
@@ -11974,44 +11974,6 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
 
 Package: grub-efi-ia32-bin
 Architecture: amd64
-Version: 2.12-9+deb13u1
-Multi-Arch: foreign
-Priority: optional
-Section: admin
-Source: grub2
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 2175
-Depends: grub-common (= 2.12-9+deb13u1), grub-efi-ia32-unsigned
-Recommends: efibootmgr
-Breaks: grub-efi-ia32-signed (<< 1+2.12~rc1)
-Replaces: grub-common (<= 1.97~beta2-1), grub-efi, grub-efi-ia32 (<< 1.99-1), grub2 (<< 2.12-9+deb13u1)
-Filename: ./grub-efi-ia32-bin_2.12-9+deb13u1_amd64.deb
-Size: 691328
-MD5sum: 35bcf0cff31539a7e6ae19ba40abdefa
-SHA1: 8407bc5b06f50804e5d8900721534b561311ca29
-SHA256: c89a234a3a0d66820c64c87d429cdcadefab5f2cf2f475c6e8851430f879140e
-SHA512: a8226056ca46f4c64952ea50d8e47c5e8b54b76a9c9d656d271ca18e9b51dc1a0b0264d9bb50deab09a9b658b6f6955a097551f34ba72510cd72fe56e4f436f8
-Homepage: https://www.gnu.org/software/grub/
-Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
- GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
- cleaner design than its predecessors, and provides the following new features:
- .
-  - Scripting in grub.cfg using BASH-like syntax.
-  - Support for modern partition maps such as GPT.
-  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
-    add-ons can plug in their own script rules and trigger updates by invoking
-    update-grub.
- .
- This package contains GRUB modules that have been built for use with the
- EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
- been activated).  It can be installed in parallel with other flavours, but
- will not automatically install GRUB as the active boot loader nor
- automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
- installed.
-Efi-Vendor: debian
-
-Package: grub-efi-ia32-bin
-Architecture: amd64
 Version: 2.14-2
 Multi-Arch: foreign
 Priority: optional
@@ -12041,43 +12003,6 @@ Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
     update-grub.
  .
  This package contains GRUB modules that have been built for use with the
- EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
- been activated).  It can be installed in parallel with other flavours, but
- will not automatically install GRUB as the active boot loader nor
- automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
- installed.
-Efi-Vendor: debian
-
-Package: grub-efi-ia32-unsigned
-Architecture: amd64
-Version: 2.12-9+deb13u1
-Multi-Arch: foreign
-Priority: optional
-Section: admin
-Source: grub2
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 7647
-Depends: grub-common (= 2.12-9+deb13u1)
-Breaks: grub-efi-ia32-bin (<< 2.12-3~)
-Replaces: grub-efi-ia32-bin (<< 2.12-3~)
-Filename: ./grub-efi-ia32-unsigned_2.12-9+deb13u1_amd64.deb
-Size: 1323544
-MD5sum: de93046b29d9770a02eed9342ea9248d
-SHA1: eb03b28d7afe78dd916254fd8dfac7d2765a53cf
-SHA256: 0154742857098b7b09e38aa1f522baa7c690ac680892d9915613db801e1691dc
-SHA512: b05a3bcf0c3d22493a8e3a90b2f7c5d2750198a3983fe86e45b16957fb786aab9ec256914ea3ba5f643e09a685c142bc0fe5739c7f3bd80a971ed0176063c0a1
-Homepage: https://www.gnu.org/software/grub/
-Description: GRand Unified Bootloader, version 2 (EFI-IA32 images)
- GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
- cleaner design than its predecessors, and provides the following new features:
- .
-  - Scripting in grub.cfg using BASH-like syntax.
-  - Support for modern partition maps such as GPT.
-  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
-    add-ons can plug in their own script rules and trigger updates by invoking
-    update-grub.
- .
- This package contains GRUB images that have been built for use with the
  EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
  been activated).  It can be installed in parallel with other flavours, but
  will not automatically install GRUB as the active boot loader nor
@@ -40165,7 +40090,7 @@ Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 602717
 Recommends: libreoffice-dev (= 4:26.2.3.2-2), www-browser
 Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
-Filename: ./libreoffice-dev-doc_4%3a26.2.3.2-2_all.deb
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.2.3.2-2_all.deb
 Size: 211254812
 MD5sum: ae61e72a6b96962ba0e381ecc4ceee92
 SHA1: 058b0da89d792480cd6345dd732b94af19096ffe
@@ -50075,23 +50000,23 @@ Description: library for converting fonts to WOFF 2.0
 
 Package: libwxbase3.2-1t64
 Architecture: amd64
-Version: 3.2.8+dfsg-2
+Version: 3.2.9+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wxwidgets3.2
+Source: wxwidgets3.2 (3.2.9+dfsg-1)
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 3664
-Provides: libwxbase3.2-1 (= 3.2.8+dfsg-2)
+Installed-Size: 3726
+Provides: libwxbase3.2-1 (= 3.2.9+dfsg-1+b1)
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libpcre2-32-0 (>= 10.22), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.8+dfsg-2)
+Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.9+dfsg-1)
 Replaces: libwxbase3.2-0, libwxbase3.2-1
-Filename: ./libwxbase3.2-1t64_3.2.8+dfsg-2_amd64.deb
-Size: 1040944
-MD5sum: 473121efc90feb200474b942aa5bf46e
-SHA1: 684166648714ff7bacd4ccdd160dfa71b8439fff
-SHA256: 8abe381e5855f9a2db7c424f6cc313612c5cff487f84ab13e095ce20c55bf234
-SHA512: 8112d24d8e725fbe25c9d9fc5778bfb3840ce5f3cf7f268210fdb1fbae4903475c0c5ead00f1f0a77f20e98a1da4c0b7facd4b39f8132cc065177dae4d7c3e9b
+Filename: ./libwxbase3.2-1t64_3.2.9+dfsg-1+b1_amd64.deb
+Size: 1073888
+MD5sum: a18bc9ede6e139015c3533e238843f3d
+SHA1: 0d979b073ec0ec1773bb86caa71211569b138b27
+SHA256: 2442239a500a8df568ed1b4f6b1667d4ee7ab24b098c290a4df9b494484fc176
+SHA512: 1f2babc7b648943ebc8445c7d6c67641d539afb813d4f14755d1011b4d1cea496725cebc4fd08a774b079027019fc65ccbb16ee36b7fdabc597f82a55c1fab0c
 Homepage: https://www.wxwidgets.org/
 Description: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
  wxBase is a collection of C++ classes providing basic data structures
@@ -50109,23 +50034,23 @@ Description: wxBase library (runtime) - non-GUI support classes of wxWidgets too
 
 Package: libwxgtk3.2-1t64
 Architecture: amd64
-Version: 3.2.8+dfsg-2
+Version: 3.2.9+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wxwidgets3.2
+Source: wxwidgets3.2 (3.2.9+dfsg-1)
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 18888
-Provides: libwxgtk3.2-1 (= 3.2.8+dfsg-2)
-Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5)
-Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.8+dfsg-2)
+Installed-Size: 19474
+Provides: libwxgtk3.2-1 (= 3.2.9+dfsg-1+b1)
+Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.9+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
+Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.9+dfsg-1)
 Replaces: libwxgtk3.2-0, libwxgtk3.2-1
-Filename: ./libwxgtk3.2-1t64_3.2.8+dfsg-2_amd64.deb
-Size: 4692452
-MD5sum: 03c3dcd20e9f41b7fa6e541265ef0291
-SHA1: f255ec08fc0c1a700ad54606176439902ae4c415
-SHA256: da555ed386e03e6991c18b6dfb792fda5d599064a58c427f7f7e919dbb707565
-SHA512: 16c05d49cde02ade3133ffc852be13b76544b173d3f9d18a75b0ec454f5f3ca6fe8ede1c0ae5bc67103f33472332504a9f5cb08708639c301c3a526598ebdbe5
+Filename: ./libwxgtk3.2-1t64_3.2.9+dfsg-1+b1_amd64.deb
+Size: 4884668
+MD5sum: 3fdaa28ffa581323167718d83247c1f7
+SHA1: f6c90dbfb396e688154089887d04972445a60656
+SHA256: ca10c92278b73e656c290bd8c86c49aa42fbe8b7a4b894c7ceca09521cce4582
+SHA512: 3229e48bb0572bd6062b5b4bb29ab92842c386724c66d3e9773ee19dcbbc15360faf11c2dbc239be39259d8efc281a513314995ebfe99a2fad782bf0fccdce66
 Homepage: https://www.wxwidgets.org/
 Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
  wxWidgets (formerly known as wxWindows) is a class library for C++ providing
@@ -59438,21 +59363,21 @@ Description: pathlib-compatible Zipfile object wrapper - Python 3.x
 
 Package: qalculate-gtk
 Architecture: amd64
-Version: 5.5.1-1
+Version: 5.9.0-1
 Priority: optional
 Section: math
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 7470
-Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libqalculate23 (>= 5.5.0), libstdc++6 (>= 13.1)
+Installed-Size: 7753
+Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libqalculate23 (>= 5.9.0), libstdc++6 (>= 13.1)
 Recommends: gnuplot-x11 | gnuplot-nox | gnuplot-qt
 Breaks: qalculate (<< 0.8)
 Replaces: qalculate
-Filename: ./qalculate-gtk_5.5.1-1_amd64.deb
-Size: 2618568
-MD5sum: ffd6837fab90ee2cfe3e90143fe5d4ce
-SHA1: 9e2abb8454e490fe7df5bcb373e59e895fcef449
-SHA256: 459458b6fa8fd0d402a99c272b097f3d5552d71eae6796eccc7e48dc053db551
-SHA512: 480a80de3ee51779a48beac8bcd7b1718aa0ecac9a8d905bcac2db8cf517afaac1ba699bedd2d55d7642e9872b4a787d5726cf1a86a4c1a7f4c3cf545ac0989d
+Filename: ./qalculate-gtk_5.9.0-1_amd64.deb
+Size: 2696812
+MD5sum: 68df570ef2cd19e7e9a1b4554a9243a2
+SHA1: 860a1898bc0e04e8f5b28bf6a9c51ad62c7618ca
+SHA256: 8fd9acf28347a401d03a3c0c85986e61d3d368b21d98a6be046a40c9d8a8f1d8
+SHA512: 83157c58bb8941f85b6217c3f5dc153bb1094fef349123b03dc59151778b96ff7c21fc317c0bdfe5870076682c64b8684e8a4f4c304710144817af8536bbab39
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - GTK+ version
  Qalculate! is small and simple to use but with much power and versatility
@@ -59465,21 +59390,21 @@ Description: Powerful and easy to use desktop calculator - GTK+ version
 
 Package: qalculate-qt
 Architecture: amd64
-Version: 5.5.1-1
+Version: 5.9.0.1-1
 Priority: optional
 Section: math
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 4195
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqalculate23 (>= 5.5.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1)
+Installed-Size: 4517
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqalculate23 (>= 5.9.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.7.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1)
 Recommends: gnuplot-x11 | gnuplot-nox | gnuplot-qt
 Breaks: qalculate (<< 0.8)
 Replaces: qalculate
-Filename: ./qalculate-qt_5.5.1-1_amd64.deb
-Size: 1253280
-MD5sum: 45bff2c82e5706ac0642bbe5a018657d
-SHA1: 9b581a06c8542c0a2463b254d7672e097b50be2a
-SHA256: 709e03ea24937336719c3436107c429e74bdac8dad7b9cfb0d32765ed7b2494f
-SHA512: 8934a88a492b994c8a235b9159935dc5db3d3496313793a27b0a0984be54b3f69b950fe579ec42db0cb6e3b22b74381e4a97d22c3eb235ae0bc10364a643b4be
+Filename: ./qalculate-qt_5.9.0.1-1_amd64.deb
+Size: 1326204
+MD5sum: 962faccc88a921210d3405dd16254899
+SHA1: c1dff3445912bad899fca0e6cdbbad313680d3e5
+SHA256: 21dba3d05bd3ec9ad99f4119ac83fd6ae192ef03627d7d7291a43b8b266a40d8
+SHA512: 6f0400fe0a9b7e52a81a8cf524c7dc2998bfdfc4efd7fa58c0b5b5220b05b6932eb60bc0682279a3c940d06e4ab2373afc656686006593e4063a9170be80a902
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - Qt version
  Qalculate! is small and simple to use but with much power and versatility
