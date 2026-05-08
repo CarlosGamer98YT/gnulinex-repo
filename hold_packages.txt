@@ -1,0 +1,2 @@
+grub-efi-ia32-bin_2.12-9+deb13u1_amd64.deb
+grub-efi-ia32-unsigned_2.12-9+deb13u1_amd64.deb

@@ -4,3 +4,4 @@ main/gnulinex-trixie/amd64/libreoffice-dev-doc*.deb
 main/gnulinex-trixie/amd64/enlightenment-data*.deb
 lock
 partial
+main/gnulinex-trixie/amd64/generar_repo.sh

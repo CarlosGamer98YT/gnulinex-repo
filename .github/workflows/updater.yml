@@ -55,6 +55,11 @@ jobs:
               LOCAL_VER="${REST%%_*}"
               LOCAL_VER="${LOCAL_VER//%3a/:}"
               
+              if [ -f "$GITHUB_WORKSPACE/hold_packages.txt" ] && grep -q -x "$PKG_NAME" "$GITHUB_WORKSPACE/hold_packages.txt"; then
+                echo "-> Omitiendo actualización de $PKG_NAME (bloqueado por hold_packages.txt)..."
+                continue
+              fi
+
               REMOTE_VER=$(apt-cache policy "$PKG_NAME" | awk '/Candidate:/ {print $2}')
               
               if [ -z "$REMOTE_VER" ] || [ "$REMOTE_VER" = "(none)" ]; then
