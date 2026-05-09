@@ -20958,29 +20958,6 @@ Description: file management support (loadable modules for library)
 
 Package: libfm-qt-l10n
 Architecture: all
-Version: 2.3.1-3
-Multi-Arch: foreign
-Priority: optional
-Section: localization
-Source: libfm-qt
-Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1301
-Depends: qt6-translations-l10n
-Filename: ./libfm-qt-l10n_2.3.1-3_all.deb
-Size: 193504
-MD5sum: abf10a1f51185577cd86e63a5e49ce6d
-SHA1: cc4de6bf4f4560f3b16eed945f948d9007e25a87
-SHA256: b49e766ad3323d385a96cefad185bc3b04e8db8e47fd3e986e549e03e6559f9c
-SHA512: 2e77f52ab5dc9b6cea849317a45c885f607ec850bd0aae90f05d1955013f554c2c39ffe0171301a509c6b5e0c7c99ddbe762e33981031c1c6769311ac8f79e73
-Homepage: https://github.com/lxqt/libfm-qt
-Description: Language package for libfm-qt
- Libfm-Qt is a companion library providing components to build desktop file
- managers.
- .
- This package contains the l10n files needed by the libfm-qt.
-
-Package: libfm-qt-l10n
-Architecture: all
 Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
@@ -21001,34 +20978,6 @@ Description: Language package for libfm-qt
  managers.
  .
  This package contains the l10n files needed by the libfm-qt.
-
-Package: libfm-qt6-17
-Architecture: amd64
-Version: 2.3.1-3+b1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: libfm-qt (2.3.1-3)
-Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1641
-Provides: libfm-qt
-Depends: libglib2.0-bin, lxqt-menu-data, shared-mime-info, libc6 (>= 2.38), libexif12 (>= 0.6.21-1~), libglib2.0-0t64 (>= 2.80.0), libmenu-cache3 (>= 0.5.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1), libxcb1, qt6-base-private-abi (= 6.10.2)
-Recommends: libfm-qt-l10n
-Conflicts: libfm-qt
-Breaks: libfm-qt6-15, libfm-qt6-16
-Replaces: libfm-qt6-15, libfm-qt6-16
-Filename: ./libfm-qt6-17_2.3.1-3+b1_amd64.deb
-Size: 489780
-MD5sum: a700e64c18cea3dae11d5d0ede025368
-SHA1: 581540896c839df2b7ede777fcb1b44b5e4130b4
-SHA256: adc48e53f46759e3b42b8ced2f17c9caa073de51b449012c7a385eb4ecfbe009
-SHA512: ca275455f923c01e3bfa678ba41daf56d87a37e1538a9bcbaf068b3ae12a4ea6be5b0b74c57c1de3b99bab7d4abdfec37fb8b75bdd0bb33fe771b9538f33694d
-Homepage: https://github.com/lxqt/libfm-qt
-Description: file management support for pcmanfm-qt
- Libfm-Qt is a companion library providing components to build desktop file
- managers.
- .
- This package contains helper library libfm-qt for pcmanfm-qt.
 
 Package: libfm-qt6-17
 Architecture: amd64
@@ -27379,21 +27328,21 @@ Description: Tools to generate documentation in various formats from DocBook
 
 Package: libkf6filemetadata-bin
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.23.0-2+b1
 Multi-Arch: same
 Priority: optional
 Section: kde
-Source: kf6-kfilemetadata
+Source: kf6-kfilemetadata (6.23.0-2)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 656
-Depends: libappimage1.0abi1t64 (>= 1.0.4-3~), libavcodec62 (>= 7:8.1), libavformat62 (>= 7:8.1), libavutil60 (>= 7:8.1), libc6 (>= 2.32), libepub0 (>= 0.1.1), libexiv2-28 (>= 0.27.4~), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.23.0~), libkf6codecs6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0~), libkf6filemetadata3 (>= 6.0.0), libpoppler-qt6-3t64 (>= 0.46.0), libqmobipocket6-2 (>= 4:2.1~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 5.2), libtag2 (>= 2.0)
+Installed-Size: 657
+Depends: libappimage1.0abi1t64 (>= 1.0.4-3~), libavcodec62 (>= 7:8.1), libavformat62 (>= 7:8.1), libavutil60 (>= 7:8.1), libc6 (>= 2.32), libepub0 (>= 0.1.1), libexiv2-28 (>= 0.27.4~), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.23.0~), libkf6codecs6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0~), libkf6filemetadata3 (>= 6.0.0), libpoppler-qt6-3t64 (>= 0.46.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 5.2), libtag2 (>= 2.0)
 Recommends: catdoc
-Filename: ./libkf6filemetadata-bin_6.23.0-2_amd64.deb
-Size: 122796
-MD5sum: 9df1d8dcd52fdc144755fc2e874b4fae
-SHA1: a1f275b14e8323f8ee6ba46fe5cbd9c537fde4d3
-SHA256: f3af72ea48b5f1775223073f8dd44033097c4d0fa3f91bebc0c579705db9e158
-SHA512: a789b041f384959a1a0754006343096a77236a4fd863b646d9e9a15a258ba1a45aa4b1ab88f9e6057636ebc26d02f53244f01aa14ace0107abd4920c6c63fd8f
+Filename: ./libkf6filemetadata-bin_6.23.0-2+b1_amd64.deb
+Size: 122948
+MD5sum: cec8fd101a52d895026855fd2f03b369
+SHA1: 213409438e43c6363c13299e877cca3e8c9bfffd
+SHA256: ff1ff5c95702274e0e721ea8c955ae0d6a65f98bd19c725e0c278b3fe83593f3
+SHA512: 180d0c4f6cc0e299dda08cf24a13763a145c2c06a445ff86acfb78607c6bd14f9127e9b66ca70fe62ca3276edb7f81c693f21081aa660438c9d4cdce584403db
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -27425,21 +27374,21 @@ Description: library for extracting file metadata
 
 Package: libkf6filemetadata3
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.23.0-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kfilemetadata
+Source: kf6-kfilemetadata (6.23.0-2)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 243
+Installed-Size: 244
 Depends: libkf6filemetadata-data (= 6.23.0-2), libc6 (>= 2.14), libkf6coreaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Recommends: libkf6filemetadata-bin (= 6.23.0-2)
-Filename: ./libkf6filemetadata3_6.23.0-2_amd64.deb
-Size: 72512
-MD5sum: e9e8e66e57929ede316277e8ace8e869
-SHA1: 4e0e681c20b452d26c3505b3eb6f8188caa0c77f
-SHA256: b2929fcf778ba1b7335b36840b2be1e1eaa7d732db20b2d82bf932fcd738b3f1
-SHA512: fbdc2f7b70a9f146fdc6428f6da51d0a80edad4d5ab59d3e5d4965ac5d82d5767f56dafd60d0656b50ada304b50057b32e4dd811f8ea997ac1bc5f804a088b0b
+Recommends: libkf6filemetadata-bin (= 6.23.0-2+b1)
+Filename: ./libkf6filemetadata3_6.23.0-2+b1_amd64.deb
+Size: 72744
+MD5sum: 52298de14a992c156346f84c14a17491
+SHA1: 5538e91e671524117d411807f14ac76d4b8dbca3
+SHA256: 176774a9f52d17f29a5c170281d0527f44f4581c96904ea2fa3cc02ba0f9a844
+SHA512: de9476870171565e8ad370d9683f825e68ddb3cfd5b3f094a72493d17fd61f82d485b7ebd3b632536bbc16963b33875b63bbc70cd83c08bb2cecf8858708a027
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -33103,20 +33052,20 @@ Description: backlight helper for liblxqt
 
 Package: liblxqt-globalkeys-ui2
 Architecture: amd64
-Version: 2.3.0-2+b1
+Version: 2.4.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: lxqt-globalkeys (2.3.0-2)
+Source: lxqt-globalkeys
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 53
-Depends: liblxqt-globalkeys2 (= 2.3.0-2+b1), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 5)
-Filename: ./liblxqt-globalkeys-ui2_2.3.0-2+b1_amd64.deb
-Size: 16556
-MD5sum: 3f6ac2d8f0074676e8f554633d40cbf2
-SHA1: 35b760bff26e8a3556ce391a32e9a2d9558fb685
-SHA256: 4c07f879afc02a646b8cc18c3201d4e799c6eed60aa07c5021baa21d1737e7f9
-SHA512: bcf3ede2cab4bda765681d3f865b2db316df9d95259b482a93555d896b225135bc45602ceeb3cc17f4424ac98951946f2ef830d967fc54528c0b0bdaa653d97c
+Installed-Size: 52
+Depends: liblxqt-globalkeys2 (= 2.4.0-1), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 5)
+Filename: ./liblxqt-globalkeys-ui2_2.4.0-1_amd64.deb
+Size: 16468
+MD5sum: c8fb72e4a8e5e93c38be8f69bd512a3a
+SHA1: 99d3ef35757546aa1521fc0f0869d99bfd01ac23
+SHA256: 933a5578664467c60e0335e6e5b191254658d86127fc3479f06ce85633c1e796
+SHA512: 2afb48668cbd3315b530ed975e1becc4cac087ab1de255fb1cb35bfd0df2cfca4e5e8252e1407eadd971a31ca374103ed1543dc760f1ecce7744fc4f597f7919
 Homepage: https://github.com/lxqt/lxqt-globalkeys
 Description: daemon used to register global keyboard shortcuts (ui files)
  Daemon used to register global keyboard shortcuts.
@@ -33125,20 +33074,20 @@ Description: daemon used to register global keyboard shortcuts (ui files)
 
 Package: liblxqt-globalkeys2
 Architecture: amd64
-Version: 2.3.0-2+b1
+Version: 2.4.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: lxqt-globalkeys (2.3.0-2)
+Source: lxqt-globalkeys
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 134
+Installed-Size: 133
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libstdc++6 (>= 5)
-Filename: ./liblxqt-globalkeys2_2.3.0-2+b1_amd64.deb
-Size: 40792
-MD5sum: f320334884cd4edad0f420c8d496b594
-SHA1: 0dee867ecbaffdc6a2244210d9a7810e8c05c2f0
-SHA256: f592bc98c724c2a501f7296e2bfc13b6e262d43af39865bda27daacad8f3f879
-SHA512: ed3e7b8f1496e13c954e38b10813e0c3ec855b283609315f0459bf7b05a6a6ee1827f3087670e11638f81dacefda4eb41c8660592a4b53466138c78202e2617d
+Filename: ./liblxqt-globalkeys2_2.4.0-1_amd64.deb
+Size: 40664
+MD5sum: 0c078386961f79775869038bb7f9dced
+SHA1: eb08c8779746079b248df3279b293580bbc593bc
+SHA256: aa17c233da35863a4959bda2186ab45c86b1e3dd5f0dd03ce456cf00e016433b
+SHA512: 5648ad6ea1cace465423585180139af6c41b4bfa22ee9652ad725121e331fa876e0748b468c877a1e1e788b0788e93a1e6078b29d62f0ddc05c85a43e4484cfc
 Homepage: https://github.com/lxqt/lxqt-globalkeys
 Description: daemon used to register global keyboard shortcuts (shared libs)
  Daemon used to register global keyboard shortcuts.
@@ -35176,19 +35125,19 @@ Description: RemoteDesktop portal DBus helper library
 
 Package: libokular6core4
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.04.0-1+b1
 Priority: optional
 Section: libs
-Source: okular
+Source: okular (4:26.04.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1614
+Installed-Size: 1615
 Depends: kio6, kwallet6, libc6 (>= 2.38), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libphonon4qt6-4t64 (>= 4:4.12.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.6.0~), libqt6printsupport6 (>= 6.6.0~), libqt6qml6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13), phonon4qt6, zlib1g (>= 1:1.1.4)
-Filename: ./libokular6core4_4%3a26.04.0-1_amd64.deb
-Size: 437032
-MD5sum: fb53f3a42d49437c0235cf11e5ff8ca2
-SHA1: 0cc9034af95838d72ad241b4354c0f3197d958f2
-SHA256: 1b54feb424ee4678a91a82b6c859872051adea13482079c42e7c7f9f922854c3
-SHA512: bafc5aba72124fb33a2580b538515c9bd5bfd19aa96257c693180ef9e49075c645d89248e5a237129b9b839ad91f70d3d7e9a4fc872b63040b9eabf467b2a509
+Filename: ./libokular6core4_4%3a26.04.0-1+b1_amd64.deb
+Size: 436908
+MD5sum: fce0726d580ceee1e9a26ed13439a448
+SHA1: 13111031f84c690642ccc990d7da073da503d219
+SHA256: 9ab0002d60a9b40db899348bf3703bbb39b5ff4b21ac7045f5b5beebb997b4df
+SHA512: bc27460f6a451a8bc8f2f4d4c611a3c8f92c07d6f47571031f5137f16eff8b7655e3827cbfab18168824ed599c1e9e4de5c4ae4874532f6d9b562e16e2310579
 Homepage: https://okular.kde.org
 Description: libraries for the Okular document viewer
  This package contains libraries used by the Okular document viewer.
@@ -52855,20 +52804,20 @@ Description: Debian branding for LXQt
 
 Package: lxqt-config-l10n
 Architecture: all
-Version: 2.3.1-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-config
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1526
+Installed-Size: 1524
 Depends: qt6-translations-l10n
-Filename: ./lxqt-config-l10n_2.3.1-1_all.deb
-Size: 211792
-MD5sum: c5116633dd6f3d94ee45f8ba96397ae2
-SHA1: 5a172abc3d9eb1d090d0889abbbca04d978b1edd
-SHA256: e61cf9594ce4c352e71348d6b47c4420723fb1cf65743258b1d4ceac5df8eefa
-SHA512: 5845b365454b097d4b34d540989d1d62c269c5e9b7863600ac4ef7214166a879ee908607bd959c01cc694ccaeeca8849ad0b3dcd05bb617333644a36815b1b43
+Filename: ./lxqt-config-l10n_2.4.0-1_all.deb
+Size: 211856
+MD5sum: 67d870ae1a7e97133c8c1a78c1f188e4
+SHA1: 47d4fd1dfadc53c1c6d59cc8fb29fa85cd5df2b1
+SHA256: 7cbf7d97ab4eb246e0a5899fe2bbc68543a9424e849e28f465e41cc35fa9083f
+SHA512: f28af3877474153775e9dd4cfe2a4518ffe305f1691a411df00c15c18e9e3477f8fc600dbbba3c97998d2233fda58950ff35b5d488b71abbf65e835def873e75
 Homepage: https://github.com/lxqt/lxqt-config
 Description: Language package for lxqt-config
  The LXQt system settings center which summarizes all configuration tools as
@@ -52878,20 +52827,20 @@ Description: Language package for lxqt-config
 
 Package: lxqt-config
 Architecture: amd64
-Version: 2.3.1-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1510
-Depends: libc6 (>= 2.35), libkf6screen8 (>= 4:6.1.0), libkscreen-bin, liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xdg4 (>= 4.3.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13.1), libudev1 (>= 183), libx11-6, libxcb-randr0 (>= 1.3), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), zlib1g (>= 1:1.1.4)
+Installed-Size: 1507
+Depends: libc6 (>= 2.35), libkf6screen8 (>= 4:6.1.0), libkscreen-bin, liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xdg4 (>= 4.4.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13.1), libudev1 (>= 183), libx11-6, libxcb-randr0 (>= 1.3), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), zlib1g (>= 1:1.1.4)
 Recommends: galternatives, lxqt-config-l10n, lxqt-policykit, lxqt-powermanagement, lxqt-qtplugin, lxqt-session, system-config-printer, xsettingsd
 Suggests: adwaita-qt, faenza-icon-theme, gnome-themes-extra, gparted | partitionmanager, lxappearance, lxqt | lxqt-core, nm-connection-editor, nm-tray | cmst | network-manager-applet, obconf-qt, synaptic
-Filename: ./lxqt-config_2.3.1-1_amd64.deb
-Size: 378788
-MD5sum: 8e516d3fb99cab8dcfe424ee5140853e
-SHA1: 5dd1dc2ef876ceb1b368e94019f9ca20a5a55761
-SHA256: 5d09675f178174a7ad900f83ee502432dc75dc3d625353b2ecfaf45eda45cd97
-SHA512: cfaa1a8f176b7cd49e1fb9a28d88647c7bed15a70f6e2b58e8e8e593142d226cc62f339a614277ab919ade6ec1b0926b4b401d91196075ff93fa00c67587bba3
+Filename: ./lxqt-config_2.4.0-1_amd64.deb
+Size: 379436
+MD5sum: 4a84404a962032515887a180ade1aa2e
+SHA1: 5587c2d38429edb3396ac2ee94ae7523ab11599f
+SHA256: a3f9f58033e33a117079398e99629bf488d46e31ebd2cf97dc4aa0e0b408bef5
+SHA512: 1d6d35384619f0757d00ccec2be0894aa608d693413f877ae9a99c0bcdfe387eca7e25270ecb621381d7fc11d8d7ee240e99305379f081a8f5645c104d8ecd9f
 Homepage: https://github.com/lxqt/lxqt-config
 Description: LXQt system settings center
  The LXQt system settings center which summarizes all configuration tools as
@@ -52934,20 +52883,20 @@ Description: Metapackage for the LXQt core
 
 Package: lxqt-globalkeys-l10n
 Architecture: all
-Version: 2.3.0-2
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-globalkeys
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 174
+Installed-Size: 179
 Depends: qt6-translations-l10n
-Filename: ./lxqt-globalkeys-l10n_2.3.0-2_all.deb
-Size: 31424
-MD5sum: 7de31aa56786380f2bdd8155ae2e2f5b
-SHA1: 9d57fd02a9ba9152da79c26682b2627af4379e79
-SHA256: 9d2efadccf7135c75a14d45d2504f10fec3d84caa228474ef38d4d7739e6d5e0
-SHA512: 62dc6548fcba9409dd05fc81a89c922d9359a8957cf5612a30e957ffaf4477e682ebfbe2d4c251b6c79211c82f30552eda8b5086b858fa314eba40b70af68e7c
+Filename: ./lxqt-globalkeys-l10n_2.4.0-1_all.deb
+Size: 31852
+MD5sum: 370983a66ee2963bc4d6170caf250adc
+SHA1: 9c217f1ff14f12711aa4e60edf45a8a2ff918eaa
+SHA256: 09e60b91253fb7657266bec5d6fa5d0c093cd0e17f44ba98d0058b5fc8468e67
+SHA512: fa234ed847fe14182ed70656e66ee7cefdac67338d178ee621bdbfbbbb94ab10ecde13e7b8300ab4aec2eabfc9b6accb117fb7e0acb90f6770dc289468d50f6a
 Homepage: https://github.com/lxqt/lxqt-globalkeys
 Description: Language package for lxqt-globalkeys
  The l10n files for lxqt-globalkeys.
@@ -52956,21 +52905,20 @@ Description: Language package for lxqt-globalkeys
 
 Package: lxqt-globalkeys
 Architecture: amd64
-Version: 2.3.0-2+b1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
-Source: lxqt-globalkeys (2.3.0-2)
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 710
+Installed-Size: 709
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 13), libx11-6
 Recommends: lxqt-globalkeys-l10n, lxqt-qtplugin, lxqt-session
 Suggests: lxqt | lxqt-core
-Filename: ./lxqt-globalkeys_2.3.0-2+b1_amd64.deb
-Size: 197088
-MD5sum: 21c18f3c5d357670fff159765036e24f
-SHA1: 20f52330abe37b89faddd07af5687fe44fd5c77a
-SHA256: f4c8dbd5e3984e79a45aff339b9ee0fe71b5f8bf83f3c381f2e14b2cd4e3dd7d
-SHA512: 747c558c75c1d5de4a7f77dd66f505e4e46bc36d10c1f2d87f85c06eb981b1e2ec4398769a264808ecf67ccc366248dd06f111a13336e0f2f2aa3dffe376c234
+Filename: ./lxqt-globalkeys_2.4.0-1_amd64.deb
+Size: 196748
+MD5sum: 3d362896849a423f48bb130f75c597e8
+SHA1: e1fe37a843476150ba0173cb98c79e85a12fd993
+SHA256: 020cc04aadcca023cfe64fc28ba2380d37cf81d93cbc8950413dab2bf7b6637b
+SHA512: aecb08c4fd15927042fc22a34bb47ee8207991575992a5fab11d5c34146d13dc1df2c88c58f061ee591283928aab4e11c740ab03c426f1cac2ff755dd7f4139d
 Homepage: https://github.com/lxqt/lxqt-globalkeys
 Description: daemon used to register global keyboard shortcuts (appl.)
  Daemon used to register global keyboard shortcuts.
@@ -56049,23 +55997,24 @@ Description: universal document viewer - data files
 
 Package: okular
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.04.0-1+b1
 Priority: optional
 Section: graphics
+Source: okular (4:26.04.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4417
+Installed-Size: 4418
 Provides: pdf-viewer, postscript-viewer
-Depends: okular-data (= 4:26.04.0-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.04.0-1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 25.03.0), libqmobipocket6-2 (>= 4:24.05~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
+Depends: okular-data (= 4:26.04.0-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.04.0-1+b1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 25.03.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
 Recommends: cups-bsd, okular-doc
-Suggests: ghostscript, okular-extra-backends (= 4:26.04.0-1), poppler-data, texlive-binaries, unrar
+Suggests: ghostscript, okular-extra-backends (= 4:26.04.0-1+b1), poppler-data, texlive-binaries, unrar
 Breaks: okular-data (<< 4:24.12.2-1~)
 Replaces: okular-data (<< 4:24.12.2-1~)
-Filename: ./okular_4%3a26.04.0-1_amd64.deb
-Size: 1055680
-MD5sum: 3033a069f520127b1080ee3d230cf058
-SHA1: bd6337bdd273aacc58392509aa70241d5a59cb37
-SHA256: 85fb7fb6d6dd0b47dfdf8767bbfbf09a8738fbe421db515e615f180235c6798a
-SHA512: b70b9919c31fee3e8367249fa34f3a6ded985414581a6380b1a5c590d17140afba117ecff4f60564f039e6ac51d4010e4934f010878bdb584e1a74ecfddb1dfe
+Filename: ./okular_4%3a26.04.0-1+b1_amd64.deb
+Size: 1057680
+MD5sum: 4923d0554adb18aff6f4adfd9bf7bdd6
+SHA1: 54f9507f8d8415e55e3eb754b1e492d54f5e07ee
+SHA256: f52a7d430a86fe39044ee1a2060f4d311a126d883b99c812440075aab59b9661
+SHA512: 0c2902de0780c9ebbc8d05ed4f2240b71c65788261a4884d512b459b85f69af558299581588784b963fa8f063878fc1b075acc4b14b1a9255680caf7f19cf407
 Homepage: https://okular.kde.org
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
@@ -62439,18 +62388,18 @@ Description: QtWayland platform plugin
 
 Package: qtxdg-tools
 Architecture: amd64
-Version: 4.3.0-1
+Version: 4.4.0-1
 Priority: optional
 Section: libs
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 109
-Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.9.1), libqt6xdg4 (>= 4.2.0~), libstdc++6 (>= 13.1)
-Filename: ./qtxdg-tools_4.3.0-1_amd64.deb
-Size: 26484
-MD5sum: 4282b9e216145457c7bb55aefade75d2
-SHA1: 9a5d25283ba15b3e042f0ff550be6d789f3fcd23
-SHA256: 02d378bcf316792eec2f02cbe7b79b6b29f8070f59c07513c857ddc20514c02b
-SHA512: 2b9f3a6dfa032498776cf0686abd33106ca0f25c21ab7c6c41738ec2b942f0e29376a06dd8d759ac0df44e26f8a8ea018141a57ee2a7db9d5932e18dbd821774
+Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 13.1)
+Filename: ./qtxdg-tools_4.4.0-1_amd64.deb
+Size: 25948
+MD5sum: 6af2abebfb8aaadb8abf7ea9af1115b9
+SHA1: 77894aff2980f0e4c082d499ac42ace6f9df1b47
+SHA256: 3df6ca6193f24699cd39664c26251c0e9f3443c0d767cc06dca4548087bd7dc2
+SHA512: 52bc4375008e63e86f85b2734504da92aacea030fac4d16c62c291e5e79b8b72df68a212c10ae6759020470c9b1ad35761e0122f27a927215b17bd60275fa1ac
 Homepage: https://github.com/lxqt/qtxdg-tools
 Description: User tools for libqtxdg
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
