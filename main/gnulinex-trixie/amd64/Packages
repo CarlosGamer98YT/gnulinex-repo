@@ -15042,33 +15042,6 @@ Description: KDE window manager, X11 version
 
 Package: labwc
 Architecture: amd64
-Version: 0.9.6-1
-Priority: optional
-Section: x11
-Maintainer: Lab Wayland Compositor Team <team+labwc@tracker.debian.org>
-Installed-Size: 869
-Depends: xwayland, libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.28.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.19.6), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libsfdo0 (>= 0.1.4), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-server0 (>= 1.23.0), libwlroots-0.19 (>= 0.19.0~), libxcb-ewmh2 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.0.0), libxml2-16 (>= 2.14.1)
-Suggests: foot | alacritty | x-terminal-emulator, kanshi, mako-notifier, swaybg, swayidle, waybar
-Filename: ./labwc_0.9.6-1_amd64.deb
-Size: 315356
-MD5sum: 29120595a580c21cc683d541696214a8
-SHA1: 62a9221583cd3734783e960d6691541665e539c8
-SHA256: 703e8fed5186ece6e970d02c76c6ea25b403dba637a82196a14e5136a93b359d
-SHA512: fc94ca28dd8219179b79df127e8f4bc8ea300eb58b65594dd31214b515d24386e4f0be296664652ddca3bb26d7ca3caca37f61eb4c3dd1a77a0beb77442b40f6
-Homepage: https://labwc.github.io/
-Description: window-stacking Wayland compositor
- Labwc is a wlroots-based window-stacking compositor for wayland, inspired by
- openbox.
- .
- It is light-weight and independent with a focus on simply stacking windows
- well and rendering some window decorations. It takes a no-bling/frills
- approach and says no to features such as icons (except window buttons),
- animations, decorative gradients and any other options not required to
- reasonably render common themes. It relies on clients for panels, screenshots,
- wallpapers and so on to create a full desktop environment.
-
-Package: labwc
-Architecture: amd64
 Version: 0.9.7-1
 Priority: optional
 Section: x11
