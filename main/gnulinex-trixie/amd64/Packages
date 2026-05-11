@@ -662,27 +662,6 @@ Description: GNU Aspell spell-checker
 
 Package: at-spi2-common
 Architecture: all
-Version: 2.60.2-1
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 1373
-Breaks: at-spi2-core (<< 2.46.0-2~)
-Replaces: at-spi2-core (<< 2.46.0-2~)
-Filename: ./at-spi2-common_2.60.2-1_all.deb
-Size: 171160
-MD5sum: ca055d75eaa4a00c0cf8463fffed0556
-SHA1: 97aaa8a9f3f1f188ba465d8bbf6e0f111ee512f5
-SHA256: 86fd47b4e34d45a23c84b6ff6db9917dc6ec09390aceafea32f2dfbfb13e5214
-SHA512: 987e65b08dc5f8709e2343dd859d6ae4fae14a080e570cdee337dd93bc97548ada91eaf490eef7655aa514bd721b8fbfc270f4bb17a912bcc455fb37b2c54454
-Homepage: https://wiki.gnome.org/Accessibility
-Description: Assistive Technology Service Provider Interface (common files)
- This package contains the common resource files of GNOME Accessibility.
-
-Package: at-spi2-common
-Architecture: all
 Version: 2.60.3-1
 Multi-Arch: foreign
 Priority: optional
@@ -701,25 +680,6 @@ SHA512: a374be78b2937b540dd6317fe6e44e2b64383bc7307ab88e92b789eaa644dd4f4c8943c8
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
-
-Package: at-spi2-core
-Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 213
-Depends: libatspi2.0-0t64 (= 2.60.2-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
-Filename: ./at-spi2-core_2.60.2-1_amd64.deb
-Size: 61608
-MD5sum: d722e01f544a2739b21443e936b28830
-SHA1: 15ab0e4032ccb9a741d9ab8aa1524b142534262c
-SHA256: 717ea5b906210a42307d2e183d524ff0b628c3dbe885682b1160a21b4fe2001f
-SHA512: 70a2017c8477eb6a2e11b5b41bb17c3d2e13239a55c3cd7c99bf7073fb8903df49b11ee88933a26d3b1170c8a53da87a61e17a24c26a9a985febec05d49b4d2e
-Homepage: https://wiki.gnome.org/Accessibility
-Description: Assistive Technology Service Provider Interface (D-Bus core)
- This package contains the core components of GNOME Accessibility.
 
 Package: at-spi2-core
 Architecture: amd64
@@ -6931,32 +6891,6 @@ Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
 
 Package: gir1.2-atk-1.0
 Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: same
-Priority: optional
-Section: introspection
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 100
-Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.60.2-1)
-Filename: ./gir1.2-atk-1.0_2.60.2-1_amd64.deb
-Size: 23380
-MD5sum: a12bdadbf4aef37f944e68b55e8b3d21
-SHA1: a9c8f18c70204c08a67767099ec3aa70b7e94857
-SHA256: 8ed649d646c72e54e13a0ee93626a8c9dfb3b603ee43bfbde3c51e39642fb3a3
-SHA512: 1b039a16e09ce49b13eaa5f9f6f08a75d837862d885568a68c4a1d68eb44a0f39c9a6d154619841bb5eacf36108f29894a4f1456d163f0c4a1d9a9dc352607a0
-Homepage: https://wiki.gnome.org/Accessibility
-Description: ATK accessibility toolkit (GObject introspection)
- ATK is a toolkit providing accessibility interfaces for applications or
- other toolkits. By implementing these interfaces, those other toolkits or
- applications can be used with tools such as screen readers, magnifiers, and
- other alternative input devices.
- .
- This package can be used by other packages using the GIRepository format to
- generate dynamic bindings
-
-Package: gir1.2-atk-1.0
-Architecture: amd64
 Version: 2.60.3-1
 Multi-Arch: same
 Priority: optional
@@ -6978,29 +6912,6 @@ Description: ATK accessibility toolkit (GObject introspection)
  applications can be used with tools such as screen readers, magnifiers, and
  other alternative input devices.
  .
- This package can be used by other packages using the GIRepository format to
- generate dynamic bindings
-
-Package: gir1.2-atspi-2.0
-Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: same
-Priority: optional
-Section: introspection
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 95
-Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.60.2-1), python3:any
-Breaks: python3-pyatspi (<< 2.57.0-1)
-Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
-Filename: ./gir1.2-atspi-2.0_2.60.2-1_amd64.deb
-Size: 23028
-MD5sum: 695e35cc2fdcf6b78e2c69cec2c79934
-SHA1: b244b972c71a899764fda2ab23b50b0f430bc9b7
-SHA256: be36b01cb01f6d981e2d550e89424ce464f7b82300289dd41eef45d90c5d448c
-SHA512: bb8d7a46bb71cdd41fb2520c5f57a00cc6d2186e98b14cf655021ada1046f3b8979ffdbf299d5232005dd615ce4f80e57a2fb8f9e4aa05c0d63c14f1414e8425
-Homepage: https://wiki.gnome.org/Accessibility
-Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
  generate dynamic bindings
 
@@ -15747,7 +15658,7 @@ Description: GNU Aspell spell-checker runtime library
 
 Package: libatk-adaptor
 Architecture: amd64
-Version: 2.60.2-1
+Version: 2.60.3-1
 Multi-Arch: same
 Priority: optional
 Section: misc
@@ -15755,42 +15666,19 @@ Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 56
 Provides: at-spi
-Depends: libatk-bridge2.0-0t64 (= 2.60.2-1), libglib2.0-0t64 (>= 2.62)
+Depends: libatk-bridge2.0-0t64 (= 2.60.3-1), libglib2.0-0t64 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
-Filename: ./libatk-adaptor_2.60.2-1_amd64.deb
-Size: 9008
-MD5sum: d0abdbf2fcf54d67340064640a605156
-SHA1: 8265e0f2dff0edb30f8b53cb4d62d40cef9a7695
-SHA256: e6f27fbabbd806d02dace23540a1b49a1fac2b9e758f189bac81fe7b4dfa2f41
-SHA512: 6eca7ab598053a9917c9eca0bccd5c7d62bfdd0b50dd33cb1f704db54325b0fc7b29f161ddc11595fed0f99a59a0b72ef6d4453f7ee62b8a4efa664b4fab78c8
+Filename: ./libatk-adaptor_2.60.3-1_amd64.deb
+Size: 9028
+MD5sum: 74eac3868951c94ca97b49d107d04d83
+SHA1: 7b81577a2dae2ea1d7740c8eeebf5fb6267545d8
+SHA256: 1485f2d686feb60264dc844f8c13698d70d414348daff7260aaaf1418c8c593c
+SHA512: a7a9bfb17f9930a081fc48ff45229bd34d59e38d21a19fd187ecf748773e9e9e5c861d4a4a58783c9655dc304f5aeffa96d4078deb62a82d0bad130845c0c29b
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
  D-Bus based AT-SPI.
-
-Package: libatk-bridge2.0-0t64
-Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 283
-Provides: libatk-bridge2.0-0 (= 2.60.2-1)
-Depends: libatk1.0-0t64 (= 2.60.2-1), libatspi2.0-0t64 (= 2.60.2-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libatk-bridge2.0-0 (<< 2.60.2-1)
-Replaces: libatk-bridge2.0-0
-Filename: ./libatk-bridge2.0-0t64_2.60.2-1_amd64.deb
-Size: 66792
-MD5sum: 052b3250b07621251e6a4ac11a91b80c
-SHA1: 35936695a9bcfe4f2980ca58599e38030dce5a06
-SHA256: ef9f19863fb0d7cb395aece8dcc9c95cfc343d6d6ed4e2be872928a180147eb6
-SHA512: 24522f7a5f02451d10a5c139c967ff3e4dae6f44f132d84f756e6aa632cb048bc219120052fcee7589f27be70ecb12d4ee510376b24c96d31ac238e51b738c9b
-Homepage: https://wiki.gnome.org/Accessibility
-Description: AT-SPI 2 toolkit bridge - shared library
- This package contains the ATK bridge shared library.
 
 Package: libatk-bridge2.0-0t64
 Architecture: amd64
@@ -15882,34 +15770,6 @@ Description: ATK implementation for Java using JNI
  Java ATK Wrapper is an implementation of ATK which uses JNI. It
  converts Java Swing events into ATK events, and sends these events to
  ATK-Bridge.
-
-Package: libatk1.0-0t64
-Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 204
-Provides: libatk1.0-0 (= 2.60.2-1)
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), at-spi2-common
-Breaks: libatk1.0-0 (<< 2.60.2-1)
-Replaces: libatk1.0-0
-Filename: ./libatk1.0-0t64_2.60.2-1_amd64.deb
-Size: 49648
-MD5sum: 51fd02fcfa0eac0022f48305c32d1491
-SHA1: b83dae3a91f4e310ee94e24c9829e6d8f1e6296a
-SHA256: af810c6e0cd37a16bfffe2c49f4be946f0e77b800f037515152e57b9901de7d0
-SHA512: 20e8490c99467e2d832157fe44e342f549d463f085c632462ce48e9a094d0e32ffe916a71cb7d206691437a5b58a0a67b5f24a6308a414287903b74dfd50feda
-Homepage: https://wiki.gnome.org/Accessibility
-Description: ATK accessibility toolkit
- ATK is a toolkit providing accessibility interfaces for applications or
- other toolkits. By implementing these interfaces, those other toolkits or
- applications can be used with tools such as screen readers, magnifiers, and
- other alternative input devices.
- .
- This is the runtime part of ATK, needed to run applications built with it.
 
 Package: libatk1.0-0t64
 Architecture: amd64
@@ -16066,31 +15926,6 @@ Description: MATE document viewing library
  ComicBook and Portable Document Format (PDF) files.
  .
  This package contains the document viewing library used by Atril.
-
-Package: libatspi2.0-0t64
-Architecture: amd64
-Version: 2.60.2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: at-spi2-core
-Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 285
-Provides: libatspi2.0-0 (= 2.60.2-1)
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4), libxres1 (>= 2:1.2.1)
-Recommends: at-spi2-core (= 2.60.2-1)
-Breaks: libatspi2.0-0 (<< 2.60.2-1)
-Replaces: libatspi2.0-0
-Filename: ./libatspi2.0-0t64_2.60.2-1_amd64.deb
-Size: 81752
-MD5sum: 3f7f51d62893005573996e0aeff3b5c8
-SHA1: 09e842dc7d33e30f72acf96c4727c60153a0ba3e
-SHA256: cab1400c68875d359b744c883a676b99a433f909e46b0aeb1635e1feb866d889
-SHA512: bd77a8d41a215b83941617318c92e4e7824e3b724366ab23b1b18b3f90adc5ff442ab0cb581be79b2481af3214c9630f640cab64a10ff0d8a6ef98f0b814c38b
-Homepage: https://wiki.gnome.org/Accessibility
-Description: Assistive Technology Service Provider Interface - shared library
- This package contains the shared library for applications that wish to use
- the at-spi interface.
 
 Package: libatspi2.0-0t64
 Architecture: amd64
