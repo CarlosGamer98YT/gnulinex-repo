@@ -14750,19 +14750,19 @@ Description: command line kpackage tool
 
 Package: krfb
 Architecture: amd64
-Version: 4:25.12.1-2
+Version: 4:26.04.0-1
 Priority: optional
 Section: net
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3018
+Installed-Size: 3032
 Depends: kwallet6, libc6 (>= 2.34), libkf6configcore6 (>= 6.2.0~), libkf6configgui6 (>= 6.2.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.2.0~), libkf6crash6 (>= 6.2.0~), libkf6dbusaddons6 (>= 6.2.0~), libkf6dnssd6 (>= 6.2.0~), libkf6i18n6 (>= 6.2.0~), libkf6notifications6 (>= 6.2.0~), libkf6statusnotifieritem6 (>= 6.2.0~), libkf6wallet6 (>= 6.2.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.2.0~), libkf6xmlgui6 (>= 6.2.0~), libkpipewire6 (>= 6.2.0~), libkpipewiredmabuf6 (>= 6.2.0~), libkwaylandclient6 (>= 4:6.2.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.5.0~), libqt6network6 (>= 6.5.0~), libqt6widgets6 (>= 6.5.0~), libstdc++6 (>= 5), libvncserver1 (>= 0.9.14), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-damage0, libxcb-image0 (>= 0.2.1), libxcb-shm0, libxcb1, libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2)
 Suggests: khelpcenter, krdc
-Filename: ./krfb_4%3a25.12.1-2_amd64.deb
-Size: 1304788
-MD5sum: c153ce703c4f4b4586d0b0b7a0c2f562
-SHA1: a6dd3de37b602730b2919ff1f2ef9898619f1ef3
-SHA256: 7a9ab7e570366a1cd5235cc09083696f5bfb5fedda94af117377022bf7212614
-SHA512: 49b453671d56c5bf5dd7cc1dafae1d90c5369e2f2f0fdc57339ea285fe08ef9be4f9ddfc5f5aba1daa8721bfcf616050e9db8b23199bbfd6a14af56f6e72b674
+Filename: ./krfb_4%3a26.04.0-1_amd64.deb
+Size: 1306208
+MD5sum: ee8de13aba4b07b638cc1155937baec6
+SHA1: 1e96cabcb2d8d03d7fa869803bc3786139ba4dbc
+SHA256: 4723e2242d0446f9b12c37145b81fa2245a1972b56a6ab3f8827bd3c1b7605b8
+SHA512: f50c5e66ce56d628d9330d5dfb72fd9cd60c482533304d0e8a41bab320241a76ff86664f589d2871ce61ff9189c5349aed7cbb02de18292c60a372b1998cc38f
 Homepage: https://apps.kde.org/krfb/
 Description: Desktop Sharing utility
  KDE Desktop Sharing is a manager for easily sharing a desktop session with
@@ -53160,22 +53160,21 @@ Description: power management module for LXQt
 
 Package: lxqt-qtplugin
 Architecture: amd64
-Version: 2.3.0-2+b1
+Version: 2.4.0-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: lxqt-qtplugin (2.3.0-2)
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 162
-Depends: libfm-qt6-17 (>= 2.3.0~), libc6 (>= 2.14), libdbusmenu-lxqt0 (>= 0.1.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.1.2), libqt6xdgiconloader4 (>= 4.3.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 161
+Depends: libfm-qt6-17 (>= 2.3.0~), libc6 (>= 2.14), libdbusmenu-lxqt0 (>= 0.4.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.1.2), libqt6xdgiconloader4 (>= 4.4.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
 Recommends: lxqt-config, lxqt-session
 Suggests: lxqt | lxqt-core
-Filename: ./lxqt-qtplugin_2.3.0-2+b1_amd64.deb
-Size: 46916
-MD5sum: dc6b7f90dd51db52802e938bb9036262
-SHA1: 41d01c92803095436b1ff765ac92f1ad682903ca
-SHA256: 00700781ace3fd0be5ae8befb3373ad3203da2459d3a9af38c449a7985d78fa7
-SHA512: 89a68ebd0d8b46f7466c9d938ab6687055fa9acd84f539d053c0ab45367b26307af01557336f4c260b860081f2f31407f17376e4a2bcd3f951d6e9acaf8f248e
+Filename: ./lxqt-qtplugin_2.4.0-1_amd64.deb
+Size: 46796
+MD5sum: 4670434528d26d83bf9b3ffbb863bf15
+SHA1: d9a050d60c809080acae495a4d5fd38b0a2a41d8
+SHA256: 30b87edef478db51bd2083c3f5cd19421454c3a57671eacce262a32e2bd850f0
+SHA512: a02f753ad338a5e73fe9efdb8daa9a52f8bb0bb755fa86a3aa0d5d9635171d4592c27913921f934c3c73c178957f6e45d18413a0dc71c0d9d95205a25bac8165
 Homepage: https://github.com/lxqt/lxqt-qtplugin
 Description: LXQt system integration plugin for Qt
  With this plugin, all Qt-based programs can adopt settings of
@@ -56614,20 +56613,20 @@ Description: PulseAudio Volume Control
 
 Package: pcmanfm-qt-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: pcmanfm-qt
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 2229
+Installed-Size: 2331
 Depends: qt6-translations-l10n
-Filename: ./pcmanfm-qt-l10n_2.3.0-1_all.deb
-Size: 312808
-MD5sum: 0ef7ad4bebc95e3a7e2e8b2fda94ba26
-SHA1: db6fe7e673742338798235cd31e2c3648f64a71d
-SHA256: e64b9a750f853bc3cbfa5cc82c2d2ec6e9969c06ca0ce10347e79cf1f014f8e4
-SHA512: 80ac2bc29d40448ab9cf4f546dc20cef7866ee545c5a12bf7ec264065aab3c50237b8e0567b21217ad0043a3cf282b4b1c5fbc34282230a3e2e7a8ab883aed19
+Filename: ./pcmanfm-qt-l10n_2.4.0-1_all.deb
+Size: 324408
+MD5sum: 5cb8fdace2d57f3093d357f8dccf30eb
+SHA1: 071285a983a5e6d933f12fbb8d642b9476636934
+SHA256: 0cf24bb91f04d54548fda1e1075ee12b6e6e673f98b423873528c4d6549f1093
+SHA512: 133bff1b3a9f25b3953d7a5521ef2313fd5190a9172a34117a46e6e45184681e2ec8186fd7d8a8717dbcc6494ca7da1c7c2f41952761b554f49987926954e416
 Homepage: https://github.com/lxqt/pcmanfm-qt
 Description: Language package for pcmanfm-qt
  PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.
@@ -56636,20 +56635,20 @@ Description: Language package for pcmanfm-qt
 
 Package: pcmanfm-qt
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 919
-Depends: default-dbus-session-bus | dbus-session-bus | dbus-x11, desktop-file-utils, lxqt-sudo, libc6 (>= 2.34), libfm-qt6-17 (>= 2.3.0~), libglib2.0-0t64 (>= 2.40.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 11), libxcb1
+Installed-Size: 927
+Depends: default-dbus-session-bus | dbus-session-bus | dbus-x11, desktop-file-utils, lxqt-sudo, libc6 (>= 2.34), libfm-qt6-17 (>= 2.3.0~), libglib2.0-0t64 (>= 2.40.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 11), libxcb1
 Recommends: eject, ffmpegthumbnailer, gvfs-backends, gvfs-fuse, lximage-qt, lxqt-policykit, lxqt-qtplugin (>= 2.0.0~), papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme, pcmanfm-qt-l10n
 Suggests: cdtool
-Filename: ./pcmanfm-qt_2.3.0-1_amd64.deb
-Size: 274912
-MD5sum: dc10967bd9edf0291a38bedd48bcf4cb
-SHA1: f1cb8bd05de0dbc4ee60b6b08ce56de9ea594216
-SHA256: de50b9239db07cfef74df7277dd3aeebc672c91706ec187c00af80faeee6727c
-SHA512: 6637de7c33a84706da759edcab8aa51a5d338bead677881fe8c21c53a845494fc71c9ca287788927c329342ab90629ef48b3f3b088f8ba0c2a49145479c7f510
+Filename: ./pcmanfm-qt_2.4.0-1_amd64.deb
+Size: 276568
+MD5sum: 76d473d993566d8a17c5a5ed9b528b03
+SHA1: 5aee1b52a15995fd896b37bacea3bf8b091d1ed4
+SHA256: fd70d90fc45b7b3cf3edb981bd97a041bcdccb878faa69a3bced2a0121ee24bd
+SHA512: b2419b259382ff43c9800a9516048b83528322560abb427bb8fccd199bd75e62f3ccd12f9d2112e2296634b11cf635af964ef69ddfcf97917e3ec4ecad4e791e
 Homepage: https://github.com/lxqt/pcmanfm-qt
 Description: extremely fast and lightweight file and desktop icon manager
  PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.
