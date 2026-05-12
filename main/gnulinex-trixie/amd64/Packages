@@ -39206,21 +39206,21 @@ Description: Qt 6 XML module
 
 Package: libqtermwidget6-2
 Architecture: amd64
-Version: 2.3.0-1+b1
+Version: 2.4.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtermwidget (2.3.0-1)
+Source: qtermwidget
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 660
-Depends: qtermwidget-data (= 2.3.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1), libutf8proc3 (>= 2.9.0)
+Installed-Size: 667
+Depends: qtermwidget-data (= 2.4.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1), libutf8proc3 (>= 2.9.0)
 Recommends: fonts-hack
-Filename: ./libqtermwidget6-2_2.3.0-1+b1_amd64.deb
-Size: 212392
-MD5sum: d7b2cac457510cf579705b9c0985b082
-SHA1: d8415065cd0844992f0cc6823b55949c8922f0e8
-SHA256: d42aeec679790d7c450dc1346184222703cc3dca17d20c3e444cfe7fa8d7e5e3
-SHA512: 5d29070f945a4cb6be9346778bd9cd0bf856a444903470ad29c2e90a1f4f31e454495002e0419a385e6b13410c656d5c506a5fcd386f9e1fb8fc2aaad6fb37fc
+Filename: ./libqtermwidget6-2_2.4.0-1_amd64.deb
+Size: 215576
+MD5sum: 788dacecdf60574416ce2716a89e42af
+SHA1: 6eb7777a0a05371568ddf5187a751940bbe52409
+SHA256: 6b6b572cc496a2e63f9efada97676602a8200afcabf32148977e87e2f001a28c
+SHA512: 89cafdd916d3b2c465c49db710a623cc4c6faae1c42de247ec0303e081670e77999f48df6c04a772121dd9bbe1672e5d30d44554b47c3aa0da276426d1129745
 Homepage: https://github.com/lxqt/qtermwidget
 Description: Terminal emulator widget for Qt 6 (shared libraries)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
@@ -51432,20 +51432,20 @@ Description: X11 Video extension library
 
 Package: libyelp-1-0
 Architecture: amd64
-Version: 49.0-5+b1
+Version: 49.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: yelp (49.0-5)
+Source: yelp
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 383
+Installed-Size: 382
 Depends: libadwaita-1-0 (>= 1.6.0), libbz2-1.0, libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.16.0), libjavascriptcoregtk-6.0-1, liblzma5 (>= 5.1.1alpha+20120614), libsqlite3-0 (>= 3.5.9), libwebkitgtk-6.0-4 (>= 2.39.91), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
-Filename: ./libyelp-1-0_49.0-5+b1_amd64.deb
-Size: 158044
-MD5sum: 7cd1acdec4eb83b71075c52d08c0ad3d
-SHA1: c7049a219708809b2425a02a17652e0a90ff767d
-SHA256: 7914ba247c9d5258c693f89dd18affaa04983bd442a7805e90afee5e32c72c6e
-SHA512: 1b28d983fbe1620afa845c62ef07707b19ea45d8dec360710ebe80f25a87edd1707e94fed20708a06fc83c31a9b82122fc60730efa1dd701bc1546ae7e339671
+Filename: ./libyelp-1-0_49.1-1_amd64.deb
+Size: 157880
+MD5sum: cdb48d232a381dd2c4190b43184b6e50
+SHA1: 4d8d567bf371d1250bf521d791ecdcb4292089d3
+SHA256: 0b220853c1049007b4858bc87e32bc21f4dfe73ec9ce45d78f4fa2855bdf6948
+SHA512: e514c9228275500ce9ede9a73f2e797480cbe4819bd640ce45dd024935ba65894fc04dab79750438ddbe3c4b4a33ddd675333953642093973b3763ef9d44f0f2
 Homepage: https://apps.gnome.org/Yelp/
 Description: Library for the GNOME help browser
  Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
@@ -52499,20 +52499,20 @@ Description: LXDE PolicyKit authentication agent
 
 Package: lxqt-about-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-about
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 168
+Installed-Size: 175
 Depends: qt6-translations-l10n
-Filename: ./lxqt-about-l10n_2.3.0-1_all.deb
-Size: 30384
-MD5sum: e0f22ea2e5c48fef981279ac1715fcf8
-SHA1: 4139f63708fddc16928cba5ed9c200dd5172bdc8
-SHA256: 08de65125f0f70ef22db86c7e56cd03e90078b57219548c522126b5f7c0288db
-SHA512: 5fa6aad1f8d0448864aba0b841857143bedbba7b05c9c5e5817faf01eddfca7e09da9e2a54e09ffdc4e55b70fe29d4cd5552f6c700c38a3017f0b7024479dbeb
+Filename: ./lxqt-about-l10n_2.4.0-1_all.deb
+Size: 31244
+MD5sum: 318ced3ef1a050947e02088f3d293b51
+SHA1: 0785239c9a49a6ce94782ce8c65f260fe77c62ca
+SHA256: 1d2434c7461783fe3f050655829ba5ea84db411b1f2a9166513d04ad0dedb695
+SHA512: 883bebb1f53b0629e8a5f365a6ac33dee954dbbbf94e4d8e21459da8defd20703e15cdd01bb5a5aaec2e84d19b1204e9408f8f57afeb00e1a829628797f9f2ca
 Homepage: https://github.com/lxqt/lxqt-about
 Description: Language package for lxqt-about
  The about screen for LXQt
@@ -52521,19 +52521,19 @@ Description: Language package for lxqt-about
 
 Package: lxqt-about
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 176
-Depends: libc6 (>= 2.34), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.3.0~), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.34), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5)
 Recommends: lxqt-about-l10n, lxqt-qtplugin (>= 2.3.0~)
-Filename: ./lxqt-about_2.3.0-1_amd64.deb
-Size: 47980
-MD5sum: 909b02aa45fda6b70c67cf4691f8eaa1
-SHA1: 12f0cf5c513156055a5340dac572ff90e18c72e2
-SHA256: 96f67537abdf62d029fcb50ded06604abbf0084ec8d402936216fa6956781606
-SHA512: 8da2e52cf16c95387ca6cb1501ff594ffe3282c01c80193c9ca9b1ac014423992355aeae268bdc684725280a3114d40ca11e1d0a4a718cf211278c3155752e08
+Filename: ./lxqt-about_2.4.0-1_amd64.deb
+Size: 47576
+MD5sum: da9b9d1c175eec4987eaea580a12c374
+SHA1: d9d32662e8e9d5767de7de2c7986ea264c050589
+SHA256: 53cea440429e7b341f139059672f48c28d315385153fb6f459fdaa9592841b09
+SHA512: 47b6ce0d02c5592aec77f4998aa388dff9a7f704444e6f464ff327a9e78bc36d0d7e8406bcffadc1937f858b5ea3ebbe8b2a147d12b5d5a459a0fbd7b38e4cbf
 Homepage: https://github.com/lxqt/lxqt-about
 Description: About screen for LXQt
  The about screen for LXQt
@@ -52542,20 +52542,20 @@ Description: About screen for LXQt
 
 Package: lxqt-admin-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-admin
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 306
+Installed-Size: 312
 Depends: qt6-translations-l10n
-Filename: ./lxqt-admin-l10n_2.3.0-1_all.deb
-Size: 45744
-MD5sum: b4f80d735f49419a5c2e2727fd68b539
-SHA1: 3ec5bb73db1667933450db19299695a5fae2a50f
-SHA256: 9b201673cdb0c8c4e137ce7ba95a3a12b8dc50f608d8148216244a9ab1daaa36
-SHA512: dacfb15a3479f393be4b7d6155bff4d8eaf18ccfce7639fb9200a172fded8e455c6b7a50d8c275b2b3fade06cedea35cb6166751dab9b68f101f0ce73934c482
+Filename: ./lxqt-admin-l10n_2.4.0-1_all.deb
+Size: 46412
+MD5sum: 373ac96bef8ba9e1017a63495b20a6b4
+SHA1: 5adfd1dee38ffac7b30de626c76e0f649ea0876b
+SHA256: c3e3341cd658fa2615e98f832feca5190f9f323bc45e748d5f828b100a909081
+SHA512: c7a386561bd1a9f959aaf5f20aee2b3fe3a4acc8bbd527f2bee08780c4f053b46de5bb57f52167e457cf7c8553db869bf01b2f901f4890c27bcc9350be550189
 Homepage: https://github.com/lxqt/lxqt-admin
 Description: Language package for lxqt-admin
  The l10n files for lxqt-admin.
@@ -52564,19 +52564,19 @@ Description: Language package for lxqt-admin
 
 Package: lxqt-admin
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 270
-Depends: libc6 (>= 2.34), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.34), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 5)
 Recommends: lxqt-admin-l10n, lxqt-policykit, lxqt-qtplugin
-Filename: ./lxqt-admin_2.3.0-1_amd64.deb
-Size: 66652
-MD5sum: 54c53e0015fe1a7c58f9adf74c890f96
-SHA1: c4720cdcf6a53e9689e4d21fe79669a868c0346c
-SHA256: d1006faecf6da422d63a26e13b73ee836b80fe3534beca45bbc8334ea161aeab
-SHA512: ad808956f56fe7843d9ae13259e47add210fd640b8a0ca984ed4ff78bfe3c99fa95cb0a5e186e0f0aed563ca08e4136cfc1a6dd11e08831c1fe226466ce06e28
+Filename: ./lxqt-admin_2.4.0-1_amd64.deb
+Size: 66524
+MD5sum: 030550a4d8a1c04e0f4743e6e1998bfa
+SHA1: e1803d2fe48efc31f174ae67fb1af48efb1621b9
+SHA256: 270da2827d762f2d6f11081457794bf1795034868f6c2e9c7e590b81a7378219
+SHA512: 4d4fd2f8898857346a3207f8f5bf28c53fdf29742dc45674d682aada8130dacc85277a4205fa4c16d92ef3873a70878d370923e6edaa564a3e8b19da83f3f42b
 Homepage: https://github.com/lxqt/lxqt-admin
 Description: Admin tools for LXQt
  Admin tools for LXQt, as of now:
@@ -52954,39 +52954,39 @@ Description: LXQt authentication agent for PolicyKit
 
 Package: lxqt-powermanagement-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-powermanagement
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 537
+Installed-Size: 544
 Depends: qt6-translations-l10n
-Filename: ./lxqt-powermanagement-l10n_2.3.0-1_all.deb
-Size: 78140
-MD5sum: 7dc88dd0bc243b2c4deadc8f78cf47e9
-SHA1: 85b47dc4772c894fc0fc14ae339779c1e33939a0
-SHA256: a52964eda16a397b569720032d0501f671a541530268d4de2f5f6a1344799194
-SHA512: 215563c92aeab48c71c276609ae394db47a90739bc00925fa1bf215cf9e993c51ad1c45cc29c5c401e3798c14ba1c5433cc025425e59fe69850f2432bc872a23
+Filename: ./lxqt-powermanagement-l10n_2.4.0-1_all.deb
+Size: 80176
+MD5sum: f70f8a766e2def90491eecc329d96cb2
+SHA1: 693615f7f0109ae0afa1bfc815301278c8be7317
+SHA256: 58984f9f781176a9f7f22baaddf1a1c87f2fd0ab35bb99d69e7f953bd34a98d5
+SHA512: b873618a680aa4733643aaa1db5034d32c819155fb0c9f41c49039c77925798361328f12258991dd9510c26f1e136b7b9aae4a4540daa421abd1d1d906d65c10
 Homepage: https://github.com/lxqt/lxqt-powermanagement
 Description: Language package for lxqt-powermanagement
  This package contains the l10n files needed by the lxqt-powermangement.
 
 Package: lxqt-powermanagement
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 449
-Depends: lxqt-policykit, upower, libc6 (>= 2.34), libkf6idletime6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.2.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libxcb-dpms0, libxcb-screensaver0
+Installed-Size: 457
+Depends: lxqt-policykit, upower, libc6 (>= 2.34), libkf6idletime6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.2.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libxcb-dpms0, libxcb-screensaver0
 Recommends: lxqt-powermanagement-l10n, lxqt-qtplugin, lxqt-session
-Filename: ./lxqt-powermanagement_2.3.0-1_amd64.deb
-Size: 110684
-MD5sum: 8727e879206116a47a894b1de104b79e
-SHA1: 75e621a11aa7742ef06b384460a8b08b8ffbb936
-SHA256: 9e70ef0a54ccc675a72042ad43f8056631c98327cbf1044c9114d937abadd818
-SHA512: 1a8adc3ffe344f42bf070cc66fa34f93a1c78cdb9f9c12af85c0eeac17cf1da48241cc9b7efd76b9ba8544475dcd01f1e5fcfef0d3780af7ad82527ed8f30287
+Filename: ./lxqt-powermanagement_2.4.0-1_amd64.deb
+Size: 112308
+MD5sum: befbf610d1f0ed7967d73ff0bcda2b31
+SHA1: 65a5ad8fc9adc3ff6e64351677ad2c1c4c5ba39e
+SHA256: ec74353670c5e2ac295778a038868d2ce64aba7aacf833edee3919d8313608b9
+SHA512: f6a226344f6dd264b31e26b21b548a8b8e20921ed2f4f377498b8b554a1c21de466011d7b9edc30ddc49c46793014994100bce644f89e4114580ed600d373086
 Homepage: https://github.com/lxqt/lxqt-powermanagement
 Description: power management module for LXQt
  The Power management module for LXQt.
@@ -53019,20 +53019,20 @@ Description: LXQt system integration plugin for Qt
 
 Package: lxqt-runner-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-runner
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 178
+Installed-Size: 189
 Depends: qt6-translations-l10n
-Filename: ./lxqt-runner-l10n_2.3.0-1_all.deb
-Size: 33332
-MD5sum: d897707874710a5cf5636aeed8dde345
-SHA1: 898fd8bd3504f812e66dd169c9d659bb721afd93
-SHA256: c41cbab1dcf7906109de9a4a5db6f9a0767acb40e470f5abeaa844b029f2b0e2
-SHA512: e455a6bb35b363c05abb833072fde0f6fdf3ae4b262ce32be31893d5e8b270bc6cb12e8477eaa4dce5272f8ff13608d17028cfb66b87d29f618e580f33043ee9
+Filename: ./lxqt-runner-l10n_2.4.0-1_all.deb
+Size: 34976
+MD5sum: 3998938ad64f79c62b6f3d4a1a61a492
+SHA1: 48dfc457261ada2ef619771f3a457ee693ef0156
+SHA256: cc9263ef1196cae8254a34ba65ef2e7852d095f90579b2d95885a871021e8514
+SHA512: 6ea0d3978bc9c27e3d19d8955bf07f8312b3129c0794009ed8aa6358dcbc22e9b35f3e738261a010436d541b886e4d8a700716e959f1f0486fb0f604f302b9d2
 Homepage: https://github.com/lxqt/lxqt-runner
 Description: Language package for lxqt-runner
  The LXQt runner provides a GUI that comes up on the desktop and allows for
@@ -53042,20 +53042,20 @@ Description: Language package for lxqt-runner
 
 Package: lxqt-runner
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 484
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), liblxqt-globalkeys-ui2 (>= 2.0.0~), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.0.0~), libmuparser2v5 (>= 2.3.4), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.3.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13.1)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.6.0~), liblxqt-globalkeys-ui2 (>= 2.0.0~), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.4.0~), libmuparser2v5 (>= 2.3.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13.1)
 Recommends: lxqt-policykit, lxqt-qtplugin, lxqt-runner-l10n, lxqt-session
 Suggests: lxqt | lxqt-core
-Filename: ./lxqt-runner_2.3.0-1_amd64.deb
-Size: 219928
-MD5sum: 3ad2244b6886972ceb5da226380f761d
-SHA1: 6c6d41c37c350e51a4473cb2b8e14478d4e75130
-SHA256: eea959f2bdde2a3e1ec2b453d30ee4792bf3ceaaef8047728c97377ce171de05
-SHA512: e55ff16324a0d837524c36049076a5dcb3bafeff36c3d9639a6a787003160e6b3ea642ccc141dbcea921c3a9aae9bb4789d074b617494580907cc9d56dfb997f
+Filename: ./lxqt-runner_2.4.0-1_amd64.deb
+Size: 219568
+MD5sum: 247e066497335eac14d52430a8e04fd0
+SHA1: 7d8b96bfefa221fabd2bf1c837fd9c426c338465
+SHA256: 03d9efdf23712c5ccff324722275f683e6a8d88def1bea00662eedf5cbe5ed7e
+SHA512: 66bf2e7b1dea9062a47e6775a33028deb4eb28b79a3e67730b42a8a8f971dd53cd3b4ca4c29a0313ec302841f11a8eebb1a8959ddb280e2f62a3975c8177e7c3
 Homepage: https://github.com/lxqt/lxqt-runner
 Description: LXQt program launcher
  The LXQt runner provides a GUI that comes up on the desktop and allows for
@@ -53158,7 +53158,7 @@ Description: Graphical Qt frontend for plain sudo
 
 Package: lxqt-system-theme
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
@@ -53169,12 +53169,12 @@ Depends: x11-utils
 Recommends: papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme
 Breaks: lxqt-common (<< 0.12.0)
 Replaces: lxqt-common (<< 0.12.0)
-Filename: ./lxqt-system-theme_2.3.0-1_all.deb
-Size: 897208
-MD5sum: 17e27e4d958f392c12793b1e146dd73b
-SHA1: c4cd7dfe1e7a6946469ae0d45bdf1db48bc8dd90
-SHA256: d0ac4d9c0e79b3d0e3a6d04ebbe6c5f6895d0d7603e9349779898aa87299e8ae
-SHA512: 461e4493b58e83018c01af0f35e53e0caa96a1a8a68d23699e2309d4a9f8383d3ee4ec283c21d214affec3ae530ae9adcedb3e0216bb363e2c9a23bee49825a1
+Filename: ./lxqt-system-theme_2.4.0-1_all.deb
+Size: 897132
+MD5sum: 85ba63b66c80dbfb54fe757110ee0a30
+SHA1: f03a31c65886fa1392cc3937389ad2f4c3205d6c
+SHA256: 530b6ef36a528b0a5d27a65c871c33dc02331e0b2e1bc4fe6f1baedf34667ac6
+SHA512: 23e8895ff85c8e9fe236c82d66f84b72eb60ff5288f4fa207c735a60e0729ae54b534a91a11b4920017d5a9d5714b0eb1202abff5b5461fa653043fa8fb8a6ac
 Homepage: https://github.com/lxqt/lxqt-themes
 Description: System theme for LXQt
  The System theme for LXQt provide basic styling for LXQt system
@@ -53213,20 +53213,20 @@ Description: Debian theme for LXQt
 
 Package: lxqt-themes
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 26876
+Installed-Size: 26878
 Provides: lxqt-theme
 Depends: lxqt-system-theme
-Filename: ./lxqt-themes_2.3.0-1_all.deb
-Size: 26369620
-MD5sum: 57b5b03677fd6ab5957ef2bb195b7a72
-SHA1: 84601b42076459eec23dd83c4e1a499ed7295e7b
-SHA256: f7ffbf917489fdd845b547e9ca1afd35cfbbfee66742624a00cba45b56856c54
-SHA512: 7691afb1d4b453593a5f6d821519235056ae88230c96b9a0120d799d530ed205a3beea8a553652edd6d0a808b355856a8d2367f820f71171841b09fa629eb26b
+Filename: ./lxqt-themes_2.4.0-1_all.deb
+Size: 26370580
+MD5sum: fa8b0f62a1eeed767c432b210cf8da91
+SHA1: 61c9fb48dfe18c380a5dfd7b9d53a3c269f90f8d
+SHA256: 861cfde71e6a2b9de628f7ba6d00f5d708455fea747e305dcc23edcc4aac0cbb
+SHA512: 7073748f0e2865435375a338633f90eeb2e07d97d0c43920b76781cf35db395c3fc9a9f289e7340f2b7dee417d73066a29682c40c18c23bb867b028c3a193bcb
 Homepage: https://github.com/lxqt/lxqt-themes
 Description: Themes for LXQt
  Some upstream themes for LXQt
@@ -62038,21 +62038,21 @@ Description: Lightweight Qt terminal emulator
 
 Package: qtermwidget-data
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: qtermwidget
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 241
+Installed-Size: 248
 Conflicts: qtermwidget5-data
 Replaces: qtermwidget5-data
-Filename: ./qtermwidget-data_2.3.0-1_all.deb
-Size: 42844
-MD5sum: f5752fca2a541ae215bbe2dfee469f59
-SHA1: 640235bd6512f4b9cc05068bcafa6af64a3121c1
-SHA256: 9f5bfe1fd89a5f890dfd5bd78358ea72a100fe89cea159b7244fb0dc85d73cd8
-SHA512: ab5aa98de7526062d8000aea12872007a2b19b990b313c59e1603d41d2d985f31b6603cd9b1b7518a6f716ab826616441056a4e7656f5a176fac2d48610768ff
+Filename: ./qtermwidget-data_2.4.0-1_all.deb
+Size: 44084
+MD5sum: b885fdf6dd713f04ad8de238f205b258
+SHA1: a55d3933a145d69627018cb61c6bbe745a89800d
+SHA256: 599725c41b26fc2c7f28b2a5f0c9a90bfe88799b8a505fd2cd5ec80d0cf9ec71
+SHA512: 052b5341604842203560ba4f34bb4a5ba436889205105510558d1ee3840002c66f669738c1e612c4c88558c9468bd5448495b38f1c856a45d6d88ff7d2ff56ab
 Homepage: https://github.com/lxqt/qtermwidget
 Description: Terminal emulator widget for Qt 6 (data files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
@@ -72782,20 +72782,19 @@ Description: XSL stylesheets for the yelp help browser
 
 Package: yelp
 Architecture: amd64
-Version: 49.0-5+b1
+Version: 49.1-1
 Priority: optional
 Section: gnome
-Source: yelp (49.0-5)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2727
-Depends: libyelp-1-0 (= 49.0-5+b1), man-db (>= 2.5.1-1), python3:any, python3-distro, yelp-xsl (>= 42.3~), dconf-gsettings-backend | gsettings-backend, user-session-migration, libadwaita-1-0 (>= 1.6.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.16.0), libwebkitgtk-6.0-4 (>= 2.5.3)
+Installed-Size: 2745
+Depends: libyelp-1-0 (= 49.1-1), man-db, python3-distro, python3:any, yelp-xsl (>= 42.3~), dconf-gsettings-backend | gsettings-backend, user-session-migration, libadwaita-1-0 (>= 1.6.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.16.0), libwebkitgtk-6.0-4 (>= 2.5.3)
 Recommends: docbook-xml, fonts-dejavu
-Filename: ./yelp_49.0-5+b1_amd64.deb
-Size: 792200
-MD5sum: a86fc9697d4d48d9e4e12069c98438a4
-SHA1: 5630df4b9d6d0e4de8ab2c44c0ea0153024478d8
-SHA256: a5e4e7fb3f2b851b71cb08a76fa27c9dd428f371bb2410405aac95a731c1404c
-SHA512: 9b2ca2e7e92ece5ddee75161ecee4fd9b1eaa4d6d8eb2c4e4579b0a4d1b7b538697d8db7cf90996858886bc5048b9c4df3b1445e6093581651f88d2c27c6ce20
+Filename: ./yelp_49.1-1_amd64.deb
+Size: 795460
+MD5sum: 7e782f85bb63d9a6998a19f7694d29ce
+SHA1: 98efde5eb9ba3339931050fea437676b7d4ea985
+SHA256: 720c22266051797410f19e396e7786926765e362fd7e9724239b0da114b95b35
+SHA512: 21e1b03ac5edee85265d831f4a69b7cd7fc1f9bd25c3eaebfb74f41e4331230d8272b310c0b3d4ae266704cdaf4fe548f52aae51b72b53f6489d1c373ba7e655
 Homepage: https://apps.gnome.org/Yelp/
 Description: Help browser for GNOME
  Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
@@ -72916,7 +72915,7 @@ Description: architecture independent files for Zsh
 
 Package: zsh
 Architecture: amd64
-Version: 5.9-8+b22
+Version: 5.9-8+b40
 Priority: optional
 Section: shells
 Source: zsh (5.9-8)
@@ -72925,12 +72924,12 @@ Installed-Size: 2499
 Depends: zsh-common (= 5.9-8), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
 Recommends: libgdbm6t64 (>= 1.16), libncursesw6 (>= 6), libpcre2-8-0 (>= 10.22)
 Suggests: zsh-doc
-Filename: ./zsh_5.9-8+b22_amd64.deb
-Size: 913304
-MD5sum: 6966b3f0d063977c87114a6701aad856
-SHA1: 5d94575e64b8c31edfce3177266984730cde8c15
-SHA256: 72c7a384452ea9c961bf251f4719a3559638ae2b47c6bee63c9bce37e930b68f
-SHA512: bd6523d5adfe1084a7c899f41c4caf4ba2013069025e1f6c83e9663718214ecdf194778be7af500517136d2c7058ad10f9f208d406de7a898c82a6fffd730175
+Filename: ./zsh_5.9-8+b40_amd64.deb
+Size: 912844
+MD5sum: b6da1490870fe42327718474de562095
+SHA1: 026c20248c4d4bd18c454b2e6f3535526f52d4bf
+SHA256: 0dee4458e665bb2f8761c31c8c7f2a38b600a67eabc2b7235d9685d727781b67
+SHA512: d0caf4f9323c4fb9e07a7b1121c5bb8a34d2f7cd41092ba15a5e7bec9ffe20d35bd8797f9d77b4c6bea973f8e81c65f2186fdffda4a801c200ab7536f015b2cf
 Homepage: https://www.zsh.org/
 Description: shell with lots of features
  Zsh is a UNIX command interpreter (shell) usable as an
