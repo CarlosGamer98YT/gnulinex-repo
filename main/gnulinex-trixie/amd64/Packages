@@ -3382,21 +3382,21 @@ Description: Firebird command line utilities
 
 Package: firefox-esr
 Architecture: amd64
-Version: 140.10.1esr-1
+Version: 140.10.2esr-1
 Priority: optional
 Section: web
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 266266
+Installed-Size: 266267
 Provides: gnome-www-browser, www-browser
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
-Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
+Recommends: libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
-Filename: ./firefox-esr_140.10.1esr-1_amd64.deb
-Size: 71163508
-MD5sum: 7073fdf60f43fb48631093cf3d73ac66
-SHA1: 580d6fa77a9c82588e7881c91669088a7a3d9eb7
-SHA256: 0dba9d2995769433c5479038ac6e15c11cf452eddd4e18227db120cab394ef7e
-SHA512: 7f56181e08a5a52ba4a90bdcb0c24666eeb9508d5401e6b1aeb9894822ffb6cd1f7c1a6f0dede16811d0f76f0caa4c56b7ab0e14e2cfeeb669540c30022cf5cb
+Filename: ./firefox-esr_140.10.2esr-1_amd64.deb
+Size: 71170104
+MD5sum: 32958112f21f19323180aac7969a4551
+SHA1: 77523d31294ef2adb24bf304f4271c438f3d9599
+SHA256: 676d45fe8ffb507f6b0f19024e6668e1fe6544ea11085bf4cdc955e2795d6137
+SHA512: b49625b35eee05a9ecc7eb106fdb11f93774507c51a5314f0df8e6677355323cf8a6ee9e22f4e98add53fb8a72f34bcaee7c4a872c99ec973434690390835d22
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -16862,7 +16862,7 @@ Description: Theme library for budgie-desktop
 
 Package: libc-bin
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: foreign
 Priority: required
 Essential: yes
@@ -16872,12 +16872,12 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 2119
 Depends: libc6 (>> 2.42), libc6 (<< 2.43)
 Recommends: manpages
-Filename: ./libc-bin_2.42-15_amd64.deb
-Size: 621160
-MD5sum: 50293b295c2f05455f7a445a4026ba66
-SHA1: b7ba3b26276d2d9f7efa4557db084cf1c358a68c
-SHA256: 3b65406d7d6ca84d826f82496778a99b0d396f099e91dcf31edde3963306c87a
-SHA512: 932597653799826fb56379c54e6282ebabdef287a4be8b1162c38a2d7ab87cd130ba8428594dbd475c9685b86d3c3f1f60d6fd3d6a4153bb4612113e461314fa
+Filename: ./libc-bin_2.42-16_amd64.deb
+Size: 621724
+MD5sum: c53d379255a49393b39e5bacd7afab0d
+SHA1: 5f16888952bfa489772e109854691f7c8cb41e95
+SHA256: e258267108803b19003757c18a79c64e4711bfcac39edbd4f84ef1b57f263aab
+SHA512: b047d48132d8ff551f7c72b69fb8b1caa1c9db538170fd9691e2aa4b0f34bf8c1bfd691c995a29a6e0d301eb7f2d9bf463300b6ce71b997706e346ade703a997
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
@@ -16891,7 +16891,7 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
@@ -16901,12 +16901,12 @@ Installed-Size: 106
 Depends: libc6 (>> 2.42), libc6 (<< 2.43)
 Recommends: manpages, manpages-dev
 Suggests: libc-devtools (>> 2.42)
-Filename: ./libc-dev-bin_2.42-15_amd64.deb
-Size: 37728
-MD5sum: 3c02769bf338fa1b0e86222169c55a16
-SHA1: 7ce0550e685da4596d53c43a84661af31f1956a8
-SHA256: 80e97602369a086b06b98fba55f2da1c86d8a99972670db81c2d5cb62cde4090
-SHA512: 8e10a0547b7a3c3e54d7e5829618656fe2a7a0b72c21bc5872ba739c3f48a9461c3836eb3d0a0d56efdbec4fbc9830748cf0f55d63d20897a60867829a5192b5
+Filename: ./libc-dev-bin_2.42-16_amd64.deb
+Size: 37876
+MD5sum: 3785adf62f3e20be3e3810e47eaf27b2
+SHA1: 181b23f7b5d50bf6fb6b2e6f8df74770b3be21fc
+SHA256: 2d90179b92c804fb3c792325d4aecf9bc51ae139909f3fb5a62bf013db5a66e8
+SHA512: c209b0365634711ece0daa32116e61f2500a39c3e0e4ce68922220b29da2b0584541980a0a506bd0cc003ce7f2373eb6bda35c2bd71df5fd33dc8ae1cb3a4a50
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
@@ -16916,7 +16916,7 @@ Description: GNU C Library: Development binaries
 
 Package: libc-gconv-modules-extra
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16925,12 +16925,12 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 7991
 Breaks: libc6 (<< 2.42-1)
 Replaces: libc6 (<< 2.42-1)
-Filename: ./libc-gconv-modules-extra_2.42-15_amd64.deb
-Size: 1101744
-MD5sum: 72b5f8d09d00531c85391b87573575a8
-SHA1: 44f8f98f238a51c770a3d99d2fd28696cf2789b9
-SHA256: aa7b969c40c886841b6d70cef3ee7ce13c467fae8e124492d0500ced72d513aa
-SHA512: e7bd3e3ec24c0871f0cd84f7a03a97341a2f787e055cdbb7525973fab3a696cd524d3a99541636fb4e0a61a1a50991c5849657a6a1be6fe430746de8e5da4499
+Filename: ./libc-gconv-modules-extra_2.42-16_amd64.deb
+Size: 1097576
+MD5sum: a70fd00681094b493df482d5c094077f
+SHA1: 970b90659e3391205f88f6ff85227403c96dae1a
+SHA256: 42be77e33686bfa092e31fd2da3f0c42443576e4b3033e84a69c6d8dcabca67d
+SHA512: 9d24fa632095eaaf9cc214afcb6a1db7e2c64af9f9cbceb6e40efa82a5e5019f75d4ceaf0724f4f4d71ab1a320d93835659373f72de15a2fdd644231780058c2
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Non-essential gconv modules
  This package provides additional character set conversion modules for the GNU
@@ -16939,19 +16939,19 @@ Description: GNU C Library: Non-essential gconv modules
 
 Package: libc-l10n
 Architecture: all
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: foreign
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4772
-Filename: ./libc-l10n_2.42-15_all.deb
-Size: 726372
-MD5sum: 317c25775c7bff6ffd1f73bc9637c171
-SHA1: 2bc9da9f8f76b02fddad341229efe0b15a67446e
-SHA256: 4fa59bdd4ce4915f806fc1290c4dbf4ffa271dd7c875887f27d7edcdf9475eee
-SHA512: 89cb9a37ef0907f781758371c18f2323a566eda345baaaed3afa5640868000f71743cb57dd60d067ac6fa81d4e87c50e95a82d6ed929ff9bc9ab873a7bbb370a
+Filename: ./libc-l10n_2.42-16_all.deb
+Size: 727136
+MD5sum: 9cd89f903e8802ed4fdd9c146a2d4ed2
+SHA1: 8c445766f2ff600c8db7a5721314efcbc68a70ec
+SHA256: 93d3bb38c15446395f0b4d275e969e61ddfe2468fa5cf6658f0a06ca4aba8bd1
+SHA512: b94205095635fba1572d82827fe6ff4a1cb1590e3ef4a6cb067813fc8a65f9674477e10d7b2c166bdb75f392da786d6f951746c6e15aac9c2201a2275e581495
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
@@ -16959,24 +16959,24 @@ Description: GNU C Library: localization files
 
 Package: libc6-dev
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12680
-Provides: libc-dev (= 2.42-15)
-Depends: libc6 (= 2.42-15), libc-dev-bin (= 2.42-15), linux-libc-dev, rpcsvc-proto
+Installed-Size: 12681
+Provides: libc-dev (= 2.42-16)
+Depends: libc6 (= 2.42-16), libc-dev-bin (= 2.42-16), linux-libc-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: catch (<< 1.12.2-0.1), libc6-dev-amd64-cross (<< 2.42~), libdpkg-perl (<< 1.22.22), libmysqlclient-dev (<= 8.0.29-1)
-Filename: ./libc6-dev_2.42-15_amd64.deb
-Size: 1993500
-MD5sum: cffacdcb5c55d2b4d6dac81e4213a38a
-SHA1: 8b75ae85232fe7264d9fd8f2e7d39fc899b08221
-SHA256: 339d3e610a01b132fe13e5d4897c6fb537b91963d26bfdfebd326d64f5ac3e9e
-SHA512: c5866fa3da6e24dc10ccf379344af613fdd710f955a477e03a6d088eb485fc644ddaee1772aefcb0d2642b11e0863c01b600010f9aafa939724b59573f7fd742
+Filename: ./libc6-dev_2.42-16_amd64.deb
+Size: 1996236
+MD5sum: 6355dc9658e91af41aec7825b2153daa
+SHA1: 11bbe2c4b9c48a172f52bc7a18b4573357590e69
+SHA256: ec408f149d89e3c008589de8f9c2ef5c982cdd418e7833516c217e686fdb8f6f
+SHA512: 50606edbe3dcfbd16848e220617a137770dbfd135debae44f4de707876ee4da9ce74b14d1e389e90c49a275a6554f1e682b732c013c1e0e2b627a48f2220d0e7
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
@@ -16984,24 +16984,24 @@ Description: GNU C Library: Development Libraries and Header Files
 
 Package: libc6
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 5363
-Depends: libgcc-s1, libc-gconv-modules-extra (= 2.42-15)
+Depends: libgcc-s1, libc-gconv-modules-extra (= 2.42-16)
 Recommends: libidn2-0 (>= 2.0.5~)
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus
 Breaks: base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)
 Replaces: libc6-amd64
-Filename: ./libc6_2.42-15_amd64.deb
-Size: 1793792
-MD5sum: 7c7be17b54690eab8b642d16efd44452
-SHA1: 0a984b284847ebbafe74310884dd1117dfea9024
-SHA256: c15097e0318c663d076d87070df8352586de522fedf953881b7d0404b41058a9
-SHA512: 8d576c48b90c90c8abf135298635ab6889769f59197f9ce59816a9dd0504812442f8adce6fe19f8f88bf47207710fd820cebdadbdd96f04cca20a7e4008641d3
+Filename: ./libc6_2.42-16_amd64.deb
+Size: 1789008
+MD5sum: 9d45ef835b92bf108b8b1d3d9496aa0a
+SHA1: d4d81bc6e8fc7e34265c6466e75bd1ba08e4adf9
+SHA256: acffdc7b51c540d9e0e632c95c2941ef12402b3c609a1f086d17cad08a10edbc
+SHA512: a52925abe3f754951ab72e66296b22be951f675f47fed6c9a1c06e2fb54f8eef2068a4fad96a3aee08111b391e5277d7df6f923f93ec83dc7cfa3441b173102b
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -34682,19 +34682,19 @@ Description: nss module providing dynamic user and group name resolution
 
 Package: libnss3-tools
 Architecture: amd64
-Version: 2:3.123-1
+Version: 2:3.123.1-1
 Priority: optional
 Section: admin
 Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 5177
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libnss3 (>= 2:3.117), zlib1g (>= 1:1.2.0)
-Filename: ./libnss3-tools_2%3a3.123-1_amd64.deb
-Size: 1108408
-MD5sum: de79429394fee9450e525e520b870de1
-SHA1: 532f03cb6d79c6b6cd8b8b08f4f6975af8dbc5cf
-SHA256: 70073bef809107ad519cdd3ff9e0e3f8298b2f5e35ae31ae2059a950445961b2
-SHA512: 1374c8b4818ff6a9ea8c69d983010647e9a5972e548edd4778892b77d873fddaf32b5ffb31d9bc0c80a34e64c3d43be81e3517956f2065c44d9cc1087d4f7fa5
+Filename: ./libnss3-tools_2%3a3.123.1-1_amd64.deb
+Size: 1108736
+MD5sum: 8f6be215b1ea59cc059a595d271e1b8f
+SHA1: c6ffba0cf75745f9f3a6d6a33df52857d9156e69
+SHA256: 814d5e324f17d9f47fecf5464b0245698ebe702cbddcbbb85ae1f60b9f664701
+SHA512: f028494212bef7880a85e07fb19825019589b97f956d6db721b4de4b3892520f77734268e03189fe8c7458d79f08cff23f72a770110f167b43901ffd30d9d092
 Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description: Network Security Service tools
  This is a set of tools on top of the Network Security Service libraries.
@@ -34711,7 +34711,7 @@ Description: Network Security Service tools
 
 Package: libnss3
 Architecture: amd64
-Version: 2:3.123-1
+Version: 2:3.123.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34719,12 +34719,12 @@ Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 4555
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libsqlite3-0 (>= 3.5.9)
-Filename: ./libnss3_2%3a3.123-1_amd64.deb
-Size: 1423576
-MD5sum: 1f39b975db3041837f5e0564d35b138f
-SHA1: ac754ab2a66a439c7b737e8ca6f5db80e67a68f8
-SHA256: 9e68dd9d52b1ca52b2f57f3296fcf48faf291c43ee3b180df74206340b76d243
-SHA512: f22e231c47391898f73e72b310266a0061e2b9f8721b16d349a22b3e182ecddc74df3b201fb44d5c798b76ca977aa50af1ceef84907ca36364f95952d18f6d05
+Filename: ./libnss3_2%3a3.123.1-1_amd64.deb
+Size: 1422980
+MD5sum: c18ed87d923c7ae78337638906cf46f7
+SHA1: 9d1ee71a4cb1500b3202f44dc22992e25797d7c8
+SHA256: 1f80fabf6ed8de8faa0ac72ae81532db374933722b02706f8590fac4ef8c5038
+SHA512: d03cf6d542d8e5230505bea97063ed2e494e4ebefe37def60969e6c2a443e6b05332f93559b57be9a8fe662512362c0007930112daeb6d8b52251d540a25224d
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 Description: Network Security Service libraries
  This is a set of libraries designed to support cross-platform development
@@ -51380,7 +51380,7 @@ Description: scalable PostScript and OpenType fonts based on Computer Modern
 
 Package: locales-all
 Architecture: amd64
-Version: 2.42-15
+Version: 2.42-16
 Multi-Arch: foreign
 Priority: optional
 Section: localization
@@ -51388,12 +51388,12 @@ Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 236446
 Depends: libc-l10n (>> 2.42)
-Filename: ./locales-all_2.42-15_amd64.deb
-Size: 11145156
-MD5sum: b16fc8597e2f6f519c73803be2f05f4f
-SHA1: 4a12d9ab0e2f34c914bdb97564449db459e735e7
-SHA256: 8ebf4ea25f5d23b51408ab86f42779d83c60be6a732af66cbe7cd446801a5ae7
-SHA512: 9e02d21cfe659585ba67e743a6651be66ee4b5804c16a787abb16e4176efcff3806dafcc4864ded2d6689f9a86135189ecb383811328ba99a68163683e5d0121
+Filename: ./locales-all_2.42-16_amd64.deb
+Size: 11188664
+MD5sum: ffa63928d48aae1d411e6cacf530fc97
+SHA1: 7053b29fa244e95960d6fc6c9a8d1acf2a43ee3a
+SHA256: d4903813f314b2c8a8f9e61da31eebcc0545045e0793ad2ff0711efd3dbefc80
+SHA512: a89078d9047bd7c89d8b90c45c170c3c9bcf3edbecdff7ed6fbc8796a4ce1334edcec9f5d3a01004f8c9de0d7587f0a11368e404865b1817321626badf475448
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
@@ -51403,19 +51403,19 @@ Description: GNU C Library: Precompiled locale data
 
 Package: locales
 Architecture: all
-Version: 2.42-15
+Version: 2.42-16
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15751
 Depends: libc-bin (>> 2.42), libc-l10n (>> 2.42), debconf (>= 0.5) | debconf-2.0
-Filename: ./locales_2.42-15_all.deb
-Size: 3904088
-MD5sum: 93341bc6884f1573b110b5e9a0da10fa
-SHA1: ca299cc1679e0a42d8cd161550a1881eefe8b6b5
-SHA256: 2a8d83ae20541b408cfd6b5b31f40d68f6a51052563d5ea9b71c6fac7ec9bbd0
-SHA512: 574282f13663a639bc6069b8bd9edbd2aeba7caf7d90ca54a69df379586e453936ba1f125996e421235f5b342141e990f49cf2cde6e8d874a3f170242fad5a12
+Filename: ./locales_2.42-16_all.deb
+Size: 3904744
+MD5sum: c55a321c54cd59f94f6afe53c113f7d5
+SHA1: 0d32e9de07bdbb47e99c25587b1976dbc63fcf11
+SHA256: 6b709900503f5e5ce65a686468cbf3f0d6d4e1004982d7e9c976b7910460d001
+SHA512: a1a2b325842cbef6785c92f436d8fbec5ce8dd78459b9c684ef0865ee35c6c91757fb2ec3f4408ffd0aa2306d783d6e283791957ed6a3b0fa7ac66148e52bad0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
