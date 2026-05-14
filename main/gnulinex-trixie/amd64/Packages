@@ -3725,20 +3725,20 @@ Description: OpenType and TrueType Hebrew fonts
 
 Package: fonts-dejavu-extra
 Architecture: all
-Version: 2.37-8
+Version: 2.37-9
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-dejavu
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 6733
+Installed-Size: 6732
 Depends: fonts-dejavu-core
-Filename: ./fonts-dejavu-extra_2.37-8_all.deb
-Size: 1792460
-MD5sum: c613d279e5faebe546018b811985a29c
-SHA1: dd7d3bfb49b9fb9bf42ce337b8823c9511312275
-SHA256: 83128d00e5d7db412fe5a7a4e2ee32aebbf8d9ed560ad611202fb43078f80323
-SHA512: 578781ba69e7fb9efc17cf8af1c8b915c5124ae3eea9b04144fbdac18dd8d3b6a1d32a019e55ce5a41d2f209dee8808876cf9d69646fcc454c51bcea703721f9
+Filename: ./fonts-dejavu-extra_2.37-9_all.deb
+Size: 1791476
+MD5sum: cf7cb99a4e29a35bf57afa012ac97b42
+SHA1: c265cb95cb75f59eadd47fa4e1e16927645ad2e2
+SHA256: 879ec04d78f32c313be77a0de1b5bb32decef853804e417aed088c962bf14460
+SHA512: 5e12ee33dabd2424d418c2bd49ca1ca30f3d4d2b8f92da43237830593f0173860af18ca68ee83879dcdb2bb8b4f4339bdeb617ece5b33243626cda2aa431c892
 Homepage: https://dejavu-fonts.github.io/
 Description: Vera font family derivate with additional characters (extra variants)
  DejaVu provides an expanded version of the Vera font family aiming for
@@ -3755,19 +3755,19 @@ Description: Vera font family derivate with additional characters (extra variant
 
 Package: fonts-dejavu
 Architecture: all
-Version: 2.37-8
+Version: 2.37-9
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 35
+Installed-Size: 34
 Depends: fonts-dejavu-core, fonts-dejavu-mono, fonts-dejavu-extra
-Filename: ./fonts-dejavu_2.37-8_all.deb
-Size: 27944
-MD5sum: 618f11bda228f95a1f0989ae44bbbce1
-SHA1: c8f8ca2da00293468d4c4b3b26f61e2bfd0bca13
-SHA256: 8ded26da5970ece659294d56d37ef17256b57092f1d65581c5d533aa43879844
-SHA512: 4ebd89d6efcaf9a8be47fdb391340eba043f7378c3b4e641fa2d6a1b0900bb41dce961af3c25ab15459eb4fa3e4f452f3ed4cfc309d25414a366b6aae52fc9f7
+Filename: ./fonts-dejavu_2.37-9_all.deb
+Size: 27280
+MD5sum: a509ebb8c9f0d9690747a5f4403eb4f2
+SHA1: c86d2fdd296472f4a2de37b50a0e1e31ef82a0fe
+SHA256: 5acfefe073b287af2bf2dc44d883786422478ae0f2970d53e0f53d69e6826633
+SHA512: 423c245bf8f3142955d077bb4bab82437210138685bd639a4d0857a5d5437aaed680f1ac146ba31c98bca53d989ca348591aae3a1ce828926e3ae95e46b5a99a
 Homepage: https://dejavu-fonts.github.io/
 Description: metapackage to pull in fonts-dejavu-core, -mono and -extra
  DejaVu provides an expanded version of the Vera font family aiming for
@@ -7989,20 +7989,20 @@ Description: Introspection data for GnomeBG (GTK 4)
 
 Package: gir1.2-gnomebluetooth-3.0
 Architecture: amd64
-Version: 47.1-5
+Version: 47.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gnome-bluetooth
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 25
+Installed-Size: 23
 Depends: gir1.2-gio-2.0, libgnome-bluetooth-3.0-13 (>= 42.3)
-Filename: ./gir1.2-gnomebluetooth-3.0_47.1-5_amd64.deb
-Size: 8164
-MD5sum: 60632b0aa27459e884988230d7815a9a
-SHA1: 5d0058cf377e6b03a39255cbf6e2b7bff4ce6d0b
-SHA256: 0240b159e7d3422722f1f03511cd15df1dfe6ee59601779c974e0c53f5d719cf
-SHA512: 654c9303f426f2c987f6938e8415671b75ed81043e41f99bf2e14253b2cb29b523e5c303e2348a262a47bd574465cfe07d0e42f2fae5b74cde6ab419b701dd91
+Filename: ./gir1.2-gnomebluetooth-3.0_47.2-1_amd64.deb
+Size: 6236
+MD5sum: fd431365a85e13c37d2018b0277654a1
+SHA1: 00fa1bcac533c8a5f3309fe9848cbc1fc2c92d30
+SHA256: 440fda2904b7623cd7ba86745f3d9055c222a7242b4ec31e4fd6a53cb12794e7
+SHA512: f60e0a58ad53d3c0d20020f57575b14036825c4f1c1f5d75c17ad7ef41e46a3680436c5ca5b1ce9bc0daf85dcd1e01e4cfcc7d10614bd7291655c1a49e96201a
 Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
 Description: Introspection data for GnomeBluetooth
  This package contains tools for managing and manipulating Bluetooth
@@ -9731,19 +9731,19 @@ Description: Set of backgrounds packaged with the GNOME desktop
 
 Package: gnome-bluetooth-3-common
 Architecture: all
-Version: 47.1-5
+Version: 47.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-bluetooth
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 975
-Filename: ./gnome-bluetooth-3-common_47.1-5_all.deb
-Size: 141100
-MD5sum: 690133fd043c1779e260e8b418db955d
-SHA1: 2775c864fea1795c98996c1779d19179a8198219
-SHA256: f533550d2554dc7e33597ef55ba1dc07867a65e5a57d3c384bea1bbe65673b63
-SHA512: 02cc6b07b0750445455ee1d83123da5b911e6ca0e0edb7b855e398066de0fe5a3ca404ca4f89b88130e8b1bafb1f09bb4a46e46497e386c036b8050bc7054308
+Installed-Size: 970
+Filename: ./gnome-bluetooth-3-common_47.2-1_all.deb
+Size: 139028
+MD5sum: d87d801c734f3a6f21ebc8e48a41c8e1
+SHA1: e9fc2620c5aef94bb7a8eccc147ce77267ffde98
+SHA256: 1ad4b0f542cc9630a871787db719ada5786ce9dcbdb78691c03f58e533547f4c
+SHA512: e7a04c80f2681c0af31d2eec0c1b08605d3ae68b89372550990a0370ace500877d7b2b0e3324826bf4c6f307b7d243ae5b74e694cb9c838246e122b6433a42e0
 Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
 Description: GNOME Bluetooth 3 common files
  This package contains common files for the GNOME Bluetooth tools
@@ -9751,20 +9751,20 @@ Description: GNOME Bluetooth 3 common files
 
 Package: gnome-bluetooth-sendto
 Architecture: amd64
-Version: 47.1-5
+Version: 47.2-1
 Priority: optional
 Section: gnome
 Source: gnome-bluetooth
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 61
+Installed-Size: 59
 Depends: bluez, bluez-obexd, udev, libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.44.0), libgnome-bluetooth-3.0-13 (>= 42~beta), libgtk-4-1 (>= 4.15.2)
 Recommends: gnome-control-center | budgie-control-center | unity-control-center | ayatana-indicator-bluetooth, gvfs-backends
-Filename: ./gnome-bluetooth-sendto_47.1-5_amd64.deb
-Size: 18524
-MD5sum: 48a7915532fce4bc32a9204c3f2c8611
-SHA1: 12a918fe6768b37967f68d429c7288f82d7ccb15
-SHA256: f2bfeff6fa6079f49178f1adb5b7156bce908a0a0de051a8e674f80db46a4639
-SHA512: 99441745597a14cdcb8529f7d597ab015784b1938e828fa488d35438972dfdf6301c85c9c8b2fb40a1f7836bcfa7714f2b0fb76401d97e9985d9501a4747e3f7
+Filename: ./gnome-bluetooth-sendto_47.2-1_amd64.deb
+Size: 16512
+MD5sum: 9faf46ef5dd0ad5ade123b1ef7f370b8
+SHA1: 7d611fbda43af7186a3325055764fcbabcaf33b0
+SHA256: bd20f291a9789eb95ea39e1a4156814effe9c6d96a76213693f9f53732afa61f
+SHA512: ca7b36fd9b18ec4ba43a2b67d04ef73a72945e993668570f3aa82a3e4d1b59f810611cb2550204a76d8f53b7d5c19b5bf4db67aedf6be8a2677f0b0421e37ca1
 Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
 Description: GNOME Bluetooth Send To app
  The GNOME Bluetooth Send To app is an easy way to send files
@@ -14477,20 +14477,20 @@ Description: helpers for scheduling the dark-light cycle for the Plasma desktop
 
 Package: konqueror-data
 Architecture: all
-Version: 4:25.12.1-1
+Version: 4:26.04.0-1
 Priority: optional
 Section: web
 Source: konqueror
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 10843
+Installed-Size: 10937
 Breaks: konqueror (<< 4:24.08.2-1~)
 Replaces: konqueror (<< 4:24.08.2-1~)
-Filename: ./konqueror-data_4%3a25.12.1-1_all.deb
-Size: 2887104
-MD5sum: 5ed9f10567b06b1d99defb9b3dd7ebdd
-SHA1: 41d62cfdd4591f3be8c73acfd65fc076a24fe85a
-SHA256: 39e03dd56358fae6aa667c51c0c7d9f0a29f5c78fb5392966091e39d814682a9
-SHA512: e9687a5bb747af3042feb1431197f3c7da25c12f8c6cf20926d27c58dac2340f4fe2940cce5d49a21af5b3109d58b821c02338e0c3d432e53f6fc30d07d8013a
+Filename: ./konqueror-data_4%3a26.04.0-1_all.deb
+Size: 2897948
+MD5sum: b31626d48f1ae7aae75bb8db7d00e12f
+SHA1: cffbf879a95f62fabbd3ad15a90f4d3d81aec341
+SHA256: 686628891aa5e1529284e0453a6444a3c80725e74d54dab0a9dad17da4af4cd1
+SHA512: 0e76dcf457d59ed4af4ccb5b49e4754b8aeef4265753acfdfcbdefca15dab0de7ff46a00e2250dc72c3b1086b61516e551130a8e67823ab5026bfd9175964a18
 Homepage: https://apps.kde.org/konqueror
 Description: data files for Konqueror
  Konqueror is the KDE web browser and an advanced file manager.
@@ -14499,20 +14499,20 @@ Description: data files for Konqueror
 
 Package: konqueror-doc
 Architecture: all
-Version: 4:25.12.1-1
+Version: 4:26.04.0-1
 Priority: optional
 Section: doc
 Source: konqueror
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 9191
+Installed-Size: 9411
 Breaks: konqueror (<< 4:24.08.2-1~)
 Replaces: konqueror (<< 4:24.08.2-1~)
-Filename: ./konqueror-doc_4%3a25.12.1-1_all.deb
-Size: 4076096
-MD5sum: c46c637b13a9d3c91457890c267b99cb
-SHA1: 87a35193ddd8d5656545d1140885e111162b4a86
-SHA256: 4808e57dfa53ddb4a0a2903a5a17e463a68b7c7d2aaddd51f4ecd193a16f1ad8
-SHA512: 5633ecfd8bc31344e847caaa38eb769adb8c5877842670bb3d1aac36afce3f2a103cc090fb90d59048d27f7d1a714d6e354dfbcaad69e1f4aab7344d6ca27fd9
+Filename: ./konqueror-doc_4%3a26.04.0-1_all.deb
+Size: 4135928
+MD5sum: e7cce4cb5806d137e5704c5149c7e368
+SHA1: 4ab61d16c0df8e1290040aef96dd391f07aae2ed
+SHA256: a1afbf22791c509dd9928a731c739faecb89d59b4fe4b1bf9fae50f77ab9b9dc
+SHA512: 940fe2216b9bde7b05f51756c368f76c930592e486f9f4dde629424e221af71c5a291fef7c83bb31735432e70691d8dd6810bd9ad59253ac7c2e7bc6e0927b21
 Homepage: https://apps.kde.org/konqueror
 Description: user documentation for Konqueror
  Konqueror is the KDE web browser and an advanced file manager.
@@ -14521,22 +14521,21 @@ Description: user documentation for Konqueror
 
 Package: konqueror
 Architecture: amd64
-Version: 4:25.12.1-1+b1
+Version: 4:26.04.0-1
 Priority: optional
 Section: web
-Source: konqueror (4:25.12.1-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7884
+Installed-Size: 7982
 Provides: info-browser, man-browser, www-browser
-Depends: dolphin, install-info, konqueror-data (= 4:25.12.1-1), kio6, kwallet6, libc6 (>= 2.34), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6bookmarkswidgets6 (>= 6.0.0), libkf6codecs6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.13.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6konq7 (>= 4:25.12.1), libkf6konqsettings7 (>= 4:25.12.1), libkf6parts6 (>= 6.4.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libplasmaactivities7 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.4.0), libqt6printsupport6 (>= 6.4.0~), libqt6webenginecore6 (>= 6.10.2), libqt6webenginecore6-bin (>= 6.10.2), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.8.2), libqt6xml6 (>= 6.4.0~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2), qt6-webengine-private-abi (= 6.10.2)
+Depends: dolphin, install-info, konqueror-data (= 4:26.04.0-1), kio6, kwallet6, libc6 (>= 2.34), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6bookmarkswidgets6 (>= 6.0.0), libkf6codecs6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.13.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6konq7 (>= 4:26.04.0), libkf6konqsettings7 (>= 4:26.04.0), libkf6parts6 (>= 6.4.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libplasmaactivities7 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.4.0), libqt6printsupport6 (>= 6.4.0~), libqt6webenginecore6 (>= 6.10.2), libqt6webenginecore6-bin (>= 6.10.2), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.8.2), libqt6xml6 (>= 6.4.0~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2), qt6-webengine-private-abi (= 6.10.2)
 Recommends: kfind, konqueror-doc, libkf6kcmutils-bin
 Suggests: konq-plugins
-Filename: ./konqueror_4%3a25.12.1-1+b1_amd64.deb
-Size: 1007344
-MD5sum: b0b9eb14dfebd1b724d219f18bbf0925
-SHA1: 7c6c28500f64dd2c7eba36e3aeb7bf3827ea5982
-SHA256: 83a079517e07814355ed379aca0be2ff8d495fbc273b67b0ca2132e769de4eaa
-SHA512: ca404954de7965c926b31aa14af0861f9a6d3a1736ebb8d1d6fdc7085c7233479daacf1ef2cf7b4e66e290e98142d8e009b0e9fb8f7b1df2f493429b55a65423
+Filename: ./konqueror_4%3a26.04.0-1_amd64.deb
+Size: 1032692
+MD5sum: 8538f83355e6f0bbc5fbaa2344227e1d
+SHA1: 16441d8c0dcfd2ab6eccb4d6ec0538f71df57d25
+SHA256: e27773249161091f2ef63dc5e82f587bb80a1b1dbe07547adc0c90c89c11e1c3
+SHA512: 424e4b5adcf34ed5ceb2a94ff4f8ef15550f88e898947d983dbe60a6589dbe6eb31396ed0f5088c6cf8c734f4fb801dc16426e1da5c7c7d14d9eb38f36eea27e
 Homepage: https://apps.kde.org/konqueror
 Description: advanced file manager, web browser and document viewer
  Konqueror is KDE's Webbrowser and swiss-army-knife for any kind of
@@ -22913,20 +22912,20 @@ Description: Utility library for background images - runtime files
 
 Package: libgnome-bluetooth-3.0-13
 Architecture: amd64
-Version: 47.1-5
+Version: 47.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-bluetooth
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 188
-Depends: gnome-bluetooth-3-common (>= 47.1-5), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libudev1 (>= 196), libupower-glib3 (>= 0.99.14)
-Filename: ./libgnome-bluetooth-3.0-13_47.1-5_amd64.deb
-Size: 58012
-MD5sum: d4dd690801713ce63a288935ccc60461
-SHA1: bce701f8627f33a26554478283a05608b89e0406
-SHA256: cddaba5b53379aaee4ad6f431bbf0bab7510e2d8ec65f08f4feea12b7fc3cc39
-SHA512: aea28825d4c0b7f8cf66e930bee87a6f46224b573e43ea2db7353d5b54872d853acf84c91ab1e37eaa67536d46a17605aa8198a451ad46cabc348b7a7ecffbde
+Installed-Size: 186
+Depends: gnome-bluetooth-3-common (>= 47.2-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libudev1 (>= 196), libupower-glib3 (>= 0.99.14)
+Filename: ./libgnome-bluetooth-3.0-13_47.2-1_amd64.deb
+Size: 56048
+MD5sum: 3a822673bf576cbb4e31de25b6129126
+SHA1: 77cfbecaa1540567229a2eb94b3e616b7b716cb9
+SHA256: d171d83ec82660077a11273f916bb81aced561eb5dfeeef2ddd22c75432f1957
+SHA512: b9503d03adeb3012b01a1994c576704f4e045498f61c6a7dc81c1276ac7c39e4c7857055cbc57e4e128b5315dec301302846077e4d5975e33b65e1de2793ee27
 Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
 Description: GNOME Bluetooth 3 support library
  This package contains tools for managing and manipulating Bluetooth
@@ -22936,20 +22935,20 @@ Description: GNOME Bluetooth 3 support library
 
 Package: libgnome-bluetooth-ui-3.0-13
 Architecture: amd64
-Version: 47.1-5
+Version: 47.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-bluetooth
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 233
+Installed-Size: 231
 Depends: libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgsound0t64 (>= 1.0.1), libgtk-4-1 (>= 4.15.2), libnotify4 (>= 0.7.0), libudev1 (>= 196), libupower-glib3 (>= 0.99.14)
-Filename: ./libgnome-bluetooth-ui-3.0-13_47.1-5_amd64.deb
-Size: 65756
-MD5sum: c1a9e8c8199daa5a2eeeeb7ef9c6a1b8
-SHA1: a8d026645f6666047935c046f85537872f310459
-SHA256: 392d3bc5c5f6f04c88afaedb4bd1a7be6551c970eee102ca6390680b774d0c65
-SHA512: dd6180be8b88a89d572377281af52f45432c97a635849382841b62ab35f9b717a0a6150078dbd6350321e52da9105fa31e92228c6d531026819fa69e0a3deaab
+Filename: ./libgnome-bluetooth-ui-3.0-13_47.2-1_amd64.deb
+Size: 63716
+MD5sum: 02cb420e2536917ca0445dd544447b33
+SHA1: 58c4926f28011860f27c9a690ce82a5bef34fe20
+SHA256: 5daee42565a6c39e8c0f8e4702e94e9b0db1d2d93a92ba08e4ac68b92963cb92
+SHA512: 4f3a6964f39942f79283efa0078f8aa498112a134ec3a0e7e3e6a3e8e4c158b81ac6e325b19de2f2a3d3023339b15182b2af64d1813889b5fe574b9927130c77
 Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
 Description: GNOME Bluetooth 3 UI support library
  This package contains tools for managing and manipulating Bluetooth
@@ -27935,22 +27934,22 @@ Description: resource and network access abstraction (KIO widgets library)
 
 Package: libkf6konq7
 Architecture: amd64
-Version: 4:25.12.1-1+b1
+Version: 4:26.04.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: konqueror (4:25.12.1-1)
+Source: konqueror
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 731
-Depends: kio6, libc6 (>= 2.14), libkf6bookmarks6 (>= 6.0.0), libkf6bookmarkswidgets6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6konqsettings7 (>= 4:25.12.1), libkf6parts6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0~), libqt6gui6 (>= 6.4.0~), libqt6network6 (>= 6.4.0), libqt6widgets6 (>= 6.4.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Installed-Size: 734
+Depends: kio6, libc6 (>= 2.14), libkf6bookmarks6 (>= 6.0.0), libkf6bookmarkswidgets6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6konqsettings7 (>= 4:26.04.0), libkf6parts6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0~), libqt6gui6 (>= 6.4.0~), libqt6network6 (>= 6.4.0), libqt6widgets6 (>= 6.4.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
 Breaks: libkf5konq6
 Replaces: libkf5konq6
-Filename: ./libkf6konq7_4%3a25.12.1-1+b1_amd64.deb
-Size: 126068
-MD5sum: 6e0b532101b4def4423eb08a82b7fc47
-SHA1: ad433a5b184dbdef46419815de5288155b565348
-SHA256: e8a1b7b2fc8afc51d004d78f7a68f08e4d6c478227347dadc57b7f0d34f4e1a4
-SHA512: fdbcf1997477190cfae36651db08a2dd950a39e8aab4c48ec2cd7d3375e7ead4b1074684894982cbf7e2781a8a3d0fdaa2556f1928187fa7bde3ca5796151782
+Filename: ./libkf6konq7_4%3a26.04.0-1_amd64.deb
+Size: 126724
+MD5sum: 2c18669e591fa57aed3af39fa318bfc8
+SHA1: cff48c928bd9f6e5b16204393487c0c09dc33f00
+SHA256: d4acbb32321ffd2c086f8d0ad1433eb2bb24452c8a8ca501f0092ebd0286c753
+SHA512: 9ee77f8525b2eeab51b260e59f647bbc4039dc22077f587bb28dbe1d037a6188e4c4dab3b92365c7603cbba08f86d5c8bccbeb8008efa53e9afd8f85886d3ed6
 Homepage: https://apps.kde.org/konqueror
 Description: core library for Konqueror
  Konqueror is the KDE web browser and an advanced file manager.
@@ -27960,20 +27959,20 @@ Description: core library for Konqueror
 
 Package: libkf6konqsettings7
 Architecture: amd64
-Version: 4:25.12.1-1+b1
+Version: 4:26.04.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: konqueror (4:25.12.1-1)
+Source: konqueror
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 153
+Installed-Size: 160
 Depends: libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0~), libstdc++6 (>= 5)
-Filename: ./libkf6konqsettings7_4%3a25.12.1-1+b1_amd64.deb
-Size: 42796
-MD5sum: 22428e21358020ceacbc83ea646e75ff
-SHA1: 5c3de4b57a501b1d609c8c575a2037bf788e3da0
-SHA256: 12de2ac39627e14b3348a7e5bb27abe1fa40e2873eeaea61176c62a01429c9f1
-SHA512: 4081e917298b89f73198c43ffd379315b31a4783b624ce588a181de1f8f9ed3dbf3739f83c2327b6c4d55b3d7fbaf4c514ec7b286a1f59dd8a3a1e148f0ebd5f
+Filename: ./libkf6konqsettings7_4%3a26.04.0-1_amd64.deb
+Size: 46524
+MD5sum: 72984c94d55fb4ab63dc7a870384bc96
+SHA1: 31df289f8861459330234dac915130aa1c06eafe
+SHA256: cc661810d641de4ee294c0d9cf89018c6f0adc3d52d57d6b2cfab3dbdddabb52
+SHA512: 514e7193bde1b8cc6a4e12d4493d36dd8f2185a3c189880ba6e89b58d4e6cac7396d09f241d00b3386122f9880e4925dfc96d411dd10c52696c59d3c861b3f71
 Homepage: https://apps.kde.org/konqueror
 Description: settings management library for Konqueror
  Konqueror is the KDE web browser and an advanced file manager.
@@ -31946,20 +31945,20 @@ Description: libkpimtextedit - arch independent files
 
 Package: libkquickimageeditor1
 Architecture: amd64
-Version: 0.6.1-1
+Version: 0.6.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kquickimageeditor
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>
-Installed-Size: 1298
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.13.0~), libkf6configgui6 (>= 6.13.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkquickimageeditor1_0.6.1-1_amd64.deb
-Size: 285220
-MD5sum: 8ac5ff0b6c0a76878a6930c28a36920a
-SHA1: 0381a08fb57eb9f7f8633b8b27042e77f57dc4e5
-SHA256: 3441b5697a913602f28c08dc28451b4ddb5a2b6756a221785789c4b9897801c1
-SHA512: 6d79e2f9f21cc039e9b7bc47999473687e65022754dc7e284fcfc3d2831c0a1ec011ac35212f5b344b425aa5a30818b09837b898c517401ed9e8fac3aa36953e
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1294
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.13.0~), libkf6configgui6 (>= 6.13.0~), libopencv-core410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 13.1), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkquickimageeditor1_0.6.1-3_amd64.deb
+Size: 282832
+MD5sum: e046c4393731895956bd6e972d2c3866
+SHA1: ea5007bb16ecdf51b3e0ea952ea89514aa870799
+SHA256: a61af484be6c6f6591ea6e377797c9d67b9a6732a214dc3551b9893046aecd17
+SHA512: ada3a024a6d1ab8ec3c821263701a0043abac6dfc89536a58ed124c66b84da04bf77b946834934d687615032a3de7a1b7368446e8536b50cf488468755a78aa7
 Homepage: https://invent.kde.org/libraries/kquickimageeditor
 Description: Image editing components -- shared library
  A QtQuick plugin providing Image editing components.
@@ -52345,20 +52344,20 @@ Description: LXQt notification daemon
 
 Package: lxqt-openssh-askpass-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-openssh-askpass
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 59
+Installed-Size: 60
 Depends: qt6-translations-l10n
-Filename: ./lxqt-openssh-askpass-l10n_2.3.0-1_all.deb
-Size: 10176
-MD5sum: 2386a3c8f356da5819c6b518635fce17
-SHA1: 31aebd901a626a5783120aa357cab22029375550
-SHA256: 2175a88c244750455a5634134262d211604d38baffd8fe8ccd7c79c764ada0fa
-SHA512: 3a3032bb4e7d5f99f20198dd6b5c63c1e3da094e251fef53cea67d338ea3e7507d50fb5f6c82a15c87df0ed46e446c7139e4bdee0cbdcb0cd43c95c444c3b408
+Filename: ./lxqt-openssh-askpass-l10n_2.4.0-1_all.deb
+Size: 10124
+MD5sum: 5183cf58071598e0797b0a9652617598
+SHA1: 89f6079936a52116299ba1911c76e0aea8940bda
+SHA256: 838c7de34d81a2f422581e3afa408e50352b8d77a6f1ff4fdcaa836c12611e79
+SHA512: aa44fb66e3d1175490aafc99ff9b6118412acbbf0a142d2be763a5a635ed06c572eab76e93940107309d1bfb98b1439f44d26a0c04d7c0fc25f105fd649f0a37
 Homepage: https://github.com/lxqt/lxqt-openssh-askpass
 Description: Language package for lxqt-openssh-askpass
  The l10n files for lxqt-openssh-askpass.
@@ -52367,21 +52366,21 @@ Description: Language package for lxqt-openssh-askpass
 
 Package: lxqt-openssh-askpass
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 59
+Installed-Size: 55
 Provides: ssh-askpass
-Depends: libc6 (>= 2.34), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
-Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin (>= 2.3.0~), lxqt-session
+Depends: libc6 (>= 2.34), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
+Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin (>= 2.4.0~), lxqt-session
 Suggests: lxqt | lxqt-core
-Filename: ./lxqt-openssh-askpass_2.3.0-1_amd64.deb
-Size: 16052
-MD5sum: 2b4918fd555062ece0136628c52be2b5
-SHA1: 7b9c7e47f77e50219b05aa8c199692bc602fab17
-SHA256: 050de0982a3e6bc16039a8521d0ece2fefda7e7a7a698251100fc68f63d4c362
-SHA512: 92a1faf6d39c997f764dc53d61f46ed343b4c0519ebbd1321cf14775c8757ffd48cc397606ee00225cae84c8f3bc45d000eb5027286f710088337f365589c83a
+Filename: ./lxqt-openssh-askpass_2.4.0-1_amd64.deb
+Size: 15720
+MD5sum: 30105fa70a9836c2d2c7444bdb8d37d3
+SHA1: 41571632408ab2a1ccf80fc04a1fe9b454ec06d4
+SHA256: ee34aa36a0de9aa9a87e050cae60bf54feb9b06323261e692ca352b6a5480cea
+SHA512: d48be70e4972c4dc8a48d4799c55d49add6ba53179c08c9d2bcfa89836eb7c3974872b8defaa9d52d90a0b4f09ed53a0b3b422b508271f14bdfc3cf5e18783a9
 Homepage: https://github.com/lxqt/lxqt-openssh-askpass
 Description: OpenSSH user/password GUI dialog for LXQt
  This module handles openssh security password access for LXQt. The openssh
@@ -52658,20 +52657,20 @@ Description: session manager component for LXQt
 
 Package: lxqt-sudo-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-sudo
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 180
+Installed-Size: 187
 Depends: qt6-translations-l10n
-Filename: ./lxqt-sudo-l10n_2.3.0-1_all.deb
-Size: 29256
-MD5sum: e5d6e7d15179001c084e0b008fc23490
-SHA1: ac39ed44a4476eb535ad59c85bc818d103e700d6
-SHA256: 27b4096ba5e63c38f0877827b89bc76c23ebb1a1f6cb8c2eda1ebc714b418a1e
-SHA512: 996bd0af46b9a9b4ca8763e65073c590b96dd358125e3f8014df8d0b24838c8feb82473717bd07e40a9bb67f785e7f2edf7e64b21d29c8088c0252040c17833d
+Filename: ./lxqt-sudo-l10n_2.4.0-1_all.deb
+Size: 30332
+MD5sum: 8a3a109ac416c2ed790aae4db86b734e
+SHA1: 842dfb6009d4c79f9ef39a5fa7a692cfc4aae665
+SHA256: 4df759971c8fa5b4a7fdde4632a5cd942035a9168e3ffd6514e08423ea3a86e4
+SHA512: e0dafbf40602912332a1ff8173a1ebfbd0040282560ae6c3bcd29e2585defca91c85d28e3aeafc45bce8e8c418750468225f0469439636fbd14dac77f3885a47
 Homepage: https://github.com/lxqt/lxqt-sudo
 Description: Language package for lxqt-sudo
  The l10n files for lxqt-sudo.
@@ -52680,19 +52679,19 @@ Description: Language package for lxqt-sudo
 
 Package: lxqt-sudo
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 94
-Depends: libc6 (>= 2.34), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 13.1)
-Recommends: lxqt-qtplugin (>= 2.3.0~), lxqt-sudo-l10n
-Filename: ./lxqt-sudo_2.3.0-1_amd64.deb
-Size: 27948
-MD5sum: 6d0a16c0ee283bb2d90e01169c4cac47
-SHA1: f21c766386765086e6ac18fecdd0c6d653127195
-SHA256: cdbe0483df99ee9c71d9c56f68c13d97545a6e2c473ad5dffac998c42266c479
-SHA512: 555d05a9267bb12973b381cc3b64ec069e5f9114884edaa13aa278dd083b23862bbce73a8f9b452ee8ec2b3492963c5c7a33ad842ef78a1f810f593a2970b7f5
+Depends: libc6 (>= 2.34), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 13.1)
+Recommends: lxqt-qtplugin (>= 2.4.0~), lxqt-sudo-l10n
+Filename: ./lxqt-sudo_2.4.0-1_amd64.deb
+Size: 27816
+MD5sum: cc1bccda7673874d781bb3ffe6dd1fbd
+SHA1: 7b0572ade00ffee204721634acde8f5087cd9277
+SHA256: c51df87f29c15c09465962b9c9c99a276977f284ffdf185c4f47467fca188037
+SHA512: a06e5f962221f89b679ce098d1dceab6b300393fc77847301ab905d48746b8aed3adb7b1f45b1750afc21f0ecc0281de408c6163e9f9650e05b483def18d1647
 Homepage: https://github.com/lxqt/lxqt-sudo
 Description: Graphical Qt frontend for plain sudo
  lxqt-sudo is a graphical Qt frontend for plain sudo(8) (for requesting
@@ -59491,20 +59490,20 @@ Description: provides integration of QML and KDE Frameworks - kquickcontrolsaddo
 
 Package: qml6-module-org-kde-kquickimageeditor
 Architecture: amd64
-Version: 0.6.1-1
+Version: 0.6.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kquickimageeditor
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 176
 Depends: qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, libc6 (>= 2.2.5), libkquickimageeditor1 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kquickimageeditor_0.6.1-1_amd64.deb
-Size: 24368
-MD5sum: c2b923d7cfa9a09da44586fe51300396
-SHA1: fb0734833ed2e5c0f24b84c35dd4babd87f572c0
-SHA256: de095a1adb6dac4c67da9f7e199ab649129a3079a0a5eb9d6b980a01fc9aca66
-SHA512: a0dd58f98680bc582678c88742c6afa1e138588b5952abc27fb5a932c4d5947c165dc0a56020d3a072cb302d53e43c5d339f659da4260fdeb99a115783305637
+Filename: ./qml6-module-org-kde-kquickimageeditor_0.6.1-3_amd64.deb
+Size: 24464
+MD5sum: fdb6e83d738d8f79f5111ffb8a19845c
+SHA1: 102c4cdbd08e751a0184b19b3f34403de130bd2d
+SHA256: 8aace67cdea36baf93d86a787242560200d87c9430b33e372271af173f987eda
+SHA512: dc88ba222ffba4f5b6f84a5809628761550fa818296f854409dbbeb8037786f674a04552a77943fa5c57d7b9f10b50217c0ff1506a4c598c5d20e5272c619a83
 Homepage: https://invent.kde.org/libraries/kquickimageeditor
 Description: Image editing components
  A QtQuick plugin providing  Image editing components.
