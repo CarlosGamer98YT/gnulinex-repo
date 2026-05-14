@@ -25106,20 +25106,20 @@ Description: Fast and user-friendly configuration language (library files)
 
 Package: libhyprtoolkit5
 Architecture: amd64
-Version: 0.5.3-2
+Version: 0.5.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprtoolkit
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 1630
-Depends: libaquamarine9 (>= 0.10.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils11 (>= 0.12.0), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./libhyprtoolkit5_0.5.3-2_amd64.deb
-Size: 414676
-MD5sum: 418c442dc222fbf931678a4036de8249
-SHA1: cb6efb9e1677bdc6b3cb3a8cb7eabf475f11b831
-SHA256: 3cb6f53ca1547e6aaa6a020e11f3ae2c49870a80f312faf6896b08fcd696fa70
-SHA512: ea65d1ccd7219860edbb188808f3043e2031dec07fa33ec0ba369757bb36d7f3a9c8de6491258868e3eeaddcc8ff6e8aa5e77212876e4ee4364fd85dbddb8743
+Installed-Size: 1642
+Depends: libaquamarine10 (>= 0.11.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils11 (>= 0.12.0), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
+Filename: ./libhyprtoolkit5_0.5.4-1_amd64.deb
+Size: 421524
+MD5sum: 88be3ac365e19f184fc4bfb6a515c469
+SHA1: 67d23b126148f2b993e4c07bf96ae4dcf4322492
+SHA256: 5e64550fd1b2ff2a2617d5dc109cad8a86555e135df64589c356a5c8cb4b71a7
+SHA512: 9785f8a1a13d6196647e5841cd3174342961cb0ee7090f354123e8d00de57d725f4ff73acc4f7761e2d1241eed6e79aedb9a570eb8b343594eb54b55857579d9
 Homepage: https://github.com/hyprwm/hyprtoolkit
 Description: Modern, wayland-native C++ GUI toolkit -- binary files
  Hyprtoolkit is designed to be a small, simple, and modern C++ toolkit for
