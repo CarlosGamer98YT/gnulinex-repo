@@ -13062,18 +13062,18 @@ Description: Wallpaper utility for Hyprland
 
 Package: hyprpicker
 Architecture: amd64
-Version: 0.4.6-2
+Version: 0.4.7-1
 Priority: optional
 Section: x11
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 387
+Installed-Size: 363
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.3), libhyprutils11 (>= 0.12.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./hyprpicker_0.4.6-2_amd64.deb
-Size: 101056
-MD5sum: 93ea596bc18f38b0e662f42776b5c6fc
-SHA1: 361304d2c8bdfb5cbafeef303c16cb61fb16742e
-SHA256: 03df3d4e7d2f40e460adb95b11ff4a0e85d3fb8a43e3dca443190c3084657c6a
-SHA512: 91faf681f7ab2e0db7d4e7fe9e09bdfad6e0f2892b25fc7af3977b2b96baa8df35a7aeb12a3c83d806f14fdf6967ed8710a360a08e15f91e9149344ccef66556
+Filename: ./hyprpicker_0.4.7-1_amd64.deb
+Size: 98268
+MD5sum: 8e655dc8b40e8b2e893b36ac886938d1
+SHA1: ecf0ed23d1c41adc668f8a0dab51ba887e491a15
+SHA256: acd63006e80482703c9709dd23701ad552b05fea62861199f0afd9f02cbd8686
+SHA512: 07cf37079021b3cbaf98aed62fd9a1c473d1cf11ce1c7d72c72a6df1b8757630924c9e21b665ec9c193ba60e057726eb85648d556c871b7be99e2877183e96c6
 Homepage: https://github.com/hyprwm/hyprpicker
 Description: wlroots-compatible Wayland color picker
  Minimal color picker, that lets you select colors from the screen and output
