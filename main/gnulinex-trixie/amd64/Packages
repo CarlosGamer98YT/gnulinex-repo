@@ -6712,22 +6712,21 @@ Description: popular text editor for the GNOME desktop environment
 
 Package: geoclue-2.0
 Architecture: amd64
-Version: 2.8.0-1+b1
+Version: 2.8.1-1
 Priority: optional
 Section: utils
-Source: geoclue-2.0 (2.8.0-1)
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 477
+Installed-Size: 476
 Depends: systemd | systemd-standalone-sysusers | systemd-sysusers, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.83.0), libjson-glib-1.0-0 (>= 1.5.2), libmm-glib0 (>= 1.18.2), libnotify4 (>= 0.7.0), libsoup-3.0-0 (>= 3.0.3)
 Recommends: avahi-daemon, iio-sensor-proxy, modemmanager, wpasupplicant
 Breaks: geoclue (>= 2.0)
 Replaces: geoclue (>= 2.0)
-Filename: ./geoclue-2.0_2.8.0-1+b1_amd64.deb
-Size: 125060
-MD5sum: 52ba1e5cefcbbcc7c0a7d520df3516c3
-SHA1: ca9c03d0d884297a9b7d8bfa49b055f9441ba641
-SHA256: bff0f862b802fe0d6ac9225e5059aed0c7e91af3c9b724318d21d0b02cf25fc6
-SHA512: c12fa7c4d9289bdc1d1b492b492f68f3277c6691f97b64db42089495dae94f8643a6a3f3a170f0b0349669c2cfbfc75cdbb424c9f0f1de2b6919f666566c9abf
+Filename: ./geoclue-2.0_2.8.1-1_amd64.deb
+Size: 124944
+MD5sum: a118b5c5a1207f2b12498a17b478fc3e
+SHA1: c3bb39c578d25e5c39b714ebcfd33f467d2b640e
+SHA256: 5b7a2cc52e9ee1c27eb58070dd66dc66a9648d38bfd4d037f0c58464dfa48cb6
+SHA512: c4e7adfa845781b92e7c1fdd0bb18ca72c69d4ceec151966a238b6d23088a57b1ab3648ac5e2f538e87e332bc4ff28efc3f99b8cabef27fe2c52cb27be36a8ef
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: geoinformation service
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -7611,20 +7610,20 @@ Description: GObject introspection data for the Generic Graphics Library
 
 Package: gir1.2-geoclue-2.0
 Architecture: amd64
-Version: 2.8.0-1+b1
+Version: 2.8.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: geoclue-2.0 (2.8.0-1)
+Source: geoclue-2.0
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 42
+Installed-Size: 41
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libgeoclue-2-0 (>= 2.6.0)
-Filename: ./gir1.2-geoclue-2.0_2.8.0-1+b1_amd64.deb
-Size: 18300
-MD5sum: 5d8226f531319325c0e65e57dce7d0ac
-SHA1: 933d5f912086d6b98d314c087b74359d995e387c
-SHA256: d7b10cbac6fe880cb7cf8f3eb85b7a0851a77bf9785687d7fa5922429e13f66a
-SHA512: c1436c9b2f9ae2b97e8a1c43d760cba8f7b1e144acd285bf46f00520f8584a65235f1e3631da1db99585426e70c420d6117c88a0b19266cd90ff3d8516fec7a3
+Filename: ./gir1.2-geoclue-2.0_2.8.1-1_amd64.deb
+Size: 18212
+MD5sum: 98bc84e2b1820fa2e339a5084d04c513
+SHA1: 95033c141f9485868b7aee6a38d3b8c2313e9079
+SHA256: 86879de6c8fbb0b7c394076d4daeb0cd5e4cefaa01d25e234fb2f41edbff79a9
+SHA512: 6c6aa49742f4aafeee512c121b78767e5e789af459021b194a6f34a69e8499040e54c0aa21f5a09e0b3c9b43b9ec21d80e54f7f55acc7beaf12c017473c3e3a0
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: convenience library to interact with geoinformation service (introspection)
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -8092,21 +8091,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 645
-Provides: gir1.2-cudagst-1.0 (= 1.28.2-2), gir1.2-gstanalytics-1.0 (= 1.28.2-2), gir1.2-gstbadaudio-1.0 (= 1.28.2-2), gir1.2-gstcodecparsers-1.0 (= 1.28.2-2), gir1.2-gstcodecs-1.0 (= 1.28.2-2), gir1.2-gstcuda-1.0 (= 1.28.2-2), gir1.2-gstdxva-1.0 (= 1.28.2-2), gir1.2-gsthip-1.0 (= 1.28.2-2), gir1.2-gsthipgl-1.0 (= 1.28.2-2), gir1.2-gstinsertbin-1.0 (= 1.28.2-2), gir1.2-gstmpegts-1.0 (= 1.28.2-2), gir1.2-gstmse-1.0 (= 1.28.2-2), gir1.2-gstplay-1.0 (= 1.28.2-2), gir1.2-gstplayer-1.0 (= 1.28.2-2), gir1.2-gsttranscoder-1.0 (= 1.28.2-2), gir1.2-gstva-1.0 (= 1.28.2-2), gir1.2-gstwebrtc-1.0 (= 1.28.2-2)
-Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.0), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.0), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.2)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.2-2_amd64.deb
-Size: 238572
-MD5sum: a2eecd482bb3a4b7fb1e190f99a9676b
-SHA1: 43de7f14ea9c892e3544d48f05b2131180134ee8
-SHA256: 2580eb5c32cbfc30bb26a1d92e92b8ff1f9a1f59256e45a5fe7fefabe0b53e5b
-SHA512: 7f152780adf1a65c1752fec2c1053c0473e21d0097f5e7c4111b1210c6ed5be42931c0a6ea468007fdb53a6e25fad0af887023548de778520d9a2152cd86fc2d
+Installed-Size: 652
+Provides: gir1.2-cudagst-1.0 (= 1.28.3-1), gir1.2-gstanalytics-1.0 (= 1.28.3-1), gir1.2-gstbadaudio-1.0 (= 1.28.3-1), gir1.2-gstcodecparsers-1.0 (= 1.28.3-1), gir1.2-gstcodecs-1.0 (= 1.28.3-1), gir1.2-gstcuda-1.0 (= 1.28.3-1), gir1.2-gstdxva-1.0 (= 1.28.3-1), gir1.2-gsthip-1.0 (= 1.28.3-1), gir1.2-gsthipgl-1.0 (= 1.28.3-1), gir1.2-gstinsertbin-1.0 (= 1.28.3-1), gir1.2-gstmpegts-1.0 (= 1.28.3-1), gir1.2-gstmse-1.0 (= 1.28.3-1), gir1.2-gstplay-1.0 (= 1.28.3-1), gir1.2-gstplayer-1.0 (= 1.28.3-1), gir1.2-gsttranscoder-1.0 (= 1.28.3-1), gir1.2-gstva-1.0 (= 1.28.3-1), gir1.2-gstwebrtc-1.0 (= 1.28.3-1)
+Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.3)
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.3-1_amd64.deb
+Size: 245528
+MD5sum: c563f2676f032a5079d0d29d8851c391
+SHA1: 9247bc482d260c2e67f7cb8b46351458c04c073a
+SHA256: dcb6cbe3125d4f1f7b31a40d62630dafb606de9f6312bf5123bdf47a8dad4028
+SHA512: 54c1f951822670aba80f3eb932db66c4a74975ec31a626813f89410060434af3454c3d19f431712f8aa0abae0424313a75c8e86640605e95acefef4713cf763c
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -8159,21 +8158,21 @@ Description: GObject introspection data for the GStreamer Plugins Base library
 
 Package: gir1.2-gstreamer-1.0
 Architecture: amd64
-Version: 1.28.2-1
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 424
-Provides: gir1.2-gst-1.0 (= 1.28.2-1), gir1.2-gstbase-1.0 (= 1.28.2-1), gir1.2-gstcheck-1.0 (= 1.28.2-1), gir1.2-gstcontroller-1.0 (= 1.28.2-1), gir1.2-gstnet-1.0 (= 1.28.2-1)
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libgstreamer1.0-0 (>= 1.27.90)
-Filename: ./gir1.2-gstreamer-1.0_1.28.2-1_amd64.deb
-Size: 116512
-MD5sum: e0e7e4ea5c46f4250e2078122a7ac92a
-SHA1: ac60696418ec0e3a8efb9826c5a0c7fbd4f39d87
-SHA256: e302c5a6c814c580c92b39f091ae085ba9af656a7080510aa8f7015b9c0373da
-SHA512: 2a6e5d2e93b1105d6fb912b89d9c539b6f7b9408a3303e1e75e178b052cbc96ad0806b02acbfec6563eaf75121960cc6d29094e5ea8b4ff35fa0601835111431
+Installed-Size: 426
+Provides: gir1.2-gst-1.0 (= 1.28.3-1), gir1.2-gstbase-1.0 (= 1.28.3-1), gir1.2-gstcheck-1.0 (= 1.28.3-1), gir1.2-gstcontroller-1.0 (= 1.28.3-1), gir1.2-gstnet-1.0 (= 1.28.3-1)
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libgstreamer1.0-0 (>= 1.28.3)
+Filename: ./gir1.2-gstreamer-1.0_1.28.3-1_amd64.deb
+Size: 118508
+MD5sum: 26564016ed76cd785aa00d8ac412edd0
+SHA1: 8b49f70a3024489f246d54e68368fae9bda139e3
+SHA256: b7c853fef084d1cbedba71e0bf76b9fc25e4efcb11981a5dbe9ac9e604c1452d
+SHA512: 158a13c60e0961cbb723ee5634f7e7921315725b153e54a771ebed5a036a3c26e02046204df0639cb075ed8d9aa3c874ea6c01e655da235604969fee115360e8
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer library
  This package contains introspection data for the GStreamer streaming media
@@ -12100,23 +12099,23 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-gtk3
 Architecture: amd64
-Version: 1.28.2-4
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: graphics
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 173
+Installed-Size: 175
 Provides: gstreamer1.0-videosink
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgtk-3-0t64 (>= 3.16.2)
 Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
-Filename: ./gstreamer1.0-gtk3_1.28.2-4_amd64.deb
-Size: 74912
-MD5sum: 1d84e0585af579f7b11586f633df24bc
-SHA1: bc5d241e867190ef79fcf72e999c98ce82b0c83d
-SHA256: 70e834f1f5ef69d4a86a6b28e6248cbc07c0e645feb46782c8a4db6d37108374
-SHA512: e3b7db8f29096dd4fdff709a2eaedc42650a31b4bb1fdc0c7686fdd05c5385abfdb2e6fc44cef59be6a5ba3617ab3887fbb1dc98db49fae224c4ab1470e0859d
+Filename: ./gstreamer1.0-gtk3_1.28.3-1_amd64.deb
+Size: 77204
+MD5sum: bbea18b9a18d7284e7375104273008d2
+SHA1: df71ded7b7875b5f726e12af3ddb947514dfb544
+SHA256: 473d5d4564fd186c2eb9d9f7b5639981a201b1001152fdcba93eaf9f8b84b9ba
+SHA512: e930a7c4677674a5753cba53ba79ae89f4fbd47803469a4ce702c6aab3b80ebe6aa5aea1cf792c629cc09847937686661131c748d8f620a67d6ce0482eced3a5
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for GTK+3
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12236,25 +12235,25 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12025
+Installed-Size: 12024
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.2-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.63.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.3-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.63.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.2-2_amd64.deb
-Size: 3355472
-MD5sum: e4aaf3ad654c15352dab989bf7b5289d
-SHA1: 68face8c4bf2a4fca25b9a8b4f3f64a45c444cf2
-SHA256: e2a9aeec8ae4415c040fdf31f88cbb5de9462c40fb039a6821330a8c2d06e02a
-SHA512: ec3efc5faa72984e94b4cff4d88e2c2574ad5b9e237607ff56f21bd2797b0be0994c06c3f14a0c806ba1ee1ffa5c02121d6c279facf86de44be58922188236c5
+Filename: ./gstreamer1.0-plugins-bad_1.28.3-1_amd64.deb
+Size: 3362064
+MD5sum: ba2709be28d505d9eb8ef2035bdef30b
+SHA1: 19e5cfa0212aae8473a7788ab6f4999052d213ce
+SHA256: 15c4395cea4bf64f01bee44ad0a844944b8770e7a1280f662ff9c075f3e1971a
+SHA512: c21a98ac4c6d9b8242174ed41ccf2dc8382b00cf60ced4e4cd3538e728096cbb1687b67560a850e0a286923b4be355b9b3d8314d60bc9c77eefdd0cbed85f340
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12315,24 +12314,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-good
 Architecture: amd64
-Version: 1.28.2-4
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-good1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
-Installed-Size: 8210
+Installed-Size: 8212
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: libaa1 (>= 1.4p5), libbz2-1.0, libc6 (>= 2.38), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4t64 (>= 1.0.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgudev-1.0-0 (>= 147), libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0t64 (>= 1.32.3), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), liborc-0.4-0t64 (>= 1:0.4.34), libpng16-16t64 (>= 1.6.46), libpulse0 (>= 12.99.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5), libtag2 (>= 2.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libvpx12 (>= 1.16.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2-16 (>= 2.14.1), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.28.0), libsoup-3.0-0
+Depends: libaa1 (>= 1.4p5), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4t64 (>= 1.0.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libgudev-1.0-0 (>= 147), libjpeg62-turbo (>= 1.3.1), libmp3lame0 (>= 3.100), libmpg123-0t64 (>= 1.32.3), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), liborc-0.4-0t64 (>= 1:0.4.34), libpng16-16t64 (>= 1.6.46), libpulse0 (>= 12.99.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5), libtag2 (>= 2.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libvpx12 (>= 1.16.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2-16 (>= 2.14.1), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.28.0), libsoup-3.0-0
 Recommends: gstreamer1.0-x
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0), libv4l-0 (<< 1.26.1-4~), libv4lconvert0 (<< 1.26.1-4~)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0)
-Filename: ./gstreamer1.0-plugins-good_1.28.2-4_amd64.deb
-Size: 2375564
-MD5sum: 153730f6c38a4203918609c2398d1b4e
-SHA1: ed14f6c695bec1f0e3efc1602b724c6b53562eeb
-SHA256: 06cb6c79feb7dfafc7e2da8c349e2c424867b9a1d93a4c87f8414bd512dfc260
-SHA512: 339771c1740eaad5c42444aa366353c1a767bab060fc098391c58a1b6d96904995b96c84126e1f6c33270831ff2dab1dc828e2e7652e882dbaca2ca34cc901d1
+Filename: ./gstreamer1.0-plugins-good_1.28.3-1_amd64.deb
+Size: 2380392
+MD5sum: 2ca558a2a8bfa34d8a9b4b743a4e5bbb
+SHA1: 6b27ac0180c075dc3aac23a93d3b0fa2e348e426
+SHA256: 7bdee025e39a4a552228f6aee67bbc36d776878059158b950ada1d32ec29392c
+SHA512: ce28b89b30247a5e8692f0f2b6a90f1682d505097c4c2afa8c5df5b615a12d356a324cd3f6ddfa6f3ee7c0cc9a8a4a828b1465c62cbb7e461935bd22f2cb735d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "good" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -21987,20 +21986,20 @@ Description: Generic Graphics Library - common files
 
 Package: libgeoclue-2-0
 Architecture: amd64
-Version: 2.8.0-1+b1
+Version: 2.8.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: geoclue-2.0 (2.8.0-1)
+Source: geoclue-2.0
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 156
+Installed-Size: 159
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0)
-Filename: ./libgeoclue-2-0_2.8.0-1+b1_amd64.deb
-Size: 44228
-MD5sum: 3853818e8f40018374b232c472f217fa
-SHA1: f6c47315228c5d3ea43f5193e078a3dc708a559c
-SHA256: c615ffdb5b0d4f02d243f650247a0e771061a335138f982b5e0290d50aaca78c
-SHA512: 11f847875e7175fb6b7f2712ec79ab0b2acb0f6bc41340079ae0b6efb93023eff3ceed6451ebbbb0caf7719b26b8bbd26ef01cf88db1df0b4d9f7d71f9193e02
+Filename: ./libgeoclue-2-0_2.8.1-1_amd64.deb
+Size: 44528
+MD5sum: 56d8885db67feddf0a67620fdd010927
+SHA1: 07857767bd9ffdc27fb59da4dec3031c7be8822e
+SHA256: 5b4a74cfb89b611f56f185dddc0b8620ffa77d3da84317cf09f891667409322b
+SHA512: 7e0beca17499b56c8e515c305cba91d3401aa2373df505e7277edcee61adbc6ae7e0825177e6e9650c638c267e2e49e53b4ed2f5429a7cc90c3f6be7341b2671
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: convenience library to interact with geoinformation service
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -23831,21 +23830,21 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3087
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
+Installed-Size: 3090
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.2-2_amd64.deb
-Size: 982700
-MD5sum: baa3c556340c6148b6817116ce2223a1
-SHA1: 2f7304daa96ef2a0e06736c36554cb9e5c702ed5
-SHA256: c9eff9422bf0610615e7419215281bc1209d2e5bc90b9ea30d49d0896d746ba7
-SHA512: a40045fb459ce4af8d6239fb338b6a04617eab69065043dae36e2fc1bf244c12b8398dd75ed1b67f8f3a5b1c8580f5a28d8f4c7bd93a1582a29c7e3abdc9e2bc
+Filename: ./libgstreamer-plugins-bad1.0-0_1.28.3-1_amd64.deb
+Size: 988432
+MD5sum: 4a4ad419d68c55b3b67cec62652bb2e4
+SHA1: 84917ea0416553f85b421e06b158d35f6367285e
+SHA256: d161c88956c75f11181f136e40252f9fff51ac269a369a794ac36d031471b676
+SHA512: 7fecaf7f280f86832471d3b21bf0d5bb66b70fbfe88a63f3f7b3c84c0509178d96c0cbf79833ffcfc26f0b2161b19321bef86520f8bd409f5326fccdd8558fe1
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23897,21 +23896,21 @@ Description: GStreamer libraries from the "base" set
 
 Package: libgstreamer1.0-0
 Architecture: amd64
-Version: 1.28.2-1
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 5341
+Installed-Size: 5335
 Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.81.1), libcap2-bin
 Suggests: gstreamer1.0-tools
-Filename: ./libgstreamer1.0-0_1.28.2-1_amd64.deb
-Size: 1463488
-MD5sum: 022b233e309b3c9bbf99d3ec4418149b
-SHA1: 6724c5f7d77fdfd4b4fda10d05c7d933584d0ebe
-SHA256: b01179ea38101cb6eea27784c1c90761cbd102cde9e547fdab68638f1c8f3f21
-SHA512: 78932cde327acffe4b3835333b369a46519da861cf5433671eb1a576ea31a2254274bd49dad0a5bc03e45804c12f5affcb46bffda494adcfcdfef26b43d4cf9e
+Filename: ./libgstreamer1.0-0_1.28.3-1_amd64.deb
+Size: 1465868
+MD5sum: 81f155900bfd407db5594b7863f4c3e8
+SHA1: 8cb9dd04b5ce34e356b8892aac49a84d42389cdc
+SHA256: c590fffede267b1ef6e7f9cbe4ff516d29e43b498ad502cad13c3b17e88f0962
+SHA512: 9ffcc1be974346b92a0a5a249994667066d6c84675bbc97cbd6a2cabb346218b1c488952218ea5897d7b28d5dbbf30da769f24461f7f0117eeedede49055970e
 Homepage: https://gstreamer.freedesktop.org
 Description: Core GStreamer libraries and elements
  GStreamer is a streaming media framework, based on graphs of filters
@@ -25840,20 +25839,20 @@ Description: GLib JSON manipulation library (common files)
 
 Package: libjsoncpp26
 Architecture: amd64
-Version: 1.9.6-5+b1
+Version: 1.9.7-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libjsoncpp (1.9.6-5)
+Source: libjsoncpp
 Maintainer: Timo Röhling <roehling@debian.org>
-Installed-Size: 265
+Installed-Size: 304
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libjsoncpp26_1.9.6-5+b1_amd64.deb
-Size: 81684
-MD5sum: c40a8140929635b8500be6253e8e6102
-SHA1: e989a03b890a21c40696d3c55ec724db9badb555
-SHA256: 89351f17407682cea3776bb5dd66af76d2239b001a1fa7992e5ef683ad614ba5
-SHA512: 7082d2d1bcd082cffc90229881ac1187102162140c02d508f28eefaaa09bd1ee870b75472dacdab32e5b4a3b41791cd914d0af4f5440ac24b58c3458c2ce8389
+Filename: ./libjsoncpp26_1.9.7-2_amd64.deb
+Size: 86452
+MD5sum: bb4987f7af6e7beca066f6489d029d88
+SHA1: 8acd3bcb5e9b16b64ec3aa83dc5dbe22984c78c2
+SHA256: 67a39179f25e115b0ee5c09ad02985307fe19314f9f3219bc88e9012136c7eff
+SHA512: c75deeeddbf8fd9ed8c744d267b50bbe1547652fe21d3d2be6abc9e6afa5e0e679d98eaf948968daf4f690838a68d85ed3fcbfaee4c7a005594c9f43052bbed3
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: library for reading and writing JSON for C++
  jsoncpp is an implementation of a JSON reader and writer in C++. JSON
@@ -39616,21 +39615,21 @@ Description: office productivity suite -- GTK 4 integration
 
 Package: libreoffice-h2orestart
 Architecture: all
-Version: 0.7.11-2
+Version: 0.7.12-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
 Source: h2orestart
 Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
-Installed-Size: 558
+Installed-Size: 652
 Depends: default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, liblibreoffice-java, libreoffice-core, libreoffice-java-common
 Enhances: libreoffice-writer
-Filename: ./libreoffice-h2orestart_0.7.11-2_all.deb
-Size: 507040
-MD5sum: 3aa25fbb8ceb41afa0cc99756ff71ec4
-SHA1: ed95cc9e0e83d05cea7d54cf7c104b20bf48e7a9
-SHA256: 9cbbdb261e78cc3d2b4a022d3df99fe89c91e63177454805cb8b285822f8417d
-SHA512: cb6708460f98c39981ce513cb21eace810803dc106c292f2c744ce7e1f647e25f55d5d38f283070d0fc5f725577b0f5e7c40e6397783b348ce1e03339e7a39db
+Filename: ./libreoffice-h2orestart_0.7.12-1_all.deb
+Size: 574972
+MD5sum: e664b15f3ddb937534a5b11e1ba9fe4a
+SHA1: c54c8887a9f7a5b9c82c79c42d59c5996b62b010
+SHA256: 03527a0aeac5291ebd20aef4dcacc9f5cf93786af04ff12665913414555d28c5
+SHA512: 0b69b018be35592680f2fa2216c705f7e82b8ca663bd6d32a9c7527df9235d7c433b0a775d5e8c31f3144f1077e8382358ec13729949bcf121d18a2233941578
 Homepage: https://github.com/ebandal/H2Orestart
 Description: LibreOffice import filter for Hancom HWP/HWPX document
  This enhances LibreOffice Writer to read Hancom Office documents, as known as
