@@ -4067,20 +4067,20 @@ Description: Meta package to install all Punjabi fonts
 
 Package: fonts-hosny-amiri
 Architecture: all
-Version: 1.003-5
+Version: 1.003-6
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 2715
+Installed-Size: 2762
 Provides: font-hosny-amiri
 Replaces: font-hosny-amiri (<< 0.009)
-Filename: ./fonts-hosny-amiri_1.003-5_all.deb
-Size: 521924
-MD5sum: f67a1a5105146647abf8bc0737cac924
-SHA1: c425b1e87bd663befb63826e0e2bc5cb50e06fe7
-SHA256: 03cbf8c864a29f1fbce8b6038e008f4d552ac02eb0cba940aa08ffc1ba4de691
-SHA512: 753babdf5017918c02cf48e0e346207e41ad8a3806a8d9daea639cf2dffd261f6d4227c8aafc709e4216100de2c623cb99b798a9246304963559d474786edcad
+Filename: ./fonts-hosny-amiri_1.003-6_all.deb
+Size: 516456
+MD5sum: bd1b26b41c244a89e271060c4124be8b
+SHA1: 9f9b7c780371cb429f56ee6f0ad9db3ad920aed7
+SHA256: 81291888604fb9bf996b14d67d065f0807a404cecce2723c192420e994e4a838
+SHA512: 849e576b893814a5a6c1d2e3292179b57694d9432ff7bff331b7385dfe6fd1f9c9b83f1818566e1a8e5247a5a8ceae9b6973e8a6f19399b12c2d467d41c33e8c
 Homepage: https://www.amirifont.org
 Description: Arabic Naskh style typographically oriented font
  Amiri is a classical Arabic typeface in Naskh style for typesetting
@@ -14757,7 +14757,7 @@ Description: kwayland runtime integration plugins for Qt5/KF5
 
 Package: kwayland6-data
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -14765,12 +14765,12 @@ Source: kwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 17
 Depends: plasma-version-base-6.6
-Filename: ./kwayland6-data_4%3a6.6.4-1_all.deb
-Size: 4808
-MD5sum: 37c3b792fdf3f1184a0d06a5617502fc
-SHA1: 27241861d3fd9a88d5d7276300f388cc86b55925
-SHA256: c5b236f4cd608a26608d28e51bdf77261fe313a3e0dd41c65f5a8c5e221931cc
-SHA512: aba65c7cebe1dbc6cfaede9cf37a4aecd3c585c42efb13cfafcbd7b76d55e410eefd59feea8841633739f281b4f040044eb060f68aedee22e9b066a7cf3ddc80
+Filename: ./kwayland6-data_4%3a6.6.5-2_all.deb
+Size: 4852
+MD5sum: 776485a095259e41a10cf0d62d3976c1
+SHA1: c4ea909b814f707906dc53aca044167f17f73a20
+SHA256: f2fe0ad16e9c89dda44e097a49f0adf81ca145eac39c5bba050f2e94262278d4
+SHA512: 2e824e62f32d94508ff8104c1d85ff7789b361a0859471e8fcc15252d17323f3253ff9d8c52b5e83a9ec51762c24a6e5429c9b3907496d78e697b0ecaa0a056d
 Homepage: https://invent.kde.org/frameworks/kwayland
 Description: Qt library wrapper for Wayland libraries - data files
  KWayland provides a Qt-style Server library wrapper for
@@ -25768,19 +25768,19 @@ Description: JavaScript display engine for LaTeX and MathML
 
 Package: libjs-sphinxdoc
 Architecture: all
-Version: 9.1.0-2
+Version: 9.1.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: javascript
 Source: sphinx
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 86
-Filename: ./libjs-sphinxdoc_9.1.0-2_all.deb
-Size: 25248
-MD5sum: dc3a1eaa0e8eff0e090280b10256b609
-SHA1: 594e708f17ba4831e4bb02917a2932b32ada0840
-SHA256: 9df00ea92d1688cd88a10fad59eadae30c00ee1cb4bda28775d846ecd1e8f43b
-SHA512: 221df835d64beaacb6a2a0af0607e33c2e5b1f68a4e77c831e4b5225d040061c9741c95b93a66af8ff106b513efad253f31987c4d8288d5004dffa2a7bd99636
+Filename: ./libjs-sphinxdoc_9.1.0-3_all.deb
+Size: 25312
+MD5sum: a227adce39f9ea4a0fce77bdd27e1948
+SHA1: 5fdbae0b05bccf739539b66eae889f37d52c37f3
+SHA256: 477541aa6e4d3c49c992f8e31bd5d4fc2ffe89a92d637198ecba97da3cb6bebf
+SHA512: 26a877bc56d833b89b5d8f95345e95fe87bcb76df3dbe05d9db0e940881b3ccd700579467379bb89b34ab6fa13e3a26bed8334e2aa48b28a5e2888c18b377045
 Homepage: https://www.sphinx-doc.org/
 Description: JavaScript support for Sphinx documentation
  Sphinx is a tool for producing documentation for Python projects, using
@@ -28454,7 +28454,7 @@ Description: library for abstractions to get the developer's purposes fulfilled
 
 Package: libkf6runner6
 Architecture: amd64
-Version: 6.23.0-3
+Version: 6.23.0-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -28462,12 +28462,12 @@ Source: kf6-krunner
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 427
 Depends: libc6 (>= 2.32), libkf6configcore6 (>= 6.23.0~), libkf6coreaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libkf6itemmodels6 (>= 6.23.0~), libkf6windowsystem6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6runner6_6.23.0-3_amd64.deb
-Size: 125756
-MD5sum: 66dffc6dbcbd5c6e0aa1dd3d1c8c7e92
-SHA1: 8e6a2303af95681a41cb649b878c79d252818c7d
-SHA256: 59bf7533d01b17293d055288a994594e1af741929829d6eab9c2105ad7ddfad3
-SHA512: c2a33388262da31c512cb1159de96c98930d636dfd26bcadbcdceca2f1d65b4a736da439e08e8fe6c768101c25d877698eccd25adbaa51367eb642f151e0798f
+Filename: ./libkf6runner6_6.23.0-4_amd64.deb
+Size: 125424
+MD5sum: 24f7aa244eb6fcaee7bb917d4bb8d47d
+SHA1: ec6aed9dc499ac8c840d5a7f37c642a17603a34a
+SHA256: 11ca6ed4403aeaa9bc80cfd6131300d569e44e14edf187fc0d64e3642d8ad053
+SHA512: 7adbbb43687d5e4e4e0a3bf7eb8de564f0db1e6fa3460abfeaf2f37c7803c1143f16beb0fc3e92b38c23ffcd885cf8ecd6999c07a3102b22b69c7ff7eabee5ea
 Homepage: https://invent.kde.org/frameworks/krunner
 Description: Used to write plugins loaded at runtime called "Runners"
  Launcher built into the Plasma desktop. While its
@@ -32298,20 +32298,20 @@ Description: library for handling TNEF data - data files
 
 Package: libkwaylandclient6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1102
-Depends: kwayland6-data (= 4:6.6.4-1), plasma-version-base-6.6, libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2)
-Filename: ./libkwaylandclient6_4%3a6.6.4-1_amd64.deb
-Size: 198172
-MD5sum: 1454c27ff74a79cc6a6259b0ec98c0c1
-SHA1: 54c01c248a358ca891bca5d5860abc7deb48d116
-SHA256: 8559babfc573b1e9c73086559bbf279926f11b90756e40d4b654cb7fcf4a73d2
-SHA512: bc3018e3859db5c7687553a42cd0adcbc025efae65d21bcadebb204b5e04f8dcb844657d0d2b4af8f3a9246030ee4f3de8c325bac8e4220b48687d3f028b187c
+Depends: kwayland6-data (= 4:6.6.5-2), plasma-version-base-6.6, libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2)
+Filename: ./libkwaylandclient6_4%3a6.6.5-2_amd64.deb
+Size: 198280
+MD5sum: 8d4856b7ad164b0d7b3710659fbba582
+SHA1: ba5dee541033c8a6cf89e4a83db6a447536a114c
+SHA256: 24695a082fa829cd6cea20ad0426eecc478ea0be09195762494c1ecfc76b22e0
+SHA512: 914e0b9af4f972c321b56e2ae907174ee88101a417655740c42e959c78c064ac48ce561cbbb2b1db9f7867d9bafea7a40dd8b0918f149af4bd89da473ab9d78d
 Homepage: https://invent.kde.org/frameworks/kwayland
 Description: Qt library wrapper for Wayland libraries
  KWayland provides a Qt-style Client library wrapper for
@@ -51807,20 +51807,20 @@ Description: LXHotkey keyboard shortcuts configurator (Openbox support plugin)
 
 Package: lximage-qt-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lximage-qt
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 853
+Installed-Size: 887
 Depends: qt6-translations-l10n
-Filename: ./lximage-qt-l10n_2.3.0-1_all.deb
-Size: 127716
-MD5sum: a72e49d74cabdddde747a0dceb121daa
-SHA1: 9fcfb255a5f3de87e08f95b20652ae05d0b4b2ac
-SHA256: 045fd7c99faccbe5a339b61f9f79487934287bfabac56b134f5b9d015885ef65
-SHA512: 02d92422bf6ac9ccd2204d106dbcbdc814f8f996d6e119d58eb9a17ed0304f88878095b7d31d24f4f04fff55f59686b566a2c25b322c1afe4e467aef57ff5520
+Filename: ./lximage-qt-l10n_2.4.0-1_all.deb
+Size: 132032
+MD5sum: 04d07cf4750ee5f1ae7b2cf03b86b7ac
+SHA1: 11e58ba04164afa4ff8642eb931a0888f1b5c782
+SHA256: 9ffe6cd4359acce0e13f98d58c645d61e053cfaedbc6d294e63c77dd287a886f
+SHA512: 5cbadb4a11a6ecc3dde79ea15ff695ebdb399a9256ed239a44d47db11dbe7e430d9f33f15162b2ebc674489b613f26d3740b18e9395bc8f825695ab02995c3aa
 Homepage: https://github.com/lxqt/lximage-qt
 Description: Language-package for lximage-qt
  A simple image viewer for LXQt. Additional file formats can be processed if
@@ -51830,19 +51830,19 @@ Description: Language-package for lximage-qt
 
 Package: lximage-qt
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 542
-Depends: libc6 (>= 2.34), libexif12 (>= 0.6.21-1~), libfm-qt6-17 (>= 2.3.0~), libglib2.0-0t64 (>= 2.36.0), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.2.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6svgwidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1), libx11-6, libxfixes3
+Depends: libc6 (>= 2.34), libexif12 (>= 0.6.21), libfm-qt6-17 (>= 2.3.0~), libglib2.0-0t64 (>= 2.36.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.2.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6svgwidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1), libx11-6, libxfixes3
 Recommends: lximage-qt-l10n, qt6-image-formats-plugins
-Filename: ./lximage-qt_2.3.0-1_amd64.deb
-Size: 153832
-MD5sum: e2c908a08339ed0ecdbca873d6fe415d
-SHA1: a156762675ac18d1e01a7649ac0adbdc4057ac58
-SHA256: bacd025bf17205a3d29e70cbef714e69cd6da7489acd70193ae9103a8128542a
-SHA512: f81bb2e3dfde704fab306641e0ec0124c5f24a2b1dc7e5e222254cd67199abf51183cb7e1c441e6d555ab6aece1a433d10984942839b466a65ab508791a84030
+Filename: ./lximage-qt_2.4.0-1_amd64.deb
+Size: 151244
+MD5sum: 307e6433f5a6d66c3beead25f6794b31
+SHA1: 0709e0c98fea6bb1b105ee03cf903995d914bbb9
+SHA256: 2e646abc0222ac80a433e0e05d9a79590798eee3c5fd21281bf6a7e86de4ffb9
+SHA512: 7d69bfe010dcc62f0032140453d770de79d085235317b53a31eb627eb80159a35efdc1732a17ec002a15374dac9793aa1395f39b829a9fb770174d7058ebd16f
 Homepage: https://github.com/lxqt/lximage-qt
 Description: Image viewer for LXQt
  A simple image viewer for LXQt. Additional file formats can be processed if
@@ -52299,20 +52299,20 @@ Description: menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libf
 
 Package: lxqt-notificationd-l10n
 Architecture: all
-Version: 2.3.1-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-notificationd
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 239
+Installed-Size: 245
 Depends: qt6-translations-l10n
-Filename: ./lxqt-notificationd-l10n_2.3.1-1_all.deb
-Size: 40008
-MD5sum: 834881c0d1cd43be41474b53730744c5
-SHA1: d8bbd9668d15b576a7068f7603d169fe0ae69b95
-SHA256: c9e806ac24b8927dec6a077ab44d436aeee6fb3230bb2c48ed8bfb0f74e72f15
-SHA512: 5a8d04d1b4ab5bfdfba9ee9611910b3d04dd962b3f4e4083c4f87f19d79aedc3a14184e0d5671ec5e4596cfa23d23646ead2cbb0040abba16148ab1e0c8caf58
+Filename: ./lxqt-notificationd-l10n_2.4.0-1_all.deb
+Size: 40956
+MD5sum: b4ace999ae6170e48b9d98f30dd9be8d
+SHA1: bf56069aac7236f5754e971e83799732a64d6a5b
+SHA256: bceade1209cc083165fcbdabdfe52a710231424328469d53ee8370f1af269281
+SHA512: 4177b56ecf83e263f61e488d3c735645a5cda701dd39c3d34fb64fbf5f9ebb13956dcf9b1c4458e905c52da2df1d0d82110a60f3443d2e878ea879ddc28ed36f
 Homepage: https://github.com/lxqt/lxqt-notificationd
 Description: Language package for lxqt-notificationd
  The l10n files for lxqt-notificationd.
@@ -52321,20 +52321,20 @@ Description: Language package for lxqt-notificationd
 
 Package: lxqt-notificationd
 Architecture: amd64
-Version: 2.3.1-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 290
 Provides: notification-daemon
-Depends: libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.2.4~), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libqt6xdg4 (>= 4.3.0~), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.2.4~), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5)
 Recommends: lxqt-notificationd-l10n, lxqt-qtplugin
-Filename: ./lxqt-notificationd_2.3.1-1_amd64.deb
-Size: 76336
-MD5sum: 1ea2fcfd7b79207e92e6be1d00c201d3
-SHA1: 244b6fffcef7061fada8cb51180880f5ce4141c2
-SHA256: a6dc67952c1c4cc90446ddfb58ead5a393842c284998f172f1d0e2fb663602f5
-SHA512: 7eb54f51e4e86238e212afd7f20fc84c9c5f852f61afccb4398ffb0db50489bba0e6dc218e86600eca1c5c7598bf56b49ed430b56a7ac22f5cf18a5e0be36c64
+Filename: ./lxqt-notificationd_2.4.0-1_amd64.deb
+Size: 76524
+MD5sum: c03b56e4b907222b06205a516100f44d
+SHA1: 787d30d6c4c2923f08a1c7ac01f23e757bc7ebc1
+SHA256: 7b843c2179796e8b817ed9a39c91adb6af33e90f5aab005060da99c6a9d84d70
+SHA512: d13dcca2fdca0a55a9183567647df81bf15287637468f46303050dd7c08b05da070f8fec2baf3330495de1489df62d42f0776b1a9eb6708c12677fb9b52c79cf
 Homepage: https://github.com/lxqt/lxqt-notificationd
 Description: LXQt notification daemon
  The LXQt notification daemon.
@@ -52608,20 +52608,20 @@ Description: LXQt program launcher
 
 Package: lxqt-session-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-session
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 591
+Installed-Size: 585
 Depends: qt6-translations-l10n
-Filename: ./lxqt-session-l10n_2.3.0-1_all.deb
+Filename: ./lxqt-session-l10n_2.4.0-1_all.deb
 Size: 87356
-MD5sum: 370cd4d69c10a1d5ef576aaac59c8446
-SHA1: d527ce18eb30e94a0561f66eaf4ac61d461c529d
-SHA256: 96091396b688c0aeb19acb5bc1a4cdfbbe0dc8c4bc422b226a01daf554a9f2c3
-SHA512: 1d018ca13dd9c297306d3577b264ef63cce18c904753cbd465d80601e6381b6c6671dda45ff11685842efe0f6c42a569a587bab688ee9e6a991207f637ac2613
+MD5sum: 4e88070df1215ff353bc564144ef9820
+SHA1: 9cc858779e1c6b727b05b0e921c7a593a474c5d5
+SHA256: 89b418e437bd0d18da590955405bc0fbec951cd1ea0223e9f800a4ea8f6b1f13
+SHA512: 4a278dae10ad1f0a1b08d78e821890ac760870025e5301f4f0b9d64db4fa16f22a7dad0da185813c75e871b4c0e5fb5ff7da0ebae34bd6ffe46d7aec36f29be8
 Homepage: https://github.com/lxqt/lxqt-session
 Description: Language package for lxqt-session
  The l10n files for lxqt-session.
@@ -52630,21 +52630,21 @@ Description: Language package for lxqt-session
 
 Package: lxqt-session
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 558
+Installed-Size: 563
 Provides: x-session-manager
-Depends: lxqt-qtplugin (>= 2.3.0~), lxqt-themes, x11-xkb-utils, libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), liblxqt2 (>= 2.0.0~), libproc2-0 (>= 2:4.0.4), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.3.0~), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6
+Depends: lxqt-qtplugin (>= 2.4.0~), lxqt-themes, x11-xkb-utils, libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.6.0~), liblxqt2 (>= 2.4.0~), libproc2-0 (>= 2:4.0.4), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6
 Recommends: lxqt-config, lxqt-notificationd, lxqt-policykit, lxqt-powermanagement, lxqt-session-l10n, lxqt-sudo, pcmanfm-qt, qlipper, qps, xdg-desktop-portal-lxqt, xscreensaver | light-locker | i3lock | suckless-tools
 Breaks: xdg-desktop-portal-lxqt (<< 1.1.0~)
-Filename: ./lxqt-session_2.3.0-1_amd64.deb
-Size: 147836
-MD5sum: 28a3400a5fa50656e67ea03042b0cf4f
-SHA1: 89bb683d834ff121b577d80bd1a1044da5d8eebd
-SHA256: e679af82c90c955c8cbb61242b0546a23151a2527b5ad6152494753f028b9ce8
-SHA512: 8a1fb5fb1445b015e3a56c019ee17fab69d4014a12aad2ddd9159c0eff3a9fb92e15a51b16c8c1576918ae7460f92a382baf80e99ebff6ad85fdcca30892d92a
+Filename: ./lxqt-session_2.4.0-1_amd64.deb
+Size: 148616
+MD5sum: 20c1bcd50e9d60a2daba2e8d2c248b80
+SHA1: ca1bd24adde9c1cb8abeb7bf53127352bbd8b5d2
+SHA256: 5f7f77727ae04f1753b5a020070fe40513a3602f691b671f35e764e645075465
+SHA512: 43d2585b95e27b205d33ab4f46ba37c4dcd0c6b9d5819f56220d72f75525963d807a4df52822adfd7f6ff5c72fad098faba8c9e67fac71007287ee1bd1bbec03
 Homepage: https://github.com/lxqt/lxqt-session
 Description: session manager component for LXQt
  LXQt is an advanced, easy-to-use, and fast desktop environment based on
@@ -60859,18 +60859,18 @@ Description: tabbed document viewer
 
 Package: qps
 Architecture: amd64
-Version: 2.12.0-1
+Version: 2.13.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1566
-Depends: libc6 (>= 2.38), liblxqt2 (>= 2.0.0~), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.3.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1)
-Filename: ./qps_2.12.0-1_amd64.deb
-Size: 313804
-MD5sum: 1191058a020bab9a5639b1040fa23055
-SHA1: 352398118e0c055bbe8845be1bddce6c71ad4708
-SHA256: 29daee5250f74b32d34e1cae681b29a1e2ccd51cbb22ffe3920fbc80da8ee107
-SHA512: 80eff0e2600f2e3b6b2d50dcd9a978b9e6886113da762da613297b5476c722d11d1040ad1ba7176282d6f7cfd936993cd07efe46fa9fb5d1528f7fcb4ea117ef
+Installed-Size: 1630
+Depends: libc6 (>= 2.38), liblxqt2 (>= 2.4.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1)
+Filename: ./qps_2.13.0-1_amd64.deb
+Size: 322456
+MD5sum: 0e544750b91b860abc4bdd676549f4c9
+SHA1: c006f2aba790e97c222a0c10c8b9e3dcff19f329
+SHA256: 691c4b7c608308e41c3f9ef9ab3040a9535eda6874a6f7ea060acba0f31f1ebf
+SHA512: f237091f2c2d7fb9d03ac2bb001e84071f50cc8f2b2d31a5cd369c9d8b0e50baa059f720cf27004b9ad10f416a8265db2a86a3bcc59f5afe619a2b8c84c16461
 Homepage: https://github.com/lxqt/qps
 Description: Qt process manager
  Qt process manager ported to Qt6
@@ -61623,20 +61623,20 @@ Description: DBus service for configuring kerberos and other online identities
 
 Package: remmina-common
 Architecture: all
-Version: 1.4.40+dfsg-2
+Version: 1.4.43+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 4538
+Installed-Size: 4840
 Recommends: remmina
-Filename: ./remmina-common_1.4.40+dfsg-2_all.deb
-Size: 736820
-MD5sum: 1be68f30011a82a41ea00f99b9e79123
-SHA1: e3ce901c1af2a45ecadc07fe5495609c5f717e63
-SHA256: 5d3cf567db4d79c553f9f7318aedd3bb2cfe43b6b80d576a8a4bbf086fbe1644
-SHA512: 69d0bb6b41de98d4d74977fb8117806757d129bffd7e166a1d506ea5713c432581850283dd831f8b8ba22e4d51b2e6ee40d0ccc06e82f589640f2df2a23d9a6a
+Filename: ./remmina-common_1.4.43+dfsg-1_all.deb
+Size: 784340
+MD5sum: c419a740c27d2fb0d1212fa1c46e3624
+SHA1: 1f53c0bece62e84145de40ba24397a32d127cff1
+SHA256: e258b22d076f2ef553cced4f4c6d2f2ce1b2bd11735a486a8c78478ba3ed0740
+SHA512: 60cd6a797a927c841d11afa608c12cddb4ea7b87f03a58c14fb79ae8beca4796d22c4d1c9ae4d71502b4cf78bde0d1b7bffe9683bb28a7a13183e7e0a9a1ea0a
 Homepage: https://www.remmina.org/
 Description: Common files for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61653,20 +61653,20 @@ Description: Common files for Remmina
 
 Package: remmina-plugin-rdp
 Architecture: amd64
-Version: 1.4.40+dfsg-2+b2
+Version: 1.4.43+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.40+dfsg-2)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 171
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libwinpr3-3 (>= 3.17.0), remmina (= 1.4.40+dfsg-2+b2)
-Filename: ./remmina-plugin-rdp_1.4.40+dfsg-2+b2_amd64.deb
-Size: 56604
-MD5sum: eaaf577e527f49bee0b0104cf0009b47
-SHA1: acaf097fc6ac5c8d728384764da5de6c1e18dbc3
-SHA256: 212ce6a1d1538de07a74c1b3af342e7a84e8ff293db65579bd0eaa7524ac9a30
-SHA512: e483e267e6066ef3c96eb208729d064c94a2982aa8d16b13569772e493cbe65607227d0237581a402b4d2db13571a6e1f1be75b39dbf0111dc63b71f2dbfd5f0
+Installed-Size: 170
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libwinpr3-3 (>= 3.17.0), remmina (= 1.4.43+dfsg-1)
+Filename: ./remmina-plugin-rdp_1.4.43+dfsg-1_amd64.deb
+Size: 56684
+MD5sum: 4263e8250ef9c819cb64b645e0fe2e35
+SHA1: 97479bc4ebf1a7136854f9e46ff18c6e9b1074cd
+SHA256: d0bc37e107c7641244ff21a8f4e46771acd9475379ef0446588fc9dd2ac3432f
+SHA512: 2b03ee150c9dffffaa09026dc08896fee54e833f138130b9d9f689a33fd7efe9c4ae76b65b199322920521901ba6e395234f54b10a324cf20d40657363cbf41f
 Homepage: https://www.remmina.org/
 Description: RDP plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61683,22 +61683,22 @@ Description: RDP plugin for Remmina
 
 Package: remmina-plugin-secret
 Architecture: amd64
-Version: 1.4.40+dfsg-2+b2
+Version: 1.4.43+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.40+dfsg-2)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 36
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), remmina (= 1.4.40+dfsg-2+b2)
+Installed-Size: 35
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), remmina (= 1.4.43+dfsg-1)
 Breaks: remmina-plugin-gnome
 Replaces: remmina-plugin-gnome
-Filename: ./remmina-plugin-secret_1.4.40+dfsg-2+b2_amd64.deb
-Size: 12428
-MD5sum: 060db93a914678161a355e10607dda90
-SHA1: 776ec5253da218766f50fabf23e5a3adcff73fd7
-SHA256: e4356917c76556e88f22b876c67ea92600760604bc65ff2d9b493b00e33cc808
-SHA512: f427110afb92c5e71bfa8edd3d2a90074f10b16622799debbd6172959766b9e5701fa65252c1fac2ba7176dc313531dd00ab7c5904898aa251afde1f8a9cd98a
+Filename: ./remmina-plugin-secret_1.4.43+dfsg-1_amd64.deb
+Size: 12100
+MD5sum: e797ddba93c2dcf766aea9924d123607
+SHA1: e7a22484c88632f595dc3fb8e796e7fcaf113a78
+SHA256: 168292547bcfc71b83a1fcb66f10ec9d4c08642fdc35267f636033dbad60ad50
+SHA512: 5cb1c82de32a40c994dfc24f30c1f21caaeba77482177aca0cc03a144480f68fd56b56d8f01fa3b5fc17975f594466ed908f819646a6ad58f5abea20aa8d6715
 Homepage: https://www.remmina.org/
 Description: Secret plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61717,20 +61717,20 @@ Description: Secret plugin for Remmina
 
 Package: remmina-plugin-vnc
 Architecture: amd64
-Version: 1.4.40+dfsg-2+b2
+Version: 1.4.43+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.40+dfsg-2)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 73
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14), remmina (= 1.4.40+dfsg-2+b2)
-Filename: ./remmina-plugin-vnc_1.4.40+dfsg-2+b2_amd64.deb
-Size: 26372
-MD5sum: 17d95906a4dbbb5ca89535d16567d2c8
-SHA1: 1d4bfcfeefa1de36c411ef0f32c67ec4050ae927
-SHA256: a1402d29284625d169d42098eeab3592d92c4da3471ab354ea06a4b9ad1d60f7
-SHA512: 13bd5c1cbca4be98fce44f612241d19b96119408b2107e523caff69ddf6f65da6beb6e0fa8c5078ddb23890553c4bbf2a1176c527c914a694724a75eb96ae06b
+Installed-Size: 72
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14), remmina (= 1.4.43+dfsg-1)
+Filename: ./remmina-plugin-vnc_1.4.43+dfsg-1_amd64.deb
+Size: 26324
+MD5sum: 6c42a4e28fbe437cd31bd395881ae0a9
+SHA1: 0a30a83f269eb2fa69ac1e884c21f341d3407b6d
+SHA256: 2097a4dca0b73619be88303eaa8d7112e2c896d62304a77aba7ae6d1c9f2c75e
+SHA512: e245556dc4630a3e5d3dcd8daeae6dc93ea7dcfeef85f9a9eb5f699d5f4d316d7d518b0569a69b79b5d958a5489b38d20a7c3f716df5062e7dcc8fc2e050fbfb
 Homepage: https://www.remmina.org/
 Description: VNC plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61747,22 +61747,21 @@ Description: VNC plugin for Remmina
 
 Package: remmina
 Architecture: amd64
-Version: 1.4.40+dfsg-2+b2
+Version: 1.4.43+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Source: remmina (1.4.40+dfsg-2)
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 969
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcurl4t64 (>= 7.16.2), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libsodium26 (>= 1.0.10), libssh-4 (>= 0.8.1), libssl3t64 (>= 3.0.0), libvte-2.91-0 (>= 0.51.90), remmina-common (= 1.4.40+dfsg-2), default-dbus-session-bus | dbus-session-bus
+Installed-Size: 982
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcurl4t64 (>= 7.16.2), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libsodium26 (>= 1.0.10), libssh-4 (>= 0.8.1), libssl3t64 (>= 3.0.0), libvte-2.91-0 (>= 0.51.90), remmina-common (= 1.4.43+dfsg-1), default-dbus-session-bus | dbus-session-bus
 Recommends: remmina-plugin-rdp, remmina-plugin-vnc, remmina-plugin-secret
 Suggests: remmina-plugin-exec, remmina-plugin-kwallet, remmina-plugin-python, remmina-plugin-spice, remmina-plugin-www, remmina-plugin-x2go
-Filename: ./remmina_1.4.40+dfsg-2+b2_amd64.deb
-Size: 238024
-MD5sum: ef29e5ddb416f98d13c7fa5afdcbecc7
-SHA1: 8d5b79a1112769ff5af28a594e2923a0878b29db
-SHA256: ea4d7fd34329fa860b2cd92cb73e6c6a5ba68230ff015f351479032aca86f4d6
-SHA512: 046617f028eeef2e48a8e9b6765e23cc7a4bcdd9fc9070be4d050ccb635f45e97d485a8410b89cc367b73aae94c297260154c8404de57adcb497a7ff3c53ad33
+Filename: ./remmina_1.4.43+dfsg-1_amd64.deb
+Size: 241396
+MD5sum: 5a2a39932b734bc57ef7eb87ef15ac61
+SHA1: 82909c8155b011c7cd65aa673ddb7f3dff75be10
+SHA256: c8285761d468c16c8f313b577cc05e50d5c9a1cb33e675364164b3f4675708a9
+SHA512: 9d2134aa9c8792ea8748152745ced90693ce224c7fdc5187b67f521b4c0daa1994702f2e463cb72e5de56b12aba78d20f5a9f6052baa3dfbc48a6273590a79f7
 Homepage: https://www.remmina.org/
 Description: GTK+ Remote Desktop Client
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -62385,18 +62384,18 @@ Description: GNOME UPnP/DLNA services
 
 Package: screengrab
 Architecture: amd64
-Version: 3.1.0-1
+Version: 3.2.0-1
 Priority: optional
 Section: graphics
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 974
-Depends: libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.1.2), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.3.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-xcb1, libxcb-xfixes0, qt6-base-private-abi (= 6.10.2)
-Filename: ./screengrab_3.1.0-1_amd64.deb
-Size: 216152
-MD5sum: 9976b892678ed5145373b6e09ead33e1
-SHA1: d5950e9159970a8640762abbac6d0dc99e78da1e
-SHA256: 885e1635d9fb4f2d27c0c9bce123c553a4b16ad955ab7be0287a6f9284f77358
-SHA512: 80302cb530826ee6cf17e1024b92cbc3aa74006d6baad25824f328de45b0e7c6a3ef0136d2daf1f6a15b0bdb6c6a9c536de8770d98df3087799db47e42b3712e
+Installed-Size: 1019
+Depends: libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.1.2), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-xcb1, libxcb-xfixes0, qt6-base-private-abi (= 6.10.2)
+Filename: ./screengrab_3.2.0-1_amd64.deb
+Size: 223464
+MD5sum: 4dd5fa94505d267dab9de9b6c1cd7954
+SHA1: 962ebb7ca1b8b13f4b35e0ce3fa46c814dffaa56
+SHA256: b00257c02f41819af8df7d6e2b32f4989f0a4f2e5b0e8f8fdacbae9e1678e0ad
+SHA512: 560e05a606174d432593302cfacc67b6a78d4ff7d507439fcde8e67568198acb0269aa59a8ea36f199344d3f8fc1c72c11e68c2488104c2dcc2b69d9f4a25673
 Homepage: https://github.com/lxqt/screengrab
 Description: Crossplatform tool for getting screenshots
  Screengrab working in Linux and Windows. The program uses Qt and is
