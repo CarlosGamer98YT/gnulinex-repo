@@ -7580,7 +7580,7 @@ Description: GObject introspection data for the GNOME Display Manager
 
 Package: gir1.2-gegl-0.4
 Architecture: amd64
-Version: 1:0.4.70-1
+Version: 1:0.4.70-3
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -7588,12 +7588,12 @@ Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 103
 Depends: gir1.2-babl-0.1 (>= 1:0.1.116), gir1.2-glib-2.0, gir1.2-gobject-2.0, libgegl-0.4-0t64 (>= 1:0.4.50)
-Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-1_amd64.deb
-Size: 30792
-MD5sum: 1e567a2e904b0ba1e13e2a44cbc2b718
-SHA1: 535a29b37b3caa4b4709995a94c35f3c1c0fcc08
-SHA256: 54e0a580fb313cc644809b60d7e9b5148cfeed5bfda54eca2769f1956447de67
-SHA512: 93329f587e4d18437f16803f9466c7ee32037cabee955b32b9572679ae4339d452d0e640898b1040dddf09cae946835da0a6f40ab8e76cc601ffee9b9fd281fc
+Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-3_amd64.deb
+Size: 30824
+MD5sum: 361bde8c9c1e9888c1446b5efb39341f
+SHA1: a13928152c18d9f7347505dd0d40b9fea41aa54c
+SHA256: 1e7eec3ce4017e111dc1fd23499ae40f3e2f41f54cbc3e04c3ed11d5ba2a23a1
+SHA512: 7d59502768fcd4d2cf041af682cdc32007d9d2401bb5d009c3897a6bd5230b38f5a89a91636b2473fdbc1435a0d71af96aa78f634a3cc1ec1d1b601efe4f7f68
 Homepage: https://gegl.org/
 Description: GObject introspection data for the Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -7737,34 +7737,6 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-girepository-3.0
 Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: introspection
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 108
-Depends: gir1.2-glib-2.0 (= 2.88.0-1), libgirepository-2.0-0 (= 2.88.0-1)
-Filename: ./gir1.2-girepository-3.0_2.88.0-1_amd64.deb
-Size: 43652
-MD5sum: a22141a77f4f729fe2f9b74d604c3098
-SHA1: 920db1e29e03269bbc58b6bb5b215772bd37cc89
-SHA256: 2f6bf8c852c7d7aa0bd99787e7dfd174c7132f71deb8fc758c0fc45fd461dd58
-SHA512: 357f624b9327639c48cb94360bc1fdc44b410950177585b4c6f5f802766da06a119b7a5af51af2ff2bd236b25dce27b45e293ff98086f57772e79d10285a5afb
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Introspection data for GIRepository library, API version 3.0
- GObject Introspection is a project for providing machine readable
- introspection data of the API of C libraries. This introspection
- data can be used in several different use cases, for example
- automatic code generation for bindings, API verification and documentation
- generation.
- .
- This package contains the introspection data for the GIRepository library,
- which can be used to manipulate the search path used by language bindings
- and load introspection data.
-
-Package: gir1.2-girepository-3.0
-Architecture: amd64
 Version: 2.88.1-2
 Multi-Arch: same
 Priority: optional
@@ -7790,37 +7762,6 @@ Description: Introspection data for GIRepository library, API version 3.0
  This package contains the introspection data for the GIRepository library,
  which can be used to manipulate the search path used by language bindings
  and load introspection data.
-
-Package: gir1.2-glib-2.0-dev
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11603
-Provides: gir1.2-gio-2.0-dev (= 2.88.0-1), gir1.2-giounix-2.0-dev (= 2.88.0-1), gir1.2-glibunix-2.0-dev (= 2.88.0-1), gir1.2-gmodule-2.0-dev (= 2.88.0-1), gir1.2-gobject-2.0-dev (= 2.88.0-1)
-Depends: gir1.2-glib-2.0 (= 2.88.0-1)
-Breaks: libgirepository-1.0-1 (<< 1.78.1-3~), libgirepository1.0-dev (<< 1.78.1-7~)
-Replaces: libgirepository1.0-dev (<< 1.78.1-7~)
-Filename: ./gir1.2-glib-2.0-dev_2.88.0-1_amd64.deb
-Size: 902376
-MD5sum: 3eb3b5d1f7d7559ccc20378c13a65eb7
-SHA1: f50f133d9d631d11102b51e8f475ac0f6096c12f
-SHA256: e2a383489530a2e2dd821016e338d51176c7752b77a2e5428f9d7a7c2cee9a14
-SHA512: 5648e2d30399f8d726a6a7b71769390dd0bde4a9480b311955484f994f869f0182aa9ba953998450668a2d03a99d7b1e669e35d05ad2a653affbb3035b1f4f1c
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: GIR XML for GLib, GObject, Gio and GModule
- GObject Introspection is a project for providing machine readable
- introspection data of the API of C libraries. This introspection
- data can be used in several different use cases, for example
- automatic code generation for bindings, API verification and documentation
- generation.
- .
- This package contains the introspection data for the GLib, GObject,
- GModule and Gio libraries, in the GIR XML format used to generate
- bindings for static languages like C++, D and Haskell.
 
 Package: gir1.2-glib-2.0-dev
 Architecture: amd64
@@ -7852,36 +7793,6 @@ Description: GIR XML for GLib, GObject, Gio and GModule
  This package contains the introspection data for the GLib, GObject,
  GModule and Gio libraries, in the GIR XML format used to generate
  bindings for static languages like C++, D and Haskell.
-
-Package: gir1.2-glib-2.0
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: introspection
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 746
-Provides: gir1.2-gio-2.0 (= 2.88.0-1), gir1.2-giounix-2.0 (= 2.88.0-1), gir1.2-glibunix-2.0 (= 2.88.0-1), gir1.2-gmodule-2.0 (= 2.88.0-1), gir1.2-gobject-2.0 (= 2.88.0-1)
-Depends: libglib2.0-0t64 (= 2.88.0-1)
-Breaks: awesome (<< 4.3-8~), cinnamon (<< 6.4.12-1~), gnome-menus (<< 3.36.0-4~), gnome-shell (<< 48.5-3~), libgirepository-1.0-1 (<< 1.78.1-3~), libgjs0 (<< 1.87.2~), libgjs0g (<< 1.82.3-2~), python3-gi (<< 3.55.3~)
-Filename: ./gir1.2-glib-2.0_2.88.0-1_amd64.deb
-Size: 179148
-MD5sum: c79489c27f133d4507c92c6bf7cca3fb
-SHA1: 1baab912cd4805fbd8fa4992d36baf3b48bc5d39
-SHA256: fdedc9addcfa1b0d3d824da2c377cf011476c705e38b497a5a5c752d7b256932
-SHA512: 0cfa9169d7fafe45e1f31d39c5cfad6da28a8147eb54386a4fadb24d03d6fea96046908530f066cecb0c11d700600315d105346646cbd9e7ec012e5a09bc4683
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Introspection data for GLib, GObject, Gio and GModule
- GObject Introspection is a project for providing machine readable
- introspection data of the API of C libraries. This introspection
- data can be used in several different use cases, for example
- automatic code generation for bindings, API verification and documentation
- generation.
- .
- This package contains the introspection data for the GLib, GObject,
- GModule and Gio libraries, in the typelib format used to generate
- bindings for dynamic languages like JavaScript and Python.
 
 Package: gir1.2-glib-2.0
 Architecture: amd64
@@ -9428,45 +9339,6 @@ Description: GObject introspection data for libxmlb
  .
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
-
-Package: girepository-tools
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 364
-Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.88.0-1), libglib2.0-0t64 (= 2.88.0-1)
-Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./girepository-tools_2.88.0-1_amd64.deb
-Size: 132232
-MD5sum: d41bc718cdb4e6bfb99cc3508bda026c
-SHA1: 58ce4caccf6a99c181a72f036bcf243f057233ce
-SHA256: 4c1b03bc97936d3c343a52c0dbe8601ce82ca6c74016259fb25323bf311eaf23
-SHA512: 99206a0ee7fabeeb918a6769e06d5fdf414d7eb325bb923cb4d94a44df0464fbc742065a2d6c54dd09134b904d247e71113d61b50443499bf5dec7668f60c323
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Tools for working with GObject-Introspection repositories
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK, GIMP, and GNOME.
- .
- This package contains developer-oriented command-line tools for working
- with GObject-Introspection typelibs and GIR XML, which are used to
- provide language bindings and documentation for GLib-based libraries:
- .
-  * x86_64-linux-gnu-gi-compile-repository
-  * x86_64-linux-gnu-gi-decompile-typelib
-  * x86_64-linux-gnu-gi-inspect-typelib
- .
- When used via this package, these tools must be invoked with their
- host-architecture-specific names.
- .
- For command-line compatibility with non-Debian-based GLib packaging,
- the libglib2.0-dev package also provides versions of these tools for the
- system's primary architecture, named without the architecture prefix.
 
 Package: girepository-tools
 Architecture: amd64
@@ -13378,19 +13250,20 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.18+dfsg1-1
+Version: 8:7.1.2.21+dfsg1-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
+Source: imagemagick (8:7.1.2.21+dfsg1-1)
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 78
+Installed-Size: 80
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.18+dfsg1-1_amd64.deb
-Size: 23668
-MD5sum: 207834f409d0dd7f7f887a81c6a74381
-SHA1: 9b917ee5bbf3f64b77e040d5493d4c5416e6524d
-SHA256: 1ca462bc0a83c130f020e2930868e66f6475ddd4274f90eb43215ccac8604b83
-SHA512: 4ad943c93e6c0f4360022c40ff94dcf412872368594a6f82be6c551575b5c104c0333db1bb7d2be2137b375fa77edcff08925c2914a80c4573ab79f9618a24ab
+Filename: ./imagemagick_8%3a7.1.2.21+dfsg1-1+b1_amd64.deb
+Size: 24628
+MD5sum: d8190eba21452a8246fa48ac14fcaeec
+SHA1: 84f0e806186b4bac8b467bdde1de705fa128f83f
+SHA256: 33c2d194a929367e44e4759359a95647c29b5a693b204161f446c75130a2198b
+SHA512: 9f40de7f6c23ebfd77c5c0955a203c086b5ce397ff8e5f592dea2fb60d82da647eb53f880d243caeb3de9c4e7980efcc3663bed02bd0b80fad1e61382d509829
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -15500,20 +15373,20 @@ Description: Light-weight rendering library for Linux (binary files)
 
 Package: libarrow2300
 Architecture: amd64
-Version: 23.0.1-11
+Version: 23.0.1-11+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: apache-arrow
+Source: apache-arrow (23.0.1-11)
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 30123
-Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.3.0+ds), libre2-11-absl20260107, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
-Filename: ./libarrow2300_23.0.1-11_amd64.deb
-Size: 6488012
-MD5sum: 5987b9334218f4b7c97d158736e5affa
-SHA1: 4a167701d5769348b3fa6a00c8bf7ee6cef91211
-SHA256: 52475addf54a2e0a4958e029cf825a5837c6df8ead2108d8a39a6b7e9e9e7d2f
-SHA512: 397ef77ac10db9d5486f75117e9cbb4e63517c1fef552c1956f92ffd665c3893e1af26d271335c68a9d63ba7aa43c47b2a4ac5c01da138127a5788a67a5ba38d
+Installed-Size: 30124
+Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.3.2+ds), libre2-11-absl20260107, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
+Filename: ./libarrow2300_23.0.1-11+b1_amd64.deb
+Size: 6491432
+MD5sum: da4d0aab74e6d4d09ff2c7f0d39d57fa
+SHA1: 4a5ed442c27e0ad139ccd9ca58cc34f3221e830a
+SHA256: 9a4355d96a7e8b4c326f31baaff6a77865cbbd4e6e7ed876b6e573a719f0ae07
+SHA512: 6009ab3cef256013810028ebe90f3685cc9821625befba4b8455abd5335537bdefdc46883fb17c4fdeab5acbd5c2c87c01783e990ab0b854eb5e8e408e8924f3
 Homepage: https://arrow.apache.org/
 Description: Apache Arrow data processing library
  Apache Arrow defines a language-independent columnar memory format
@@ -18414,42 +18287,42 @@ Description: EDID and DisplayID library (shared library)
 
 Package: libdjvulibre-text
 Architecture: all
-Version: 3.5.29-1
+Version: 3.5.30-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: djvulibre
 Maintainer: Barak A. Pearlmutter <bap@debian.org>
-Installed-Size: 340
+Installed-Size: 339
 Replaces: libdjvulibre15
-Filename: ./libdjvulibre-text_3.5.29-1_all.deb
-Size: 52064
-MD5sum: 02b4051008b0aded72c8ce2d030f4837
-SHA1: 0d9251d0d5851eb30e248a605a7f84432897bb5a
-SHA256: cc534142e146018d8bca59173f3d0ef8ffc316c53f8c78e953a61e69b52b15ec
-SHA512: 2531fd4912e5c2fc8c40dfd11b912ad72600ff0b0d71aa3dcc49c25f8b57b30f4f8e3915788f932679f4ec6fa56fc05bddb0f20c7d7058631e315d3ca11e1022
+Filename: ./libdjvulibre-text_3.5.30-1_all.deb
+Size: 51808
+MD5sum: a8f7fe471fec7a4c9c9bb46f70a2a10c
+SHA1: c44b5a65fbc4a7ac611133474661d825f1321e97
+SHA256: dfa851be0b2e0e0f8bfd0b1071d9b9f4ed97adbaa73fc184be07c5fd5d9a8c89
+SHA512: 320892aa97abc1609017da0a1a957f78a2a69b7d128ff367a0d2884710be1300f2164819dd413c7087284746a6f102897578705268cd170538dd5dfc4b9bfad5
 Homepage: https://djvu.sourceforge.net/
 Description: Linguistic support files for libdjvulibre
  Runtime linguistic support files for the libdjvulibre library.
 
 Package: libdjvulibre21
 Architecture: amd64
-Version: 3.5.29-1+b1
+Version: 3.5.30-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: djvulibre (3.5.29-1)
+Source: djvulibre
 Maintainer: Barak A. Pearlmutter <bap@debian.org>
-Installed-Size: 1845
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 14), libdjvulibre-text (>= 3.5.29-1)
+Installed-Size: 1844
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 14), libdjvulibre-text (>= 3.5.30-1)
 Conflicts: libdjvulibre1
 Replaces: libdjvulibre1, libdjvulibre15
-Filename: ./libdjvulibre21_3.5.29-1+b1_amd64.deb
-Size: 617372
-MD5sum: 1e3545c66e7dc3675c4b624b02bb48bc
-SHA1: 1c894cca9a63f973e81756301afd6d035083945b
-SHA256: ec1a4eb603cc9badf57aaf86b22ff3dc3571785e5322850629efb4a3f2a882b1
-SHA512: d4bd59b44bf5ff6e0de7fdcb18f898f85f20b9e2834ac47c7c0a493a0ce23c65d757b8571d6b748f957675fe7ef76d03e26671568d687bebe7f2359c5db15e67
+Filename: ./libdjvulibre21_3.5.30-1_amd64.deb
+Size: 616268
+MD5sum: c44fb813a322bb027f20aba1f89d9025
+SHA1: 50860306ccce14928b8eda95ee506c60af473e86
+SHA256: 3c6423a66deabc43af931b2ba6ec0e4741e824a648b7cbfd0f8a7dd468dfae12
+SHA512: 23fa0537b98a36645106547a334f469b8bc6b5b6a31bf78bcb7442f3ecda6a64d78165c461f7f303c88f03f7f36b580cd59626633aed211b23d9cd807d3d7a6c
 Homepage: https://djvu.sourceforge.net/
 Description: Runtime support for the DjVu image format
  DjVu runtime library.
@@ -21861,24 +21734,24 @@ Description: GObject based collection and utility library
 
 Package: libgegl-0.4-0t64
 Architecture: amd64
-Version: 1:0.4.70-1
+Version: 1:0.4.70-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 8615
-Provides: libgegl-0.4-0 (= 1:0.4.70-1)
-Depends: libgegl-common (>= 1:0.4.70-1), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw23t64 (>= 0.16.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
+Provides: libgegl-0.4-0 (= 1:0.4.70-3)
+Depends: libgegl-common (>= 1:0.4.70-3), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
 Suggests: graphviz
-Breaks: libgegl-0.4-0 (<< 1:0.4.70-1)
+Breaks: libgegl-0.4-0 (<< 1:0.4.70-3)
 Replaces: libgegl-0.4-0
-Filename: ./libgegl-0.4-0t64_1%3a0.4.70-1_amd64.deb
-Size: 1955756
-MD5sum: 0c80d3655e57637ad26bd89f00815ed3
-SHA1: d0cad05dfad2eac46d860b597f52f0eb3a5f2c95
-SHA256: 75a99d7ad069754f1abca1705e72d99aef7d9efe0f9f80e6a66b30ed646b81d4
-SHA512: 706af7e4a37be9a0cca2be7ae4b23591e77d680caee56baa34b8899b20d8597f86b890ba663c36fa12aaa0b60400d43ada94fb78e884e8a097e2231b67e6c6ae
+Filename: ./libgegl-0.4-0t64_1%3a0.4.70-3_amd64.deb
+Size: 1956456
+MD5sum: 2cdaee491a790fccb9aa0b1058f659b7
+SHA1: 31fb0a2d4bd47987f43fd90449b1b04cdb94ab32
+SHA256: 0ea415228f86cad133d594d7a32312cc1a75388c585838424f3871acc4bb51cd
+SHA512: 2e2d13e56b970a06f721d0ac7ab4e62b0a801700f47514bac0630aa09a37af0166589182d0813b2414176c8a9201278712800276b2f866c00be4c08cafdad34e
 Homepage: https://gegl.org/
 Description: Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -21890,19 +21763,19 @@ Description: Generic Graphics Library
 
 Package: libgegl-common
 Architecture: all
-Version: 1:0.4.70-1
+Version: 1:0.4.70-3
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 6148
-Filename: ./libgegl-common_1%3a0.4.70-1_all.deb
-Size: 929568
-MD5sum: b0364cf7cd4ebd7bfb8745e411f1909d
-SHA1: 84be8c8389d8fbe1b29f2416a02fbdc528f4bc00
-SHA256: 26f8025dbd27667cbc6e61031481a6d4b6c3030b1f8840aeff7c6b0f5db9e902
-SHA512: b1842b7100325a33bd19a6a18a7e6c69bf161e7df768b048b17905709ea65dfdf11869a6b41f61d9343b620502f5a5a12ac7ada6a289b5c7d56e6ae0d9633eae
+Filename: ./libgegl-common_1%3a0.4.70-3_all.deb
+Size: 930764
+MD5sum: 5e3903f576a5a3f0eafdbf764d966a3c
+SHA1: f147bb94df5d12593e5efe7fba5845943a299885
+SHA256: d09c1e4c18e365d03d96401fffc04493d91f388b3e94aac33708157e61b7ba9a
+SHA512: 6c723bb678fae145bbff1196bedbb9fc2f33470b9b7c9d6a78de81a6c02246ab4c237b68159ff832dbc0498d7097b8db4fee31b3c01ffec10cc1e6585192580b
 Homepage: https://gegl.org/
 Description: Generic Graphics Library - common files
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -22068,51 +21941,6 @@ Description: Libraries for the GNU Image Manipulation Program
 
 Package: libgio-2.0-dev-bin
 Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 693
-Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.88.0-1)
-Recommends: libglib2.0-bin (= 2.88.0-1)
-Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Breaks: libgio-2.0-dev (<< 2.83), libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Replaces: libgio-2.0-dev (<< 2.83), libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev-bin_2.88.0-1_amd64.deb
-Size: 150320
-MD5sum: 41b39f83412e6e18cab7e6d6a068e5b7
-SHA1: b5b11c05e954240969414ebdaea195185fab4eb3
-SHA256: 7ac43868ab60434809897a5b8018b205b11b5be3fc90dd896ce5c7f0f1987c0b
-SHA512: 255ee177cc0098e554672233485f317e150c2724a538935291185aac68c2d819b0f0bfaf97f17e0230499620b6c05952f0272b6498b56b5a40aa77a7bdb3864f
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Development utilities for GLib, GObject and GIO libraries
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK, GIMP, and GNOME.
- .
- This package contains several developer-oriented command-line tools
- used when compiling packages that use GLib:
- .
-  * gdbus-codegen
-  * glib-compile-resources
-  * glib-genmarshal
-  * glib-gettextize
-  * glib-mkenums
-  * gobject-query
-  * gtester (deprecated)
-  * gtester-report (deprecated)
- .
- Other command-line tools can be found in the libglib2.0-bin package.
- .
- If the non-architecture-prefixed versions of the gi-compile-repository,
- gi-decompile-typelib and gi-inspect-typelib tools are required, please
- install the libglib2.0-dev package, but consider using the
- architecture-prefixed versions in the girepository-tools package instead.
-
-Package: libgio-2.0-dev-bin
-Architecture: amd64
 Version: 2.88.1-2
 Multi-Arch: foreign
 Priority: optional
@@ -22155,44 +21983,6 @@ Description: Development utilities for GLib, GObject and GIO libraries
  gi-decompile-typelib and gi-inspect-typelib tools are required, please
  install the libglib2.0-dev package, but consider using the
  architecture-prefixed versions in the girepository-tools package instead.
-
-Package: libgio-2.0-dev
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 10869
-Depends: libffi-dev, libglib2.0-0t64 (= 2.88.0-1), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev (>= 3.38.0), pkgconf, zlib1g-dev
-Recommends: libgio-2.0-dev-bin (= 2.88.0-1), libglib2.0-bin (= 2.88.0-1)
-Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev_2.88.0-1_amd64.deb
-Size: 1696856
-MD5sum: 1654b66a66a5bd35aab19335fe8e130a
-SHA1: 0234e0a508081376576bfec3dfd9674b32ae3c43
-SHA256: c6a06f5b66d8ca9705fd57393e0505d796f6d0b700880ab1916645a9d65742b9
-SHA512: 0a57be4c9243bc398b4516b763ec8c31f355c18e5c0ef961d52da462656372eec6d5aa8d19d960237a1bd16fbbb94b64aa5adce6bb592b4e04b3185d7b6893c3
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Development files for the GLib, GObject and GIO libraries
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK, GIMP, and GNOME.
- .
- This package contains development files for the main libraries included
- in the upstream GLib package:
- .
-  * GLib: the core library with data structures and utilities
-  * GThread: multi-threading support
-  * GModule: dynamically-loadable modules
-  * GObject: the object system
-  * GIO: higher-level utilities built on GObject
- .
- The libglib2.0-dev package provides a more complete set of development
- files.
 
 Package: libgio-2.0-dev
 Architecture: amd64
@@ -22262,32 +22052,6 @@ Description: Library for handling GObject introspection data (runtime library)
  introspection data.
  .
  This package contains a C library for handling the introspection data.
-
-Package: libgirepository-2.0-0
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 346
-Provides: libgirepository-2.0-0-with-libffi8 (= 2.88.0-1)
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.88.0-1)
-Filename: ./libgirepository-2.0-0_2.88.0-1_amd64.deb
-Size: 126472
-MD5sum: 19e37be63c3bbcc9c16fb0baeaea5f71
-SHA1: d371d04b7b43429c4ef4a108b09f7c695c1ffaaf
-SHA256: c6a251fd9269888966993f19d36a79b7090ac1e594f3b33acd006b654e8e7ca4
-SHA512: 8b76ec03e4136d61bc0278f90fc6ab9b0e21b9482a446de359f6c071d1c9f35dfea75e6fa9a6aef0955a76d379d113d1c9cea2237d391db1671d0b11590ead03
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: GLib runtime library for handling GObject introspection data
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package contains the shared library used by language bindings such
- as PyGObject and gjs to call GObject methods.
 
 Package: libgirepository-2.0-0
 Architecture: amd64
@@ -22397,35 +22161,6 @@ Description: interface to the GLib and GObject libraries
 
 Package: libglib2.0-0t64
 Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4473
-Provides: libgio-2.0-0 (= 2.88.0-1), libglib-2.0-0 (= 2.88.0-1), libglib2.0-0 (= 2.88.0-1), libgmodule-2.0-0 (= 2.88.0-1), libgobject-2.0-0 (= 2.88.0-1), libgthread-2.0-0 (= 2.88.0-1)
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.40~rc2), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
-Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
-Suggests: low-memory-monitor
-Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
-Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.88.0-1_amd64.deb
-Size: 1535860
-MD5sum: f162cc18464fd6dacce52342e0091940
-SHA1: 2ccb6927295b773be4ca34284656c8c51bfdae12
-SHA256: d29fee8526e913a44cd5fec5455dc62cb3e817203b51ee25717902fb10a6d35f
-SHA512: b4bc182a66aedd8a0b5ae9b10587eb83dd2b2efc825c4f90e49d7769ba76847258031dd1d017100127e7ce1be1208d8c2a1c3ab391e9c220b76f2ea38ba09ebb
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: GLib library of C routines
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package contains the shared libraries.
-
-Package: libglib2.0-0t64
-Architecture: amd64
 Version: 2.88.1-2
 Multi-Arch: same
 Priority: optional
@@ -22452,39 +22187,6 @@ Description: GLib library of C routines
  C library used by projects such as GTK+, GIMP, and GNOME.
  .
  This package contains the shared libraries.
-
-Package: libglib2.0-bin
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 348
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.88.0-1)
-Filename: ./libglib2.0-bin_2.88.0-1_amd64.deb
-Size: 113800
-MD5sum: dc0a6279c157ea9014a6eb6e3f0ae3a7
-SHA1: b04b07e50932d15e48cdfb859e053c98d4382a09
-SHA256: 5582d9397a64541f327d5f82a7128060094d929466ac523d4fd9c7b894629275
-SHA512: 79c4068cc253f70536609a47aef178a9ae1c37207841f6fe45510f82f1c4c1256fb76c2c20b6b17fe6b53f9a285799c3a3a57f1c280a61dc1a73365bee58f868
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Programs for the GLib library
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package contains command-line utilities associated with GLib,
- including:
- .
-  * gapplication, a client for starting applications via D-Bus activation
-  * gdbus, a tool for working with D-Bus objects and monitoring the bus
-  * gio, a file management utility that can work with GIO virtual filesystems
-  * gresource, which can extract resources from libraries and executables
-  * gsettings, a tool for inspecting and editing application configuration
-  * gio-query-modules, which updates caches used internally by GLib
-  * glib-compile-schemas, which updates caches used internally by GLib
 
 Package: libglib2.0-bin
 Architecture: amd64
@@ -22521,30 +22223,6 @@ Description: Programs for the GLib library
 
 Package: libglib2.0-data
 Architecture: all
-Version: 2.88.0-1
-Multi-Arch: foreign
-Priority: optional
-Section: libs
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 10185
-Filename: ./libglib2.0-data_2.88.0-1_all.deb
-Size: 1289304
-MD5sum: 73acaacf0023f856dd05d11c65469b30
-SHA1: 14758091b0a466ac4fb8521df4503c8624645023
-SHA256: 2a973d9ddced1453371a5932e1eec05ee32bb37ccd97a9e4a41546e3101c95e1
-SHA512: dcaf70bbe23c8904e546a11ec2bcd6c8e726a7448544b50c16879f91ed20d69c845c6337a145470b7da266b6e067bdd3ac4ebc3e84044eb6619708d4be931f5a
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Common files for GLib library
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package is needed for the runtime libraries to display messages in
- languages other than English.
-
-Package: libglib2.0-data
-Architecture: all
 Version: 2.88.1-2
 Multi-Arch: foreign
 Priority: optional
@@ -22566,33 +22244,6 @@ Description: Common files for GLib library
  .
  This package is needed for the runtime libraries to display messages in
  languages other than English.
-
-Package: libglib2.0-dev-bin
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: foreign
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 84
-Depends: girepository-tools (= 2.88.0-1), libgio-2.0-dev-bin (= 2.88.0-1)
-Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Filename: ./libglib2.0-dev-bin_2.88.0-1_amd64.deb
-Size: 37396
-MD5sum: 3028ab9a1f27b5cd07e509d1783d8286
-SHA1: 20d5f9ca93616f2c028bae6532f1ecdd62165966
-SHA256: b5145ea3f6618b272ec7ae25618f4b9fcdc7d5bb0af7ee60bad87f66655e7c97
-SHA512: c29fb9329e4bdd1d85aca617093bce082c9d8f233219349b204a478c6955602c0a502ce6644e0025e9fab7a50f323e8a3808411733f2dce2d626e5abb9d7f988
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Development utilities for the GLib library
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package is needed to compile programs against libglib2.0-0. It contains
- development utilities typically run during compilation and should not be
- installed directly. Use libglib2.0-dev instead.
 
 Package: libglib2.0-dev-bin
 Architecture: amd64
@@ -22620,40 +22271,6 @@ Description: Development utilities for the GLib library
  This package is needed to compile programs against libglib2.0-0. It contains
  development utilities typically run during compilation and should not be
  installed directly. Use libglib2.0-dev instead.
-
-Package: libglib2.0-dev
-Architecture: amd64
-Version: 2.88.0-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 88
-Depends: girepository-tools (= 2.88.0-1), libgio-2.0-dev (= 2.88.0-1), libglib2.0-bin (= 2.88.0-1), libglib2.0-dev-bin (= 2.88.0-1)
-Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Breaks: libgio-2.0-dev (<< 2.83)
-Replaces: libgio-2.0-dev (<< 2.83)
-Filename: ./libglib2.0-dev_2.88.0-1_amd64.deb
-Size: 38192
-MD5sum: d158c2f69d798eed4d1e72899f650c10
-SHA1: 6eaabffc1205f305781972f9cd0dfe7d8841bb4e
-SHA256: d08e15ace43756f8a7023700a4ea553bfca18c8060648c14d6b88c354c92d54b
-SHA512: 8334922383f67869cbc82800047ecbb7f373a86e9f6bfd7f6d6ff5041a752da9beca8dfce9babe861638f024cd2283f574cf24ad05a9dd389f72404326948d69
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: Development metapackage for the GLib family of libraries
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK, GIMP, and GNOME.
- .
- This package provides most of the development headers, libraries and
- utilities needed to compile GLib programs, and in most cases is the
- most appropriate package to use as a build-dependency.
- For lower-level packages that are involved in architecture bootstrapping,
- consider switching dependencies to libgio-2.0-dev.
- .
- GObject-Introspection metadata for this library is not included here, and
- can be found in the gir1.2-glib-2.0-dev package.
 
 Package: libglib2.0-dev
 Architecture: amd64
@@ -29798,19 +29415,19 @@ Description: library for handling IMAP data - arch independent files
 
 Package: libkirigami-data
 Architecture: all
-Version: 6.23.1-1
+Version: 6.23.1-3
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 301
-Filename: ./libkirigami-data_6.23.1-1_all.deb
-Size: 33228
-MD5sum: cb979e9ffd7fb64111c0fd760a6a1d8e
-SHA1: 8973d9c60bb5686e3b91e257f5e7b083d3d180ca
-SHA256: 4945575a0ae34c27aa3e70e11bb236baecb30b0e68590f82bb5cc8e77207f4a3
-SHA512: 9c6ed45aa0d8a53dc1e04b39efe403181029afc2217b2fc397e521c363f7a330c3a6b59618f4a10dd611769b3d640448bfa0167e1d7421002f59d0e9044d5999
+Installed-Size: 302
+Filename: ./libkirigami-data_6.23.1-3_all.deb
+Size: 33340
+MD5sum: d4d0431b446ba6565500ee8081eb2831
+SHA1: db854b1c566e2885e717fd1f4dea59ed5175878d
+SHA256: ae8dc4efe8c2465e689d30a904f3119c7ebcfc184ed24393ede43b2d245832d5
+SHA512: 0237914be4d8eb506145520be6f6c24432f349de25a8155f0efa28d37455ac237d0ff052b3b4c1e85bc086d0f092319e3b75067f86480d122f919e34ebf9118a
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29828,20 +29445,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigami6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 505
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.32), libgomp1 (>= 4.9), libkirigamiplatform6 (>= 6.3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkirigami6_6.23.1-1+b1_amd64.deb
-Size: 177536
-MD5sum: 882b7e9b1dc27b2a39d1805a7534023e
-SHA1: bf168d19daec88ce2ae7c587e7b5441e05f863af
-SHA256: 482cf31d8165ca9df7b425e309acdde78c2c31b29f7dd5d73300f60d419fe2bc
-SHA512: 5adbaa9eff123b9698e192bde9f9eaef2114c20446a5dafea874dfad5d45492ffe5eb5e671d1358dd5b0790ddc7be01378bc0c57544324b46ce26ed211390e83
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.32), libgomp1 (>= 4.9), libkirigamiplatform6 (>= 6.3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
+Filename: ./libkirigami6_6.23.1-3_amd64.deb
+Size: 177476
+MD5sum: bc9c735a5c3ab8e2f953593f492f2f95
+SHA1: 4c4b20761bebeec0a0d805b4792580f4affee1b6
+SHA256: a07d1f099ab8a9157279882435448eb6804bff1d788de12336a31b541ca9ece3
+SHA512: 70bc064425b621767c48cfba838671e5d3e10c5f4309a5beb24386dbd5f4cc8a88c023a888b407809f8e0a3035f816b0975a90dfd81b4f72bb8f15cea31538e4
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29899,20 +29516,20 @@ Description: app library
 
 Package: libkirigamidelegates6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 218
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamidelegates6_6.23.1-1+b1_amd64.deb
-Size: 46752
-MD5sum: f96db76436425dba239afe00d5b108df
-SHA1: f99989cc2d0b6d83a5cbc332f670166a88c31174
-SHA256: 6aa4f17b1ff59a95b104a372c5a6dfa569a3d86661dac6eb797f0e15cf44a39e
-SHA512: 60b1a85a97bb46774919ba521d9856575bcbd9577e9f0d07819af9434d30bbbb24a1b4a7a529ed914a944210e0e1a0f684511090621dfe6f157ba98f3415d123
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamidelegates6_6.23.1-3_amd64.deb
+Size: 46500
+MD5sum: a4208c2f14f165381858c8b4be306c72
+SHA1: 15e2f4fd7bae795a6103a3a1b5dfb963515ff2d9
+SHA256: 76cd063e493424075de1605aff202f4dd245295b9cabb9dd1ee077b8c8333e70
+SHA512: 625f55864b67ed5d463ec193dda0e6d3b010e3555bfba57985e6b8bb9b6a51ca59ae47e1d42d9ecd9f90e3b20339bda4f06554fe9af09b2ca250d35852c63bf2
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29930,20 +29547,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamidialogs6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 237
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamidialogs6_6.23.1-1+b1_amd64.deb
-Size: 59328
-MD5sum: fef7507e68e2a24c7ceba50387771f5f
-SHA1: 3fcf0bdf3b64f010655a958e51b1bbadddb321a3
-SHA256: abc515f753cd87cac783e27c10843d653bc1062d655c68c0cd9bd6061dcc0f89
-SHA512: f24ade52a4577017975f749bcb40d865e13e499cce616740f2ba02e1c289a3bba923a55fc20dcd2455eb3c3fffcea43a20051ca94073f503bcf58dc3af5f42cc
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamidialogs6_6.23.1-3_amd64.deb
+Size: 59072
+MD5sum: 621484ec0d2f936cc2b83ac0f429e7e2
+SHA1: ebb2bac9f2b0d8522bb843a53a9e40da2a790cd2
+SHA256: fdc1fda26147173310378b1cc2a270a4b88c7c0d375a59e15b02d3ee5a0c7960
+SHA512: 9d1abb819719ea97ca7590d4fd4e5e02f9caf0feac10848d327647de0073397f7aef1738d7b7f2247739f05963195c831620db041a265fcc75009b44d130bdd2
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29961,20 +29578,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamilayouts6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 538
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.14), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamilayouts6_6.23.1-1+b1_amd64.deb
-Size: 144888
-MD5sum: d7bf1da07f959bd8c93415def4ead59e
-SHA1: 9ad87a60cd63c250a0c30b2556f3cce07f6b2d48
-SHA256: 007848234a2214c78840352adddb8ec3b8bf2a81f3cf164952e1c53b2a30c62d
-SHA512: 76da11858e8e0f9e3edda1f121f0c3cc85fad8524b285f6f4be9be0e072ba8eb1d8a5ae011430712c1a4400d9ae138aece0b98f4bcfba616fad12908895962f7
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamilayouts6_6.23.1-3_amd64.deb
+Size: 144596
+MD5sum: fabe21fa70561d86bc8253642c1ca7c1
+SHA1: 5930917b9788c9044b4d8f4ce71c23b9c1240f5e
+SHA256: a5a7463dc874d7fc1ef844caec51223e738ac3df1aaff833d197e02780842caa
+SHA512: ca92c0982fdef977357adea2affd93cc99ade332bfc7ceba9fc3708885f32dc5bc367e487f19b611c5c97decce07a7791a6d6bd09f0889b6d67ac6df7a1bd991
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29992,20 +29609,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamilayoutsprivate6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 93
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamilayoutsprivate6_6.23.1-1+b1_amd64.deb
-Size: 23232
-MD5sum: 1a5b87314d9f392e5f702b3a3b2365bc
-SHA1: 0b8afd59d723b1fc942245f435623948fed34d76
-SHA256: eae4fb089d229a74b12dfaad436865eca908c1b136c4b8fff0af25d7ac9460b5
-SHA512: 61f90703a7aecf26388e01bae02ce4bc252938438b22a288e33da2539410b72970ea93547ffa3b4915920495e403f5395367507d4687861a03519324a36deb12
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamilayoutsprivate6_6.23.1-3_amd64.deb
+Size: 23084
+MD5sum: 978b1bcbdbf737f8205c795a4b010366
+SHA1: b7cd4cf211c295d4a547336ff3c428fc2989b649
+SHA256: a62809ca1ef024698cb20857f1c159e935965f82b7165c40286451816f2da313
+SHA512: 383ef8135f2c7da79aab0b8d56e633c5590d400c2f5e96f9f0c4a605c972dbbed98c7ee4ae7fa2b5ee5aac26c002b111699f1878fe2d49667ac33482d9f04438
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30023,20 +29640,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiplatform6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 393
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamiplatform6_6.23.1-1+b1_amd64.deb
-Size: 99776
-MD5sum: be9a8ffe53e5030b3c5791c7cb974cd5
-SHA1: c24a3741d10773a022fa8999250ec56b29b06bfb
-SHA256: dc9f443bc936f9b0a34343323fb469064655da9072f649f6311adff4f4a66eb2
-SHA512: e248977c351a51fefc04df70de994f8a8adb5b537ac4cfe6521f4285fc5266328a4242ed0a783f96eb40d60de18d15a4118cda1a49f4e5839e0e01d328a7a214
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamiplatform6_6.23.1-3_amd64.deb
+Size: 99580
+MD5sum: edd90dc724e5386478704a3587cf6e3f
+SHA1: c50314f9fb270c7d76f365490e635f41532e3205
+SHA256: 717aa95ebf10814035d6a0ae0fdd8c05c9e4d31b1952dde7852e776741317b35
+SHA512: 85f0dfa5e3fc878066c7aff6b2320265b39f8d175fb0fc0b37328fcd8804b5b9b17ad248749b28ad76857582e5dbeb9790295be196d8d27648f23e3f00867a77
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30054,20 +29671,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamipolyfill6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 40
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~)
-Filename: ./libkirigamipolyfill6_6.23.1-1+b1_amd64.deb
-Size: 8728
-MD5sum: 28276c008751c1078bee4dfc6163b47f
-SHA1: cf2e39920f004a2107e4bd3c28352a4c804b4fd3
-SHA256: 7d20a865fcda0cbde190442db100021a8ada76d4bba40fe5c2638a5c0b7be479
-SHA512: dab1dd23981b4325f41e9948099278327e4170e8a23a68859e3e65e5ffaf7908f35cebdafc6a10459054daaac172f66e5f31c50e2d9b0c2cb766d07b8ecf0036
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~)
+Filename: ./libkirigamipolyfill6_6.23.1-3_amd64.deb
+Size: 8596
+MD5sum: ba9913d80cc61f05bb2313848c411971
+SHA1: 85e3babe8719858471544850b1833d32a701f156
+SHA256: e547e363ddc4d1be5cde3249322b628b3943a5fcc7293146c00360c1275f4024
+SHA512: 2798570e71723028ac423e8c11037c4133dd3f31652eade8a9f2e355821b4049d0d9ce7483e94929fb52d9305366fe21ea0077d23c984fa4d6bf1380842c3852
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30085,20 +29702,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiprimitives6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 372
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.35), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamiprimitives6_6.23.1-1+b1_amd64.deb
-Size: 140236
-MD5sum: 7a5637957b38d87aae721abe04504e44
-SHA1: 3fe0c1f6e318555cd81d4b6beac9806cdd6a38da
-SHA256: 9870c06c3f515f36658cb63b0ad69e5e22ce3a672630c7577996a38fc42f150c
-SHA512: 1b46a08a8119a7471106921b3ab57d65b6eef869179e757e16e407d416962120b51d8bd1a331f4bad604617aac7e1472e423a1e2c236cdef144b11f6c6748c56
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.35), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamiprimitives6_6.23.1-3_amd64.deb
+Size: 139948
+MD5sum: 1571c1531bbd3a02db070346db0279bc
+SHA1: b6785fcfc3e462d940289383a5308c8cf76cb84a
+SHA256: 98c2a837ba5749922e7eb0011cd68b7433c343517e4fe0647039fc75704c0a11
+SHA512: b7addfe0bfbf6bc3f1fa27485484da799a3be74b222deede3b7013da63cd3e19839fe13c4a543151872b80c4ed2eacadad1b302c1c1a716a9d9db42dd0e9268b
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30116,20 +29733,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiprivate6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 74
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkirigamiprivate6_6.23.1-1+b1_amd64.deb
-Size: 19240
-MD5sum: 607cb456e0b95eeec89f45272569b1c2
-SHA1: 46aec984c6536a4b7a96ecbb150002adcf0a47c8
-SHA256: 9c9c877f9d109beaf6bc37529794d45192ebcbe3b14ceb6ce434c561b206d823
-SHA512: c931dfb1ae90ea6b59f9662abcc26dc877ed78710644236c3c89bb34e3975905c5b8681d7a8ca1fd0e992734a43563cb848d4eb28d370d139bc89de10d766d4c
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
+Filename: ./libkirigamiprivate6_6.23.1-3_amd64.deb
+Size: 19088
+MD5sum: f2159de13068096c7c6005838aa12609
+SHA1: 3637d69fbb5bd58755f0493188cf0741f157546e
+SHA256: d5950bbeeee09c9967e3239d3d5edce2b87a45c66e87e6c1aa87edcb3cb50c02
+SHA512: 9ff7ea2772a5b597a57cf26f00d35aeea90f908fde4c09ae93d0046386c6fbbea960715e7a3178917fb1e3129a956ff0c75d8dca92b679ccd111a3f75698f9dc
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30147,20 +29764,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamitemplates6
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 481
-Depends: libkirigami-data (= 6.23.1-1), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamitemplates6_6.23.1-1+b1_amd64.deb
-Size: 115360
-MD5sum: c78124843ce608aa0598b0243e22b405
-SHA1: 20c91983ac85f05c4b288c568cf1af6d5412f868
-SHA256: 18d77092ec504da0b0909c56f6194744f67ff5cd35c73e316565fa76ffefeaac
-SHA512: a6d076502c2121aa2b3c34e61d075131a1ab14bbcf364439185972bb2d3606ff9c11cc8764fbfb3d8b6cbbf257a99807bfcdd8c18cc230f3174d58ba6db89892
+Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamitemplates6_6.23.1-3_amd64.deb
+Size: 115112
+MD5sum: ddfa24e322b2f6a34eac27bad5e3b2cd
+SHA1: cf8efaaeb9b326def343b1dbc2ae44d2d6f62179
+SHA256: c2933b48307186633de60314a601b692e899c240d06d44d4167be48cf0ccf6da
+SHA512: 4235efadb96d43b8d99f20f15055768d7346730c6d1493ed0bd43ad34b126b97588320e897542d5984d997b47ecce648c5e3d678d15f9873aeacf46b7abfd620
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -32881,80 +32498,24 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.18+dfsg1-1
+Version: 8:7.1.2.21+dfsg1-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: imagemagick
+Source: imagemagick (8:7.1.2.21+dfsg1-1)
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 291
+Installed-Size: 293
 Provides: libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.29), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.18+dfsg1-1_amd64.deb
-Size: 76236
-MD5sum: 8244f47bbf7702eaed59c9b14bcf9fa0
-SHA1: b5756bb4820eed21c85790a103573ca1c6a60e89
-SHA256: 1b264470f94fe3a7b9de711b14a3e1400c328673e3c07da828d840436b22a795
-SHA512: 9feccdbc3d25dccc2d9b77cc09fe8fa2241a0b7db3b97b39341b065d368aab61ca37c88535f6743a6428eb6499167a43abe383410455c759f8992533bfe16d39
-Homepage: https://www.imagemagick.org/
-Description: low-level image manipulation library - extra codecs (Q16)
- This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
- MagickCore.
- .
- This version of libmagickcore-extra is compiled for a channel
- depth of 16 bits (Q16).
-
-Package: libmagickcore-7.q16-10-extra
-Architecture: amd64
-Version: 8:7.1.2.19+dfsg1-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: imagemagick
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 291
-Provides: libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.29), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
-Recommends: libjxr-tools
-Suggests: inkscape
-Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.19+dfsg1-1_amd64.deb
-Size: 76864
-MD5sum: 8371554f90e85b8c404d1bafa8aa2627
-SHA1: bc6fe3c015d7f0849a441e883df99591d096fd82
-SHA256: 00adc54599ffa8284d3d8c0b5e11d7a9104b6db558250b252d6b14b3f9af4edb
-SHA512: 1fc93c1dd988c832c729cb8e7e0f5ab96469875db84daca88a1b44251e07470dc6222ecf3cd8c3054bf284b3dea0d5fe15de8d02dad5d087c7e0de3776c8bd6b
-Homepage: https://www.imagemagick.org/
-Description: low-level image manipulation library - extra codecs (Q16)
- This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
- MagickCore.
- .
- This version of libmagickcore-extra is compiled for a channel
- depth of 16 bits (Q16).
-
-Package: libmagickcore-7.q16-10-extra
-Architecture: amd64
-Version: 8:7.1.2.21+dfsg1-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: imagemagick
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 292
-Provides: libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.29), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
-Recommends: libjxr-tools
-Suggests: inkscape
-Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.21+dfsg1-1_amd64.deb
-Size: 76852
-MD5sum: aca4415f76d2af739bdb7de6688b0567
-SHA1: ccfda355acafc3137240ce75e823ef8f7fd8318f
-SHA256: 6a38d9e2e0e8b6f3ba61ffa885d2d8cab2eaec96f5d76171d95324ff726500e6
-SHA512: 8ddd23e991f90e71bda8ae89b18099cab0f9d93c3bb634376ef7e4af5ca64099a5b8406e5f369a57ce67b7072f15eb7b01e3363ca8335b514b83570b3447a1e9
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.21+dfsg1-1+b1_amd64.deb
+Size: 77152
+MD5sum: 0d7f27825a8e89edc3f4556a7f634807
+SHA1: c5ea98019de28e756ffeaa0667238361b668503e
+SHA256: db202e0d5afc724e4ca71cbebcf50b245836a42e39955eabd28904d8e5305db3
+SHA512: 57f482919868e3f4271359bf159f02009f705527313e7fc039a84852050b5716b5642da3e0641869b6bbf0e9d912962ec267f5bf33f7ae220af10fd2a3e21d7c
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
@@ -35666,20 +35227,20 @@ Description: Library for Parlatype - runtime version
 
 Package: libparquet2300
 Architecture: amd64
-Version: 23.0.1-11
+Version: 23.0.1-11+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: apache-arrow
+Source: apache-arrow (23.0.1-11)
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 4751
-Depends: libarrow2300 (>= 23.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.22.0 (>= 0.22.0-1~)
-Filename: ./libparquet2300_23.0.1-11_amd64.deb
-Size: 1423540
-MD5sum: c0a1c716c228273d7e642e5eb82abc55
-SHA1: 770f12f493100609b97589df060bda27cc58cace
-SHA256: c326979b8fcc562e990df9413c614240679b234e89f87c169e549322d0235ad6
-SHA512: 347cb2d94403a4b40b0c8788c77f64d30f59d2b00a907213f5adfef698d33bdc8d7aa6b026b1a12bea21b649b84c34169c324cdfff7f78d15c516006c52287f9
+Installed-Size: 4760
+Depends: libarrow2300 (>= 23.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.23.0 (>= 0.23.0-1~)
+Filename: ./libparquet2300_23.0.1-11+b1_amd64.deb
+Size: 1428760
+MD5sum: 2e65a544b16145585bec45ab9c564280
+SHA1: 9273ede99826f4535b9345852bd40584e1ed7f23
+SHA256: 40db9d5f3c966e1875995fcf2c643d20b95fe4f548d504b8774def19c67e934e
+SHA512: c190165d1ad951729cb68e540654a06a654a4b5b6eeac2318a16193809c9d6fdb4449a8d0f1af1c5cd70d5272854b6a44b8b83e3774e639b10ef6ae76b93b0b1
 Homepage: https://arrow.apache.org/
 Description: Apache Parquet is a columnar storage format
  Apache Arrow defines a language-independent columnar memory format
@@ -36148,7 +35709,7 @@ Description: Plasma Runtime components
 
 Package: libplasmaactivities-data
 Architecture: all
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -36158,12 +35719,12 @@ Installed-Size: 19
 Depends: plasma-version-base-6.6
 Breaks: libplasmaactivities6 (<< 6.3.4-2)
 Replaces: libplasmaactivities6 (<< 6.3.4-2)
-Filename: ./libplasmaactivities-data_6.6.4-1_all.deb
-Size: 5640
-MD5sum: c1c2c39ad547b60588631852e0cdea3c
-SHA1: ead1c39c84f9f707781332ea9fa72f9b4a9a6bb1
-SHA256: 4df0ac167eddfa17a611b4655761ef6b64bff5fc6edbc5d97cd4a2ef74dd78bf
-SHA512: 32d652f700220499c56ee6551872942247aef991d022f1809e8b05827e191ac478fc27f1cc54a4c6a44cd82429046d49f65b6114946e673e04f8d89b47c390c9
+Filename: ./libplasmaactivities-data_6.6.5-2_all.deb
+Size: 5672
+MD5sum: 3f8ffd9993c80e5f91f34a08e94667cc
+SHA1: 787ef4b2bfd8d0fb80ad0321b26ef02959eb8576
+SHA256: 319407425152337e26c3582a924d21b9041fb872a6b6ce2dcb2d7b96bb2eee2d
+SHA512: 39624d48cdda0b72820d443f4eae86dd56850d818e94bfcfc20acd86fbee1d4bcebd2ad1aaa31f89fa716dda7b42fd1a82b05bf8ca8f35520e7d6a4baaee372a
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - shared library
  When a user is interacting with a computer, there are three main areas of
@@ -36175,21 +35736,21 @@ Description: core components for the KDE's Activities system - shared library
 
 Package: libplasmaactivities7
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 262
-Depends: libplasmaactivities-data (>= 6.6.4-1), plasma-version-base-6.6, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
+Depends: libplasmaactivities-data (>= 6.6.5-2), plasma-version-base-6.6, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
 Recommends: kactivitymanagerd, plasma-activities-bin
-Filename: ./libplasmaactivities7_6.6.4-1_amd64.deb
-Size: 71912
-MD5sum: 6cd76cc67cc6b1b84db86aa16c5addfc
-SHA1: 7b5042adf94e2ac4d84c637d818cea8722f9eb66
-SHA256: dc9c800c939fd8f1832afd5ee59b9aa2db7d6887a197b3868f01be5b8c12323a
-SHA512: 31dab595bc6898ca35ecd762f2633eb4e03db8671446d35aee6131d1568eb9943a6abf3557effb79e30b32da7c35993972309550454a4a33910af959a774a06e
+Filename: ./libplasmaactivities7_6.6.5-2_amd64.deb
+Size: 72096
+MD5sum: a2a7c7facf41bf6e131aaa67b04b3e66
+SHA1: d636245d6907753f7a73ec5b7be65b7e1cf4d93e
+SHA256: 7e061ba49f9d2de8ea0359432a6c1c0aae59bf6dc425ee9439fe09f2533550fe
+SHA512: d359ddf19226a7576b93f31580bf8b4f40c4a619b742a225a658cccf69ddc102be87f13caec610d371f0f1caa87ec773b37268a4a10f11e72f7a96312136928b
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - shared library
  When a user is interacting with a computer, there are three main areas of
@@ -39465,7 +39026,7 @@ Description: office productivity suite -- GNOME integration
 
 Package: libreoffice-grammalecte
 Architecture: all
-Version: 2.1.2+ds2-3
+Version: 2.1.2+ds2-4
 Priority: optional
 Section: text
 Source: grammalecte
@@ -39473,14 +39034,14 @@ Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 30408
 Provides: libreoffice-grammarcheck-fr, libreoffice-hyphenation-fr, libreoffice-spellcheck-fr
 Depends: libreoffice-core
-Recommends: libreoffice, libreoffice-calc, libreoffice-draw, libreoffice-impress, libreoffice-writer
+Suggests: libreoffice-impress | libreoffice-writer
 Enhances: libreoffice
-Filename: ./libreoffice-grammalecte_2.1.2+ds2-3_all.deb
-Size: 4856172
-MD5sum: 3387cb973b5f0f85d8a9390d73a52334
-SHA1: 83c550c104bbaf072e50900fe4c380a186b773de
-SHA256: f6a3c964560bbafb6f737818d306643cf6a1790f2d3a4164a2e6d9b06d989ca1
-SHA512: 8da90372dd16f1d1a72952211d16815188f5af4a509283977205b65cbbba9f613d95de496a3d49205b945a30486d1dcf013b5acdadc5cbeaf9363f4f62fb5377
+Filename: ./libreoffice-grammalecte_2.1.2+ds2-4_all.deb
+Size: 4857988
+MD5sum: d6c9f1ae2f76cc5364d47e81eb0242d5
+SHA1: 7c47bf4b4b0600e9b1b76474d64f9f93ac01ff31
+SHA256: dcb7f7000638ceedfc14605de28df0701121405ffe6f3e163a18c6298758268c
+SHA512: ec74b6fc458898fbd43969edd04fd13aef2b0c7b6fbf3864668021062b1ba16610746fdabd16cb331c50cf2fa9e6198a19517f10fbd99886d7f62028eb1e11a6
 Homepage: https://grammalecte.net/
 Description: French spellchecker and grammar checker (LibreOffice extension)
  LibreOffice is a full-featured office productivity suite that provides
@@ -46704,7 +46265,7 @@ Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
 
 Package: libsso-mib0
 Architecture: amd64
-Version: 0.8.1+ds-2
+Version: 0.9.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -46712,12 +46273,12 @@ Source: sso-mib
 Maintainer: Luca Boccassi <bluca@debian.org>
 Installed-Size: 88
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0), libjson-glib-1.0-0 (>= 1.5.2), libuuid1 (>= 2.16)
-Filename: ./libsso-mib0_0.8.1+ds-2_amd64.deb
-Size: 20556
-MD5sum: c25f225b5471b500d6a1cdd0ce77a494
-SHA1: 3c36ae828a87af4fce757e86390b7ee6256964ee
-SHA256: dfee7905195fb76a63ecc077c594f726d8ff4dd9b227b09df0f34ce10fb0b10f
-SHA512: 8b1079bd63e04346fcd8c0a42a9abcab5179812ecec139c839596e47b011dabb4a5484a30ccc50561748ac299a3077303858eb76ec1bec0fe202e8a8e8e64414
+Filename: ./libsso-mib0_0.9.0-1_amd64.deb
+Size: 20636
+MD5sum: 8408b074984b3b6957fb2506fd4e3477
+SHA1: bd83928ad2519c56b23a35258bcc49877e9cd506
+SHA256: bbd1796b80d3ce06ba9a572b6642e9d23740ee6c23e4a3134e0a2f975a6f4ffd
+SHA512: 66620e5304fa9e677b14f9613bf6cd0d28fd6fffac7040ca189894e1794ef6d7d21573dc7f4a2c19571511a0cc85af70ef05794e6380ce9ebb54ccda7d17a2bb
 Homepage: https://siemens.github.io/sso-mib/
 Description: Single-Sign-On with CA for Entra via Himmelblau (library)
  Applications can link with this library to get Entra Conditional Access tokens
@@ -52352,41 +51913,41 @@ Description: LXQt desktop panel
 
 Package: lxqt-policykit-l10n
 Architecture: all
-Version: 2.3.0-1
+Version: 2.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: lxqt-policykit
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 88
+Installed-Size: 90
 Depends: qt6-translations-l10n
-Filename: ./lxqt-policykit-l10n_2.3.0-1_all.deb
-Size: 14120
-MD5sum: d9bcc8c3c50d6f50ac0ed2cb38ee35ba
-SHA1: 937e01aa004c23e544ff81d238dfca133cb4fe7b
-SHA256: b24a5b108b3b1b3c99014f23fb8976b97da7d91f0ed339133a607ab1b3722cdb
-SHA512: 9b58fcab90ce414e8fbcc0f8e18b1875d8a1c55bf6b9d939212f37cac4e9c8f594f92e9f71da3b24fe8c50e09e1a38c4148f24d97f2cacf418ae46e1d2a60bb7
+Filename: ./lxqt-policykit-l10n_2.4.0-1_all.deb
+Size: 14272
+MD5sum: 2b0574a4d5b00c35e02b6072887adffc
+SHA1: 7a56b0378641a803594ae547779318cade88d052
+SHA256: 3f02d55b878bebb5b9c26a11909d5fcbf77ab4ead8de2bc2ec16fc5fb5b7f224
+SHA512: 3a1a0c7b2e30a0bc4fca2d9de41dab300335d0e72207db83c33d7d0c4331833697078861982c39c1a8178b986c9e3bbf18068d599833802114e63664fded24e5
 Homepage: https://github.com/lxqt/lxqt-policykit
 Description: Language package for lxqt-policykit
  This package contains the l10n files needed by the lxqt-policykit.
 
 Package: lxqt-policykit
 Architecture: amd64
-Version: 2.3.0-1
+Version: 2.4.0-1
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 86
 Provides: polkit-1-auth-agent
-Depends: lxqt-session, libc6 (>= 2.34), liblxqt2 (>= 2.0.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
+Depends: lxqt-session, libc6 (>= 2.34), liblxqt2 (>= 2.4.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
 Recommends: lxqt-policykit-l10n
 Suggests: lxqt | lxqt-core
-Filename: ./lxqt-policykit_2.3.0-1_amd64.deb
-Size: 24604
-MD5sum: 19f492429731fe2eeb9324b68debd8ac
-SHA1: 5bc5e98d66e06d487e046692291cb32202232571
-SHA256: 700288dcdb2e71aae0403896bbee815637ae6dfa64f3de835c28dbb68c17a12b
-SHA512: 91837b45f1ea4404a1fdcbc89046efa211628b4b434fc7ba3972dfc8e6462d19b55b8634e035093b22b1a1c89e78df60aa094ace37a7304ad9b263fdfb73c2e3
+Filename: ./lxqt-policykit_2.4.0-1_amd64.deb
+Size: 24388
+MD5sum: 338ed50961e2e4ec79360c37f14c8c91
+SHA1: 357db3c3800dc88d9c474a98a33d95cf7ec63c7a
+SHA256: 0ea6be519c6ddf4039c47fbb0815c12fbf99a8ff439fd3dfc059c63c6e1065ba
+SHA512: 78ebe47b98686001df0c6984e81c9e2568dcc7e01e7750d55f56e9d773bcb19e7e03133b7aed72c0331375c990ea60c90ed3d15e4204c37e2bb4b470536f37a5
 Homepage: https://github.com/lxqt/lxqt-policykit
 Description: LXQt authentication agent for PolicyKit
  The lxqt-policykit D-Bus session bus service that is used to
@@ -56372,19 +55933,19 @@ Description: run commands as another user with polkit authorization
 
 Package: plasma-activities-bin
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 63
 Depends: plasma-version-base-6.6, libc6 (>= 2.34), libplasmaactivities7 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./plasma-activities-bin_6.6.4-1_amd64.deb
-Size: 15576
-MD5sum: 39c0015b7f9b480be1d80edd3ed61f77
-SHA1: 53d8b91821f4d3c99f830f915aa65a26c4c5d35a
-SHA256: ab94dce2cec2fa3d4cb043524fe997513dbcbb1aeb2a2842467dbb5d12d4553f
-SHA512: a44f10df2efdbf63d68c5672ee2ae5fa51e43f7e2b4461de69b675e804bff70ad334e16c7f93b74071399d941e1f03f0150d4463878da3867551823732bf3b35
+Filename: ./plasma-activities-bin_6.6.5-2_amd64.deb
+Size: 15608
+MD5sum: 6fce2c25a12e35371ebd585c9fd9e761
+SHA1: 4a1f2569920e39d4cccc754f7f63105b6bb8053e
+SHA256: af4debf7266b4f880c2ce0795cfc146417ebf6dde9e31ac207e9d23800a131c4
+SHA512: d8fd1f9db381e5bed431176a59bbeeb87e745a5f9a080e6210a4d48de9ac609b12ec36e24b2d0de09410861e22c905fc9a97043e540a764d4b14d3778b55e841
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - CLI
  When a user is interacting with a computer, there are three main areas of
@@ -58883,20 +58444,20 @@ Description: Qt 5 Qt Quick 2 QML module
 
 Package: qml6-module-org-kde-activities
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 179
-Depends: libplasmaactivities7 (= 6.6.4-1), plasma-version-base-6.6, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.32), libkf6configcore6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.6.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-activities_6.6.4-1_amd64.deb
-Size: 45936
-MD5sum: e58dc7463a69fb20d4595b08f10e07d4
-SHA1: 2c4212281cae0e7c61f8173d2956580db2b911e9
-SHA256: 5d9fde72cf2a835abc9b4359367bda5240420b15d3f3862dd0db2dead4c0e214
-SHA512: b699f16ab74b9b3133e57ad299bb60517006423af40f0b82f4579cbeb710f8a42263be49f58bac1a5fe69ab9c4d1b7d896ba97853dccd4a0ccfaebe039c6e1c5
+Depends: libplasmaactivities7 (= 6.6.5-2), plasma-version-base-6.6, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.32), libkf6configcore6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.6.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-activities_6.6.5-2_amd64.deb
+Size: 45968
+MD5sum: 47df84381ba681d23cc572792fb3ae3f
+SHA1: 3bd07211b1276a9a4719cec29cbf8d0af0b2d272
+SHA256: 7219ee2deafabc6b390f0c10800cd8b75e4a53abc4732a9f757b75fc5c1ae957
+SHA512: a431b48af8173b9f0a93fcea385b18dd9500734bc58a1b1d92a1649103939f844b1498d5e1ac1062507f9e374ad2a0e07b800da7696b0792f542cfa1d22b00b7
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - QML module
  When a user is interacting with a computer, there are three main areas of
@@ -59162,20 +58723,20 @@ Description: holidays calculation library - qml files
 
 Package: qml6-module-org-kde-kirigami
 Architecture: amd64
-Version: 6.23.1-1+b1
+Version: 6.23.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kirigami (6.23.1-1)
+Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 982
-Depends: libkirigami6 (= 6.23.1-1+b1), libkirigamidelegates6 (= 6.23.1-1+b1), libkirigamiplatform6 (= 6.23.1-1+b1), qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.4), libkirigamidialogs6 (>= 6.3.0), libkirigamilayouts6 (>= 6.3.0), libkirigamilayoutsprivate6 (>= 6.18.0), libkirigamipolyfill6 (>= 6.18.0), libkirigamiprimitives6 (>= 6.3.0), libkirigamiprivate6 (>= 6.18.0), libkirigamitemplates6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kirigami_6.23.1-1+b1_amd64.deb
-Size: 124848
-MD5sum: 393e62b18f1a7788b31103d37ddec332
-SHA1: abf44ac52beea660332335ba92316da95a9aea08
-SHA256: 34447f4d9ef05c0ce4fa76001bbfefe8305dc331fd000777e2b50d478f0dc206
-SHA512: 8ce84137e1b4565b638057c8fd4242ae8527e01b86bf2c85ade6c7cdbccad1f8fb8460e10c025b8de1f6bf02d40d644cd95a7d64cdef9c3b48bf16cbedc5b958
+Depends: libkirigami6 (= 6.23.1-3), libkirigamidelegates6 (= 6.23.1-3), libkirigamiplatform6 (= 6.23.1-3), qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.4), libkirigamidialogs6 (>= 6.3.0), libkirigamilayouts6 (>= 6.3.0), libkirigamilayoutsprivate6 (>= 6.18.0), libkirigamipolyfill6 (>= 6.18.0), libkirigamiprimitives6 (>= 6.3.0), libkirigamiprivate6 (>= 6.18.0), libkirigamitemplates6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-kirigami_6.23.1-3_amd64.deb
+Size: 124704
+MD5sum: a31db2612be236df96fb08301bdee52e
+SHA1: dbc9d552759b91d8285905accd981f580e6e3ec2
+SHA256: 55c1089fdf96bd0ccd67e9dcf0c908189855ad00d5038e200cc65f2ac1f6041a
+SHA512: 8fe42b8ced62fdad358c445bc350bc80dc7f6d3f8bae593a441910ad5b5f7554546e15c83a22a6ff559fbd4d1b0dbadf9aefe3c16a29bb5ccff4f4d2b996716e
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use (QML module)
  Kirigami is a set of QtQuick components at the moment targeted for
