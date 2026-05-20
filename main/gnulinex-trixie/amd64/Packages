@@ -8037,21 +8037,21 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 546
-Provides: gir1.2-gstallocators-1.0 (= 1.28.2-2), gir1.2-gstapp-1.0 (= 1.28.2-2), gir1.2-gstaudio-1.0 (= 1.28.2-2), gir1.2-gstgl-1.0 (= 1.28.2-2), gir1.2-gstglegl-1.0 (= 1.28.2-2), gir1.2-gstglwayland-1.0 (= 1.28.2-2), gir1.2-gstglx11-1.0 (= 1.28.2-2), gir1.2-gstpbutils-1.0 (= 1.28.2-2), gir1.2-gstrtp-1.0 (= 1.28.2-2), gir1.2-gstrtsp-1.0 (= 1.28.2-2), gir1.2-gstsdp-1.0 (= 1.28.2-2), gir1.2-gsttag-1.0 (= 1.28.2-2), gir1.2-gstvideo-1.0 (= 1.28.2-2)
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.0), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
-Filename: ./gir1.2-gst-plugins-base-1.0_1.28.2-2_amd64.deb
-Size: 156008
-MD5sum: 038f26ae5faa8307cacdfffdddd03397
-SHA1: cb79c6fd7204ec22e58320c88698675285451020
-SHA256: f9b605187e729509930417e16efb1500bc1681cac9c48d5e72e6e13a019321e1
-SHA512: 0759c17810dcd758b49c4ba819cf3e4d2a6578bff6ce601f53ff4a330164d83717962756693d5bb6a314efa9d3a9ac0b4d9fe539eaaf3e14e7ab2ff565e3eb35
+Installed-Size: 549
+Provides: gir1.2-gstallocators-1.0 (= 1.28.3-1), gir1.2-gstapp-1.0 (= 1.28.3-1), gir1.2-gstaudio-1.0 (= 1.28.3-1), gir1.2-gstgl-1.0 (= 1.28.3-1), gir1.2-gstglegl-1.0 (= 1.28.3-1), gir1.2-gstglwayland-1.0 (= 1.28.3-1), gir1.2-gstglx11-1.0 (= 1.28.3-1), gir1.2-gstpbutils-1.0 (= 1.28.3-1), gir1.2-gstrtp-1.0 (= 1.28.3-1), gir1.2-gstrtsp-1.0 (= 1.28.3-1), gir1.2-gstsdp-1.0 (= 1.28.3-1), gir1.2-gsttag-1.0 (= 1.28.3-1), gir1.2-gstvideo-1.0 (= 1.28.3-1)
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstbase-1.0 (>= 1.28.3), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
+Filename: ./gir1.2-gst-plugins-base-1.0_1.28.3-1_amd64.deb
+Size: 159520
+MD5sum: 9172686d6ed9480fc54c24ba4d687708
+SHA1: 41b5ac7e5bc66661073a8d407f4f39217a43007a
+SHA256: 353e9ace638f339c6bec543aa1700ce5d58ecdb83e4b00e32fe02e7e3a56b8c8
+SHA512: 7e6930f17890ede3cc06af8902faa1dec7c63cd64b5327a553fe9698c3352fff2ad7eecff07b48be43354e58950c4f475571d22a2d950d8f94ef67e1b0e76c51
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -11939,23 +11939,23 @@ Description: GSettings desktop-wide schemas
 
 Package: gstreamer1.0-gl
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 460
+Installed-Size: 463
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
+Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-gl_1.28.2-2_amd64.deb
-Size: 173292
-MD5sum: dc1827a7f947987b1581a6a34a39e02e
-SHA1: d77bd2f7bc6645823b1d7ff440818c4ec1f3f724
-SHA256: 0ad1ce3a6c0b82578094671c83c0db049cc6170fe648fdf418fea65387164100
-SHA512: 21b4086a59fcfe71c287b0f30367ce5d8c8c010710c038c2f644a2d1c813450dbf42dd85494d2af9ec0f3136776e3a6072510f6e259ecb72142397fde4c5f0a9
+Filename: ./gstreamer1.0-gl_1.28.3-1_amd64.deb
+Size: 176748
+MD5sum: c8d353d3506b9564d3dd799bc9e82a13
+SHA1: 7ac4aa6f93c2e26270af8cf9a8f609d6df537c8b
+SHA256: 65e4963834a45f3cdbb69f23a624b2e6c0236196ade6ae35113465a3e7269524
+SHA512: d6290209e05078808bf7b224bfaab1c45b3402298bc3ca046bc531ac27b3c0f37157aa1cde6bd6c1322eebe9ef670fd61d7706fd44a560eebabcd02d60fb5829
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12148,24 +12148,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-base
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2622
+Installed-Size: 2625
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
-Depends: libc6 (>= 2.38), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
+Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-plugins-base_1.28.2-2_amd64.deb
-Size: 784332
-MD5sum: 0329d24f361a9e098b9e98fa0341e1d5
-SHA1: b5f0914c4ac50ceea2a033e7f5e9dce480b70dc5
-SHA256: c5a4ed316c8a624e9298b714ba73028a417b551c5403f9163b575165db001dc9
-SHA512: b7ceabf46d159610ec248bde1638a32687a232c26e454c9a8b534af233b35f95f7dfec7f39d27984ad1036f352ed410c28770b7517ae5d660e2814a4d84390d4
+Filename: ./gstreamer1.0-plugins-base_1.28.3-1_amd64.deb
+Size: 788444
+MD5sum: 20ffd3783afef6db4b63702701b532ba
+SHA1: 692e75262c1de1189196aa2507ce55688d8221ed
+SHA256: 21c606a2ae2b9ca6c9045513c1432852f76f1d2e47d86ddf1072e048165e8a7d
+SHA512: b8b3ccee37a3eb3e4dbf450d3066a0c7ed83f5dae5c817aaf58eda7f4b70b80a2df056cfc31fb45240bb47eabdae391cfae63e81788e70c9ee5cbe5a8b8e3ab5
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12224,21 +12224,21 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-x
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 365
+Installed-Size: 372
 Provides: gstreamer1.0-videosink
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
-Filename: ./gstreamer1.0-x_1.28.2-2_amd64.deb
-Size: 138712
-MD5sum: 4ba9dbd804b40d535f6b460c4932a394
-SHA1: 7e2041d1869f68575eaccf578bd37ac717399380
-SHA256: b86bc85dc92e36eafeb9d4a78e36a2102c4f0470e3a4acd5fa24cfb84ad616e2
-SHA512: 62f15541660f689c8937e709fc115890c10d1ea87930e40509edee2555b8e5b3e95cefa91d97ee21df82089e669d337b3e56a7c27271e479035033f085e0e6dd
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
+Filename: ./gstreamer1.0-x_1.28.3-1_amd64.deb
+Size: 142620
+MD5sum: 2d1180d5adc21d7c2ce5821309e063bd
+SHA1: cdd7c65cbb9172da1833989fa451a9b6e3fc7d79
+SHA256: 41619305755a87f027c18584f1f16f5d46fb94afdcb5b458607b869dea409d5f
+SHA512: 9c54c19c67e6ea1cddef75aa5ebbb6c2d6a601202c5f90b26834900848f8d99f81eb7eaa8b483fbda5d68d1285cde2f8efcc1d77d3d2f917bee87c8fb8eedfa9
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -15850,20 +15850,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libavcodec-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 26909
-Depends: libavcodec62 (= 7:8.1-3+b1), libavutil-dev (= 7:8.1-3+b1), libswresample-dev (= 7:8.1-3+b1)
-Filename: ./libavcodec-dev_7%3a8.1-3+b1_amd64.deb
-Size: 7349876
-MD5sum: 2b2af2d8cec70fa2ce33378dbd87cd49
-SHA1: a6912fe00978bbed31a26bb370c39ec6005001f9
-SHA256: cd8eda8c6b61906c2b6a2c9d4684ba66509258fddcfecc4f3344788082fede52
-SHA512: aa000fa7e63574923a51b5637669da757104f7cae24c0c44f5503f3343400b56abfe8a78b3b360a1da3ee279a767356f23caf4a51259652abf8050ad4fa8c393
+Installed-Size: 26912
+Depends: libavcodec62 (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3)
+Filename: ./libavcodec-dev_7%3a8.1.1-3_amd64.deb
+Size: 7345320
+MD5sum: 1d149d153a7ffa1d9dcc9966340c982c
+SHA1: 4cbab143cba49391efecf2d8e96a7dbeebceb9f4
+SHA256: 20229df845696c5bea3212b8688ce439074781535d65aefa9554fb0b9d42b16c
+SHA512: 6827392582b63a7cffd0483018ee0f5beb264f2563e4d1ed54a7ce748d8cfe143e9b8acfc1ca24ff3cbe4352f69a22e8a2a414574a975849dd0f09680b565d18
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15883,21 +15883,21 @@ Description: FFmpeg library with de/encoders for audio/video codecs - developmen
 
 Package: libavcodec62
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19229
-Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1-3+b1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 19231
+Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-3), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: ./libavcodec62_7%3a8.1-3+b1_amd64.deb
-Size: 6641916
-MD5sum: b8e42a40dd5c2355802a2182cf2b596e
-SHA1: 507257c76d840768ca012d60672647a99baf1c7e
-SHA256: eee9db9049ba3f7813b2630d059817a0a646cce0e0d496ac4e1804e839b49b5a
-SHA512: 5859d64f2eb72d33c48620e07932c485832e2752433bb891291706bacd0a2a70f83d12b70f912baa9c096274097436338c2d9540c76b341d278f0452ee6586e2
+Filename: ./libavcodec62_7%3a8.1.1-3_amd64.deb
+Size: 6650088
+MD5sum: f3dfe78a6a2497e264678aa32d2009e9
+SHA1: 6d9c2a23b718ac67404ff8cd4c2fac55a1006551
+SHA256: 95c65d29999c4ce92f833c0f5836b462e237d9b554879f2f7afba9a82628c172
+SHA512: 2478c1e70fde30d407480b7cc4fa1d4b8f04ac19a17a68029e679b6c2cd6f1356ace8a326aa5ee5602c0ec7571177020852ae027d00d8521816d530455396c32
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15917,20 +15917,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavfilter-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10415
-Depends: libavcodec-dev (= 7:8.1-3+b1), libavfilter11 (= 7:8.1-3+b1), libavformat-dev (= 7:8.1-3+b1), libavutil-dev (= 7:8.1-3+b1), libswresample-dev (= 7:8.1-3+b1), libswscale-dev (= 7:8.1-3+b1)
-Filename: ./libavfilter-dev_7%3a8.1-3+b1_amd64.deb
-Size: 2460272
-MD5sum: 7c39acd0bd8ce731ce77397b672b0538
-SHA1: be4be3bc9910f0cd218bafdfc32b343db8c8cbec
-SHA256: 721ad5d1374c2a870c2bc1fea021302c5f4f60c7fb4aab5eca9bf6513d7cd7ad
-SHA512: 53314703646ba66e674238ffb01a6192da79b7224e35503510e323099255e74489db54e4ef54bceb9d97be3d5022d90d89f21f839d8c4a991164708883494ad1
+Installed-Size: 10418
+Depends: libavcodec-dev (= 7:8.1.1-3), libavfilter11 (= 7:8.1.1-3), libavformat-dev (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3), libswscale-dev (= 7:8.1.1-3)
+Filename: ./libavfilter-dev_7%3a8.1.1-3_amd64.deb
+Size: 2462700
+MD5sum: 810e0f5f22cbd15acef8d4ae9b6b0985
+SHA1: 9a8db97b6cfa554c5b7f9a4a2234f18aba4ddd3b
+SHA256: 8fde29b756fe27e88afc456bcb804e027cdf491a5c56c7e235a79d8b4435c662
+SHA512: 8ece18ca48c21b0b31a2deeff6805b13ae3fd77ca38eff605fddad2672b0954bca6f22b76a402192a0993b42ba463fd080de3a78addfacfb5e923c69817c4619
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15945,21 +15945,21 @@ Description: FFmpeg library containing media filters - development files
 
 Package: libavfilter11
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15559
-Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1-3+b1), libavformat62 (>= 7:8.1), libavutil60 (= 7:8.1-3+b1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1), libswscale9 (>= 7:8.1), libva2 (>= 1.7.3), libvidstab1.1, libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Installed-Size: 15561
+Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-3), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-3), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.1, libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Suggests: frei0r-plugins
-Filename: ./libavfilter11_7%3a8.1-3+b1_amd64.deb
-Size: 4594260
-MD5sum: c1a79a271c368ffee4d40454979151da
-SHA1: 8364ef9f034722ac229b48a0518a6059c2bc1018
-SHA256: 29d10b0a2be9bb554fa82d7e3991cd6f92deba9f5f840a665a1092d0fc963a81
-SHA512: cce4e3443d19767f0afb59fa5209a02fa53793f7b69fcd69966d3b81d96621bfb91990b6aa84c19d4b953f5a682b898286a4255370b60ad633695ed073545ea7
+Filename: ./libavfilter11_7%3a8.1.1-3_amd64.deb
+Size: 4597440
+MD5sum: edde8730f3742ef34279312bf4bfceb4
+SHA1: c26c43806cbe8fa4b7c4af20ba7182123e710f8d
+SHA256: 8b482c5fccc3dff7da74b74fcaf088c4e9fdbcc5a4e3d49e9eec535f4cd490d2
+SHA512: c6c965d1ef632db97aabd4efb488631800c9b1d896853adbfaa85fe333de2a6615c6d3b91ba3bd7b7595545e683f452021938435da272a454bf3a205c005e6eb
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15974,20 +15974,20 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavformat-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 6295
-Depends: libavcodec-dev (= 7:8.1-3+b1), libavformat62 (= 7:8.1-3+b1), libavutil-dev (= 7:8.1-3+b1), libswresample-dev (= 7:8.1-3+b1)
-Filename: ./libavformat-dev_7%3a8.1-3+b1_amd64.deb
-Size: 1487176
-MD5sum: 028b9dd4f6454fbd335dd7679d275d13
-SHA1: c96ede371e80e59eaa118ecc9e39c45dd6af0ca0
-SHA256: 3cdc0719ce2fbc44f40a68e3d33af7b4f49645ed0c4f4c93aedaba9e012fc1f6
-SHA512: b8b2e851e0bf968634b74c875f0fd85ceb449f8f02efbe82c1ff366b1f5701bd641cbbb71ac543bcc395788772c42ca0231632c2fe2aaff88acfba88b2ac6c03
+Installed-Size: 6299
+Depends: libavcodec-dev (= 7:8.1.1-3), libavformat62 (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3)
+Filename: ./libavformat-dev_7%3a8.1.1-3_amd64.deb
+Size: 1490012
+MD5sum: 59f1c81455bd42c690cca55ac76300db
+SHA1: 60dcd44fde6b0721d47213ea5ea7785098df1219
+SHA256: aa09790f3a4d5232056fb20cbbe7975506c806b52f1940ad51925e179d7ff0ba
+SHA512: 94cdf71535974d5ab49c0262c8d3945d4c8b8cf975fd8a746521f06261266a5a1b4b8941c723a03fbf2969e0f5791d3583be4153bb54c3c735df238db4aa0083
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16004,20 +16004,20 @@ Description: FFmpeg library with (de)muxers for multimedia containers - developm
 
 Package: libavformat62
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3236
-Depends: libavcodec62 (= 7:8.1-3+b1), libavutil60 (= 7:8.1-3+b1), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.4), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: ./libavformat62_7%3a8.1-3+b1_amd64.deb
-Size: 1267732
-MD5sum: 467c7aab135accc6ba8a541ba99ea6d6
-SHA1: 3b3274790377b173db3e4d6c9a9ba13d5f59ccf7
-SHA256: cf8a4c7a38eeaa60f6a13c9ad00179e4640c14c790d5dfcf151b04998e279878
-SHA512: 4ddfac98879d9e8b96c20c19ee656750cf447822295c5405df42a20f8f29bd80d23f2db3a3656ac0cf833c28b27db1ad02f95df530749c19d47bfc1e31213941
+Installed-Size: 3238
+Depends: libavcodec62 (= 7:8.1.1-3), libavutil60 (= 7:8.1.1-3), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: ./libavformat62_7%3a8.1.1-3_amd64.deb
+Size: 1270268
+MD5sum: c5c7e66ab7288c519fbdb478e5dedf29
+SHA1: 06982bc1d50dfab5402cc933966d87429d5cdbed
+SHA256: 70e0738ed3b0db30680a96cd321764e35ea486d4fc3444411602912c602bb0b1
+SHA512: 5a8a7fcddf4a18702d3d1b232173eeb48490b3019efd5bc015cb959dec93ac3686761961aac2896fbc41c9a1856eb4f36adfd606236c654f2da12eb95b26522a
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16057,20 +16057,20 @@ Description: Library for handling .avif files
 
 Package: libavutil-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2656
-Depends: libavutil60 (= 7:8.1-3+b1)
-Filename: ./libavutil-dev_7%3a8.1-3+b1_amd64.deb
-Size: 605228
-MD5sum: 2eb1f1972de2d99b42acfec4220e64b5
-SHA1: 3bb73065974c9b15543e7be6d75e9695849df3dc
-SHA256: 4796c224fdf8be18835d2b7f54e5acad2de9aeedecd55cd5879bdffe6efd72bf
-SHA512: 254ee8f84e12684daef5db729f9b388f64a7c380806bf244f5055d1124c556e497f6204528c7ce7ae24b1db9ec68b08d5d1d47e2b6c7badeec177ba899f633a3
+Installed-Size: 2658
+Depends: libavutil60 (= 7:8.1.1-3)
+Filename: ./libavutil-dev_7%3a8.1.1-3_amd64.deb
+Size: 607412
+MD5sum: ef7b09fff536b4f462422c8bb8f9b075
+SHA1: dd9225ded12f8716dc60d90ddb603490c6faea3b
+SHA256: 9b3dfd67f374c7349d13c19be93f31665fb2fb1cdef5309bb2f0a82f34c9a947
+SHA512: 18190442f6eb2281bf955fdfcdaa28e9dc9429599c7553e0b180d57d8cdc659f25109ac00ab6d7dfe1cd8da8ae38e6e8bb107825e9b689c9e85e278172face60
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16089,20 +16089,20 @@ Description: FFmpeg library with functions for simplifying programming - develop
 
 Package: libavutil60
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1290
+Installed-Size: 1292
 Depends: libc6 (>= 2.35), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libvpl2 (>= 1:2.16.0), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: ./libavutil60_7%3a8.1-3+b1_amd64.deb
-Size: 439380
-MD5sum: 8a0435f6f913df45cce97dacbdca88bb
-SHA1: 5c080b2e1e73c3fef4673b42b196b25b52c20856
-SHA256: 68413737c8884468dd9131bfb00e41be34a493ad99a0391e488eafe373afa902
-SHA512: f4f703f49776687e654f4ce2fb689d680df8e8b94fa8a7541e84239e1a2fd964831d8d373ab11afbb017a49691a93f27f232aa053faf3bafc4c3d074c4df6be8
+Filename: ./libavutil60_7%3a8.1.1-3_amd64.deb
+Size: 441380
+MD5sum: 014ae7370c44f70d4aac8f645b8ac7cf
+SHA1: 4106a8e441efcd3ab9e300c9f2eafdd91c27fef2
+SHA256: a84d436a90759575b629a34ed21be07d7f554bf5999fc68b0cddaf426e3bd5bb
+SHA512: 9f23bf0c3b8f59e537d9c690d592b105285805dd9099a9d48d7990fe7997e8dd3a4a88d19c8955c8637dff466eb3ea0d2ca6fb89ed2b5bb49a09fbe5b87976b2
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -23349,23 +23349,23 @@ Description: libgspell architecture-independent files
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 761
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.27.50), libgstreamer1.0-0 (>= 1.28.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
+Installed-Size: 764
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.27.50), libgstreamer1.0-0 (>= 1.28.3), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: ./libgstreamer-gl1.0-0_1.28.2-2_amd64.deb
-Size: 269632
-MD5sum: d4ecd5a4a580c756d16a960c98cec395
-SHA1: f693517b36825670ab81b7db70cefdafa4e7787a
-SHA256: 5f374b89f21bceeab7464632f3b4ad94d0a08775780024ee8094ccc1c6705f8d
-SHA512: 13c19ee3494b8a07df93d1858a11b7883df9daa6af15d2cff22d19c228981e6aeec38eef6ae2d45b1b69f94e3ce41a4031d4a65e5a2c7653e5b046bac86be714
+Filename: ./libgstreamer-gl1.0-0_1.28.3-1_amd64.deb
+Size: 274008
+MD5sum: c7a0a58898f0ba9157fd790eb77d8e72
+SHA1: b1bcd17f0ba42513f98b5f2bd6e51680ee325572
+SHA256: ddce8f059239657c234119be66c34f08ec36057b191c0062cb7555afa129a2e8
+SHA512: 5916d1265b5d3a16432636e85a5aa4615c16eb2fb3a2ce72d94c651292370c6688219634c32da8755e5d58918f74d0cc879312462925a5a6d8631af603d8f380
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23413,24 +23413,24 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
-Version: 1.28.2-2
+Version: 1.28.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 3830
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.81.1), libgstreamer1.0-0 (>= 1.28.0), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
+Installed-Size: 3833
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.81.1), libgstreamer1.0-0 (>= 1.28.3), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
 Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: ./libgstreamer-plugins-base1.0-0_1.28.2-2_amd64.deb
-Size: 1038544
-MD5sum: f708cff0ae01424daeec0cd3be4b481b
-SHA1: 4908526dd6dfbf9664736f24d6235f8c6dd3ce19
-SHA256: 76c2a705567815faa38d84b2deba6c69018d245e0ce95659a011d436471e0d36
-SHA512: 6a0866e4aa53c805c3c5c66426536b2b239840b9aedede6e540f348b3683e82cdf6bed9a0371fac07c8ce265798f3796d78c994c09e4738254d41ab4dea63f2a
+Filename: ./libgstreamer-plugins-base1.0-0_1.28.3-1_amd64.deb
+Size: 1042448
+MD5sum: 70e5bb3545041855ff9f99a778237ffc
+SHA1: 5788da6698ac6089789f20c7225c784e3e840609
+SHA256: 6aec21d81ae122ed825f977195f8295eaa6a06b95f93701c50f89172e36eb154
+SHA512: 129fe440e3572a76c1e778ebf688cbc90db27b743c49c6c4d16babf523caca0ed58c86b561ac6f5b7de1c321435dc8821a1650d7d11245d789bace13435e2151
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -46368,20 +46368,20 @@ Description: Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
 Package: libswresample-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 401
-Depends: libavutil-dev (= 7:8.1-3+b1), libswresample6 (= 7:8.1-3+b1)
-Filename: ./libswresample-dev_7%3a8.1-3+b1_amd64.deb
-Size: 116896
-MD5sum: 091929333aa9ea8f2488160da6619c2f
-SHA1: 449eae35ed5788050bcf5703cd4ed5382eef0ece
-SHA256: 4ea596547bf93147cc7857506bb22b3a0f13bae2d084f8b69843e1764a95fc5e
-SHA512: 8f5037f26b37f22c99c778064e4f7bb406dd7d1a6af6d32c88f4a5da6cdac3513b85d142532997e9112aa54f258c982ec41feda29ca7ebcf9fac8c3d6bad7973
+Installed-Size: 403
+Depends: libavutil-dev (= 7:8.1.1-3), libswresample6 (= 7:8.1.1-3)
+Filename: ./libswresample-dev_7%3a8.1.1-3_amd64.deb
+Size: 118920
+MD5sum: 4a3092153be0b0c0cd28b6078c784343
+SHA1: 78a4dda7be36e26482004a3312bffd3b6a9912b3
+SHA256: 3ba38e0d2da095f7ccfabd7efaea3b7705c871c7419d426b4d1196a3fb8088d4
+SHA512: 4819bead3c4e1c6b04cc108247a05b225b7f6fccaee14828c5ce32c4d5c470747bce908312598e7d9a71e199a615f69f6a0b4cc5e9768b278786ce816cb8c2ea
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46412,20 +46412,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - development
 
 Package: libswresample6
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 274
-Depends: libavutil60 (>= 7:8.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: ./libswresample6_7%3a8.1-3+b1_amd64.deb
-Size: 102240
-MD5sum: 8342cd63e31f5d69bd7b68f1f2a34cb4
-SHA1: 233529d73a0b1077e4f92a6278e737b2a39943c2
-SHA256: 6af94654ce515d9618db3c42d55029128aaebeb746689abfd9a9a054d77e98f8
-SHA512: 2c643eb692ea77fb9fc370d36c52afd3ac44e5a1a8cd9f644abd6a54dce6bbf6793483d68790eb77172db5bf51bdb2da9d3ab0a8735cc6d6caaa636f0ea6f11d
+Installed-Size: 276
+Depends: libavutil60 (>= 7:8.1.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
+Filename: ./libswresample6_7%3a8.1.1-3_amd64.deb
+Size: 104256
+MD5sum: 1ddd5362a261e5831df08feb957795e9
+SHA1: c761f366928778cdd12513a7cebf31de5e8e92a0
+SHA256: 0153552375df2fa83eae8482ecce3b231dfc2fe32fcc34cb8d32fed863e60161
+SHA512: 306c633c20e4beaee68c4cc178c73f29be220c20e9fbdaa3625e405f833773fcec3430c88fff8f5f6dd3b6e5de155da1201c65353fffb2198398648de07e2251
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46456,20 +46456,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswscale-dev
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2487
-Depends: libavutil-dev (= 7:8.1-3+b1), libswscale9 (= 7:8.1-3+b1)
-Filename: ./libswscale-dev_7%3a8.1-3+b1_amd64.deb
-Size: 538284
-MD5sum: 1cffe9b529e726d58cb36cd5a596cad9
-SHA1: 67ab8ad1deec27b26dace67a480b7a476e259659
-SHA256: 5ed3012c8427521244e2b3ae536b4ac3b38f36abbc0da61ba11b41fbd8616dea
-SHA512: 8bb39b9026aff753a623ed8fb4dbf24338e813266d676b7b750231b1167cbaf5bf2053e9cf7c12e80032e27660df6fbec8f20bd0596dced2e6ff92bae595cc0d
+Installed-Size: 2489
+Depends: libavutil-dev (= 7:8.1.1-3), libswscale9 (= 7:8.1.1-3)
+Filename: ./libswscale-dev_7%3a8.1.1-3_amd64.deb
+Size: 539820
+MD5sum: 252b67889783935e7dd869b1634ec5e7
+SHA1: bb532c5a20bd599c7e28ad632d85af8183ac4200
+SHA256: 4b770e7071b548748028c3d33cfaa8ee4e8ad0b1decdad7eafc111559d48dbb4
+SHA512: 0a24c877484d8472fa208b1166db4b7068ff0a82c67a81e4aa898dd4789db1e4b99979df207d728f75e18d29755e4dfc56528549571ad09c69ca8be6b826df74
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46494,20 +46494,20 @@ Description: FFmpeg library for image scaling and various conversions - developm
 
 Package: libswscale9
 Architecture: amd64
-Version: 7:8.1-3+b1
+Version: 7:8.1.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1-3)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10388
-Depends: libavutil60 (= 7:8.1-3+b1), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libswscale9_7%3a8.1-3+b1_amd64.deb
-Size: 2888876
-MD5sum: 6870aa4b25d4270f18b8f3321b3a8b6d
-SHA1: f79e7df849514bcaee86aeaa8ed09f82802a3bbe
-SHA256: 6d98857e73ab6d64c5360dfe0bc70176226ce86b35468fb3510a930dfe832fee
-SHA512: 72e439f654fe0d621df00edd7154b3b73655eb6285e839d46ff673f43c9918985aef6a04d2b10e1546b0d4d175eacb7ae636fef41bacfef29d4cc59a73459902
+Installed-Size: 10390
+Depends: libavutil60 (= 7:8.1.1-3), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./libswscale9_7%3a8.1.1-3_amd64.deb
+Size: 2889996
+MD5sum: 1eb666b687ce8d4284014d5aa773fb25
+SHA1: 9075035f5cff4fcb9e26f951c1c66ee49cc6ca39
+SHA256: 5d876482e3b5245b2f3c08500ae6d4e3499a4bd03d636c7882b92b47a15a8b19
+SHA512: dc41ebb936352b2ac494e5e87acf0fca8baa02ef42e8698be925577bcd4a9c374e306223ba1334ad805fedadcea85a1ae89b1ef54a144d2c82b492c546efff20
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
