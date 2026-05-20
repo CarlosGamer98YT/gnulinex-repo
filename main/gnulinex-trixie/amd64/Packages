@@ -13992,7 +13992,7 @@ Description: Default Plasma icon theme
 
 Package: kglobalacceld
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -14000,12 +14000,12 @@ Installed-Size: 43
 Depends: plasma-version-base-6.6, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkglobalacceld0 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~)
 Breaks: libkf5globalaccel-bin (<< 5.115.0-7~)
 Replaces: libkf5globalaccel-bin (<< 5.115.0-7~)
-Filename: ./kglobalacceld_6.6.4-1_amd64.deb
-Size: 9032
-MD5sum: e6cd0231acf5849c9bd66a1bf9cadd56
-SHA1: c0665c7d875c1c34ceaf6a54981d3d5c95236fe8
-SHA256: aec178efc2ade2b51f3b1c2367ba92a07e252cb2fbb30260b542b455b1f88f30
-SHA512: c63de52e9afc41c53ccc65604c1a818a7f2e75bdaa87268a3bfc22471dc61b87fdaa6c1c6a142c55d48d6349a2a9195eb552841f65b3dff22bef597eebb65ccc
+Filename: ./kglobalacceld_6.6.5-2_amd64.deb
+Size: 9076
+MD5sum: b09bc8edbc841517fb8e74d9b51c68bf
+SHA1: 386e18e283432289c2174591d8279f51692f960c
+SHA256: 74517b80e67475488bd22c27e5a2d36af82057a10edb403a294472f29c76a366
+SHA512: 05d498019bd2ddf3848d3f07b1557633c5650f7b781ae086fbcdfd80900687a1657b2cc2ba4ac67457cf6f629dde70142d65c6edb6255a591cb318aa61618e3b
 Homepage: https://invent.kde.org/plasma/kglobalacceld
 Description: daemon for global keyboard shortcuts on the Plasma desktop
  Daemon providing Global Keyboard Shortcut (Accelerator) functionality for the
@@ -14653,22 +14653,22 @@ Description: Qt library wrapper for Wayland libraries - data files
 
 Package: kwin-common
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Source: kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6634
-Depends: kglobalacceld, kwin-data (= 4:6.6.4-1), plasma-desktoptheme, pnp.ids, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-window, plasma-version-base-6.6, libc6 (>= 2.35), libeis1 (>= 1.5.0), libepoxy0 (>= 1.0), libevdev2 (>= 0.9.1), libkdecorations3-6 (>= 4:6.6.4~), libkdecorations3private2 (>= 4:6.6.4~), libkf6authcore6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libknighttime0 (>= 6.6.4~), libkwin6 (>= 4:6.6.4), libpipewire-0.3-0t64 (>= 0.3.29), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6uitools6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libudev1 (>= 183), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Installed-Size: 6638
+Depends: kglobalacceld, kwin-data (= 4:6.6.5-2), plasma-desktoptheme, pnp.ids, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-window, plasma-version-base-6.6, libc6 (>= 2.35), libeis1 (>= 1.5.0), libepoxy0 (>= 1.0), libevdev2 (>= 0.9.1), libkdecorations3-6 (>= 4:6.6.5~), libkdecorations3private2 (>= 4:6.6.5~), libkf6authcore6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libknighttime0 (>= 6.6.5~), libkwin6 (>= 4:6.6.5), libpipewire-0.3-0t64 (>= 0.3.29), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6uitools6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libudev1 (>= 183), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Suggests: kwin-addons (>= 4:6.2.90~)
 Breaks: kwin-data (<< 4:6.1.4-1)
 Replaces: kwin-data (<< 4:6.1.4-1)
-Filename: ./kwin-common_4%3a6.6.4-1_amd64.deb
-Size: 2120624
-MD5sum: 2fd0fed893ebace34877c3c3f33dd3fb
-SHA1: 58804ea7f22443e9a718a1066af8323acb9fe9e6
-SHA256: bb112a21a5941f1537f7b5441805d165fa3e118b8dadc653e44e7f5294cb32c4
-SHA512: 37747cae116ea33923547f2c06c39897091fa871c2f31a07ba32760785cd0a62ac977378d94e08d9de376faf2c39de4b0798f2725b65b2a755dcad5aaab3d02a
+Filename: ./kwin-common_4%3a6.6.5-2_amd64.deb
+Size: 2120948
+MD5sum: c65a3b392b1252aca12dd47314eb0ede
+SHA1: 4d5d8c786703af45dcfdd4fc7cf0767666493473
+SHA256: 79de4ba0aed8ce559bad200bacfe7ef110bcecfc9e2b93226dcf7523421b4329
+SHA512: 140f1d4b77cf84e3a024467ea299fc2870528822ca6fd010d90739179fd87f7fdad31a420de72ff6820e9e3fecc8e765ac3bd36d091e064e6daf17d52570737d
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
@@ -14683,23 +14683,23 @@ Description: KDE window manager, common files
 
 Package: kwin-data
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 14766
+Installed-Size: 14798
 Depends: plasma-version-base-6.6
 Recommends: plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, systemsettings
 Breaks: kwin-addons (<< 4:6.0.0~)
 Replaces: kwin-addons (<< 4:6.0.0~)
-Filename: ./kwin-data_4%3a6.6.4-1_all.deb
-Size: 5547008
-MD5sum: 4616d08332f05abfe4f0fffdd8094dc5
-SHA1: 3ba4520218aa63dcaf42ec834a67e6c7c91c84ab
-SHA256: 7311483e1e158fe082ac7337966dec6eba1a47d99cd8fb82bbeb38badf436eb3
-SHA512: 9f1f0f6ff504f7bf39dcd834cfe7a78c36a4797a83440f4fa5f5420d431e5837f78abed58bc4b3b06a95192e450db15425940a48d48531001235a3d83ae16906
+Filename: ./kwin-data_4%3a6.6.5-2_all.deb
+Size: 5545452
+MD5sum: 4c448c3762a1d228ad74659d87af211b
+SHA1: 0a4c0247f0e25d0a94b047c0624bc04ba229ac15
+SHA256: fded6101b2b88cd2e5463b5c9485954c7a955d6a473ec0a9a7fae4accc4b3898
+SHA512: 07f9e7a2fcf687777641492693a533a2eb4b7f8f461a0ac6d2288d941b4dfb048b06d6203149b5e3b5492acc307a8022af2a98cc6001c688ffe5799930ee540b
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
@@ -14737,22 +14737,22 @@ Description: KWin Aurorae decoration style engine
 
 Package: kwin-wayland
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Source: kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1716
 Provides: kwin
-Depends: hwdata, kwin-common (= 4:6.6.4-1), libcap2-bin, xwayland (>= 2:23.1.0~), plasma-version-base-6.6, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.6.4~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkwin6 (>= 4:6.6.4), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libsystemd0 (>= 214), libxcb-composite0, libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.8), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Depends: hwdata, kwin-common (= 4:6.6.5-2), libcap2-bin, xwayland (>= 2:23.1.0~), plasma-version-base-6.6, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.6.5~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkwin6 (>= 4:6.6.5), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libsystemd0 (>= 214), libxcb-composite0, libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.8), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: kde-style-breeze, kwin-style-aurorae
 Breaks: xwaylandvideobridge
-Filename: ./kwin-wayland_4%3a6.6.4-1_amd64.deb
-Size: 455764
-MD5sum: 78f07a55a31064fb32ac7a7ad731803a
-SHA1: d6b095c6ad8268dfa6161f2ca58fde71225128a4
-SHA256: a12923788b6a363ca5cfe0555019e8ba1db47396765872050ce7900e872a5f66
-SHA512: c27dafefaae446e8de436e72016c69b02f51e366ec5af20aa028c8c36eeae6eb25bff5715102c51bdd21bf23e56d318e210411378b4cf1f3ce3dc47f06ca678d
+Filename: ./kwin-wayland_4%3a6.6.5-2_amd64.deb
+Size: 454500
+MD5sum: 6d441e8e4f66564738388d9b23d10408
+SHA1: 3f099cbba042064a44a5d619b4ca39a435d1252f
+SHA256: 868d24ff1a9249149ae8d8d64072e0efb6e6b9ce8a103f311ed659f40d670a64
+SHA512: d7ecbcecbbf56cb834f3efd59b6ffd89624c732e1e18316ec07dc7b5a46a0a08c6bbd2faf9aacd257de9a62512e78d4650a6c924198a104073e1ee98c33b7f1c
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, Wayland version
  KWin (pronounced as one syllable "kwin") is the window
@@ -14767,21 +14767,21 @@ Description: KDE window manager, Wayland version
 
 Package: kwin-x11-data
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kwin-x11
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 12779
+Installed-Size: 12800
 Depends: plasma-version-base-6.6
 Recommends: plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, systemsettings
-Filename: ./kwin-x11-data_4%3a6.6.4-1_all.deb
-Size: 4632896
-MD5sum: 18f24aeee2c2254357d5a5ce9cbb101e
-SHA1: 502cd99dd97a8b86909c4931a8f5159d38631354
-SHA256: 69095cf4ddc405d2d0edede9164317be90c60870a9f2ba7f50ae03b153232a6d
-SHA512: 619f9f36b76013ff156323019f13403edf6ef2522b26897cec43391dbcd0fb93696b9bff382b122a0301903ac40f11140dfd7a25cbd9a15e065e03ad221828e8
+Filename: ./kwin-x11-data_4%3a6.6.5-2_all.deb
+Size: 4632460
+MD5sum: 0876f489ca04b6bb6b9c5161759227f1
+SHA1: bbd864132286c4aa1c46fa75bf985e91c3580d65
+SHA256: 42ba82c29834a629159fef42c74838508288ef24bd7eebe239a637984f84a524
+SHA512: b178adecb3af06844ff9fab97d005aacbc47f1197f867d494cfb33ebcb0961ef49e7cef709613c27e899e8695546797c75adb7de85bdc1c07609bbb9de5e3fde
 Homepage: https://invent.kde.org/plasma/kwin-x11
 Description: KDE window manager X11 data files
  KWin (pronounced as one syllable "kwin") is the window
@@ -14796,22 +14796,22 @@ Description: KDE window manager X11 data files
 
 Package: kwin-x11
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6048
+Installed-Size: 6049
 Provides: kwin, x-window-manager
-Depends: hwdata, kwin-common, kwin-x11-data (= 4:6.6.4-1), xauth, xinit, xkb-data, xserver-xorg, plasma-version-base-6.6, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkdecorations3-6 (>= 4:6.6.4~), libkdecorations3private2 (>= 4:6.6.4~), libkf6authcore6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libknighttime0 (>= 6.6.4~), libkwin-x11-6 (>= 4:6.6.4), libplasmaactivities7 (>= 6.6.4~), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6uitools6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.22~), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.7.0~), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Depends: hwdata, kwin-common, kwin-x11-data (= 4:6.6.5-2), xauth, xinit, xkb-data, xserver-xorg, plasma-version-base-6.6, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkdecorations3-6 (>= 4:6.6.5~), libkdecorations3private2 (>= 4:6.6.5~), libkf6authcore6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libknighttime0 (>= 6.6.5~), libkwin-x11-6 (>= 4:6.6.5), libplasmaactivities7 (>= 6.6.5~), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6uitools6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.22~), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.7.0~), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: kde-style-breeze, kwin-style-aurorae
 Breaks: kwin-common (<< 4:6.4.0~), kwin-data (<< 4:6.4.91-1~)
 Replaces: kwin-common (<< 4:6.4.0~), kwin-data (<< 4:6.4.91-1~)
-Filename: ./kwin-x11_4%3a6.6.4-1_amd64.deb
-Size: 1175360
-MD5sum: 92e6d9d9eb336873a43814b8aa42a3b2
-SHA1: 4b7326e30ff5859e2f997e4ec1a7a6af28a311c2
-SHA256: 024283e6d9ec52869a79c720e38f1541fcf77b1e7f16985c52a731564a2d0fbc
-SHA512: 0ceb8f51601d0fadec2a2370b6fc6636ab7d0fc692691f269f9fd1a2637ca491fcfafb56eeefca5985635e81daf2204ea40577c6944caa86b0b6119ef352d897
+Filename: ./kwin-x11_4%3a6.6.5-2_amd64.deb
+Size: 1174564
+MD5sum: e5a6bdda8bd167c7be96f808bf0f30e5
+SHA1: f419d78c33e85de1e350fa795ee309fdcafb4058
+SHA256: 4cc412dd30a0abdac9b4c53cf02ff9a1981f4ef039f7c0cb694cb1871be3471d
+SHA512: 776eed60d4899ab53415a1c1fc2d4b9caf5afcee2a88a923694c7a0d0acbda1a37b482b97b229c3ee10d09891133d7aa6ae7e1b513dfc91402307a8711af4d38
 Homepage: https://invent.kde.org/plasma/kwin-x11
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
@@ -29349,7 +29349,7 @@ Description: Google API library for KDE -- data files
 
 Package: libkglobalacceld0
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29357,12 +29357,12 @@ Source: kglobalacceld
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 386
 Depends: plasma-version-base-6.6, kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-record0, libxcb-xkb1, libxcb1, qt6-base-private-abi (= 6.10.2)
-Filename: ./libkglobalacceld0_6.6.4-1_amd64.deb
-Size: 106396
-MD5sum: 2499f78ae07a0759335718662dcc8f0f
-SHA1: c08d885a1335c1073f09e2b7a13922a7227f6865
-SHA256: e7d374caecb68d9d24ebdb138eaad7e4ecc05684ce6fd159bd595e3c8fdd288b
-SHA512: aef89d717d24e755c339e2ef3b830286399b9c96d409c6c1233c23187e81045a924dbc15306fd26fac09714ea5e5f3dccaf10447e8be657b343cd963b0229e75
+Filename: ./libkglobalacceld0_6.6.5-2_amd64.deb
+Size: 105448
+MD5sum: 897bcada2dd2b10f011c10e47f334c7f
+SHA1: 7af6ce94ae572b500253306be0c3b19cb7359d74
+SHA256: 9834eb327eff0026d33a38b303d62a532d884adfb8a49d09429d23f1ddc40436
+SHA512: 0c81e3dbfd986c6183b04541dd53922a4aae63371b6cfb8cca443d19718e67aba7581603c62c15c84a5d60dedcc72681a85cb54430bf2fda3059cfb4b6c1b05a
 Homepage: https://invent.kde.org/plasma/kglobalacceld
 Description: daemon for global keyboard shortcuts on the Plasma desktop - shared library
  Daemon providing Global Keyboard Shortcut (Accelerator) functionality for the
@@ -31868,19 +31868,19 @@ Description: Qt library wrapper for Wayland libraries
 
 Package: libkwin-x11-6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: libs
 Source: kwin-x11
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 8787
-Depends: kwin-x11-data (= 4:6.6.4-1), plasma-version-base-6.6, libc6 (>= 2.38), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.116), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libkdecorations3-6 (>= 4:6.6.4~), libkdecorations3private2 (>= 4:6.6.4~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configqml6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkscreenlocker6 (>= 6.6~), liblcms2-2 (>= 2.4), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6opengl6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sensors6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0), qt6-base-private-abi (= 6.10.2)
-Filename: ./libkwin-x11-6_4%3a6.6.4-1_amd64.deb
-Size: 1982484
-MD5sum: daf180f9a8fd1b2c2b5399679d409d79
-SHA1: cf4f14320a31676a381c59a1b935d8c10aaa0f41
-SHA256: c309538aa0bbfdd2d638b6135cc2452148247cfcb83776047eac587400dea658
-SHA512: b10ace257a02e8523121e37cd0b32a1cbd0dc7abc1c3302ec0c2eb67a41de93e43ea50d916cc593bc3b13c24b466dd61377679222d108329bd27df715fac1044
+Depends: kwin-x11-data (= 4:6.6.5-2), plasma-version-base-6.6, libc6 (>= 2.38), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.116), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libkdecorations3-6 (>= 4:6.6.5~), libkdecorations3private2 (>= 4:6.6.5~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configqml6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkscreenlocker6 (>= 6.6~), liblcms2-2 (>= 2.4), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6opengl6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sensors6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0), qt6-base-private-abi (= 6.10.2)
+Filename: ./libkwin-x11-6_4%3a6.6.5-2_amd64.deb
+Size: 1978684
+MD5sum: 3d7082e0a8b13ce28b10572d31eedd88
+SHA1: 3d3ea430a38892a2a392585160a22521e2d29943
+SHA256: 3d0ba3323d30e396753496354b6fab529fc10587e8868ab097cd2ceca019351a
+SHA512: a95ed30673bec192ed797c29a6f12dec8c0b33e74ac45dff5cea52d0355a18d175e1a31b0ac852e5a555b867276c65206fb31822a44c100c2e0ae97322ff7cc9
 Homepage: https://invent.kde.org/plasma/kwin-x11
 Description: KDE window manager X11 library
  KWin (pronounced as one syllable "kwin") is the window
@@ -31895,19 +31895,19 @@ Description: KDE window manager X11 library
 
 Package: libkwin6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: libs
 Source: kwin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 10355
-Depends: plasma-version-base-6.6, libc6 (>= 2.38), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libinput10 (>= 1.28~), libkdecorations3-6 (>= 4:6.6.4~), libkdecorations3private2 (>= 4:6.6.4~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configqml6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkscreenlocker6 (>= 6.6~), libkwaylandclient6 (>= 4:6.6.4~), liblcms2-2 (>= 2.4), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6opengl6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-client0 (>= 1.24~), libwayland-server0 (>= 1.24~), libxcb-composite0, libxcb-dri3-0 (>= 1.13), libxcb-icccm4 (>= 0.4.2), libxcb-keysyms1 (>= 0.4.1), libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinput0 (>= 1.17.0), libxcb1 (>= 1.6), libxcvt0 (>= 0.1.0), libxkbcommon0 (>= 1.0.0), qt6-base-private-abi (= 6.10.2), qt6-svg-private-abi (= 6.10.2)
-Filename: ./libkwin6_4%3a6.6.4-1_amd64.deb
-Size: 2371916
-MD5sum: f181a09a25006f006cfa2c8ebe73c8c3
-SHA1: 9499a1b6c02c1856305e63c84306305e10180308
-SHA256: 585b2850d64899a1a77645d910ca16424b38e9ba19ecd37e809439d2705d0fb4
-SHA512: 8a1cf5bb7eb1352832eb7aee0f7941cf5b1c662883a025433f71cc59fb6021aa3962fdbdf695577a77b05fe901e26b1f5f78096f98eed42035852086a7ca8115
+Installed-Size: 10351
+Depends: plasma-version-base-6.6, libc6 (>= 2.38), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libinput10 (>= 1.28~), libkdecorations3-6 (>= 4:6.6.5~), libkdecorations3private2 (>= 4:6.6.5~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configqml6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libkglobalacceld0 (>= 6.6~), libkscreenlocker6 (>= 6.6~), libkwaylandclient6 (>= 4:6.6.5~), liblcms2-2 (>= 2.4), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6opengl6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-client0 (>= 1.24~), libwayland-server0 (>= 1.24~), libxcb-composite0, libxcb-dri3-0 (>= 1.13), libxcb-icccm4 (>= 0.4.2), libxcb-keysyms1 (>= 0.4.1), libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinput0 (>= 1.17.0), libxcb1 (>= 1.6), libxcvt0 (>= 0.1.0), libxkbcommon0 (>= 1.0.0), qt6-base-private-abi (= 6.10.2), qt6-svg-private-abi (= 6.10.2)
+Filename: ./libkwin6_4%3a6.6.5-2_amd64.deb
+Size: 2374496
+MD5sum: b924c6694fb1582adaf683c092b0fb82
+SHA1: 08ee7c3e2120c4e067488ce5b66b92d6c38b552e
+SHA256: 99ff6a5000715da89629c88465c5234f165dc7221a7f4a7789c177c6df155823
+SHA512: e048fdcda8952cb83d9057f48742b4546749aa33f9266e8cd2152c03a1ef532de42318e95615a649c5f40e0f7ad1b710f6e532f74bf24223dda9c3e307bf8ee7
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager library
  KWin (pronounced as one syllable "kwin") is the window
@@ -35764,20 +35764,20 @@ Description: core components for the KDE's Activities system - shared library
 
 Package: libplasmaactivitiesstats1
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-activities-stats
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 297
-Depends: plasma-version-base-6.6, libc6 (>= 2.32), libkf6configcore6 (>= 6.22.0~), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libstdc++6 (>= 6)
-Filename: ./libplasmaactivitiesstats1_6.6.4-1_amd64.deb
-Size: 81444
-MD5sum: 22fbdb603a8f950d6551113c2bc1aebb
-SHA1: 8e13110bafe5e87eda824befee7272136e164c42
-SHA256: 171898efe8591ff200156841060c5d9347a198e3787999e2f79229a418b000b7
-SHA512: daad54bc3b6ca8f5af9610463284c3ef9c63d03ceb6a751671ceb108df23cb8be1e2540c98830f13b00524af3a27187a6c21690e1e02b000b4fa11e02f725511
+Depends: plasma-version-base-6.6, libc6 (>= 2.32), libkf6configcore6 (>= 6.22.0~), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libstdc++6 (>= 6)
+Filename: ./libplasmaactivitiesstats1_6.6.5-2_amd64.deb
+Size: 81532
+MD5sum: e44718b4e7fc22f1d2dc246c668a3348
+SHA1: 169c61a75edb307d7eea049dfb71f3f46a6920a4
+SHA256: 32d65cc2509d29058a4a9818c1bc1471d0f41cf27a1a6147ae133601b0dd311d
+SHA512: f039738e4d2ad4c807d76ece7e2953d3c1f78414724c6fa517ffb454a18c0998aaed7d133e7a496917ee4856b84d3542ee7c7a92944235b7ef30d3be1dddd2af
 Homepage: https://invent.kde.org/plasma/plasma-activities-stats
 Description: usage data collected by the activities system
  A library for accessing the usage data collected by the activities
@@ -56587,19 +56587,19 @@ Description: official text editor of the MATE desktop environment
 
 Package: polkit-kde-agent-1
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 451
 Provides: polkit-1-auth-agent
 Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, plasma-version-base-6.6, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nqml6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.22.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./polkit-kde-agent-1_4%3a6.6.4-1_amd64.deb
-Size: 68740
-MD5sum: 75126f8e2ccd9258c42d89a024ee8a17
-SHA1: 82cbed3dba1ffab2916602996c05d4cbaa0be277
-SHA256: 23f8b80dbf2a72f2a5a68265d21cf5ebb811a7daf505df85875fb16dff461319
-SHA512: 4d578f2fac0d0cf5cceddb49d6ae965721abea63725dd94cc5d8ac7371da4f12763de04a3ebd888f6a0f3492c6ddcc48c554295a24af013a453e70ee437bdd3d
+Filename: ./polkit-kde-agent-1_4%3a6.6.5-2_amd64.deb
+Size: 68880
+MD5sum: 327afe289f86ad535211ed2a5b7deacd
+SHA1: f9b212b9c21bde90b3c6ecb6bb77bfdfbbf6630e
+SHA256: c5ce29e53e7d60422975d0effc90c5781afb61ea84c4904cff0c9f89a83d17bf
+SHA512: 95a20af5799c0e9f96d784f61cd3a83aa0aa90fcaa11481b0709c2da49745ce6c338d3b0f03794d16cde62b1510da9fcd103aa6847c9bd3423e92b385fb85fa4
 Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
 Description: KDE dialogs for PolicyKit
  PolicyKit is an application-level toolkit for defining and handling the policy
