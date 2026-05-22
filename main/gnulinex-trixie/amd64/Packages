@@ -57493,19 +57493,19 @@ Description: Python module to read/write MS OLE2 files
 
 Package: python3-pampy
 Architecture: all
-Version: 2.0.2-3
+Version: 2.0.2-4
 Priority: optional
 Section: python
 Source: python-pampy
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 53
 Depends: python3:any
-Filename: ./python3-pampy_2.0.2-3_all.deb
-Size: 11680
-MD5sum: 845e27c544d2bd4c270e7e4296ad00ce
-SHA1: 0ad94a0ca3d80f74ce7f7d6390746c68e8492105
-SHA256: fc308d6e0da8bfeb25d948767984a10e71c07278aadb45c17fcf0e0746e9dc94
-SHA512: 04046796bc8620fc1a18b7c44deb669c3065a7fa1f425180fbf0f36aa61bfffe911780c6e992e2ba35f39d0243fd831c56f9e1829c204b9df691e53657e43cd9
+Filename: ./python3-pampy_2.0.2-4_all.deb
+Size: 11644
+MD5sum: a34757d511583766d24c3a88d150a5bb
+SHA1: cdfa0e61fb52545009f5565cd5b3e3090fe590a6
+SHA256: 05fc7e049b32c4e08cbc6fa6fcad724e0ed143498628fd965e303c1826bb561e
+SHA512: d74cce2d93fd615282298a71bedd51c7655b4010bb553f7546415fb931f5782b84dad0d6e83962435af0b5409bd1f8844b44619585c0d141f3f3f15645ae486f
 Homepage: https://github.com/FirefighterBlu3/python-pam
 Description: Python module for simple PAM authentications (Python 3)
  Provide an authenticate() function that will allow the caller to
