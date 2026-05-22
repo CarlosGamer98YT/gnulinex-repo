@@ -1548,22 +1548,22 @@ Description: records CDs in Disk-At-Once (DAO) mode
 
 Package: chromium-common
 Architecture: amd64
-Version: 147.0.7727.137-1
+Version: 148.0.7778.178-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 65056
+Installed-Size: 66396
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
-Breaks: chromium (<< 147.0.7727.137-1)
-Replaces: chromium (<< 147.0.7727.137-1)
-Filename: ./chromium-common_147.0.7727.137-1_amd64.deb
-Size: 25378500
-MD5sum: 442e86722b88f918d4ce7b8a179dbc55
-SHA1: 178334185d0259cad24a54015ad7019e0f53f439
-SHA256: 20bc5260012156c71fc668defb60cb134282f139e12674ea38804aacedd842b6
-SHA512: 04f17cc039111fe77472401ae65c95b625b27c90debbbe232ea40c55c9519d9719995f6c925a0ff5d51d4303473dbae8982681b540d821cff98419fecb7ff955
+Breaks: chromium (<< 148.0.7778.178-1)
+Replaces: chromium (<< 148.0.7778.178-1)
+Filename: ./chromium-common_148.0.7778.178-1_amd64.deb
+Size: 25711732
+MD5sum: 26a95bacd30d451df7e37e6339eafddb
+SHA1: 77884e03752158bb298c5f5e4dac3294d19d23bf
+SHA256: 34ec31c1a83e1bbe7175664e9ef79d422e30a5f8d991709f21c83418327ad502
+SHA512: 8baf59e1ec96e00b0d9ce887aa1400fcb2e0a22455986ecbb2e7070770ee83b9a9877851030c580cc1816fac39a46c5d262f018ff0cf6e820a5e58044d171d98
 Homepage: http://www.chromium.org/Home
 Description: web browser - common resources used by the chromium packages
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1574,21 +1574,21 @@ Description: web browser - common resources used by the chromium packages
 
 Package: chromium-sandbox
 Architecture: amd64
-Version: 147.0.7727.137-1
+Version: 148.0.7778.178-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 342
+Installed-Size: 345
 Depends: libc6 (>= 2.38)
-Breaks: chromium (<< 147.0.7727.137-1)
-Replaces: chromium (<< 147.0.7727.137-1)
-Filename: ./chromium-sandbox_147.0.7727.137-1_amd64.deb
-Size: 82256
-MD5sum: d4a70b335d92648cfa79968bc26e8fac
-SHA1: 0a7965b1be43c70fdafa90366aeaa6c9a1b6d93c
-SHA256: 4f5f92b48228b1809af8510190ac86b251a56a2cd6d3288cae17a1c65077569e
-SHA512: a4d4f8726059238b0393a4a643f48119fa712a018ac00ae39a2e723c61f715f1a6ae1c7771912a048370720a35f955f2f34eb2dc202041e7c7cac6c583ffb55c
+Breaks: chromium (<< 148.0.7778.178-1)
+Replaces: chromium (<< 148.0.7778.178-1)
+Filename: ./chromium-sandbox_148.0.7778.178-1_amd64.deb
+Size: 85700
+MD5sum: b7fd4b5b0e14fd1b507ec7cb8adf3d8b
+SHA1: 1d82d1642cf684d037c6f190c3debb40ab504929
+SHA256: 5ebf0773fa7aa2a8dfb78a23d37761a47aac6deb7dea8e0ee96ce32e15d0e79b
+SHA512: 53f17c596fd847634afb23fc3d14d45e0c819aa798c8bda0c21d2eec7b83cb103d718a63a091a0760cf64e1d056a57f1ef3ef647ddb79cc29ada73663b3e0578
 Homepage: http://www.chromium.org/Home
 Description: web browser - setuid security sandbox for chromium
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1598,23 +1598,23 @@ Description: web browser - setuid security sandbox for chromium
 
 Package: chromium
 Architecture: amd64
-Version: 147.0.7727.137-1
+Version: 148.0.7778.178-1
 Priority: optional
 Section: web
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 297042
+Installed-Size: 300469
 Provides: gnome-www-browser, www-browser
-Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 147.0.7727.137-1)
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 148.0.7778.178-1)
 Recommends: chromium-sandbox
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
-Filename: ./chromium_147.0.7727.137-1_amd64.deb
-Size: 84203472
-MD5sum: 6895aa3cf6af5a43e0c012189d5587d4
-SHA1: 47e1e3c4fc650d4aaeb7fbbc8709d66a13517d12
-SHA256: 1c14b18af4ddcd4b7e2620876b8fae56759ac1217f3a59e6e1bd0e3e87f3eba5
-SHA512: 8dcb5950529d6c6127a0f2cb1476f37b071e0346fb2d8838af25ba0831d503a55894e212a5496bcd37a8b02d6312eb394a68ab1b819a608fe0dcbf4f85e7ca20
+Filename: ./chromium_148.0.7778.178-1_amd64.deb
+Size: 85083852
+MD5sum: da05f0a5437d5eac23f13b30dc208f75
+SHA1: f104f01f9d0e20f9e776ad46368903d7877060a4
+SHA256: 610ee754c0bf6177b610c79c8ab812b07f1c6f924d21884f2e3b32176e23a60e
+SHA512: d3a54bf30b6e1eb221675b8c96ba74a01d29989785bb14236eb2c7b37c71827ce77eaa6b824c064d72b2d26f56e989e1b4e630c5a02f6ed33ef12ae16e202c07
 Homepage: http://www.chromium.org/Home
 Description: web browser
  Web browser that aims to build a safer, faster, and more stable internet
@@ -8127,21 +8127,21 @@ Description: GTK graphical user interface library -- gir bindings
 
 Package: gir1.2-gtk-4.0
 Architecture: amd64
-Version: 4.22.3+ds-1
+Version: 4.22.4+ds-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gtk4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 901
-Provides: gir1.2-gdk-4.0 (= 4.22.3+ds-1), gir1.2-gdkwayland-4.0 (= 4.22.3+ds-1), gir1.2-gdkx11-4.0 (= 4.22.3+ds-1), gir1.2-gsk-4.0 (= 4.22.3+ds-1)
+Provides: gir1.2-gdk-4.0 (= 4.22.4+ds-1), gir1.2-gdkwayland-4.0 (= 4.22.4+ds-1), gir1.2-gdkx11-4.0 (= 4.22.4+ds-1), gir1.2-gsk-4.0 (= 4.22.4+ds-1)
 Depends: libgtk-4-common, gir1.2-cairo-1.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0 (>= 1.56.0), gir1.2-pangocairo-1.0 (>= 1.56.0), gir1.2-xlib-2.0, libgtk-4-1 (>= 4.22.0)
-Filename: ./gir1.2-gtk-4.0_4.22.3+ds-1_amd64.deb
-Size: 208144
-MD5sum: dea925420e22f0dce0cadc4d506c43f8
-SHA1: 31015f040983b98ccb68a1b58b201e28363fd2e5
-SHA256: 2362dbdb40c0e082fc3feb47879752252de492fdd3fcb48909d98dcaab566b31
-SHA512: 6d3b49798a4406144a3af87b6bafdd6a7672cb58e3332189c02b73eb04570f0cf29bd57d3d400d247adb2f13c8d1479f06b9ac603f16b6b3008276c772308a4e
+Filename: ./gir1.2-gtk-4.0_4.22.4+ds-1_amd64.deb
+Size: 208236
+MD5sum: 6528b5a1667d45d89a384a9608692aef
+SHA1: 6e66595b8b6d7942a60abafe7b286f4136262128
+SHA256: a5999cc2324a4476d0a9a9ac14b7e9a5c3f3836aa82f33dbb304cd2b685ad499
+SHA512: 9876486ab67fcda1c558fa4278e5ca77c0c75bcfbd6c4f9d357781d6ae61ae3e850ea0beae8129985c2a7525aa1d25b9d14bcd706f714e8597d7b497ccbed086
 Homepage: https://www.gtk.org/
 Description: GTK graphical user interface library -- gir bindings
  GTK is a multi-platform toolkit for creating graphical user
@@ -12255,7 +12255,7 @@ Gstreamer-Version: 1.28
 
 Package: gtk-update-icon-cache
 Architecture: amd64
-Version: 4.22.3+ds-1
+Version: 4.22.4+ds-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -12265,12 +12265,12 @@ Installed-Size: 105
 Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0)
 Breaks: libgtk-4-bin (<< 4.15)
 Replaces: libgtk-4-bin (<< 4.15)
-Filename: ./gtk-update-icon-cache_4.22.3+ds-1_amd64.deb
-Size: 41028
-MD5sum: 2c66787c59f531072b6f5ccbd951a9a0
-SHA1: 8d261101f36b788270ceb28b12a8e30e5cdad944
-SHA256: a5b9f9d959391b8fdcea93fa808ba366cba857235b23153a06d740b99e106cf5
-SHA512: b1fae7f3f6c0fd8910ee254f4844dfb8de0812e061c495ebfd6899e0a12ae45c9a275a00db812f6627eb2f3c27cd594fe0daadcffb4ef76c950d02522e006823
+Filename: ./gtk-update-icon-cache_4.22.4+ds-1_amd64.deb
+Size: 41164
+MD5sum: b78595d8fa0440ca22dbdd766fe4794b
+SHA1: d045948126f16ea43d4dbb992b6e3e4fc9417adb
+SHA256: 81aaa405325dfc059e9b01a772bdfdf8faa678550a547fbe4741bd9874551f64
+SHA512: 44341d64870eb912907ee291d46bc578fe7fcd7181575169a880ad232018b3c036abed42c1680e6a69117ecb4f319ee6db002c69cbaa980c6bcc780ab7682238
 Homepage: https://www.gtk.org/
 Description: icon theme caching utility
  gtk-update-icon-cache creates mmap()able cache files for icon themes.
@@ -12866,22 +12866,21 @@ Description: hardware identification / configuration data
 
 Package: hyprland
 Architecture: amd64
-Version: 0.54.3+ds-3+b1
+Version: 0.55.2+ds-1
 Multi-Arch: allowed
 Priority: optional
 Section: x11
-Source: hyprland (0.54.3+ds-3)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 12062
-Provides: hyprland-abi-fcf0056, hyprland-api-0.1
-Depends: libaquamarine10 (>= 0.11.0), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2 (>= 1.0.0), libglib2.0-0t64 (>= 2.40.0), libhyprcursor0 (>= 0.1.13), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils11 (>= 0.12.0), libhyprwire3 (>= 0.3.1), libinput10 (>= 1.28.0), libmuparser2v5 (>= 2.3.4), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libre2-11-absl20260107, libstdc++6 (>= 14), libtomlplusplus3t64 (>= 3.2.0), libudis86-0 (>= 1.7.2+git20221013.5336633), libuuid1 (>= 2.16), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-errors0 (>= 1.0.1), libxcb-icccm4 (>= 0.4.2), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-xfixes0, libxcb1, libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 1.12.3), polkitd, binutils, libgl1-mesa-dri
+Installed-Size: 18120
+Provides: hyprland-abi-ff3b2cb, hyprland-api-0.1
+Depends: libaquamarine10 (>= 0.11.0), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2 (>= 1.0.0), libglib2.0-0t64 (>= 2.40.0), libhyprcursor0 (>= 0.1.13), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libhyprwire3 (>= 0.3.1), libinput10 (>= 1.28.0), liblcms2-2 (>= 2.2+git20110628), liblua5.5-0 (>= 5.5.0), libmuparser2v5 (>= 2.3.4), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libre2-11-absl20260107, libstdc++6 (>= 14), libtomlplusplus3t64 (>= 3.2.0), libudis86-0 (>= 1.7.2+git20221013.5336633), libuuid1 (>= 2.16), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-errors0 (>= 1.0.1), libxcb-icccm4 (>= 0.4.2), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-xfixes0, libxcb1, libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 1.12.3), polkitd, binutils, libgl1-mesa-dri
 Recommends: libcap2-bin, xwayland, xdg-desktop-portal-hyprland
-Filename: ./hyprland_0.54.3+ds-3+b1_amd64.deb
-Size: 3156680
-MD5sum: e5b787deb0889fdeb9ed32ea2dceafee
-SHA1: 99f7e4d2ada0bf237b6fd467d1d446ccccf61d32
-SHA256: b72ab1b3488356c626cf75816514a39d2f3344570ef26c03d72f1ee712ecc7a8
-SHA512: 26dbc41bfe8536b4d999c1c0a311f65ff93335a4588d74677a212e2d0a4f80a640f1268acc9782499244ab25f8547270d476258dbefba60c46056effd9b56b4c
+Filename: ./hyprland_0.55.2+ds-1_amd64.deb
+Size: 4682324
+MD5sum: 82f6e4ae9d9674f7242b21fc34d28564
+SHA1: dee8d209b259b97cf92cd18d8a5c97ad0916735b
+SHA256: 9e7283d607b04032ee6c2fc9d883fcb32beff334e0298718afd12e2d96bbeb20
+SHA512: 2f091d860d1bbcbd49d530e9966814163a2c0e0e5a708e3dadd689068b6acdd76a3c399a8a930e98c704ddb4725f5e4d3efd372b0eb24608a83831e28e662691
 Homepage: https://hypr.land
 Description: Dynamic tiling Wayland compositor
  Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't
@@ -23581,25 +23580,25 @@ Description: development files for the GTK library
 
 Package: libgtk-4-1
 Architecture: amd64
-Version: 4.22.3+ds-1
+Version: 4.22.4+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gtk4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12528
-Provides: gtk4-binver-4.0.0, libgtk-4-media-gstreamer (= 4.22.3+ds-1)
-Depends: adwaita-icon-theme, hicolor-icon-theme, libgles2, libgtk-4-common (>= 4.22.3+ds-1), shared-mime-info, libc6 (>= 2.38), libcairo-gobject2 (>= 1.18.2), libcairo-script-interpreter2 (>= 1.18.2), libcairo2 (>= 1.18.2), libcloudproviders0 (>= 0.2.5), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.5.2), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.87.3), libgraphene-1.0-0 (>= 1.10.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.2), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.14.0), libharfbuzz-subset0 (>= 8.4.0), libharfbuzz0b (>= 8.4.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.56.0), libpangocairo-1.0-0 (>= 1.56.0), libpangoft2-1.0-0 (>= 1.56.0), libpng16-16t64 (>= 1.6.46-2~), libtiff6 (>= 4.0.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.24.0), libwayland-egl1 (>= 1.24.0), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.7.0), libxrandr2 (>= 2:1.5.0)
+Provides: gtk4-binver-4.0.0, libgtk-4-media-gstreamer (= 4.22.4+ds-1)
+Depends: adwaita-icon-theme, hicolor-icon-theme, libgles2, libgtk-4-common (>= 4.22.4+ds-1), shared-mime-info, libc6 (>= 2.38), libcairo-gobject2 (>= 1.18.2), libcairo-script-interpreter2 (>= 1.18.2), libcairo2 (>= 1.18.2), libcloudproviders0 (>= 0.2.5), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.5.2), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.87.3), libgraphene-1.0-0 (>= 1.10.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.3), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.14.0), libharfbuzz-subset0 (>= 8.4.0), libharfbuzz0b (>= 8.4.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.56.0), libpangocairo-1.0-0 (>= 1.56.0), libpangoft2-1.0-0 (>= 1.56.0), libpng16-16t64 (>= 1.6.46-2~), libtiff6 (>= 4.0.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.24.0), libwayland-egl1 (>= 1.24.0), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.7.0), libxrandr2 (>= 2:1.5.0)
 Recommends: ibus-gtk4, iso-codes, libgtk-4-bin, librsvg2-common (>= 2.48)
 Suggests: gvfs
 Breaks: gnome-control-center (<< 1:50~), libgtk-4-media-gstreamer (<< 4.19.2), xdg-desktop-portal-gnome (<< 50~)
 Replaces: libgtk-4-media-gstreamer (<< 4.19.2)
-Filename: ./libgtk-4-1_4.22.3+ds-1_amd64.deb
-Size: 3370616
-MD5sum: 98945e029be82f70d8424377702505e0
-SHA1: 61f9405ca52315f26874947e758caf7c0105dc1c
-SHA256: a2a91772484afb9da1f059281c53eb673b48c42f3aac3dacc3cb2ade12269b05
-SHA512: 8aa93bc8b63fc5e76d7aae9ccf34d632fcc063a4ddbb71cbf0d8330ff87454cdca5d1424d93874f9084a0da8f6d100b161b4b07524a0e922dd031f6cf20c5ff5
+Filename: ./libgtk-4-1_4.22.4+ds-1_amd64.deb
+Size: 3370040
+MD5sum: f3c293d6ddbe8948cce849783a0d7606
+SHA1: da02e4fedf74b1da553c7a4226e8a41862478515
+SHA256: 712fc7f189958c89519ecdc5b12f1b77dd89cd4c11db22c04714d48d69c300cd
+SHA512: 50580c4ca3ee91895c1c030fc9e6d55138fd254015ecd69f78fe6e1e8370c2a334d6f0aa199dd182427b782df6180f8a2397bc00248e9895dafdebb2b2c2ab77
 Homepage: https://www.gtk.org/
 Description: GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -23611,20 +23610,20 @@ Description: GTK graphical user interface library
 
 Package: libgtk-4-bin
 Architecture: amd64
-Version: 4.22.3+ds-1
+Version: 4.22.4+ds-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: gtk4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12516
-Depends: gtk-update-icon-cache (>= 4.22.3+ds-1), libgtk-4-1 (>= 4.22.3+ds-1), libgtk-4-common (>= 4.22.3+ds-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.18.2), libcairo-script-interpreter2 (>= 1.18.2), libcairo2 (>= 1.18.2), libcloudproviders0 (>= 0.2.5), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.5.2), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.87.3), libgraphene-1.0-0 (>= 1.10.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.2), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.14.0), libharfbuzz-subset0 (>= 8.4.0), libharfbuzz0b (>= 8.4.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.56.0), libpangocairo-1.0-0 (>= 1.56.0), libpangoft2-1.0-0 (>= 1.56.0), libpng16-16t64 (>= 1.6.46-2~), libtiff6 (>= 4.0.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.24.0), libwayland-egl1 (>= 1.24.0), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.7.0), libxrandr2 (>= 2:1.5.0)
-Filename: ./libgtk-4-bin_4.22.3+ds-1_amd64.deb
-Size: 3418620
-MD5sum: c04bfa68deb60e422a72e0ad9168698d
-SHA1: 91788ffc80ea5829244e7cf559eecc5b5d722386
-SHA256: 1f961b4765d17dbd609573dbfda6686bfb69551afbe71d99fd15d560453e2461
-SHA512: 5c24ad99982723690e7caa238e22b3844ffb56b79fe2c605b9484ef0c96094e1962708734ee7f57653a7181003917b75c1accafdbde2cefbc9190a4e81e09731
+Depends: gtk-update-icon-cache (>= 4.22.4+ds-1), libgtk-4-1 (>= 4.22.4+ds-1), libgtk-4-common (>= 4.22.4+ds-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.18.2), libcairo-script-interpreter2 (>= 1.18.2), libcairo2 (>= 1.18.2), libcloudproviders0 (>= 0.2.5), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.5.2), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.87.3), libgraphene-1.0-0 (>= 1.10.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.3), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.14.0), libharfbuzz-subset0 (>= 8.4.0), libharfbuzz0b (>= 8.4.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.56.0), libpangocairo-1.0-0 (>= 1.56.0), libpangoft2-1.0-0 (>= 1.56.0), libpng16-16t64 (>= 1.6.46-2~), libtiff6 (>= 4.0.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.24.0), libwayland-egl1 (>= 1.24.0), libx11-6 (>= 2:1.4.99.1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.7.0), libxrandr2 (>= 2:1.5.0)
+Filename: ./libgtk-4-bin_4.22.4+ds-1_amd64.deb
+Size: 3419552
+MD5sum: 67e2694fa0539c4d20b725ec3323c23e
+SHA1: e66326bd9922000e3113ee6d5dad4b9c6654db7a
+SHA256: cb113bf2d1dc2466d0bb4ef3508e0c42a031d14feff68a955cc470b8192811f5
+SHA512: d1f499e92aeebe857c51012bb9b857cb064051c1903ccee45c6b199fe39b0370f01644808f25084a0059735f9963e06ae9d97c80de4727c3971124f45dd4e0d6
 Homepage: https://www.gtk.org/
 Description: programs for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -23637,21 +23636,21 @@ Description: programs for the GTK graphical user interface library
 
 Package: libgtk-4-common
 Architecture: all
-Version: 4.22.3+ds-1
+Version: 4.22.4+ds-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: gtk4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 16199
+Installed-Size: 16202
 Depends: dconf-gsettings-backend | gsettings-backend
 Recommends: libgtk-4-1
-Filename: ./libgtk-4-common_4.22.3+ds-1_all.deb
-Size: 2876416
-MD5sum: 075f84708da2979c4db427ca8d137fb8
-SHA1: 095ecfe69f9b81cbbffb681ccbcd07f60fbf9063
-SHA256: c505ab93035d9790ddc84661279965bd7a345dee5a1314f018b8eca5a2aee4ea
-SHA512: ec73aed5a06f27a0b4e55ccd6298b88fb0ac0d4e7c3f69a4b8f65f13496fd389dc5466c8c759b2a10873eaabda180498c09f61567012defbdd63ffe0322f6927
+Filename: ./libgtk-4-common_4.22.4+ds-1_all.deb
+Size: 2869720
+MD5sum: 7bc0e7ec94a28c11cc0466aa5ea234a9
+SHA1: edfee393bb8e5a7eff17c586e0252daf52d8aa34
+SHA256: 3c983da31f0f94e1bab79852f182f3863d3443cd89d95a55cd748e588a5e091d
+SHA512: 0dde8f3747ef4271d872b2b02ddbf46ec2908a7777f28af405ffe1c5ae91183494f2bfb3df5751ebfd72ed42ef741042094f27b638fcea0b8d4ea97112c1c638
 Homepage: https://www.gtk.org/
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -24705,20 +24704,20 @@ Description: Utilities used across the Hyprland ecosystem (library)
 
 Package: libhyprwire3
 Architecture: amd64
-Version: 0.3.1-1+b1
+Version: 0.3.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: hyprwire (0.3.1-1)
+Source: hyprwire
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 406
+Installed-Size: 405
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libgcc-s1 (>= 4.3), libhyprutils12 (>= 0.13.1), libstdc++6 (>= 14)
-Filename: ./libhyprwire3_0.3.1-1+b1_amd64.deb
-Size: 129972
-MD5sum: 1c73edc1aee08d591fb5e7c125143258
-SHA1: 4ab43708378698fa80418ca2bf0da59df680c0ac
-SHA256: f49fe2ac25e70a9b0dd7a027033184b2c4b1497723b0f61ffb242ef944351bc8
-SHA512: e49b09ac1c600dcfc4a02edb6742d243f827e96c45db45e4a80b95f4eec28b30c6982b2eb620e63b7383ecdaf3dc716adc643b7745c371aef046243ea32792c8
+Filename: ./libhyprwire3_0.3.1-3_amd64.deb
+Size: 129532
+MD5sum: 7bc44b477317dc4d67c2b91eb38452ab
+SHA1: 37378c6a280fc173f7dd9a9d87ea729eb8b18521
+SHA256: 63b46b69ddcd76f48de0ba701d77789b00e3bd9fc3f41d435133185eccd13fc0
+SHA512: 1753ad03f5742c1ea38d05fdcd03a6230f12929547c37cdac621c2693db913d787ad9d995356f1fa1faf602f30c0357c6fa511f19bc472e754281923467e5970
 Homepage: https://github.com/hyprwm/hyprwire
 Description: Fast and consistent wire protocol for IPC -- binary files
  Hyprwire is a fast and consistent wire protocol, and its implementation. This
@@ -33339,7 +33338,7 @@ Description: mousepad plugins library
 
 Package: libmozjs-140-0
 Architecture: amd64
-Version: 140.10.0-1
+Version: 140.11.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -33347,12 +33346,12 @@ Source: mozjs140
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 37983
 Depends: tzdata, libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)
-Filename: ./libmozjs-140-0_140.10.0-1_amd64.deb
-Size: 11109180
-MD5sum: 477dcc8b2552934db3315bdc49a36eec
-SHA1: 9a0e10a8021e3c96cf8a97c6819a02ce5c846f12
-SHA256: 626f801dbd144b6ac6990c3f0725665ffc4eea5fa67043b458a07809cd44b8f6
-SHA512: 9da7e281caf435b218b8aeea7b065aade4436fbbc719c873a14e21ba92df2adbdcd924c9b901223adea4bc2779636473b696756ca720417f4cdb896070a9bfb1
+Filename: ./libmozjs-140-0_140.11.0-1_amd64.deb
+Size: 11111184
+MD5sum: 323e587a3f5890b3cf088ae5e5de6120
+SHA1: 928d9dbeb9c24513cf0fb5abe064801d327df802
+SHA256: 60db5664d59f0676ea9e9ee09e89b542a3f861fe64d0c0c661a71d840746ba5b
+SHA512: 87e75962b28951283b891af5235d7547b1c0f59d1176f2667b059c1c166fd25ab2a60a6386ab35f7bc9da7500f774fbcdb62277507154df90c12f0dbf7dd97e9
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 Description: SpiderMonkey JavaScript library
  SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
