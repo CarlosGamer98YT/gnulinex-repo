@@ -43708,20 +43708,20 @@ Description: Lightproof grammar checker for LibreOffice (Hungarian)
 
 Package: libreoffice-lightproof-pt-br
 Architecture: all
-Version: 1:26.2.3.2-3
+Version: 1:26.2.3.2-4
 Priority: optional
 Section: text
 Source: libreoffice-dictionaries
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 9539
+Installed-Size: 5984
 Provides: libreoffice-grammarcheck, libreoffice-grammarcheck-pt-br
 Depends: python3-uno, libreoffice-core
-Filename: ./libreoffice-lightproof-pt-br_1%3a26.2.3.2-3_all.deb
-Size: 927568
-MD5sum: 1ca05ab48c1f0bf40ca08ebe77b908ba
-SHA1: b0eba19b4a1f141212707614b558ce10813c8e7d
-SHA256: 7ded8441cb21c88861e9e9b4970af252a44cc1c1852fa2ae0a6c5746c4566414
-SHA512: b3c322cd23a25e0a7220a996bff1d6fa3c15c00b74f7586f7719c6b23bcba0d81c081c6b7216d64c544f642cf3a43ad9a6f491609e462bfccdcfb62efd911f4c
+Filename: ./libreoffice-lightproof-pt-br_1%3a26.2.3.2-4_all.deb
+Size: 762688
+MD5sum: d06731a5ae4a5aff4ec9f0b042219742
+SHA1: 98b438010a41d7197da4ceb5d8ba9fa8ede80ea8
+SHA256: 022620a7486c4cab9fe395e2c548211d9aba98ad8f49e45db34d50d0bc1ba061
+SHA512: 5b51b52f1ce7150ad3689cf85d0e3f7391bb90d7d3a4827b1cd3841af3f7036bb729ecf8daa78d699c372e1ff6b9eedf25311b0a5f2333858e8c2e6c5b543d0a
 Homepage: https://wiki.documentfoundation.org/Language_support_of_LibreOffice
 Description: Lightproof grammar checker for LibreOffice (Brazilian Portuguese)
  Lightproof is a grammar checker extension generator in Python.
@@ -46773,20 +46773,20 @@ Description: Encoding conversion library
 
 Package: libtensorflow-lite2.14.1
 Architecture: amd64
-Version: 2.14.1+dfsg-3+b2
+Version: 2.14.1+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: tensorflow (2.14.1+dfsg-3)
+Source: tensorflow
 Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
-Installed-Size: 4739
+Installed-Size: 4742
 Depends: libabsl20260107 (>= 20260107.0-0~), libc6 (>= 2.38), libcpuinfo0 (>= 0.0~git20220617.082deff-2), libfarmhash0 (>= 0~git20190513.0d859a8), libgcc-s1 (>= 4.0), libpthreadpool0 (>= 0.0~git20200423.6acde9c), libstdc++6 (>= 13.1)
-Filename: ./libtensorflow-lite2.14.1_2.14.1+dfsg-3+b2_amd64.deb
-Size: 1319684
-MD5sum: ff080b5e3cc63b83eeb48f655f186b7e
-SHA1: 805ba41b7e31e325b39201572bbc04e3653f82bc
-SHA256: d1ec8adfe9aa8c5e56fc72e96484b389892b9104d6368ae03c395c9da7c95cb8
-SHA512: 68cc6fcb694ea069eb4f82a890b5a01a363efc0a97de6cd9a56cba532542deb0f8ad2329476cee0dd9b11d329d9a1ddd258efb1135f10b822c21cb251f28df9a
+Filename: ./libtensorflow-lite2.14.1_2.14.1+dfsg-3.1_amd64.deb
+Size: 1319620
+MD5sum: 801ac1156a52981ddd15b87ccca0820d
+SHA1: 27306d66d8e7170f48007622f22ae93df5ac75e4
+SHA256: f59a2def245feb5b13a8122488efefc00201e404184b502ca0e36bd4ec273d39
+SHA512: 49b496ede199b403630ed02fcbad535a329bb773991f4f51a8178c479eadbd5c4d5e36df9094e455cf275536640d0afce978356fe1639801b722e740fdb9baab
 Homepage: https://tensorflow.org/
 Description: Computation using data flow graphs for scalable machine learning (shared lib)
  TensorFlow is an open source software library for numerical computation
@@ -50860,19 +50860,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: localsearch-extractor-ffmpeg
 Architecture: amd64
-Version: 3.11.1-1
+Version: 3.11.1-3
+Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 89
-Depends: libavformat62 (>= 7:8.1), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-ffmpeg_3.11.1-1_amd64.deb
-Size: 24008
-MD5sum: 789a0d9ecb68ce127af3ad8887ff9039
-SHA1: 7e64aeff80dccfa44e0b045033781ab1d1387cb8
-SHA256: e5e2e0e983554703a838b2504704e546b16f56354bbca7fbfb38d7014d69bc38
-SHA512: 7fc2030e00142370b61cf37fdf2ac04c9350fad584dd4938f4e3805d81ebecd54939b9e609eadbb763b3634040452978264369ab2964b720df103a505c9e429d
+Depends: libavformat62 (>= 7:8.1.1), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
+Filename: ./localsearch-extractor-ffmpeg_3.11.1-3_amd64.deb
+Size: 24140
+MD5sum: d0ea8a1d5e229df4087472bcd43dec10
+SHA1: 70580fad49ba2b877ff5b8673393eca06a0103f1
+SHA256: 695bf35f16c69dabd091d1062d73ba70124fcb13ade20ccd213a79dbbaccc539
+SHA512: d9a1f09bf40c8db287224a5cc085ca4d6f201919fd87aa2f742d8f31d668299e680bf63f50f9c0b634d3ce1b57ac46a9464ddd5bef1cabc94af2c2864e391ae4
 Homepage: https://tracker.gnome.org/
 Description: FFmpeg powered media metadata extractor
  This package contains the FFmpeg powered metadata extractor.
@@ -50883,19 +50884,22 @@ Description: FFmpeg powered media metadata extractor
 
 Package: localsearch-extractor-iso
 Architecture: amd64
-Version: 3.11.1-1
+Version: 3.11.1-3
+Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 59
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libosinfo-1.0-0 (>= 0.2.9), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-iso_3.11.1-1_amd64.deb
-Size: 14016
-MD5sum: c4155e702e31b0ea014ab82e7d20a226
-SHA1: c434cef3ce1ee5e889a0519f270b60896e127661
-SHA256: 0e73bdbd727786c65f0ec2fae2366b49390fd652a40c7cbe3b8c316243b417d5
-SHA512: d268f056c4ec16df3c3a8f7da1e22b9c5112622ea27119edf27384ce2fa7efae3f3fd8db51db7009dc7bbf01a2b9a9de7b5584cc0ef9f780ef15a08b1488c97b
+Breaks: tracker-extract (<< 3.11~)
+Replaces: tracker-extract (<< 3.11~)
+Filename: ./localsearch-extractor-iso_3.11.1-3_amd64.deb
+Size: 14188
+MD5sum: ebae0f0cfc61e45980a672b1a4e9550d
+SHA1: 7dbcfa0d094c2bb3e5af562588e23bb7c98bc0ac
+SHA256: 4d2b6ce1552e68c2e398652ebe11b76bb32c910da24230ba4f05d54b5b348d8b
+SHA512: c7ebea5fb57e5bf16078c2b143c46bd978b9cafd43a82659abf81d32c94782bd03e9923ed7f8fa5eed269404af9234c3140031a69e1c26e1f0bebc8f872a28a1
 Homepage: https://tracker.gnome.org/
 Description: Extractor for ISO files
  This package contains the ISO file format metadata extractors.
@@ -50906,19 +50910,22 @@ Description: Extractor for ISO files
 
 Package: localsearch-extractor-office
 Architecture: amd64
-Version: 3.11.1-1
+Version: 3.11.1-3
+Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 131
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libzip5 (>= 1.0)
-Filename: ./localsearch-extractor-office_3.11.1-1_amd64.deb
-Size: 26576
-MD5sum: b9846586c20fb9fd6acc840b752f58f0
-SHA1: 0dbe48c01d75c8f60c2807bcc817de9f01002924
-SHA256: ea5098add65050bc6bd1b1a315a44d95bdd9db02e89f0a23eec733cee2435fdf
-SHA512: 7789294c6fe0687a1f7bf0365cb94ee016a78de58f524bf5537d7c077329edf63507f9620304f549d0217173461c4034786bb7f41dbc1ebd669a37f19c3e3e80
+Breaks: tracker-extract (<< 3.11~)
+Replaces: tracker-extract (<< 3.11~)
+Filename: ./localsearch-extractor-office_3.11.1-3_amd64.deb
+Size: 26744
+MD5sum: c023940b077bf6b9e64c8b1e566eea8e
+SHA1: b9b63f4d2c93c68c6e1e81693dd93d4a90c6d7a5
+SHA256: 86dcc54206eef5982eb744dc92f43c17549003e8395dafa0debcf1c6a5b52cd6
+SHA512: f73e19dff5c56889e8f4bd53e318407218d3a956d80446014e41387c1e305ea92739af3475da5ec961543ec1b48c2d89624cfec6583e4e4555257f78511e890b
 Homepage: https://tracker.gnome.org/
 Description: Extractors for some compressed office file formats
  This package contains the extractors for various compressed
@@ -50930,21 +50937,21 @@ Description: Extractors for some compressed office file formats
 
 Package: localsearch
 Architecture: amd64
-Version: 3.11.1-1
+Version: 3.11.1-3
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 3259
-Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-2 (>= 0.13.0), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.5.0), libxml2-16 (>= 2.14.1)
+Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.5.0), libxml2-16 (>= 2.14.1)
 Recommends: localsearch-extractor-ffmpeg, localsearch-extractor-iso, localsearch-extractor-office
 Breaks: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
-Filename: ./localsearch_3.11.1-1_amd64.deb
-Size: 657992
-MD5sum: 2041c4010597a9ba6d884f9be0c2b8df
-SHA1: 54889ede457f23e16218e286bf75f60d83289f1d
-SHA256: 0389b040e475246fc1b28198648c524eede1630415c7efa58d48e408fd0a13c1
-SHA512: 3b099da22a1399d9cf359f44d80d42b96f1e7f05f18c2e905c87b636f679b40e0306e321f9e81e81f339e2b706c940dd27c0924b90a3f4f1031bd28d63150530
+Filename: ./localsearch_3.11.1-3_amd64.deb
+Size: 657904
+MD5sum: 1aca03a34dc9ad7d012a146d36d0787e
+SHA1: a75d2f6b01a4a243c68bd99ee4514d550867ea84
+SHA256: 6b91f151cdc0274804e7a1a33a8cf0b29b140780fd261f61163e845812d44ab7
+SHA512: 8a438b4c5f4b748ffcde0ab3e6cd8cb82056d43c3a655bab32a3bdfd35bcf8ad112a90f7813a35ae5609710aa324110199ffe1d9daefc8970127b3fce61bd22e
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - metadata extractors
  This package contains the metadata extractors.
@@ -54421,7 +54428,7 @@ Description: MySQL database common files, e.g. /etc/mysql/my.cnf
 
 Package: mythes-en-us
 Architecture: all
-Version: 1:26.2.3.2-3
+Version: 1:26.2.3.2-4
 Multi-Arch: foreign
 Priority: optional
 Section: text
@@ -54431,12 +54438,12 @@ Installed-Size: 21524
 Provides: mythes-thesaurus, mythes-thesaurus-en-us
 Depends: dictionaries-common
 Suggests: libreoffice-writer
-Filename: ./mythes-en-us_1%3a26.2.3.2-3_all.deb
-Size: 3314512
-MD5sum: 8103bbe25989524f48fdbad070f4c772
-SHA1: 2e085c763e51d7657fb7566adf269b604f545feb
-SHA256: f3a33d531b51b857246ec115ef4acaa879bdbc71b0a453065feab7e08be9fc07
-SHA512: 83f77902a4fc6888c018f3c0e6d29f3ab92d8e297e7e0034a95e5bba4c9f825c59afb0b110c6d40cded1ece73c11c36023ae514370f7b9a36213508c5f9d0ea5
+Filename: ./mythes-en-us_1%3a26.2.3.2-4_all.deb
+Size: 3313928
+MD5sum: aa78080ae4253c9ca6dcd7ff12ef70ba
+SHA1: 3e63be95ea23e1790eb680fe118964bb31391193
+SHA256: f876b0956b141ac27080d84d8d5d71b2789a6d8d9fb8ce3eb0fec86b0ce129df
+SHA512: 27b2c94aac61735558907254337af5082cfd7153e8f43590548d68e15c548cad8b27e17a5376cb591e92175eb77e1919cc2f2ed8fc3ca05c9958fad039deac60
 Homepage: https://wiki.documentfoundation.org/Language_support_of_LibreOffice
 Description: English (USA) Thesaurus for LibreOffice
  Libreoffice is a full-featured office productivity suite that provides a
