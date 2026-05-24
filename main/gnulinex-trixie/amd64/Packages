@@ -1114,18 +1114,18 @@ Description: Core package for Budgie-Desktop
 
 Package: budgie-desktop-services
 Architecture: amd64
-Version: 1.0.2-3
+Version: 1.0.2-4
 Priority: optional
 Section: misc
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Installed-Size: 1016
 Depends: libqt6wlshellintegration6, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkwaylandclient6 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.3.0), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0)
-Filename: ./budgie-desktop-services_1.0.2-3_amd64.deb
-Size: 318760
-MD5sum: a9cc41590882f5f12ecba7a18a574587
-SHA1: 6705a648e0b9f83cfed1d07e36d6feb3e861ea40
-SHA256: e5b03daa1d5b15d39dfaf6a78fb7f796184b0f956d2d9fad5db0317377010a03
-SHA512: 5079438176c8fa2c52eafab35c206d2078025997cd2a45771f08a922d7330c006482b1565a24d9a075659a78c16173ec6649e6d74541d6b6a84712b54bf55883
+Filename: ./budgie-desktop-services_1.0.2-4_amd64.deb
+Size: 318976
+MD5sum: 4379b9a4abb6f26a2def71cfc7550b2d
+SHA1: c67b8302f833960b32dc28b677405254eea2d8a9
+SHA256: 87bb8f2b1be0c63c20831d45514f6f2880c35b4f1c940860dcd03ea512459a07
+SHA512: 764085be71d4233f612588f93a4a6f290d82969e09475e8b0fb0aa4247ab4c6d2ba4bd382b7a3bddc72d361f0cdacf03ebd142b201d5cb4c73e95ad3bfd8ccf6
 Homepage: https://forge.moderndesktop.dev/BuddiesOfBudgie/budgie-desktop-services
 Description: Core package for all Budgie Desktop related services
  Budgie Desktop Services is the central hub and orchestrator for
@@ -16270,7 +16270,7 @@ Description: Apache Batik SVG Toolkit (library)
 
 Package: libbatterycontrol6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16278,12 +16278,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 243
 Depends: plasma-version-base-6.6, libc6 (>= 2.14), libkf6i18n6 (>= 6.22.0~), libkf6solid6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libbatterycontrol6_4%3a6.6.4-1_amd64.deb
-Size: 62984
-MD5sum: 2bdb13ec3b3d03b8fe718ac900f562ba
-SHA1: 682a1ce3e12bf65ba4dd7d6c8b14e4011ace205c
-SHA256: b7fc3d99a2ad47e75c597e56dade50db00d3beb7a5dd52bf920a7235da65e285
-SHA512: 66afb33beaa916f54e7e31659ad67b2c58c54717382c14cfe7add5cc23095a8e0fa8268a4bdae8934094d291dec810874406c0c0fd2b78b59cf43fd1d2e6eebd
+Filename: ./libbatterycontrol6_4%3a6.6.5-2_amd64.deb
+Size: 63048
+MD5sum: ca99c4b5e7e1b4a1cba11c4b1cdd3820
+SHA1: 3a5d367c4645b071dd9bcbd5c0bcb7da45c20e84
+SHA256: e9dca46d4cd01acba821946d3ec6ad69f76076828d21d3945b7ae1997271b566
+SHA512: d71340af7ef1c849ba34d7ef23b492b182e38121248a54dd148f07a1a6eb1adfa6e92ae4e6650ad7e73d595c2024d25453eb1c20f6719dd1720b6f5c0a3154db
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace battery control library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -29273,7 +29273,7 @@ Description: User configurable main windows
 
 Package: libkfontinst6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29281,12 +29281,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 242
 Depends: plasma-version-base-6.6, libc6 (>= 2.33), libfontconfig1 (>= 2.12.6), libkf6i18n6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libkfontinst6_4%3a6.6.4-1_amd64.deb
-Size: 66152
-MD5sum: 0fcca10d78a90df6a9f1bd610bba96b8
-SHA1: d817d694f20b680b57e9b318031319ac85f0d9dd
-SHA256: fa13f2464c5827f81dc067948d42252b13221188b739d997feb0b1e67b173d8b
-SHA512: 57847a31a62a853deda686016807e2e7403d9705cddaa311170e5c4e1701aea5338d86a7611befd2eeeb00b074f669a4b5114e42354ba0e1c7de74031ed3ccaa
+Filename: ./libkfontinst6_4%3a6.6.5-2_amd64.deb
+Size: 66324
+MD5sum: 747855a9a6b59c77da59cc93dbaea877
+SHA1: 881994b3354aca1e48b880b9974b6d07600315c1
+SHA256: 6ee36858826a19fc8cffb62af78323a9820996f68d7a874118c45cc3e877ced2
+SHA512: 605c8acfd4786410c7da5bfa39a6297c508ca1e194fbb34482c8b4997f562519ebef6fd36e0558bd3709b35af57d92b57db0cb3c59018ee095b92ec1b399094e
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace fonts installation library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -29297,7 +29297,7 @@ Description: Plasma Workspace fonts installation library
 
 Package: libkfontinstui6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29305,12 +29305,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 176
 Depends: plasma-version-base-6.6, libc6 (>= 2.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libkf6configcore6 (>= 6.0.0), libkf6i18n6 (>= 6.22.0~), libkfontinst6 (>= 4:6.1.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxft2 (>> 2.1.1), qt6-base-private-abi (= 6.10.2)
-Filename: ./libkfontinstui6_4%3a6.6.4-1_amd64.deb
-Size: 49236
-MD5sum: c1ca56942b2c17150f843443cb896e1a
-SHA1: fa334be238dcd9077c4985a1f5b7822619809e3d
-SHA256: 85fc18f30b1d1bbba1f3901b3677bdbeca98ea4ade2e3aaf743c56421328bc39
-SHA512: aaaddf9aa71bc5d9ca6661e7deefeb8dde09aef3fe923b3178d6c31ae5838f488f77799f0378f5bca6f6ca2ee17e751a0abf2758a197495bd9e4e6144befde1a
+Filename: ./libkfontinstui6_4%3a6.6.5-2_amd64.deb
+Size: 49376
+MD5sum: 0998efe0aa359b13ca6cef6aa3b217cc
+SHA1: 3dc6ca7a78d5a003044b88bbed361ddf4c46da21
+SHA256: 235cba83506f597a9a3d492d8c4288c446c5693ca2b2ecab52440f38d4fdf579
+SHA512: 3708eae76e2f1b4b4a7c639367870902706306458220de4503c3c98ac2f6e82696087d8bd02449bcc5ee00f4fe1d769555f336f53560543638c5d3c0092ccbd0
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace UI components for fonts installation
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -29370,7 +29370,7 @@ Description: daemon for global keyboard shortcuts on the Plasma desktop - shared
 
 Package: libkglobalaccelmodel6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: kde
@@ -29378,12 +29378,12 @@ Source: plasma-desktop
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 450
 Depends: plasma-version-base-6.6, libc6 (>= 2.14), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libkglobalaccelmodel6_4%3a6.6.4-1_amd64.deb
-Size: 127776
-MD5sum: 056bdb36946b2f9e608791e1d1f38edd
-SHA1: e3aff34a49fdb35641c1eb4c0b254ec1af697f8d
-SHA256: 9061f2d63539fac50f83e283cff119bd7502d61e1bf40f7d57da8b94fe9e9286
-SHA512: bc421865793a74f0e57ce20332a0fe8c441e56d1d8e9fdac079e5ed602b7e401bd620daae8b209e9021d88cc527f2f4cc149899e4f3f06da938085623bfeb3fd
+Filename: ./libkglobalaccelmodel6_4%3a6.6.5-2_amd64.deb
+Size: 127904
+MD5sum: 80061207594efa8f4e24675bfbb25497
+SHA1: fef06d6480c42276e734d8440ba219cd910422ea
+SHA256: 990d9a68564254dca2f683b6d9d8397f3e8dd8790575dd426373ba3553aca439
+SHA512: 0f5c172a2b5dce21fa130ea1f4dc57cfde4374d4d1661d03e0cb75f2ed211f13fccaf93f8ac241bfc3054316fc9f37daa9381f3753770bfd9fa643fc266b504f
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Plasma global shortcut runner
  A runner to perform actions from the global shortcuts, useful when an action
@@ -29866,21 +29866,21 @@ Description: KDE PIM cryptographic library, data files
 
 Package: libklipper6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 558
-Depends: plasma-version-base-6.6, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.3.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkwaylandclient6 (>= 4:6.6.4~), libplasmaquick7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libxcb-util1 (>= 0.4.0), libxcb1, qt6-base-private-abi (= 6.10.2)
-Recommends: plasma-workspace-doc (>= 4:6.6.4-1)
-Filename: ./libklipper6_4%3a6.6.4-1_amd64.deb
-Size: 150228
-MD5sum: 3ae26a8af6415c85dbf501a63de38441
-SHA1: bab3b0747dcab52a35675f9bd8fe6b1535506bbd
-SHA256: 78c84143eb62572894f900949339cb1869adb3543d171f5cb7a045360211ca73
-SHA512: dbfbedba44ad2dec88469ab7d983ca216c50f63f30784560a6eaa14abf26fdfed6f360c7e4c2f586d1565a4ea9a2a08f0ac4c79b4a056f47fc0bc01bd4111eb3
+Depends: plasma-version-base-6.6, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.3.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkwaylandclient6 (>= 4:6.6.5~), libplasmaquick7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libxcb-util1 (>= 0.4.0), libxcb1, qt6-base-private-abi (= 6.10.2)
+Recommends: plasma-workspace-doc (>= 4:6.6.5-2)
+Filename: ./libklipper6_4%3a6.6.5-2_amd64.deb
+Size: 150704
+MD5sum: d7c7973fea0d602d035994d6120ee04d
+SHA1: 815b1c1206157a3e56cf84a94effa20b16f9ca3d
+SHA256: ca46e49b077ead46de06ded826c2fa872d77aad501f5915ac7d87cb253f8d323
+SHA512: 91b7005c3428f4ed66ab574a5f9e50a3fd7f2e97ce0a4dc2417acd8ad803659e765eaffa2b0dde9f2a4abc369e3e1a7e7f10638563122b01ab3163af5a9718d8
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspaces Klipper library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -29895,7 +29895,7 @@ Description: Plasma Workspaces Klipper library
 
 Package: libklookandfeel6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29903,12 +29903,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 304
 Depends: plasma-version-base-6.6, libc6 (>= 2.38), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, qt6-base-private-abi (= 6.10.2)
-Filename: ./libklookandfeel6_4%3a6.6.4-1_amd64.deb
-Size: 84852
-MD5sum: 9c071817991e004d56619020b50e03d6
-SHA1: 68300906a0808e466186aadd51a2176847d68909
-SHA256: 6c40c19b8a5035802469c71a39def5fafcd75d2a3a0e3e023fc4dd282ce67eee
-SHA512: 2ceaa4bf54f5185e7d32a0631accc0c4de076dd4296bd506b8337868b1bcd2adbe985bf31520241f183756a9ad8c5fc1d54171858c189623f2b02e3cf55db67d
+Filename: ./libklookandfeel6_4%3a6.6.5-2_amd64.deb
+Size: 85144
+MD5sum: 7aa84756f37c71b99c602cd2a106d66c
+SHA1: fd14c05ee2ecde97b542579e7f1087b78d1653a3
+SHA256: b19c312528d3212dbf292e1aa58f53f370fbd31217d51dce209cf66330f8ea3e
+SHA512: 48b7f88cdbcbdf4d3f300e68a848bbe41fd3c5ebcb40e0e4717dae6f8d6f8372a00a95fbcc091dff6142f306968c6213cce8cc8148a32b2f11b445a66cfaa32f
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace look and feel helper library
  This tiny library provides shared helpers for determining whether a global
@@ -29977,7 +29977,7 @@ Description: Arch independent data for library for handling MIME data
 
 Package: libkmpris6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29985,12 +29985,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 442
 Depends: plasma-version-base-6.6, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkmpris6_4%3a6.6.4-1_amd64.deb
-Size: 107912
-MD5sum: 3559c0832eeaeb88126c544e133821f6
-SHA1: c9bd0295df24b45231b3975ae3ef4b98d818c7c3
-SHA256: 36d337b50f0d1bb4d29414ebcfbb71c8ca46e7ec9fd28f5f594166c48e731222
-SHA512: 1611e0178fb76d79a22082e56470ace8e3c7240cf3600c0325372523a40a47ff7fa6655e4780221c5d49af837935b88c4cf1dc38f7caa5c4eb3942766014c594
+Filename: ./libkmpris6_4%3a6.6.5-2_amd64.deb
+Size: 108036
+MD5sum: 70b39cce404a86fefd36f43d77cf7dc9
+SHA1: 736f8b4a42a08f05baee95a9dc89d0bf5fa86235
+SHA256: fd12763d11b073e2cca2e1ffe09aa446fe59ac6e7a71755195d89b32eb566bbc
+SHA512: 09376b324583847a41c62eb1bd44b890d7f060abf5438ab2f0bff7593ff4223f20ade79871b169cdb3165a077fef5701a0a4949301956440e9b9b27484b092d2
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace MPRIS library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -31920,20 +31920,20 @@ Description: KDE window manager library
 
 Package: libkworkspace6-6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 414
-Depends: plasma-version-base-6.6, libc6 (>= 2.38), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libplasma7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxcb-randr0 (>= 1.3), libxcb1
-Filename: ./libkworkspace6-6_4%3a6.6.4-1_amd64.deb
-Size: 106568
-MD5sum: 7a487ffd9df20447511e1b8c2d82c692
-SHA1: aa7b82b7079d90df9f5e6e745634998b71a97feb
-SHA256: 9fd2abb57bc9e898abf4b1e1deb4f8bf294487b1dc93acb5487a43c2012bf369
-SHA512: 145b3d91afe01cb8dc5eb2a09498ab921c1d7afd0865e5d2dcf0994273e9ea5a3b581c420666b2918ec21829acf1f13d17b75b992c53f9b00e619d571c311f37
+Depends: plasma-version-base-6.6, libc6 (>= 2.38), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libplasma7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxcb-randr0 (>= 1.3), libxcb1
+Filename: ./libkworkspace6-6_4%3a6.6.5-2_amd64.deb
+Size: 106560
+MD5sum: ba39a66c04ed93ea2564a79a59ad8a49
+SHA1: 33079e2489837ac07d43c1d2250f61b21528b1b7
+SHA256: dd908a94ea95e5dd52fd0d12ca67180c669c4d41a796c2ff81091211ea354dd9
+SHA512: 12ab9f18fc480d7fffe76b2a44414f3153e55b3a4422cb0f3ec63150299d18d95f3c105af2522da8fd39dc63bd1407a12a29667a57a0e188e6e7743c72164342
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -33980,7 +33980,7 @@ Description: NetworkManager GUI library
 
 Package: libnotificationmanager1
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -33988,12 +33988,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 962
 Depends: plasma-version-base-6.6, kio6, libc6 (>= 2.32), libcanberra0 (>= 0.2), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), libtaskmanager6 (>= 4:6.6.1)
-Filename: ./libnotificationmanager1_4%3a6.6.4-1_amd64.deb
-Size: 230880
-MD5sum: 3a0f017c6194cf9486badfe9e18c44f9
-SHA1: a72a9cbce7af0ed7fe7c2f41e4acd1bcf10950e8
-SHA256: 2ca714a58ef37976340eb6c92a1ca6f11bb94e370a287b8ee78263d25b94b4f5
-SHA512: 32bd97b761f0ccdd5f2a284813e85ae93ca0701d3cbc8520b5288111593ed9bedaceafa0dc8785e4faf0f93cfa7f201bc4c756e59963a137c4e2d1dcef1f6b32
+Filename: ./libnotificationmanager1_4%3a6.6.5-2_amd64.deb
+Size: 231080
+MD5sum: 3281d5de8f7ab0a7292f45eac3f20d4b
+SHA1: cc9ac0d01f9e7617fb49bce7621fe84e3cb395bb
+SHA256: 0b48248e45285e6678407d6f889791a4140c384572ba11d41740b022e2c2ca73
+SHA512: 7b39876e048bedb06ed03fe05b0d03b15d748025b4da55cabf39c6d624a92a14201cd0b580cf30f6c9f58400557ea8c947c2d8df2a5e5c2d642821187c831ddb
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace notification manager library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -46717,20 +46717,20 @@ Description: audio meta-data library
 
 Package: libtaskmanager6
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1112
-Depends: plasma-version-base-6.6, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkworkspace6-6 (>= 4:6.1.0), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6test6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
-Filename: ./libtaskmanager6_4%3a6.6.4-1_amd64.deb
-Size: 274228
-MD5sum: 76273c566b23c3d305e156009c5059f0
-SHA1: 4603c9a5342f033e31ea37852cedfafa0142c08b
-SHA256: 3be19df5c771014e8d5555917f7a8deec3b579caf42a3bbe911ef59b94804208
-SHA512: be13fabfb48141414d2b2fb77242f71b4367b4edc8ea86693c0684f4f99d84811ffbb73d7e077acf65e2b17fa1e91fa833598079802f3aa6e48e38c6da375142
+Depends: plasma-version-base-6.6, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkworkspace6-6 (>= 4:6.1.0), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6test6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
+Filename: ./libtaskmanager6_4%3a6.6.5-2_amd64.deb
+Size: 274624
+MD5sum: b57a3c815222b2703606f67224c47aa7
+SHA1: 04d3d90d09cb21073d6c16330301a361a7ae2048
+SHA256: 0c0ba9a57a1fe9d0e48d8f395ab9ea37a29d3e7f6aa7ec05a204ea81aba3cc98
+SHA512: f8c03f3b9f3ec039d4ffae49227f517828522e33ae628a3b3e77ea30f634c835aaa971f0fbe8256d296f09d27283ca003b96f895c651b3436f5458cb8b8c51a8
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace task manager library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -55965,20 +55965,20 @@ Description: core components for the KDE's Activities system - CLI
 
 Package: plasma-browser-integration
 Architecture: amd64
-Version: 6.6.4-1
+Version: 6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 860
-Depends: plasma-version-base-6.6, libc6 (>= 2.34), libkf6configcore6 (>= 6.8.0~), libkf6coreaddons6 (>= 6.8.0), libkf6crash6 (>= 6.8.0~), libkf6dbusaddons6 (>= 6.8.0~), libkf6filemetadata3 (>= 6.8.0~), libkf6i18n6 (>= 6.8.0~), libkf6jobwidgets6 (>= 6.18.0), libkf6kiogui6 (>= 6.8.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.8.0~), libkf6purposewidgets6 (>= 6.8.0~), libkf6service-bin, libkf6service6 (>= 6.8.0~), libkf6statusnotifieritem6 (>= 6.8.0~), libplasmaactivities7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.6.0+dfsg~), libqt6widgets6 (>= 6.6.0+dfsg~), libstdc++6 (>= 9), libtaskmanager6 (>= 4:6.6.4~)
+Depends: plasma-version-base-6.6, libc6 (>= 2.34), libkf6configcore6 (>= 6.8.0~), libkf6coreaddons6 (>= 6.8.0), libkf6crash6 (>= 6.8.0~), libkf6dbusaddons6 (>= 6.8.0~), libkf6filemetadata3 (>= 6.8.0~), libkf6i18n6 (>= 6.8.0~), libkf6jobwidgets6 (>= 6.18.0), libkf6kiogui6 (>= 6.8.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.8.0~), libkf6purposewidgets6 (>= 6.8.0~), libkf6service-bin, libkf6service6 (>= 6.8.0~), libkf6statusnotifieritem6 (>= 6.8.0~), libplasmaactivities7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.6.0+dfsg~), libqt6widgets6 (>= 6.6.0+dfsg~), libstdc++6 (>= 9), libtaskmanager6 (>= 4:6.6.5~)
 Breaks: webext-plasma-browser-integration (<< 6.3.2-2~)
 Replaces: webext-plasma-browser-integration (<< 6.3.2-2~)
-Filename: ./plasma-browser-integration_6.6.4-1_amd64.deb
-Size: 178744
-MD5sum: 12fbe787fab566516deed68b551b4f6d
-SHA1: f11b12220bf31980ab78bad20ae327458359cfeb
-SHA256: 3fa6414cd66a8e53c425dafd6c97da9390e3df9c658df9bf6c91f6151edb21f9
-SHA512: 0cdc3e4c88ac42dcacf9db03eb92b04a87f96b74aad82811df5fedc5c74236400ed137e15bd510a46b5953d058b69ef06543871cefb8cfc2875a713ff90d81ec
+Filename: ./plasma-browser-integration_6.6.5-2_amd64.deb
+Size: 179136
+MD5sum: 668297a19bdfafafd8e9c520254dd2f9
+SHA1: cda1637a3dcf921bda46fe6fe087c43bc8ae45a3
+SHA256: dc9ea63e9359c2038307fe469061c17346c61f2bfd54afc45087a6f4003fad2d
+SHA512: d943feeaa24b334c683a1f8ba6cb54c6fa81f29eae558bbcb5a15d19b22a9f5edbde72a7865f1d4177b565ca00549807a61025519ff137c66a4bd1a31ad1ce0e
 Homepage: https://invent.kde.org/plasma/plasma-browser-integration
 Description: Chromium, Google Chrome, Firefox integration for Plasma (backend)
  Plasma Browser Integration is an extension for common browsers
@@ -56024,22 +56024,22 @@ Description: additional data engines for Plasma
 
 Package: plasma-desktop-data
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: plasma-desktop
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 22273
+Installed-Size: 22298
 Depends: python3:any, plasma-version-base-6.6, libkscreenlocker6, plasma-desktoptheme, qml6-module-org-kde-breeze-components, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-org-kde-plasma-workspace, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts
 Breaks: plasma-widgets-addons (<< 4:5.25.70~)
 Replaces: plasma-widgets-addons (<< 4:5.25.70~)
-Filename: ./plasma-desktop-data_4%3a6.6.4-1_all.deb
-Size: 10648248
-MD5sum: 771a34038baf44e906f035980bd1e28a
-SHA1: a50506a7fd7d7a23713e32e386d0807b906f2fff
-SHA256: d5adbb53733cdedfd00e5220878d7b65457321255e2225489f20878070843a2b
-SHA512: e6da486aa8a8c7724221f34d9f95956a1d3763d3f1bffdcec4e8d5239a85bbb39303eee413f0f35af0652ca37c896f50b180d4c1b7e4af594f746e43fefe81a9
+Filename: ./plasma-desktop-data_4%3a6.6.5-2_all.deb
+Size: 10648484
+MD5sum: c691e5475f1fd786fad24bde667a49da
+SHA1: 5f857d6d2117fd4f54ba282cbcdc73846ae809fe
+SHA256: ef731fb06fa9c5b1e174f0b9f3b97a4729cbb0b9e44fc19542f2f6e2105e46e2
+SHA512: 39f98752238d340d1d28cd3920455e5a4862dd99721d0846faa4001ee8e2a5ba58c25a74a893001001f9c6a07b9150403fa84cc83f974bd8214bd4e0bf2fdc29
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Tools and widgets for the desktop data files
  Plasma Desktop offers a beautiful looking desktop
@@ -56056,22 +56056,22 @@ Description: Tools and widgets for the desktop data files
 
 Package: plasma-desktop-doc
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: plasma-desktop
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7111
+Installed-Size: 7130
 Depends: plasma-version-base-6.6
 Breaks: plasma-desktop-data (<< 4:6.1.90~)
 Replaces: plasma-desktop-data (<< 4:6.1.90~)
-Filename: ./plasma-desktop-doc_4%3a6.6.4-1_all.deb
-Size: 4738948
-MD5sum: 3408472fa35f512bef92c585a8438ed8
-SHA1: 3344704bd3137820ad033f00fa992154d811795b
-SHA256: 425d829020f18961bc90e1fc06f6ab232e7e44dbafb94cb6d4e229c9d065821e
-SHA512: 4c234caff3b5260af2208e901868f05406e14a2f6ca38b7672da6c9cbed282adf6e71feebf51d8a3b662aff8b0a2f35ef97fb5b4b287e7b2b3a0accdd44b2f4a
+Filename: ./plasma-desktop-doc_4%3a6.6.5-2_all.deb
+Size: 4746704
+MD5sum: 1b72d2c20cd77651681e57cc8329ffdc
+SHA1: c2aa95d0c66a8c90e7d64a4ef1f88c8c01f7f68c
+SHA256: 6fb8722d0ca3ea371a2feeb971f5448de4ce424a11eee245f911d26c0db6ffa9
+SHA512: cbac48e7ef2a2d346be97e971f0de5c8d6c768cb7d3433b6ff1d459e2a66758bb4bb01899408b8492ae2af3a35b5fd37129d481c9dce7c2c049214995fa422dd
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Plasma desktop documentation
  Plasma Desktop offers a beautiful looking desktop
@@ -56088,22 +56088,22 @@ Description: Plasma desktop documentation
 
 Package: plasma-desktop
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 14007
-Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.6.4-1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qt6-svg-plugins, plasma-version-base-6.6, libkscreenlocker6, qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.22.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6notifyconfig6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.22.0~), libkglobalaccelmodel6 (>= 4:6.6.1), libklookandfeel6 (>= 4:6.6.4~), libkworkspace6-6 (>= 4:6.6.4~), libnotificationmanager1 (>= 4:6.6.4~), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.6.4~), libplasmaactivities7 (>= 6.6.4~), libplasmaactivitiesstats1 (>= 6.6.4~), libplasmaquick7 (>= 6.6.4~), libprocesscore10 (>= 4:6.6~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6quickwidgets6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libscim8v5 (>= 1.4), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.6.4~), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.6.4-1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
+Installed-Size: 14015
+Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.6.5-2), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qt6-svg-plugins, plasma-version-base-6.6, libkscreenlocker6, qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.22.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6notifyconfig6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.22.0~), libkglobalaccelmodel6 (>= 4:6.6.1), libklookandfeel6 (>= 4:6.6.5~), libkworkspace6-6 (>= 4:6.6.5~), libnotificationmanager1 (>= 4:6.6.5~), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.6.5~), libplasmaactivities7 (>= 6.6.5~), libplasmaactivitiesstats1 (>= 6.6.5~), libplasmaquick7 (>= 6.6.5~), libprocesscore10 (>= 4:6.6~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6quickwidgets6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libscim8v5 (>= 1.4), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.6.5~), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.6.5-2), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
 Suggests: kde-config-flatpak (>= 6.2.90~), plasma-theme-oxygen
 Breaks: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~), user-manager (<< 4:5.20)
 Replaces: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~)
-Filename: ./plasma-desktop_4%3a6.6.4-1_amd64.deb
-Size: 2720296
-MD5sum: 8e5ddd22f0f1b603bab93d95a8bb4158
-SHA1: 146498ce84677acda2d87d23ebb60b1d5cac4672
-SHA256: daf284e99a83c2e53f9a6f57f4bdca2c8257eeb2d121e604f69450c132827a23
-SHA512: 124256206dd2548858fffe2e12a6716e191a4ce27a85dc6aca2a0196ee14be504f9c27ee45837d31191473a658d760d07c0914f1e8496d35b83cd9cdf4df83ea
+Filename: ./plasma-desktop_4%3a6.6.5-2_amd64.deb
+Size: 2724796
+MD5sum: e47c454066869b31412c5f384210e54c
+SHA1: 75a90b64b2091ae8ab6db58f424512b8d822e249
+SHA256: 12a25eda38fc23648dff18f7e512dfbb72fb25d04dc128ade320ffa760d115bf
+SHA512: abe671bf8f9df5f44d37ad4c0e767ba2637ce4871e8b66e4b07f092411ca80d400b77c781d2b29b0b010fa3feb4789fae5830171ef2bd2608d11e8ef8f6e5b9e
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Tools and widgets for the desktop
  Plasma Desktop offers a beautiful looking desktop
@@ -56444,22 +56444,22 @@ Description: additional widgets for Plasma 6
 
 Package: plasma-workspace-data
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 27781
+Installed-Size: 27798
 Depends: qtpaths6, plasma-version-base-6.6
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), xdg-desktop-portal-kde (<< 6.2.0~)
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), xdg-desktop-portal-kde (<< 6.2.0~)
-Filename: ./plasma-workspace-data_4%3a6.6.4-1_all.deb
-Size: 11687092
-MD5sum: 9dd04a82d0a5765935a6a2e0a3ccdc51
-SHA1: 6e6b0c8d7a40e2005ee9f5997c399105396d6777
-SHA256: e4fdd178e9ff7429dfa792d901dc3a42daf836db8594b95e276eba31ceb96b18
-SHA512: 5a3c90f11f97352a002264bf286897eb25ea7c810703b03f89195c508146b00f3a0c80f1b9ee89104d383d680f1690217384f71e1226dd88397cefd7eda40b42
+Filename: ./plasma-workspace-data_4%3a6.6.5-2_all.deb
+Size: 11691036
+MD5sum: d77baa27ae6a24d704efd5faa6afbe24
+SHA1: 39e1afa2fde7724d4186798c9feb6114c9098fb8
+SHA256: d7a2343a300b32f8e8371454b82afddbf7273ffeba458147e076dae42607d7e3
+SHA512: 69980362675289287af43e87053397306665f507db4209dc99eeb2dd48e5be894e9478e04c006134fc5b015d6dc31a335f8fed795fdf05d9c994c271493c349e
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace data files
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -56470,22 +56470,22 @@ Description: Plasma Workspace data files
 
 Package: plasma-workspace-doc
 Architecture: all
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4973
+Installed-Size: 4981
 Depends: plasma-version-base-6.6
 Breaks: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~)
 Replaces: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~)
-Filename: ./plasma-workspace-doc_4%3a6.6.4-1_all.deb
-Size: 3166220
-MD5sum: 1ceaaa83162adce17e1d17e67a893c4f
-SHA1: 003e272f12b0c1042828fa57609b04da5543ab9e
-SHA256: e283612fccfbc8c911d56f560f5423dc2310e3e1d25b720627edadd48d85f74d
-SHA512: 3c2e0070934f669baf3cf01ac7e520913cb11421c73e448c4fead2ee73f78585c442da4a966dcd67106401ae5977f869b06e4f8a513d885f9725e9e869dad039
+Filename: ./plasma-workspace-doc_4%3a6.6.5-2_all.deb
+Size: 3169544
+MD5sum: 7bdd9d37139e327dc557e2d01d2cedd2
+SHA1: f0573c8fa88bbf2475058d919c2fb90519d4052b
+SHA256: e9815d31472f1917dee8f4ddcb1f056b9cc34c4a088b79c47bb33645dbbfa86b
+SHA512: c27b46c83281eeda5e09bdb6cba01ca06fd5910749c91a23f13e4a0f297f426494e470d7fdb7a03f8617786466dd06f0e2b612e0dc75217f617b85b823054d39
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace documentation
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -56497,22 +56497,22 @@ Description: Plasma Workspace documentation
 
 Package: plasma-workspace
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 19906
+Installed-Size: 19914
 Provides: notification-daemon, x-session-manager
-Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, milou (>= 4:6.2.90~), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.6.4-1), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, plasma-version-base-6.6, qml6-module-org-kde-activities, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-notificationmanager, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-quickcharts, qml6-module-org-kde-taskmanager, qml6-module-org-kde-userfeedback, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, kwallet6, libappstreamqt3 (>= 1.1.2), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libkf6archive6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6holidays6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6networkmanagerqt6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6parts6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6texteditor-bin (>= 6.22.0~), libkf6texteditor6 (>= 6.22.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libklookandfeel6 (>= 4:6.6.1), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.6.4~), libkscreenlocker6 (>= 6.6.4~), libksysguardsensorfaces2 (>= 4:6.6.4~), libkwaylandclient6 (>= 4:6.6.4~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.6.4~), libnotificationmanager1 (>= 4:6.1.0), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.6.4~), libplasmaactivities7 (>= 6.6.4~), libplasmaactivitiesstats1 (>= 6.6.4~), libplasmaquick7 (>= 6.6.4~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore10 (>= 4:6.6.4~), libqalculate23 (>= 5.9.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.1.0), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
-Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.6.4-1), powerdevil (>= 4:6.2.90~), systemsettings
+Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, milou (>= 4:6.2.90~), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.6.5-2), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, plasma-version-base-6.6, qml6-module-org-kde-activities, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-notificationmanager, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-quickcharts, qml6-module-org-kde-taskmanager, qml6-module-org-kde-userfeedback, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, kwallet6, libappstreamqt3 (>= 1.1.2), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libkf6archive6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6holidays6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6networkmanagerqt6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6parts6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6texteditor-bin (>= 6.22.0~), libkf6texteditor6 (>= 6.22.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libklookandfeel6 (>= 4:6.6.1), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.6.5~), libkscreenlocker6 (>= 6.6.5~), libksysguardsensorfaces2 (>= 4:6.6.5~), libkwaylandclient6 (>= 4:6.6.5~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.6.5~), libnotificationmanager1 (>= 4:6.1.0), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.6.5~), libplasmaactivities7 (>= 6.6.5~), libplasmaactivitiesstats1 (>= 6.6.5~), libplasmaquick7 (>= 6.6.5~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore10 (>= 4:6.6.5~), libqalculate23 (>= 5.10.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.1.0), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
+Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.6.5-2), powerdevil (>= 4:6.2.90~), systemsettings
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.4.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.4.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland
-Filename: ./plasma-workspace_4%3a6.6.4-1_amd64.deb
-Size: 4705932
-MD5sum: 770b407d1b6e7246afab4e0c930c47dd
-SHA1: 33076467cbaf07421cf369f8b23b2e21e83e6827
-SHA256: f4d1d224fb9aae9d5b827a4b928ac2bc4480aa2f9d38f65268d0d934d9eb37bb
-SHA512: 532163685d8faab93843a23f920ea27f64b1d0cb2a5c5df4ffcff37a135e7b5244843b1ddb224d85581242cc093c569f36387e3175990c2ad35d11076b02ba91
+Filename: ./plasma-workspace_4%3a6.6.5-2_amd64.deb
+Size: 4706436
+MD5sum: 53c0983b3f1cd02dac1cf746b6eb87d0
+SHA1: 0ac9733be33c30209626778c982a61f291e4fb49
+SHA256: 745ed7298146988844b2e0e34879c7f7533d39c1fcfcecc2d6cb6dd33fbb8e1d
+SHA512: b6ccd1d6727490e132d5b4fc5a20318a108c4ead3f53426b2c1e89d39c6f5601927a24142f2ea47fde3ebc6816eabbf006c2d6a5dac7c2c1e458f95e2fd8fe31
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environments
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -58500,7 +58500,7 @@ Description: framework for file search and metadata management - QML module
 
 Package: qml6-module-org-kde-breeze-components
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -58510,12 +58510,12 @@ Installed-Size: 697
 Depends: plasma-version-base-6.6, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-virtualkeyboard, qml6-module-qtquick-window, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-breeze-components_4%3a6.6.4-1_amd64.deb
-Size: 131436
-MD5sum: ac79aacd28abf9b58c26fa97ef78f802
-SHA1: 16c2afaf4cf60e7bf325933ea9eac2b7da32e89d
-SHA256: bfe90ce6f6cd86031c24400088095a945950e52430bfdf60448fbeb06ddabe96
-SHA512: ff4f336c2ee7ce6de73d84c6a5331baaa8ae60a349f421ba3401c1a1beb402c2cb824fb4459cee169096b00faf96eaa398b902b193470ba59792c7bd49790ff9
+Filename: ./qml6-module-org-kde-breeze-components_4%3a6.6.5-2_amd64.deb
+Size: 131504
+MD5sum: 70e1a08906b07701dfca7b10c0970d4c
+SHA1: 1727ec17865783d68b718febb811efabed327e7a
+SHA256: 79ab7e6e215a70668936522e8e6a188661957bbbbcefc87294fc5dfcda103bfb
+SHA512: dd9fd6f7f55a82c17246f71e8e6ed9ae97f7d988a904d843087755274183dca376d7fe08be7dfec9a4015cbd86e1ae9ec5c09614923d5ac7e08c62937473e62c
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML breeze components
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -59101,7 +59101,7 @@ Description: Support for downloading application assets from the network
 
 Package: qml6-module-org-kde-notificationmanager
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59111,12 +59111,12 @@ Installed-Size: 201
 Depends: plasma-version-base-6.6, qml6-module-qtquick, libc6 (>= 2.2.5), libnotificationmanager1 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-notificationmanager_4%3a6.6.4-1_amd64.deb
-Size: 32776
-MD5sum: 0230354341a1a3cfe3e143b2f04ff676
-SHA1: c57b99fa1ba5dc73d7a49de854b41518fc2b0dce
-SHA256: d142161c82c73a534d0acbb186238364d9cc7c49d367cc04816f2aa99c655879
-SHA512: 9b01525b12db41a0eaa95baea8314ff64644b691d24cc0f92217362bd8ad5e05d65e171496e1e031766a7b490014157b8adaba7bc6c36741b7d315b9f8070792
+Filename: ./qml6-module-org-kde-notificationmanager_4%3a6.6.5-2_amd64.deb
+Size: 32932
+MD5sum: ff3453b695a1de8801486ea4453b8f72
+SHA1: b396b4111b610969aa04ac4f4395880084055b21
+SHA256: 81d3d4ada27132b1301de40c6f8184078babb27483d7b4faeb52c9188c5d296c
+SHA512: 4d97b55247fcc0c47405d3614537bab939c42d9a7eaaed82892f718472ad604f9f8888449eed5e61cf79e1f69fc255a6f2ff69e5fa397a3a8f21f3ef6d688c2b
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -59150,7 +59150,7 @@ Description: Framework for desktop notifications qml
 
 Package: qml6-module-org-kde-plasma-clock
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59158,12 +59158,12 @@ Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 161
 Depends: plasma-version-base-6.6, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-plasma-clock_4%3a6.6.4-1_amd64.deb
-Size: 37284
-MD5sum: 3de632fc4dd7b68ca76dde9c7f4b042a
-SHA1: fc89aa620361b3a4e0762c3e48400a7bdf0b5f24
-SHA256: ec76ccac761f274574da72cf525f1e7436a0f4aabd485fa86d0d99af7f35f4e5
-SHA512: 95645253c282d22e2601f786df20273879c6411a1c86c9120e7251e3d64a8697ae281642c8ba3c8df18f2e3a29456e051a5ccec95584f39a458d6ad4b50465c9
+Filename: ./qml6-module-org-kde-plasma-clock_4%3a6.6.5-2_amd64.deb
+Size: 37336
+MD5sum: 8123861dd494c2dff421e54c541b460d
+SHA1: 633599b9311e97db81202aae71ef5497b4bc5ac5
+SHA256: 938f8b7e17fa15c4d16bd926f398909ce272a4829bb8bf0d92a2fcd79c89995e
+SHA512: 9ef36e518bba169c7f6c7f3796dd061bc66068354bbf67978f41d921fe1655c244db0c61883ead62cbac0ca83528f3319957c1137fdab13cb3a932cbe133bb29
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -59176,7 +59176,7 @@ Description: QML datetime engine for Plasma
 
 Package: qml6-module-org-kde-plasma-lookandfeel
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59186,12 +59186,12 @@ Installed-Size: 143
 Depends: plasma-version-base-6.6, libc6 (>= 2.4), libkf6configcore6 (>= 6.0.0), libkf6package6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-plasma-lookandfeel_4%3a6.6.4-1_amd64.deb
-Size: 30160
-MD5sum: 4c971e06ccb7e7374fa48dcce13986e0
-SHA1: 0ec47ef995a1d68e00e971bbaf2eb497a114581a
-SHA256: c5a0cfa51a518b4350643c12be906bf7a63d09bdbb5af26b86eb1111a79c90dd
-SHA512: c940018c57ca6405c2a8a8276e9c24b10471fbe27c00ad7b46b087b166ced6d18d99a88cf63e369aa153c42d83e7014a0ccf0dcdd245263f6b1cd702b4f822f4
+Filename: ./qml6-module-org-kde-plasma-lookandfeel_4%3a6.6.5-2_amd64.deb
+Size: 30336
+MD5sum: 288958be989fd1becca51364452b2b76
+SHA1: 870f5fe5cf9a73bb64139fc469c7d3f233302374
+SHA256: ed4501e70b8882d314b925056c1f60c44694c5e89339f8da0b1c1edaad72aaec
+SHA512: 27f6f27a90158506615ea5e49c20abcc79bce447a517981c9cc7ff117cc379370d7d2b21a1e154fa967e9b003761b744b71120ac9af8fca050dbc2f0b2f38937
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -59224,22 +59224,22 @@ Description: support components for porting from KF5/Qt5 to KF6/Qt6 - QML module
 
 Package: qml6-module-org-kde-plasma-workspace
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 6360
-Depends: plasma-version-base-6.6, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-plasma-lookandfeel, qml6-module-org-kde-prison, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtlocation, qml6-module-qtpositioning, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, libappstreamqt3 (>= 1.1.2), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6calendarevents6 (>= 6.22.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nlocaledata6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libklipper6 (>= 4:6.4.91), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.6.4~), libkworkspace6-6 (>= 4:6.1.0), libplasma7 (>= 6.6.4~), libplasmaactivities7 (>= 6.6.4~), libplasmaactivitiesstats1 (>= 6.6.4~), libplasmaquick7 (>= 6.6.4~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.6.1), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Depends: plasma-version-base-6.6, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-plasma-lookandfeel, qml6-module-org-kde-prison, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtlocation, qml6-module-qtpositioning, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, libappstreamqt3 (>= 1.1.2), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6calendarevents6 (>= 6.22.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nlocaledata6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libklipper6 (>= 4:6.4.91), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.6.5~), libkworkspace6-6 (>= 4:6.1.0), libplasma7 (>= 6.6.5~), libplasmaactivities7 (>= 6.6.5~), libplasmaactivitiesstats1 (>= 6.6.5~), libplasmaquick7 (>= 6.6.5~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.6.1), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Breaks: plasma-workspace (<< 4:6.6.3-3~)
 Replaces: plasma-workspace (<< 4:6.6.3-3~)
-Filename: ./qml6-module-org-kde-plasma-workspace_4%3a6.6.4-1_amd64.deb
-Size: 1506120
-MD5sum: 2f1ce2519e25ff0e8a0e6cd1687591aa
-SHA1: 518b6b8e7f10bb883c3a4a7111552ce150f1a2df
-SHA256: b6c692acac20029521425f2b8dbf91e98104c7084112f84a488b869335f75e85
-SHA512: 94f8a58dfb778dc4009c16fd6c079685535021e907c9a6004797cc520273356ba5872873cb5dc4b0d01f4097cde80e580641edb872abc2c9dbcfef32edfa2dad
+Filename: ./qml6-module-org-kde-plasma-workspace_4%3a6.6.5-2_amd64.deb
+Size: 1507332
+MD5sum: 9545bc1318ac40dcd8e3568cfcf30e59
+SHA1: d276e63569e8089a4c6b00b418ff5fd73ac19297
+SHA256: 97e78a2713b34ba9348a29adb47d2e708517cf1b4ac77770910e0c99669058a0
+SHA512: e7939ddd2d160fe659ef932ea4e9cb91c271929e104f72c3bb46511addd2ae3e672a20b43942806d189061cf63ca8927fa3188bd1cdf5fc46839fccbdb08c9c1
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: base QML modules for the Plasma Workspace
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -59351,7 +59351,7 @@ Description: Syntax highlighting Engine (QML module)
 
 Package: qml6-module-org-kde-taskmanager
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59361,12 +59361,12 @@ Installed-Size: 182
 Depends: plasma-version-base-6.6, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), libtaskmanager6 (>= 4:6.1.90)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-taskmanager_4%3a6.6.4-1_amd64.deb
-Size: 31116
-MD5sum: c0613032d3fcf7cf782fa24e8194df10
-SHA1: 8174add66f832ce3ba9c84c613a965eb0f609bec
-SHA256: 0318cd9d54edada51cb5675a44072e9dcceecaa3a7173a250e434ffcbfb844e4
-SHA512: 16b52734ad716f753e9ae4d144b79b4d2d91fe51870cd057e5a49cf19352a3991b42d56c940b5d073f88d4d26c746256e194d021ede3fae7a84d09930e72cfd5
+Filename: ./qml6-module-org-kde-taskmanager_4%3a6.6.5-2_amd64.deb
+Size: 31284
+MD5sum: 12e904eaf28e353fb84cb6ec7cf69f3f
+SHA1: 21e4f8dd839173f9643b3d437568240d383abd40
+SHA256: 018a72b69a509752d57c7d2d65cc0ebce0d78b432bb01c7badd7517337f166fc
+SHA512: 91bd2b8ec6d0e6e42d94de428c71bda59f54b40b62c3fcbdc7256c0e1685b3e3bcda22db4ae1d701b109ddb2021c1e1503747cefffb0f86c3369ad153a0d7b5e
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61907,7 +61907,7 @@ Description: command line screen capture utility
 
 Package: sddm-theme-breeze
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Source: plasma-desktop
@@ -61917,12 +61917,12 @@ Provides: sddm-theme
 Depends: sddm (>= 0.21.0-2), plasma-version-base-6.6, plasma-desktoptheme, qml6-module-org-kde-breeze-components, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-workspace, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts
 Recommends: qt6-virtualkeyboard-plugin
 Enhances: sddm
-Filename: ./sddm-theme-breeze_4%3a6.6.4-1_amd64.deb
-Size: 702084
-MD5sum: e0f10efbe6ca8b6d2ba1a6d6371c16ce
-SHA1: f945859e15f3f68386267a7b091dabe11659a5d4
-SHA256: 9092b5fbf76422941c95e779909e637f07ec2956d440302a79e0d103c498a880
-SHA512: 310a6cbda013317b0f3cebff4764fbab2c8070a5c4f0e27a330c343eb5ab24f8a5c379a0834505d583e5da4e9eda82a85eb6f822cccca1017ea533d7f5b9e045
+Filename: ./sddm-theme-breeze_4%3a6.6.5-2_amd64.deb
+Size: 702168
+MD5sum: 44b4616b6dff6e04796020718027d156
+SHA1: 50c9a6e7e74f69baff6aedd68059c5f8005d7f9d
+SHA256: 8dfbf3e31021d07887333df2567f4cb16346922a92c984be51efcf5e1f0d11dd
+SHA512: b21bae35296f894717ee866fc8f60cda629f14a8fff7cddc6457ecfc3e88840a27fdbc28053e411566039e28f4c3309f74025aa681275db0f0d44f6b2e033de1
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Breeze SDDM theme
  Plasma Workspace for KF6. Workspaces provide
@@ -61934,7 +61934,7 @@ Description: Breeze SDDM theme
 
 Package: sddm-theme-debian-breeze
 Architecture: amd64
-Version: 4:6.6.4-1
+Version: 4:6.6.5-2
 Priority: optional
 Section: kde
 Source: plasma-desktop
@@ -61944,12 +61944,12 @@ Provides: sddm-theme
 Depends: qt6-svg-plugins, sddm-theme-breeze, plasma-version-base-6.6, plasma-desktoptheme, qml6-module-org-kde-breeze-components, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-workspace, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts
 Recommends: desktop-base, qt6-virtualkeyboard-plugin
 Enhances: sddm
-Filename: ./sddm-theme-debian-breeze_4%3a6.6.4-1_amd64.deb
-Size: 146548
-MD5sum: f235c637ff0ffc0bdd343421904c184b
-SHA1: 1afa8fa6549ba6d82336edd534d77c285cda5d7f
-SHA256: 6907e7ce7b3f59957a85460329c794cadcf2206e46b9dadbee402987cfbb2662
-SHA512: 016bb72185242ad620363b1a6d3dcebb27397ea78ecc98df0802b7341b4387b0c26a05fa3750e3698a06fef0488b8ffaba0bd4b977e81bc75a87ce0508dddd5d
+Filename: ./sddm-theme-debian-breeze_4%3a6.6.5-2_amd64.deb
+Size: 146564
+MD5sum: 49bf98e0d3cc651c94dcdd97aeaa0968
+SHA1: 892ecc9f877e9ad679bdb5725f9913c100c0e322
+SHA256: 21668d3e8639156ec86ce79ae10e852b2708acb928df6be3368ee1fbe40592d3
+SHA512: 5bf72137cd4221ec55699693e20e9d70d382a1d9fe9ded8a43d24da5b76eda15d3778cd96722ae3e185777220647558baa77d8045ae7c2fb0d328970b8e06337
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Description: Debian Breeze SDDM theme
  Plasma Workspace for KF6. Workspaces provide
@@ -69351,7 +69351,7 @@ Description: graphical application for configuring displays in Wayland composito
 
 Package: webext-plasma-browser-integration
 Architecture: all
-Version: 6.6.4-1
+Version: 6.6.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
@@ -69360,12 +69360,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 825
 Depends: plasma-browser-integration, plasma-version-base-6.6
 Recommends: firefox-esr | firefox | chromium
-Filename: ./webext-plasma-browser-integration_6.6.4-1_all.deb
-Size: 157144
-MD5sum: 951f0b592e985a316e782fb87140aed1
-SHA1: 00b1aeb3fbc02db104d03f6d091a22ec9efc63f4
-SHA256: 5538c19f92422ff0da98a8685dd003d8daaee914ba20739c3c9dc8f6f397a930
-SHA512: de285346919e5b9dd9d46875600d3ee401ad74ff305bcda35f5c58e05ecaeedc0a1a1cf017b2b96737dc2f1c76872639ae6a485df34cbd798f0d5544a0e23750
+Filename: ./webext-plasma-browser-integration_6.6.5-2_all.deb
+Size: 157156
+MD5sum: 9fbdd2b100a4ff2598d8fee5112c4bf6
+SHA1: e763bb28db3de79c179f3188c488254b9db0fbfa
+SHA256: 316ce345c1540b4ea4b176e507598e5910091366f8e36502a6651ce451bb90a2
+SHA512: 844552f1d5cd9ad481a1c00ecff3fa22d36de8dcbfc31465828247659b5b9cfa08081d766a236475130b9ba115b2ba53fe4241d94e55b56d9840b09d02e2d887
 Homepage: https://invent.kde.org/plasma/plasma-browser-integration
 Description: Chromium, Firefox integration for Plasma (web extension component)
  Plasma Browser Integration is an extension for common browsers
