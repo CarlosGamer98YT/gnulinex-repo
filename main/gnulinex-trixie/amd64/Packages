@@ -8299,32 +8299,6 @@ Description: Intelligent Input Bus - introspection data
  for developing the IBus applications in various programming languages
  with GObject introspection support.
 
-Package: gir1.2-ibus-1.0
-Architecture: amd64
-Version: 1.5.34~rc2-1
-Multi-Arch: same
-Priority: optional
-Section: introspection
-Source: ibus
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 658
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libibus-1.0-5 (>= 1.5.34~beta1)
-Filename: ./gir1.2-ibus-1.0_1.5.34~rc2-1_amd64.deb
-Size: 387124
-MD5sum: b250fa9ed2779aa31577a6a2928ff897
-SHA1: a45eece774755125bcc1b6715a0673bcd15b18e1
-SHA256: 72fd0edd3f3a02a3fade8b159808d98663a8ede1d9976072687ad37f2faaf66e
-SHA512: 22a166dc81aa107d9b9f7c1e83e15be47a6ed1773eac160cabd930570220fa7f2882c2a41817ad3e24b10892d3926a4aaf7b5117314c3ac04e6215de10607826
-Homepage: https://github.com/ibus/ibus
-Description: Intelligent Input Bus - introspection data
- IBus is an Intelligent Input Bus. It is a new input framework for the Linux
- OS. It provides full featured and user friendly input method user interface.
- It also may help developers to develop input method easily.
- .
- This package contains the GObject introspection data which are needed
- for developing the IBus applications in various programming languages
- with GObject introspection support.
-
 Package: gir1.2-ical-3.0
 Architecture: amd64
 Version: 3.0.20-2+b1
@@ -13000,31 +12974,6 @@ Description: Intelligent Input Bus - data files
  .
  This package contains data files.
 
-Package: ibus-data
-Architecture: all
-Version: 1.5.34~rc2-1
-Multi-Arch: foreign
-Priority: optional
-Section: utils
-Source: ibus
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 150308
-Depends: dconf-gsettings-backend | gsettings-backend, librsvg2-common
-Suggests: ibus
-Filename: ./ibus-data_1.5.34~rc2-1_all.deb
-Size: 14461384
-MD5sum: 6cd27ed11821a420c49d5190616992dd
-SHA1: 6ad34c059f2cfe619a88717b34ed0b9c7534612f
-SHA256: 1675f1fb425d98314d7932c21742fc80a9bede364fde568fbdb7ab2bc54b915e
-SHA512: 2cdb29677f61b2b1714bd74e491d68ffea1564cf023c988661535170d9957aa386581d52d58342b63a4d2fda546094d6715e200b3b9b7a388ab0e70f7a038c1c
-Homepage: https://github.com/ibus/ibus
-Description: Intelligent Input Bus - data files
- IBus is an Intelligent Input Bus. It is a new input framework for the Linux
- OS. It provides full featured and user friendly input method user interface.
- It also may help developers to develop input method easily.
- .
- This package contains data files.
-
 Package: ibus-gtk3
 Architecture: amd64
 Version: 1.5.34-1
@@ -13073,47 +13022,23 @@ Description: Intelligent Input Bus - GTK4 support
  .
  This package contains the GTK4 IM module.
 
-Package: ibus-gtk4
-Architecture: amd64
-Version: 1.5.34~rc2-1
-Multi-Arch: same
-Priority: optional
-Section: utils
-Source: ibus
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 382
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libibus-1.0-5 (>= 1.5.33), libpango-1.0-0 (>= 1.14.0)
-Filename: ./ibus-gtk4_1.5.34~rc2-1_amd64.deb
-Size: 333992
-MD5sum: f8652bcbf203ca2e514cd2bb75f97649
-SHA1: fea1c196c236bd4c01ec82350ba58686ae6a4975
-SHA256: 582ae72afc977100e6ded0582ee792657c27ea7f5762a7cb4f8dabce2b0bccd7
-SHA512: 01d8c17b1ba4bd12e5080e85f4ce48348aead80bd025c096f686d00caa94ab3b0d5af6a96916e4a983c3b2000bd945f8f04b62f6c16c4f8321b3cfed3fa67241
-Homepage: https://github.com/ibus/ibus
-Description: Intelligent Input Bus - GTK4 support
- IBus is an Intelligent Input Bus. It is a new input framework for the Linux
- OS. It provides full featured and user friendly input method user interface.
- It also may help developers to develop input method easily.
- .
- This package contains the GTK4 IM module.
-
 Package: ibus
 Architecture: amd64
-Version: 1.5.34~rc2-1
+Version: 1.5.34-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 1828
-Depends: python3:any, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libibus-1.0-5 (>= 1.5.34~beta1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), adwaita-icon-theme, dconf-cli, ibus-data (= 1.5.34~rc2-1), gir1.2-gtk-3.0 (>= 3.8.5), gir1.2-ibus-1.0 (= 1.5.34~rc2-1), python3-gi, python3-ibus-1.0 (= 1.5.34~rc2-1)
+Depends: python3:any, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libibus-1.0-5 (>= 1.5.34~beta1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), adwaita-icon-theme, dconf-cli, ibus-data (= 1.5.34-1), gir1.2-gtk-3.0 (>= 3.8.5), gir1.2-ibus-1.0 (= 1.5.34-1), python3-gi, python3-ibus-1.0 (= 1.5.34-1)
 Recommends: im-config
 Suggests: ibus-clutter, ibus-doc
-Filename: ./ibus_1.5.34~rc2-1_amd64.deb
-Size: 668544
-MD5sum: 0dfbcdf93f99213a5e3249d0a29b6fe8
-SHA1: c1eb1170158ac70bdaebd1d3827119a95df57caf
-SHA256: eebaf65d62844a5f79b2036f5aa3caf0e3b0d48731d0e8309f30e51089c11135
-SHA512: 0c5008e07c270af71d65b96ad70d3a8494865d39ef02c9cc77118ea108a9b03c987945997a1ebc0591f03aaecbf27fe81a6f9a5177e420a6b1d45d8c7115717f
+Filename: ./ibus_1.5.34-1_amd64.deb
+Size: 668724
+MD5sum: 51639dba880261b5afddff498cd72840
+SHA1: d16b8959a7dd71c9077729f9b7e587dc850eb713
+SHA256: 645b8a80e248df1cd05878523966027d0f5092f97c27f943a9c16ff1ae1e638a
+SHA512: f7f8e88bf5684a1dc91ce50f9616f68befc2707fea32e09c98e3f01fd942c770d6d1376d8bf1b4f6ef6f18f782d1b5ab91dac0368d292f167bf39c33c4d92574
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - core
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -14186,21 +14111,21 @@ Description: data files for kirigami-addons
 
 Package: kitty-doc
 Architecture: all
-Version: 0.46.2-1
-Built-Using: sphinx (= 9.1.0-2)
+Version: 0.47.0-3
+Built-Using: sphinx (= 9.1.0-3)
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 17281
+Installed-Size: 18395
 Depends: libjs-sphinxdoc (>= 9.0)
-Filename: ./kitty-doc_0.46.2-1_all.deb
-Size: 3076976
-MD5sum: 5b51e750c77e50b96c891bd1e523529f
-SHA1: d09038d35befbb53322c2ef68445fa77f095d822
-SHA256: 05c346002edb2b02c720fa481d4deb40a61cea69001290dfc87c738d6f33f0cd
-SHA512: 075a5a1166fe2a8bb5f8af3ab42370efd286e6a9406787d8765fabb6e246963df9675b7bfadf3ee1a0de6762fd9fa4b4ed164fb4220253403969c655f794cee0
+Filename: ./kitty-doc_0.47.0-3_all.deb
+Size: 3222308
+MD5sum: be5f1dbde2f000c788b71a11aae8f422
+SHA1: 661b077b065efb433602793540a2f56b242eec86
+SHA256: 249001c17c853441c354b5375da18cb057ead8d42211a202aa454b48a8a2ae3b
+SHA512: 9d69c16533613adbdc2cbecfa412d4717f5fff8e808d636011d65825b92f765ed742e2062098dee0f68a7c8863f97cde89f7f786464515d7846f5c3e7d670fd3
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (documentation)
  This package contains the AsciiDoc/HTML documentation for the kitty terminal
@@ -14208,19 +14133,19 @@ Description: fast, featureful, GPU based terminal emulator (documentation)
 
 Package: kitty-shell-integration
 Architecture: all
-Version: 0.46.2-1
+Version: 0.47.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 215
-Filename: ./kitty-shell-integration_0.46.2-1_all.deb
-Size: 104968
-MD5sum: 2220839fdce2eb2b01776c8144335cef
-SHA1: 8dee91ac212fb1a1c2bfd1d69a72f1b487651739
-SHA256: 4f4b39f4a19c706281bc40932539acfc4d30d0e5daa1bc5d5db9d8934a8ac96e
-SHA512: 99e4c3d18af382d950b2457c70c2537a9ed6b304c660c7f4bb6fb98dc3862436913b53d84615aec498aadf2a9a982a3cef63350582cbdbe061c7df39831baaa5
+Installed-Size: 220
+Filename: ./kitty-shell-integration_0.47.0-3_all.deb
+Size: 108228
+MD5sum: 6a22bdc1959076e6d7a7e550c64b37e6
+SHA1: 83f4255ecf423409b1147c2e49c639a8fb890243
+SHA256: ca1658144634cbb2b00046bb439ebb734b185af94ec47f6f693e92692dc499c3
+SHA512: d02fe55f8e4487f81d2e112c48ff9e7b70433aec3ca6a1af5d880e9d3bd9d6f65b730df8ecc0da3627293b083da8283b84b6b788d2671d2823ce12b52dd10b25
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (shell integration files)
  This package provides Kitty's shell-integration files so that it can easily
@@ -14228,19 +14153,19 @@ Description: fast, featureful, GPU based terminal emulator (shell integration fi
 
 Package: kitty-terminfo
 Architecture: all
-Version: 0.46.2-1
+Version: 0.47.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 115
-Filename: ./kitty-terminfo_0.46.2-1_all.deb
-Size: 84072
-MD5sum: 826f159070f9ccbe3bf2b9ef563bd518
-SHA1: 84ddc72d9931007f4951e9b0a70507c266fd94f5
-SHA256: fd95f2118cd974ebd0752395c7d54ef11d75afde4c5fe24fe14d26fe93b6b1c6
-SHA512: b6ca732a4e60c30d7b0b55bad23a46502b201302ee31d8857f840a2095beb9d5b43076db921893fa64cd46067abcf9df48f079c0bde7f1172e24a2aff90c3b4a
+Installed-Size: 117
+Filename: ./kitty-terminfo_0.47.0-3_all.deb
+Size: 86976
+MD5sum: 4f6a99ef7ff4059cba7d81d895bc768a
+SHA1: 4c8148b4e560d43d84c80dda64e231b08bd2a8df
+SHA256: 5215559716359e2fb67cfaec8602e9fb1ca264823ed2a9934c647c5c1b6f3bf0
+SHA512: 41416e39162f5337d722ed0c8cec9aaf5ad433f9d7c1e79a7805143971e162249891bfa93e09a9776a54511723cf5f7d4bb003e28036e5b8732a696fa370d473
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (terminfo file)
  This package provides the xterm-kitty terminfo definition for the kitty
@@ -14248,22 +14173,22 @@ Description: fast, featureful, GPU based terminal emulator (terminfo file)
 
 Package: kitty
 Architecture: amd64
-Version: 0.46.2-1
-Built-Using: golang-1.26 (= 1.26.2-3), golang-github-alecthomas-chroma-v2 (= 2.23.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.1+ds1-1), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.2-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.25.2-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20250911.df92998-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
+Version: 0.47.0-3
+Built-Using: golang-1.26 (= 1.26.3-2), golang-github-alecthomas-chroma-v2 (= 2.24.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.6+ds1-1), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.2-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.4-2), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20250911.df92998-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
 Priority: optional
 Section: x11
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 31391
+Installed-Size: 32130
 Provides: x-terminal-emulator
-Depends: kitty-shell-integration, kitty-terminfo, python3 (<< 3.14), python3 (>= 3.13~), python3.13, python3:any, libc6 (>= 2.38), libcairo2 (>= 1.17.8), libdbus-1-3 (>= 1.12), libfreetype6 (>= 2.11.0), libharfbuzz0b (>= 1.6.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.46), libpython3.13 (>= 3.13.0~rc3), libssl3t64 (>= 3.0.0), libwayland-client0 (>= 1.20.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcursor1 (>> 1.1.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.1.4)
+Depends: kitty-shell-integration, kitty-terminfo, python3 (<< 3.14), python3 (>= 3.13~), python3.13, python3:any, libc6 (>= 2.38), libcairo2 (>= 1.17.8), libdbus-1-3 (>= 1.12), libfreetype6 (>= 2.11.0), libharfbuzz0b (>= 5.1.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.46), libpython3.13 (>= 3.13.0~rc3), libssl3t64 (>= 3.0.0), libwayland-client0 (>= 1.20.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcursor1 (>> 1.1.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.1.4)
 Recommends: kitty-doc, libcanberra0
 Suggests: imagemagick, fonts-noto-color-emoji
-Filename: ./kitty_0.46.2-1_amd64.deb
-Size: 9431068
-MD5sum: f802aedeaab75343eb8038e2e5f9f8e2
-SHA1: 0321eb7252c8b18bd06f5f7393da31c545fe6d62
-SHA256: 20d126b68670d51a19e5f434e09ff191e92f8f556ca8b3e90ab84575eedcad4d
-SHA512: 995f1e881c1d9ea29f47f79016319e2df1f9abc2ac488b3be7166614ccbbeb173963cf105c44720a77adac3a486f39fa57c73e9168150cd4c81d1a7fbc83391c
+Filename: ./kitty_0.47.0-3_amd64.deb
+Size: 9629804
+MD5sum: cfdc49d25d1cb6b9a54b9700fd8b1390
+SHA1: 15d4fbf4a048cee2d03a5c404119c5bd642510ed
+SHA256: 9e9e0ab2fbd221a5ba1029e0272071ba7ba0e67ca74436058cfee4b53061738c
+SHA512: 59d80405be50c7a7140f37ab81b42ea969f4748ed1109c91d5d5b16083e60dc66ef4d9e861818ed9b3e488d661b535c21f5604d871fc4fca4bd5ce754a5dce14
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator
  Kitty supports modern terminal features like: graphics, unicode,
@@ -24761,31 +24686,6 @@ Description: Intelligent Input Bus - shared library
  .
  This package contains the shared library.
 
-Package: libibus-1.0-5
-Architecture: amd64
-Version: 1.5.34~rc2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: ibus
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 897
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libqt5gui5t64 (<< 5.15.1)
-Filename: ./libibus-1.0-5_1.5.34~rc2-1_amd64.deb
-Size: 479132
-MD5sum: 6857ed0e13c04a9e1d6db57c8c08b46b
-SHA1: d937091183ee4b8f7f18bc865aa3ab8f40ca258d
-SHA256: 62b94b222def98c458859e5207a15c2abe3b1b7346c70da01a78524ba931b309
-SHA512: 3a8db6d96090700431ef43921f95745b8c8cc17502e2d252f98a442939b22fbb71b2d27e121f9b9856dcbe38a1420a12b1a5d0cc14a7f7d6bdc2997a435e3c81
-Homepage: https://github.com/ibus/ibus
-Description: Intelligent Input Bus - shared library
- IBus is an Intelligent Input Bus. It is a new input framework for the Linux
- OS. It provides full featured and user friendly input method user interface.
- It also may help developers to develop input method easily.
- .
- This package contains the shared library.
-
 Package: libibus-1.0-dev
 Architecture: amd64
 Version: 1.5.34-1
@@ -24803,32 +24703,6 @@ MD5sum: 53eb34367f72e282d5beadf3597dd465
 SHA1: 060609dccd7f5d6702a8319c25498ec4357a55d9
 SHA256: c1f05f88dbad8591a703ca0db7f9a0c13623bb911e62eab639d5c882fb1a087b
 SHA512: e43928b7550e275c4cfd1358934c142ab688852d592d7e37f377e3c6dc84856244415d2f354868236ac058d70e8e94b4ed094de18040135efa21fb197aaf2a66
-Homepage: https://github.com/ibus/ibus
-Description: Intelligent Input Bus - development file
- IBus is an Intelligent Input Bus. It is a new input framework for the Linux
- OS. It provides full featured and user friendly input method user interface.
- It also may help developers to develop input method easily.
- .
- This package contains the header files and static libraries which are
- needed for developing the IBus applications.
-
-Package: libibus-1.0-dev
-Architecture: amd64
-Version: 1.5.34~rc2-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: ibus
-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 3152
-Provides: gir1.2-ibus-1.0-dev (= 1.5.34~rc2-1)
-Depends: gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-ibus-1.0 (= 1.5.34~rc2-1), libdbus-1-dev, libglib2.0-dev, libibus-1.0-5 (= 1.5.34~rc2-1)
-Filename: ./libibus-1.0-dev_1.5.34~rc2-1_amd64.deb
-Size: 512300
-MD5sum: 31c0f91e4531c65174fa5f114c49b9b2
-SHA1: 50fed1f81d44fb7d6922f3b4015365cf96782b27
-SHA256: 8b31dec48c853b82189eb32ecef62d7016034b8e8b813e2d65b2c7231e01b82a
-SHA512: c90a8580c9a05f9f90e0d6afd8488511f02c6e749235c5142722db50c5f58443141e6656c2fdf7d6014af5cef8bb00f500e620328866432861d8feb649ec62d5
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - development file
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -36342,25 +36216,25 @@ Description: tool for generating and solving Sudoku puzzles (library)
 
 Package: libqt5core5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6217
-Provides: libqt5core5a (= 5.15.17+dfsg-7+b1), qtbase-abi-5-15-17
+Installed-Size: 6220
+Provides: libqt5core5a (= 5.15.17+dfsg-8), qtbase-abi-5-15-17
 Depends: shared-mime-info, libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.22.0), libicu78 (>= 78.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 14), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5a (<< 5.15.17+dfsg-7)
+Breaks: libqt5core5a (<< 5.15.17+dfsg-8)
 Replaces: libqt5core5a
-Filename: ./libqt5core5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 1893168
-MD5sum: a56dc3b0a4d4df133ff23764c16a75f9
-SHA1: e5ff4261328e896baf6aa2078d57846fffbbb6c2
-SHA256: d36ff5f4e89640b90abae0edfdd2f73ce1ed018edc8daa95c6ccec5f441d7436
-SHA512: 1c0c9cc77e1ea81daf9c81c255f0cc9045c3777a05aa3ab0a22ff7fcb27c0e941992796e85a8505fc471ccccc6262d8d8a00e892abfe8251eadd3189240f3846
+Filename: ./libqt5core5t64_5.15.17+dfsg-8_amd64.deb
+Size: 1892860
+MD5sum: d497dd1679939699110b5354c0abf90a
+SHA1: aebcba6c0f3db19877e61937c5b0f1ae754fb4f2
+SHA256: 354f5dd271390fe0e9998d76dc8e78be783964cf7eea97e4fa1367e585e20a90
+SHA512: 7bc2a829bbebe3e0147b4992d05cbb44f8eb8fa38f9d425a708856db52b0a7560c678b3cb5b267d07f8121dad7c1b4c1678bada1a6884a8fcde23bd3206bc945
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36370,23 +36244,23 @@ Description: Qt 5 core module
 
 Package: libqt5dbus5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 758
-Provides: libqt5dbus5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 757
+Provides: libqt5dbus5 (= 5.15.17+dfsg-8)
 Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-17
-Breaks: libqt5dbus5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5dbus5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5dbus5
-Filename: ./libqt5dbus5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 211824
-MD5sum: 29477792219fdc69b1e26db5b7470771
-SHA1: 0a1a88e4162d3f5c3cb4bfd39c8060252ea2bdb8
-SHA256: 7087357a58949518a80ea13e085ff174efedbb41c03c6970c002a4237ae682f8
-SHA512: 07402b384b24bdc355adafd288b687a6ee9dfc498835467f956963e9a9194f352b4fa4936c61508d41ee8573ffe65d99a4bcfa16cbf92a75b4e1122a5c55d92e
+Filename: ./libqt5dbus5t64_5.15.17+dfsg-8_amd64.deb
+Size: 211016
+MD5sum: fdb9ba472374b81a35b1124711f1f0a6
+SHA1: f7c9c78979ce4d0441b4ea6086c0e15cc481580f
+SHA256: 0008d819834a3e4dfbfda8d608772ed0b47a95af6fd5cc5f93c59d5fe9a04587
+SHA512: 481ad79f97caaa422aae1d94da29e9705dddd1e30e94b959a311694f307f25166d1c6b3432b35dd35f59aa2b0818d98fcabd6d0c411753c1ec2c23141efa4829
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36401,26 +36275,26 @@ Description: Qt 5 D-Bus module
 
 Package: libqt5gui5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 13051
-Provides: libqt5gui5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 13050
+Provides: libqt5gui5 (= 5.15.17+dfsg-8)
 Depends: fontconfig, libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.4), libgl1, libglib2.0-0t64 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libpng16-16t64 (>= 1.6.46), libqt5core5t64 (>= 5.15.15), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1 (>= 1:0.9.12), qtbase-abi-5-15-17, zlib1g (>= 1:1.1.4)
 Recommends: libqt5svg5, qt5-gtk-platformtheme, qtwayland5
 Suggests: qgnomeplatform-qt5, qt5-image-formats-plugins
 Conflicts: libqt5gui5-gles
-Breaks: libqt5gui5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5gui5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5gui5
-Filename: ./libqt5gui5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 3525548
-MD5sum: 1587a6c054099dceccc810bc60b30c0f
-SHA1: e6303c9df6f3d768066b633394f092b65c9c223f
-SHA256: d131e9f5cfb0bdae461867c30a094814dca8bdf0e3ded1822eaddb27ed4b6579
-SHA512: 56ead450a55c702a9deed7bd0c8b7901bb06b3788ab406066f1aa21e5c2a6b63aa2e9d7d342f78d5e1bb0260148100d83dd5a989c9e81931a2064ab2d7b53f81
+Filename: ./libqt5gui5t64_5.15.17+dfsg-8_amd64.deb
+Size: 3525968
+MD5sum: 73e95b652f7c3fc27aad09c8a81f59b0
+SHA1: 7a7979027abb97811e1451d6aea60c5e35340113
+SHA256: a6782ba0def860a8049594ab0f9d11eab80e4b01f22a2334aa1ca7496dbcaabd
+SHA512: 0ae7b13caa0a710f95b411fd58546802cb4bdf92749adf2ff99552feebabb79893391220c1cf48aa72e25433a8fab06ce6cf33d419d437a8459189eaf079bea7
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36430,23 +36304,23 @@ Description: Qt 5 GUI module
 
 Package: libqt5network5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2535
-Provides: libqt5network5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 2534
+Provides: libqt5network5 (= 5.15.17+dfsg-8)
 Depends: libssl3t64, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-17, zlib1g (>= 1:1.1.4)
-Breaks: libqt5network5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5network5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5network5
-Filename: ./libqt5network5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 685100
-MD5sum: 17861a15c55c2d340baf48b54e30eafd
-SHA1: 82c763ba95fbb9bc8ef5c521efc530dae07bf012
-SHA256: af545eb40e9099428f086d762229bbdababe5e38cfd5905a96b80a4ff8aeb4cc
-SHA512: 730ee5df7656f711c7edde155c387b5b248cda241e06831fee985c7f20866ac2f212f46e5e0b43c07f2c468371e52d047d6d4285e3b45c7dae5846cf752aab0e
+Filename: ./libqt5network5t64_5.15.17+dfsg-8_amd64.deb
+Size: 683440
+MD5sum: e31ed8f72b662c4438222bf4e4c943b0
+SHA1: 8b403046e8729f45c2a7cf9e5dc5216c7c51a046
+SHA256: 1a5d08e4d745c6b8507b2e84c30cfa2cad0a784dd17d9cc00261115f203d69b0
+SHA512: 4beaafd4fa884ad6da093db1eff1c8b24a6a3600873566d6bd2306097e05160119bddb9a1bb6f7fe9ce9198a370ab96ef99cbbf21cec10d8c65f435ebd9f17bb
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36457,24 +36331,24 @@ Description: Qt 5 network module
 
 Package: libqt5printsupport5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 742
-Provides: libqt5printsupport5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 741
+Provides: libqt5printsupport5 (= 5.15.17+dfsg-8)
 Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-15-17
 Recommends: libcups2
-Breaks: libqt5printsupport5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5printsupport5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5printsupport5
-Filename: ./libqt5printsupport5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 200344
-MD5sum: 6a989b7b1514f71fbd55867fc7249fc3
-SHA1: 853ceee4bc879c05e93b6e6b6e37f2077d30d4e4
-SHA256: fb96c6a716f824ae0abf57899957a342639e122df9da933f3ada2767998b63f6
-SHA512: cbda8b9c6d450bba8266e4a2e4688df6e2f84598ef176e8f806abbd33c539289f91b4a281bc5c3f8aff0e18e39e4a44f99b2406b2dc487eb095f37c550e66ec6
+Filename: ./libqt5printsupport5t64_5.15.17+dfsg-8_amd64.deb
+Size: 200140
+MD5sum: b4714ede9b483a712120475d18552f8d
+SHA1: 488f249ad2deeb620bd8f9ab60190cab0ad73f27
+SHA256: 1a17dae68d0eb6eb9a031bb35f7ea6ddf0b4dabd32aec9a76ccc2165c60266e1
+SHA512: 5b78243de548d02e29dffa40dfa019bd8eca42fd6b3d2bfc4c609ed069a866173ee8c650363ac6b30bcbff9ebc33687cd35d6b4edd815b0678152087aecbf8f9
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36730,23 +36604,23 @@ Description: QtWayland compositor library
 
 Package: libqt5widgets5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7578
-Provides: libqt5widgets5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 7577
+Provides: libqt5widgets5 (= 5.15.17+dfsg-8)
 Depends: libc6 (>= 2.29), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-17
-Breaks: libqt5widgets5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5widgets5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5widgets5
-Filename: ./libqt5widgets5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 2416772
-MD5sum: 6942c3b68716d7445cd80100da679679
-SHA1: 9f45462bef3c089acd775db1be9ace058042bd74
-SHA256: 473dd4e26c2a74d89bcc0c92e6cd75308f32c05e0266b1ecd0bf74beaff6e609
-SHA512: 2ac30d6db8d5cfd242e2120e06e5d0675732019abd1d5ac71ff147ca8883c9d810fb7fb8ff4a8f41715486674abe5483a0b21a9a45f978e37afe5d78ae843a6c
+Filename: ./libqt5widgets5t64_5.15.17+dfsg-8_amd64.deb
+Size: 2419940
+MD5sum: 5160834c2e641efd501973176e18f9c7
+SHA1: 1fd54071ed41c36058c2e6855e29643adfa89d98
+SHA256: 8b7534d68bbabf9df1c6d5a854fb48962bd6c0014747c6e023d0fc2210f7e740
+SHA512: e9682e4f1eb60aaac4953bc51b100f5516f2045e7b437fe4712b377a91694adf4df0d90f5e2891fc4cd8777ce71ee86402d0e86cafcb79edd623f219f29f7c3b
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36756,23 +36630,23 @@ Description: Qt 5 widgets module
 
 Package: libqt5xml5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 449
-Provides: libqt5xml5 (= 5.15.17+dfsg-7+b1)
+Installed-Size: 448
+Provides: libqt5xml5 (= 5.15.17+dfsg-8)
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-17
-Breaks: libqt5xml5 (<< 5.15.17+dfsg-7)
+Breaks: libqt5xml5 (<< 5.15.17+dfsg-8)
 Replaces: libqt5xml5
-Filename: ./libqt5xml5t64_5.15.17+dfsg-7+b1_amd64.deb
-Size: 119432
-MD5sum: 7359f63e6afb34c374ce15c0acab43e7
-SHA1: 3f370b9f30848153a33f9bd55e38eff164626832
-SHA256: 1b2a75caa7e903d0f4bbf3d5dbafb7226481b1482d14a15fac9880b185e6e622
-SHA512: 691769f421ae0d41d6a538402d5fc7107ca51ba2131b463cda444741cee089c4bed8f3882313d73ca8a627a3d2305344e5d4d00625f137fd8249604a69d2d1ca
+Filename: ./libqt5xml5t64_5.15.17+dfsg-8_amd64.deb
+Size: 119320
+MD5sum: 8f424f4c81af171604f0c436ebfb7fb2
+SHA1: a35ef036b6310ec5a3547836ca21106beffacd91
+SHA256: bc0fa708d088f26dcbd870daf561b5c4831ee1a63e87afef59581a6f37558deb
+SHA512: f09f95d85b1db9333bc59c69f79b9fbe80e8bc8e009b43cfd0e1e3f352a48875c63239f4f8162a719d92a7bf3b47863d0ef878b15bcbca4c8ecf76a67114b518
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -57181,19 +57055,19 @@ Description: HTML parser/tokenizer based on the WHATWG HTML5 specification
 
 Package: python3-ibus-1.0
 Architecture: all
-Version: 1.5.34~rc2-1
+Version: 1.5.34-1
 Priority: optional
 Section: python
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
 Installed-Size: 351
 Depends: python3:any, gir1.2-ibus-1.0, python3-gi
-Filename: ./python3-ibus-1.0_1.5.34~rc2-1_all.deb
-Size: 323824
-MD5sum: c0fe017eac6d84d362a4090b55acccde
-SHA1: dcc5b89c47d1b1d00d4f4cbde63de26f031cf6da
-SHA256: 84b9bfabba7da45105538806a1363417fc37cbf6a744072015469513510fc704
-SHA512: e1d3b8bfd013f757ca1e9265c8d018432208fb66de64a8221ce216b304b9056f0941ba6e1f7770fbaea35fd385abab2b75f9e502ecf85c5b920c2ec26da10fbd
+Filename: ./python3-ibus-1.0_1.5.34-1_all.deb
+Size: 323844
+MD5sum: 72f4a69aa7113411a5fb3754d5f6f9de
+SHA1: 0ef11b19fcccc5e99b2ec21bcc2308761926daa0
+SHA256: 35704616b4988edd04969b3177737f5ecc096ef565ad2399c92d5e002a4e1d4a
+SHA512: 1019e90b471b3e9f829725fb523d1c77fbfb2c823649294cabf39b38c9b848ce836e27aec6cf9af5769c5679b65786a74e1480e22a914da3c1dd349802b5f676
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - introspection overrides for Python (Python 3)
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -60416,20 +60290,20 @@ Description: Kvantum style engine (binaries)
 
 Package: qt5-gtk-platformtheme
 Architecture: amd64
-Version: 5.15.17+dfsg-7+b1
+Version: 5.15.17+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtbase-opensource-src (5.15.17+dfsg-7)
+Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 479
+Installed-Size: 478
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-17
-Filename: ./qt5-gtk-platformtheme_5.15.17+dfsg-7+b1_amd64.deb
-Size: 122928
-MD5sum: cc624da1c74cdb44510909db9042a51b
-SHA1: b3359ca0c5d6ea14e6d512f9be45b22f9a871cd6
-SHA256: 56665ef88c207acac9d29f3c441ad701976a7b63150d41c8d585fa89d271dee2
-SHA512: 52b82120b4f12fece659eb19d82b8ab8338f1d5541b87a53d0010a2759907981ea6495a65dafd7b112b09b3738d6a5006155407395951698228e243f29d5d7c6
+Filename: ./qt5-gtk-platformtheme_5.15.17+dfsg-8_amd64.deb
+Size: 123204
+MD5sum: 177dc38ac1ee7e649b9f11d84561c823
+SHA1: 307cf056eeb2fc63f5671b6f89cf726bb6c27b84
+SHA256: ee6b18ff1a0577ef894e50b650a7678751bc70005215c998ce9f0b2e4233e7a6
+SHA512: bddf3ae080afc1139c4b5388b5f456e10e164023a4352bce53526c854e5a179b04653ab396d6f471f89e516065f23630aa72a6bbb9699eb178b10df03a9b8818
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
