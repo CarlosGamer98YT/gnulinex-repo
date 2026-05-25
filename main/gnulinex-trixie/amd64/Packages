@@ -6364,20 +6364,20 @@ Description: Open-source, libre fonts for Latin + Gujarati
 
 Package: foot
 Architecture: amd64
-Version: 1.26.1-1
+Version: 1.27.0-1
 Priority: optional
 Section: x11
 Maintainer: Birger Schacht <birger@debian.org>
-Installed-Size: 686
+Installed-Size: 694
 Provides: x-terminal-emulator
 Depends: libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
 Suggests: foot-themes
-Filename: ./foot_1.26.1-1_amd64.deb
-Size: 301724
-MD5sum: 693146499d3eca1be9b21709d20c4419
-SHA1: 47c6d65db89536a3c6c8bfb4e066102778d60082
-SHA256: c0e57e8c22a19f774271723f563b8dae3501d6f44e7b964c722aca12889b1ac3
-SHA512: 49f3043469677bcdae00a637748a5d7550f14f8d40c51fd0893484e656d5a180aa629f9bf56e40b2fa35f1c33061c8ba86a0ed8780e5607cd6c55005b58d9f91
+Filename: ./foot_1.27.0-1_amd64.deb
+Size: 302712
+MD5sum: 17ce3ffb6c05e2f8bcf15562e478109d
+SHA1: c438f2b5a8d8b7ce19dcb692d59dc4cff5e14965
+SHA256: b1b4445f2a4bcfc8d0a0141a1935826c916d20ed9d9674bdc49244aa7141bae6
+SHA512: f1f3d28b227728640232f3f95b5c88370f876c0b6cca69804c78081aa2de98b7e0d9a93b9326c11db9275205527803ce5be809e5cc4b0fe8741ab5eae6ab9882
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator
  The fast, lightweight and minimalistic Wayland terminal emulator.
@@ -17745,19 +17745,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.0.7-1
+Version: 7.0.9-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 358
+Installed-Size: 360
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.0.7-1_amd64.deb
-Size: 319468
-MD5sum: 434f4881a846c40b87f0353842d81617
-SHA1: 6f27a7773a901666339edb76fe22987747538d1f
-SHA256: 161a504b806d602ff2e6611b1f691abe50533203fcfe60982a7e4787dbd7cf5b
-SHA512: 2a1106495a140aedd7ba873a6edaf3af2ecfc233dfa8275c9fdb58a9713eec7fb17c09b4b451ef42f9a5cd6d80549e68649469e21be94452bdbb0b1a8842a22c
+Filename: ./libcpupower1_7.0.9-1_amd64.deb
+Size: 322176
+MD5sum: 8f186b5d2e667a48f8251c25e17c1688
+SHA1: de67f74dcb5ffc15576979f4958e9a1e7a8c0297
+SHA256: 219bdd870af4f6d1c56ad6873312c10ec23d5843d8aca3260a91e65e6e7793d6
+SHA512: 214f96d3f0f4aaced319d3a2aec2acb0a3bc6cb614d4782e859259a06b46999d54caddb21cc0ac82465879ad2e1b2a44ac57419503870204ecc8af0fd373e726
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
