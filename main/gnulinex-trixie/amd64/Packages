@@ -2675,22 +2675,22 @@ Description: Interact with the EFI Boot Manager
  automatically load.
 
 Package: enchant-2
-Architecture: amd64
-Version: 2.8.2+dfsg1-3+b2
+Architecture: all
+Version: 2.8.16+dfsg-3
 Priority: optional
-Section: text
-Source: enchant-2 (2.8.2+dfsg1-3)
+Section: oldlibs
+Source: enchant
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 80
-Depends: libc6 (>= 2.34), libenchant-2-2 (>= 2.8.2), libglib2.0-0t64 (>= 2.12.0)
-Filename: ./enchant-2_2.8.2+dfsg1-3+b2_amd64.deb
-Size: 19988
-MD5sum: 04761d5313ce4b0ae1d7191829d2135d
-SHA1: b754383b01e3352e83eb00b5a2bd705a3f3610a7
-SHA256: 60eafe1464fe35edc8ae6731aecc7ba98634a2113bfdcbb69216bc3ffd65b330
-SHA512: eb23d151ed2b08f7497178152167baa96db19f25df19e8ccc528c1b26db4226d09cc0fc9c07299eaebc82f5286390b59d40d1783afa5ed360de2c8ef2daaa449
+Installed-Size: 20
+Depends: enchant
+Filename: ./enchant-2_2.8.16+dfsg-3_all.deb
+Size: 5940
+MD5sum: 9d1f6f1393780ee4aafdd7096ef28a1d
+SHA1: 523f0f9176da339bbb1f0ec1f565f0bdb517bf21
+SHA256: ef3e6f0b91f1506b9a5a2fa967bc491c4604cda0db470b910c9d06eab82b5ef4
+SHA512: 45ae65d95a8986e63f64efacc21ea36effc7f56528fe0f21e6512519fd7a612cfca53b35ed9594490d058e0613d67a5ed86094e55a00d74243974c5428304433
 Homepage: https://rrthomas.github.io/enchant/
-Description: Wrapper for various spell checker engines (binary programs)
+Description: Wrapper for various spell checker engines - transitional package
  Enchant is a generic spell checking library which uses existing
  spell checker engines such as ispell, aspell and myspell as its backends.
  .
@@ -2698,7 +2698,7 @@ Description: Wrapper for various spell checker engines (binary programs)
  libraries, and implement certain features that may be lacking in any
  individual provider library.
  .
- This package contains standalone runtime binary programs.
+ This empty transitional package is here to ensure smooth upgrades.
 
 Package: engrampa-common
 Architecture: all
@@ -3381,21 +3381,21 @@ Description: Firebird command line utilities
 
 Package: firefox-esr
 Architecture: amd64
-Version: 140.10.2esr-1
+Version: 140.11.0esr-1
 Priority: optional
 Section: web
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 266267
+Installed-Size: 266067
 Provides: gnome-www-browser, www-browser
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
-Filename: ./firefox-esr_140.10.2esr-1_amd64.deb
-Size: 71170104
-MD5sum: 32958112f21f19323180aac7969a4551
-SHA1: 77523d31294ef2adb24bf304f4271c438f3d9599
-SHA256: 676d45fe8ffb507f6b0f19024e6668e1fe6544ea11085bf4cdc955e2795d6137
-SHA512: b49625b35eee05a9ecc7eb106fdb11f93774507c51a5314f0df8e6677355323cf8a6ee9e22f4e98add53fb8a72f34bcaee7c4a872c99ec973434690390835d22
+Filename: ./firefox-esr_140.11.0esr-1_amd64.deb
+Size: 71146648
+MD5sum: ae3b7f8f43dcdfc93e176139a562cf1e
+SHA1: ef33312afef15001e967fa13386e8fab53043847
+SHA256: 6a68f3d0a312c78c26124ad012b27beffeaaafc83cccaa7b55d211e5149db7da
+SHA512: 735a9594e2ed2132bf856a94d8f2f10e4fe0dba9398095b089a66b23f7268b85e0eb62a43cb149c41de9fa9e9fee23d3a28170668971ab71acd47c15aa2e8d41
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -3544,19 +3544,19 @@ Description: generic font configuration library - support binaries
 
 Package: fonts-adwaita-sans
 Architecture: all
-Version: 50.0+dfsg-1
+Version: 50.0+dfsg-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-adwaita
 Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
 Installed-Size: 1765
-Filename: ./fonts-adwaita-sans_50.0+dfsg-1_all.deb
-Size: 681688
-MD5sum: caefc7402f16cd5da096720647b61ab2
-SHA1: b122e6b88285f6f88e151d0949082e790f01214f
-SHA256: 2f92d79f66c52312f9ff194e4e73b57fba0b93c7af69f71d17e1a89fd967b183
-SHA512: 0b474e93b2037c5cd99790c64b023b7f393f0aab034a26a0ad88f54d895aa568bf4418be962b75f5bb0a2c9406e7c2ae7f11ce7642081c454b60e4877941f0aa
+Filename: ./fonts-adwaita-sans_50.0+dfsg-2_all.deb
+Size: 681008
+MD5sum: 5e71aadf30e8519ae332d8d18370c8cb
+SHA1: 6dd117731e09182e0f925f004f9ce095588e4757
+SHA256: 00dc926f87276718f8fdb92300056bacf4f8c42553675c37ee176b3a351d2828
+SHA512: db1f8d455185c19f581fe79daf1b8c18c28babbdf28012dcc467ff4db499ed45761628698c5eafe352fc652833e324cec2dbb49083801e49e4bda9305bc1353c
 Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
 Description: Adwaita Sans Fonts
  This package contains the Adwaita Sans fonts, built from Inter variable
@@ -3564,24 +3564,23 @@ Description: Adwaita Sans Fonts
 
 Package: fonts-adwaita
 Architecture: all
-Version: 50.0+dfsg-1
+Version: 50.0+dfsg-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
 Installed-Size: 140
 Depends: fonts-adwaita-sans
-Filename: ./fonts-adwaita_50.0+dfsg-1_all.deb
-Size: 124360
-MD5sum: 44439249013d919bb9ffb6ea0d49fd65
-SHA1: 5af921dffea8bf6695f3e0c83f73051dab9aa85b
-SHA256: 5d3e6c9d611c3f0f6692cb5af99f9c3927635a1a1f1b074959133b586654ec94
-SHA512: 98d8f26314c638e2adef0d699d008f83e4fcd21c669d64f3bbba558f402bddb749bdea979e6c07614bd6f5e86f368d19b2d86ce4617b0af321f1e7eac33bd0c1
+Filename: ./fonts-adwaita_50.0+dfsg-2_all.deb
+Size: 124428
+MD5sum: fcc6da73dc3223a278b4f5eadb074818
+SHA1: 4877dee58897ad06168d878ec00436da2a1ca72c
+SHA256: 892ad7b859f3810f39590a4ccfae7099e9cdf4824685d22fe59bb7751715e4cb
+SHA512: 705a6a94a7e4883d4c7148d9a9109fd80a2202ad38d1effc7d38883a762449c1e590ef174e7149de7d0448e98e670b7369e89ecc9e5e122225fe6c6a71142a19
 Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
 Description: Adwaita Fonts Collection
  This metapackage installs available Adwaita font families that are
- currently buildable in Debian. Mono will be added once its source
- dependency (Iosevka) is available in Debian.
+ currently buildable in Debian.
 
 Package: fonts-beng-extra
 Architecture: all
@@ -13123,7 +13122,7 @@ Description: Intelligent Input Bus - core
 
 Package: icu-devtools
 Architecture: amd64
-Version: 78.3-1
+Version: 78.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
@@ -13131,14 +13130,14 @@ Source: icu
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 718
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 13.1)
-Breaks: icu-tools (<< 78.1-1~), libicu-dev (<< 78.3-1)
-Replaces: icu-tools (<< 78.1-1~), libicu-dev (<< 78.3-1)
-Filename: ./icu-devtools_78.3-1_amd64.deb
-Size: 212408
-MD5sum: aa7e4bab9e1064b19e040377abeada8d
-SHA1: 33d9b55d5207c168fdcfbf04c4c38ecbbfed85ca
-SHA256: fb69a6566ac8bf9c979fb4ad1d3101eed42575df9f200a0a5e35254ba9a02eb6
-SHA512: 85febe1b82248c772d8855b7f658b547bcd7dbaf9b07f82908c6463ebdd1b1fe2cb2563e5c07505b96b2362006daae996a2f426f8c82cffd9bb5dc4e8e7fba11
+Breaks: icu-tools (<< 78.1-1~), libicu-dev (<< 78.3-2)
+Replaces: icu-tools (<< 78.1-1~), libicu-dev (<< 78.3-2)
+Filename: ./icu-devtools_78.3-2_amd64.deb
+Size: 212020
+MD5sum: 05071fd453fca8b5b32809ed9c8a372a
+SHA1: 58d6a103e572d64c3577ccf737e9e4dfb08f0281
+SHA256: d98112f0418e47faaddc35cc346531a73b0d0b3fbfa069f84190462e66ef6350
+SHA512: c5373f6f344e4aac6c6ed693fd6e462a853ef47821dae154d538625eac012e9dcf5dc2e3a8d7bfe9bfe4d9504e41aad852a5fbd4079e4699b65137c88a29f961
 Homepage: https://icu.unicode.org/
 Description: Development utilities for International Components for Unicode
  ICU is a C++ and C library that provides robust and full-featured
@@ -19655,22 +19654,22 @@ Description: Extremely Naive Charset Analyser - shared library files
 
 Package: libenchant-2-2
 Architecture: amd64
-Version: 2.8.2+dfsg1-3+b2
+Version: 2.8.16+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: enchant-2 (2.8.2+dfsg1-3)
+Source: enchant
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 225
-Depends: hunspell-en-us | hunspell-dictionary | myspell-dictionary | aspell-dictionary | ispell-dictionary, libaspell15 (>= 0.60.8.2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.68.0), libhunspell-1.7-0, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
-Recommends: enchant-2
+Installed-Size: 220
+Depends: hunspell-en-us | hunspell-dictionary | myspell-dictionary | aspell-dictionary | ispell-dictionary, libaspell15 (>= 0.60.8.2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.76), libhunspell-1.7-0 (>= 1.7.3+really1.7.3), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Recommends: enchant
 Suggests: libenchant-2-voikko
-Filename: ./libenchant-2-2_2.8.2+dfsg1-3+b2_amd64.deb
-Size: 56268
-MD5sum: 0456e6956d9e432b1fe70964419bbb13
-SHA1: 706e94d33925fbeca64d0da28eeefeddfc03a6eb
-SHA256: 611e8e4cf2a45ecf2bf5e720da64f78484b96ce52f25557cbc875728785cbeb9
-SHA512: b8aa4565dd88316463bf4d1a1421ccc60ce53ee370771489d8286453c4ec1505161ef6440d985e8bc8eae9ff085f020ded3d2bb5d138b21a41d0c9838ccca89a
+Filename: ./libenchant-2-2_2.8.16+dfsg-3_amd64.deb
+Size: 56132
+MD5sum: 46fe5a4dd9c67f4ca9459c836cd1a7d0
+SHA1: af7c31335c975c17edc9cc4fc60c78fc01bb4b35
+SHA256: f5c75a686c4b21352ed85ef7e641d938885c8800b52cbf9f8dfc20572c979978
+SHA512: a847bcb71d94a0cba501e9ff12ea27a8e655527c85efa16a22871198ea7bc4167fdf6ed310f6b36c45672e662ef7451cdd871104c0c96990c8715106a7e444a1
 Homepage: https://rrthomas.github.io/enchant/
 Description: Wrapper library for various spell checker engines (runtime libs)
  Enchant is a generic spell checking library which uses existing
@@ -24841,23 +24840,23 @@ Description: Intelligent Input Bus - development file
 
 Package: libicu-dev
 Architecture: amd64
-Version: 78.3-1
+Version: 78.3-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: icu
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 50336
-Depends: libicu78 (= 78.3-1), icu-devtools (>= 78.3-1), libc6-dev | libc-dev
+Installed-Size: 50334
+Depends: libicu78 (= 78.3-2), icu-devtools (>= 78.3-2), libc6-dev | libc-dev
 Suggests: icu-doc
 Breaks: icu-devtools (<< 78.1-1~)
 Replaces: icu-devtools (<< 78.1-1~)
-Filename: ./libicu-dev_78.3-1_amd64.deb
-Size: 11068156
-MD5sum: 6d58bfe298f36c5a4a4f6ba64d8c11b1
-SHA1: e4d1e115031509970e9d50bfa4f4f790459fd5ad
-SHA256: 0fdb5cdcded508d5c6503ebd7e9e07bb8f2cc081323d90a7da20e143597782b6
-SHA512: 0da5bf4074faee6ba8da5b49c965a66228f3e5971145dabc1a8512db721bb9e1694b7f89714b8642dae4833ec10d52bf62cb0131a207e3bf95b6b20184186299
+Filename: ./libicu-dev_78.3-2_amd64.deb
+Size: 11066248
+MD5sum: df1509fa30c4a958e912fc105a7cc273
+SHA1: 34b302e7ac971d0485c2e1e598f0fcbad6197be1
+SHA256: 2fbc73a73057a6fbd8a2b6f2331f7fe8d35b7866c1ec4c71bc4f84f5f3c39b93
+SHA512: 98717a567968be46b51c62ac4084ad0aa9ce90b5d52c531aa2e25ba8a481dd0e17659490e3636eeb9330e65a7639aba5f2fe847cc6ca668661aad6f1e6b4263c
 Homepage: https://icu.unicode.org/
 Description: Development files for International Components for Unicode
  ICU is a C++ and C library that provides robust and full-featured
@@ -24866,7 +24865,7 @@ Description: Development files for International Components for Unicode
 
 Package: libicu78
 Architecture: amd64
-Version: 78.3-1
+Version: 78.3-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -24874,12 +24873,12 @@ Source: icu
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 38710
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
-Filename: ./libicu78_78.3-1_amd64.deb
-Size: 10034012
-MD5sum: ad49e294d45898c3a782088823dae533
-SHA1: 0a8c69cf7f5c95891d354fabd15eff69d1710a69
-SHA256: 6a2119691377f6b04a353bf33f9f9d2bb82c32913ba5e69c6efc6f3132e56eb7
-SHA512: 36aaf09311b74c16e141b4104d4a1c335c44b28cc5788033cb28b74cfb5b7904a5d4c14d7373e9991cff299951fe77cbb6f8b1a6c0743b288ece92cba13acf22
+Filename: ./libicu78_78.3-2_amd64.deb
+Size: 10035420
+MD5sum: e5093fe4b314bd9e1ddff79a6e322f35
+SHA1: 00abb94caf96072fc7b0f4c4e3e006ec667991d6
+SHA256: dc918ea6cbe7bb6feea43aac3920a86a29dcc5faf4c56d8f0948408f9076d866
+SHA512: 614f8b777502fa33da43668d6025ad88c5f46c7fbcc0b6bbf94be009ad91669b67630884e15da9b73b095322cd0d9401e7030b6ad6039d55a87b2105484f4cd4
 Homepage: https://icu.unicode.org/
 Description: International Components for Unicode
  ICU is a C++ and C library that provides robust and full-featured
@@ -33535,20 +33534,20 @@ Description: window and compositing manager (shared library)
 
 Package: libmujs3
 Architecture: amd64
-Version: 1.3.8-2+b1
+Version: 1.3.9-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: mujs (1.3.8-2)
+Source: mujs
 Maintainer: Daniel Echeverri <epsilon@debian.org>
-Installed-Size: 365
+Installed-Size: 364
 Depends: libc6 (>= 2.38)
-Filename: ./libmujs3_1.3.8-2+b1_amd64.deb
-Size: 124616
-MD5sum: 713debf26292b0fd06c4ccef2c012995
-SHA1: f8d88db79759f48352c6d95d053ccdea9db9ce60
-SHA256: 60770b9f32eacab6a32bdd8e353ca80ff8988cd80378fbd321dab5bc3be28488
-SHA512: db63b5d3fb55b814f31a3a1ad31145e89b609c3702b4d3a3f716aa7679d1c4bfed3269603dc13760ac7a7bf393760cbed5e63629ea1a69c12493896ba942ef46
+Filename: ./libmujs3_1.3.9-1_amd64.deb
+Size: 124172
+MD5sum: f622b0001e714c8963d1ffdeec7e15ff
+SHA1: b0872c849729c163381d336aeb92935055a5327c
+SHA256: 1a514071f58d7f980505ec1b14b3a7b3a015cd6830185cc05ae04609b1b313c3
+SHA512: 9b7a5eaef4eeb8ced2294da625b0fe45f5ce68bc93331109dc6832858d0d5c28dc1fbd3321ff9a54e330d5901c271bf72bdf96cacdc1c0a53ac96b1a597a6134
 Homepage: https://mujs.com/
 Description: Lightweight JavaScript interpreter library
  MuJS is a lightweight JavaScript interpreter designed for embedding in other
@@ -33586,20 +33585,20 @@ Description: fast mathematical expressions parser library (runtime)
 
 Package: libmupdf27.0
 Architecture: amd64
-Version: 1.27.0+ds1-5
-Built-Using: fonts-android (= 1:8.1.0r7-1~1.gbp36536b), fonts-noto (= 20201225-4), fonts-noto-cjk (= 1:20240730+repack1-1), fonts-sil-charis (= 6.200-1), fonts-urw-base35 (= 20200910-8), texlive-extra (= 2025.20260124-1)
+Version: 1.27.0+ds1-6
+Built-Using: fonts-android (= 1:8.1.0r7-1~1.gbp36536b), fonts-noto (= 20201225-6), fonts-noto-cjk (= 1:20240730+repack1-1), fonts-sil-charis (= 6.200-1), fonts-urw-base35 (= 20200910-9), texlive-extra (= 2026.20260328-5)
 Priority: optional
 Section: libs
 Source: mupdf
 Maintainer: Kan-Ru Chen (陳侃如) <koster@debian.org>
-Installed-Size: 75796
+Installed-Size: 75797
 Depends: libjbig2dec0 (>= 0.19), libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libfreetype6 (>= 2.6), libgcc-s1 (>= 3.0), libgumbo3 (>= 0.13.0), libharfbuzz0b (>= 0.9.42), libjpeg62-turbo (>= 1.3.1), libmujs3 (>= 1.3.8), libopenjp2-7 (>= 2.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.0)
-Filename: ./libmupdf27.0_1.27.0+ds1-5_amd64.deb
-Size: 31666020
-MD5sum: 19ba994a48794fe5b8530f5adb3cd98a
-SHA1: 93dbd23560243a8af433ee21206a460803547f01
-SHA256: d8ac8f8d611c753b878633b6b88a7a63063080a7f8b2ac3c74047bfd99a44fdb
-SHA512: a8fd8338f2deb23bfb23f9cbd496e1d2b39208742c6b5763ece57d2ab4e47f0577439b80e9145f07cb3de607f615a1124dd4442a6fb4372fdfc987ae59b96539
+Filename: ./libmupdf27.0_1.27.0+ds1-6_amd64.deb
+Size: 31673924
+MD5sum: 32e2cde039d48a458e652972d8d4c607
+SHA1: e36b896927fd1880d82b490f83bfc64ee6a23d02
+SHA256: f7f3ed2b6f13b3b068f458aeae106ea6a42002c241b665f8d76d09e4ac9c5702
+SHA512: 603b9344b3c7e5c178beca9c410c5e95662fcf1f31863764c5615193569c3398eadeff564389275b51d5a860f043eadc423ac90af3e5c5b4bdff4f03b7e72cbd
 Homepage: https://mupdf.com/
 Description: shared library for the MuPDF viewer
  MuPDF is a lightweight PDF viewer and toolkit written in portable C.
@@ -36129,22 +36128,22 @@ Description: Document (Comic Books, DjVu, PDF) rendering library - GTK widgets
 
 Package: libpq5
 Architecture: amd64
-Version: 18.3-1+b1
+Version: 18.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: postgresql-18 (18.3-1)
+Source: postgresql-18
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 1239
+Installed-Size: 1245
 Depends: libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libldap2 (>= 2.6.2), libssl3t64 (>= 3.0.0)
 Recommends: ca-certificates
 Suggests: libpq-oauth
-Filename: ./libpq5_18.3-1+b1_amd64.deb
-Size: 258204
-MD5sum: 6fffa8a8fff0066550df27c39deadadc
-SHA1: 388acda42ac002e5709bc5f775e5807fc89fda30
-SHA256: a6524ba4b9259275a5350edcc2e316af9347cd13a65ed1c21468555743fd2a52
-SHA512: 528df4dbd1c4a2916ff4c4fe11fcfacce2a903ed3dfed03ebc2f6605e49def1404d6c38cda2700f09e2f60210a8033e353ace7cc5cd73e88ce1659f52e5bb617
+Filename: ./libpq5_18.4-1_amd64.deb
+Size: 259024
+MD5sum: 2fe2b76b0cf2a14e6cd3d214b39b0c1e
+SHA1: 470f9e820f37e775751b0a9badf45093d9bc9e9e
+SHA256: 72e05e6af2380f0d4f2fc27a7b8833731183b37547b5cfa55272c0c1d1ad4ae9
+SHA512: 701bd0d6f887f82b48e032c2f4beb15fbafe6076e2946330bdcd89210b4251adc370fe80b9c567d24e2dcdfeabb1278e0a4cdf3525e3b14b7f0fd6a9dce808a0
 Homepage: http://www.postgresql.org/
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
@@ -54312,19 +54311,19 @@ Description: window and compositing manager
 
 Package: mupdf-tools
 Architecture: amd64
-Version: 1.27.0+ds1-5
+Version: 1.27.0+ds1-6
 Priority: optional
 Section: text
 Source: mupdf
 Maintainer: Kan-Ru Chen (陳侃如) <koster@debian.org>
-Installed-Size: 681
-Depends: libjbig2dec0 (>= 0.19), libmupdf27.0 (= 1.27.0+ds1-5), libc6 (>= 2.38), libmujs3 (>= 1.3.8), libssl3t64 (>= 3.0.0)
-Filename: ./mupdf-tools_1.27.0+ds1-5_amd64.deb
-Size: 209584
-MD5sum: 8d03c4daf300d8d9381049b0de370d08
-SHA1: 67f5c16f7fb880ec69c8a57b9ef9ba9ca37e9dae
-SHA256: 97d9515c3c814b6a3c8f5d5e4f37d05a668687478464c723888d1c094c071e24
-SHA512: 17d237f26e972719c18b76bb0fee23fcd1f8ed93802ccedf65895698063b4af93ca87e7b5f29e193e9e74bd00348a4536cdae18a293cd78fb6115bcb31dd842b
+Installed-Size: 682
+Depends: libjbig2dec0 (>= 0.19), libmupdf27.0 (= 1.27.0+ds1-6), libc6 (>= 2.38), libmujs3 (>= 1.3.8), libssl3t64 (>= 3.0.0)
+Filename: ./mupdf-tools_1.27.0+ds1-6_amd64.deb
+Size: 209864
+MD5sum: 83abcc0fca9482fdafb2803ed6c094ce
+SHA1: fb48aa73e8b2b954907df3a2d9ae32afcee48c61
+SHA256: 91a1f985ebb744e8dd9a07eff308e15be48e81804f42e1f965b41e6db694cc0b
+SHA512: df9200518a5293503c4bf62e2492dfccca254105a6b7c9a4ba499d80b006f701c8e130bb8b66b626aa7a78b2e24360cd9e37063268bd685747a04b7ba3295b8a
 Homepage: https://mupdf.com/
 Description: command line tools for the MuPDF viewer
  MuPDF is a lightweight PDF viewer and toolkit written in portable C.
@@ -68237,22 +68236,22 @@ Description: File Manager for Xfce
 
 Package: thunderbird
 Architecture: amd64
-Version: 1:140.10.2esr-1
+Version: 1:140.11.0esr-1
 Priority: optional
 Section: mail
 Maintainer: Carsten Schoenert <c.schoenert@t-online.de>
-Installed-Size: 274483
+Installed-Size: 274276
 Provides: mail-reader
 Depends: debianutils (>= 1.16), fontconfig, libotr5t64, librnp0 (>= 0.17.0), libgpgme45, psmisc, x11-utils | kdialog | zenity, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.2-1.1~), libcairo2 (>= 1.10.2-1.1~), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxext6, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4)
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Suggests: apparmor, fonts-lyx, libgssapi-krb5-2
 Breaks: birdtray (<< 1.7.0+ds-1~), webext-allow-html-temp (<= 10.0.8-1~), webext-dav4tbsync (<= 4.8-2~), webext-eas4tbsync (<= 4.17-1~), webext-mailmindr (<= 1.7.1-2~), webext-quicktext (<= 6.4.6-1~), webext-tbsync (<= 4.16-1~), webext-xnotepp (<= 4.5.81-1~)
-Filename: ./thunderbird_1%3a140.10.2esr-1_amd64.deb
-Size: 69498624
-MD5sum: dc5af050eb2258b3b7c79b1fb44c8db6
-SHA1: 228f07ff40e2b47a20977cb0e761af5aabe2d4c0
-SHA256: 6abb9fa91fa27a27b49fc5d26ff87f3c3ed51b2d7a8230c0cc1acdd725704c4e
-SHA512: 48c51f662787fcc09785d7cfd30f7840080ce48859bacafafddcf112b562ed577ad5da8dc7b053ae2ffca9c69257e11460fac55b0ee068f49eafcb4b130c36b4
+Filename: ./thunderbird_1%3a140.11.0esr-1_amd64.deb
+Size: 69455764
+MD5sum: be7911982392cd031f207b4aa10c8a81
+SHA1: 72ab2e94a051302a4f0563ea65d207b1ebfff425
+SHA256: 0a9efdc21cf05eb36755d301ca37c22280a542c56437dd443ee77fcce90d875f
+SHA512: a4702c7f5d3d1f2dbecca9625a1b63c9a4f0b040dc5f5acf4ff3c90aaf6587cbfc06eca11ab78c12c0a9a1ce43593b304fc88ff65728c570109a906491ad7541
 Homepage: https://www.thunderbird.net/
 Description: mail/news client with RSS, chat and integrated spam filter support
  Thunderbird is an mail client suitable for free distribution. The goal of
