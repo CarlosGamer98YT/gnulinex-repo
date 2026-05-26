@@ -17658,19 +17658,19 @@ Description: Apache Commons Collections - Extended Collections API for Java
 
 Package: libcommons-io-java
 Architecture: all
-Version: 2.19.0-1
+Version: 2.22.0-1
 Priority: optional
 Section: java
 Source: commons-io
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 594
+Installed-Size: 648
 Depends: libcommons-parent-java (>= 56)
-Filename: ./libcommons-io-java_2.19.0-1_all.deb
-Size: 523900
-MD5sum: 819c83d65e5edc60e091d65e13df2e0d
-SHA1: eb37303fd20dde0c1becaf1ba345200bf3e50963
-SHA256: 3e8854f8bdf9a77a4000b67d295032bdbeb051aef3319899b0f72816ef202f38
-SHA512: 6eb68fa31fcb1f3ab31fe964b42e4909667f43a44f58353e92cc503419faf12c118caeea76c3e07eb39ed1a6847b479d2df7536b810f653c92d890d1f09d5396
+Filename: ./libcommons-io-java_2.22.0-1_all.deb
+Size: 570132
+MD5sum: f4e660efbe68cdfa0d9695b9527e8551
+SHA1: 797602690cf47c4a0df08b5c007bafbb44009c3a
+SHA256: 72554001eeecdb6c3f16c08288390c3aa1875d63d6e90fb96cbe988639e6715e
+SHA512: 283ca202b2f78a8a19d0f6fdc1a8cda8525c8cf0422203a883b4fe44d88fc0735619b0f6b5e42659a020b0a17abe41c4eb54bbcda705ded6afbfa359017c53ba
 Homepage: https://commons.apache.org/proper/commons-io/
 Description: Common useful IO related classes
  Commons-IO contains utility classes, stream implementations, file filters and
