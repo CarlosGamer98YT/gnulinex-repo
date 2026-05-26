@@ -13320,19 +13320,19 @@ Description: Base package for Java runtimes
 
 Package: jq
 Architecture: amd64
-Version: 1.8.1-5
+Version: 1.8.1-6
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Installed-Size: 133
-Depends: libjq1 (= 1.8.1-5), libc6 (>= 2.38), libonig5 (>= 6.8.1)
-Filename: ./jq_1.8.1-5_amd64.deb
-Size: 85028
-MD5sum: e9af14e6b07a9d41a6775c0f506aedb0
-SHA1: 7b228a761936c8a3716ff944d9f4ffba92a5068b
-SHA256: 3d0dd79e90e4539d5342c4327068370ece92ebc803be7e5edb98e258b2c1cae8
-SHA512: 1a2eea8aa49a3cfe8476d136add543b0feb06bfcbfe618729cfd6fc1d4f16f30b0a84bf5f05d0ada1f826ee229ce003587e418b69bc73a6a7e72d3551b8e599f
+Depends: libjq1 (= 1.8.1-6), libc6 (>= 2.38), libonig5 (>= 6.8.1)
+Filename: ./jq_1.8.1-6_amd64.deb
+Size: 85156
+MD5sum: f52979f51144b2e841a389c1692a8905
+SHA1: 3fa66004b472625c7ddc371230c6b9a77ba4d0be
+SHA256: dcf839527b7181055c41724ac8b82a75d93e19cede435b236847a95b4c214924
+SHA512: f7497a16947949577a55f30a60b483c0ada1fbf937ef53ca67bd95e3c8e65c2dae0528d5562b5aea9ce2ea9e1b698a7be3258b1169315a97b2749e8ea74bb534
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor
  jq is like sed for JSON data – you can use it to slice
@@ -25126,7 +25126,7 @@ Description: libjpeg-turbo JPEG runtime library
 
 Package: libjq1
 Architecture: amd64
-Version: 1.8.1-5
+Version: 1.8.1-6
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -25134,12 +25134,12 @@ Source: jq
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Installed-Size: 436
 Depends: libc6 (>= 2.39), libonig5 (>= 6.8.1)
-Filename: ./libjq1_1.8.1-5_amd64.deb
-Size: 166472
-MD5sum: 382fabca820c80972ebecc56384a035a
-SHA1: 1340ff60dd42c7917f9db9d1a173743948a8aabf
-SHA256: 4e6a2970b21b024ea9216c7e9ebdcd784f6d95b1c35ad134986f6085da522a4e
-SHA512: 757f205dc6acacbc6a05738f7e48c9dec88e07e88c35cf0ee6cd9c433102189b9757060839cbc882d6ffcf8a80474280d72b6e4ec23f3acb58eb8e95d8814ded
+Filename: ./libjq1_1.8.1-6_amd64.deb
+Size: 167200
+MD5sum: 607ee4cb72d4b02d1d32b0d6d17836c2
+SHA1: f960cce81b10b3c761f46e18212e341a91cdfbaf
+SHA256: f9a9a442d28e5693eb17b2864bdbc41887826442c8c59fac9e9dc4cc64465299
+SHA512: 78f8c29c37f771dbb1d9aadbc4ea446c056b9001b49b58b60e9a9d2a6055b7ccb7885bfc22d3e89a48d18bd0f6ec86bec99f3edde167b2de98fb2036e8510c19
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor - shared library
  jq is like sed for JSON data – you can use it to slice
@@ -45112,22 +45112,22 @@ Description: audio time-stretching and pitch-shifting library
 
 Package: libruby3.3
 Architecture: amd64
-Version: 3.3.8-2
+Version: 3.3.8-2.2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ruby3.3
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 29840
+Installed-Size: 29868
 Provides: ruby-abbrev (= 0.1.2), ruby-benchmark (= 0.3.0), ruby-bigdecimal (= 3.1.5), ruby-cgi (= 0.4.2), ruby-date (= 3.3.4), ruby-debug (= 1.9.2), ruby-delegate (= 0.3.1), ruby-digest (= 3.1.1), ruby-drb (= 2.2.0), ruby-english (= 0.8.0), ruby-erb (= 4.0.3), ruby-error-highlight (= 0.6.0), ruby-etc (= 1.4.3), ruby-fcntl (= 1.1.0), ruby-fiddle (= 1.1.2), ruby-fileutils (= 1.7.2), ruby-find (= 0.2.0), ruby-forwardable (= 1.3.3), ruby-getoptlong (= 0.2.1), ruby-io-console (= 0.7.1), ruby-io-nonblock (= 0.3.0), ruby-io-wait (= 0.3.1), ruby-irb (= 1.13.1), ruby-logger (= 1.6.0), ruby-matrix (= 0.4.2), ruby-mutex-m (= 0.2.0), ruby-net-ftp (= 0.3.4), ruby-net-http (= 0.4.1), ruby-net-imap (= 0.4.19), ruby-net-pop (= 0.1.2), ruby-net-protocol (= 0.2.2), ruby-net-smtp (= 0.5.1), ruby-nkf (= 0.1.3), ruby-observer (= 0.1.2), ruby-open-uri (= 0.4.1), ruby-open3 (= 0.2.1), ruby-openssl (= 3.2.0), ruby-optparse (= 0.4.0), ruby-ostruct (= 0.6.0), ruby-pathname (= 0.3.0), ruby-pp (= 0.5.0), ruby-prettyprint (= 0.2.0), ruby-prime (= 0.1.2), ruby-prism (= 0.19.0), ruby-pstore (= 0.1.3), ruby-racc (= 1.7.3), ruby-rbs (= 3.4.0), ruby-rdoc (= 6.6.3.1), ruby-readline (= 0.0.4), ruby-reline (= 0.5.10), ruby-resolv (= 0.3.0), ruby-resolv-replace (= 0.1.1), ruby-rexml (= 3.3.9), ruby-rinda (= 0.2.0), ruby-rss (= 0.3.1), ruby-securerandom (= 0.3.1), ruby-set (= 1.1.0), ruby-shellwords (= 0.2.0), ruby-singleton (= 0.2.0), ruby-stringio (= 3.1.1), ruby-strscan (= 3.0.9), ruby-syntax-suggest (= 2.0.1), ruby-syslog (= 0.1.2), ruby-tempfile (= 0.2.1), ruby-time (= 0.3.0), ruby-timeout (= 0.4.1), ruby-tmpdir (= 0.2.0), ruby-tsort (= 0.2.0), ruby-typeprof (= 0.21.9), ruby-un (= 0.3.0), ruby-uri (= 0.13.2), ruby-weakref (= 0.1.3), ruby-yaml (= 0.3.0), ruby-zlib (= 3.1.1)
 Depends: rake (>= 10.4.2), ruby-csv (>= 3.3.3), ruby-did-you-mean (>= 1.6.3-2~), ruby-net-telnet (>= 0.1.1), ruby-ruby2-keywords (>= 0.0.5-1~), ruby-xmlrpc (>= 0.3.3~), ruby-webrick (>= 1.9), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libffi8 (>= 3.4), libgmp10 (>= 2:6.3.0+dfsg), libssl3t64 (>= 3.4.0), libyaml-0-2, zlib1g (>= 1:1.2.11.dfsg)
 Recommends: ruby-sdbm (>= 1.0.0-3~)
-Filename: ./libruby3.3_3.3.8-2_amd64.deb
-Size: 6300780
-MD5sum: dddd27dd8b10b5108b37e88e2eec901a
-SHA1: 99de879367e98752fd7a45a5e448acfc0344e2f0
-SHA256: 033d7f7359da6353d29e5cb87ef411357d3841c02fd7d1089897653fec665289
-SHA512: 6b20874b98fb715a1e7177ef3778cf2b57ee11a242f69a9fdb9fa221b1e83b7a6ae333bdf602ddca8e0a140cfeb1063dddb81c50b7673382b8822771457ae2e5
+Filename: ./libruby3.3_3.3.8-2.2_amd64.deb
+Size: 6312276
+MD5sum: 421993979f0f93eee6bd87c4be1bae76
+SHA1: af84cdcb9e72f6768a9833af031c132c7d2ded10
+SHA256: c0dd14686c99a7c2708e07a2fa97717bcf0b2356fb6a456431de63ff47df975c
+SHA512: e4af0be97bec2b1e47cdc380ee6ac64e75588da3dbad02ad8c5d58bea7c07505e24a9b86c56ead935d28bc4dbd9f92c65da0de57b8e48c2b90d91362797ca6fd
 Homepage: https://www.ruby-lang.org/
 Description: Libraries necessary to run Ruby 3.3
  Ruby is the interpreted scripting language for quick and easy
@@ -61529,20 +61529,20 @@ Description: XMLRPC library for Ruby
 
 Package: ruby3.3
 Architecture: amd64
-Version: 3.3.8-2
+Version: 3.3.8-2.2
 Multi-Arch: allowed
 Priority: optional
 Section: ruby
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 898
+Installed-Size: 894
 Depends: rubygems-integration (>= 1.17.1~), libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgmp10 (>= 2:6.3.0+dfsg), libruby3.3 (>= 3.3.0~preview1), zlib1g (>= 1:1.1.4)
 Recommends: fonts-lato, libjs-jquery
-Filename: ./ruby3.3_3.3.8-2_amd64.deb
-Size: 834088
-MD5sum: 22848c97b127ec6e65a8103f30e1af80
-SHA1: 15834bb22ad91c040d0862ffdeec65d6e9c76aac
-SHA256: 10798ffe8edc86d7f9491655a115049a7a77dfbef5dc909dc13803cbb6c47f9b
-SHA512: 2557a0e3ac03cb9d34a2394b24a2067286c9a1e5610df71dd5810c9e426e97fe1f93affa8bffe0ce051fcf0ad959e15667236544102b6490283b16e351a485e9
+Filename: ./ruby3.3_3.3.8-2.2_amd64.deb
+Size: 829140
+MD5sum: 23731f4f0a5505148d9cda9b63ff14fc
+SHA1: 63ef05b3e7ca46ede24f2f671cd54f65949cc3f1
+SHA256: c49f1694cac17faffb0bc68872e9481c4ee8790d76c4493828b3215da8a784a6
+SHA512: cbeef097fca5ccb8a8396080677d11a17b1403563fc727c8cd4217d0b454a441abc461cc793f7d12d18ad64c8bbcd201dfc2a9bb4146d2a47aa51560491ca15e
 Homepage: https://www.ruby-lang.org/
 Description: Interpreter of object-oriented scripting language Ruby
  Ruby is the interpreted scripting language for quick and easy
