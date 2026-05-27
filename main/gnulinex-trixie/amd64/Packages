@@ -11103,18 +11103,18 @@ Description: put tiles on a board and match their edges together
 
 Package: gnome-text-editor
 Architecture: amd64
-Version: 50.0-1
+Version: 50.1-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2975
+Installed-Size: 2999
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libeditorconfig0 (>= 0.11.0), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.19.4), libgtksourceview-5-0 (>= 5.15.0), libpango-1.0-0 (>= 1.14.0), libspelling-1-2 (>= 0.3.0)
-Filename: ./gnome-text-editor_50.0-1_amd64.deb
-Size: 625708
-MD5sum: 43689adaa915983f5dc576815c161af5
-SHA1: 379d729e7c79c8038e8c3047619536b85885f69d
-SHA256: 4822df14ff4ad3823e8199ca62766dc6533b94ec1e78b1f80e239f4f3230eda2
-SHA512: 791758bc31d4b6e034cee2bc1eba5ee7a58f11f03e27ff7f49654aac9242e889fca72635f538f7e61d5da4f818d52bcca151fd0ed30c85733f51b0a67939fbec
+Filename: ./gnome-text-editor_50.1-2_amd64.deb
+Size: 628024
+MD5sum: ffee7ae95c218a229221b906c46177c8
+SHA1: 2a346f89b7bef80a9a7adf95d0f9e0de74f0a531
+SHA256: 78aa6bf8db7525d2a291a8f04f8dd5cb1a0ffbe1d898367432b5a3a3f47ad27a
+SHA512: 8cfc8f0b7fb79802d7ca22f37321d13e60c18301e2c26aacc2bbdb8c1ff90fbe2a581d679358cdb72ee0dc004dcb94453d405c718914452cf10f44e568decfc4
 Homepage: https://apps.gnome.org/TextEditor/
 Description: simple text editor for GNOME
  GNOME Text Editor is a simple editor for GNOME focused on being a good
@@ -29926,7 +29926,7 @@ Description: Kontact interface library - data files
 
 Package: libkpathsea6
 Architecture: amd64
-Version: 2026.20260303.78225+ds-3
+Version: 2026.20260303.78225+ds-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29934,12 +29934,12 @@ Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 249
 Depends: libc6 (>= 2.38)
-Filename: ./libkpathsea6_2026.20260303.78225+ds-3_amd64.deb
-Size: 157920
-MD5sum: 429e00c2c1b96c00d357ef5916481478
-SHA1: 56bc903bc7690cf7cf65caa4b7aa89f7f51fe088
-SHA256: 1b63452ca1a05d69524c12c9a956b441064150214a57652d72ccfe5f381249c8
-SHA512: 0a192d1b6950fa994e5fc0002fe49e953fb4ce39d61dd887a77a6ca29c54c364610335146f51d09e1a334dfca252426123ba69a2dd018859cbd3785025f30acb
+Filename: ./libkpathsea6_2026.20260303.78225+ds-4_amd64.deb
+Size: 157864
+MD5sum: fb80108013bfcd2d7eaf3733bb75ee07
+SHA1: 02d0082543e63065c25aa627658a17c7520127e6
+SHA256: 08048ca8f3fb00d6dfe3d32b91d9a96c9e3ab15cd5bcc9622d20a2f786f837f4
+SHA512: 9d33f9fb6f94f2917071fdd70bc222625a5c0a713f63117e485ddc0590271fb50f51de6885c102e0a325bbce691704e08a335e574f1576393403ee6440a923b2
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: path search library for TeX (runtime part)
  This package contains the runtime part of the Kpathsea[rch] library,
@@ -36088,7 +36088,7 @@ Description: OATH Toolkit Libpskc library
 
 Package: libptexenc1
 Architecture: amd64
-Version: 2026.20260303.78225+ds-3
+Version: 2026.20260303.78225+ds-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36096,12 +36096,12 @@ Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 117
 Depends: libc6 (>= 2.33), libkpathsea6 (>= 2026.20260303.78225+ds)
-Filename: ./libptexenc1_2026.20260303.78225+ds-3_amd64.deb
-Size: 51660
-MD5sum: cb77fd0731d3c89a8e6e17da0926cde3
-SHA1: a05325beec9ce65a27aec6c25354baaf90769f0d
-SHA256: fbf9b294496a86d58c81236cc65969bbcea9067bdb09b1e5b74725cd352629d5
-SHA512: 7dde9afe90f737879de10c6a0b6dc8c6039facb0c0a73a7c8d89f6ccc63dd5e2b6e96fbf4eba4e7335912c792d69d2779252ef9e99918f754a60cbb9cfad5bd2
+Filename: ./libptexenc1_2026.20260303.78225+ds-4_amd64.deb
+Size: 51700
+MD5sum: f140fba2a0650f68da19f2218ad4ad57
+SHA1: eb7c1bb83202b5d70b5c989e704e7b93d8ab6c19
+SHA256: d63477a25461e5bd4a175b0e562c4b8789b7bc38574b96bf2acacf1a1f697fac
+SHA512: 3fa1bdfe058a172d643847505495ed3b89c8905c0c92e85cfd5128d33a9fd1930444bef9f3fab6ef87e9c1d9585c879def78085607a13e625daa4ddfafbc7147
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: pTeX encoding library
  library for encoding support in pTeX, a Japanese TeX engine.
@@ -46403,7 +46403,7 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
 
 Package: libsynctex2
 Architecture: amd64
-Version: 2026.20260303.78225+ds-3
+Version: 2026.20260303.78225+ds-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -46411,12 +46411,12 @@ Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 175
 Depends: libc6 (>= 2.38), zlib1g (>= 1:1.1.4)
-Filename: ./libsynctex2_2026.20260303.78225+ds-3_amd64.deb
-Size: 63096
-MD5sum: d7b64971bb252c7d3e9dd287c9b28377
-SHA1: c1ad01cb7f1bae6d81eb7b92930529147bf7b393
-SHA256: bb7525aff8b80279719b485ac85c44af637cb96837d188809982c5a255b94787
-SHA512: 2ecee0e887d740e2260dd18fe6ce0c7a5417494dd27c6ca0d026cd694527bb93f7853d7da6b609f6e62549b854c58b4e75f6a313e63e92caad652fc5ed4de337
+Filename: ./libsynctex2_2026.20260303.78225+ds-4_amd64.deb
+Size: 63192
+MD5sum: a34303f5c1abc9ac8fd107268a540c2b
+SHA1: 04abd4b6efd2dd8a2e4f317ec2cd5907d5dda4d0
+SHA256: 8e3a8282f22686bf439c4b6f4de19ad6d68c80834149a0b572654ee31c4c44f4
+SHA512: 0c4cb9613f8b61d165d1b3d23cb09ca37327a0323a0184cc6ade52d15a440406508cd2e4ef88b7195f2a8c7191f944d5ba22477e9195040f9f81a87b73588462
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: SyncTeX parser library
  Library for SyncTeX parsing support.
@@ -46698,7 +46698,7 @@ Description: Tesseract OCR library
 
 Package: libtexlua53-5
 Architecture: amd64
-Version: 2026.20260303.78225+ds-3
+Version: 2026.20260303.78225+ds-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -46708,12 +46708,12 @@ Installed-Size: 297
 Depends: libc6 (>= 2.38)
 Breaks: libtexlua53 (<< 2022.20220321.62855-2~)
 Replaces: libtexlua53 (<< 2022.20220321.62855-2~)
-Filename: ./libtexlua53-5_2026.20260303.78225+ds-3_amd64.deb
-Size: 113040
-MD5sum: fdbd2ecb4358319e52066f570e91990e
-SHA1: 73645774cbc1fad3b774182a798c3472fb031724
-SHA256: 53dd3521fb9ac8a61a147ae777dfc3a9a5fe259189995fe45085b3e924d6b060
-SHA512: 9224051a2bce8ebe060313472c4fc728df1eec7c4bdc6d9b2162f25ef6cce3209f5efa9092e9eabadba13c750e97eef43e93de98bab00a34dfc6c57ab6ef63ba
+Filename: ./libtexlua53-5_2026.20260303.78225+ds-4_amd64.deb
+Size: 113144
+MD5sum: 9842d4a3cf86335e033e2094f66a1140
+SHA1: e4e9c9b1a58af64173a531d749147edff6cbf928
+SHA256: a353014430d5cee5c190523d334e841ebcb4052efffd883f7ce0a654c0e41e33
+SHA512: dc6d6acb130a9d7e78ff4a1162ec0ae00b337f2736f4484a20d09dabfd58f995ba79c1b100823c51cad704f1007f1d78d4e38d4a2b4d49c0ac1de28b740cb615
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: Lua 5.3, modified for use with LuaTeX
  The Lua 5.3 library as used within LuaTeX.
@@ -63185,7 +63185,7 @@ Description: TeX Live: Essential programs and files
 
 Package: texlive-binaries
 Architecture: amd64
-Version: 2026.20260303.78225+ds-3
+Version: 2026.20260303.78225+ds-4
 Multi-Arch: foreign
 Priority: optional
 Section: tex
@@ -63193,18 +63193,18 @@ Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 37504
 Provides: dvidvi, jmpost, luatex, makejvf, mendexk, texlive-base-bin
-Depends: libptexenc1 (>= 2026.20260303.78225+ds-3), libptexenc1 (<< 2026.20260303.78225+ds-3.1~), libkpathsea6 (>= 2026.20260303.78225+ds-3), libkpathsea6 (<< 2026.20260303.78225+ds-3.1~), libsynctex2 (>= 2026.20260303.78225+ds-3), libsynctex2 (<< 2026.20260303.78225+ds-3.1~), libtexlua53-5 (>= 2026.20260303.78225+ds-3), libtexlua53-5 (<< 2026.20260303.78225+ds-3.1~), t1utils, tex-common, perl:any, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 4.0), libgraphite2-3 (>= 1.2.2), libharfbuzz-subset0 (>= 7.3.0), libharfbuzz0b (>= 5.1.0), libicu78 (>= 78.1-1~), libmpfi0 (>= 1.5.4), libmpfr6 (>= 3.1.3), libpaper2 (>= 2.2.5), libpixman-1-0 (>= 0.10.0), libpng16-16t64 (>= 1.6.46), libpotrace0, libstdc++6 (>= 13.1), libteckit0 (>= 2.5.10+ds1-1), libx11-6 (>= 2:1.2.99.901), libxaw7 (>= 2:1.0.16), libxi6 (>= 2:1.2.99.4), libxmu6 (>= 2:1.1.3), libxpm4, libxt6t64, libzzip-0-13t64 (>= 0.13.56), zlib1g (>= 1:1.2.3.4)
+Depends: libptexenc1 (>= 2026.20260303.78225+ds-4), libptexenc1 (<< 2026.20260303.78225+ds-4.1~), libkpathsea6 (>= 2026.20260303.78225+ds-4), libkpathsea6 (<< 2026.20260303.78225+ds-4.1~), libsynctex2 (>= 2026.20260303.78225+ds-4), libsynctex2 (<< 2026.20260303.78225+ds-4.1~), libtexlua53-5 (>= 2026.20260303.78225+ds-4), libtexlua53-5 (<< 2026.20260303.78225+ds-4.1~), t1utils, tex-common, perl:any, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 4.0), libgraphite2-3 (>= 1.2.2), libharfbuzz-subset0 (>= 7.3.0), libharfbuzz0b (>= 5.1.0), libicu78 (>= 78.1-1~), libmpfi0 (>= 1.5.4), libmpfr6 (>= 3.1.3), libpaper2 (>= 2.2.5), libpixman-1-0 (>= 0.10.0), libpng16-16t64 (>= 1.6.46), libpotrace0, libstdc++6 (>= 13.1), libteckit0 (>= 2.5.10+ds1-1), libx11-6 (>= 2:1.2.99.901), libxaw7 (>= 2:1.0.16), libxi6 (>= 2:1.2.99.4), libxmu6 (>= 2:1.1.3), libxpm4, libxt6t64, libzzip-0-13t64 (>= 0.13.56), zlib1g (>= 1:1.2.3.4)
 Recommends: texlive-base, dvisvgm
 Suggests: texlive-binaries-sse2, hintview
 Conflicts: dvidvi, jmpost, makejvf, mendexk
 Breaks: context (<= 2021.03.05.20230120+dfsg-1), gregorio (<= 2.3-1), luatex (<< 2014), texlive-base (<< 2021), texlive-extra-utils (<< 2020.20200329), texlive-formats-extra (<< 2023.20230613), texlive-luatex (<< 2020.20200329)
 Replaces: dvidvi, gregorio (<= 2.3-1), jmpost, luatex (<< 2014), mendexk, ptex-bin, texlive-extra-utils (<< 2020.20200329), texlive-luatex (<< 2020.20200329)
-Filename: ./texlive-binaries_2026.20260303.78225+ds-3_amd64.deb
-Size: 9243176
-MD5sum: 0eecc2c94b269cee0ef9445050794fed
-SHA1: e1e283764fe1e1cc3bf6bc10899beaa4a5312167
-SHA256: bb3f1d7748562b54abd442eda6193527a536d646729fca5feef7f42d64ac8c16
-SHA512: dcb92e775caa6c88f891f0bd2a40f0e46b74473a0dc8db0a68f6a1d8596628eb1b254ffcf5233c7018e9375433e7af755ca762c90fde27f621c9b56e6b714030
+Filename: ./texlive-binaries_2026.20260303.78225+ds-4_amd64.deb
+Size: 9244276
+MD5sum: 260d96d4a5fad759a497cf9d891cc55c
+SHA1: 7fb2e2c9a3bb0eea367d92be9d637fc5ecdcf832
+SHA256: 02663d68d51f2227b4bd517ba996ba4cd673a1e16978cc5722244f260972de20
+SHA512: a9f1e440714fe44841f66deec532e9c24333be0f37a52d6ecf81296fb7576caa082c5d3faa6a0977f7df44525f918e561863962fa86ca0cfb741cc170cdc8879
 Homepage: https://www.tug.org/texlive/
 Description: Binaries for TeX Live
  This package contains all the binaries of TeX Live packages.
