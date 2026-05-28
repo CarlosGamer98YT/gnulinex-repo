@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64 all
 Codename: forky
 Components: main
-Date: Wed, 27 May 2026 04:13:51 +0000
+Date: Thu, 28 May 2026 03:59:53 +0000
 Label: GnuLinex Repository
 Origin: GnuLinex
 Suite: stable
 MD5Sum:
- de9a51a53a8b9dd893993517bde45a4b          3477683 Packages
- ba0b801e3071fb79c994edd0a3d689eb          1002608 Packages.gz
- fd8ca6471fb3da23f979dafb4a811862              154 Release
+ aac0b3eef77597b46a8a6f0575860ca2          3477669 Packages
+ ca74b4eef1195689d3b16183a8b6f52d          1002606 Packages.gz
+ 77c92abbfd1655fc79066ce8872f924e              154 Release
 SHA1:
- 536f10139c99504b092370bbde2d4ba447099d14          3477683 Packages
- a438c010e7477d6f985fd96d6e959c82943a95a0          1002608 Packages.gz
- 3e44c8eb56adb5a6e7495c7972ac2dabd8a9d476              154 Release
+ 3b95515deb88fa0e02e740a8550c48dfe7859fe0          3477669 Packages
+ eb1ef30395a48f2e603cb7fbc582d1a564be2ffd          1002606 Packages.gz
+ b3dd4a0f1cdba8394cca27339be7346bed3baef0              154 Release
 SHA256:
- 20d7159124804b28f5b0efed71e3e3ef115b5d3881ff1e725446c11a65215946          3477683 Packages
- 173ab8a5f0ed8d087be5bd4956b8f01fa89501ece611cbf14fc7befef5cf7f1d          1002608 Packages.gz
- 3c66cd2d5fbeda45a238e8cfe00bc9695a6eabe6cbdefd399a0061d2b6d7eed4              154 Release
+ e7d24c3e1924bb288a9a9123c05a28a99e106b954359efe6ed26b57a5ed1d730          3477669 Packages
+ 6b2d258fe04b2951857f045b5b296c1f0b1327dfeb9d36ca407828772e755c0b          1002606 Packages.gz
+ a9ee8545c2b734048debca9b7026bec40daf5568aa2f130a43ce6d959ac0ec09              154 Release
 SHA512:
- 407ef406a20ba73c37956536970f8f80ada9a736dca521a44595efb1e7c032725f1493459e8c6368373cccd613731bd443c3a3aabb551063da44c63685644d15          3477683 Packages
- 03959ea124f64ca54fb5fec135140f0d9c6e1e649a074eaf353e2230f0a474a602e0088f76e6d7464342587bc99823deb3a34cc126bd5429ce9a1e4a9e2cbd88          1002608 Packages.gz
- 66c6d38ffc2c6e96250600f57c22d044d4f9a5b6bc8deccea67729d09d07c1ae9d2e2b9313b4aa85a20718c53b0c71f7c44479ad579dbf4083ba317d5c892d05              154 Release
+ 0cd5c5006d503f6c5af1ce759ac0e4c54b15a7683444b6134d2280cadb0a3586a085c1d720cb57dc01ce0ab98bbc97b6e0e7a3ca2484cd3f8401eb8a17ea429b          3477669 Packages
+ 8c38cfb7cd0c8c5afe5b0244e698b09139f1fdf12f867f1e7da689f874711ec25c005340c696110ac97122eb95cf117291b80ee643553097ce969063c015b532          1002606 Packages.gz
+ 3eac1019bc20b8fba41a84de64b0d7c4a755361d5398f64db2d427aef39ca07385dc9c6014d7cb8f503dc797dd70eb8ba856af153fd21061554862b3c12a5d94              154 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmoWb38ACgkQB28BYc8+
-H7/1Ow/9HjpDmlP1DbRk6uoQQSCUTY+OzrxUoaHxVfHvYwVo5kKlyX0eOGYrGtSi
-GN1Y4StoYHa/8SbSaAywi+Q6DAgm8ZDRMniRWnTTyN8hQCcKGyOO+XdP8/F3s+Ku
-9bzXkVWj92spHSSIhr8wygWJ086cvT7OliEm15/9RjxM5YQrG0pq7YIKy5pDQniK
-z3gzhsBwZ8NO53PlF4w6QHy32AoKONU34mz5O/q3Tw7yqGX3EfffB/DH05vff4Nk
-iXnl7ceuNk4J7qcCvdn0amkC9ZoeZt3dlNfzRz+6TcK9LHfy8tYW3vIb4i6IrR2B
-U8p49GfwYTTP+xSOuk8z4Od0RPepLxVJhvBGWlH7pGr8Izr5Bz9oP7YuQEWUHF2G
-bUYLraEqdd5I7viJxgc5ekACqLMVV/zPZWPw/cNE8nKRSVbywH/Ox7hlp6C5sGEu
-kBjkggHdkTW+Xj2Tb8WUaitAO9cNf7aZ0FZIlsmn/JEzZ6bqmY7hn9Izg6iB5tNJ
-De1G1JauOBWSrG9Ip2GCagiIUt/r39q1xbAEvuJhgiaMZzf53LJZulknPdaP/GTs
-75tZEEweO5zsdgvw3O9VN6otzhHOH+zX4c6gniACQEcDvpJnxnmF62UmAelO1/Un
-uf+t1sshZe68Y6f0tNLvzCdR0HAhjleTpwPFZ/3DftxTd3sD2ew=
-=j1j1
+iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmoXvbkACgkQB28BYc8+
+H7/jXxAAvL3Z7mzchnYw/G5ysfiwffIaB4lw4lycXbloB3iwGCSA/UX4yBdBkvQG
+BgAUVYJggKcwHrbpzWLbVOzhtc2ITg1OHT3CAT1fNJPHPGIDBB0vJR7fjnY97v0H
+As39SWBNGEjHfjpug/ZMPrWJgdHg+4Ybyd0FBrHarys6aITjJiS8GgRtRzbe8o82
+7tXCPbHbih8kcg/DfTXjrUAyPQsEdOdoukPTpuFNNFk3LaEKAgn35X7q7l1axc8X
+h69gqgphEeZIBpmX+ywJUP6cQPvldS6JwUCXH9krAyCdOi+Z8h+hFd1BLPz4TaaS
+2WAQwBGfnSFb/crvm23pQGfzveFBMuhstugIxUM9JeWc/65KyicrKuRKR4ZuzeAY
+GH6tjV/Jt0FV0c4f1N1McGDv5yQ/itAEJCckWML/yAsbbz9ySzvAzxkIXEC1n2C9
+tAtvskpfAX9YhD8eKsDSC4ugUttHWTXuBrAnGI7LONQxY31aiVAI96LzO3cpb79t
+T4tWE90rV91DK1Jb0uARVEuU1UET3avNyQX/XL9fmCG8TM1CurRAj9pE0n2hMpEx
+ei2vG3fdxwdDZ0lgdxmuDedhxbxZQzThgiOItvONRYwum31iCbxF1nfTtmylq4Tu
+YoshdKoP2aJyMBacocqadvFqV+3j9kIOPs3yjorpIwwyMx+fTyY=
+=ALWR
 -----END PGP SIGNATURE-----
