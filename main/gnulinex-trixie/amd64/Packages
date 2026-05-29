@@ -12051,20 +12051,20 @@ Description: GStreamer plugin to install codecs using PackageKit
 
 Package: gstreamer1.0-pipewire
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 259
-Depends: pipewire (= 1.6.5-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.5-1)
-Filename: ./gstreamer1.0-pipewire_1.6.5-1_amd64.deb
-Size: 84352
-MD5sum: 88c87b9e1a02479cc18b886a23d4961a
-SHA1: fc13fe19ba12181d453f379735155f799c48f72f
-SHA256: 98b12c0bda34720c88249fe7df7cc9ac2a726a32327d27de63dff90561607163
-SHA512: de5bee5125be971abd7807eb587e06825defdccf98333ed8bf7d39b2704d588d513ea73dfc4573fae31dde1f81d80fb44ea23f2f118491a525d276ef4df333fe
+Depends: pipewire (= 1.6.6-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.6-1)
+Filename: ./gstreamer1.0-pipewire_1.6.6-1_amd64.deb
+Size: 84364
+MD5sum: 4da6022ab98ac5564e30a05f1e16aa5e
+SHA1: 1a61ad9adb28e34be956c74323de3294c89ac4e2
+SHA256: e9d7a2afb2294d0151f001223d3eaac1177c4aa2cf351fb10ea9b7d81c23d7ca
+SHA512: ca8b82373dba01cb0e2e05a12d277fc284e3aac700713760a4abec280af70c6320a2b6a559752b9e6a38938f422dbcfa33b6f1894f8179e17b4ef1c09d0fe7a8
 Homepage: https://pipewire.org/
 Description: GStreamer 1.0 plugin for the PipeWire multimedia server
  PipeWire is a server and user space API to deal with multimedia
@@ -35351,25 +35351,25 @@ Description: Common library for KDE PIM - data files
 
 Package: libpipewire-0.3-0t64
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 1065
-Provides: libpipewire-0.3-0 (= 1.6.5-1)
-Depends: libspa-0.2-modules (= 1.6.5-1), libc6 (>= 2.38)
+Provides: libpipewire-0.3-0 (= 1.6.6-1)
+Depends: libspa-0.2-modules (= 1.6.6-1), libc6 (>= 2.38)
 Recommends: libpipewire-0.3-common
-Suggests: pipewire (= 1.6.5-1)
-Breaks: libpipewire-0.3-0 (<< 1.6.5-1)
+Suggests: pipewire (= 1.6.6-1)
+Breaks: libpipewire-0.3-0 (<< 1.6.6-1)
 Replaces: libpipewire-0.3-0
-Filename: ./libpipewire-0.3-0t64_1.6.5-1_amd64.deb
-Size: 304276
-MD5sum: 6a2226427e4f9d28771de71875e5900d
-SHA1: 2868e2cc1ae1f1966750057b87e7dfe179e77374
-SHA256: d929771cef76f1f86f238c13baa0c7a3b510787ec12810cf21b0743007d0b177
-SHA512: 96e7553a030c212285cac9a023195d60e2a0a19797780e478770c8c27a770b2509d16f592ef07a1191c34ce82219e33129459769ab559216ea86419d056225d2
+Filename: ./libpipewire-0.3-0t64_1.6.6-1_amd64.deb
+Size: 304640
+MD5sum: 813a8c53bc5aef28268eddf9f3f95fc8
+SHA1: 34bdd0f77cc5df3f56ad38abdf324bf6146102f1
+SHA256: 1dd776418c475a35e5a14957c864e350804f0dee17462a44e13466b536b6fc0e
+SHA512: 9bc5d37be8f9ecba2d7ed791e09f17d97fa3733a51f829097833279862c05bc805a639a6d6e01edb96e8f5ea27c47bf932773e8e22b9b57a6d4e615784fd50ca
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server
  PipeWire is a server and user space API to deal with multimedia
@@ -35382,19 +35382,19 @@ Description: libraries for the PipeWire multimedia server
 
 Package: libpipewire-0.3-common
 Architecture: all
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 707
-Filename: ./libpipewire-0.3-common_1.6.5-1_all.deb
-Size: 79008
-MD5sum: 6f1b392e5aa2665d0a9224ecfd5be20f
-SHA1: 39dc9e27a9f5999d3779287e0e58c7fab6622137
-SHA256: ddc6edbf3f57d8bae5e8738d72804ef520c33c4902f253a96474e4775d01ae43
-SHA512: 724f2a828881b0f9a6e4f0f7649b8f5e126d82eb9db3b0056ca29642a7dac2a2d66c66fe7d0aa6e0a728718e1597b5e8e544318851846d2dae6460f96d4634a8
+Filename: ./libpipewire-0.3-common_1.6.6-1_all.deb
+Size: 79176
+MD5sum: cc921946a4cae7c2b710fde320f25c1f
+SHA1: bd2fe768bf25c1ce03db49647450d80b20ece271
+SHA256: d5f7d2c58c3ee35a04bb6029af750b7122fc7fc6d8d2df212e2243d2966712c9
+SHA512: e0fbefd3e1fa9dfdd10406ee2133fbf52cc204c6b419e80688ae376048b5014b118488c930865cdb5da90e3702dc8e3059bc457d25659ece56a9c7e681a10230
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - common files
  PipeWire is a server and user space API to deal with multimedia
@@ -35410,22 +35410,22 @@ Description: libraries for the PipeWire multimedia server - common files
 
 Package: libpipewire-0.3-modules
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 4677
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libffado2 (>= 2.5.0), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.5-1), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libffado2 (>= 2.5.0), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.6-1), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libpipewire-0.3-modules_1.6.5-1_amd64.deb
-Size: 832400
-MD5sum: d94101f34a664542b81d82a9a1169fd0
-SHA1: f0c640be4e01dc2701e98798d6528fa5ab429252
-SHA256: 4d26830605dc63cdbc13dc47a0b9ca97e84a3a5ab8a76c5e9c50b90d5f5276e5
-SHA512: 65ad57c78f4ba8f4bca59ccef31d858572818b52a9662b38f7970dce625e6a4782827c55a47790bf342da2ab3d8253aad8bdbc23489795fb45bfc0ace908d7da
+Filename: ./libpipewire-0.3-modules_1.6.6-1_amd64.deb
+Size: 832308
+MD5sum: da5c3d619e0d36f13c4a842df1415edb
+SHA1: d75edce57b25fba04891911a491b2f02b80d3710
+SHA256: 3fac7290796ae588286783db9e1945fd2b91fa781853937716d4e0d2ddf07093
+SHA512: aec8907a3e3e56bcf65d8e528139164bb8b875fd0fc31dc04076802b4c7712cc78ab7c4662d6985b59b15e2ff736a1a1bf282143bd1cf407dff85fbdd0690ffe
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - modules
  PipeWire is a server and user space API to deal with multimedia
@@ -45888,20 +45888,20 @@ Description: HTTP library implementation in C -- Common files
 
 Package: libspa-0.2-bluetooth
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 1689
-Depends: libspa-0.2-modules (= 1.6.5-1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
-Filename: ./libspa-0.2-bluetooth_1.6.5-1_amd64.deb
-Size: 457452
-MD5sum: 9a388219245d16235b1e8c5c90427818
-SHA1: 8b812108157c6f18a7ba58cfb47a7a9b8d218c60
-SHA256: 14733a556f5bce0c41ccc016b6da54f188c34fe8f9e40c99e25b2c5f6c7d9cf5
-SHA512: 4ec790f2dc46c6ecf079564fc34d4bad2917f2828f9bee1cc650d77e418166de64eb5ef2607212ce77d77d2093cc05c8f3ec815a407036894570c9cfc7e276ed
+Depends: libspa-0.2-modules (= 1.6.6-1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libspa-0.2-bluetooth_1.6.6-1_amd64.deb
+Size: 457680
+MD5sum: 54bef13a498fa06fb199e131c87efa0e
+SHA1: 3a723a06adb131d063138af6241516dc2f68f20a
+SHA256: 76628a67280798209534d3124979b657714fbdda47416e41dd372689bbfeaa2c
+SHA512: 1b6201d8e7e0b0e60cf5f363d7b152cedc714f33e5f2e2b7215b73b900e4d605f07370af4141e848521ddfc4cf3c1e6fcde70442be2a366aa1fad7f159880e73
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - bluetooth plugins
  PipeWire is a server and user space API to deal with multimedia
@@ -45917,7 +45917,7 @@ Description: libraries for the PipeWire multimedia server - bluetooth plugins
 
 Package: libspa-0.2-libcamera
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: video
@@ -45925,15 +45925,15 @@ Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 172
 Provides: pipewire-libcamera
-Depends: libspa-0.2-modules (= 1.6.5-1), libc6 (>= 2.32), libcamera0.7 (>= 0.7.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Depends: libspa-0.2-modules (= 1.6.6-1), libc6 (>= 2.32), libcamera0.7 (>= 0.7.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Breaks: pipewire-libcamera (<< 0.3.72-1~)
 Replaces: pipewire-libcamera (<< 0.3.72-1~)
-Filename: ./libspa-0.2-libcamera_1.6.5-1_amd64.deb
-Size: 67328
-MD5sum: ebecd371c7b93e14e848ba6a8b9547b0
-SHA1: 3db583079db2c1e0a2078c158e33c7a5e48cb00e
-SHA256: 99fb0409f18503ed416bd8fda0d1af7c8fac47b71ccca164e8228886732d85e0
-SHA512: 593b8188b1cbe93aa0c3e990aa0383acf7d175e5dfd92c36c6a0308fd95e72f4b91f2c5e56137e7f3760cac54fc22ddaad004b0f403bbd39cfb0ebc79bae628f
+Filename: ./libspa-0.2-libcamera_1.6.6-1_amd64.deb
+Size: 67324
+MD5sum: c08af1ef7f74e9b25cbb190b7e7f66b8
+SHA1: ac24674666f57684c01255a5bac5a0959e94e441
+SHA256: ff23d06141e18e448f54f715c8a9880c00e10f57714e7ff5e40e087447bb97ae
+SHA512: 22adb4c3cfc933f66272e63af92ac945bd6d76fe404e42f3f27462178aa67182b16d5ac3468f9a900936375a475f574c0edead3078172739165c728df856689c
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - libcamera plugin
  PipeWire is a server and user space API to deal with multimedia
@@ -45949,7 +45949,7 @@ Description: libraries for the PipeWire multimedia server - libcamera plugin
 
 Package: libspa-0.2-modules
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -45959,12 +45959,12 @@ Installed-Size: 4653
 Depends: libasound2t64 (>= 1.2.10), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libebur128-1 (>= 1.2.0), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.6~), libonnxruntime1.23 (>= 1.23.1), libsndfile1 (>= 1.0.20), libstdc++6 (>= 12), libsystemd0, libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3)
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libspa-0.2-modules_1.6.5-1_amd64.deb
-Size: 1094384
-MD5sum: a2770258b61764202210f688d4b5c418
-SHA1: 783e872e105cf5fd333319d82b64f30a9aada6a9
-SHA256: 84bef5143d8eec00cc6d4e8ec277deb70c73a2508e9651b87033048aa24b4644
-SHA512: 50a508c517397c04b60e386f828e0a31a72462f16bd53c6dce142cb50eb1ed8be9819a4dbfdd6f0f0355c8f2f4438f4502ca5cdb662dee305ac6b686c4163c39
+Filename: ./libspa-0.2-modules_1.6.6-1_amd64.deb
+Size: 1091400
+MD5sum: 2e757465a0f66ce5420e6db585916f96
+SHA1: ebafa9bb1fc6bea73d52111a46b0a1dfc962bb31
+SHA256: b9d6c5f7436b41088ad3006494159ed9639b9c387f90009228c928c7d8b88f85
+SHA512: e018384e94010078bd1ee5818bc7ae89f8ebab43dd9c7abffd0d58150ba3591c58b8090774dc9570ac7e01bc47b30a508c625637a526e3f47ad4627f94bbd2e8
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server Simple Plugin API - modules
  PipeWire is a server and user space API to deal with multimedia
@@ -55568,23 +55568,23 @@ Description: IMAP Sieve filter editor
 
 Package: pipewire-alsa
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 190
-Depends: pipewire (= 1.6.5-1), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.5-1)
+Depends: pipewire (= 1.6.6-1), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.6-1)
 Conflicts: pulseaudio
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-alsa_1.6.5-1_amd64.deb
-Size: 52748
-MD5sum: 8b24327f30c3aa665e269a04846e3f07
-SHA1: 97786d91b9adcf67b46b376b5fdbeee392df2696
-SHA256: d29882e289155a2c394701c251c40624c92f7d5b456119e7f72cd0747fcc0e16
-SHA512: a4781bc86e4c11ba8e788a66cdfd181b36ebcf4b36a765e5140c86e5fd5585d0d709cda055a82c41eb691f1756be53ce161b64d6195d2485e3094425e7d8fe3d
+Filename: ./pipewire-alsa_1.6.6-1_amd64.deb
+Size: 52712
+MD5sum: a7dbccdb016913e184bc7b8e3addf728
+SHA1: 6173d1a374ddb1659dfffec46dd899266b875d4d
+SHA256: c9ea1fd4f288e8ab0220e872d2a7226824aefe0599b8040c338b06221ade3c7a
+SHA512: a0c1611157506c89471a28cc984ea602963166d6b644b226dd38cd17b25e2907263ec9be25bfe5aab85af75f2fd4d2bc04a4e3edd975c9cbd3f7dfebaade7389
 Homepage: https://pipewire.org/
 Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
  PipeWire is a server and user space API to deal with multimedia
@@ -55599,19 +55599,19 @@ Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
 
 Package: pipewire-audio-client-libraries
 Architecture: all
-Version: 1.6.5-1
+Version: 1.6.6-1
 Priority: optional
 Section: oldlibs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 21
 Depends: pipewire-alsa, pipewire-jack
-Filename: ./pipewire-audio-client-libraries_1.6.5-1_all.deb
-Size: 9840
-MD5sum: 9eb44ac7fa621684ef4e4f149dcd4fc4
-SHA1: a3b034515e8bcd1b694d89fa051771b663c74dcc
-SHA256: 135c7ba94b04c9545ee8a394c8edd31c29ebcb185b7292c0010fa5486e9aa411
-SHA512: 7b603bfcb285b62f37ffdfb8feec9b8f77777ccc6dd780289f9e659e243c3f9f6d7bd34de1eb7fdd5ad2b1a060a2a55b8dff3ef5766fc9cab27af96f6ed356a0
+Filename: ./pipewire-audio-client-libraries_1.6.6-1_all.deb
+Size: 9848
+MD5sum: 25a4bd67231db8dc6e4829d6f5c24dca
+SHA1: 394f347f8944cb28cecd17f47149d8253e40ed57
+SHA256: c700bc24f3807d3dafe6c6c17c1a687645fa1f171d3c8af631150e76577b5da1
+SHA512: de47e42bd212fd21d8d5409fd21f40133e7c464356e21fd05c212a7a0a1f6b5da708573bfbf8244b39027029310e460431cdcb192b30ab1839e0203786413ca9
 Homepage: https://pipewire.org/
 Description: transitional package for pipewire-alsa and pipewire-jack
  PipeWire is a server and user space API to deal with multimedia
@@ -55622,7 +55622,7 @@ Description: transitional package for pipewire-alsa and pipewire-jack
 
 Package: pipewire-audio
 Architecture: all
-Version: 1.6.5-1
+Version: 1.6.6-1
 Priority: optional
 Section: sound
 Source: pipewire
@@ -55631,12 +55631,12 @@ Installed-Size: 21
 Depends: libspa-0.2-bluetooth, pipewire-alsa, pipewire-pulse, wireplumber (>= 0.5.0)
 Conflicts: pulseaudio, pulseaudio-module-bluetooth
 Replaces: pulseaudio, pulseaudio-module-bluetooth
-Filename: ./pipewire-audio_1.6.5-1_all.deb
-Size: 10024
-MD5sum: a4dd6fb740fafaac2ad5cde9f96b9ec7
-SHA1: ecadcde39ba7c192d8e2b3ebc44f6b01bdab58ec
-SHA256: 7215c51c4026f96caf76f3606a433c44c0886964367b6343416a505d5369f77c
-SHA512: 1d6eac324ea04c6bbfbb5713facf34ecd61fb5370d3af1de747a5a2320a8587f36dabdb1952118ffe2f6ab24aae83b685cb94fb43d9434b31c6c5a5409b97a2d
+Filename: ./pipewire-audio_1.6.6-1_all.deb
+Size: 10048
+MD5sum: 58e2c6de9f7aa8c38ee4d92ba342517e
+SHA1: bfc3308c440cbf42eec96b784580c31f10439cc6
+SHA256: cc8253720287a5bab6648f43665daf3aafa012ae2e6a4928ec4276afc2d531f4
+SHA512: 564fa1cb01d311c56a1fc3243234ab8176b964c68d92dec6fefa145f949e7ff00c689e12ed99b38f116baf7d51aaa21e4c47cb238e9eb7cb16ca8288fec2588f
 Homepage: https://pipewire.org/
 Description: recommended set of PipeWire packages for a standard audio desktop use
  PipeWire is a server and user space API to deal with multimedia
@@ -55652,23 +55652,23 @@ Description: recommended set of PipeWire packages for a standard audio desktop u
 
 Package: pipewire-bin
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 2217
-Depends: libpipewire-0.3-modules (= 1.6.5-1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.5-1), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
+Depends: libpipewire-0.3-modules (= 1.6.6-1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.6-1), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
 Recommends: dbus-user-session, rtkit, wireplumber
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./pipewire-bin_1.6.5-1_amd64.deb
-Size: 600796
-MD5sum: a151f8ecc066c4eb23d6764cfe63085c
-SHA1: 41a486d4e07f9b781b8a701ea130749189d152a3
-SHA256: ac5d84ed7f3ee37df3b256b55118485add6d53c20ad7fe093cf822ac9fa75d99
-SHA512: a07a521b58b074eb64517bfe68cc66802516dea8c9d0d58348d184bbba63f2222be12db5deb01f92e376792d5e9d2408ad471e869f62902d312f37fa151fc90e
+Filename: ./pipewire-bin_1.6.6-1_amd64.deb
+Size: 607100
+MD5sum: 9c0c04f338f13bce7b6ca0131a43f6c1
+SHA1: 9bb4003081904fd177d492b505bdc8c0b07efc41
+SHA256: 2f2a3a131e0edd363ce3b0f7af65f966cbf9de0988505fdc40936030f34d173c
+SHA512: e79b0e1f12a182b4e70b377bd022bcd8a8f30f9d4ef338eaa273d67237772431e1e98234404e8f242ba5f9f6cfd676bad33a36954de54e32623837eefb7cda51
 Homepage: https://pipewire.org/
 Description: PipeWire multimedia server - programs
  PipeWire is a server and user space API to deal with multimedia
@@ -55685,22 +55685,22 @@ Description: PipeWire multimedia server - programs
 
 Package: pipewire-jack
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 556
-Depends: pipewire (= 1.6.5-1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.5-1)
+Depends: pipewire (= 1.6.6-1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.6-1)
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-jack_1.6.5-1_amd64.deb
-Size: 128836
-MD5sum: ff729058e939ff1ea2b1a4af3bce91e2
-SHA1: 4c2092e117acb4ebabd222ee6a0e0bc325b6391a
-SHA256: b231165172bcb3a2d00db88690badc0d07d8e2d8041f5ae32fa3b27751d2e7bd
-SHA512: 0ff8b693ed7fd890c0527e7e70c9ff2a1e0424067a16db6668554bd5d364ee6ce202fe70ddaab5f00f6bf1ab40c0063e1d3b900f9fb613c11c1fe8d8a0e16380
+Filename: ./pipewire-jack_1.6.6-1_amd64.deb
+Size: 128856
+MD5sum: 7a1717484407f6fb248173847f839b53
+SHA1: ef71c53fb012a6b8e6b6c2a8cf0d95079e13e120
+SHA256: 8ac0399766b90771b30e8f978e57bd15082d1edf2627c0b3dbe83accc0ff38e0
+SHA512: 872a9b397f746f2a86f5febf1f7f0a625ffd5430518a6a5a28168d7f7ddff43952c1c5cc785c76576226ceac2727ae95fd9984c4282873143d5d944625510a91
 Homepage: https://pipewire.org/
 Description: PipeWire JACK plugin, for JACK applications to output via PipeWire
  PipeWire is a server and user space API to deal with multimedia
@@ -55715,25 +55715,25 @@ Description: PipeWire JACK plugin, for JACK applications to output via PipeWire
 
 Package: pipewire-pulse
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: foreign
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 53
-Depends: pipewire (= 1.6.5-1), dconf-gsettings-backend | gsettings-backend
+Depends: pipewire (= 1.6.6-1), dconf-gsettings-backend | gsettings-backend
 Recommends: wireplumber
 Suggests: libspa-0.2-bluetooth, pulseaudio-utils
 Conflicts: pulseaudio-module-gsettings
 Breaks: pipewire-bin (<< 0.3.27-2)
 Replaces: pipewire-bin (<< 0.3.27-2)
-Filename: ./pipewire-pulse_1.6.5-1_amd64.deb
-Size: 15236
-MD5sum: eabeecb19f79d0661e9fae3aaf1355a2
-SHA1: 26a56a837d6f9972e0721cd79fcbae923784cd3b
-SHA256: e5b777794fe35409bb351df69d37838cf2144fe97747d7296b2c5589a3d29069
-SHA512: a75de061c64d0f36e15d7339c9262410e4250718a726c0581fcf8ac81fb984212bae58fd7c524db270718eaed15e4ba8c6d4e1eb05720d1972efbcc68727b144
+Filename: ./pipewire-pulse_1.6.6-1_amd64.deb
+Size: 15252
+MD5sum: 188b6673cbd9571b5d31ce10a73a5a67
+SHA1: fe051f16f6fac09ca4af41a342611220bf7beb6e
+SHA256: 850780b9b890f9d8c5ccf4bb0c70fa424c231452acc78bf4b4aa729210f30721
+SHA512: a654ca478f1eb50b5cce322a7b30f9627cbb7c95e5b5a97f68ea499100a5423db956479000092e103cd5df1bc13a20f9b3c4bf31ab13e4e82e7e86eb5fb2c415
 Homepage: https://pipewire.org/
 Description: PipeWire PulseAudio daemon
  PipeWire is a server and user space API to deal with multimedia
@@ -55748,19 +55748,19 @@ Description: PipeWire PulseAudio daemon
 
 Package: pipewire
 Architecture: amd64
-Version: 1.6.5-1
+Version: 1.6.6-1
 Multi-Arch: same
 Priority: optional
 Section: video
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 135
-Depends: libpipewire-0.3-modules (= 1.6.5-1), pipewire-bin (= 1.6.5-1), systemd | systemd-standalone-sysusers | systemd-sysusers
-Filename: ./pipewire_1.6.5-1_amd64.deb
-Size: 115496
-MD5sum: 21961307dcfb60aa13e80b1aa2e978d6
-SHA1: 9de55e40e08e3b34ee6c92977680b5ebd2986c0f
-SHA256: bb5c9bcae31e2fd983c800e3921398bbf49b16c51be986a2e2e338fe82ac359e
-SHA512: 15b62e91775be941e02cbb94662873f18e8d592b5a9fd677e06722226e2e5eee750379c711e2bea49d76c945b7b609b7268e5ed94680d9ca520c5cf2f0e9c3cd
+Installed-Size: 136
+Depends: libpipewire-0.3-modules (= 1.6.6-1), pipewire-bin (= 1.6.6-1), systemd | systemd-standalone-sysusers | systemd-sysusers
+Filename: ./pipewire_1.6.6-1_amd64.deb
+Size: 115892
+MD5sum: 6742e0836ce3b84b31702bc9960a1560
+SHA1: 5cec897f64456195b73d8a2e202946e88ceb1ea4
+SHA256: baf0ac3cbd66ffb46d6172aa4c3bdb4bc6226d7ecd58f2bdf29dc32a6b6fb91d
+SHA512: 37ac3692482b0ff8715c815e27dfab43fa8a7a44fdbe2e84e61c0cc3019264138430403b248109e6fb7f9f2aed481554156e3ed828912f8279e4a70ba6be5ec7
 Homepage: https://pipewire.org/
 Description: audio and video processing engine multimedia server
  PipeWire is a server and user space API to deal with multimedia
