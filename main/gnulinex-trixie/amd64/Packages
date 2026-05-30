@@ -9556,18 +9556,18 @@ Description: Various applets for the GNOME panel - binary files
 
 Package: gnome-backgrounds
 Architecture: all
-Version: 50.0-1
+Version: 50.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 38776
-Filename: ./gnome-backgrounds_50.0-1_all.deb
-Size: 39042900
-MD5sum: a5f07d4b8a818eb321d323452abf8bd0
-SHA1: d89d5fe59c19c1445fff18993a613ffdc63952e7
-SHA256: 736731f53074f25f43b471725cfa416a98974bdc2853bf8e7a5cbc584c1218d3
-SHA512: 8e7fbb74dd1bd1bde86125b707a1c0eaa7a41fdd23a0e6eb5f2c638b9d51d5e5aaac90eabf07357c13b3d10b32e40da35b5316e6c4c206a0be0197654a24f86c
+Filename: ./gnome-backgrounds_50.0-2_all.deb
+Size: 39042936
+MD5sum: 86e7936b155c5a7e68893f0971488a0f
+SHA1: 7e81e8573db3ad4a7e082ac07911c54525ed3c5a
+SHA256: f802590ffe6ab1fd423c2054e1e3cd0aa9564efeeeae3e002d2cd24b97621c4d
+SHA512: cc7fa025eb69ee7a6226b27ee534a19d5ab8c6d4f2146ea26bb8818dea77ab2b54e990535d713e20f6f4db97d0f3faea88d416bbff2d8db340dbddfd7eeaaf6c
 Description: Set of backgrounds packaged with the GNOME desktop
  This is a collection of desktop wallpapers created with GNOME users in
  mind.
@@ -13175,20 +13175,19 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.21+dfsg1-1+b1
+Version: 8:7.1.2.23+dfsg1-1
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Source: imagemagick (8:7.1.2.21+dfsg1-1)
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 80
+Installed-Size: 79
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.21+dfsg1-1+b1_amd64.deb
-Size: 24628
-MD5sum: d8190eba21452a8246fa48ac14fcaeec
-SHA1: 84f0e806186b4bac8b467bdde1de705fa128f83f
-SHA256: 33c2d194a929367e44e4759359a95647c29b5a693b204161f446c75130a2198b
-SHA512: 9f40de7f6c23ebfd77c5c0955a203c086b5ce397ff8e5f592dea2fb60d82da647eb53f880d243caeb3de9c4e7980efcc3663bed02bd0b80fad1e61382d509829
+Filename: ./imagemagick_8%3a7.1.2.23+dfsg1-1_amd64.deb
+Size: 24704
+MD5sum: 78239ec4711bc69d1a33061babdf2441
+SHA1: deef9ca0bdeae884a129db909c0c2718dd4b38c7
+SHA256: 168db96203b5805ba37f9946a1bab19ce65d011305697e43bf47dd0f595f7e65
+SHA512: 760113f4612c05c65d6e9837d235810d75f106bacddc301deec1677a6bf3d4105e1cfa1e3323660d363425d9d9ca7397734f84a068f387f273412dde2dcb594a
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -13321,19 +13320,19 @@ Description: Base package for Java runtimes
 
 Package: jq
 Architecture: amd64
-Version: 1.8.1-6
+Version: 1.8.1-7
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Installed-Size: 133
-Depends: libjq1 (= 1.8.1-6), libc6 (>= 2.38), libonig5 (>= 6.8.1)
-Filename: ./jq_1.8.1-6_amd64.deb
-Size: 85156
-MD5sum: f52979f51144b2e841a389c1692a8905
-SHA1: 3fa66004b472625c7ddc371230c6b9a77ba4d0be
-SHA256: dcf839527b7181055c41724ac8b82a75d93e19cede435b236847a95b4c214924
-SHA512: f7497a16947949577a55f30a60b483c0ada1fbf937ef53ca67bd95e3c8e65c2dae0528d5562b5aea9ce2ea9e1b698a7be3258b1169315a97b2749e8ea74bb534
+Depends: libjq1 (= 1.8.1-7), libc6 (>= 2.38), libonig5 (>= 6.8.1)
+Filename: ./jq_1.8.1-7_amd64.deb
+Size: 85200
+MD5sum: 030f10d1c55ca40fefcac39ff7556630
+SHA1: d990e9ea97c70dba4c77ffd1c76c01cfc72c008c
+SHA256: e00af17502308b2faeffd9dbe62a9fd6f8f9e7c8927d37677b53723a8cc02006
+SHA512: 1b0709ea9c8318cbec38b6d1d695401a68390a575ef14221c7aa9617dc70b318fa205094d5b9fed1b59eccb5ec8ee35fec3396584c1a68c10e3b5b812b5d77fe
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor
  jq is like sed for JSON data – you can use it to slice
@@ -25127,20 +25126,20 @@ Description: libjpeg-turbo JPEG runtime library
 
 Package: libjq1
 Architecture: amd64
-Version: 1.8.1-6
+Version: 1.8.1-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: jq
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
-Installed-Size: 436
+Installed-Size: 440
 Depends: libc6 (>= 2.39), libonig5 (>= 6.8.1)
-Filename: ./libjq1_1.8.1-6_amd64.deb
-Size: 167200
-MD5sum: 607ee4cb72d4b02d1d32b0d6d17836c2
-SHA1: f960cce81b10b3c761f46e18212e341a91cdfbaf
-SHA256: f9a9a442d28e5693eb17b2864bdbc41887826442c8c59fac9e9dc4cc64465299
-SHA512: 78f8c29c37f771dbb1d9aadbc4ea446c056b9001b49b58b60e9a9d2a6055b7ccb7885bfc22d3e89a48d18bd0f6ec86bec99f3edde167b2de98fb2036e8510c19
+Filename: ./libjq1_1.8.1-7_amd64.deb
+Size: 168200
+MD5sum: 24155f657f08792bdc9f893a772b30ff
+SHA1: e22fc68c582d62d11283ecf02cabda93c7b382bc
+SHA256: 2ea4d589c8b6a4bb43ea4c019168ca35d3de98c52d771e7e1587221de85a1fd9
+SHA512: 82bd7687654a718c16fa9380a4e89114ebf901ccc9a0e0d1a89be9d109396d0388e58e514d6552db1fad8e7efbe6bff5ebf3b50bc4097828f4a8cf842148d0e9
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor - shared library
  jq is like sed for JSON data – you can use it to slice
@@ -32372,24 +32371,24 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.21+dfsg1-1+b1
+Version: 8:7.1.2.23+dfsg1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: imagemagick (8:7.1.2.21+dfsg1-1)
+Source: imagemagick
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 293
+Installed-Size: 292
 Provides: libmagickcore-extra
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.21+dfsg1-1+b1_amd64.deb
-Size: 77152
-MD5sum: 0d7f27825a8e89edc3f4556a7f634807
-SHA1: c5ea98019de28e756ffeaa0667238361b668503e
-SHA256: db202e0d5afc724e4ca71cbebcf50b245836a42e39955eabd28904d8e5305db3
-SHA512: 57f482919868e3f4271359bf159f02009f705527313e7fc039a84852050b5716b5642da3e0641869b6bbf0e9d912962ec267f5bf33f7ae220af10fd2a3e21d7c
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.23+dfsg1-1_amd64.deb
+Size: 77336
+MD5sum: 284b8bc1c1e0c61435a3e6be3c2f5274
+SHA1: 3206ec72a5be234f203688fd00b7fd3a8e528213
+SHA256: 770f61b6052269676a17648c3b91681f9497ed008788fd301d4b8aa42e6b0424
+SHA512: 4f0180228a17140f41809e929a470b3bd574abfe24bf79bf2951ace41df66e67db479f0a403b94d8c0e4cf12bb247cf4e92d07a46176833c83bf1b5c35ae02d9
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
@@ -37958,7 +37957,7 @@ Description: Qt 6 WebEngine Widgets library
 
 Package: libqt6webview6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37966,12 +37965,12 @@ Source: qt6-webview
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 88
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6webview6_6.10.2-2_amd64.deb
-Size: 20388
-MD5sum: 37bcd1cb160d299f2837ca7b0c24c5c2
-SHA1: 84842436b4e3c6fc3c8fc40bf45120e5654aaaa2
-SHA256: 22f64981d0b674d427db607dae278af257bfa46c9e0fe3c9b0d06a236709c10f
-SHA512: 4c1c0213c49cf0e85fab14886b0665a3c89f2833135ef092afcb00871526c60a3a5f60842018938fdc53f1b39ff428cd5713e26d20c21988acf5975656aa2a1c
+Filename: ./libqt6webview6_6.10.2-3_amd64.deb
+Size: 20408
+MD5sum: db26fbf1f339045d0b7a42bb7106ecc9
+SHA1: d90cc3635db7666b49c15027ec534830d8259f75
+SHA256: a9b0ac022b73b3db2de59768e43851b40852e650ef827552eb312f139f618e81
+SHA512: 8e0d59baab2a9bb8e15c7a0d6db72670b0c65d226f58ca6e5f179fe2c3d0a10934517f6cac14a3daa552b9ee70a098cb58b24b432d2da14d001cd792ef1315ba
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebView library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -57165,20 +57164,20 @@ Description: jaraco text manipulation functions
 
 Package: python3-keyutils
 Architecture: amd64
-Version: 0.6-3+b6
+Version: 0.6-4
 Priority: optional
 Section: python
-Source: python-keyutils (0.6-3)
-Maintainer: Gianfranco Costamagna <locutusofborg@debian.org>
-Installed-Size: 189
+Source: python-keyutils
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 188
 Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), libkeyutils1 (>= 1.4)
-Filename: ./python3-keyutils_0.6-3+b6_amd64.deb
-Size: 38864
-MD5sum: 5a3f394912cb9b62db4948a271b8f53e
-SHA1: 5de01ad35df64934e592870f8b48ea57d1081d88
-SHA256: c625030a5612eb22e95440517258b6336765315ea904bde294ebcb814ba81a6a
-SHA512: a523246df43d3536dfc8e0cbc6a22ce01d890ffeb438979503ece16d51222b3a750418af2580d858edf3e6eca720951ed48a68012edb139793a6cb9859657b9a
-Homepage: https://github.com/sassoftware/python-keyutils/
+Filename: ./python3-keyutils_0.6-4_amd64.deb
+Size: 38668
+MD5sum: c991b831206e60dbbb0aad8558cc519e
+SHA1: 71fb49f47bf4a15447f539b8e8227ab9b817af06
+SHA256: d761a8f5cf1dca5f2a0bdab292a300bb50b86d62f1317c83170ed5903bd2bd09
+SHA512: 8d5d8ba40c3c5a667ad6d5768d081db852ade1bd45ff41b9e3665e5a054e33dce1fd4a1f0edd00ecc7751b5bcf61c083abe44de5aed3a9da966f242389478aec
+Homepage: https://pypi.org/project/keyutils/
 Description: Python3 bindings for keyutils
  python-keyutils is a set of Python bindings for keyutils (available from
  http://people.redhat.com/~dhowells/keyutils), a key management suite that
@@ -59947,7 +59946,7 @@ Description: Qt 6 WebEngine QML module
 
 Package: qml6-module-qtwebview
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59957,12 +59956,12 @@ Installed-Size: 139
 Depends: qml6-module-qtquick, qml6-module-qtwebengine, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6webview6, libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
 Breaks: libqt6webviewquick6
 Replaces: libqt6webviewquick6
-Filename: ./qml6-module-qtwebview_6.10.2-2_amd64.deb
-Size: 29508
-MD5sum: 7f5b885cd197e62076a0ceb3c4e91aac
-SHA1: a0846815d54abfa94306becfd8fc3482db0b81fa
-SHA256: 9c4e1989a2d610b8bd71d68e1a7e6b6ff4845abe6b3da7e38dbf5faf885cad2f
-SHA512: 4c406d37f5b8202290fdf05a6b930d9fd978fa888c15ad4796aa64ba1089a61fd110d277077959404de994aa9a81eb68891f1c050aaa031457a1a0baf7e63076
+Filename: ./qml6-module-qtwebview_6.10.2-3_amd64.deb
+Size: 29688
+MD5sum: 8027bdc4dad67e38f7c9852e752a78d5
+SHA1: 3e2515a8b561a1ed6b68e6ef488151d053c92a30
+SHA256: 7745d3270e7cc589dae4976e693537e58440a7b56fb7adc3ca6a9f9a9ef88554
+SHA512: b21619e92fc2fc1e6a4390a05846939ac015a0b6de7ba85f0cd8a9f5cfe8e4535c6ffa211636f5095242bc987999b6ca284b1bb29c4cf2d78cc8d004e28731d6
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebView QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
