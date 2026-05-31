@@ -2019,22 +2019,22 @@ Description: transitional dummy package for fonts-culmus
 
 Package: dbus-bin
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 191
-Depends: libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-4)
+Installed-Size: 187
+Depends: libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5)
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-bin_1.16.2-4_amd64.deb
-Size: 80864
-MD5sum: 7053ea9338d3f85990826e26749d0990
-SHA1: 6ed6a07468cf38cd326d6b9cdd86a54311f66709
-SHA256: b3d8a4e01f4ce4df90bb32002aae3706ce0940a54a1fbed5e14c49198068eedb
-SHA512: a16111a5882a75ca5ebd84951b2d2b3270fac9bc695685fe877a78a51d67e9c3b2b585ed3f9971bba2264fecff1b85565e90bcf4969998a414478d849f603d6c
+Filename: ./dbus-bin_1.16.2-5_amd64.deb
+Size: 76372
+MD5sum: 36ff8d4c2a3f612e3d7cff9dc67e0aeb
+SHA1: 1b3a543cf41b6beca717d59f733897574d0df218
+SHA256: 22943e6e4972a518a50436d3655e605dc9e51a35d50e3f9f4a9511986192aa82
+SHA512: e1f9a6c4329e77fad566b3f3ce032d6a882fb5ea77205fd2fc766bf4eb9b51eccba43212f66fe11e3474ab0953a34ed6c5cdcb83fb0e2e2d5586c00bda8cfc85
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (command line utilities)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2072,22 +2072,22 @@ Description: Linux D-Bus Message Broker
 
 Package: dbus-daemon
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 353
-Depends: dbus-bin (= 1.16.2-4), dbus-session-bus-common (>= 1.16.2-4), libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libdbus-1-3 (= 1.16.2-4), libexpat1 (>= 2.1~beta3), libselinux1 (>= 3.1~), libsystemd0
+Installed-Size: 349
+Depends: dbus-bin (= 1.16.2-5), dbus-session-bus-common (>= 1.16.2-5), libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libdbus-1-3 (= 1.16.2-5), libexpat1 (>= 2.1~beta3), libselinux1 (>= 3.1~), libsystemd0
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-daemon_1.16.2-4_amd64.deb
-Size: 160336
-MD5sum: 0ba70ff0d69bdec9d255a190809e3f10
-SHA1: e24325e3640d97ed3623c9262102f4078eb7e412
-SHA256: 6274c0971a6b5ee7778b48db04252cad00219ced9e4dc7c728d52db9f42cf5ec
-SHA512: 472d23844c98b825c63188e302a4c6969f50a25f719f3a12d98c3f24e73d7f87b06defdf8b48cd3025d834fbd7b8aee69278b63d9d908b14de738264d574b255
+Filename: ./dbus-daemon_1.16.2-5_amd64.deb
+Size: 155884
+MD5sum: 77aecca87c84b70466589d4f62858d83
+SHA1: c11e8b5441ba0c31e35c1e2ff3914d15f0cd107d
+SHA256: af25e1e7bcdb1b602a8898af26cc82c63a0ede4eb23c4820a2ecd9a19dc360c1
+SHA512: c732360c1736d2509cc852c1d45638ee4933c84395fea8125c82618eea068939add137985948ecaa829e47a44adbf5631a8ef3cba89661c2747ada30bd2a8ce4
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (reference message bus)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2105,21 +2105,21 @@ Description: simple interprocess messaging system (reference message bus)
 
 Package: dbus-session-bus-common
 Architecture: all
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 81
+Installed-Size: 77
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-session-bus-common_1.16.2-4_all.deb
-Size: 53116
-MD5sum: 2d4a52fb378c761fa4cb90ad45c091c5
-SHA1: a05f57c86cd8087f2c1fd3ebd69df161d5825067
-SHA256: 2cae58e1b7023012178e194331a097d57aab5e12497b8ba3ddb0da2a3e0625c3
-SHA512: 0c8a918af32b702daf567426f7a3a8eb30a01f7d8571364e1782492d56cce65bd4a6115516109a281cdee6a8521299ef799d7ca997bcbacbfab960f4570b9733
+Filename: ./dbus-session-bus-common_1.16.2-5_all.deb
+Size: 48664
+MD5sum: 3612759dbd989f2fc0c28f79c1a8fee2
+SHA1: 9f6457fd2dcbcd8d0125edd30b646b260796ce75
+SHA256: 0bf0a824696dc4b5d40ba1614fb06c408651405206e6c23d926f0337fd0a8430
+SHA512: fa62bf666577f5ac8a202fb5681d130f8fcc07753c5cb1152f0590686a69ab0efa058fd63333394b67c0bde9230992bfbba0081443a802025d603925fe6d1aec
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (session bus configuration)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2138,22 +2138,22 @@ Description: simple interprocess messaging system (session bus configuration)
 
 Package: dbus-system-bus-common
 Architecture: all
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 92
+Installed-Size: 88
 Depends: systemd | systemd-standalone-sysusers | systemd-sysusers
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-system-bus-common_1.16.2-4_all.deb
-Size: 54128
-MD5sum: 57187f4aa556d8742172a3698357fe8e
-SHA1: 4fed94e3e498e06167e09d91abc1d90ae7472793
-SHA256: 82be6bfc80579a50379e53818554fd5f5beb239067ec23229729f19ccaa9a172
-SHA512: a75e552bad77ccb969820de090ad8fa5d505718ea0d496e7c0f807e4d3a3db71f702dcf28206286469686b237fef8ec4ad320d77379cffc6bb7310c138fd7851
+Filename: ./dbus-system-bus-common_1.16.2-5_all.deb
+Size: 49644
+MD5sum: 0cd94534ee9feb20ebb34637499f5b7f
+SHA1: 65d9c5e1e1b56d6509e7ea94da03ac7d6b51f362
+SHA256: 6b054795274bb34c9406128c9fe6164c13a667a3c6cf475711e2c83e85d694f0
+SHA512: bf8098a3f7a207aa1503ef524b8aa6f27942cdf77d2bd11fd44b4c37ca9bb312ffbba8427bf9589d8494aafd48049b60319891ae1e70671b392ca3283b976f4b
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (system bus configuration)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2174,21 +2174,21 @@ Description: simple interprocess messaging system (system bus configuration)
 
 Package: dbus-x11
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 116
+Installed-Size: 112
 Provides: dbus-session-bus
-Depends: dbus-bin (= 1.16.2-4), dbus-daemon (= 1.16.2-4), dbus-session-bus-common (>= 1.16.2-4), libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-4), libx11-6
-Filename: ./dbus-x11_1.16.2-4_amd64.deb
-Size: 66048
-MD5sum: 01fcaeca2ac025ba5d49057f4ffff214
-SHA1: 1849f7ea70bbe9bc78efbb11d4f960c3de1451e1
-SHA256: 82196d561d6187d3e617667c58f280e8f74815218a4166c2434a7a4c8b3160f4
-SHA512: 8d817cfedd1709938e2a29a850e3194e3ae874241cbdcbbe8e9fa940e60eeea50a82985e1a3fc4dea6740fa1741840fbb2a878c767bebbbb5945be61d510a602
+Depends: dbus-bin (= 1.16.2-5), dbus-daemon (= 1.16.2-5), dbus-session-bus-common (>= 1.16.2-5), libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5), libx11-6
+Filename: ./dbus-x11_1.16.2-5_amd64.deb
+Size: 61552
+MD5sum: 28bda335d857102b632033efbb22ab78
+SHA1: 9fcecad7ed72b221d8bbf21755c31607a4ea3077
+SHA256: 013ed8c6ed26efd869a583a59333db56a7c78344cfcb468d111e9bcbf61cc013
+SHA512: 3fd8d20bc035fff70a1656f93ded04efc90859385807bda996090e2325b338e1f2b899a79ba12e9889b435a3ff5694350e7ecd6aa9601241f81726b75cb83e60
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (X11 deps)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2204,22 +2204,21 @@ Description: simple interprocess messaging system (X11 deps)
 
 Package: dbus
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: foreign
 Priority: standard
 Section: admin
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 154
-Provides: dbus-system-bus (= 1.16.2-4), default-dbus-system-bus
-Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: dbus-bin (= 1.16.2-4), dbus-daemon (= 1.16.2-4), dbus-system-bus-common (>= 1.16.2-4), libc6 (>= 2.34), libdbus-1-3 (= 1.16.2-4), libexpat1 (>= 2.1~beta3), libsystemd0
+Installed-Size: 150
+Provides: dbus-system-bus (= 1.16.2-5), default-dbus-system-bus
+Depends: dbus-bin (= 1.16.2-5), dbus-daemon (= 1.16.2-5), dbus-system-bus-common (>= 1.16.2-5), libc6 (>= 2.34), libdbus-1-3 (= 1.16.2-5), libexpat1 (>= 2.1~beta3), libsystemd0
 Suggests: default-dbus-session-bus | dbus-session-bus
-Filename: ./dbus_1.16.2-4_amd64.deb
-Size: 72396
-MD5sum: 81d8ef093bc9b10f89f664a22b574cb3
-SHA1: 03342e594b778a7869db991a46cf7c79e4974182
-SHA256: 3de75d2155fa11325767e30cb84a458014f9a0df2b9afedd0d2df8cb3a19077f
-SHA512: a90c61fcd16a51c9db5235d47788f31cfc1b6040b5d28a4779628a81c16cf935d46258552f7642a6e2aed5551f0a5d52b51915bf679519d11a0510d4d8efc61e
+Filename: ./dbus_1.16.2-5_amd64.deb
+Size: 67856
+MD5sum: 9d4f1205712008973d3bf2dfacd7bf1b
+SHA1: 7115ef3709f9dd78b70d6393ce0103dd19634a26
+SHA256: 19f0b8de633d220015b6e70bfb42c28b30fc82a9fc219b363d86e5fbeb570db0
+SHA512: 6c9e2f594d920cde6d6dc27ed0aeed58535a8b5982f0ee4e0ede02c83f5c48a33fdd98ad4fcdf5516ebe6594f595b2960e9ab87522668bcf3aeb4d11ba893c1e
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (system message bus)
  D-Bus is a message bus, used for sending messages between applications.
@@ -17922,21 +17921,20 @@ Description: Double-array trie library
 
 Package: libdbus-1-3
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 450
+Installed-Size: 446
 Depends: libc6 (>= 2.38), libsystemd0
-Recommends: dbus
-Filename: ./libdbus-1-3_1.16.2-4_amd64.deb
-Size: 180004
-MD5sum: c64d3f9f6ec629ea7669a389d9b9d1fe
-SHA1: f94fcde371f998cbc8691837ba3d0fc6d296be46
-SHA256: 98ecee4eb2bedde2ac7e5ef38fdcd1285e49a57d50cf8dc2bb032d4f855a460a
-SHA512: 5f842d428c9459a313e9af9bd0358c1348130bf1bb90a7291321d9bb488f2637ac328e26ba2793741e1520356a6e552f84d4d83777da4c6f358445339a8a3005
+Filename: ./libdbus-1-3_1.16.2-5_amd64.deb
+Size: 175548
+MD5sum: ad27714c4739472c74f7ac0101b1d9c3
+SHA1: f716cabe553810b5280e7bff02e90d7a95e1a8ae
+SHA256: c1dba33f77b2b00f0c71a133e631651c3fe84780fcd125200920d74ba0250ad2
+SHA512: b991a6be8668e8d9f13cc116a881635121548758a9c6f3a8b599c15fbe961f1fb04a470d752e74617f955adc3f0cf5873ddf7f542f5de734158fa29ad9ebd92e
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (library)
  D-Bus is a message bus, used for sending messages between applications.
@@ -17955,20 +17953,20 @@ Description: simple interprocess messaging system (library)
 
 Package: libdbus-1-dev
 Architecture: amd64
-Version: 1.16.2-4
+Version: 1.16.2-5
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: dbus
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 952
-Depends: libdbus-1-3 (= 1.16.2-4), libsystemd-dev, pkgconf, xml-core (>= 0.14)
-Filename: ./libdbus-1-dev_1.16.2-4_amd64.deb
-Size: 217276
-MD5sum: 614f1cc4a7db89829d876dedbed3db29
-SHA1: c54e27d5cbc7db357940f3c0ddfa92677f214bfd
-SHA256: 5303b26a7fa562897b20b4644d201799400a67dbbd0b1b9f151c92abe49d120d
-SHA512: a6aba99aa6fc749b6b5eaa69a38b0fd8537383a3111ec10a66353d4a3acbb1c47a7e3dee86772e34c859bc0a5fb717d8ea2b1e2dbb2226765ae2f2ad28bb2f60
+Installed-Size: 948
+Depends: libdbus-1-3 (= 1.16.2-5), libsystemd-dev, pkgconf, xml-core (>= 0.14)
+Filename: ./libdbus-1-dev_1.16.2-5_amd64.deb
+Size: 212744
+MD5sum: d1099723aa104427adadf2db00e9e4fd
+SHA1: 2f427df41a658c3c326ee302ac57f9c1dc546cf1
+SHA256: a7fe7d4921b950ce39ba0e044490038fe67274cdbe3233f9e7ee14b1efe35e02
+SHA512: 357416489a904f3b5b511216edcbdaaa71878f9e8f3d0d2c73473b9febbb780dfa57d03c557ab18ab952446df7abc4937cf98bf39b1549774377b59141c1eecf
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (development headers)
  D-Bus is a message bus, used for sending messages between applications.
@@ -38159,23 +38157,23 @@ Description: GCC Quad-Precision Math Library
 
 Package: libquazip1-qt6-1t64
 Architecture: amd64
-Version: 1.5-1+b2
+Version: 1.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libquazip1-qt6 (1.5-1)
-Maintainer: Ben Westover <me@benthetechguy.net>
-Installed-Size: 304
-Provides: libquazip1-qt6-1 (= 1.5-1+b2)
+Source: libquazip1-qt6
+Maintainer: Ben Westover <bjw@debian.org>
+Installed-Size: 303
+Provides: libquazip1-qt6-1 (= 1.5-2)
 Depends: libbz2-1.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
 Breaks: libquazip1-qt6-1 (<< 1.4-1.1)
 Replaces: libquazip1-qt6-1
-Filename: ./libquazip1-qt6-1t64_1.5-1+b2_amd64.deb
-Size: 95664
-MD5sum: 5d995ac49ea2c55ae7b20b2990060c04
-SHA1: 8b4c751a23be43fac5e0e2fcb4e63ee241968a18
-SHA256: 39d1cf71754cfcb0a0457ff706078568f182b5becc619d3e1c12543cfc463dc9
-SHA512: f8cf8531fe8d2835ac37d03ee83f072570697b80997ae709097ee134eb7859a9a16038c9685e17be2dab695d567b06f1a3fda8aa0b90f6a580ae0ebefb65407e
+Filename: ./libquazip1-qt6-1t64_1.5-2_amd64.deb
+Size: 95272
+MD5sum: 9b38e7e9918287fd585eafa485006c5f
+SHA1: 5ab0f60ef816b2ea6028266882151069473a2653
+SHA256: 00734e0a05d7cd1f192e28a7829f084763ee5554cbc4a52c52b1b0f5fb908ca8
+SHA512: 80f91fcbd48107f2b69cfc3c72ec34e99eefcde340bd5be0d12f959ede434282dae6f775c94cb0c08e6174d0287bfabbc57e30e99b733be79b013c3e03867dd2
 Homepage: https://github.com/stachenov/quazip
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt6)
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
@@ -38185,20 +38183,20 @@ Description: Qt/C++ wrapper over minizip - Version 1 (Qt6)
 
 Package: libquazip1-qt6-dev
 Architecture: amd64
-Version: 1.5-1+b2
+Version: 1.5-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: libquazip1-qt6 (1.5-1)
-Maintainer: Ben Westover <me@benthetechguy.net>
-Installed-Size: 193
-Depends: qt6-base-dev, libqt6core5compat6-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1t64 (= 1.5-1+b2)
-Filename: ./libquazip1-qt6-dev_1.5-1+b2_amd64.deb
-Size: 37440
-MD5sum: 215be8b3060c764e091f4db6a9c896ff
-SHA1: 3872a9dea91a2c8d02d0479d84e64ff3ece033a6
-SHA256: 465283ad5a0d8da31e1577def7067b16670e6818e96ff20a17ab3c926f83f52b
-SHA512: 3a82eb69550bdc51b25dffd78c0e77cda9d925c0668cf71781209ad4e1c973ca382e135c43dae970a37bce39d2ed30a7de331d50403984108ae1da8b2d9afb87
+Source: libquazip1-qt6
+Maintainer: Ben Westover <bjw@debian.org>
+Installed-Size: 192
+Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1t64 (= 1.5-2)
+Filename: ./libquazip1-qt6-dev_1.5-2_amd64.deb
+Size: 37192
+MD5sum: 4b29a33d321af51d97ff6c4c62f8ea96
+SHA1: 46e357488c995487727de76d9b372be83d9045da
+SHA256: 80b9e013f284e2cd0c28d0cc9983294e0d255f6d3ea2fbd9905724ab93bb220b
+SHA512: 62bc0ebf38bb9fcb1021374c26d6186f3618a39d1a11a68c1c3b29e4e0ad72c82031f93363bbf2f95dcf2ca57a74c72fad174b040e937f62c01b578dd01d8d4e
 Homepage: https://github.com/stachenov/quazip
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt6) - development files
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
@@ -49738,21 +49736,21 @@ Description: Utility functions library for Xfce4
 
 Package: libxfce4windowing-0-0
 Architecture: amd64
-Version: 4.20.5-1+b1
+Version: 4.20.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libxfce4windowing (4.20.5-1)
+Source: libxfce4windowing
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 318
+Installed-Size: 319
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdisplay-info3 (>= 0.3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0+git20210214), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 3.2.0), libx11-6, libxrandr2 (>= 2:1.5.0), libxfce4windowing-common
 Breaks: budgie-core (<< 10.9.2-4~), xfce4-panel (<< 4.19.5~), xfdesktop4 (<< 4.19.5~)
-Filename: ./libxfce4windowing-0-0_4.20.5-1+b1_amd64.deb
-Size: 113196
-MD5sum: 96b713b4c60d4c5313bac78a6652627d
-SHA1: 17a93ff269e3b85ed583479c5a8d3a4496b4cdae
-SHA256: f98153a6670e167a0bfbf5b7ea353d229c87d9298c7bea07f580025866940d4f
-SHA512: 2562005c651c1bb99f832f859623741c6a64ccbd2117ee201f9a8d481fd7025dd97075327c49233776130f3b5f29c5890c45cdf4616afa2835a2dd95f8c7440c
+Filename: ./libxfce4windowing-0-0_4.20.6-1_amd64.deb
+Size: 117048
+MD5sum: 8a4e3129c7297c99e82a5401df3f0aba
+SHA1: 9642363faeb738571bb0949869de30bb5534cd88
+SHA256: e904aa6392afa59f5b1cbe1c3d8a1dec60ce98710872440e6b832198ef8c66aa
+SHA512: b579d7d58ecaa91314d526934fe3250d5c45136ea5fdb10a41ef038ec0b8400186e2f2206ca4d2988f1abade6887c2c38458a5f0799d7e10d14dd5aa8e9c042d
 Homepage: https://docs.xfce.org/xfce/libxfce4windowing/start
 Description: Wayland utility functions library for Xfce4
  an abstraction library that attempts to present windowing concepts (screens,
@@ -49760,19 +49758,19 @@ Description: Wayland utility functions library for Xfce4
 
 Package: libxfce4windowing-common
 Architecture: all
-Version: 4.20.5-1
+Version: 4.20.6-1
 Multi-Arch: foreign
 Priority: optional
 Section: xfce
 Source: libxfce4windowing
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 250
-Filename: ./libxfce4windowing-common_4.20.5-1_all.deb
-Size: 58188
-MD5sum: f992148b2e71b3028db6f380bb139604
-SHA1: 1eba00b53b94fd02354c34eb2fadac78f649591b
-SHA256: 005eaea51a7f1382932de70e460686c43d022ebf4a93ede1d6e411240a38839e
-SHA512: 8787c8773f9c6ca2f5a3d44cc1315f2111c564ed9b9a8d5f1d3640f6dc419f89417625c0bfbf117358d0866829d1f23d9653def3eb6c3b8c76ea1b7c32ef56f2
+Installed-Size: 257
+Filename: ./libxfce4windowing-common_4.20.6-1_all.deb
+Size: 61420
+MD5sum: 7b65456fd9549e3e8d93573afaadfef9
+SHA1: 31a88f41a6acac80e8b2d8504dd4053018c893f8
+SHA256: 16e58040a549075ed3fccd2f9a2cb292452427651c26cf6c86c7a0340d5fbecb
+SHA512: 67aa3d0ab3319b31cddcc5d831f7b465947ff65089f4e0929d94e620e67400565fc71691f5fd9341c6111d302116ccddcdcb9bf56a88da70e42c09d892f848ab
 Homepage: https://docs.xfce.org/xfce/libxfce4windowing/start
 Description: common files for libxfce4windowing
  This package contains various architecture-independent common files for
