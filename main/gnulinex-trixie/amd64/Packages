@@ -8202,20 +8202,20 @@ Description: gir files for the GTK+ syntax highlighting widget
 
 Package: gir1.2-gweather-4.0
 Architecture: amd64
-Version: 4.4.4-4
+Version: 4.4.4-5
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: libgweather4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 36
+Installed-Size: 33
 Depends: gir1.2-gio-2.0, libgweather-4-0t64 (>= 3.91.0)
-Filename: ./gir1.2-gweather-4.0_4.4.4-4_amd64.deb
-Size: 11236
-MD5sum: b4cf856645cdc837df7ca4ef59e79e3c
-SHA1: 9f35a5def453e71d05b628c755cdc12427980da3
-SHA256: af2f3327fd6ed5612a80b18c7c07573ffd08466affdd4388fcdb5f54b8d2ff2f
-SHA512: 05881515c207fae559b4771107dd8a08685ca287ee3b1a1cec98d515cb62342b2f8d0c506c03254066122bff87567f898cf819b088e93cba1d536c10642c1b09
+Filename: ./gir1.2-gweather-4.0_4.4.4-5_amd64.deb
+Size: 8068
+MD5sum: a251ddb6b1bd9cfeb541eb0381f46ebe
+SHA1: b6b336ba65bb3ddfa851d2a216c2a8b8fe60e08b
+SHA256: 05ced4fe6dbe50e2eed6131e2093571aeed754ae38bfb3b81ecc55fca43bef2f
+SHA512: b3dec477bcbc24af42a93fe421e1c86545aa093eb4327046f508626a9add5731ec32d4accb84ba4765e8c9829e8a71d77d786e9b792e0fe1cfddb97ae31dbc2b
 Homepage: https://wiki.gnome.org/Projects/LibGWeather
 Description: GObject introspection data for the GWeather library
  libgweather is a library to access weather information from online
@@ -17336,20 +17336,20 @@ Description: library to read digital audio CDs with error correction
 
 Package: libcdr-0.1-1
 Architecture: amd64
-Version: 0.1.8-1
+Version: 0.1.9-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libcdr
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 788
+Installed-Size: 789
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), liblcms2-2 (>= 2.2+git20110628), librevenge-0.0-0, libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libcdr-0.1-1_0.1.8-1_amd64.deb
-Size: 410728
-MD5sum: 7e57fe73212ec8f6ea0fc826a12c2def
-SHA1: 3eb7e7050764d0f4cdfb4eef312c3179df199ee0
-SHA256: 3dbc55e9a571c014dfa70b0b95411bdc3d9c04bd866503dc08b7cb08331db846
-SHA512: d1db8e581fffe941b60b78e8165c4bb83f6097be0a1723ad55091e4111d6e9a7b003681bc9cadaa95ac445279f00b0059ac392d781d26847bcb1278e9a14f54f
+Filename: ./libcdr-0.1-1_0.1.9-1_amd64.deb
+Size: 412460
+MD5sum: efefcfa2fb75e127f8f89e83d83bc8af
+SHA1: 82bd769ad478841d8da14775a7dd4b49c16d4ef0
+SHA256: 0714ef2e105dd6643a9c925ddd723d22a78c0caeb0ea21d540d38d512b926760
+SHA512: 021f49a2a62a11112c256393b976a89b1424afb47d95f0ec52bf72b454c0a49b905e5bbeb6bef6c6b2055011d1aa2091c2615a0f9a58aa445e57a51176c368f7
 Homepage: http://freedesktop.org/wiki/Software/libcdr
 Description: library for reading and converting Corel DRAW files
  libcdr is a library and a set of tools for reading and converting binary files
@@ -23982,23 +23982,23 @@ Description: VNC GObject wrapper (runtime libraries)
 
 Package: libgweather-4-0t64
 Architecture: amd64
-Version: 4.4.4-4
+Version: 4.4.4-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libgweather4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 865
-Provides: libgweather-4-0 (= 4.4.4-4)
+Installed-Size: 862
+Provides: libgweather-4-0 (= 4.4.4-5)
 Depends: libc6 (>= 2.38), libgeocode-glib-2-0 (>= 3.26.3), libglib2.0-0t64 (>= 2.80.0), libjson-glib-1.0-0 (>= 1.5.2), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1), libgweather-4-common (>= 3.5.0)
-Breaks: libgweather-4-0 (<< 4.4.4-4)
+Breaks: libgweather-4-0 (<< 4.4.4-5)
 Replaces: libgweather-4-0
-Filename: ./libgweather-4-0t64_4.4.4-4_amd64.deb
-Size: 317872
-MD5sum: 7ec29ffd94c714f87c73a994a038ef1d
-SHA1: 329e804be4f04a06bd7cbefec04ca28c8f9e5c70
-SHA256: b2e63077d0f87f8650814e90e7b73d0a03f9d2541176ad040473760155729ae4
-SHA512: ff37a8635915dcfd909e139155547a8d53be344015b19ec082a0a7cef569b3dc135afaf57dc3630c26d8efa096b3a917c4a1cff99070d4773cd0327ca33a9e4c
+Filename: ./libgweather-4-0t64_4.4.4-5_amd64.deb
+Size: 314960
+MD5sum: fd9000c608bfc3949c9980535d9d21c3
+SHA1: 964438c33de65e18f91da9db5199454d55556e1d
+SHA256: d3e181c1990e4159a199c7cfb97a0f07df043a592ad23f887c5094c10623ea24
+SHA512: 90d6e4a4362bd16d6aabfe58bc2391ff0f589f2f31e437ed0439b15e8a87a9f08e5d581df829e0de618d7c24fed4921afd719dc6b2ee90948fe6d8110e682e1e
 Homepage: https://wiki.gnome.org/Projects/LibGWeather
 Description: GWeather shared library
  libgweather is a library to access weather information from online
@@ -24008,20 +24008,20 @@ Description: GWeather shared library
 
 Package: libgweather-4-common
 Architecture: all
-Version: 4.4.4-4
+Version: 4.4.4-5
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libgweather4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 22805
+Installed-Size: 22802
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./libgweather-4-common_4.4.4-4_all.deb
-Size: 2538176
-MD5sum: c4d3d0c93670fce7a92a1c093ecf9561
-SHA1: fdbd57749c7c617f257632551a6b1e4befd9d948
-SHA256: f0386e718d6c9020a00d8ad2508e497bd13786695e9f502ce3205e132b584e49
-SHA512: 3ff3edf385df093dab702d60bba5ee658b42b951499d4d3cb15d81773607d02d22851a921f1f7e815a663bb583c7f1689b80a82e7f570e1da16eb3321c063ecb
+Filename: ./libgweather-4-common_4.4.4-5_all.deb
+Size: 2543380
+MD5sum: 4d9a027f25fad8ae0fcc416a84dd30eb
+SHA1: f356a534f53ec39227cbfe1024fcde1c8a7f4f72
+SHA256: 78784aa1f9e5ab325ea2df06c823b7a287f5aca29810177bd07fb89f90244cb3
+SHA512: 0ccd9dc6ef7a0bf9e5a6dc9492dfec1315cb6e81e698903f42a0d5746ab98612fdcd898f3d223e719e645846feef9f306f7dd76aa3b54a2bc64e41f1fb15f14f
 Homepage: https://wiki.gnome.org/Projects/LibGWeather
 Description: GWeather common files
  libgweather is a library to access weather information from online
@@ -47924,7 +47924,7 @@ Description: C library for processing UTF-8 Unicode data (shared library)
 
 Package: libvisio-0.1-1
 Architecture: amd64
-Version: 0.1.10-2
+Version: 0.1.11-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47933,12 +47933,12 @@ Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 867
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0, libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1)
 Breaks: libvisio-tools (<< 0.0.15~)
-Filename: ./libvisio-0.1-1_0.1.10-2_amd64.deb
-Size: 323700
-MD5sum: 70f3149c071cf4c8f57a30a22cf364a3
-SHA1: 236ab02462585429d9cc58872b985d532d3ccd9e
-SHA256: 5c9526c5e72e04f7f76b6ff99966f3e17bb2a4ac82813acd5b48b5e560a206e9
-SHA512: 076d8ff8bdf4a1de7c0654af9b2b3d77857bd7376349198399fb73623639f5778d52b7b34a528581c581fbc66705fbc4f7266733f9b659e0c3a0cc20aac10b02
+Filename: ./libvisio-0.1-1_0.1.11-1_amd64.deb
+Size: 325284
+MD5sum: b6083294da8556a66d4fc6bcdc922e0c
+SHA1: 80e22813e831da9cc85ff0b17fe1f6c537a9f18b
+SHA256: 88520bf79c01002fc600c2f9a2c6ce5633210e670a5bf26bc2f33449180e12a4
+SHA512: 8f6f844c189d5e41e9bb9ee8d975da49ec82bdb52a935a37d3c2a5d20fb0009c68b651d641c65c4dcb259488b297711b477ac1bdbe1c119bf094b3de414b211e
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: library for parsing the visio file structure
  Libvisio is library providing ability to interpret and import visio
@@ -54914,21 +54914,21 @@ Description: OpenJDK Java runtime, using Hotspot JIT
 
 Package: orca
 Architecture: all
-Version: 50.1.2-2
+Version: 50.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 17762
+Installed-Size: 18146
 Depends: dconf-gsettings-backend | gsettings-backend, python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-wnck-3.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gir1.2-atspi-2.0 (>= 2.56.0~), python3-brlapi, python3-cairo, python3-gi, python3-louis, at-spi2-core (>= 2.56.0~), python3-speechd, python3-dasbus, python3-dbus, python3-setproctitle, python3-psutil, speech-dispatcher, gsettings-desktop-schemas, xkbset
 Recommends: xbrlapi
 Suggests: brltty
-Filename: ./orca_50.1.2-2_all.deb
-Size: 2195672
-MD5sum: 8a879c48bb43b7492f9a2206d56c7cdc
-SHA1: 215255412f0548c5cdbc6853d3c7de0dce162213
-SHA256: 4e9619407ca4cf111fa51f1fd2c5fda453ec2159feacd881fd2656ba92c9d1e6
-SHA512: 8a889754cd2b0413eb418b98d3f79010ed7a2700eb6d9069810934e35c8da836c3de29484a198b201eca7ae17918c47ff460a37479f9e642095e4bed8bfbfea3
+Filename: ./orca_50.2-1_all.deb
+Size: 2235668
+MD5sum: 229f250146e95e0e3b67e7125e4fa7b4
+SHA1: 6fdd68e544f39df896ed4b9bf2f4db319b2e5108
+SHA256: a6edef018a0a465838c305ed71f9adbd2cd2fa79162f79eb4da90a972373e8e1
+SHA512: 324eec0d577a1197fd3b6c2d49b5de3894c8939da833f367e28ae4cf649208b2284ea807719b3fe2d29de78ece000d76d56917b57f56d37b29e697b1e05ffcd5
 Homepage: https://wiki.gnome.org/Projects/Orca
 Description: Scriptable screen reader
  A flexible, extensible, and powerful assistive technology that
