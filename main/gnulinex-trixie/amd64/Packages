@@ -12344,22 +12344,22 @@ Description: PostScript and PDF viewer for X
 
 Package: gvfs-backends
 Architecture: amd64
-Version: 1.60.0-1
+Version: 1.60.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gvfs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1856
-Depends: gvfs (= 1.60.0-1), gvfs-common (= 1.60.0-1), gvfs-daemons (= 1.60.0-1), gvfs-libs (= 1.60.0-1), psmisc, dconf-gsettings-backend | gsettings-backend, libarchive13t64 (>= 3.0.4), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.83.0), libgoa-1.0-0b (>= 3.57.1), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libgudev-1.0-0 (>= 146), libimobiledevice-1.0-6 (>= 1.3.0), libmsgraph-1-1 (>= 0.1.0), libmtp9t64 (>= 1.1.21), libnfs14 (>= 1.9.8), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.101), libsmbclient0 (>= 2:4.12.0+dfsg), libsoup-3.0-0 (>= 3.0.3), libusb-1.0-0 (>= 2:1.0.21), libxml2-16 (>= 2.14.1)
+Installed-Size: 1857
+Depends: gvfs (= 1.60.0-2), gvfs-common (= 1.60.0-2), gvfs-daemons (= 1.60.0-2), gvfs-libs (= 1.60.0-2), psmisc, dconf-gsettings-backend | gsettings-backend, libarchive13t64 (>= 3.0.4), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.83.0), libgoa-1.0-0b (>= 3.57.1), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libgudev-1.0-0 (>= 146), libimobiledevice-1.0-6 (>= 1.3.0), libmsgraph-1-1 (>= 0.1.0), libmtp9t64 (>= 1.1.21), libnfs14 (>= 1.9.8), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.101), libsmbclient0 (>= 2:4.12.0+dfsg), libsoup-3.0-0 (>= 3.0.3), libusb-1.0-0 (>= 2:1.0.21), libxml2-16 (>= 2.14.1)
 Recommends: gnome-keyring | kwalletmanager
 Suggests: bluez-obexd, openssh-client, pkexec, samba-common, wsdd
-Filename: ./gvfs-backends_1.60.0-1_amd64.deb
-Size: 353008
-MD5sum: 5bd812fedac85c48a5113489e116fdaa
-SHA1: 97828c11817e7850f115f47b0aa8f4cf4a7ce750
-SHA256: d194bfb43fd2b480e68cef9aef54f7f5a00dec28dc99c49afaeba984c9b6b097
-SHA512: 81dd4e2095216ecc1f849082ef868b326a82562af13df54dc3e8749564197833762bfe8f92a302d65b555fa48b7acd089bfb40e07e4d96837eb9a2b21779d4e2
+Filename: ./gvfs-backends_1.60.0-2_amd64.deb
+Size: 353060
+MD5sum: 5f49aad65fb788f4d4401886dbbc3e07
+SHA1: 8f552f1f2deefc02cd3cbd03a33d57be0afb58d5
+SHA256: a21062beb70ec14f7a84e6f724fcb1dbc26e4a235200a4d6180c72ef94b6c20a
+SHA512: 8cbc8e99f0b0fb1e9fc6d15653d8f36773c29299f942f243cc7444cf67d52a2e3c93c85c4f633a7e9abc7b44dbdecbf72c836c53feb9bd9100ee1fc406e6eb39
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - backends
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12373,21 +12373,21 @@ Description: userspace virtual filesystem - backends
 
 Package: gvfs-common
 Architecture: all
-Version: 1.60.0-1
+Version: 1.60.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: gvfs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3788
+Installed-Size: 3789
 Depends: desktop-file-utils
 Recommends: gvfs
-Filename: ./gvfs-common_1.60.0-1_all.deb
-Size: 489880
-MD5sum: 913c4ae01d60b857fcff57280cad9f1c
-SHA1: ca6bca72151a6bd6a5122a13c28dc3cc0077f016
-SHA256: 44cc9d4b4276c1fb7af348ed160fb6863a07c54ee52c02cba6a82fcec3b45b83
-SHA512: bfe3bb5bc8f7f06f291bfbb156e4c1eda94bd16edc0238a052f962964632af4cc4caa7eb53bde11c86edacc5f5a4d8b32c41b6e14ba70dd2c49056cc1bfe221f
+Filename: ./gvfs-common_1.60.0-2_all.deb
+Size: 490268
+MD5sum: 5fb06fc35558b27370dc8a31ec1ee22d
+SHA1: a6d99d2a40593c43db2999a3ba9ef059d990b990
+SHA256: 2d730443ab8ff1343dc8b03ab908afacfa35b09c68bd8bd5fa6b082a0b59fc71
+SHA512: 39e6e2dbd8db22968b0dc1fb9bb327fb9dbb726aeb74cecad91315a33fa39fccf85b4edd98f807c15c3b8909028c2cf3cf24696fc766b2bbad709ad7d95884f9
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - common data files
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12401,22 +12401,22 @@ Description: userspace virtual filesystem - common data files
 
 Package: gvfs-daemons
 Architecture: amd64
-Version: 1.60.0-1
+Version: 1.60.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: gvfs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 500
-Depends: gvfs-common (= 1.60.0-1), gvfs-libs (= 1.60.0-1), lsof, udisks2, libbluray3 (>= 1:0.2.2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.0.91)
-Recommends: dbus, gvfs
+Installed-Size: 501
+Depends: gvfs-common (= 1.60.0-2), gvfs-libs (= 1.60.0-2), lsof, udisks2, libbluray3 (>= 1:0.2.2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.0.91)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs
 Suggests: gvfs-backends
-Filename: ./gvfs-daemons_1.60.0-1_amd64.deb
-Size: 118368
-MD5sum: 011c54833fb6007247962f3f3bdf4042
-SHA1: 66fb91dcf63c66ebc97ea1236aecc1daeb9ee746
-SHA256: 857412c8a94d2416d29c59a9414d0010fdcf85056de40ef074eba66299b1c7e0
-SHA512: 69ddb64e44c31798b56c106b9fa6b0fbd9877b98250f855d38244a969e1dbe0915722f37d2ff7e257c0b346a7cc74210c7eb187de6efd237b4a992de54f1edf3
+Filename: ./gvfs-daemons_1.60.0-2_amd64.deb
+Size: 118928
+MD5sum: 1932bca22efa90d5df27090150af8326
+SHA1: 04a4e422b960473a53b02b06055ac46fe9979fdb
+SHA256: f7b09863604d18a67d13a048c3108230268204ef327104a4b1b746391e3d586a
+SHA512: 324d373b79c17ef38c835958833a6b3864adf04c6ce0e346c9b4c414e171cc06761150f003252484c3fe19ceff5b4b2055358c2815c79722dfcf40e37db3b694
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - servers
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12429,19 +12429,19 @@ Description: userspace virtual filesystem - servers
 
 Package: gvfs-fuse
 Architecture: amd64
-Version: 1.60.0-1
+Version: 1.60.0-2
 Priority: optional
 Section: gnome
 Source: gvfs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 59
-Depends: fuse3, gvfs (= 1.60.0-1), libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0)
-Filename: ./gvfs-fuse_1.60.0-1_amd64.deb
-Size: 19724
-MD5sum: 2a199a41c2d57f6a5e6cc57e7ac8a5f9
-SHA1: 5f617550da2cd2c2c892c7a2f33c90ee0bc042b1
-SHA256: 03b7793dac4c2c1d28ec5869b3e7d6d4d257995229ed58364aa0dff50a3f075b
-SHA512: b25eaa719454bedada3991e6ce7b60c70633983d330ce108c41af1d7cb71f33dfedec990e4939f57d3473c0c62d36c083d87035f2d7ee420c28b9fd5eacc2776
+Installed-Size: 60
+Depends: fuse3, gvfs (= 1.60.0-2), libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0)
+Filename: ./gvfs-fuse_1.60.0-2_amd64.deb
+Size: 19880
+MD5sum: 8fa8ea59ccb414031822e756ba9918c1
+SHA1: 3caa972dc8afa7534f63e2bfb22bd6635327cdea
+SHA256: 9ab760bf4818397937fa9a87000e954b8e816612b1d2b48129c8d3802e3db75e
+SHA512: d75c1f88345c829283b39c2b09529c11273593cd0cd499d5a9ee10ce216bddbc8fff11389da1d405477ebd52a9212ebd8d92f1330e3f869ad777d107a82975c6
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - fuse server
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12455,20 +12455,20 @@ Description: userspace virtual filesystem - fuse server
 
 Package: gvfs-libs
 Architecture: amd64
-Version: 1.60.0-1
+Version: 1.60.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gvfs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 437
-Depends: gsettings-desktop-schemas, gvfs-common (= 1.60.0-1), libc6 (>= 2.38), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.83.0), libsecret-1-0 (>= 0.7)
-Filename: ./gvfs-libs_1.60.0-1_amd64.deb
-Size: 100620
-MD5sum: 0b49c56a61232cd526e0c33e8b0cfde4
-SHA1: 958db2e055ccc4472885899b3087feb3364acde2
-SHA256: 88161807c0fde8b1860a2eaa8cc966a9f9f79a789d57a240b9c48aecace05645
-SHA512: e397f87a88fe024447f60bcaf2a4e1f8e01473e28822e29e6164a873b9a9ae2b3f515dfc8f45af5c00247464a66590636929b01efc66ff5e55737552c5323880
+Installed-Size: 438
+Depends: gsettings-desktop-schemas, gvfs-common (= 1.60.0-2), libc6 (>= 2.38), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.83.0), libsecret-1-0 (>= 0.7)
+Filename: ./gvfs-libs_1.60.0-2_amd64.deb
+Size: 100544
+MD5sum: 6aad23541a33d288d3c3c0f67a181c45
+SHA1: 12da43a4d15cd43dd452c833b3c117f5f93dcfee
+SHA256: c192d9102ed1ec425669c5321f0c21acc50ff8eee2423d00226d4cd224ac03b3
+SHA512: 0ac538b5f4b5132a7e6e4c31581b33de7741604ea787fcbff13399d0624b55be5a338fdc6e61a60bcc683b8a2d9e9cb8b30355da21d83f9d2ca6793be8175cd3
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - private libraries
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12482,20 +12482,20 @@ Description: userspace virtual filesystem - private libraries
 
 Package: gvfs
 Architecture: amd64
-Version: 1.60.0-1
+Version: 1.60.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 394
-Depends: gvfs-common (= 1.60.0-1), gvfs-daemons (<< 1.60.0-1.1~), gvfs-daemons (>= 1.60.0-1), gvfs-libs (= 1.60.0-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0)
+Installed-Size: 395
+Depends: gvfs-common (= 1.60.0-2), gvfs-daemons (<< 1.60.0-2.1~), gvfs-daemons (>= 1.60.0-2), gvfs-libs (= 1.60.0-2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0)
 Suggests: gvfs-backends
-Filename: ./gvfs_1.60.0-1_amd64.deb
-Size: 127008
-MD5sum: c4e5d907acae67fb761f222fe3f1b99e
-SHA1: e9c71511a2c2eb5e30ea0617441ed2c2a43d8fc8
-SHA256: 423064bf349d44892e481f3d27d00c8272516efdcc768e44b314048c8790f9cb
-SHA512: fdfb8b2c4544cb1d4562a55897e5fdde43532a1b146e7d01ff83fd91152815f6c327921febec02ac5065d85f609ff07c48cf1a6c36b6f443c8446bede52b0db4
+Filename: ./gvfs_1.60.0-2_amd64.deb
+Size: 127144
+MD5sum: e7ac5be810450d469cfdddaaf79e425c
+SHA1: 5e6e00d7b2386f8343d3c37fbf59b4da8514177b
+SHA256: cafe58eb96d5a658e66164c85b19919cc24863cde883910925d4beed6da4eed4
+SHA512: d776a7634f54eec1d1a7e083df7e2398131c43fe7e1146a046083d40567eec2195744062a2fb93d5f051f88c23d4046acac8658b9349348f7d8be503a82226ed
 Homepage: https://wiki.gnome.org/Projects/gvfs
 Description: userspace virtual filesystem - GIO module
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -17744,19 +17744,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.0.9-1
+Version: 7.0.10-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 360
+Installed-Size: 385
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.0.9-1_amd64.deb
-Size: 322176
-MD5sum: 8f186b5d2e667a48f8251c25e17c1688
-SHA1: de67f74dcb5ffc15576979f4958e9a1e7a8c0297
-SHA256: 219bdd870af4f6d1c56ad6873312c10ec23d5843d8aca3260a91e65e6e7793d6
-SHA512: 214f96d3f0f4aaced319d3a2aec2acb0a3bc6cb614d4782e859259a06b46999d54caddb21cc0ac82465879ad2e1b2a44ac57419503870204ecc8af0fd373e726
+Filename: ./libcpupower1_7.0.10-1_amd64.deb
+Size: 347780
+MD5sum: c35f452489f71482a2ae3e953ab0def3
+SHA1: a82f425fc8fe481a1558173031bac1e830162c1f
+SHA256: ffa61ca82d2213a869beddb32290e2a7f6d60415e4d9e6d52c699e4429418f7a
+SHA512: 30a60a87ced2962e67869b7d2ba05e04a400db5b0a5757d99097b93f594df942e19b2e5d40023664a61efcebb2cfd18ab2268f82002429db40d0084de4b71cfa
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
@@ -25186,19 +25186,19 @@ Description: JavaScript display engine for LaTeX and MathML
 
 Package: libjs-sphinxdoc
 Architecture: all
-Version: 9.1.0-3
+Version: 9.1.0-4
 Multi-Arch: foreign
 Priority: optional
 Section: javascript
 Source: sphinx
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 86
-Filename: ./libjs-sphinxdoc_9.1.0-3_all.deb
-Size: 25312
-MD5sum: a227adce39f9ea4a0fce77bdd27e1948
-SHA1: 5fdbae0b05bccf739539b66eae889f37d52c37f3
-SHA256: 477541aa6e4d3c49c992f8e31bd5d4fc2ffe89a92d637198ecba97da3cb6bebf
-SHA512: 26a877bc56d833b89b5d8f95345e95fe87bcb76df3dbe05d9db0e940881b3ccd700579467379bb89b34ab6fa13e3a26bed8334e2aa48b28a5e2888c18b377045
+Installed-Size: 286
+Filename: ./libjs-sphinxdoc_9.1.0-4_all.deb
+Size: 45736
+MD5sum: 048b2c5db91eb44df3e4ab46d5a7dc40
+SHA1: 40535aaee429fdae26642dba261a5b7f88ed3cc2
+SHA256: 7ccdd7bba71633b28e23407b585d7f968f877484b1ae3cd4a35abb8f96df7542
+SHA512: 3474a6aca34a2a31d106c36682ce4f5f586319da68f4742cf83458ae1e71153cac13b571b8912fdf1019db85a4ab0b732104d2414713ed28ab4ce437b45c9086
 Homepage: https://www.sphinx-doc.org/
 Description: JavaScript support for Sphinx documentation
  Sphinx is a tool for producing documentation for Python projects, using
@@ -34472,7 +34472,7 @@ Description: runtime files for the OpenEXR image library
 
 Package: libopenjph0.27
 Architecture: amd64
-Version: 0.27.0-1
+Version: 0.27.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34480,12 +34480,12 @@ Source: openjph
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
 Installed-Size: 531
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
-Filename: ./libopenjph0.27_0.27.0-1_amd64.deb
-Size: 153272
-MD5sum: 20094d2b99150fc32240f314e8e2015e
-SHA1: 6e359bcd02360064e643baa89f46a96e14dcf0c2
-SHA256: 7df3e3fbc782acbe7000ea92f8293a28d170451f4468afae8da6d4a991a7095d
-SHA512: 6b5f3dfc7d489da01fb179b7972b73009875321e890e2177cc9ded30e76d28e86a5bb73abed2796242da7a2102e8d3f0839a9f1a2985586e0980b9a8937ce1b7
+Filename: ./libopenjph0.27_0.27.3-1_amd64.deb
+Size: 153956
+MD5sum: 2961fed8212add32c130e51bd80ebc0f
+SHA1: 7540ecebc72c5fbae2ccd96f62172828b3336509
+SHA256: d55f9ea8299c3e2d003b385cb9487e7d53674636626ef47fc9ee658c9c3493c3
+SHA512: 51ac22121f14f324d3fdbfa1660be514476c72bacc0c8c894baf5d10f5d6c09623cbf86c4808764f21d6b001078bf29eacb1ae47033a7157fb096f26069580cc
 Homepage: https://github.com/aous72/OpenJPH
 Description: HTJ2K image compression/decompression library (runtime files)
  Implementation of High-throughput JPEG2000 (HTJ2K), also known as JPH, JPEG2000
