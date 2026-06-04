@@ -199,7 +199,7 @@ Description: GNOME solitaire card game collection
 
 Package: akonadi-backend-sqlite
 Architecture: all
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Priority: optional
 Section: misc
 Source: akonadi
@@ -207,12 +207,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 30
 Depends: libqt6sql6-sqlite
 Recommends: akonadi-server
-Filename: ./akonadi-backend-sqlite_4%3a25.12.3-2_all.deb
-Size: 9876
-MD5sum: 063fc74f828f1c67461ce74dbc109ca8
-SHA1: 7dfa6cb714f1080d02cac8e515c3dcd5fb775b1a
-SHA256: f95ab995e6231e2282d047e15a882169718a78fbd5ef9817abc6c9eb050c59fb
-SHA512: 7d758feac047c84b1d35b0e8c31a4388b1ee2104de0e9e18f9faa43847771dc578e0d315a207d5bae8efdf7bd4469560a06b7a2e3c86f8fc750fdf0bd283b5f2
+Filename: ./akonadi-backend-sqlite_4%3a25.12.3-3_all.deb
+Size: 9936
+MD5sum: cfb92eab4674028ca05dc54dfea63218
+SHA1: 175790f19e15fa513b3226b4db840fddd47e0c9f
+SHA256: 9fbbb7a22b3ff5c4181eaad576db04ef7c14f83cb7b77ef79077b061666ab2b5
+SHA512: 5176536f283f16a1f406755aaf489ce881fba298cd372a96f031c3bf7037087b75fc5963b4d43a9ddda30bd17c18f99697f3d9248c8f2de287e505006b11b125
 Homepage: https://invent.kde.org/pim/akonadi
 Description: SQLite storage backend for Akonadi
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -275,20 +275,20 @@ Description: Akonadi MIME handling library - data files
 
 Package: akonadi-server
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Priority: optional
 Section: net
 Source: akonadi
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7125
-Depends: akonadi-backend-sqlite (= 4:25.12.3-2) | akonadi-backend-mysql (= 4:25.12.3-2) | akonadi-backend-postgresql (= 4:25.12.3-2), libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.18.0~), libkf6configgui6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6crash6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkf6widgetsaddons6 (>= 6.18.0~), libkpim6akonadicore6 (>= 4:25.12.3), libkpim6akonadicore6-25.12, libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libkpim6akonadiwidgets6 (>= 4:25.12.3), libkpim6akonadiwidgets6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libqt6sql6 (>= 6.8.2), libqt6widgets6 (>= 6.8.0~), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 14)
-Suggests: akonadi-backend-mysql (= 4:25.12.3-2), akonadi-backend-postgresql (= 4:25.12.3-2), akonadi-backend-sqlite (= 4:25.12.3-2)
-Filename: ./akonadi-server_4%3a25.12.3-2_amd64.deb
-Size: 1418304
-MD5sum: a16cc3ddba9276648d45869e2b9c72a6
-SHA1: ec761d604127f8e7b757e22d11402e4f62cab1ce
-SHA256: e02942ca916bd79b556edbd2c6f0be3ac9f6f475c84e5195a00057d60c8f678a
-SHA512: 5a7aa17193e0dde84640ed755fac2f8a4317bb634ddf7dfb719fbb0d561a0be9ae3f897416cec22166ef01b23c63ebc77b29d3e85deb9154fc16803dc2edb4be
+Depends: akonadi-backend-sqlite (= 4:25.12.3-3) | akonadi-backend-mysql (= 4:25.12.3-3) | akonadi-backend-postgresql (= 4:25.12.3-3), libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.18.0~), libkf6configgui6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6crash6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkf6widgetsaddons6 (>= 6.18.0~), libkpim6akonadicore6 (>= 4:25.12.3), libkpim6akonadicore6-25.12, libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libkpim6akonadiwidgets6 (>= 4:25.12.3), libkpim6akonadiwidgets6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libqt6sql6 (>= 6.8.2), libqt6widgets6 (>= 6.8.0~), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 14)
+Suggests: akonadi-backend-mysql (= 4:25.12.3-3), akonadi-backend-postgresql (= 4:25.12.3-3), akonadi-backend-sqlite (= 4:25.12.3-3)
+Filename: ./akonadi-server_4%3a25.12.3-3_amd64.deb
+Size: 1417376
+MD5sum: a3466d135a644719c658aef30a8083bc
+SHA1: ce474ba35d2c161eec932e7c5a02fee1fbb6daf0
+SHA256: 35bc192f3f8c4f7f146b2381db70b33f4a80115e7b7835614db2101434a47438
+SHA512: ba10523363e571a4d348d28ef314d8c2cc56cb414c1b62bc569571c51a0c4cae188a7043ce00a861184eee481d5effd66128a07cafa14162dc58374df3613f48
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -14895,19 +14895,19 @@ Description: Library with GTK widgets for mobile phones
 
 Package: libakonadi-data
 Architecture: all
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: akonadi
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2815
-Filename: ./libakonadi-data_4%3a25.12.3-2_all.deb
-Size: 349208
-MD5sum: 11e336e85ffcc7c3fb0cc6ab59a39106
-SHA1: 1fb99cff4193cfa78326525da032fcd2a885c87f
-SHA256: da28c9f4e2d10a984d5b6b54ae1ef1bcace170d181ebe3e9fa6ed8da8d8d643f
-SHA512: 74808ab6f01b91f26d11598420ee0d93741c4fd89716bfbde1de156e0633203011690364b7f6ae6e04a0ed2194e23236a8be2f7c12dcf4704d2a9c6bb4e0123b
+Filename: ./libakonadi-data_4%3a25.12.3-3_all.deb
+Size: 349688
+MD5sum: 08c1523c7540a8c659c74e67da0bbecc
+SHA1: 171de580a96710db933f6354d4929547f02a1e5d
+SHA256: 99a1aec9fee95e6a49133b6ecd6a97ba96bdb446ebaccb824806768f68a0f0a5
+SHA512: 1a8e5695891fade979170d0e10f97a2abb221fd8e8fb09181a3d357788a9d2d75e2cc9367b804202e9510ac07d2a8010003757212b28d4789200be4664e2e0fa
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi arch independent data
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -22830,20 +22830,20 @@ Description: GPGME - GnuPG Made Easy (library)
 
 Package: libgpgmepp7
 Architecture: amd64
-Version: 2.0.0-3
+Version: 2.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gpgmepp
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 508
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgpgme45 (>= 2.0.0), libstdc++6 (>= 13.1)
-Filename: ./libgpgmepp7_2.0.0-3_amd64.deb
-Size: 160400
-MD5sum: 28c27645a0ec5fc9b1008aaa6c463adf
-SHA1: f683e1614cd9691154c8620b93f6b6c428e3319d
-SHA256: f5e7327d879f68ac5de99146abc20d5e291113e3512f433f87b317f6bfcb3f8e
-SHA512: 17ac7a5aeae5f7acb2d068476be5b9ac659b88ba7e5527483b6afe4f1ce7069fe0e5f22ff0e1a23fd789aad0dbe8d518b16c17cdefa7bab727d52f704c0b376e
+Installed-Size: 518
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgpgme45 (>= 2.1.0), libstdc++6 (>= 13.1)
+Filename: ./libgpgmepp7_2.1.0-2_amd64.deb
+Size: 162860
+MD5sum: c0094a2fc5a0b7d7e7186deda2fe062f
+SHA1: 0b75228b8ce229e3196aad5beeb2ad53a4523f17
+SHA256: 45070cecb35a3c4e3528fd6a0c96a88e1728b8368773fbb89fc29efcf5b9fc33
+SHA512: 749575e488d2ca2209389e15c424f52083845400781084016e0c56ae64d1bf1f31c5c09edf4fa79a5808d56adf4d9e48fa36c689c12c8c60d7703b5671fda65e
 Homepage: https://gnupg.org/software/gpgme/
 Description: C++ wrapper library for GPGME
  GpgME++ (aka GpgMEpp) is a C++ wrapper (or C++ bindings) for the
@@ -29972,7 +29972,7 @@ Description: Addressbook import export library
 
 Package: libkpim6akonadiagentbase6
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -29981,12 +29981,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 545
 Provides: libkpim6akonadiagentbase6-25.12
 Depends: libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.33), libgcc-s1 (>= 3.0), libkaccounts6-2 (>= 24.02.2), libkf6configcore6 (>= 6.18.0~), libkf6configgui6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6crash6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkpim6akonadicore6 (>= 4:25.12.3), libkpim6akonadicore6-25.12, libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkpim6akonadiagentbase6_4%3a25.12.3-2_amd64.deb
-Size: 152020
-MD5sum: fa9ac13b1c0b6974f94d035230dd2967
-SHA1: 51d2ff878a407f0a97052a4a4073302979c4a31a
-SHA256: 14e92235dcc323caf0fffcf3c6d41d95797a1eb262846d4f72231e7a367e3bb3
-SHA512: 21c98b661160c98240bf5d00b6615d61d9484597d7751319e5849621928253bf078cbb6fec104528fd19d74baa314275206ca45b714d8d08a3ac4f99aa1e4172
+Filename: ./libkpim6akonadiagentbase6_4%3a25.12.3-3_amd64.deb
+Size: 152076
+MD5sum: 6054066d33b4a78a22fab23cf273c261
+SHA1: 8cc3d513924d9e99b03e33df485f22a8e1201d73
+SHA256: 67e78c00af2283750a4eb821e5e71776e0025c2f0e1a328775a431f372bf561f
+SHA512: be19706a3d86334661f8042c1c876b485fa396f245145b8f3cc24e1e4ffe681fa968329b5bd4e188434b86d1f4c3f409a773027970659fccfbc2f1a0d946b80c
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi agent base library
  This library contains classes to implement agents for the Akonadi PIM
@@ -29996,7 +29996,7 @@ Description: Akonadi agent base library
 
 Package: libkpim6akonadiagentwidgetbase6
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -30005,12 +30005,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 49
 Provides: libkpim6akonadiagentwidgetbase6-25.12
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libkf6configwidgets6 (>= 6.18.0~), libkf6iconthemes6 (>= 6.18.0~), libkpim6akonadiagentbase6 (>= 4:25.12.3), libkpim6akonadiagentbase6-25.12, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkpim6akonadiagentwidgetbase6_4%3a25.12.3-2_amd64.deb
-Size: 11220
-MD5sum: eed66e19604b8a65f71e7b2c3aa97c50
-SHA1: a5f85591790d391770e52050030a5c4ca78e0fbd
-SHA256: 8063711d6b986a7d6a7d52a7c5b6a20bc86a4e948cd43d1b093c3f01892432e1
-SHA512: 9bea182fb6abbf696cb08146f03fb9810eb54ef85e5ed32e94646e55f901b53bc81904083876443d732ec611cfcf226d82473230595aa9498c0aa623286827d6
+Filename: ./libkpim6akonadiagentwidgetbase6_4%3a25.12.3-3_amd64.deb
+Size: 11236
+MD5sum: 394989226f47c0df3e1ab4df49c700fe
+SHA1: 1607340ae455d353df31de83fabaa43f8c014dd1
+SHA256: 3dc604f417728784244efa252f0e34961cb8e84b241c6f2ec9c8c3f0ade1f14a
+SHA512: 25f470dc94d838a2fdc277681acc3781160f0da481368cb224203522a6da3d17e7367feace1b24c85dfa549aeef3fc95f2a92e7852d5ed39455e6336224fedf2
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi agent widget base library
  This library contains classes to implement widget agents for the Akonadi PIM
@@ -30112,7 +30112,7 @@ Description: Akonadi contact access library - widgets library
 
 Package: libkpim6akonadicore6
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -30120,14 +30120,14 @@ Source: akonadi
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2915
 Provides: libkpim6akonadicore6-25.12
-Depends: libakonadi-data (= 4:25.12.3-2), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkf6iconthemes6 (>= 6.18.0~), libkf6itemmodels6 (>= 6.18.0~), libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 14)
-Recommends: libkpim6akonadiwidgets6 (= 4:25.12.3-2)
-Filename: ./libkpim6akonadicore6_4%3a25.12.3-2_amd64.deb
-Size: 787356
-MD5sum: 3a29c737a65c18121b46529d76af3652
-SHA1: 2162b327a913383d2ef0ae841865f650aa176b83
-SHA256: 80f431b152890c6905d82269ea926031dc2e549abb5da9dfc5085572c22cea87
-SHA512: f1a40140a99fe2d9cf0f9b1dd95168071e6c830a5aacecf0bbdb0dab51f17c2ccf24979874b55ad7117a0caf45b0427e9f6686b7d0007a2d027a8696378d9540
+Depends: libakonadi-data (= 4:25.12.3-3), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkf6iconthemes6 (>= 6.18.0~), libkf6itemmodels6 (>= 6.18.0~), libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 14)
+Recommends: libkpim6akonadiwidgets6 (= 4:25.12.3-3)
+Filename: ./libkpim6akonadicore6_4%3a25.12.3-3_amd64.deb
+Size: 786872
+MD5sum: 14891b68b2cf7b9d6029e4a9b74ef41b
+SHA1: fdb54e00d57ade3f227518dc69cfb6c207daaa28
+SHA256: 713aadd8f89e30b0631aa63fde5007df3055e2c396bc254f99d06d764208e7f6
+SHA512: d9b903000dbaf247cc0f592fbe48125087c0d5fc16426fa2b3c9357788330783963a78b86a7b71982605d4479aab064e87f4f9e3608d8fcb90a661b9f401b995
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
@@ -30160,7 +30160,7 @@ Description: Akonadi MIME handling library
 
 Package: libkpim6akonadiprivate6
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -30169,13 +30169,13 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 753
 Provides: libkpim6akonadiprivate6-25.12
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1)
-Suggests: akonadi-server (= 4:25.12.3-2)
-Filename: ./libkpim6akonadiprivate6_4%3a25.12.3-2_amd64.deb
-Size: 212328
-MD5sum: db585aa3cae0afe3225dbecbacd069bc
-SHA1: bfa2560c225a39ee60dd868a5afd0748cc8bba17
-SHA256: 6596489502287765aa2819e9326a92092a1538e57f427b6274240c8ec8ecf153
-SHA512: c8cbddafd523f39d270fb49745328808313db4d5196670aeaa4f94543e1a2204e62c67cc135231e2edd93ebab8434a6eae4c5191d38f461de1fb3f73e373cd0a
+Suggests: akonadi-server (= 4:25.12.3-3)
+Filename: ./libkpim6akonadiprivate6_4%3a25.12.3-3_amd64.deb
+Size: 212000
+MD5sum: 8659cc218365e21864de204f8f9cdad3
+SHA1: caabd1ad230d29119f516faddd0f7ff7bdb8138d
+SHA256: 71ac4a8949ffc524d35ea472e24f9f4b3972da50f9f5afcb30cdaeefef49a3ed
+SHA512: 415a1aacfa6c1febcbcd95ac03d9ae772e948b53e7d07e384b9480ca9c08ed40b70c175352a498780f5981810777a2f9914e2e74f1c2bf47dfabf46331729391
 Homepage: https://invent.kde.org/pim/akonadi
 Description: libraries for the Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -30275,7 +30275,7 @@ Description: Akonadi search xapian library
 
 Package: libkpim6akonadiwidgets6
 Architecture: amd64
-Version: 4:25.12.3-2
+Version: 4:25.12.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -30284,12 +30284,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1052
 Provides: libkpim6akonadiwidgets6-25.12
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf6colorscheme6 (>= 6.18.0~), libkf6configcore6 (>= 6.18.0~), libkf6configgui6 (>= 6.18.0~), libkf6configwidgets6 (>= 6.18.0~), libkf6coreaddons6 (>= 6.18.0~), libkf6i18n6 (>= 6.18.0~), libkf6iconwidgets6 (>= 6.18.0~), libkf6itemmodels6 (>= 6.18.0~), libkf6widgetsaddons6 (>= 6.18.0~), libkf6xmlgui6 (>= 6.18.0~), libkpim6akonadicore6 (>= 4:25.12.3), libkpim6akonadicore6-25.12, libkpim6akonadiprivate6 (>= 4:25.12.3), libkpim6akonadiprivate6-25.12, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6sql6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 14)
-Filename: ./libkpim6akonadiwidgets6_4%3a25.12.3-2_amd64.deb
-Size: 292000
-MD5sum: 41e9728126260e59f4804d52a7005202
-SHA1: 30271aa7c087bc0b25bbfc82f26c967effa349d7
-SHA256: 6102a2139c64a5fff1c424297c0b59eae8958b3e41e23d7fca0043b85322f4da
-SHA512: 9e5d1a2ac185d089995d1321334ac844caf9678e59ab08cd5e32aaf2ca9fc716f07863a0f8f90c9dff62b35321499f6ee0722b950762c2153c78df183537b8c8
+Filename: ./libkpim6akonadiwidgets6_4%3a25.12.3-3_amd64.deb
+Size: 292192
+MD5sum: f561be15ff5bed8eaeb15586b7bac466
+SHA1: bb799ab5ff4f16327e7c9eee7e37462ae9784f1a
+SHA256: f5a6bafee41e56040ea6c4980dca8caf11ee0f265b23397185c7baf57b148ee5
+SHA512: 7499c3111202906fa4aba19e1c3dbd31ffe0d1126a62b7614d2d0c070e21167012c5be98e0b73ef2fc99b375955e3da20b750eee8cf21d01dabf0a36631e33c4
 Homepage: https://invent.kde.org/pim/akonadi
 Description: Akonadi widgets library
  This library contains standard widgets for the Akonadi PIM data server.
@@ -31862,21 +31862,21 @@ Description: Java layouting framework
 
 Package: liblcms2-2
 Architecture: amd64
-Version: 2.17-1.1
+Version: 2.19.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: lcms2
 Maintainer: Thomas Weber <tweber@debian.org>
-Installed-Size: 465
+Installed-Size: 471
 Depends: libc6 (>= 2.38)
 Suggests: liblcms2-utils
-Filename: ./liblcms2-2_2.17-1.1_amd64.deb
-Size: 162300
-MD5sum: 1827a0ee6ae510276b6128e79c25791e
-SHA1: fe6610199dd488b2fd4feb0b87cb3ce512dbe43e
-SHA256: 6256737bdf1c8c450b0e9c2f1db7828d26b0eafca0e7da93772f4f5acf3b2ad4
-SHA512: f278d5f287912f7573d66bb1d73ef2b3cbcf6209b43654074823988c7c1ea6464336c33734ea34032b276aef6ea8717d03a35c8640b4c7454a9120e9a1c72e56
+Filename: ./liblcms2-2_2.19.1-1_amd64.deb
+Size: 164468
+MD5sum: d580a98920f46cff040d385f543880eb
+SHA1: ae70f295f6ad0847d089e7fda2099b4e0a6c9963
+SHA256: 0a2eaf7d2cec92bf8017de8a6f4a5ef31cb2dc6c0ef5400d602a350c8bd4d740
+SHA512: a8f0c65db46c383d4d4f401eb161a4f9307d60904cf45e76b65fa35932f109aed7fade219365c1b9399962cb7eb2779ba33c120882d4287f1cc2bf49a4184b87
 Homepage: http://www.littlecms.com/
 Description: Little CMS 2 color management library
  LittleCMS 2 intends to be a small-footprint color management engine, with
@@ -31890,23 +31890,23 @@ Description: Little CMS 2 color management library
 
 Package: liblcms2-dev
 Architecture: amd64
-Version: 2.17-1.1
+Version: 2.19.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: lcms2
 Maintainer: Thomas Weber <tweber@debian.org>
-Installed-Size: 2933
+Installed-Size: 3277
 Provides: liblcms-dev
-Depends: liblcms2-2 (= 2.17-1.1)
+Depends: liblcms2-2 (= 2.19.1-1)
 Conflicts: liblcms-dev
 Replaces: liblcms-dev
-Filename: ./liblcms2-dev_2.17-1.1_amd64.deb
-Size: 2216120
-MD5sum: fa3df93603e1ce90513b47b3bcd7d209
-SHA1: 933182c123c7b95a0e046da260d27d4fcbebd432
-SHA256: 9316d3ecf35d1c7f9642ac061291c238a5e070931d2473508579b531e5a59ead
-SHA512: 27f9d3399ef8144076c8a7c2622c60820c863bae87587a71d8f6e7f352c1c6ef617ccc63d02de28e712036bf59a09946a97eb557e2b5b3ffb188ca118edb6474
+Filename: ./liblcms2-dev_2.19.1-1_amd64.deb
+Size: 2562788
+MD5sum: 2e6c5a5a23447baaca105d26eebadfc0
+SHA1: 6a1e18e4125beaa05f32d44a6ff2e03f69aa6ec0
+SHA256: dcd3d2aa1df4b477051ac3bb1185c7e2705ec60f1ba7f86ca4dbac65e3455e6b
+SHA512: 4544e380af456d38a9be85aa32420ef50fb42af8f3d9e760087c01f36394fe0ae148fef0bd74aeb10e9c610ee9ec06f9bb8b574dbdabf94e6666852973fe46bf
 Homepage: http://www.littlecms.com/
 Description: Little CMS 2 color management library development headers
  LittleCMS 2 intends to be a small-footprint color management engine, with
@@ -36835,7 +36835,7 @@ Description: Qt 6 Labs Platform library
 
 Package: libqt6location6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36843,12 +36843,12 @@ Source: qt6-location
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2314
 Depends: libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.10.2~), libqt6positioningquick6 (>= 6.10.2~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6qmlmodels6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6quickshapes6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), qt6-positioning-private-abi (= 6.10.2)
-Filename: ./libqt6location6_6.10.2-2_amd64.deb
-Size: 521600
-MD5sum: 7ce89a8a8f91810e5dfc6ee3a8795df3
-SHA1: 9838d8c6886018a7016b6a6d8257709b92993c3b
-SHA256: 42827b3c8a0359250f7f4152c9e643e0982f92eb922e12a77371bac9b0a6addd
-SHA512: fb3b5dd54d06ea77d2459504496fcd3be962ed825ebe6ac2e07d0131791a6318a0c803ba3b24e752888d67a45812d9017289fc38999c6fa50f9a87d734d9f21e
+Filename: ./libqt6location6_6.10.2-3_amd64.deb
+Size: 523792
+MD5sum: 0c689dafbb8f7ec8dfffe5cb941964d1
+SHA1: 58b62a16ad0f2bc74d3790987004a9b841b2eee0
+SHA256: 11bebed3f92d3f2ef87267ea7e2383d472fc327ec0590d495a895cf6e5b04894
+SHA512: c293066f107adbd5982893fb5f21004b73d32f58707a4b08eb96a37028aa43ce2b5d32b5868ecc4b2741a551a200dfb346de0ebb3b1b83bad0aed0eb1a7bc21d
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Location library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37070,20 +37070,20 @@ Description: Qt 6 PDF Widgets library
 
 Package: libqt6positioning6-plugins
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-positioning
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 243
-Depends: libqt6positioning6 (= 6.10.2-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6serialport6 (>= 6.10.2~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6positioning6-plugins_6.10.2-2_amd64.deb
-Size: 64188
-MD5sum: 0d65425c61bfcb5ae8ae7319ef550009
-SHA1: 1dc6bcc66f870bf42f63f5150fc65e4d269b83a3
-SHA256: a78b129ee78dcfccaa9f7e4dfdae93a9c73c5daaed6c43fc4609b6f0cdcead4c
-SHA512: 2512247b10ada15c3a53cd12e3720ce6cd4b9fa73efd863ed956e91a41f45cd535f219590753c02c782c6c458fd4f5656f3e83152449730516bec71b81dc3489
+Depends: libqt6positioning6 (= 6.10.2-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6serialport6 (>= 6.10.2~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
+Filename: ./libqt6positioning6-plugins_6.10.2-3_amd64.deb
+Size: 64232
+MD5sum: be2e369b93a329bff8ec7ac16d6307be
+SHA1: c85abd5c170ffe1de7eb607006f80b12ae3403d2
+SHA256: 6df0039cff9597d5026e59b5680609101d46c9b40ca0e70ed48cb6cd711df485
+SHA512: 89125e0b49cfaf23decdd51d7173f581db4c39f1ab664ce0a786f53c6bbab10eaa2bc082796239bdaf9c0bb763e19429a0c410877094bb86ffd0e4e6027a09e7
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Positioning module - position plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37093,7 +37093,7 @@ Description: Qt 6 Positioning module - position plugins
 
 Package: libqt6positioning6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37102,12 +37102,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 634
 Provides: qt6-positioning-private-abi (= 6.10.2)
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.10.2+dfsg~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6positioning6_6.10.2-2_amd64.deb
-Size: 188808
-MD5sum: c06ec0ef86439028c134e2493593ecdd
-SHA1: e8e12da10e5925dffab030cdbf423b0f2f108085
-SHA256: 70d9183f5a08a1e9a008946ad838b97827b4f17c3320004b9abb701ee91f9d94
-SHA512: 7078f8cbbccb026dd2fd1c583a1bd936f85ab9999320444d7d6e8a25440d16c5b90e3bba9990003dfeaf3b5420faa5929f0eeeef02604c07503ca04d7bf478dd
+Filename: ./libqt6positioning6_6.10.2-3_amd64.deb
+Size: 188316
+MD5sum: c8fce5f3eac82a675b6aec3cf9f0ea94
+SHA1: 57aac1f5d6550d0f4272d5b47ad3245601ee7b1e
+SHA256: 41b88a599931a10a0d8e87549bebbfe3719ba4ae44acafbd2c72c034d93451ec
+SHA512: d3a9c699cc09b84e341d5eb64efc41a11e587f5f3f6263afee3ba657a2261fb93d2b338f18d4335a2f46fbe0c9f45a0b76c31972427ee0af25060091b263051b
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Positioning library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37117,7 +37117,7 @@ Description: Qt 6 Positioning library
 
 Package: libqt6positioningquick6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37125,12 +37125,12 @@ Source: qt6-positioning
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 497
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.6.0), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), qt6-positioning-private-abi (= 6.10.2)
-Filename: ./libqt6positioningquick6_6.10.2-2_amd64.deb
-Size: 91856
-MD5sum: a8f9d1983d960433d9a35246b7f1c8c6
-SHA1: 72654b64c97ad1c018cf1ae1be403fb808425736
-SHA256: 78ccc4a34155adf376303d43d94bd122099d5d1ca0187a126a6248784bbbc65e
-SHA512: cf9e73f56658fbabd23c81f680311c8532f07fa543ea8e2d715b61285123d51e18ff12743e2e9310bef6a61194735e71f9c72cd158d874599a92c7137c5db352
+Filename: ./libqt6positioningquick6_6.10.2-3_amd64.deb
+Size: 91844
+MD5sum: c781cc7bddefcc86ee69d8af1fdef8a5
+SHA1: 8d2163b00dc328f39982a487af9ba1ae3ace1267
+SHA256: f92d43af6e57e42d1c559124e32bf731caaa43805807250b2ccd54b576b41c84
+SHA512: 325cd4f21db6af9930b796ed57c713e70e93379f961ff6506214da1ad1d8e28c4874a91f12c671b0a3ba3e4ae326b6fb980b14c630da1357cd10d9b194459eb5
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Positioning library - Qt Quick library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -59426,7 +59426,7 @@ Description: Qt 6 QML Core QML module
 
 Package: qml6-module-qtlocation
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59434,12 +59434,12 @@ Source: qt6-location
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 167
 Depends: qml6-module-qt-labs-animation, qml6-module-qtpositioning, qml6-module-qtquick, libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6location6 (>= 6.6.1), libqt6qml6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
-Filename: ./qml6-module-qtlocation_6.10.2-2_amd64.deb
-Size: 22300
-MD5sum: bddb166540733a910eb3822b77938d1d
-SHA1: d651541cfa82bb3f2123b52a279958af561fbe8e
-SHA256: e687ecc3969a8f589195ff4ad6f5ffc14862fbce745e8c2d5138c0bfcfcbcf0d
-SHA512: 32b0cdf29b07881055ebbf7496c170101298d52c380dbecd6c97cff05376b138d59da60235a49c6b9e1a965c4922c60941627164f1a47993a0c1191e2ae605ba
+Filename: ./qml6-module-qtlocation_6.10.2-3_amd64.deb
+Size: 22360
+MD5sum: 5350f0d79d8583af55e26d30001062b4
+SHA1: 88dc49a7ddfba2bf981f3ffcd25be4d7a9173ade
+SHA256: 046725784f515d7e725837a20187430936f6ff9e0685de718095c579ac4aab0b
+SHA512: e5c48c91067f74590d32cbaea0cd7bf3113bccc40df4c413da19151596617be70bafbfd1d0ac55e34cb67fb61416bf6ee4fd93bfc8b4829cdd406adb56a54898
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Location QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -59497,20 +59497,20 @@ Description: Qt 6 QML Network QML module
 
 Package: qml6-module-qtpositioning
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-positioning
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 122
-Depends: libqt6positioning6-plugins (= 6.10.2-2), qml6-module-qtquick, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.6.0), libqt6positioningquick6 (>= 6.6.0), libqt6qml6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
-Filename: ./qml6-module-qtpositioning_6.10.2-2_amd64.deb
-Size: 19948
-MD5sum: 28605096f8c0a563170d657df8440c9a
-SHA1: 043781da9834db76434472fb93a4fa50437de6b6
-SHA256: 4c3c6fed750bd4932a3edb5157ed9515afb6ebb2353f1aa164f4625bc1170523
-SHA512: 79f58ad3f2a9228d1b6d60d5e62fce8d0c05a4e6f1b2f205238252d9c7bd2931cc737badd6734e8cf8d8ecd383025342a0564793afbfbf971ef5c4f6b92bc5fe
+Depends: libqt6positioning6-plugins (= 6.10.2-3), qml6-module-qtquick, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.6.0), libqt6positioningquick6 (>= 6.6.0), libqt6qml6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
+Filename: ./qml6-module-qtpositioning_6.10.2-3_amd64.deb
+Size: 20008
+MD5sum: 32a438c58493491162bddc2957ad4754
+SHA1: 50b70709d5e98a7a1fa070e6902f3c02b7982e16
+SHA256: ebca02ff0162b6d2e2e638c0dd1097e027b9c23dac72c6b4907140bdd98a0fba
+SHA512: 824f7e2b0bed6d33d4c41a88a0d1b816872438a963e942d9aedcc65743615da7f23fe4bc604233670ae0db2836aeb7f6a16aa1eb241975271240724d91efe82e
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Positioning QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60504,7 +60504,7 @@ Description: Qt 6 GTK+ 3 platform theme
 
 Package: qt6-location-plugins
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -60512,12 +60512,12 @@ Source: qt6-location
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 361
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6location6 (>= 6.6.1), libqt6network6 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.10.2~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./qt6-location-plugins_6.10.2-2_amd64.deb
-Size: 98268
-MD5sum: b9020cf0b262ee68f8e226480bf79fbd
-SHA1: 0778340ef59e1ed8be0f60e1e351f46c76165982
-SHA256: 58af98a957d8994c9d4fe2ff9d916da3ea8fafa58dccc123a53826bd1085f043
-SHA512: ec6e5ba1f25c65a12b4d8feb4b9508f4e29b0684d2f0d05dd413226fc84f488b88effd50371daf24bcb5c1bbfd3096ed848393ca24633db2ef61776b686d9200
+Filename: ./qt6-location-plugins_6.10.2-3_amd64.deb
+Size: 98364
+MD5sum: 1f9973341a1c19b92aa66f5ad5894235
+SHA1: 15aa8f7fe908c75f3f619c4bd2a74745fd13b611
+SHA256: 8e4954d3d67bbaf538cbf7ba28d9ece560044f02e32593d75b96a08069b0a659
+SHA512: 4f10e325b930b85dc7fc1957d426fe318f38bd309397fd617ade58d190794a2d46a845082fe4578dc4d9dfcdf536782f31e227f1cecd0394bcd9fe10841ab8be
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Location plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
