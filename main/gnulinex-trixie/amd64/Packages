@@ -36858,20 +36858,20 @@ Description: Qt 6 Location library
 
 Package: libqt6multimedia6
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-multimedia
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2538
-Depends: libpipewire-0.3-0t64, libavcodec62 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libc6 (>= 2.35), libegl1, libgcc-s1 (>= 3.4), libopengl0, libpulse0 (>= 5.0), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), libswresample6 (>= 7:8.0.1), libswscale9 (>= 7:8.0.1), libx11-6, libxext6, libxrandr2 (>= 2:1.5.0), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6multimedia6_6.10.2-3_amd64.deb
-Size: 781104
-MD5sum: a5c62cb2d539fca9520aef842e0ec0e6
-SHA1: 1b8d7edb0637f6bac7f5213ff8136ab120b6db77
-SHA256: 9f975c4a4ab035720ee297b69a72de4e284bbd83585ee2c2a8290c90dfa7f28a
-SHA512: 12c19e1ba91bcf3c8786ff2693aadb6ecf2e1f39ad1fc2d94dffa8829ff760837252b2f142b84f83b64cf92cb3ea71fff8cc25b6f843f5dcf66be4f88f7e99f4
+Depends: libpipewire-0.3-0t64, libavcodec62 (>= 7:8.1.1), libavformat62 (>= 7:8.1.1), libavutil60 (>= 7:8.1.1), libc6 (>= 2.35), libegl1, libgcc-s1 (>= 3.4), libopengl0, libpulse0 (>= 5.0), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libx11-6, libxext6, libxrandr2 (>= 2:1.5.0), qt6-base-private-abi (= 6.10.2)
+Filename: ./libqt6multimedia6_6.10.2-4_amd64.deb
+Size: 782088
+MD5sum: f916eb35142e570461ebb249acf313f0
+SHA1: 7da00f993abf8f15a7ceca42352de590fdb8767a
+SHA256: 7dfd1e4d665ad6bf31c067e4f264fefa1007ba29d6b69a3abf44d25bd192d66f
+SHA512: d49a64b0be94a4c319254fbf52cef28513d356a9798a9fad0f0bf12094861cabd03f83398d5f44290fb098af4997e4f092551597db61c783e74b521f7589936a
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36882,7 +36882,7 @@ Description: Qt 6 Multimedia library
 
 Package: libqt6multimediawidgets6
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36890,12 +36890,12 @@ Source: qt6-multimedia
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 78
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6multimedia6 (>= 6.8.2), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
-Filename: ./libqt6multimediawidgets6_6.10.2-3_amd64.deb
-Size: 19700
-MD5sum: 0a75ab0cdfa24f0c8a05da7c317430a5
-SHA1: 929da9db1db7b29377d0c15b08fc14fae647bd78
-SHA256: a95dcdef82900aa79d73cb08d2ac4724438b5b534113024ef685abdee622c548
-SHA512: e15aefb6f8250f286f0ec815938450daa8418a8a57ec1ece200dfb7d70adf5b08ff23afb42c8901eb4536e06b8c045bd98662dc383b78ccb81b6ee0a935eb60d
+Filename: ./libqt6multimediawidgets6_6.10.2-4_amd64.deb
+Size: 19760
+MD5sum: 8a72a207286c166f32a3ffcd8372824c
+SHA1: 632df27d5131f4c51316e8f67ae1b0534c9f7065
+SHA256: c27d7a09baf98d911f959a09f8e2d7ef6f841295914aff9be26e3d02cbbebbd6
+SHA512: b34dcddebadeadf0a518c4916533ce2aa7733898e1cca9f7b820444262c3eb02b65704c008f6264096e0d989658aa3a1bf7a789a368fce50ed0b3b259422ce00
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -59449,7 +59449,7 @@ Description: Qt 6 Location QML module
 
 Package: qml6-module-qtmultimedia
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59459,12 +59459,12 @@ Installed-Size: 508
 Depends: qml6-module-qtquick, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6multimedia6 (>= 6.10.2), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Breaks: libqt6multimediaquick6
 Replaces: libqt6multimediaquick6
-Filename: ./qml6-module-qtmultimedia_6.10.2-3_amd64.deb
-Size: 96888
-MD5sum: 32370e425e4b7713f4371726b62c14be
-SHA1: 304e2f4faa1e7177b4e03785b3357c6c5d0768a5
-SHA256: 01fa4747209570c74568c1a10e463f07a2adb6de5607e8e767b53da774ead226
-SHA512: 34a145114c2176f28a0ff2a6676802b209a882f5a7a180cfc4a558c83b67e4f3ba3fb6e4f57eec0304a7a111d72fc200d623af73ec4f9d1a1bc02e379f5d54db
+Filename: ./qml6-module-qtmultimedia_6.10.2-4_amd64.deb
+Size: 96984
+MD5sum: ac6cacb4cb71582937b8c4c6e38fe67e
+SHA1: 042c96afa68e8a348bf76856f98f1f40a45a3f22
+SHA256: e9327c323ccda6c4387a430ddb0d34a9d1bdc92ca6600fb70099e13929e14d98
+SHA512: 35f87cbdc673f41d3af2bdc248b149f069d8b39b1170f4d4da3f3328213520591e73bcc79fc883f390932c57bcf8c6531da1f9857f7375abe26bda9b0372fcbb
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
