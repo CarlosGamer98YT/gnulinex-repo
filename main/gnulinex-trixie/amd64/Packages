@@ -37431,7 +37431,7 @@ Description: Qt 6 Sensors library
 
 Package: libqt6serialport6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37439,12 +37439,12 @@ Source: qt6-serialport
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 153
 Depends: libc6 (>= 2.42), libqt6core6t64 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), libudev1 (>= 183), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6serialport6_6.10.2-2_amd64.deb
-Size: 41980
-MD5sum: c11d70d9eaf16899048a9d634e907099
-SHA1: 0236e4ddff245203c2495b8b54cbeb806c1e790d
-SHA256: c862348e48797a61772e5d30ca98724d7e34cb00cab34e806b31042f47920800
-SHA512: a3b63631945d275bfe4448a72c69a9e0f9729efb1705ce29119e9dccf31c03a80cabb6215ab9e0c6b4b57b9cbca041a15503f366b451ee1e78c4960a5ff83f0f
+Filename: ./libqt6serialport6_6.10.2-3_amd64.deb
+Size: 42160
+MD5sum: 81f948a4e24093d7003920d5b8e69433
+SHA1: 10baad4f232ee6cd5bf7bf27df4f1e198d401429
+SHA256: 2d7fed275315c8b87115955d8f9862b53759f59c92654f8af66d0824c58b350b
+SHA512: da4302dd94e7440e0e4fb0ffa9826357bc72e6c6471addbf871dd04f6412998136554e0696f5825f487e4003e5cb921ee7b84b7d8837d604887d550be62a488b
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 serial port support library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37529,7 +37529,7 @@ Description: Qt 6 SQL module
 
 Package: libqt6statemachine6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37537,12 +37537,12 @@ Source: qt6-scxml
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 444
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6statemachine6_6.10.2-2_amd64.deb
-Size: 122732
-MD5sum: dc8280e5a578e0363f5fc511edbcfe33
-SHA1: 253f43245b77b2d65ad2ad8f51859b1cb55968fa
-SHA256: 21efed3d77bd3c39064c255e379e70172010bd230557ea1e54bb419fc6f54ea1
-SHA512: 3181a573e073105792eef527ca5c04802c047b0f0e2c7241c6ce300d3ef567909acd35a1c2869e9468689d15cdf692409fe2f5da1f0952a9564b5a5e42e8c105
+Filename: ./libqt6statemachine6_6.10.2-4_amd64.deb
+Size: 122944
+MD5sum: 4d15e6c224ed9201c9e07869f59a191f
+SHA1: 2dadda5b8975438bf569cf8702c5ed1dc04d6013
+SHA256: 69ed9a208967da1195961da7ca162d1a854654c306e51a709552d6d3f8db3e36
+SHA512: c61a80ca5da6ded01c48a0967338524b00399ef5bacfa8aab0887f320521eb377a1e3eb3855076799bbbb1aa438273db1122bfd5453a6010d124a37737f78023
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 State Machine library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37742,7 +37742,7 @@ Description: Qt 6 Wayland client module
 
 Package: libqt6waylandcompositor6
 Architecture: amd64
-Version: 6.10.2-4
+Version: 6.10.2-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37751,12 +37751,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2359
 Provides: qt6-waylandcompositor-private-abi (= 6.10.2)
 Depends: libc6 (>= 2.14), libopengl0, libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), libwayland-server0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libqt6waylandcompositor6_6.10.2-4_amd64.deb
-Size: 438284
-MD5sum: 6267272339504d473856a2729693db87
-SHA1: 99b3ca3799b34bf87a06f5ce90448eeae04c2626
-SHA256: af433256acb34db532f07f426a71933e35b600224215a8593714fbac1df5b3c9
-SHA512: 54159e816116113086ab7ea3d1be71f1dc4cbb93c5cbe193686acecc90f54b6ea576c81d334c1d36358e107bb751dabf480a18897568c55a5875ebc9384cc706
+Filename: ./libqt6waylandcompositor6_6.10.2-5_amd64.deb
+Size: 440000
+MD5sum: a93245ab94fe930e52e01c3f2dfed5e9
+SHA1: 9462801bab9ae4be023dd71cdd74538fdeafdb5c
+SHA256: c9805a5b2a7279cd17452fac7c4815e287033f9232646ea8f0d19b76608cee76
+SHA512: d54c01155ccd45076d0decad7baa43032d69f5772b1c2f0e610806304b1052b06a3919fceed519830723e073f287a3726e4bfbffbbcfc978ee3634016d556002
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Wayland Compositor library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60628,7 +60628,7 @@ Description: Qt 6 Virtual Keyboard
 
 Package: qt6-wayland
 Architecture: amd64
-Version: 6.10.2-4
+Version: 6.10.2-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -60637,12 +60637,12 @@ Installed-Size: 515
 Depends: libqt6wlshellintegration6, libc6 (>= 2.14), libegl1, libopengl0, libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6svg6 (>= 6.10.2~), libqt6waylandclient6 (>= 6.10.2+dfsg~), libqt6waylandcompositor6 (>= 6.6.0), libstdc++6 (>= 12), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.8.0), qt6-base-private-abi (= 6.10.2), qt6-waylandcompositor-private-abi (= 6.10.2)
 Breaks: libqt6waylandeglclienthwintegration6, libqt6waylandeglcompositorhwintegration6
 Replaces: libqt6waylandeglclienthwintegration6, libqt6waylandeglcompositorhwintegration6
-Filename: ./qt6-wayland_6.10.2-4_amd64.deb
-Size: 98756
-MD5sum: 2259422a5e8071861b36623d78b07b8a
-SHA1: 8e9ae437425fca1f605924e4ad34cd393fa8e293
-SHA256: 5f345afc6d85079af67ad63a1f92503c15c4e149b27323130986fc027bb29b41
-SHA512: 09df54d410f491051902566121236893e9b75aa31f8070044349115422da7a8254910cfb000e8a1297cfcde4b25d6d64b063ec80a42aa3809b58c405d1def371
+Filename: ./qt6-wayland_6.10.2-5_amd64.deb
+Size: 98752
+MD5sum: 696d9b961bb39452a01990ab67dd7e8f
+SHA1: 32566e93451cf171b3cd4f5476e24877e66a6a6f
+SHA256: a05052c94670bf89f8301aa1f8d443e8c7ff986c730ac0c6a78b5a768c96c93a
+SHA512: 15f85ac109f6b9d40ef4d0a25746a0da797d997702672ce29d3a3dcc660386e98e478068645dd480cda16342693fe2cf2dc077a44ba5e82a312d7d53da1d2563
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Wayland platform plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
