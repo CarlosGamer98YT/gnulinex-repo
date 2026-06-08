@@ -24504,6 +24504,46 @@ Description: Java SQL database engine
  .
  Web site: http://hsqldb.org/
 
+Package: libhunspell-1.7-0
+Architecture: amd64
+Version: 1.7.3+really1.7.3-5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: hunspell
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 860
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Recommends: hunspell-en-us | hunspell-dictionary | myspell-dictionary
+Conflicts: openoffice.org-core (= 2.2.0~rc2-1)
+Breaks: hunspell (<< 1.7.2+really1.7.2), r-cran-hunspell (<= 3.0.2+dfsg-1)
+Filename: ./libhunspell-1.7-0_1.7.3+really1.7.3-5_amd64.deb
+Size: 228976
+MD5sum: 386c3bc8872a7d917abd8434d46c59a9
+SHA1: 9885f35b720a679e7310cbed0d17b940dfd18763
+SHA256: 36abfa9936ba67639a852572c657fdd7228c18dc148f7bf944a586a5195ede01
+SHA512: 0f3d9ba623e98b494e8b61f1cfa4cd0e9c4cf3a00bb808182b6de30606e78e5ef25b00b4eeba81a2dd5074d7bed9f2b1b30a0d64896306e2993d289b5c32bcd8
+Homepage: https://hunspell.github.io/
+Description: spell checker and morphological analyzer (shared library)
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding or
+ character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and an
+ OpenOffice.org UNO module.
+ .
+ Main features:
+  - Unicode support (first 65535 Unicode characters)
+  - morphological analysis (in custom item and arrangement style)
+  - Max. 65535 affix classes and twofold affix stripping (for agglutinative
+    languages, like Azeri, Basque, Estonian, Finnish, Hungarian, Turkish, etc.)
+  - Support complex compoundings (for example, Hungarian and German)
+  - Support language specific algorithms (for example, handling Azeri
+    and Turkish dotted i, or German sharp s)
+  - Handling conditional affixes, circumfixes, fogemorphemes,
+    forbidden words, pseudoroots and homonyms.
+ .
+ This package contains the shared library.
+
 Package: libhwasan0
 Architecture: amd64
 Version: 16.1.0-1
