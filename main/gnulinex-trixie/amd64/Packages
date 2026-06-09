@@ -16990,20 +16990,20 @@ Description: Cairo 2D vector graphics library
 
 Package: libcairomm-1.16-1
 Architecture: amd64
-Version: 1.18.0-3
+Version: 1.18.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: cairomm1.16
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 252
+Installed-Size: 250
 Depends: libc6 (>= 2.32), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.3.1), libsigc++-3.0-0 (>= 2.2.0), libstdc++6 (>= 13.1)
-Filename: ./libcairomm-1.16-1_1.18.0-3_amd64.deb
-Size: 60836
-MD5sum: 777316c08ddcaca3c3fce590bb0dd912
-SHA1: c332cf7a8eb1c5d3bb77f410be47024d171a0a6a
-SHA256: 3addad5c00167117ed185607212a28e5693d0120327cc8d0b110a6bee8878764
-SHA512: 5994c5865473e3384f43b79cbb95d8a57f8bcf681d45a4e9b3e44eb943a64fc77f35f3598742b5c8573a158080dcd0fd33b0fd9bcabb6d5884b3882fdbd25280
+Filename: ./libcairomm-1.16-1_1.18.1-1_amd64.deb
+Size: 60604
+MD5sum: d49d182c0f221ca7ed53417dc70e62a8
+SHA1: 52efa578b12339fb5c7731c0abdbaa8a6a625486
+SHA256: 6b725a4928f1ab598cd024e9f839b75b6cd4a0ef6b9737228129b68730903149
+SHA512: 5e9ca85ecc1de4bb318a461b48a626c5db4b6bb04986bdbc4791e256fcbcfb472c331ef5a50e760d70d7aa3e0a16e5fa08151973df8c9868ed437d710a400e04
 Homepage: https://cairographics.org/cairomm/
 Description: C++ wrappers for Cairo (shared libraries)
  cairomm provides C++ bindings for the Cairo graphics library,
@@ -63133,12 +63133,12 @@ Description: scalable PostScript and OpenType fonts based on URW Fonts
 
 Package: texlive-base
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 47014
+Installed-Size: 47044
 Provides: dvipdfmx
 Depends: debconf (>= 0.5) | debconf-2.0, tex-common (>= 6.14), libpaper-utils, sensible-utils, texlive-binaries (>= 2026.20260303), ucf, xdg-utils
 Recommends: lmodern (>= 0.93.3)
@@ -63146,12 +63146,12 @@ Suggests: ghostscript, gv | postscript-viewer, perl-tk, xpdf | pdf-viewer, xzdec
 Conflicts: tex4ht (<< 20160814), texlive (<< 2026.20260328), texlive-base (<< 2026.20260328), texlive-bibtex-extra (<< 2026.20260328), texlive-binaries (<< 2026.20260303), texlive-extra-utils (<< 2026.20260328), texlive-font-utils (<< 2026.20260328), texlive-fonts-extra (<< 2026.20260328), texlive-fonts-extra-doc (<< 2026.20260328), texlive-fonts-extra-links (<< 2026.20260328), texlive-fonts-recommended (<< 2026.20260328), texlive-fonts-recommended-doc (<< 2026.20260328), texlive-formats-extra (<< 2026.20260328), texlive-full (<< 2026.20260328), texlive-games (<< 2026.20260328), texlive-humanities (<< 2026.20260328), texlive-humanities-doc (<< 2026.20260328), texlive-lang-all (<< 2026.20260328), texlive-lang-arabic (<< 2026.20260328), texlive-lang-chinese (<< 2026.20260328), texlive-lang-cjk (<< 2026.20260328), texlive-lang-cyrillic (<< 2026.20260328), texlive-lang-czechslovak (<< 2026.20260328), texlive-lang-english (<< 2026.20260328), texlive-lang-european (<< 2026.20260328), texlive-lang-french (<< 2026.20260328), texlive-lang-german (<< 2026.20260328), texlive-lang-greek (<< 2026.20260328), texlive-lang-italian (<< 2026.20260328), texlive-lang-japanese (<< 2026.20260328), texlive-lang-korean (<< 2026.20260328), texlive-lang-other (<< 2026.20260328), texlive-lang-polish (<< 2026.20260328), texlive-lang-portuguese (<< 2026.20260328), texlive-lang-spanish (<< 2026.20260328), texlive-latex-base (<< 2026.20260328), texlive-latex-base-doc (<< 2026.20260328), texlive-latex-extra (<< 2026.20260328), texlive-latex-extra-doc (<< 2026.20260328), texlive-latex-recommended (<< 2026.20260328), texlive-latex-recommended-doc (<< 2026.20260328), texlive-luatex (<< 2026.20260328), texlive-metapost (<< 2026.20260328), texlive-metapost-doc (<< 2026.20260328), texlive-music (<< 2026.20260328), texlive-pictures (<< 2026.20260328), texlive-pictures-doc (<< 2026.20260328), texlive-plain-generic (<< 2026.20260328), texlive-pstricks (<< 2026.20260328), texlive-pstricks-doc (<< 2026.20260328), texlive-publishers (<< 2026.20260328), texlive-publishers-doc (<< 2026.20260328), texlive-science (<< 2026.20260328), texlive-science-doc (<< 2026.20260328), texlive-xetex (<< 2026.20260328)
 Breaks: texlive-common (<< 2013), texlive-extra-utils (<< 2024.20240829), texlive-fonts-recommended (<< 2019.20200213), texlive-fonts-recommended-doc (<< 2019.20200213), texlive-lang-cyrillic (<< 2019.20190506), texlive-lang-english (<< 2022.20220923), texlive-lang-european (<< 2019.20190506), texlive-lang-other (<< 2019.20190506), texlive-lang-spanish (<< 2019.20190506), texlive-latex-extra (<< 2019.20190701), texlive-latex-extra-doc (<< 2019.20190701), texlive-math-extra (<< 2017), texlive-plain-generic (<< 2020)
 Replaces: texlive-common (<< 2013), texlive-extra-utils (<< 2024.20240829), texlive-fonts-recommended (<< 2019.20200213), texlive-fonts-recommended-doc (<< 2019.20200213), texlive-lang-cyrillic (<< 2019.20190506), texlive-lang-european (<< 2019.20190506), texlive-lang-other (<< 2019.20190506), texlive-lang-spanish (<< 2019.20190506), texlive-latex-extra (<< 2019.20190701), texlive-latex-extra-doc (<< 2019.20190701), texlive-plain-generic (<< 2020)
-Filename: ./texlive-base_2026.20260328-4_all.deb
-Size: 23929240
-MD5sum: 681acec06ff06ef25f9c1045444cd3fb
-SHA1: f61e5cb12608a27d171c5a4f478f66a4c242d5a5
-SHA256: cf572a340027d18535b5bf2892f63476944af6d782366ab19d2374d562041ede
-SHA512: e909ec445e557faad63048e7f2cb5828f28d2526f2b7da1e33ce80704f6f86cb5d195df1d7673d8f7d7b214e8a918c13ec7cea6d1d6e747196b54bb6d33bf2ee
+Filename: ./texlive-base_2026.20260527-3_all.deb
+Size: 23933604
+MD5sum: a931711ebb2784d28b03f6fc1bffd2ad
+SHA1: 13889624e422c48486d6947fba63079bc33d9fef
+SHA256: ae695ddc8e9e9f5041fdacced0969d318178ba9de89628985269d252e264530e
+SHA512: ace69256922e1a0b08414bb81bf280f79685d94fc3f6c5863fee7cd4b5c6636214d60b9b248c9fdb84975199b4f359fd204de82bcb892f39693c7a35081550b9
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Essential programs and files
  These files are regarded as basic for any TeX system, covering plain TeX
@@ -63277,23 +63277,23 @@ Description: Binaries for TeX Live
 
 Package: texlive-fonts-recommended
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 15016
+Installed-Size: 15017
 Depends: tex-common (>= 6.13), texlive-base (>= 2026.20260328)
 Recommends: tex-gyre, tipa (>= 2:1.2-2.1)
 Suggests: texlive-fonts-recommended-doc
 Breaks: texlive-base (<< 2022.20220405)
-Filename: ./texlive-fonts-recommended_2026.20260328-4_all.deb
-Size: 4990456
-MD5sum: 4ef7956e4c77835347a88d6a1f21245f
-SHA1: e7bc96f3cf406789c4c2b5203b1c4ed67581a6c3
-SHA256: 7a357dd04c7a093f5cad44e42b39307c36e9bf64e4d008363df1eb837bea52fc
-SHA512: 7036fb6c82e7e4cfd9d30b0c21579d37cb436f0918ca8af641d2e8a8ffb5833cd1feda19bf68192fd176a0e4014118bd50cece5bfeb405c9214c63790f8b6914
+Filename: ./texlive-fonts-recommended_2026.20260527-3_all.deb
+Size: 4990568
+MD5sum: 293bbd523d7c96d54725d5d9d979a6e3
+SHA1: b7bec88ae0a185ae8290b5293e5c4dbd614ce97d
+SHA256: 9c086720e71ea161a5ff98ae01f537f94dd0a723447f105f2d560cefe95b2ff1
+SHA512: cc98f0f98d987fd8a1816fed68648d7ac84505deba94f4090e7e93afff96f35009be8868e53df9bc3b0ef0c42b57380e3dc42a89b8f15212b6f86dc36b709338
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Recommended fonts
  Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX
@@ -63358,23 +63358,23 @@ Description: TeX Live: Recommended fonts
 
 Package: texlive-latex-base
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 14235
+Installed-Size: 15243
 Depends: tex-common (>= 6.13), fonts-lmodern, texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303)
 Suggests: texlive-latex-base-doc, wp2latex
-Breaks: latexml (<= 0.8.6-4), texlive-base (<< 2022.20220405), texlive-formats-extra (<< 2020.20201129), texlive-lang-japanese (<= 2022.20221123-1), texlive-latex-extra (<< 2022.20220923), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
-Replaces: texlive-latex-extra (<< 2022.20220923), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
-Filename: ./texlive-latex-base_2026.20260328-4_all.deb
-Size: 1342040
-MD5sum: 5c01a1494ce3925b73b3dadb94a8db0e
-SHA1: 48331e5de13f550dc757c0f785cd2eeb7c54a938
-SHA256: dabd6f9e1602662ed22bcc87656e33c5e45dca0abd3f32f993de2a419e848d06
-SHA512: 19b1a280f3d486d27d86e2cc42f1f04beb3985e0a585fea27aab23f81951943200adb815967e806c285b34d49222ebd0268fd801d76fcf1dafc9448745c6bcd4
+Breaks: latexml (<= 0.8.6-4), texlive-base (<< 2022.20220405), texlive-formats-extra (<< 2020.20201129), texlive-lang-japanese (<= 2022.20221123-1), texlive-latex-extra (<< 2026.20260527), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
+Replaces: texlive-latex-extra (<< 2026.20260527), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
+Filename: ./texlive-latex-base_2026.20260527-3_all.deb
+Size: 1437264
+MD5sum: fbd71c9e830738d6c29c3c7c1d7592fd
+SHA1: 1fa5389f92848a2265ec75aded15ab0c69bbe3bf
+SHA256: 61e2a1a20e295f50ca8a0e9616d8f67507a111e35115535bed748a0771729f46
+SHA512: 4ec927f090bc3b6dca3e4f71f1281fab636a949cdac4b43cdb3141170fdad394003ee1baf0f24b1752cfc03ae3e4cbe8ce503a6d23befcd3b16d8c4fb4d249c1
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX fundamental packages
  These packages are either mandated by the core LaTeX team, or very widely
@@ -63485,6 +63485,8 @@ Description: TeX Live: LaTeX fundamental packages
  .
  pdfescape -- Implements pdfTeX's escape features using TeX or e-TeX
  .
+ pdfmanagement -- LaTeX PDF management bundle
+ .
  pslatex -- Use PostScript fonts by default
  .
  psnfss -- Font support for common PostScript fonts
@@ -63496,6 +63498,8 @@ Description: TeX Live: LaTeX fundamental packages
  rerunfilecheck -- Checksum based rerun checks on auxiliary files
  .
  stringenc -- Converting a string between different encodings
+ .
+ tagpdf -- Code for PDF tagging using pdfLaTeX and LuaLaTeX
  .
  tools -- The LaTeX standard tools bundle
  .
@@ -63511,24 +63515,24 @@ Description: TeX Live: LaTeX fundamental packages
 
 Package: texlive-latex-extra
 Architecture: all
-Version: 2026.20260328-5
+Version: 2026.20260527-1
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-extra
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 115162
+Installed-Size: 114144
 Depends: tex-common (>= 6.13), libcommons-logging-java, libpdfbox-java, preview-latex-style, python3, texlive-base (>= 2022.20220405), texlive-binaries (>= 2026.20260303), texlive-latex-recommended (>= 2026.20260328), texlive-pictures (>= 2026.20260328)
 Recommends: default-jre, libspreadsheet-parseexcel-perl, texlive-fonts-recommended, texlive-plain-generic
 Suggests: python3-pygments, icc-profiles, libfile-which-perl, texlive-latex-extra-doc, texlive-science
-Breaks: dblatex (<< 0.3.8-2~), latexml (<= 0.8.6-5), sdaps (<< 1.9.7), texlive-base (<< 2022.20220405), texlive-latex-base (<< 2024.20240706), texlive-latex-extra-doc (<< 2018.20181106), texlive-latex-recommended (<< 2024.20240706), texlive-luatex (<< 2020.20200804), texlive-publishers (<< 2018.20181213), texlive-science (<< 2024.20240401), texlive-xetex (<< 2026.20260328)
+Breaks: dblatex (<< 0.3.8-2~), latexml (<= 0.8.6-5), sdaps (<< 1.9.7), texlive-base (<< 2022.20220405), texlive-latex-base (<< 2026.20260527), texlive-latex-extra-doc (<< 2018.20181106), texlive-latex-recommended (<< 2024.20240706), texlive-luatex (<< 2020.20200804), texlive-publishers (<< 2018.20181213), texlive-science (<< 2024.20240401), texlive-xetex (<< 2026.20260328)
 Replaces: sdaps (<< 1.9.7), texlive-latex-base (<< 2019.20191203), texlive-latex-recommended (<< 2019.20190915), texlive-publishers (<< 2018.20181213), texlive-xetex (<< 2026.20260328)
-Filename: ./texlive-latex-extra_2026.20260328-5_all.deb
-Size: 32901760
-MD5sum: 6cd06d80f6e92ce0d852538aba5672f6
-SHA1: 3d093fd5c4f803de23d8ea0d8d9abe97464a90eb
-SHA256: e15a45aee1dd6585202f7e804055c77fbd2ff4b9456565e537ec8a425dc1ceb2
-SHA512: b67abd69a78bddb6919ff6d3990edd46e81502e3339f5204fc2e9995be975140ce0c94a0fa22f808b3f925b7ab68786ef5fd15248bb8caa96afc65fb172ae53a
+Filename: ./texlive-latex-extra_2026.20260527-1_all.deb
+Size: 32889160
+MD5sum: 511dcdc0f4cf1aa36e3750460835030e
+SHA1: a73514bd2cee18acb43903d0593962a2e25fa912
+SHA256: a0d842d9a20ea4bd30cf8ed4a73634e40c48cf7ccc5c6953be66cf63dd0f38bc
+SHA512: 9a789f9ecaca995ef4891d7235245561aceafda4d4330107eecb2ccda25f660436aa180922f57229c5cb0e01fb34c4d7500afd9fa753aee4f8fa9cbcc6c8e9f9
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX additional packages
  A very large collection of add-on packages for LaTeX.
@@ -63733,6 +63737,9 @@ Description: TeX Live: LaTeX additional packages
  .
  beamertheme-focus -- A minimalist presentation theme for LaTeX Beamer
  .
+ beamertheme-geode -- A colourful modernised style package for beamer
+ documents
+ .
  beamertheme-gotham -- A modern, minimal-ish, versatile and extendable yet
  robust theme for Beamer
  .
@@ -63845,9 +63852,13 @@ Description: TeX Live: LaTeX additional packages
  .
  bookshelf -- Create a nice image from a BibTeX file
  .
+ booktabstabular -- Automatic application of the booktabs style
+ .
  boolexpr -- A boolean expression evaluator and a switch command
  .
  bophook -- Provides an At-Begin-Page hook
+ .
+ boustrophedon -- A LaTeX package for boustrophedon typography
  .
  boxedminipage -- Framed minipages of a specified total width (text and frame
  combined)
@@ -63995,11 +64006,16 @@ Description: TeX Live: LaTeX additional packages
  .
  classpack -- XML mastering for LaTeX classes and packages
  .
+ clawxiv -- Provenance typesetting for human-AI collaborative writing
+ .
  clefval -- Key/value support with a hash
  .
  cleveref -- Intelligent cross-referencing
  .
  cleveref-forward -- Forward-referencing functionality for cleveref
+ .
+ cleveref-icelandic -- Icelandic grammatical declension for cleveref
+ cross-references
  .
  cleveref-usedon -- Adds forward-referencing functionality to the cleveref
  package
@@ -64034,7 +64050,7 @@ Description: TeX Live: LaTeX additional packages
  .
  codedoc -- LaTeX code and documentation in LaTeX-format file
  .
- codehigh -- Highlight code and demos with l3regex and lpeg
+ codehigh -- Highlight code and demos with l3regex and LPeg
  .
  codepage -- Support for variant code pages
  .
@@ -64350,6 +64366,8 @@ Description: TeX Live: LaTeX additional packages
  dinbrief -- German letter DIN style
  .
  directory -- An address book using BibTeX
+ .
+ dirtreex -- Directory tree rendering for LaTeX with TikZ
  .
  dirtytalk -- A package to typeset quotations easier
  .
@@ -64838,7 +64856,7 @@ Description: TeX Live: LaTeX additional packages
  .
  fundus-cyr -- Support for Washington University Cyrillic fonts
  .
- fundus-sueterlin -- Sutterlin
+ fundus-suetterlin -- LaTeX support for Sutterlin fonts
  .
  futharksymb -- Macros for entering futhark runes
  .
@@ -65208,7 +65226,7 @@ Description: TeX Live: LaTeX additional packages
  knowledge -- Displaying, hyperlinking, and indexing notions in a document
  .
  koma-moderncvclassic -- Makes the style and command of moderncv (style
- classic) available for koma-classes and thus compatible with BibLaTeX
+ classic) available for KOMA-classes and thus compatible with BibLaTeX
  .
  koma-script-sfs -- KOMA-Script letter class option for Finnish
  .
@@ -65388,6 +65406,8 @@ Description: TeX Live: LaTeX additional packages
  .
  ltabptch -- Bug fix for longtable
  .
+ ltmermaid -- Embed Mermaid diagrams in LaTeX
+ .
  ltxdockit -- Documentation support
  .
  ltxguidex -- An extended ltxguide class
@@ -65404,6 +65424,9 @@ Description: TeX Live: LaTeX additional packages
  quantities
  .
  luatodonotes -- Add editing annotations in a LuaLaTeX document
+ .
+ lucide-admonitions -- Provides environments for rendering admonition boxes
+ in multiple languages
  .
  macrolist -- List operations for LaTeX2e
  .
@@ -65653,6 +65676,9 @@ Description: TeX Live: LaTeX additional packages
  .
  mylatexformat -- Build a format based on the preamble of a LaTeX file
  .
+ na-cover -- Custom artistic covers and borders for educational documents and
+ magazines
+ .
  nag -- Detecting and warning about obsolete LaTeX commands
  .
  nameauth -- Name authority mechanism for consistency in body text and index
@@ -65800,6 +65826,8 @@ Description: TeX Live: LaTeX additional packages
  packdoc -- Document LaTeX packages in a consistent way
  .
  padcount -- Pad numbers with arbitrary characters
+ .
+ page-canons -- Classical page-layout canons with margin-note support
  .
  pagecolor -- Interrogate page color
  .
@@ -65996,6 +66024,9 @@ Description: TeX Live: LaTeX additional packages
  prettyref -- Make label references "self-identify"
  .
  prettytok -- Pretty-print token lists
+ .
+ printcolormanager -- Automated color model management (CMYK, RGB, Gray) for
+ print and digital
  .
  printlen -- Print lengths using specified units
  .
@@ -66341,6 +66372,9 @@ Description: TeX Live: LaTeX additional packages
  .
  smart-eqn -- Automatic math symbol styling for LaTeX documents
  .
+ smartnotes -- Visually anchored margin notes with connector lines and
+ dynamic placement
+ .
  smartref -- Extend LaTeX's \ref capability
  .
  smartunits -- Converting between common metric and Imperial units
@@ -66503,6 +66537,8 @@ Description: TeX Live: LaTeX additional packages
  .
  tabularew -- A variation on the tabular environment
  .
+ tabularht -- Tabular extensions originally submitted by Heiko Oberdiek
+ .
  tabularray -- Typeset tabulars and arrays with LaTeX3
  .
  tabulary -- Tabular with variable width columns balanced
@@ -66511,8 +66547,6 @@ Description: TeX Live: LaTeX additional packages
  .
  tagpair -- Word-by-word glosses, translations, and bibliographic
  attributions
- .
- tagpdf -- Code for PDF tagging using pdfLaTeX and LuaLaTeX
  .
  talk -- A LaTeX class for presentations
  .
@@ -66739,6 +66773,9 @@ Description: TeX Live: LaTeX additional packages
  .
  useclass -- Load classes as packages
  .
+ user-persona -- Typesetting User Persona sheets for UX and HCI
+ (Human-Computer Interaction)
+ .
  ushort -- Shorter (and longer) underlines and underbars
  .
  uspace -- Giving meaning to various Unicode space characters
@@ -66942,7 +66979,7 @@ Description: TeX Live: LaTeX additional packages
  .
  yplan -- Daily planner type calendar
  .
- zebra -- A collection of handy macros for (paper) writing
+ zebra -- Writing revision toolkits
  .
  zed-csp -- Typesetting Z and CSP format specifications
  .
@@ -66967,23 +67004,23 @@ Description: TeX Live: LaTeX additional packages
 
 Package: texlive-latex-recommended
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 26367
+Installed-Size: 25833
 Depends: tex-common (>= 6.13), texlive-base (>= 2022.20220405), texlive-binaries (>= 2026.20260303), texlive-latex-base (>= 2026.20260328)
 Suggests: texlive-latex-recommended-doc, texlive-luatex, texlive-pstricks
 Breaks: texlive-base (<< 2022.20220405), texlive-latex-base (<< 2024.20250309), texlive-latex-extra (<< 2019.20191208)
 Replaces: texlive-latex-base (<< 2019.20191208), texlive-latex-extra (<< 2019.20191208)
-Filename: ./texlive-latex-recommended_2026.20260328-4_all.deb
-Size: 8512784
-MD5sum: 27d2880c3a2d4f3ffb8bba92b714e8d3
-SHA1: 1ac2032f60fe9940960b8cbc005e0eeddcaa75f3
-SHA256: e3b140fbb33de726d8347abf025daa0c3c8c83bf8c827946f83a8703f0aec442
-SHA512: 59f9d3422bc0c9dd41affc9a42b4604cc72b8f7393e898a8ff0ea72d5fb2abcb7bf61990a7e7d2a45761c3ec201cf466c9fa7c83a1ea1d31be785a9f0c03435b
+Filename: ./texlive-latex-recommended_2026.20260527-3_all.deb
+Size: 8452044
+MD5sum: 0d2143ed508ede3e2cdcce86f28f755b
+SHA1: faf3e30fbca9391cc09f1aa777c6ca44260b3651
+SHA256: a199dbe83d9e6ba534538f71c50a538a354c4953e4a94c65d44e19572d3d9dc3
+SHA512: a35d0c9f29277988725bff4880d0a2856db991cdabac8875407cecc5d1e57f0226acda30cf96a3784ba5463334e17db75de58e0e9826745c2393c02b370417e0
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX recommended packages
  A collection of recommended add-on packages for LaTeX which have widespread
@@ -67086,8 +67123,6 @@ Description: TeX Live: LaTeX recommended packages
  .
  pdflscape -- Make landscape pages display as landscape
  .
- pdfmanagement-testphase -- LaTeX PDF management testphase bundle
- .
  pdfpages -- Include PDF documents in LaTeX
  .
  polyglossia -- An alternative to babel for XeLaTeX and LuaLaTeX
@@ -67137,24 +67172,24 @@ Description: TeX Live: LaTeX recommended packages
 
 Package: texlive-pictures
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 102665
+Installed-Size: 102553
 Depends: tex-common (>= 6.13), python3, texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303), texlive-latex-recommended (>= 2026.20260328)
 Recommends: ruby, tk
 Suggests: dot2tex, prerex (>> 6.5.3-1), texlive-latex-extra, texlive-pictures-doc, vprerex (>> 6.5.3-1)
 Breaks: prerex (<= 6.5.3-1), texlive-base (<< 2022.20220405), texlive-science (<< 2025.20250727)
 Replaces: prerex (<= 6.5.3-1)
-Filename: ./texlive-pictures_2026.20260328-4_all.deb
-Size: 23652540
-MD5sum: 52a963e198cfae79c22a42a3da97085b
-SHA1: 30c78d714dce62d15d49b98fbbe337597d106203
-SHA256: 73cda3182040f1c6fb1d4616b0e42fab4583af85af40007b0bdf6f1f4b3f313b
-SHA512: 3e4efaaaa767fb3b1e425a7bb7b0fc082bdaf99a9dff37afbd5acbc8f23b719155766031cfbbb017a5bb4085baf6dbf87dbcd9aca01e48014f8060feccb24d3c
+Filename: ./texlive-pictures_2026.20260527-3_all.deb
+Size: 23854988
+MD5sum: 840c941c6b8326795b30aa4b359274be
+SHA1: dddc10969adea4a1bfeb8d48f346ab35f7f713b6
+SHA256: 59d49dc73545a37ac317d11da561692791c58f60bff51589731c3399f542de8a
+SHA512: 88b0141223c0498451bea857cc641aefb95572a8e08d5101c7b42e91c08a55b99a1a48ea2f11981f336d004ea0a1d3630f91b5c717698a5abf78f6b579104925
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Graphics, pictures, diagrams
  Including TikZ, pict, etc., but MetaPost and PStricks are separate.
@@ -67225,6 +67260,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  .
  combinedgraphics -- Include graphic (EPS or PDF)/LaTeX combinations
  .
+ corasdiagram -- A LaTeX package for authoring CORAS risk management diagrams
+ .
  curve -- A class for making curriculum vitae
  .
  curve2e -- Extensions for package pict2e
@@ -67272,6 +67309,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  .
  euflag -- A command to reproduce the flag of the European Union
  .
+ eurion -- EURion constellation overlay for LaTeX documents
+ .
  fadingimage -- Add full width fading pictures at the top or bottom of a page
  .
  fast-diagram -- Easy generation of FAST diagrams
@@ -67316,6 +67355,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  gtrlib-largetrees -- Library for genealogytree aiming at large trees
  .
  harveyballs -- Create Harvey Balls using TikZ
+ .
+ hawkdraw -- Draw vector graphics using l3draw with a simple syntax
  .
  here -- Emulation of obsolete package for "here" floats
  .
@@ -67380,6 +67421,15 @@ Description: TeX Live: Graphics, pictures, diagrams
  mkpic -- Perl interface to mfpic
  .
  modiagram -- Drawing molecular orbital diagrams
+ .
+ na-fancyborders -- Artistic TikZ page borders for educational documents and
+ exams
+ .
+ na-tikzornament -- A TikZ-based package for geometric ornaments and Islamic
+ tiling
+ .
+ na-urmborder -- A package for professional geometric page borders for
+ mathematical documents using umranda and umrandb fonts
  .
  neuralnetwork -- Graph-drawing for neural networks
  .
@@ -67523,6 +67573,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  .
  smartdiagram -- Generate diagrams from lists
  .
+ sneaker -- Configurable Sneakers with TikZ
+ .
  spath3 -- Manipulate "soft paths" in PGF
  .
  spectralsequences -- Print spectral sequence diagrams using PGF/TikZ
@@ -67613,6 +67665,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  tikz-qtree -- Use existing qtree syntax for trees in TikZ
  .
  tikz-relay -- TikZ library for typesetting electrical diagrams
+ .
+ tikz-sections -- Draw structural cross-sections
  .
  tikz-sfc -- Symbols collection for typesetting Sequential Function Chart
  (SFC) diagrams (PLC programs)
@@ -67757,13 +67811,13 @@ Description: TeX Live: Graphics, pictures, diagrams
 
 Package: texlive-plain-generic
 Architecture: all
-Version: 2026.20260328-5
+Version: 2026.20260527-1
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-extra
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 69882
+Installed-Size: 70603
 Provides: tex4ht
 Depends: tex-common (>= 6.13), texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303)
 Recommends: texlive-latex-base
@@ -67771,12 +67825,12 @@ Suggests: default-jre-headless
 Conflicts: tex4ht (<< 20160814), tex4ht-common
 Breaks: tex4ht (<< 20160814), texlive-base (<< 2022.20220405)
 Replaces: tex4ht (<< 20160814)
-Filename: ./texlive-plain-generic_2026.20260328-5_all.deb
-Size: 29845896
-MD5sum: 1e8258381b258ddf0e3657691215f479
-SHA1: 2bcb21764404055ead566d67c4237226dd1f9398
-SHA256: 54aad153a731be944adf588684cc8ac28e4ce54b9a54b8967674771b3cdb7804
-SHA512: 114b0ace9217c5938c1d774cae526675c97284aa0c04c1dcf3accf0785e4a521d3501986e7ec38308149801d6b5173d954f4821c145becf3e8a405e16100a705
+Filename: ./texlive-plain-generic_2026.20260527-1_all.deb
+Size: 30373324
+MD5sum: 70eabab07878d96e7282d9a3ecc23047
+SHA1: 1f5324167e8581856f0df3523d38d5f46a81d3e5
+SHA256: 59ddf7f16cd7cbb3df632a069c1d3773bbb35d3dbf74bfe6eaafa3d0ef28a085
+SHA512: e6c59dda498489855fb0896c9829943a73efd5cd9f2f617a64fc7c3c22bf2b674df065f49ae45e556d28ae873b41219cd89c81a1be39b4c9be23d0575b9f2f94
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Plain (La)TeX packages
  Add-on packages and macros that work with plain TeX, often LaTeX, and
@@ -67944,6 +67998,8 @@ Description: TeX Live: Plain (La)TeX packages
  .
  placeins-plain -- Insertions that keep their place
  .
+ plain-grid -- Four sets of macros for typesetting on a baseline grid
+ .
  plain-widow -- Three output routines that extend \plainoutput
  .
  plainpkg -- A minimal method for making generic packages
@@ -68003,6 +68059,8 @@ Description: TeX Live: Plain (La)TeX packages
  tokmap -- Iterate over a token list expandably, without dropping spaces or
  braced groups
  .
+ tokstools -- Tools for manipulating tokens
+ .
  tracklang -- Language and dialect tracker
  .
  transparent-io -- Show for approval the filenames used in \input, \openin,
@@ -68038,20 +68096,20 @@ Description: TeX Live: Plain (La)TeX packages
 
 Package: texlive
 Architecture: all
-Version: 2026.20260328-4
+Version: 2026.20260527-3
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 54
+Installed-Size: 55
 Depends: texlive-fonts-recommended (>= 2026.20260328), texlive-latex-base (>= 2026.20260328), texlive-latex-recommended (>= 2026.20260328)
-Filename: ./texlive_2026.20260328-4_all.deb
-Size: 16820
-MD5sum: 475b37de63a2b64daa19109aaca1c52b
-SHA1: 83c567bd0fd79599e2c92f983fc80850c11393e3
-SHA256: c67fda4a2cbaa84eeab07118e8d42c3ccbaa2f53ff8b09151dd303c0c15fcb9e
-SHA512: 9f3a10a83050cd0d314a4f9483fe2c332622308880f79967f1a6fb90b495a07e1ad79503d5684514ceeb820f75bed616e6018ae95f56839bba9a1c3ed2071be0
+Filename: ./texlive_2026.20260527-3_all.deb
+Size: 17072
+MD5sum: 756961c283833d7a96915eeb295fb4fc
+SHA1: 02269fc3d079d93d4f04c13de6522ee0f58964e2
+SHA256: 93ba56947614a1acc8d8fecd1d2d6c66d4127f0d85ed40572475808d1872f67d
+SHA512: 52639e669b3a78f18f88f65fe520ba46cbb1b62028c54898ac5c125b983f080c0029d67307704a4d239c6d5939d797fa8d9d367c370369cd8c788a4bd087216a
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: A decent selection of the TeX Live packages
  The TeX Live software distribution offers a complete TeX system. It
