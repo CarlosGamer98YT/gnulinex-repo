@@ -36222,20 +36222,20 @@ Description: Powerful and easy to use desktop calculator - library
 
 Package: libqgpgmeqt6-15
 Architecture: amd64
-Version: 2.0.0-3+b1
+Version: 2.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qgpgme (2.0.0-3)
+Source: qgpgme
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 1701
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.0.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 14)
-Filename: ./libqgpgmeqt6-15_2.0.0-3+b1_amd64.deb
-Size: 378928
-MD5sum: 381792d3eb523331f2fac5ef244e1f6e
-SHA1: 91337f29e19aead37aa532fde0453ab0565f4a96
-SHA256: 890a123b82dbeb95778eb38a0d59e798605cc41340730dced543e3837c37a573
-SHA512: ea112b298e137631af665b3f5c882860f887e2e003ad474cd2dfe35927d4a2b36d7320f9e50587f1c211fd131bd19945a445d363686738ce13ce476949d7b683
+Installed-Size: 1705
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.1.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 14)
+Filename: ./libqgpgmeqt6-15_2.1.0-2_amd64.deb
+Size: 381500
+MD5sum: 1a7799b009a72c58d1b2ebeed87f10d4
+SHA1: f0d25e1e9be1433961590b0f129c50dd55f4d9fa
+SHA256: 60be83e5768d8a40390a1a5feea08fa91ed9c720edca913f3628a91e5b0dceb0
+SHA512: 9b66fac2f71df733c8370c5160a42b9bb6ba6b1fceef5cb7c97d1f4fc37400e8b028f2d24391a8a92e672b2b82f3dcf63d286f785ebcaef73d96758511e4fd0a
 Homepage: https://gnupg.org/software/gpgme/
 Description: library for GPGME integration with Qt 6
  QGpgME is a library that provides GPGME integration with QEventLoop
@@ -68421,18 +68421,18 @@ Description: TPM2 Software stack library - udev rules for TPM modules
 
 Package: transmission-common
 Architecture: amd64
-Version: 4.1.1+dfsg-1
+Version: 4.1.2+dfsg-1
 Priority: optional
 Section: net
 Source: transmission
 Maintainer: Leo Antunes <costela@debian.org>
-Installed-Size: 841
-Filename: ./transmission-common_4.1.1+dfsg-1_amd64.deb
-Size: 277236
-MD5sum: 0e70a5d64e2a8659baff5c067d240247
-SHA1: 83ff323938ea2ce5b6d4dd978ef1f06a32bafbbc
-SHA256: 38c1883181f830a9a20915a8e032a2ad346347c91f11371aa48d7ace16daa817
-SHA512: 8fbb643251f4772cf6699941aa454a590651a4eaae1cc57b73acd4c8928ec079fc7ad4276205c8c0ead5e81cdeab16e672469dbf18a536708512690d52276836
+Installed-Size: 838
+Filename: ./transmission-common_4.1.2+dfsg-1_amd64.deb
+Size: 254676
+MD5sum: acf65cb3e695f7fb1ea5e45d6e716866
+SHA1: 79fe77679d494a507d561e8e1aeff562d23f7dfa
+SHA256: 609fa53fa80bec52773043011821dab374d8ad74e553543b1efa8588c702f685
+SHA512: e39da3e4d520e8a1576ec44d88eafc809ab7552d7012ce0414889add1027c098e08f0c58addc70e846ea3d297d68cb5c13e6a69e5d21e4f74e0f8561aca29122
 Homepage: https://transmissionbt.com/
 Description: lightweight BitTorrent client (common files)
  Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
@@ -68444,20 +68444,20 @@ Description: lightweight BitTorrent client (common files)
 
 Package: transmission-gtk
 Architecture: amd64
-Version: 4.1.1+dfsg-1
+Version: 4.1.2+dfsg-1
 Priority: optional
 Section: net
 Source: transmission
 Maintainer: Leo Antunes <costela@debian.org>
-Installed-Size: 6245
-Depends: transmission-common (= 4.1.1+dfsg-1), libb64-0d (>= 1.2), libc6 (>= 2.38), libcurl4t64 (>= 7.28.0), libdeflate0 (>= 1.0), libevent-core-2.1-7t64 (>= 2.1.8-stable), libevent-extra-2.1-7t64 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.70.0), libglibmm-2.68-1t64 (>= 2.77.0), libgtk-4-1 (>= 4.0.0), libgtkmm-4.0-0 (>= 4.11), libminiupnpc21 (>= 2.3.3), libnatpmp1t64 (>= 20150609), libpangomm-2.48-1t64 (>= 2.50), libpsl5t64 (>= 0.19.1), libsigc++-3.0-0 (>= 3.2.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
+Installed-Size: 6259
+Depends: transmission-common (= 4.1.2+dfsg-1), libb64-0d (>= 1.2), libc6 (>= 2.38), libcurl4t64 (>= 7.28.0), libdeflate0 (>= 1.0), libevent-core-2.1-7t64 (>= 2.1.8-stable), libevent-extra-2.1-7t64 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.70.0), libglibmm-2.68-1t64 (>= 2.77.0), libgtk-4-1 (>= 4.0.0), libgtkmm-4.0-0 (>= 4.11), libminiupnpc21 (>= 2.3.3), libnatpmp1t64 (>= 20150609), libpangomm-2.48-1t64 (>= 2.50), libpsl5t64 (>= 0.19.1), libsigc++-3.0-0 (>= 3.2.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
 Recommends: xdg-utils
-Filename: ./transmission-gtk_4.1.1+dfsg-1_amd64.deb
-Size: 1473724
-MD5sum: 36386b0a9474deffbc2519b69a716a50
-SHA1: 3b4bccbd7f2f1aa8d53a340bf5d601cbe674c26a
-SHA256: 5b367a610bcf4176117b4a03e9f3dc73078937a8d9e4fedc18a7ec9575245c61
-SHA512: 886baa13bc877090a05b426698d1e158581af0c162ae7f08c3a6b9fa7842cdeb1b10cee37afc14eab2eac923c5c30e721464217e12f7615d5a3c3eca8b324f68
+Filename: ./transmission-gtk_4.1.2+dfsg-1_amd64.deb
+Size: 1477136
+MD5sum: 42ce42deef3ced0928f22a134122596d
+SHA1: f2138abb7e4e1f31281630f562af1f0c68ff533c
+SHA256: 0b923957ccac4037460df0b8ae5f337d9b0ad69ca5bd4de1fda55b263bdba4f6
+SHA512: 70842d3a58c04cfaef2ce3bf975dd7f13ea8a696833d2a8d10df98fb24248916b372b283a9d9d59f0dd51ea131377c361cb1dc36f75105cb9824dd81afbb197d
 Homepage: https://transmissionbt.com/
 Description: lightweight BitTorrent client (GTK+ interface)
  Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
