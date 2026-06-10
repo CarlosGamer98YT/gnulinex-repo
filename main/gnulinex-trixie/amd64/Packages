@@ -19172,7 +19172,7 @@ Description: EFL freedesktop.org spec implementations
 
 Package: libegl1-mesa-dev
 Architecture: amd64
-Version: 26.0.6-1
+Version: 26.0.8-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -19180,12 +19180,12 @@ Source: mesa
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
 Depends: libegl-dev, libglvnd-dev
-Filename: ./libegl1-mesa-dev_26.0.6-1_amd64.deb
-Size: 19272
-MD5sum: 67b00ed4ecaa16ec19f3faec8dbd3ed4
-SHA1: 8249e5451e1b6dbd7ba06180474e33c7b4d02250
-SHA256: a1d92c3bcfe3a13d7160b58c5e1d115adcc06f27df4ee6466edda3d9d0bfff19
-SHA512: 599e2ea010f2ee70649f83c816047034dbbfd64a51168210fc9dccadec1486276fd715c49f448cbc56f01aee8baa662050ed6b7afefc41eb5b6780e4ab7559c7
+Filename: ./libegl1-mesa-dev_26.0.8-1_amd64.deb
+Size: 19324
+MD5sum: 9164fd40e02cac651163a1e6f49d36c0
+SHA1: 51e06d6876379d8c97bb9ecbe3aa2c2f41571bb2
+SHA256: 7057e81291a9022ff1988c9f354e2b303a5e95cfb56b2e9e1c4d85da27e441c0
+SHA512: 748773c74406a8d6d35a44c068b718e2c4dcdd2f8e82993f1aefa7af69670fc726e33743f1191b12343bf876292b01c95bdd18eb53eb11763e841aec1f298409
 Homepage: https://mesa3d.org/
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
@@ -50047,7 +50047,7 @@ Description: namespace aware SAX-Parser utility library
 
 Package: libxml2-16
 Architecture: amd64
-Version: 2.15.2+dfsg-0.1
+Version: 2.15.3+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -50057,12 +50057,12 @@ Installed-Size: 1600
 Depends: libc6 (>= 2.38), zlib1g (>= 1:1.2.2.3)
 Conflicts: w3c-dtd-xhtml
 Breaks: libxml-libxml-perl (<< 2.0207+dfsg+really+2.0134-3~)
-Filename: ./libxml2-16_2.15.2+dfsg-0.1_amd64.deb
-Size: 641024
-MD5sum: cfae9df259842bf6ff9b8f3d07ef936f
-SHA1: 32f51d914435fd29ce31af7ba17525f6276ea58d
-SHA256: 8571682a07f329bb462569502b57aced4866e5b95c2db3ec7e5414a5b3bbdc14
-SHA512: db9ecdab4b24cfc9069796aead229af38acc7b6d8506e01f3e5e03ce5f68658e09db060f604ad54c931e5466a0e92b115661bc0afacb00ffd664b3dc8f6a9451
+Filename: ./libxml2-16_2.15.3+dfsg-1_amd64.deb
+Size: 642080
+MD5sum: 61f761a9aba653b5ba226be80f79756e
+SHA1: 94424b10265d924f1607555ea826ac64121d8142
+SHA256: b920f80146fb87f38402508ce1abda303bd3c8f4acb1f8c1b9b2f68a3c11e478
+SHA512: 826c2e85f595790ae34a8c63ced41d06862e1bacf2b30a4a3561a0c7ffe2af72f1a37ee1ccd461836963ef10658bec26d9af3f14f7d67e7641ed98bd8b839a37
 Homepage: http://xmlsoft.org
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
@@ -50077,7 +50077,7 @@ Description: GNOME XML library
 
 Package: libxml2-utils
 Architecture: amd64
-Version: 2.15.2+dfsg-0.1
+Version: 2.15.3+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
@@ -50085,12 +50085,12 @@ Source: libxml2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 211
 Depends: libc6 (>= 2.38), libreadline8t64 (>= 6.0), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.2.3.4)
-Filename: ./libxml2-utils_2.15.2+dfsg-0.1_amd64.deb
-Size: 122916
-MD5sum: 0ef2956c9ff5418e1e8f2297adb7e1d4
-SHA1: 55563fc5cfc2a3fb4a991f5757721306e4bc0b89
-SHA256: ee759f39c0bb1713d954968125e5ecc7f9bec0108414c10c9f058f88b519f145
-SHA512: 25ba7eea0e9bfe1bc85694316aa57ba2806561170e423116b0e79f9f6cb7d4a8541c7c95cf8fb3a18044faf165b232fc34f3ddee5634822522aea1fb490ba301
+Filename: ./libxml2-utils_2.15.3+dfsg-1_amd64.deb
+Size: 123324
+MD5sum: 9a6b9a01b5a265db0c21a299d628f9c1
+SHA1: b7a25e07e32b8b6f5c929894fe189a0940be805b
+SHA256: bc94ae4bfa788911b5667d592109de90850804f9787b819938cd7a670650f93d
+SHA512: b864a7b221a9bcf691246668bcc3d2136f6de4ece40d5cc36c9cebc6ccdaab27384079bc5640ede1f87d648bdca5ff3c5d5e553de30dc9b94007b2bff70822ed
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
@@ -57275,19 +57275,19 @@ Description: Python bindings for libvoikko
 
 Package: python3-libxml2
 Architecture: amd64
-Version: 2.15.2+dfsg-0.1
+Version: 2.15.3+dfsg-1
 Priority: optional
 Section: python
 Source: libxml2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 1083
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.28), libxml2-16 (>= 2.15.1+dfsg-2ubuntu1)
-Filename: ./python3-libxml2_2.15.2+dfsg-0.1_amd64.deb
-Size: 217260
-MD5sum: 4a3709c624e843dfb0c9be9cc7741e43
-SHA1: 6b9b7177b47b3e8d3e8b35e42437cca6ee466a60
-SHA256: a10d01802182d38211d6b52352293233f73558d7f771a2badc8f1708f2792b4d
-SHA512: 13a22b7be814b6b977e90936c17515acd3fb6c30c89acbec1549bd0d4b1a67bfcdc14ce00ba855dfe14b86d7383839152d3b7cac53ca560fe047873c2ed754f3
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.28), libxml2-16 (>= 2.15.2)
+Filename: ./python3-libxml2_2.15.3+dfsg-1_amd64.deb
+Size: 216760
+MD5sum: cfe344676cac9b6ae7a1e5b9b11be22e
+SHA1: 3d0f485e1b5663c8d7bd202bead3e51e2987cd2b
+SHA256: e4a60774e1c515172fae168b40ab0b82f4b2c6b90befdd23f58aaaeb471b1156
+SHA512: 75828448e285d81bcb8de148bac658b43c11f215d5daeca0a7e6ef0dd50632e53aaf1b5fc712f5a1393bbbe8a02086f7585685fc36b58276f8c586da8ea76f94
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - Python3 bindings
  XML is a metalanguage to let you design your own markup language.
