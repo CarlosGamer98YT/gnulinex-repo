@@ -10792,19 +10792,19 @@ Description: Take pictures and videos from your webcam
 
 Package: gnome-software-common
 Architecture: all
-Version: 50.1-1
+Version: 50.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 7382
-Filename: ./gnome-software-common_50.1-1_all.deb
-Size: 935360
-MD5sum: 2ca33859406c9a44a5f9748df2b92417
-SHA1: 760d6a89b2692640739a956819cfb3d39d5fb4b5
-SHA256: a92099134b446638bbb371a4d93259c6ac2d6eabaf026dc8bca27f27cfcdf82c
-SHA512: afebb1154b7093dacc330ac284c5833c98c16dac3cc9d2c82c72c5f3b8327be6c7422e30f0e43ecf09561c96a256ea889ca5aa5f917d913842599d2e19f03d7c
+Installed-Size: 7576
+Filename: ./gnome-software-common_50.2-1_all.deb
+Size: 945200
+MD5sum: 716dfcda8ab36028ee506b1a4474cd19
+SHA1: 0e335358eef70b1247185352eb420f4084f6fcba
+SHA256: 03b0f982c285e3a17c1b0372934b55f0a7c7e1b0ebbc7eb2bd6116f438a7d3a5
+SHA512: 33eba2aee749ab96979d79440b2861db3ddeb54f3c60ade355c65201c0b6d8c28d6dd0ad2a4ff634b19a952a025aa3a733c07583e2227cc0f7edbf0ab739ef75
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME (common files)
  Software lets you install and update applications and system extensions.
@@ -10819,23 +10819,23 @@ Description: Software Center for GNOME (common files)
 
 Package: gnome-software-plugin-deb
 Architecture: amd64
-Version: 50.1-1
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 295
-Provides: gnome-software-plugin (= 50.1-1)
-Depends: appstream, apt-config-icons, gnome-software (= 50.1-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
+Provides: gnome-software-plugin (= 50.2-1)
+Depends: appstream, apt-config-icons, gnome-software (= 50.2-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
 Suggests: apt-config-icons-hidpi
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-deb_50.1-1_amd64.deb
-Size: 75972
-MD5sum: b1cc6155a58883cf554b48958ecc2c2a
-SHA1: 21ad9187978b5d6a9c7edbce40add0791be521c0
-SHA256: ca777f4932f5f6a7e268b6d769e72797a807aae11605a3149cb7cadf8393cb83
-SHA512: 7db63f95593c7cc5d3515e92d6eb959ff1bd8499d9320a1e4fec2b7eb917c1f792cb9ff5f7469d063715f4ba384a6d61e4f9c21e002c225e209634d26bbe234e
+Filename: ./gnome-software-plugin-deb_50.2-1_amd64.deb
+Size: 75968
+MD5sum: 5cbe34ef07ea70039e94c374a181fff3
+SHA1: d1afca7031a03e17221b3474ad448c6425fd5f65
+SHA256: 37e1509722378955532ad7de10c93f96a6ae38c510c6968b77618ac9f4326f1a
+SHA512: 88b46e3e3df28fdbe64be08387b7ca657ace2792970cc7607aca8c6fb1b9ad37f823ccce64ac64b6037ed42a7a3411f6c8cb212c6f402b8cc58a09355194721b
 Homepage: https://apps.gnome.org/Software/
 Description: .deb support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10851,22 +10851,22 @@ Description: .deb support for GNOME Software
 
 Package: gnome-software-plugin-flatpak
 Architecture: amd64
-Version: 50.1-1
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 282
-Provides: gnome-software-plugin (= 50.1-1)
-Depends: flatpak, gnome-software (= 50.1-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.15.6), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.2)
+Installed-Size: 283
+Provides: gnome-software-plugin (= 50.2-1)
+Depends: flatpak, gnome-software (= 50.2-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.15.6), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.2)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-flatpak_50.1-1_amd64.deb
-Size: 85644
-MD5sum: b3426d04e91cf79a001d9b489e5c9ac6
-SHA1: dbab13e98701a7489bb5a652c30846b5ac0e49f4
-SHA256: 11ed01033f8419ba6cfef5d151b42ef0563259d12ce0af0aa016bdcd81d36325
-SHA512: f6225e7a5c708a2a1e6567735e64056d3de6b2b4381ac3dfd8c69ed66453422ad30fd0052106e9f0b180f93684b55acdaac96598cd4aec554ba0fb081ecf71db
+Filename: ./gnome-software-plugin-flatpak_50.2-1_amd64.deb
+Size: 85832
+MD5sum: 18b5bd77ec413af84dfa0a0877fb6487
+SHA1: fc35db55472395034f5dc17fdd7c51661c329785
+SHA256: e2f49a24f4edf5e2396d6a4fbfaebe203cc5f5602cd1015fa3a0c408e534b822
+SHA512: 26246115668d7df13d7bcaeeffb1195d5f7c4e7e3861da9a49030936a3e6f344351bd1e48dbd445d87fb75c631fd26a35c695819d6105de4847f934bb62d5248
 Homepage: https://apps.gnome.org/Software/
 Description: Flatpak support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10881,21 +10881,21 @@ Description: Flatpak support for GNOME Software
 
 Package: gnome-software-plugin-fwupd
 Architecture: amd64
-Version: 50.1-1
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 135
-Depends: fwupd, gnome-software (= 50.1-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
+Depends: fwupd, gnome-software (= 50.2-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-fwupd_50.1-1_amd64.deb
-Size: 35816
-MD5sum: 7e65a1b924aa7b0cb92168bf6b1c4dfe
-SHA1: a77247e24dfe5bf99758e810c73ac9b5bef93e1c
-SHA256: cdee09f76bea1ee20ecf28a6ecbfdf988d76b0ccf17bd84d26fbded89a4af56c
-SHA512: 7b6d6edcba912661c4f0700ee443cf13690c49d20b239aa97a5b8615d9e6419900eeb1c15ab5d30dd3248595a0feee6b88325e882842e6c3505c7618e7d4b9f5
+Filename: ./gnome-software-plugin-fwupd_50.2-1_amd64.deb
+Size: 36020
+MD5sum: 6688ffd7f934828461624abfe9d86ee5
+SHA1: 7cf769f8b0d0dcb20bdd7ae0befd3f3d6e190a81
+SHA256: a4b450f7a6fda4bd4321cc92b3b2708b48f1f53d0af41e30e79715fe92bb33d9
+SHA512: ec82f49f346c335d91268d33bc1f7f481a9e5bc3b446051835e7b8dfccc8a3f597e5b774278a31296e7033e5a723c1532e22506478ca2f8beddc23ffffdaac9c
 Homepage: https://apps.gnome.org/Software/
 Description: Firmware updater support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10910,21 +10910,21 @@ Description: Firmware updater support for GNOME Software
 
 Package: gnome-software
 Architecture: amd64
-Version: 50.1-1
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4654
-Depends: gnome-software-common (= 50.1-1), gnome-software-plugin-deb (= 50.1-1) | gnome-software-plugin (= 50.1-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.4)
+Installed-Size: 4715
+Depends: gnome-software-common (= 50.2-1), gnome-software-plugin-deb (= 50.2-1) | gnome-software-plugin (= 50.2-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.4)
 Recommends: gnome-software-plugin-fwupd, gnome-software-plugin-deb
 Suggests: gnome-software-plugin-flatpak, gnome-software-plugin-snap
 Conflicts: sessioninstaller
-Filename: ./gnome-software_50.1-1_amd64.deb
-Size: 1205444
-MD5sum: 2c20034ae8107cc0d1669011da7e3e30
-SHA1: ca2afd6c57d78dc76aaf869ac4b15bb4805f9f83
-SHA256: 68facf3bb54cb123d5eeade8e70d403af8d386fe434a274a6b0c09a9e830691c
-SHA512: bcaa7bd103ef85ace0fb7f1812fe9c1370d5f6a2810371d199e1d7d95510a5a32828c90a36b5104c21cd5e62ea2447bfdbd1f255b4066ed1e3b83f1f0ad677e5
+Filename: ./gnome-software_50.2-1_amd64.deb
+Size: 1214620
+MD5sum: 2818f3c2626d5e284a7fd1bb9b69e68b
+SHA1: 5a2da4d7162847cb4d53dfd4fb4dbb66f6c236d5
+SHA256: 0b412db2d9e627e88bdeca59ab9d46abf361f04e3d556d2c5a93b7c52bcb15ab
+SHA512: 7dedd37c560f6afd829d4c8a03c559bb981d5a2801e18fa36e2696603e85ab2aac23c90481af5548cd4f317481eeb0911c8482ce421f1267adf986110884514c
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME
  Software lets you install and update applications and system extensions.
@@ -11147,18 +11147,18 @@ Description: guided tour and greeter for GNOME
 
 Package: gnome-user-docs
 Architecture: all
-Version: 50.0-1
+Version: 50.2-1
 Priority: optional
 Section: doc
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 75792
+Installed-Size: 75794
 Depends: yelp
-Filename: ./gnome-user-docs_50.0-1_all.deb
-Size: 12599680
-MD5sum: 294095d7817e7be5bdc8d9ff2f8af4e0
-SHA1: 42bde965afe9b569f0776fe3dc6568fe9bb03e1e
-SHA256: 55c335e42f1ac7e710d8d4434712eb96d27ddc2ecdf30ea7682b6f499605b73c
-SHA512: af97f42f55a73c842de4e6c70429af25fb33405ce06af22b1366582e9905400118ede9190f8b484e0e2c9339a0c34719fefbb1bab0091e9f65f2f4d10b32a6eb
+Filename: ./gnome-user-docs_50.2-1_all.deb
+Size: 12603280
+MD5sum: 4fdc2ce0c24700fb3f0149302df2c508
+SHA1: 63f12ed5284288c5e91bb725bbf8dee9aafaf43d
+SHA256: 6e9789587f704c70c57db779be859e91c65f6f05d8bce5783a0c39bfa50e215a
+SHA512: 9834c9154cc61a9596735e47e5029b027be8b9c28539b18a18c79fb078aa59f9ec9a664bf99c24ff84d2b083e12d3af61ad671d948d43ca67ab43f7ea134ca68
 Homepage: https://help.gnome.org/gnome-help/
 Description: GNOME Help
  Documentation for using the GNOME desktop environment and its components.
@@ -24638,20 +24638,20 @@ Description: Fast and user-friendly configuration language (library files)
 
 Package: libhyprtoolkit5
 Architecture: amd64
-Version: 0.5.4-1+b1
+Version: 0.5.4-1+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprtoolkit (0.5.4-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
 Installed-Size: 1651
-Depends: libaquamarine10 (>= 0.11.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./libhyprtoolkit5_0.5.4-1+b1_amd64.deb
-Size: 423344
-MD5sum: 47310cdf72032f91b717e2457b3bc4be
-SHA1: 908b89152e9e7ffc9f5d9e93c188130d4017cde2
-SHA256: 9ab67b725a7bc19132bcac2f9b3c7bd6bd67809202dfffb14229013733aacb18
-SHA512: 6af0be73cb565e32cda5eb341f5ea12a4f895b5c0f60119c38feafde7b4e53edf3b300fa0ddbac1aeba3d198b227dc3181990f15cdb9f234b913ae4995c0214e
+Depends: libaquamarine11 (>= 0.12.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
+Filename: ./libhyprtoolkit5_0.5.4-1+b2_amd64.deb
+Size: 422244
+MD5sum: e821850cb357e7fb1fa7e4ebf9011882
+SHA1: 8952bb168d441beeb1287c40cd1bbc1929c8ee99
+SHA256: 31befd233ca7451cf041ea18c29c3330e034b16089edf5629522c38776089d36
+SHA512: 28aa240ba03a4b28b6e269743ff1bfd682e99de2451d3868db67dad927ad366ef9b47b66dd072967c319ff928a5e7102f1dcfa70ff63f99ee24de8f9cf664a15
 Homepage: https://github.com/hyprwm/hyprtoolkit
 Description: Modern, wayland-native C++ GUI toolkit -- binary files
  Hyprtoolkit is designed to be a small, simple, and modern C++ toolkit for
@@ -38247,20 +38247,20 @@ Description: Qt/C++ wrapper over minizip - Version 1 (Qt6)
 
 Package: libquazip1-qt6-dev
 Architecture: amd64
-Version: 1.5-2
+Version: 1.7.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: libquazip1-qt6
+Source: libquazip1
 Maintainer: Ben Westover <bjw@debian.org>
-Installed-Size: 192
-Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1t64 (= 1.5-2)
-Filename: ./libquazip1-qt6-dev_1.5-2_amd64.deb
-Size: 37192
-MD5sum: 4b29a33d321af51d97ff6c4c62f8ea96
-SHA1: 46e357488c995487727de76d9b372be83d9045da
-SHA256: 80b9e013f284e2cd0c28d0cc9983294e0d255f6d3ea2fbd9905724ab93bb220b
-SHA512: 62bc0ebf38bb9fcb1021374c26d6186f3618a39d1a11a68c1c3b29e4e0ad72c82031f93363bbf2f95dcf2ca57a74c72fad174b040e937f62c01b578dd01d8d4e
+Installed-Size: 216
+Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1.7 (= 1.7.1-1)
+Filename: ./libquazip1-qt6-dev_1.7.1-1_amd64.deb
+Size: 39808
+MD5sum: 7876a990fe415b3c4182cbe44239a9d9
+SHA1: 40f7b8ace1d6a54dfedd0e4d92f6ab081f3d9baa
+SHA256: 789688ecf52cff7bcb8f8954685f1875b86caf652683ef7fff959003367e421c
+SHA512: 4eedf06b6fd70a7dcf59d51df86a7f1daa8bbf2b297b7c72b869cba2f56adbbbc209db8ee540cd49483f1575b3cc5ed44308bbba832a3fbb41a23a4673f960a4
 Homepage: https://github.com/stachenov/quazip
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt6) - development files
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
@@ -69566,18 +69566,18 @@ Description: command line CD/DVD writing tool
 
 Package: wofi
 Architecture: amd64
-Version: 1.5.1-1
+Version: 1.5.3-1
 Priority: optional
 Section: x11
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Installed-Size: 172
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0)
-Filename: ./wofi_1.5.1-1_amd64.deb
-Size: 67796
-MD5sum: 312b87fb7c0c9140d78a8888aedc7eef
-SHA1: eac9ec08eb44a536bba7f4f61a2da34ee441648c
-SHA256: 01938410ef6f84e9755eb30ef82094d43d1389afde8fe6031ad15daf184b871d
-SHA512: 09e800f372e6991d8a616fcedc0ab98c61fbda53c71a1045af12fc8bf2f3726b07e005c5e944d7a3457e15cfc7681edb516e6255d02f9dd95b8cfa8b639e1ade
+Filename: ./wofi_1.5.3-1_amd64.deb
+Size: 68200
+MD5sum: e6ef7119980413b18da81bdaebd99f9a
+SHA1: b57301ea56ed3f50ed840ef609044c908aff8767
+SHA256: 83a1713d08e0344a3bff0e5a6bbf8b94e4264d99b5e6f2512b544d52032a9922
+SHA512: bc98e419f4a3c6982bd176444a23f4ca21885c536c4385547d0a36f39d1deb18f8ae4c1cfcdfc17162d32366e516e68352bcbf9e407e93c5e9e0a67742653f4f
 Homepage: https://hg.sr.ht/~scoopta/wofi
 Description: application launcher for wlroots based wayland compositors
  wofi is an application launcher and menu program for wlroots based wayland
