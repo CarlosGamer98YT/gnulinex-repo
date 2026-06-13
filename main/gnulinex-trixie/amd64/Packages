@@ -6622,21 +6622,22 @@ Description: simple tool to view and install deb files - GNOME GUI
 
 Package: gdm3
 Architecture: amd64
-Version: 49.2-4
+Version: 50.1-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5624
+Installed-Size: 5858
 Provides: x-display-manager
-Depends: accountsservice (>= 0.6.35), dconf-cli (>= 0.20), dconf-gsettings-backend (>= 0.20), dbus-bin | systemd-sysv, default-dbus-system-bus | dbus-system-bus, default-logind | logind, gir1.2-gdm-1.0 (= 49.2-4), gnome-session | x-session-manager | x-window-manager | x-terminal-emulator, gnome-session-bin (>= 49), gnome-session-common (>= 49), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 3.37.90), gsettings-desktop-schemas, libgdm1 (= 49.2-4), libglib2.0-bin (>= 2.35.0), libnss-systemd (>= 258.1-2~), libpam-modules (>= 0.72-1), libpam-runtime (>= 0.76-13.1), librsvg2-common, polkitd, procps, ucf, x11-common (>= 1:7.6+11), x11-xserver-utils, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, libaccountsservice0 (>= 0.6.55), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 232), libjson-glib-1.0-0 (>= 1.5.2), libkeyutils1 (>= 1.5.9), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsystemd0 (>= 257), libxau6 (>= 1:1.0.11), libxcb1
+Depends: accountsservice (>= 0.6.35), dconf-cli (>= 0.20), dconf-gsettings-backend (>= 0.20), dbus-bin | systemd-sysv, default-dbus-system-bus | dbus-system-bus, default-logind | logind, gir1.2-gdm-1.0 (= 50.1-2), gnome-session | x-session-manager | x-window-manager | x-terminal-emulator, gnome-session-bin (>= 50~alpha), gnome-session-common (>= 50~alpha), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~alpha), gsettings-desktop-schemas, libgdm1 (= 50.1-2), libglib2.0-bin (>= 2.35.0), libnss-systemd (>= 258.1-2~), libpam-modules (>= 0.72-1), libpam-runtime (>= 0.76-13.1), librsvg2-common, polkitd, procps, ucf, x11-common (>= 1:7.6+11), x11-xserver-utils, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, libaccountsservice0 (>= 0.6.55), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 232), libjson-glib-1.0-0 (>= 1.5.2), libkeyutils1 (>= 1.5.9), libpam0g (>= 0.99.7.1), libpolkit-gobject-1-0 (>= 0.99), libselinux1 (>= 3.1~), libsystemd0 (>= 259), libxau6 (>= 1:1.0.11)
 Recommends: at-spi2-core, desktop-base (>= 10.0.0), gnome-session | x-session-manager, x11-xkb-utils, zenity
 Suggests: orca, libpam-fprintd (>= 0.8.0-2), libpam-sss (>= 2.3.0-1), libpam-pkcs11, libpam-gnome-keyring
-Filename: ./gdm3_49.2-4_amd64.deb
-Size: 812552
-MD5sum: 36eb0d70191de63c15b16e95b27fb961
-SHA1: 00a919069e05a1061e4d2b0c347579be82801ce1
-SHA256: 62b056e6deb7f2e5796b722cdab126c3efb45b46cc06569f58b4489e921dfd3f
-SHA512: 0086089f889a22d373c38493b8589cce1ca8f486db0b601655caeb89c97d7226e0d3d19053ea6061e2184afbb6daaf4c604c2450a175be6c7d296b541bd837c3
+Breaks: gnome-remote-desktop (<< 50~rc)
+Filename: ./gdm3_50.1-2_amd64.deb
+Size: 834144
+MD5sum: 3e91171f5e6cd2a967d6eec84b13a6d7
+SHA1: 70d56907310b26e15cd4798c8d73f87df1c41e79
+SHA256: c0d5bbf9d1f5add885fba2edca73e71cf48703df81fedf68519711707e383e94
+SHA512: e1366238894683203e5964475dd5689f1748781d66643e4dc992b86faae74812041c37799febc902e6eff044d8d706ace5bce92f65959ba45fce849ee459ac4a
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GNOME Display Manager
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -7550,19 +7551,19 @@ Description: GDK Pixbuf library - GObject-Introspection
 
 Package: gir1.2-gdm-1.0
 Architecture: amd64
-Version: 49.2-4
+Version: 50.1-2
 Priority: optional
 Section: introspection
 Source: gdm3
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 76
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libgdm1 (>= 46~rc)
-Filename: ./gir1.2-gdm-1.0_49.2-4_amd64.deb
-Size: 24952
-MD5sum: f3080934bb840d21b63a2e0c433f0d4a
-SHA1: e6e70160d5f0df7a45a0b9071df6fa0ee79d7d7f
-SHA256: 3c495f7f608e0d0dfbe7c32f83f10b302ca5e01dad360ad5e699f5c5302856bc
-SHA512: 9c96a60df69569808ed74008503947fd3c2ebfae417bb075bfbf7b59935ac9d872c36e8e3e34a2d9746b100a8c88415a60cc5b2c244d77b01d84129ef48f7225
+Installed-Size: 62
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libgdm1 (>= 50~beta)
+Filename: ./gir1.2-gdm-1.0_50.1-2_amd64.deb
+Size: 16264
+MD5sum: f4efb650a9ba42bd3db8c73d59498d7a
+SHA1: 0eb7992791772a13185ca95416eee341b024fc8b
+SHA256: ddf147286ec92d37028cf3457914ad0e580a2e04053b40c1f8c8752903862d9e
+SHA512: a23d6ca4d0ef04593b0fe9358db814f67e5a5637c53d6cd9bca6ca421fba96f50653d8eb9da61a25ebe06799f25e9d24fd94e738edb0ca18491e3f57fe05189e
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GObject introspection data for the GNOME Display Manager
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -10547,22 +10548,22 @@ Description: screenshot application for GNOME
 
 Package: gnome-session-bin
 Architecture: amd64
-Version: 49.2-3
+Version: 50.1-3
 Priority: optional
 Section: gnome
 Source: gnome-session
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 338
+Installed-Size: 357
 Depends: default-dbus-session-bus | dbus-session-bus, gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.34.2), libsystemd0
 Recommends: default-logind | logind
-Breaks: budgie-desktop (<< 10.8.2-3~), gdm3 (<< 49), gnome-initial-setup (<< 49), gnome-startup-applications (<< 49), phosh (<< 0.50~rc), phrog (<< 0.46.0-3~)
+Breaks: budgie-desktop (<< 10.8.2-3~), gdm3 (<< 50~), gnome-initial-setup (<< 49), gnome-shell (<< 50~rc), gnome-startup-applications (<< 49), phosh (<< 0.50~rc), phrog (<< 0.46.0-3~)
 Replaces: gnome-startup-applications (<< 49)
-Filename: ./gnome-session-bin_49.2-3_amd64.deb
-Size: 85352
-MD5sum: 112ac5dcf667c3cd211480e6affc039e
-SHA1: fcbbff9182be758142736d2bc408b60dd30c63b1
-SHA256: 6bc55b0d46f47f7fbd2b758f311a8ce25f8b4e29cf5ac86ef031de40b630ebc1
-SHA512: 9385bc6cfaa36e0c5019e6c9044a4e5c5a934101af35ac36b8b0426a83301c88495ea6d34ad7463233fc3b7073f8135077223b36d6547b31a07045b995ad079c
+Filename: ./gnome-session-bin_50.1-3_amd64.deb
+Size: 86492
+MD5sum: 9c02327e5a3de189800ad5773a5d5e18
+SHA1: 54ec1bc34f40286f4d889fecd94b48397f70805d
+SHA256: 418af8d1060db1210d83dc6d85d88dc304f543a2aef7cd5b8febd1786060d065
+SHA512: 1a9c8e6cfb76ec5f0b9db150a145e640a061b682114bf13014b2e053204d15ade163143499ad7909a19052e69fd0e8d4481ce14ec0379b926761033be84391b1
 Homepage: https://gitlab.gnome.org/GNOME/gnome-session
 Description: GNOME Session Manager - Minimal runtime
  The GNOME Session Manager is in charge of starting the core components
@@ -10577,18 +10578,18 @@ Description: GNOME Session Manager - Minimal runtime
 
 Package: gnome-session-common
 Architecture: all
-Version: 49.2-3
+Version: 50.1-3
 Priority: optional
 Section: gnome
 Source: gnome-session
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1224
-Filename: ./gnome-session-common_49.2-3_all.deb
-Size: 185388
-MD5sum: e8e1b0eb15072e772d3bbaf3b729b7db
-SHA1: c749ec03afc6063ac06e912a142820746632d20a
-SHA256: 03f6334e71d59665d521950252f5450650e82625e2acab065fcfd760e59929c5
-SHA512: 5039957485f551fbd2f0699cad4ac320d92f92aa6d2083d5949be4e55c4ecf870768470efb63069d0ec8f0e67f89ff6343f91374686c2ce08c329535ae8bd0ea
+Installed-Size: 1203
+Filename: ./gnome-session-common_50.1-3_all.deb
+Size: 178404
+MD5sum: 3defbf4cbea65667abfdeaebb8c27d48
+SHA1: 2841aae2f35f8e5e99bd1e62a6a3839882e902ae
+SHA256: 057c14383d91d6ac5cddde89d2ebd236992e99a9759220b4d7a39bb341d2f3f1
+SHA512: 265fb818ea2e7edca342bc53fad9dfdc6f6d5c1491cecca1a51cd7e9f4dd977ee50b32625f1021f91db4efd2ecc07847d61056c4897a2e2ddc712e680bf3196c
 Homepage: https://gitlab.gnome.org/GNOME/gnome-session
 Description: GNOME Session Manager - common files
  The GNOME Session Manager is in charge of starting the core components
@@ -10634,20 +10635,20 @@ Description: traditional desktop session based on GNOME technologies
 
 Package: gnome-session
 Architecture: all
-Version: 49.2-3
+Version: 50.1-3
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 176
+Installed-Size: 173
 Provides: x-session-manager
-Depends: adwaita-icon-theme, fonts-adwaita, gnome-session-bin (<< 50~), gnome-session-bin (>= 49.2-3), gnome-session-common (= 49.2-3), gnome-settings-daemon, gnome-shell, xdg-desktop-portal-gnome, xwayland
+Depends: adwaita-icon-theme, fonts-adwaita, gnome-session-bin (<< 51~), gnome-session-bin (>= 50.1-3), gnome-session-common (= 50.1-3), gnome-settings-daemon, gnome-shell (>= 50~), xdg-desktop-portal-gnome, xwayland
 Suggests: desktop-base, fonts-cantarell, gnome-keyring
-Filename: ./gnome-session_49.2-3_all.deb
-Size: 65348
-MD5sum: 40cc769a37ac15e5b8237c10993f51e8
-SHA1: 1ad281fd2213bbd5d1e5775c211d25c41a4c59d0
-SHA256: 0c416c426578403c6e2f9bf6fa3e06c0caa67389f120d840aeb3cdd2b9a5548e
-SHA512: b802e280ee74671bb8d21bc3b17bb15e2b5fb6a9b23c8d2b52c266976bfee2511cf0cb04fff8445ce532a6bf35def5292918aab8d289589b2ea5d24e475a9ddc
+Filename: ./gnome-session_50.1-3_all.deb
+Size: 61676
+MD5sum: 7cfc34c989975201d8010bf0c88bdde2
+SHA1: 6a04ff11c9dab6a4668d5f8113e87e9a16899c8a
+SHA256: 62668a6f12dcfc120a9da5ce0a2205856f000ee9876dbec71e1c0218157debcf
+SHA512: a5b88a002af7d155d985b9fdc4106407a2e740067be0477c526124b6356cf8f27d5897f9671ceca22d8aa24d67b40475d17eb842e03a3082705245ebd0272e40
 Homepage: https://gitlab.gnome.org/GNOME/gnome-session
 Description: GNOME Session Manager - default GNOME session
  The GNOME Session Manager is in charge of starting the core components
@@ -10719,41 +10720,42 @@ Description: daemon handling the GNOME session settings
 
 Package: gnome-shell-common
 Architecture: all
-Version: 49.5-1
+Version: 50.2-3
 Priority: optional
 Section: gnome
 Source: gnome-shell
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 7872
+Installed-Size: 8068
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./gnome-shell-common_49.5-1_all.deb
-Size: 882744
-MD5sum: 67740d037ec827c8d302b586e7183079
-SHA1: 526c91c685e7f8a2d4d98eea4d182bfd7dc5f49b
-SHA256: 08aa3be9d91f896db3b5690a6738c7e2d085d460b2c476808a9287f3a3c7ecae
-SHA512: 95c41811ce09cb6f8c59e85ac3ca94e65d2ed6e3027b5a5d8b3a48721860d6f39fe139243ba031c68fe2bc62895d42a55bab350d0ac4c0e6becb2d62944572cc
+Breaks: gnome-session-common (<< 50~alpha)
+Filename: ./gnome-shell-common_50.2-3_all.deb
+Size: 910284
+MD5sum: 0cf4ff6e178e210781f97816b20544f2
+SHA1: 350cf9140e21d6cfb0a3ad6a185109422a496527
+SHA256: 2d76897f32905386240b3e15ade5d51f68d8f6b4f96465b48ba51eb100fbbb10
+SHA512: 994e04737cfa1d921621c00e15f5ea212b78b5680d54716026f1264dab559b56ff98bd256e080ab07e50b032fab6c978bd4d7ec3a751ad59dabe07de00dba585
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: common files for the GNOME graphical shell
  This package contains translations and data files for the GNOME shell.
 
 Package: gnome-shell
 Architecture: amd64
-Version: 49.5-1
+Version: 50.2-3
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6670
+Installed-Size: 6702
 Provides: notification-daemon, polkit-1-auth-agent
-Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-17 (>= 49.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.85.90), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 49.5-1), gsettings-desktop-schemas (>= 49~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.85.90), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-17-0 (>= 49.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
+Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-18 (>= 50.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.87.1), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 50.2-3), gsettings-desktop-schemas (>= 50~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.87.1), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-18-0 (>= 50.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
 Recommends: bolt, evolution-data-server (>= 3.45), gdm3, gnome-browser-connector, gnome-remote-desktop, gnome-menus, gnome-user-docs, ibus, iio-sensor-proxy, power-profiles-daemon, switcheroo-control, unzip
 Suggests: gir1.2-malcontent-0, gir1.2-telepathyglib-0.12, gir1.2-telepathylogger-0.2, gnome-shell-extension-prefs
 Breaks: gnome-session (<< 49~beta~), gnome-shell-extension-appindicator (<< 50), gnome-shell-extension-dash-to-panel (<< 55), gnome-shell-extension-dashtodock (<< 79), gnome-shell-extension-desktop-icons (<< 21.04), gnome-shell-extension-desktop-icons-ng (<< 46+really47.0.2-2), gnome-shell-extension-taskbar (<< 57.0-2.1~), gnome-shell-extension-top-icons-plus (<< 27-3~), gnome-shell-extension-workspaces-to-dock (<< 54~), gnome-shell-extensions (<< 40.0~)
-Filename: ./gnome-shell_49.5-1_amd64.deb
-Size: 915220
-MD5sum: 8317dfddffa5f677a9ea6dc97bf5d39e
-SHA1: 4509d3b3ef7328aa0617578bb29888485e95da9d
-SHA256: 540c0e60fcecb52693c679af01e36fe4085cda269871df850cc45eb987fd26a6
-SHA512: 178c6653f4dd579b7dcd3bb2906edde12561198c1119963179d885b803bc2549852058d5c29570b6686f7296a8c2fe94e156ddd0e209c42a0adf27082ca568a0
+Filename: ./gnome-shell_50.2-3_amd64.deb
+Size: 917076
+MD5sum: e499490463f46952f9dd7d17282dcaba
+SHA1: 19e1c8956c300061e4851199bb774ac12ff6cd6e
+SHA256: 94cf1be202cc863b1fae628d14bdfff348cc75cba0424e89f9a5090759df45d0
+SHA512: 7547ebec3d0fcad6439c064edcd844e606de694be3d3adccc7b8c2da8c4962213a001232c3ec9080a3f48d44e8d97760783806dc80dd57d6f8d416aeded18904
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: graphical shell for the GNOME desktop
  The GNOME Shell provides core interface functions like switching
@@ -13198,19 +13200,19 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.23+dfsg1-1
+Version: 8:7.1.2.24+dfsg1-1
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
 Installed-Size: 79
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.23+dfsg1-1_amd64.deb
-Size: 24704
-MD5sum: 78239ec4711bc69d1a33061babdf2441
-SHA1: deef9ca0bdeae884a129db909c0c2718dd4b38c7
-SHA256: 168db96203b5805ba37f9946a1bab19ce65d011305697e43bf47dd0f595f7e65
-SHA512: 760113f4612c05c65d6e9837d235810d75f106bacddc301deec1677a6bf3d4105e1cfa1e3323660d363425d9d9ca7397734f84a068f387f273412dde2dcb594a
+Filename: ./imagemagick_8%3a7.1.2.24+dfsg1-1_amd64.deb
+Size: 24752
+MD5sum: 567d55e7876bb8fc6a766a6ae4aad24f
+SHA1: fd3d6d1f1a73e277bfb3c4658dd6d5e99b176ecf
+SHA256: 4db118d933918bf670bc693c86d6596c3fdeb18484cef308b42fa0b5f9a1652a
+SHA512: d3cc0d48fdb56401b92471dc0dc400274aa07f18f2285164c7af170e76aa4e56eaa81d7ac74f26564dfab9ed684fe577bac276086d5db1a0be7d994f82f44edb
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -21402,19 +21404,20 @@ Description: GDK Pixbuf library - data files
 
 Package: libgdm1
 Architecture: amd64
-Version: 49.2-4
+Version: 50.1-2
 Priority: optional
 Section: libs
 Source: gdm3
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 292
-Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.83.0), libsystemd0 (>= 213)
-Filename: ./libgdm1_49.2-4_amd64.deb
-Size: 71984
-MD5sum: 99aa9b483867eee56e9e210f420ad129
-SHA1: 944e70fa4db1f6d469d54063a97d3e36061723b3
-SHA256: 3d80f5b71e97d4f8d2976325e7b299062becbe8a6f853820cd1a5218094c71fd
-SHA512: 0bbdfe3b9dc42e1c8cf79b2758a09455b57fb7f4c96afdb63fdd5f940e5553c0303b48023089926396171c2c6be671d39c811d9f00a13a7454170249530d438e
+Installed-Size: 215
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.33), libglib2.0-0t64 (>= 2.83.0), libsystemd0 (>= 259)
+Breaks: gnome-kiosk (<< 50)
+Filename: ./libgdm1_50.1-2_amd64.deb
+Size: 52804
+MD5sum: 1b8fddb360c64a134be100ab0873eb8d
+SHA1: b4ed4aec14d440d16426f95792d6dec2d06da38a
+SHA256: 8cd4e301d5631217ea98137fdb0b72c05da0d75541282eae046fece9fe3d90c6
+SHA512: d94565de4eb4e6e102eccf6236924438bdd93ece42400570e9d362b5d8a06f7c6d0e588be532e9ecab7c6c25bf8bca9dbcf8cdec0785930dc28534d9f89e8d47
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GNOME Display Manager (shared library)
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -32433,7 +32436,7 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.23+dfsg1-1
+Version: 8:7.1.2.24+dfsg1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32445,12 +32448,12 @@ Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libg
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.23+dfsg1-1_amd64.deb
-Size: 77336
-MD5sum: 284b8bc1c1e0c61435a3e6be3c2f5274
-SHA1: 3206ec72a5be234f203688fd00b7fd3a8e528213
-SHA256: 770f61b6052269676a17648c3b91681f9497ed008788fd301d4b8aa42e6b0424
-SHA512: 4f0180228a17140f41809e929a470b3bd574abfe24bf79bf2951ace41df66e67db479f0a403b94d8c0e4cf12bb247cf4e92d07a46176833c83bf1b5c35ae02d9
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.24+dfsg1-1_amd64.deb
+Size: 77456
+MD5sum: d1117edff0d5b60f94d1992cef27e9b9
+SHA1: 2f0eee2f6e6a61b6a4db6be1e455d5bbe00f5af0
+SHA256: 50d2d62dcb328a99f40c57e2181960e64228f3b0ce423a29b49b920158413a77
+SHA512: 777f83e0e780db9564380d92c45fad1d485c0d8b4941167cc6dd7158611abad9635fe81cd8bbd795b812f611ef6543ea473cde5f4005a1d29398055e3ad5754b
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
@@ -54271,23 +54274,23 @@ Description: command line tools for the MuPDF viewer
 
 Package: mutter-common-bin
 Architecture: amd64
-Version: 49.4-1
+Version: 50.2-3
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 174
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.14.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), gir1.2-glib-2.0, python3, python3-gi
+Installed-Size: 157
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.22.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), python3:any, gir1.2-glib-2.0, python3-gi
 Suggests: python3-argcomplete
-Breaks: mutter (<< 48.1~)
+Breaks: libmutter-17-0 (<< 50~), mutter (<< 48.1~)
 Replaces: mutter (<< 48.1~)
-Filename: ./mutter-common-bin_49.4-1_amd64.deb
-Size: 65948
-MD5sum: e3997aa511409a9d243286f51921455a
-SHA1: 2df078b8b0e60da04f34c3a0a9ed3db30590dece
-SHA256: c5b03c5a6acf8741a3bf80ab080d9f94d2bbd02789a8d5c73a9ebbe32007e862
-SHA512: 39ddeb4e8e46ddbe93ddd8ff696deb92bd1e194614b680d4c0b02104dcf81f17c88f5b98ce0818362f7d0c44dfe24b46819241a25bcf1440b21b5609cbe8b6da
+Filename: ./mutter-common-bin_50.2-3_amd64.deb
+Size: 46932
+MD5sum: bd2821582f8d6c631caacf968c739728
+SHA1: f54634a96c4f145754cc6ce0a3452d8315fb7229
+SHA256: 70b6818160bc73ca56eedf4e901d36791adf861081d0d68dd770c510e3e6826d
+SHA512: c7b4acb45b0bb5be7535dfd37767cc470caf8973fcb37365e50a74db3abaec5eeb666d2fb83414fdeffcb533b72dfbfe483319b81a8e00edcc90881b7ec74397
 Homepage: https://mutter.gnome.org/
 Description: shared programs for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -54304,22 +54307,22 @@ Description: shared programs for the Mutter window manager
 
 Package: mutter-common
 Architecture: all
-Version: 49.4-1
+Version: 50.2-3
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3967
-Depends: dconf-gsettings-backend | gsettings-backend, python3
-Breaks: libmutter-10-0 (<< 49~), libmutter-11-0 (<< 49~), libmutter-12-0 (<< 49~), libmutter-13-0 (<< 49~), libmutter-14-0 (<< 49~), libmutter-15-0 (<< 49~), libmutter-16-0 (<< 49~), magpie-common (<< 0.9.3-0ubuntu8~)
+Installed-Size: 3975
+Depends: dconf-gsettings-backend | gsettings-backend, python3:any
+Breaks: libmutter-10-0 (<< 49~), libmutter-11-0 (<< 49~), libmutter-12-0 (<< 49~), libmutter-13-0 (<< 49~), libmutter-14-0 (<< 49~), libmutter-15-0 (<< 49~), libmutter-16-0 (<< 49~), libmutter-17-0 (<< 50~), magpie-common (<< 0.9.3-0ubuntu8~)
 Replaces: magpie-common (<< 0.9.3-0ubuntu8~)
-Filename: ./mutter-common_49.4-1_all.deb
-Size: 519716
-MD5sum: d2789c94d7c0cf9f87b3d489b4e00481
-SHA1: 2adae98cc21a007824b2140f376a234eaf73f5aa
-SHA256: eeb80fde72be3e6b187efca5836788535562969ec08809e48cc4df61b46df82f
-SHA512: e479ec6ab5c3132c119571c79aed454bb6312a8c602ced8e1ceefbc5638ec891cee03a3b6736c1288e28f861c78954bee985858b5a2abc4b67e6deeec62b1165
+Filename: ./mutter-common_50.2-3_all.deb
+Size: 504312
+MD5sum: 86bd93d2736b9782ebea461a4a9827b7
+SHA1: 80784b1c169d7fc57333634c2bd0ed7cecfbe314
+SHA256: e61a737a2a3d1a88a990489f1d1774e1f071683bb4f18114ba3465148431572d
+SHA512: fb55727852fc246a0f8c285d09b355f4e677e342e94eaeb9563bf36af3c1eda86ebf2ac660a02a30cb9fba49fea2bb525e0648bb4fc90931939ec04f284022b1
 Homepage: https://mutter.gnome.org/
 Description: shared files for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -54931,23 +54934,23 @@ Description: standards-compliant, fast, light-weight and extensible window manag
 
 Package: openjdk-25-jre-headless
 Architecture: amd64
-Version: 25.0.3+9-2
+Version: 25.0.4~4ea-1
 Multi-Arch: same
 Priority: optional
 Section: java
 Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
-Installed-Size: 239341
+Installed-Size: 239455
 Provides: java-runtime-headless (= 25)
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), liblcms2-2 (>= 2.8), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Recommends: libcups2t64, libfontconfig1, libfreetype6 (>= 2.3.5), libharfbuzz0b (>= 2.1.1), libasound2t64 (>= 1.0.16)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
-Filename: ./openjdk-25-jre-headless_25.0.3+9-2_amd64.deb
-Size: 53658220
-MD5sum: 357d6f87306f92f98601f012ea8bc0aa
-SHA1: 374e281bf11db236d292cf4e42eed13213fa9ead
-SHA256: 1572183efb174b5109d10ffb5ffbf69c1de594fbfac701108c3a7305eaaf7329
-SHA512: 39110c92098bd2a0f326073ec185477f3dfff8f8fe1026fad28502796a68546f9e866ec5bb567cbb0a090cfb658a3557a2bf63c0935cd8b12688fa9b9ad59820
+Filename: ./openjdk-25-jre-headless_25.0.4~4ea-1_amd64.deb
+Size: 53702616
+MD5sum: 3947784d80c95d458fcb4ab3d21af7ad
+SHA1: 3f96697a245f83f6aef5709a6b05f449c79f0b3f
+SHA256: 8a134887d3d33229d02e301e00735f697c85c7a95dde3e83e1387d1cdfe363b4
+SHA512: 2a6a9763ec8fe293f4f7b324e84fa78501c092e977e1bd41537dbe4c3e6ab4a9fbc2ceaa53275de2cef3a725de30651cee29cb35e99873b7f9b3de89cf9cd39a
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
@@ -54955,7 +54958,7 @@ Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 
 Package: openjdk-25-jre
 Architecture: amd64
-Version: 25.0.3+9-2
+Version: 25.0.4~4ea-1
 Multi-Arch: same
 Priority: optional
 Section: java
@@ -54963,14 +54966,14 @@ Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
 Installed-Size: 645
 Provides: java-runtime (= 25)
-Depends: openjdk-25-jre-headless (= 25.0.3+9-2), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
+Depends: openjdk-25-jre-headless (= 25.0.4~4ea-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
-Filename: ./openjdk-25-jre_25.0.3+9-2_amd64.deb
-Size: 203932
-MD5sum: e598fcebfcba740e7fcba0afc88a3eba
-SHA1: f41f5b4e7fa3539212c889dd005e26ad684e56a2
-SHA256: 72dabb4766cb13cb111003a023e18ebb3f3f2f00ccde87ec99a49bef7a150e7b
-SHA512: bc7ce58101fca8a27aa6feed80c4a4ffb60cf9e6da421a4f64167ec3f89891eb4f45b23e8321e175e4ea672151d067b9b3a7f182c53cfb8825c3c484c36bb7e2
+Filename: ./openjdk-25-jre_25.0.4~4ea-1_amd64.deb
+Size: 203952
+MD5sum: 4b338fd9bdcdb26d0123076215ebb056
+SHA1: 67bdc779d6768232cf28664c8301803f400354b2
+SHA256: 5ad9a68a1ef3c0a0d29483d1b6aec70975a4cc457c4ceb2e2ed8ec9b01cfa7a9
+SHA512: 5048ba502e4078563cf13eff61452f5842ebceacb9f4dec7352f8a5b1890109865f08b9c1e504fd6888b4b4250c285130889b48f4b4ff2a770955a5d49fddd7b
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
