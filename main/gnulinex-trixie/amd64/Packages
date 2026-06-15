@@ -36999,7 +36999,7 @@ Description: Qt 6 network module
 
 Package: libqt6networkauth6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37007,12 +37007,12 @@ Source: qt6-networkauth
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 338
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6networkauth6_6.10.2-2_amd64.deb
-Size: 95764
-MD5sum: ea8e963b7bb980195800146a8fe5b761
-SHA1: ee89530beb64a1151ba172864339d65773ee1edb
-SHA256: 77e954da04f455836f52f997c2adbce84730e11a54b403fad46bdc2160657ffd
-SHA512: c1480681551d0994d3e2e22ce7cffa8e737c586047ebc2a8063733e67be29062dad96743e0a1c3144db91c1cad342e4af02652d421c1da4924ec388326c79df0
+Filename: ./libqt6networkauth6_6.10.2-3_amd64.deb
+Size: 96136
+MD5sum: c26f2e95f758b3d317c9813754232705
+SHA1: 503720da7099ba73fc12b0ede130ca2017c99b15
+SHA256: cd08e288ab666a96580afb7c79faea2f458b2ca6b046137212f8057912ba284e
+SHA512: 565b5c363581c6c53f3b7c4bcd57e3f4038d04825c6bfd96397f4eb4e4ce3d87280bc1f4040746663be42dcf354182495e9502cc955b2a18dad48fd78def01e8
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 NetworkAuth library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -46682,20 +46682,20 @@ Description: Plasma Workspace task manager library
 
 Package: libteckit0
 Architecture: amd64
-Version: 2.5.13+ds-1+b1
+Version: 2.5.13+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: teckit (2.5.13+ds-1)
+Source: teckit
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 3089
+Installed-Size: 3091
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libteckit0_2.5.13+ds-1+b1_amd64.deb
-Size: 368640
-MD5sum: 624998769928ea392ddf639676c051df
-SHA1: 7a0fc55f7ce4b4f37201f887fdd2af6765836f92
-SHA256: 72315ad29c987f24c55cab6c4020712cafeb02e3700a32b8255282a6e5b2eec9
-SHA512: e3130accdbddf3697b07b42ef14dc1df42602fb3577e9af258bc5367b42370cf015b87af61fa6d43d35958c3185c9f9175e1f80589ba43166e48857b3af42e8f
+Filename: ./libteckit0_2.5.13+ds-2_amd64.deb
+Size: 369600
+MD5sum: c11105ed822b2fc24bdc19556f54a7b6
+SHA1: 5b579dc4cc4851c2c4a3a17f5058ef531e43793a
+SHA256: 6abccb05d5499785b58c3a01f4be858103efb14922ef437447efdff5ac7171b2
+SHA512: b58cb3a1e4066073fdfdc33dc3ff3320f7cff9adfdd3f8af96db8a9432c1b367c7d60c71f1a84602ada632cb9645adc0fbb195c7e7adb36c51c53468c1fc98cc
 Homepage: https://github.com/silnrsi/teckit
 Description: Encoding conversion library
  TECkit is a toolkit for encoding conversions. It offers a simple format for
@@ -56853,21 +56853,21 @@ Description: tools for internationalizing Python applications - Python 3.x
 
 Package: python3-bs4
 Architecture: all
-Version: 4.14.3-2
+Version: 4.15.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: beautifulsoup4
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 454
+Installed-Size: 459
 Depends: python3-soupsieve (>= 2.6), python3-typing-extensions, python3:any
 Recommends: python3-chardet | python3-charset-normalizer, python3-lxml
-Filename: ./python3-bs4_4.14.3-2_all.deb
-Size: 118004
-MD5sum: 4fa572e51404f7483ad80c6c1aeb1b7d
-SHA1: 634d1b528f628e9883fc000dd0f85452d3ead47c
-SHA256: 99fab02a9efae4445c39fe6e02120071580babd7964fcafd76ce478decee49f0
-SHA512: de44c167ac6ac80be80f1b0faae7362ca4b6dd5605f1ce00ec1fc6be4c67163c4a208eeaab769f50b6a696ddbe1ae30ae58734183abe3cc7b89c76ff72695cfd
+Filename: ./python3-bs4_4.15.0-1_all.deb
+Size: 118900
+MD5sum: 140fc99db9af1521f335b46f3995bf30
+SHA1: 7990b6c140745cc2c25d45a2a66f8d9cf7dceeb6
+SHA256: 7528fa8418127b35193b9644ba7c1abb6e53b7ad30a49c24f6acdc8e0fc7f3fc
+SHA512: c7738fc8fd6635c8b2eef290132cd41012f8f3460ba5b0ea8e83ebf807a661114069d62f3043cffd0829742c9ed6fe86b8044c071bfc14ffec91831c7b02d107
 Homepage: https://www.crummy.com/software/BeautifulSoup
 Description: error-tolerant HTML parser for Python 3
  Beautiful Soup is a Python library for pulling data out of HTML and XML files.
