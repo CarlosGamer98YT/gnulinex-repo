@@ -578,22 +578,21 @@ Description: APT configuration snippet to enable icon downloads
 
 Package: apvlv
 Architecture: amd64
-Version: 0.7.0-final-1+b1
+Version: 0.7.0-final-3
 Priority: optional
 Section: text
-Source: apvlv (0.7.0-final-1)
 Maintainer: xiao sheng wen <atzlinux@sina.com>
-Installed-Size: 1151
+Installed-Size: 1127
 Provides: pdf-viewer
-Depends: libc6 (>= 2.38), libcmark0.30.2 (>= 0.30.2), libdjvulibre21 (>= 3.5.29), libgcc-s1 (>= 3.0), libmupdf27.0 (>= 1.25.1+ds1), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.7.2), libqt6pdf6 (>= 6.6.0), libqt6pdfwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libquazip1-qt6-1t64 (>= 1.5), libstdc++6 (>= 14), libtesseract5 (>= 5.5.0)
+Depends: libc6 (>= 2.38), libcmark0.30.2 (>= 0.30.2), libdjvulibre21 (>= 3.5.30), libgcc-s1 (>= 3.0), libmupdf27.0 (>= 1.25.1+ds1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.2), libqt6pdf6 (>= 6.6.0), libqt6pdfwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libquazip1-qt6-1.7 (>= 1.7.1), libstdc++6 (>= 14), libtesseract5 (>= 5.5.0)
 Recommends: tesseract-ocr-chi-sim, tesseract-ocr-eng
 Suggests: poppler-data
-Filename: ./apvlv_0.7.0-final-1+b1_amd64.deb
-Size: 363040
-MD5sum: b07bd34512c642ee9b16711155ee3a3a
-SHA1: a3666684055361001547b5bbd9bf768aa9c58e75
-SHA256: 5a25ac0fd5990f41bac57c9d2c41697b2d56e1efa83f51bfce637e075438e2d1
-SHA512: 5b9cf81b505c1c7c845e2ab58b1cf2f671a58a8beb4ef5c65d61ef663fa60b06a3436469317bc5b82cab14e2efef50beac283677d2aa6903b551daeef1936599
+Filename: ./apvlv_0.7.0-final-3_amd64.deb
+Size: 374772
+MD5sum: 93634f4ff646ba3c265dcfc27e3850ae
+SHA1: 0c35ebb08f8ff2781257812df4573c425601c465
+SHA256: bb4f4b7cbd52278217fb7fd8bea33a2deeb1d21f21e606bfbaccda9899af99f0
+SHA512: 80a36701dd67a59be1ce2bf8c31be57f361fb03b1f46c40181b2d67ce994d265f4d8d05145ff3536a5d43a10a590c33ce804f495eb6ad6a40ec49061038fa76b
 Homepage: https://naihe2010.github.io/apvlv/
 Description: PDF/EPUB/TXT/FB2/MOBI/CBZ/HTML ... viewer with Vim-like behaviour
  apvlv (Alf's PDF Viewer Like Vim) is a small and fast PDF/EPUB/TXT/FB2 viewer,
@@ -2624,22 +2623,22 @@ Description: create DVD-Video file system
 
 Package: dvisvgm
 Architecture: amd64
-Version: 3.6+ds-1
+Version: 3.6+ds-2
 Priority: optional
 Section: tex
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 2714
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 3.4), libgs10 (>= 8.61.dfsg.1), libkpathsea6 (>= 2025.20250727.75242+ds), libpotrace0, libstdc++6 (>= 14), libwoff1 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.2.0)
+Installed-Size: 2718
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 3.4), libgs10 (>= 8.61.dfsg.1), libkpathsea6 (>= 2026.20260303.78225+ds), libpotrace0, libstdc++6 (>= 14), libwoff1 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.2.0)
 Recommends: mupdf-tools
 Breaks: texlive-binaries (<= 2019.20190605.51237-2)
 Replaces: texlive-binaries (<= 2019.20190605.51237-2)
 Enhances: texlive-binaries
-Filename: ./dvisvgm_3.6+ds-1_amd64.deb
-Size: 1145660
-MD5sum: eae17abb010ce255563c5fc51c1b2205
-SHA1: 1a9190bb362998eed992afc30f937f21c4b9ba01
-SHA256: a821fe994dc57ac542b89634970484b4a0d4af0347975272335e0e520bcc7c5b
-SHA512: e24131b27b4ac5d2b40bd9fd494ba9eef58ff98d2f5c89cefa4bcf593cb2b4de13502191df50e768357c72533a8b3990f9a449e66a4d0e52a8775bb2f17951ce
+Filename: ./dvisvgm_3.6+ds-2_amd64.deb
+Size: 1142040
+MD5sum: 2b06149e15c0f3f4448a92c62cbc88b1
+SHA1: 5b4aa94d8ac4f02db0e979dd92164ff4172145dd
+SHA256: 6e1f83071a2b504a29868801f65f4b68fc8105112268ecf497379589645b8499
+SHA512: 91acd9bc682033b48621c7644e6494a88bda0197a7bb9389eb4a0cf9010f7910ac72f324e05c61d612e1167fbdc019d1f5c09f9940fb94878a0213ea20e42211
 Homepage: https://dvisvgm.de/
 Description: DVI to SVG converter
  dvisvgm is a utility for TeX/LaTeX users. It converts DVI, EPS, and
@@ -15375,23 +15374,23 @@ Description: AddressSanitizer -- a fast memory error detector
 
 Package: libasound2-data
 Architecture: all
-Version: 1.2.15.3-1
+Version: 1.2.16-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 197
+Installed-Size: 195
 Recommends: alsa-ucm-conf, alsa-topology-conf
 Suggests: alsa-utils
-Breaks: libasound2t64 (<< 1.2.15.3-1)
-Replaces: libasound2t64 (<< 1.2.15.3-1)
-Filename: ./libasound2-data_1.2.15.3-1_all.deb
-Size: 21228
-MD5sum: ec52168af901ca2a68e57fc682b66eee
-SHA1: d26241a37c79d5c1c7b529cf1cfbe2b7d71783fe
-SHA256: ad5d76d6a0f502ab21ac46b8997e8c6fc8bcf03a5bc5da023ee3bef5044d44c9
-SHA512: 805b660615953b723e38e68920dc926af82e799fbd402b931f4b2004f7b66f677aa26ef7470bc48f0950efd9bacf2d9e5fbeec3d970eefde0d6858582df31606
+Breaks: libasound2t64 (<< 1.2.16-1)
+Replaces: libasound2t64 (<< 1.2.16-1)
+Filename: ./libasound2-data_1.2.16-1_all.deb
+Size: 19272
+MD5sum: df32758bd3d5f63c03652c2880d72da9
+SHA1: 44bb68061092b8f50a4abd00ce5a3576000576f5
+SHA256: 9d0e47f4cd6eb4af5b252477ef06668249ca2d15b18c8029a32db80214d627de
+SHA512: 110e9ef7fe6c414145a9dcf24a11c542d1f66b3d788a7daaa0ba435608d69829f685b8466a4a65b4988d479d06a46247ce43ee734b681dcdef18e0bae562e351
 Homepage: https://www.alsa-project.org/
 Description: Configuration files and profiles for ALSA drivers
  This package contains configuration files for ALSA drivers.
@@ -15400,22 +15399,22 @@ Description: Configuration files and profiles for ALSA drivers
 
 Package: libasound2-dev
 Architecture: amd64
-Version: 1.2.15.3-1+b1
+Version: 1.2.16-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: alsa-lib (1.2.15.3-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 741
+Installed-Size: 740
 Provides: libasound-dev
-Depends: libasound2t64 (= 1.2.15.3-1+b1)
+Depends: libasound2t64 (= 1.2.16-1)
 Suggests: libasound2-doc
-Filename: ./libasound2-dev_1.2.15.3-1+b1_amd64.deb
-Size: 119340
-MD5sum: 5a3536593607d5eb038922a657077603
-SHA1: c660f0dad7d2cefa3ac3860881cdae8fc87c3962
-SHA256: efa2b85132d207b591b34acff7c0818496b22cafbb1bf0da9f1fd1ad1e25c113
-SHA512: e3f9278d759be69fcff0d1e0ca6b5a19386ed2873048485c943b6d92373346c016711803efe3a05796605798d115344ad1ba5ceb15971493d54285f7131c739a
+Filename: ./libasound2-dev_1.2.16-1_amd64.deb
+Size: 119140
+MD5sum: bb5272369ebbaebda5a78a431e21c1c0
+SHA1: c60439aa70e87b4a99bdfa1ccc4f35f9c566afed
+SHA256: 7d7d699cc777e6e2fef4a520c162b6eb5873ceb7110cdd3ea1152e781fccab54
+SHA512: 5b167cfda029e6347ec56c029f8abe9a74e37a13893a4880e0a536d6c9d06e9bd02678b0e2de981013c96e0551a3275d2df1d55000edbb0631562bc31d54d84a
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications -- development files
  This package contains files required for developing software
@@ -15425,24 +15424,24 @@ Description: shared library for ALSA applications -- development files
 
 Package: libasound2t64
 Architecture: amd64
-Version: 1.2.15.3-1+b1
+Version: 1.2.16-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: alsa-lib (1.2.15.3-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 1296
-Provides: libasound2 (= 1.2.15.3-1+b1)
-Depends: libasound2-data (>= 1.2.15.3-1), libc6 (>= 2.38)
+Installed-Size: 1303
+Provides: libasound2 (= 1.2.16-1)
+Depends: libasound2-data (>= 1.2.16-1), libc6 (>= 2.38)
 Suggests: libasound2-plugins (>= 1.0.24)
-Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.15.3-1)
+Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16-1)
 Replaces: libasound2
-Filename: ./libasound2t64_1.2.15.3-1+b1_amd64.deb
-Size: 393976
-MD5sum: 1a35b62e0ea56ff68a1a5bc82e881f31
-SHA1: f58ee0479bdcd813b1b41dc7bfd7623de5e05210
-SHA256: 14020cd71d6ba04ef64888ad668e17a9e1da06d169bd117c6b12cd5ddd555c2a
-SHA512: 2e25c2200d240b1281e042498683a40ce6dd0fc0703b5e860b747a88ed10a2680ee03348e8f30f376e928812cd04e680508e0c5dd7102cd40f81e3d6bd434fe7
+Filename: ./libasound2t64_1.2.16-1_amd64.deb
+Size: 396980
+MD5sum: adbc9c68bfb7f6554d5d0ad39c9328ef
+SHA1: 1a64909b450f9f45af0d96d15cf5fce063b568f9
+SHA256: 29ad8cb19e28404845029d8b8924f2abadd1e1e06973cfb27b0a5aa822fdc46e
+SHA512: 8874222b91867406e7b9273ee7dfe86b51e32457f77b1ff31cb7536ad8f3a449de5d499a7f97582963f6f8505cde6b85672500340e5bf3dc1d020b11c265254a
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications
  This package contains the ALSA library and its standard plugins, as well
@@ -15671,23 +15670,23 @@ Description: support library providing __atomic built-in functions
 
 Package: libatopology2t64
 Architecture: amd64
-Version: 1.2.15.3-1+b1
+Version: 1.2.16-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: alsa-lib (1.2.15.3-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 144
-Provides: libatopology2 (= 1.2.15.3-1+b1)
+Installed-Size: 143
+Provides: libatopology2 (= 1.2.16-1)
 Depends: libasound2t64 (>= 1.2.15), libc6 (>= 2.38)
-Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.15.3-1)
+Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.16-1)
 Replaces: libasound2t64 (<< 1.2.1.1), libatopology2
-Filename: ./libatopology2t64_1.2.15.3-1+b1_amd64.deb
-Size: 50692
-MD5sum: 2e59253309db77e7783e29aea864e7e9
-SHA1: 5cd237727e508f29de0259c28d7f5e9e418d1408
-SHA256: 650b87cc39eba7f4e89155cf42f70b882d9c92403a03654ef02b90d198e4bb13
-SHA512: 3e6a42892bc22422bc875895e191c614950cb709217482960241e004f7af56a961f0367a2f5ebc21a6d3ecde82b224c99cf411f6724335100593c97311448078
+Filename: ./libatopology2t64_1.2.16-1_amd64.deb
+Size: 50560
+MD5sum: 73d7009cbe2989e48090f8aae0007798
+SHA1: be858f4feeef783572a9d4ce20fd74f6bf3cc112
+SHA256: e9f985807a7ee57603b7817b0075e4272d8e44acb19edbd59b0f3d5aaedcf4b1
+SHA512: a9ab8b6c3cad608c904786ff390c504da97a1651aa3f95edbdd5db2f1dff63d31cf34b5a4a71609dc0e0ca2bcc0d07e6f7a299c484fcdcd0fd2e0a86d783fe0f
 Homepage: https://www.alsa-project.org/
 Description: shared library for handling ALSA topology definitions
  This package contains the ALSA topology library.
