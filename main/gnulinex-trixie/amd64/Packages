@@ -2018,22 +2018,22 @@ Description: transitional dummy package for fonts-culmus
 
 Package: dbus-bin
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
-Source: dbus
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 187
-Depends: libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5)
+Installed-Size: 188
+Depends: libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5+b1)
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-bin_1.16.2-5_amd64.deb
-Size: 76372
-MD5sum: 36ff8d4c2a3f612e3d7cff9dc67e0aeb
-SHA1: 1b3a543cf41b6beca717d59f733897574d0df218
-SHA256: 22943e6e4972a518a50436d3655e605dc9e51a35d50e3f9f4a9511986192aa82
-SHA512: e1f9a6c4329e77fad566b3f3ce032d6a882fb5ea77205fd2fc766bf4eb9b51eccba43212f66fe11e3474ab0953a34ed6c5cdcb83fb0e2e2d5586c00bda8cfc85
+Filename: ./dbus-bin_1.16.2-5+b1_amd64.deb
+Size: 76668
+MD5sum: 941d3b1484eda6d863bfec92c869c8d6
+SHA1: 673e5c3a3280ecb068ba732a87aa849f0db1f841
+SHA256: a439ed613a6983cd03b982821ca2d195e0619646401d86b209444e12ceea1951
+SHA512: bb8872ef64c8c9dcf407d60537de6cf0edc9a8414a3344566d1856cb5eb1f0ea2f40b40665e46328d8078497b1a360377838955b67a4e62001a01842e492debf
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (command line utilities)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2071,22 +2071,22 @@ Description: Linux D-Bus Message Broker
 
 Package: dbus-daemon
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
-Source: dbus
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 349
-Depends: dbus-bin (= 1.16.2-5), dbus-session-bus-common (>= 1.16.2-5), libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libdbus-1-3 (= 1.16.2-5), libexpat1 (>= 2.1~beta3), libselinux1 (>= 3.1~), libsystemd0
+Installed-Size: 350
+Depends: dbus-bin (= 1.16.2-5+b1), dbus-session-bus-common (>= 1.16.2-5), systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libdbus-1-3 (= 1.16.2-5+b1), libexpat1 (>= 2.1~beta3), libselinux1 (>= 3.1~), libsystemd0
 Breaks: dbus (<< 1.13.18-2~)
 Replaces: dbus (<< 1.13.18-2~)
-Filename: ./dbus-daemon_1.16.2-5_amd64.deb
-Size: 155884
-MD5sum: 77aecca87c84b70466589d4f62858d83
-SHA1: c11e8b5441ba0c31e35c1e2ff3914d15f0cd107d
-SHA256: af25e1e7bcdb1b602a8898af26cc82c63a0ede4eb23c4820a2ecd9a19dc360c1
-SHA512: c732360c1736d2509cc852c1d45638ee4933c84395fea8125c82618eea068939add137985948ecaa829e47a44adbf5631a8ef3cba89661c2747ada30bd2a8ce4
+Filename: ./dbus-daemon_1.16.2-5+b1_amd64.deb
+Size: 156100
+MD5sum: 09346eb4ef19dc8fac915627a364ef1d
+SHA1: 81881a3391dccda47192d8653e86796019aa9237
+SHA256: 59a186f925ace3f3b5517c9d4d204df7d18b02124e1618300b3d8c5eba0ba592
+SHA512: 0cff539237eb2d2e3381bf7c7c5fc50279ba7f5ab3ff87b884a059c7c9944149e228c8cd03176e844af567096d9a1de3af40be8c0bea301a5abb36be79ac101f
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (reference message bus)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2173,21 +2173,21 @@ Description: simple interprocess messaging system (system bus configuration)
 
 Package: dbus-x11
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Source: dbus
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 112
+Installed-Size: 113
 Provides: dbus-session-bus
-Depends: dbus-bin (= 1.16.2-5), dbus-daemon (= 1.16.2-5), dbus-session-bus-common (>= 1.16.2-5), libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5), libx11-6
-Filename: ./dbus-x11_1.16.2-5_amd64.deb
-Size: 61552
-MD5sum: 28bda335d857102b632033efbb22ab78
-SHA1: 9fcecad7ed72b221d8bbf21755c31607a4ea3077
-SHA256: 013ed8c6ed26efd869a583a59333db56a7c78344cfcb468d111e9bcbf61cc013
-SHA512: 3fd8d20bc035fff70a1656f93ded04efc90859385807bda996090e2325b338e1f2b899a79ba12e9889b435a3ff5694350e7ecd6aa9601241f81726b75cb83e60
+Depends: dbus-bin (= 1.16.2-5+b1), dbus-daemon (= 1.16.2-5+b1), dbus-session-bus-common (>= 1.16.2-5), libc6 (>= 2.38), libdbus-1-3 (= 1.16.2-5+b1), libx11-6
+Filename: ./dbus-x11_1.16.2-5+b1_amd64.deb
+Size: 61836
+MD5sum: b4221c678a7075e3cea21733f9b94e58
+SHA1: b6e1f6299868568ee24dcf8044a8ef34c85edab6
+SHA256: 3ac50c384ec95ea095e66d0b598e69646c30cc201904c37a67d8716b26c6f5a8
+SHA512: 11d1c650e00ecf2a9e8f8da33fcd6ea0bcd42f028e900f0ed27cbf45fb5ea109152bbae8bd044dc71fee18f8bf1d95f03cdedef428d7012f861aba34805b3c54
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (X11 deps)
  D-Bus is a message bus, used for sending messages between applications.
@@ -2203,21 +2203,22 @@ Description: simple interprocess messaging system (X11 deps)
 
 Package: dbus
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: foreign
 Priority: standard
 Section: admin
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 150
-Provides: dbus-system-bus (= 1.16.2-5), default-dbus-system-bus
-Depends: dbus-bin (= 1.16.2-5), dbus-daemon (= 1.16.2-5), dbus-system-bus-common (>= 1.16.2-5), libc6 (>= 2.34), libdbus-1-3 (= 1.16.2-5), libexpat1 (>= 2.1~beta3), libsystemd0
+Installed-Size: 151
+Provides: dbus-system-bus (= 1.16.2-5+b1), default-dbus-system-bus
+Depends: dbus-bin (= 1.16.2-5+b1), dbus-daemon (= 1.16.2-5+b1), dbus-system-bus-common (>= 1.16.2-5), libc6 (>= 2.34), libdbus-1-3 (= 1.16.2-5+b1), libexpat1 (>= 2.1~beta3), libsystemd0
 Suggests: default-dbus-session-bus | dbus-session-bus
-Filename: ./dbus_1.16.2-5_amd64.deb
-Size: 67856
-MD5sum: 9d4f1205712008973d3bf2dfacd7bf1b
-SHA1: 7115ef3709f9dd78b70d6393ce0103dd19634a26
-SHA256: 19f0b8de633d220015b6e70bfb42c28b30fc82a9fc219b363d86e5fbeb570db0
-SHA512: 6c9e2f594d920cde6d6dc27ed0aeed58535a8b5982f0ee4e0ede02c83f5c48a33fdd98ad4fcdf5516ebe6594f595b2960e9ab87522668bcf3aeb4d11ba893c1e
+Filename: ./dbus_1.16.2-5+b1_amd64.deb
+Size: 68176
+MD5sum: baa13b161623b310295f641e5edf1472
+SHA1: c20422bb4d6b59a474695a59f1311aaccecea86e
+SHA256: 0e626a9c42a488b187e1b03c54ec639696214cf0b02c3d1dc646e4d64686eab5
+SHA512: 02538263a0535a0698d350a6a746c3ad2d0fdc68f2870b1ab7c8497c4c92e15a8ecaae4a399493c764038801901d478cff4af11191da31d659af9d2192e10495
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (system message bus)
  D-Bus is a message bus, used for sending messages between applications.
@@ -15105,19 +15106,19 @@ Description: Maven metadata for all Apache Software projects
 
 Package: libapache2-mod-dnssd
 Architecture: amd64
-Version: 0.6-5
+Version: 0.6-7
 Priority: optional
 Section: httpd
 Source: mod-dnssd
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 54
+Maintainer: Jayen Ashar <debian@jayenashar.org>
+Installed-Size: 53
 Depends: avahi-daemon (>= 0.6.5), apache2-api-20120211, apache2-bin (>= 2.4.16), libapr1t64 (>= 1.2.7), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38)
-Filename: ./libapache2-mod-dnssd_0.6-5_amd64.deb
-Size: 13992
-MD5sum: bcef1d422119f5559c153219d97c56d4
-SHA1: 53395323348c4bf0b81c5a7737616759887179a0
-SHA256: 26872d55f5b38910b417f4dc5da75cb7ed971fcf94e7837fe46a467a85164dcc
-SHA512: f3267568e99dd9833e28d2a2fba341779dec212e1cebb5c75e7372b0c024351b9b07f5342fd1cdeca152ae6b887a848e5aa8dfa0ca569692bc1244498a3ff4e7
+Filename: ./libapache2-mod-dnssd_0.6-7_amd64.deb
+Size: 14112
+MD5sum: bbba20203ee2dbbb0b4ed3a8aa05d788
+SHA1: 1664d4ad915daa885ef46b9f6e418209b4c32b84
+SHA256: 506a0b1ab36b69714260f8e6da4bd9eae9e4bce1094972abef872e66d20efc1d
+SHA512: 971c1e49ef8aef3565beb0554dea814ef778b3ccf198df0ad878ae93958c0bd6686bd6035eb2dccdee047bc6bb9270e9637e15d6c16648c054cc486afab54686
 Homepage: https://0pointer.de/lennart/projects/mod_dnssd/
 Description: Zeroconf support for Apache 2 via avahi
  mod_dnssd is an Apache HTTPD module which adds Zeroconf support
@@ -15797,20 +15798,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libavcodec-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 26912
-Depends: libavcodec62 (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3)
-Filename: ./libavcodec-dev_7%3a8.1.1-3_amd64.deb
-Size: 7345320
-MD5sum: 1d149d153a7ffa1d9dcc9966340c982c
-SHA1: 4cbab143cba49391efecf2d8e96a7dbeebceb9f4
-SHA256: 20229df845696c5bea3212b8688ce439074781535d65aefa9554fb0b9d42b16c
-SHA512: 6827392582b63a7cffd0483018ee0f5beb264f2563e4d1ed54a7ce748d8cfe143e9b8acfc1ca24ff3cbe4352f69a22e8a2a414574a975849dd0f09680b565d18
+Depends: libavcodec62 (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4)
+Filename: ./libavcodec-dev_7%3a8.1.1-4_amd64.deb
+Size: 7344992
+MD5sum: 5f5ed20aa6e57dacd6c85a42a3f17e10
+SHA1: f3d1a21c14fc3ce1a8945c8ae6e3b63977faf13f
+SHA256: ddabfedcbc5a3c2440595c6c21e5f48e4ff85dcffa7b0257ad8fe06032f76326
+SHA512: 624b747a775b12aa0d478a56967b3a62b5166eb482fc428301ef1fa6a64c03c284de4bd96c6a4f210ec18f25dd172aab78b4c8405378cbccd4e95f8434cf0ff5
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15830,21 +15831,21 @@ Description: FFmpeg library with de/encoders for audio/video codecs - developmen
 
 Package: libavcodec62
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 19231
-Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-3), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-4), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: ./libavcodec62_7%3a8.1.1-3_amd64.deb
-Size: 6650088
-MD5sum: f3dfe78a6a2497e264678aa32d2009e9
-SHA1: 6d9c2a23b718ac67404ff8cd4c2fac55a1006551
-SHA256: 95c65d29999c4ce92f833c0f5836b462e237d9b554879f2f7afba9a82628c172
-SHA512: 2478c1e70fde30d407480b7cc4fa1d4b8f04ac19a17a68029e679b6c2cd6f1356ace8a326aa5ee5602c0ec7571177020852ae027d00d8521816d530455396c32
+Filename: ./libavcodec62_7%3a8.1.1-4_amd64.deb
+Size: 6647452
+MD5sum: ed944952b60b22e79a476437e5ceec9a
+SHA1: 2fe01dcae63fd70af9931f78197b226538341c88
+SHA256: c83ddb1866bb70a7f8d862e9535b440c0977e4e8a22e85875c6bb32cd9208003
+SHA512: 00d6cf428039da067efee1f1240724f39d495dabb505c131132546e50336784a89165aaef6131e306017c5eccc6db4595e1132ea8f0f06b02ce20a3245419934
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15864,20 +15865,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavfilter-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 10418
-Depends: libavcodec-dev (= 7:8.1.1-3), libavfilter11 (= 7:8.1.1-3), libavformat-dev (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3), libswscale-dev (= 7:8.1.1-3)
-Filename: ./libavfilter-dev_7%3a8.1.1-3_amd64.deb
-Size: 2462700
-MD5sum: 810e0f5f22cbd15acef8d4ae9b6b0985
-SHA1: 9a8db97b6cfa554c5b7f9a4a2234f18aba4ddd3b
-SHA256: 8fde29b756fe27e88afc456bcb804e027cdf491a5c56c7e235a79d8b4435c662
-SHA512: 8ece18ca48c21b0b31a2deeff6805b13ae3fd77ca38eff605fddad2672b0954bca6f22b76a402192a0993b42ba463fd080de3a78addfacfb5e923c69817c4619
+Depends: libavcodec-dev (= 7:8.1.1-4), libavfilter11 (= 7:8.1.1-4), libavformat-dev (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4), libswscale-dev (= 7:8.1.1-4)
+Filename: ./libavfilter-dev_7%3a8.1.1-4_amd64.deb
+Size: 2461932
+MD5sum: 73bf1f26ad08b273027cad7cdf5ef218
+SHA1: a1a63a45e087fef3e2c767593ca2dca69e5f083d
+SHA256: 2d5a02084a9da6d4758596685afcee70d105db416445a724cfd82dc458be1ec5
+SHA512: 2248f4e3ca936457c032d7529ee43dafd2e7aae65e2f2f45a4c9013ba582224511f7800304ed442434830f35fc9bcfb4bed47ea4890cf9c5b6baa34ac4abc19b
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15892,21 +15893,21 @@ Description: FFmpeg library containing media filters - development files
 
 Package: libavfilter11
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 15561
-Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-3), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-3), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.1, libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-4), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-4), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.1, libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Suggests: frei0r-plugins
-Filename: ./libavfilter11_7%3a8.1.1-3_amd64.deb
-Size: 4597440
-MD5sum: edde8730f3742ef34279312bf4bfceb4
-SHA1: c26c43806cbe8fa4b7c4af20ba7182123e710f8d
-SHA256: 8b482c5fccc3dff7da74b74fcaf088c4e9fdbcc5a4e3d49e9eec535f4cd490d2
-SHA512: c6c965d1ef632db97aabd4efb488631800c9b1d896853adbfaa85fe333de2a6615c6d3b91ba3bd7b7595545e683f452021938435da272a454bf3a205c005e6eb
+Filename: ./libavfilter11_7%3a8.1.1-4_amd64.deb
+Size: 4596572
+MD5sum: 6a6cc979a0c47ed1cce54d3f17a23a74
+SHA1: 50effe37e515b7ca65f3ef2712721607b2ff7d45
+SHA256: 5a58d95f21327701e6a479006b72ef642b4f104ae9498b489ae34563e392f912
+SHA512: e19a724cba8f1b853602ad45ccfab640bca661bc1bd9a59363f8126ab438fac87ce1b2e6a15c3e57cfb81c5be09282a27e9c0e0ab3ad9289bac430e696f081a0
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15921,20 +15922,20 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavformat-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 6299
-Depends: libavcodec-dev (= 7:8.1.1-3), libavformat62 (= 7:8.1.1-3), libavutil-dev (= 7:8.1.1-3), libswresample-dev (= 7:8.1.1-3)
-Filename: ./libavformat-dev_7%3a8.1.1-3_amd64.deb
-Size: 1490012
-MD5sum: 59f1c81455bd42c690cca55ac76300db
-SHA1: 60dcd44fde6b0721d47213ea5ea7785098df1219
-SHA256: aa09790f3a4d5232056fb20cbbe7975506c806b52f1940ad51925e179d7ff0ba
-SHA512: 94cdf71535974d5ab49c0262c8d3945d4c8b8cf975fd8a746521f06261266a5a1b4b8941c723a03fbf2969e0f5791d3583be4153bb54c3c735df238db4aa0083
+Depends: libavcodec-dev (= 7:8.1.1-4), libavformat62 (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4)
+Filename: ./libavformat-dev_7%3a8.1.1-4_amd64.deb
+Size: 1489724
+MD5sum: 78703da3724de4a2e9ddf52e84b36f68
+SHA1: 956e2fb6345823d0197617b53a19e95d56117a75
+SHA256: 037ed05f4815acc1e9e01bee1f2214509019f5c5e7c60bb7e4620c9d42dca6d5
+SHA512: 425781118f897e8f185a464a4231e93bcae5e418002628e74159dbdb5376898bd42fae137b2532f829d84e94592b3a392b0ee511051422ab50c9711bd1312a14
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15951,20 +15952,20 @@ Description: FFmpeg library with (de)muxers for multimedia containers - developm
 
 Package: libavformat62
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3238
-Depends: libavcodec62 (= 7:8.1.1-3), libavutil60 (= 7:8.1.1-3), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: ./libavformat62_7%3a8.1.1-3_amd64.deb
-Size: 1270268
-MD5sum: c5c7e66ab7288c519fbdb478e5dedf29
-SHA1: 06982bc1d50dfab5402cc933966d87429d5cdbed
-SHA256: 70e0738ed3b0db30680a96cd321764e35ea486d4fc3444411602912c602bb0b1
-SHA512: 5a8a7fcddf4a18702d3d1b232173eeb48490b3019efd5bc015cb959dec93ac3686761961aac2896fbc41c9a1856eb4f36adfd606236c654f2da12eb95b26522a
+Depends: libavcodec62 (= 7:8.1.1-4), libavutil60 (= 7:8.1.1-4), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: ./libavformat62_7%3a8.1.1-4_amd64.deb
+Size: 1270132
+MD5sum: 176dd5b4bdba8be6ec23aba19c655e19
+SHA1: 25aae1e2abe1d52c2bca8642bd51409fb5aff5a5
+SHA256: db07f8e786c480cf58879503256a0710fc79565dcd4705e4ece379b08e7538e7
+SHA512: b74fb98cfe8e5e26e4d2e3e4522f1e40da654a925bfae1f584c0748d4c83baeb8d8358fa7af5559fd9c598514a9b7006cd1199814d67e7bd2a386d3ff69629e7
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16004,20 +16005,20 @@ Description: Library for handling .avif files
 
 Package: libavutil-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2658
-Depends: libavutil60 (= 7:8.1.1-3)
-Filename: ./libavutil-dev_7%3a8.1.1-3_amd64.deb
-Size: 607412
-MD5sum: ef7b09fff536b4f462422c8bb8f9b075
-SHA1: dd9225ded12f8716dc60d90ddb603490c6faea3b
-SHA256: 9b3dfd67f374c7349d13c19be93f31665fb2fb1cdef5309bb2f0a82f34c9a947
-SHA512: 18190442f6eb2281bf955fdfcdaa28e9dc9429599c7553e0b180d57d8cdc659f25109ac00ab6d7dfe1cd8da8ae38e6e8bb107825e9b689c9e85e278172face60
+Depends: libavutil60 (= 7:8.1.1-4)
+Filename: ./libavutil-dev_7%3a8.1.1-4_amd64.deb
+Size: 607244
+MD5sum: a9d3bc58f06102ab95b45b9a9c72b1de
+SHA1: f2ca82c48f897f25a1b234aca252e6dedbe73324
+SHA256: a23eefaa049e7817c1ddf2215cc813850686fc5e6c55d00fcbf8f8dd44c9e3de
+SHA512: 2110556c9fb3401fb50cc7393c63281fa85493698e6ca7dcbf4f57117538c8e3a4ff20e1a560655436d291bca21d1c04f0fbebde3cc1992690184d88a4e58ccf
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16036,7 +16037,7 @@ Description: FFmpeg library with functions for simplifying programming - develop
 
 Package: libavutil60
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16044,12 +16045,12 @@ Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1292
 Depends: libc6 (>= 2.35), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libvpl2 (>= 1:2.16.0), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: ./libavutil60_7%3a8.1.1-3_amd64.deb
-Size: 441380
-MD5sum: 014ae7370c44f70d4aac8f645b8ac7cf
-SHA1: 4106a8e441efcd3ab9e300c9f2eafdd91c27fef2
-SHA256: a84d436a90759575b629a34ed21be07d7f554bf5999fc68b0cddaf426e3bd5bb
-SHA512: 9f23bf0c3b8f59e537d9c690d592b105285805dd9099a9d48d7990fe7997e8dd3a4a88d19c8955c8637dff466eb3ea0d2ca6fb89ed2b5bb49a09fbe5b87976b2
+Filename: ./libavutil60_7%3a8.1.1-4_amd64.deb
+Size: 441376
+MD5sum: 72c62ba8a3e203dc07a78c8b49d0ae3e
+SHA1: 0bdcf650baba1bbe90620774060f6ff245c82542
+SHA256: 7d1450226db6b78cdeb48ac597cf2181e6e49990a5b7626a2deae42b6594d6bb
+SHA512: 8a8d2ae58b60874433832ebf0e694ef5c700dea290c5a663919e79a1925000850e29c40299b5f859e7380bc829a9d4c4d8373045737a60c48df479ed3814dcb1
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -17947,20 +17948,20 @@ Description: Double-array trie library
 
 Package: libdbus-1-3
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: dbus
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 446
+Installed-Size: 447
 Depends: libc6 (>= 2.38), libsystemd0
-Filename: ./libdbus-1-3_1.16.2-5_amd64.deb
-Size: 175548
-MD5sum: ad27714c4739472c74f7ac0101b1d9c3
-SHA1: f716cabe553810b5280e7bff02e90d7a95e1a8ae
-SHA256: c1dba33f77b2b00f0c71a133e631651c3fe84780fcd125200920d74ba0250ad2
-SHA512: b991a6be8668e8d9f13cc116a881635121548758a9c6f3a8b599c15fbe961f1fb04a470d752e74617f955adc3f0cf5873ddf7f542f5de734158fa29ad9ebd92e
+Filename: ./libdbus-1-3_1.16.2-5+b1_amd64.deb
+Size: 176064
+MD5sum: cf206e6d1caddbe18b7e8dc5a83c785e
+SHA1: 7de1c2507ac420ac5c4ef48b6d8f06f679222ccb
+SHA256: 14899e693506af2afb75186d770ff6c9b0ebbca34b2b8beedd92791281f8b38f
+SHA512: 8a7d302cfed9edd16644d1bc0668ae19ce9dd2086d9181a9f85a56ac9cd5deb3b8cf32f440b0d37be5f7d6ca8167ef0f46bb1793aea8d1b17ca4245fe3c23045
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (library)
  D-Bus is a message bus, used for sending messages between applications.
@@ -17979,20 +17980,20 @@ Description: simple interprocess messaging system (library)
 
 Package: libdbus-1-dev
 Architecture: amd64
-Version: 1.16.2-5
+Version: 1.16.2-5+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: dbus
+Source: dbus (1.16.2-5)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 948
-Depends: libdbus-1-3 (= 1.16.2-5), libsystemd-dev, pkgconf, xml-core (>= 0.14)
-Filename: ./libdbus-1-dev_1.16.2-5_amd64.deb
-Size: 212744
-MD5sum: d1099723aa104427adadf2db00e9e4fd
-SHA1: 2f427df41a658c3c326ee302ac57f9c1dc546cf1
-SHA256: a7fe7d4921b950ce39ba0e044490038fe67274cdbe3233f9e7ee14b1efe35e02
-SHA512: 357416489a904f3b5b511216edcbdaaa71878f9e8f3d0d2c73473b9febbb780dfa57d03c557ab18ab952446df7abc4937cf98bf39b1549774377b59141c1eecf
+Installed-Size: 949
+Depends: libdbus-1-3 (= 1.16.2-5+b1), libsystemd-dev, pkgconf, xml-core (>= 0.14)
+Filename: ./libdbus-1-dev_1.16.2-5+b1_amd64.deb
+Size: 213020
+MD5sum: 159ff89a1813b2fb44c2626fd5268c3d
+SHA1: c332eb5eebc7fb1a9569c68e0323304be2bcdc37
+SHA256: 504980cd750b4db361ca4719151d3713f87219553a8246b3b410434c6ca115fd
+SHA512: 02dbdc8cb028d51a0700a9cd10bc9c467b4c13341891e26b7448ad7e305e1159ef60364c50f60ce2adb4445c03a24fa11557a43705a921fab794367a059a6368
 Homepage: https://dbus.freedesktop.org/
 Description: simple interprocess messaging system (development headers)
  D-Bus is a message bus, used for sending messages between applications.
@@ -18277,23 +18278,23 @@ Description: Runtime support for the DjVu image format
 
 Package: libdmapsharing-4.0-3t64
 Architecture: amd64
-Version: 3.9.13-5+b2
+Version: 3.9.14-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libdmapsharing (3.9.13-5)
+Source: libdmapsharing
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 370
-Provides: libdmapsharing-4.0-3 (= 3.9.13-5+b2)
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.6), libgstreamer1.0-0 (>= 1.0.0), libsoup-3.0-0 (>= 3.1.3), zlib1g (>= 1:1.1.4)
-Breaks: libdmapsharing-4.0-3 (<< 3.9.13-5)
+Provides: libdmapsharing-4.0-3 (= 3.9.14-1)
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libsoup-3.0-0 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Breaks: libdmapsharing-4.0-3 (<< 3.9.14-1)
 Replaces: libdmapsharing-4.0-3
-Filename: ./libdmapsharing-4.0-3t64_3.9.13-5+b2_amd64.deb
-Size: 146468
-MD5sum: 39e8293750add3bcb6530210cf2d3a22
-SHA1: 6e62ec02b132e8faad412178c42164cb0c0f2605
-SHA256: 065310a5f29910f99cf0121c915995c06f412a6122db560e37557d486709a168
-SHA512: d61e8a54d5c7372da6e265545de36f90ce1f82879afcaccac731463f0fda0ff0d635b10ed7d421f10bf17c4389d18c5762f2439024a038fee5e92d525060b372
+Filename: ./libdmapsharing-4.0-3t64_3.9.14-1_amd64.deb
+Size: 146896
+MD5sum: 78b18f5c69e43c06e7d9170595f08646
+SHA1: abcb42afa17c333b9331ea5aa33d9c6b4c49bc48
+SHA256: 6258cfd03cf8bd2d07a7e8d4f64db7d54fef7c989733994ffced51723dc73047
+SHA512: 4a2ff81af417ae1c45eb0e16b90dc7d7e31784549eef8dd4e7875de156205ae50483fada5988f7f003a8db5c628bd98cd086fb0eafa21e2197b50aa25e4d50b3
 Homepage: https://www.flyn.org/projects/libdmapsharing/
 Description: DMAP client and server library - runtime
  libdmapsharing is a library to access and share content through the
@@ -23911,20 +23912,20 @@ Description: pure-C HTML5 parser
 
 Package: libgupnp-av-1.0-3
 Architecture: amd64
-Version: 0.14.4-3
+Version: 0.14.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gupnp-av
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 307
+Installed-Size: 306
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.58.0), libxml2-16 (>= 2.14.1)
-Filename: ./libgupnp-av-1.0-3_0.14.4-3_amd64.deb
-Size: 72324
-MD5sum: 8451957b1607604cc3c3c11d0fb84b34
-SHA1: e8c3351d6dbb539b73b1b89534f98f6d94f0531e
-SHA256: 06d130b72087294afacb8a09efa09c5cf8815b6558e475b3a2418b0c6469ed58
-SHA512: 36cdc88f4f237f4ea6fb0e6edc0e2cbb87517c1d24c496c1b899eaa7b61338d8159dd09d2fa85cf37819b612088df4d23c99f6038ef15e551fc46e0480d0ea85
+Filename: ./libgupnp-av-1.0-3_0.14.5-1_amd64.deb
+Size: 71920
+MD5sum: 88ab2fec0fc7128b36c31254840a285b
+SHA1: 7b0fc14f257ecaf252a9a3cb09f59d88e2d2ec93
+SHA256: 745f51f8f0d8435c6bc2c681ef9a34e3c86171b7e02fc03f39b7fe8cc9ea01d2
+SHA512: bb142f0f2bb5ddbf727b1a76a48bde8d9cebc48262c4baec84d8b75c8cae4ac1dd5fe9a8aaeb9db64460e169f2871691a09e46b445f20fa9640104c50d0f6e64
 Homepage: http://www.gupnp.org
 Description: Audio/Visual utility library for GUPnP
  An audio/visual utility library for GUPnP, providing DIDL parser/writer and
@@ -34499,22 +34500,22 @@ Description: GObject based interface to system-tools-backends - shared library
 
 Package: libopenexr-3-4-33
 Architecture: amd64
-Version: 3.4.6+ds-4+b1
+Version: 3.4.6+ds-4+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: openexr (3.4.6+ds-4)
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
 Installed-Size: 2511
-Depends: libc6 (>= 2.34), libdeflate0 (>= 1.19), libgcc-s1 (>= 3.4), libimath-3-1-29t64 (>= 3.1.12), libopenjph0.27 (>= 0.27.0), libstdc++6 (>= 14)
+Depends: libc6 (>= 2.34), libdeflate0 (>= 1.19), libgcc-s1 (>= 3.4), libimath-3-1-29t64 (>= 3.1.12), libopenjph0.28 (>= 0.28.1), libstdc++6 (>= 14)
 Breaks: libopenexr-3-1-30 (<< 3.4.6+ds-3)
 Replaces: libopenexr-3-1-30 (<< 3.4.6+ds-3)
-Filename: ./libopenexr-3-4-33_3.4.6+ds-4+b1_amd64.deb
-Size: 724032
-MD5sum: 6549cee4dbca1c380cc7cea3c430a5fd
-SHA1: cf99f73db82983a43c59a221ad5fe00872ef110a
-SHA256: 4740df290c00b59a9975c3214378e57f1afb32582368c0d986b553988f28824e
-SHA512: 5507a4b5a3a0c69726b3e4ba3b4560467e2e4c909fe2e150fd47e56a4b0ab760aca9363a4b64aa6a82e004e80d47e2b3ef4a676d44ece9a4484947f862ec377e
+Filename: ./libopenexr-3-4-33_3.4.6+ds-4+b2_amd64.deb
+Size: 724208
+MD5sum: 6a8b9e3196dbffb0c0d20c6d3db72806
+SHA1: b8b32edd6bb0aab1890a8c1d151d8eecd70a11f7
+SHA256: cf6c72f8ec42f209a8ef0c39d64c8376ae101b13f0311fa163e596ebab7bb4f7
+SHA512: 07ab16117954532ec935976b6dbb3b999a1e47adcbb72d79a053ece06bb6b80c995935f3712990425dcdc5c9e06227753f426698f22000a874c4aeba7b1ab23a
 Homepage: https://www.openexr.com
 Description: runtime files for the OpenEXR image library
  OpenEXR is a high dynamic-range (HDR) image file format developed by
@@ -46304,20 +46305,20 @@ Description: Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
 Package: libswresample-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 403
-Depends: libavutil-dev (= 7:8.1.1-3), libswresample6 (= 7:8.1.1-3)
-Filename: ./libswresample-dev_7%3a8.1.1-3_amd64.deb
-Size: 118920
-MD5sum: 4a3092153be0b0c0cd28b6078c784343
-SHA1: 78a4dda7be36e26482004a3312bffd3b6a9912b3
-SHA256: 3ba38e0d2da095f7ccfabd7efaea3b7705c871c7419d426b4d1196a3fb8088d4
-SHA512: 4819bead3c4e1c6b04cc108247a05b225b7f6fccaee14828c5ce32c4d5c470747bce908312598e7d9a71e199a615f69f6a0b4cc5e9768b278786ce816cb8c2ea
+Depends: libavutil-dev (= 7:8.1.1-4), libswresample6 (= 7:8.1.1-4)
+Filename: ./libswresample-dev_7%3a8.1.1-4_amd64.deb
+Size: 118908
+MD5sum: 17de3596bebf162e84bac0548ab80d8a
+SHA1: a8ce8e04026b982c623efa281b3c715ab8b3ec48
+SHA256: 3fa8100e534643ff7052d3b5914b5fbc6cfe441b5f47d17fe6cc0b7c8cf5ceda
+SHA512: 03116845c6bc1aeb63b7966b75fdc5b9516c681ce92a143baef5c010facf69bf70c084f12dda3d10aa806eb4fbc3cb43712794480a012ea25ffcb8ecaa4f4fdd
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46348,7 +46349,7 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - development
 
 Package: libswresample6
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -46356,12 +46357,12 @@ Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 276
 Depends: libavutil60 (>= 7:8.1.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: ./libswresample6_7%3a8.1.1-3_amd64.deb
-Size: 104256
-MD5sum: 1ddd5362a261e5831df08feb957795e9
-SHA1: c761f366928778cdd12513a7cebf31de5e8e92a0
-SHA256: 0153552375df2fa83eae8482ecce3b231dfc2fe32fcc34cb8d32fed863e60161
-SHA512: 306c633c20e4beaee68c4cc178c73f29be220c20e9fbdaa3625e405f833773fcec3430c88fff8f5f6dd3b6e5de155da1201c65353fffb2198398648de07e2251
+Filename: ./libswresample6_7%3a8.1.1-4_amd64.deb
+Size: 104316
+MD5sum: 21893e8bbc441cc08cf2abc354e04181
+SHA1: 392cdbf5add02fda4fff0702083311721069d1bd
+SHA256: bc951a34b90ab87070262f8d7bbba42d52a6530f4b4ea91fe64eae794846928d
+SHA512: 69ace996ec69454e56d29e9cdb244ca93b98fb1ad925eac98f12d8771dff49269fb90861e2ed2b564366d6e69a4bee45145a4953bd423790281036323c56f873
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46392,20 +46393,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswscale-dev
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2489
-Depends: libavutil-dev (= 7:8.1.1-3), libswscale9 (= 7:8.1.1-3)
-Filename: ./libswscale-dev_7%3a8.1.1-3_amd64.deb
-Size: 539820
-MD5sum: 252b67889783935e7dd869b1634ec5e7
-SHA1: bb532c5a20bd599c7e28ad632d85af8183ac4200
-SHA256: 4b770e7071b548748028c3d33cfaa8ee4e8ad0b1decdad7eafc111559d48dbb4
-SHA512: 0a24c877484d8472fa208b1166db4b7068ff0a82c67a81e4aa898dd4789db1e4b99979df207d728f75e18d29755e4dfc56528549571ad09c69ca8be6b826df74
+Depends: libavutil-dev (= 7:8.1.1-4), libswscale9 (= 7:8.1.1-4)
+Filename: ./libswscale-dev_7%3a8.1.1-4_amd64.deb
+Size: 539744
+MD5sum: efab12ed7748b163ba5f5de9b34a9e73
+SHA1: 6ace7a6db18adc475299e766bdf61a4bf52b194b
+SHA256: 1bdcdc798bc444bf7d99bbeb8823e98941d8ee987bb632ee9476cca8c0b0c5d9
+SHA512: 2895620baf7ae23d8353c627129789742f3361b06b8bafb63f785419155e95557a9bc121ba16c7d0f17987bbd368ae739d390d08fa3486e3d3d3e1d84f49314d
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46430,20 +46431,20 @@ Description: FFmpeg library for image scaling and various conversions - developm
 
 Package: libswscale9
 Architecture: amd64
-Version: 7:8.1.1-3
+Version: 7:8.1.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 10390
-Depends: libavutil60 (= 7:8.1.1-3), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libswscale9_7%3a8.1.1-3_amd64.deb
-Size: 2889996
-MD5sum: 1eb666b687ce8d4284014d5aa773fb25
-SHA1: 9075035f5cff4fcb9e26f951c1c66ee49cc6ca39
-SHA256: 5d876482e3b5245b2f3c08500ae6d4e3499a4bd03d636c7882b92b47a15a8b19
-SHA512: dc41ebb936352b2ac494e5e87acf0fca8baa02ef42e8698be925577bcd4a9c374e306223ba1334ad805fedadcea85a1ae89b1ef54a144d2c82b492c546efff20
+Depends: libavutil60 (= 7:8.1.1-4), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./libswscale9_7%3a8.1.1-4_amd64.deb
+Size: 2889296
+MD5sum: 26c744960cffeba5df9ae2117a07a018
+SHA1: 3105740d6fb456849956659fbe4faaa3a7e2098b
+SHA256: 59bf92ce6b08a1a686f8c697cf00c0ef8e7b6f321a1acd9958809df1bb019560
+SHA512: acb1707a97a02f651e251a87d87522d2451af1186d5ebb27d032195d51c9f80932561a05fda9ad9aa9d9aad1d98ba07a8f3145a35960c9137f20cd6e1957b23f
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
