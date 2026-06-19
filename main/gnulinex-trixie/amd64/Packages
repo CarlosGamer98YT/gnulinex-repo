@@ -14137,21 +14137,21 @@ Description: data files for kirigami-addons
 
 Package: kitty-doc
 Architecture: all
-Version: 0.47.0-3
-Built-Using: sphinx (= 9.1.0-3)
+Version: 0.47.3-1
+Built-Using: sphinx (= 9.1.0-4)
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 18395
+Installed-Size: 18405
 Depends: libjs-sphinxdoc (>= 9.0)
-Filename: ./kitty-doc_0.47.0-3_all.deb
-Size: 3222308
-MD5sum: be5f1dbde2f000c788b71a11aae8f422
-SHA1: 661b077b065efb433602793540a2f56b242eec86
-SHA256: 249001c17c853441c354b5375da18cb057ead8d42211a202aa454b48a8a2ae3b
-SHA512: 9d69c16533613adbdc2cbecfa412d4717f5fff8e808d636011d65825b92f765ed742e2062098dee0f68a7c8863f97cde89f7f786464515d7846f5c3e7d670fd3
+Filename: ./kitty-doc_0.47.3-1_all.deb
+Size: 3221372
+MD5sum: 904c17f19ffd5d81a21ee6feaa69d821
+SHA1: 637b595c35a546a9436f39f40949641fdb082226
+SHA256: b417cdd8e3bd28d1c1377d71b028eec9999c66f56a33d181d7b7676faa4ca586
+SHA512: c5ea4904fde5fe33018941c8338240260e9e374cb270ea72ddb343c0c8e723096eccf00b15130872689f9d3dc3ae4504e23db5c08947ff67942ae08ba9bb57dc
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (documentation)
  This package contains the AsciiDoc/HTML documentation for the kitty terminal
@@ -14159,19 +14159,19 @@ Description: fast, featureful, GPU based terminal emulator (documentation)
 
 Package: kitty-shell-integration
 Architecture: all
-Version: 0.47.0-3
+Version: 0.47.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 220
-Filename: ./kitty-shell-integration_0.47.0-3_all.deb
-Size: 108228
-MD5sum: 6a22bdc1959076e6d7a7e550c64b37e6
-SHA1: 83f4255ecf423409b1147c2e49c639a8fb890243
-SHA256: ca1658144634cbb2b00046bb439ebb734b185af94ec47f6f693e92692dc499c3
-SHA512: d02fe55f8e4487f81d2e112c48ff9e7b70433aec3ca6a1af5d880e9d3bd9d6f65b730df8ecc0da3627293b083da8283b84b6b788d2671d2823ce12b52dd10b25
+Installed-Size: 221
+Filename: ./kitty-shell-integration_0.47.3-1_all.deb
+Size: 109148
+MD5sum: 601d969b4c495ef2d04871f7aa35a468
+SHA1: 656ad6dc980a99eef969049f6393795297ed40c2
+SHA256: a3fbc1b7ab42817b377ee8d4a75185d892b25714533b556bb6b7c62cf4f040b7
+SHA512: fca846d075efd17f633a0f92d559eeb8875e1e8fde48266c1d51454ce8788b1f7261f621f9c68f281137e010c8fff4eb088d074b9032b8f7f51c9d2be3513853
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (shell integration files)
  This package provides Kitty's shell-integration files so that it can easily
@@ -14179,19 +14179,19 @@ Description: fast, featureful, GPU based terminal emulator (shell integration fi
 
 Package: kitty-terminfo
 Architecture: all
-Version: 0.47.0-3
+Version: 0.47.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 117
-Filename: ./kitty-terminfo_0.47.0-3_all.deb
-Size: 86976
-MD5sum: 4f6a99ef7ff4059cba7d81d895bc768a
-SHA1: 4c8148b4e560d43d84c80dda64e231b08bd2a8df
-SHA256: 5215559716359e2fb67cfaec8602e9fb1ca264823ed2a9934c647c5c1b6f3bf0
-SHA512: 41416e39162f5337d722ed0c8cec9aaf5ad433f9d7c1e79a7805143971e162249891bfa93e09a9776a54511723cf5f7d4bb003e28036e5b8732a696fa370d473
+Installed-Size: 118
+Filename: ./kitty-terminfo_0.47.3-1_all.deb
+Size: 87880
+MD5sum: 6fcacc0101cd3f945ac54ad2341a5cd7
+SHA1: fd8ef4570c89df8f1502bac986cadb7d16db406d
+SHA256: a2effca264ce90480229523368a682f27ce279008307382fd5257ce84954a8a4
+SHA512: 6c01e389484523d445c2f7291d45c70078387e6f61602830962c8da10d36cb4f0b7b1dfdf520e223ac89de263e805bb2562a517a8c5583f4a375985b7d1427de
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (terminfo file)
  This package provides the xterm-kitty terminfo definition for the kitty
@@ -14199,22 +14199,22 @@ Description: fast, featureful, GPU based terminal emulator (terminfo file)
 
 Package: kitty
 Architecture: amd64
-Version: 0.47.0-3
-Built-Using: golang-1.26 (= 1.26.3-2), golang-github-alecthomas-chroma-v2 (= 2.24.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.6+ds1-1), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.2-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.4-2), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20250911.df92998-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
+Version: 0.47.3-1
+Built-Using: golang-1.26 (= 1.26.4-1), golang-github-alecthomas-chroma-v2 (= 2.24.1-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.6.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.6+ds1-2), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-nwaples-rardecode (= 2.2.3-1), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.5-2), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.0.2-3), golang-golang-x-exp (= 0.0~git20260529.c761662-1), golang-golang-x-image (= 0.39.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
 Priority: optional
 Section: x11
 Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 32130
+Installed-Size: 32144
 Provides: x-terminal-emulator
 Depends: kitty-shell-integration, kitty-terminfo, python3 (<< 3.14), python3 (>= 3.13~), python3.13, python3:any, libc6 (>= 2.38), libcairo2 (>= 1.17.8), libdbus-1-3 (>= 1.12), libfreetype6 (>= 2.11.0), libharfbuzz0b (>= 5.1.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.46), libpython3.13 (>= 3.13.0~rc3), libssl3t64 (>= 3.0.0), libwayland-client0 (>= 1.20.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcursor1 (>> 1.1.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.1.4)
 Recommends: kitty-doc, libcanberra0
 Suggests: imagemagick, fonts-noto-color-emoji
-Filename: ./kitty_0.47.0-3_amd64.deb
-Size: 9629804
-MD5sum: cfdc49d25d1cb6b9a54b9700fd8b1390
-SHA1: 15d4fbf4a048cee2d03a5c404119c5bd642510ed
-SHA256: 9e9e0ab2fbd221a5ba1029e0272071ba7ba0e67ca74436058cfee4b53061738c
-SHA512: 59d80405be50c7a7140f37ab81b42ea969f4748ed1109c91d5d5b16083e60dc66ef4d9e861818ed9b3e488d661b535c21f5604d871fc4fca4bd5ce754a5dce14
+Filename: ./kitty_0.47.3-1_amd64.deb
+Size: 9636096
+MD5sum: 160c3ac37344ddbb55b5d766d2a4f59e
+SHA1: c9af1b8e023fc76c2202890f804487476a26bb4d
+SHA256: 0d35adafe5ec61087d831427743d2e0098d52425a9ec4d4e0ce11bee704cdea6
+SHA512: ca90e27d671c6f0e07a91beb626c6378dd6c7a0d6ba76052ddd8c61a78e565409bf8d9531d2782f1475fc03e9552f6b9e35143f937b8e8e232e99ce30c19a17b
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator
  Kitty supports modern terminal features like: graphics, unicode,
@@ -34843,21 +34843,21 @@ Description: KWallet integration with PAM
 
 Package: libpam-modules-bin
 Architecture: amd64
-Version: 1.7.0-5+b2
+Version: 1.7.0-6
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Source: pam (1.7.0-5)
+Source: pam
 Maintainer: Sam Hartman <hartmans@debian.org>
-Installed-Size: 203
+Installed-Size: 202
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254)
 Replaces: libpam-modules (<< 1.5.2-5~)
-Filename: ./libpam-modules-bin_1.7.0-5+b2_amd64.deb
-Size: 45584
-MD5sum: 64078cfbff583caa8bffedd19352be58
-SHA1: 08f0e46ee1148a5a667d2cc8044788180e761e6b
-SHA256: 707c74e4f84bea379c45e49771cc6a31e212841455878085c85f22f490ed2569
-SHA512: b5dc80b98f522ae05c76602b03fda22b6fde2561ae2eb085745f7489afb748190559daf7726ff4c4358739f2f5068d9f7beb256a33bae654865e3171c3dc5629
+Filename: ./libpam-modules-bin_1.7.0-6_amd64.deb
+Size: 46012
+MD5sum: 8f5af95c9b42b250dca27fd45afb5991
+SHA1: 8b5af4bde778a55bbe92fdfb8dbf63bc1555dc9d
+SHA256: 193bbc46931e24665cae7bf995572ee93cd713d23b9f4ed1af639d280f91ae40
+SHA512: 1ba230e6bed5dfeb06fef1df7a71a6fe64a39e2b6aecfa2b1d6b2d60c081883e67ab205f584f2f9396ff320ea1a7272ac0d056f808141a1c6fc83250e86ad047
 Homepage: http://www.linux-pam.org/
 Description: Pluggable Authentication Modules for PAM - helper binaries
  This package contains helper binaries used by the standard set of PAM
@@ -34865,23 +34865,23 @@ Description: Pluggable Authentication Modules for PAM - helper binaries
 
 Package: libpam-modules
 Architecture: amd64
-Version: 1.7.0-5+b2
+Version: 1.7.0-6
 Multi-Arch: same
 Priority: required
 Section: admin
-Source: pam (1.7.0-5)
+Source: pam
 Maintainer: Sam Hartman <hartmans@debian.org>
-Installed-Size: 913
+Installed-Size: 891
 Provides: libpam-mkhomedir, libpam-motd, libpam-umask
-Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-5+b2)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-6)
 Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
 Replaces: libpam-umask, libpam0g-util
-Filename: ./libpam-modules_1.7.0-5+b2_amd64.deb
-Size: 174572
-MD5sum: a0d5f67bc5d5ca73c370411e31dc8733
-SHA1: 5dbbbf7e9d35bf54128f8e938dfc0b2a46a1a9f9
-SHA256: 3bc7d2b7730ed712097a38b1545dfa51c55f6826b7cc1348f6260b802433e11b
-SHA512: 0774ee12c37a7ecc804e38478e0127b63f80e3fc9d44de91b98018c94b6cd99bb3034513c5b2f95831c005cbf543454842fd3e8d2f5056235e77390e45226b69
+Filename: ./libpam-modules_1.7.0-6_amd64.deb
+Size: 167720
+MD5sum: e071245e590afb00ef24b1c3766d438e
+SHA1: fd7ee04ba54ac4ec630a6034505aa6195dc4eed8
+SHA256: e5748e0757ace4e629f5ba25e9ba1ecd26191960b84adf9e4123f95258c178bd
+SHA512: 5de45a0593b1614f1151e058c434028c9a97b465f26bc07dcc840e368eaf2f66abbab2fa3b01ce3051b7ce3ba219a4323bb2a34ae1b844eb4d25445e7b127870
 Homepage: http://www.linux-pam.org/
 Description: Pluggable Authentication Modules for PAM
  This package completes the set of modules for PAM. It includes the
@@ -34918,23 +34918,23 @@ Description: system and service manager - PAM module
 
 Package: libpam0g
 Architecture: amd64
-Version: 1.7.0-5+b2
+Version: 1.7.0-6
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: pam (1.7.0-5)
+Source: pam
 Maintainer: Sam Hartman <hartmans@debian.org>
-Installed-Size: 191
+Installed-Size: 190
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Suggests: libpam-doc
 Breaks: libpam0t64 (<< 1.5.3-5)
 Replaces: libpam0g-util, libpam0t64 (<< 1.5.3-5)
-Filename: ./libpam0g_1.7.0-5+b2_amd64.deb
-Size: 66268
-MD5sum: a6032b830995bcdca03901f6e9d5149d
-SHA1: 2b616af03655533facb9ae184a2667666c0bf1f8
-SHA256: 9dc500382d6f0bf5d01b8e138bf2a21e8cff543954a3a9a269d9a95f76d53cca
-SHA512: 66c4b86a22dc1bfeebc44a3fdf788a17a38dc796b52403817ce692dd28409ab281c4d8c62a9a5160a837ce1ce21a97fbb082afa0e9bfcb65dd4e7626e31a3893
+Filename: ./libpam0g_1.7.0-6_amd64.deb
+Size: 66412
+MD5sum: c82eb82e4b173cb1425165863f75d9f5
+SHA1: 6ea5692bc1638609f98deb55ca4bfb1043e94228
+SHA256: 82996d5d1225a4c3a07823b5fb9104c29900d578896579f3c27117beb91ea7cb
+SHA512: 1fd5786e63e65bc607e3a2b6181d9772cca6dc8d81a3b4d9ab8e44710bd311458880395a59bd20e34eab33233fcd77d6169d8d0a205bee56bcd77cf61918f9e8
 Homepage: http://www.linux-pam.org/
 Description: Pluggable Authentication Modules library
  Contains the shared library for Linux-PAM, a library that enables the
