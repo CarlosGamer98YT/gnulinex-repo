@@ -34334,19 +34334,19 @@ Description: RemoteDesktop portal DBus helper library
 
 Package: libokular6core4
 Architecture: amd64
-Version: 4:26.04.0-1+b1
+Version: 4:26.04.2-1
 Priority: optional
 Section: libs
-Source: okular (4:26.04.0-1)
+Source: okular
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1615
+Installed-Size: 1614
 Depends: kio6, kwallet6, libc6 (>= 2.38), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libphonon4qt6-4t64 (>= 4:4.12.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.6.0~), libqt6printsupport6 (>= 6.6.0~), libqt6qml6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13), phonon4qt6, zlib1g (>= 1:1.1.4)
-Filename: ./libokular6core4_4%3a26.04.0-1+b1_amd64.deb
-Size: 436908
-MD5sum: fce0726d580ceee1e9a26ed13439a448
-SHA1: 13111031f84c690642ccc990d7da073da503d219
-SHA256: 9ab0002d60a9b40db899348bf3703bbb39b5ff4b21ac7045f5b5beebb997b4df
-SHA512: bc27460f6a451a8bc8f2f4d4c611a3c8f92c07d6f47571031f5137f16eff8b7655e3827cbfab18168824ed599c1e9e4de5c4ae4874532f6d9b562e16e2310579
+Filename: ./libokular6core4_4%3a26.04.2-1_amd64.deb
+Size: 437304
+MD5sum: f92687102004e2428d3bb372d4011c9f
+SHA1: 7d100a56a12985d46da672304af0670d6ea2d552
+SHA256: 3283f42355707277a12954c8a03551ce8c007b05c483d783d6890e424a1abcd7
+SHA512: 735bca736375a5e48ed04a9107f9c557c47b2c5a9bafe642acf147a29448fc0506b08fa2bfd6bc74d817d2553e42180e47201d4256b43b6e059bab1b7b55f413
 Homepage: https://okular.kde.org
 Description: libraries for the Okular document viewer
  This package contains libraries used by the Okular document viewer.
@@ -38251,20 +38251,20 @@ Description: Qt/C++ wrapper over minizip - Version 1 (Qt6)
 
 Package: libquazip1-qt6-dev
 Architecture: amd64
-Version: 1.7.1-1
+Version: 1.7.1-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libquazip1
 Maintainer: Ben Westover <bjw@debian.org>
 Installed-Size: 216
-Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1.7 (= 1.7.1-1)
-Filename: ./libquazip1-qt6-dev_1.7.1-1_amd64.deb
-Size: 39808
-MD5sum: 7876a990fe415b3c4182cbe44239a9d9
-SHA1: 40f7b8ace1d6a54dfedd0e4d92f6ab081f3d9baa
-SHA256: 789688ecf52cff7bcb8f8954685f1875b86caf652683ef7fff959003367e421c
-SHA512: 4eedf06b6fd70a7dcf59d51df86a7f1daa8bbf2b297b7c72b869cba2f56adbbbc209db8ee540cd49483f1575b3cc5ed44308bbba832a3fbb41a23a4673f960a4
+Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1.7 (= 1.7.1-2)
+Filename: ./libquazip1-qt6-dev_1.7.1-2_amd64.deb
+Size: 39828
+MD5sum: 914f98b6027adcd16599facd8bc166e0
+SHA1: e20cc00b9e98c180bda02c59f8785cdbb3db19e0
+SHA256: 5093f4d771575a9dc6fad1cab1108277a45478033a943ad37d14f1d8c0e9a680
+SHA512: f676e17d4d8e7d858a291427ae5f14c9bcc64a811c4035ec75ab474eb5adce4ef288676dcc8ee8130d0a85fe800ef7abc84334e3a3d22d303f30bc7202b7b697
 Homepage: https://github.com/stachenov/quazip
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt6) - development files
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
@@ -54730,20 +54730,20 @@ Description: preferences manager for Openbox window manager
 
 Package: okular-data
 Architecture: all
-Version: 4:26.04.0-1
+Version: 4:26.04.2-1
 Priority: optional
 Section: graphics
 Source: okular
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7663
+Installed-Size: 7671
 Breaks: okular (<< 4:24.05.2-1~)
 Replaces: okular (<< 4:24.05.2-1~)
-Filename: ./okular-data_4%3a26.04.0-1_all.deb
-Size: 1047024
-MD5sum: fd116b527f1ea29982769e67ec25986c
-SHA1: 5b062373bbd714268dfb2538bea307808f78d92f
-SHA256: 2b14ff0cc74d26a14a4abff253ee1fc218000fda800d42d26866a984445f2f3e
-SHA512: 2c34cb7706c0a2dad1e58329c8c08c3989e2c2622d697a3cef32efba0fc307c4e7f58b4a560ba1faf68aebea4036311f9af2717435bcddcec0316a473eadab63
+Filename: ./okular-data_4%3a26.04.2-1_all.deb
+Size: 1047756
+MD5sum: 202331642095483923c38fb4a41c447a
+SHA1: 8a6db14e264a0249e265f1e10ea3800d5d7ede33
+SHA256: d85e761bf152ee1fab65db9e59dbb243d40bd0b0448bd69ada830416ac377341
+SHA512: 3fa4fb46f92c66eae3b37b13415a4e0f2b11f805b4f5654187e2110a1ab62abd0bbcfc84cfcc460776a841d83c02bedc88393844f7ba41149ea6531bb1887b4e
 Homepage: https://okular.kde.org
 Description: universal document viewer - data files
  Okular is a universal document viewer with support for advanced document
@@ -54753,24 +54753,23 @@ Description: universal document viewer - data files
 
 Package: okular
 Architecture: amd64
-Version: 4:26.04.0-1+b1
+Version: 4:26.04.2-1
 Priority: optional
 Section: graphics
-Source: okular (4:26.04.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4418
+Installed-Size: 4419
 Provides: pdf-viewer, postscript-viewer
-Depends: okular-data (= 4:26.04.0-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.04.0-1+b1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 25.03.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
+Depends: okular-data (= 4:26.04.2-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.04.2-1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 26.01.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
 Recommends: cups-bsd, okular-doc
-Suggests: ghostscript, okular-extra-backends (= 4:26.04.0-1+b1), poppler-data, texlive-binaries, unrar
+Suggests: ghostscript, okular-extra-backends (= 4:26.04.2-1), poppler-data, texlive-binaries, unrar
 Breaks: okular-data (<< 4:24.12.2-1~)
 Replaces: okular-data (<< 4:24.12.2-1~)
-Filename: ./okular_4%3a26.04.0-1+b1_amd64.deb
-Size: 1057680
-MD5sum: 4923d0554adb18aff6f4adfd9bf7bdd6
-SHA1: 54f9507f8d8415e55e3eb754b1e492d54f5e07ee
-SHA256: f52a7d430a86fe39044ee1a2060f4d311a126d883b99c812440075aab59b9661
-SHA512: 0c2902de0780c9ebbc8d05ed4f2240b71c65788261a4884d512b459b85f69af558299581588784b963fa8f063878fc1b075acc4b14b1a9255680caf7f19cf407
+Filename: ./okular_4%3a26.04.2-1_amd64.deb
+Size: 1058588
+MD5sum: 1e1fcd9b57806bb252fe8aecab998f8e
+SHA1: 1b9d8027d30c02eff2eedc29450f32f2480fd7ea
+SHA256: 16ddeb83b0c8108e38d45968efed2817b764605929c7cb1be0407b287b2389b1
+SHA512: 0ab105a9bf39f12a6961a418a2138e591a03edc5d022517b330fa33f3d04eebc2f9139a6a1c6c71d567aecc92ff8a95e5ab7338bb65345a988f457eb78909c74
 Homepage: https://okular.kde.org
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
