@@ -68757,19 +68757,19 @@ Description: LibreOffice UNO runtime environment
 
 Package: user-session-migration
 Architecture: amd64
-Version: 0.5.1
+Version: 0.5.2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
 Installed-Size: 41
-Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), init-system-helpers (>= 1.52)
-Filename: ./user-session-migration_0.5.1_amd64.deb
-Size: 10200
-MD5sum: 93c080544de3dc89e739652281bdfc6f
-SHA1: 9a9c82913e120c85d15327662222fe16810a58c0
-SHA256: b5285a3d5048b06be9b59eef8d91ce9aef8609c73d34ce088e818b3f6ab3de26
-SHA512: 8918d4de8696ce197d6684e979944a1fc459db608ab96612fd79204b093af395c63a935f2c15bda8322a4cf80ee01be7c1a75349474ee3cf07de24d19bce3a41
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0)
+Filename: ./user-session-migration_0.5.2_amd64.deb
+Size: 9856
+MD5sum: daa92fb1c6ee56d08fcd79da2ce525ae
+SHA1: fee9f8e1e90d487f1f2b42990065603be51cd661
+SHA256: e6b6e24ce9b05cdba0e44a4ac464a351368dff983754cef8e6de9017e2d8641a
+SHA512: f4b143a77378cc7992516660ee7a1cdab8d5dbdcac95bab834bf1b5142087baaca56e690276dd9c193cc5403b1de16447d0233565738153f691386b186d8ee27
 Homepage: https://launchpad.net/session-migration
 Description: Tool to migrate in-session user data
  This tool is used to migrate in-session user data when a program is evolving
