@@ -8000,21 +8000,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 652
-Provides: gir1.2-cudagst-1.0 (= 1.28.3-1), gir1.2-gstanalytics-1.0 (= 1.28.3-1), gir1.2-gstbadaudio-1.0 (= 1.28.3-1), gir1.2-gstcodecparsers-1.0 (= 1.28.3-1), gir1.2-gstcodecs-1.0 (= 1.28.3-1), gir1.2-gstcuda-1.0 (= 1.28.3-1), gir1.2-gstdxva-1.0 (= 1.28.3-1), gir1.2-gsthip-1.0 (= 1.28.3-1), gir1.2-gsthipgl-1.0 (= 1.28.3-1), gir1.2-gstinsertbin-1.0 (= 1.28.3-1), gir1.2-gstmpegts-1.0 (= 1.28.3-1), gir1.2-gstmse-1.0 (= 1.28.3-1), gir1.2-gstplay-1.0 (= 1.28.3-1), gir1.2-gstplayer-1.0 (= 1.28.3-1), gir1.2-gsttranscoder-1.0 (= 1.28.3-1), gir1.2-gstva-1.0 (= 1.28.3-1), gir1.2-gstwebrtc-1.0 (= 1.28.3-1)
-Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.3)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.3-1_amd64.deb
-Size: 245528
-MD5sum: c563f2676f032a5079d0d29d8851c391
-SHA1: 9247bc482d260c2e67f7cb8b46351458c04c073a
-SHA256: dcb6cbe3125d4f1f7b31a40d62630dafb606de9f6312bf5123bdf47a8dad4028
-SHA512: 54c1f951822670aba80f3eb932db66c4a74975ec31a626813f89410060434af3454c3d19f431712f8aa0abae0424313a75c8e86640605e95acefef4713cf763c
+Installed-Size: 654
+Provides: gir1.2-cudagst-1.0 (= 1.28.4-1), gir1.2-gstanalytics-1.0 (= 1.28.4-1), gir1.2-gstbadaudio-1.0 (= 1.28.4-1), gir1.2-gstcodecparsers-1.0 (= 1.28.4-1), gir1.2-gstcodecs-1.0 (= 1.28.4-1), gir1.2-gstcuda-1.0 (= 1.28.4-1), gir1.2-gstdxva-1.0 (= 1.28.4-1), gir1.2-gsthip-1.0 (= 1.28.4-1), gir1.2-gsthipgl-1.0 (= 1.28.4-1), gir1.2-gstinsertbin-1.0 (= 1.28.4-1), gir1.2-gstmpegts-1.0 (= 1.28.4-1), gir1.2-gstmse-1.0 (= 1.28.4-1), gir1.2-gstplay-1.0 (= 1.28.4-1), gir1.2-gstplayer-1.0 (= 1.28.4-1), gir1.2-gsttranscoder-1.0 (= 1.28.4-1), gir1.2-gstva-1.0 (= 1.28.4-1), gir1.2-gstwebrtc-1.0 (= 1.28.4-1)
+Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.4)
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.4-1_amd64.deb
+Size: 248236
+MD5sum: 0fed78bb1fce266bb3045048a07e7183
+SHA1: 42fbcdd71d380781043a074014c99248271b390e
+SHA256: 8488231db95863060972bf330a99e25508e66b4778c015f38c4ea7347a8fdcba
+SHA512: 77551c16452570c124a1c52d1bb8f894bbb6fc69360b4374e4d578f080f92076a6669088ba6d828965b72de4688584f7c7d497fb905d2eb3f77711d362576182
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12081,25 +12081,25 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12024
+Installed-Size: 12030
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.3-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.63.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.4-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-215 (>= 4.1), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.3-1_amd64.deb
-Size: 3362064
-MD5sum: ba2709be28d505d9eb8ef2035bdef30b
-SHA1: 19e5cfa0212aae8473a7788ab6f4999052d213ce
-SHA256: 15c4395cea4bf64f01bee44ad0a844944b8770e7a1280f662ff9c075f3e1971a
-SHA512: c21a98ac4c6d9b8242174ed41ccf2dc8382b00cf60ced4e4cd3538e728096cbb1687b67560a850e0a286923b4be355b9b3d8314d60bc9c77eefdd0cbed85f340
+Filename: ./gstreamer1.0-plugins-bad_1.28.4-1_amd64.deb
+Size: 3363544
+MD5sum: 006e81d43be6d4fe1c1f258228556ec0
+SHA1: e280f2d030795bd70299b5b95114d3d5af0cfbab
+SHA256: 8ffb421729484b642ee3be76137e4146b32bef3d875f932bb5d06ad5aa70c576
+SHA512: 9538d02438682a02a4a4cb1af3bcb054386b9a3b609ca39a34493c6c0d5e684c569e90092f1268a6f050e111ee8081fac3d6268080f7107ea02f47e23ed4eb8e
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -20876,20 +20876,20 @@ Description: async fingerprint library of fprint project, shared libraries
 
 Package: libfreerdp-client3-3
 Architecture: amd64
-Version: 3.26.0+dfsg-1
+Version: 3.27.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 810
-Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.26.0+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
-Filename: ./libfreerdp-client3-3_3.26.0+dfsg-1_amd64.deb
-Size: 279280
-MD5sum: 7c3c79119c5c5c02bb91a960ad881047
-SHA1: a118ca5e08ebbe1a0fb4c9ee14e4ed131b7c05eb
-SHA256: b141dacbcc202dd4a7af64237fc210952348623bf84e35b4387b7bf96580b1b9
-SHA512: ae95d96c7a06933d5ba285297b99719dcdf8afdedb734cb2d221ece0298948f3f79deae51ae596256f70a4dfacecc6f86dbab4396c551c489e60cc969148b4a4
+Installed-Size: 819
+Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.27.0+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
+Filename: ./libfreerdp-client3-3_3.27.0+dfsg-1_amd64.deb
+Size: 280788
+MD5sum: 62c4efe6606665dc15e4c542a901922b
+SHA1: 329733d4754364cf38c318e09249f5d0fcb748c3
+SHA256: 0e78b31338aef2c78f7c6348b8e68c7d32ee1f088a239df55d370580831e871d
+SHA512: 455fb9cc24a728fc308e5aa873f2126f4acadd77fc95d13aeac6bf6d7341582bd61a2e3fbb3c2631afe8ea491c228b2a0a50180ea8d19ccf7fe76f6a9a57d085
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (client library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -20899,20 +20899,20 @@ Description: Free Remote Desktop Protocol library (client library)
 
 Package: libfreerdp-server3-3
 Architecture: amd64
-Version: 3.26.0+dfsg-1
+Version: 3.27.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 288
-Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.26.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
-Filename: ./libfreerdp-server3-3_3.26.0+dfsg-1_amd64.deb
-Size: 91404
-MD5sum: 56d93256ca555497611dacddafb01730
-SHA1: 9ef3ff64e68cc56968a1a753b623f1b8828249c9
-SHA256: f0441c0e339f674d42c433ec350044511bb1ec20da6817295c61b2e6f8267b74
-SHA512: f539157bdbf742cf5ca46b0ec647180b937b35a09969ed5c9b6d9abf4dea241a3f3d2b84e645cd1871d77b5b64457927042bb105eaebdf0f551318e2e92954fc
+Installed-Size: 292
+Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.27.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
+Filename: ./libfreerdp-server3-3_3.27.0+dfsg-1_amd64.deb
+Size: 92388
+MD5sum: b4f20d2a17c87d2b10bcd6c85345e277
+SHA1: 5a46d22cbdd4a8b01ebf20fc35a9fc4e4a856c4e
+SHA256: 589bc7ddcb695b713c09bb9c117ee349f79fac8e342004baa6a8d2bfcc91a62b
+SHA512: 7bafdeb456ecae9bc197d1bf92cc20f69c613d000e5ad982250af45093e7c2a03348e65f0b4cdf90dd06f5c5a75c3b4c5f6fa49159e3ead31665922b53f531f4
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (server library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -20922,21 +20922,21 @@ Description: Free Remote Desktop Protocol library (server library)
 
 Package: libfreerdp3-3
 Architecture: amd64
-Version: 3.26.0+dfsg-1
+Version: 3.27.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 2211
-Depends: libavcodec62 (>= 7:8.1), libavutil60 (>= 7:8.1), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample6 (>= 7:8.1), libswscale9 (>= 7:8.1), libwinpr3-3 (= 3.26.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
+Installed-Size: 2212
+Depends: libavcodec62 (>= 7:8.1.1), libavutil60 (>= 7:8.1.1), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libwinpr3-3 (= 3.27.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
 Suggests: freerdp-x11
-Filename: ./libfreerdp3-3_3.26.0+dfsg-1_amd64.deb
-Size: 744404
-MD5sum: e0f1f761c9c65cafbf2dea188a953b35
-SHA1: 11008635f4e4846a8c6fbb3a20c4bd5a7533c3d5
-SHA256: 3cb410380ea3a17fda18325676e9f271d143090b0db2366504ba25a389f282ee
-SHA512: 715489836ed6f9e38fd33c4970de2de5fe239c1b2f020962efdd90ed15ff86083b867c3cff0d3551682cbed691ca11e5934498b36df9b905699630805a32fdf4
+Filename: ./libfreerdp3-3_3.27.0+dfsg-1_amd64.deb
+Size: 746040
+MD5sum: f82c3b81cb36031c2ead2991e02a5fb5
+SHA1: 186b83178710df6d604bab718fac1ac259cb7322
+SHA256: 2b183479bdc14a16460d10cff690340e4acd8745cd0947bb5338845e342ba28d
+SHA512: 1eb483d16b1dfb51ff7df17c859033d5a6666620097c6cee3bd63040e1e78ab523d5c263e2f45cf5ea500980a9b1a67cc9ac22384cf16269601e87a3bb07b6ba
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -23327,21 +23327,21 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3090
+Installed-Size: 3088
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.3-1_amd64.deb
-Size: 988432
-MD5sum: 4a4ad419d68c55b3b67cec62652bb2e4
-SHA1: 84917ea0416553f85b421e06b158d35f6367285e
-SHA256: d161c88956c75f11181f136e40252f9fff51ac269a369a794ac36d031471b676
-SHA512: 7fecaf7f280f86832471d3b21bf0d5bb66b70fbfe88a63f3f7b3c84c0509178d96c0cbf79833ffcfc26f0b2161b19321bef86520f8bd409f5326fccdd8558fe1
+Filename: ./libgstreamer-plugins-bad1.0-0_1.28.4-1_amd64.deb
+Size: 990952
+MD5sum: 75ae5795f64626a71886c22cbc199d21
+SHA1: 6b3e435b6f75f32d14f0c9d45705638f667d014c
+SHA256: f28120e8dec390188b95b44c1101e289451b59c7fab2e4af8ee4b4552b28f14c
+SHA512: f3c958981ae950a8fdd2cd1840e5e692486ac4d197de782554e87421ce190175fcc588c1263d0777690536d3e7898b3e082aea0c18901df4b91bd6d36e3ada06
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -48538,22 +48538,22 @@ Description: Java WebSocket API
 
 Package: libwinpr3-3
 Architecture: amd64
-Version: 3.26.0+dfsg-1
+Version: 3.27.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1471
+Installed-Size: 1475
 Depends: libc6 (>= 2.42), libgcc-s1 (>= 3.3), libicu78 (>= 78.1-1~), libjson-c5 (>= 0.15), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.15~beta1), libssl3t64 (>= 3.0.0), liburiparser1 (>= 0.6.0)
 Suggests: freerdp-x11
 Replaces: libwinpr2-2, libwinpr2-2t64
-Filename: ./libwinpr3-3_3.26.0+dfsg-1_amd64.deb
-Size: 390952
-MD5sum: 12070ab46735a51170aac98b2e073de0
-SHA1: 0d686e34bc8bde9401557bbf305a0d7141ece7d2
-SHA256: e4f80e6de39ccd8eabbb9e4007781260bc46dd5d4e5a5a19a15dc1727e4963cc
-SHA512: 3dd1195a3d148e91c57a91fd85e570c2c0c8ded9b6e69e0f7b116166c451abab5fb03dbe63dfe3c36b96504bd73a9484c7307f58e8e9f5af3cf7790641fd19e3
+Filename: ./libwinpr3-3_3.27.0+dfsg-1_amd64.deb
+Size: 393224
+MD5sum: 6422b8c50d628366811b373d360054e6
+SHA1: b8581948a3d7db0862b30e4e42b6ff10392fd860
+SHA256: f78e6a98db9bef876fab1eb59d19e00084659cc50e714a69013f53cb14efb320
+SHA512: b1105e009997d8012d0063f5b57d1915461a58253e373e60267088bff5ac1fc4cef85dc0fdf8c7e693acde698e05c71d04988e2272c47472f122c0bc1e5eeaf6
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -62233,18 +62233,18 @@ Description: Idle management daemon for Wayland
 
 Package: swaylock
 Architecture: amd64
-Version: 1.8.5-1
+Version: 1.8.5-2
 Priority: optional
 Section: x11
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Installed-Size: 114
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.12.0), libpam0g (>= 0.99.7.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./swaylock_1.8.5-1_amd64.deb
-Size: 29864
-MD5sum: add8ed6a011b79b958729962643a46c8
-SHA1: 24af349ac0d0b05feb9568df12483ba4a0aa6830
-SHA256: 270dde5a7d9a0b8402ca137a843633893b04639b69050f5089dddd333dfe8b79
-SHA512: 7c6a808450e05203606d9a008a63b567856ac51ee081d41379ad482b5c79c440fbfb4a057673c93127db25cb3c47ab5b808aab69f62a650d8e3ea5f55fbb9266
+Filename: ./swaylock_1.8.5-2_amd64.deb
+Size: 30028
+MD5sum: f2a6dbdd0139fd1f3bda087934cf0b18
+SHA1: d3c641bfdcd8929e3066d842f1d8761939d67ade
+SHA256: e45104555f32fa43bc9f37a1729c634003622fb43fe6c3fb66dcf51453ea3046
+SHA512: 300c20130e42c5650556acf901346ad3abb80b25460c3cb54ed5548ac25c40318eccf2bb51d9370799b77379e75e8c31fb4709aa2131fbcfab58d54e238e33f2
 Homepage: https://github.com/swaywm/swaylock
 Description: Screen locker for Wayland
  swaylock is a screen locking utility for Wayland compositors. It is compatible
