@@ -7824,20 +7824,20 @@ Description: Introspection data for GLib, GObject, Gio and GModule
 
 Package: gir1.2-gly-2
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 48
-Depends: libglycin-2-0 (= 2.0.8-1), gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0
-Filename: ./gir1.2-gly-2_2.0.8-1_amd64.deb
-Size: 15000
-MD5sum: 08d55e445fb89c0e9f8074007a77e6d1
-SHA1: 11c627eda434048875be55904e37ce29988e2f38
-SHA256: bbc2b738b4c5524c07dd000ffd32150090f7cb9dc71e59a3be066d518d5bb06c
-SHA512: ec845d77ed414703dba08e8ce0c8579d2074a36e66ad463a5426b36d7a973accc51758cb95e076b8f488298cea0afc79033e1d07d821ba51a05ba1ab1f5ae1de
+Installed-Size: 49
+Depends: libglycin-2-0 (= 2.1.2+ds-2), gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0
+Filename: ./gir1.2-gly-2_2.1.2+ds-2_amd64.deb
+Size: 15160
+MD5sum: 93484985c7745bc6e14c7c14825631d3
+SHA1: ae079b2c33df7780a65bdfdcbe692a942a741719
+SHA256: 9c71877be447854dad1f23a572c3cc771581f1d0443d5a9d8a4a3b4a00dd51aa
+SHA512: a3d5cc75f7a035eea5b8e1ff77b7824b9ac7cc5ee5492aca9ca7167758c5a8fc7e12b0e5aad1edc1603766ff2d6aa24430fc7553a72ebe52d80e67fb53c8386a
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -9396,22 +9396,22 @@ Description: GNOME control center tools for libgnomekbd
 
 Package: glycin-loaders
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 13866
+Installed-Size: 13727
 Depends: bubblewrap, libc6 (>= 2.39), libcairo2 (>= 1.4.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.16.0), libheif1 (>= 1.17.0), libjxl0.11 (>= 0.11.0), librsvg2-2 (>= 2.52.5)
 Recommends: libheif-plugin-aomenc | libheif-plugin-rav1e | libheif-plugin-svtenc
 Suggests: libheif-plugin-x265 | libheif-plugin-kvazaar
-Filename: ./glycin-loaders_2.0.8-1_amd64.deb
-Size: 2780640
-MD5sum: d38b522038f49f20a816b125fc8764c6
-SHA1: b0009ac812dd383b4fa6cbfb4244a49b524feb48
-SHA256: e5e5a6245ff3486354e3d8a1d3bf0663f23d64a946c3868b9afafe79ffda092c
-SHA512: 276f065d131da9b7b98b1eda58f88a6b132f73cc7baf07bd3603f0a8287833e5cc2d7a6e2a6025ba4e5389fb7e5cab92a65edd6e276300da8128464b63299c7a
+Filename: ./glycin-loaders_2.1.2+ds-2_amd64.deb
+Size: 2791976
+MD5sum: aa9477208673e17843542b1d28144f34
+SHA1: bce404d9196ff38ff4369c4bedf493a2a41ca55d
+SHA256: b55c39d918c96a0f646a33b2a557cb25812861bb74b3ee68b1e6766cadbf8c6e
+SHA512: c80663cff2d2e5720eacda30f11322d1ce86d454db3f4b9066a407a8bcffd8db8ae114c31cece011276e34017320fcda8dc2bf6ce0055a36669c04de25961d2a
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -9423,20 +9423,20 @@ Description: sandboxed image loaders for GNOME
 
 Package: glycin-thumbnailers
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3082
-Depends: glycin-loaders (>= 2~), libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.50.0), liblcms2-2 (>= 2.2+git20110628), libseccomp2 (>= 2.1.0)
-Filename: ./glycin-thumbnailers_2.0.8-1_amd64.deb
-Size: 1053444
-MD5sum: 05c0d56599722a11f8e7c96162996864
-SHA1: 370256fd98fc55b0f43573b305eec788a2f1cb04
-SHA256: bcb93e77e06539d913ea6749fdc35460039f12e4e14da08c194ca26365fa8e8a
-SHA512: 545ff2e4ff6307ddc451ccbd5161e421c84f465988253579d1a3ff18e5d3d3b970d55792be706277f6f18bbbac55e6e9a0ca09a93f5282d5f207221a030dfde9
+Installed-Size: 485
+Depends: glycin-loaders (>= 2~), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.42.0), libglycin-2-0 (>= 2.0~beta)
+Filename: ./glycin-thumbnailers_2.1.2+ds-2_amd64.deb
+Size: 209512
+MD5sum: 67c2236e2ed80cd760bf4dfb911edde4
+SHA1: 09baa1b69e9158d586882ba90068eaebae811c04
+SHA256: bf5d2578088a402402faeee1584b4adb3bdd27452011130ba2082a111bfef843
+SHA512: 6e35e85bed00be464c0dfb5ba04b4b706e196ecd6dc096883e87ef12ff4dca13a3f6699f1ea1700271fcb387369b248a3f301db1a732e5efa20c81d6869acc98
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -9556,18 +9556,18 @@ Description: Various applets for the GNOME panel - binary files
 
 Package: gnome-backgrounds
 Architecture: all
-Version: 50.0-2
+Version: 50.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 38776
-Filename: ./gnome-backgrounds_50.0-2_all.deb
-Size: 39042936
-MD5sum: 86e7936b155c5a7e68893f0971488a0f
-SHA1: 7e81e8573db3ad4a7e082ac07911c54525ed3c5a
-SHA256: f802590ffe6ab1fd423c2054e1e3cd0aa9564efeeeae3e002d2cd24b97621c4d
-SHA512: cc7fa025eb69ee7a6226b27ee534a19d5ab8c6d4f2146ea26bb8818dea77ab2b54e990535d713e20f6f4db97d0f3faea88d416bbff2d8db340dbddfd7eeaaf6c
+Filename: ./gnome-backgrounds_50.0-3_all.deb
+Size: 39042952
+MD5sum: fdd5b22e2e634342046457143c850cb7
+SHA1: 36cbccb471c3479ce22b1c927aedff41bf0d702d
+SHA256: 637214c04622a9589deb01e754e75912702118738ff7dfb2747c1d283f2a8a92
+SHA512: 9307ac0afcfa35b5ec6f293f8e68ceb0178f2b33f5d0fcf0c98b13deababf77f9b17a906bb115be0543a187fa5c1077415676fb80d8fc57ae2cd639e00ca8c7d
 Description: Set of backgrounds packaged with the GNOME desktop
  This is a collection of desktop wallpapers created with GNOME users in
  mind.
@@ -10507,19 +10507,19 @@ Description: Remote desktop daemon for GNOME using PipeWire
 
 Package: gnome-robots
 Architecture: amd64
-Version: 1:50.0-1
+Version: 1:50.0-2
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 4982
+Installed-Size: 4942
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.9.3), libpango-1.0-0 (>= 1.14.0)
 Recommends: yelp
-Filename: ./gnome-robots_1%3a50.0-1_amd64.deb
-Size: 947868
-MD5sum: 0a4aa52a44fb3930d4e521f34a2881f3
-SHA1: 951da21ad9a27c5c5a3dea9358bdc44a4fdffe05
-SHA256: f898293db1c8485db584831e5086adbe5e1d9b9eacf20bac38f433061702985a
-SHA512: 7ca96df674b65b6b5f0f6bf137031f3d3c38b13feb6dca2c7ca2ad9ee620e95e034e44048df0f6d199daf7dd85dfde701a32f4c77b8ef702f7cb8b1464542c11
+Filename: ./gnome-robots_1%3a50.0-2_amd64.deb
+Size: 942240
+MD5sum: fec01d364665483e4467eb10bd9fbae5
+SHA1: a8f0ab92c4bd582dec122f58db9fe9ecc0567324
+SHA256: 0cc24e5c35e70155870cb213e47749b6af0346ebb36dcf828ad1411d3d2a44b8
+SHA512: 37c0a9216d1dd29b7c355e4bce8984442769f659cc28106e24dde3a8968be395b8656d13b9b9cbae076c1d8d73013d17f212a54285d2733ec2d7080d9fb0adb4
 Homepage: https://wiki.gnome.org/Apps/Robots
 Description: improved old BSD robots game
  GNOME Robots is a game where you try and avoid a band of marauding
@@ -10767,24 +10767,23 @@ Description: graphical shell for the GNOME desktop
 
 Package: gnome-snapshot
 Architecture: amd64
-Version: 49.1-1+b1
-Built-Using: rust-ahash (= 0.8.12-4.1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.3-4), rust-glycin (= 3.0.8-1), rust-glycin-common (= 1.0.3-1), rust-glycin-utils (= 4.0.4-2), rust-gufo-common (= 1.0.1-2), rust-gufo-exif (= 0.3.1-1), rust-nix (= 0.30.1-3), rustc (= 1.93.1+dfsg1-2)
-Static-Built-Using: rust-ahash (= 0.8.12-4.1), rust-aho-corasick (= 1.1.4-1), rust-allocator-api2 (= 0.2.21-1), rust-anyhow (= 1.0.102-1), rust-ashpd (= 0.12.0-4), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.5.0-2), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-refcell (= 0.1.13-1), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.11.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.24.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.21.5-1), rust-cairo-sys-rs (= 0.21.5-1), rust-cfg-if (= 1.0.4-1), rust-concurrent-queue (= 2.5.0-4), rust-crossbeam-deque (= 0.8.6-1), rust-crossbeam-epoch (= 0.9.18-1), rust-crossbeam-utils (= 0.8.21-1), rust-dlib (= 0.5.2-2), rust-either (= 1.15.0-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 0.1.4-1), rust-env-logger (= 0.11.8-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-form-urlencoded (= 1.2.2-1), rust-futures-channel (= 0.3.32-1), rust-futures-core (= 0.3.32-1), rust-futures-executor (= 0.3.32-1), rust-futures-io (= 0.3.32-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.32-1), rust-futures-timer (= 3.0.3-4), rust-futures-util (= 0.3.32-1), rust-g2p (= 1.1.0-1), rust-g2poly (= 1.1.0-1), rust-gdk-pixbuf (= 0.21.5-1), rust-gdk-pixbuf-sys (= 0.21.5-1), rust-gdk4 (= 0.10.3-2), rust-gdk4-sys (= 0.10.3-1), rust-gdk4-wayland (= 0.10.3-1), rust-gdk4-wayland-sys (= 0.10.3-1), rust-gdk4-x11 (= 0.10.3-1), rust-gdk4-x11-sys (= 0.10.3-1), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.21.5-2), rust-gio-sys (= 0.21.5-1), rust-glib (= 0.21.5-2), rust-glib-sys (= 0.21.5-3), rust-glycin (= 3.0.8-1), rust-glycin-common (= 1.0.3-1), rust-glycin-utils (= 4.0.4-2), rust-gobject-sys (= 0.22.0+really0.21.5-1), rust-graphene-rs (= 0.21.5-1), rust-graphene-sys (= 0.21.5-1), rust-gsk4 (= 0.10.3-1), rust-gsk4-sys (= 0.10.3-1), rust-gstreamer (= 0.24.4-3), rust-gstreamer-audio (= 0.24.4-1), rust-gstreamer-audio-sys (= 0.24.4-4), rust-gstreamer-base (= 0.24.4-2), rust-gstreamer-base-sys (= 0.24.4-2), rust-gstreamer-pbutils (= 0.24.4-1), rust-gstreamer-pbutils-sys (= 0.24.4-2), rust-gstreamer-sys (= 0.24.4-3), rust-gstreamer-video (= 0.24.4-2), rust-gstreamer-video-sys (= 0.24.4-2), rust-gtk4 (= 0.10.3-2), rust-gtk4-sys (= 0.10.3-3), rust-gufo-common (= 1.0.1-2), rust-gufo-exif (= 0.3.1-1), rust-half (= 2.7.1-2), rust-hashbrown-0.14 (= 0.14.5-2), rust-hex (= 0.4.3-3), rust-idna (= 1.1.0-1), rust-idna-adapter (= 1.1.0-1), rust-idna-mapping (= 1.0.0-1), rust-itertools (= 0.14.0-2), rust-jiff (= 0.2.15-2), rust-kstring (= 2.0.0-1), rust-lazy-static (= 1.5.0-1), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.8.1-1), rust-libadwaita-sys (= 0.8.1-2), rust-libc (= 0.2.178-2), rust-libloading (= 0.8.5-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.11.0-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.29-1), rust-lru (= 0.12.3-2), rust-memchr (= 2.8.0-1), rust-memfd (= 0.6.4-2), rust-memmap2 (= 0.9.8-1), rust-memoffset (= 0.8.0-1), rust-muldiv (= 1.0.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-integer (= 0.1.46-2), rust-num-rational (= 0.4.2-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-option-operations (= 0.5.0-2), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.21.5-1), rust-pango-sys (= 0.21.5-1), rust-parking (= 2.2.0-1), rust-percent-encoding (= 2.3.2-2), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.10.0-1), rust-ppv-lite86 (= 0.2.21-2), rust-proc-macro2 (= 1.0.101-1), rust-quote (= 1.0.40-1), rust-rand-0.8 (= 0.8.5+dfsg-3), rust-rand-chacha-0.3 (= 0.3.1-4), rust-rand-core-0.6 (= 0.6.4-5), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.12.3-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.0-1), rust-rqrr (= 0.10.0-2), rust-rustix (= 1.1.3-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.0-1), rust-slab (= 0.4.9-1), rust-smallvec (= 1.15.1-1), rust-static-assertions (= 1.1.0-1), rust-syn (= 2.0.105-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.4-1), rust-tinyvec (= 1.10.0-1), rust-tinyvec-macros (= 0.1.0-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-log (= 0.2.0-3), rust-tracing-subscriber (= 0.3.22-3), rust-unicode-bidi (= 0.3.17-1), rust-unicode-ident (= 1.0.13-1), rust-unicode-joining-type (= 1.0.0-1), rust-unicode-normalization (= 0.1.25-1), rust-url (= 2.5.8-1), rust-utf8-iter (= 1.0.4-1), rust-uuid (= 1.21.0-6), rust-winnow (= 0.7.13-1), rust-x11 (= 2.21.0-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.13.2-1), rust-zbus-names (= 4.3.1-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.9.2-1), rust-zvariant-utils (= 3.3.0-1), rustc (= 1.93.1+dfsg1-2)
+Version: 50.0-1
+Built-Using: rust-ahash (= 0.8.12-4.1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rustc (= 1.94.1+dfsg1-1)
+Static-Built-Using: rust-ahash (= 0.8.12-4.1), rust-aho-corasick (= 1.1.4-1), rust-allocator-api2 (= 0.2.21-1), rust-anyhow (= 1.0.102-1), rust-ashpd (= 0.13.11-2), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-io (= 2.5.0-2), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-refcell (= 0.1.13-1), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.11.0-1), rust-blocking (= 1.6.2-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-2), rust-cfg-expr (= 0.18.0-1), rust-cfg-if (= 1.0.4-1), rust-concurrent-queue (= 2.5.0-4), rust-crossbeam-utils (= 0.8.21-1), rust-either (= 1.15.0-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-formatx (= 0.2.4-1), rust-futures-channel (= 0.3.32-1), rust-futures-core (= 0.3.32-1), rust-futures-executor (= 0.3.32-1), rust-futures-io (= 0.3.32-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.32-1), rust-futures-util (= 0.3.32-1), rust-g2p (= 1.1.0-1), rust-g2poly (= 1.1.0-1), rust-gdk-pixbuf (= 0.22.0-2), rust-gdk-pixbuf-sys (= 0.22.0-2), rust-gdk4 (= 0.11.2-1), rust-gdk4-sys (= 0.11.2-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.6-1), rust-gio-sys (= 0.22.0-3), rust-glib (= 0.22.7-3), rust-glib-sys (= 0.22.6-3), rust-gobject-sys (= 0.22.6-2), rust-graphene-rs (= 0.22.0-2), rust-graphene-sys (= 0.22.0-2), rust-gsk4 (= 0.11.1-2), rust-gsk4-sys (= 0.11.1-2), rust-gstreamer (= 0.25.2-1), rust-gstreamer-audio (= 0.25.2-1), rust-gstreamer-audio-sys (= 0.25.2-1), rust-gstreamer-base (= 0.25.2-1), rust-gstreamer-base-sys (= 0.25.0-2), rust-gstreamer-pbutils (= 0.25.2-1), rust-gstreamer-pbutils-sys (= 0.25.2-1), rust-gstreamer-sys (= 0.25.2-1), rust-gstreamer-video (= 0.25.2-1), rust-gstreamer-video-sys (= 0.25.2-1), rust-gtk4 (= 0.11.3-3), rust-gtk4-sys (= 0.11.3-1), rust-hashbrown-0.14 (= 0.14.5-2), rust-heck (= 0.5.0-1+really0.5.0-2), rust-hex (= 0.4.3-3), rust-itertools (= 0.14.0-2), rust-kstring (= 2.0.0-1), rust-lazy-static (= 1.5.0-1), rust-libadwaita (= 0.9.1-2), rust-libadwaita-sys (= 0.9.1-2), rust-libc (= 0.2.186-1), rust-libglycin-gtk4-rebind (= 0.1.0-2), rust-libglycin-gtk4-rebind-sys (= 0.1.0-2), rust-libglycin-rebind (= 0.1.0-2), rust-libglycin-rebind-sys (= 0.1.0-2), rust-linux-raw-sys (= 0.11.0-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.29-1), rust-lru (= 0.12.3-2), rust-memchr (= 2.8.0-1), rust-memoffset (= 0.8.0-1), rust-muldiv (= 1.0.1-2), rust-nu-ansi-term (= 0.50.1-1), rust-num-integer (= 0.1.46-2), rust-num-rational (= 0.4.2-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-option-operations (= 0.5.0-2), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.22.6-1), rust-pango-sys (= 0.22.0-2), rust-parking (= 2.2.0-1), rust-pin-project-lite (= 0.2.16-1), rust-pkg-config (= 0.3.32-3), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-quote (= 1.0.45-1), rust-regex (= 1.12.3-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rqrr (= 0.10.0-2), rust-rustix (= 1.1.3-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-serde-spanned (= 1.1.1-1), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.0-1), rust-slab (= 0.4.9-1), rust-smallvec (= 1.15.1-1), rust-static-assertions (= 1.1.0-1), rust-syn (= 2.0.117-1), rust-system-deps (= 7.0.8+dfsg-1), rust-target-lexicon (= 0.13.4-2), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.4-1), rust-toml (= 1.1.2-4), rust-toml-datetime (= 1.1.1-2), rust-toml-parser (= 1.1.2-2), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-log (= 0.2.0-3), rust-tracing-subscriber (= 0.3.22-3), rust-unicode-ident (= 1.0.13-1), rust-uuid (= 1.23.1-1), rust-version-compare (= 0.1.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-zbus (= 5.13.2-1), rust-zbus-names (= 4.3.1-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.9.2-1), rust-zvariant-utils (= 3.3.0-1), rustc (= 1.94.1+dfsg1-1)
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
-Source: gnome-snapshot (49.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5763
-Provides: snapshot (= 49.1-1+b1)
-Depends: gstreamer1.0-gl, gstreamer1.0-gtk4 (>= 0.14), gstreamer1.0-libcamera, gstreamer1.0-pipewire, gstreamer1.0-plugins-bad, pipewire, xdg-desktop-portal-gnome | xdg-desktop-portal-backend, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.75), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.6.0), libgstreamer1.0-0 (>= 1.20.0), libgtk-4-1 (>= 4.18), liblcms2-2 (>= 2.2+git20110628), libpango-1.0-0 (>= 1.14.0), libseccomp2 (>= 2.1.0)
+Installed-Size: 4475
+Provides: snapshot (= 50.0-1)
+Depends: gstreamer1.0-gl, gstreamer1.0-gtk4 (>= 0.14), gstreamer1.0-libcamera, gstreamer1.0-pipewire, gstreamer1.0-plugins-bad, pipewire, xdg-desktop-portal-gnome | xdg-desktop-portal-backend, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.39), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.75), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.20.0), libgtk-4-1 (>= 4.18), libpango-1.0-0 (>= 1.14.0)
 Recommends: libcamera-ipa, libspa-0.2-libcamera
-Filename: ./gnome-snapshot_49.1-1+b1_amd64.deb
-Size: 1731656
-MD5sum: 610fc1e63eb6feeeb7e76ccf7e42aca1
-SHA1: 427e2da1771099ffbb7e24d01afa79e0324b877d
-SHA256: 977b953ea4b695f81f254486bb14e12bd7625b577d2cb14db6a58a8f1ff48dad
-SHA512: e0bdf1a393e2498fff3bbb5e4af423861528b8ac98017ba85ee127e2c3fb35e1cfa9edfe28514188e9bed668397bb9c994fbfd31a724ef11a9f90851fc83b1e5
+Filename: ./gnome-snapshot_50.0-1_amd64.deb
+Size: 1373400
+MD5sum: 143e3f7055be2a4ea72f651f04c70ea7
+SHA1: 75fb1c3af596af3147826ad1186e57e944a1b47b
+SHA256: 0112b14ef77a8165edbf4b4088eaa41dc6ffe1479db0f46e5f1f461cfa7409dd
+SHA512: b1d0fc5905517cf63bccf626bed2b4ee046846d7b1c5910151921adf2223f849611460f47241a5f64ba04638c52ba99189f491828885e63da098a9763ff95f7c
 Homepage: https://gitlab.gnome.org/GNOME/snapshot
 Description: Take pictures and videos from your webcam
  snapshot is an app that allows you to take pictures and videos
@@ -11130,18 +11129,18 @@ Description: simple text editor for GNOME
 
 Package: gnome-tour
 Architecture: amd64
-Version: 49.0-2
+Version: 50.0-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2860
+Installed-Size: 2801
 Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
-Filename: ./gnome-tour_49.0-2_amd64.deb
-Size: 736744
-MD5sum: 394c17c4877fafb02369730903140751
-SHA1: d028e7f0dd4e479c1099c795d26e792f58cdc36e
-SHA256: c501be19f4fdf8a7cb1152f22c507342945d1846c28e566db0934bb356522619
-SHA512: 31c59c03c3bf82afbf835be4ccb2d8d42a5c9ad5bcf85a68b44b1baff71d47d989527abd40a14951d4e5f2729d3fe26bc783182cced12fe208e0d9ef0e3a9b5c
+Filename: ./gnome-tour_50.0-1_amd64.deb
+Size: 728320
+MD5sum: 4099b63056c3fc4fa8b05399411526f0
+SHA1: 0cfa3edc27e9ba25db7608cf2de7ab65325fd138
+SHA256: 5cb7552b6906b4d3ce9dfd8c2c25d9f2785aa07aa382572a4fef945630370427
+SHA512: a4aa05fbca509178f5078923d03cb3d9e8be63d611608eabc707735e97007cde324de0a2309641f50a8123792568fb24b3d241937e959bc9b8aa5fb3e9a2b0ce
 Homepage: https://apps.gnome.org/Tour/
 Description: guided tour and greeter for GNOME
  This simple app has been part of the first run experience for
@@ -11168,18 +11167,18 @@ Description: GNOME Help
 
 Package: gnome-user-share
 Architecture: amd64
-Version: 48.2-1
+Version: 48.3-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1424
+Installed-Size: 1347
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libselinux1 (>= 3.1~), dconf-gsettings-backend | gsettings-backend, apache2-bin (>= 2.4), libapache2-mod-dnssd (>= 0.6-3.1~)
-Filename: ./gnome-user-share_48.2-1_amd64.deb
-Size: 340988
-MD5sum: 17895c51352ee293524cac254704260b
-SHA1: 70abe7d15f69b1fe7690acf2e43dc32546cc9bad
-SHA256: 8a5308a542af0560eb09265895b0466f2f9a4b3870190d208f2834e8e0df1d1e
-SHA512: 975a4f0c25978f00ed33ca1d193fbf37c9963b5e2f86c14825353c928b1fcf963dc39644d00785e8e7c051440015e9837b1941c6d48b619f94371bc86e50fa3c
+Filename: ./gnome-user-share_48.3-1_amd64.deb
+Size: 329524
+MD5sum: 440bb1566a77ab59c4777084a417ccce
+SHA1: dbea4dca97a36309094ba4ffaa8b1fea94981bf9
+SHA256: 47208f8d9713a3ef8f1fee99c54cc9ac9d69c9c3f6f65e05fbcbe59672a14c33
+SHA512: c88cd3b402d92496b70308629939cba6d1598a4f10f07a04badd7cbbbc98c22f1d957532fc86e328a4555056b7e7a376af8e616d7fb5348ec41ae7d32990b9de
 Description: User level public file sharing via WebDAV
  gnome-user-share is a small package that allows easy user-level file sharing
  via WebDAV. The shared files are announced on the network by Avahi.
@@ -11977,20 +11976,20 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-gtk4
 Architecture: amd64
-Version: 0.14.4-1+b1
+Version: 0.15.2-1
 Multi-Arch: same
 Priority: optional
 Section: rust
-Source: rust-gst-plugin-gtk4 (0.14.4-1)
+Source: rust-gst-plugin-gtk4
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Installed-Size: 821
+Installed-Size: 828
 Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.20.0), libgtk-4-1 (>= 4.19.3), libpango-1.0-0 (>= 1.14.0)
-Filename: ./gstreamer1.0-gtk4_0.14.4-1+b1_amd64.deb
-Size: 292808
-MD5sum: 710276ebf229d7d9cc12b9711e6c4ce5
-SHA1: a6f4394e11c7d5a655c2518ad1ed900e8d736c3c
-SHA256: 9545fcc17be86fd5dd1417a5ce90de5b94bb34e2c84128ff9c2e2cf002c25877
-SHA512: bf611c7fff545029c873915411ee884039b5efdc31db11268d09f156d383895ccaa418dc9e45a008bac5d2b3ba69c929f14d28777b9ef3dd764b7608f6714cf8
+Filename: ./gstreamer1.0-gtk4_0.15.2-1_amd64.deb
+Size: 295944
+MD5sum: f9e6a7c49f2a3b64c1ab83793ca65abe
+SHA1: e5c9309b80da46d0ef7c3be33694d3a1032cef08
+SHA256: 6c352015bbb813c569a42080d92801cc8bf272ec82cc4e0ba11ee9ae4cf6d23c
+SHA512: 0a5bb6b2414cc7f98e83418234b0c1bcdce5e67aab9fdf4439e619442a784eeea192e1067ca567294f88f50a7b9806c5155a820466c137f10354f7eed463c871
 Homepage: https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
 Description: GStreamer GTK 4 sink element - GStreamer plugin
  GStreamer plugin for gtk4 sink elements
@@ -22283,20 +22282,20 @@ Description: C++ wrapper for the GLib toolkit (shared libraries)
 
 Package: libglycin-2-0
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4345
+Installed-Size: 4194
 Depends: glycin-loaders (>= 2~), libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.68.0), liblcms2-2 (>= 2.2+git20110628), libseccomp2 (>= 2.1.0)
-Filename: ./libglycin-2-0_2.0.8-1_amd64.deb
-Size: 1423312
-MD5sum: 51e8a62165ea3a96a8291b45a2a26a61
-SHA1: b9ddffe7305a25a4890c7b3abb868b89c9a4f7d6
-SHA256: 571edc6ad2c9802ff438ec48c3d3309d0798f1885976eaf5d16737e977135e01
-SHA512: 3f88abd9f22a5eb75f16e1e5ea31a78e90c1a7deadc6e028412a9a692a645739ebd287a92874c2c80e08ce2d48375135d63c5ec11d01be7051de46a61f09c259
+Filename: ./libglycin-2-0_2.1.2+ds-2_amd64.deb
+Size: 1399988
+MD5sum: a7c681c974b2e8eef9c3377f3acb176e
+SHA1: 8394bf6ca3360a9a09fb1b64c711fde9a7d9dbe1
+SHA256: 435fcdbacc2c9ff77f117532810080595f9691987d65cbcf5a08508268b2dd50
+SHA512: 6df862563c7861c341418e9d0af47d6422c2e57c2f813089e768d3abe80790d91486bb8559547c02d11a84906dcf844a5ad0ca76de7c571f1407324188d0aa04
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -22308,21 +22307,21 @@ Description: sandboxed image loaders for GNOME
 
 Package: libglycin-2-dev
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 172
-Provides: gir1.2-gly-2-dev (= 2.0.8-1)
-Depends: libglycin-2-0 (= 2.0.8-1), libfontconfig-dev, libgio-2.0-dev, liblcms2-dev, libseccomp-dev, gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gly-2 (= 2.0.8-1), gir1.2-gobject-2.0-dev
-Filename: ./libglycin-2-dev_2.0.8-1_amd64.deb
-Size: 24776
-MD5sum: 455e9e5c1588f72040609c7071d131f3
-SHA1: 6908751b6dbb8aff939e7812234cdfeb9048d1da
-SHA256: f3fb9b85bcd010df4c0c203f715e5e3f7b84b3a0c191d0e3b8ce68e477b5f1cd
-SHA512: 8a5eee1e8a4325e8f35fade26f71cc682e562abdc3d23ab26846f3af718b38c0de16190c2cb9f942891b153767bf03a45adc74e33fa9d751b0c4024fc62f571c
+Installed-Size: 173
+Provides: gir1.2-gly-2-dev (= 2.1.2+ds-2)
+Depends: libglycin-2-0 (= 2.1.2+ds-2), libfontconfig-dev, libgio-2.0-dev, liblcms2-dev, libseccomp-dev, gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gly-2 (= 2.1.2+ds-2), gir1.2-gobject-2.0-dev
+Filename: ./libglycin-2-dev_2.1.2+ds-2_amd64.deb
+Size: 24944
+MD5sum: 62dfffbdd287b91e6c195d369fd9e9c0
+SHA1: 02ac0ad26328624dde1805a37e6d4655904b9e1a
+SHA256: e2e7a52ced6ed4261d8c3b30a712a35281d54f1e66670bb6a5b8ff3de242e4a5
+SHA512: 7f72007509f6bb962fba650bb3059034e847dc85d7890c14870c15a6760b4bdabf867e28abcf84b78d9570353a03dfd8247eba26c35b4742d7fb8e2a7fabdc3b
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -22334,20 +22333,20 @@ Description: sandboxed image loaders for GNOME
 
 Package: libglycin-gtk4-2-0
 Architecture: amd64
-Version: 2.0.8-1
+Version: 2.1.2+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 335
+Installed-Size: 328
 Depends: libc6 (>= 2.33), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libglycin-2-0 (>= 2.0~beta), libgtk-4-1 (>= 4.15.4)
-Filename: ./libglycin-gtk4-2-0_2.0.8-1_amd64.deb
-Size: 136776
-MD5sum: 815f9869142977d74bb5b80051e926ae
-SHA1: d5722f8627001f898b3acc4887c66728b948bd41
-SHA256: 9810ce17dde991aa2c9c47540ee52a90b5cbb7c508c0f669b8e530628d8c4981
-SHA512: b95a8d0c5539f86d199b11e206dbcef033f3b5d69ef03c16add6ad05b6b7cda44217df355852ad117930385c95567003af8a6eee00d30ccff9da3ed78f081557
+Filename: ./libglycin-gtk4-2-0_2.1.2+ds-2_amd64.deb
+Size: 134772
+MD5sum: aa855462600f656c7efb88fb2e38f82b
+SHA1: 81710b36474340f1f80ff042638cd42cff3ae474
+SHA256: 94db48ee17b361dc20210597c10d73f82c1cc53b8a2cc99cd25046ac9843a629
+SHA512: bb5219c938d209af637fd487985950071a21abce092c6b9751371116083794627d338b0094cded4f5e5c95e97bcd75c7efac03a261c67d8f6b77722be0c7eeb7
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -36024,20 +36023,20 @@ Description: shared library for the KDE power management features in Plasma
 
 Package: libppsdocument-4.0-6
 Architecture: amd64
-Version: 49.3-2
+Version: 49.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: papers
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 580
-Depends: libarchive13t64 (>= 3.6.0), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libdjvulibre21 (>= 3.5.29), libexempi8 (>= 2.5.0), libgdk-pixbuf-2.0-0 (>= 2.40), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.17.1), libpango-1.0-0 (>= 1.50.3), libpoppler-glib8t64 (>= 25.03.0), libtiff6 (>= 4.0.3)
-Filename: ./libppsdocument-4.0-6_49.3-2_amd64.deb
-Size: 148388
-MD5sum: ea22f8768c42408fcb1f88cd3aeb8b46
-SHA1: f38e99c0afd8d70ac5f3c4e00a671cfbad5cae97
-SHA256: c682dd82b1940c9fd35dd1a495cb0c4636cacc6b68960648d91a052f0466d29f
-SHA512: 7da2a7c294b15649dde3d182329b8628810ead5446f23a1e4133f6b1f00deb25abd12d5c34bf7c55f0bdfc0a1e76663eec501f040af6ebede8337d24bd747257
+Depends: libarchive13t64 (>= 3.4.0), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdjvulibre21 (>= 3.5.30), libexempi8 (>= 2.5.0), libgdk-pixbuf-2.0-0 (>= 2.39.2), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.17.1), libpango-1.0-0 (>= 1.50.3), libpoppler-glib8t64 (>= 25.03.0), libtiff6 (>= 4.0.3)
+Filename: ./libppsdocument-4.0-6_49.3-3_amd64.deb
+Size: 147848
+MD5sum: c6a4a910c094e5a644841b1561d79497
+SHA1: 36d6ac73d8c7d296b2586b7af3ed392abce65a25
+SHA256: f772db23032918b7a0fbaaa750ed981b29eaea7afd51a74c7afffc8f9ad2c74e
+SHA512: e04acbf850577c937269f8c4543fd880ff038efd9d5abfa7f9ee8b2f5d697fca0372aae7c10eca1070e4a92afa928bca3c75afa8ba1bac111a6cb29d96211ec1
 Homepage: https://apps.gnome.org/Papers/
 Description: Document (Comic Books, DjVu, PDF) rendering library
  This package contains libppsdocument, which performs the rendering of the
@@ -36047,20 +36046,20 @@ Description: Document (Comic Books, DjVu, PDF) rendering library
 
 Package: libppsview-4.0-5
 Architecture: amd64
-Version: 49.3-2
+Version: 49.3-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: papers
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 481
-Depends: libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libgtksourceview-5-0 (>= 2.91.4), libpango-1.0-0 (>= 1.14.0), libppsdocument-4.0-6 (>= 49.0), libspelling-1-2 (>= 0.2.0)
-Filename: ./libppsview-4.0-5_49.3-2_amd64.deb
-Size: 155392
-MD5sum: fa3beb643fb22aa08b6d0205e96fea83
-SHA1: 83e1f51ae883cb478f26b6b5247f257bb8bb70ae
-SHA256: 4fc903e74851c79fb7f98acb7e66d9e4d22c7dbcba9b09185ae58ae4c11e71e7
-SHA512: 0ad79215540b0d583f156df63f8f2a9cf3d378872fc559bfefbf3adbba7be7245f9a2fe0fdf75310377aec02302a80803e31898c1da1eab25037115a351815a4
+Depends: libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libgtksourceview-5-0 (>= 2.91.4), libpango-1.0-0 (>= 1.14.0), libppsdocument-4.0-6 (>= 49.0), libspelling-1-2 (>= 0.2.0)
+Filename: ./libppsview-4.0-5_49.3-3_amd64.deb
+Size: 155260
+MD5sum: b675e1f3145e83f692237393dd808ef6
+SHA1: fbf72a0a3738585a18bbebb6bffbcc94b795326d
+SHA256: 026cd7ffba8b15dbf774e88a6fd1f928d5da990532896ac1c40191a7a809b4bb
+SHA512: b64a8ae2dce232cc3b2b05b896740c0f18401b65b9573e5c1ee68ca25e5584899e7737c8d19b97fdb00b847ce0cff8006237e555ffcc2f1cf4f29a69ba114274
 Homepage: https://apps.gnome.org/Papers/
 Description: Document (Comic Books, DjVu, PDF) rendering library - GTK widgets
  This package contains libppsview, which provides GTK widgets for displaying
@@ -50901,21 +50900,20 @@ Description: metadata database, indexer and search tool - metadata extractors
 
 Package: loupe
 Architecture: amd64
-Version: 49.2-1+b1
-Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.3-4), rust-glycin (= 3.0.8-1), rust-glycin-common (= 1.0.3-1), rust-glycin-utils (= 4.0.4-2), rust-gufo (= 0.3.0-2), rust-gufo-common (= 1.0.1-2), rust-gufo-exif (= 0.3.1-1), rust-gufo-jpeg (= 0.3.0-3), rust-gufo-png (= 0.3.0-2), rust-gufo-tiff (= 0.3.0-2), rust-gufo-webp (= 0.3.0-2), rust-gufo-xmp (= 0.3.0-2), rust-nix (= 0.30.1-3), rustc (= 1.93.1+dfsg1-2)
-Static-Built-Using: rust-adler (= 1.0.2-3), rust-aho-corasick (= 1.1.4-1), rust-anyhow (= 1.0.102-1), rust-arc-swap (= 1.9.1-1), rust-ashpd (= 0.12.0-4), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.5.0-2), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.11.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.24.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.21.5-1), rust-cairo-sys-rs (= 0.21.5-1), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.44-1), rust-concurrent-queue (= 2.5.0-4), rust-crc32fast (= 1.5.0-2), rust-crossbeam-deque (= 0.8.6-1), rust-crossbeam-epoch (= 0.9.18-1), rust-crossbeam-utils (= 0.8.21-1), rust-dlib (= 0.5.2-2), rust-either (= 1.15.0-1), rust-encoding-rs (= 0.8.35-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 0.1.4-1), rust-env-logger (= 0.11.8-1), rust-equivalent (= 1.0.1-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-form-urlencoded (= 1.2.2-1), rust-futures-channel (= 0.3.32-1), rust-futures-core (= 0.3.32-1), rust-futures-executor (= 0.3.32-1), rust-futures-io (= 0.3.32-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.32-1), rust-futures-timer (= 3.0.3-4), rust-futures-util (= 0.3.32-1), rust-gdk-pixbuf (= 0.21.5-1), rust-gdk-pixbuf-sys (= 0.21.5-1), rust-gdk4 (= 0.10.3-2), rust-gdk4-sys (= 0.10.3-1), rust-gdk4-wayland (= 0.10.3-1), rust-gdk4-wayland-sys (= 0.10.3-1), rust-gdk4-x11 (= 0.10.3-1), rust-gdk4-x11-sys (= 0.10.3-1), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.21.5-2), rust-gio-sys (= 0.21.5-1), rust-glib (= 0.21.5-2), rust-glib-sys (= 0.21.5-3), rust-glycin (= 3.0.8-1), rust-glycin-common (= 1.0.3-1), rust-glycin-utils (= 4.0.4-2), rust-gobject-sys (= 0.22.0+really0.21.5-1), rust-graphene-rs (= 0.21.5-1), rust-graphene-sys (= 0.21.5-1), rust-gsk4 (= 0.10.3-1), rust-gsk4-sys (= 0.10.3-1), rust-gtk4 (= 0.10.3-2), rust-gtk4-sys (= 0.10.3-3), rust-gufo (= 0.3.0-2), rust-gufo-common (= 1.0.1-2), rust-gufo-exif (= 0.3.1-1), rust-gufo-jpeg (= 0.3.0-3), rust-gufo-png (= 0.3.0-2), rust-gufo-tiff (= 0.3.0-2), rust-gufo-webp (= 0.3.0-2), rust-gufo-xmp (= 0.3.0-2), rust-gweather-sys (= 4.6.0-3), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-idna (= 1.1.0-1), rust-idna-adapter (= 1.1.0-1), rust-idna-mapping (= 1.0.0-1), rust-indexmap (= 2.13.0-1), rust-jiff (= 0.2.15-2), rust-lazy-static (= 1.5.0-1), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.8.1-1), rust-libadwaita-sys (= 0.8.1-2), rust-libc (= 0.2.178-2), rust-libgweather (= 4.6.0-3), rust-libloading (= 0.8.5-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.11.0-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.29-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.0-1), rust-memfd (= 0.6.4-2), rust-memmap2 (= 0.9.8-1), rust-memoffset (= 0.8.0-1), rust-miniz-oxide (= 0.7.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.21.5-1), rust-pango-sys (= 0.21.5-1), rust-parking (= 2.2.0-1), rust-percent-encoding (= 2.3.2-2), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.10.0-1), rust-ppv-lite86 (= 0.2.21-2), rust-proc-macro2 (= 1.0.101-1), rust-quote (= 1.0.40-1), rust-rand-0.8 (= 0.8.5+dfsg-3), rust-rand-chacha-0.3 (= 0.3.1-4), rust-rand-core-0.6 (= 0.6.4-5), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.12.3-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.0-1), rust-rustix (= 1.1.3-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.0-1), rust-slab (= 0.4.9-1), rust-smallvec (= 1.15.1-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.26.3-2), rust-syn (= 2.0.105-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.4-1), rust-tinyvec (= 1.10.0-1), rust-tinyvec-macros (= 0.1.0-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-log (= 0.2.0-3), rust-tracing-subscriber (= 0.3.22-3), rust-unicode-bidi (= 0.3.17-1), rust-unicode-ident (= 1.0.13-1), rust-unicode-joining-type (= 1.0.0-1), rust-unicode-normalization (= 0.1.25-1), rust-url (= 2.5.8-1), rust-utf8-iter (= 1.0.4-1), rust-uuid (= 1.21.0-6), rust-winnow (= 0.7.13-1), rust-x11 (= 2.21.0-1), rust-xml-rs (= 0.8.19-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.13.2-1), rust-zbus-names (= 4.3.1-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.9.2-1), rust-zvariant-utils (= 3.3.0-1), rustc (= 1.93.1+dfsg1-2)
+Version: 50.0-2
+Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 3.1.0-2), rust-glycin-common (= 1.0.4-2), rust-glycin-utils (= 4.1.0-2), rust-gufo (= 0.4.1-2), rust-gufo-common (= 1.1.0-2), rust-gufo-exif (= 0.4.0-2), rust-gufo-jpeg (= 0.4.0-2), rust-gufo-png (= 0.4.1-2), rust-gufo-tiff (= 0.4.0-2), rust-gufo-webp (= 0.4.0-2), rust-gufo-xmp (= 0.4.0-2), rust-nix (= 0.30.1-3), rustc (= 1.94.1+dfsg1-1)
+Static-Built-Using: rust-adler (= 1.0.2-3), rust-aho-corasick (= 1.1.4-1), rust-anyhow (= 1.0.102-1), rust-arc-swap (= 1.9.1-1), rust-ashpd (= 0.13.11-2), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.5.0-2), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.11.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.24.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-2), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.44-1), rust-concurrent-queue (= 2.5.0-4), rust-crc32fast (= 1.5.0-2), rust-crossbeam-deque (= 0.8.6-1), rust-crossbeam-epoch (= 0.9.18-1), rust-crossbeam-utils (= 0.8.21-1), rust-dlib (= 0.5.2-2), rust-either (= 1.15.0-1), rust-encoding-rs (= 0.8.35-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 0.1.4-1), rust-env-logger (= 0.11.8-1), rust-equivalent (= 1.0.1-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-futures-channel (= 0.3.32-1), rust-futures-core (= 0.3.32-1), rust-futures-executor (= 0.3.32-1), rust-futures-io (= 0.3.32-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.32-1), rust-futures-timer (= 3.0.4+ds-1), rust-futures-util (= 0.3.32-1), rust-gdk-pixbuf (= 0.22.0-2), rust-gdk-pixbuf-sys (= 0.22.0-2), rust-gdk4 (= 0.11.2-1), rust-gdk4-sys (= 0.11.2-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.6-1), rust-gio-sys (= 0.22.0-3), rust-glib (= 0.22.7-3), rust-glib-sys (= 0.22.6-3), rust-glycin (= 3.1.0-2), rust-glycin-common (= 1.0.4-2), rust-glycin-utils (= 4.1.0-2), rust-gobject-sys (= 0.22.6-2), rust-graphene-rs (= 0.22.0-2), rust-graphene-sys (= 0.22.0-2), rust-gsk4 (= 0.11.1-2), rust-gsk4-sys (= 0.11.1-2), rust-gtk4 (= 0.11.3-3), rust-gtk4-sys (= 0.11.3-1), rust-gufo (= 0.4.1-2), rust-gufo-common (= 1.1.0-2), rust-gufo-exif (= 0.4.0-2), rust-gufo-jpeg (= 0.4.0-2), rust-gufo-png (= 0.4.1-2), rust-gufo-tiff (= 0.4.0-2), rust-gufo-webp (= 0.4.0-2), rust-gufo-xmp (= 0.4.0-2), rust-gweather-sys (= 4.8.0-2), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-indexmap (= 2.14.0-1), rust-jiff (= 0.2.24-1), rust-lazy-static (= 1.5.0-1), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.9.1-2), rust-libadwaita-sys (= 0.9.1-2), rust-libc (= 0.2.186-1), rust-libgweather (= 4.8.0-2), rust-libloading (= 0.8.5-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.11.0-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.29-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.0-1), rust-memfd (= 0.6.4-2), rust-memmap2 (= 0.9.8-1), rust-memoffset (= 0.8.0-1), rust-miniz-oxide (= 0.7.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.22.6-1), rust-pango-sys (= 0.22.0-2), rust-parking (= 2.2.0-1), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-quote (= 1.0.45-1), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.12.3-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.0-1), rust-rustix (= 1.1.3-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.0-1), rust-slab (= 0.4.9-1), rust-smallvec (= 1.15.1-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.26.3-2), rust-syn (= 2.0.117-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.4-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-subscriber (= 0.3.22-3), rust-unicode-ident (= 1.0.13-1), rust-uuid (= 1.23.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-xml-rs (= 0.8.19-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.13.2-1), rust-zbus-names (= 4.3.1-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.9.2-1), rust-zvariant-utils (= 3.3.0-1), rustc (= 1.94.1+dfsg1-1)
 Priority: optional
 Section: gnome
-Source: loupe (49.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 8358
-Depends: libadwaita-1-0 (>= 1.7.0-~~), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-4-1 (>= 4.16), libgweather-4-0t64 (>= 4.0.0), liblcms2-2 (>= 2.12.0), libseccomp2 (>= 2.5.0), dconf-gsettings-backend | gsettings-backend, glycin-loaders (>= 2.0~rc+ds-~~)
-Filename: ./loupe_49.2-1+b1_amd64.deb
-Size: 2213976
-MD5sum: d671e947e27e347b5f6ea7273edbf659
-SHA1: 945437d4da260961b9ea4473c9598c79e9a23ef3
-SHA256: 7ca4b26a1a93c30684d2fad25c80d77c705316a6b260613678c0950b7d997ac8
-SHA512: 81e9544df565f54be9a53df9d983e28aa5dd732b839841ffc18fc01a1cfd2ecb5ce7648b32d6d3ebc4e88b6babf91b7f9a87d5bb9aaabaac16ec1f72c6705ed8
+Installed-Size: 8100
+Depends: libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-4-1 (>= 4.16), libgweather-4-0t64 (>= 4.0.0), liblcms2-2 (>= 2.12.0), libseccomp2 (>= 2.5.0), dconf-gsettings-backend | gsettings-backend, glycin-loaders (>= 2.0~rc+ds-~~)
+Filename: ./loupe_50.0-2_amd64.deb
+Size: 2114328
+MD5sum: 94479b23e2961e49fd87934323bdbddd
+SHA1: 66b2fd3df23c327ab986954a1eb07800ea8941e0
+SHA256: 3c01c848c1d2107fdd0e952d786da14a8b67c07a2aadf31d7d9390ac1e8ac5bd
+SHA512: 8f50575dae574efe214a3ba38bfdf503a3bfdd818b71455e1fb7f1b81450d8fe40b78788ae3c32771e036001badbed26f2d66fe86df8629472b3431acf793cc6
 Homepage: https://apps.gnome.org/Loupe/
 Description: Image viewer for GNOME
  Loupe is a simple image viewer for the GNOME desktop.
@@ -55183,19 +55181,19 @@ Description: Development utilities for Pango
 
 Package: papers-common
 Architecture: all
-Version: 49.3-2
+Version: 49.3-3
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: papers
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 10894
-Filename: ./papers-common_49.3-2_all.deb
-Size: 1445896
-MD5sum: 59ebe3b9fe7710fbe60e7e7165d2e330
-SHA1: 0d087eabb3ef5a10b9bcfe26034a379828206cdf
-SHA256: 6bb84fafd5095c5da746a64999d0d66b80bcef5aa717fc4d46e231a0a4b13dc1
-SHA512: ef416feeb4546276b3b907f1c26169e2448ce1f0a7c17369404b58b664da748f394c7bfb49cea55ca24bde05f9d6d22154eddfe8a45b4adf6a77274f08606c4b
+Filename: ./papers-common_49.3-3_all.deb
+Size: 1446292
+MD5sum: 9aeb886e2362af1922fa4c80322366a5
+SHA1: e28a0a56b6f47671d4aee4f761843719db37a0d1
+SHA256: 156205658ba8a9a4422b6eb090bbd7ad814943c03503306cc7b0585ae2f543ae
+SHA512: 9624712419b7a907c339e6628bf86b82f6494a02ac1cd7ff66baa07b05630ad04c1333e8fe96c0688d7124331cd00e35c583ee428037d02850382f18c0c4fb39
 Homepage: https://apps.gnome.org/Papers/
 Description: PDF document viewer for GNOME - common files
  Papers is a simple multi-page document viewer. It can display and print
@@ -55208,21 +55206,21 @@ Description: PDF document viewer for GNOME - common files
 
 Package: papers
 Architecture: amd64
-Version: 49.3-2
+Version: 49.3-3
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 8183
+Installed-Size: 7911
 Provides: djvu-viewer, pdf-viewer
-Depends: gsettings-desktop-schemas, libppsdocument-4.0-6 (= 49.3-2), libppsview-4.0-5 (= 49.3-2), papers-common (>= 49.3-2), shared-mime-info, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.39), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.40), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libnautilus-extension4 (>= 43), libpango-1.0-0 (>= 1.50.3)
+Depends: gsettings-desktop-schemas, libppsdocument-4.0-6 (= 49.3-3), libppsview-4.0-5 (= 49.3-3), papers-common (>= 49.3-3), shared-mime-info, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.39), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libnautilus-extension4 (>= 43~beta), libpango-1.0-0 (>= 1.50.3)
 Suggests: gvfs, nautilus-sendto, poppler-data, unrar
 Enhances: nautilus
-Filename: ./papers_49.3-2_amd64.deb
-Size: 1902716
-MD5sum: 17b8ac0ee7488efd05754873958274d0
-SHA1: 88f199b99f81c9e9132a7a5b1c622772dd979bee
-SHA256: 020d2e7506dd670563a86d4e9dcd5af3b8ab28ab95c28fa78cad8dff35d7b701
-SHA512: 3d516f25c21910b9c29d7f4343f8e2d6fa51c3c52e5f9a4bd58038ad102133389399786a78e49c2e8e54c87d9bae246e28d9625fe1782b56fa9b0b70ebd628b9
+Filename: ./papers_49.3-3_amd64.deb
+Size: 1866192
+MD5sum: e4210584f31bc86d2cae232e7400bcc1
+SHA1: 15cd5519d2d674bed0c5bb64c4694543648787e0
+SHA256: 1559c3c46d2918fa94b6844fa6838eaed8ca520b1b2adeca7725df8848289d17
+SHA512: 34695a4a6532d1dce2fd80adca36cd76e2eea4ab0f2afa7ac8f40cb7f723874733a4217d8c32f84eddd6cbab7b43d5254c8c5320b417cad820c2665ff627f420
 Homepage: https://apps.gnome.org/Papers/
 Description: PDF document viewer for GNOME
  Papers is a simple multi-page document viewer. It can display and print
