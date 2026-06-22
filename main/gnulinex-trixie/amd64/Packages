@@ -96,24 +96,22 @@ Description: Advanced Configuration and Power Interface event daemon
 
 Package: adwaita-icon-theme
 Architecture: all
-Version: 50.0-1
+Version: 50.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 13488
-Provides: adwaita-icon-theme-full (= 50.0-1), gnome-icon-theme-symbolic
+Provides: adwaita-icon-theme-full (= 50.0-2), gnome-icon-theme-symbolic
 Depends: gtk-update-icon-cache, hicolor-icon-theme
 Recommends: librsvg2-common
 Suggests: adwaita-icon-theme-legacy
-Breaks: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~), libmutter-12-0 (<< 44.8-3~), libmutter-13-0 (<< 45.3-3~)
-Replaces: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~)
-Filename: ./adwaita-icon-theme_50.0-1_all.deb
-Size: 505596
-MD5sum: e79790e36079096c75dd94ae0aa771b6
-SHA1: 9f68382c2c12c4118c33c39d0bf2e76afbe6e112
-SHA256: f58ccc471a6831c1514a14670b1c5d0f946cf59e50092f9ab5d1d4cb8c37a1b2
-SHA512: aa0b701cb5d6f2de36810f15895c3c4df0dfab1191b573f539b7ffc84c9c647cbf38dd628bcfdb4cdfe4fc23570d4db7b560371d84ebeaade6c5b2bd6daf71ce
+Filename: ./adwaita-icon-theme_50.0-2_all.deb
+Size: 506000
+MD5sum: 6b33dfa313c581b1041d1e1ab2fe7e5c
+SHA1: 06f5045f13e8a1a21fc4b58644099179807f2e8e
+SHA256: 7f34412fbc4e44fcf1aac58509e470371be947ef38984ec375fae2b704fb41ec
+SHA512: 5a80c11be2a5f156f4bd74ef0f4ea99d4d586106e8558fa8093470bb1cf332e21f51cac453b1767daf0ab283d1d5b66c1fcca3085610a3d959405ff953b9a13d
 Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
 Description: default icon theme of GNOME
  This package contains the default icon theme used by the GNOME desktop.
@@ -3380,21 +3378,21 @@ Description: Firebird command line utilities
 
 Package: firefox-esr
 Architecture: amd64
-Version: 140.11.0esr-1
+Version: 140.12.0esr-1
 Priority: optional
 Section: web
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 266067
+Installed-Size: 265874
 Provides: gnome-www-browser, www-browser
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
-Filename: ./firefox-esr_140.11.0esr-1_amd64.deb
-Size: 71146648
-MD5sum: ae3b7f8f43dcdfc93e176139a562cf1e
-SHA1: ef33312afef15001e967fa13386e8fab53043847
-SHA256: 6a68f3d0a312c78c26124ad012b27beffeaaafc83cccaa7b55d211e5149db7da
-SHA512: 735a9594e2ed2132bf856a94d8f2f10e4fe0dba9398095b089a66b23f7268b85e0eb62a43cb149c41de9fa9e9fee23d3a28170668971ab71acd47c15aa2e8d41
+Filename: ./firefox-esr_140.12.0esr-1_amd64.deb
+Size: 71121140
+MD5sum: 7f6ab814e1bdb7c362374ae31c445bae
+SHA1: d5510e9938854dcc27a3e6705778b34065373de5
+SHA256: f899191e79575d0d338e2e758871c4857e194a3284c1695f6120107c0058359d
+SHA512: 7f4313e18ff08511e7ac2475a50d9947fee37e2979cf30816d2b5b3b40e7b11f57f2796691254bd7e6fb8b46b7c25bf49404b87009d53423c8403f3610c841e0
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -8747,19 +8745,19 @@ Description: sends desktop notifications to a notification daemon (Introspection
 
 Package: gir1.2-packagekitglib-1.0
 Architecture: amd64
-Version: 1.3.5-1
+Version: 1.3.6-1
 Priority: optional
 Section: introspection
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 110
+Installed-Size: 111
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 1.36), gir1.2-gobject-2.0, libpackagekit-glib2-18 (>= 1.2.7)
-Filename: ./gir1.2-packagekitglib-1.0_1.3.5-1_amd64.deb
-Size: 24308
-MD5sum: bf80f38d2ca6bf4f97b3da821694ba6d
-SHA1: 74dab66d403bc9600844e4d71322ce082748cc74
-SHA256: 2f79ba8c5a6ab8483c84c638e699ab60b4c827f580647f755cdeaf88a1c39927
-SHA512: d94e32c5aa4a0e479219282ccbbb6ce3dfc5e5e4edfee188b7b9621767f349defb0020790c9fd76800b566799ceebc740225e3360a00d2dfa861f398cf85e5cb
+Filename: ./gir1.2-packagekitglib-1.0_1.3.6-1_amd64.deb
+Size: 24448
+MD5sum: d7d40daf9ccb2ff4519b4c139b13eb14
+SHA1: 5d4f8ae1509c4cc9053e851aedd4af0506ab6caf
+SHA256: eafef4b9e8f937992a80eef562596906b1ed0b5647b09b17d82735e7763d5a42
+SHA512: a12bbcc933491afc70cf061fae17d1a0497366d9eec71c4e7cd719c586f7b39cb585c63f809f973c23891fa468ef1627faffb065f0cbb0211234837636daef8a
 Homepage: https://www.freedesktop.org/software/PackageKit/
 Description: GObject introspection data for the PackageKit GLib library
  PackageKit allows performing simple software management tasks over a DBus
@@ -12024,22 +12022,22 @@ Description: complex camera support library (GStreamer plugin)
 
 Package: gstreamer1.0-packagekit
 Architecture: amd64
-Version: 1.3.5-1
+Version: 1.3.6-1
 Priority: optional
 Section: libs
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 41
-Depends: packagekit (= 1.3.5-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 0.9.4)
+Depends: packagekit (= 1.3.6-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 0.9.4)
 Recommends: gnome-software | apper | packagekit-installer
 Conflicts: gstreamer0.10-packagekit
 Replaces: gstreamer0.10-packagekit
-Filename: ./gstreamer1.0-packagekit_1.3.5-1_amd64.deb
-Size: 10752
-MD5sum: bf65f4132fe864a1e0de028c3656dc7c
-SHA1: a8cbdb5443ddccab829128da9b4fb33e9eb3cfeb
-SHA256: 561f7fd21cf8d571505d503347a5770c750373499936613cc34c8ee74dd80474
-SHA512: ce79978c087d817e25dbf461ac8db94916c04e4eb98d254eee3b067daa2ceefab75cf524bf838e8fb501c0ee6083cab6a4b9ca3ae6a52b8142cc74d27144460f
+Filename: ./gstreamer1.0-packagekit_1.3.6-1_amd64.deb
+Size: 10784
+MD5sum: 75fb5c4a28b8c8ac7a420db5f6d2047e
+SHA1: 20b2091b0cc4b1dcad3c1f49e7670d71164f3698
+SHA256: 6039619bdc0c17844152ebc6f74b4cd650d0d52d5a40fb651fd73d7efc210ea4
+SHA512: 472bd003040155d0cd4f73da403f639ede92891e34844e6f343075aed77efed208773a1db566339b07024e350f8029d5aa20ebb4f33bcc94ba504ca33dd385ca
 Homepage: https://www.freedesktop.org/software/PackageKit/
 Description: GStreamer plugin to install codecs using PackageKit
  PackageKit allows performing simple software management tasks over a DBus
@@ -14773,20 +14771,19 @@ Description: KDE window manager, X11 version
 
 Package: labwc
 Architecture: amd64
-Version: 0.9.7-1
+Version: 0.20.1-1
 Priority: optional
 Section: x11
 Maintainer: Lab Wayland Compositor Team <team+labwc@tracker.debian.org>
-Installed-Size: 869
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.28.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.19.6), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libsfdo0 (>= 0.1.4), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-server0 (>= 1.23.0), libwlroots-0.19 (>= 0.19.0~), libxcb-ewmh2 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.0.0), libxml2-16 (>= 2.14.1)
-Recommends: xwayland
-Suggests: foot | alacritty | x-terminal-emulator, kanshi, mako-notifier, swaybg, swayidle, waybar
-Filename: ./labwc_0.9.7-1_amd64.deb
-Size: 315976
-MD5sum: 7c6dde4f361554822657f055418af7fe
-SHA1: f02ac75763892e400ecc1ee84189faeb5fcd433b
-SHA256: 39cb6af1850a0e7a8007fd7b19cd9fec03d5d5272394d1407ea86725f246b84e
-SHA512: 883a843683e0f5b1a3eb58e363198d632c195bb9f8673aceec92a4ab704ccf1c771481a85771e1ac4d11048bc9b65e8cb841c55e9a9188c281b5cda0b9fc054a
+Installed-Size: 865
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.68.0+git20210214), libinput10 (>= 1.28.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.19.6), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libsfdo0 (>= 0.1.4), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-server0 (>= 1.23.0), libwlroots-0.20 (>= 0.20.0~), libxcb-ewmh2 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.0.0), libxml2-16 (>= 2.14.1)
+Suggests: foot | alacritty | x-terminal-emulator, kanshi, mako-notifier, swaybg, swayidle, waybar, xwayland
+Filename: ./labwc_0.20.1-1_amd64.deb
+Size: 318388
+MD5sum: 0b87e147554f17f467923d9641885b5e
+SHA1: e9cadb045724b3f5b73d48a07c301d60ee0741a0
+SHA256: 104ab64ae76c03ed64bc1b30f866f24e9d49221220244fb96f804c8da84a2809
+SHA512: 3e54d5085de67af34bf3a1804f08cfb69126b8ee62343dae3caced55fdc40583270695cebdfb3498ac9990a87fcc4ed18f4829f7477cc0c1314d29d9202b6529
 Homepage: https://labwc.github.io/
 Description: window-stacking Wayland compositor
  Labwc is a wlroots-based window-stacking compositor for wayland, inspired by
@@ -15797,20 +15794,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libavcodec-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 26912
-Depends: libavcodec62 (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4)
-Filename: ./libavcodec-dev_7%3a8.1.1-4_amd64.deb
-Size: 7344992
-MD5sum: 5f5ed20aa6e57dacd6c85a42a3f17e10
-SHA1: f3d1a21c14fc3ce1a8945c8ae6e3b63977faf13f
-SHA256: ddabfedcbc5a3c2440595c6c21e5f48e4ff85dcffa7b0257ad8fe06032f76326
-SHA512: 624b747a775b12aa0d478a56967b3a62b5166eb482fc428301ef1fa6a64c03c284de4bd96c6a4f210ec18f25dd172aab78b4c8405378cbccd4e95f8434cf0ff5
+Installed-Size: 26901
+Depends: libavcodec62 (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1)
+Filename: ./libavcodec-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 7350152
+MD5sum: ace9361929bdad641ca9612ce1d7d7ee
+SHA1: 22bf99097b059abd448058e51237c986c55174c6
+SHA256: a18a2fc94fbca04a1f7fdd1e9f7cfc3705c74e0bc10b463974b4f9bd99a54a9b
+SHA512: 119cfe06035c9c0943548e9ae86929223f59df92a13af8157d597255564a586cb672820737c5f22175554f7fc54fe6b05d040c987ee6b9dc44d6cd12a430f025
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15830,21 +15827,21 @@ Description: FFmpeg library with de/encoders for audio/video codecs - developmen
 
 Package: libavcodec62
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19231
-Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-4), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 19220
+Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-4+b1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: ./libavcodec62_7%3a8.1.1-4_amd64.deb
-Size: 6647452
-MD5sum: ed944952b60b22e79a476437e5ceec9a
-SHA1: 2fe01dcae63fd70af9931f78197b226538341c88
-SHA256: c83ddb1866bb70a7f8d862e9535b440c0977e4e8a22e85875c6bb32cd9208003
-SHA512: 00d6cf428039da067efee1f1240724f39d495dabb505c131132546e50336784a89165aaef6131e306017c5eccc6db4595e1132ea8f0f06b02ce20a3245419934
+Filename: ./libavcodec62_7%3a8.1.1-4+b1_amd64.deb
+Size: 6643712
+MD5sum: d7d3a42728cde53b62208b1a3de874c8
+SHA1: f8e6ba1755bd69306bd06ff3f5fbbf90e4f26bb6
+SHA256: 0d68a7a3ec028f6c2079582e1bb87da3450f4c996bad5ab593b21b3c1e239950
+SHA512: 4d5ed16bbe06408879955da948733c0a82ca878ed9a60c77bc9960e9e4770f732c012a9b64ec2493739848b2dec3682e34a454a1cb3e899088a296d146762895
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15864,20 +15861,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavfilter-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10418
-Depends: libavcodec-dev (= 7:8.1.1-4), libavfilter11 (= 7:8.1.1-4), libavformat-dev (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4), libswscale-dev (= 7:8.1.1-4)
-Filename: ./libavfilter-dev_7%3a8.1.1-4_amd64.deb
-Size: 2461932
-MD5sum: 73bf1f26ad08b273027cad7cdf5ef218
-SHA1: a1a63a45e087fef3e2c767593ca2dca69e5f083d
-SHA256: 2d5a02084a9da6d4758596685afcee70d105db416445a724cfd82dc458be1ec5
-SHA512: 2248f4e3ca936457c032d7529ee43dafd2e7aae65e2f2f45a4c9013ba582224511f7800304ed442434830f35fc9bcfb4bed47ea4890cf9c5b6baa34ac4abc19b
+Installed-Size: 10400
+Depends: libavcodec-dev (= 7:8.1.1-4+b1), libavfilter11 (= 7:8.1.1-4+b1), libavformat-dev (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1), libswscale-dev (= 7:8.1.1-4+b1)
+Filename: ./libavfilter-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 2455652
+MD5sum: 45122dd3e078c129eb2e2e922e19e648
+SHA1: 9f8e8fcbddc1af3f26f2cc1e2e0c71d3a82bdc13
+SHA256: 2d6f3bcfff2b611d6b603056f32fd67133311fc5d7dd5b9c16e80e65d8d5056e
+SHA512: 36140e01c734d0cc7daa9fb47c8e2148131e956e90a0a3943890ae6bf9cb457903245fe7b396e2a83152f4758508cb3206218338e732813184c806c4695ff2e1
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15892,21 +15889,21 @@ Description: FFmpeg library containing media filters - development files
 
 Package: libavfilter11
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15561
-Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-4), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-4), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.1, libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Installed-Size: 15542
+Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-4+b1), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-4+b1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.2 (>= 1.1.1), libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Suggests: frei0r-plugins
-Filename: ./libavfilter11_7%3a8.1.1-4_amd64.deb
-Size: 4596572
-MD5sum: 6a6cc979a0c47ed1cce54d3f17a23a74
-SHA1: 50effe37e515b7ca65f3ef2712721607b2ff7d45
-SHA256: 5a58d95f21327701e6a479006b72ef642b4f104ae9498b489ae34563e392f912
-SHA512: e19a724cba8f1b853602ad45ccfab640bca661bc1bd9a59363f8126ab438fac87ce1b2e6a15c3e57cfb81c5be09282a27e9c0e0ab3ad9289bac430e696f081a0
+Filename: ./libavfilter11_7%3a8.1.1-4+b1_amd64.deb
+Size: 4589764
+MD5sum: 72348a0b9b796efbeee7647fc6e03657
+SHA1: 859f7981fab4d9b370763f7ad006a0f4419ac067
+SHA256: 59baec82b2c9fd27b008cdea01b9899ef88114e68cd17003602b3ae3c97bb053
+SHA512: 3907f0a5bfca990969f3af671debbae5648599d39b3819fb943851cb97116510db7ca12e13f66a2a610bbdf9ca26462828c551f58480bf1ac4bbe4f8424f1381
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15921,20 +15918,20 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavformat-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 6299
-Depends: libavcodec-dev (= 7:8.1.1-4), libavformat62 (= 7:8.1.1-4), libavutil-dev (= 7:8.1.1-4), libswresample-dev (= 7:8.1.1-4)
-Filename: ./libavformat-dev_7%3a8.1.1-4_amd64.deb
-Size: 1489724
-MD5sum: 78703da3724de4a2e9ddf52e84b36f68
-SHA1: 956e2fb6345823d0197617b53a19e95d56117a75
-SHA256: 037ed05f4815acc1e9e01bee1f2214509019f5c5e7c60bb7e4620c9d42dca6d5
-SHA512: 425781118f897e8f185a464a4231e93bcae5e418002628e74159dbdb5376898bd42fae137b2532f829d84e94592b3a392b0ee511051422ab50c9711bd1312a14
+Depends: libavcodec-dev (= 7:8.1.1-4+b1), libavformat62 (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1)
+Filename: ./libavformat-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 1489560
+MD5sum: e384594c772074603767564f1cbd17ee
+SHA1: 60cad525cbbbeb081a61f1a0faffbd3da0e9c957
+SHA256: 41ddda3f3a3b8fdafb08594b775a2162cfe60d2f668a2456a44dd45fd4c84cd6
+SHA512: 2b42365ebb8f3bf090484d29bb5c3ebc04c60c764d9bf4c651a83a83818018e03877ed767ca545883686510f66aa51e3a3ba7220ef83a018388290dca7f67d80
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15951,20 +15948,20 @@ Description: FFmpeg library with (de)muxers for multimedia containers - developm
 
 Package: libavformat62
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3238
-Depends: libavcodec62 (= 7:8.1.1-4), libavutil60 (= 7:8.1.1-4), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: ./libavformat62_7%3a8.1.1-4_amd64.deb
-Size: 1270132
-MD5sum: 176dd5b4bdba8be6ec23aba19c655e19
-SHA1: 25aae1e2abe1d52c2bca8642bd51409fb5aff5a5
-SHA256: db07f8e786c480cf58879503256a0710fc79565dcd4705e4ece379b08e7538e7
-SHA512: b74fb98cfe8e5e26e4d2e3e4522f1e40da654a925bfae1f584c0748d4c83baeb8d8358fa7af5559fd9c598514a9b7006cd1199814d67e7bd2a386d3ff69629e7
+Installed-Size: 3239
+Depends: libavcodec62 (= 7:8.1.1-4+b1), libavutil60 (= 7:8.1.1-4+b1), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: ./libavformat62_7%3a8.1.1-4+b1_amd64.deb
+Size: 1270956
+MD5sum: c828f11bb196dcc2b84a4d8d85992470
+SHA1: c7c390b048266e3a19621d3e607ee6eb683e5c3b
+SHA256: 824cd7882d6c8001072916ef4d56be9794f1296b0d0a368aa24c32214d615d1d
+SHA512: 3edd0a347f27ef1eb4b2e4070968aea8d417d05b7d0c45ae4ba01add27e83833daf6486ed6617bc81fc7f7895cf8958fe24af6fa3fa6a360076d592ac7914deb
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16004,20 +16001,20 @@ Description: Library for handling .avif files
 
 Package: libavutil-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2658
-Depends: libavutil60 (= 7:8.1.1-4)
-Filename: ./libavutil-dev_7%3a8.1.1-4_amd64.deb
-Size: 607244
-MD5sum: a9d3bc58f06102ab95b45b9a9c72b1de
-SHA1: f2ca82c48f897f25a1b234aca252e6dedbe73324
-SHA256: a23eefaa049e7817c1ddf2215cc813850686fc5e6c55d00fcbf8f8dd44c9e3de
-SHA512: 2110556c9fb3401fb50cc7393c63281fa85493698e6ca7dcbf4f57117538c8e3a4ff20e1a560655436d291bca21d1c04f0fbebde3cc1992690184d88a4e58ccf
+Installed-Size: 2659
+Depends: libavutil60 (= 7:8.1.1-4+b1)
+Filename: ./libavutil-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 607604
+MD5sum: 123ac161afad7bfca8118225ee707bd6
+SHA1: fa7067712bb59369a9789da395cd06aae0a3ae7a
+SHA256: 0d5045bf5a96d34b80439eff1f1f7f032e2246116d0be6556cde626e33b30ee0
+SHA512: 6264622fa0362878574084b5f9ac76b912481ae57b84bba5c6234643f66da1196eeb7a5fea5aa403247948751e5565d64f93e982abb0259b6bd689fc664d0e72
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16036,20 +16033,20 @@ Description: FFmpeg library with functions for simplifying programming - develop
 
 Package: libavutil60
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1292
+Installed-Size: 1293
 Depends: libc6 (>= 2.35), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libvpl2 (>= 1:2.16.0), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: ./libavutil60_7%3a8.1.1-4_amd64.deb
-Size: 441376
-MD5sum: 72c62ba8a3e203dc07a78c8b49d0ae3e
-SHA1: 0bdcf650baba1bbe90620774060f6ff245c82542
-SHA256: 7d1450226db6b78cdeb48ac597cf2181e6e49990a5b7626a2deae42b6594d6bb
-SHA512: 8a8d2ae58b60874433832ebf0e694ef5c700dea290c5a663919e79a1925000850e29c40299b5f859e7380bc829a9d4c4d8373045737a60c48df479ed3814dcb1
+Filename: ./libavutil60_7%3a8.1.1-4+b1_amd64.deb
+Size: 441592
+MD5sum: 7507a6dd387d6da13abe1e46f63272ec
+SHA1: 13fb9e53deb21f4d2194d2a95110687628cbc08e
+SHA256: fd566b68d99fd23154e0cff7fda3326a329019034057000c01c255acdfadd42e
+SHA512: b6601882acb0ca01532cc659e89c34afb00e1a94dd0306575b6f189fc013b15a9548d230d258edb7c9041fb4f760fed2881d0cd84dd106b7ab8cccae796b3616
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -19175,7 +19172,7 @@ Description: EFL freedesktop.org spec implementations
 
 Package: libegl1-mesa-dev
 Architecture: amd64
-Version: 26.0.8-1
+Version: 26.1.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -19183,12 +19180,12 @@ Source: mesa
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
 Depends: libegl-dev, libglvnd-dev
-Filename: ./libegl1-mesa-dev_26.0.8-1_amd64.deb
-Size: 19324
-MD5sum: 9164fd40e02cac651163a1e6f49d36c0
-SHA1: 51e06d6876379d8c97bb9ecbe3aa2c2f41571bb2
-SHA256: 7057e81291a9022ff1988c9f354e2b303a5e95cfb56b2e9e1c4d85da27e441c0
-SHA512: 748773c74406a8d6d35a44c068b718e2c4dcdd2f8e82993f1aefa7af69670fc726e33743f1191b12343bf876292b01c95bdd18eb53eb11763e841aec1f298409
+Filename: ./libegl1-mesa-dev_26.1.2-1_amd64.deb
+Size: 19412
+MD5sum: ff92a27064ce9025054bd975ae515d36
+SHA1: 4112e1b451d98165a415bffb9a77fd3571aa0312
+SHA256: 7b521cea40496f1d74fd8949ae05d46107656f0dab2df477f67f2c158879532b
+SHA512: 43551a582427175983f40ab933c08cb95d5bd84a589e750f93e5947f900b853e564f048c10af23c5bd589435deff3f217dd6f50cdd2b76c1995a4e5fc88987ac
 Homepage: https://mesa3d.org/
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
@@ -34743,20 +34740,20 @@ Description: Off-the-Record Messaging library
 
 Package: libpackagekit-glib2-18
 Architecture: amd64
-Version: 1.3.5-1
+Version: 1.3.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 455
+Installed-Size: 459
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0)
-Filename: ./libpackagekit-glib2-18_1.3.5-1_amd64.deb
-Size: 114356
-MD5sum: 99a681f7826a876cb462b41eaacb9ca7
-SHA1: e84abe01596f14cc4851b7b971d50413b5431ccc
-SHA256: 8912918071ad2130186dc642882240ac5b59cf5c64da9bd1fa86661ee8cb3514
-SHA512: 6e849b3312504a4e723df6f8c34f3ff5be507f5d2ff9c60f911a5913224a7f07238f3fed6d1612037de7be26c27e5f3375bb13c7692babda01a4a4bb4719ebc0
+Filename: ./libpackagekit-glib2-18_1.3.6-1_amd64.deb
+Size: 115028
+MD5sum: ae63fe525b43f3d27ca042e72c69b0a2
+SHA1: 3870c05da355a35df97a29b7bcebb3d3d54473ee
+SHA256: d83ce8cace13ced4cd4293cfeada8b7fb4b6159f6f1035607f360f7e80d5e04d
+SHA512: d9dfd6368d9a979d945e0d52e10ff89e94e017a7e4564bea956160744f453288ac26434c40ea326cbc442ac920bfe6067f1f81a647494d70b23e1d2361ba3946
 Homepage: https://www.freedesktop.org/software/PackageKit/
 Description: Library for accessing PackageKit using GLib
  PackageKit allows performing simple software management tasks over a DBus
@@ -45233,21 +45230,21 @@ Description: Libraries necessary to run Ruby
 
 Package: librygel-core-2.8-0
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 377
+Installed-Size: 375
 Depends: libc6 (>= 2.38), libgee-0.8-2 (>= 0.10.1), libglib2.0-0t64 (>= 2.80.0), libgssdp-1.6-0 (>= 1.1.3), libgupnp-1.6-0 (>= 1.6.0), libxml2-16 (>= 2.14.1)
-Filename: ./librygel-core-2.8-0_45.1-3_amd64.deb
-Size: 108044
-MD5sum: 35643756dc4bc6b6536f42b8fecd39d4
-SHA1: 99552119ef161cfd80da3e1cf27bba5c88410b85
-SHA256: e3050d2eda84f2760c68dcf7c47794abe38f5b48c6c1e88b8e276e19c7545dc1
-SHA512: df81d63b67716939deb85f47e2aab5e83b81c3e2c8b0e42b32b3a029a218e58b96aba7461b41424f410a9b262b1e277305f562db6b1691c516663a557ec67952
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Filename: ./librygel-core-2.8-0_45.2-1_amd64.deb
+Size: 106256
+MD5sum: 463af4072d00e6c5483eacf14828a7e2
+SHA1: c91b7ab5b17ecb908dbb09362b930495af4006d0
+SHA256: 87e358c70eb5882b84d54df02d03ed3ad580a7f3da21cd9d5aa627e559d3ba6f
+SHA512: cde1eff053068cfa67375b36f7d3e0e86c1cd933bca15ace0f91681c4c6b382219cf323d5eedac1886a596448f6f3f97a7af2fc7e4817a11bcfe93e2f34004c0
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - core library
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -45260,21 +45257,21 @@ Description: GNOME UPnP/DLNA services - core library
 
 Package: librygel-db-2.8-0
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 88
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), librygel-core-2.8-0 (>= 45.1), libsqlite3-0 (>= 3.5.9), libunistring5 (>= 1.1)
-Filename: ./librygel-db-2.8-0_45.1-3_amd64.deb
-Size: 25112
-MD5sum: 7d0d767ec3d45e626e81358db45c8cff
-SHA1: a961327c9359b1e0986d95d7db28061887a1bc70
-SHA256: 4b94ad0d11b90599259c12e1b2f5a68207aabf4bf649e381988f9ceef476da9e
-SHA512: b9fda4b1d971e57ab3917b95358de546a45de2e753ba8033ceb575a2af9652291e689e4cd15c89f3708866844ef1efff7f1b386b17037323052840357c416a1e
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Installed-Size: 86
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), librygel-core-2.8-0 (>= 45.2), libsqlite3-0 (>= 3.5.9), libunistring5 (>= 1.1)
+Filename: ./librygel-db-2.8-0_45.2-1_amd64.deb
+Size: 23424
+MD5sum: b8115ea26f47c9765d3e93279bad8cb4
+SHA1: a9b123ad672677b9a0664f84c8ff769e342e5f85
+SHA256: 26f58ad612ac657012ab00f5c6ee184aeaa574c32c07be51416db58e023b3f20
+SHA512: af215c3757abf46c11c2a7518193e5e60127c256a06c8eea5d227a07e550fcfd025d878f88c4c4f94caa2c07451762089953c0fc2f6eb30dfa26d9b8b5687a80
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - db library
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -45288,21 +45285,21 @@ Description: GNOME UPnP/DLNA services - db library
 
 Package: librygel-renderer-2.8-0
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 176
-Depends: libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.44.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.11.5), librygel-core-2.8-0 (>= 45.1), libsoup-3.0-0 (>= 3.0.3)
-Filename: ./librygel-renderer-2.8-0_45.1-3_amd64.deb
-Size: 51644
-MD5sum: 9e817b4e9bbb544e31fcb0591dcd8d0f
-SHA1: 446dc8de90ecfbe6e6b5595995c82f04ea8673d9
-SHA256: 28459f8211b88e0fb7bab974b51c74ba2354ec5e61c6de4c77acef262b05e490
-SHA512: 2e35ccf554a939eb94f5985d6ccf3406d573b81b50b1a649cc4a6a185991ac9898e39c8fbe86f01c456743bfc50a650012f6efe9f9cf27a0b7979ebddfd20c80
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Installed-Size: 174
+Depends: libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.44.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.11.5), librygel-core-2.8-0 (>= 45.2), libsoup-3.0-0 (>= 3.0.3)
+Filename: ./librygel-renderer-2.8-0_45.2-1_amd64.deb
+Size: 49896
+MD5sum: 26256ee60fb16b44f99dae78224e7889
+SHA1: 77bec5ad9f95399cc702fdf8588693f93ca5d533
+SHA256: 15b9deff0f37ca1dabdf75167a30921fc658565696084de370d4a53f6724cce1
+SHA512: c1bb854257a534c251de134b78a505fa957c9b3bd3d641288a5f4d60d36386feef7fba136a7a74c26bac3aaebefd4552539a4b94ee9da947ef3facafb1e1b57e
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - renderer library
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -45316,21 +45313,21 @@ Description: GNOME UPnP/DLNA services - renderer library
 
 Package: librygel-renderer-gst-2.8-0
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 89
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgupnp-av-1.0-3 (>= 0.6.0), librygel-core-2.8-0 (>= 45.1), librygel-renderer-2.8-0 (>= 45.1)
-Filename: ./librygel-renderer-gst-2.8-0_45.1-3_amd64.deb
-Size: 25076
-MD5sum: cd785d656f0560817ec15f40650f8b31
-SHA1: c8c739b6f5d321084db86377e3afa883b93cea91
-SHA256: a8e11ab70f040a580eef49ce53e3da3842ca79cb08a4d5d3e28e93d2b5e9c3a2
-SHA512: ae41722a27b373fc543e302ed73c24e68837ae159abb9ea3305437a626b5ea285ca233ddaed7dc281af02cc9db1fa28b5d121e412e290fda268b91e25e111714
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Installed-Size: 87
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgupnp-av-1.0-3 (>= 0.6.0), librygel-core-2.8-0 (>= 45.2), librygel-renderer-2.8-0 (>= 45.2)
+Filename: ./librygel-renderer-gst-2.8-0_45.2-1_amd64.deb
+Size: 23452
+MD5sum: 453e9f72a85ef089f34a2f224a7a58ff
+SHA1: 858b0feff6a18fb5065e09839d3a19dfa13dbaf7
+SHA256: cd3f7af9ee11dd089165f4ca0a810a199eef36e5f6c5a3b64b4528cc4b880302
+SHA512: c89f31d2e9f58b82d0112f7b7c054ff7c541af386ccc541ad7c963c84b563a3ea9950e851ec417b75abfc7bba7a4cfcf7fce17a3e2676de2be3addb8c3ac2b0f
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - renderer library
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -45345,21 +45342,21 @@ Description: GNOME UPnP/DLNA services - renderer library
 
 Package: librygel-server-2.8-0
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 724
-Depends: libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), libgssdp-1.6-0 (>= 1.6.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.14.1), libmediaart-2.0-0 (>= 1.9.0), librygel-core-2.8-0 (>= 45.1), libsoup-3.0-0 (>= 3.1.3), libxml2-16 (>= 2.14.1)
-Filename: ./librygel-server-2.8-0_45.1-3_amd64.deb
-Size: 205596
-MD5sum: 19333455b88e3ff416ec65e4586eec42
-SHA1: 08163b437f3da36c1acce9a61b781bc64d7d4396
-SHA256: f503c5bcb5946143c770d28d068941d90aed589abe690219b909fd54638b7a0c
-SHA512: 12b7932c925fee8181bcb70f3f3190aac8d1f2e8df4a422b9f2d9a4e7d26550effeabf58aa0650acd488953a3e16225a2e467991faf56fa69da5901b2d446bef
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Installed-Size: 722
+Depends: libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), libgssdp-1.6-0 (>= 1.6.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.14.1), libmediaart-2.0-0 (>= 1.9.0), librygel-core-2.8-0 (>= 45.2), libsoup-3.0-0 (>= 3.1.3), libxml2-16 (>= 2.14.1)
+Filename: ./librygel-server-2.8-0_45.2-1_amd64.deb
+Size: 204064
+MD5sum: af42fc3564a141e1b25ceb734069ca58
+SHA1: fe0ca86e396ade5bfc65725e2fa8e31167476dee
+SHA256: 55cc0722548910eaee8f1561e9535c27cb6f3c00115ad71e2abe5e817569c60e
+SHA512: 27405aa0d8d930786d0032b5c30881410fa7058f987317bdc9e1b1165c0664df94cf0534e0f4dea7aaea8f821f4c8524517bb7f10e97a9ae950b7a821fd515ff
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - server library
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -46304,20 +46301,20 @@ Description: Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
 Package: libswresample-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 403
-Depends: libavutil-dev (= 7:8.1.1-4), libswresample6 (= 7:8.1.1-4)
-Filename: ./libswresample-dev_7%3a8.1.1-4_amd64.deb
-Size: 118908
-MD5sum: 17de3596bebf162e84bac0548ab80d8a
-SHA1: a8ce8e04026b982c623efa281b3c715ab8b3ec48
-SHA256: 3fa8100e534643ff7052d3b5914b5fbc6cfe441b5f47d17fe6cc0b7c8cf5ceda
-SHA512: 03116845c6bc1aeb63b7966b75fdc5b9516c681ce92a143baef5c010facf69bf70c084f12dda3d10aa806eb4fbc3cb43712794480a012ea25ffcb8ecaa4f4fdd
+Installed-Size: 404
+Depends: libavutil-dev (= 7:8.1.1-4+b1), libswresample6 (= 7:8.1.1-4+b1)
+Filename: ./libswresample-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 119164
+MD5sum: 695d625ebf1322fba96fd888a7d88cb9
+SHA1: e2f6744b16b9e1c0e190184df22a56b6aaabd873
+SHA256: 6f71aef2f0a4232174defdaf2eabb088e6b4f42d48e85611db0aafbdbacecada
+SHA512: bb123abbfd13457f5f60ce9082d80a2bd20a1265c281b1200fac97cccb111c2e238bb4bbe9edd520dc9557158959d102b52350dbcee46b80f8ae7fa95baffebc
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46348,20 +46345,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - development
 
 Package: libswresample6
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 276
+Installed-Size: 277
 Depends: libavutil60 (>= 7:8.1.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: ./libswresample6_7%3a8.1.1-4_amd64.deb
-Size: 104316
-MD5sum: 21893e8bbc441cc08cf2abc354e04181
-SHA1: 392cdbf5add02fda4fff0702083311721069d1bd
-SHA256: bc951a34b90ab87070262f8d7bbba42d52a6530f4b4ea91fe64eae794846928d
-SHA512: 69ace996ec69454e56d29e9cdb244ca93b98fb1ad925eac98f12d8771dff49269fb90861e2ed2b564366d6e69a4bee45145a4953bd423790281036323c56f873
+Filename: ./libswresample6_7%3a8.1.1-4+b1_amd64.deb
+Size: 104568
+MD5sum: c10db8b117c676058f388405f4c993c4
+SHA1: d782bc8b9af0f2c8740d9daeae6681f13c13bf87
+SHA256: 4b944eef0a95fd555d6da69483a7aa2372a30cf40e58a0965a4b9bea963d4339
+SHA512: b479b05458d169a6c3a55c2998fed9aac9f87165cc36f7e9541c42ff8cb1ecdb78b2362e2470fc914660c68a1414fe098721ad2f28b6ed8c497a5742d65a7c67
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46392,20 +46389,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswscale-dev
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2489
-Depends: libavutil-dev (= 7:8.1.1-4), libswscale9 (= 7:8.1.1-4)
-Filename: ./libswscale-dev_7%3a8.1.1-4_amd64.deb
-Size: 539744
-MD5sum: efab12ed7748b163ba5f5de9b34a9e73
-SHA1: 6ace7a6db18adc475299e766bdf61a4bf52b194b
-SHA256: 1bdcdc798bc444bf7d99bbeb8823e98941d8ee987bb632ee9476cca8c0b0c5d9
-SHA512: 2895620baf7ae23d8353c627129789742f3361b06b8bafb63f785419155e95557a9bc121ba16c7d0f17987bbd368ae739d390d08fa3486e3d3d3e1d84f49314d
+Installed-Size: 2490
+Depends: libavutil-dev (= 7:8.1.1-4+b1), libswscale9 (= 7:8.1.1-4+b1)
+Filename: ./libswscale-dev_7%3a8.1.1-4+b1_amd64.deb
+Size: 539980
+MD5sum: 77af95c681a48e76697c080a46a53a32
+SHA1: 829c1a2aa856f51b831e38f70d1a0ee7ae9fe08b
+SHA256: 43ffd462959cb43ab97949e3fc4577aabf11d27529e39d4bd486a0383f256a39
+SHA512: 1b2a6bf397f6324cf24894f74b0550e30309b4a5ae2f7aa79670ccea648eec1298d420fc43a7d39e40308eb28fe627c3084fdd92bc54da6416f374380b679b0d
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46430,20 +46427,20 @@ Description: FFmpeg library for image scaling and various conversions - developm
 
 Package: libswscale9
 Architecture: amd64
-Version: 7:8.1.1-4
+Version: 7:8.1.1-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg
+Source: ffmpeg (7:8.1.1-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10390
-Depends: libavutil60 (= 7:8.1.1-4), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libswscale9_7%3a8.1.1-4_amd64.deb
-Size: 2889296
-MD5sum: 26c744960cffeba5df9ae2117a07a018
-SHA1: 3105740d6fb456849956659fbe4faaa3a7e2098b
-SHA256: 59bf92ce6b08a1a686f8c697cf00c0ef8e7b6f321a1acd9958809df1bb019560
-SHA512: acb1707a97a02f651e251a87d87522d2451af1186d5ebb27d032195d51c9f80932561a05fda9ad9aa9d9aad1d98ba07a8f3145a35960c9137f20cd6e1957b23f
+Installed-Size: 10391
+Depends: libavutil60 (= 7:8.1.1-4+b1), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./libswscale9_7%3a8.1.1-4+b1_amd64.deb
+Size: 2889268
+MD5sum: 295b7f4e16c5e7b7b6913f4a1d19a3eb
+SHA1: 16a8736bfd6fb71dfd4f4e8d4b4ec5d834be0303
+SHA256: abffcbf3755e00f0483bbf6ec608502811b3ab87c8ca9cf0674fc42f1d8131b5
+SHA512: e560225ddfead38238198658a6175758083a183e3d494016db6db34738d73d134877b15e238c1f246c79c178450fe5aab29e87a807a9b6c998d0cf2791172295
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -55094,21 +55091,21 @@ Description: transitional package
 
 Package: packagekit
 Architecture: amd64
-Version: 1.3.5-1
+Version: 1.3.6-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 3723
-Depends: libglib2.0-bin, polkitd, libappstream5 (>= 1.0.0), libapt-pkg7.0 (>= 1.9.2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer1.0-0 (>= 1.0.0), libjansson4 (>= 2.14), libpackagekit-glib2-18 (>= 1.3.3), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), libsystemd0 (>= 214)
+Installed-Size: 3896
+Depends: libglib2.0-bin, polkitd, libappstream5 (>= 1.0.0), libapt-pkg7.0 (>= 1.9.2), libc6 (>= 2.38), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.80.0), libgstreamer1.0-0 (>= 1.0.0), libjansson4 (>= 2.14), libpackagekit-glib2-18 (>= 1.3.3), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), libsystemd0 (>= 214)
 Recommends: appstream
 Breaks: plymouth (<< 0.9.5)
-Filename: ./packagekit_1.3.5-1_amd64.deb
-Size: 773092
-MD5sum: eee03d288da218df61c05b996cb4b383
-SHA1: e72ad089fcb4f39e70785eb134161d435a9f5e4b
-SHA256: 482dfbcdbf844b2cb2ada32285f5e95eb2b7c2569da53c0391e90fedc2e97f57
-SHA512: aadc50390724f4859b4b5bd9b2c2ec7c73ec662429e59deffa4772f49a08d6b3352584d3d1b12c80c37a72e2073e9b5568392c571402e1ca976ebd65ce842d12
+Filename: ./packagekit_1.3.6-1_amd64.deb
+Size: 821892
+MD5sum: fedd9aa2915dab8175fbbd243c80557a
+SHA1: 8c07e3ef8cada43d365558d04d8005767e5624eb
+SHA256: 059a0682732f76f4495ddbbf370b523af032e1628ec913132a594f359282c5bc
+SHA512: 0043f3d7a78e65420948b25245b62a99799f35754252b6553f70b409cc4e6dbb708d476cd32069861eeb1f1c05c8d59e1721b979ead8c8e5431f451e8ed0d086
 Homepage: https://www.freedesktop.org/software/PackageKit/
 Description: Provides a package management service
  PackageKit allows performing simple software management tasks over a DBus
@@ -60918,18 +60915,18 @@ Description: User tools for libqtxdg
 
 Package: quadrapassel
 Architecture: amd64
-Version: 1:50.1-1
+Version: 1:50.2-1
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1392
+Installed-Size: 1393
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.13.8), libmanette-0.2-0 (>= 0.1.2), libopenal1 (>= 1.14), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsndfile1 (>= 1.0.20)
-Filename: ./quadrapassel_1%3a50.1-1_amd64.deb
-Size: 254072
-MD5sum: ced2b49cccf12d2f65515059ae814c4d
-SHA1: 359fd5c2c248ff41827af14aa17c08f331bff799
-SHA256: 8758cc3b84259688f87367631092f07e65579c1eea2bda5e7af00d667cb08f26
-SHA512: 2c980d2d625b4c9e326af9f999cb09e8247df2fefa4f1cdfe398df4b434b77a51c7a23473c6399f5b1d12409ac9e3343a2f41080e6976ca60f89ad4ba9efe0b0
+Filename: ./quadrapassel_1%3a50.2-1_amd64.deb
+Size: 254268
+MD5sum: 47fd34676cbe9e42fdb71392930013d7
+SHA1: 74db5e292466e428735878d8c09bfa2c24d1f1bc
+SHA256: 754b1a979171fbfaeb738c86db9d6d5da70ca02a65a622214ec397592e2b0fbb
+SHA512: b2c5e04d0f53bff0aaa89b3533646b7169aec81e6dcf91229960836b7fe9940e1f5f2b0423284a27c84c879bed553090d049762aea8f76bc40d72773f73af126
 Homepage: https://wiki.gnome.org/Apps/Quadrapassel
 Description: popular Russian game, similar to Tetris
  Quadrapassel comes from the classic falling-block game, Tetris. The
@@ -61697,20 +61694,20 @@ Description: dh-runit implementation detail
 
 Package: rygel-localsearch
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Priority: optional
 Section: net
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 228
-Depends: localsearch, rygel (= 45.1-3), libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), librygel-core-2.8-0 (>= 45.1), librygel-server-2.8-0 (>= 45.1), libtinysparql-3.0-0 (>= 3.8.1)
-Filename: ./rygel-localsearch_45.1-3_amd64.deb
-Size: 64956
-MD5sum: 2bd33d1ecb4516280879edeb95d03715
-SHA1: 6a40e1275a4d0150500b9d982e7dc53d90ef54ad
-SHA256: 864550b29d96d2c0b0ac01014b297db65bb3d2ae63d4b3fe8bed9d1542b7b05e
-SHA512: b3be7503dee6e07d51785951269a296183e50fa5bc2e681992ef06ea40fadd175e6e19bc7c0fe380f90bd8955d81a94acc60ddd3ec09dc2d45aaad964a48f7cc
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Installed-Size: 226
+Depends: localsearch, rygel (= 45.2-1), libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), librygel-core-2.8-0 (>= 45.2), librygel-server-2.8-0 (>= 45.2), libtinysparql-3.0-0 (>= 3.8.1)
+Filename: ./rygel-localsearch_45.2-1_amd64.deb
+Size: 63092
+MD5sum: 71333e36de6e3e6cf4e6a8fc69e63eef
+SHA1: 9d0b4a7df6e9235c1e3b0c1246f583f3bfd724fe
+SHA256: 644bedc14b62c1c22a9fbef2b7aa9f87ee4938c1f7d907d958f54824f54733e0
+SHA512: 817afa667e576b128b4fcee1f3cf27b9dc5a097de65f3f67d14f43f464fd28dd28265e12167af804e6fa291792d4c3e3a3bce3e4e50f27c793ede9bc0ce112fc
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - TinySPAQRL plugin
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -61724,21 +61721,21 @@ Description: GNOME UPnP/DLNA services - TinySPAQRL plugin
 
 Package: rygel-playbin
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Priority: optional
 Section: net
 Source: rygel
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 52
-Depends: gstreamer1.0-plugins-good, rygel (= 45.1-3), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.18.0), libgstreamer1.0-0 (>= 1.0.0), librygel-core-2.8-0 (>= 45.1), librygel-renderer-2.8-0 (>= 45.1), librygel-renderer-gst-2.8-0 (>= 45.1)
+Installed-Size: 50
+Depends: gstreamer1.0-plugins-good, rygel (= 45.2-1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.18.0), libgstreamer1.0-0 (>= 1.0.0), librygel-core-2.8-0 (>= 45.2), librygel-renderer-2.8-0 (>= 45.2), librygel-renderer-gst-2.8-0 (>= 45.2)
 Enhances: rygel
-Filename: ./rygel-playbin_45.1-3_amd64.deb
-Size: 14592
-MD5sum: 1f867b3b388e89e123f47daf3660fd87
-SHA1: 1c7f0cec95db04fe71cc476c7f571842ad43c7a5
-SHA256: 19016b3c53426eba767401507ba1aa6ac5285795742fb089903559038a7bdc5f
-SHA512: adb4f631db52b1d90506e7e497827af0a1dc4baa86d48c0f617adf191ee609465d34bbfeb45b609d989d1db2df628d9cb6a0f334ed912cf4fad9127410cd0bd3
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Filename: ./rygel-playbin_45.2-1_amd64.deb
+Size: 12948
+MD5sum: 262b5892f8ba9055d1ff115e750155ef
+SHA1: e1c17a2c0c4f78ef95ca87d41484ce4cf48b2219
+SHA256: 695fdd78d6411aa4a82fccf100c165611174914b30dfdb20a94eb22c6fe08826
+SHA512: ac941b1f6c33f2fd0a70c62878357e3d7b0988a69ab23c1ae9afe6e61d43a0334b5c30d0a1ab006abab0d2ad46f418a45d37789df59c115b16a5572d96d4c562
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services - GStreamer Media Renderer plugin
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -61753,21 +61750,21 @@ Description: GNOME UPnP/DLNA services - GStreamer Media Renderer plugin
 
 Package: rygel
 Architecture: amd64
-Version: 45.1-3
+Version: 45.2-1
 Priority: optional
 Section: net
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3145
-Depends: init-system-helpers (>= 1.52), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.31.1), libgee-0.8-2 (>= 0.8.3), libges-1.0-0 (>= 1.2.0), libglib2.0-0t64 (>= 2.80.0), libgssdp-1.6-0 (>= 1.1.3), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.0.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.14.1), libgupnp-dlna-2.0-4 (>= 0.9.4), libmediaart-2.0-0 (>= 1.9.0), librygel-core-2.8-0 (>= 45.1), librygel-db-2.8-0 (>= 45.1), librygel-renderer-2.8-0 (>= 45.1), librygel-server-2.8-0 (>= 45.1), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9), libx11-6, libxml2-16 (>= 2.14.1)
+Installed-Size: 3225
+Depends: init-system-helpers (>= 1.66~), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.31.1), libgee-0.8-2 (>= 0.8.3), libges-1.0-0 (>= 1.2.0), libglib2.0-0t64 (>= 2.80.0), libgssdp-1.6-0 (>= 1.1.3), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.0.0), libgupnp-1.6-0 (>= 1.6.0), libgupnp-av-1.0-3 (>= 0.14.1), libgupnp-dlna-2.0-4 (>= 0.9.4), libmediaart-2.0-0 (>= 1.9.0), librygel-core-2.8-0 (>= 45.2), librygel-db-2.8-0 (>= 45.2), librygel-renderer-2.8-0 (>= 45.2), librygel-server-2.8-0 (>= 45.2), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9), libx11-6, libxml2-16 (>= 2.14.1)
 Recommends: dbus-user-session, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-plugins-ugly
 Suggests: rygel-localsearch, rygel-playbin, rygel-preferences, rygel-ruih, tumbler
-Filename: ./rygel_45.1-3_amd64.deb
-Size: 587476
-MD5sum: 877e941ba444b1629c6d5519c74f1827
-SHA1: 2e98df53752c38bba735e87b156172d1659f05b0
-SHA256: 024cf52df58b696ec1891797887f24e0be6bc1c1fb9038ef59f92f97a054b6a0
-SHA512: 7859c06bf481b1163150b0f047bf7eb48d1a7de6ccadf6e28e4e8755d70f7191e238fe841e0a05cd683ef668087146c7ab554ba202eb58066823994dbf8bf871
-Homepage: https://wiki.gnome.org/Projects/Rygel
+Filename: ./rygel_45.2-1_amd64.deb
+Size: 595828
+MD5sum: f49af6f609a0518c9bb7094535984515
+SHA1: e848cd85a9f722439d29adb0aa60b2358ea36baf
+SHA256: cb09d138e88e62738b448a167ea762935c8853146bab35ebd086f9f1def7362c
+SHA512: 8fe530059dd1b04f0fda85c2a929cf7891e89fd20821ffae66bedeedb24b6c6065d63a998d80f2d1f1223ec9fac1a71c9f100c9bc32436ecdf0add65e4b59de5
+Homepage: https://gnome.pages.gitlab.gnome.org/rygel/
 Description: GNOME UPnP/DLNA services
  Rygel is a home media solution that allows you to easily share audio, video
  and pictures, and control of media player on your home network. In technical
@@ -71519,18 +71516,18 @@ Description: X server for running X clients under Wayland
 
 Package: yelp-xsl
 Architecture: all
-Version: 49.0-2
+Version: 49.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1486
-Filename: ./yelp-xsl_49.0-2_all.deb
-Size: 206200
-MD5sum: 227c4f131e31eb47c72043f55227a4d7
-SHA1: bd5e295bb47b6b71ea0c1206db81ba0d951d12b2
-SHA256: 90dce75274add996f6e39d8cbb6bb42df0cb7e51c708352295ce323d9bda1984
-SHA512: 1e190466cd01da3b7b8aa3b60854aca40559ef4bdc9e32efc954d29399ef24d17512cac294e0ddd08e5ae9417701cdd078337acd35278bc2b56b43414e43aecd
+Filename: ./yelp-xsl_49.0-3_all.deb
+Size: 205716
+MD5sum: 69b7936a5115128dbb9e68da856a6130
+SHA1: 83d20f74931133132fc715218c288dbc268cfa27
+SHA256: 3173f2687a6b6c14bcbf3c06814285b66fc349d23308f575ce077e973ee864e6
+SHA512: 74aef4c33a47fb5de8c4db4c404c30369aafbdcdc923d9640b57c0954efa38939e62142f45cc4bddcefa7cad8baa3509ed603610d0f35a9f82d5ec662d57c164
 Homepage: https://gitlab.gnome.org/GNOME/yelp-xsl
 Description: XSL stylesheets for the yelp help browser
  Yelp-xsl contains XSL stylesheets that are used by the yelp help browser
