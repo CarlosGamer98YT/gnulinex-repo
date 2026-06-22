@@ -6839,20 +6839,20 @@ Description: GObject introspection data for AccountService
 
 Package: gir1.2-adw-1
 Architecture: amd64
-Version: 1.9.0-1
+Version: 1.9.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: libadwaita-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 191
+Installed-Size: 192
 Depends: gir1.2-gio-2.0, gir1.2-gtk-4.0 (>= 4.21.1), libadwaita-1-0 (>= 1.9~beta)
-Filename: ./gir1.2-adw-1_1.9.0-1_amd64.deb
-Size: 45412
-MD5sum: 6d0d9c5fd6f9d08f3b14d90f93ca13b6
-SHA1: f16eba3c52a12225ffc8ff753ebc84a2ec4b5366
-SHA256: 7af1f085b0d46d3517c95e91a6a589e540ebb0bde8a750b93231e1fc81ff8545
-SHA512: 3b9d9194cdd06beee2703a220eb1ff17b81c8fb06c8b86b9cfca86e889f34f504513a20a2e89364c715b2254db93581abe1adb07e482ff0eadae44eb86388179
+Filename: ./gir1.2-adw-1_1.9.1-1_amd64.deb
+Size: 45460
+MD5sum: 81014848c37719a4c312326dee3bc3c3
+SHA1: 3fb34547f9417ef7a88cca338f62fbcf4adfbcd1
+SHA256: a918a43604efbeb47acefc77cc8aa65a203c4e8166aebeda5f1c97e51abbe6dc
+SHA512: 09503ff0224b44671bd3f38586cfcae6ac040c81c3af67b982164df1eb27fd8dbdff6886f4711794d7c9f32d177cae36476d66c5cd1ec2becfbfe49e1070363d
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Description: GObject introspection files for libadwaita
  libadwaita provides GTK widgets and GObjects to ease developing
@@ -14895,20 +14895,20 @@ Description: JavaBeans Activation Framework
 
 Package: libadwaita-1-0
 Architecture: amd64
-Version: 1.9.0-1
+Version: 1.9.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libadwaita-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2787
+Installed-Size: 2795
 Depends: libappstream5 (>= 1.0.0), libc6 (>= 2.38), libfribidi0 (>= 0.19.2), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.1), libpango-1.0-0 (>= 1.14.0)
-Filename: ./libadwaita-1-0_1.9.0-1_amd64.deb
-Size: 585440
-MD5sum: d47fa34842bbbf25beb6b6b3f95ff2f9
-SHA1: 2686adb786a5c821ca0c86338d0bb584cabae2d4
-SHA256: 7071b3ea0fb2f9032d5ec4bad87a94c241f02472a16dfc56cd83726f83ea57db
-SHA512: 7fdeb6a2563b62f071e242b80cfe7fd284823bcbf94f317159f85f0ff5cf1275aec79f9681722d81c5563fc6916f50b390cef06fd17415616d3bf964025f77f4
+Filename: ./libadwaita-1-0_1.9.1-1_amd64.deb
+Size: 586828
+MD5sum: f6d00014eed42f9641dccadc19c134a0
+SHA1: fc2ddc7f3f3bee24f1b009ef86173ee4ed231361
+SHA256: fa30502c7f58f12f0ec9ed5e375370ee4b15e9105c22ef926672667243a0eedd
+SHA512: b3ccc748651676a4278200614022601aceb8affd39e84a3bc19fcfa02502ea67e95110ebce58b5c400f19c142d6b628c58d7c975772a2e8630a125ae56df87da
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Description: Library with GTK widgets for mobile phones
  libadwaita provides GTK widgets and GObjects to ease developing
