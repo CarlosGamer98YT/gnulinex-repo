@@ -13343,19 +13343,19 @@ Description: Base package for Java runtimes
 
 Package: jq
 Architecture: amd64
-Version: 1.8.1-7
+Version: 1.8.1-8
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Installed-Size: 133
-Depends: libjq1 (= 1.8.1-7), libc6 (>= 2.38), libonig5 (>= 6.8.1)
-Filename: ./jq_1.8.1-7_amd64.deb
-Size: 85200
-MD5sum: 030f10d1c55ca40fefcac39ff7556630
-SHA1: d990e9ea97c70dba4c77ffd1c76c01cfc72c008c
-SHA256: e00af17502308b2faeffd9dbe62a9fd6f8f9e7c8927d37677b53723a8cc02006
-SHA512: 1b0709ea9c8318cbec38b6d1d695401a68390a575ef14221c7aa9617dc70b318fa205094d5b9fed1b59eccb5ec8ee35fec3396584c1a68c10e3b5b812b5d77fe
+Depends: libjq1 (= 1.8.1-8), libc6 (>= 2.38), libonig5 (>= 6.8.1)
+Filename: ./jq_1.8.1-8_amd64.deb
+Size: 85272
+MD5sum: d315a86f652312cba2e1d38a7a52d453
+SHA1: cef9cf7c6c123b866008ffd9cfa1d5585e9b32a0
+SHA256: 9fa41101442af0fa23b0db1d68591c9e339c5fa03b26ffa2280559f99ab7482a
+SHA512: 6f5b7686f67d76583eb08335e3ef4f85307a9779e09c95cdede631abe13fa6ec92acd8508487ad3543904912028f88283b2a07b1feefbe9fee958ab755ac334a
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor
  jq is like sed for JSON data – you can use it to slice
@@ -25188,7 +25188,7 @@ Description: libjpeg-turbo JPEG runtime library
 
 Package: libjq1
 Architecture: amd64
-Version: 1.8.1-7
+Version: 1.8.1-8
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -25196,12 +25196,12 @@ Source: jq
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Installed-Size: 440
 Depends: libc6 (>= 2.39), libonig5 (>= 6.8.1)
-Filename: ./libjq1_1.8.1-7_amd64.deb
-Size: 168200
-MD5sum: 24155f657f08792bdc9f893a772b30ff
-SHA1: e22fc68c582d62d11283ecf02cabda93c7b382bc
-SHA256: 2ea4d589c8b6a4bb43ea4c019168ca35d3de98c52d771e7e1587221de85a1fd9
-SHA512: 82bd7687654a718c16fa9380a4e89114ebf901ccc9a0e0d1a89be9d109396d0388e58e514d6552db1fad8e7efbe6bff5ebf3b50bc4097828f4a8cf842148d0e9
+Filename: ./libjq1_1.8.1-8_amd64.deb
+Size: 167916
+MD5sum: 3427762bdf46129c467a69ea8ba448c5
+SHA1: f22b937f37056fed6f114f0816781883959dfea5
+SHA256: 23c5f17518247765b963dee774656b776459060275d06c685bd4dba68e36cf99
+SHA512: b7e3f8d447c5900f77df3e6a42357c3b63bdb47c0738ca20e68b393050c5832b71daa5a7ab1eb4bb0646b42a675042325673c042508bb09649dd2c6271bd7ae3
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor - shared library
  jq is like sed for JSON data – you can use it to slice
@@ -33273,20 +33273,20 @@ Description: mousepad plugins library
 
 Package: libmozjs-140-0
 Architecture: amd64
-Version: 140.11.0-1
+Version: 140.12.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mozjs140
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 37983
+Installed-Size: 37991
 Depends: tzdata, libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)
-Filename: ./libmozjs-140-0_140.11.0-1_amd64.deb
-Size: 11111184
-MD5sum: 323e587a3f5890b3cf088ae5e5de6120
-SHA1: 928d9dbeb9c24513cf0fb5abe064801d327df802
-SHA256: 60db5664d59f0676ea9e9ee09e89b542a3f861fe64d0c0c661a71d840746ba5b
-SHA512: 87e75962b28951283b891af5235d7547b1c0f59d1176f2667b059c1c166fd25ab2a60a6386ab35f7bc9da7500f774fbcdb62277507154df90c12f0dbf7dd97e9
+Filename: ./libmozjs-140-0_140.12.0-1_amd64.deb
+Size: 11108868
+MD5sum: 319dc21ff8d8e01fcfd78594467cee0d
+SHA1: 93ecc3001fa889cc417a5fc4215b96fa3e40fdd2
+SHA256: 51d84106a95014d22a7603c87cf195f97d51ee2723cee623c20ff71f9db63d00
+SHA512: b73fe166c9a0c0ddedb8698927efc1e68c15825735a6c17af725869823060598bcf5535edaa16b43feea5983f78c2e7f3aa49f9b9d5a296230021a0fee477508
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 Description: SpiderMonkey JavaScript library
  SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
@@ -68228,22 +68228,22 @@ Description: File Manager for Xfce
 
 Package: thunderbird
 Architecture: amd64
-Version: 1:140.11.0esr-1
+Version: 1:140.12.0esr-1
 Priority: optional
 Section: mail
 Maintainer: Carsten Schoenert <c.schoenert@t-online.de>
-Installed-Size: 274276
+Installed-Size: 274189
 Provides: mail-reader
 Depends: debianutils (>= 1.16), fontconfig, libotr5t64, librnp0 (>= 0.17.0), libgpgme45, psmisc, x11-utils | kdialog | zenity, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.2-1.1~), libcairo2 (>= 1.10.2-1.1~), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxext6, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4)
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Suggests: apparmor, fonts-lyx, libgssapi-krb5-2
 Breaks: birdtray (<< 1.7.0+ds-1~), webext-allow-html-temp (<= 10.0.8-1~), webext-dav4tbsync (<= 4.8-2~), webext-eas4tbsync (<= 4.17-1~), webext-mailmindr (<= 1.7.1-2~), webext-quicktext (<= 6.4.6-1~), webext-tbsync (<= 4.16-1~), webext-xnotepp (<= 4.5.81-1~)
-Filename: ./thunderbird_1%3a140.11.0esr-1_amd64.deb
-Size: 69455764
-MD5sum: be7911982392cd031f207b4aa10c8a81
-SHA1: 72ab2e94a051302a4f0563ea65d207b1ebfff425
-SHA256: 0a9efdc21cf05eb36755d301ca37c22280a542c56437dd443ee77fcce90d875f
-SHA512: a4702c7f5d3d1f2dbecca9625a1b63c9a4f0b040dc5f5acf4ff3c90aaf6587cbfc06eca11ab78c12c0a9a1ce43593b304fc88ff65728c570109a906491ad7541
+Filename: ./thunderbird_1%3a140.12.0esr-1_amd64.deb
+Size: 69461816
+MD5sum: 2ff2629be463d2bb0ceb3350ab283f60
+SHA1: 2a4bc8d667871cca8e528b1c1e157d3a9637922e
+SHA256: fc928c9405faf7241fc1fe9ba58c4f94f06e8736aeceaf71a63524ae231f58f2
+SHA512: 576bfbdb007f9e1dc04ce6c0f46bfd37d3b407d73b3342454b1c85fd91e8d35b2e8ebd8e8b1e0bc5f0af3c2649e90132a834960ce8a9f165101cb6874cf622e0
 Homepage: https://www.thunderbird.net/
 Description: mail/news client with RSS, chat and integrated spam filter support
  Thunderbird is an mail client suitable for free distribution. The goal of
