@@ -16498,20 +16498,19 @@ Description: CD/DVD burning library for GNOME - runtime
 
 Package: libbsh-java
 Architecture: all
-Version: 2.0b4-20
+Version: 2.0b4-21
+Multi-Arch: foreign
 Priority: optional
 Section: java
 Source: bsh
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 324
-Breaks: bsh (<= 2.0b4-13~)
-Replaces: bsh (<= 2.0b4-13~)
-Filename: ./libbsh-java_2.0b4-20_all.deb
-Size: 291068
-MD5sum: 0671a7f3071cf8e1cf9d19ed60ac98f3
-SHA1: 11de6719a4fecfdabe340cc9bf53aacaa4223601
-SHA256: 826ec02d9500005b22b7f2dd32881c0ca8dcde3e9c5ccd3d464f0ad45063dc92
-SHA512: b7d841cdebe5caccc20bebb1836e3e13bb351ca8a7163db8972e614aa5a2298015c2a8422d5cafb370751dac51d309ee9d11a9f2f7d957f407df0fd2f53453d5
+Installed-Size: 325
+Filename: ./libbsh-java_2.0b4-21_all.deb
+Size: 291636
+MD5sum: 693da11b80ca23f4900a6daecfe86937
+SHA1: 7a4e321beb4ba34df2504736c5ce8a58dbe25518
+SHA256: c695204105feec145a800ab7db96043a8b509ae73078e7e5c266487a3299cb79
+SHA512: c55d980aa4cb504dc8522404ed3ce51ddb552190f0dfe088ab831a03ba7342c5e325b7b5f7ee1c90d09a456c8cf57365949c90f04e2ccedc9dde294917414242
 Homepage: http://www.beanshell.org
 Description: Java scripting environment (BeanShell) Version 2 (library)
  BeanShell is a small, free, embeddable, Java source interpreter with object
