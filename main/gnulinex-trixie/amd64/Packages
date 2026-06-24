@@ -3866,33 +3866,29 @@ Description: free TrueType fonts for Persian language
 
 Package: fonts-font-awesome
 Architecture: all
-Version: 5.0.10+really4.7.0~dfsg-4.1
+Version: 7.2.0+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 1369
-Provides: node-font-awesome (= 4.7.0~5.0.10+really4.7.0~dfsg-4.1), sass-stylesheets-fonts-awesome
-Enhances: libjs-twitter-bootstrap, node-less, sass
-Filename: ./fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1_all.deb
-Size: 517040
-MD5sum: df46d41772b221b5290249a8660c7fd4
-SHA1: 1b9bddc539da7c0d8226773a3077b924320b05c0
-SHA256: 5f09e1adce26d59628a239c538882d53e58978b958233864fc617be9a510018e
-SHA512: 1e1cc04c395af508668bd814fe2cb0b86024de180ed603ce3e7a47c2cbc6408e92c614a5714842b1f23e29bee6939700a790ef99b5866a5c6ccd2aabb0b08bfc
+Installed-Size: 1785
+Depends: fonts-font-awesome-legacy (>= 6)
+Suggests: node-fortawesome-fontawesome-free
+Filename: ./fonts-font-awesome_7.2.0+dfsg-1_all.deb
+Size: 671236
+MD5sum: 35effd44f9f9092ff3fbed79d20b91cf
+SHA1: 1785aefd3b6947fc59db46220b4edfe242e45f38
+SHA256: ff3777c2649eae163cc90bca5305efb903b68cede8008946730e22c594ddea77
+SHA512: 3f309df35a892372cec89a7e6d009639b2272e077bf68eb2d19a2166c28b4e8c7e30f191bdede61ec396a69887e98c5f1fb81ac6e29f69b32c27011a4819dc31
 Homepage: http://fontawesome.io/
-Description: iconic font designed for use with Twitter Bootstrap
- This font contains about 249 various icon glyphs. Glyphs are designed
- as scalable vector graphics hence display very well at any screen
- size. This font was basically designed to be used with the Twitter
- bootstrap  library but can be used in other places also.
+Description: FontAwesome free icon webfonts (current version)
+ Font Awesome is the Internet's icon library and toolkit, used by
+ millions of designers, developers, and content creators.
  .
- This package also provides Sass and LESS files to use webfonts from
- this package.
- .
- Please note that this package provides Font Awesome 4
- (not Font Awesome 5 or Font Awesome 6
- which are different fonts with different licensing).
+ This package provides the font in TTF and WOFF2 formats.  The package
+ includes the icons.yml metadata file but not CSS files or NodeJS
+ packages.  The NodeJS package is available in the
+ node-forkawesome-fontawesome-* packages.
 
 Package: fonts-freefont-ttf
 Architecture: all
