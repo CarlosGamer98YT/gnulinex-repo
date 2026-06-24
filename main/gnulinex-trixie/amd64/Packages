@@ -9260,20 +9260,20 @@ Description: Introspection data for Xapp
 
 Package: gir1.2-xdp-1.0
 Architecture: amd64
-Version: 0.9.1-2+b1
+Version: 0.10.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libportal (0.9.1-2)
+Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 42
-Depends: gir1.2-gio-2.0, libportal1 (>= 0.9.0)
-Filename: ./gir1.2-xdp-1.0_0.9.1-2+b1_amd64.deb
-Size: 12196
-MD5sum: 70b72674612b56963b673fcf4c25b124
-SHA1: cd58a4722c653f5002339423d560ad833f26f961
-SHA256: eca8d7082a754497df44148ed4789d19988b75b20531e903236ad7936285d2ed
-SHA512: b59bb8a0318e6daf0f3e076c25af1d9c937c5ca4d1120152cd1e624686e2833faf0dda53055a4092c91dfbbaa0974967689250f1e4124b3ea4c268b8fe1b79ec
+Installed-Size: 44
+Depends: gir1.2-gio-2.0, libportal1 (>= 0.10.0)
+Filename: ./gir1.2-xdp-1.0_0.10.0-1_amd64.deb
+Size: 12612
+MD5sum: 6eadfaa063e7511fe570bc6d7bea4fc1
+SHA1: 32eee6dc91056a007af915cbe759a04a09279a5a
+SHA256: afddcd067c2b0d93fa257dfbdecec39fc458100740a702c3ad3015d24dca927b
+SHA512: 6a1f47fdf331ac967612df97ce8490b021987a15e50b78b4a60e7169880181928a1adc52b7c4a89336899e5245ee87ebc39900ffa046b83710b073478b79d1d3
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library - introspection data
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -35885,20 +35885,20 @@ Description: polkit Authorization API
 
 Package: libportal-gtk3-1
 Architecture: amd64
-Version: 0.9.1-2+b1
+Version: 0.10.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libportal (0.9.1-2)
+Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 57
-Depends: libglib2.0-0t64 (>= 2.72), libgtk-3-0t64 (>= 3.21.5)
-Filename: ./libportal-gtk3-1_0.9.1-2+b1_amd64.deb
-Size: 12356
-MD5sum: 48471ea9baa14284b4017f717dda9c35
-SHA1: ad777ded0122486763bc5ab0c499c9ef3d84d74b
-SHA256: d41124ba146930573592205a4330efc43d53a6baa80b5e05b4377809300ce15c
-SHA512: 01c752de97bd8bf0c47ccdeba75337fc4cb6c38ea42a32beecfce50ec39bb08a8093043e3d6c411cf958db05a9566c8676fd33da6a2f8b852332465b785f3079
+Installed-Size: 53
+Depends: libglib2.0-0t64 (>= 2.80), libgtk-3-0t64 (>= 3.21.5)
+Filename: ./libportal-gtk3-1_0.10.0-1_amd64.deb
+Size: 12204
+MD5sum: d2fc8151479c3775d6583238ff9681e7
+SHA1: 22f99ec2eb26532b4f75235613da09b67aa87025
+SHA256: be1766a306da8455de81b50f5328d103767df3e4c38c5aa68f358d791d457113
+SHA512: 9a76511fa163bc4a427891abee341d773df87299f65397ba4b0ba78dc503826e2366204328dfa4753045d2288a9476e738bc630be0ef748286a4502cd304f337
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library for GTK 3 GUIs
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -35913,20 +35913,20 @@ Description: Flatpak portal library for GTK 3 GUIs
 
 Package: libportal-gtk4-1
 Architecture: amd64
-Version: 0.9.1-2+b1
+Version: 0.10.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libportal (0.9.1-2)
+Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 57
-Depends: libglib2.0-0t64 (>= 2.72), libgtk-4-1 (>= 4.12.0)
-Filename: ./libportal-gtk4-1_0.9.1-2+b1_amd64.deb
-Size: 12376
-MD5sum: 8619ac7949f10963050cc65c45253152
-SHA1: 7aa61f85f71a0740b3982ebe5c0cb13277a3eac1
-SHA256: b8f805dbee127c9ea8388103cd623d0660ae8fd549fc2477fdec141ca47f244a
-SHA512: cba38febc88664590577ee7aaf46410893cdf332db97c5449ffd9041eafb9f527e355c4ccc9953096b3ea06ad0f3d65ba34bf002f18e6c746ab2ff77fdf1990e
+Installed-Size: 53
+Depends: libglib2.0-0t64 (>= 2.80), libgtk-4-1 (>= 4.12.0)
+Filename: ./libportal-gtk4-1_0.10.0-1_amd64.deb
+Size: 12240
+MD5sum: 21190b18a46d0f83a29fbb385110e6b5
+SHA1: f21d9e2baa35bdfa378c1fdacc695237c8eb2933
+SHA256: bc9ba2d9ebbc150d8d0032f21e46e017f7108040ec1c9d801fffe929fc62a0d2
+SHA512: 936abea2b9497b5634f95fa78d603aad8668c8c87951ae8c038e145784d8c9c4fe3e05437ffbc949aad1c74e67b541c6f640d8ef1edb58b785072aa9a2795b39
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library for GTK 4 GUIs
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -35941,20 +35941,20 @@ Description: Flatpak portal library for GTK 4 GUIs
 
 Package: libportal1
 Architecture: amd64
-Version: 0.9.1-2+b1
+Version: 0.10.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libportal (0.9.1-2)
+Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 199
+Installed-Size: 207
 Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0)
-Filename: ./libportal1_0.9.1-2+b1_amd64.deb
-Size: 57312
-MD5sum: 105174aa797336012de65818675851f9
-SHA1: 0727f419752242e2c83be27e575e0f1bfa23f812
-SHA256: e42f483fc194617456851008b61451633d62bd6d3ec62a1f8908024b0c7ed0c2
-SHA512: 19d39fbafe4760df3b4193ec4108151f414dc16c08d60ac94a96c2f6140f2080712caadb621a2b325d9718e07298d02f0158db07d30b9f87af580da10463dbea
+Filename: ./libportal1_0.10.0-1_amd64.deb
+Size: 61216
+MD5sum: 20ef063bf4cf480d20d69e65ceaf2552
+SHA1: 2701e53726c3b356792b599b422bf5cd3b0102a8
+SHA256: a39e80afe82923d3a643a45b55b2107004bc8a9a0558d5ef924f8c807b2d98e8
+SHA512: e00461b08dcfdaa3b4fd01ef43becba05ebb13a1649158a0884c471e50e71cbb33c4502680675d11c21050c0642d1d94dbf02965c78b7994913a66d24da2340b
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library - non-GUI part
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
