@@ -430,21 +430,20 @@ Description: Apache HTTP Server (modules and other binary files)
 
 Package: appstream
 Architecture: amd64
-Version: 1.1.2-1+b1
+Version: 1.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
-Source: appstream (1.1.2-1)
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 3926
+Installed-Size: 4284
 Depends: shared-mime-info, libappstream5 (>= 1.0.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0)
 Suggests: apt-config-icons
-Filename: ./appstream_1.1.2-1+b1_amd64.deb
-Size: 564088
-MD5sum: 4cae1ce1a05e4fe5e9a2bcf998b0c5fc
-SHA1: f9271ec7f19115346fb577241ad2dbafde9f9491
-SHA256: f885718602f2b34532ba9d203049c50c399170d841bbd5ce92272af851fa4873
-SHA512: 156df446319ec2a8c5639029b28e50026545a88399480ce83ea79f8f218f52d9ae36012668fae1c0475b291e2459fb1e4f79a74cc9b8ed56183e60bca2105546
+Filename: ./appstream_1.1.3-1_amd64.deb
+Size: 602016
+MD5sum: fd738131af5d1fe3fb02dbeff733cf80
+SHA1: 1d61f1a6641d5da2899d5406e4a57546a4190638
+SHA256: fa2d50e35276ee30f99160c71e027071d34078577731ae5a616f79e19e1263f9
+SHA512: 2d9e689ed53e0d343570fee1240d49b51711cb6856da68315517d66895a0cee14eaace0a9e7cf6e9ab0c4f2de2ff7d041db7245e75b02e733cf6eb6b55a808d3
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Software component metadata management
  AppStream is a metadata specification which permits software components to
@@ -464,20 +463,20 @@ Description: Software component metadata management
 
 Package: apt-config-icons-hidpi
 Architecture: all
-Version: 1.1.2-1
+Version: 1.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 23
+Installed-Size: 21
 Depends: apt-config-icons
-Filename: ./apt-config-icons-hidpi_1.1.2-1_all.deb
-Size: 8464
-MD5sum: 99f7b9fa781a50fc1aec6404d4fd3c1d
-SHA1: eaa1b9daa80144708f5ea96066a944aa546f2050
-SHA256: 7d5b22f7284f4b2dde159b794cb0c20fd1a5223a7bf81223d6dc6678681834bc
-SHA512: 9f00148a77a132f7e70b5185880235a837b1d81843945233a4bbdd4c7129bc0031756632e92a31693d7ae7a4c6d231a1a3f372ac730aa6b279572779c7978135
+Filename: ./apt-config-icons-hidpi_1.1.3-1_all.deb
+Size: 5844
+MD5sum: 12622b4df48b1ceb091203d1948d441a
+SHA1: 212c17dec7530895595544b3be642f03dd801638
+SHA256: 661ecfe53dfe90f9e9b5858c6ebebfa8634101a8cc44308e226e510db35d7439
+SHA512: 8836e6534cf451d241e32875ec8cf39ad54c7b04c620b48eb7889f7d57c2a6dfae1ca3cf363f0a3daaecd6b3e9aaf35f4a121c00217714d2ad2215de7eeb66f8
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable HiDPI icon downloads
  This package contains an APT configuration snippet that enables the
@@ -491,20 +490,20 @@ Description: APT configuration snippet to enable HiDPI icon downloads
 
 Package: apt-config-icons-large-hidpi
 Architecture: all
-Version: 1.1.2-1
+Version: 1.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 23
+Installed-Size: 21
 Depends: apt-config-icons-large
-Filename: ./apt-config-icons-large-hidpi_1.1.2-1_all.deb
-Size: 8548
-MD5sum: 835860fdaf698cd24e3e1f7e93f55c1e
-SHA1: 448b964ff9b7186b368cd313338a06fbfb54d212
-SHA256: ed1b345d9f6bd8063159f8bd43ff25d21165954e7a3a4ce6de6a5f79e52cd401
-SHA512: f0b6785d65580734e060b8339d3d7b40f9e5787c47ee00f3f8436a0ffa6df913cf4119b8a9ee76c1d02ca900b587a5978e872cef04d2a9ddfe54357f7f7c8633
+Filename: ./apt-config-icons-large-hidpi_1.1.3-1_all.deb
+Size: 5924
+MD5sum: dafaefd6b5099cd8d40786fd5dfc6ca4
+SHA1: 3341f3b844908092a9e83737f90a4aaea3750519
+SHA256: 5525d211d06ada9cdec6be081c196deb3ba876e18e72e48432841b1493f1abbf
+SHA512: 934d6869e1c3e582557204dbdf96be0b9a60488fd14d2bcde55b7e389b77581d7ad89b0a969f1d5dac83b84d6a57329f5109420c6f8a3d96f4d49a5df46487c3
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable large HiDPI icon downloads
  This package contains an APT configuration snippet that enables the
@@ -520,20 +519,20 @@ Description: APT configuration snippet to enable large HiDPI icon downloads
 
 Package: apt-config-icons-large
 Architecture: all
-Version: 1.1.2-1
+Version: 1.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 23
+Installed-Size: 21
 Depends: apt-config-icons
-Filename: ./apt-config-icons-large_1.1.2-1_all.deb
-Size: 8548
-MD5sum: f5edb7386012401b066a311a1b82051b
-SHA1: 7bc43cca7e57aae8b2df5438001e4ce7e333ac22
-SHA256: 698534e1447fae02f173012c41893e86045b0245cd573259db141146b09d0b57
-SHA512: ac07ce5dad13200249c9222f39d34edcf0ce8aeb8b79babff5da218afc0d626eded0c282725fb8ac21f2d0b04cf678b636cc60028662bc8852462b732767c261
+Filename: ./apt-config-icons-large_1.1.3-1_all.deb
+Size: 5924
+MD5sum: ba0fb55f4f18ea3071e0697f1e7d881a
+SHA1: 752fa6d5b395d6bf6e8fe9c50de9b937ff7a9613
+SHA256: 1d3e7e1701aa10006ffe8e0a27f798610c0314bd39c6ce992a85d938a99ff242
+SHA512: cc5657ffcf29c7711c658595afde18b346ad9cab32c75ea3d88bdecc6169653f7e8a8a067fb2af208a60ab9847e0ff9e72acd7b464f02ddc8bd256a13751fbf1
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable large icon downloads
  This package contains an APT configuration snippet that enables the
@@ -548,20 +547,20 @@ Description: APT configuration snippet to enable large icon downloads
 
 Package: apt-config-icons
 Architecture: all
-Version: 1.1.2-1
+Version: 1.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 23
+Installed-Size: 21
 Depends: appstream
-Filename: ./apt-config-icons_1.1.2-1_all.deb
-Size: 8544
-MD5sum: 72de11d547fea5108cc10f8b3b08d9d1
-SHA1: 0e6a94369ee68c8556c5bad5bf9ea16cebd0a673
-SHA256: 4ff8fb689060e90a4e78b2acb47e9680a0d178d3990045083155957d28645fbf
-SHA512: 26462d34f2fd71d01ff483cb68003f28e279ebebc26d346c2e34fc5c16051c6c3dfe9dc9a7003b385190a07c78df68ab85d598562fed58d7aa8814e761e161f2
+Filename: ./apt-config-icons_1.1.3-1_all.deb
+Size: 5920
+MD5sum: ca0ac47e6207442a5730ee897df12acc
+SHA1: 9a50020c9e2f739970fbe4de6af36c9069aca74e
+SHA256: 2dcf4462f6e992d73df5a69f9386e1318dd9f6b3e8adbcc8c20eafc983b72ed9
+SHA512: 4e4fdf9d58f1bc62ab0e3489e9955c7b468ec2fe838f604b0b69f9028f4966adb89bcbe9c672148a3a8530cb5d241fd6525ebc70bf4e2c3deb30a7533a626573
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable icon downloads
  This package contains an APT configuration snippet that enables the
@@ -15119,20 +15118,20 @@ Description: Zeroconf support for Apache 2 via avahi
 
 Package: libappstream5
 Architecture: amd64
-Version: 1.1.2-1+b1
+Version: 1.1.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: appstream (1.1.2-1)
+Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 785
-Depends: libc6 (>= 2.33), libcurl3t64-gnutls (>= 7.63.0), libfyaml0 (>= 0.9), libglib2.0-0t64 (>= 2.80.0), libstemmer0d (>= 0+svn527), libsystemd0 (>= 242), libxml2-16 (>= 2.14.1), libxmlb2 (>= 0.3.13), libzstd1 (>= 1.5.5)
-Filename: ./libappstream5_1.1.2-1+b1_amd64.deb
-Size: 225316
-MD5sum: 8ffbb06b7d2861418bb5b1c9f7f736fb
-SHA1: 0698645a075591a9c456aea8a7e96bfa07e8c429
-SHA256: f61a643d0fd165bd00c402eee2ee146f0d8a4315dfe352da7d248b3649a4511d
-SHA512: 744b10ece556bb22ceb78f36417f0d422d9e27283b31b997ab034bc57fe1309ec7f4eafc67f1dba96518294a2f556bb1055a0df4bb9b6d59a0ce757ae4b2928c
+Installed-Size: 796
+Depends: libc6 (>= 2.33), libcurl4-gnutls (>= 8.20.0-3~), libfyaml0 (>= 0.9), libglib2.0-0t64 (>= 2.80.0), libstemmer0d (>= 0+svn527), libsystemd0 (>= 242), libxml2-16 (>= 2.14.1), libxmlb2 (>= 0.3.13), libzstd1 (>= 1.5.5)
+Filename: ./libappstream5_1.1.3-1_amd64.deb
+Size: 228284
+MD5sum: d56840a8944a7d8c9e808a79d6b971da
+SHA1: 907389c2d974aa3ae1b054fb97997a7a86cb918d
+SHA256: 0c2275c2353774ace4b644dc9861f098e6f7b76a35b23259fc30ec19ee8c6d36
+SHA512: 6fda9f988c679da491ff7e7b876e81b64355b0ed5c9f5ea4f060d1dce779ffac460da3a55387dc274a92e5b4bf93762f62bc31d9afdac35e99da85660d94ed90
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Library to access AppStream services
  AppStream is a metadata specification which permits software components to
@@ -15149,20 +15148,20 @@ Description: Library to access AppStream services
 
 Package: libappstreamqt3
 Architecture: amd64
-Version: 1.1.2-1+b1
+Version: 1.1.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: appstream (1.1.2-1)
+Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 537
+Installed-Size: 536
 Depends: libappstream5 (>= 1.0.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.62), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libappstreamqt3_1.1.2-1+b1_amd64.deb
-Size: 101208
-MD5sum: dc19b298e9e9c11fede110aa370fdf5f
-SHA1: 4b933a749b639b894359034feafce4aac508ec3c
-SHA256: aab0b885b28decb26a07aee90c96031d295bbbf81e6dfc4783f000512db51290
-SHA512: b7278f387efaca5caae21b1c23b13a639cfadf204ac9a16a9dcc41dc36c0344f25cb30ec227b0f2502c97f7e4e5441a400acdc71568ea6d6b2beb0babb8a9551
+Filename: ./libappstreamqt3_1.1.3-1_amd64.deb
+Size: 100992
+MD5sum: 9f9f2fcf0d771892635cbaad384f6ea5
+SHA1: 9f181ac16aba7c9c60d2d8cc61e2657f44910d9c
+SHA256: 7ca8d89e0751fd11afd77d1d404e221d956e3dd7acd11e41db0ed023ffede7e2
+SHA512: 6e64c9199bfcfcf2924e729a60f78517e226002f033bf536d0206adc2bb1a630c343136cd32870bd0337119aa6c21cc22fe79ec2c2ee67cf586db4564fbf5701
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Qt6 library to access AppStream services
  AppStream is a metadata specification which permits software components to
@@ -25316,20 +25315,20 @@ Description: GLib JSON manipulation library (common files)
 
 Package: libjsoncpp26
 Architecture: amd64
-Version: 1.9.7-2
+Version: 1.9.7-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libjsoncpp
 Maintainer: Timo Röhling <roehling@debian.org>
-Installed-Size: 304
+Installed-Size: 305
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libjsoncpp26_1.9.7-2_amd64.deb
-Size: 86452
-MD5sum: bb4987f7af6e7beca066f6489d029d88
-SHA1: 8acd3bcb5e9b16b64ec3aa83dc5dbe22984c78c2
-SHA256: 67a39179f25e115b0ee5c09ad02985307fe19314f9f3219bc88e9012136c7eff
-SHA512: c75deeeddbf8fd9ed8c744d267b50bbe1547652fe21d3d2be6abc9e6afa5e0e679d98eaf948968daf4f690838a68d85ed3fcbfaee4c7a005594c9f43052bbed3
+Filename: ./libjsoncpp26_1.9.7-4_amd64.deb
+Size: 86768
+MD5sum: 287121d94c1bd42a824bf40993dcec15
+SHA1: 7f695af1e9e8cac48c9ce2c313cbf25f2cc936ee
+SHA256: d35b0af47881544f8f69b4ec112fa3f89fa0116f4dab09056602bec6a8665e19
+SHA512: 99f0563dbd2766a3db357d903837f042a2dd7c630f0e21301956ef031f95c94bac9261021550bcf0d800e9226a0e776ff28400fdeac860c7e3c21c1e96a26938
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: library for reading and writing JSON for C++
  jsoncpp is an implementation of a JSON reader and writer in C++. JSON
@@ -32287,7 +32286,7 @@ Description: Shared library for the Lua interpreter version 5.3
 
 Package: liblua5.5-0
 Architecture: amd64
-Version: 5.5.0-3
+Version: 5.5.0-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32295,12 +32294,12 @@ Source: lua5.5
 Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
 Installed-Size: 600
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
-Filename: ./liblua5.5-0_5.5.0-3_amd64.deb
-Size: 154660
-MD5sum: b251846571b5367fc47e9146624df06c
-SHA1: 8ae40ed302acc708e38a21834b11aaadc9a91cfe
-SHA256: 4ac6e86e0eb596581932a34f78be1fa7180e9367edaf45c8adb502544d1fdd24
-SHA512: ce5d6f2be0595808357a73ebb007ba2a614c25d6325548f4d4ed8c32b7919b2e0de6dd8d82d308bb78b147d2cb6c8131b2f4fe3176953f0c593e0c3af5c524e3
+Filename: ./liblua5.5-0_5.5.0-4_amd64.deb
+Size: 154472
+MD5sum: 0a8c8250a9c6e4bd665a098f516865dd
+SHA1: 87fc3a905d26e451f8018253cd569a6be7c11295
+SHA256: 92a5892dd37863f87615f44b2b0849b0d037ce52caa24bff3b1134a4d3a51ccf
+SHA512: f50c62d4a8c7c2981a990146d77ae5552511b2b0667ee0ee5ccbd2af22041a0e03bc0c6899a57cc79a265cef4eea7649478783368e722571e1c6ee9428300704
 Homepage: http://www.lua.org
 Description: Shared library for the Lua interpreter version 5.5
  Lua is a powerful, light-weight programming language designed for extending
