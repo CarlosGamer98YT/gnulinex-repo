@@ -8028,21 +8028,21 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 549
-Provides: gir1.2-gstallocators-1.0 (= 1.28.3-1), gir1.2-gstapp-1.0 (= 1.28.3-1), gir1.2-gstaudio-1.0 (= 1.28.3-1), gir1.2-gstgl-1.0 (= 1.28.3-1), gir1.2-gstglegl-1.0 (= 1.28.3-1), gir1.2-gstglwayland-1.0 (= 1.28.3-1), gir1.2-gstglx11-1.0 (= 1.28.3-1), gir1.2-gstpbutils-1.0 (= 1.28.3-1), gir1.2-gstrtp-1.0 (= 1.28.3-1), gir1.2-gstrtsp-1.0 (= 1.28.3-1), gir1.2-gstsdp-1.0 (= 1.28.3-1), gir1.2-gsttag-1.0 (= 1.28.3-1), gir1.2-gstvideo-1.0 (= 1.28.3-1)
+Installed-Size: 552
+Provides: gir1.2-gstallocators-1.0 (= 1.28.4-1), gir1.2-gstapp-1.0 (= 1.28.4-1), gir1.2-gstaudio-1.0 (= 1.28.4-1), gir1.2-gstgl-1.0 (= 1.28.4-1), gir1.2-gstglegl-1.0 (= 1.28.4-1), gir1.2-gstglwayland-1.0 (= 1.28.4-1), gir1.2-gstglx11-1.0 (= 1.28.4-1), gir1.2-gstpbutils-1.0 (= 1.28.4-1), gir1.2-gstrtp-1.0 (= 1.28.4-1), gir1.2-gstrtsp-1.0 (= 1.28.4-1), gir1.2-gstsdp-1.0 (= 1.28.4-1), gir1.2-gsttag-1.0 (= 1.28.4-1), gir1.2-gstvideo-1.0 (= 1.28.4-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstbase-1.0 (>= 1.28.3), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
-Filename: ./gir1.2-gst-plugins-base-1.0_1.28.3-1_amd64.deb
-Size: 159520
-MD5sum: 9172686d6ed9480fc54c24ba4d687708
-SHA1: 41b5ac7e5bc66661073a8d407f4f39217a43007a
-SHA256: 353e9ace638f339c6bec543aa1700ce5d58ecdb83e4b00e32fe02e7e3a56b8c8
-SHA512: 7e6930f17890ede3cc06af8902faa1dec7c63cd64b5327a553fe9698c3352fff2ad7eecff07b48be43354e58950c4f475571d22a2d950d8f94ef67e1b0e76c51
+Filename: ./gir1.2-gst-plugins-base-1.0_1.28.4-1_amd64.deb
+Size: 162108
+MD5sum: 6ca342315c8ca6610a665e1621b020de
+SHA1: 6481d1797212b890a1eab1c1c0e5818b4483f3d2
+SHA256: 626aa58f2d91b241674a696d6df614e77d1aae5bd621813b5e10e489bc241432
+SHA512: 473465ea85b5dd156fff05f9564b78c4c1012fedf925515883ba49f716a8a3b49fa96fae31ce5e62d2b9aebbce5fa021bb9bbeecfdb1af78de8b284dcf7e656d
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -11905,23 +11905,23 @@ Description: GSettings desktop-wide schemas
 
 Package: gstreamer1.0-gl
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 463
+Installed-Size: 466
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-gl_1.28.3-1_amd64.deb
-Size: 176748
-MD5sum: c8d353d3506b9564d3dd799bc9e82a13
-SHA1: 7ac4aa6f93c2e26270af8cf9a8f609d6df537c8b
-SHA256: 65e4963834a45f3cdbb69f23a624b2e6c0236196ade6ae35113465a3e7269524
-SHA512: d6290209e05078808bf7b224bfaab1c45b3402298bc3ca046bc531ac27b3c0f37157aa1cde6bd6c1322eebe9ef670fd61d7706fd44a560eebabcd02d60fb5829
+Filename: ./gstreamer1.0-gl_1.28.4-1_amd64.deb
+Size: 179252
+MD5sum: 1be0e32eafdb77e15de51ef0cf9464aa
+SHA1: 6b82551f8fd65497d30ccd4b5ec80ea03537d992
+SHA256: d58c5ddf74650b6b6e4270cdeb752bc7355e9c29e6791df65aae1423229245a5
+SHA512: 5420c63e58d67de27cd1da0177492144f6aad3b14121b6c71676858256070efc3907b1d6f854881c0dcafc0480cb4ee02864c2c2a9a22e1a307fd14e7bac67b9
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12114,24 +12114,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-base
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2625
+Installed-Size: 2628
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-plugins-base_1.28.3-1_amd64.deb
-Size: 788444
-MD5sum: 20ffd3783afef6db4b63702701b532ba
-SHA1: 692e75262c1de1189196aa2507ce55688d8221ed
-SHA256: 21c606a2ae2b9ca6c9045513c1432852f76f1d2e47d86ddf1072e048165e8a7d
-SHA512: b8b3ccee37a3eb3e4dbf450d3066a0c7ed83f5dae5c817aaf58eda7f4b70b80a2df056cfc31fb45240bb47eabdae391cfae63e81788e70c9ee5cbe5a8b8e3ab5
+Filename: ./gstreamer1.0-plugins-base_1.28.4-1_amd64.deb
+Size: 790392
+MD5sum: cdb138e18503c4e818fa97100fe6f91b
+SHA1: bcc51572e9e63fd8053adf8e093c4c93411ca416
+SHA256: 1c5c421389d1a8742e55cba0c92fbc14854d7f5d661f295c2d5df33ac4af49fd
+SHA512: 74fa1a9fa9e44b943699b59e11050c5e753fe146643f335b522303c833be1ac04f6bf8387ddc4b26e4eaec663cb21dad14eb7b1a4d4135f5e8b598d2c2de55dc
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12190,21 +12190,21 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-x
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 372
+Installed-Size: 375
 Provides: gstreamer1.0-videosink
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
-Filename: ./gstreamer1.0-x_1.28.3-1_amd64.deb
-Size: 142620
-MD5sum: 2d1180d5adc21d7c2ce5821309e063bd
-SHA1: cdd7c65cbb9172da1833989fa451a9b6e3fc7d79
-SHA256: 41619305755a87f027c18584f1f16f5d46fb94afdcb5b458607b869dea409d5f
-SHA512: 9c54c19c67e6ea1cddef75aa5ebbb6c2d6a601202c5f90b26834900848f8d99f81eb7eaa8b483fbda5d68d1285cde2f8efcc1d77d3d2f917bee87c8fb8eedfa9
+Filename: ./gstreamer1.0-x_1.28.4-1_amd64.deb
+Size: 144872
+MD5sum: 5072309590c73487e8ca8f8cf93c5545
+SHA1: 2cc1f4a7eb0540c6c1feb800884ccad95b177b11
+SHA256: f862a74b6b7637c2b87e5393b9b5073ac96dfe984dcbe397fb2459de26647726
+SHA512: 50ca29fc6040036413a1fe842d5697f26f902b4c427b7bb432acb20664ed1c82f261790e142d87d18e91d3f516a99443bbfc9d7d1fe1f0d6ed1ec208caed2cc4
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23287,23 +23287,23 @@ Description: libgspell architecture-independent files
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 764
+Installed-Size: 767
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.27.50), libgstreamer1.0-0 (>= 1.28.3), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: ./libgstreamer-gl1.0-0_1.28.3-1_amd64.deb
-Size: 274008
-MD5sum: c7a0a58898f0ba9157fd790eb77d8e72
-SHA1: b1bcd17f0ba42513f98b5f2bd6e51680ee325572
-SHA256: ddce8f059239657c234119be66c34f08ec36057b191c0062cb7555afa129a2e8
-SHA512: 5916d1265b5d3a16432636e85a5aa4615c16eb2fb3a2ce72d94c651292370c6688219634c32da8755e5d58918f74d0cc879312462925a5a6d8631af603d8f380
+Filename: ./libgstreamer-gl1.0-0_1.28.4-1_amd64.deb
+Size: 276100
+MD5sum: ad71f4644c57b9703c87213f949ddd49
+SHA1: e842e57225ba9b99e551516bdcf82fb11cb6fecc
+SHA256: ce0af380d10b6a2e904d45a0022a910e9fee0949d3a149e2f4d9f63d539a66f4
+SHA512: 7dccfd60f3567bfecd5a3fc043525178c5a53a1b46df124f5c986678df0b1cc07e32e0c303193827c45b3bf7ff69e728211119cd3f1f891cc8158fec096b10e6
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23351,24 +23351,24 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
-Version: 1.28.3-1
+Version: 1.28.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 3833
+Installed-Size: 3836
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.81.1), libgstreamer1.0-0 (>= 1.28.3), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
 Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: ./libgstreamer-plugins-base1.0-0_1.28.3-1_amd64.deb
-Size: 1042448
-MD5sum: 70e5bb3545041855ff9f99a778237ffc
-SHA1: 5788da6698ac6089789f20c7225c784e3e840609
-SHA256: 6aec21d81ae122ed825f977195f8295eaa6a06b95f93701c50f89172e36eb154
-SHA512: 129fe440e3572a76c1e778ebf688cbc90db27b743c49c6c4d16babf523caca0ed58c86b561ac6f5b7de1c321435dc8821a1650d7d11245d789bace13435e2151
+Filename: ./libgstreamer-plugins-base1.0-0_1.28.4-1_amd64.deb
+Size: 1045604
+MD5sum: bd763a269fd52eecb32ea92cf276d475
+SHA1: ba40f089a669e622fbc9ce920502a5a6a4cbe5dd
+SHA256: 176a05be09a4365e3b9f3faeb1dddbc134f393e01cc7076100e8c8cb85e826b1
+SHA512: 9eafbbf221ef7fb51f2a01761f45b2c597b70d9fb9376103dcc30cfaa1afac774966a0601fe1c9b3afe8d564894dea7a00ede8a9dfe8f36f33b8f31e4e5b5e1b
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
