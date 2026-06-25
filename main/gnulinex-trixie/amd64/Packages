@@ -658,7 +658,7 @@ Description: GNU Aspell spell-checker
 
 Package: at-spi2-common
 Architecture: all
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -667,31 +667,31 @@ Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1391
 Breaks: at-spi2-core (<< 2.46.0-2~)
 Replaces: at-spi2-core (<< 2.46.0-2~)
-Filename: ./at-spi2-common_2.60.3-1_all.deb
-Size: 173268
-MD5sum: a35b690e16d0a5e4a2ddf518e11ee64d
-SHA1: 2502e3edb5d4b8d7d06553ea411287323d7bdf4e
-SHA256: f84735551cbba8c255c532d3b80d555ddc2b569cef55521ea9685bf2ca69aac8
-SHA512: a374be78b2937b540dd6317fe6e44e2b64383bc7307ab88e92b789eaa644dd4f4c8943c80e14685237b9fe4ac29a841175a2bf4de918a187e18ec9ca0ea66f50
+Filename: ./at-spi2-common_2.60.4-1_all.deb
+Size: 173192
+MD5sum: 07bbae98c3991cd110b9d18dc630080d
+SHA1: 59eb3ed078b8d74ee18ed1a1eb3d5de29a933341
+SHA256: be0136699950702e539878ca39cb3b5d64b6ef6d1950e5ad6749f33ded2bb52d
+SHA512: 35fb4774fae2f504228e515552c327de571a8c1602ded207accbc6d9dcb666558b5c39727d315f03e653c92810402d1aaacae29648e61fb7102c4f6c64d1a825
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
 Package: at-spi2-core
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 213
-Depends: libatspi2.0-0t64 (= 2.60.3-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
-Filename: ./at-spi2-core_2.60.3-1_amd64.deb
-Size: 61496
-MD5sum: 706ef2aff026d4f3a1634a454db8aac4
-SHA1: 7b8b81942ce7dff273d12c5236a62be3fb6f2241
-SHA256: 17d2f64fbe6a6fec8465069adec96e2eebd4e545175943c549c7439f2c800252
-SHA512: ecad839e117670975cb35b3812b59a2f9468b2426078ad54623307a7f679164ffaeeac58ce803fe5bf60ae621cd0d2d39921611dbebffdc3b6cac77e4758ce87
+Depends: libatspi2.0-0t64 (= 2.60.4-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
+Filename: ./at-spi2-core_2.60.4-1_amd64.deb
+Size: 61656
+MD5sum: 231eeab450f67de095005b0c41b9f921
+SHA1: d7a17cf72f6f178a8d7acadd8a8a0fc286a39909
+SHA256: f6a1be725073d8b28ead5b35bd8919e6ee13228e6c54f10a0213be5baa82774b
+SHA512: 320308b7b0b06b440ac306852c35bb9a9709b3ecaa4ac774cea652cdf490dd663eeb9ec902b31afaed75b04ecdaae4f04396057cd979b6ed75bc6cb2b5574511
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (D-Bus core)
  This package contains the core components of GNOME Accessibility.
@@ -6881,20 +6881,20 @@ Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
 
 Package: gir1.2-atk-1.0
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 100
-Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.60.3-1)
-Filename: ./gir1.2-atk-1.0_2.60.3-1_amd64.deb
-Size: 23396
-MD5sum: 5a3bf739ad688cea61b7da0c561e5b09
-SHA1: 49add37e849f7c7491e1f7370716a2457974a1c9
-SHA256: fb0b7779f3fcb219d04d8c631d7618918dc13dbfd0f2a666ddef4f253c3b08c1
-SHA512: f7cc119765b13db1a597b8f86d129ccbc2de1b6352dee0c6b95e6582d2b31ef104877d38a5e53dcab074b75028f8ff89705ed5c7744adbd7086e657562e782c0
+Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.60.4-1)
+Filename: ./gir1.2-atk-1.0_2.60.4-1_amd64.deb
+Size: 23404
+MD5sum: 1fce851926bd40cff37710a3c841903f
+SHA1: 03047d87f1f8e2ba4e233f3f77e6c55f22dc58f4
+SHA256: 6c609bf39c18a57cd5968feec4f9bd97e7a15dead2dc567d81dd2104faae184a
+SHA512: ef9fa373cf889155cf091d31b5f9c70863a55763862c6789bc54ecc9b8603443e2d5e6b32bd163d4347763a5fee9f2d9aa968715b056576aca25365fc2e40943
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit (GObject introspection)
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -6907,22 +6907,22 @@ Description: ATK accessibility toolkit (GObject introspection)
 
 Package: gir1.2-atspi-2.0
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 95
-Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.60.3-1), python3:any
+Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.60.4-1), python3:any
 Breaks: python3-pyatspi (<< 2.57.0-1)
 Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
-Filename: ./gir1.2-atspi-2.0_2.60.3-1_amd64.deb
-Size: 23020
-MD5sum: 6b9c31027400458683be53b22366ee97
-SHA1: 56f83562ddc43b2894ca6cec4a2ae93ff658ccc5
-SHA256: 2f6eb1647af00d07be26536b57effdeed0725490c76591587186c5efc8df0de4
-SHA512: 2372c4107cd3e3ee2ce8bfd07c05fd863176649000c233b99e95da3e8213331ee9ee4851b6be1eb622e9950579579c3e556803fab967d54760a1f4aa973be55a
+Filename: ./gir1.2-atspi-2.0_2.60.4-1_amd64.deb
+Size: 23028
+MD5sum: b81b33a4e24def67657a4aec78c565ed
+SHA1: d16f747c0a0f0c4b839516e5902c1b5617b12724
+SHA256: 2281fab2cb0e29332b2438201033c0c6239c00f15bdb4b68f17a3af79a5df402
+SHA512: 99e205c2208f067f7761ef83dd6cdd3423b662a6d60dda26aacf79208877abb6cf4b27b803a8557d9af03e9a94d5b82c9de07804d96b127b75fb5976e97de83f
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
@@ -15470,7 +15470,7 @@ Description: GNU Aspell spell-checker runtime library
 
 Package: libatk-adaptor
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: misc
@@ -15478,15 +15478,15 @@ Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 56
 Provides: at-spi
-Depends: libatk-bridge2.0-0t64 (= 2.60.3-1), libglib2.0-0t64 (>= 2.62)
+Depends: libatk-bridge2.0-0t64 (= 2.60.4-1), libglib2.0-0t64 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
-Filename: ./libatk-adaptor_2.60.3-1_amd64.deb
-Size: 9028
-MD5sum: 74eac3868951c94ca97b49d107d04d83
-SHA1: 7b81577a2dae2ea1d7740c8eeebf5fb6267545d8
-SHA256: 1485f2d686feb60264dc844f8c13698d70d414348daff7260aaaf1418c8c593c
-SHA512: a7a9bfb17f9930a081fc48ff45229bd34d59e38d21a19fd187ecf748773e9e9e5c861d4a4a58783c9655dc304f5aeffa96d4078deb62a82d0bad130845c0c29b
+Filename: ./libatk-adaptor_2.60.4-1_amd64.deb
+Size: 9024
+MD5sum: ddd14bb2dddea10ac38e2131dcd062d8
+SHA1: 21fa9b7fe17420bda67d9dc0965c1ab31095f373
+SHA256: d936456dcf310de0737ee069acf6d9f99590298292efb8fbef65a9d7f5e3572e
+SHA512: f68050f5a489c065808e5f856161beedd84812bbb19c286f5ac689b5e46ca9492639e83c6c665da469abb18576a160306e7cc32fbccba51aa8e82b35b57d365a
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
@@ -15494,43 +15494,43 @@ Description: AT-SPI 2 toolkit bridge
 
 Package: libatk-bridge2.0-0t64
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 283
-Provides: libatk-bridge2.0-0 (= 2.60.3-1)
-Depends: libatk1.0-0t64 (= 2.60.3-1), libatspi2.0-0t64 (= 2.60.3-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libatk-bridge2.0-0 (<< 2.60.3-1)
+Provides: libatk-bridge2.0-0 (= 2.60.4-1)
+Depends: libatk1.0-0t64 (= 2.60.4-1), libatspi2.0-0t64 (= 2.60.4-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
+Breaks: libatk-bridge2.0-0 (<< 2.60.4-1)
 Replaces: libatk-bridge2.0-0
-Filename: ./libatk-bridge2.0-0t64_2.60.3-1_amd64.deb
-Size: 66708
-MD5sum: 6659c262ff9e947ef2fb4af84f4bdd7d
-SHA1: e7fbfbd8cd166d2b9cd2fd0a5913ce6392874073
-SHA256: 6e39bdab92fd0cd2ce3c7b59df41841bb756ba3a68831d1235501db21f3bb5e8
-SHA512: 87e141dde103935a7a9118a80837b4afc790686686d3f9515f0877ac2f4d08fc579dead820a0bd110cbaddbe34314545f79579c7d09a92620001ea20fc64c9b7
+Filename: ./libatk-bridge2.0-0t64_2.60.4-1_amd64.deb
+Size: 67108
+MD5sum: 089ac8b17eb8c4b2adddd9e237d7e00b
+SHA1: 5dae4f2bfebb8f0ab0cffc61d6cb7b1043c2c008
+SHA256: 95bdd1ab76a349648c946aba9ffd151bfc61a3854659a199477aee7e9c6e378a
+SHA512: b61922ac69dd60065ca66b33f8e7c72347cb51efd5ca3afacdccb054dc0dead1767695ea47163eee2fc822cb9385da5ac5d5f2c3adfd7f379edb06ce0be2b308
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge - shared library
  This package contains the ATK bridge shared library.
 
 Package: libatk-bridge2.0-dev
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 32
-Depends: libatk-bridge2.0-0t64 (= 2.60.3-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.60.3-1)
-Filename: ./libatk-bridge2.0-dev_2.60.3-1_amd64.deb
-Size: 7548
-MD5sum: 4bd3506b61419fe979905c99cef5c6dd
-SHA1: c29b66e67f94cb595def7dae94281acc771b7270
-SHA256: 29b5c5d3a5670bd36611e54cc85e94ff45f47060d67c27d60b5ab2b25289945f
-SHA512: ad1150f1d08eaf86f9ffde934481a531f440678ba72ed13c5866cb2e4a2e4711772d0289f2d97e06789ceeafea31c41091ce6736ddb32a871d742d5913e525aa
+Depends: libatk-bridge2.0-0t64 (= 2.60.4-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.60.4-1)
+Filename: ./libatk-bridge2.0-dev_2.60.4-1_amd64.deb
+Size: 7564
+MD5sum: 40bbc60634e2a8fafe53d46c585d2e73
+SHA1: c2d8ae503bded4dc170a5068dec436e0a10bc9db
+SHA256: 8afdb261027a81f70b65fdf1350377c379017e8bd2afd5e996e14f08593653ef
+SHA512: 57097e5f898a68f8def920619f33700d8855a5963a5ef9d454a6197863f7fdb021c6164ea6eafd72dd49d5acf287b532de6e4fd770ae1f40d9720f4891b0189f
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the AT-SPI 2 toolkit bridge
  These are the development files for libatk-bridge2.0, needed for
@@ -15585,23 +15585,23 @@ Description: ATK implementation for Java using JNI
 
 Package: libatk1.0-0t64
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 204
-Provides: libatk1.0-0 (= 2.60.3-1)
+Provides: libatk1.0-0 (= 2.60.4-1)
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), at-spi2-common
-Breaks: libatk1.0-0 (<< 2.60.3-1)
+Breaks: libatk1.0-0 (<< 2.60.4-1)
 Replaces: libatk1.0-0
-Filename: ./libatk1.0-0t64_2.60.3-1_amd64.deb
-Size: 49724
-MD5sum: b9e6e196ea002b37dc690f900cfbc958
-SHA1: 488334afbc770ec82b804f7d083bdbc5e523c5e6
-SHA256: 5ca205153836c8ba8eedccfbdff87380f781a0bfc9f8211adcb1c1796d9aea85
-SHA512: 9b6f7c76b6e8e75261b8a2511d70030192e69792a89b6db8f99fc7b74d90261e10109e05c880ed30fe60d41ebe644b27c0dcb8f78309f6dec4274b65a2639a6b
+Filename: ./libatk1.0-0t64_2.60.4-1_amd64.deb
+Size: 49904
+MD5sum: 44fb2ecc575e8d2c7e60821af3b06429
+SHA1: b2bcdc098ec93a849df7e89813513bb3a870b30c
+SHA256: c6e6902fd4b96a3cf087aecc5847938d55d2c4afd50568cdb90389aa04cb8b9d
+SHA512: 2521fb840d929845ac1ac208ee23c06400c93ba2ec4050466fd4c672fce8078824e9fb216266b4c87f7691a79069c98206219421377dc927187c3aec2f5c6e04
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -15613,22 +15613,22 @@ Description: ATK accessibility toolkit
 
 Package: libatk1.0-dev
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1357
-Provides: gir1.2-atk-1.0-dev (= 2.60.3-1)
-Depends: gir1.2-atk-1.0 (= 2.60.3-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.60.3-1), pkgconf, libglib2.0-dev
+Provides: gir1.2-atk-1.0-dev (= 2.60.4-1)
+Depends: gir1.2-atk-1.0 (= 2.60.4-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.60.4-1), pkgconf, libglib2.0-dev
 Replaces: gir-repository-dev
-Filename: ./libatk1.0-dev_2.60.3-1_amd64.deb
-Size: 103616
-MD5sum: 21a40eadbfe9b189307051fc129d7d8f
-SHA1: fb9a0e238e086797133884f1a35768bb80a4456b
-SHA256: 299af025d36bbcf1c08840e21f0d01aedac264a62aa80f41d5d7284847a88c1d
-SHA512: c4b5a9d3245535e262a17af5d884b8e1f1fb15e7719bc2b2a4e0ff8803f802c72cd645db82ff82f6450a209c1dbf717a3038a3b994e80d9f9d4fe80824afeb99
+Filename: ./libatk1.0-dev_2.60.4-1_amd64.deb
+Size: 103596
+MD5sum: 4ff3089a32fd1a3811b825ac32e0e93c
+SHA1: 490af6cd095a8032ae79f8514b112c7ff1c93dc3
+SHA256: 076e70fac79d4a4a6d48861f1db7d47b62beb6da94c26346e1887235ca4eed3f
+SHA512: a1ae02c33f631a8cc27881cad9e47776901847fa2b0ba862f72caa9220d44971f40aee7aae44975de0026eb5484972d7281b1c2b66868080f7c817e963a30140
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -15741,24 +15741,24 @@ Description: MATE document viewing library
 
 Package: libatspi2.0-0t64
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 285
-Provides: libatspi2.0-0 (= 2.60.3-1)
+Provides: libatspi2.0-0 (= 2.60.4-1)
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4), libxres1 (>= 2:1.2.1)
-Recommends: at-spi2-core (= 2.60.3-1)
-Breaks: libatspi2.0-0 (<< 2.60.3-1)
+Recommends: at-spi2-core (= 2.60.4-1)
+Breaks: libatspi2.0-0 (<< 2.60.4-1)
 Replaces: libatspi2.0-0
-Filename: ./libatspi2.0-0t64_2.60.3-1_amd64.deb
-Size: 81672
-MD5sum: acf0272e1999d28dad50cf99c182ef0f
-SHA1: 3f83de5f32f3b72d74481c4cb1a772a2fcf73f80
-SHA256: 7bd8080aa12ae2ea58d4873f943425a5d6048529976890ff740581cc5b2bc8b7
-SHA512: 18a5f3ddfde1beafdcfcd1b76bd18804f4bf8903cd8982c4937a381b243c7b0846b2a7181fd9ae75209d8540d91cae9aac571dfcacaee1b04d64bb5195a4f70e
+Filename: ./libatspi2.0-0t64_2.60.4-1_amd64.deb
+Size: 81884
+MD5sum: aa6f02ce95bed82dfc9a9a92a5dcfe76
+SHA1: 0e9803d9dcef33f98efc02be53ad5e35bd9ae663
+SHA256: 3aa5cdeb70a7943bc650c21d0474295780f1fdb850d4ab3a3a17d07e20842af4
+SHA512: 202b63695f5f90139e37c3184f745599a1b009311751abef431eb49ba305f9fd436d6dfc353cea9a7c15841dba05f64e5b2cc4de1e8b1c75db3d95d2be3ae6e1
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface - shared library
  This package contains the shared library for applications that wish to use
@@ -15766,22 +15766,22 @@ Description: Assistive Technology Service Provider Interface - shared library
 
 Package: libatspi2.0-dev
 Architecture: amd64
-Version: 2.60.3-1
+Version: 2.60.4-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 890
-Provides: gir1.2-atspi-2.0-dev (= 2.60.3-1)
-Depends: gir1.2-atspi-2.0 (= 2.60.3-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.60.3-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
+Provides: gir1.2-atspi-2.0-dev (= 2.60.4-1)
+Depends: gir1.2-atspi-2.0 (= 2.60.4-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.60.4-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
 Replaces: gir-repository-dev
-Filename: ./libatspi2.0-dev_2.60.3-1_amd64.deb
-Size: 82604
-MD5sum: 7939a851fae7d1adeefb1c2fa44a0282
-SHA1: 0a609a9ee45ad789bf41ed4ef87d899b3506d3bb
-SHA256: ad40412f52888c3454a4149efbddf42b08ab2911aa046e91901502e6a00e3572
-SHA512: 7c1ce71285d67a754b3487640b9c90392d24bbefa0a1c2c826aeb76fc2135f0afe1bf49f7e11a0cab44914c635c504d9eb531ab1f7b870d25695b1418a432918
+Filename: ./libatspi2.0-dev_2.60.4-1_amd64.deb
+Size: 82624
+MD5sum: 06c90b9819d214de81a4320b36262d4b
+SHA1: 826d8f549e38d2ca106a00d0db3a5757f082fe0d
+SHA256: e110ae3a97a6ccb94cebd69851c77d5b0ea47a7b605eb3482d17a119320db409
+SHA512: 323f1d8bbc4ae65f0f447a10ea3549507e7d87531fccf25aad0d7b6868ea03980cd5a93c0ace181afec634190f7faca887fae5c93b0633ee73d35a3dc3aee54a
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the assistive technology service provider
  These are the development files for at-spi2, needed for compilation of
@@ -33987,22 +33987,20 @@ Description: sends desktop notifications to a notification daemon
 
 Package: libnss-myhostname
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 262
-Depends: libc6 (>= 2.38)
-Recommends: libblkid1, libmount1, libselinux1
-Suggests: libcryptsetup12, libidn2-0, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
-Filename: ./libnss-myhostname_260.1-1_amd64.deb
-Size: 101476
-MD5sum: 475c09d3c35032c2cc81d51d91704f85
-SHA1: 2c4f5c0e34922a767dae4c93fcb8b806ebca1cb6
-SHA256: 3ddd332845a856b314ec47dc1896bd4d0d07adc3048d97d858ccce2b29867e5d
-SHA512: cc74730ce5e60ac56c954d5f4823d41615289f0cbff3108bb89b2d74866865b6e556098e05ff067709feaa4e77bce4947373ddf75eaac5637809d6eeffad0782
+Installed-Size: 266
+Depends: libc6 (>= 2.34)
+Filename: ./libnss-myhostname_261-1_amd64.deb
+Size: 104800
+MD5sum: 7a7fa30c5693d410a6901fc3def2cd23
+SHA1: 3e87427e08abb198c781b99cfea16ba19564fbf4
+SHA256: 4f26732fc5661f59cbc994656a93dc7b05f5d630ae780abd4bf15497ce3c1924
+SHA512: 8f9934181977c062f3cf42162516a0b71df80f07da94e2e26dfd2e5dc2f1677de5790428d59374e883f15a5d178bee52d6d2dc0beb6790dd766ac23ae8949e5a
 Homepage: https://systemd.io
 Description: nss module providing fallback resolution for the current hostname
  This package contains a plugin for the Name Service Switch, providing host
@@ -34019,21 +34017,21 @@ Description: nss module providing fallback resolution for the current hostname
 
 Package: libnss-mymachines
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 442
-Depends: libc6 (>= 2.38)
+Installed-Size: 483
+Depends: libc6 (>= 2.34)
 Recommends: systemd-container
-Filename: ./libnss-mymachines_260.1-1_amd64.deb
-Size: 193784
-MD5sum: b2628587ffd3e0a3ca3527da63e4ecaf
-SHA1: 3629d43c2268a2662a02478aedaea32bd8296197
-SHA256: 99f25e48f7f274ef818ac532ded006223680276ca773eed0605dce0b9501664b
-SHA512: 97f81912d94824e28ab963435e1bc12e179defb60141d745c840295436921b0837ed9d1bc7b1f1e114d48bf3aa2913764c5b361c09d5b788c352a3d3520ac051
+Filename: ./libnss-mymachines_261-1_amd64.deb
+Size: 210920
+MD5sum: 649a706b5c00b4c3edd140c1a3991ceb
+SHA1: 56933bdbc06d889da4754d5849194d3b6dacc87c
+SHA256: 4221c44d60557a411966ba8cb97b7aa580de3adf41e4a109c37d0b5a4d9039d6
+SHA512: 7e390c107e4591f821c83141649efa2274bccd4a419d3b60375bd3032b067ab15eb058cc0d3bb3d1c8df854acbb4b47fe5aeb3beaa397969e4aeefb5070838a0
 Homepage: https://systemd.io
 Description: nss module to resolve hostnames for local container instances
  nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
@@ -34045,22 +34043,21 @@ Description: nss module to resolve hostnames for local container instances
 
 Package: libnss-systemd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 515
-Depends: libc6 (>= 2.39)
-Recommends: libblkid1, libcrypt1, libmount1, libselinux1, systemd-userdbd
-Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
-Filename: ./libnss-systemd_260.1-1_amd64.deb
-Size: 207964
-MD5sum: a17c0d86a93b91a05567e351bcea9096
-SHA1: 026a107972940d8741d2ea3e830a684811b9435e
-SHA256: 544d2077b42e2b43e939e27c6fa3709420284ea5bf57e033f82feaa1b912b51c
-SHA512: 57b169a6fe99575ad192884a63fc19edfa917ed24b1e08c2949faf79cd8b2de650e3ed5d33562e0ce565fa9b965b520ab39e0becfde37cfaad00ce96ad731644
+Installed-Size: 552
+Depends: libc6 (>= 2.34)
+Recommends: systemd-userdbd
+Filename: ./libnss-systemd_261-1_amd64.deb
+Size: 224392
+MD5sum: ec5ce6b05f6f463f22f8dbd4c20b314e
+SHA1: 4f7545b2b307a13951e5e903f58e6f07f3e4ec6d
+SHA256: 31a99db56498659961148ee8b8e3885b8c6e6c028a9ea606549742c59357200b
+SHA512: ad487264adfecc32c6a7c13eb60f86e628a9674638ee06520e3206cd0716fb2ca92e1c049b7aee4f917ace2dcaefd3f458d5f28c9bb017e4755afc9c1b2c334e
 Homepage: https://systemd.io
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
@@ -34879,24 +34876,23 @@ Description: Pluggable Authentication Modules for PAM
 
 Package: libpam-systemd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 736
-Provides: default-logind (= 260.1-1), logind (= 260.1-1)
-Depends: libc6 (>= 2.39), libpam0g (>= 0.99.7.1), systemd (= 260.1-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
-Recommends: dbus-user-session, libblkid1, libcrypt1, libmount1, libselinux1
-Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
+Installed-Size: 777
+Provides: default-logind (= 261-1), logind (= 261-1)
+Depends: libc6 (>= 2.34), libpam0g, systemd (= 261-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Recommends: dbus-user-session
 Conflicts: libpam-elogind-compat
-Filename: ./libpam-systemd_260.1-1_amd64.deb
-Size: 298684
-MD5sum: 1b7009474080ccd499629a1f3a97dd65
-SHA1: 678867362e740fc8e686fc040ec0116e5e6da94d
-SHA256: 593d8941f74acbcef0c12aa313d0da03201e2fd37ee30903d30ebacd1314ebf9
-SHA512: 5f50f0f111c410e806e70dd5916d18d32ace7e035b1fe611793ce468b06b491adcdd7dfb37a62f37da35e27fd4a465870f76fe04fe4cc910b2af7e899c52deea
+Filename: ./libpam-systemd_261-1_amd64.deb
+Size: 315616
+MD5sum: 0a6c341a2a5f91b9399d5a55984e38f1
+SHA1: 0dd2a218ba07a92edd4d3677a70858a9414088df
+SHA256: ae11e5abef813d7b7e4eae7ec3714490eb52f0240e9841ae1e4bb493a048e229
+SHA512: a666d38881878a0f4eaf405fef1406ba0aade3826bd561983b3f59a44efb996c247cababca239f2dd23ee6dc6ecc4209e7c59a72c59600fa9e6dc5cf666fbaaf
 Homepage: https://systemd.io
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
@@ -46501,20 +46497,20 @@ Description: Qt-based interface to system statistics
 
 Package: libsystemd-dev
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 5788
-Depends: libsystemd0 (= 260.1-1)
-Filename: ./libsystemd-dev_260.1-1_amd64.deb
-Size: 1307424
-MD5sum: ed84ad7814ca196049dcfd7bfa0e0b21
-SHA1: de6453583fdb23816960584506728cd74eef9d94
-SHA256: 70271a0e7a70a441823c10e85e234e22648dd902800f2900e1733b7ea32fb48a
-SHA512: c347180c4e3ff386f20d112a3cced288810936aa628778c58d1a8cc8d5d7269d04dfc143d00ce0aec65da4bde727d9f1032be4d4ff9be51e6e60dcc4f87d8d2a
+Installed-Size: 6121
+Depends: libsystemd0 (= 261-1)
+Filename: ./libsystemd-dev_261-1_amd64.deb
+Size: 1368312
+MD5sum: a79ecf2e2760003580e048144d9892e8
+SHA1: aeff88f3868bb0236db8b5745c1b44869cdfb71e
+SHA256: 2e9c9d9ab702718e66cc0b9ee7de9713d954dd982375ff44394bbbfcc8b9d162
+SHA512: 22460845fa3beab0fb362b37df1a71e70d8c016a9d97bc3dcbe2035a53a0efd54f48b09f436a277ed45c0ce49595d7d37254fae56e666520133a13c632b370cd
 Homepage: https://systemd.io
 Description: systemd utility library - development files
  This library provides APIs to interface with various system components such as
@@ -46525,22 +46521,22 @@ Description: systemd utility library - development files
 
 Package: libsystemd-shared
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 7849
-Depends: libc6 (>= 2.39), libssl3t64 (>= 3.4.0)
-Recommends: libacl1, libapparmor1, libaudit1, libblkid1, libcrypt1, libkmod2, libmount1, libpam0g, libseccomp2, libselinux1, libzstd1
-Suggests: libarchive13t64, libbpf1, libcryptsetup12, libdw1t64, libelf1t64, libfido2-1, libgcrypt20, libidn2-0, liblz4-1, liblzma5, libp11-kit0, libpcre2-8-0, libpwquality1, libqrencode4, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
-Filename: ./libsystemd-shared_260.1-1_amd64.deb
-Size: 2398028
-MD5sum: 1b17ec9ad9c47a627035256f68fd46de
-SHA1: 08dfc91f745e046627895c1abad8a54d538d5b06
-SHA256: c1bc1bff7d1f0c865f3594cc4d01e6702b22e0abee721cbc13451c29ad40c0dd
-SHA512: 6a19c463105f65f795d7835d3b450949fe7c1d9b6bb76e91196a6c8a1ca43faf1b36e29978b81b9980dcc4e1ddba67253b2cd2b3bb1b6549c028c85645b54912
+Installed-Size: 8507
+Depends: libc6 (>= 2.34)
+Recommends: libacl1, libapparmor1, libaudit1, libblkid1, libbpf1, libcrypt1, libcryptsetup12, libkmod2, libmount1, libpam0g, libseccomp2, libselinux1, libzstd1
+Suggests: libarchive13t64, libbz2-1.0, libcurl4t64, libdw1t64, libelf1t64, libfdisk1, libfido2-1, libgcrypt20, libidn2-0, liblz4-1, liblzma5, libmicrohttpd12t64, libp11-kit0, libpcre2-8-0, libpwquality1, libqrencode4, libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, zlib1g
+Filename: ./libsystemd-shared_261-1_amd64.deb
+Size: 2559752
+MD5sum: 7a1e4ad97d4323ec0c89e7c52a78db6e
+SHA1: 08f12605e79805bb1f3b133d19f11b7340b9bba3
+SHA256: ba6711311d2113f9e53480909c7d73ec5076e5a2aae275691b93f06bdd72f7a0
+SHA512: 1047ae34a66d3a33520aadfa41b0fa4bc486b84f061f7af8abaaa895031b38263c2cc2c782cf2cf9c85d1d1c63d300c93854f0a15195b8afa2de9dbeb8decb49
 Homepage: https://systemd.io
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
@@ -46549,22 +46545,22 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 1219
-Depends: libc6 (>= 2.39)
+Installed-Size: 1277
+Depends: libc6 (>= 2.34)
 Recommends: libzstd1
 Suggests: libgcrypt20, liblz4-1, liblzma5
-Filename: ./libsystemd0_260.1-1_amd64.deb
-Size: 446340
-MD5sum: 9614e159a2b4534b41ddc55976f949fe
-SHA1: 691b1e82ec7929335b1401647908b51599636283
-SHA256: b447d76cde349d3cbff0e859da13876f5a8f1536a13f50c3244a5cf15886af51
-SHA512: 0096179976bf9c8fc717ecd15ece1db51b4355e787d10533e1a93ee75d762f16c69d304646f345f18c98d932a5496fe67411ef6c786af860ec2c58a5427f4525
+Filename: ./libsystemd0_261-1_amd64.deb
+Size: 466812
+MD5sum: b2f4191ce30c655e77f7d25ef19373ab
+SHA1: d5ca6c7c0be22cc6dc66fe92ad10e598132ad6b3
+SHA256: 0fed2a3d5e4b7e5cc8bf9f727b93bb2970e88f77f9d021cd8353f2572cd36a6d
+SHA512: 3890314fe94b228aa47ed44c6c3583fe8a1a41f251c9e98082dbc738c05ef9229d374fdb4e445b3f4ad4e4890f6e4c731ff154cd51c21733bb33294c577228ee
 Homepage: https://systemd.io
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
@@ -47643,20 +47639,20 @@ Description: UBSan -- undefined behaviour sanitizer (runtime)
 
 Package: libudev-dev
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 138
-Depends: libudev1 (= 260.1-1)
-Filename: ./libudev-dev_260.1-1_amd64.deb
-Size: 50440
-MD5sum: ff74d464d5264e65c0332eba53b01c4e
-SHA1: db10a4f9c30007a3c2d56be784c8357e0e9bc36e
-SHA256: 5cc6f496fdaf91d444c802ec5ebacaab285855e45f7e9309ae9ca1a7d6ed81f3
-SHA512: b365c9eff4b31446e434cf231243acd243747361706d1e5d99c3723121957c0f446d46f4a48d06e41b88116d77bdcf8cdee356dfc9d9b3bcd5eb50a69619b8ee
+Installed-Size: 139
+Depends: libudev1 (= 261-1)
+Filename: ./libudev-dev_261-1_amd64.deb
+Size: 51312
+MD5sum: 99c746ffaa5e9b759f581c54929030e5
+SHA1: fe121bc25d61d8c418257c4436aa79c55dba89ff
+SHA256: 5913dc3c64f0fb919467ecc48d762a73c33b6bcd395b1920741f26c5551a2f0d
+SHA512: 85f28104073feeb62dcc68040771d6c395e74150dd9a9f1f22c22bf90d7856d38dee97711c8d25cffc8188db4e7bdb644d331f61002d0218503ad5c8e8ea9cab
 Homepage: https://systemd.io
 Description: libudev development files
  This library provides APIs to introspect and enumerate devices on the local
@@ -47667,20 +47663,20 @@ Description: libudev development files
 
 Package: libudev1
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 344
-Depends: libc6 (>= 2.38)
-Filename: ./libudev1_260.1-1_amd64.deb
-Size: 133396
-MD5sum: bb5b892c760b5d5a0be6f985ad35a852
-SHA1: 3e411060059da78abd1cc74680b0e65eb0f8d92a
-SHA256: 5a92ee5fb35ebc0f2167b368b9c262d35f1ff29bf2f05c8a40bd62d23024f191
-SHA512: cfd81638c349c62d2603de043d05452f2a28e465924251dd9e7dc72825d35ad059b2cd6c8fdd099fd34790d6c73dc3e3524537f955bd9b8e28d16ed8c6fcc3ae
+Installed-Size: 353
+Depends: libc6 (>= 2.34)
+Filename: ./libudev1_261-1_amd64.deb
+Size: 137684
+MD5sum: dac76ddb86cff55d74a08d85e47015c3
+SHA1: 1199821a28e008d906f1e1a42b040825a5036a7d
+SHA256: 5cc4ef56df766e19053c0ca0113583b2b87cc83f8f1cac8a726d6594255abf5a
+SHA512: b69178330e492f6e606fe94096a9a1160b0956e1baf80f97a3052c4a5378bcdb5910fb58f16ed4824d29f0b1252d1ad64972b916a6de79873dcef1b55533e922
 Homepage: https://systemd.io
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
@@ -62377,22 +62373,22 @@ Description: System Tools to manage computer configuration -- scripts
 
 Package: systemd-container
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 2462
-Depends: libbz2-1.0, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libfdisk1 (>= 2.33), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libsystemd-shared (= 260.1-1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), libarchive13t64 | libarchive13, systemd, default-dbus-system-bus | dbus-system-bus
-Recommends: libnss-mymachines
+Installed-Size: 2710
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd, libmount1, libarchive13t64 | libarchive13
+Recommends: libnss-mymachines, default-dbus-system-bus | dbus-system-bus, libarchive13t64, libbpf1, libcryptsetup12, libfdisk1, libseccomp2, libselinux1, libssl3t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-container_260.1-1_amd64.deb
-Size: 776648
-MD5sum: ac83135eeeece7518455a724aa53640a
-SHA1: 95ed46a89b2b5aa11a119ba14f81155bf2426ec4
-SHA256: a9a09e47829f3f4186cef83feac09891ae0cdb10339e376b05303ec7a4cc1843
-SHA512: 075419c458b6b9d67ea4ce6a2ef27658d53c3bc2abef55a66c3bc651637622d76c650f85e399e19bcefa73dc16e13e3842f003420181d37656aa1820e0042786
+Filename: ./systemd-container_261-1_amd64.deb
+Size: 845144
+MD5sum: 3eaed2fa980081d05e098d0483b05813
+SHA1: 5d1f7dd7a6d9d9b8cf566569d6831d3f1b11e13d
+SHA256: 7edf9027f62fea42913b76c9c2b3741fd9881dc7500d11854ec017e920ff234f
+SHA512: fc11da1ed942679b83b3668dd11d19492274495ec385a45a983044a16b15f803eca506e59c2bc6223307375eb679184c77ce5d8ac8bdb750e9b76cb82d2e0f77
 Homepage: https://systemd.io
 Description: systemd container/nspawn tools
  This package provides systemd's tools for nspawn and container/VM management:
@@ -62403,23 +62399,23 @@ Description: systemd container/nspawn tools
 
 Package: systemd-coredump
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 243
+Installed-Size: 250
 Provides: core-dump-handler
-Depends: libc6 (>= 2.36), libsystemd-shared (= 260.1-1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
-Filename: ./systemd-coredump_260.1-1_amd64.deb
-Size: 93156
-MD5sum: f4bca531ba5a0de08c11969ebfe49458
-SHA1: e41c5393d72a2a088b7be615ab7434d9623579e5
-SHA256: 00ee27d8cfd85979ff670c50e2ba7663f157c2b61ad0c52fd603259a69ad44b7
-SHA512: 3c53f1ec73d482c8d28e231dcf5e8878335faf3ab03ddf1d22fbc7ecd25ebfbe28123dccd5feb6f0f16fda6ec79515063f3896c46e8b13b279a2efdb54ad280f
+Filename: ./systemd-coredump_261-1_amd64.deb
+Size: 96384
+MD5sum: 125459f5157202bc2fd2e832c40597e6
+SHA1: ae726b47b0dd7b068dec47c81fcd4858116dff54
+SHA256: 455402c752aaf41fd446bcb121998c8ec66e00bb62a6360543395967f75ec177
+SHA512: 4b655d7972207a901815d3f60205a9344ffde14524717d4e3b7c814558813b105d4ddd903d29d90da36942cc7205710bfac290e63a73b446818b88675343f6e6
 Homepage: https://systemd.io
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
@@ -62428,20 +62424,21 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-cryptsetup
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 482
-Depends: libc6 (>= 2.38), libcryptsetup12 (>= 2:2.7), libssl3t64 (>= 3.0.0), libsystemd-shared (= 260.1-1)
+Installed-Size: 489
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), libcryptsetup12
+Recommends: libssl3t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-cryptsetup_260.1-1_amd64.deb
-Size: 150112
-MD5sum: eb746a19907adbc30edbeba65376eefb
-SHA1: 724978d758bd87fa049bbc748f2752c3e58c14e8
-SHA256: b1e9e8e4ea50cf7956e7d9d4a52eb7266a469378990b5bb95bc59a45bf386ded
-SHA512: 4872c86f48e68a55472abf90e2dbfce8ab70a8040de7f621a0d847ed3edeb3cabda06e4618c51a3590bea391fcd3cb483984a9be5d04b7424c38dc72310b25f8
+Filename: ./systemd-cryptsetup_261-1_amd64.deb
+Size: 153728
+MD5sum: 2eed9b38280a25a7a9c9df5adc7f56a6
+SHA1: cd6e4b1fce80477e76e816f5bc9f41fbc289a2d4
+SHA256: 0fa42bd851f42704e4b853d7ba3c5bb07d8c68fc5450da992b6b10a2051ab7fa
+SHA512: d381eaf5365c5d69c2d740fdf5e6b3b2d09a0cfbcc8fc56415991bc3166a95ce8170237ba99f16d8d74b0fb95f82bf0ff8a96df61e72d2cc4467cb2c752433b3
 Homepage: https://systemd.io
 Description: Provides cryptsetup, integritysetup and veritysetup utilities
  Utilities and units that integrated cryptsetup/integritysetup/veritysetup
@@ -62449,21 +62446,21 @@ Description: Provides cryptsetup, integritysetup and veritysetup utilities
 
 Package: systemd-oomd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 186
-Depends: libc6 (>= 2.34), libsystemd-shared (= 260.1-1), systemd | systemd-standalone-sysusers | systemd-sysusers
+Installed-Size: 211
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd | systemd-standalone-sysusers | systemd-sysusers
 Breaks: systemd (<< 250.2-2~)
 Replaces: systemd (<< 250.2-2~)
-Filename: ./systemd-oomd_260.1-1_amd64.deb
-Size: 70400
-MD5sum: 261cab565c73dfe5a2de8f031d8417a7
-SHA1: ace0a76ce9f86f543178284c21f24d6d203490bf
-SHA256: 764af01e0e0bf798be4773d47755310fdf03a63821110ffc4c1179da3819219b
-SHA512: 12e241fc16595fa67829b995b75c82e44c77e878a8816e5fbce790f83301505e4c860baf0c643b1e71e3489997e45faff1652cfd906867b3ff245a53258739eb
+Filename: ./systemd-oomd_261-1_amd64.deb
+Size: 78780
+MD5sum: 9454df01cc8ce3de09fe7a69c8e5290b
+SHA1: a124f2f0def850443c73099e9de167a09d6aa37f
+SHA256: 3f8989270c48cac637d78cd8563ee634479923c73d6bbf4c378d6b0f2ccbc9e4
+SHA512: d1fd529ce7b3bb2cd96c2a757a9ca0f6afe1a6231b68411afebeff284c659e4fc379c573531eb4cb6600b7ea1efba2339ab63340e733476bd55c436457d89916
 Homepage: https://systemd.io
 Description: userspace out-of-memory (OOM) killer
  systemd-oomd is a system service that uses cgroups-v2 and
@@ -62472,25 +62469,25 @@ Description: userspace out-of-memory (OOM) killer
 
 Package: systemd-sysv
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: important
 Protected: yes
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 67
+Installed-Size: 68
 Pre-Depends: systemd
-Depends: systemd (= 260.1-1)
+Depends: systemd (= 261-1)
 Recommends: libpam-systemd, libnss-systemd
-Conflicts: bfh-container (<< 20211009-22~), file-rc, finit-sysv, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, runit-init, startpar, systemd-shim, sysv-rc, sysvinit-core
+Conflicts: bfh-container (<< 20211009-22~), file-rc, finit-sysv, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, runit-init, startpar, systemd-shim, sysuser-helper, sysv-rc, sysvinit-core
 Replaces: sysvinit-core
-Filename: ./systemd-sysv_260.1-1_amd64.deb
-Size: 37376
-MD5sum: bbfd649ef616095f6e4d7c7a8dc83b48
-SHA1: 545790a2dce01d15d0c3bb63d7ebe5d47f814032
-SHA256: 7fdb9f499ec8b874320eee1a016a2e5d054719d900ed7cebb19aa17580e44850
-SHA512: e229694a75730f0f344e1b63e482342b6fed26ec1dda180c3291ce29310b374490ba971f9d7dcfd77b2e14bea6218f0c5a974411bca46f8f46cc5e1bfcdd6cae
+Filename: ./systemd-sysv_261-1_amd64.deb
+Size: 38300
+MD5sum: 2a2b72344b7c8ef02275be07cc4f1a34
+SHA1: 36c2b93df575f17c5b12add0a47ef010a8424db2
+SHA256: 3ee54b1ee45bdd7e29e027def4c32a0fa9b33791a4a9e4ac956463a670fa2d6c
+SHA512: fd11ec28a51fab428d1a407494b6130ffe24738434731ea1c9a4dc48028775f543f995ccd145e0b25cac248d192bcd030cc21d8d0982a01118e4386ec639653e
 Homepage: https://systemd.io
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
@@ -62500,23 +62497,23 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 170
+Installed-Size: 174
 Provides: time-daemon
-Depends: libc6 (>= 2.34), libsystemd-shared (= 260.1-1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd
 Conflicts: systemd (<< 256.2-2~), time-daemon
 Replaces: time-daemon
-Filename: ./systemd-timesyncd_260.1-1_amd64.deb
-Size: 68052
-MD5sum: a8a835edf987f3546188860880fe7b9f
-SHA1: 500755dc39e81576903722948bea292f640413bb
-SHA256: b72edcce8b0abf6aa1b76f77b1d2db0074180c42d0d75a4e7f750ae46d009041
-SHA512: 1e436f5efea168a150f074c0870908957e79f157b587b2f18cf8128f57a39bc11d05856bb44a48b00ac87c0830589295a237ba3bd6629577f346495fc73a09a4
+Filename: ./systemd-timesyncd_261-1_amd64.deb
+Size: 68596
+MD5sum: 09b97947e29bb1d2d79941a394e72e39
+SHA1: 0a2d6d431cb9222983ceb343210b24c876cb3ad7
+SHA256: 0d12f02b4f0b56b8a13e9784e1a6c40611fc4441fb09bce33b74e217be86e393
+SHA512: eaca6ae53da2ec180757d3a8188fc867e429c33b00b4604b43dac8334befd95baebb0df18728d42a40826d9ec5b1b2cdc8108eebcdd2221f996ce0f1a86e406e
 Homepage: https://systemd.io
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
@@ -62524,20 +62521,20 @@ Description: minimalistic service to synchronize local time with NTP servers
 
 Package: systemd-userdbd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 217
-Depends: libc6 (>= 2.34), libsystemd-shared (= 260.1-1), libnss-systemd (= 260.1-1), systemd (= 260.1-1)
-Filename: ./systemd-userdbd_260.1-1_amd64.deb
-Size: 78896
-MD5sum: d0e369199f8df054e31b3b196df9c9f0
-SHA1: 27aaf482c45aa497a09c884b1a6e0164fc05a403
-SHA256: e4d2c0ecee46c865f8a0e823c034d674e4ef12e69791665669d24560d7ff9b16
-SHA512: 8f6dc5974f38143b7b88a246ea1a9fed671286c528383aaea4a71f1b5f6787fd4a9127962956d5ed300f119cf814b965e5d35adf3b0480665faf05177f98e26c
+Installed-Size: 220
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd (= 261-1), libnss-systemd (= 261-1)
+Filename: ./systemd-userdbd_261-1_amd64.deb
+Size: 80240
+MD5sum: 5f7384a4c0040287f9cac87535af10f8
+SHA1: 75e6353ce3ac9f842bfa96d6d95fe0927799f150
+SHA256: f51d2f92b454332b8051786c3c9da9a66a84503c70475277dfefd3bdec6a0ea0
+SHA512: a2f06c193a50e965a9948ad5cef058562348ca3ad18201d05b72357eb730be3f5c4f5c19daad536c85df150a3ada5014ae9fb2463049ee2962f2964172eb0ca7
 Homepage: https://systemd.io
 Description: dynamic user/group manager
  systemd-userdbd is a system service that multiplexes user/group lookups to all
@@ -62548,25 +62545,25 @@ Description: dynamic user/group manager
 
 Package: systemd
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10905
-Provides: systemd-sysusers (= 260.1-1), systemd-tmpfiles (= 260.1-1)
-Pre-Depends: libc6 (>= 2.38), libsystemd-shared (= 260.1-1)
-Depends: libc6 (>= 2.41), libssl3t64 (>= 3.4.0), libsystemd0 (= 260.1-1), mount
-Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, login, systemd-timesyncd | time-daemon, systemd-cryptsetup
-Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, systemd-repart, libtss2-tcti-device0, polkitd
+Installed-Size: 11764
+Provides: systemd-sysusers (= 261-1), systemd-tmpfiles (= 261-1)
+Pre-Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1)
+Depends: libblkid1, libcryptsetup12, libcurl4t64, libmount1, libssl3t64, libsystemd0 (= 261-1), mount
+Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, login, systemd-timesyncd | time-daemon, systemd-cryptsetup, libacl1, libbpf1, libgcrypt20, libpam0g, libseccomp2, libselinux1
+Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, systemd-repart, polkitd
 Conflicts: consolekit, elogind, libpam-ck-connector, opensysusers (<< 0.7.3-4.1~), systemctl, systemd-shim
 Breaks: dracut-core (<< 102-2~), less (<< 563), sicherboot (<< 0.1.6)
-Filename: ./systemd_260.1-1_amd64.deb
-Size: 3299028
-MD5sum: 05a109ac83d77f2080a4f15a88370e82
-SHA1: ad7c3cb8c2d9b3edc89d85618c4358e14758d6cd
-SHA256: 6e6f7cee08c5d4794e41bbe83d328cb42b6c70683dbd2b0c15f0bcfd9830e03c
-SHA512: 90b9bb8c6e4e21f3340cecc73e6efc7f24507672756b75090be91f67beacea4c10231d93678c11b409e3292bfd4f65fb19407f2dbc9332fac8a13a47f684d978
+Filename: ./systemd_261-1_amd64.deb
+Size: 3503300
+MD5sum: f868f5162641ca75dcc55ef7f660aa96
+SHA1: e084617143fa423cfe8a9639ba118d3a045971a2
+SHA256: f42e95f13203ac9336276339377a408792a1c01fc925412eff3c22b4593a7a88
+SHA512: 94340889334e574d40017be7a33ba30f9df90136dae6c3ae79cac35e3b76ca6f047080ccf831c9aeab096b86b471634ccefcb03b2322324d5140abdf50560cd0
 Homepage: https://systemd.io
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
@@ -68562,23 +68559,24 @@ Description: D-Bus thumbnailing service
 
 Package: udev
 Architecture: amd64
-Version: 260.1-1
+Version: 261-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10384
-Depends: libc6 (>= 2.38), libsystemd-shared (= 260.1-1), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 260.1-1)
+Installed-Size: 10605
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261-1), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libblkid1, libkmod2, libudev1 (= 261-1)
+Recommends: libacl1, libmount1, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
 Conflicts: systemd (<< 255~rc1-4~)
-Breaks: systemd (<< 260.1-1)
+Breaks: systemd (<< 261-1)
 Replaces: systemd (<< 255~rc1-4~)
-Filename: ./udev_260.1-1_amd64.deb
-Size: 1441668
-MD5sum: 1853f63c45ac193ba61c852a24ac43fd
-SHA1: a3f4aa846812dbc41d621e22b66ccd0e81189287
-SHA256: 9e4670ef05765db8d6d9d76c50ae944756d3cbc2585a848a68872c4450659c5e
-SHA512: 01672cacbe29cb5221469667f18a4400bf26167623e7e9e1ab49b9c0ef652aabaf5d223c0dc08df0837a630fd9ca44e704cb266daa291c87f4587471f3ad7c6e
+Filename: ./udev_261-1_amd64.deb
+Size: 1469344
+MD5sum: 315d8bdcc4012f3e1b195655856316c5
+SHA1: 931a7ae8596f7ddb5ff3fab79ae0c81048c8da4a
+SHA256: 14e6159b47b4f9e60344fd03f8767f8f2ee03413affd6cae0d69c4eaeed2e898
+SHA512: 02da9c5f4f945159a3d05f75ee830643cbdf0d0d0af0b3aa14190b4491a49bcc275e1d41fcfdfb2b7157448d947dc674e584a00154f146be9925fea785d851d9
 Homepage: https://systemd.io
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
