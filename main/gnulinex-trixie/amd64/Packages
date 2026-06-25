@@ -4264,19 +4264,19 @@ Description: Linux Libertine family of fonts
 
 Package: fonts-lmodern
 Architecture: all
-Version: 2.005-1
+Version: 2.005-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: lmodern
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 10756
-Filename: ./fonts-lmodern_2.005-1_all.deb
-Size: 4540004
-MD5sum: c3ceb3bcf1644c5e54fde9abbd56e8b0
-SHA1: 1a2b0cb183505e6fe701434c2aa56d8bf700f707
-SHA256: 027cd4ddc91b9254bd7fd9b9ce55d58c095319f691d4d7cbd09d2e4a99c58398
-SHA512: 3a6bf7cabc34ab88cf5a272f984dd20944d0e93e94416c6c1d72d280a2bb7a127e734f7a31fbe7f8cb0604e3235f980054b927c3a3684d32147f014ac871abb3
+Installed-Size: 10749
+Filename: ./fonts-lmodern_2.005-2_all.deb
+Size: 4532724
+MD5sum: 461aaffe676b1ed5c94ac0905df1bc2a
+SHA1: d3045ccd9bb42df2647a13698705bd833067a12c
+SHA256: be26d7d2a4c18325963e9795afe2241c5a31ea0e32893173fb8a90f4188b3ff0
+SHA512: ddfc3011f4be6187e695ee2b33068f8b88f3a4b95a4cad5e3d0d60ed3c1ce1de7738231a4969f307c3c1449334c3b26e4137fe613af687d0f8ee4f43c9db34aa
 Homepage: http://www.gust.org.pl/projects/e-foundry/latin-modern/
 Description: OpenType fonts based on Computer Modern
  The Latin Modern fonts, also known as "lm fonts", are a set of
@@ -6502,7 +6502,7 @@ Description: Adjust display hue to outside lighting conditions
 
 Package: gcc-16-base
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -6510,13 +6510,13 @@ Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 104
 Breaks: gnat (<< 7)
-Filename: ./gcc-16-base_16.1.0-1_amd64.deb
-Size: 36216
-MD5sum: 478b48fc70ae39b3f9ddba6f6d0603a7
-SHA1: ccfe1c143e8918256973b8baa8d25e7a9917e065
-SHA256: 58baac33692d03fa5571bcf3024a5c0b893e1b7ede6b1301bed643fc4df4b26d
-SHA512: 88d4510438a657f4cdf6e2af574641787fd6d3df7c07fbc20e464342bfd931b47fbf0f0e13e1f23272a8e63a34228b32119b569882b83c6d21bbe30eb8717fa9
-Homepage: http://gcc.gnu.org/
+Filename: ./gcc-16-base_16.1.0-2_amd64.deb
+Size: 36780
+MD5sum: cc683d1c514ee8fdd3db0ac4bc2d5925
+SHA1: d1c4ec6cb707151c4e8688e2fb4d8b2ebc9fdbda
+SHA256: 731a8b22b7e95cb17c6e0dd43e5fb6841458dea19a5bdaa868565b91bbac8d9a
+SHA512: 0f6343a157414106faf597b792ca56afb53774b6ce813def2f7ab140edb58914dc4db883c029e14442ea9f598ec51476d37cf35cdd13e196e726173312da848f
+Homepage: https://gcc.gnu.org/
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
@@ -11561,20 +11561,20 @@ Description: DVD+-RW/R recorder
 
 Package: grub-common
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub2-common (= 2.14-2)
-Filename: ./grub-common_2.14-2_amd64.deb
-Size: 2364
-MD5sum: 23e25be72d59762aca2ac8a8d65f4575
-SHA1: 99e0cd78f91614f01c200bef4ae117b864b2c8b6
-SHA256: 39ae705d94308eb7f5e1baa390399993a4f90a5c041911d5872fdff5e9946c47
-SHA512: 7c42a23f94f9e8290000976360bd2d4fd02a3366ee37cf07a006a61fa72f8fd0165f509cde45003ef4b04e059f9d7c811d76afd8a21106509eb4de8a8779082d
+Depends: grub2-common (= 2.14-3)
+Filename: ./grub-common_2.14-3_amd64.deb
+Size: 2376
+MD5sum: 2111c000482d1305dd3be41df337c494
+SHA1: 7308542e51b870fbe1b3f15b68e5ccb20536fb70
+SHA256: e2a21744746060aa7a0033a68a76ae99610555e46ef0c592f6c0434af3cde315
+SHA512: 3b1826b61ff5da61987f72174fa72f100261e669f33c3aabd64b36b3dd7272b1d1e71a86c35cdcb9d65a735c61918919fc7cf54a47b60614b38948f54cfad3f9
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy transitional package that depends on grub2-common.
@@ -11582,23 +11582,23 @@ Description: GRand Unified Bootloader, version 2 (dummy package)
 
 Package: grub-efi-amd64-bin
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 4060
-Depends: grub2-common (= 2.14-2), grub-efi-amd64-unsigned
+Installed-Size: 3984
+Depends: grub2-common (= 2.14-3), grub-efi-amd64-unsigned
 Recommends: grub-efi-amd64-signed, efibootmgr
 Breaks: grub-efi-amd64-signed (<< 1+2.12~rc1)
-Replaces: grub2 (<< 2.14-2)
-Filename: ./grub-efi-amd64-bin_2.14-2_amd64.deb
-Size: 1304512
-MD5sum: b905d3b1c303b17cc1a5ce57e7268fc5
-SHA1: 5013baf859ed687468e38c74b01566d094e71d3f
-SHA256: bce09a710be523986355d793ce6a52c213d8e9eb93500f03b195961d4c8977cd
-SHA512: 28b40dec4dba2cec94df56133d080369806616adb7a0f4be78ff84dcd26a70d26733cce591d65bbe26b6ec464ac44e7b5f31bdc4022301940d91054cecb6dfb7
+Replaces: grub2 (<< 2.14-3)
+Filename: ./grub-efi-amd64-bin_2.14-3_amd64.deb
+Size: 1282952
+MD5sum: c02dc9b987208ebb04e08bddf46e7396
+SHA1: cf2bacae17517f04319149af1255cde617e18140
+SHA256: 100398d04dc5a475fb25c861364f9e2cbded742203edec4886e38069d0e64e40
+SHA512: b84e9f72de475b5722152b4a04218aa7a777eb6bf11dcb776c28f364b9d8e5de4360c2d6c803a39232924df9e5347560c875fac5c329d1e54b58024c6da33b15
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11620,21 +11620,21 @@ Efi-Vendor: debian
 
 Package: grub-efi-amd64-signed
 Architecture: amd64
-Version: 1+2.14+2
-Built-Using: grub2 (= 2.14-2)
+Version: 1+2.14+3
+Built-Using: grub2 (= 2.14-3)
 Priority: optional
 Protected: yes
 Section: admin
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 10052
-Depends: grub2-common (= 2.14-2)
+Installed-Size: 9932
+Depends: grub2-common (= 2.14-3)
 Recommends: shim-signed
-Filename: ./grub-efi-amd64-signed_1+2.14+2_amd64.deb
-Size: 1419668
-MD5sum: 587af330353b92add6e43c4e1f6c85cc
-SHA1: f105c4d632b5ee5ea9c955822f084a3b038e78c1
-SHA256: 73f6552b5eb9d98f6a51f893db56f9a02ccf201314fdf660c13addb3129228c5
-SHA512: 0c5031b7c629578629f27393a1b92ba5f33fc4a7ae601fbe280260e646e6f3984943e8d87f2a323344e4cd840100359f34458325a569825bdd6e1d38a9b9a6bc
+Filename: ./grub-efi-amd64-signed_1+2.14+3_amd64.deb
+Size: 1412952
+MD5sum: 8dce36be4c1b92cfd995824f12929bd2
+SHA1: 5bb806f5f9e2d06a47d1fe129bdbad1758a1620b
+SHA256: 76c745f21292f7f9638a4422bd63c3f62a95bf86ea90e4d5afb4deec04b89f1f
+SHA512: e36695bb62513c9cb1ef5b63d0dbebd39ffa94578cf48d65ce0a50a09e401896457893ed6e5e197cfb6e23b21237da84acab2328a03227bb94f1ffc1a708a544
 Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -11650,22 +11650,22 @@ Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
 
 Package: grub-efi-amd64-unsigned
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 10047
-Depends: grub2-common (= 2.14-2)
+Installed-Size: 9927
+Depends: grub2-common (= 2.14-3)
 Breaks: grub-efi-amd64-bin (<< 2.12-3~)
 Replaces: grub-efi-amd64-bin (<< 2.12-3~)
-Filename: ./grub-efi-amd64-unsigned_2.14-2_amd64.deb
-Size: 1417660
-MD5sum: fc345a8141ca85ede502c20388a3a8f1
-SHA1: 837986ab4b721c97a46b8e81b4cd9ce73a435b3f
-SHA256: 65cfd680271c19bebaa9c4fa905570fdf2e4d20d7bed0d3916082da2aa033e1b
-SHA512: 1c9d1a760ab33ff195be6b1810fd4c383be63efba3e288e3ab00d48535044ee45cdb121163dafeba10c4b7e31cfec20a18516cb34cb998aaaa2e2db7388f6eb6
+Filename: ./grub-efi-amd64-unsigned_2.14-3_amd64.deb
+Size: 1411676
+MD5sum: 8a5b5e80dbe7d3df488501a77199c536
+SHA1: 19737a5ab8b9cd80016091e1db9d1b40759c1296
+SHA256: 850feac8d85a9d1dd7c24ae59f0261d29ce4abb1834eff77c7c252f3fc1217a3
+SHA512: c2ee51ab613996bec24d14dfc61ffe65228e72caf1aa7760881cd9355b85d8f8bb619ff1c6cbc1f473c4a262b3410d775d1db3c87eeaaa5dbd5a549ea9bcb4d1
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 images)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11687,22 +11687,22 @@ Efi-Vendor: debian
 
 Package: grub-efi-amd64
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 142
-Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.14-2), grub2-common (= 2.14-2), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.14-3), grub2-common (= 2.14-3), ucf
 Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
-Replaces: grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.14-2)
-Filename: ./grub-efi-amd64_2.14-2_amd64.deb
-Size: 42852
-MD5sum: d0d344053daaa0b85bb2a383a13eddda
-SHA1: e1c92d28ae468f59adb0c2bf30435c6e4475f2f0
-SHA256: 307596502056cc59d1b1e712f2b7091386de732079bc0b676dcf520e72fdf406
-SHA512: 5059de5d07babdf6ac4aab5834cb51af2a85184a82930f737ff3b710b62ff87aaf11cde799eccc4530e427b9d7801ac268ee3de6609a506c4afb966fb4529116
+Replaces: grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.14-3)
+Filename: ./grub-efi-amd64_2.14-3_amd64.deb
+Size: 42868
+MD5sum: 4aa13de8e64060a5b3f902a5dba1a308
+SHA1: c2d292b96f29d08e8b7a2e43d484802b603d883a
+SHA256: 6211be575d14afbea74f5f1f55c8f53ace9630593baa1913c46ea5e94fc0d961
+SHA512: 93308b28b9aed72e564adb5d55ab01e90540833b17a99d9427fabc6cf1ffb653f42f81dcefbeed53eee0398d5009657207fb67b6c4419b94b8baff3fcad9f173
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11721,23 +11721,23 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
 
 Package: grub-efi-ia32-bin
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 2659
-Depends: grub2-common (= 2.14-2), grub-efi-ia32-unsigned
+Installed-Size: 2621
+Depends: grub2-common (= 2.14-3), grub-efi-ia32-unsigned
 Recommends: efibootmgr
 Breaks: grub-efi-ia32-signed (<< 1+2.12~rc1)
-Replaces: grub-efi, grub2 (<< 2.14-2)
-Filename: ./grub-efi-ia32-bin_2.14-2_amd64.deb
-Size: 828868
-MD5sum: a261a49389c550cbb6831c1f979269c9
-SHA1: 0d9fb3029c2fa22b3d8d942f49687b7a48ba35a7
-SHA256: d4aa53971d76d25a8147e763935a95c0cd86e9e24f1512cac1b80c65d6425443
-SHA512: 142349b9892948ef98482d36d8c3a0abb57c432fe1a6b5344ef8872eb218a533d7b1ec5818450a22ba64cb39ac2e98a9e0b5e5a48e126a9d2e7892f6f5d5f564
+Replaces: grub-efi, grub2 (<< 2.14-3)
+Filename: ./grub-efi-ia32-bin_2.14-3_amd64.deb
+Size: 820440
+MD5sum: 0d0c38f7328a81c1391b40cc9f368edb
+SHA1: 2ad4c7736e5117aea63bfcd65c57da0d6de46d52
+SHA256: ebcf491c4ade69b82c25d1c4edfc1962c1d6a9474f12391d84c7cb0dd0486156
+SHA512: 1e8f845bc1f0f71cffe2afdb3ab9f325867a07da74d8bd5a34b3bfcec4f59717caa50009ff69d6d2cb7fbc0761f68825b2ea7cebfae1362e88482265bb097d9c
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11759,22 +11759,22 @@ Efi-Vendor: debian
 
 Package: grub-efi-ia32-unsigned
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 7903
-Depends: grub2-common (= 2.14-2)
+Installed-Size: 7839
+Depends: grub2-common (= 2.14-3)
 Breaks: grub-efi-ia32-bin (<< 2.12-3~)
 Replaces: grub-efi-ia32-bin (<< 2.12-3~)
-Filename: ./grub-efi-ia32-unsigned_2.14-2_amd64.deb
-Size: 1364840
-MD5sum: 467805dc6bf5e8e1d93696b9bc469b25
-SHA1: 09c2d9eb0027760da3b80a9acb47ccc0546688ac
-SHA256: 5dfa007c2f4cdf36b42901daa3799c2f9dcdb4c030103f33e0a4710b1ba1e330
-SHA512: 0327764173aad22a9d2d3900adee0b096d64256a8e18c14ed45063eb4ac5dea470dae8c16ff49c71122f5cf006a83a188a06bdba021458ee1ba496ffb7a44ddd
+Filename: ./grub-efi-ia32-unsigned_2.14-3_amd64.deb
+Size: 1360804
+MD5sum: deee4b97c27eec48733bd786cd1feb17
+SHA1: 295ee7b11edd23c8936a459c92310133ef4dc325
+SHA256: 9a870caf13de749379f6a53b012353341e04669b36eb7d0da9192155c3f311d2
+SHA512: a34019473b57d618a562bcfd4038acd44b62f388b16fa79a6d2bb84761f1dcafcfae16724b335f49a12193694a0b00e1015e7513764ab481641f32570bfa69bf
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 images)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11796,20 +11796,20 @@ Efi-Vendor: debian
 
 Package: grub-efi
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub2-common (= 2.14-2), grub-efi-amd64 (= 2.14-2)
-Filename: ./grub-efi_2.14-2_amd64.deb
-Size: 2380
-MD5sum: 474b03cfae604d2963b519c5f682934d
-SHA1: 340b5fb0bfa2674d57ddf3c140079d2246b6c3e7
-SHA256: 50af5254f3b808bb81fb1d7b28fd446fd1d8ff284e28e2e6432bb752508fa805
-SHA512: d785dc176782d0969f85305cbbbdce5465f4fb11ec6b6afe29f63fae81f34fcac605d6c76c9668c07380d49882cb079e1f9d5754b844055b0b94a9756c69d6be
+Depends: grub2-common (= 2.14-3), grub-efi-amd64 (= 2.14-3)
+Filename: ./grub-efi_2.14-3_amd64.deb
+Size: 2388
+MD5sum: 73f13ed6d0cdf83b965129771c3466a4
+SHA1: 634ae06a254db372408dfc96597ff57c21fe967b
+SHA256: 2f46d46d9e65b7a64028a56d2a550341ed33ae864beabfb47cc5785955e2931d
+SHA512: c60968f820bdfd149ae513f0dadb84473a3cbfcf2c00901da631d68274240e9db17b7c804c72df4be8e59ab4d1951bb506779492887c5162f1eded98d897a1a0
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy package that depends on the grub-efi-$ARCH package most likely
@@ -11817,22 +11817,22 @@ Description: GRand Unified Bootloader, version 2 (dummy package)
 
 Package: grub-pc-bin
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 3814
-Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub2-common (= 2.14-2)
+Installed-Size: 3765
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub2-common (= 2.14-3)
 Suggests: desktop-base
-Replaces: grub2 (<< 2.14-2)
-Filename: ./grub-pc-bin_2.14-2_amd64.deb
-Size: 1236280
-MD5sum: e1335ad204aebf62f027a765831904fe
-SHA1: 4fae34fa8149e2539b9108a6ed4fa32e2d1074a4
-SHA256: 8bf3969ac84d413bfbcf290d96298b2540a0d853594bc0cec12949a502d25b00
-SHA512: 24a6398a120410cf5cff63158c465a0532e9958f6adb9b2378030ef6928738665bfbbe484ada9be48afb6291dbf4caab81bee527d35b81869252ec43d51c100a
+Replaces: grub2 (<< 2.14-3)
+Filename: ./grub-pc-bin_2.14-3_amd64.deb
+Size: 1221440
+MD5sum: cce60e70e76fa32e3d8c70900f49fef4
+SHA1: 76db2272177fe448d3a327c0d21403a13cf6efca
+SHA256: 39b0aaf159f9ae29dd891ca1a6fba7cdf9b993649ed8e904a83528e73dc4c6d6
+SHA512: a542f9a7c7c65bb1d15c08f6b7e41b50b6b074241f08f16057ac57e778a0a372a6e5ebb22e140a1b60945110c2d0ac012d97861a1ce85af0f18ac24455354f89
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11856,25 +11856,25 @@ Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
 
 Package: grub2-common
 Architecture: amd64
-Version: 2.14-2
+Version: 2.14-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 22401
-Provides: grub-common (= 2.14-2)
+Installed-Size: 22235
+Provides: grub-common (= 2.14-3)
 Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libefiboot1t64 (>= 39), libefivar1t64 (>= 39), libfreetype6 (>= 2.2.1), libfuse3-4 (>= 3.17.2), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
 Recommends: os-prober
 Suggests: multiboot-doc, grub-emu, mtools, xorriso, desktop-base, console-setup
 Breaks: grub-common (<< 2.14~), grub-legacy (<< 0.97-83~)
 Replaces: grub, grub-common, grub-legacy
-Filename: ./grub2-common_2.14-2_amd64.deb
-Size: 3597244
-MD5sum: 8765d1403dc635ee654bcdca375edf96
-SHA1: a76836e5cf71a1324725e7d742b5dc1270b385e7
-SHA256: fc318972eacb320ce77e3db49c54a48dc5641bee2a07e8cbb9b29b14a881ec6e
-SHA512: 3ba32633b0cdf52f09d32fe18589a956de4a25fc38de28d10984d8cbb4bf28208c87bb4a8fabc8c36a95a87f315c80f918025da33090f9ec11c16537cd38346a
+Filename: ./grub2-common_2.14-3_amd64.deb
+Size: 3555180
+MD5sum: 2f80c20bee568c5f6075f95a52c4068d
+SHA1: b795651f3ba5b303a97856d45ee2168b9f3f8e76
+SHA256: 27d7d369c73019c4a9c290d2ed31f7f159ef27d95ddfc9da0e4f79db51ee6fcc
+SHA512: 109e3aa56436b7a339d7dba198fea921a43b8a1d94213662fe281bb04a06d9652a10297b6322ebccb67c3f2f75c519a51c612dc517b62d2d7e8ff976eccb7735
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader (common files for version 2)
  This package contains common files shared by the distinct flavours of GRUB.
@@ -15345,21 +15345,21 @@ Description: Apache Arrow data processing library
 
 Package: libasan8
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 11299
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libasan8_16.1.0-1_amd64.deb
-Size: 2887644
-MD5sum: d97a252f42d485e4d2ded5a438884844
-SHA1: a72c6349adee39471c053d525dc248602905d362
-SHA256: 0c7e3b8afbe9c4a0b90440fd39231bb6b960ed80ad4260c8d3809868b0f51ce0
-SHA512: 5e960c0a9f93e7911e6e8a4e09bc9c0e4ca86d0a961e9f517092341ccaa8a61a505f085cfd5802ee92509f148aabf7c528053941fc03188ae0a602db866f22a7
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libasan8_16.1.0-2_amd64.deb
+Size: 2888652
+MD5sum: 22c96dea4b9a364cf09dbdf0d9a7a803
+SHA1: 6a83c260ca701862ad32ff93edee1d9913d2bae9
+SHA256: 463c813abe69e43851f24f99117dcce9b5d0d8a12d30bc279f66c85efdecd9d0
+SHA512: b98a08ba0912e61d7f910836f5a7f8453538ff0e3456561302d9d81b3bbbeac2644843b1a54b3ba7d4d71247a557bb08881f6ffec207a9f131ef532295e80f01
+Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
  use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
@@ -15641,21 +15641,21 @@ Description: Development files for the ATK accessibility toolkit
 
 Package: libatomic1
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 49
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.14)
-Filename: ./libatomic1_16.1.0-1_amd64.deb
-Size: 10396
-MD5sum: 8412e4d4a5c02f95a1e8f93ebb40ca5f
-SHA1: ac2fbfc63f2cd3113d778a87aa5e2288ef9a82fe
-SHA256: be4be1268a38efa559978623e5330da50cc73f587057af947a18a423eb0c9699
-SHA512: 39c5f47de5314676c279bcbdc6950213cd4df293240ed445922633757b912856c36579edfb83c64a3fc7e68a2c8b59e8a999c355fdf04878581a5086a115e9db
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.14)
+Filename: ./libatomic1_16.1.0-2_amd64.deb
+Size: 10420
+MD5sum: 1b410ec7144931b14bbb0968c9672c31
+SHA1: 7ac5c9251301acc8667b2c46e92cdef022b6ba3e
+SHA256: 3ae74ccdf446fc27df213ae07f5ac9614098606029ae80457edce222ee3545cd
+SHA512: c5f495a414c0e19ecd63d1d6e5857fde1135cbc285623dd8c15c1414291854e43f0dddd2a67b4da21b7df32c3b9b6e0ed861de64007ea8ef77ec080ee2902162
+Homepage: https://gcc.gnu.org/
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
  be turned into lock-free instructions, GCC will make calls into this library.
@@ -15789,20 +15789,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libavcodec-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 26901
-Depends: libavcodec62 (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1)
-Filename: ./libavcodec-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 7350152
-MD5sum: ace9361929bdad641ca9612ce1d7d7ee
-SHA1: 22bf99097b059abd448058e51237c986c55174c6
-SHA256: a18a2fc94fbca04a1f7fdd1e9f7cfc3705c74e0bc10b463974b4f9bd99a54a9b
-SHA512: 119cfe06035c9c0943548e9ae86929223f59df92a13af8157d597255564a586cb672820737c5f22175554f7fc54fe6b05d040c987ee6b9dc44d6cd12a430f025
+Installed-Size: 26906
+Depends: libavcodec62 (= 7:8.1.2-2), libavutil-dev (= 7:8.1.2-2), libswresample-dev (= 7:8.1.2-2)
+Filename: ./libavcodec-dev_7%3a8.1.2-2_amd64.deb
+Size: 7351552
+MD5sum: 9df445e41139e702768faad3930bb398
+SHA1: 040227da09f8d8a7b3a473fead7273e033d13ed6
+SHA256: a98dfc0e7d0944c439aa745ebf6b259af76849c0cffc48943854f5db16b60304
+SHA512: a2174f7bc9979b5d033fca054b8fd1c919fee7e2d5fa09cb7668bfad0fc4b988ef92b9e1dcd588de11c5542bf50c4187eae2634764049968bbf5f8495516c534
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15822,21 +15822,21 @@ Description: FFmpeg library with de/encoders for audio/video codecs - developmen
 
 Package: libavcodec62
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19220
-Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.1-4+b1), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.1), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 19222
+Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.1.2-2), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.1), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libsvtav1enc4 (>= 4.0.1), libswresample6 (>= 7:8.1.2), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpl2 (>= 1:2.16.0), libvpx12 (>= 1.16.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: ./libavcodec62_7%3a8.1.1-4+b1_amd64.deb
-Size: 6643712
-MD5sum: d7d3a42728cde53b62208b1a3de874c8
-SHA1: f8e6ba1755bd69306bd06ff3f5fbbf90e4f26bb6
-SHA256: 0d68a7a3ec028f6c2079582e1bb87da3450f4c996bad5ab593b21b3c1e239950
-SHA512: 4d5ed16bbe06408879955da948733c0a82ca878ed9a60c77bc9960e9e4770f732c012a9b64ec2493739848b2dec3682e34a454a1cb3e899088a296d146762895
+Filename: ./libavcodec62_7%3a8.1.2-2_amd64.deb
+Size: 6646328
+MD5sum: df227814485e9e10c29d18ed75f3fb4a
+SHA1: 3ba9360c4c394aceddadb5c9380a7efeec931ee3
+SHA256: b66930cd603787612ec8d4280d151838c7f5ecedf66fdf0966596e514234a508
+SHA512: 9f9f541f006cd2fd3fbe2ef3447eb19218de03c8b090ebec0cafbc2a379cad5f57476cc4e9a3dc6af750486840accd799f90ae1243d458621ac43366fcea5593
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15856,20 +15856,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavfilter-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10400
-Depends: libavcodec-dev (= 7:8.1.1-4+b1), libavfilter11 (= 7:8.1.1-4+b1), libavformat-dev (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1), libswscale-dev (= 7:8.1.1-4+b1)
-Filename: ./libavfilter-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 2455652
-MD5sum: 45122dd3e078c129eb2e2e922e19e648
-SHA1: 9f8e8fcbddc1af3f26f2cc1e2e0c71d3a82bdc13
-SHA256: 2d6f3bcfff2b611d6b603056f32fd67133311fc5d7dd5b9c16e80e65d8d5056e
-SHA512: 36140e01c734d0cc7daa9fb47c8e2148131e956e90a0a3943890ae6bf9cb457903245fe7b396e2a83152f4758508cb3206218338e732813184c806c4695ff2e1
+Installed-Size: 10416
+Depends: libavcodec-dev (= 7:8.1.2-2), libavfilter11 (= 7:8.1.2-2), libavformat-dev (= 7:8.1.2-2), libavutil-dev (= 7:8.1.2-2), libswresample-dev (= 7:8.1.2-2), libswscale-dev (= 7:8.1.2-2)
+Filename: ./libavfilter-dev_7%3a8.1.2-2_amd64.deb
+Size: 2460104
+MD5sum: e394aaa919ecd4c3107f2fed66e0e7b7
+SHA1: a5492b3d25e5551189bcba60f18df781c78c81f9
+SHA256: d579167bcf0733945178bec3e4487956c8ed295d51b00317e98e7a61e641953a
+SHA512: 0459cd9d8b8c7e6adbdb76c215b5afe4a7bb5c1610f181c1a24629e190100a0a37f692d4383ffad7de4c14b0248d75d715007aebaf32ad774debd740f1954ddd
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15884,21 +15884,21 @@ Description: FFmpeg library containing media filters - development files
 
 Package: libavfilter11
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15542
-Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.1-4+b1), libavformat62 (>= 7:8.1.1), libavutil60 (= 7:8.1.1-4+b1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libva2 (>= 1.7.3), libvidstab1.2 (>= 1.1.1), libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Installed-Size: 15560
+Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.1.2-2), libavformat62 (>= 7:8.1.2), libavutil60 (= 7:8.1.2-2), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libopenmpt0t64 (>= 0.2.7025~beta20.1), libplacebo360 (>= 7.360.0), librubberband3 (>= 4.0.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libva2 (>= 1.7.3), libvidstab1.2 (>= 1.1.1), libvpl2 (>= 1:2.16.0), libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Suggests: frei0r-plugins
-Filename: ./libavfilter11_7%3a8.1.1-4+b1_amd64.deb
-Size: 4589764
-MD5sum: 72348a0b9b796efbeee7647fc6e03657
-SHA1: 859f7981fab4d9b370763f7ad006a0f4419ac067
-SHA256: 59baec82b2c9fd27b008cdea01b9899ef88114e68cd17003602b3ae3c97bb053
-SHA512: 3907f0a5bfca990969f3af671debbae5648599d39b3819fb943851cb97116510db7ca12e13f66a2a610bbdf9ca26462828c551f58480bf1ac4bbe4f8424f1381
+Filename: ./libavfilter11_7%3a8.1.2-2_amd64.deb
+Size: 4594716
+MD5sum: 6116e05241ecf1b875c4007aebf0e817
+SHA1: 760293971d8758993b65e6bf8e0fbda2d1ab9e39
+SHA256: aaa7dd8147dccf469c652a5f548901dbc827314d2c3974c28a05f740b7adfaff
+SHA512: cbec8ce76245551c8ba3c08d068abb000b8e8133671fa6f339fa88823024092a258d83dc2eab863fde475de9711e1cfd8000414663e9e483a9fff5227a772b72
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15913,20 +15913,20 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavformat-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 6299
-Depends: libavcodec-dev (= 7:8.1.1-4+b1), libavformat62 (= 7:8.1.1-4+b1), libavutil-dev (= 7:8.1.1-4+b1), libswresample-dev (= 7:8.1.1-4+b1)
-Filename: ./libavformat-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 1489560
-MD5sum: e384594c772074603767564f1cbd17ee
-SHA1: 60cad525cbbbeb081a61f1a0faffbd3da0e9c957
-SHA256: 41ddda3f3a3b8fdafb08594b775a2162cfe60d2f668a2456a44dd45fd4c84cd6
-SHA512: 2b42365ebb8f3bf090484d29bb5c3ebc04c60c764d9bf4c651a83a83818018e03877ed767ca545883686510f66aa51e3a3ba7220ef83a018388290dca7f67d80
+Installed-Size: 6306
+Depends: libavcodec-dev (= 7:8.1.2-2), libavformat62 (= 7:8.1.2-2), libavutil-dev (= 7:8.1.2-2), libswresample-dev (= 7:8.1.2-2)
+Filename: ./libavformat-dev_7%3a8.1.2-2_amd64.deb
+Size: 1494980
+MD5sum: 06503036cb36cd8931401a16a9ca236f
+SHA1: ecb82b239090efb33f8a9a222f0e9d60c2c000cb
+SHA256: 637ba9e8f06ce46a1d54ffe0005a3080fd1f3610318f89b38326b2bbbb26c8d0
+SHA512: 9163a387ec8b427413d314cc20ce01c82a6edea6cd5c00fc10cb0abea193af52baa512de4e5717d1608d7156724c4aff4c130e88245b0d490b4fc3131a76f9de
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15943,20 +15943,20 @@ Description: FFmpeg library with (de)muxers for multimedia containers - developm
 
 Package: libavformat62
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3239
-Depends: libavcodec62 (= 7:8.1.1-4+b1), libavutil60 (= 7:8.1.1-4+b1), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: ./libavformat62_7%3a8.1.1-4+b1_amd64.deb
-Size: 1270956
-MD5sum: c828f11bb196dcc2b84a4d8d85992470
-SHA1: c7c390b048266e3a19621d3e607ee6eb683e5c3b
-SHA256: 824cd7882d6c8001072916ef4d56be9794f1296b0d0a368aa24c32214d615d1d
-SHA512: 3edd0a347f27ef1eb4b2e4070968aea8d417d05b7d0c45ae4ba01add27e83833daf6486ed6617bc81fc7f7895cf8958fe24af6fa3fa6a360076d592ac7914deb
+Installed-Size: 3241
+Depends: libavcodec62 (= 7:8.1.2-2), libavutil60 (= 7:8.1.2-2), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.35), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.4), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.5), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: ./libavformat62_7%3a8.1.2-2_amd64.deb
+Size: 1276124
+MD5sum: 0b6d40d08e02fc6e31576986680c9954
+SHA1: 4f08520dab90f7a006aa8f6df22d44912978c428
+SHA256: a42d70158e62533239c95a2e50dd6ee597d2116a93bed9083eecfc13f49a6dd5
+SHA512: 0c4d4001dc49df8a638dce404e3acb27757a3404f7557a929e9ba8cd8c308c48a7f49365c7a9eca1730fc2b375426dbd2c8c8c6984757ff3437044117c9e56fd
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -15996,20 +15996,20 @@ Description: Library for handling .avif files
 
 Package: libavutil-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2659
-Depends: libavutil60 (= 7:8.1.1-4+b1)
-Filename: ./libavutil-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 607604
-MD5sum: 123ac161afad7bfca8118225ee707bd6
-SHA1: fa7067712bb59369a9789da395cd06aae0a3ae7a
-SHA256: 0d5045bf5a96d34b80439eff1f1f7f032e2246116d0be6556cde626e33b30ee0
-SHA512: 6264622fa0362878574084b5f9ac76b912481ae57b84bba5c6234643f66da1196eeb7a5fea5aa403247948751e5565d64f93e982abb0259b6bd689fc664d0e72
+Installed-Size: 2661
+Depends: libavutil60 (= 7:8.1.2-2)
+Filename: ./libavutil-dev_7%3a8.1.2-2_amd64.deb
+Size: 611156
+MD5sum: 9ba1b8d8be4acd4086347ff37e087444
+SHA1: 17d6b6f107a2322a8d43983d0c94ebe13988281b
+SHA256: 01f662ae8641bd51d47f3ffb9ac95a9435fe3dbc94c0a1e06c2b995a674172a6
+SHA512: cf97a3d248d36ff0149336fe738617531144cc32ae730ae1c7dcfd4488ce86c2c83779ed56b45ee82d2cb8293203628e7d61a0884c0f29dde94f5e89f29d56fc
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16028,20 +16028,20 @@ Description: FFmpeg library with functions for simplifying programming - develop
 
 Package: libavutil60
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1293
+Installed-Size: 1295
 Depends: libc6 (>= 2.35), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libvpl2 (>= 1:2.16.0), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: ./libavutil60_7%3a8.1.1-4+b1_amd64.deb
-Size: 441592
-MD5sum: 7507a6dd387d6da13abe1e46f63272ec
-SHA1: 13fb9e53deb21f4d2194d2a95110687628cbc08e
-SHA256: fd566b68d99fd23154e0cff7fda3326a329019034057000c01c255acdfadd42e
-SHA512: b6601882acb0ca01532cc659e89c34afb00e1a94dd0306575b6f189fc013b15a9548d230d258edb7c9041fb4f760fed2881d0cd84dd106b7ab8cccae796b3616
+Filename: ./libavutil60_7%3a8.1.2-2_amd64.deb
+Size: 444740
+MD5sum: 9c27629c8361a90941a7b8ff4649f4b8
+SHA1: cb1f5f8c124dbcc89244e7fc3a0938ee3df84e2d
+SHA256: 6c16790b0e159ae7c074ffc057916949befc6ae57c22fd001b375b423025d46c
+SHA512: 9d16e83e16d6d02ed5e1715d276d0a2f363a8312699e94ec396d4854fc35547418d89560ddcc6c7140f97e208ebf6efb86054608c47019ee4d3ec88e2512964c
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16673,22 +16673,22 @@ Description: Theme library for budgie-desktop
 
 Package: libc-bin
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: foreign
 Priority: required
 Essential: yes
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2119
+Installed-Size: 2115
 Depends: libc6 (>> 2.42), libc6 (<< 2.43)
 Recommends: manpages
-Filename: ./libc-bin_2.42-16_amd64.deb
-Size: 621724
-MD5sum: c53d379255a49393b39e5bacd7afab0d
-SHA1: 5f16888952bfa489772e109854691f7c8cb41e95
-SHA256: e258267108803b19003757c18a79c64e4711bfcac39edbd4f84ef1b57f263aab
-SHA512: b047d48132d8ff551f7c72b69fb8b1caa1c9db538170fd9691e2aa4b0f34bf8c1bfd691c995a29a6e0d301eb7f2d9bf463300b6ce71b997706e346ade703a997
+Filename: ./libc-bin_2.42-17_amd64.deb
+Size: 620268
+MD5sum: 7352e89c41b6444abbfc2768916543db
+SHA1: 9462b2158ce46b03dce8f4cbe9a61a83485c3dc7
+SHA256: 62df63b8e90ddc089cd2cedd71bfdec42fd3fb8d9e40f0ba6c32c8c5498a6f35
+SHA512: 37a242706371a9c5d77f0e85ece208301b411a593094295ea14281c2b626209fc6533d1b5d5a0383d5e72f3a903a488852ebe015006462c420c123eec0c02853
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
@@ -16702,7 +16702,7 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
@@ -16712,12 +16712,12 @@ Installed-Size: 106
 Depends: libc6 (>> 2.42), libc6 (<< 2.43)
 Recommends: manpages, manpages-dev
 Suggests: libc-devtools (>> 2.42)
-Filename: ./libc-dev-bin_2.42-16_amd64.deb
-Size: 37876
-MD5sum: 3785adf62f3e20be3e3810e47eaf27b2
-SHA1: 181b23f7b5d50bf6fb6b2e6f8df74770b3be21fc
-SHA256: 2d90179b92c804fb3c792325d4aecf9bc51ae139909f3fb5a62bf013db5a66e8
-SHA512: c209b0365634711ece0daa32116e61f2500a39c3e0e4ce68922220b29da2b0584541980a0a506bd0cc003ce7f2373eb6bda35c2bd71df5fd33dc8ae1cb3a4a50
+Filename: ./libc-dev-bin_2.42-17_amd64.deb
+Size: 38128
+MD5sum: 04adca28513ca7567d48d829c33152d6
+SHA1: 0ab5ceae18cd868b278274e9d2c24019e1e281b0
+SHA256: 1431665ffd090428e3ded8f51cabb41f554a0acf9d3d0103825cfdc529d53fae
+SHA512: 58cc1079ca718e55c8aa0182cf823046a4665ee93fda57223dac3f4d43975452a08d34bf6e0222801b9a0f9995c22bbc7c5650fb0dbe84e4283b8a8aa69877d0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
@@ -16727,7 +16727,7 @@ Description: GNU C Library: Development binaries
 
 Package: libc-gconv-modules-extra
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16736,12 +16736,12 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 7991
 Breaks: libc6 (<< 2.42-1)
 Replaces: libc6 (<< 2.42-1)
-Filename: ./libc-gconv-modules-extra_2.42-16_amd64.deb
-Size: 1097576
-MD5sum: a70fd00681094b493df482d5c094077f
-SHA1: 970b90659e3391205f88f6ff85227403c96dae1a
-SHA256: 42be77e33686bfa092e31fd2da3f0c42443576e4b3033e84a69c6d8dcabca67d
-SHA512: 9d24fa632095eaaf9cc214afcb6a1db7e2c64af9f9cbceb6e40efa82a5e5019f75d4ceaf0724f4f4d71ab1a320d93835659373f72de15a2fdd644231780058c2
+Filename: ./libc-gconv-modules-extra_2.42-17_amd64.deb
+Size: 1096576
+MD5sum: bfea1eb2b3f2d1f8e66aec3ff25191e9
+SHA1: f1d1cf2e2417a005c668c04297c4284ae9107885
+SHA256: e94871c0886d582cefbea938af6198536793a5e7e3b469941b24f9f3b2c03273
+SHA512: 25d92c8dd863a0ae64ea545ddf6062cb239760c448b99209e67100ff81f840699312040234e8fd4a656045afe9f9185d5cb44cbc4626cc4832d08b7e4b62ea3b
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Non-essential gconv modules
  This package provides additional character set conversion modules for the GNU
@@ -16750,19 +16750,19 @@ Description: GNU C Library: Non-essential gconv modules
 
 Package: libc-l10n
 Architecture: all
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: foreign
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4772
-Filename: ./libc-l10n_2.42-16_all.deb
-Size: 727136
-MD5sum: 9cd89f903e8802ed4fdd9c146a2d4ed2
-SHA1: 8c445766f2ff600c8db7a5721314efcbc68a70ec
-SHA256: 93d3bb38c15446395f0b4d275e969e61ddfe2468fa5cf6658f0a06ca4aba8bd1
-SHA512: b94205095635fba1572d82827fe6ff4a1cb1590e3ef4a6cb067813fc8a65f9674477e10d7b2c166bdb75f392da786d6f951746c6e15aac9c2201a2275e581495
+Filename: ./libc-l10n_2.42-17_all.deb
+Size: 726448
+MD5sum: 86f473473e12160f34e18900ed54887a
+SHA1: 48b1b2674281ba325258014507e5855075299c8a
+SHA256: 580bf361c9fe7538bdb67717fa50dd5ed9262fd1be08b416c3667477a0835255
+SHA512: c46f39b7b296e42927d095ba86eee07c388fd66b3ecc3f775b2372a702cec8fe46d480cc2f97a42d47710b0859d0136db935ed67a30cb132960a191d88a2ec48
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
@@ -16770,24 +16770,24 @@ Description: GNU C Library: localization files
 
 Package: libc6-dev
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12681
-Provides: libc-dev (= 2.42-16)
-Depends: libc6 (= 2.42-16), libc-dev-bin (= 2.42-16), linux-libc-dev, rpcsvc-proto
+Installed-Size: 12676
+Provides: libc-dev (= 2.42-17)
+Depends: libc6 (= 2.42-17), libc-dev-bin (= 2.42-17), linux-libc-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: catch (<< 1.12.2-0.1), libc6-dev-amd64-cross (<< 2.42~), libdpkg-perl (<< 1.22.22), libmysqlclient-dev (<= 8.0.29-1)
-Filename: ./libc6-dev_2.42-16_amd64.deb
-Size: 1996236
-MD5sum: 6355dc9658e91af41aec7825b2153daa
-SHA1: 11bbe2c4b9c48a172f52bc7a18b4573357590e69
-SHA256: ec408f149d89e3c008589de8f9c2ef5c982cdd418e7833516c217e686fdb8f6f
-SHA512: 50606edbe3dcfbd16848e220617a137770dbfd135debae44f4de707876ee4da9ce74b14d1e389e90c49a275a6554f1e682b732c013c1e0e2b627a48f2220d0e7
+Filename: ./libc6-dev_2.42-17_amd64.deb
+Size: 1991056
+MD5sum: 0bee6c6b381b63d9c15c538ec3e89ecb
+SHA1: f85e39bc5daf6e3664ad7c7306fb081de86f7912
+SHA256: 15770477dd09aea3b257b0231ef07a90c44b010fdd72cd426f4513f080acdc8a
+SHA512: 6ff157f56445afe70e4b0b1854258d95805a704169ff8f58a0921f992d0ccd06846ef9f52fc70a47da93e889683edd8c5db7ab12c146a911e2b666e56ef3483c
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
@@ -16795,24 +16795,24 @@ Description: GNU C Library: Development Libraries and Header Files
 
 Package: libc6
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 5363
-Depends: libgcc-s1, libc-gconv-modules-extra (= 2.42-16)
+Installed-Size: 5355
+Depends: libgcc-s1, libc-gconv-modules-extra (= 2.42-17)
 Recommends: libidn2-0 (>= 2.0.5~)
-Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus
+Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis
 Breaks: base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)
 Replaces: libc6-amd64
-Filename: ./libc6_2.42-16_amd64.deb
-Size: 1789008
-MD5sum: 9d45ef835b92bf108b8b1d3d9496aa0a
-SHA1: d4d81bc6e8fc7e34265c6466e75bd1ba08e4adf9
-SHA256: acffdc7b51c540d9e0e632c95c2941ef12402b3c609a1f086d17cad08a10edbc
-SHA512: a52925abe3f754951ab72e66296b22be951f675f47fed6c9a1c06e2fb54f8eef2068a4fad96a3aee08111b391e5277d7df6f923f93ec83dc7cfa3441b173102b
+Filename: ./libc6_2.42-17_amd64.deb
+Size: 1789916
+MD5sum: 3c95ba3cb4ebf11249b559f000fc9b1d
+SHA1: e8faeeea9d7507ecb55f6fdb3dbba557dc014bf0
+SHA256: 23b27afdc6463a607187337c30659d2e3f8d79e83c545e65220ee7692e5b88dc
+SHA512: 6fe886f2285e30b7c1dda967bdfbaaa92a83f857ca9cbc4212cc12229ebc476da55761fa03637e651c634cdf9367e7ba0058e682e8c10a0fd097b43d60bd280c
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -17281,21 +17281,21 @@ Description: Configurable on screen keyboard with scanning mode - library
 
 Package: libcc1-0
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 148
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libcc1-0_16.1.0-1_amd64.deb
-Size: 46052
-MD5sum: dfb258803b0842c78b907ae995f0763a
-SHA1: 37b0e538939a9250978892e17d753f4baef8fa81
-SHA256: bc3fa2d85aa510cf14e63413c9c1b2f484c34415da08f9dbac2d50f17b5e1b2d
-SHA512: 48ecac16fa15d883008f06d06684ce3abca0e954e6850a08eac6403d667a3a7ffcf5a9fc00e6d1c3429188ce7c13c344822bb8488f81d0a1c2f03369359fd219
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libcc1-0_16.1.0-2_amd64.deb
+Size: 46056
+MD5sum: 7192f8e901985f6eb248651770349b6d
+SHA1: 9ec22a112d48a82b9f59f92458427810640dd09f
+SHA256: dc0fbbd52e471bf098607dbb2b7e5bfc1c10c2ca1c6179ffcf56214198fa57f1
+SHA512: f474efe0f3411456bb3486c65808f7e101079f3b550ddf157b29d0de4b6dc0f3a76a3bf03df4498f20564fef8e52e9c3b55c596898c631bc150a705b390232e9
+Homepage: https://gcc.gnu.org/
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
 
@@ -21121,7 +21121,7 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgcc-s1
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Protected: yes
@@ -21130,16 +21130,16 @@ Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 197
-Provides: libgcc1 (= 1:16.1.0-1)
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.35)
+Provides: libgcc1 (= 1:16.1.0-2)
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.35)
 Replaces: libgcc1 (<< 1:10)
-Filename: ./libgcc-s1_16.1.0-1_amd64.deb
-Size: 73972
-MD5sum: 4ee87f143053a14414ea99e298ed9ed6
-SHA1: a070f7d530e4fe43acfd02a21cc5b2eadbfb69f1
-SHA256: 15587be8c8b54d100b7ade2cf3882d4b4383522526acde635a3c2ca038d716c9
-SHA512: bc3175fa7395ebc3717962ea4519a78fcb5d6d4955627cfff98b8b98e9c7d72224b7ae980a478d33c11ade26583036b06f1f607a3f9426f8a251098050bd7878
-Homepage: http://gcc.gnu.org/
+Filename: ./libgcc-s1_16.1.0-2_amd64.deb
+Size: 74092
+MD5sum: 10fc6d744576b878d05c2d0ac29ed9e3
+SHA1: a98d5ca7862136111ce2dc4a09704de66ba6631a
+SHA256: a0b3de44fb6a7763460c4457a9ffb4e84b503a50d64c27cb921ecf0b2a7c7fd4
+SHA512: 1b439ce6a2eda521b7631b7116b7adcfe4ab8d1242fbf17c36ae07a5e46759551a3bfe7ed3bcfded7db3c25e5d526001e7dc666d99d67e28512608051cba20ea
+Homepage: https://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
  that GCC uses to overcome shortcomings of particular machines, or
@@ -21814,22 +21814,22 @@ Description: GStreamer editing services (shared library)
 
 Package: libgfortran5
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3530
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgfortran5_16.1.0-1_amd64.deb
-Size: 878056
-MD5sum: 9cf3b7cac40f63032ca77bcfc4b78c89
-SHA1: a0a2374761a95986c2620849eb902892c6bdaa62
-SHA256: 8b2dc23f9c9786a7b1ed3acb08db047f49a0963beb0fc609ee2b1f0b3aa6c0fa
-SHA512: 77d215fc42c5f690e151eafa99d1edb383680b3daa31159c78c6680e926330c6b83c0c379aff1f8d624170e4c3516fdb8be2cefab5db3af770967ab978dc9207
-Homepage: http://gcc.gnu.org/
+Filename: ./libgfortran5_16.1.0-2_amd64.deb
+Size: 877248
+MD5sum: d9aa2ea233942e637d424cef4036d45c
+SHA1: db99a64bbd8858a48b1dbdf8a87faaed9eda8921
+SHA256: a243794024b2ab3d23a658a5e42e4dce7c70c0a10ce295a9277e3726c807ef3c
+SHA512: 4b4d84b79d5d9a5334a10b372568a8954bd9399a9f0315acf94b7bc2771a928159645d5343062dff2aedae1a0fc861600a07d57cc1ee7562f03f8a3a59f73c46
+Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
  Library needed for GNU Fortran applications linked against the
  shared library.
@@ -22747,22 +22747,22 @@ Description: Object mapper from GObjects to SQLite
 
 Package: libgomp1
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 402
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.38)
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgomp1_16.1.0-1_amd64.deb
-Size: 151080
-MD5sum: 6b4e0e627f8c68917b499439d7454d6e
-SHA1: 7f7f548c4afb7a969f6c07b10a1b5f3a7c1191b0
-SHA256: d66c43b224611d572d7ac48af0affdd5830c23a0da1d2c856fa5f1f338636d36
-SHA512: 1f16291f6bf859f86fb6e893504110381286cb04e672d4aeb0952548cf9b15a7db7bea8e10faa9f115b7ddd7b85b7ddac13cc6d1618068c835674cff99b9c832
-Homepage: http://gcc.gnu.org/
+Filename: ./libgomp1_16.1.0-2_amd64.deb
+Size: 151112
+MD5sum: e72d615f18c1658b7fa39ba2e7e1f75d
+SHA1: 184ece9fc0eb025f495a1e2b2b159fc7bd9be543
+SHA256: 4014df508cf2055e5d6b506ad1f5f63a62991b0d29b87eec07f7b8550a564bed
+SHA512: 589232d3c2960d802bff965b9a4c15ec55b17ca4f997dc731b9775d209ca457cd296bb4a0f2b0df852a10455123931c050a1ae8a683cae7a7b1cb1f00abd8671
+Homepage: https://gcc.gnu.org/
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
  in the GNU Compiler Collection.
@@ -24541,21 +24541,21 @@ Description: spell checker and morphological analyzer (shared library)
 
 Package: libhwasan0
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 5089
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libhwasan0_16.1.0-1_amd64.deb
-Size: 1580088
-MD5sum: 438985b821c800371c1a2bf2f31eb0de
-SHA1: 8d0f55b1b4a3fe8d5ad2d29c83b8fe1143b26ffa
-SHA256: 3be9b137126af4ff2bb944719ca25619364b177dddc002569cc27a943bfb6f70
-SHA512: ab4ec8a0723a4bd9bf28357d47ec775086ce8863b1fe0b2451b5ee7cb623479cfd48304a56f7fea95fa13cb73ed5d2be8d41dbca753b78ab6d10d08318875601
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libhwasan0_16.1.0-2_amd64.deb
+Size: 1580120
+MD5sum: f99b171fb303c02cb1b354deadfbbc21
+SHA1: b41b6f67916ac0a2a835674bd1e5dc628d8767fd
+SHA256: eeb4b1abd1582391ef34eda21c7f2e1e54d8e75642dc19b2eb9b324901ad677e
+SHA512: 3823867919b397cf9279a42f1c77087fbfb27dc8c8b1057068c354d48ae3a2e4f1fe02d4f584cce685aca0807bcd9d1629a96d25d71b31b69c5016ddb06b6f76
+Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (HWASan) is a fast memory error detector.  It finds
  use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
@@ -24935,21 +24935,21 @@ Description: Java Library to create and manipulate PDF on the fly
 
 Package: libitm1
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 115
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34)
-Filename: ./libitm1_16.1.0-1_amd64.deb
-Size: 26984
-MD5sum: be53a6a834962142f9796df999533dc9
-SHA1: 7729ce37e212171d2a34e3ca64dcf21b71d731ae
-SHA256: c3c9b409cf7090aba2ed659940a55ad1f7dfc6a610b2a0d3668ab66796fbe9aa
-SHA512: 60a93279dd502e2ca99ad8f8aa986d1d0c9073e6dbb9ddc616cd588a98ccec9898d21a3bf09e72ec4d2704a6f79df7173d549938f18fa67c4ba7fc937f98dc47
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34)
+Filename: ./libitm1_16.1.0-2_amd64.deb
+Size: 26944
+MD5sum: c803caf0a2b0c890b69dbd71d7b2362f
+SHA1: 347bc5f87993f411e58b8b126b2ec8590bf180f4
+SHA256: bbce63e715399da566335cd22b9bc5051525e4b5f2dd91c6b6ad1d25910d8980
+SHA512: 7c74edef2a77cf64a78aa2439648fedbbaf07619834ed06ed423ae2ca424672d428d00ff2ae2321caab1b04d20d7e0777bb0a499756b8a5cba07346220f3ad34
+Homepage: https://gcc.gnu.org/
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
  accesses to the memory of a process, enabling easy-to-use synchronization of
@@ -31420,20 +31420,20 @@ Description: libkpimtextedit - arch independent files
 
 Package: libkquickimageeditor1
 Architecture: amd64
-Version: 0.6.1-3
+Version: 0.6.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kquickimageeditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1294
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.13.0~), libkf6configgui6 (>= 6.13.0~), libopencv-core410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 13.1), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkquickimageeditor1_0.6.1-3_amd64.deb
-Size: 282832
-MD5sum: e046c4393731895956bd6e972d2c3866
-SHA1: ea5007bb16ecdf51b3e0ea952ea89514aa870799
-SHA256: a61af484be6c6f6591ea6e377797c9d67b9a6732a214dc3551b9893046aecd17
-SHA512: ada3a024a6d1ab8ec3c821263701a0043abac6dfc89536a58ed124c66b84da04bf77b946834934d687615032a3de7a1b7368446e8536b50cf488468755a78aa7
+Installed-Size: 1298
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.13.0~), libkf6configgui6 (>= 6.13.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkquickimageeditor1_0.6.2-1_amd64.deb
+Size: 286436
+MD5sum: d06c77795ca67298639c659a94d2cc84
+SHA1: 00b9f1cb5e0ec7998ab049b5f9bde0a3a9b3c0e4
+SHA256: 0a2da65f07603776e67c9f42b22f010af29930c0c87066497a8494736debd87c
+SHA512: bd35b1ba74feee6aba8fd801eb2beb1ec4606fb0f430a07395f1f04ff327fcb39798aa681eeedfbdeebf417183e40e6ec96c715533602b98a6ec9b1f8f3fbe6b
 Homepage: https://invent.kde.org/libraries/kquickimageeditor
 Description: Image editing components -- shared library
  A QtQuick plugin providing Image editing components.
@@ -32127,21 +32127,21 @@ Description: Java general purpose resource loading framework
 
 Package: liblsan0
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3977
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./liblsan0_16.1.0-1_amd64.deb
-Size: 1280584
-MD5sum: 889b251a9e9550273ca3ecf7d61036f4
-SHA1: e6a263f8022145e6cfa5578fceb704f435c062de
-SHA256: 335aedcbc333908ca0acd76ac7ab127ad63d7405bc93299b9865c9b618bec19d
-SHA512: 6e4e230f4214a4711a1ce4e74a6d06d4502d628ca76ca2ffdaf7ac5670d80757bfeb7f709fdb0f9b4894f89709ef008fc455a67096654b0c0f2b8dc075fb5f6b
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./liblsan0_16.1.0-2_amd64.deb
+Size: 1280612
+MD5sum: 8be67e8767837b1da6818aa4b04d76e4
+SHA1: 306e5a2fdfc178d0bbfebceada41b23dd6e65350
+SHA256: 0f3f25b6d30caf7ae4d9728e2d85b2e1f9173ea69e02eb2f99235061371e1138
+SHA512: e4cb6af4c1d8f9ef2117ca2f72d037f5367deb5d24bb0316755ffa8e78ca84af9a42bf76cc54ef65dcc399922ea77492141eae64f086024134dd33d32e9ebea2
+Homepage: https://gcc.gnu.org/
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
  into AddressSanitizer.
@@ -34205,21 +34205,21 @@ Description: C library implementing OAuth Core 1.0a API (runtime)
 
 Package: libobjc4
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 209
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
-Filename: ./libobjc4_16.1.0-1_amd64.deb
-Size: 44948
-MD5sum: 04964fb5bc01a741de8d6bb1c7c46268
-SHA1: f23ff9962159816f95cc6932e468e0bf93f0b1d0
-SHA256: e7b0b47cc76a893869e47cb78dd8cbc63eed54913f1ff3dbdbad0207a21a6664
-SHA512: abe52e2226762a236e2a35bead0ccf0317f6bcded7f84f0bf5a5d5c2a859ed2df111905b660fae72392618928a2ee6c3aa764a23347edad8e2197ee90361f733
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
+Filename: ./libobjc4_16.1.0-2_amd64.deb
+Size: 44956
+MD5sum: 07699c3af41364a4b003a01cb0474ee3
+SHA1: a742d1b003d6dad7bc4a170481c92d080de630c2
+SHA256: 88745bfecda67a14b57b7301687dcd3a8fc1406777c226a215fc6057e9d86913
+SHA512: 3adbcf34e35a260073777e8043e963f2d545aa283d5e0000ef03588ce0dbee24b165879db4ceb539c6057e387da0e807314976d96d4a0aa0303567035889523a
+Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
 
@@ -38193,21 +38193,21 @@ Description: Terminal emulator widget for Qt 6 (shared libraries)
 
 Package: libquadmath0
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 300
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.38)
-Filename: ./libquadmath0_16.1.0-1_amd64.deb
-Size: 147852
-MD5sum: e04fa47325d1fb40928388393529cc46
-SHA1: 4c5829da191825091c37f895c2082626911f8dfb
-SHA256: 9f43fd6efb4f04b8331652f22fa70b62dadba89e903ca0af85391ee337e94cfd
-SHA512: 353426cf16eef8dd4eb4f4fb5b079095f897af127bff4334a402bb09f989aa68db928df54ec9ab0765e4ac758dbfa8adf23d3dadbac1792e5afc04f69f6464fe
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38)
+Filename: ./libquadmath0_16.1.0-2_amd64.deb
+Size: 147664
+MD5sum: 37a0da4841e631171f8884bf90822979
+SHA1: 89b9a4d858e8b64c77d198061c479cc76e950c39
+SHA256: 255b4a5b3034e5879c35c1f63738d74260faa5b94d1cc70d8a3bdf130cd6b2f1
+SHA512: 7bf1607bf322a8df9a04c31361ef7170f963dd4b655503667dd8ec40075f70f1d6ee187974847e3d6de82a8bbe7cfddb6db7f33942963e4a00f3a298ae7844b2
+Homepage: https://gcc.gnu.org/
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
  supporting the __float128 datatype. The library is used to provide on such
@@ -46241,24 +46241,24 @@ Description: library being useful interface to system statistics
 
 Package: libstdc++6
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3319
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Replaces: libstdc++6-16-dbg (<< 4.9.0-3)
-Filename: ./libstdc++6_16.1.0-1_amd64.deb
-Size: 823496
-MD5sum: 214029e2fd16b8a37859b5f31c80a4a7
-SHA1: b163b7d0df3a0df575f9a7cda9a36274fd7f0322
-SHA256: 3a32b8e77fbc65d8e77bf96a75916d8736106816b04095d922be0151c12b45e1
-SHA512: 860b1263a5e7129f1282ccefec2218e129da9445219ccf6b564782ba29b0e128d7b5081a3a9476573faee9bebf98ca8b0e5e6859f17bd8797f40959df8cac1f9
-Homepage: http://gcc.gnu.org/
+Filename: ./libstdc++6_16.1.0-2_amd64.deb
+Size: 822444
+MD5sum: d59dfddf18537022206c97d429203d3a
+SHA1: f5b55d40a61ed9a4576eb116f576a4051ef3cf70
+SHA256: 74748a4c5f0bf11b4e1b905c699aa547ea44e6d07534f722f9ec9ceb7f90bff4
+SHA512: 97273d4bb63607bf95fd8103fc6c907b57f5456291c54afdc4f22f0a2b628c9b5461507f692dff7db302fe98f17553a16e3945fe08e6dd9ade5364f9eaf17176
+Homepage: https://gcc.gnu.org/
 Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
  built with the GNU compiler.
@@ -46295,20 +46295,20 @@ Description: Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
 Package: libswresample-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 404
-Depends: libavutil-dev (= 7:8.1.1-4+b1), libswresample6 (= 7:8.1.1-4+b1)
-Filename: ./libswresample-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 119164
-MD5sum: 695d625ebf1322fba96fd888a7d88cb9
-SHA1: e2f6744b16b9e1c0e190184df22a56b6aaabd873
-SHA256: 6f71aef2f0a4232174defdaf2eabb088e6b4f42d48e85611db0aafbdbacecada
-SHA512: bb123abbfd13457f5f60ce9082d80a2bd20a1265c281b1200fac97cccb111c2e238bb4bbe9edd520dc9557158959d102b52350dbcee46b80f8ae7fa95baffebc
+Installed-Size: 406
+Depends: libavutil-dev (= 7:8.1.2-2), libswresample6 (= 7:8.1.2-2)
+Filename: ./libswresample-dev_7%3a8.1.2-2_amd64.deb
+Size: 122616
+MD5sum: 5102328f450cff625af2935c277abcb8
+SHA1: ed7d5065bc7d2ddf63a465180b7a1ab97c8d9c87
+SHA256: 3943922742b9ac043227658840edaa1c6195da8498e70bad923c9915d0503e25
+SHA512: 2b0de42e6978d6fdde5716823c395d96808ac606de84c2c8f80971d1d16a81b6656f85b760e3c081ac4930a5fa3bcbdd26340da901ce257773496cb011434651
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46339,20 +46339,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - development
 
 Package: libswresample6
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 277
-Depends: libavutil60 (>= 7:8.1.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: ./libswresample6_7%3a8.1.1-4+b1_amd64.deb
-Size: 104568
-MD5sum: c10db8b117c676058f388405f4c993c4
-SHA1: d782bc8b9af0f2c8740d9daeae6681f13c13bf87
-SHA256: 4b944eef0a95fd555d6da69483a7aa2372a30cf40e58a0965a4b9bea963d4339
-SHA512: b479b05458d169a6c3a55c2998fed9aac9f87165cc36f7e9541c42ff8cb1ecdb78b2362e2470fc914660c68a1414fe098721ad2f28b6ed8c497a5742d65a7c67
+Installed-Size: 279
+Depends: libavutil60 (>= 7:8.1.2), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
+Filename: ./libswresample6_7%3a8.1.2-2_amd64.deb
+Size: 107944
+MD5sum: c62fa3845df2c9bdf84e52212e38a2a1
+SHA1: ea1d8da01fce9b380f5a08a7b49250e98843c897
+SHA256: 01be0d32171b9d30ae1275f7df1607ece80a7426e9d24e3219b98e558aec9e7b
+SHA512: df86becedfc32e42d1b39f872d1bedaf9ec4169d5ceade510b0f2815f81d51e0d581fb5a719bf6c9b8b751456269fd49331a43ed32db4ae12b921c7e2e5b12ec
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46383,20 +46383,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswscale-dev
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2490
-Depends: libavutil-dev (= 7:8.1.1-4+b1), libswscale9 (= 7:8.1.1-4+b1)
-Filename: ./libswscale-dev_7%3a8.1.1-4+b1_amd64.deb
-Size: 539980
-MD5sum: 77af95c681a48e76697c080a46a53a32
-SHA1: 829c1a2aa856f51b831e38f70d1a0ee7ae9fe08b
-SHA256: 43ffd462959cb43ab97949e3fc4577aabf11d27529e39d4bd486a0383f256a39
-SHA512: 1b2a6bf397f6324cf24894f74b0550e30309b4a5ae2f7aa79670ccea648eec1298d420fc43a7d39e40308eb28fe627c3084fdd92bc54da6416f374380b679b0d
+Installed-Size: 2493
+Depends: libavutil-dev (= 7:8.1.2-2), libswscale9 (= 7:8.1.2-2)
+Filename: ./libswscale-dev_7%3a8.1.2-2_amd64.deb
+Size: 543396
+MD5sum: ff0c9d9d989323b5d6ed1df7e400045b
+SHA1: 361dbaeef9126f59eab7b64c09e95c7982d60d5c
+SHA256: 5ab7dbd7dbdb6741b8fd9f5357178679c5a881b81afb0c84a1a502ce1833dbf2
+SHA512: 24bad2aeca242a497cbf6bb5202038295abe8c0e629ebd1220e889eeed9dc48ca68308cdad16099d6575fc8e16c5c14a1af64e7002702f81c39a4a45ad86e113
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -46421,20 +46421,20 @@ Description: FFmpeg library for image scaling and various conversions - developm
 
 Package: libswscale9
 Architecture: amd64
-Version: 7:8.1.1-4+b1
+Version: 7:8.1.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpeg (7:8.1.1-4)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10391
-Depends: libavutil60 (= 7:8.1.1-4+b1), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libswscale9_7%3a8.1.1-4+b1_amd64.deb
-Size: 2889268
-MD5sum: 295b7f4e16c5e7b7b6913f4a1d19a3eb
-SHA1: 16a8736bfd6fb71dfd4f4e8d4b4ec5d834be0303
-SHA256: abffcbf3755e00f0483bbf6ec608502811b3ab87c8ca9cf0674fc42f1d8131b5
-SHA512: e560225ddfead38238198658a6175758083a183e3d494016db6db34738d73d134877b15e238c1f246c79c178450fe5aab29e87a807a9b6c998d0cf2791172295
+Installed-Size: 10393
+Depends: libavutil60 (= 7:8.1.2-2), libc6 (>= 2.38), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./libswscale9_7%3a8.1.2-2_amd64.deb
+Size: 2892944
+MD5sum: 31719d4feeb871268718e94ad7d7df76
+SHA1: 7297670c715b76ab4e9f32d12281f676c6450683
+SHA256: e4403ab3841503f8247b2167df85fbf01fd19027dc133157195420cb19bb4b80
+SHA512: 68d35901d04dcda71319d44195a176e8f566c70bfa320dc583ef259e410a2ed8db0360c9bfb56b131fbb2e479882c3094b973d938270f418b3e5e6c26246cdd2
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -47156,21 +47156,21 @@ Description: Main library for the Totem media player
 
 Package: libtsan2
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 9182
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
-Filename: ./libtsan2_16.1.0-1_amd64.deb
-Size: 2572060
-MD5sum: 555e2fbe4c633abd4af6db41f101c254
-SHA1: 5205f84c6f28eb5192d50fa21803110a2106e38b
-SHA256: 1c32ce77ad9846f183f9865f526fb5775da8a999879a26ae4a36334e8df09fa9
-SHA512: ddd91354d1d82dd94580f728067fef44098a54d5b59d1366895910596eeeed5701d4c175e73e676a6a174cf514f274af9e0e544b49464efae01ee77cf7fe1186
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
+Filename: ./libtsan2_16.1.0-2_amd64.deb
+Size: 2573260
+MD5sum: 77c275d9e9f3446d32117dde2e01ef38
+SHA1: 2713e043410b70258330de9456c5d6e7ad805dcf
+SHA256: 9685be32cfd2e0e0bc04b090981cf26693f72b195a8d962d89b14cb0d493941c
+SHA512: ef29b7ea18ed5fed5999ad3be418a5a1c8d1c70e5f0c1842c2450c0faa23dd3b681455b5e07b2f684172730435480007527f52991d5a4af029e5d368094b399f
+Homepage: https://gcc.gnu.org/
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
  The Linux and Mac versions are based on Valgrind.
@@ -47621,21 +47621,21 @@ Description: TurboJPEG runtime library - SIMD optimized
 
 Package: libubsan1
 Architecture: amd64
-Version: 16.1.0-1
+Version: 16.1.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3483
-Depends: gcc-16-base (= 16.1.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
-Filename: ./libubsan1_16.1.0-1_amd64.deb
-Size: 1136448
-MD5sum: 85bfe54f97e6662929d2a70d14ce176b
-SHA1: 5f47e4324663f183856831db5ce998bc7e07d79e
-SHA256: 38051b3867c0d3d976141ab85e90d02aa9fd9a93c665b8b23ffbc148bef7dc98
-SHA512: c4ddad121c9b128443ce0790a14afbe3022c7cf0fc688b3dded1d7e9760bca2663a000d9d64d6535d85e2b4b3fb34c85be8908d5bb77e010ac4742fb70df52e6
-Homepage: http://gcc.gnu.org/
+Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
+Filename: ./libubsan1_16.1.0-2_amd64.deb
+Size: 1136120
+MD5sum: bdba2ab6a48cac3d54370d4caf2e34a7
+SHA1: 5e2f90e1f9e31d149867befc5bc68bf6382988fb
+SHA256: 252a6aa6d1a9f0fe67053938105ff72c8e59ccb2145613c72e54a594636d11c1
+SHA512: be1ffdb7244969d7544c660d7c99754153e1b781965824e01aa09450190c3a975ecc72bd250cef8f2c825ce3b8b4b5f92a1430e06dd89b32d0f1de79d5731ec0
+Homepage: https://gcc.gnu.org/
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
  Various computations will be instrumented to detect undefined behavior
@@ -50711,21 +50711,21 @@ Description: utilities to read temperature/voltage/fan sensors
 
 Package: lmodern
 Architecture: all
-Version: 2.005-1
+Version: 2.005-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 33268
-Depends: tex-common (>= 6.13), xfonts-utils, fonts-lmodern (= 2.005-1)
+Installed-Size: 33261
+Depends: tex-common (>= 6.13), xfonts-utils, fonts-lmodern (= 2.005-2)
 Conflicts: lm, lmodern-x11
 Replaces: lm, lmodern-x11
-Filename: ./lmodern_2.005-1_all.deb
-Size: 9480156
-MD5sum: b8a67a7f6970a108bc2c429b64a31659
-SHA1: 69253fc52e158bd2d12d73e5766a945231ec2e0b
-SHA256: a87ada29e88cc85d0b51fa20c7c02101538caec81fcf3ef43aaeee54557795dd
-SHA512: 185e7e63df190f287a1787da719317e2b8055c4471e170f647505067e262ef2391e0c6a7a3abd584e58455bcfcfe16bb1283f672c6ff47f89e27216a07a38bda
+Filename: ./lmodern_2.005-2_all.deb
+Size: 9474700
+MD5sum: 19736e8ab5fb537a91926fa236728237
+SHA1: 0f5934c610dc1bc59b6907b8ce08cb5cf6af866e
+SHA256: 2fb00fac1f87cd464eb490bf0be5fa2b4ee2db8c8482968e0058c10d792b59ad
+SHA512: a76ab2ae35d0f5ff3522e84296b4f257197e5ac9074831f5a7860ad1f186eb7502c3aa0166d96fc8ecd5dcfa1f386718cfc1bdb51c5a5071707ecf357a8f9494
 Homepage: http://www.gust.org.pl/projects/e-foundry/latin-modern/
 Description: scalable PostScript and OpenType fonts based on Computer Modern
  The Latin Modern fonts, also known as "lm fonts", are a set of
@@ -50740,7 +50740,7 @@ Description: scalable PostScript and OpenType fonts based on Computer Modern
 
 Package: locales-all
 Architecture: amd64
-Version: 2.42-16
+Version: 2.42-17
 Multi-Arch: foreign
 Priority: optional
 Section: localization
@@ -50748,12 +50748,12 @@ Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 236446
 Depends: libc-l10n (>> 2.42)
-Filename: ./locales-all_2.42-16_amd64.deb
-Size: 11188664
-MD5sum: ffa63928d48aae1d411e6cacf530fc97
-SHA1: 7053b29fa244e95960d6fc6c9a8d1acf2a43ee3a
-SHA256: d4903813f314b2c8a8f9e61da31eebcc0545045e0793ad2ff0711efd3dbefc80
-SHA512: a89078d9047bd7c89d8b90c45c170c3c9bcf3edbecdff7ed6fbc8796a4ce1334edcec9f5d3a01004f8c9de0d7587f0a11368e404865b1817321626badf475448
+Filename: ./locales-all_2.42-17_amd64.deb
+Size: 11127732
+MD5sum: 4c0f062d07f6f325897c73690eeb8950
+SHA1: 7af36da2056b7efba38a0d25ace7836140916e21
+SHA256: 3c2a539afa1ec6a73913f0f9ba62558f89c81f09dceab5002d308d61716fdd36
+SHA512: bce1848a62cdcee9505573de7d0f64c4605058916d19aed06400f2511335de6d628491ef3e346c78e0a686e015ea77e23a5770903c6947f84edafac035be4078
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
@@ -50763,19 +50763,19 @@ Description: GNU C Library: Precompiled locale data
 
 Package: locales
 Architecture: all
-Version: 2.42-16
+Version: 2.42-17
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15751
 Depends: libc-bin (>> 2.42), libc-l10n (>> 2.42), debconf (>= 0.5) | debconf-2.0
-Filename: ./locales_2.42-16_all.deb
-Size: 3904744
-MD5sum: c55a321c54cd59f94f6afe53c113f7d5
-SHA1: 0d32e9de07bdbb47e99c25587b1976dbc63fcf11
-SHA256: 6b709900503f5e5ce65a686468cbf3f0d6d4e1004982d7e9c976b7910460d001
-SHA512: a1a2b325842cbef6785c92f436d8fbec5ce8dd78459b9c684ef0865ee35c6c91757fb2ec3f4408ffd0aa2306d783d6e283791957ed6a3b0fa7ac66148e52bad0
+Filename: ./locales_2.42-17_all.deb
+Size: 3905068
+MD5sum: 2568e5bc6b9010bbef394a8e167206c6
+SHA1: e39272d4a60b683ddb5e42d165d15d0f84e8e76f
+SHA256: e47ef1d225d21a3a8949ebdc1c1062b584ebb26d93643f16b7397683fa9a37b1
+SHA512: 5edd127f98325b7e235373ba55f61017261b2b730faa165d4c73dbd43853a0b0de38ff987c21f9f08a7a733618443eebd053a79093ba0f7bb37fa90a067cc478
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
@@ -58883,7 +58883,7 @@ Description: provides integration of QML and KDE Frameworks - kquickcontrolsaddo
 
 Package: qml6-module-org-kde-kquickimageeditor
 Architecture: amd64
-Version: 0.6.1-3
+Version: 0.6.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -58891,12 +58891,12 @@ Source: kquickimageeditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 176
 Depends: qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, libc6 (>= 2.2.5), libkquickimageeditor1 (>= 0.6.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kquickimageeditor_0.6.1-3_amd64.deb
-Size: 24464
-MD5sum: fdb6e83d738d8f79f5111ffb8a19845c
-SHA1: 102c4cdbd08e751a0184b19b3f34403de130bd2d
-SHA256: 8aace67cdea36baf93d86a787242560200d87c9430b33e372271af173f987eda
-SHA512: dc88ba222ffba4f5b6f84a5809628761550fa818296f854409dbbeb8037786f674a04552a77943fa5c57d7b9f10b50217c0ff1506a4c598c5d20e5272c619a83
+Filename: ./qml6-module-org-kde-kquickimageeditor_0.6.2-1_amd64.deb
+Size: 24564
+MD5sum: 8df0e023a4084d18c29886a5268e04e8
+SHA1: 69b2b5c5eee5be7fda83d94b977f4297c47c058a
+SHA256: 92e8e2168308b3e7787dd9095627cab58a95c3ade5a5cae8438050ab8f413231
+SHA512: d7928d04f7fbf0f9cd4d4d150d52cd629a43697d02f5d450ebe43e64c7dfbe86f220bf4ecbbb0f68a78fb784bb52333a7918e1bbb49101b4d9910fdce5b0d67b
 Homepage: https://invent.kde.org/libraries/kquickimageeditor
 Description: Image editing components
  A QtQuick plugin providing  Image editing components.
