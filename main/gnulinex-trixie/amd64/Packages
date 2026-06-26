@@ -13885,20 +13885,20 @@ Description: locale files for kdeplasma-addons
 
 Package: kdoctools6
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Source: kf6-kdoctools (6.23.0-1)
+Source: kf6-kdoctools
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3509
-Depends: docbook-xml (>= 4.5), docbook-xsl, libxml2-utils, libc6 (>= 2.34), libkf6archive6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 4.1.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
-Filename: ./kdoctools6_6.23.0-1+b1_amd64.deb
-Size: 443124
-MD5sum: 29dd95d3063e00d2344ad712b1b59394
-SHA1: 2e40576408ca489051e97985038942cbca99f773
-SHA256: 8f755a7d2e107c6c1aea449ef334fae20559390d067407e38b27378fe05a456f
-SHA512: eea6004c78a16111852684e598d3281c27500a2653e7e7cb1a3ebfa1ba46002b1eee40bc113c378686d873846fb5af2ff40849d717482406fe111e172a1f37ef
+Installed-Size: 3548
+Depends: docbook-xml (>= 4.5), docbook-xsl, libxml2-utils, libc6 (>= 2.34), libkf6archive6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 4.1.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
+Filename: ./kdoctools6_6.26.0-1_amd64.deb
+Size: 445668
+MD5sum: 832d7e8a2cf9c1e322242bf29377f553
+SHA1: 258e6890d481716a9868ea13b4f6a36207b2859e
+SHA256: b982b3c1cd65dcc18f91d83dc61228a4a6898af7b0943b08b274fa8387fb96f7
+SHA512: 5b2ead8158af90b94c24fc4bfe33af01b87271a25268e5d8de5f349f846bb550aa6cb05da3651ffe20045bb7a293de5bba6017c953e8c48a6a172c52a814f390
 Homepage: https://invent.kde.org/frameworks/kdoctools
 Description: Tools to generate documentation in various formats from DocBook
  KDocTools is a set of tools to generate documentation in various formats from
@@ -13908,22 +13908,22 @@ Description: Tools to generate documentation in various formats from DocBook
 
 Package: kf6-breeze-icon-theme
 Architecture: all
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kf6-breeze-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 59043
+Installed-Size: 59101
 Depends: hicolor-icon-theme
 Breaks: breeze-icon-theme (<< 4:5.115.0-3~)
 Replaces: breeze-icon-theme (<< 4:5.115.0-3~)
-Filename: ./kf6-breeze-icon-theme_6.23.0-1_all.deb
-Size: 3677824
-MD5sum: 2ed211f6c30483e1c3f78b98c42f274f
-SHA1: 0088abd4871f7440af2258f3b2f25ff059f1b916
-SHA256: d45d73f1504870f426e08e5ed27f2fcfdf41dd778fbb88a98e2fa11f0656bf0d
-SHA512: 03c0b230700cddd548c4f3b38e58a2eba241d49df22b5b812a9162f52f60657498d6b829cf4ad0668df86f4d699f9ef8242379ab49bb884716ed035b7cc4649d
+Filename: ./kf6-breeze-icon-theme_6.26.0-1_all.deb
+Size: 3676560
+MD5sum: a6899e88f7c8ac81d2a6108fe912cc16
+SHA1: 8356ed2ae62ad183ceaac42ef40c5198c7af4107
+SHA256: 4771716d5e47e08767b2fb611a0657896d6b9f0c78105ddc64af01bb2cacc577
+SHA512: f5e23d8f4adc57e3b4889add5f1909ebd71947b2847163daab6885a8cfd0c32a07a531473b5af499ae1dc80a22ab30f29c27a722a9399497644968f6407da1e6
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
@@ -13955,21 +13955,21 @@ Description: daemon for global keyboard shortcuts on the Plasma desktop
 
 Package: kimageformat6-plugins
 Architecture: amd64
-Version: 6.23.0-1+b2
+Version: 6.26.0-1
 Priority: optional
 Section: kde
-Source: kf6-kimageformats (6.23.0-1)
+Source: kf6-kimageformats
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2964
-Depends: libheif-plugin-j2kdec, libheif-plugin-libde265, libheif-plugin-x265, libavif16 (>= 1.4.1), libc6 (>= 2.38), libgcc-s1 (>= 12), libheif1 (>= 1.13.0), libimath-3-1-29t64 (>= 3.1.12), libjxl0.11 (>= 0.9.2), libkf6archive6 (>= 6.23.0~), libopenexr-3-4-33 (>= 3.4.6+ds), libopenjp2-7 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.2), libqt6printsupport6 (>= 6.8.0~), libraw25 (>= 0.22.0), libstdc++6 (>= 13.1)
+Installed-Size: 3138
+Depends: libheif-plugin-j2kdec, libheif-plugin-libde265, libheif-plugin-x265, libavif16 (>= 1.4.1), libc6 (>= 2.38), libgcc-s1 (>= 12), libheif1 (>= 1.13.0), libimath-3-1-29t64 (>= 3.1.12), libjxl0.11 (>= 0.9.2), libkf6archive6 (>= 6.26.0~), libopenexr-3-4-33 (>= 3.4.6+ds), libopenjp2-7 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libraw25 (>= 0.22.0), libstdc++6 (>= 13.1)
 Breaks: kf6-kimageformat-plugins
 Replaces: kf6-kimageformat-plugins
-Filename: ./kimageformat6-plugins_6.23.0-1+b2_amd64.deb
-Size: 528440
-MD5sum: 3f21b054c22ef191373ffe267351b752
-SHA1: 0a0c851a567c95f826b72559aae21538847d2428
-SHA256: 13ec5f5d5b65cb6585850b9af647a19e9a2548f1a459312bbed9d52e98512a18
-SHA512: 726c5a723854a4ba568e50b3a5e13955da265159bad1bd5cb7da062257992103668c7f17472a44c068a8205e22b76e8137f90eef2ca7bb02d96f0a7444aa22c0
+Filename: ./kimageformat6-plugins_6.26.0-1_amd64.deb
+Size: 552480
+MD5sum: b7f19993d338f2cf7928253ce69958da
+SHA1: 8ba7342461033b727b1f28435f6158cc2a014b54
+SHA256: 1fd06399212d2c70410791c6ab8056442a29f1d2928060cc2d702ab8c8bcd9c3
+SHA512: 4ad49a514bd56871a0e34b9fb16e41ada260ad38b328989a29ad5a50d6447a104bb27cd331d646fda2830539b64976b2fb213a505a769c84b2b9addeceac410d
 Homepage: https://invent.kde.org/frameworks/kimageformats
 Description: additional image format plugins for Qt Gui
  This framework provides additional image format plugins for QtGui.  As
@@ -18069,20 +18069,20 @@ Description: simple configuration storage system - runtime library
 
 Package: libddcutil5
 Architecture: amd64
-Version: 2.2.6-1
+Version: 2.2.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ddcutil
 Maintainer: Nicolas Schodet <nico@ni.fr.eu.org>
-Installed-Size: 1398
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libglib2.0-0t64 (>= 2.76.0), libjansson4 (>= 2.14), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.22), libx11-6, libxext6, libxrandr2 (>= 2:1.2.99.2), pci.ids, usb.ids, usbutils
-Filename: ./libddcutil5_2.2.6-1_amd64.deb
-Size: 482124
-MD5sum: 595741ab05d2c5299b5071c7e54e6388
-SHA1: 685945398b950c6a6c9c966e37210a03ef66c9bb
-SHA256: 2845e9632da5224ad54b7150aecefb2e9c80a08ce0699fa97d414517ebc5e457
-SHA512: 4a86f65c3e315f90324787febaf6df1db2c0d8d6b2f617a50411e7e47e2a6c9091b35bbe44b6afa6a2e00f4e4ae2f10fec6e2c8a1113d87e3ae45f503a7835d7
+Installed-Size: 1433
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.66), libglib2.0-0t64 (>= 2.76.0), libjansson4 (>= 2.14), libsystemd0, libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.22), libx11-6, libxext6, libxrandr2 (>= 2:1.2.99.2), pci.ids, usb.ids, usbutils
+Filename: ./libddcutil5_2.2.7-1_amd64.deb
+Size: 495056
+MD5sum: 6a843de3ab85f5627f68dc449bf09325
+SHA1: 3f37c91a78735273e4c43a30722ee824ccef37af
+SHA256: 24a3b2cd780e961736c25e84f5aa9c79479636a09b8f1912593b6f07730d6354
+SHA512: 4959757a78a9b971fcdc44a04df81595efe4ec0960755bf913748c58aaed2461d35884ac08c3c15d986a3690b00deff95b79d015dd62febbee753669ea98d1d9
 Homepage: https://www.ddcutil.com
 Description: Control monitor settings - shared library
  This is the shared library version of ddcutil.
@@ -25658,19 +25658,19 @@ Description: User configurable main windows.
 
 Package: libkf6archive-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-karchive
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 602
-Filename: ./libkf6archive-data_6.23.0-2_all.deb
-Size: 73672
-MD5sum: 5dabcefc3a81254fd5d7079aa9f0f611
-SHA1: 8beb8565c20758c43e328a4875497feb296745e6
-SHA256: 7d767fc24ce34cb14aaf8d38e7b1386f8dd16bb5aea3bcfd7523d0007be4669c
-SHA512: 0b9a541d60a3b27673d86ee5446d8525a13752df89dbd39df39308bfc807ea6a844d2049255c9ec500fde7f6fc867a94267daa2748ab3b96dc7cc4bc6006833e
+Installed-Size: 604
+Filename: ./libkf6archive-data_6.26.0-1_all.deb
+Size: 73912
+MD5sum: 417ea11fa108d1b06d3b8d1e8ebd6f94
+SHA1: 5f411ede3c5f451d9d1faa50cd49cd6f8152e445
+SHA256: 8e6805358a1259ed6319f3689c3b6beaa3c98e29d980eb3fc7205d590e3aadc9
+SHA512: 09c393df49bf84f69577098f96b19c713ea9b4460990f5795abec3de3c8097bff5099c1c3ad1f4833cb3f05988c14f81ffc733c94d021c47a9e836aecb3c03f3
 Homepage: https://invent.kde.org/frameworks/karchive
 Description: data files for karchive
  Karchive is a Qt 6 addon providing access to numerous types of archives.
@@ -25687,20 +25687,20 @@ Description: data files for karchive
 
 Package: libkf6archive6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-karchive
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 350
-Depends: libkf6archive-data (= 6.23.0-2), libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libqt6core6t64 (>= 6.10.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
-Filename: ./libkf6archive6_6.23.0-2_amd64.deb
-Size: 111188
-MD5sum: 6aefb7efeae7da6182c9cfcc495b4f2c
-SHA1: d635fd3ebf391ff5f72a45d28867a511950f38dc
-SHA256: bff9de4485a47c6b7106fb3cfe2afa87ce104a176c234fff33198ab7a11012c2
-SHA512: b1e152aae13a01ca383d9cf0122b1ca93b7c2bc9e8be40c2ccbf72d602f83f11d4c18e60c1903df18ef43b02753d4e3e8a737838000234be17d91dff1e6ea63b
+Depends: libkf6archive-data (= 6.26.0-1), libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libqt6core6t64 (>= 6.10.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Filename: ./libkf6archive6_6.26.0-1_amd64.deb
+Size: 111528
+MD5sum: 329e9e1e3ea2a7ce1c2d894aecf6490f
+SHA1: 5327622c74d13a387faa1fd7e738e9a9544fe6d1
+SHA256: 064d8ec8fe0267293ba837a2d79d4f5893971bb90ee7b59d21bfd1969c208880
+SHA512: 10ca65f1c83b09dab56f6694e83b90374de65dc8cbb6e24fa1d659dc6a337ea9624955dfe98af479d699eb1b9d46ca0ab178ffcc28158f7cfeb64374d6c72483
 Homepage: https://invent.kde.org/frameworks/karchive
 Description: Qt 6 addon providing access to numerous types of archives
  KArchive provides classes for easy reading, creation and manipulation of
@@ -25713,20 +25713,20 @@ Description: Qt 6 addon providing access to numerous types of archives
 
 Package: libkf6attica6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-attica
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 891
-Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.8.2), libstdc++6 (>= 5)
-Filename: ./libkf6attica6_6.23.0-2_amd64.deb
-Size: 174804
-MD5sum: 7db5c3a0342d7f4dcf2c72b0424217bf
-SHA1: c985235621de244e3612872e428fc2cae1ab9d4e
-SHA256: ba00f9eb79d5f0e2a93e40992c5a1e50f909aab3f63d2984b2862e0ab2af6513
-SHA512: 32746be030bd400ac6e69caa1d519b543cdc961f256197d93e0e2eb6ae8abce603cd0d8a55dfe27b8b697ea75d47496a277bc2e356cecc57beb870c3c4bf6120
+Installed-Size: 879
+Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6attica6_6.26.0-1_amd64.deb
+Size: 170240
+MD5sum: a0760a2c3644d671b33204b5bb6666c2
+SHA1: 2e260153a9f98157780ac15396367fbcfa540a48
+SHA256: f77674a42a4a4e1d1ffc046c23e599274eae8fc2fc7b6ccc4eadfe9044efdfaa
+SHA512: 0b2d11202888623bfb72baddf54bdffb607f8b72364d06544cb6abf72130e5db2a19ac4488be8cf3bd72219925eee00d0cb2a3f803e29f104a10e8a7a43f7066
 Homepage: https://invent.kde.org/frameworks/attica
 Description: Qt library that implements the Open Collaboration Services API
  Attica is a Qt library that implements the Open Collaboration Services
@@ -25925,20 +25925,20 @@ Description: Qt library with support for bookmarks and the XBEL format (widgets)
 
 Package: libkf6breezeicons6
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-breeze-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 9626
-Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~)
-Filename: ./libkf6breezeicons6_6.23.0-1_amd64.deb
-Size: 2656572
-MD5sum: ee02d2d9027a0b17d8344a13af16bb3b
-SHA1: c503963c0354bb8497b499f356482e6f2682b582
-SHA256: bc595bda2b9cdab6625f93c15bf547062696523be6de6c73b5066f9a163535b9
-SHA512: ed3015b70565c90022dd8b3c3a3df41215d10ce4d0a9ad9df3c2b7190f571752f3e62849a6a02b46da4d0c1b30d762e48e8d89d8188d11ef7225ab174719c07d
+Installed-Size: 18973
+Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~)
+Filename: ./libkf6breezeicons6_6.26.0-1_amd64.deb
+Size: 2750000
+MD5sum: f7522cb31d4305edf26d6e8f8ebf6ced
+SHA1: 6a600cd18e41b57460be5a9b780f4bf1a87717c5
+SHA256: 2fe0b43c38b32b90cd50d6fb60e2db66ab3445269274024443c078192c7931a3
+SHA512: a2cccdbd63c2c294858309891410f148835b6b38a22d2592281ee08de9430a9f2890d41d0de651ed9b9933c90c6684244d21d42857948bd4fb98cb9f1848f671
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
@@ -25947,20 +25947,20 @@ Description: Default Plasma icon theme
 
 Package: libkf6calendarcore6
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kcalendarcore
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1108
-Depends: libc6 (>= 2.38), libical3t64 (>= 3.0.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6calendarcore6_6.23.0-1_amd64.deb
-Size: 317920
-MD5sum: 57a89c921c0ebfebee31582f6f36151c
-SHA1: 913006e3d0edcfcf455c75c23bff771f704fd4db
-SHA256: a3ef2d8564f4f153c021684eb00355f982272bb0b85a6e13ad18821bcc82c71e
-SHA512: b862f7652dd41d2a1b8821fdce8ff4b6f34126edca157995f2921e94914b60f2c3900bbce82ae534b2e8c88f53516ec7d0146713d02a6a1f206a4d8dbbb88f33
+Installed-Size: 1110
+Depends: libc6 (>= 2.38), libical3t64 (>= 3.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6calendarcore6_6.26.0-1_amd64.deb
+Size: 317504
+MD5sum: 61dbae323390f43e6b7fc007baa6fafe
+SHA1: 8723e83870fa826a451c4acdc2ae047bfe4fd165
+SHA256: db93446fbb3257c06de0b63b0a32bc0dd4824d194916e6b8515155c376f30ece
+SHA512: 969e97d98957583a0555d03975d580cf45d0ae7961b6678562a91e1914942114712e2c573320f4a32673d9288e1aab5a95a8e0d0d844d9e882d2a3686a06f6db
 Homepage: https://invent.kde.org/frameworks/kcalendarcore
 Description: calendar access framework
  This library provides access to and handling of calendar data.
@@ -25992,19 +25992,19 @@ Description: provides integration of QML and KDE frameworks -- calendarevents
 
 Package: libkf6codecs-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kf6-kcodecs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 735
-Filename: ./libkf6codecs-data_6.23.0-2_all.deb
-Size: 59944
-MD5sum: 38f522b3646075b045a2ca89d424bba9
-SHA1: e736af43c533dd9a2ad7977ba880b130e87d7459
-SHA256: 4aec90cc0e36a25dd30c42495d4812122dbb381f3595eccd7a0068043150497c
-SHA512: fd5ceb9ffbd7d2981a88d8bea52a17fa15720803941593ed015e34b89d64b65d84a405f1c3f28a91b1d9273bc5b7b66365be39aae30abf33401155a0269d33f4
+Installed-Size: 746
+Filename: ./libkf6codecs-data_6.26.0-1_all.deb
+Size: 61104
+MD5sum: 77bb100b7f7637812d4f1602e05ca561
+SHA1: b63c35c6fb23d27051d8d591adb98472fb766b92
+SHA256: 30e2b9444d67910fff6e1f75d3a2d05f91e57a94e788cf2b45df6e0926cce641
+SHA512: a9cd99ad2107da7ecac917169f2c3b3f0eec9ae9edea48dbd89c194c083b38d3ef8b9ad9f430558e545f4c31a9a1cd82b0c85bf3a26f13b61df6c0636b6db878
 Homepage: https://invent.kde.org/frameworks/kcodecs
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
@@ -26014,20 +26014,20 @@ Description: collection of methods to manipulate strings
 
 Package: libkf6codecs6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kcodecs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 273
-Depends: libkf6codecs-data (= 6.23.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libkf6codecs6_6.23.0-2_amd64.deb
-Size: 94816
-MD5sum: 21a3bd4af93a477e318a55043e1ba53e
-SHA1: a9e932182620d67b1688aa7c4bf45e43ea5cae59
-SHA256: 3d3daa8f2f2e23ebf9bb683f957ed9d1a11fa191b9bbd228c62728cd4f0bd681
-SHA512: b0612307df0c9e9a24bb659a9d62c95e99e63deffb88910f36b7e2e053bd889d116c0abe9623bc65b5962ad7e0d95d262faae2f7c85439493d5d23f2f69b836f
+Installed-Size: 274
+Depends: libkf6codecs-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
+Filename: ./libkf6codecs6_6.26.0-1_amd64.deb
+Size: 94516
+MD5sum: e462bab159e52d24bc1b5bccea10d8cd
+SHA1: 220baaff3ed4a83889f6c69b488427bbb431daef
+SHA256: af4481b6cfc4674ca61cc89aed27dd5de93275a58496907da4a0350fa448d234
+SHA512: 6d360705212a5f7f37107cba599d222fd1222fddea5444330dea2dc6ab4201ff552a71f86b81ad269e9e166af8bbc1dba467bd064e8344936ee53e3bedc44615
 Homepage: https://invent.kde.org/frameworks/kcodecs
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
@@ -26587,20 +26587,20 @@ Description: provides integration of QML and KDE frameworks
 
 Package: libkf6doctools6
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kdoctools (6.23.0-1)
+Source: kf6-kdoctools
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 57
-Depends: libc6 (>= 2.14), libkf6archive6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 4.1.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
-Filename: ./libkf6doctools6_6.23.0-1+b1_amd64.deb
-Size: 16760
-MD5sum: d93f21999cffaee4fe155e3f2c540e9f
-SHA1: ec63b7c0144afff5cfe7d562e6a9c94051e61254
-SHA256: 0f20fa997658909d72f00583200af895a53a9550f6298f21a296ba78c143284d
-SHA512: f707b97302642114ee5bdca13cd0e87fcb68867f7982037d81569df5aa2913153751e8f2327f69f3cb8213f7eb559c5f88e173b97f62560de3cd7977e4f0f8b3
+Installed-Size: 56
+Depends: libc6 (>= 2.14), libkf6archive6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 4.1.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
+Filename: ./libkf6doctools6_6.26.0-1_amd64.deb
+Size: 16492
+MD5sum: cc90dc2dbfae2667eb245596b9f83042
+SHA1: cd3c137dffd409c27d65cdd51eae850fe96c7698
+SHA256: 2e7a10b268d6e9b0c6ec674c4a2aa7afe9642af6c9ecb37f332e0a141286a60e
+SHA512: fe4c9eb9ad791d790ec7cc89019672287ace69b43c933c73aac0f6dd53103920b683b4d388cd8f4a2f99bd4bfbf96e936928fba62ee8133620482e819fb7ebcd
 Homepage: https://invent.kde.org/frameworks/kdoctools
 Description: Tools to generate documentation in various formats from DocBook
  KDocTools is a set of tools to generate documentation in various
@@ -26679,19 +26679,19 @@ Description: library for extracting file metadata
 
 Package: libkf6globalaccel-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kglobalaccel
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 322
-Filename: ./libkf6globalaccel-data_6.23.0-2_all.deb
-Size: 17376
-MD5sum: 9b99d7947decf534695cb13a5d4546bd
-SHA1: 9b5c22e4b0fe2158a3dda5076abfeb9fff10f69a
-SHA256: 95fbfca443bd65cb5f09b17ec55086f735f94ed9ab52cc05152e5fc7c54a1a61
-SHA512: 2cd862f3edfbcc4008aac6ee775fe6e02a2dda3d29fd46d88086d454a482e117230c472fbcf54e0e82f7c66f15fd66ea08b211d904d20cd59da0a219f4e6daeb
+Filename: ./libkf6globalaccel-data_6.26.0-1_all.deb
+Size: 17388
+MD5sum: 0f42598372a72e8a21259875dc607186
+SHA1: 038709fb0a6d80ce68556bd5d8d0e7c8b16171a2
+SHA256: 7c2dd85fc4f6d48f3cf4adf3861ee2899365744ddbd56b60ab31930b10184aac
+SHA512: 3df350e3bb6755a189646a826f58e20065084f6f19fed6378dc41f9be65883e0f76229d66ded35466c9c47cce48be5610c1908e3e1311da3bcdf850979ec7a87
 Homepage: https://invent.kde.org/frameworks/kglobalaccel
 Description: Configurable global shortcut support
  KGlobalAccel allows you to have global accelerators that are
@@ -26703,20 +26703,20 @@ Description: Configurable global shortcut support
 
 Package: libkf6globalaccel6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kglobalaccel
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 260
-Depends: libkf6globalaccel-data (= 6.23.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libkf6globalaccel6_6.23.0-2_amd64.deb
-Size: 73552
-MD5sum: cf11cab7e325c72ae114cc647dbbd1eb
-SHA1: 36a9c838a4ef1842ae8e54e52956cb11c7531b52
-SHA256: 75a444a8ad805af43c146662898d0a6b467e8951588844ea6a8ebdfd6a90d74e
-SHA512: 719068128e7991281acf07308d728dd59a11184e5e4bd13691b066b312882fa79cdaf09ef033f77842fef087fad69edc989ff13839144be48d66cea3c91c345a
+Depends: libkf6globalaccel-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
+Filename: ./libkf6globalaccel6_6.26.0-1_amd64.deb
+Size: 73540
+MD5sum: 82db522b98b53021a1f76de247097c47
+SHA1: 7696c4ad5268af11c19247f8ae81860ee7f8534a
+SHA256: 7ba90b99ba5821d93ba8c0f5449db408f98b1db187f4315cff316946779df7cd
+SHA512: 053ad27b8b57e1220c718c04f4c16f681863251d59cd3090a8606225445bfe2fccac186cffcbb3388728fa81c4d44a52dbf702703abdd9be003d74399dac69b6
 Homepage: https://invent.kde.org/frameworks/kglobalaccel
 Description: Configurable global shortcut support
  KGlobalAccel allows you to have global accelerators that are
@@ -26726,21 +26726,21 @@ Description: Configurable global shortcut support
 
 Package: libkf6guiaddons-bin
 Architecture: amd64
-Version: 6.23.1-2
+Version: 6.26.0-1
 Priority: optional
 Section: libs
 Source: kf6-kguiaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 58
-Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~)
+Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~)
 Breaks: libkf5guiaddons-bin
 Replaces: libkf5guiaddons-bin
-Filename: ./libkf6guiaddons-bin_6.23.1-2_amd64.deb
-Size: 13044
-MD5sum: 7cddf08b6f1494d699889f91391a7fb2
-SHA1: f54ab12d47f6914c671bf7aeadfe831c3695eb3c
-SHA256: 314a20b40600afa30389daced0502c8ad692368264f65406b1bd7a81fd33d0fe
-SHA512: c359bd961e6db5b5cd0d696c848113f22cba8b22ea23c7a72bbab41cbce15e4adc3aa9a527a85bfabfe9b7d44a2fce39a41324566671c7d9551feb55bf713ae5
+Filename: ./libkf6guiaddons-bin_6.26.0-1_amd64.deb
+Size: 13080
+MD5sum: f6fd3c43f7d70c9287be158df4080f6d
+SHA1: c5080e81e8e08985ca1cb3264744543775608fe7
+SHA256: c42822a0a9b4d6fead00222d1919125a25e8f32320aee13486f1f0bbbc84ef18
+SHA512: e217e4339d9f04e8d4475033121b71a2927263cb921c23bb84630319a82169bffc2d4a901d96cca6adcb96cfb14ef76b08fcb57221e34bfb2ca168f98681fde6
 Homepage: https://invent.kde.org/frameworks/kguiaddons
 Description: geographical URI helper
  The KDE GUI addons provide utilities for graphical user interfaces in the
@@ -26750,19 +26750,19 @@ Description: geographical URI helper
 
 Package: libkf6guiaddons-data
 Architecture: all
-Version: 6.23.1-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kguiaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 26
-Filename: ./libkf6guiaddons-data_6.23.1-2_all.deb
-Size: 6952
-MD5sum: f5f7088a05fa723de08ecab840f2bb67
-SHA1: cb6c58c4dbd99c9ad089e74745a2cab00418e96d
-SHA256: e0fdfa3c42b782e74180ba4dbc2d503a32d00125ea18cde9f528e9b26ae9c1ea
-SHA512: 980f27a359f4e5060c005c0ab1751f57174fbd0292f57b89a7c8ae3825a3ad96d4994aafbf9db1db54ec0e56cf073c56c81be04c22fb33f3ae37ba9797404535
+Filename: ./libkf6guiaddons-data_6.26.0-1_all.deb
+Size: 7004
+MD5sum: 6f46c353b533c14f3a04eb3815531727
+SHA1: 9096604b4292f423a2f72e63afbe3e3300d42e09
+SHA256: bf5dd26c4e72d1b7a6761a9d085d2db9d4c278c781fbfa9f2e8902757937f6ee
+SHA512: 252a96192b2d646994f8b719077582e569c74c5746f35367c0ccc6b549be5b3b95dce45fb66b52f2c38eb47673a60c83949e57faadd1410c8d0f6dc232e08386
 Homepage: https://invent.kde.org/frameworks/kguiaddons
 Description: data files for the kguiaddons framework
  The KDE GUI addons provide utilities for graphical user interfaces in the
@@ -26773,21 +26773,21 @@ Description: data files for the kguiaddons framework
 
 Package: libkf6guiaddons6
 Architecture: amd64
-Version: 6.23.1-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kguiaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 526
-Depends: libkf6guiaddons-data (= 6.23.1-2), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.23.0), libx11-6, qt6-base-private-abi (= 6.10.2)
-Recommends: libkf6guiaddons-bin (= 6.23.1-2)
-Filename: ./libkf6guiaddons6_6.23.1-2_amd64.deb
-Size: 133388
-MD5sum: c128bb3904dbe079ad35e4e8dbd6b0d2
-SHA1: 39164ccc1ccc0508e794329a79a8a4f5c6b67780
-SHA256: 07ad28218c4ac24fe7f177bd4eb7c24493e3bae6dd473f020c8aa5e89e5d8205
-SHA512: 32657e9d54c74ee60a9c919f60bd318799efdd652eecd0a7d8a096ce50e1274529030ae4e1a36db19fa3ccc4340364c2e8f6fd732fe01dbe69691158a5184cf6
+Installed-Size: 530
+Depends: libkf6guiaddons-data (= 6.26.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.23.0), libx11-6, qt6-base-private-abi (= 6.10.2)
+Recommends: libkf6guiaddons-bin (= 6.26.0-1)
+Filename: ./libkf6guiaddons6_6.26.0-1_amd64.deb
+Size: 134036
+MD5sum: 3fb6fb5b996a2de724d0da624dbdff9d
+SHA1: 936d30b1c8458210a06aa4b00d05d43f66f34be5
+SHA256: be397b752dd02e859b36e2cc4797760f84a5a2cdf989f2615b70565a4d05a0a7
+SHA512: 82b0c55189ff90a381e99519d186b8bf4ed8cf9b592c76ffbcc2c8f9cff0a00ea0a050d25ddcd76a7e9c77a8e119eae8071bcd8d6608c605f164950618afe60f
 Homepage: https://invent.kde.org/frameworks/kguiaddons
 Description: utilities for graphical user interfaces
  The KDE GUI addons provide utilities for graphical user interfaces in the
@@ -26840,19 +26840,19 @@ Description: holidays calculation library
 
 Package: libkf6i18n-data
 Architecture: all
-Version: 6.23.0-3
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-ki18n
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 16158
-Filename: ./libkf6i18n-data_6.23.0-3_all.deb
-Size: 1047724
-MD5sum: 4674d84d49f97d1262365077cd9ffde8
-SHA1: f706e626db6086a4ca82956a0becd3cac09372fc
-SHA256: 25bbb927693fd16902657c7d2281306069244c5671b24ba0a5a751439461fdd4
-SHA512: 42a679d3bf88f3dde636e284505c243d993b1fa402a76cc5ee0ecae9d56ccc5eb801e646d627599b92105e856269720c670ceaf840f8d9185e57ceb50963216c
+Installed-Size: 16168
+Filename: ./libkf6i18n-data_6.26.0-1_all.deb
+Size: 1048916
+MD5sum: 1e037ae9316f8462ed0540f0522f918d
+SHA1: 1da34d1be58454b0f6cef959b62dc5b147e1db53
+SHA256: 87c8c6517657a543f773681d906c0c9871b2437b943d2b752300499707992c87
+SHA512: 6811a942134eb4e1a4b1fd122456d90f0f4de4a79f3013269587302de8d9652461e559d5945758343d190d96058642e2d921e304272a98b8d3026431bee337b2
 Homepage: https://invent.kde.org/frameworks/ki18n
 Description: Advanced internationalization framework (architecture-independent data)
  Ki18n is the KDE internationalization system for
@@ -26869,20 +26869,20 @@ Description: Advanced internationalization framework (architecture-independent d
 
 Package: libkf6i18n6
 Architecture: amd64
-Version: 6.23.0-3
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-ki18n
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 747
-Depends: libkf6i18n-data (= 6.23.0-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6i18n6_6.23.0-3_amd64.deb
-Size: 173972
-MD5sum: 966864de3affd8d5e55d294957bd4ed5
-SHA1: 5581366dfddac935669f9bf5165583cba6e41881
-SHA256: ff7b2c0dbd4ca14e24161cf4d6d640f7bd6fc17e3185245f4529b74dec967e78
-SHA512: dd3ed2f52daa16adcbf92bc2562652659dca728f0bfc801951d198167fb56c9df53824266cb683de46642ae3e43759606e7a7910b2d962f7d074e8dc0443e604
+Depends: libkf6i18n-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6i18n6_6.26.0-1_amd64.deb
+Size: 174384
+MD5sum: 50e1ff0898b3f490b14324468153ee0b
+SHA1: df6d5b5d000bbdae79bb65d6b745ae878aa7f470
+SHA256: 828fe75c3638ea9a36a1fc890f5a04f9c8bb6b6432b91de625c2f2941603595c
+SHA512: aaf66e3a00947c0eaa6c20e9728d06f6813c8ba76f7023959ab1f41fa3bc5c59863aab5a4e827afc15f151429102ac2b16ad4e39a6552c9c58c473674bfb45da
 Homepage: https://invent.kde.org/frameworks/ki18n
 Description: Advanced internationalization framework
  Ki18n is the KDE internationalization system for
@@ -26897,7 +26897,7 @@ Description: Advanced internationalization framework
 
 Package: libkf6i18nlocaledata6
 Architecture: amd64
-Version: 6.23.0-3
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -26905,12 +26905,12 @@ Source: kf6-ki18n
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1106
 Depends: iso-codes, libc6 (>= 2.14), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libkf6i18nlocaledata6_6.23.0-3_amd64.deb
-Size: 294656
-MD5sum: 8200b76fc4385ff5899c85fc9a13ed0c
-SHA1: 6e97926e0877451ea2d1b72f50ee7eaac0ddda9e
-SHA256: ebc12622fde9a29ea4d6387e08aeb958676963b352e8103532842d54bbb9b45c
-SHA512: 4747f32683f41df908c1396317c1222ebe6016908beafb2f20032cd0d5597c6a607021dd7c903ffb3800d0e51bbb96bca3b56a780e3a13d0c4d57b9f40942f27
+Filename: ./libkf6i18nlocaledata6_6.26.0-1_amd64.deb
+Size: 294412
+MD5sum: f434a0881f236e4df3369778eb4246fa
+SHA1: f30c14c996a3a58f67bdc7452e1ea37a5ecc4e5a
+SHA256: 7bf70f64622c7fa32a346ca803917c88db85f24c1d7ec3c194d2b81a7270c359
+SHA512: 22d9e205bfc32ea45e9676c527476e0d262d5179a3c4336c8025ca90d8fd78ef47eec7786266cf432e8536c562b738ebd4c37c312503a4fb5f03e706ace385bd
 Homepage: https://invent.kde.org/frameworks/ki18n
 Description: Advanced internationalization framework (locale data)
  Ki18n is the KDE internationalization system for
@@ -26927,20 +26927,20 @@ Description: Advanced internationalization framework (locale data)
 
 Package: libkf6i18nqml6
 Architecture: amd64
-Version: 6.23.0-3
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-ki18n
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 257
-Depends: libc6 (>= 2.4), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6i18nqml6_6.23.0-3_amd64.deb
-Size: 41188
-MD5sum: abf51d58262c2967b6e9d39d2b368427
-SHA1: 3e16b7ef2999c4031a1a8ecc61ef7c7b1fcf3815
-SHA256: 41f54b2245628806c225ab57e0a6aee9c25c77c560979ca04d75911d636565e2
-SHA512: 4cd6abaafe69f7f16fe52c088b47f49973f0c378516c511c28900f70cf540f92ef1a5258ac464324fcfc9373adbe82a6b9b20758dc851161fdba6ab2a2c12836
+Depends: libc6 (>= 2.4), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6i18nqml6_6.26.0-1_amd64.deb
+Size: 41200
+MD5sum: 5fa5267beeb6024644ec4ea682a7fb0b
+SHA1: ef0dd802430cbbc4cca9e302400f640ae04fa2f1
+SHA256: 584a96806582c39804266d0672c02ed988ee98eef26d363a38780a9b9b9ac07d
+SHA512: 08a8766959788ea79e8cfeb7c670506cca7163c35123c38bd626a9bde4ab9633d8f0e08a33e67d22a238fdab1ea3b5916fdc321c5c979fc3b4d511a0ad99a3cd
 Homepage: https://invent.kde.org/frameworks/ki18n
 Description: Advanced internationalization framework (QML bindings)
  Ki18n is the KDE internationalization system for
@@ -27045,20 +27045,20 @@ Description: Support for icon widgets
 
 Package: libkf6idletime6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kidletime
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 250
-Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-6, libx11-xcb1, libxcb-sync1, libxcb1, libxext6, libxss1
-Filename: ./libkf6idletime6_6.23.0-2_amd64.deb
-Size: 59076
-MD5sum: de2f14f9717732b99d2f518e23e9d249
-SHA1: 87e972375a1467b2978e824f826c47f7f0df800e
-SHA256: a98582b86b7a7647f6225338cd5c4e52f15e6f14a3a2fb233688b061153f2567
-SHA512: 75d0e77d213b873831c39673caaf0cddc837c7e86b9dde689bdbfd70f6a8308cd3b087bcf9772f24260923e0e46ea5efcad6af652ffd99eebfedcc90c4cfd203
+Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-6, libx11-xcb1, libxcb-sync1, libxcb1, libxext6, libxss1
+Filename: ./libkf6idletime6_6.26.0-1_amd64.deb
+Size: 59044
+MD5sum: 5e03b28e05f2b3a7f4471668aafb0214
+SHA1: 4d9fe77b599a4be423b20a1a6e77842f98b04e43
+SHA256: 3f63a5ffbd2910536cb073bd04b846e3dacfab747886b0761e0920592c7ccab5
+SHA512: 6aafc65dc90042cceffdfe1afea4f0bb21fa30442876eac074156b23b740a250ad4578f7839b51840256208712a2548e87df94f81150102b8782e012d4310c98
 Homepage: https://invent.kde.org/frameworks/kidletime
 Description: library to provide information about idle time
  This library contains a class that allows applications to watch for
@@ -27068,7 +27068,7 @@ Description: library to provide information about idle time
 
 Package: libkf6itemmodels6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -27076,12 +27076,12 @@ Source: kf6-kitemmodels
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 437
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libkf6itemmodels6_6.23.0-2_amd64.deb
-Size: 125036
-MD5sum: 3e97924ec53410a1da8b84ba17fdb7ee
-SHA1: 7b44e5e3de638b2904e8492ee838bb2c73feb0b3
-SHA256: 31e8e571762a916e8845b7ce82f719af4567e10ded9ece50248fe0efcbe3ffb0
-SHA512: 897c4bcf12d6f41a15a529778c977511e8a10ebe3840c8cadef9e48f1e67b1dee58e1e6e7b53e200beae83d1d068dbdbcce4f3a7702fde91606db30b814756d0
+Filename: ./libkf6itemmodels6_6.26.0-1_amd64.deb
+Size: 124672
+MD5sum: 1fc9756497b320f456d8c0f8f14c7c09
+SHA1: f5758e2254a74769ef2e9e3aac4de96c60aec841
+SHA256: ea36f8ba224f56bed8130601d3e6fca0a590ab2f7d1e7c5b57376bf261d1e523
+SHA512: e5c491c496b1deb8425767c5fb9a4eb467c5ce5deab6849231fafab4180a3318263880e5d818f11182c078f1792a559eca85c3254bc9ed1bd1f6d4fb611c6803
 Homepage: https://invent.kde.org/frameworks/kitemmodels
 Description: additional item/view models for Qt Itemview
  A library which provides additional item/view models for Qt Itemview.
@@ -27090,19 +27090,19 @@ Description: additional item/view models for Qt Itemview
 
 Package: libkf6itemviews-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kitemviews
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 329
-Filename: ./libkf6itemviews-data_6.23.0-2_all.deb
-Size: 14376
-MD5sum: 050cc938d12d9067c65fb9d53fa00bcb
-SHA1: 6bf9e068bfa54ca6b21e290a7ec5feeb464678e6
-SHA256: 30f5e2fa2f9015d29111c4b5123d57707111e2e22f5ca60e6830a6d5cbc4da48
-SHA512: 9654fc9c253ba210f89ba900153b62342488eb55049c568d6c17fc23f1edbd8b35515fdbdda4fa0eb8ca6bcea96230d17c3abd7435c34082a5d11f0a8baccaf1
+Filename: ./libkf6itemviews-data_6.26.0-1_all.deb
+Size: 14384
+MD5sum: 4d70faf1f3a2897213517546e4eb812e
+SHA1: d63142a7fe233326cd150bf9723ef365ff285556
+SHA256: 2c39a44db68d1c7e6be231b436943324454ee7b279574de2b5f0cb67d2e2642d
+SHA512: 5cc6721d3a3e965a55edeafc0db2b03968c31898c9bc0e8b20c9eaf9818c577c35b2649eaed4883709a6083bc78f78b814a18eaa3e94e4962ace5160ffc8520b
 Homepage: https://invent.kde.org/frameworks/kitemviews
 Description: Qt library with additional widgets for ItemModels
  A Qt library which contains additional widgets for ItemModels, such as
@@ -27114,20 +27114,20 @@ Description: Qt library with additional widgets for ItemModels
 
 Package: libkf6itemviews6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kitemviews
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 363
-Depends: libkf6itemviews-data (= 6.23.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6itemviews6_6.23.0-2_amd64.deb
-Size: 100776
-MD5sum: cce58848c0d3ebf947926ee37483cd25
-SHA1: a65ee7428b7d20dce392f40dea1bf5c85771a7d4
-SHA256: e14c33e48a24af3dab3af8f30c8af14452fcfe9e0be25a3d376d6ea2c0bc90d9
-SHA512: 5178ddbb1f001d5af5fad1a320783a71b87bb7a9085cdbea52c024ca7ac488727b84685baec5b90847d76d0420bfa77b479241092b7d7521d90539583542e176
+Depends: libkf6itemviews-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6itemviews6_6.26.0-1_amd64.deb
+Size: 100752
+MD5sum: 7cb2575c9f50953416c502258d1096cd
+SHA1: 91cf106dcaadca558fe84d68fbd67d3ff80acd12
+SHA256: 34ea17dac7ae805f3d3b60e42749371364375dfd4881d137e40555367dd54fcc
+SHA512: 83880683b95231ad050a45c03e5e879286abc9f635e057fc0c9f332548d5abca4fbd0ed16423a323d7cc4c35a8cc64841bad91fb935ff98e6d5828558f906915
 Homepage: https://invent.kde.org/frameworks/kitemviews
 Description: Qt library with additional widgets for ItemModels
  A Qt library which contains additional widgets for ItemModels, such as
@@ -27478,20 +27478,20 @@ Description: Qt wrapper library for ModemManager
 
 Package: libkf6networkmanagerqt6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-networkmanager-qt
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1769
-Depends: libc6 (>= 2.17), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6networkmanagerqt6_6.23.0-2_amd64.deb
-Size: 375204
-MD5sum: bc08231f21d5fa3994ecf192a6bed12a
-SHA1: e852bc12128965be0405eec7287047b99bd6a61b
-SHA256: ba66da95b38a0278170e89c61f56d4f5140118f3c5d2126569f792f98e8e7c37
-SHA512: 407539d9b2c0b70974052616b73d466d6236cd046ea25efdf733ea69296479ed7711faedc66d5213b567e3b8a4dc18f4af9e2ccd9ed0c4ef4b5989823c0f2ff4
+Depends: libc6 (>= 2.17), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6networkmanagerqt6_6.26.0-1_amd64.deb
+Size: 374700
+MD5sum: 87a291cff98238c9531cb353e1023c84
+SHA1: d0f1dc06e78bc3750309dcbc55ead65aa0fabaa6
+SHA256: 55a99172082bbfa85f8617f292993849337bda4c8689cd01e83da53549bc5cc9
+SHA512: 27eb24ecfa7f3e9e025ee8d560f90a9d5da2cf1aee51da9732c56c8f649a58a6e22386abff5fc45efafae654b965323b229f6ea950e22f6fb8ce3e56f7349d16
 Homepage: https://invent.kde.org/frameworks/networkmanager-qt
 Description: Qt wrapper for NetworkManager
  Qt wrapper for NetworkManager DBus API.
@@ -27738,20 +27738,20 @@ Description: Document centric plugin system
 
 Package: libkf6prison6
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-prison (6.23.0-1)
+Source: kf6-prison
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 135
-Depends: libc6 (>= 2.32), libdmtx0t64 (>= 0.7.0), libgcc-s1 (>= 3.0), libqrencode4 (>= 3.2.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.9.1), libstdc++6 (>= 5), libzxing4 (>= 3.0)
-Filename: ./libkf6prison6_6.23.0-1+b1_amd64.deb
-Size: 41372
-MD5sum: 815843cba871b1193a5a281c0de9c4da
-SHA1: 6e0d92a8ff2833ba2fd2240203358dfd1d1fb600
-SHA256: 98c117e82faecdd502a298c7111919a27241f362d0c21d719596588f40a650b9
-SHA512: 902ef9aad51e538136582a59d497702f0b35cb456d718857e6c944eb7f262ae55854fe28322bb2c286fc9b6fbc5eb6f3cd390e3e1409a28ce57b3a159f5e04fa
+Installed-Size: 134
+Depends: libc6 (>= 2.32), libdmtx0t64 (>= 0.7.0), libgcc-s1 (>= 3.0), libqrencode4 (>= 3.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libstdc++6 (>= 5), libzxing4 (>= 3.0)
+Filename: ./libkf6prison6_6.26.0-1_amd64.deb
+Size: 41196
+MD5sum: 16357168cbec6bd01dfc5dde103adf97
+SHA1: c4c59d996850141af65fe303cd5dd1f4f815e7a3
+SHA256: 5cb023356bf30fdcb4c751b9b1b7d4daf2a233ad457b33fd2006bd9190e37258
+SHA512: 8ea3536763d17eeb64ebcc3697d65db6f87e7cd63087561917221110801daf32a9efd429d3726641d2e8bd1e7cdc46729792b86fbe555a658e8e1a7fd6897d03
 Homepage: https://invent.kde.org/frameworks/prison
 Description: barcode API for Qt
  prison is a barcode API currently offering a nice Qt API to produce QRCode
@@ -27761,20 +27761,20 @@ Description: barcode API for Qt
 
 Package: libkf6prisonscanner6
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-prison (6.23.0-1)
+Source: kf6-prison
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 81
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~), libqt6multimedia6 (>= 6.8.0~), libstdc++6 (>= 5.2), libzxing4 (>= 3.0)
-Filename: ./libkf6prisonscanner6_6.23.0-1+b1_amd64.deb
-Size: 23464
-MD5sum: f81994aaad3c3324cdc1ed1fa6ea968b
-SHA1: 53f0b39f168c2e2a14b30be0634f9e46bcb2d5ea
-SHA256: 030c139f8a178b012fefa2a03afd91826fdbb7f4069353e70f013db39d6930fb
-SHA512: 068dda7a23c74d46e6350963596f81f44e9ae96bf534599de25dc1b3384f888ba20faa2463dfed001f22815303492df709f2070e375ba1c97c25362b31c8b062
+Installed-Size: 80
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6multimedia6 (>= 6.9.0~), libstdc++6 (>= 5.2), libzxing4 (>= 3.0)
+Filename: ./libkf6prisonscanner6_6.26.0-1_amd64.deb
+Size: 23236
+MD5sum: 6acfd5b9eaa461e9db7c363bf4e567eb
+SHA1: 17d970d979e2bee323f426303314fd477364de6a
+SHA256: 6a6a77c6e689bfa89d25ceea5b7d2588c674f259cda6b70e411c4628f70469c6
+SHA512: 1dafefa0f6d466ab236ab64adda084cf9f2dc925e1e51bac6134ee40d073c66fa85492032b68d57666425409bce3179ef9842d2d2086ad01165971d476f26d76
 Homepage: https://invent.kde.org/frameworks/prison
 Description: barcode API for Qt - barcode scanner
  prison is a barcode API currently offering a nice Qt API to produce QRCode
@@ -28069,19 +28069,19 @@ Description: Advanced plugin and service introspection
 
 Package: libkf6solid-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-solid
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1114
-Filename: ./libkf6solid-data_6.23.0-2_all.deb
-Size: 114004
-MD5sum: 8aa08a1b7e8187dfb285bea010b4040f
-SHA1: 32930485d86efaf17eeaaacfe52cfe9a902cd27f
-SHA256: 8339c393d438a66a4fc888051fdcacf96ad15c1fbc1e099b0761b663477b967a
-SHA512: 29a322cef43a278899361561f89d38be46feab9e4cd698ae79e844790eddb181ae29d8d7812822901a6a2d7f9771ea4d9f81167c0588f7b8d69799d4a79880ef
+Installed-Size: 1121
+Filename: ./libkf6solid-data_6.26.0-1_all.deb
+Size: 115088
+MD5sum: 0779eaf50117f2c93aaf415adcfca9c5
+SHA1: 82cf9b47bd68b126c731d8290f47920937a0c29a
+SHA256: cce3c23ed067353625583b5e555f004cdfa5168572b61e71ff7cfc2136cf750a
+SHA512: a15bb98c9b3099918bb2ab8ff307b23fef34cef6a54d6bd468d7b28e872c4ed17638ae48e7a5c780f31f61bc03206cc6cb41197b15dab664052400ebb6920580
 Homepage: https://invent.kde.org/frameworks/solid
 Description: Qt library to query and control hardware
  Solid is a device integration framework. It provides a way of querying and
@@ -28093,21 +28093,21 @@ Description: Qt library to query and control hardware
 
 Package: libkf6solid6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-solid
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1201
-Depends: libkf6solid-data (= 6.23.0-2), libc6 (>= 2.38), libimobiledevice-1.0-6 (>= 1.3.0), libmount1 (>= 2.26.2), libplist-2.0-4 (>= 2.3.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.0~), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 5), libudev1 (>= 183)
+Installed-Size: 1349
+Depends: libkf6solid-data (= 6.26.0-1), libc6 (>= 2.38), libimobiledevice-1.0-6 (>= 1.3.0), libmount1 (>= 2.26.2), libplist-2.0-4 (>= 2.3.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 5), libudev1 (>= 183)
 Recommends: media-player-info
-Filename: ./libkf6solid6_6.23.0-2_amd64.deb
-Size: 300340
-MD5sum: 1273ebe542b703bfde09553d73d28f3b
-SHA1: 132437f55edb25f1b9018c49aa4516fef07bd8d7
-SHA256: ab9bd94aa7e8f58c7a5f9c6b8dffaa998b1cc3c15f766f20b5713d5b072c61dd
-SHA512: 2d29e6489d200a94d8f6d879fda344655e4dd3d26613f9d106011796df35b77ddaec64d3ae5ab1345b9e92ec29ad944d86ff98b4c6b066c54151e33a0c50abb9
+Filename: ./libkf6solid6_6.26.0-1_amd64.deb
+Size: 335328
+MD5sum: a1b417a8390cbd86b7a9499ee8ac7831
+SHA1: 3e2d5d3e50168d317a4e865575b777b9e44b0d8e
+SHA256: c17ea96630893ab3e63535e9c03bb52faca5ffe0187af1f2885d9de496eb9d97
+SHA512: d0aa26ce5fece267557dc8ab1bf6ab4cc6a7b2670c56b9df446a237a92878f94cbc0f3ed3e6f2378d1ddb6498f0da8ae6f5ca6a02e85b637db47f470239a1602
 Homepage: https://invent.kde.org/frameworks/solid
 Description: Qt library to query and control hardware
  Solid is a device integration framework. It provides a way of querying and
@@ -28117,19 +28117,19 @@ Description: Qt library to query and control hardware
 
 Package: libkf6sonnet-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-sonnet
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1140
-Filename: ./libkf6sonnet-data_6.23.0-2_all.deb
-Size: 108332
-MD5sum: dded11b12aa5768d5309242142ed93c7
-SHA1: f04e434de5d31ca466a16e6473472ab51c7096e8
-SHA256: e81c603f99f3152039c5f06747b91ff9b2a178b5c4092e207e851f7d3e790462
-SHA512: 0d105c9146dcd86c9aafaf6b7c7831aaeed01992eec4435fdeaf91b6fb52a33b32b19113ce3caa6b38530b382e30e11772082fa736bca3ba8578999abebee41c
+Installed-Size: 1141
+Filename: ./libkf6sonnet-data_6.26.0-1_all.deb
+Size: 108520
+MD5sum: 87968f95434075b6c75cb171fdc47dc5
+SHA1: 2404041a2401fed961db8523ac923342a05890c6
+SHA256: f6ea6893d1d2faa7026ea5606d65d28cefc7583891fe75d0608c24c1128b3759
+SHA512: b5460e0f5194904ec8dceaac51f5d112cadcdda2adb6c53b8ee28ef2e0a31ef0843999bf0ae5816f9e5d72edd85f8b0175bfd833bfb121fb082a6635523dc263
 Homepage: https://invent.kde.org/frameworks/sonnet
 Description: spell checking library for Qt, data files
  Sonnet is a Qt based library that offers easy access to spell
@@ -28140,21 +28140,21 @@ Description: spell checking library for Qt, data files
 
 Package: libkf6sonnetcore6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-sonnet
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 380
-Depends: libkf6sonnet-data (= 6.23.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Recommends: sonnet6-plugins (= 6.23.0-2)
-Filename: ./libkf6sonnetcore6_6.23.0-2_amd64.deb
-Size: 166664
-MD5sum: ac0b46cb084c9bd4ed8cc252c2f8013e
-SHA1: 4872e346c7ab4f9cee97403b367c250affccf162
-SHA256: 931e81ceda85bec4feef14e18fe9fdbd85b5384c488c97481a9bda1abdab1b3b
-SHA512: 91983bb9969a8242efd6f8c7a9939bf3f3c7ac868d095529b02d7ccc74f1014d1a6324f85f0756ad7687a5df8d0c5f214834b24b833bb732d54eec60fd781368
+Depends: libkf6sonnet-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
+Recommends: sonnet6-plugins (= 6.26.0-1)
+Filename: ./libkf6sonnetcore6_6.26.0-1_amd64.deb
+Size: 166700
+MD5sum: 564a5c5a362cecf218f51a533d60aeee
+SHA1: 45a3192110ebdb533a352f315e9788b4dd9a97dd
+SHA256: b0117985c16b581b06105813085e94840ae7b6ef722b2d05e3f9101e7aaf7b90
+SHA512: 026efd75c3e66521ea8cc2816f478bf4879ad95a1587cb408ca3f5825de35db7a78f19bfea23cc6c6fbf2c1d73459c5ff8c72ced2db00b2c789c704c75250e43
 Homepage: https://invent.kde.org/frameworks/sonnet
 Description: spell checking library for Qt, core lib
  Sonnet is a Qt based library that offers easy access to spell
@@ -28163,21 +28163,21 @@ Description: spell checking library for Qt, core lib
 
 Package: libkf6sonnetui6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-sonnet
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 220
-Depends: libc6 (>= 2.14), libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Recommends: sonnet6-plugins (= 6.23.0-2)
-Filename: ./libkf6sonnetui6_6.23.0-2_amd64.deb
-Size: 57296
-MD5sum: a161710b933f888e3d29dd82e39fdc54
-SHA1: bf6f33e78756aac93b0ccad32a073e28c5b59306
-SHA256: dff24f88a74cd2c4cf480ce223de5f1ae112a6d8950758cb09e87c8cda467394
-SHA512: ec84da3e91897b06b0bc4db107be1e929a70ece2bce249daf23c905e31d9e931a8c61b0e1ccb94f92ad9536cc4cf0ac0fff2bcdb9d171f7bb797ef4e8280e181
+Depends: libc6 (>= 2.14), libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Recommends: sonnet6-plugins (= 6.26.0-1)
+Filename: ./libkf6sonnetui6_6.26.0-1_amd64.deb
+Size: 57696
+MD5sum: 195b33e15e699418c6e9ced62f19e932
+SHA1: 356515d7a5fe43c76d97e149cad67ac725d175f5
+SHA256: 21fedf39245fd194f0524dd2a565be25a970efe2dfd70558c2d039e0779af170
+SHA512: e632d238e55a44ca5661f358a3ce63231c35d68b4571a632bff275b308119c47919ac4dbf0434a4b7d67d5d1acb003ea66ecb741d1379abd7c364194fd1ded03
 Homepage: https://invent.kde.org/frameworks/sonnet
 Description: spell checking library for Qt, ui lib
  Sonnet is a Qt based library that offers easy access to spell
@@ -28189,19 +28189,19 @@ Description: spell checking library for Qt, ui lib
 
 Package: libkf6statusnotifieritem-data
 Architecture: all
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kstatusnotifieritem
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 136
-Filename: ./libkf6statusnotifieritem-data_6.23.0-1_all.deb
-Size: 7088
-MD5sum: 7a572e681a15487f124cc70732915e96
-SHA1: 94e1131a815fffa601e16d554f4e2aa02d50a3dd
-SHA256: b44b6571b6160699029783b39af84d1d5846ac54a1025bd0cbdcb5d9b1e7d1f1
-SHA512: 5cbc873de732e43fd72570555ce0e16d66b9d983e113ca03ea3ce471224c096eb1a9b340453e35352d33c72dc8a17be36f6b1bc10eabad9666f48c943d17553e
+Filename: ./libkf6statusnotifieritem-data_6.26.0-1_all.deb
+Size: 7144
+MD5sum: 51471082cd3bc522772801a2dadb89a8
+SHA1: 6f453e2691af94670fbf85515be30459f1f400c8
+SHA256: b3db18a7075f8e735cb1b12127cf43d5f04eac30a9c863aeba91b59941e91686
+SHA512: c68571c883c75d7fac9d2cf0a769a56efdbdbd0ac95e3670fff3befef84a364f6206dd3f9a7c3766b28454c9dd57f6d717aa5532b92a4e8aa3972e11d15f02dc
 Homepage: https://invent.kde.org/frameworks/kstatusnotifieritem
 Description: Implementation of Status Notifier Items - translations
  KStatusNotifierItem provides a framework for status notifier items.
@@ -28210,20 +28210,20 @@ Description: Implementation of Status Notifier Items - translations
 
 Package: libkf6statusnotifieritem6
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kstatusnotifieritem
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 397
-Depends: libkf6statusnotifieritem-data (= 6.23.0-1), libc6 (>= 2.14), libkf6windowsystem6 (>= 6.23.0~), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6statusnotifieritem6_6.23.0-1_amd64.deb
-Size: 113256
-MD5sum: 653d8fb0133c3b8f2ea3170c3e1f8a97
-SHA1: 10add5ffaf86b783f125d4bc59f0d69764c54a5a
-SHA256: b4cbdf8d899780f9c02880864b55d95aea2887a9c4c2851f76e711335a3b2042
-SHA512: 76599bbc13d8d822dd2180cc9f490f0a37ead3572f6a9ea233ff719f33c98de295f84088651cae34556f9a512c9e4823bddf2501b39e7475397e7b45a08fb6b6
+Installed-Size: 401
+Depends: libkf6statusnotifieritem-data (= 6.26.0-1), libc6 (>= 2.14), libkf6windowsystem6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6statusnotifieritem6_6.26.0-1_amd64.deb
+Size: 113700
+MD5sum: 561f6edd792d6cc74094b158868d413f
+SHA1: 05e3330560b7c59a50d026dbad809ede567c5d24
+SHA256: 6940cc09b2e0a1300e3ca008ee309897b81f6cc17a7d4de06b96c9a51e76f61a
+SHA512: 667a921475543fb24b8a4853bf21e8b5917eb97258e2774bb34666fd5ea9e94568aa1e4b8d3a728578112467302e7cea5f9f67b6d555a0741dabed16985a8b0b
 Homepage: https://invent.kde.org/frameworks/kstatusnotifieritem
 Description: Implementation of Status Notifier Items
  KStatusNotifierItem provides a framework for status notifier items.
@@ -28303,20 +28303,20 @@ Description: library for rendering SVG-based themes
 
 Package: libkf6syndication6
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-syndication (6.23.0-1)
+Source: kf6-syndication
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 671
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libkf6codecs6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6xml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6syndication6_6.23.0-1+b1_amd64.deb
-Size: 184632
-MD5sum: 6e28bc6cec86f4438d4e2b1020beb87d
-SHA1: 04eebee5e246c862a3535c0065a8166aa0185575
-SHA256: 5e3005f6f1afb4a2ae37be861173151b08ec8657d3bc3e39468be26ab9c140ec
-SHA512: 353eadd747d0e3f5de47263dbb28ec949589bc99ce251a5b57bb12e53a57b7280667aadb07a9dfe5b12ba94ef6cbe1915358d7cc34bb37bba977f789b0fb2943
+Installed-Size: 670
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libkf6codecs6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6syndication6_6.26.0-1_amd64.deb
+Size: 184300
+MD5sum: 8ffc6df78958a85ae6d22f9f1cd3e785
+SHA1: c5768f7f60b0a21f1c2cd8649692879c6feca22c
+SHA256: 3264840d3e3d00ea7915cae962098bcfd825ddc3b39e30e1e682be05acdcefd2
+SHA512: 771326c3360704a401288fb454a9238ce8f4d7097bba8f3b1e4413793a900f1330beacdaa53de7dcfbe4470c0ed3099fe6734b7ae8e1136ff5008d04f69b8096
 Homepage: https://invent.kde.org/frameworks/syndication
 Description: parser library for RSS and Atom feeds
  Syndication is a parser library for RSS and Atom feeds. It offers a unified,
@@ -28327,19 +28327,19 @@ Description: parser library for RSS and Atom feeds
 
 Package: libkf6syntaxhighlighting-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-syntax-highlighting
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 793
-Filename: ./libkf6syntaxhighlighting-data_6.23.0-2_all.deb
-Size: 98452
-MD5sum: 634375e1f1ba65ba409e729897966277
-SHA1: 59024d08cd7fece1d85422bbe3bd587e61ba5f7b
-SHA256: a7cafe94aa09729d7b9d1bf09ce6adfac64085d755fa32361aee05c4b03c01b5
-SHA512: b8bb069e2a867cde72dc5eb66083955b8518fb45df1cd59e6da19fddb895b3a0b1136559fab4738b33af543045d97c53d5343f6f0fa85671af5e7c00cc591683
+Installed-Size: 799
+Filename: ./libkf6syntaxhighlighting-data_6.26.0-1_all.deb
+Size: 99516
+MD5sum: a7bf710dabca3386f86ed336f50c8fc6
+SHA1: bc58c9f56327f796a5947d1ace5c114f91869620
+SHA256: 901e92e81059940e700db567d2a8e6876be562745ac1834a5217bdd8ed493374
+SHA512: 4af693e9e7d08fa3b551bd568ec8b6da32a8bc89a584952c2f1468ab9914afaf03308e7612c329bf95d49ee223c3b979ec428a42d80c2271dcf2082c6275034a
 Homepage: https://invent.kde.org/frameworks/syntax-highlighting
 Description: Syntax highlighting Engine - translations
  This is a stand-alone implementation of the Kate syntax
@@ -28353,20 +28353,20 @@ Description: Syntax highlighting Engine - translations
 
 Package: libkf6syntaxhighlighting6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-syntax-highlighting
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2074
-Depends: libkf6syntaxhighlighting-data (= 6.23.0-2), libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6syntaxhighlighting6_6.23.0-2_amd64.deb
-Size: 1649976
-MD5sum: c31c100ab13cb16ec472edfbd5873ccc
-SHA1: 28316290a7460af1684aaa24e4925df9e6484b82
-SHA256: 3fb6fa5f397b3dc24e902598652d23a34ee3bdd94a890b2b7091bb939ce464e5
-SHA512: 7b6f2b7bd667e05f915085480c84dd20aa81471b147107fb65f4c16ae9579b90a772d0e7272de0051624301b15a2ba8205cc48e6b91e6378d8c26723497a1407
+Installed-Size: 2086
+Depends: libkf6syntaxhighlighting-data (= 6.26.0-1), libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6syntaxhighlighting6_6.26.0-1_amd64.deb
+Size: 1661772
+MD5sum: a5b2d147bada5256e1bf91f7d7b477fd
+SHA1: cd4975dd0ba17799a7409b8fc5f2de298bba8343
+SHA256: 95a4b1101e1137384f9b6bed734a8c64eb0bd665c7375ba4a342f37b20b4211b
+SHA512: 7003406f00af6e5f927c28e038f1c77d0732512adfc0ed742d1e31cebbb2e8e4c447965707bc73c524d775ce8fb206a8707585719314cef4b1786cf43642237e
 Homepage: https://invent.kde.org/frameworks/syntax-highlighting
 Description: Syntax highlighting Engine
  This is a stand-alone implementation of the Kate syntax
@@ -28812,19 +28812,19 @@ Description: Advanced text editing widgets
 
 Package: libkf6unitconversion-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kunitconversion
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 11593
-Filename: ./libkf6unitconversion-data_6.23.0-2_all.deb
-Size: 851012
-MD5sum: 896d94d9f0fecae085724b38daf42862
-SHA1: 6eba8f40ce2962c60611609513ac2f219ef3dbf6
-SHA256: 94bc72cd02372beba55d732bc21f077460f8fa8f2f7269a449120c247922c087
-SHA512: 1232e07e0ce52987e38481cae5a96ecf0f18e0ba22e5c0224c2f6a7a940c2b1be57a60334212aba159601d3ceb62d5ffccb030a13d7d15bf023d4db28e2a44de
+Installed-Size: 11604
+Filename: ./libkf6unitconversion-data_6.26.0-1_all.deb
+Size: 859872
+MD5sum: e643ee1c416c45dd08e3d0bfde73ff3f
+SHA1: 1935234287bebad9950c2937ca7ea4c8dc1377d3
+SHA256: d33379960c93a6ff188d7ced7189cd8586c035fb63ab5ed927602e39544fc170
+SHA512: d6d5a5bc9e93e23a215cd5ac5e8399281e4a3f964d59587e36344df1277121b6348e0e3282c82eda49945ee6337fd2e257374af501337ce6509cd60c7e94239b
 Homepage: https://invent.kde.org/frameworks/kunitconversion
 Description: Support for unit conversion
  Library to help applications in doing conversions of
@@ -28834,20 +28834,20 @@ Description: Support for unit conversion
 
 Package: libkf6unitconversion6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kunitconversion
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 442
-Depends: libkf6unitconversion-data (= 6.23.0-2), libc6 (>= 2.29), libkf6i18n6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6unitconversion6_6.23.0-2_amd64.deb
-Size: 99020
-MD5sum: b1553afd60abe9a1ead0895cc0a50f97
-SHA1: 994e02302c291b7a1d5fec977623b2a912dc9831
-SHA256: 7250f113bade9e5b77353f138eebf058b79f7a111605820467989accf4eb6c5e
-SHA512: 9660a65c0d93238e355be21bc1510fc83c43f9568834a6ab2aba1abd883288a4da52fe3605bfd6d24644d0c4b2a38fdfcbefa6ceb942ee21390be2af3864c379
+Depends: libkf6unitconversion-data (= 6.26.0-1), libc6 (>= 2.29), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6unitconversion6_6.26.0-1_amd64.deb
+Size: 99476
+MD5sum: 14c1c64eaad4b877b11eadc531ea0440
+SHA1: 090efb852e6d4ac4f62f5316ea3c8ea69bc9e1a5
+SHA256: 2f730ef9134c74900857b869c5f1e3ae5726077307d4b5ad3b8ed1c5f055efc7
+SHA512: 844adeeaa21af5d16cd8fc8b29611d0474746de281165962bde0af6f6774986fb9ffd001c84f94da7f88e8da3e8d3e35ef7777ef559b3f3a796fc648d3c0cfcd
 Homepage: https://invent.kde.org/frameworks/kunitconversion
 Description: Support for unit conversion
  Library to help applications in doing conversions of
@@ -28855,21 +28855,21 @@ Description: Support for unit conversion
 
 Package: libkf6userfeedback-data
 Architecture: all
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: kf6-kuserfeedback
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1598
+Installed-Size: 1608
 Breaks: libkuserfeedbackcoreqt6-1
 Replaces: libkuserfeedbackcoreqt6-1
-Filename: ./libkf6userfeedback-data_6.23.0-1_all.deb
-Size: 165276
-MD5sum: 4463efa87e65055e20832eb243130c03
-SHA1: e180b24c080584a06a3c444ca0667a42b2bcf589
-SHA256: 8050ff6e06ef819e63677fd0d65d5353c3768547f7abf6dfa78e63cb2a5807b3
-SHA512: 261b9afa592d5cd5dba991483f002e15d0fdb95a577a08f549910ee0fabdee842404b02a5a51570d74146059aa6d7b0dc1acee89d5c4bf67481bfea0607acc67
+Filename: ./libkf6userfeedback-data_6.26.0-1_all.deb
+Size: 165412
+MD5sum: 38d953c2e3e54b719032927eb46cc52d
+SHA1: 2651f58bb80668834415dc83189f5d5dc3328ca3
+SHA256: 3e582afbe367a798ee5facfe1af8689dffbeabbc7dc9dd6499913ded195beb74
+SHA512: 38f12303ed465e940a57185b2d8ec511e630403bd3af178f1ded955a8809ded5b2c6bc0ee09ba6b550fd1d76c0278207b8aeb79e2e803f0e9859ad787957aec6
 Homepage: https://invent.kde.org/frameworks/kuserfeedback
 Description: user feedback for applications - localization files
  Framework for collecting user feedback for applications via telemetry
@@ -28887,21 +28887,21 @@ Description: user feedback for applications - localization files
 
 Package: libkf6userfeedback-doc
 Architecture: all
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: kf6-kuserfeedback
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 99
+Installed-Size: 98
 Breaks: kuserfeedback-doc
 Replaces: kuserfeedback-doc
-Filename: ./libkf6userfeedback-doc_6.23.0-1_all.deb
-Size: 26212
-MD5sum: 65b532117c615a2f5ae8bed7892fcdb5
-SHA1: 1d19cbf982180c7ca9494aec29595f24f5ac6a0d
-SHA256: 9c72a0bc86bbbf4f968633237ac9c17a2f5e682b9e38afd774feda51f84a292c
-SHA512: ad8fc124c1417dc9912c4434029c4ef9f92ba81bc10fd7857965b3fd42fd7457e8e6b48f6441622a8b8a5527889fd368b2de828868bee1fcd16e904d9389a0a8
+Filename: ./libkf6userfeedback-doc_6.26.0-1_all.deb
+Size: 25568
+MD5sum: ce894bb44380d6fe426d33036fbb03f3
+SHA1: 2175fab8bc0ff67d5809acfb9d776b4e94d92ef2
+SHA256: 748b1b4f5d4e2e84fbfa071137e71d073462597f0df416d5b0b9bff01406db22
+SHA512: 3ec0f55299e3cebce04ab4f170dd28e2126af2da580b63d35536878e2c380207ab349615a9c4614c3942a4566e01471e342cd55328799c3414181ceae6c22b22
 Homepage: https://invent.kde.org/frameworks/kuserfeedback
 Description: user feedback for applications - documentation
  Framework for collecting user feedback for applications via telemetry
@@ -28919,23 +28919,23 @@ Description: user feedback for applications - documentation
 
 Package: libkf6userfeedbackcore6
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kuserfeedback
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 359
-Depends: libkf6userfeedback-data (>= 6.23.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Recommends: libkf6userfeedback-doc (= 6.23.0-1)
+Installed-Size: 358
+Depends: libkf6userfeedback-data (>= 6.26.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Recommends: libkf6userfeedback-doc (= 6.26.0-1)
 Breaks: libkuserfeedbackcoreqt6-1
 Replaces: libkuserfeedbackcoreqt6-1
-Filename: ./libkf6userfeedbackcore6_6.23.0-1_amd64.deb
-Size: 103568
-MD5sum: 0c75765e7f69a13908e90458fdf2e556
-SHA1: f9738c2d835ef523530cb147d670d9184b7e22b3
-SHA256: 97a32eabd90030561952357a333fbf5badd637c95e552e1f4f977cab6fa1d385
-SHA512: 8878a23fa04bcf9111afca5f9c4d56de1f3d3607760eb5bb9967a261f88b66b46c130437ecb07f916631ef446a2c2bb631a2502428a64f28ef08a7faf423952c
+Filename: ./libkf6userfeedbackcore6_6.26.0-1_amd64.deb
+Size: 102308
+MD5sum: 6319e9a359102427b8f80d58ca218a10
+SHA1: 65d472e8c0585010fd3550f1c10c87c88f20d097
+SHA256: b26a97be0e721fef4baed672e27c07c11699687e895215f177db7f970ec9a163
+SHA512: 92501b1dd352ee0514178e7c2f1db36e66fdcf18749718c34fe758b945ff6e9d55e9e7447accd0050dfce613c574b8b40b35566ce7efde73a7573baad0b9fba3
 Homepage: https://invent.kde.org/frameworks/kuserfeedback
 Description: user feedback for applications - core library
  Framework for collecting user feedback for applications via telemetry
@@ -28953,23 +28953,23 @@ Description: user feedback for applications - core library
 
 Package: libkf6userfeedbackwidgets6
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kuserfeedback
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 114
-Depends: libc6 (>= 2.4), libkf6userfeedbackcore6 (>= 6.0.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Recommends: qml6-module-org-kde-userfeedback (= 6.23.0-1)
+Installed-Size: 113
+Depends: libc6 (>= 2.4), libkf6userfeedbackcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Recommends: qml6-module-org-kde-userfeedback (= 6.26.0-1)
 Breaks: libkuserfeedbackwidgetsqt6-1
 Replaces: libkuserfeedbackwidgetsqt6-1
-Filename: ./libkf6userfeedbackwidgets6_6.23.0-1_amd64.deb
-Size: 29012
-MD5sum: 2c0bd5ec69d77569e0f36538b722855e
-SHA1: 70f3cd8c2e384807d38d4d2d2b82ffdae25387ed
-SHA256: 152e646c18307749375e2a09c88d525910973a619d8e2eab40713dd69e728648
-SHA512: d3852b8e997dcc164c2d77449844e522542deaa08514b50fddff3963ecec6d362e9a2b7b63910353267ecdd3595ab577d4e70ccbb47cf47ae86ab994a7012c1a
+Filename: ./libkf6userfeedbackwidgets6_6.26.0-1_amd64.deb
+Size: 27832
+MD5sum: 58a0a03ef8832947a4a56a562956acd7
+SHA1: 53db198c69599d8efc55c19fc478631b82796e6e
+SHA256: 0eddf522f1e20bff0ff644dd8d7805298b21a41d11c63d7d17ad9cfac6018b2b
+SHA512: fb9024d1c32f334b5d6de4846ffccb0c488e57fb9eb0137ad841c6a6179865d8c9da5feb3503f6183ae53ee86748ec6db679a10f00698d2b8fa82c1e61a5d1ea
 Homepage: https://invent.kde.org/frameworks/kuserfeedback
 Description: user feedback for applications - widgets library
  Framework for collecting user feedback for applications via telemetry
@@ -29062,19 +29062,19 @@ Description: safe desktop-wide storage for passwords - backend library
 
 Package: libkf6widgetsaddons-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kwidgetsaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2560
-Filename: ./libkf6widgetsaddons-data_6.23.0-2_all.deb
-Size: 307588
-MD5sum: bddc85bc10b07fb2adc89ac4116846ab
-SHA1: 0d290411eaa103e0f90dce1c5eca914af0766f05
-SHA256: a2bb7290c0389adff35e03c15fe8b3038636e121677c41f03252222951698191
-SHA512: 96e8f38e9387a7633613e7e499171e5bbab02bed9be8cd31e22089a6ec35d1491692f8cc0356f512291fb681bc819fe35a16ce5c77955cf2a244b4804cb78236
+Installed-Size: 2612
+Filename: ./libkf6widgetsaddons-data_6.26.0-1_all.deb
+Size: 316084
+MD5sum: 7dc65ea7969109ff4e34b20aba37c26d
+SHA1: a105ae3439112d4ea4a91e4b9d35cb5c3b9ab9e3
+SHA256: 828ac52fe07d2fae556f97b72380298ad94f3a7eba56656c3382ba7c775bc8ba
+SHA512: b6a6bbabd41fd3f15f2c3cf5a0b396cfd84d2775d0cdfd037be7cf0f849af313dc0bf44958e0753c7192f6a5d4659fba5eefc4fbc528e51402af0da14636e845
 Homepage: https://invent.kde.org/frameworks/kwidgetsaddons
 Description: add-on widgets and classes for applications that use the Qt Widgets module
  Provided are action classes that can be added to toolbars or menus,
@@ -29086,20 +29086,20 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
 
 Package: libkf6widgetsaddons6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kwidgetsaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2850
-Depends: libkf6widgetsaddons-data (= 6.23.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.2), libqt6widgets6 (>= 6.8.2), libstdc++6 (>= 5)
-Filename: ./libkf6widgetsaddons6_6.23.0-2_amd64.deb
-Size: 1354524
-MD5sum: d7fbae0d94a75ef46ddbc5877506d029
-SHA1: 3362a55395daa66ef033aab12ec1cb62dae2bc6d
-SHA256: ad31328a1f4d7abcf22a90b91eb3121dddc0a4a09360dff4515b4957f67fb18d
-SHA512: ac0d5c2093c6c86da7556287daf4b3049846e8614f00b71998c716698390822906b0fa87c68f9c40a4a9d1be268b6f5db40ea93ec02dc3f97ec572f1cf199399
+Depends: libkf6widgetsaddons-data (= 6.26.0-1), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.2), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6widgetsaddons6_6.26.0-1_amd64.deb
+Size: 1356684
+MD5sum: 78a0f2ae070fc1baa8c075c75e8286e2
+SHA1: a32d506d9f31860a37890fa7fc04c14789d6ec6e
+SHA256: d8ba52f3d56d7b59e9883bad73c7c4c44366fdb97aa1ca48503f8217b10db9fc
+SHA512: c8e89cf6a50d92b8e15e179beb89ef03899c68bce25dace95e153cd0e864851d101c03f960ce9e30aa029d1f57821f9ae4bf374dc76b5f9a8c45f91e520c9f73
 Homepage: https://invent.kde.org/frameworks/kwidgetsaddons
 Description: add-on widgets and classes for applications that use the Qt Widgets module
  Provided are action classes that can be added to toolbars or menus,
@@ -29109,19 +29109,19 @@ Description: add-on widgets and classes for applications that use the Qt Widgets
 
 Package: libkf6windowsystem-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kwindowsystem
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 330
-Filename: ./libkf6windowsystem-data_6.23.0-2_all.deb
-Size: 12316
-MD5sum: e199788054327bbeeb79fdc3747c9b1f
-SHA1: 4d3efd0a04edf8bc0fd9434cfeb6e68ae505dd61
-SHA256: 339f5ce688a0ce6352b9c1430c23738f47fbde61df861296fe605de55174d7c7
-SHA512: 1e5957c8463aabe66e08038f9bea94900b051703c09c4cae16d5190752d3de15c2e21a32c1babad82daf3d126502617de3f069dfe5afbee1920b2b7643b9e66c
+Filename: ./libkf6windowsystem-data_6.26.0-1_all.deb
+Size: 12364
+MD5sum: 2571fd894f6fa0f7ceba6ae7dd0a322a
+SHA1: cbfe9685613b0b052540587e2f142d5e53bb31e7
+SHA256: eea9307e48caff22834eab5a33abef6779ad184e72eed94a693b94ce64c4a881
+SHA512: 2bab3283b22fe67b57ec62c93dce7b789cdf9295e68fea2b4e0d73a81f2914815976fea42cfca1792e36eb096bb09ad9b553e0a82a47cc75b7fb4cf25a651103
 Homepage: https://invent.kde.org/frameworks/kwindowsystem
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the
@@ -29133,21 +29133,21 @@ Description: Convenience access to certain properties and features of the window
 
 Package: libkf6windowsystem6
 Architecture: amd64
-Version: 6.23.0-2+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kwindowsystem (6.23.0-2)
+Source: kf6-kwindowsystem
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 800
-Depends: libkf6windowsystem-data (= 6.23.0-2), libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-res0 (>= 1.10), libxcb1 (>= 1.6), libxfixes3, qt6-base-private-abi (= 6.10.2)
+Installed-Size: 815
+Depends: libkf6windowsystem-data (= 6.26.0-1), libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-res0 (>= 1.10), libxcb1 (>= 1.6), libxfixes3, qt6-base-private-abi (= 6.10.2)
 Recommends: qt6-wayland
-Filename: ./libkf6windowsystem6_6.23.0-2+b1_amd64.deb
-Size: 204068
-MD5sum: e43dd6ee41cbc6793999f7f0910282ec
-SHA1: d419581fab57c41e4a0119d639701907e57bac5a
-SHA256: cffb8dd81e39bfb0872e7793238ebaad932233c8d31c7ca764da631646610895
-SHA512: 81a5271957b00c0867057d5c0e17650679d21eca86b470a6a97c1becbf27f1e5173b1ad8ed0989afaf4b6bbc151ab4b213ad1ae2e43243701a2fcbb2fcb34e75
+Filename: ./libkf6windowsystem6_6.26.0-1_amd64.deb
+Size: 207048
+MD5sum: ac37d424963c9e1d053f4a08d51d40e6
+SHA1: 69deae5f09074e9b5f38c2f22ac5ca632ee3f912
+SHA256: 574004ce23817300fc0841efbe2b62af6f29f90e6e800a79bb41f6ad1a3577cf
+SHA512: 6acb7c1537c5695c621151658fbe09957149b9def0b40d5cb26e7bb9e2687f985dfc733db4a527553475cd6e3aebe716e4a106e5d22c2b03c99f8cb62bc06a7a
 Homepage: https://invent.kde.org/frameworks/kwindowsystem
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the
@@ -58564,20 +58564,20 @@ Description: provides integration of QML and KDE Frameworks - graphicaleffects
 
 Package: qml6-module-org-kde-guiaddons
 Architecture: amd64
-Version: 6.23.1-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kguiaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 85
-Depends: libc6 (>= 2.4), libkf6guiaddons6 (>= 6.23.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.6.0), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-guiaddons_6.23.1-2_amd64.deb
-Size: 18908
-MD5sum: 10240af14f36bbaa161e5c838d59acbf
-SHA1: ada9fabe74e802fa2712ca4c3e352cfe88a9dbba
-SHA256: 60d2594cf8685915186a017720220d1d4ff041bbf7ab09d3e4196a5e254c3c6e
-SHA512: 661f4d48453db876486cb6191031eb8c042ddb36515efe4407caa40cf2374b2e5f86b2ee7fa87ec28ca8e42139e1b8af7edaa3c20e6f0de17732158bac8e29cf
+Depends: libc6 (>= 2.4), libkf6guiaddons6 (>= 6.23.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.6.0), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-guiaddons_6.26.0-1_amd64.deb
+Size: 19000
+MD5sum: 88569d3850df27ebbce90e37181a32f8
+SHA1: 084c2dc3886e12540f6be8417090b7cf11bcbc02
+SHA256: 61d9f0e51f0b7907e34b45d2cda1ee0116e6fe9bcd7bc47e60e574b2e3b3cf1d
+SHA512: 17a49d24968a0909ca5079b044b8156e728006ce300f5e6b67700febdadabe9c107d78e932b802512ab66de0e284d9ef9306e853a2ea40efccf58f5d36687858
 Homepage: https://invent.kde.org/frameworks/kguiaddons
 Description: QML binding for the kguiaddons framework
  The KDE GUI addons provide utilities for graphical user interfaces in the
@@ -58811,20 +58811,20 @@ Description: treeview module for QML
 
 Package: qml6-module-org-kde-kitemmodels
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kitemmodels
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 170
-Depends: qml6-module-qtcore, libc6 (>= 2.4), libkf6itemmodels6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kitemmodels_6.23.0-2_amd64.deb
-Size: 33736
-MD5sum: 32c16862f3310d3822f02c046fd704b2
-SHA1: c69b4d36f64afaece776f56cc41fe016fd66a26a
-SHA256: 467e5ae69900f850ccaad9e1f72145f2c76fe249dee3d7ccf49bbe934d2b1f55
-SHA512: 761a9e145bb841bb4eaa1cdcc7025b28b40c94ec72a82a047d571bc35c7c0cfe29a153d68a04436ef151cb7a0b7fe44f43c325c6a2861897dcc89208e911a94a
+Depends: qml6-module-qtcore, libc6 (>= 2.4), libkf6itemmodels6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-kitemmodels_6.26.0-1_amd64.deb
+Size: 33788
+MD5sum: b2b7829dee90735f6564a7e2b184a22c
+SHA1: e40744b5677d98bf9dbd43f3cc0bc5d787da8c60
+SHA256: 7b09156704fed2ff0576620676986804d4a2359ea3e7959b898dfee1e7ba0a7f
+SHA512: 838829fac97e02026f13c2913bcea3dacc815354aaa97c06d82f6815a9829e2d54a729c51039d3a0e8ac96d2a20a2844041523d1cbea08af2ef9764ad9b25c10
 Homepage: https://invent.kde.org/frameworks/kitemmodels
 Description: additional item/view models for Qt Itemview (QML Bindings)
  A library which provides additional item/view models for Qt Itemview.
@@ -58953,20 +58953,20 @@ Description: KSysGuard QtDeclarative QML Support
 
 Package: qml6-module-org-kde-kwindowsystem
 Architecture: amd64
-Version: 6.23.0-2+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kwindowsystem (6.23.0-2)
+Source: kf6-kwindowsystem
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 62
-Depends: libc6 (>= 2.4), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kwindowsystem_6.23.0-2+b1_amd64.deb
-Size: 13504
-MD5sum: 1a084498ab85147b849be3ca4cd75b89
-SHA1: 21d1196ff4ee6d3428723c77211b6650404d3e84
-SHA256: c9aedf58f73ce564d81950693af6ba79e8f75fdfdfe64f6a330ec78309f46332
-SHA512: c9edd683c7ca7d1d5ef45ba61e5eaf18d14440969e0e143bffa6ea621a02204684fbfd6b4c6ee0b65f57216329676f46d0d33ee8d4b7ff0faf0f0f40bced0418
+Installed-Size: 61
+Depends: libc6 (>= 2.4), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-kwindowsystem_6.26.0-1_amd64.deb
+Size: 13228
+MD5sum: 62afa9ddeea6a603d0602c5ddeade1da
+SHA1: b25eab672b08833dd28a421aa0d2dd9266d2bb26
+SHA256: 69ed7d2e962cb212a2f682ea450ce61241390b25ee9cccf0bd4c0e5476371290
+SHA512: 9d1e76381edbd77e1216628348dd9dcd6f56a51fbdde2fb5a0d62aef10607fbd65ad60e11ca16794795018853d2af3fea2e4fa153c44bf060aa80ee5a6b4afdc
 Homepage: https://invent.kde.org/frameworks/kwindowsystem
 Description: QML module for kwindowsystem
  The class KWindowSystem provides information about the state of the
@@ -58978,20 +58978,20 @@ Description: QML module for kwindowsystem
 
 Package: qml6-module-org-kde-networkmanager
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-networkmanager-qt
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 44
-Depends: libc6 (>= 2.4), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-networkmanager_6.23.0-2_amd64.deb
-Size: 10456
-MD5sum: 9b332ce45d204e7b00137a08edb9b068
-SHA1: 27223fe131498bb13622a3347c058397b927861a
-SHA256: 30fbc817c0120bb71fa9bd8163ed9b3fb5550b8e5c9d76bdc21f96dd4a22128f
-SHA512: 0b8808aeb90f612299b9a4cd273a9ae63bbd13c5be092be1dd03959dae0cf5ed6eb479a534e5fbdca3f5e8ec5394e2eae4a29057d27e71d3206b735ceaf76195
+Depends: libc6 (>= 2.4), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-networkmanager_6.26.0-1_amd64.deb
+Size: 10496
+MD5sum: ed6e2023e363fdeace29238203a620f1
+SHA1: b9241caac81bee9f8073e14875e1d32beb096305
+SHA256: c1d1339432cafeed3955202fc875e15b5274c4457b03c16bd5e9544a56e8f28b
+SHA512: 5913ae21c836c833b67b99777097a275e6d377085e996f2afe90db3d43ec54408ded2a065d4fb8dee53b50a71346814f2554f453127e03bd4003ad9b4f4ac21e
 Homepage: https://invent.kde.org/frameworks/networkmanager-qt
 Description: Qt wrapper for NetworkManager - QML module
  Qt wrapper for NetworkManager DBus API.
@@ -59173,20 +59173,20 @@ Description: base QML modules for the Plasma Workspace
 
 Package: qml6-module-org-kde-prison
 Architecture: amd64
-Version: 6.23.0-1+b1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-prison (6.23.0-1)
+Source: kf6-prison
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 129
-Depends: qml6-module-qtmultimedia, qml6-module-qtquick, libc6 (>= 2.4), libkf6prison6 (>= 6.0.0), libkf6prisonscanner6 (>= 6.0.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-prison_6.23.0-1+b1_amd64.deb
-Size: 26448
-MD5sum: ddd189d32646d08fc63eafd9fd333086
-SHA1: c281e556deab8a34fe222a01621a4736fff0fa16
-SHA256: 55ff776abd7497434f71e4ae6d05437ea035ca8d5bf8ce30b0d15d43f9aa702a
-SHA512: 8a7e7acb1f6a0a14d2f49e75216c57fc0ea08cc1c00f6b448bf4195d75c842da3fddb1eb587047a62f0733e371dfafb9992963984730a050ea816e2f872e9afb
+Depends: qml6-module-qtmultimedia, qml6-module-qtquick, libc6 (>= 2.4), libkf6prison6 (>= 6.0.0), libkf6prisonscanner6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-prison_6.26.0-1_amd64.deb
+Size: 26280
+MD5sum: 64e8587f55dca814fdede6d33f0f5de5
+SHA1: fb15407abc45f5d2a83136abafeaeeb8aeb00ff8
+SHA256: b0f1d4a3980e9505649681801bc1d36b00d68a8426d9d37be49cd782ffd4452a
+SHA512: bf639cf6a7c2462740a62027e42bdf102d70d1461c04b39a09557ba7c551bdc18b4858e6f110fad60e717aba528bf8728addb527acedc372a082507da0fb4856
 Homepage: https://invent.kde.org/frameworks/prison
 Description: barcode API for Qt
  prison is a barcode API currently offering a nice Qt API to produce QRCode
@@ -59223,20 +59223,20 @@ Description: abstraction to provide and leverage actions of a specific kind, qml
 
 Package: qml6-module-org-kde-sonnet
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-sonnet
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 108
-Depends: qml6-module-qtquick, libc6 (>= 2.4), libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-sonnet_6.23.0-2_amd64.deb
-Size: 27568
-MD5sum: b2639d482f892d7f7c388efeceff163a
-SHA1: 9d7a1fd6ee325c2d129c6d1a711f4891ae81c11b
-SHA256: bbf29a1ed0f775e341d98801192432b73e55eceab261a0d6894952296facb1ef
-SHA512: ba0a3c81e98f41d32e742b93615abda919238832f32cfd3156cfca058650f46cd258ef036c3038ec73740b196add22eded769444247e08bf06794e39bfa02dd3
+Depends: qml6-module-qtquick, libc6 (>= 2.4), libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-sonnet_6.26.0-1_amd64.deb
+Size: 27516
+MD5sum: 308ffe511210d26310864ecd3b1e9637
+SHA1: 81f762e47124cfb4512f2d76d02c762bcf42be7b
+SHA256: d2c703ce29767e5cbc9e313bfd1c455d5d5d0d5caf6e0dba9d414902856f1dcc
+SHA512: 751ecddeba4124cc73a662a7918cc96fbee9ce67f3cb888bf5444144e9e861ac46a7f4dd366b088dfa7a76797d6dcb795c2614f0f3c0607f8b0ddfa151c56380
 Homepage: https://invent.kde.org/frameworks/sonnet
 Description: spell checking library for Qt, plugins
  Sonnet is a Qt based library that offers easy access to spell
@@ -59247,20 +59247,20 @@ Description: spell checking library for Qt, plugins
 
 Package: qml6-module-org-kde-syntaxhighlighting
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-syntax-highlighting
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 138
-Depends: libkf6syntaxhighlighting6 (= 6.23.0-2), qml6-module-qtquick, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-syntaxhighlighting_6.23.0-2_amd64.deb
-Size: 31848
-MD5sum: 1cc44c8a594a22fb9297d1076fed6d9d
-SHA1: 1367ab50284ee2fbf52bdca09a80bd7bfc8fd4f5
-SHA256: db2c01a648657dc26ee793bf8e109b4f16c3bdfb9af3a936660d6799f293eee5
-SHA512: c14a788ba0294232f0a97c65796e23c6ddf93a3b4efc25d12b7b5262d7f5bf8442d85ffd642aab8cb406e4b34a37d1b721258e937436572764d99ecaedc4bf31
+Depends: libkf6syntaxhighlighting6 (= 6.26.0-1), qml6-module-qtquick, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-syntaxhighlighting_6.26.0-1_amd64.deb
+Size: 31904
+MD5sum: e84c8a717706763177bc0aac08ab2b70
+SHA1: 31a52c410cc3fcddd23040c9fb746897a5c03476
+SHA256: 922e4d9aa588497ecffbff3b74db161d6364553ca9b8975ec547a3c5f00f6cc0
+SHA512: 1644a425b6d17e94f773f45024ac6e040e59091ad7ad9e219c44d8ee8237b2542c493042e515d1d5a579082b471c04a4d367e1123f0a21555300996f13ef8407
 Homepage: https://invent.kde.org/frameworks/syntax-highlighting
 Description: Syntax highlighting Engine (QML module)
  This is a stand-alone implementation of the Kate syntax
@@ -59300,20 +59300,20 @@ Description: QML datetime engine for Plasma
 
 Package: qml6-module-org-kde-userfeedback
 Architecture: amd64
-Version: 6.23.0-1
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kuserfeedback
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 144
-Depends: libc6 (>= 2.14), libkf6userfeedbackcore6 (>= 6.0.0), libqt6core6t64 (>= 6.9.1), libqt6qml6 (>= 6.6.0), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-userfeedback_6.23.0-1_amd64.deb
-Size: 28936
-MD5sum: 6cad1f95bcdf70d66250250599c62b96
-SHA1: 2d0f8561ddcb94ffbbea5992f36bc8069f7aa733
-SHA256: 8b1d7ef4b1da8bc5de8add177d5749d195d04f4def9864bc464eedd2d0888894
-SHA512: d5bc421c064a3d30e2b326b74c39acaf530cd59278fd6f8eb82b274e72e0695519880620c1cfafc11daa194c003cf0149c99cef89cf1053cb58649b6cfba4e87
+Installed-Size: 143
+Depends: libc6 (>= 2.14), libkf6userfeedbackcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.6.0), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-userfeedback_6.26.0-1_amd64.deb
+Size: 27780
+MD5sum: 2bfed219f15e74eeae2023b59514ce40
+SHA1: b9e19c6324538e950ea313fdae4d82ba93ecf075
+SHA256: ff0cf27936d1249afb89e2ae8da37a4663fac389dcd744ddb782fbd1fe01f7be
+SHA512: d3cca5943e951bd98e335b8447d9da7f32f6bed5ea94d77675062d4deeda90096d2a82dd6c467d126044bf87bfe550dbd3b25cceaf484357266e59998f23354f
 Homepage: https://invent.kde.org/frameworks/kuserfeedback
 Description: user feedback for applications - QML module
  Framework for collecting user feedback for applications via telemetry
@@ -62023,23 +62023,23 @@ Description: cli utility to select a region in a Wayland compositor
 
 Package: sonnet6-plugins
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: kde
 Source: kf6-sonnet
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 266
-Depends: libaspell15 (>= 0.60.8.2), libc6 (>= 2.32), libhunspell-1.7-0, libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5), libvoikko1 (>= 4.3.3), zlib1g (>= 1:1.1.4)
+Depends: libaspell15 (>= 0.60.8.2), libc6 (>= 2.32), libhunspell-1.7-0 (>= 1.7.3+really1.7.3), libkf6sonnetcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5), libvoikko1 (>= 4.3.3), zlib1g (>= 1:1.1.4)
 Suggests: hspell
 Breaks: kf6-sonnet-plugins
 Replaces: kf6-sonnet-plugins
-Filename: ./sonnet6-plugins_6.23.0-2_amd64.deb
-Size: 68592
-MD5sum: 565dab9257802b8d66515ac65b2643c2
-SHA1: a6bb22a38319d436367dcfc1f0bd7c8b677ce859
-SHA256: 7fed47065b3466126aa712608fba60b0aedbb252f768e00fb3648661140405fe
-SHA512: 2d83b28b3604713350845f18bc9309132792c93c8f42cf81238b10cbc09dd13686a3bc274d41f56973a9fa880ad300f98b3c4295e831d3ec02b8edbcee0577dd
+Filename: ./sonnet6-plugins_6.26.0-1_amd64.deb
+Size: 68632
+MD5sum: 75e50c1425fd7bffc383e8f61150cbf8
+SHA1: 016e542b429c1951a662f98c60f67a2a14e8b146
+SHA256: b22ddf279ef28e762b385a3a0811e16ae8022403f62bde0eb5fbff3293c3da42
+SHA512: f270ec667b207fc697e0f52735979edc255d48aefe5ddbcf7a46f952f46c9719d21a4d7a0837453e88a144bfe1528d48535db64146fc7dd23fd0cc57a58ced79
 Homepage: https://invent.kde.org/frameworks/sonnet
 Description: spell checking library for Qt, plugins
  Sonnet is a Qt based library that offers easy access to spell
