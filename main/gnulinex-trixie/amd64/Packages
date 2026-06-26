@@ -14552,19 +14552,20 @@ Description: safe desktop-wide storage for passwords - kwalletd daemon
 
 Package: kwayland-integration
 Architecture: amd64
-Version: 6.5.4-2
+Version: 6.5.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: kde
+Source: kwayland-integration (6.5.4-2)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 254
-Depends: libc6 (>= 2.27), libkf5waylandclient5 (>= 4:5.102.0~), libkf5windowsystem5 (>= 5.102.0~), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5waylandclient5 (>= 5.15.4), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qtbase-abi-5-15-17, qtwayland-client-abi-5-15-17
-Filename: ./kwayland-integration_6.5.4-2_amd64.deb
-Size: 50996
-MD5sum: 5a5c5142ffa317728abbb6aa53483760
-SHA1: b0c1c556a5462cf7c6345bae67ceb570b0cf36fa
-SHA256: 1a708335cab5e0e595aa1215a3d60345c38398e5450171dd54b488a623168606
-SHA512: 74a5d68b1f55b996a2a55bb6b000720e463859d0667c9fec1c1d8b2ff54b3d465879bddba0f4e6a229fd31b73ee4b454b8356d21d6a09d40b96ac58aa63ce7df
+Installed-Size: 255
+Depends: libc6 (>= 2.27), libkf5waylandclient5 (>= 4:5.102.0~), libkf5windowsystem5 (>= 5.102.0~), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5waylandclient5 (>= 5.15.4), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qtbase-abi-5-15-19, qtwayland-client-abi-5-15-19
+Filename: ./kwayland-integration_6.5.4-2+b1_amd64.deb
+Size: 51184
+MD5sum: 53f0117547a8ccd786e2c1298ac6750d
+SHA1: 9880cc7148105430e71b67d509f97087610bfaa4
+SHA256: b76db531ac9be8ee033de22186f479f9ebedf8144871525b0b441d66cbfbd7e7
+SHA512: 6862599b62eb16e957fa6b96d21d774dc20f60e86dc943a24f47284d8560e31f303b527edb1bf8c4c4c527bed365574b1d3f040bbf1754746cc0410b9a272edb
 Homepage: https://invent.kde.org/plasma/kwayland-integration
 Description: kwayland runtime integration plugins for Qt5/KF5
  Wayland runtime integration plugins for kidletime and kwindowsystem for
@@ -25558,22 +25559,22 @@ Description: registers global key bindings for applications - Gtk+3
 
 Package: libkf5iconthemes5
 Architecture: amd64
-Version: 5.116.0-1+b2
+Version: 5.116.0-1+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kiconthemes (5.116.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 320
-Depends: libkf5iconthemes-data (= 5.116.0-1), libc6 (>= 2.27), libkf5archive5 (>= 5.116.0~), libkf5configcore5 (>= 4.97.0), libkf5configwidgets5 (>= 5.116.0~), libkf5coreaddons5 (>= 5.116.0~), libkf5i18n5 (>= 5.116.0~), libkf5widgetsaddons5 (>= 5.116.0~), libqt5core5t64 (>= 5.15.2~), libqt5dbus5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5svg5 (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libstdc++6 (>= 5), qtbase-abi-5-15-17
-Recommends: libkf5iconthemes-bin (= 5.116.0-1+b2)
+Installed-Size: 318
+Depends: libkf5iconthemes-data (= 5.116.0-1), libc6 (>= 2.27), libkf5archive5 (>= 5.116.0~), libkf5configcore5 (>= 4.97.0), libkf5configwidgets5 (>= 5.116.0~), libkf5coreaddons5 (>= 5.116.0~), libkf5i18n5 (>= 5.116.0~), libkf5widgetsaddons5 (>= 5.116.0~), libqt5core5t64 (>= 5.15.2~), libqt5dbus5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5svg5 (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libstdc++6 (>= 5), qtbase-abi-5-15-19
+Recommends: libkf5iconthemes-bin (= 5.116.0-1+b3)
 Breaks: frameworkintegration (<< 5.28), kdesignerplugin (<< 5.54), kio (<< 5.42), libkf5bookmarks5 (<< 5.54), libkf5declarative5 (<< 5.54), libkf5kcmutils5 (<< 5.54), libkf5kdelibs4support5 (<< 5.54), libkf5kdelibs4support5-bin (<< 5.42), libkf5khtml-bin (<< 5.54), libkf5khtml5 (<< 5.54), libkf5kiofilewidgets5 (<< 5.54), libkf5kiowidgets5 (<< 5.54), libkf5krossui5 (<< 5.54), libkf5newstuff5 (<< 5.54), libkf5parts5 (<< 5.54), libkf5plasma5 (<< 5.54), libkf5plasmaquick5 (<< 5.54), libkf5style5 (<< 5.54), libkf5texteditor5 (<< 5.54), libkf5textwidgets5 (<< 5.54), libkf5wallet-bin (<< 5.54), libkf5xmlgui5 (<< 5.54), plasma-framework (<< 5.54), qml-module-org-kde-kquickcontrolsaddons (<< 5.54), qml-module-org-kde-qqc2desktopstyle (<< 5.54)
-Filename: ./libkf5iconthemes5_5.116.0-1+b2_amd64.deb
-Size: 98140
-MD5sum: c8d33641ae95d71dabf5803605716b94
-SHA1: 1eed7fcf2f79445542cc51f3fc0aa027f404a8b0
-SHA256: 55425cccb92b6f2c05e71e6983ec20b5d8d6ff77ab1c5f0420c14b544b64d313
-SHA512: fa5ca16ad6da4880a339c512389f6c22ad93ab6e3baec3d49f17274de01960128cc0c9d94f659692c8874ded2dcc42152c6a1837823c42dfca3bce46a16d9d82
+Filename: ./libkf5iconthemes5_5.116.0-1+b3_amd64.deb
+Size: 95908
+MD5sum: 1c3a71520baa91de416e9f8785f7115a
+SHA1: 0e8eb28e0a91aecc8ac606c19b5067536ff00fa0
+SHA256: 540b6e0b36139da74f0e5672d36ad91cc72084aa7163fc652e5904d4e9dbad34
+SHA512: 2383ca7434f165cf7ec23681cb5df8341027703353e5d8db8ba11ea6c70d3546a07ddccceb2f1f3f338098c1d08babd3efd01f06bab7ffaef9e40a95cfed6dcf
 Homepage: https://invent.kde.org/frameworks/kiconthemes
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
@@ -25581,19 +25582,19 @@ Description: Support for icon themes.
 
 Package: libkf5kirigami2-5
 Architecture: amd64
-Version: 5.116.0-1+b2
+Version: 5.116.0-1+b3
 Priority: optional
 Section: libs
 Source: kirigami2 (5.116.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 267
+Installed-Size: 244
 Depends: libc6 (>= 2.32), libqt5core5t64 (>= 5.15.2~), libqt5dbus5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5qml5 (>= 5.15.2~), libqt5quick5 (>= 5.15.2~) | libqt5quick5-gles (>= 5.15.2~), libqt5quickcontrols2-5 (>= 5.15.2~), libstdc++6 (>= 11)
-Filename: ./libkf5kirigami2-5_5.116.0-1+b2_amd64.deb
-Size: 68292
-MD5sum: 99065c7202af896aa96aec4ac61141fb
-SHA1: 1b9ba8590bf3b29856ce0ed95960084ff2a51671
-SHA256: b1e5d271788fd3d7c07fe2f37982755a5121458b8e027d3b3453e1f2fe2f6215
-SHA512: 11abe59f5f1679a53a36c47e02d668fb2378819b98608f08f4c3927cf4c05be55ccdaf4b9366887eb22f7ccbc7a73ac6d85f43a1678789b039c3ea1f7d244569
+Filename: ./libkf5kirigami2-5_5.116.0-1+b3_amd64.deb
+Size: 61440
+MD5sum: afba6ea7d0bd1312d61169dd4c58686e
+SHA1: d9b752305a4205ce31108696b97005265e986eb4
+SHA256: 49c4af3baa2699960a4d808eb1039690bc41cb40ff3b63affbe848e9feec9fb9
+SHA512: 39133cb25ef5c3121eb720df63f7103004a837804f4a306982f50a7f5decdab05203f60b395f2f44a3ab1b8b2df2733c1c2769c16a68a4788a70b715831d4d63
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -25611,20 +25612,20 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkf5waylandclient5
 Architecture: amd64
-Version: 4:5.116.0-1+b2
+Version: 4:5.116.0-1+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kwayland-kf5 (4:5.116.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1160
-Depends: kwayland5-data (= 4:5.116.0-1), libc6 (>= 2.27), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5waylandclient5 (>= 5.15.2~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qtbase-abi-5-15-17, qtwayland-client-abi-5-15-17
-Filename: ./libkf5waylandclient5_4%3a5.116.0-1+b2_amd64.deb
-Size: 203884
-MD5sum: 8481f8578b6730adca551a6d097658b1
-SHA1: 6719744c4dc8b112e9520ae2133fc8b9defe71be
-SHA256: 5f313c6ba0db8aef49dae032b9cc2008200de49f969dd316de8459f2d82ac44a
-SHA512: 51497d13eb12da6b505d60eaadd942e8319a438c3de4f2d7a26fe4d079d49ce3425189318ece040f4ba46c0f9c7aa09be022834a94dfc99998e990b0dd3d7568
+Installed-Size: 1157
+Depends: kwayland5-data (= 4:5.116.0-1), libc6 (>= 2.27), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5waylandclient5 (>= 5.15.2~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qtbase-abi-5-15-19, qtwayland-client-abi-5-15-19
+Filename: ./libkf5waylandclient5_4%3a5.116.0-1+b3_amd64.deb
+Size: 201476
+MD5sum: 06b593ec51bd099138231ea1fd509d38
+SHA1: 9a4710e87ccbfd533c1bde0132f2abfedf3e590e
+SHA256: 85580ef9763becf6441c5fee0c189cf5d1dc5cc745bf08ba4b8b76812d5b09ba
+SHA512: c7af1c76be03552a947ad371045a72b2a6d6488acc393c34fea1f9ffe5de0826fe87309987eaf89f1bc66852acb2798744b9013c061b4e9120cb74d9086f9a42
 Homepage: https://invent.kde.org/frameworks/kwayland
 Description: Qt library wrapper for Wayland libraries
  KWayland provides a Qt-style Client library wrapper for
@@ -25634,22 +25635,22 @@ Description: Qt library wrapper for Wayland libraries
 
 Package: libkf5xmlgui5
 Architecture: amd64
-Version: 5.116.0-1+b3
+Version: 5.116.0-1+b4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kxmlgui (5.116.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 999
-Depends: libkf5xmlgui-data (= 5.116.0-1), libc6 (>= 2.14), libkf5configcore5 (>= 5.116.0~), libkf5configgui5 (>= 5.116.0~), libkf5configwidgets5 (>= 5.116.0~), libkf5coreaddons5 (>= 5.116.0~), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.116.0~), libkf5guiaddons5 (>= 5.116.0~), libkf5i18n5 (>= 5.116.0~), libkf5iconthemes5 (>= 5.116.0~), libkf5itemviews5 (>= 5.116.0~), libkf5widgetsaddons5 (>= 5.116.0~), libqt5core5t64 (>= 5.15.2~), libqt5dbus5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5network5t64 (>= 5.15.2~), libqt5printsupport5t64 (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libqt5xml5t64 (>= 5.15.2~), libstdc++6 (>= 5), qtbase-abi-5-15-17
-Recommends: libkf5xmlgui-bin (= 5.116.0-1+b3)
+Installed-Size: 997
+Depends: libkf5xmlgui-data (= 5.116.0-1), libc6 (>= 2.14), libkf5configcore5 (>= 5.116.0~), libkf5configgui5 (>= 5.116.0~), libkf5configwidgets5 (>= 5.116.0~), libkf5coreaddons5 (>= 5.116.0~), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.116.0~), libkf5guiaddons5 (>= 5.116.0~), libkf5i18n5 (>= 5.116.0~), libkf5iconthemes5 (>= 5.116.0~), libkf5itemviews5 (>= 5.116.0~), libkf5widgetsaddons5 (>= 5.116.0~), libqt5core5t64 (>= 5.15.2~), libqt5dbus5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5network5t64 (>= 5.15.2~), libqt5printsupport5t64 (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libqt5xml5t64 (>= 5.15.2~), libstdc++6 (>= 5), qtbase-abi-5-15-19
+Recommends: libkf5xmlgui-bin (= 5.116.0-1+b4)
 Breaks: frameworkintegration (<< 5.70), kdesignerplugin (<< 5.70), kross (<< 5.70), ktexteditor-katepart (<< 5.70), libkf5bookmarks5 (<< 5.70), libkf5kcmutils5 (<< 5.70), libkf5kdelibs4support5 (<< 5.70), libkf5kdelibs4support5-bin (<< 5.70), libkf5khtml-bin (<< 5.70), libkf5khtml5 (<< 5.70), libkf5kiofilewidgets5 (<< 5.70), libkf5krossui5 (<< 5.70), libkf5mediaplayer5 (<< 5.70), libkf5newstuff5 (<< 5.70), libkf5parts-plugins (<< 5.70), libkf5parts5 (<< 5.70), libkf5plasma5 (<< 5.70), libkf5plasmaquick5 (<< 5.70), libkf5texteditor5 (<< 5.70), libkf5webkit5 (<< 5.70), plasma-framework (<< 5.70)
-Filename: ./libkf5xmlgui5_5.116.0-1+b3_amd64.deb
-Size: 282020
-MD5sum: d41d539fb9ee3ae77821c7c8beaa4755
-SHA1: b2ea8d76d294ec17d274f459d147f144c8011035
-SHA256: 5e8793ef26b4b229d07aea65c098da2f1706a6c6a299341cc620b845c0c9d4bb
-SHA512: 2739b78a39e9302a2e1385ecadc16333fc9b46589c4ea3979f0947edef34bd4944613b08f14464ec99f440514b4c88603a9d6b13382c5e2cb10027ff5fa28c54
+Filename: ./libkf5xmlgui5_5.116.0-1+b4_amd64.deb
+Size: 280244
+MD5sum: 9cc47185042b040b55b9c06aac955a8d
+SHA1: e1e53284ac415929a1ec2a39d95c40865f9a66b1
+SHA256: d2cdd2d218ab4cb70faa30b183ec8addfddcee4cddd41ea84c69376ffa0237b3
+SHA512: fe66e017a4637a452431a646bdc2510dabc28b6b4003b587210776c1672d1b2ab0d5ada5924b5b75f027ac31cc63d02a04305b414563aa2dd6609f933e5d5914
 Homepage: https://invent.kde.org/frameworks/kxmlgui
 Description: User configurable main windows.
  framework for designing the user interface
@@ -36268,25 +36269,25 @@ Description: tool for generating and solving Sudoku puzzles (library)
 
 Package: libqt5core5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 6220
-Provides: libqt5core5a (= 5.15.17+dfsg-8), qtbase-abi-5-15-17
+Provides: libqt5core5a (= 5.15.19+dfsg-3), qtbase-abi-5-15-19
 Depends: shared-mime-info, libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.22.0), libicu78 (>= 78.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 14), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5a (<< 5.15.17+dfsg-8)
+Breaks: libqt5core5a (<< 5.15.19+dfsg-3)
 Replaces: libqt5core5a
-Filename: ./libqt5core5t64_5.15.17+dfsg-8_amd64.deb
-Size: 1892860
-MD5sum: d497dd1679939699110b5354c0abf90a
-SHA1: aebcba6c0f3db19877e61937c5b0f1ae754fb4f2
-SHA256: 354f5dd271390fe0e9998d76dc8e78be783964cf7eea97e4fa1367e585e20a90
-SHA512: 7bc2a829bbebe3e0147b4992d05cbb44f8eb8fa38f9d425a708856db52b0a7560c678b3cb5b267d07f8121dad7c1b4c1678bada1a6884a8fcde23bd3206bc945
+Filename: ./libqt5core5t64_5.15.19+dfsg-3_amd64.deb
+Size: 1892152
+MD5sum: 4dfbbd36ff4f24700fc3e12c6ffb401d
+SHA1: fe414e4e8fedee7cbf144de7507c706254565e4f
+SHA256: 5f42d62d200a6b34f8f6ef80602f22d08f107f159eaffcd8b98402fbae7a56c9
+SHA512: 3948356a807c9b22ea968a017de69fd8149fec6435f75cb410f88bd197cba33fe903c0e02cf1b21584f13c16dd78748d10e89d46ffb3c756f6f1109cd071e4f6
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36296,23 +36297,23 @@ Description: Qt 5 core module
 
 Package: libqt5dbus5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 757
-Provides: libqt5dbus5 (= 5.15.17+dfsg-8)
-Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-17
-Breaks: libqt5dbus5 (<< 5.15.17+dfsg-8)
+Provides: libqt5dbus5 (= 5.15.19+dfsg-3)
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-19
+Breaks: libqt5dbus5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5dbus5
-Filename: ./libqt5dbus5t64_5.15.17+dfsg-8_amd64.deb
-Size: 211016
-MD5sum: fdb9ba472374b81a35b1124711f1f0a6
-SHA1: f7c9c78979ce4d0441b4ea6086c0e15cc481580f
-SHA256: 0008d819834a3e4dfbfda8d608772ed0b47a95af6fd5cc5f93c59d5fe9a04587
-SHA512: 481ad79f97caaa422aae1d94da29e9705dddd1e30e94b959a311694f307f25166d1c6b3432b35dd35f59aa2b0818d98fcabd6d0c411753c1ec2c23141efa4829
+Filename: ./libqt5dbus5t64_5.15.19+dfsg-3_amd64.deb
+Size: 211452
+MD5sum: 42964fe3c8aabbe770c380d994d57d55
+SHA1: befe8da44628b58fcd524a93226f36f4a2446aea
+SHA256: 216ecd7a73fcdbd775fc9ac28375006a11152e60d21b6184ccbeed837718174a
+SHA512: f8351fd04aea49efa295e6354e9f09d4722ad3773aafc6a777de45868f6cb268d67ee136fe29a787576144b29dac632a290df36b88d600e39863d0bf509b380c
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36327,26 +36328,26 @@ Description: Qt 5 D-Bus module
 
 Package: libqt5gui5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 13050
-Provides: libqt5gui5 (= 5.15.17+dfsg-8)
-Depends: fontconfig, libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.4), libgl1, libglib2.0-0t64 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libpng16-16t64 (>= 1.6.46), libqt5core5t64 (>= 5.15.15), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1 (>= 1:0.9.12), qtbase-abi-5-15-17, zlib1g (>= 1:1.1.4)
+Provides: libqt5gui5 (= 5.15.19+dfsg-3)
+Depends: fontconfig, libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.4), libgl1, libglib2.0-0t64 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libpng16-16t64 (>= 1.6.46), libqt5core5t64 (>= 5.15.15), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1 (>= 1:0.9.12), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
 Recommends: libqt5svg5, qt5-gtk-platformtheme, qtwayland5
 Suggests: qgnomeplatform-qt5, qt5-image-formats-plugins
 Conflicts: libqt5gui5-gles
-Breaks: libqt5gui5 (<< 5.15.17+dfsg-8)
+Breaks: libqt5gui5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5gui5
-Filename: ./libqt5gui5t64_5.15.17+dfsg-8_amd64.deb
-Size: 3525968
-MD5sum: 73e95b652f7c3fc27aad09c8a81f59b0
-SHA1: 7a7979027abb97811e1451d6aea60c5e35340113
-SHA256: a6782ba0def860a8049594ab0f9d11eab80e4b01f22a2334aa1ca7496dbcaabd
-SHA512: 0ae7b13caa0a710f95b411fd58546802cb4bdf92749adf2ff99552feebabb79893391220c1cf48aa72e25433a8fab06ce6cf33d419d437a8459189eaf079bea7
+Filename: ./libqt5gui5t64_5.15.19+dfsg-3_amd64.deb
+Size: 3524660
+MD5sum: d35e3c6a27c60e8f3d79b3c788d93f9c
+SHA1: a6964bcdf204bbac87b75f8b1796e77aea7847f4
+SHA256: f9416fe31cffeb2e7fb25b1845adb83149d5a7e0ee5cb250498bf5cae17d1c87
+SHA512: e22fbbe7ac7e5a60656bbf96b70d620fa3d57d1c9de2dff9a2b6ec86d3fb78934669fb4f487efba2bea5df629abe69916df2b3ea06ce7e6bccd16ea909b4df75
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36356,23 +36357,23 @@ Description: Qt 5 GUI module
 
 Package: libqt5network5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2534
-Provides: libqt5network5 (= 5.15.17+dfsg-8)
-Depends: libssl3t64, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-17, zlib1g (>= 1:1.1.4)
-Breaks: libqt5network5 (<< 5.15.17+dfsg-8)
+Installed-Size: 2530
+Provides: libqt5network5 (= 5.15.19+dfsg-3)
+Depends: libssl3t64, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
+Breaks: libqt5network5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5network5
-Filename: ./libqt5network5t64_5.15.17+dfsg-8_amd64.deb
-Size: 683440
-MD5sum: e31ed8f72b662c4438222bf4e4c943b0
-SHA1: 8b403046e8729f45c2a7cf9e5dc5216c7c51a046
-SHA256: 1a5d08e4d745c6b8507b2e84c30cfa2cad0a784dd17d9cc00261115f203d69b0
-SHA512: 4beaafd4fa884ad6da093db1eff1c8b24a6a3600873566d6bd2306097e05160119bddb9a1bb6f7fe9ce9198a370ab96ef99cbbf21cec10d8c65f435ebd9f17bb
+Filename: ./libqt5network5t64_5.15.19+dfsg-3_amd64.deb
+Size: 682716
+MD5sum: b359ffbce86d0fb46626d269fb6eaedf
+SHA1: ab55510c672aab685139fa799d78a492c721f956
+SHA256: 14a4931322d1e914ae7bcce473745a9007f1501792521b02c622cf7c1327e614
+SHA512: 93a288e2fb31c2350e9fb71ceef4538eb67375764783fe227f8ff7780c20cf03a25b83b8608fe49f069953c7779aa17b8b48bade7e1619e1db2b916bf2944b16
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36383,24 +36384,24 @@ Description: Qt 5 network module
 
 Package: libqt5printsupport5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 741
-Provides: libqt5printsupport5 (= 5.15.17+dfsg-8)
-Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-15-17
+Provides: libqt5printsupport5 (= 5.15.19+dfsg-3)
+Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-15-19
 Recommends: libcups2
-Breaks: libqt5printsupport5 (<< 5.15.17+dfsg-8)
+Breaks: libqt5printsupport5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5printsupport5
-Filename: ./libqt5printsupport5t64_5.15.17+dfsg-8_amd64.deb
-Size: 200140
-MD5sum: b4714ede9b483a712120475d18552f8d
-SHA1: 488f249ad2deeb620bd8f9ab60190cab0ad73f27
-SHA256: 1a17dae68d0eb6eb9a031bb35f7ea6ddf0b4dabd32aec9a76ccc2165c60266e1
-SHA512: 5b78243de548d02e29dffa40dfa019bd8eca42fd6b3d2bfc4c609ed069a866173ee8c650363ac6b30bcbff9ebc33687cd35d6b4edd815b0678152087aecbf8f9
+Filename: ./libqt5printsupport5t64_5.15.19+dfsg-3_amd64.deb
+Size: 200616
+MD5sum: 67d60c392239eaf0d35132389f6ba15c
+SHA1: 1023543819adcfbd11a5d131521e30804e3ad590
+SHA256: 09c2cc703f2e23fb39aafca8ee0a25ed15504a2ca4131a356675d3e301554e4e
+SHA512: 45fe3ad2744f18f21d41788ec2db64248495895d1ce7de93841073229f5362820b4e219e4a57e511e4471bb2cd917bbb65480f68e68dcc8e765dcadacd084379
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36411,23 +36412,23 @@ Description: Qt 5 print support module
 
 Package: libqt5qml5
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5082
-Provides: qtdeclarative-abi-5-15-17
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libqt5core5t64 (>= 5.15.15), libqt5network5t64 (>= 5.14.1), libstdc++6 (>= 13.1), qtbase-abi-5-15-17
+Installed-Size: 5081
+Provides: qtdeclarative-abi-5-15-19
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libqt5core5t64 (>= 5.15.15), libqt5network5t64 (>= 5.14.1), libstdc++6 (>= 13.1), qtbase-abi-5-15-19
 Recommends: libgl1, libglx-mesa0
 Suggests: qt5-qmltooling-plugins
-Filename: ./libqt5qml5_5.15.17+dfsg-4+b1_amd64.deb
-Size: 1390756
-MD5sum: 4289a10bf5d7d05eb0640c36a3e8df35
-SHA1: 0b5f25d4e03a91c6330a2f73bd2724196a9ec7cb
-SHA256: 7417f9cad949e8d21a4621ad5c84a22e5e97e734cc60438e9d02928a838e2af2
-SHA512: 7974e3612d8d50bfe6d833c1caaedb250e688c76f665b8d54bb43fea38acbf29a70a4c7435f5f6deaac00b34b06b1b40c38b5ebff15619ef4f1e78fa6ad1671f
+Filename: ./libqt5qml5_5.15.19+dfsg-2_amd64.deb
+Size: 1389364
+MD5sum: 2e309050b95b20d0bf8522f6bac1fdce
+SHA1: 3af65a8950bc86881bed937652011a7e13cdf62f
+SHA256: 5cadf354acafad464c12d1f6fbca1f750e59e4f3979f0909a2715bca7a70d8ec
+SHA512: d061927be711de37887c525693ea5453285c71a1b71618025caba637e679724527b66190212d7da4e77abf29b8bdb9e4b5a5d3db0676feff4a987ede06238783
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36441,20 +36442,20 @@ Description: Qt 5 QML module
 
 Package: libqt5qmlmodels5
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 639
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./libqt5qmlmodels5_5.15.17+dfsg-4+b1_amd64.deb
-Size: 192436
-MD5sum: 2e810def452e625c8f1f33983847563f
-SHA1: 1faca4d11e14b57094aa2916270e0d211f4eca1c
-SHA256: c98b71ac76685579b622a0a1f8f2e4f104f19f7294e1e11315078e8a3de09a2c
-SHA512: 2d86d3cde0dc92c30cbbfc2f2819b51c34bc5f4674829a63f424a1907e514ba3d4ba7c10c5bab26baeb54a51a015ac4083ebeb4374234ad399276b08947230f6
+Installed-Size: 638
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./libqt5qmlmodels5_5.15.19+dfsg-2_amd64.deb
+Size: 192376
+MD5sum: 353d7ca81e0e0cd526e0b9320ddec064
+SHA1: bf84b25634fdb536627df0424233375e3afa07b1
+SHA256: 793f199e6bd53443ea8966da2ee575a9ae8a77fc935a6db44366f0a5cc387b4b
+SHA512: 186fdc5c1572000dea1edaa2d29ae40aa4d5e90c62b4d6d1e5aa116201b5e2b8462f538fbfab5dca0828e7bf5cdd989a8c5aee838e52fdec9349953f256d555a
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML Models library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36464,20 +36465,20 @@ Description: Qt 5 QML Models library
 
 Package: libqt5qmlworkerscript5
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 126
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5network5t64 (>= 5.0.2), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
-Filename: ./libqt5qmlworkerscript5_5.15.17+dfsg-4+b1_amd64.deb
-Size: 33460
-MD5sum: dbb5b2e74736919897f7370b39d68bb0
-SHA1: 8fd58c9a5c6c749d0df3b0a115433a9ba71685b7
-SHA256: 02cad83ee16acf70af0d29f15a2ed86a714c94f02a7783eb3f37e01982b878bd
-SHA512: 7eca6cd681bf6050f006fcb2e29139af8f1c6be2e6583a36fdae7822f94f756f40174d6d9cc0b75e77e816ad2827d99eaba4b765d39f7fa6d1d7de2661b78f4d
+Installed-Size: 125
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5network5t64 (>= 5.0.2), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
+Filename: ./libqt5qmlworkerscript5_5.15.19+dfsg-2_amd64.deb
+Size: 33264
+MD5sum: 980b3bd46b519a8e4246cec453faeb81
+SHA1: faaf8ffca1075e899b7ac5c45a748a6b54320312
+SHA256: 8df02ead608f30c9011a177b54450b59b932eb29b5b3604342f077c59627d6d3
+SHA512: cdcad486626a2d279287803c2e9fe4ce720af8e24fc406d96f605bae5b2f0a0f141509a74d37916c0293ed9726d5b1715950092ba3f5f118fb5c7b01af2b488d
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML Worker Script library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36487,21 +36488,21 @@ Description: Qt 5 QML Worker Script library
 
 Package: libqt5quick5
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6247
-Depends: libc6 (>= 2.38), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.1.0), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
+Installed-Size: 6246
+Depends: libc6 (>= 2.38), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.1.0), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
 Conflicts: libqt5quick5-gles
-Filename: ./libqt5quick5_5.15.17+dfsg-4+b1_amd64.deb
-Size: 1623640
-MD5sum: 9146f985f15cd6bdb3b3c100126aeab6
-SHA1: 773a2b75667cfd3848b70f43b4e01ccd3ad35fa1
-SHA256: 60727c0b61cb9e8e1c23e7fd5a74c0d087b09338ee80d21228bea5922a536548
-SHA512: 91307fa92624efd8b409e2d8db3cfa27a0f08a7c675c11355aba0aa8adc01ac93245580c28df6c6f1fba765a9a03008a410a59d517b5c30b939ee6ce56849711
+Filename: ./libqt5quick5_5.15.19+dfsg-2_amd64.deb
+Size: 1623908
+MD5sum: 7e9971540a73e297d262f3aa142bbccd
+SHA1: ea35925a166344f8f62b52ae0d312b9d4822cf95
+SHA256: fc4f1961f4a370e8cf7beaafa92a70b14f9bb8580549b813a17b772fa2970499
+SHA512: e5a239f923e6b97f3d403a9478aa6853e829f80ee44c92041042ff398aa07654ae152ca9eaa9592d106ef2c91d44e2662f0ee9bb4cc8b1fa20a2c5f0dbb594aa
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Quick library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36514,20 +36515,20 @@ Description: Qt 5 Quick library
 
 Package: libqt5quickcontrols2-5
 Architecture: amd64
-Version: 5.15.17+dfsg-2+b2
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtquickcontrols2-opensource-src (5.15.17+dfsg-2)
+Source: qtquickcontrols2-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 258
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5qml5 (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libqt5quicktemplates2-5, libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./libqt5quickcontrols2-5_5.15.17+dfsg-2+b2_amd64.deb
-Size: 63208
-MD5sum: ce19b1cdae427316942b82ed492698ee
-SHA1: 1318742133040570e067e0084b61db8ce894b095
-SHA256: e654e517fbf15d87a6381a710f493e3d1cea388cfdf284a6f34927bdf95c5b03
-SHA512: 23fa50b868c69ab91f2b96a1e375d21925723dc4d250f7d3d00ca3365464f7ea17315226fa16fd39cd55f6484871fbc1548d8f392662ddaacece1950e66dfbbc
+Installed-Size: 257
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5qml5 (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libqt5quicktemplates2-5, libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./libqt5quickcontrols2-5_5.15.19+dfsg-2_amd64.deb
+Size: 62660
+MD5sum: 5dc7a7ffc113e211f73f21027fad0132
+SHA1: 3b4132016c6015089ed9ee8f0be08e991e4425a3
+SHA256: 7a8d4e88254d7548dfacfd6db3b2c23034c5708d2da93dd4dbff36f07882c0fe
+SHA512: 2487a64d8b5aa76e33cf2a9fb996125a8c2c5616dcf2f3e943e8fd8f7cb324b656ff2554919ca6fb9a8b2eda1d4ab4dae89fdf05cec4c63d7c8c997fdee2c445
 Homepage: https://doc.qt.io/qt-5/qtquickcontrols-index.html
 Description: Qt 5 Quick Controls 2 library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36537,20 +36538,20 @@ Description: Qt 5 Quick Controls 2 library
 
 Package: libqt5quicktemplates2-5
 Architecture: amd64
-Version: 5.15.17+dfsg-2+b2
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtquickcontrols2-opensource-src (5.15.17+dfsg-2)
+Source: qtquickcontrols2-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1878
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5qml5 (>= 5.15.17+dfsg~), libqt5qmlmodels5 (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./libqt5quicktemplates2-5_5.15.17+dfsg-2+b2_amd64.deb
-Size: 405544
-MD5sum: 74aa0ad6cb0dd7c7029a8715ce899e0b
-SHA1: 22b04761eeb1fb153ae8a9092f53058aa8d8785a
-SHA256: 422c37bc06b1a38b4e415b226c7e821b0d3db292c0f2e7d11654f811b4b588dd
-SHA512: 9da8021a8d8aa6c75f3160d213e5632d365eca3a538143cddaeb5c1a3ddfa988dff3c4b7258481871b872e4ba13799e8df25d9eb39903ef192bef389979c0fdf
+Installed-Size: 1877
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5qml5 (>= 5.15.19+dfsg~), libqt5qmlmodels5 (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./libqt5quicktemplates2-5_5.15.19+dfsg-2_amd64.deb
+Size: 404848
+MD5sum: 97cd14288228b4133c511488de70e464
+SHA1: 86b734ce87501e34c52407a7d2db5b52c6500450
+SHA256: 8d6d1b6c18382d81e303261dcdc937686545361f71c33da2ca5abe45d0c01b96
+SHA512: 87eed40bcfbfe7025e3c40fd17b6e9162e22315c9922aadd23f62ff5de5b83eca882f115274e7c85e544998af97efd86fcfd13717172e7710dfa405ccac2c082
 Homepage: https://doc.qt.io/qt-5/qtquickcontrols-index.html
 Description: Qt 5 Quick Templates 2 library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36560,20 +36561,20 @@ Description: Qt 5 Quick Templates 2 library
 
 Package: libqt5svg5
 Architecture: amd64
-Version: 5.15.17-3+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtsvg-opensource-src (5.15.17-3)
+Source: qtsvg-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 481
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5widgets5t64 (>= 5.15.17+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-17, zlib1g (>= 1:1.1.4)
-Filename: ./libqt5svg5_5.15.17-3+b1_amd64.deb
-Size: 136724
-MD5sum: 0f30bb577608b8776edafa39e9c19cf1
-SHA1: f9fe1c7f933b7fde8047a2b48cba4811eae6943b
-SHA256: 8d81b9724cfdc9d6c3f111202a208ab38a2f7689c1945fd7a8b4dc6394f619eb
-SHA512: 2839e879f6fdd07e13af0c21e854599844da64f5c497af872cc3346dd28cc5f31853daa5363ffb7b477931ea99ea71abe1d6d7200fb3af970a55a6b44f1eef15
+Installed-Size: 480
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5widgets5t64 (>= 5.15.19+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
+Filename: ./libqt5svg5_5.15.19-2_amd64.deb
+Size: 136276
+MD5sum: 3f5ad12d1261dfe7aa6ad64325517c3e
+SHA1: d08e84160e3e6241bd1e8a44ec8ada955a7b90e7
+SHA256: b78d748561e83547d1937812b1d3c7eddf2d27db85be2b10a9a215c9318f32d1
+SHA512: ef986c0849fc71dc520f180e1a653d068956564fd507258cc43dcdb137b6a36f961fba80babeb9d58fd9a7452e931c41551ee2c5842ca561badb22fff755db32
 Homepage: https://doc.qt.io/qt-5/qtsvg-index.html
 Description: Qt 5 SVG module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36586,21 +36587,21 @@ Description: Qt 5 SVG module
 
 Package: libqt5texttospeech5
 Architecture: amd64
-Version: 5.15.17-2+b2
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtspeech-opensource-src (5.15.17-2)
+Source: qtspeech-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 73
-Depends: libc6 (>= 2.4), libqt5core5t64 (>= 5.15.17+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-17
+Installed-Size: 72
+Depends: libc6 (>= 2.4), libqt5core5t64 (>= 5.15.19+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-19
 Recommends: qtspeech5-speechd-plugin | qtspeech5-flite-plugin
-Filename: ./libqt5texttospeech5_5.15.17-2+b2_amd64.deb
-Size: 19084
-MD5sum: de9b89b47d5805035a1da1da8605a5b6
-SHA1: ba8fd2d727ecbd2809e80826f365b0cab0319572
-SHA256: 5d72bd67e928dd067c86bba69c56f5f27e44bce1b723aef5419efcf2f5e923ce
-SHA512: 0c48e90ec0c3048154120951c586b4eb1c0616887bce7504b34c3a27b06f76fd650ed63f624e57c119d6114fd3cef9ee9009d8688a5debb7f193843b964a6187
+Filename: ./libqt5texttospeech5_5.15.19-2_amd64.deb
+Size: 18844
+MD5sum: 623f1829f3846eabc7ec01e41ac28213
+SHA1: c056de37ffd94459e2931b16cab01c7c6d3f611a
+SHA256: 9fad9cb2c9cd26213c02d5da11e5ed59707eed2cafdb92d01658a1b81dc842fb
+SHA512: 57a0df01c63aea1f111ef466a3dc5977c7a6c2083d1a9053c615107e69abd985b67e0ba94c2ef6ed9048702f41fbfbec252c635a776c6cbf8586e0509ce61cce
 Homepage: https://doc.qt.io/qt-5/qtspeech-index.html
 Description: Speech library for Qt - libraries
  QtSpeech provides support for text-to-speech and speech recognition in Qt
@@ -36610,21 +36611,21 @@ Description: Speech library for Qt - libraries
 
 Package: libqt5waylandclient5
 Architecture: amd64
-Version: 5.15.17-4+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtwayland-opensource-src (5.15.17-4)
+Source: qtwayland-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1550
-Provides: qtwayland-client-abi-5-15-17
-Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libglib2.0-0t64 (>= 2.12.0), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5dbus5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.8.1), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-17
-Filename: ./libqt5waylandclient5_5.15.17-4+b1_amd64.deb
-Size: 379636
-MD5sum: 2106b3ae2263784f6f2190c80d8dd971
-SHA1: b94357de3b182e4cee16087910e7b924e4063c2d
-SHA256: c5581d02108804b27783e5c84a391e8c29b3e8a322054f3bfde9003b4f9b8b74
-SHA512: 9aefe3998d96aabcbbd68f807b4d83b954e02771913942a639e4732ef69c588fe5120af6adfa2273a32dd661834c541b37a5efad79cabbad3574eef60758cf21
+Installed-Size: 1549
+Provides: qtwayland-client-abi-5-15-19
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libglib2.0-0t64 (>= 2.12.0), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5dbus5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.8.1), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-19
+Filename: ./libqt5waylandclient5_5.15.19-2_amd64.deb
+Size: 380100
+MD5sum: 656be8a0988d153214b18f2401aabe3c
+SHA1: 3f70b3319f5632d122f5d28c25b32d8b0979e0f6
+SHA256: 00cd0c26da5eee658c57fde585a0e6f409fe4555c102e5ba62044221fcb2c530
+SHA512: 7b0702c1a9012658399e4c4a66161cfe10e2c66c1352ecedbfcc2c891fb3fb82d54328a4c1148ef82a17e54adc50d1741d369ef3253696b5f44d4287eee457f8
 Homepage: https://doc.qt.io/qt-5/wayland-and-qt.html
 Description: QtWayland client library
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
@@ -36633,21 +36634,21 @@ Description: QtWayland client library
 
 Package: libqt5waylandcompositor5
 Architecture: amd64
-Version: 5.15.17-4+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtwayland-opensource-src (5.15.17-4)
+Source: qtwayland-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2015
-Provides: qtwayland-compositor-abi-5-15-17
-Depends: libc6 (>= 2.14), libgl1, libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5qml5 (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libstdc++6 (>= 5), libwayland-server0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./libqt5waylandcompositor5_5.15.17-4+b1_amd64.deb
-Size: 365060
-MD5sum: aa13f937d444db9f5a3612d6aaa86d6d
-SHA1: 844c0808ee7730e4d1e5b7d64b2a80a6e5448446
-SHA256: 1d58ddc8c3d988833ffb37a4229b461baebf032d5d42ac2234700d7342807e8d
-SHA512: 849633fa562069e94375b91c78a45fb2fac83bd535e584ec0d28a01615d1a7d2489877671a2abec9263d2a67d9026975d589636e848a339b9b24a98f8698d3c2
+Installed-Size: 2014
+Provides: qtwayland-compositor-abi-5-15-19
+Depends: libc6 (>= 2.14), libgl1, libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5qml5 (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libstdc++6 (>= 5), libwayland-server0 (>= 1.9.91), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./libqt5waylandcompositor5_5.15.19-2_amd64.deb
+Size: 365328
+MD5sum: fb0f5737cfed8ed0236535c9b0c56897
+SHA1: 604b61762e0fa7b8e2efeab34b1b9425304e1172
+SHA256: d9716edaeccb1842443d812dfa0f28affd30e29cdfc2fb81755008824d9a9cb8
+SHA512: cdb49875d24b47703c263d10991914bac9a8dd10a7f2d9742e8b2491b36be94f0c5fb330d14a1d347b5ce1528bf72636a409cd1a687d9374583aa0df5ae091ab
 Homepage: https://doc.qt.io/qt-5/wayland-and-qt.html
 Description: QtWayland compositor library
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
@@ -36656,23 +36657,23 @@ Description: QtWayland compositor library
 
 Package: libqt5widgets5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7577
-Provides: libqt5widgets5 (= 5.15.17+dfsg-8)
-Depends: libc6 (>= 2.29), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-17
-Breaks: libqt5widgets5 (<< 5.15.17+dfsg-8)
+Provides: libqt5widgets5 (= 5.15.19+dfsg-3)
+Depends: libc6 (>= 2.29), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
+Breaks: libqt5widgets5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5widgets5
-Filename: ./libqt5widgets5t64_5.15.17+dfsg-8_amd64.deb
-Size: 2419940
-MD5sum: 5160834c2e641efd501973176e18f9c7
-SHA1: 1fd54071ed41c36058c2e6855e29643adfa89d98
-SHA256: 8b7534d68bbabf9df1c6d5a854fb48962bd6c0014747c6e023d0fc2210f7e740
-SHA512: e9682e4f1eb60aaac4953bc51b100f5516f2045e7b437fe4712b377a91694adf4df0d90f5e2891fc4cd8777ce71ee86402d0e86cafcb79edd623f219f29f7c3b
+Filename: ./libqt5widgets5t64_5.15.19+dfsg-3_amd64.deb
+Size: 2416768
+MD5sum: 07818df2834048b924d947a043d600fd
+SHA1: b35033f7345bfeaf91c82722b69f7c950f7f67fc
+SHA256: 18b819a9f0a1c6fd8cb1d255ef5d28dabd14d327c08a780364d18608317358d7
+SHA512: 6bcd10523f93a4417dcb7374ba925374b25fd64a93f4cd7185b3368edf4ccc85be6a1873dc894e47e6e654f0ae0dc1ed3ebf057969ea63137d9bbcc207093c89
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -36682,23 +36683,23 @@ Description: Qt 5 widgets module
 
 Package: libqt5xml5t64
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 448
-Provides: libqt5xml5 (= 5.15.17+dfsg-8)
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-17
-Breaks: libqt5xml5 (<< 5.15.17+dfsg-8)
+Provides: libqt5xml5 (= 5.15.19+dfsg-3)
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
+Breaks: libqt5xml5 (<< 5.15.19+dfsg-3)
 Replaces: libqt5xml5
-Filename: ./libqt5xml5t64_5.15.17+dfsg-8_amd64.deb
-Size: 119320
-MD5sum: 8f424f4c81af171604f0c436ebfb7fb2
-SHA1: a35ef036b6310ec5a3547836ca21106beffacd91
-SHA256: bc0fa708d088f26dcbd870daf561b5c4831ee1a63e87afef59581a6f37558deb
-SHA512: f09f95d85b1db9333bc59c69f79b9fbe80e8bc8e009b43cfd0e1e3f352a48875c63239f4f8162a719d92a7bf3b47863d0ef878b15bcbca4c8ecf76a67114b518
+Filename: ./libqt5xml5t64_5.15.19+dfsg-3_amd64.deb
+Size: 120012
+MD5sum: 40f42280c88115ee777e3d9ec464faee
+SHA1: befa07c8506d32ca60068c6703083a812e63fae3
+SHA256: e8094505fa8991185a4385aa22d13f83e3bbf6f73b2808953b0caa5425ad1936
+SHA512: a0a64219483930ac352894e3cb623aef7e030938a1ad5f7cd955f692abfeb812658fc8ed74f90d6cdfd5f5d3aef59d35e8a154813de57c561c580eaaedf45d5e
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58155,19 +58156,19 @@ Description: Qt 6 qmake Makefile generator tool
 
 Package: qml-module-org-kde-kirigami2
 Architecture: amd64
-Version: 5.116.0-1+b2
+Version: 5.116.0-1+b3
 Priority: optional
 Section: kde
 Source: kirigami2 (5.116.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1829
-Depends: libkf5kirigami2-5 (= 5.116.0-1+b2), qml-module-qtgraphicaleffects, qml-module-qtqml-models2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick2, libc6 (>= 2.38), libgomp1 (>= 4.9), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5network5t64 (>= 5.15.2~), libqt5qml5 (>= 5.15.2~), libqt5quick5 (>= 5.15.2~) | libqt5quick5-gles (>= 5.15.2~), libqt5quickcontrols2-5 (>= 5.15.2~), libstdc++6 (>= 11), qtbase-abi-5-15-17
-Filename: ./qml-module-org-kde-kirigami2_5.116.0-1+b2_amd64.deb
-Size: 349192
-MD5sum: 89db504e0ce9efa512f9f05f3ddb7b01
-SHA1: 7bd34e34f422f2f458f39d310f7dbcf336da35ec
-SHA256: 3273ffff24f3ca2d78b48174c2e126df6011a3eedf25e0cbc65dc4dbbcdaabfa
-SHA512: 24f2b03ba19737f42dc094716e9b8dcfeba388e31c189ef80866bb79ad36f371357a52ce3743ac202b68b9edbd5abed271721a8b5c8c3f8f2bb69be008f56c8f
+Installed-Size: 1779
+Depends: libkf5kirigami2-5 (= 5.116.0-1+b3), qml-module-qtgraphicaleffects, qml-module-qtqml-models2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick2, libc6 (>= 2.38), libgomp1 (>= 4.9), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5network5t64 (>= 5.15.2~), libqt5qml5 (>= 5.15.2~), libqt5quick5 (>= 5.15.2~) | libqt5quick5-gles (>= 5.15.2~), libqt5quickcontrols2-5 (>= 5.15.2~), libstdc++6 (>= 11), qtbase-abi-5-15-19
+Filename: ./qml-module-org-kde-kirigami2_5.116.0-1+b3_amd64.deb
+Size: 335352
+MD5sum: 3ba476a18a68b9eb959e63ddcd484846
+SHA1: f2b8d34f3bea8562de81172d0ec34ab5bed01de2
+SHA256: c2a8c0976ce32d56b0aefbb665d4e9a279699fe8ae8bf7882d3a62aebb36e15e
+SHA512: b2a351285f97ba04eead4ae292b21e0b16783ea86d8e131b3ea5dac5c73dee1b475e99783f82af6a651e6395217105271102a540a85e395bfaa13445ad5f239f
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -58183,21 +58184,21 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: qml-module-qtgraphicaleffects
 Architecture: amd64
-Version: 5.15.17-2+b2
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtgraphicaleffects-opensource-src (5.15.17-2)
+Source: qtgraphicaleffects-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 584
+Installed-Size: 583
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: qml-module-qtquick-window2, qml-module-qtquick2, libqt5qml5 (<< 5.15.18~), libqt5qml5 (>= 5.15.17+dfsg~), libc6 (>= 2.29), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtgraphicaleffects_5.15.17-2+b2_amd64.deb
-Size: 69092
-MD5sum: 7ded062d68dd5843af1c7e00c9b2ab14
-SHA1: d586ac9004f160cc47dbf3847a87c42670cbf7dc
-SHA256: 03b7b214ec414c31804dabf33f7d54b71d01f3eeab1eb92dd337757d01f24312
-SHA512: c0d02fc8290796490b7379814b3cce9daef14df5930688cae78a0c2f135a053efff067e5ca89d1298becbf473d37a7dfa00de9184b43f4086958607c19ea9731
+Depends: qml-module-qtquick-window2, qml-module-qtquick2, libqt5qml5 (<< 5.15.20~), libqt5qml5 (>= 5.15.19+dfsg~), libc6 (>= 2.29), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtgraphicaleffects_5.15.19-2_amd64.deb
+Size: 69004
+MD5sum: dce042eea3775d0e536b1c430a5f4eba
+SHA1: 2dabe18fe7619723401ad0bf123ebf5b848c882b
+SHA256: a8b3fe7abfb3fe68c529833658772f158007aedeb1233bfc39345ed0170d3ca2
+SHA512: 693c5b2b851249b82f2d3d912f1463042701afaf3733f74fd61216777195eda9914580757fe5bd6bc4b456f715d1eba6f69816355ccb7f07cc62bbea393f96c3
 Homepage: https://doc.qt.io/qt-5/qtgraphicaleffects-index.html
 Description: Qt 5 Graphical Effects module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58208,22 +58209,22 @@ Description: Qt 5 Graphical Effects module
 
 Package: qml-module-qtqml
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 87
-Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
+Installed-Size: 86
+Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
 Breaks: libqt5qml5 (<< 5.14.1+dfsg-1~)
 Replaces: libqt5qml5 (<< 5.14.1+dfsg-1~)
-Filename: ./qml-module-qtqml_5.15.17+dfsg-4+b1_amd64.deb
-Size: 18352
-MD5sum: 5b0e7dc0950b05c5175ed1d1d888babc
-SHA1: ae2a25b557f9ae2b4cb86ca6badbaefc93910eef
-SHA256: d4f97059dc16af3c3a291a7d637e0414a84f0e82b829aff8a3a6cf82a0f19f2d
-SHA512: 1c857a9895485025c699576114391b71f03a6fcc18bcd2702709ed14b60c83138c305fa53ee22ef64a72dd6662dc01eec28f16d17513a80f7a7d92273efce5bb
+Filename: ./qml-module-qtqml_5.15.19+dfsg-2_amd64.deb
+Size: 18204
+MD5sum: 954143a2bbbcead6978bd2539846cfa5
+SHA1: e20dcc48d4fa15d963f2190177e780ab42836bfc
+SHA256: 80fa06163be907032ac8b08b8a738ce878ec72452b5b7789efffa534b24f691c
+SHA512: 68c36a87c720b525f17675130cdafbccd9aea7e3c5971f733fe52d52a0b992c6a3c0f3a6ba2d8e6d31926a46ea5d961dea55cec051f3a863ebea547ea4d3faf3
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QtQml QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58233,20 +58234,20 @@ Description: Qt 5 QtQml QML module
 
 Package: qml-module-qtquick-controls2
 Architecture: amd64
-Version: 5.15.17+dfsg-2+b2
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtquickcontrols2-opensource-src (5.15.17+dfsg-2)
+Source: qtquickcontrols2-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5723
-Depends: qml-module-qtquick-templates2, libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5qml5 (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libqt5quickcontrols2-5 (>= 5.7.1), libqt5quicktemplates2-5, libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick-controls2_5.15.17+dfsg-2+b2_amd64.deb
-Size: 906292
-MD5sum: 9a5c1b8264c1d0b138626dbae25d364c
-SHA1: db144df4764d9af679e33757f598ceac4c4e0ba8
-SHA256: 448cea55edb5637b2eb0a432fcfbf4589481b8b0f13d5b53950ee77bac1268a4
-SHA512: 6410785acbeaaa6fe10043740efda823ddf641ad5721a9a0a7c2d6e1089493a4ee9667b0474bc56075d44edb0ad4396860dfcd401f4506df669dbb323aa38e04
+Installed-Size: 5722
+Depends: qml-module-qtquick-templates2, libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5qml5 (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libqt5quickcontrols2-5 (>= 5.7.1), libqt5quicktemplates2-5, libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick-controls2_5.15.19+dfsg-2_amd64.deb
+Size: 904532
+MD5sum: 6a0be923c54098ba56818e5bad0cc796
+SHA1: 1c283c7a6df63202f9fe25c9bdb59ea2f577ab06
+SHA256: 9be17f8c1f187db7bc198692282f71f82f31f97d3b418839e2d6a2a25b2d4f1f
+SHA512: c0d503ecda6d71901ff40821bd514ec17d19b72e7c671634ec9c63f04ad7f3c4dedbdcc283346dd3d1259dd8b9c8b5f978b3357ec33627bdc78ffd5c9bbaafc0
 Homepage: https://doc.qt.io/qt-5/qtquickcontrols-index.html
 Description: Qt 5 Qt Quick Controls 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58256,20 +58257,20 @@ Description: Qt 5 Qt Quick Controls 2 QML module
 
 Package: qml-module-qtquick-controls
 Architecture: amd64
-Version: 5.15.17-3+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtquickcontrols-opensource-src (5.15.17-3)
+Source: qtquickcontrols-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3316
-Depends: qml-module-qtgraphicaleffects, qml-module-qtqml, qml-module-qtqml-models2, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick2, libqt5qml5 (<< 5.15.18~), libqt5qml5 (>= 5.15.17+dfsg~), libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libqt5widgets5t64 (>= 5.15.17+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick-controls_5.15.17-3+b1_amd64.deb
-Size: 532824
-MD5sum: 448e6e24c38547f470d669821ee535e1
-SHA1: c1b252dbe2f487cb270eb7ae3d3c7be48153f7b8
-SHA256: 40215bc5b1b614bf5c26f3cbdc515a63a503a34535ddc8f2309134767bd3570f
-SHA512: 2503c2f760972f349514a3046b607edb1659cd2e137bee7d9b6ac3d8203b15184c2b60ee7220cf8fb14048fa5c20eb7ae05ee2661e695f20830cd9a322f42fe9
+Installed-Size: 3315
+Depends: qml-module-qtgraphicaleffects, qml-module-qtqml, qml-module-qtqml-models2, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick2, libqt5qml5 (<< 5.15.20~), libqt5qml5 (>= 5.15.19+dfsg~), libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libqt5widgets5t64 (>= 5.15.19+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick-controls_5.15.19-2_amd64.deb
+Size: 532748
+MD5sum: 851b3c1c314da714a661d6c0e0dd76be
+SHA1: a70b2391cb9dd0aed366c9f6936182be888973d5
+SHA256: 4f1bcb195acbafcfc4e9261b11d7e60a4f0182378be32f7bcda05fff54cb3c3c
+SHA512: daab2a8ad653d15b18b48bef265c6607e43c06d1a3fb1cd3ca6e0ac553651347ba4bf5949ed2fe719b1498050708ffd36878d2d6bfd9abde501a2fe1c386a5a9
 Homepage: https://doc.qt.io/qt-5/qtquickcontrols1-index.html
 Description: Qt 5 Quick Controls QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58280,20 +58281,20 @@ Description: Qt 5 Quick Controls QML module
 
 Package: qml-module-qtquick-layouts
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 228
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-17, qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick-layouts_5.15.17+dfsg-4+b1_amd64.deb
-Size: 53012
-MD5sum: 36cc6ddc6c7344b8f40be099791be96e
-SHA1: de3ae8514fec70f8f1708d2e078bde651add02f1
-SHA256: f4baab7b79b3a4b408416f182dab05a66072cb693058aec7ef4185bff22f0f52
-SHA512: 23c94436cc1a82f06bc0f32ac43842674666ea5885aea11a26552c320277fe23aaba199c6204c543f1fced3ec84b8370aeff64e819f8fa1e2a049f32b450203f
+Installed-Size: 227
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick-layouts_5.15.19+dfsg-2_amd64.deb
+Size: 52852
+MD5sum: b90fc138112d4227b4d2fdb2f4edf4db
+SHA1: 5910da41be7ae00a3fb51d71923b571430e8a2b6
+SHA256: f26203c96ea860176534111c1e67037c93a021fa9bcf58038e57dd161bb14129
+SHA512: da6000815484fe16a7cd8da82e50a5fe12642baace3b8c19e0c8ac88ead41b677701686bdfaa28fb4dad08f754c4cfebc9ec78c2c37283ad2651dd637eb13b2c
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Quick Layouts QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58304,20 +58305,20 @@ Description: Qt 5 Quick Layouts QML module
 
 Package: qml-module-qtquick-templates2
 Architecture: amd64
-Version: 5.15.17+dfsg-2+b2
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtquickcontrols2-opensource-src (5.15.17+dfsg-2)
+Source: qtquickcontrols2-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 666
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5qml5 (>= 5.15.17+dfsg~), libqt5quick5 (>= 5.15.17+dfsg~) | libqt5quick5-gles (>= 5.15.17+dfsg~), libqt5quicktemplates2-5 (>= 5.15.3), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick-templates2_5.15.17+dfsg-2+b2_amd64.deb
-Size: 69396
-MD5sum: 05aa4528edef482af8dba660a033c107
-SHA1: daf7dfb60159c056df554b308d69fbe3a987111b
-SHA256: c5fba71f959a85987455f188795155d2365bcbab56e8bd007ce33a9818de2cb9
-SHA512: b0782ec056a4d217a678320920bdf297c46a12c1e7f4d3fac4e9dd23677f8f493902d1bc03592d42e51caceb8480ce4557bf0498ee1f45b33d06f04ae4dca2a8
+Installed-Size: 665
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5qml5 (>= 5.15.19+dfsg~), libqt5quick5 (>= 5.15.19+dfsg~) | libqt5quick5-gles (>= 5.15.19+dfsg~), libqt5quicktemplates2-5 (>= 5.15.3), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick-templates2_5.15.19+dfsg-2_amd64.deb
+Size: 69288
+MD5sum: 3316a42b4c67f8ae42566bc2fc41009d
+SHA1: 7d7d92ea02f932734fe11772b177429625c6161b
+SHA256: 2becf731d6810e6bf130c3a9ca3ecb77e9349456ab25ba6fc8703c87766bb22d
+SHA512: 694e133b737ab384aaf1953a09c725fb209bf0e39e2f054d2c75a262c28d1183f9944b4531c0dc8eb986ef6a052061202c64d94cf7b07e70e78872d05143cd57
 Homepage: https://doc.qt.io/qt-5/qtquickcontrols-index.html
 Description: Qt 5 Qt Quick Templates 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58327,20 +58328,20 @@ Description: Qt 5 Qt Quick Templates 2 QML module
 
 Package: qml-module-qtquick-window2
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 130
-Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick-window2_5.15.17+dfsg-4+b1_amd64.deb
-Size: 26024
-MD5sum: babf65bb31bbb970d095666a10599500
-SHA1: 351617a3dbfb8cc83003a3a6ce6338c7cb895384
-SHA256: e61b8a28ece6b2c70db27c15ba0c879f2480c70da5ed748207fab53ad2869052
-SHA512: b9a7fe2029f443a8fbcb4e2fce10b9a1483eb436e4aaeef1d450161aeb86cce511d8e6767d210c33b98fd551d1e1a61e480e80afa35e1e7b884611eff33217ec
+Installed-Size: 129
+Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick-window2_5.15.19+dfsg-2_amd64.deb
+Size: 25824
+MD5sum: bbd0e3e4380b93e8ad2c6ed2dd04fa8b
+SHA1: f93748f9aba266a8d5d2c62fd828ccd0b878649a
+SHA256: 32e4177d5591bf4954c1f77d9f8cf2e2846d6bc99ce98077511610f2b77320b8
+SHA512: 62286e927397042be76e09906fd17c4bf2d30daa58af506cca4170d0be75f154ffd4c13eb32ccc8060e14a2552bf9b774db99f3060f0d30504844e6b81c500fe
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 window 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -58351,20 +58352,20 @@ Description: Qt 5 window 2 QML module
 
 Package: qml-module-qtquick2
 Architecture: amd64
-Version: 5.15.17+dfsg-4+b1
+Version: 5.15.19+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtdeclarative-opensource-src (5.15.17+dfsg-4)
+Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 278
-Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.0.2), libqt5qmlmodels5 (>= 5.14.1), libqt5qmlworkerscript5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-17
-Filename: ./qml-module-qtquick2_5.15.17+dfsg-4+b1_amd64.deb
-Size: 34636
-MD5sum: 87451afdfefd9b6fd6940914a8f7c3c7
-SHA1: 950e2109917b078007dfdf11e8edc3cf558f0160
-SHA256: 6f656546ca39f78d486ce70a4db10851ea3c0eb853e6bcd38bc86b5a51415c23
-SHA512: d26d7e32c54d14cd671152d421f27d587a32a2c081df17adb2c89ed9b637acbe6b8fb7b436a4068029637b7dadb3f85ce52be36201a6c0fd885e17e757180567
+Installed-Size: 277
+Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.0.2), libqt5qmlmodels5 (>= 5.14.1), libqt5qmlworkerscript5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
+Filename: ./qml-module-qtquick2_5.15.19+dfsg-2_amd64.deb
+Size: 34480
+MD5sum: bea7edd2135c8b0fb4baec63712ffd6d
+SHA1: 2f843cb4e78285032eb0cd80bc16532f5559fd06
+SHA256: cc4a6d61aa8a812b6b1f9b0c18ff800ffc486444e71037552427698bdccc4fbf
+SHA512: faa3de2075f656ad6c3673ae812b4c42acf392e77302a0dc71b22c85fd0f14dfbd7773e6f91d1efa40abb7a08838a3676c584ea3e1e01eff0d4f28d55d4ab3a7
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Qt Quick 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60340,20 +60341,20 @@ Description: Kvantum style engine (binaries)
 
 Package: qt5-gtk-platformtheme
 Architecture: amd64
-Version: 5.15.17+dfsg-8
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 478
-Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-17
-Filename: ./qt5-gtk-platformtheme_5.15.17+dfsg-8_amd64.deb
-Size: 123204
-MD5sum: 177dc38ac1ee7e649b9f11d84561c823
-SHA1: 307cf056eeb2fc63f5671b6f89cf726bb6c27b84
-SHA256: ee6b18ff1a0577ef894e50b650a7678751bc70005215c998ce9f0b2e4233e7a6
-SHA512: bddf3ae080afc1139c4b5388b5f456e10e164023a4352bce53526c854e5a179b04653ab396d6f471f89e516065f23630aa72a6bbb9699eb178b10df03a9b8818
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-19
+Filename: ./qt5-gtk-platformtheme_5.15.19+dfsg-3_amd64.deb
+Size: 123368
+MD5sum: 5458461475748b59bca9d29b84eddaec
+SHA1: 42213c5cc5ae27df7b477698c7be0df87ad2cb0c
+SHA256: 0518caf88de612b00ec8746c464de21f212b5ab376f4933e2622737c74f34470
+SHA512: e2339aa26bfd6099631c7468a70e0afc9a0b3f56914fe0cee2d8577b1cf1a1f6f755c2119d8131a541543e6dfef45526c575b36cbae336fb78d544b1da70512c
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60364,21 +60365,21 @@ Description: Qt 5 GTK+ 3 platform theme
 
 Package: qt5-image-formats-plugins
 Architecture: amd64
-Version: 5.15.17-2+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtimageformats-opensource-src (5.15.17-2)
+Source: qtimageformats-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 210
+Installed-Size: 208
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libc6 (>= 2.14), libmng2 (>= 2.0.2), libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libstdc++6 (>= 5), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0)
-Filename: ./qt5-image-formats-plugins_5.15.17-2+b1_amd64.deb
-Size: 47236
-MD5sum: 229342efd3d3908653ef76227144d756
-SHA1: 37d87c160bdfc8d8a0e40444decd146669b3decc
-SHA256: 52285a53fec89d06d0999dfdd2cf0c46e5c601975929cd03484032dff4fe39ae
-SHA512: b076e6c27b03fa42350316a749df2059433a9f2367819f01c80f5e641d904dfc7dab2e78255c0d486aa3f7c9dc6b17756ce1ade750779f694747f4a293ad4ca5
+Depends: libc6 (>= 2.14), libmng2 (>= 2.0.2), libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libstdc++6 (>= 5), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0)
+Filename: ./qt5-image-formats-plugins_5.15.19-2_amd64.deb
+Size: 46220
+MD5sum: bbc07e609068a1c6307d4f1b22cce300
+SHA1: d0e00fcb93d324644ae0f34d386ae51db12f470a
+SHA256: e12422dec0c28ef957fa8e641ff9d27a5fff0be6985d664dd29ad9d91e1492a9
+SHA512: 5707ecc7ef218e86cfc8e9946031ea760eac66a3e9d252f4952906b7773ab814da29612117f6b628b88e5ed7aedbbde12f3473a14f8151a49b36537c082bf676
 Homepage: https://doc.qt.io/qt-5/qtimageformats-index.html
 Description: Qt 5 Image Formats module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60389,19 +60390,20 @@ Description: Qt 5 Image Formats module
 
 Package: qt5ct
 Architecture: amd64
-Version: 1.9-2
+Version: 1.9-2+b1
 Priority: optional
 Section: utils
+Source: qt5ct (1.9-2)
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>
-Installed-Size: 996
-Depends: libqt5svg5, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5t64 (>= 5.9~), libstdc++6 (>= 5), qtbase-abi-5-15-17
+Installed-Size: 997
+Depends: libqt5svg5, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5t64 (>= 5.9~), libstdc++6 (>= 5), qtbase-abi-5-15-19
 Suggests: qt5-style-plugins
-Filename: ./qt5ct_1.9-2_amd64.deb
-Size: 221316
-MD5sum: b80551a73ce854c72e46f90e8df92782
-SHA1: f399a996fbb959119f1b6b6b33ad3f391ad0fb25
-SHA256: 67b1c93de72430cc55c4aae4c3b93899c2b61739b004127f2d17d0b2f9d34e42
-SHA512: 5b9cc4ec1ef4d8a69d163df37548e95bdcaec8b80d87baf9bee9c9d6996e94c947ec1c6ea9372ad5f62b8a28d52692bc0a76ab4af70f820c45e5a4b1434a6590
+Filename: ./qt5ct_1.9-2+b1_amd64.deb
+Size: 220852
+MD5sum: 7bb3a0a9b1fdcdf7c2dfc304ee0b5231
+SHA1: eb05afd887be8a4922ce98b3b75fc428af963a2b
+SHA256: 10733ece34dae4bd572270501ce775369d013d8897d524ee05d5cad30b808220
+SHA512: 6995cea26bf1f7a22fa34962a15e81151c5bd69dc42be147540f2bf3702a90747ce50169d63894d52f0da6bf5e0a8a8a57843cf4c03adc22f00da9e9194924bd
 Homepage: https://sourceforge.net/projects/qt5ct/
 Description: Qt5 Configuration Utility
  This utility allows users to configure Qt5 settings (theme, font,
@@ -60857,20 +60859,20 @@ Description: Qt 6 qtpaths quetioning tool
 
 Package: qtwayland5
 Architecture: amd64
-Version: 5.15.17-4+b1
+Version: 5.15.19-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: qtwayland-opensource-src (5.15.17-4)
+Source: qtwayland-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1479
-Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.4), libgl1, libqt5core5t64 (>= 5.15.17+dfsg~), libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~), libqt5waylandclient5 (>= 5.14.1), libqt5waylandcompositor5 (>= 5.14.1), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.8.0), libx11-6, libxcomposite1 (>= 1:0.4.6), qtbase-abi-5-15-17, qtwayland-client-abi-5-15-17, qtwayland-compositor-abi-5-15-17
-Filename: ./qtwayland5_5.15.17-4+b1_amd64.deb
-Size: 201388
-MD5sum: 36226ca84b37fd44463203f191b19fa8
-SHA1: 29b7b94cad9eb073c72ef1e745fcaddb81a18f58
-SHA256: 0d5c7deb14f73f51d79fc9ec4b0a57bdfed1a366a90be4e737eb26ecf6e05738
-SHA512: 91c46823153e53685dd0f09659d22d5e71aa860b71f4cf300423832baef30cbbc424c13c6b7cfe8baeb12b2adfc154c0d3938ca5a203f738d9022eec49a81ea5
+Installed-Size: 1478
+Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.4), libgl1, libqt5core5t64 (>= 5.15.19+dfsg~), libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~), libqt5waylandclient5 (>= 5.14.1), libqt5waylandcompositor5 (>= 5.14.1), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.8.0), libx11-6, libxcomposite1 (>= 1:0.4.6), qtbase-abi-5-15-19, qtwayland-client-abi-5-15-19, qtwayland-compositor-abi-5-15-19
+Filename: ./qtwayland5_5.15.19-2_amd64.deb
+Size: 201060
+MD5sum: b4bad216ee75c79820d51659e1cf2cf9
+SHA1: 7ebc463266cb01298f43a81b4242c7f990fa5d82
+SHA256: 34513e57396aa86725fbaf92e9987863b8f699c18954aa072e364b305c7a9cee
+SHA512: 0c46c43f059944afd07ec3b903ee17920ab9bbb6f4d74ea7a4e47430baa8b34b703b359c4ed978ad2052828fc6c8953dcdbd8e04a284b25c530c42e6c95b7431
 Homepage: https://doc.qt.io/qt-5/wayland-and-qt.html
 Description: QtWayland platform plugin
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
