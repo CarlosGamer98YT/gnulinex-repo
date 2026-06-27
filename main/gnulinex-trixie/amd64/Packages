@@ -13193,19 +13193,19 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.24+dfsg1-1
+Version: 8:7.1.2.25+dfsg1-2
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
 Installed-Size: 79
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.24+dfsg1-1_amd64.deb
-Size: 24752
-MD5sum: 567d55e7876bb8fc6a766a6ae4aad24f
-SHA1: fd3d6d1f1a73e277bfb3c4658dd6d5e99b176ecf
-SHA256: 4db118d933918bf670bc693c86d6596c3fdeb18484cef308b42fa0b5f9a1652a
-SHA512: d3cc0d48fdb56401b92471dc0dc400274aa07f18f2285164c7af170e76aa4e56eaa81d7ac74f26564dfab9ed684fe577bac276086d5db1a0be7d994f82f44edb
+Filename: ./imagemagick_8%3a7.1.2.25+dfsg1-2_amd64.deb
+Size: 25232
+MD5sum: ee20be9727b0a66971dbae6f91277e67
+SHA1: 8ebf5410cb1aec464a8337663f0cb693e5bfac2b
+SHA256: 7da2bdb645a2b56d1de7031ad86f0ac82280f6139f3276faabcefc9360a2f43e
+SHA512: 78dfea5b1b96dcf03f887444d56c6a8e6a8021f953b85111783968ab9efe85f774a010df4d8ac4c29b73d548172802be588c37348f575b0ba12ffc56b636f349
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -32428,7 +32428,7 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.24+dfsg1-1
+Version: 8:7.1.2.25+dfsg1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32440,12 +32440,12 @@ Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libg
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.24+dfsg1-1_amd64.deb
-Size: 77456
-MD5sum: d1117edff0d5b60f94d1992cef27e9b9
-SHA1: 2f0eee2f6e6a61b6a4db6be1e455d5bbe00f5af0
-SHA256: 50d2d62dcb328a99f40c57e2181960e64228f3b0ce423a29b49b920158413a77
-SHA512: 777f83e0e780db9564380d92c45fad1d485c0d8b4941167cc6dd7158611abad9635fe81cd8bbd795b812f611ef6543ea473cde5f4005a1d29398055e3ad5754b
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.25+dfsg1-2_amd64.deb
+Size: 77868
+MD5sum: 2ec0e8c0fc6b2592608c432245a710c1
+SHA1: 9a85aa8164bead046fa86d32f80d83e3dd7088b8
+SHA256: fda86838c820aad16f902c82ee5bb300fe877239307cf4014187e824fe6eb3ec
+SHA512: 7e357070185566c15809e3d578b8b5e70fd34094f51b86f55733c76d89631ed2b872589774590362a62b16c8a55da0dba03a5794889eb538e4c05d24138de367
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
