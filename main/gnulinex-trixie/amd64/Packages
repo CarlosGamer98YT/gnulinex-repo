@@ -5475,21 +5475,21 @@ Description: TrueType fonts for Telugu script (te)
 
 Package: fonts-texgyre-math
 Architecture: all
-Version: 20180621-7
+Version: 20180621-8
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: tex-gyre
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 6487
+Installed-Size: 6486
 Breaks: fonts-texgyre (<< 20180621-4)
 Replaces: fonts-texgyre (<< 20180621-4)
-Filename: ./fonts-texgyre-math_20180621-7_all.deb
-Size: 2095568
-MD5sum: 4a21246bc6ed888769de34d327d28db2
-SHA1: 1777bdf22cedb8ca8468594c9779c58aa58f0be0
-SHA256: 101b5f65fe3b193dcdd53c862c4036f098fa843348f7bec0d57fb9bc012b82fe
-SHA512: f82b9d35d0157f1da618f53e308468272c4c1a75bf3dad688dad2173dbcf4ce78ab2ad10d40408ecc605f780d56358456ffb15232dca34143891167f9050fb27
+Filename: ./fonts-texgyre-math_20180621-8_all.deb
+Size: 2095708
+MD5sum: b20897534c1ce93a3461d5d42b3e3f3a
+SHA1: 3d25c6dd6a8e315ce947f566384cb4f23676978c
+SHA256: 20c9e8a68d5f9dd84acbba6c10deee0d8a37e3c17427a840314dbbe4fd99683d
+SHA512: c92af9f1e492ed1466da0dbd6b75c95fe34726772abe4a3ab2be9ea9df58e8f0fdffce8cfcf295ff0454eaf802d1f8fa045e74e860d49bbd8f652d20c9cd7629
 Homepage: https://www.gust.org.pl/projects/e-foundry/tex-gyre/
 Description: OpenType math fonts based on URW Fonts
  The TeX Gyre project, following the Latin Modern project, aims at providing
@@ -5517,20 +5517,20 @@ Description: OpenType math fonts based on URW Fonts
 
 Package: fonts-texgyre
 Architecture: all
-Version: 20180621-7
+Version: 20180621-8
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: tex-gyre
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 14163
-Recommends: fonts-texgyre-math (= 20180621-7)
-Filename: ./fonts-texgyre_20180621-7_all.deb
-Size: 8210432
-MD5sum: 837fbe435727cf5a8be480c4a969965d
-SHA1: a67564e443f16c130dc89d962dcd931b4b483c5a
-SHA256: c168e91973ce1259ca12cb04ece8c6001585513a973704a3871895234f903ed3
-SHA512: 9c2eeee9fe4abf2806cb40b72955fcdc9186a6b797e111c19c693ccf511d725304d4f3eaa09dbd3dd94448adea4732999a65efdde023be9d2ae46d758373ac46
+Installed-Size: 14162
+Recommends: fonts-texgyre-math (= 20180621-8)
+Filename: ./fonts-texgyre_20180621-8_all.deb
+Size: 8209788
+MD5sum: b85aa000043a2d8dd35524a7d7a34c07
+SHA1: 33ecb64eb9a69ae9674c244ff1431555d96611da
+SHA256: 799ea083e6a4bf8b9d90c0d6a3affd203d17177a00326047a5a8ae75229dcd1e
+SHA512: 9fb00a8cd09dc4086ec89a8da507ddb30707f1e3e1fe165dd5e337ef726c8333aef05bcb36b350fd356c409a86c68e59423fcef5b5f07609c5c8f3a7293fe794
 Homepage: https://www.gust.org.pl/projects/e-foundry/tex-gyre/
 Description: OpenType fonts based on URW Fonts
  The TeX Gyre project, following the Latin Modern project, aims at providing
@@ -34368,7 +34368,7 @@ Description: simple class for OLE document interface
 
 Package: libonnx1l
 Architecture: amd64
-Version: 1.20.0-5
+Version: 1.20.0-6
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34376,14 +34376,14 @@ Source: onnx
 Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
 Installed-Size: 5348
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf-lite32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
-Breaks: libonnx1 (<< 1.20.0-5), libonnx1t64 (<< 1.20.0-5)
+Breaks: libonnx1 (<< 1.20.0-6), libonnx1t64 (<< 1.20.0-6)
 Replaces: libonnx1, libonnx1t64
-Filename: ./libonnx1l_1.20.0-5_amd64.deb
-Size: 1379784
-MD5sum: 4c79b48f03a4b927eb982822af625f46
-SHA1: e5bbaeea73aca8366a6d8cc7ba27dbcb2c8ede07
-SHA256: af3ce09e7dd22ff1ff79125e0b30794a7d9eba82db9dab8abdf48d40029b00f6
-SHA512: 32089f8ac0477bcb540d72a5dad8ecf0045d667b89baf8bf1163df42f011ccfef67edee533d717ce007ca15b349d2c7b0b93a6655ff665765987c664499b5c7e
+Filename: ./libonnx1l_1.20.0-6_amd64.deb
+Size: 1381692
+MD5sum: 01e0e1d5db50ff33a9a70967eac8279c
+SHA1: ec044ee260ff338a8af339fe56832a5f21639c2c
+SHA256: 7b0db79e4e1e288b9316e249d922a2b891e8eae23f08235d2327554ec753e1a3
+SHA512: 2733b1c9d9bb4228d472c4b89ba996e4e55250221d8f0e13bb0026117d1e682df04017734b4bc5a16c5949590205742a67d549e66bbabcbb5a9775a596d09422
 Homepage: https://onnx.ai
 Description: Open Neural Network Exchange (ONNX) (libs)
  Open Neural Network Exchange (ONNX) is the first step toward an open ecosystem
@@ -45739,20 +45739,20 @@ Description: Library to play Commodore 64 music based on libsidplay2
 
 Package: libsigc++-3.0-0
 Architecture: amd64
-Version: 3.6.0-2+b2
+Version: 3.6.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libsigc++-3.0 (3.6.0-2)
+Source: libsigc++-3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 82
+Installed-Size: 80
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14)
-Filename: ./libsigc++-3.0-0_3.6.0-2+b2_amd64.deb
-Size: 30780
-MD5sum: 2150b035543ac2c2b616b524e3b05c28
-SHA1: f86a56d7c53060dce8c7d70c0d8353db0638f7cb
-SHA256: 75eb976609c70286d647eeeb4691ca01d92221ec3c3f74f064466097aa63a03d
-SHA512: 5059fbe8cbf481698096b40d3b1f8ca631b25cda8161ec122eb5d3b1d650783e4db5e696170a9f137f6aafcab088203076c6a5b8eae64fb8aa98b7969c0e6f2e
+Filename: ./libsigc++-3.0-0_3.6.0-3_amd64.deb
+Size: 29716
+MD5sum: 8e6395ff01ab428fb33999eb44a21620
+SHA1: c07fc5e76b472137e0b390a54f75a1c87c6de1bd
+SHA256: 7101475e269b364c4bbf5c6ec23b912c827134604b8371bdd2bc925a9f177c94
+SHA512: 8797066b3aad51a92d7548ce7cf88916ecec957200689624eb70fe4e33dcaf64184a5ac66f8d469df603c71eb1060f4692a7360e3ad7bd72537f69a6d6ab4a31
 Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
 Description: type-safe Signal Framework for C++ - runtime
  This library implements a full callback system for use in widget
@@ -55039,27 +55039,28 @@ Description: Operating system database files
 
 Package: oxygen-icon-theme
 Architecture: all
-Version: 5:6.1.0+dfsg-2
+Version: 5:6.2.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: oxygen-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 38257
+Installed-Size: 41664
 Depends: hicolor-icon-theme
 Breaks: fdpowermon-icons
 Replaces: fdpowermon-icons
-Filename: ./oxygen-icon-theme_5%3a6.1.0+dfsg-2_all.deb
-Size: 31785164
-MD5sum: 536ef4b3970e09cec5af78f5d5eada57
-SHA1: 63bbecb4afca7b1fe15abb36f0c74370c7662f33
-SHA256: 9b00dc8056ce661335b089e80e515a74080c54106a131b731886fb6a96e58b29
-SHA512: e2549c47e5c570c5b3e89bc73b8173c00e13d1e65c96f438a8042235a26896d9dc74d51b3d7d2aac580dac5e8f189b531d9f98a9dd427a665217eab6a4eafb15
+Filename: ./oxygen-icon-theme_5%3a6.2.0-1_all.deb
+Size: 33005952
+MD5sum: 21ba3f48b6bcc8db2b4fe8672887fd06
+SHA1: fa318b3ea5c26ce3777ff148d07f368a2ae3d0a2
+SHA256: 0c7245bf65f4cdddf272faed84af1c5a1852eaf85ed703a93cdf22ec11f516e8
+SHA512: 5cbecc21734e8f29592e93530f47e081bf628eecdf46efc8944ab8d8746f1f6700bb6fd385a0ed159f357db691e508cc5cda3bd0341690e1ac74cc1d99148d06
 Homepage: https://invent.kde.org/frameworks/oxygen-icons
 Description: Oxygen icon theme
- Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
- icon schemes, so it can be used in other desktop environments using this
- specification.
+ Oxygen Icons is a freedesktop.org compatible icon theme originally developed
+ for the KDE Plasma desktop environment in combination with the Oxygen Style.
+ .
+ It features smooth gradients, soft shadows, and a slightly glossy look.
 
 Package: p7zip-full
 Architecture: all
@@ -63096,20 +63097,20 @@ Description: common infrastructure for building and installing TeX
 
 Package: tex-gyre
 Architecture: all
-Version: 20180621-7
+Version: 20180621-8
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 20551
+Installed-Size: 20550
 Depends: tex-common (>= 6.13), xfonts-utils
-Recommends: fonts-texgyre (= 20180621-7), fonts-texgyre-math (= 20180621-7)
-Filename: ./tex-gyre_20180621-7_all.deb
-Size: 6208528
-MD5sum: 4a8290e5d36dc1cc495e84ee5a069409
-SHA1: ef74246ac3c7d740145bb8db3f16827cadc06b49
-SHA256: 23b56c2c3f74241f07f9826408d202b3f0123ae56806fdf71c78166e546796ec
-SHA512: aa86100d8b56a29f51a29224be4111c734cd3d230c44a9620d0a18bad909e55c055860e6636d7a832fe7f3bd76900ba99e9b48c49f4916286c7d37648e8eaa77
+Recommends: fonts-texgyre (= 20180621-8), fonts-texgyre-math (= 20180621-8)
+Filename: ./tex-gyre_20180621-8_all.deb
+Size: 6207540
+MD5sum: d7f2fc8474675bc4c0c68d602c68fe79
+SHA1: 38577467b791042a9be495eba3c32c2d15674b96
+SHA256: c992825cae2445dadfa3b4727d5277947b02047d4486a8fb06d17ad022b9700e
+SHA512: ba0e841b38f5f88b47d0a6ed806acb51c1fa1eb672daaee7fd610dd0ac4ca8ea7f7b9cf5ffe16016f2dd369f578e79a708fad6942ca57c70b5abf674bdc81366
 Homepage: https://www.gust.org.pl/projects/e-foundry/tex-gyre/
 Description: scalable PostScript and OpenType fonts based on URW Fonts
  The TeX Gyre project, following the Latin Modern project, aims at providing
