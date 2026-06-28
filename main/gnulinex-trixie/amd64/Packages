@@ -61044,20 +61044,20 @@ Description: Common files for Remmina
 
 Package: remmina-plugin-rdp
 Architecture: amd64
-Version: 1.4.43+dfsg-1
+Version: 1.4.43+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina
+Source: remmina (1.4.43+dfsg-1)
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 170
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libwinpr3-3 (>= 3.17.0), remmina (= 1.4.43+dfsg-1)
-Filename: ./remmina-plugin-rdp_1.4.43+dfsg-1_amd64.deb
-Size: 56684
-MD5sum: 4263e8250ef9c819cb64b645e0fe2e35
-SHA1: 97479bc4ebf1a7136854f9e46ff18c6e9b1074cd
-SHA256: d0bc37e107c7641244ff21a8f4e46771acd9475379ef0446588fc9dd2ac3432f
-SHA512: 2b03ee150c9dffffaa09026dc08896fee54e833f138130b9d9f689a33fd7efe9c4ae76b65b199322920521901ba6e395234f54b10a324cf20d40657363cbf41f
+Installed-Size: 171
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libwinpr3-3 (>= 3.17.0), remmina (= 1.4.43+dfsg-1+b1)
+Filename: ./remmina-plugin-rdp_1.4.43+dfsg-1+b1_amd64.deb
+Size: 56916
+MD5sum: 9247d5edd6490f43df65b2369e2b54a3
+SHA1: bbcc4c553d18e2617f0e538de7055a31d09da469
+SHA256: 2af7f4c309777b158d468761d97e250a7457abfdee3fdbc4444505d3d90458d6
+SHA512: 4476ad3337858fb401d310ddc337fd8720eeb15835cd45c02dc88505b3e08387eb5777e21c52348067393332bf17a7fa6064c3ad3845c85bcc5cf0907d8959ad
 Homepage: https://www.remmina.org/
 Description: RDP plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61074,22 +61074,22 @@ Description: RDP plugin for Remmina
 
 Package: remmina-plugin-secret
 Architecture: amd64
-Version: 1.4.43+dfsg-1
+Version: 1.4.43+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina
+Source: remmina (1.4.43+dfsg-1)
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 35
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), remmina (= 1.4.43+dfsg-1)
+Installed-Size: 36
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), remmina (= 1.4.43+dfsg-1+b1)
 Breaks: remmina-plugin-gnome
 Replaces: remmina-plugin-gnome
-Filename: ./remmina-plugin-secret_1.4.43+dfsg-1_amd64.deb
-Size: 12100
-MD5sum: e797ddba93c2dcf766aea9924d123607
-SHA1: e7a22484c88632f595dc3fb8e796e7fcaf113a78
-SHA256: 168292547bcfc71b83a1fcb66f10ec9d4c08642fdc35267f636033dbad60ad50
-SHA512: 5cb1c82de32a40c994dfc24f30c1f21caaeba77482177aca0cc03a144480f68fd56b56d8f01fa3b5fc17975f594466ed908f819646a6ad58f5abea20aa8d6715
+Filename: ./remmina-plugin-secret_1.4.43+dfsg-1+b1_amd64.deb
+Size: 12384
+MD5sum: 3d63cc52f07a1c71d21c807e82c72e74
+SHA1: 294dc30da3f0ce19a47d8ee1604d0bec5ab58a7b
+SHA256: d04b58f4287e34279aa186ced0c4508560fbd03efad90922416d71caa59593e9
+SHA512: 0287561ed5ff1527fcc4263286f8ab102f22c0900cab25f6d1ee3660a2fdae6ee38ba82226dfe06ef866fceed8e8e5d1cb8321aca9cbe8023f20781b511f10be
 Homepage: https://www.remmina.org/
 Description: Secret plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61108,20 +61108,20 @@ Description: Secret plugin for Remmina
 
 Package: remmina-plugin-vnc
 Architecture: amd64
-Version: 1.4.43+dfsg-1
+Version: 1.4.43+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina
+Source: remmina (1.4.43+dfsg-1)
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 72
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14), remmina (= 1.4.43+dfsg-1)
-Filename: ./remmina-plugin-vnc_1.4.43+dfsg-1_amd64.deb
-Size: 26324
-MD5sum: 6c42a4e28fbe437cd31bd395881ae0a9
-SHA1: 0a30a83f269eb2fa69ac1e884c21f341d3407b6d
-SHA256: 2097a4dca0b73619be88303eaa8d7112e2c896d62304a77aba7ae6d1c9f2c75e
-SHA512: e245556dc4630a3e5d3dcd8daeae6dc93ea7dcfeef85f9a9eb5f699d5f4d316d7d518b0569a69b79b5d958a5489b38d20a7c3f716df5062e7dcc8fc2e050fbfb
+Installed-Size: 73
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14), remmina (= 1.4.43+dfsg-1+b1)
+Filename: ./remmina-plugin-vnc_1.4.43+dfsg-1+b1_amd64.deb
+Size: 26664
+MD5sum: 0effbea9df630078a28c0ce17bf8cce7
+SHA1: 947b5d6837c05f9aac3b3fe5958b7ed996572d1b
+SHA256: 0566a02175ad5fc83310bc50582bfdd52e2a4307296e7469b897a94cca0dddcf
+SHA512: a9a3a1b9b697ea4a6d2a7d8a278a37e5927b769d32ac16729cda1f19e7891c7f2cdf69205a4ce590c5f0782820cbc61e58d341805a52b53cfb61902113c9991b
 Homepage: https://www.remmina.org/
 Description: VNC plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -61138,21 +61138,22 @@ Description: VNC plugin for Remmina
 
 Package: remmina
 Architecture: amd64
-Version: 1.4.43+dfsg-1
+Version: 1.4.43+dfsg-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
+Source: remmina (1.4.43+dfsg-1)
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 982
+Installed-Size: 983
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-ui-gtk3-0 (>= 0.6.30), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcurl4t64 (>= 7.16.2), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libsodium26 (>= 1.0.10), libssh-4 (>= 0.8.1), libssl3t64 (>= 3.0.0), libvte-2.91-0 (>= 0.51.90), remmina-common (= 1.4.43+dfsg-1), default-dbus-session-bus | dbus-session-bus
 Recommends: remmina-plugin-rdp, remmina-plugin-vnc, remmina-plugin-secret
 Suggests: remmina-plugin-exec, remmina-plugin-kwallet, remmina-plugin-python, remmina-plugin-spice, remmina-plugin-www, remmina-plugin-x2go
-Filename: ./remmina_1.4.43+dfsg-1_amd64.deb
-Size: 241396
-MD5sum: 5a2a39932b734bc57ef7eb87ef15ac61
-SHA1: 82909c8155b011c7cd65aa673ddb7f3dff75be10
-SHA256: c8285761d468c16c8f313b577cc05e50d5c9a1cb33e675364164b3f4675708a9
-SHA512: 9d2134aa9c8792ea8748152745ced90693ce224c7fdc5187b67f521b4c0daa1994702f2e463cb72e5de56b12aba78d20f5a9f6052baa3dfbc48a6273590a79f7
+Filename: ./remmina_1.4.43+dfsg-1+b1_amd64.deb
+Size: 241268
+MD5sum: ab916066a8e216e72c93c42843529bcd
+SHA1: faa31702ce536d11103883850d2ea8ebcff792a2
+SHA256: 5ecebc7c862726c7a6b0352a35ce860aa223be1d85d689947addc78ecded6907
+SHA512: 5a7af6880595bdf3ba487ad754fbec792f44d5afa1188945c7a9dc2e79456b2b6a1d774d895c8ab07aa0ceba27f44d231c807fe39df71d95b3b921e9ff1e17bf
 Homepage: https://www.remmina.org/
 Description: GTK+ Remote Desktop Client
  Remmina is a remote desktop client written in GTK+, aiming to be
