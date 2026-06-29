@@ -9868,41 +9868,41 @@ Description: Contacts manager for GNOME
 
 Package: gnome-control-center-data
 Architecture: all
-Version: 1:50.1-1
+Version: 1:50.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-control-center
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 19017
+Installed-Size: 19279
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./gnome-control-center-data_1%3a50.1-1_all.deb
-Size: 3822260
-MD5sum: 46af115d9f525757c77bd666a04c9899
-SHA1: 829c814097c29d5b603d6634e42e1e4e6c8b8d28
-SHA256: 57b2b221e092b8b72fdec092919164a08fde7baac1c6c30b26f27935bf918f82
-SHA512: 8135e0682e6eada5b50116ae7939e9f68e5419afb7686f8f46f4698f827d85328ad0c68c7d5f351172fe21f2819ea5ad464c56abac69fd16a687dbd5826ce5ee
+Filename: ./gnome-control-center-data_1%3a50.3-1_all.deb
+Size: 3841468
+MD5sum: 53b7335cfb1887e6ebd969ec8ced09fc
+SHA1: dace6dc90e0b0f58e8814de7232bca3395273ace
+SHA256: 0200e8134a1aeea54b00f37250fddc046cb47ccb0b29260ff1b31bd075078927
+SHA512: 5aa0c9875be6d456220bcca53008e2775d29d09e7727df21d4fe2dd0b165ce01385261b4f0f6235a84b5c1f154502a5a7aece53dd89b1142ad390248b0b3bf64
 Description: configuration applets for GNOME - data files
  This package contains data files (icons, pixmaps, locales files) needed by
  the configuration applets in the gnome-control-center package.
 
 Package: gnome-control-center
 Architecture: amd64
-Version: 1:50.1-1
+Version: 1:50.3-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4957
-Depends: accountsservice (>= 23.11.69), colord, desktop-base, desktop-file-utils, gnome-control-center-data (<< 1:51~), gnome-control-center-data (>= 1:50.1-1), gnome-desktop3-data, gnome-online-accounts (>= 3.51.0), gnome-settings-daemon (>= 48~rc), gsettings-desktop-schemas (>= 50~alpha), heif-gdk-pixbuf, heif-thumbnailer, libjxl-gdk-pixbuf, mutter-common (>= 47), tecla, upower, webp-pixbuf-loader, libaccountsservice0 (>= 23.13.9), libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord-gtk4-1t64 (>= 0.1.24), libcolord2 (>= 1.4.3), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-4-4 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.30.1), libglib2.0-0t64 (>= 2.83.0), libgnome-bg-4-2t64 (>= 3.27.90), libgnome-bluetooth-ui-3.0-13 (>= 42~beta), libgnome-desktop-4-2t64 (>= 3.33.4), libgnutls30t64 (>= 3.7.0), libgoa-1.0-0b (>= 3.51.0), libgoa-backend-1.0-2 (>= 3.51.0), libgraphene-1.0-0 (>= 1.5.4), libgsound0t64 (>= 1.0.1), libgtk-4-1 (>= 4.21), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libibus-1.0-5 (>= 1.5.2), libjson-glib-1.0-0 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmalcontent-0-0 (>= 0.13), libmm-glib0 (>= 1.16.6), libnm0 (>= 1.52.0), libnma-gtk4-0 (>= 1.8.34), libpango-1.0-0 (>= 1.37.2), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libsoup-3.0-0 (>= 3.0.3), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 1.90.6), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.20.0), libx11-6, libxml2-16 (>= 2.14.1)
+Installed-Size: 4975
+Depends: accountsservice (>= 23.11.69), colord, desktop-base, desktop-file-utils, gnome-control-center-data (<< 1:51~), gnome-control-center-data (>= 1:50.3-1), gnome-desktop3-data, gnome-online-accounts (>= 3.51.0), gnome-settings-daemon (>= 48~rc), gsettings-desktop-schemas (>= 50~alpha), heif-gdk-pixbuf, heif-thumbnailer, libjxl-gdk-pixbuf, mutter-common (>= 47), tecla, upower, webp-pixbuf-loader, libaccountsservice0 (>= 23.13.9), libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord-gtk4-1t64 (>= 0.1.24), libcolord2 (>= 1.4.3), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-4-4 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.30.1), libglib2.0-0t64 (>= 2.83.0), libgnome-bg-4-2t64 (>= 3.27.90), libgnome-bluetooth-ui-3.0-13 (>= 42~beta), libgnome-desktop-4-2t64 (>= 3.33.4), libgnutls30t64 (>= 3.7.0), libgoa-1.0-0b (>= 3.51.0), libgoa-backend-1.0-2 (>= 3.51.0), libgraphene-1.0-0 (>= 1.5.4), libgsound0t64 (>= 1.0.1), libgtk-4-1 (>= 4.21), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libibus-1.0-5 (>= 1.5.2), libjson-glib-1.0-0 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmalcontent-0-0 (>= 0.13), libmm-glib0 (>= 1.16.6), libnm0 (>= 1.52.0), libnma-gtk4-0 (>= 1.8.34), libpango-1.0-0 (>= 1.37.2), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libsoup-3.0-0 (>= 3.0.3), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 1.90.6), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.20.0), libx11-6, libxml2-16 (>= 2.14.1)
 Recommends: cracklib-runtime, cups-pk-helper, fwupd, gnome-bluetooth-sendto, gnome-remote-desktop (>= 47), gnome-user-docs, gnome-user-share, iso-codes, libcanberra-pulse, libnss-myhostname, libspa-0.2-bluetooth | pulseaudio-module-bluetooth, malcontent-gui, mobile-broadband-provider-info, nm-connection-editor | network-manager-gnome (<< 1.36.0-3~), polkitd, power-profiles-daemon, realmd, rygel | rygel-tracker, system-config-printer-common
 Suggests: gnome-software | gnome-packagekit, gstreamer1.0-plugins-good
 Breaks: gnome-shell (<< 49)
-Filename: ./gnome-control-center_1%3a50.1-1_amd64.deb
-Size: 1921168
-MD5sum: 198889dfd4980c6e1b36c7f77de118a1
-SHA1: 89c5f4e0584c847309e456199fd4cd1df10d8a6c
-SHA256: 394620ae65829f08cd1585876fec015e893753e9d7c45e105ab1fddd95de6f34
-SHA512: 4b3d6d06870d08d33e6c3295c024f6ad7449fb077d7716f54cca975be365134561325fc465665778a7e6c2f49fc105f089e52e042ac7283ee765feca29420643
+Filename: ./gnome-control-center_1%3a50.3-1_amd64.deb
+Size: 1925316
+MD5sum: 1bbf66164097b291b6e5adea7d5e05a1
+SHA1: 9cbdf5290a4dfa842a584e8b3e1806bc29f8b913
+SHA256: 1f41b0060f079810d50385cbc1ce4dabc652bbae86de21dc0b6d3231833f5a2a
+SHA512: 736da9a501df78c0ffab5b966ba5bed51cf03ed50740451012ca25803d59d10963da1b664658e660fdd29014eb7d20efdef3ae20f5d5c286e4526ef634c23bbe
 Description: utilities to configure the GNOME desktop
  This package contains configuration applets for the GNOME desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
@@ -48553,20 +48553,20 @@ Description: Windows Portable Runtime library
 
 Package: libwireplumber-0.5-0
 Architecture: amd64
-Version: 0.5.14-1
+Version: 0.5.15-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wireplumber
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1231
+Installed-Size: 1264
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68), liblua5.5-0 (>= 5.5.0), libpipewire-0.3-0t64 (>= 1.1.81), libsystemd0
-Filename: ./libwireplumber-0.5-0_0.5.14-1_amd64.deb
-Size: 298180
-MD5sum: 9dc5c08ac5c5bdaf3d8111fd5c008db3
-SHA1: 0dcfc81ec6ea343638791b8565276c7f2f19a1b4
-SHA256: 67524e21edb52a9512244e904dff0fa8997c4f4da9735a8593ea6618cc7185df
-SHA512: 18160ba0fd28f78b0f14efb8ac3b285b0f3da598e643286d023020ca01b509dea8c99eb6eca9c48d2a71ebb5f0cffc25f6ea9eaa9b5c1e0c14dfbed8914efabb
+Filename: ./libwireplumber-0.5-0_0.5.15-1_amd64.deb
+Size: 307712
+MD5sum: e6f4ea09aa7c7c6b707784960b7b8bf9
+SHA1: fdeb21b3e94bf02e872df57724f95f2c32a5efa7
+SHA256: 5b3595f90007af56f9a259e2f3e20e97140d3fcf9dfb95fd36f4e9ad08193454
+SHA512: 3cb02403006ff5788a84e3faf5d940b9493edf6c032615d20fe3bee29cb15ea7a4633a8a08bc75775bf040c73aa0eeea0ee009fd5712c76302e505a2ae6a978e
 Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
 Description: Shared libraries for WirePlumber
  WirePlumber is a modular session / policy manager for PipeWire and a
@@ -57646,21 +57646,21 @@ Description: runtime module for Python extensions using SIP
 
 Package: python3-pyqt6
 Architecture: amd64
-Version: 6.11.0-2
+Version: 6.11.0-2+b1
 Priority: optional
 Section: python
-Source: pyqt6
+Source: pyqt6 (6.11.0-2)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 17877
+Installed-Size: 17906
 Depends: python3-pyqt6.sip (<< 14), python3-pyqt6.sip (>= 13.11), python3, python3:any, libc6 (>= 2.35), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.2), libqt6gui6 (>= 6.10.2), libqt6network6 (>= 6.10.2), libqt6opengl6 (>= 6.3.0), libqt6openglwidgets6 (>= 6.6.0), libqt6printsupport6 (>= 6.8.2), libqt6sql6 (>= 6.9.1), libqt6test6 (>= 6.8.2), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.9.1), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
 Breaks: pyqt6-dev-tools (<< 6.11.0-2~)
 Replaces: pyqt6-dev-tools (<< 6.11.0-2~)
-Filename: ./python3-pyqt6_6.11.0-2_amd64.deb
-Size: 2659884
-MD5sum: e5484b6678fa954b94dd503f52db7b8d
-SHA1: d4b50ea88a41465f1ac1d0ac50af0c5125ee4fd2
-SHA256: 4cab1c99d95431a0a76b7c6a77062343fea48d0d23f36b3966c55f6c9515fcc9
-SHA512: 0fe41acc79dee8767fafa0916f7280b85a56eebbfc5d593adfe07c36fba825fbb32abdf6530636dcdd0e8506b87543cbe909007d87c488c95f991834e47801d4
+Filename: ./python3-pyqt6_6.11.0-2+b1_amd64.deb
+Size: 2660392
+MD5sum: 70e656a6c902481c872cb07fb57d0104
+SHA1: b703fff28545ca21d448fa16f61c773d11679628
+SHA256: 8ae89a48872a6f94d3de41207221ec35933566cffd16d66f83f6968f5d4c615d
+SHA512: a0f2c5d78eccc10cf6737ff3d6ed17a03be8eb570f92f1624c023ca863d97f19bac910d1056eeca0abf44fd712415f10576e62b40406daf1809d1b520e4f30bc
 Homepage: https://riverbankcomputing.com/software/pyqt/intro
 Description: Python bindings for Qt 6
  PyQt6 exposes the Qt 6 API to Python.
@@ -62323,20 +62323,20 @@ Description: system performance tools for Linux
 
 Package: system-config-printer
 Architecture: all
-Version: 1.5.18-4
+Version: 1.5.18-5
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1047
-Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-notify-0.7, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-polkit-1.0, python3-cups (>= 1.9.60), python3-cupshelpers (= 1.5.18-4), python3-dbus, python3-gi, system-config-printer-common (= 1.5.18-4), python3:any
+Installed-Size: 1046
+Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-notify-0.7, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-polkit-1.0, python3-cups, python3-cupshelpers (= 1.5.18-5), python3-dbus, python3-gi, system-config-printer-common (= 1.5.18-5), python3:any
 Recommends: avahi-utils, system-config-printer-udev
-Suggests: gnome-software (>= 3.16.5-2)
-Filename: ./system-config-printer_1.5.18-4_all.deb
-Size: 183848
-MD5sum: 416fb0f681aef1f70dfceb2ea1fb5009
-SHA1: 8b166f190ffdabecbfbc2fc10b4d0ddf079f51ed
-SHA256: ed0ef83d9bc5ac16f78e71e71e7f40fe853d5ec2386a6560f6bdb721ca6fc9a4
-SHA512: cd8172408e06d5fdb9021c5dfcfdf342ceae0a4429ea247a118d0255cc21e17b310a7e6eeb8a02488b4757160e22466cc7a4f80edac275b92638bf2fbb5fc76b
+Suggests: gnome-software
+Filename: ./system-config-printer_1.5.18-5_all.deb
+Size: 182888
+MD5sum: 6beb6f49e62f6c9728742e94893c3c27
+SHA1: bad26c026580cab83895cbb982bf75e6ef7c92bb
+SHA256: 8a74adceec7ef08a1a3d7faedd7e26ffaca947e7c5935bacfc6756dced581b31
+SHA512: 842b06bf5071a3d3dcfac8515ac4f1c9f47461ed95e78c7bd491dd40d2e022cc552e9a4ada5bd812394344129ab11fba89bd34b0f9ac5e5fbcce57b0a6034f71
 Homepage: https://github.com/OpenPrinting/system-config-printer
 Description: graphical interface to configure the printing system
  System-config-printer is a GUI written in Python using GTK+ to
@@ -62346,6 +62346,7 @@ Description: graphical interface to configure the printing system
  .
  In terms of features, it aims to be as complete as the CUPS web
  administration tool, while being integrated to the desktop.
+Commands: install-printerdriver, system-config-printer, system-config-printer-applet
 
 Package: system-tools-backends
 Architecture: amd64
@@ -68848,21 +68849,21 @@ Description: Vi IMproved - Runtime files
 
 Package: vim-tiny
 Architecture: amd64
-Version: 2:9.2.0524-1
+Version: 2:9.2.0524-1+b1
 Priority: important
 Section: editors
-Source: vim
+Source: vim (2:9.2.0524-1)
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 1862
+Installed-Size: 1863
 Provides: editor
 Depends: vim-common (= 2:9.2.0524-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: indent
-Filename: ./vim-tiny_2%3a9.2.0524-1_amd64.deb
-Size: 769612
-MD5sum: 9ce89d5fbb0978d683a208aeae75a3f8
-SHA1: 58ec5958f5854439fe56d11580ad30c7a4a03245
-SHA256: 4fa38788d8b796466c1269d359572d35f6b7850d4b14ef651eb5f285b59ab8d0
-SHA512: 6ac40db7371b6900b99bee7b2608371480ecdd62d796f7241fe1d1e3bb4334b70818008949928c63e2ba253a03e119ac503ffe95cd73c66939b42a70ea209297
+Filename: ./vim-tiny_2%3a9.2.0524-1+b1_amd64.deb
+Size: 769368
+MD5sum: 064e680228b6c1e78b3bf767ec57f030
+SHA1: a15e7ce669188c2103491fb1e4bc084e24342931
+SHA256: 9da8371a285e3a72dab655df3ccfc88095929ddc2cbfe690a0ee4ff76eed5356
+SHA512: 9cc9919cf1f1ad430270f93f614a5dd42211bdedc93eaf8a2f707593bf655f9daf60e2b050300aab5d87bc94c0ab034d03354b23bf72bcbcd67d4836a62198d3
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - compact version
  Vim is an almost compatible version of the UNIX editor Vi.
@@ -68876,20 +68877,21 @@ Description: Vi IMproved - enhanced vi editor - compact version
 
 Package: vim
 Architecture: amd64
-Version: 2:9.2.0524-1
+Version: 2:9.2.0524-1+b1
 Priority: optional
 Section: editors
+Source: vim (2:9.2.0524-1)
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 4135
+Installed-Size: 4132
 Provides: editor
 Depends: vim-common (= 2:9.2.0524-1), vim-runtime (= 2:9.2.0524-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libgpm2 (>= 1.20.7), libselinux1 (>= 3.1~), libsodium26 (>= 1.0.14), libtinfo6 (>= 6)
 Suggests: ctags, vim-doc, vim-scripts
-Filename: ./vim_2%3a9.2.0524-1_amd64.deb
-Size: 1747996
-MD5sum: 65d60c6bc4c805e2d7fd079713e4775e
-SHA1: 24b8cb8ce8fa3d5a5c36bb54fe540f0d81432e68
-SHA256: 10ccf22c08d4a5073dc308bb4086209abaf2bbf6a0d9ed45757a64f8ef2dae9c
-SHA512: e4a59ec805c6bbb3871186e7a2d7e7f514b63d1d496009a063348b3316db2fb3d58cd9141665f1ab51703170bd6fa9fbad5e435b4a2dac62a5a786f84a699709
+Filename: ./vim_2%3a9.2.0524-1+b1_amd64.deb
+Size: 1745816
+MD5sum: 73223e2daffaf3ba1c7099e37ef18fc2
+SHA1: 550044e1c5fee14b53a631a290f88132f0dae80e
+SHA256: dc10e0065be77b600e47c97fe2920ffae01bf0e0be01ccd73af5d27f258cfe48
+SHA512: ff01d56448d96b0c993ceb66fde7ee46ca58627fe8b64e0efeafffbf4d81be2a4ebf0d91771a0cdb5cf433b0cf0eb79346a616789dfc163a7b93e426141061c8
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor
  Vim is an almost compatible version of the UNIX editor Vi.
@@ -69395,23 +69397,23 @@ Description: WebP Image format GdkPixbuf loader
 
 Package: wireplumber
 Architecture: amd64
-Version: 0.5.14-1
+Version: 0.5.15-1
 Priority: optional
 Section: video
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 745
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68), libpipewire-0.3-0t64 (>= 1.0.2), libwireplumber-0.5-0 (= 0.5.14-1), default-dbus-session-bus | dbus-session-bus, pipewire (>= 1.0.2)
+Installed-Size: 791
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68), libpipewire-0.3-0t64 (>= 1.0.2), libwireplumber-0.5-0 (= 0.5.15-1), default-dbus-session-bus | dbus-session-bus, pipewire (>= 1.0.2)
 Recommends: pipewire-pulse
 Suggests: libspa-0.2-bluetooth, libspa-0.2-libcamera, wireplumber-doc
 Conflicts: pipewire-media-session
 Breaks: asahi-audio (<< 2.0)
 Replaces: pipewire-media-session
-Filename: ./wireplumber_0.5.14-1_amd64.deb
-Size: 127948
-MD5sum: 6d2bf01ce7076a2664fc8d169eb9b24d
-SHA1: 85c5400a40771a891d28c5f8dc3eee86dc70c93b
-SHA256: 54599567f6fcff0cf785b03c1dc951fd4978437f883920a1be12eba104834b35
-SHA512: 49b237622e4022ffaddf48dc12d130b2592fd013966364731e2289ad73f44ea8bf56064c9648ddde6d9480109eda41f80f39ed78e7c6b42a04807b406e293162
+Filename: ./wireplumber_0.5.15-1_amd64.deb
+Size: 136892
+MD5sum: 96c2a0f1acb598bb4cec6dc4604516b8
+SHA1: a2006ca17dd5f3c8f719e4241851ef3472e31e3a
+SHA256: 0152ae3496e32f6a321fd6bc5108de0dcf7ba02856ff16dd13c7672637ef07b6
+SHA512: 89f77180089af33fccfc0df4c94748a3404da76ac11bc18d6894f9807f605fab998f813f628bdcee95ca68a2d54ed910b2c624d14c768cc8da64d681e43895b1
 Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
 Description: modular session / policy manager for PipeWire
  WirePlumber is a modular session / policy manager for PipeWire and a
