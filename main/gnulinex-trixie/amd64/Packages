@@ -2670,19 +2670,19 @@ Description: Interact with the EFI Boot Manager
 
 Package: enchant-2
 Architecture: all
-Version: 2.8.16+dfsg-3
+Version: 2.8.16+dfsg-4
 Priority: optional
 Section: oldlibs
 Source: enchant
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 20
+Installed-Size: 21
 Depends: enchant
-Filename: ./enchant-2_2.8.16+dfsg-3_all.deb
-Size: 5940
-MD5sum: 9d1f6f1393780ee4aafdd7096ef28a1d
-SHA1: 523f0f9176da339bbb1f0ec1f565f0bdb517bf21
-SHA256: ef3e6f0b91f1506b9a5a2fa967bc491c4604cda0db470b910c9d06eab82b5ef4
-SHA512: 45ae65d95a8986e63f64efacc21ea36effc7f56528fe0f21e6512519fd7a612cfca53b35ed9594490d058e0613d67a5ed86094e55a00d74243974c5428304433
+Filename: ./enchant-2_2.8.16+dfsg-4_all.deb
+Size: 6008
+MD5sum: 7a1118d4422d1fd43ae5317c2c534047
+SHA1: 691c74892345df43c1eaa7cbcfb0af90794daa50
+SHA256: b68f52493b6ac114b81e96ec984313f81941219255aa3a6b614835ec3039452c
+SHA512: 3332e326f86f0987f6694c2056cfa9ca97ef71deea435d45bc8049ab2ebaf61ca98f855dc0fffbddb849f60abda0e1bbad30fa820e24f3615dd1efe2f5084697
 Homepage: https://rrthomas.github.io/enchant/
 Description: Wrapper for various spell checker engines - transitional package
  Enchant is a generic spell checking library which uses existing
@@ -19592,22 +19592,22 @@ Description: Extremely Naive Charset Analyser - shared library files
 
 Package: libenchant-2-2
 Architecture: amd64
-Version: 2.8.16+dfsg-3
+Version: 2.8.16+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: enchant
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 220
+Installed-Size: 231
 Depends: hunspell-en-us | hunspell-dictionary | myspell-dictionary | aspell-dictionary | ispell-dictionary, libaspell15 (>= 0.60.8.2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.76), libhunspell-1.7-0 (>= 1.7.3+really1.7.3), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Recommends: enchant
 Suggests: libenchant-2-voikko
-Filename: ./libenchant-2-2_2.8.16+dfsg-3_amd64.deb
-Size: 56132
-MD5sum: 46fe5a4dd9c67f4ca9459c836cd1a7d0
-SHA1: af7c31335c975c17edc9cc4fc60c78fc01bb4b35
-SHA256: f5c75a686c4b21352ed85ef7e641d938885c8800b52cbf9f8dfc20572c979978
-SHA512: a847bcb71d94a0cba501e9ff12ea27a8e655527c85efa16a22871198ea7bc4167fdf6ed310f6b36c45672e662ef7451cdd871104c0c96990c8715106a7e444a1
+Filename: ./libenchant-2-2_2.8.16+dfsg-4_amd64.deb
+Size: 67364
+MD5sum: 3c6e1600f2a55d5820f58e72226b495b
+SHA1: 69e57757fb31595457badef36999b3a86196cfad
+SHA256: 388f28ee40069b4face41107a4163cde0ee5742bde303808ec17c3fd37c6311a
+SHA512: 16c1fa372d552e09116c87c5f9ed9f239a84cb3dc34f6fe9ca7ff30a3695f5798b020424f31d84c961e7ba04b7eed22bcc20d5c4d81496c5a6b6f979d0a71d2c
 Homepage: https://rrthomas.github.io/enchant/
 Description: Wrapper library for various spell checker engines (runtime libs)
  Enchant is a generic spell checking library which uses existing
@@ -35802,7 +35802,7 @@ Description: utility to control media players via MPRIS (library)
 
 Package: libpocketsphinx5
 Architecture: amd64
-Version: 5.1.0-1
+Version: 5.1.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -35811,12 +35811,12 @@ Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 653
 Depends: libc6 (>= 2.38)
 Recommends: pocketsphinx-en-us
-Filename: ./libpocketsphinx5_5.1.0-1_amd64.deb
-Size: 270396
-MD5sum: 86960dd92bfdce2f53b1f88126745b51
-SHA1: 6e6194dc00ad183801ac2aea3e7280b84914723e
-SHA256: 2ba4ed635e6607736f4666825ea7036e5f47516ecec026972e7b80122706609a
-SHA512: 34e48afb95c970efa68297ca72e85d5d0302524b90c06048eb9aad190a24dc261a52eb9b68858877a22aadb005fe9faa1b0c6771fa4c7b8f785cbe4356ead007
+Filename: ./libpocketsphinx5_5.1.1-1_amd64.deb
+Size: 269624
+MD5sum: 1ec6b58b99f08bf5eadd0e2292553c08
+SHA1: 5db0345ae135760019dc913cb7fef415f03b2a25
+SHA256: 58f78809db2bfe3e37b6b82ff3572919d41318faefe294dd7de9a5490c50db8b
+SHA512: 247ab58649c6a45c021c8ffa024b349aa7b2dc33155d56be31656739d001ebbf1322db6dbe4865832ff97d6db6498fed93885c83031c6ff90ef11e0d2ba8055b
 Homepage: https://cmusphinx.sourceforge.net/
 Description: Speech recognition tool - front-end library
  CMU Sphinx is a large vocabulary, speaker-independent continuous speech
@@ -57445,20 +57445,20 @@ Description: Python module for simple PAM authentications (Python 3)
 
 Package: python3-pexpect
 Architecture: all
-Version: 4.9-4
+Version: 4.9-5
 Priority: optional
 Section: python
 Source: pexpect
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 220
+Installed-Size: 219
 Depends: python3-ptyprocess, python3:any
 Suggests: python-pexpect-doc
-Filename: ./python3-pexpect_4.9-4_all.deb
-Size: 55748
-MD5sum: 56219aec716e6695f88ac13891250f6e
-SHA1: cb8a03bc9e517b809462bed92ee98a148c0493a4
-SHA256: f80289860a025caf72e947752f88d1f32c0c34763e6570b8aefba698a4d99835
-SHA512: 61b49df47f477b812d60705e3c33dae68819415de963e9c3677566d0ac184950976704aa94bfb25df75709d78362880a05fd68d54445d15b45e84356204a6bce
+Filename: ./python3-pexpect_4.9-5_all.deb
+Size: 54844
+MD5sum: 4ad98bf87001288627dde475d363e6fc
+SHA1: 0c66f04ba43ac582a896555a8bb1125a44e87cd4
+SHA256: 9e145604711fbe7faa9d2fc37b7a3bc3d6c451a088b73daa4336509832ba6f6f
+SHA512: 2772667d2f37211159b7bd01a1bdf75b9ab3a27f28b01bd121e46a0f5164d8f6087fa899ec4890d2c0ea3be7de451d77208a7c68535db07d72f1f59538e269c7
 Homepage: https://github.com/pexpect/pexpect
 Description: Python 3 module for automating interactive applications
  Pexpect is a pure Python 3 module for spawning child applications;
