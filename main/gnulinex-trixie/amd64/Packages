@@ -57081,7 +57081,7 @@ Description: Python 3 bindings for gobject-introspection libraries
 
 Package: python3-html5lib
 Architecture: all
-Version: 1.2-3
+Version: 1.2-4
 Priority: optional
 Section: python
 Source: html5lib
@@ -57089,12 +57089,12 @@ Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 561
 Depends: python3-webencodings, python3:any
 Suggests: python3-genshi, python3-lxml
-Filename: ./python3-html5lib_1.2-3_all.deb
-Size: 92140
-MD5sum: 7c34a804460e93c71093b049a20db3cf
-SHA1: d4064fc1126857332b6852b3f1d8062a75d31b1d
-SHA256: d83d57e97d187dddbaf829c7ea5e357aae12c3506e2f8e9478caf3ffa49e74e4
-SHA512: f3c82d7a850b819784e859f4e2dbbecd6a343b8aa2e3661a4dfd6087a1f9d6a5a0e892cf8c126a562a55ac8a791651f414bdc654d731271678eb0f7d7562c2ec
+Filename: ./python3-html5lib_1.2-4_all.deb
+Size: 91684
+MD5sum: dc3b1df4bdec3237924dec55269035ae
+SHA1: 9b49678c100c18657883e6c1d701f3e5423af6e8
+SHA256: 9fab9a17947e699a4a09f26a6d917f7ceb44f7383ac8d383a3051b648f90b644
+SHA512: 26a051e475cd6dfaa03d5907e808ee685b2620110d9313a2c6cbd9b443be68d30c017114e095ce2b0f17900c088d69d044b163a3e31fff67c15f823bf577a654
 Homepage: https://github.com/ashleysommer/html5lib-modern
 Description: HTML parser/tokenizer based on the WHATWG HTML5 specification
  html5lib is a pure-python library for parsing HTML. It is designed to
