@@ -9914,21 +9914,21 @@ Description: utilities to configure the GNOME desktop
 
 Package: gnome-core
 Architecture: amd64
-Version: 1:49+11
+Version: 1:50+1
 Priority: optional
 Section: metapackages
-Source: meta-gnome (49+11)
+Source: meta-gnome (50+1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 15
-Depends: gdm3 (>= 49), gnome-backgrounds (>= 50), gnome-bluetooth-sendto (>= 47), gnome-control-center (>= 50), gnome-keyring (>= 50), gnome-menus (>= 3.38), gnome-session (>= 49), gnome-settings-daemon (>= 50), gnome-shell (>= 49), gnome-user-docs (>= 50), orca (>= 50), gnome-sushi (>= 50), tecla (>= 50), adwaita-icon-theme (>= 50), glib-networking (>= 2.80), gsettings-desktop-schemas (>= 49), baobab (>= 50), gnome-calculator (>= 1:50), gnome-calendar (>= 50), gnome-characters (>= 50), gnome-clocks (>= 50), gnome-connections (>= 50), ptyxis (>= 50), gnome-contacts (>= 50), gnome-disk-utility (>= 46), gnome-font-viewer (>= 50), gnome-logs (>= 50), gnome-maps (>= 50), gnome-software (>= 50), gnome-system-monitor (>= 50), gnome-text-editor (>= 50), gnome-weather (>= 50), loupe (>= 49), nautilus (>= 49), papers (>= 49), showtime (>= 50), simple-scan (>= 46), gnome-snapshot (>= 49), yelp (>= 49), cups, evolution-data-server (>= 3.56), fonts-adwaita (>= 49), gstreamer1.0-packagekit, gstreamer1.0-plugins-base (>= 1.28), gstreamer1.0-plugins-good (>= 1.28), gvfs-backends (>= 1.60), gvfs-fuse (>= 1.60), ibus, ibus-gtk4, libatk-adaptor (>= 2.60), libcanberra-pulse, libglib2.0-bin (>= 2.88), libpam-gnome-keyring (>= 48), pipewire-audio, system-config-printer-common, system-config-printer-udev, totem-video-thumbnailer, zenity (>= 4)
-Recommends: firefox-esr (>= 140) | firefox (>= 140) | chromium | epiphany-browser | gnome-www-browser, gnome-remote-desktop (>= 49), gnome-software-plugin-deb (>= 50), gnome-software-plugin-fwupd (>= 50), gnome-tour (>= 49), gnome-user-share (>= 48), locales-all, network-manager, rygel-localsearch (>= 45), rygel-playbin (>= 45)
-Suggests: gnome, gnome-color-manager (>= 3.36), gnome-initial-setup (>= 49)
-Filename: ./gnome-core_1%3a49+11_amd64.deb
-Size: 7260
-MD5sum: 036c9d388381b215cead6d89b0f7c352
-SHA1: ea5f0dfecfd483eebfd903ec5a0458d886502fc6
-SHA256: 6fef9ec5e8345df88b8b5422ff96e06e32776922d942f35466085397bb7b9202
-SHA512: 8449ccfee365ee5a6132e99df0f9349b307265b1e1826db69a7380e8978933b175dacc0417a2f4c7862b2db85fd722601f8ca47b1cc670791dbaf29eabff4bed
+Depends: gdm3 (>= 50), gnome-backgrounds (>= 50), gnome-bluetooth-sendto (>= 47), gnome-control-center (>= 50), gnome-keyring (>= 50), gnome-menus (>= 3.38), gnome-session (>= 50), gnome-settings-daemon (>= 50), gnome-shell (>= 50), gnome-user-docs (>= 50), orca (>= 50), gnome-sushi (>= 50), tecla (>= 50), adwaita-icon-theme (>= 50), glib-networking (>= 2.80), gsettings-desktop-schemas (>= 50), baobab (>= 50), gnome-calculator (>= 1:50), gnome-calendar (>= 50), gnome-characters (>= 50), gnome-clocks (>= 50), gnome-connections (>= 50), ptyxis (>= 50), gnome-contacts (>= 50), gnome-disk-utility (>= 46), gnome-font-viewer (>= 50), gnome-logs (>= 50), gnome-maps (>= 50), gnome-software (>= 50), gnome-system-monitor (>= 50), gnome-text-editor (>= 50), gnome-weather (>= 50), loupe (>= 50), nautilus (>= 50), papers (>= 49), showtime (>= 50), simple-scan (>= 46), gnome-snapshot (>= 50), yelp (>= 49), cups, evolution-data-server (>= 3.56), fonts-adwaita (>= 50), gstreamer1.0-packagekit, gstreamer1.0-plugins-base (>= 1.28), gstreamer1.0-plugins-good (>= 1.28), gvfs-backends (>= 1.60), gvfs-fuse (>= 1.60), ibus, ibus-gtk4, libatk-adaptor (>= 2.60), libcanberra-pulse, libglib2.0-bin (>= 2.88), libpam-gnome-keyring (>= 50), pipewire-audio, system-config-printer-common, system-config-printer-udev, totem-video-thumbnailer, zenity (>= 4)
+Recommends: firefox-esr (>= 140) | firefox (>= 140) | chromium | epiphany-browser | gnome-www-browser, gnome-remote-desktop (>= 50), gnome-software-plugin-deb (>= 50), gnome-software-plugin-fwupd (>= 50), gnome-tour (>= 50), gnome-user-share (>= 48), locales-all, network-manager, rygel-localsearch (>= 45), rygel-playbin (>= 45)
+Suggests: gnome, gnome-color-manager (>= 3.36), gnome-initial-setup (>= 50)
+Filename: ./gnome-core_1%3a50+1_amd64.deb
+Size: 7296
+MD5sum: 730f02ecb8478c69a4b2bcf495abdc88
+SHA1: 29b3ec6ae6645fa8bcc39329534d6ab503c27617
+SHA256: 72742f1116ad30f5979f78f2872ab0e88014dda3c3c38d7c62305ef1a8e86e34
+SHA512: 36d4de1dfea58a64b5aac7bf601b9b89ead83b48fd198e84335cd0e9a63fd46a3ae244c9e15c3087a0922d54f61d71d6df16e906afb185e84bbdb392eb67b1be
 Description: GNOME Desktop Environment -- essential components
  These are the core components of the GNOME Desktop environment, an
  intuitive and attractive desktop.
@@ -10089,19 +10089,19 @@ Description: font viewer for GNOME
 
 Package: gnome-games
 Architecture: all
-Version: 1:49+11
+Version: 1:50+1
 Priority: optional
 Section: metapackages
-Source: meta-gnome (49+11)
+Source: meta-gnome (50+1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12
 Depends: aisleriot (>= 1:3.22), five-or-more (>= 1:48), four-in-a-row (>= 1:3.38), gnome-2048 (>= 49), gnome-chess (>= 1:50), gnome-klotski (>= 1:3.38), gnome-mahjongg (>= 1:49), gnome-mines (>= 1:50), gnome-nibbles (>= 1:4.5), gnome-robots (>= 1:50), gnome-sudoku (>= 1:50), gnome-taquin (>= 3.38), gnome-tetravex (>= 1:3.38), hitori (>= 44), iagno (>= 1:50), lightsoff (>= 1:50), quadrapassel (>= 1:50), swell-foop (>= 1:50), tali (>= 1:40)
-Filename: ./gnome-games_1%3a49+11_all.deb
-Size: 6124
-MD5sum: 4c623e5a3cc805274c935f11e1d7258c
-SHA1: cf76f5f61b5ef925f21831e100adb9aebca6be89
-SHA256: df5bc8b08520079c7f4ae196c357581131786a3598ae5d2346cb5a74a0df6dd8
-SHA512: dfc10b7bb1357c342faa3b648cf0ecaa09d53a154f61cd5e47b1a52b4a2c2f2c2dfbb43819a702f1a5c00ad631f2d6ef80323fa2fa9739df0849e258844d73e1
+Filename: ./gnome-games_1%3a50+1_all.deb
+Size: 6172
+MD5sum: 98173962383a073d4401356c2b50c5dd
+SHA1: 0b5440a9e7d7e35bdd2146aa2559901f83497f6a
+SHA256: 6bfcfb4ceb479d57adf43bfa2a9df46508681e24b57975ce6d8c23105404c133
+SHA512: 9547fcfe78071be7671a4f507dd6478c5303ad2bc1cf7308ebebd4b2fc377c04b4d41d1bc3cf8a19be9595e914f27176bcf621b3be5c086524bc9916f78f1818
 Description: games for the GNOME desktop
  These are the games from the official GNOME release. They have the look and
  feel of the GNOME desktop, but can be used without it.
@@ -10784,19 +10784,19 @@ Description: Take pictures and videos from your webcam
 
 Package: gnome-software-common
 Architecture: all
-Version: 50.2-1
+Version: 50.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 7576
-Filename: ./gnome-software-common_50.2-1_all.deb
-Size: 945200
-MD5sum: 716dfcda8ab36028ee506b1a4474cd19
-SHA1: 0e335358eef70b1247185352eb420f4084f6fcba
-SHA256: 03b0f982c285e3a17c1b0372934b55f0a7c7e1b0ebbc7eb2bd6116f438a7d3a5
-SHA512: 33eba2aee749ab96979d79440b2861db3ddeb54f3c60ade355c65201c0b6d8c28d6dd0ad2a4ff634b19a952a025aa3a733c07583e2227cc0f7edbf0ab739ef75
+Filename: ./gnome-software-common_50.3-1_all.deb
+Size: 945040
+MD5sum: ba7615998de2fd80f5003d2071174c5f
+SHA1: 49a70f7373ba90859c69f203bae7b2913a662a76
+SHA256: 422f07a713ad2e073c1d494925bd925e2e93ad579240cdf118960c4aeba0f848
+SHA512: cd94ad5b57ea3de904de649d00b45a9a0a9297fe65e0a0eab6efc35a55ee5fd89583599699feb1e6399cd74ea5f315c396ea9f31e5c74ce87043a17c26dc2752
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME (common files)
  Software lets you install and update applications and system extensions.
@@ -10811,23 +10811,23 @@ Description: Software Center for GNOME (common files)
 
 Package: gnome-software-plugin-deb
 Architecture: amd64
-Version: 50.2-1
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 295
-Provides: gnome-software-plugin (= 50.2-1)
-Depends: appstream, apt-config-icons, gnome-software (= 50.2-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
+Installed-Size: 293
+Provides: gnome-software-plugin (= 50.3-1)
+Depends: appstream, apt-config-icons, gnome-software (= 50.3-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
 Suggests: apt-config-icons-hidpi
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-deb_50.2-1_amd64.deb
-Size: 75968
-MD5sum: 5cbe34ef07ea70039e94c374a181fff3
-SHA1: d1afca7031a03e17221b3474ad448c6425fd5f65
-SHA256: 37e1509722378955532ad7de10c93f96a6ae38c510c6968b77618ac9f4326f1a
-SHA512: 88b46e3e3df28fdbe64be08387b7ca657ace2792970cc7607aca8c6fb1b9ad37f823ccce64ac64b6037ed42a7a3411f6c8cb212c6f402b8cc58a09355194721b
+Filename: ./gnome-software-plugin-deb_50.3-1_amd64.deb
+Size: 76356
+MD5sum: e7f963bab5adbe033d38c1f9cc58319d
+SHA1: 556b2a86418362455d961dd2f95a377828e9f810
+SHA256: 21f0db73bdca3d583a177053798e6e1ee7267eba4b1401377ae3239abe1d019d
+SHA512: 7c7de2ab8b328195275575c0405b4726f8056c47ee375be14549f96765c2b5e524dfb0aabfd0010db7e29ed51e741d27769ca657312ba02f19c7b8b9efa709e8
 Homepage: https://apps.gnome.org/Software/
 Description: .deb support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10843,22 +10843,22 @@ Description: .deb support for GNOME Software
 
 Package: gnome-software-plugin-flatpak
 Architecture: amd64
-Version: 50.2-1
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 283
-Provides: gnome-software-plugin (= 50.2-1)
-Depends: flatpak, gnome-software (= 50.2-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.15.6), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.2)
+Provides: gnome-software-plugin (= 50.3-1)
+Depends: flatpak, gnome-software (= 50.3-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.16), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.2)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-flatpak_50.2-1_amd64.deb
-Size: 85832
-MD5sum: 18b5bd77ec413af84dfa0a0877fb6487
-SHA1: fc35db55472395034f5dc17fdd7c51661c329785
-SHA256: e2f49a24f4edf5e2396d6a4fbfaebe203cc5f5602cd1015fa3a0c408e534b822
-SHA512: 26246115668d7df13d7bcaeeffb1195d5f7c4e7e3861da9a49030936a3e6f344351bd1e48dbd445d87fb75c631fd26a35c695819d6105de4847f934bb62d5248
+Filename: ./gnome-software-plugin-flatpak_50.3-1_amd64.deb
+Size: 85828
+MD5sum: 0a3f30f6e1aa7907a6eac82c6f001205
+SHA1: 681234889cbd5ee9a683d30c0c369d7d8436501b
+SHA256: 7a646b611562c2a17bffe4db1b82d8e5a9e4ced9f3fa120e7e337295032e464b
+SHA512: 2846ed070292bd71c13640290f5b877db5160b0398403409ca1b52f1b493ce187962154425c44e4bc26226c5396a40a603f771834360472bc7eeaefd17ced1d2
 Homepage: https://apps.gnome.org/Software/
 Description: Flatpak support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10873,21 +10873,21 @@ Description: Flatpak support for GNOME Software
 
 Package: gnome-software-plugin-fwupd
 Architecture: amd64
-Version: 50.2-1
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 135
-Depends: fwupd, gnome-software (= 50.2-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
+Depends: fwupd, gnome-software (= 50.3-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-fwupd_50.2-1_amd64.deb
-Size: 36020
-MD5sum: 6688ffd7f934828461624abfe9d86ee5
-SHA1: 7cf769f8b0d0dcb20bdd7ae0befd3f3d6e190a81
-SHA256: a4b450f7a6fda4bd4321cc92b3b2708b48f1f53d0af41e30e79715fe92bb33d9
-SHA512: ec82f49f346c335d91268d33bc1f7f481a9e5bc3b446051835e7b8dfccc8a3f597e5b774278a31296e7033e5a723c1532e22506478ca2f8beddc23ffffdaac9c
+Filename: ./gnome-software-plugin-fwupd_50.3-1_amd64.deb
+Size: 36016
+MD5sum: 0b2e6a0d900367fb28afd4e5fcfd9b63
+SHA1: cfda724b6e468c8e9c6863e30419cb9a75f8213f
+SHA256: a3e578aff2bda02d1217f9d6620ea96d7935367243e887a7897dba69b4dbdcea
+SHA512: 3cc59d3b5534e9d4704e20875fca43cb5ec3e5c17f4ff77ffb33dbfa89b7e501009a99fd6f83ce47c2cdc22d7596ba0477d24424ac5fff78389248c25acbbf4f
 Homepage: https://apps.gnome.org/Software/
 Description: Firmware updater support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -10902,21 +10902,21 @@ Description: Firmware updater support for GNOME Software
 
 Package: gnome-software
 Architecture: amd64
-Version: 50.2-1
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4715
-Depends: gnome-software-common (= 50.2-1), gnome-software-plugin-deb (= 50.2-1) | gnome-software-plugin (= 50.2-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.4)
+Installed-Size: 4707
+Depends: gnome-software-common (= 50.3-1), gnome-software-plugin-deb (= 50.3-1) | gnome-software-plugin (= 50.3-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.4)
 Recommends: gnome-software-plugin-fwupd, gnome-software-plugin-deb
 Suggests: gnome-software-plugin-flatpak, gnome-software-plugin-snap
 Conflicts: sessioninstaller
-Filename: ./gnome-software_50.2-1_amd64.deb
-Size: 1214620
-MD5sum: 2818f3c2626d5e284a7fd1bb9b69e68b
-SHA1: 5a2da4d7162847cb4d53dfd4fb4dbb66f6c236d5
-SHA256: 0b412db2d9e627e88bdeca59ab9d46abf361f04e3d556d2c5a93b7c52bcb15ab
-SHA512: 7dedd37c560f6afd829d4c8a03c559bb981d5a2801e18fa36e2696603e85ab2aac23c90481af5548cd4f317481eeb0911c8482ce421f1267adf986110884514c
+Filename: ./gnome-software_50.3-1_amd64.deb
+Size: 1214432
+MD5sum: adc5c447b90a2ee1395475267002d9af
+SHA1: 2905a7a94786c76f8c228fd699fd55cef751a414
+SHA256: a5a7de0790faab77c7d20b70bdb03a2836cbd819205b460f342c403ab172a74f
+SHA512: e9702adf93de98a1fddf358641d26f63662204886210c7a878a7296755ed8a6f60f740eb0ef9441ba556d88fc8858cc9f05ceaeedb6072e5af5e5c140385985b
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME
  Software lets you install and update applications and system extensions.
