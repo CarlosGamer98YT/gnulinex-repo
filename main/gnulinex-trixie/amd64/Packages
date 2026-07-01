@@ -47682,20 +47682,20 @@ Description: libudev shared library
 
 Package: libudfread3
 Architecture: amd64
-Version: 1.2.0-2+b2
+Version: 1.2.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libudfread (1.2.0-2)
+Source: libudfread
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 56
+Installed-Size: 55
 Depends: libc6 (>= 2.14)
-Filename: ./libudfread3_1.2.0-2+b2_amd64.deb
-Size: 16996
-MD5sum: cb9a42e64be5cdbc96634b9222c9f5fa
-SHA1: e856819ed910a6d1acddee2e0b32008ad32a4051
-SHA256: 2b91e7a8699408dbf1f2b6e143921b46b72947979b72dc88f26e9067248e0339
-SHA512: 46f10461b20982dc27dbb9b8f28ea03cf94c293d81ef111a91883bdbb64a6b88bc29392785ef7d44cd6b627f3e68acda726e5586229fc51e3146d6ab35488c3c
+Filename: ./libudfread3_1.2.0-3_amd64.deb
+Size: 16716
+MD5sum: 69140f0200b16ea400c3ac0299523942
+SHA1: ca38f1c8ee18b94b39a79080394b408296fbc6d8
+SHA256: 3d0c5c78879740f4d3ac2b39c044ca7c71b9ed12c37d014d7b1fe700e957e762
+SHA512: 5e710cbe2ac886d108f29d6e8b840b1c67529ca489b4144a148982680a19a1e0bfaad5de6d64d209da7d4eccb63b375f4edaa13029bbd3e7239337d5af2c8331
 Homepage: https://code.videolan.org/videolan/libudfread
 Description: UDF reader library
  This library allows reading UDF filesystems, like raw devices and image files.
