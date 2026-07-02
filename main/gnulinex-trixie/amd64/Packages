@@ -8765,21 +8765,21 @@ Description: GObject introspection data for the PackageKit GLib library
 
 Package: gir1.2-pango-1.0
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 132
-Provides: gir1.2-pangocairo-1.0 (= 1.57.1-2), gir1.2-pangofc-1.0 (= 1.57.1-2), gir1.2-pangoft2-1.0 (= 1.57.1-2), gir1.2-pangoot-1.0 (= 1.57.1-2), gir1.2-pangoxft-1.0 (= 1.57.1-2)
-Depends: gir1.2-cairo-1.0, gir1.2-fontconfig-2.0, gir1.2-freetype2-2.0, gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-harfbuzz-0.0 (>= 11.4.5), gir1.2-xft-2.0, gir1.2-xlib-2.0, libpango-1.0-0 (= 1.57.1-2), libpangocairo-1.0-0 (= 1.57.1-2), libpangoft2-1.0-0 (= 1.57.1-2), libpangoxft-1.0-0 (= 1.57.1-2)
-Filename: ./gir1.2-pango-1.0_1.57.1-2_amd64.deb
-Size: 33752
-MD5sum: 547542707405a54ee9a113a6b0d73dbf
-SHA1: 7f1c47300b8e9ef541e201f826ac9e169e27ddcb
-SHA256: 90b946d35beedb4177b82f5551b996f4e10e5801845519ddfb1521a5eb9fbe7b
-SHA512: 506c09cbe21fc048bbbdd1b9a9a1627a6cc29af82a5c9904f0312aa4fdecfec97f609bd359a90de8bd81775d69a0149a6601cc9242799b1d908912c4969cc12d
+Installed-Size: 133
+Provides: gir1.2-pangocairo-1.0 (= 1.58.0-1), gir1.2-pangofc-1.0 (= 1.58.0-1), gir1.2-pangoft2-1.0 (= 1.58.0-1), gir1.2-pangoot-1.0 (= 1.58.0-1), gir1.2-pangoxft-1.0 (= 1.58.0-1)
+Depends: gir1.2-cairo-1.0, gir1.2-fontconfig-2.0, gir1.2-freetype2-2.0, gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-harfbuzz-0.0 (>= 11.4.5), gir1.2-xft-2.0, gir1.2-xlib-2.0, libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1)
+Filename: ./gir1.2-pango-1.0_1.58.0-1_amd64.deb
+Size: 34208
+MD5sum: 069b705a5cffcee3007719faa23634af
+SHA1: fe8cd1f669b81eb569ec47355116e689ba33b6c8
+SHA256: f040264fc499b659fb37ddc51472cb2c12efd5f16fc361f6ba4919b8d0528a93
+SHA512: 8c41b1d3491b359e0c33c17323fc8d8464ed109009ec75a1c5fd6c11a82af9dbd8dc0a406b7a8de2a622c9998550b2c7ea656d6af9aa3ce5b8c140beef5b22e1
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text - gir bindings
  Pango is a library for layout and rendering of text, with an emphasis
@@ -25313,20 +25313,20 @@ Description: GLib JSON manipulation library (common files)
 
 Package: libjsoncpp26
 Architecture: amd64
-Version: 1.9.7-4
+Version: 1.9.8-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libjsoncpp
 Maintainer: Timo Röhling <roehling@debian.org>
-Installed-Size: 305
+Installed-Size: 309
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libjsoncpp26_1.9.7-4_amd64.deb
-Size: 86768
-MD5sum: 287121d94c1bd42a824bf40993dcec15
-SHA1: 7f695af1e9e8cac48c9ce2c313cbf25f2cc936ee
-SHA256: d35b0af47881544f8f69b4ec112fa3f89fa0116f4dab09056602bec6a8665e19
-SHA512: 99f0563dbd2766a3db357d903837f042a2dd7c630f0e21301956ef031f95c94bac9261021550bcf0d800e9226a0e776ff28400fdeac860c7e3c21c1e96a26938
+Filename: ./libjsoncpp26_1.9.8-1_amd64.deb
+Size: 87264
+MD5sum: 92950a2a821a1ee50ed35d46d1897aec
+SHA1: 3844d2291763050f63ad843980bc6029b1fe6bab
+SHA256: 5984c2fc4129c2aff38238bfe2eff25a19fee8a33742670a740bfd94a72ebc1f
+SHA512: d25a4545cdb42b1c09fb1e5906e3735209f002cd627c75d971b004fff94d86de2e1d3c84e97d5b80b51506515a6ec42dc6aedadc87f1e9938ac87f06e79f1069
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: library for reading and writing JSON for C++
  jsoncpp is an implementation of a JSON reader and writer in C++. JSON
@@ -34930,20 +34930,20 @@ Description: Pluggable Authentication Modules library
 
 Package: libpango-1.0-0
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 554
+Installed-Size: 559
 Depends: fontconfig (>= 2.17.0), libc6 (>= 2.38), libfribidi0 (>= 1.0.0), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libthai0 (>= 0.1.25)
-Filename: ./libpango-1.0-0_1.57.1-2_amd64.deb
-Size: 224204
-MD5sum: c48ff5344aa41af457c2b2f16bf4a040
-SHA1: eb78c1029aa62fa4892c499245e09bc90f8aca45
-SHA256: de92690e53db09c5322f508a8d4a518637a59699497758bca46eb169ac7d8dd1
-SHA512: f8d9eabc104fc1c4c1ac9f51eb5bf4c3f2ae50b012b51b04273f4ae74ea23e6acafc2642615129e2145a1958708e9e0a354bbc0c072e05173e3e582b04e9bca7
+Filename: ./libpango-1.0-0_1.58.0-1_amd64.deb
+Size: 225336
+MD5sum: 0f05c2e4551bcf561142c97a6805419c
+SHA1: 41ec4a6516193acccc9079d9ac0a3c834cdc95de
+SHA256: f7b063fccb5eea0fc9fd4e8f354ec8d579421171a5912fd7f15553ffd26a36aa
+SHA512: 9da2b420f5581a522c8621170cc5dbd15fe3d9081db35d53db16f6354e67952cc86fca3a8daad6460877f13cee7906897549f2fd69900c2a2bef899a7aeb041b
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -34963,22 +34963,22 @@ Description: Layout and rendering of internationalized text
 
 Package: libpango1.0-dev
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1616
-Provides: gir1.2-pango-1.0-dev (= 1.57.1-2), gir1.2-pangocairo-1.0-dev (= 1.57.1-2), gir1.2-pangofc-1.0-dev (= 1.57.1-2), gir1.2-pangoft2-1.0-dev (= 1.57.1-2), gir1.2-pangoot-1.0-dev (= 1.57.1-2), gir1.2-pangoxft-1.0-dev (= 1.57.1-2)
-Depends: libcairo2-dev (>= 1.18.0), libfontconfig-dev (>= 2.17.0), libfreetype-dev, libfribidi-dev, libglib2.0-dev (>= 2.82), libharfbuzz-dev (>= 11.4.5), libpango-1.0-0 (= 1.57.1-2), libpangocairo-1.0-0 (= 1.57.1-2), libpangoft2-1.0-0 (= 1.57.1-2), libpangoxft-1.0-0 (= 1.57.1-2), libsysprof-capture-4-dev, libthai-dev, libx11-dev, libxft-dev, libxrender-dev, pango1.0-tools (= 1.57.1-2), pkgconf, gir1.2-cairo-1.0-dev, gir1.2-fontconfig-2.0-dev, gir1.2-freetype2-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-harfbuzz-0.0-dev (>= 11.4.5), gir1.2-pango-1.0 (= 1.57.1-2), gir1.2-xft-2.0-dev, gir1.2-xlib-2.0-dev
+Installed-Size: 1637
+Provides: gir1.2-pango-1.0-dev (= 1.58.0-1), gir1.2-pangocairo-1.0-dev (= 1.58.0-1), gir1.2-pangofc-1.0-dev (= 1.58.0-1), gir1.2-pangoft2-1.0-dev (= 1.58.0-1), gir1.2-pangoot-1.0-dev (= 1.58.0-1), gir1.2-pangoxft-1.0-dev (= 1.58.0-1)
+Depends: libcairo2-dev (>= 1.18.0), libfontconfig-dev (>= 2.17.0), libfreetype-dev, libfribidi-dev, libglib2.0-dev (>= 2.82), libharfbuzz-dev (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1), libsysprof-capture-4-dev, libthai-dev, libx11-dev, libxft-dev, libxrender-dev, pango1.0-tools (= 1.58.0-1), pkgconf, gir1.2-cairo-1.0-dev, gir1.2-fontconfig-2.0-dev, gir1.2-freetype2-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-harfbuzz-0.0-dev (>= 11.4.5), gir1.2-pango-1.0 (= 1.58.0-1), gir1.2-xft-2.0-dev, gir1.2-xlib-2.0-dev
 Suggests: libpango1.0-doc
-Filename: ./libpango1.0-dev_1.57.1-2_amd64.deb
-Size: 150684
-MD5sum: 3f52521774de391ddf6721a94c5ad9de
-SHA1: 316d599c18cd37a73805e04a5aba0c4162710486
-SHA256: f53b17ed3db7ea6afbbb5e1a444ca68d4641e7b036770317dd347963da481142
-SHA512: e57549eef2dbd344c33c48ebd06b4c41334cb953c0c4a2db2891f573e35af75afa1f84ba180fc4e096ccc9448abe87f311cf70c1eecf430e357036951807c012
+Filename: ./libpango1.0-dev_1.58.0-1_amd64.deb
+Size: 152416
+MD5sum: 299c1a48257009c2bef0cf773e0d715c
+SHA1: d3ee28a9df21445237e126d5333992082f7dc5f7
+SHA256: 3356a87b156a40d38049024c0cc6f5cf80c4a2aae22c0da9f7ecd22e8a61f59e
+SHA512: fcf829184e3da3994419aed3697953084147664526ab29a82a07450a6aa82a331a9f6a2e460e3744e40db80398d9565452766b93682ac56d68bb48abe8ecf030
 Homepage: https://www.pango.org/
 Description: Development files for the Pango
  Pango is a library for layout and rendering of text, with an emphasis
@@ -34999,20 +34999,20 @@ Description: Development files for the Pango
 
 Package: libpangocairo-1.0-0
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 106
-Depends: libc6 (>= 2.35), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.57.1-2), libpangoft2-1.0-0 (= 1.57.1-2)
-Filename: ./libpangocairo-1.0-0_1.57.1-2_amd64.deb
-Size: 33792
-MD5sum: 229c26e6b62cc6ba924e1b4ecbf2de1a
-SHA1: 8eaa796b1c59ef9326426228a461de749f31d604
-SHA256: 2351c22b1f9b5585d6855b7ba639a061b5288c1285f4cdb9339524f16e6dc5b2
-SHA512: 4d9c8da73dda9d6bb9534bce6ee06e2976df14cfb8fa10dbbf02e85c74c71256c360f804cab4b07bcdee7c3545796cc3dc748c23ce1c2da5892a0d26f87b3811
+Depends: libc6 (>= 2.35), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1)
+Filename: ./libpangocairo-1.0-0_1.58.0-1_amd64.deb
+Size: 34244
+MD5sum: 2a16e447c190e6445a85f202d537ac13
+SHA1: 1f0bba6057319169715a97110b136bba2763ac8b
+SHA256: 8127b2daed6e1d6ca4436eec2f20831de6093671d74c2ba0e73ec195ac810d46
+SHA512: 4e0b2206342bbfc85229328f68f9ec8718b69ecbcfb7f264cf8c7f59531e9a2d10247809ecd4e1360824aad4960b784262d0ce09d02ddc473f391d55d8041b1d
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -35032,20 +35032,20 @@ Description: Layout and rendering of internationalized text
 
 Package: libpangoft2-1.0-0
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 161
-Depends: libc6 (>= 2.38), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.57.1-2)
-Filename: ./libpangoft2-1.0-0_1.57.1-2_amd64.deb
-Size: 52840
-MD5sum: 685524f1924d62bbb99c2c89a0b9423c
-SHA1: ce366698b8fdcddb915eb4770142cb9bce966c80
-SHA256: 8f315d9334306bfe5768ed969dd9ae0ca0588bc2a1ebd254a802880263a8b5f9
-SHA512: edb2a9b2da6a430c2136f0b028526914447765c03a6ef0084ef5c7031f79a1e0b6855b669f06964a9fdff4579dc898c57b8f84d614901d354d057222b8852bdf
+Depends: libc6 (>= 2.38), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1)
+Filename: ./libpangoft2-1.0-0_1.58.0-1_amd64.deb
+Size: 53056
+MD5sum: 3dcff869e53a652f548318d6f314a8c9
+SHA1: b9745d79287ac159b5ba9db2413c42e39f7d3268
+SHA256: 95feca5d4ade1b90bd224b8b76342e1feb5c1f01b511852442234cab0c2a4ce4
+SHA512: f5389bcd2af04cba32e7a3064595ba748159ce32a53b3bdb48f7699947b272699fd5eecfdcf6ff63b454b2a3e49cfdbc0ecf8bb764d488f78e0da45241125eb6
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -35092,20 +35092,20 @@ Description: C++ Wrapper for pango (shared libraries)
 
 Package: libpangoxft-1.0-0
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 73
-Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libpango-1.0-0 (= 1.57.1-2), libpangoft2-1.0-0 (= 1.57.1-2), libx11-6, libxft2 (>> 2.1.1), libxrender1 (>= 1:0.9.12)
-Filename: ./libpangoxft-1.0-0_1.57.1-2_amd64.deb
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libpango-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libx11-6, libxft2 (>> 2.1.1), libxrender1 (>= 1:0.9.12)
+Filename: ./libpangoxft-1.0-0_1.58.0-1_amd64.deb
 Size: 22284
-MD5sum: fd43181efc8f6bda878ba5d1336c2612
-SHA1: 10d7395ec3472993e4b3ed3f5fb5b0b1276f5acf
-SHA256: 27b3e13018a7c4e6563b32ed7f7469021eaa4b2fa3439748599d531d1174b42b
-SHA512: 69a9a84d3d78640489fe807ead877c25a14466add9d03134a3f1bafe4a169529fb3ca8d4e7eee851bbc378b32c00f962bcc7191d5bcf8034b4538d27bbfd3825
+MD5sum: e0a2b797198eabd7454183a07eeaa7b8
+SHA1: 3e864e1e9c2e507c18220548264e3eb5a78347b9
+SHA256: 1e67a6fa24c1bfcf44bce21bab4316f6e72db66d67d10d33c0d4381c586f9758
+SHA512: 8066b0de70706d01a294b914ab4dd4145d791aa27f7c824df81bbb5ba78a0758e288f9a3ca7ecf8f077be7211a69613e96df4703977765d6d16dae46cd8fa1fb
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -55132,21 +55132,21 @@ Description: pulseaudio command line mixer
 
 Package: pango1.0-tools
 Architecture: amd64
-Version: 1.57.1-2
+Version: 1.58.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 145
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.57.1-2), libpangocairo-1.0-0 (= 1.57.1-2), libpangoft2-1.0-0 (= 1.57.1-2), libpangoxft-1.0-0 (= 1.57.1-2), libx11-6, libxft2 (>> 2.1.1)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1), libx11-6, libxft2 (>> 2.1.1)
 Suggests: graphicsmagick
-Filename: ./pango1.0-tools_1.57.1-2_amd64.deb
-Size: 38812
-MD5sum: f0b3fe1164525345c1dd47f7dc8794f2
-SHA1: b9ecb4c3a0aa0b3f9ed9a6007419a001da33d01f
-SHA256: 77e5c37633fabd4128a0a186cdc6148162e4518b8a8389271d4fd5f1168b4a20
-SHA512: 6fc7f31d200edb0b34f1f621ecf3a01ac2a5762a68aa00b63ae843c57d79dcff3f6055997e2d2177dcec469f8b359b653cccd8126aaca9e8eb89cda44e2afc8b
+Filename: ./pango1.0-tools_1.58.0-1_amd64.deb
+Size: 38708
+MD5sum: 881d3c85cdf11924c7e78d286ccf0368
+SHA1: 452b0e60628d58d9faac258dcb06da3dd9cca509
+SHA256: 8feab582348b97b0f025ff331c281059cdecd7f2c20581a8e088d9926e6513fb
+SHA512: c872209aec2dd6409c7d3100d7fc07aed3f2e906d129d62038681ecf1e6aa41d95093c63dba46b2866cddbfe03ad879af87f0d1e9ca75b30c6f675a16af2b4af
 Homepage: https://www.pango.org/
 Description: Development utilities for Pango
  Pango is a library for layout and rendering of text, with an emphasis
