@@ -3863,20 +3863,20 @@ Description: free TrueType fonts for Persian language
 
 Package: fonts-font-awesome
 Architecture: all
-Version: 7.2.0+dfsg-1
+Version: 7.3.0+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 1785
+Installed-Size: 1798
 Depends: fonts-font-awesome-legacy (>= 6)
 Suggests: node-fortawesome-fontawesome-free
-Filename: ./fonts-font-awesome_7.2.0+dfsg-1_all.deb
-Size: 671236
-MD5sum: 35effd44f9f9092ff3fbed79d20b91cf
-SHA1: 1785aefd3b6947fc59db46220b4edfe242e45f38
-SHA256: ff3777c2649eae163cc90bca5305efb903b68cede8008946730e22c594ddea77
-SHA512: 3f309df35a892372cec89a7e6d009639b2272e077bf68eb2d19a2166c28b4e8c7e30f191bdede61ec396a69887e98c5f1fb81ac6e29f69b32c27011a4819dc31
+Filename: ./fonts-font-awesome_7.3.0+dfsg-1_all.deb
+Size: 677140
+MD5sum: 5bfe36d7edc53200bb28b18826f08364
+SHA1: 4771a7743ee81377d8a989c662ee9e0fa5aa7cd7
+SHA256: 0798845e7ac5a8b9c946732df33adc1a39b3de285bdfa034288907e64426e644
+SHA512: 2217cfc716f55f40da96d4c39dbf261b9e9bb044ae8076d749bec866d0be866560316b8d98709d1f8b3929306f1072244ef0c7211c76f6e9e8c3041a20f62ca0
 Homepage: http://fontawesome.io/
 Description: FontAwesome free icon webfonts (current version)
  Font Awesome is the Internet's icon library and toolkit, used by
@@ -9282,20 +9282,20 @@ Description: Flatpak portal library - introspection data
 
 Package: gir1.2-xmlb-2.0
 Architecture: amd64
-Version: 0.3.24-2+b1
+Version: 0.3.28-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libxmlb (0.3.24-2)
+Source: libxmlb
 Maintainer: Debian EFI team <debian-efi@lists.debian.org>
-Installed-Size: 38
-Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libxmlb2 (>= 0.3.19)
-Filename: ./gir1.2-xmlb-2.0_0.3.24-2+b1_amd64.deb
-Size: 9448
-MD5sum: 6cdea46a442fa5671885d4fba2b00cd7
-SHA1: 508d44a18215501e6d72293b0a924be5031ca31f
-SHA256: 7704f1750109e8d14ca154b8d09a5140667bcc40045cba78beaa6b3d8631f8b2
-SHA512: 57c8a87f0f448cc53e2f33e01707ccd40176d64557f2d0960ea02f1b6cb04b5bdf16ea1079f107149ae371b0ac1dcd6af5f995726f477962c73a0dbfee876266
+Installed-Size: 37
+Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libxmlb2 (>= 0.3.27)
+Filename: ./gir1.2-xmlb-2.0_0.3.28-1_amd64.deb
+Size: 9236
+MD5sum: c747d60bf8e150c553d6aa827095da16
+SHA1: 5433c1974482260582ed882489bc626a7f49a49e
+SHA256: bc3e95efd1fe0e5520062c12505d8fd7d4fb16ee28e986ae4adcce42c67639b3
+SHA512: 3c2bd9d8515689df03533fd3f3ce81a088a8f32e9965ab8808a6dc10265b651c444b7401903e989322fafd9a8ac0b81f527b114a7ed52582c1d12a083a10f83c
 Homepage: https://github.com/hughsie/libxmlb
 Description: GObject introspection data for libxmlb
  This package provides the introspection data for libxmlb.
@@ -15364,7 +15364,7 @@ Description: AddressSanitizer -- a fast memory error detector
 
 Package: libasound2-data
 Architecture: all
-Version: 1.2.16-1
+Version: 1.2.16.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -15373,14 +15373,14 @@ Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Installed-Size: 195
 Recommends: alsa-ucm-conf, alsa-topology-conf
 Suggests: alsa-utils
-Breaks: libasound2t64 (<< 1.2.16-1)
-Replaces: libasound2t64 (<< 1.2.16-1)
-Filename: ./libasound2-data_1.2.16-1_all.deb
-Size: 19272
-MD5sum: df32758bd3d5f63c03652c2880d72da9
-SHA1: 44bb68061092b8f50a4abd00ce5a3576000576f5
-SHA256: 9d0e47f4cd6eb4af5b252477ef06668249ca2d15b18c8029a32db80214d627de
-SHA512: 110e9ef7fe6c414145a9dcf24a11c542d1f66b3d788a7daaa0ba435608d69829f685b8466a4a65b4988d479d06a46247ce43ee734b681dcdef18e0bae562e351
+Breaks: libasound2t64 (<< 1.2.16.1-1)
+Replaces: libasound2t64 (<< 1.2.16.1-1)
+Filename: ./libasound2-data_1.2.16.1-1_all.deb
+Size: 19364
+MD5sum: e96db8ea369e557c42179c9603660550
+SHA1: 80823196ffdf8963d06274f68d99f294ef83012a
+SHA256: 05d0bce6ccb66c60d8dea6ddf28ddb2765b4455e5dd9c71f96f30e4a67ca6b41
+SHA512: 1df9137da8ec69cf8c350c786e7ec3d45c8d946d28b049de7fe08d75be56b783164e63a0675f10261744799232d49121a6ab7344426c1cee9ffe0e551f7ea813
 Homepage: https://www.alsa-project.org/
 Description: Configuration files and profiles for ALSA drivers
  This package contains configuration files for ALSA drivers.
@@ -15389,22 +15389,22 @@ Description: Configuration files and profiles for ALSA drivers
 
 Package: libasound2-dev
 Architecture: amd64
-Version: 1.2.16-1+b1
+Version: 1.2.16.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: alsa-lib (1.2.16-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 741
+Installed-Size: 740
 Provides: libasound-dev
-Depends: libasound2t64 (= 1.2.16-1+b1)
+Depends: libasound2t64 (= 1.2.16.1-1)
 Suggests: libasound2-doc
-Filename: ./libasound2-dev_1.2.16-1+b1_amd64.deb
-Size: 119424
-MD5sum: c7c640b1241e743962e0d4091256f9f5
-SHA1: beb2ea8c2ced44580a3c27841fd339544fa05060
-SHA256: 96f062d41d1d7f94b11000967623e79c89075f18ba0c95bcbd98550b8d871515
-SHA512: 38ed535d975f162ddb05953312fa2557ab4513a5f1984c2298ab9dbeb7a4e4d84d60cbd65f2341afeba490d8fee73dcd5d5f61bc2ed59d4439bfe68473b214e2
+Filename: ./libasound2-dev_1.2.16.1-1_amd64.deb
+Size: 119220
+MD5sum: 6857ca16a37a25362374fb9ad467998c
+SHA1: 738871246314ce3733f488429733e15061948501
+SHA256: fb97b57e7d0b95ec1a3810c6d83c643ab2176eb733a7b394ec9b5503bb103c27
+SHA512: 1100379355555868f37538f7e3ad3c44eb7dc1926e49b1d3937093793a7be523b227e21081c8d06adb2fff6907c4780d850fff58ac368404a268939debb0ad09
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications -- development files
  This package contains files required for developing software
@@ -15414,24 +15414,24 @@ Description: shared library for ALSA applications -- development files
 
 Package: libasound2t64
 Architecture: amd64
-Version: 1.2.16-1+b1
+Version: 1.2.16.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: alsa-lib (1.2.16-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 1300
-Provides: libasound2 (= 1.2.16-1+b1)
-Depends: libasound2-data (>= 1.2.16-1), libc6 (>= 2.38)
+Installed-Size: 1299
+Provides: libasound2 (= 1.2.16.1-1)
+Depends: libasound2-data (>= 1.2.16.1-1), libc6 (>= 2.38)
 Suggests: libasound2-plugins (>= 1.0.24)
-Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16-1)
+Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16.1-1)
 Replaces: libasound2
-Filename: ./libasound2t64_1.2.16-1+b1_amd64.deb
-Size: 397172
-MD5sum: a22d62081adcc0f8031fbde8e6728238
-SHA1: d1d2e47277a6693c28334549b2caafa9c68e327e
-SHA256: 6382a497775367a8feb9568a82ed2c9367ae2b4910083eb9e7a1029d8ef063e8
-SHA512: 9ed87ce88c794aad59ba74400dffc5d6a6e99331e8b7a43ef9ede0cc957c647fd5c36b5931ead34f205796dbeab578ae6a1a62f4c1852b3133092ea7603258bf
+Filename: ./libasound2t64_1.2.16.1-1_amd64.deb
+Size: 396876
+MD5sum: 65865cd2a1777649f675028f887d9b0f
+SHA1: 98e95a2ab12c3f40b4a1a5358438196fa58230d9
+SHA256: 8e6970b2bdf54b1f66a75b78018f9640cda78dca440a15293fdafbcf697cc95e
+SHA512: f16769f66e2d6cd1211b1e44e63de2a2efdffec84930f1e60fef650b64834f7d36295c55b32a96de6ca2d28d2b6b89910fc1194c64b3034e1d6031284d44c287
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications
  This package contains the ALSA library and its standard plugins, as well
@@ -15660,23 +15660,23 @@ Description: support library providing __atomic built-in functions
 
 Package: libatopology2t64
 Architecture: amd64
-Version: 1.2.16-1+b1
+Version: 1.2.16.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: alsa-lib (1.2.16-1)
+Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 144
-Provides: libatopology2 (= 1.2.16-1+b1)
+Installed-Size: 143
+Provides: libatopology2 (= 1.2.16.1-1)
 Depends: libasound2t64 (>= 1.2.15), libc6 (>= 2.38)
-Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.16-1)
+Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.16.1-1)
 Replaces: libasound2t64 (<< 1.2.1.1), libatopology2
-Filename: ./libatopology2t64_1.2.16-1+b1_amd64.deb
-Size: 50748
-MD5sum: 7461754ab42a0170f2517d549098967c
-SHA1: 78fcfc8f1bc1982a7e6e7e6cc7277f0c0e032359
-SHA256: ec03a4ff47beff7928feaad1180a8b2944dc4dfb78e4c2d2258ccfd23264a6cb
-SHA512: 353e7e343ad7c811847b6cc85a588fb2763287ce6e853471b2944545e3116fb888ee99bac2da12d4fe5e2b053c99b9d4a7e717328b940bb162772bddd5828aad
+Filename: ./libatopology2t64_1.2.16.1-1_amd64.deb
+Size: 50572
+MD5sum: 01306e9f8c2a48e486c3b74e1486ddc5
+SHA1: 070edf72f21b6e106ee24dae2217ef0915c18f3b
+SHA256: 305796f2cd7a47318f23d1ecaeaecd02d0cd9620ec085cfb5f812e5b5d7a1264
+SHA512: 54cc68b68909ea9af391bb458a547255a03b055bdcf2fa4f63d3d7477b4b84436abb012f3743187b88f2ad55e81a0bb9dd1db5e7e1fbbfa8809c36a2e9a55016
 Homepage: https://www.alsa-project.org/
 Description: shared library for handling ALSA topology definitions
  This package contains the ALSA topology library.
@@ -57793,20 +57793,20 @@ Description: Low-level CSS parser (Python3 version)
 
 Package: python3-typeguard
 Architecture: all
-Version: 4.4.4-2
+Version: 4.4.4-3
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-typeguard
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 165
+Installed-Size: 164
 Depends: python3-typing-extensions (>= 4.14.0), python3:any
-Filename: ./python3-typeguard_4.4.4-2_all.deb
-Size: 37188
-MD5sum: 477264836b3f3c9f10d30832bf5834d3
-SHA1: 25a5f7fa07f58740b197a0b639052f8d9d9d2d90
-SHA256: 313270be9267327b2b175838ad73bdfcb3d4439b159d852946b16abf6a189e25
-SHA512: b27a213fef0cc4f5bbe55025040332c9fca7a24bd7f9f1181942ac225e5c9e5d0d36ebe367b65ef527367f2a11447d7b3a1715a09506070d0615e5f73e8c939e
+Filename: ./python3-typeguard_4.4.4-3_all.deb
+Size: 37116
+MD5sum: 7a7ec1d752b439b2f4a5d749c27adccb
+SHA1: 520136f04e3b72c18ea61ca88a40a431e27a548d
+SHA256: 2c3cdda7a02909d85e17a3d70cbc67b91929154c9d2bf1dc05285c1e67816135
+SHA512: cfb5fc234839e12f198fb3effa82f31e0eaff12acc97796e49bd45cc12cedbe1bb2e70dc204c4e987ffd83cfae015bcf57ac34d931183373d1660db91b53feaf
 Homepage: https://github.com/agronholm/typeguard
 Description: Run-time type checker for Python
  This library provides run-time type checking for functions defined with
@@ -57873,19 +57873,20 @@ Description: Python-UNO bridge
 
 Package: python3-webencodings
 Architecture: all
-Version: 0.5.1-5
+Version: 0.5.1-6
+Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-webencodings
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 56
 Depends: python3:any
-Filename: ./python3-webencodings_0.5.1-5_all.deb
-Size: 11064
-MD5sum: 87974d000fc2235e8bff342fd422179e
-SHA1: e1d4c1ec64a3567743af93e4ba7409e6af17baf4
-SHA256: 355ff9b773667ed2fd97e2fce9ae9101155d90cf5ff09171900bf46e611c0ccb
-SHA512: 8e440b5ff5577d90656c278b5c41066a1677eb1cfb4b5635bce2b09c883f4f8e131ce98fa8d84255e443ef2d6cab3a8cb776a2d882777a89186b105c5b7c9f78
+Filename: ./python3-webencodings_0.5.1-6_all.deb
+Size: 11192
+MD5sum: 139a6ff236e8b038d8b801b4f0d28a62
+SHA1: 8e419f984be82d0624eff429482851684c8ef2fc
+SHA256: b1c3942663138f51bfbbdd96078890ebbf77e6f29c448e406350d25961c9e518
+SHA512: 683d9bc5ca01ba563bc97e7e93902fd1be6857f6fbf338ffb9908aaea1c60d1173ba40534d72b04c2a476948430c5d09006d1948f98cc9c15e5193d999aa22fc
 Homepage: https://pythonhosted.org/webencodings/
 Description: Python implementation of the WHATWG Encoding standard
  In order to be compatible with legacy web content when interpreting something
