@@ -26793,19 +26793,19 @@ Description: utilities for graphical user interfaces
 
 Package: libkf6holidays-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kholidays
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 557
-Filename: ./libkf6holidays-data_6.23.0-2_all.deb
-Size: 55176
-MD5sum: 57d60668a26126071b3493217690f179
-SHA1: d675e36777581fab9bb61c1b7dccbb79017b3f36
-SHA256: d37e6090a07a0c2e28d80c3c93cf111bbf58e6c71efc9cbb97bf2d302709b24b
-SHA512: 6b0b4e0eede39868582b45a3bb872f2729c6144ecb48d9068c6708de4e89eeef2c67ed824ea10b55278ff151948fcf021ef81921701c555cb6e787a980047ee0
+Installed-Size: 651
+Filename: ./libkf6holidays-data_6.26.0-1_all.deb
+Size: 69936
+MD5sum: 1df14a5a92f1850c2cd52e6fd9bb3bfb
+SHA1: 87d30131e258a506f78fb971b906607b47c6b52a
+SHA256: f9ba85802f0057538057a6f298f8de510c73a427e52c63e65fda906ec5a12f6f
+SHA512: d1051036d7df2cf873aacfa14437b17731c3daeaa173cf3a0fc07f0334fbc8fd2c9bb33a7417a1eac113ac82d472d1d836d780a31879cdcd631fd026649a9f56
 Homepage: https://invent.kde.org/frameworks/kholidays
 Description: holidays calculation library
  This library provides a C++ API that determines holiday and other special
@@ -26815,20 +26815,20 @@ Description: holidays calculation library
 
 Package: libkf6holidays6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kholidays
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 585
-Depends: libkf6holidays-data (= 6.23.0-2), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1)
-Filename: ./libkf6holidays6_6.23.0-2_amd64.deb
-Size: 212352
-MD5sum: 3d56d401dfa5f686ae49cb013e91404d
-SHA1: 4042f1952bd14e275bfa48dec603b698bde1ff98
-SHA256: f317eb479347f50cad69ac89bfe60559945662284dca3023214a5e1ebfb8d2c2
-SHA512: 9f26a161909d02bbf37783a752db6785a77064ccc149e85e8029b59acfd627783d39d4d5e13e25febd10089f0895330c7fc99432bf96082acc2a7244f717cced
+Installed-Size: 592
+Depends: libkf6holidays-data (= 6.26.0-1), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1)
+Filename: ./libkf6holidays6_6.26.0-1_amd64.deb
+Size: 213724
+MD5sum: 5077a6d615e7b9c27d48a54c95206d0e
+SHA1: c25c93f786a4cab29ad4692da9a7758dc3cee4fa
+SHA256: c33c5f17d61d7186c864c62491d1bcfef3f73b818b881b3072d19d14c9590579
+SHA512: 48ea2d0309c78e0e9e1672e88d70a68e8d30f8d2a647360fe8bb0ce80bbe07b6d836326301e6e14d66d62d62c62706f53fc24442c4d983d54b9330b69283e9f4
 Homepage: https://invent.kde.org/frameworks/kholidays
 Description: holidays calculation library
  This library provides a C++ API that determines holiday and other special
@@ -35065,23 +35065,23 @@ Description: Layout and rendering of internationalized text
 
 Package: libpangomm-2.48-1t64
 Architecture: amd64
-Version: 2.56.1-2
+Version: 2.56.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pangomm2.48
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 351
-Provides: libpangomm-2.48-1 (= 2.56.1-2)
+Installed-Size: 352
+Provides: libpangomm-2.48-1 (= 2.56.2-1)
 Depends: libc6 (>= 2.32), libcairomm-1.16-1 (>= 1.16.2), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.34.0), libglibmm-2.68-1t64 (>= 2.76), libpango-1.0-0 (>= 1.56.0), libpangocairo-1.0-0 (>= 1.56.0), libsigc++-3.0-0 (>= 2.2.0), libstdc++6 (>= 5)
-Breaks: libpangomm-2.48-1 (<< 2.56.1-2)
+Breaks: libpangomm-2.48-1 (<< 2.56.2-1)
 Replaces: libpangomm-2.48-1
-Filename: ./libpangomm-2.48-1t64_2.56.1-2_amd64.deb
-Size: 84104
-MD5sum: f5a37fb4ab4d7f2c2e7387101792a62b
-SHA1: 26d11497191ad9b0b13a193c68f1eac7ceb59a4b
-SHA256: 57f25c99f46567835176ffff1117da32ba6cf140f2def5de0815bacd307ce17b
-SHA512: 11e664290ff69d5eb52e754287cfb12780ffcfaef13d12811e11a38f8f0c2a040c4ba2567b574fbe163e4336ad5a5ab8d27d9a82a3bf78ec9864f8dc3a1f9188
+Filename: ./libpangomm-2.48-1t64_2.56.2-1_amd64.deb
+Size: 84044
+MD5sum: fdda26f474fd18b8aa3a724b3af31a98
+SHA1: 44051d16b1e5c1bf21ccd514f18aecdd87d59f6f
+SHA256: 4b45608863c089874555872e34c7b2b99175f20b4ec5e2cf4e0451c5216e1ef7
+SHA512: 70f42beb1ae0d2a16c3283925917bec7c39f2bec0399660699846dff49f25c7c983ac80ea3e20a966a686d2144f76b1967f398c5d0bb3ef42d93211452907e25
 Homepage: https://gtkmm.org
 Description: C++ Wrapper for pango (shared libraries)
  Pangomm is a C++ wrapper for the pango library. Originally part of
@@ -58629,20 +58629,20 @@ Description: Extra APIs to write KConfig modules
 
 Package: qml6-module-org-kde-kholidays
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kholidays
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 79
-Depends: libc6 (>= 2.4), libkf6holidays6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kholidays_6.23.0-2_amd64.deb
-Size: 20488
-MD5sum: bbbe586d55f0e066c354961fee8188c8
-SHA1: 01bd141fea9baa5055b2764c3363409413ec9a9b
-SHA256: 5349eb887ad9fadefdbad480699784388f13d45a756a248a270d6ed373c22606
-SHA512: 14722872706f0c74f0db01b576709ac2283a54eeb09b8948de2216db97b6940ad4d0a566304aedfc72fb77bdd63639a8276c22d437a1588bc72b1998dca29afc
+Installed-Size: 77
+Depends: libc6 (>= 2.4), libkf6holidays6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-kholidays_6.26.0-1_amd64.deb
+Size: 19440
+MD5sum: 4aeee8bbb14d5ce78db9420f48f75316
+SHA1: ada5411437c56e6887a1e4825b5cab3c86d075ea
+SHA256: 668920fb7ad22d0aedf5cb5c413edfe1698e5bff06f0ca7445cc662dfa340079
+SHA512: 8ab7ce4e7c59cecdf84835a659932a1ffd696dbb8f981a98154e13d7eb7ddc73c73ebe324d4b8565d2773148f3c3b614b0ffa532b4b35e0a45b5916f3796fd3b
 Homepage: https://invent.kde.org/frameworks/kholidays
 Description: holidays calculation library - qml files
  This library provides a C++ API that determines holiday and other special
@@ -69893,21 +69893,21 @@ Description: LXQt portal backend for xdg-desktop-portal
 
 Package: xdg-desktop-portal-wlr
 Architecture: amd64
-Version: 0.8.2-1
+Version: 0.8.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Installed-Size: 159
 Provides: xdg-desktop-portal-backend
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.113), libgbm1 (>= 21.3.0~rc1), libinih1 (>= 40), libpipewire-0.3-0t64 (>= 0.3.1), libsystemd0 (>= 243), libwayland-client0 (>= 1.20.0), xdg-desktop-portal, pipewire
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.113), libgbm1 (>= 21.3.0~rc1), libinih1 (>= 40), libpipewire-0.3-0t64 (>= 0.3.34), libsystemd0 (>= 243), libwayland-client0 (>= 1.20.0), xdg-desktop-portal, pipewire
 Recommends: slurp | wofi | bemenu
-Filename: ./xdg-desktop-portal-wlr_0.8.2-1_amd64.deb
-Size: 51736
-MD5sum: b1d39365c4e12119b9b62600f683c047
-SHA1: 3f181d287a301a86f92b03632b6ba7fae2c7c2f3
-SHA256: 21e61c8b95c44b3e3cc70a2ddb8df8516d00ef4b1aed09ca7536f3ac1dbd15c3
-SHA512: 224150ee40b2c168ede4fb707f6277b6fca503286c1e637bb3d7f9481d14ebf1021e601f8581ec775a14373f2275b30b1fce00cb96a560bdd159d0e71aaf6561
+Filename: ./xdg-desktop-portal-wlr_0.8.3-1_amd64.deb
+Size: 51684
+MD5sum: 81d7fe42a23d37700fefab2d009f6a8b
+SHA1: 966a291e478aeddbaf407f5887d545dcd6cade03
+SHA256: b7a11dac0a5fa16324aab5817e1c83e8fe17624e6d2136cf4dc7bbe4fd226d85
+SHA512: 06d30890b7d1bbbab2f6359c6a7f113b78f2d0f1aa6444b26d0e5d453012e0806c94a671e55c00829921043b0d1477dd7fcc787e8634685a831b39aa35afd486
 Homepage: https://github.com/emersion/xdg-desktop-portal-wlr
 Description: xdg-desktop-portal backend for wlroots
  Support for the screenshot, screencast, and possibly remote-desktop
