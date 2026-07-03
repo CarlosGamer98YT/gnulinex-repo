@@ -122,19 +122,19 @@ Description: default icon theme of GNOME
 
 Package: afdko-bin
 Architecture: amd64
-Version: 4.0.1+dfsg1-2+b1
+Version: 4.0.1+dfsg1-3
 Priority: optional
 Section: devel
-Source: afdko (4.0.1+dfsg1-2)
+Source: afdko
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 5560
+Installed-Size: 5523
 Depends: libantlr4-runtime4.9 (>= 4.9+dfsg), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1)
-Filename: ./afdko-bin_4.0.1+dfsg1-2+b1_amd64.deb
-Size: 1135780
-MD5sum: a13b3ccdb646561ac8da416b3f4dd3b3
-SHA1: 52cefa145701c52d30a38c4fe195a3d9c0738ccb
-SHA256: 37b3764c71771b0be4c282c20cf207f4a4ed340c1d6f62407e598370a53146c9
-SHA512: 625528bf45916989fb3621298cecf0feb1808d594bfc5219ff9b6d80852b49c27321cc513afa3126694c6a895dc2aebbcbf0ec42fb40d768428c4b528f5abb5d
+Filename: ./afdko-bin_4.0.1+dfsg1-3_amd64.deb
+Size: 1131960
+MD5sum: a2cd688a58a15d7a613c962c0cdfe68b
+SHA1: 282ceefd6a5a0e4af8d1e58c183b35911970c1cf
+SHA256: dc59a0821a3c9ce6776f142ba15ec5d68c50a5ce76ccc46f0fffbafe64c0a50c
+SHA512: 4f226f1ed5494c42ccd862443bfcf37205879ff4702122b8f6ca95e14f196a6521447a3366b6080ea8498696264a04431cb4a463e9c7958b72d436857a7a8ca7
 Homepage: https://adobe-type-tools.github.io/afdko/
 Description: Adobe Font Development Kit for OpenType (Binaries)
  Tools used to make OpenType fonts by adding the OpenType-specific data to a
@@ -16322,7 +16322,7 @@ Description: Bouncy Castle ASN.1 Extension and Utility APIs
 
 Package: libbluray3
 Architecture: amd64
-Version: 1:1.4.1-1
+Version: 1:1.4.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16332,12 +16332,12 @@ Installed-Size: 338
 Depends: libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libudfread3 (>= 1.2.0), libxml2-16 (>= 2.14.1)
 Recommends: libaacs0
 Suggests: libbluray-bdj
-Filename: ./libbluray3_1%3a1.4.1-1_amd64.deb
-Size: 132332
-MD5sum: 89cbcdf87a018de40d7825c04bd0f46e
-SHA1: 8a9673689f8f6fe868a4f94fb1f17db194eb31d8
-SHA256: 150d83dd503573e560f2751621b17e7c164ed0b9d8180f8f41271e30ddd54267
-SHA512: 4c10b5f7fb8fc7bce88a718279f8b13111b044b20b2b4939547ea0e0dd38af76855092cf0c3f9e503b4ebe3ea7cd14a345a598a1f154a7b64b28bb83b7625ccc
+Filename: ./libbluray3_1%3a1.4.1-2_amd64.deb
+Size: 132368
+MD5sum: 24f69b556e92e922ae3a657d7f003803
+SHA1: e8e95e0b9b7e0f88b586835b5200a05437307bb6
+SHA256: b18787ffef31f14f2fd2188e4aba3185ce8f1f1f9151897e54ce31a1947d03c9
+SHA512: 2bb8401527dc8f4a49766b041f1ac4f1bd28d2258cbffc3994d5b70311cd58fdc75f54a93d6e78e31e2b19b77a95da8fe0de5669a11bd95db6e06598d4680005
 Homepage: https://www.videolan.org/developers/libbluray.html
 Description: Blu-ray disc playback support library (shared library)
  libbluray is an open-source library designed for Blu-Ray Discs playback for
@@ -39029,21 +39029,21 @@ Description: office productivity suite -- GTK 4 integration
 
 Package: libreoffice-h2orestart
 Architecture: all
-Version: 0.7.12-1
+Version: 0.7.13-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
 Source: h2orestart
 Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
-Installed-Size: 652
+Installed-Size: 654
 Depends: default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, liblibreoffice-java, libreoffice-core, libreoffice-java-common
 Enhances: libreoffice-writer
-Filename: ./libreoffice-h2orestart_0.7.12-1_all.deb
-Size: 574972
-MD5sum: e664b15f3ddb937534a5b11e1ba9fe4a
-SHA1: c54c8887a9f7a5b9c82c79c42d59c5996b62b010
-SHA256: 03527a0aeac5291ebd20aef4dcacc9f5cf93786af04ff12665913414555d28c5
-SHA512: 0b69b018be35592680f2fa2216c705f7e82b8ca663bd6d32a9c7527df9235d7c433b0a775d5e8c31f3144f1077e8382358ec13729949bcf121d18a2233941578
+Filename: ./libreoffice-h2orestart_0.7.13-1_all.deb
+Size: 576900
+MD5sum: a7600414c95c38dd007dd66e6f4c0d1c
+SHA1: 0bfb4cf2541b4eaa4856354e6278006f10478d5e
+SHA256: 9b88c9f20558285aa95aec63e5dc677ea9edb7ae1e83b1d47821de61d2a71d80
+SHA512: 830401a4bf98b10879df5a1544e9b9437d449e170a5cdab122218c9728343d5b8c8c0079e2a511efbc40cbb39a4a125736cdd6784f7f18caee79df0c6b9bd25e
 Homepage: https://github.com/ebandal/H2Orestart
 Description: LibreOffice import filter for Hancom HWP/HWPX document
  This enhances LibreOffice Writer to read Hancom Office documents, as known as
