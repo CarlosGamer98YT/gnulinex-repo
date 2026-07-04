@@ -6453,19 +6453,19 @@ Description: scientific calculator
 
 Package: galternatives
 Architecture: all
-Version: 1.0.10
+Version: 1.0.11
 Priority: optional
 Section: admin
 Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
-Installed-Size: 313
+Installed-Size: 346
 Depends: gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, python3-gi, python3:any
 Recommends: pkexec, python3-xdg
-Filename: ./galternatives_1.0.10_all.deb
-Size: 51600
-MD5sum: f47444507d4bfc074e1ff747929ac042
-SHA1: 802186435f7504244cc0d451df4d525fe978a919
-SHA256: 534b2c8a40e0f4c4cc75dce784074470d3d34214c3360824a89d1ccc6e446891
-SHA512: 89cdc230d77ba34279414b4b15fabae6a25c036c179d06a9c66f5a33785521af1b79a3232460e82f943093b73ceeaf3478b48a3f94b18a591139e9300932d41f
+Filename: ./galternatives_1.0.11_all.deb
+Size: 56208
+MD5sum: 832c47a8bc3ae3e6debca8f16a793a20
+SHA1: 6c8d2d763b1af5c7da45d5242215687ad9cb95ca
+SHA256: ec330dff768fbb66ad8ff32bdd0b8d924b41c40a4a5f1cc8a5463a67f8bd5726
+SHA512: 74763b943e1a2d6ef6a58bef5e8abf2f4b1a9228db59ea25d407034f58c6b75be627293f16e5282a3b452f09c7269755cdb3445ece28ec5f55bf539bfa1dda79
 Description: graphical setup tool for the alternatives system
  A GUI to help the system administrator to choose what program
  should provide a given service.
@@ -6832,7 +6832,7 @@ Description: GObject introspection data for AccountService
 
 Package: gir1.2-adw-1
 Architecture: amd64
-Version: 1.9.1-1
+Version: 1.9.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -6840,12 +6840,12 @@ Source: libadwaita-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 192
 Depends: gir1.2-gio-2.0, gir1.2-gtk-4.0 (>= 4.21.1), libadwaita-1-0 (>= 1.9~beta)
-Filename: ./gir1.2-adw-1_1.9.1-1_amd64.deb
-Size: 45460
-MD5sum: 81014848c37719a4c312326dee3bc3c3
-SHA1: 3fb34547f9417ef7a88cca338f62fbcf4adfbcd1
-SHA256: a918a43604efbeb47acefc77cc8aa65a203c4e8166aebeda5f1c97e51abbe6dc
-SHA512: 09503ff0224b44671bd3f38586cfcae6ac040c81c3af67b982164df1eb27fd8dbdff6886f4711794d7c9f32d177cae36476d66c5cd1ec2becfbfe49e1070363d
+Filename: ./gir1.2-adw-1_1.9.2-1_amd64.deb
+Size: 45532
+MD5sum: cd15e9ae113a60ca48c826cd4124ce80
+SHA1: 7edb5943d637d3e1e5d47048a9c9e64fc9f1d96d
+SHA256: 196920fb63c8de04c114020970e7d9dd924de6f045b66a73ca3fc6ac8e388a25
+SHA512: 9ba75a79b38922d3a52f6ce9974c18e20c1aa0d8122cacae8176133eba5fe8840b613785d74e0bb3b6b1c57a4a0bd5915ae57eda7056b75e366623ef03306599
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Description: GObject introspection files for libadwaita
  libadwaita provides GTK widgets and GObjects to ease developing
@@ -14888,7 +14888,7 @@ Description: JavaBeans Activation Framework
 
 Package: libadwaita-1-0
 Architecture: amd64
-Version: 1.9.1-1
+Version: 1.9.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -14896,12 +14896,12 @@ Source: libadwaita-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 2795
 Depends: libappstream5 (>= 1.0.0), libc6 (>= 2.38), libfribidi0 (>= 0.19.2), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.1), libpango-1.0-0 (>= 1.14.0)
-Filename: ./libadwaita-1-0_1.9.1-1_amd64.deb
-Size: 586828
-MD5sum: f6d00014eed42f9641dccadc19c134a0
-SHA1: fc2ddc7f3f3bee24f1b009ef86173ee4ed231361
-SHA256: fa30502c7f58f12f0ec9ed5e375370ee4b15e9105c22ef926672667243a0eedd
-SHA512: b3ccc748651676a4278200614022601aceb8affd39e84a3bc19fcfa02502ea67e95110ebce58b5c400f19c142d6b628c58d7c975772a2e8630a125ae56df87da
+Filename: ./libadwaita-1-0_1.9.2-1_amd64.deb
+Size: 586500
+MD5sum: d1f9f3c4af0053a9035ab7298201239f
+SHA1: 758c407d13600dc3a26cab4abf7c1354acb851cf
+SHA256: b35273612f811d1e680d6536b6289769685de066f1f83fbccb7a581c626c0972
+SHA512: fa5b9c4451074b9c88a9656ba8acaa4ac9f6ae03511f8e139db71a104d9486ea5533509b25db3177f6cc202c13dd96a7d2d60717d053315863c06e8deb44d5a9
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Description: Library with GTK widgets for mobile phones
  libadwaita provides GTK widgets and GObjects to ease developing
@@ -32659,23 +32659,23 @@ Description: Java database driver for MariaDB and MySQL
 
 Package: libmariadb3
 Architecture: amd64
-Version: 1:11.8.6-6
+Version: 1:11.8.8-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mariadb
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 580
+Installed-Size: 565
 Depends: mariadb-common, libc6 (>= 2.34), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: mariadb-galera-server-10.0, mariadb-galera-server-5.5, mariadb-server-10.0, mariadb-server-5.1, mariadb-server-5.2, mariadb-server-5.3, mariadb-server-5.5
 Breaks: libmariadbclient18
 Replaces: libmariadbclient18
-Filename: ./libmariadb3_1%3a11.8.6-6_amd64.deb
-Size: 179820
-MD5sum: 6a497d593e2d4649c0b4ee23ce137dac
-SHA1: fcf662eb9d253cf012b645acdc7455127b776835
-SHA256: c997262427678605a027089ad4c9e79aca41474cf6b800ca4b60511894de99c9
-SHA512: 1ff2beda27b72494f24884343eb0604ccada43cbb2a6c6fb3cb4bd0e20ad062072468a52a45048620543e501ecc4030b664de0397045e4c4e61b806816fde539
+Filename: ./libmariadb3_1%3a11.8.8-1_amd64.deb
+Size: 176072
+MD5sum: 01a1ba663d08dbb4bd7b6a3208bcd30d
+SHA1: 2f72bedf0aef63704dc64635b76c08ec3da24e76
+SHA256: fc263b54008be0d8878a05e237fd61acc0e1f396e2d67ac0781e5852bd6a6279
+SHA512: 11a8a3f2b51179bc977dcc9b3ee43387bfb7539ec29b94ff6ae319715f9b32a1f6b5b22e9d67117388fb09c912353f48a69766735d924bb278cc46c26b8be7d7
 Homepage: https://mariadb.org/
 Description: MariaDB database client library
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
@@ -52517,23 +52517,23 @@ Description: lightweight GTK+ window manager for MATE
 
 Package: mariadb-client-core
 Architecture: amd64
-Version: 1:11.8.6-6
+Version: 1:11.8.8-1
 Priority: optional
 Section: database
 Source: mariadb
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 15075
+Installed-Size: 19670
 Provides: virtual-mysql-client-core
-Depends: libmariadb3 (>= 10.5.4), mariadb-common (>= 1:11.8.6-6), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
+Depends: libmariadb3 (>= 10.5.4), mariadb-common (>= 1:11.8.8-1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
 Conflicts: mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, virtual-mysql-client-core
-Breaks: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.6-6), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0
-Replaces: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.6-6), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0, virtual-mysql-client-core
-Filename: ./mariadb-client-core_1%3a11.8.6-6_amd64.deb
-Size: 912400
-MD5sum: a559aa40bb29c39aaa8f337c9f7f9c44
-SHA1: b16da9049a5ee8c2a3aa1401a2897a935b78b6c4
-SHA256: dfcbc1a261d5c0db3a89bd7ce4612adcff4a27562ab2921923db5d65f185710c
-SHA512: 900c8fdd1e3cf6413b16bd7f55df7216ecee6246b4d694a6ec07b76f719e3a9a110212d874112f4c47aa72ff34aa3237fc467edbad3a69f6bd76b3382ecca25d
+Breaks: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.8-1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0
+Replaces: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.8-1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0, virtual-mysql-client-core
+Filename: ./mariadb-client-core_1%3a11.8.8-1_amd64.deb
+Size: 967208
+MD5sum: 1cf3af9a12c484c8682c5f0bb69e82f7
+SHA1: 35477badecd27b92a925fec5ce0fe38cd3868189
+SHA256: 8f1c79ab7ad256bc8992a3c411d1d1b0a89f4a91e92e2355b006de894f472ca0
+SHA512: 060577ee60de6d8e7cf4074c961c697aa19335f3589acd93bc8177dc2aa375f0f3a2dad5977c18fa278ff6863efc143a366da0e24b83447a8d6e2d79cfd78dff
 Homepage: https://mariadb.org/
 Description: MariaDB database core client binaries
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
@@ -52545,24 +52545,24 @@ Description: MariaDB database core client binaries
 
 Package: mariadb-client
 Architecture: amd64
-Version: 1:11.8.6-6
+Version: 1:11.8.8-1
 Priority: optional
 Section: database
 Source: mariadb
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 64763
+Installed-Size: 63884
 Provides: virtual-mysql-client
-Depends: debianutils (>= 1.6), mariadb-client-core (>= 1:11.8.6-6), perl:any, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcre2-posix3 (>= 10.34), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), zlib1g (>= 1:1.2.0)
+Depends: debianutils (>= 1.6), mariadb-client-core (>= 1:11.8.8-1), perl:any, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcre2-posix3 (>= 10.34), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), zlib1g (>= 1:1.2.0)
 Suggests: libdbd-mariadb-perl | libdbd-mysql-perl, libdbi-perl, libterm-readkey-perl
 Conflicts: mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mytop, virtual-mysql-client
-Breaks: mariadb-client-10.0, mariadb-client-10.1, mariadb-client-10.2, mariadb-client-10.3, mariadb-client-10.4, mariadb-client-10.5, mariadb-client-10.6, mariadb-client-5.5, mariadb-client-compat (<< 1:11.8.6-6), mariadb-client-core (<< 1:11.8.6-6), mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-server (<< 1:11.8.6-6), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-client-core (<< 9.9~), mysql-server-5.5, mysql-server-5.7, mysql-server-core (<< 9.9~), mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7
-Replaces: mariadb-client-10.0, mariadb-client-10.1, mariadb-client-10.2, mariadb-client-10.3, mariadb-client-10.4, mariadb-client-10.5, mariadb-client-10.6, mariadb-client-5.5, mariadb-client-compat (<< 1:11.8.6-6), mariadb-client-core (<< 1:11.8.6-6), mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-server (<< 1:11.8.6-6), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-client-core (<< 9.9~), mysql-server-5.5, mysql-server-5.7, mysql-server-core (<< 9.9~), mysql-server-core-8.0, mytop, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, virtual-mysql-client
-Filename: ./mariadb-client_1%3a11.8.6-6_amd64.deb
-Size: 3165004
-MD5sum: 539cda623a2d83ee6b47dfabe144868d
-SHA1: 817dae343677558bc0a2d9fc04a842b5fbf58415
-SHA256: c37bb94e0df42b6f3d19b9c1923fb973ccf64f95f3505c608495fb7919eacb2c
-SHA512: 0b131f56faab762583a567873e7c876eb4b4a4d13364aaf1eebfe41206572a8fc249a9657b63a655b11e014aa66ffc07c0ead4f610a32f0bb2c2b5b2c4c831fd
+Breaks: mariadb-client-10.0, mariadb-client-10.1, mariadb-client-10.2, mariadb-client-10.3, mariadb-client-10.4, mariadb-client-10.5, mariadb-client-10.6, mariadb-client-5.5, mariadb-client-compat (<< 1:11.8.8-1), mariadb-client-core (<< 1:11.8.8-1), mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-server (<< 1:11.8.8-1), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-client-core (<< 9.9~), mysql-server-5.5, mysql-server-5.7, mysql-server-core (<< 9.9~), mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7
+Replaces: mariadb-client-10.0, mariadb-client-10.1, mariadb-client-10.2, mariadb-client-10.3, mariadb-client-10.4, mariadb-client-10.5, mariadb-client-10.6, mariadb-client-5.5, mariadb-client-compat (<< 1:11.8.8-1), mariadb-client-core (<< 1:11.8.8-1), mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-server (<< 1:11.8.8-1), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-client-core (<< 9.9~), mysql-server-5.5, mysql-server-5.7, mysql-server-core (<< 9.9~), mysql-server-core-8.0, mytop, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, virtual-mysql-client
+Filename: ./mariadb-client_1%3a11.8.8-1_amd64.deb
+Size: 3067960
+MD5sum: b7fe8d4666b76c1419d4f7c0a07a43ec
+SHA1: b6eb74c1712219219108f713216074388d602275
+SHA256: c6d1feb4ce02763751df16aad3b76a913dc27c55988dec20b37b4967a23e95e4
+SHA512: cb6d1cbba0d4e59a202f7826e45d98960a0aabe794021421e5c51c722ec7e2f92eeb8bf4a63a6dfe4ba8a22fb7869a8f6e81182c85e088a8179c34e117e1a374
 Homepage: https://mariadb.org/
 Description: MariaDB database client binaries
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
@@ -52575,20 +52575,20 @@ Description: MariaDB database client binaries
 
 Package: mariadb-common
 Architecture: all
-Version: 1:11.8.6-6
+Version: 1:11.8.8-1
 Multi-Arch: foreign
 Priority: optional
 Section: database
 Source: mariadb
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 63
+Installed-Size: 64
 Depends: mysql-common (>= 5.6.25)
-Filename: ./mariadb-common_1%3a11.8.6-6_all.deb
-Size: 22460
-MD5sum: 0e88667080701ac4667b95ff4deb35a9
-SHA1: 7b1d595094e12fc0d9c80c5a27e4db2521186fe7
-SHA256: 9c8268062c55669d2de0dad5f4eac1149fdba3cb00aab4ec16b0ca6a4f0e3ed7
-SHA512: 631d867cbf0206fd8a6593d47533efe80b1bf4ed42273a18f58adc7f6ea60bbd81a804b3662739af6ea9e16175ff9b9797c3eb42f249a5eb84a57a35cc6c2af2
+Filename: ./mariadb-common_1%3a11.8.8-1_all.deb
+Size: 23164
+MD5sum: b899429a50f6d30457c3f765528958dd
+SHA1: 1b55cae9c295f788ac7820a0ca53a2bd5dce4bad
+SHA256: c6f433e77984ac88914663f46b16331b273b7d53b3c4d2ed75532f6248207943
+SHA512: 2c8fd9b4a71e135e3aece10712cc45d968b95585448348b429fef20a3a729b80651b12675af5b42039843d78f947062d6cf67e861e0ad1da7d93e71916c109d7
 Homepage: https://mariadb.org/
 Description: MariaDB database common files (/etc/mysql/mariadb.conf.d/)
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
