@@ -52019,21 +52019,22 @@ Description: Language package for lxqt-session
 
 Package: lxqt-session
 Architecture: amd64
-Version: 2.4.0-1
+Version: 2.4.0-1+b1
 Priority: optional
 Section: x11
+Source: lxqt-session (2.4.0-1)
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 563
+Installed-Size: 564
 Provides: x-session-manager
-Depends: lxqt-qtplugin (>= 2.4.0~), lxqt-themes, x11-xkb-utils, libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.6.0~), liblxqt2 (>= 2.4.0~), libproc2-0 (>= 2:4.0.4), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6
+Depends: lxqt-qtplugin (>= 2.4.0~), lxqt-themes, x11-xkb-utils, libc6 (>= 2.34), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.6.0~), liblxqt2 (>= 2.4.0~), libproc2-1 (>= 2:4.0.6), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6widgets6 (>= 6.1.2), libqt6xdg4 (>= 4.4.0~), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6
 Recommends: lxqt-config, lxqt-notificationd, lxqt-policykit, lxqt-powermanagement, lxqt-session-l10n, lxqt-sudo, pcmanfm-qt, qlipper, qps, xdg-desktop-portal-lxqt, xscreensaver | light-locker | i3lock | suckless-tools
 Breaks: xdg-desktop-portal-lxqt (<< 1.1.0~)
-Filename: ./lxqt-session_2.4.0-1_amd64.deb
-Size: 148616
-MD5sum: 20c1bcd50e9d60a2daba2e8d2c248b80
-SHA1: ca1bd24adde9c1cb8abeb7bf53127352bbd8b5d2
-SHA256: 5f7f77727ae04f1753b5a020070fe40513a3602f691b671f35e764e645075465
-SHA512: 43d2585b95e27b205d33ab4f46ba37c4dcd0c6b9d5819f56220d72f75525963d807a4df52822adfd7f6ff5c72fad098faba8c9e67fac71007287ee1bd1bbec03
+Filename: ./lxqt-session_2.4.0-1+b1_amd64.deb
+Size: 148676
+MD5sum: 2ec2edf426f1e3eb34b7ff3a3ff7fc9e
+SHA1: 35946b0a52a2fabad7c79887fa79e3df663aeb5a
+SHA256: e6ad5c9fd381853002866fc48a9ceb7ef4cfe0a68e27f002e4ba41fdb55aa87e
+SHA512: ba7959c339dcdc8f10e977b75e2126d0ec48e8e8a7898aa94fb7569da970292b02b5b690bbbeb98da7f5780f686b4c2d76534c09ca09eb4ff2f6ff93e216dc1f
 Homepage: https://github.com/lxqt/lxqt-session
 Description: session manager component for LXQt
  LXQt is an advanced, easy-to-use, and fast desktop environment based on
