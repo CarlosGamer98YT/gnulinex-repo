@@ -9145,7 +9145,7 @@ Description: GObject introspection data for the Totem Playlist Parser library
 
 Package: gir1.2-upowerglib-1.0
 Architecture: amd64
-Version: 1.91.2-1
+Version: 1.91.3-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -9153,12 +9153,12 @@ Source: upower
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 25
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libupower-glib3 (>= 0.99.14)
-Filename: ./gir1.2-upowerglib-1.0_1.91.2-1_amd64.deb
-Size: 7952
-MD5sum: fae22f3450263b22da51685c88fc684a
-SHA1: 07dc38b689b6730367262743a2c2326ed7f0682e
-SHA256: cd095721bee01aa23139c01d71f7ea216c7f9c7e32553ec744619f1fb984e103
-SHA512: 66c0034f9d94729a85640349a7c2e40056e88f56fe23cca14ffe0a21ab1edea8ecdaf6a08c907d794f149ec7e22970f3b2d91a07fb0dbb090abab9038ef2d81f
+Filename: ./gir1.2-upowerglib-1.0_1.91.3-1_amd64.deb
+Size: 7996
+MD5sum: 95b62632832afe33fd8eb60795b72797
+SHA1: 08be2374ae162726eb49dc4e1f08894d11d038ef
+SHA256: 530d8ca37d5bb6ac45aeae5d20563e3c74dafff3d6de4ec75dc0ea8c2214148f
+SHA512: b4c8cb3d2b4b4d5c557fc93e6dcf0b7790e2d40ce138c3179c1da4a1af4c5ae0b55f417e4611139ad1f60cdd479206ab20d17e57792dc7a573fbc888cdb702c9
 Homepage: https://upower.freedesktop.org/
 Description: GObject introspection data for upower
  upower provides an interface to enumerate power sources on the system
@@ -20049,23 +20049,23 @@ Description: Document (PostScript, PDF) rendering library
 
 Package: libevent-core-2.1-7t64
 Architecture: amd64
-Version: 2.1.12-stable-10+b2
+Version: 2.1.13-stable-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libevent (2.1.12-stable-10)
+Source: libevent
 Maintainer: Nicolas Mora <babelouest@debian.org>
-Installed-Size: 306
-Provides: libevent-core-2.1-7 (= 2.1.12-stable-10+b2)
+Installed-Size: 305
+Provides: libevent-core-2.1-7 (= 2.1.13-stable-1)
 Depends: libc6 (>= 2.38)
-Breaks: libevent-core-2.1-7 (<< 2.1.12-stable-10)
+Breaks: libevent-core-2.1-7 (<< 2.1.13-stable-1)
 Replaces: libevent-core-2.1-7
-Filename: ./libevent-core-2.1-7t64_2.1.12-stable-10+b2_amd64.deb
-Size: 133604
-MD5sum: 23def27341445b6101160c0ad9736c92
-SHA1: 124d68f2493e13a2137ad135509d6231f64011b1
-SHA256: a1bf40fdddaa5e41d132e8ef1157a30a2d1711425c5f4c8a54afaa1b8154e49e
-SHA512: 8ed5c92c0a9efe5486041fb78bc40d2716a265d533504a564f9627e6a5e742eacaa5549850d0fdeef39701178e3675e1ac4dbcee6991df640feae7de9147b4cf
+Filename: ./libevent-core-2.1-7t64_2.1.13-stable-1_amd64.deb
+Size: 133028
+MD5sum: ef2226088cd7f6bc963eaf9f1324459e
+SHA1: 730ec77f6010be19c4e4e09b144abb986456309c
+SHA256: 544ca760ced0fba6c4c24f8078726031a04e8b7d9890f576ea9cd724cdbb8ee1
+SHA512: 4c37cf7161024c43ef37c2e69f445d13fa48ef82a4f633fe39832d0a464b1322296a693cf0841c8e19a2c9dd1004f5690f7b918d577e9ff3bc22423f7a0fb666
 Homepage: https://libevent.org/
 Description: Asynchronous event notification library (core)
  Libevent is an asynchronous event notification library that provides a
@@ -20084,23 +20084,23 @@ Description: Asynchronous event notification library (core)
 
 Package: libevent-extra-2.1-7t64
 Architecture: amd64
-Version: 2.1.12-stable-10+b2
+Version: 2.1.13-stable-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libevent (2.1.12-stable-10)
+Source: libevent
 Maintainer: Nicolas Mora <babelouest@debian.org>
-Installed-Size: 230
-Provides: libevent-extra-2.1-7 (= 2.1.12-stable-10+b2)
-Depends: libc6 (>= 2.38), libevent-core-2.1-7t64 (= 2.1.12-stable-10+b2)
-Breaks: libevent-extra-2.1-7 (<< 2.1.12-stable-10)
+Installed-Size: 229
+Provides: libevent-extra-2.1-7 (= 2.1.13-stable-1)
+Depends: libc6 (>= 2.38), libevent-core-2.1-7t64 (= 2.1.13-stable-1)
+Breaks: libevent-extra-2.1-7 (<< 2.1.13-stable-1)
 Replaces: libevent-extra-2.1-7
-Filename: ./libevent-extra-2.1-7t64_2.1.12-stable-10+b2_amd64.deb
-Size: 107908
-MD5sum: 6dd4d4c679d5cb6306abc5022604a5c5
-SHA1: adfcab69545639685234fbd17184bfa2c4dc5663
-SHA256: 7806a8d23271a93f638c094823c781f156e1fff9239c7885e0734e21eaf59201
-SHA512: 5d31c80829a435b4174ecc8044860f77688adfca387b0c2b5d2942c8e9d52f305a4336b8555b6bab775bdf99cfcf573940aff050fd307102c717a9bd7b2bcc90
+Filename: ./libevent-extra-2.1-7t64_2.1.13-stable-1_amd64.deb
+Size: 108096
+MD5sum: a632a005f0c64d5633788ba1b73c349e
+SHA1: 250aca54b1fe21422d70e904a548b48d47d41a77
+SHA256: 2a37729497eb7fc3861041afd510cdef02b6431ca4daffa221d356290c82c0cd
+SHA512: 494f54793400f7b634958d8590c5185f4efc6bdbbc5c2eb707b68d4ba73e1d2b7c71967245ab6194eef42b4e7b212d90e2131674d3d80ffa2564a8d1da599f65
 Homepage: https://libevent.org/
 Description: Asynchronous event notification library (extra)
  Libevent is an asynchronous event notification library that provides a
@@ -46188,20 +46188,20 @@ Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
 
 Package: libsso-mib0
 Architecture: amd64
-Version: 0.9.0-1
+Version: 0.10.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: sso-mib
 Maintainer: Luca Boccassi <bluca@debian.org>
-Installed-Size: 88
+Installed-Size: 97
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0), libjson-glib-1.0-0 (>= 1.5.2), libuuid1 (>= 2.16)
-Filename: ./libsso-mib0_0.9.0-1_amd64.deb
-Size: 20636
-MD5sum: 8408b074984b3b6957fb2506fd4e3477
-SHA1: bd83928ad2519c56b23a35258bcc49877e9cd506
-SHA256: bbd1796b80d3ce06ba9a572b6642e9d23740ee6c23e4a3134e0a2f975a6f4ffd
-SHA512: 66620e5304fa9e677b14f9613bf6cd0d28fd6fffac7040ca189894e1794ef6d7d21573dc7f4a2c19571511a0cc85af70ef05794e6380ce9ebb54ccda7d17a2bb
+Filename: ./libsso-mib0_0.10.0-1_amd64.deb
+Size: 23736
+MD5sum: bb285d8319d28accb717bee43f7d4bec
+SHA1: 45228bdbf395111d74c2bfe71218c63f109c778d
+SHA256: 35565deb4d1d67db8c3918c3bc99bfa8c95d9100b2badb988c3b5ebdd8721fd1
+SHA512: 7df215d5746a539740873fc370a8e6686c6e5441190c21dbd172386b3fd459482d6a4f312297686da9d48f3db135c2ad8a34791595a9e9396c76753ff7172423
 Homepage: https://siemens.github.io/sso-mib/
 Description: Single-Sign-On with CA for Entra via Himmelblau (library)
  Applications can link with this library to get Entra Conditional Access tokens
@@ -47901,7 +47901,7 @@ Description: LibreOffice UNO runtime environment -- (Java) UNO loader
 
 Package: libupower-glib3
 Architecture: amd64
-Version: 1.91.2-1
+Version: 1.91.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47910,13 +47910,12 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 171
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0)
 Recommends: upower
-Breaks: gir1.2-upowerglib-1.0 (<< 0.99.18), upower (<< 0.99.18)
-Filename: ./libupower-glib3_1.91.2-1_amd64.deb
-Size: 39784
-MD5sum: 765121b553851c247188127c828213b4
-SHA1: 13a7ef601f9d6642179053bcc2b7f81e14836147
-SHA256: 8f39168597610b436b331e0531fbfb0243b56f4968ec42bcd080e87fe95da033
-SHA512: 8c4563b8fef8a28ac1a76797eabcbea152707ff85e79e6240849cd1b22416ee0c1d9ce97469c690f8307dfc389d1b35e53c50ce557b3b962513d6e71601de2c4
+Filename: ./libupower-glib3_1.91.3-1_amd64.deb
+Size: 39724
+MD5sum: 58deb37cbb82452ae2585ab8624df242
+SHA1: f02e5fa4f47325da726160fa3f6f536c6d48621d
+SHA256: 1f9d426ec6dda2d158655cff9495552cf8e4dfdaf2e7a9ca71be5036af49fcc6
+SHA512: a97756ec1926e6e0dd2318c4b4caffb53a8f9a3125daec26713942b4a8a25b78dc38181230f2caefac514f7d9d0afdf4378cfa2de70651552ecca45bb7eee341
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management - shared library
  upower provides an interface to enumerate power sources on the system
@@ -68666,20 +68665,20 @@ Description: remove LaTeX commands from input
 
 Package: upower
 Architecture: amd64
-Version: 1.91.2-1
+Version: 1.91.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 361
-Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.2-1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.99)
+Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.3-1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.99)
 Recommends: polkitd
-Filename: ./upower_1.91.2-1_amd64.deb
-Size: 105356
-MD5sum: a53128fd3d1dc6bafb47bb31cdf4f19f
-SHA1: daa1bcd6ac3a9abb242cae5c734c0b64ad826a70
-SHA256: 4bea0ff55c4c601182f14990da760f1c55b6e04614c617b29b9d21d106245793
-SHA512: 16cb47be56cbf105e36326fca5667caad0af8bdee93a996239c2fda8eec39196391e550b0244b85aecab80587df20ec7a0e9ee9c2bf291a4f4734d6e72c70991
+Filename: ./upower_1.91.3-1_amd64.deb
+Size: 105648
+MD5sum: f83088105458558dbc190fb4e9618e75
+SHA1: 66ab7485e08a8d1cd35ec255d6f3d8313559397f
+SHA256: f15c478a7f8aefc26cdfb4a0a8346e3cd0f5bd99f5d20ff6fbaced385a93f2a1
+SHA512: f9da5763d836afa8eee4517cbc8c92ae0ed446db2e3bb276c0642e261c00be64f19fa8db1c7929608d12b7bebe05a91abb8a9f641628b79dbe88978ade49dcbf
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management
  upower provides an interface to enumerate power sources on the system
