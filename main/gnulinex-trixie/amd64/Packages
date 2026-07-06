@@ -68471,18 +68471,18 @@ Description: TPM2 Software stack library - udev rules for TPM modules
 
 Package: transmission-common
 Architecture: amd64
-Version: 4.1.2+dfsg-1
+Version: 4.1.3+dfsg-1
 Priority: optional
 Section: net
 Source: transmission
 Maintainer: Leo Antunes <costela@debian.org>
-Installed-Size: 838
-Filename: ./transmission-common_4.1.2+dfsg-1_amd64.deb
-Size: 254676
-MD5sum: acf65cb3e695f7fb1ea5e45d6e716866
-SHA1: 79fe77679d494a507d561e8e1aeff562d23f7dfa
-SHA256: 609fa53fa80bec52773043011821dab374d8ad74e553543b1efa8588c702f685
-SHA512: e39da3e4d520e8a1576ec44d88eafc809ab7552d7012ce0414889add1027c098e08f0c58addc70e846ea3d297d68cb5c13e6a69e5d21e4f74e0f8561aca29122
+Installed-Size: 839
+Filename: ./transmission-common_4.1.3+dfsg-1_amd64.deb
+Size: 255008
+MD5sum: c45e2e1b0f40d9b26463250902714e73
+SHA1: a2ab2f226f1e4eca708c2ffceacf7be60c52c365
+SHA256: bac7f3ef4c46852ed7824a14dfe563a9dc4f65e12b054e20e7f39c9a7b2043ef
+SHA512: 643e7ed4788b088d42c3095b980080e72685f8770772de6fb9dc39a6df43c6338cf0118c85e327e5cd797362801e688c4ac4f5e4dfd3c6f32e6ed1e1295c2b52
 Homepage: https://transmissionbt.com/
 Description: lightweight BitTorrent client (common files)
  Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
@@ -68494,20 +68494,20 @@ Description: lightweight BitTorrent client (common files)
 
 Package: transmission-gtk
 Architecture: amd64
-Version: 4.1.2+dfsg-1
+Version: 4.1.3+dfsg-1
 Priority: optional
 Section: net
 Source: transmission
 Maintainer: Leo Antunes <costela@debian.org>
 Installed-Size: 6259
-Depends: transmission-common (= 4.1.2+dfsg-1), libb64-0d (>= 1.2), libc6 (>= 2.38), libcurl4t64 (>= 7.28.0), libdeflate0 (>= 1.0), libevent-core-2.1-7t64 (>= 2.1.8-stable), libevent-extra-2.1-7t64 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.70.0), libglibmm-2.68-1t64 (>= 2.77.0), libgtk-4-1 (>= 4.0.0), libgtkmm-4.0-0 (>= 4.11), libminiupnpc21 (>= 2.3.3), libnatpmp1t64 (>= 20150609), libpangomm-2.48-1t64 (>= 2.50), libpsl5t64 (>= 0.19.1), libsigc++-3.0-0 (>= 3.2.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
+Depends: transmission-common (= 4.1.3+dfsg-1), libb64-0d (>= 1.2), libc6 (>= 2.38), libcurl4t64 (>= 7.28.0), libdeflate0 (>= 1.0), libevent-core-2.1-7t64 (>= 2.1.8-stable), libevent-extra-2.1-7t64 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.70.0), libglibmm-2.68-1t64 (>= 2.77.0), libgtk-4-1 (>= 4.0.0), libgtkmm-4.0-0 (>= 4.11), libminiupnpc21 (>= 2.3.3), libnatpmp1t64 (>= 20150609), libpangomm-2.48-1t64 (>= 2.50), libpsl5t64 (>= 0.19.1), libsigc++-3.0-0 (>= 3.2.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
 Recommends: xdg-utils
-Filename: ./transmission-gtk_4.1.2+dfsg-1_amd64.deb
-Size: 1477136
-MD5sum: 42ce42deef3ced0928f22a134122596d
-SHA1: f2138abb7e4e1f31281630f562af1f0c68ff533c
-SHA256: 0b923957ccac4037460df0b8ae5f337d9b0ad69ca5bd4de1fda55b263bdba4f6
-SHA512: 70842d3a58c04cfaef2ce3bf975dd7f13ea8a696833d2a8d10df98fb24248916b372b283a9d9d59f0dd51ea131377c361cb1dc36f75105cb9824dd81afbb197d
+Filename: ./transmission-gtk_4.1.3+dfsg-1_amd64.deb
+Size: 1477888
+MD5sum: c93a71f33a61f3633a204d64f31d075b
+SHA1: 299539221cf8cd354d234151837699c46ad52d71
+SHA256: a2e49575ac486ff726918d6177d468542ee215d07ecc16ac222632f22efcb01a
+SHA512: 793388dd08307d2641e1dd199171c04865a5efa62ad85a8c742374b8924ceb833fceb82bb700514be43e3abc535f502c8e4ffe1ada7147d3676cf51deeafa535
 Homepage: https://transmissionbt.com/
 Description: lightweight BitTorrent client (GTK+ interface)
  Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
