@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64 all
 Codename: forky
 Components: main
-Date: Sun, 05 Jul 2026 03:49:17 +0000
+Date: Mon, 06 Jul 2026 10:43:40 +0000
 Label: GnuLinex Repository
 Origin: GnuLinex
 Suite: stable
 MD5Sum:
- 695907dfcd776f5733554e7c1b529df4          3479994 Packages
- 91780e137256b9fc0a9efa6b82d10e75          1003433 Packages.gz
- 98ecfc4f80cd5a5d8418ade7345d8213              154 Release
+ 85fe3ff2577833d5419cd243012e51db          3480002 Packages
+ 96bcda4afec00a47dd55f34b0823f863          1003405 Packages.gz
+ 5f08637d22c0ddef58899d4edaaf6c89              154 Release
 SHA1:
- 986471d675bfdd16fcb75af34592e3db353b23a0          3479994 Packages
- 8417a61dcd3a1f21af639f2a0d821d4a031b7fea          1003433 Packages.gz
- a3b98afa4b0de4b23a0b03bd3fba7ef4fd104c34              154 Release
+ cd1754ed8ee51afc9d2abfe1400b682d6e904fe6          3480002 Packages
+ f407ac855d2679c89dca12d47aa936b537374b5d          1003405 Packages.gz
+ cbf7f37a0dbda00589fcd436eaa372a6b333dd34              154 Release
 SHA256:
- a5479c9b8f5d883560d16977ce9a66a579829a7eb7f7f0931ba2bacfeaded28e          3479994 Packages
- e6960bd84adb856d9f25c5af972bcedd56f34ad047c93e2ce15463670431ce4d          1003433 Packages.gz
- 0380a32b4d93d4e9d9cd722933f3bbd9e6ddb51cd498e34fc870975554e750d3              154 Release
+ 364a52f70e352ac28a40f9c06af6037d1c8c4778c4f06913ee6b65c96deb8b59          3480002 Packages
+ 23b6c189456146b662cdb3f080c63d22411d10a3f35d2d800ee1e7851c98ea3e          1003405 Packages.gz
+ 08eb6b8805ddcb459bd25185dc41894c8bbd21c5ffd360919ee8aca1663be363              154 Release
 SHA512:
- e973a47a21ddcf559d0ecb5cde0f77babb7d701f7a0a69c031186a00180c56b4dc184d1011a92a196fcfcf31fcebaf4eac698556ae8c94249d9085d2ffd37a28          3479994 Packages
- b8e69c858f1dd3dcddfdfa6527acaf61183969b7f73615f98803fb74eba840a8272ee2821b223fc2f63a9a0e63630382b89568010969accd7850ee25919cd650          1003433 Packages.gz
- 8bd48fa7da67286faf3aee0363ca476cbb1fd9dcec329552c186136a5a03b0fa231c378d197244323bcc4ad36c5dcc3060a45734bbb53c53f916e6b100c3bd47              154 Release
+ b6fbdb6711f6ddd17fcb6b7ce67f334b9b049950120ea92fb47f051bf90fea80e434d59773a48b0bd7d99677e6fc057622fc6295edbcceadde3d3ef4107be973          3480002 Packages
+ fc5c8d82e30f3d0ad8b5fd457197bf762040d23b9f841a57855b6db7e23cdac4dab82b187563d7d43de90e63e4f90942074c2c81dacdd9a8632100dca8a71258          1003405 Packages.gz
+ 00a04dfbb01eb2c9a67e61230956f18370ee40d67ae19158ea48c48b29c82573b05332385472189b568d90d76f5d5ebdb7c387d5f5b16bb93d959b820b1ee53d              154 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmpJ1D0ACgkQB28BYc8+
-H788PQ/+NtnsehVXDdMfJkwTlfhKu5IKPkNgv/AMi7tk+0rulf+UU50OUcGbt/+5
-EzLJNe/Z4EIgGdRtClJyFhOU23Nxpygws54espEPA4OAc8h/RrCP0o01Buq2hmpx
-phyJ7YGcCu9lt3WpvvPUfrRB/LQ4leBiJ6beMykw6+wxc6cH2Ry+K/i2rJ7JHmOS
-GUJDOvvB0lRoxPg5ESNmYOrfm4Jd+yyo6nI7tfugY+ttFOB0bzSTC/wxv92DHa+4
-HYfOppotIOxY8X3kqmtn+umEit6dKTiB8J0feVtrxIItP2ebpg5V8Q2GjwLvCSI+
-Q44Q+kkrjf/O/6AZPxBOP543FaBOCDGUT+X84YVjTia2NwEaEw6MulO99dbde9Fy
-lXhg8ZT7z1Z0dmbAzj6KqnAshjs+NZf+r30EfDb8yZRSeN3LBAcHVfbledSSwfxG
-7Kt9AWuNpsIJn5ROykGZZzzb9Be3NbKxcZ6zGBsEtJnB8rkdeZ1+JB4vZ4KTgYB2
-7c1864XhFLWib1f0Y1vt1sWSEKkzAc3s4Sk0/iVq9oAz3kgBD714e0TBscuR48bC
-IAiG/ec0Og9YCXn2jOajP/Pk2b+y1kIWumKzTvcHA59ZGkiEEBxuzgu2+l2+6aV/
-HUkqus5cq4842kssSXMgkyPGgbFm4T/PbUGf3A4gOiqIxk7VRz4=
-=651I
+iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmpLhtwACgkQB28BYc8+
+H79P/w/+PxQdFoHhEfN2JwsYON52wiDdFCgsdj1gbI3f+MIvPD1JWdPnx6WXYbTn
+gOgFfdtXdeyMGhTwXwkQEE2e4oENZM9IiqxdaQUp/WYFNc7f7m4bSIHnw6a5dgzr
+uYtI+pPBPPzuz0fAOynM59inRy4Ls/gaCeVh64vHPnLdHggMGw7OH3myYd9lYmVB
+DnHzoRp3NLEKoBNfl7gdSTdaVxvhCpkAkpyW8BmT/ze3LdSIYskBPmONb3lBcr0l
+5xO6qJaMk9KsEAzuEMJRiXqpsQtgb/Jybvc/Yw82c6fFeqzuwx2GI9FEtNf5JBvc
+qIeBE5w2EOlg7rsKz4FEvGFUJA+p9k0Vz7wNuo1p4+IGn+O6EGtlr70w64Y9gydb
+ajHWAz+FC7P0/hYbXzjd+ZdBW7XFV1+pb403D5cEqiy0Irg9IcEM+ZjAXQKsTi9g
+jIKx3rdrmphsA9c2T2j7xD/GhSoRU4nnj5ExMLgIE++zuA2NA/uyT1PHLZPokzz7
+iL3ldSW/mKZ7n2kJ3pWLkC8FczHUPUPhDYiciYbHLagLv+4pWZR8yhZiBzuYLwQ3
+2WP/vKZOSxoC3aSG4rfSvdC/Vo3dZCkiR2DOLCYZ5CaoLprP3tui6+h88AUu19OE
+zJXYHcK1PagWk97o6FMdVipvYf+pdi7XUsNwfVSECfA5v+AIcGc=
+=bowL
 -----END PGP SIGNATURE-----
