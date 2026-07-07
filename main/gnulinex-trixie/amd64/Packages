@@ -11256,18 +11256,18 @@ Description: green variation of the GNOME-Colors icon theme
 
 Package: gnote
 Architecture: amd64
-Version: 49.2-1
+Version: 50.1-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 21632
-Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.38), libcairomm-1.16-1 (>= 1.16.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.74.0), libglibmm-2.68-1t64 (>= 2.76), libgtk-4-1 (>= 4.10), libgtkmm-4.0-0 (>= 4.15.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpangomm-2.48-1t64 (>= 2.50), libsecret-1-0 (>= 0.8), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 14), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
-Filename: ./gnote_49.2-1_amd64.deb
-Size: 4864812
-MD5sum: 024d48c2fd5a1d10eaf9d012047358c1
-SHA1: f88da1a083c42955b1bf2afea8f21871f6e3cf5e
-SHA256: 43e466fb61f6e246974e3277180926ccfa2b5f30fcd742bdd4fb772af987b031
-SHA512: cd2b2670e79636c7af1c8fda7877d217aa92660c1ebf3035159c8b37cfaa080405098b787e31daa7b9715916ea32ad32da4bb95fd124dc715ce3d520e5ba6253
+Installed-Size: 23403
+Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.38), libcairomm-1.16-1 (>= 1.16.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.74.0), libglibmm-2.68-1t64 (>= 2.76), libgtk-4-1 (>= 4.10), libgtkmm-4.0-0 (>= 4.15.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpangomm-2.48-1t64 (>= 2.50), libsecret-1-0 (>= 0.7), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 14), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25)
+Filename: ./gnote_50.1-1_amd64.deb
+Size: 4874228
+MD5sum: 43ce7864e1f881c8b971643ad7679dc2
+SHA1: aa88d2af9772a4e21ca2d6e464ef82eeb810207b
+SHA256: aa7f73569af545705aadd6234f714c7e4f3a86ba20aaf9d7bc74ec8753d886d9
+SHA512: 36c0688cfd363c57e0f698511e3c5639068fa4575d9d0c49e09e08bf8ec280472052ba354141452280489c87300fdc5269b5418d7501eb08f3b6418c3cc91a68
 Homepage: https://gitlab.gnome.org/GNOME/gnote/-/wikis/Gnote
 Description: desktop note taking program using Wiki style links
  Gnote is a desktop note-taking application which is simple and easy to
