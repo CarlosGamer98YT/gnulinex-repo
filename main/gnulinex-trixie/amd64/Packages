@@ -22822,21 +22822,21 @@ Description: GnuPG development runtime library
 
 Package: libgpgme45
 Architecture: amd64
-Version: 2.1.0-2
+Version: 2.1.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gpgme1.0
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 588
+Installed-Size: 589
 Depends: gnupg (>= 2.1.21-4) | gpg, libassuan9 (>= 2.4.2), libc6 (>= 2.38), libgpg-error0 (>= 1.50)
 Recommends: dirmngr, gpg-agent, gpg-wks-client, gpgsm
-Filename: ./libgpgme45_2.1.0-2_amd64.deb
-Size: 351708
-MD5sum: 6d0d724adee94ef2c2893b814615ebd0
-SHA1: 5e29a134c59eedf1ae5db2d32845f4792569facc
-SHA256: 5af4d8cd498eb693f4ee01dd51cb1290655e71f9a233a43c1d076789194d32a9
-SHA512: 6f995354ebfe17b5ab753b6699d1059cc8e528769002d79b132a074ee8c06e0f120c657eddd98b041e5c4a8f4f631270a76d2431945283c84782370b01bfcd7a
+Filename: ./libgpgme45_2.1.2-1_amd64.deb
+Size: 352204
+MD5sum: 3435f6fc7622628f1f73768283a02fb7
+SHA1: b63eeffb3c060ab2f035a4c9f0013d8ece9b21bd
+SHA256: 5d12873347512bb9527950d289815757c9eb721352479ee986cd3d90859a16c0
+SHA512: 93abd0360ee3b2c608328c7727bda2c2696698e9224b1d0673cbaeb1c802e9bbcde3f30e4a38b6093de82200083f8da837e90e8e2ce25ac1b585ea63e7765d32
 Homepage: https://gnupg.org/software/gpgme/
 Description: GPGME - GnuPG Made Easy (library)
  GPGME is a wrapper library which provides a C API to access some of the
@@ -38235,20 +38235,20 @@ Description: Qt/C++ wrapper over minizip - Version 1 (Qt6)
 
 Package: libquazip1-qt6-dev
 Architecture: amd64
-Version: 1.7.1-2
+Version: 1.7.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libquazip1
 Maintainer: Ben Westover <bjw@debian.org>
 Installed-Size: 216
-Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1.7 (= 1.7.1-2)
-Filename: ./libquazip1-qt6-dev_1.7.1-2_amd64.deb
-Size: 39828
-MD5sum: 914f98b6027adcd16599facd8bc166e0
-SHA1: e20cc00b9e98c180bda02c59f8785cdbb3db19e0
-SHA256: 5093f4d771575a9dc6fad1cab1108277a45478033a943ad37d14f1d8c0e9a680
-SHA512: f676e17d4d8e7d858a291427ae5f14c9bcc64a811c4035ec75ab474eb5adce4ef288676dcc8ee8130d0a85fe800ef7abc84334e3a3d22d303f30bc7202b7b697
+Depends: qt6-base-dev, qt6-5compat-dev, zlib1g-dev, libbz2-dev, libquazip1-qt6-1.7 (= 1.7.2-1)
+Filename: ./libquazip1-qt6-dev_1.7.2-1_amd64.deb
+Size: 39864
+MD5sum: 10b5b0389216985a86b78a696061d895
+SHA1: d3ceb676d0821746f589ce35c4107cef6b14870e
+SHA256: c63b407cb168835f6e3c34ff3c191423aa23c6028b037f5a72c4ebeb62610ffa
+SHA512: 00551581bf9fd6ebcc6f9a07aeba54ba55df2e3074daebf65a16313ea189cf4b6182f14be42134c529b2171a9c627b2473a0b1bd1628d4f5651f5b91dde5050b
 Homepage: https://github.com/stachenov/quazip
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt6) - development files
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
@@ -56977,20 +56977,20 @@ Description: Pythonic D-Bus library
 
 Package: python3-distro
 Architecture: all
-Version: 1.9.0-1
+Version: 1.9.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-distro
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 83
+Installed-Size: 81
 Depends: lsb-release, python3:any
-Filename: ./python3-distro_1.9.0-1_all.deb
-Size: 20276
-MD5sum: 20765f65ed43a8b444424add8564f2ab
-SHA1: 3c6896c43817ee27c24eb3edcd401cecb35ffdff
-SHA256: b48975ae9c1c6fcc06301a3febeee390a817b21604576228807f7f37af458473
-SHA512: da6f5263785d0e2a716e351b0d2295334bb4d5688ee416822549cea6fccb9c7262970a6e6ac960130a95af1e88e45501af786334b9eef456c9600a969916f3f0
+Filename: ./python3-distro_1.9.0-2_all.deb
+Size: 19560
+MD5sum: e51545e4e64b95802d3c1c60cd46e0b2
+SHA1: 97ce890ab2ce9167a76878cbf3d16b1f00781e65
+SHA256: 7c71d6ec538597031e8b86d67e0d0fd4c281e148d446ac1fbfa2993ff223eaa2
+SHA512: 6cf27198cc19e11a4330aec435779bf279584c3d88df6c914e26ed64ca5b3602dbfb1087d00662bfd54c6f5dc68952ff612c3c704fa239f75b5f453117bfc329
 Homepage: https://github.com/python-distro/distro
 Description: Linux OS platform information API
  distro (for: Linux Distribution) provides information about the Linux
@@ -61485,22 +61485,22 @@ Ruby-Versions: all
 
 Package: ruby-rubygems
 Architecture: all
-Version: 3.6.7-2
+Version: 4.0.15-2
 Multi-Arch: foreign
 Priority: optional
 Section: ruby
 Source: rubygems
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1796
-Depends: ruby:any
+Installed-Size: 1802
+Depends: ruby:any, ruby
 Breaks: ruby (<< 1:2.7+2~)
 Replaces: ruby (<< 1:2.7+2~)
-Filename: ./ruby-rubygems_3.6.7-2_all.deb
-Size: 407044
-MD5sum: 859d16c7bb249ce5032389378c6411ec
-SHA1: 76777c4e7b95119202b1420905fc798304c849ee
-SHA256: a585dd934ffc58516c468cc06fe10141d1383f96bf1113a25397f0ac043253a1
-SHA512: cd39d1f9a28c0f6115c0c8fd1236b676bc40a7d920e9835ee68fd8222077e140e7cb713c0373d545fe13b964f7f0cca2fd940b2311be17c98d96f8ff082b541c
+Filename: ./ruby-rubygems_4.0.15-2_all.deb
+Size: 412172
+MD5sum: 5258e2d8af3c71b1d8c5b6cf16550e00
+SHA1: b763e612aa32628f134058f73f6416b9b882ce06
+SHA256: 08b63fce15de73599bde1d33bb4d878f43dfbb67745b5b4f7127c6e7e06c77df
+SHA512: 7cb863590ee5cdb29b5127ce00d72537a27a2cb8f88ae0921b0f11f3b91720df500982d6ae789fe6879b81c15603f4009884f40e0488cf2bd9df2369e7dc2b80
 Homepage: https://rubygems.org
 Description: Package management framework for Ruby
  A package (also known as a library) contains a set of functionality that can
