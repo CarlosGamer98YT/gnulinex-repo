@@ -62081,20 +62081,20 @@ Description: GNOME CD Ripper
 
 Package: sphinx-rtd-theme-common
 Architecture: all
-Version: 3.1.0+dfsg-1
+Version: 3.1.0+dfsg-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: sphinx-rtd-theme
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 1182
+Installed-Size: 1181
 Depends: fonts-font-awesome, fonts-lato
-Filename: ./sphinx-rtd-theme-common_3.1.0+dfsg-1_all.deb
-Size: 1023600
-MD5sum: a6c29ff9560bcbfc19d6bf032af93cfc
-SHA1: fdf91fe84720b16de1625ad20793b8398719b69a
-SHA256: 75e67e9a19a68ab466591e09fbde02580a5e2471e81170778bd542735d36c14c
-SHA512: 8bab7fe43b79780e429afe50fc29e005aba749a5ed0c1f8ba6c8a13c1267d0b52dba2507b38226478d56e8be577cc230c1cd4ccfa712567f67cb5e16b58c4daa
+Filename: ./sphinx-rtd-theme-common_3.1.0+dfsg-2_all.deb
+Size: 1022372
+MD5sum: 864f2373b0a1b29548f015002e83acfb
+SHA1: b5c6de26d1a0abfa1a26019ca562931a2920080b
+SHA256: 8f2b9c9c79cb64d3871b3582cac2551965097045e55ba3c526238c56bb00f20f
+SHA512: 9c8f5656da98d6fd6a40dd1f1e75238625961aa15e7fd290127f9b5857f34bfed45a6a3389f1d50f10b2d4e9e2ea319b1c9c1740bfd302e58ca52e159d4db5ad
 Homepage: https://github.com/readthedocs/sphinx_rtd_theme
 Description: sphinx theme from readthedocs.org (common files)
  This mobile-friendly sphinx theme was initially created for readthedocs.org,
