@@ -13149,22 +13149,22 @@ Description: IIO sensors to D-Bus proxy
 
 Package: im-config
 Architecture: all
-Version: 0.62
+Version: 1.1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 410
+Installed-Size: 225
 Provides: im-switch
 Depends: gettext-base
 Recommends: x11-common, zenity | kdialog | kde-baseapps-bin (<< 4:16.08.3-2~) | whiptail
 Conflicts: im-switch
-Filename: ./im-config_0.62_all.deb
-Size: 59192
-MD5sum: 6a520038c0cb3c800591423397c57cfe
-SHA1: df3c5436c0d5051c1226761e18b19eee612ed941
-SHA256: baf30a559d4df43c0c988aa5db5fa75d92eadf931295b45cd052ac2d004087c5
-SHA512: 73936c4fdd94108ef744d38d4ab90ea89740667ee6217c5f5cc661f2296afcf84d295458afb0f1221f019982bf53c9787b1a1bf425d655cfb9c9fa3a6a9a14ff
+Filename: ./im-config_1.1_all.deb
+Size: 28928
+MD5sum: 9c19c9d3e98bb224cf285d5fe61303f5
+SHA1: 8aa3de374fa4de988ea155c480c38fc242c70dc3
+SHA256: be4c1489f08839b37c2871754161b81884ee6aca2c935e929e802e6c96ae3838
+SHA512: 46e09232f266d900d30271dd3293bf72159f483ad28db2d54f308a3a7d55c6a6bdd50cc97da8c84c2d6997ceb78d473ec36e9695f3d8449c65a533390cd5af31
 Homepage: https://salsa.debian.org/input-method-team/im-config
 Description: Input method configuration framework
  For older X11 based GUI desktop environments, this im-config package provides
@@ -13190,19 +13190,19 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.25+dfsg1-2
+Version: 8:7.1.2.27+dfsg1-1
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 79
+Installed-Size: 80
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.25+dfsg1-2_amd64.deb
-Size: 25232
-MD5sum: ee20be9727b0a66971dbae6f91277e67
-SHA1: 8ebf5410cb1aec464a8337663f0cb693e5bfac2b
-SHA256: 7da2bdb645a2b56d1de7031ad86f0ac82280f6139f3276faabcefc9360a2f43e
-SHA512: 78dfea5b1b96dcf03f887444d56c6a8e6a8021f953b85111783968ab9efe85f774a010df4d8ac4c29b73d548172802be588c37348f575b0ba12ffc56b636f349
+Filename: ./imagemagick_8%3a7.1.2.27+dfsg1-1_amd64.deb
+Size: 25536
+MD5sum: af1d300620bb2316666e2a7ab1d12bf1
+SHA1: 52dcb0b861614900e7021d251eeec6aa7ddf37fc
+SHA256: 21fd6db8d74ff36339e0e5b4fef1deb456403cce10aa3ead1e97680aef6ed550
+SHA512: 558f64cdd053d39a26e1fb996a54fe0682bbb8182e587d17bfc6673621b4ad7dccde6d94b6936d6363046bcfdcd7fbf852650d4e5b2f41871061177e5c76ec2b
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -13738,7 +13738,7 @@ Description: accessibility packages from the official KDE release
 
 Package: kdeconnect-libs
 Architecture: amd64
-Version: 26.04.0-1
+Version: 26.04.3-1
 Priority: optional
 Section: kde
 Source: kdeconnect
@@ -13747,12 +13747,12 @@ Installed-Size: 816
 Depends: libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libqt6bluetooth6 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5)
 Breaks: kdeconnect (<< 24.08.3)
 Replaces: kdeconnect (<< 24.08.3)
-Filename: ./kdeconnect-libs_26.04.0-1_amd64.deb
-Size: 228612
-MD5sum: 5eed85d41b29b3e7e6a1791d4a95372c
-SHA1: 5c6e39ca590c9157e4caed1e8b0331963d26341d
-SHA256: db6fce4aa29b934cb19f12e71d52bb6e7e0a3ea54332c0cdd475977afa905c4a
-SHA512: 632f71c8870a64ab3b2371e3043a1a9bfbc0b91ef059d091f94613fa5808d9ea4b1cc270f408b6a2632caeeb37b49cd333c0063d92ab71273e224fb18537a76b
+Filename: ./kdeconnect-libs_26.04.3-1_amd64.deb
+Size: 229436
+MD5sum: 304d493bed2c1404e60fc1b5c3f3aa54
+SHA1: bf8a409198e9a9bdb81c0f628e336e1062a8f4f1
+SHA256: 41b68f0b5876b04a139fc8ad025d43f096cf6bd2268eb2d0dc4c7bfd9fb05e6c
+SHA512: 6e50a508cbd59d4883bb3da89d4507ea286a45bafcfa4e6d69f4687894e0e7e145db6835adb4679c345966b8412964b0406291fc672dcc53b4e88e162d586cbd
 Homepage: https://kdeconnect.kde.org
 Description: KDE Connect internal libs
  Tool to integrate your smartphone, tablet, and desktop devices.
@@ -13765,20 +13765,20 @@ Description: KDE Connect internal libs
 
 Package: kdeconnect
 Architecture: amd64
-Version: 26.04.0-1
+Version: 26.04.3-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7868
-Depends: kirigami-addons-data, libqca-qt6-plugins, sshfs (>= 3), plasma-desktoptheme, qml6-module-org-kde-config, qml6-module-org-kde-kdeconnect, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-particles, qml6-module-qtquick-window, kdeconnect-libs (>= 26.04.0), kio6, libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libei1 (>= 1.0.0), libevdev2 (>= 0.9.1), libfakekey0 (>= 0.1), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6modemmanagerqt6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6people6 (>= 6.0.0), libkf6pulseaudioqt5 (>= 1.4.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6multimedia6 (>= 6.7.0~), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.7.0~), libqt6quickcontrols2-6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5), libx11-6, libxkbcommon0 (>= 1.0.0), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Installed-Size: 7875
+Depends: kirigami-addons-data, libqca-qt6-plugins, sshfs (>= 3), plasma-desktoptheme, qml6-module-org-kde-config, qml6-module-org-kde-kdeconnect, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-particles, qml6-module-qtquick-window, kdeconnect-libs (>= 26.04.3), kio6, libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libei1 (>= 1.0.0), libevdev2 (>= 0.9.1), libfakekey0 (>= 0.1), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6modemmanagerqt6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6people6 (>= 6.0.0), libkf6pulseaudioqt5 (>= 1.4.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6multimedia6 (>= 6.7.0~), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.7.0~), libqt6quickcontrols2-6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5), libx11-6, libxkbcommon0 (>= 1.0.0), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: systemsettings
 Breaks: fuse (<< 3)
-Filename: ./kdeconnect_26.04.0-1_amd64.deb
-Size: 1184792
-MD5sum: 28905a4ab0c9a16ad662772f779cc16b
-SHA1: 3697bd6874d6ea3986cdcaedc50985b91716411d
-SHA256: 1565d1b8a5cb1ea08799f10ef0da3332d6cf5cbb2d5353907f689627ccf25e8c
-SHA512: 849bd65dabc659565c73e6cad6e1b423ae3107f754e808622a63b7d8bd34809a679872c6c8d93555264767fbeb4dac3adbafbb2733d484206338ab3292f77976
+Filename: ./kdeconnect_26.04.3-1_amd64.deb
+Size: 1186052
+MD5sum: 66a36473020c67fb2c7fff26291398f5
+SHA1: 243caf1f78409956d8f73e3a8c8b2b49d80f2d2b
+SHA256: 17f048b405b0b75a6806deac89618f0b3608a720d39c2acaa71bb3dd2314e826
+SHA512: 15b9a7debcb60076993ab465fc684656cd705f419f623c69f452e65c2b114c0bacb215521e369481d1fa672a43062a15fbcd36b377f718c43a501838f6fc490f
 Homepage: https://kdeconnect.kde.org
 Description: connect smartphones to your desktop devices
  Tool to integrate your smartphone, tablet, and desktop devices.
@@ -17882,21 +17882,21 @@ Description: module for manipulating dates
 
 Package: libdatrie-dev
 Architecture: amd64
-Version: 0.2.14-1+b1
+Version: 0.2.14-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: libdatrie (0.2.14-1)
+Source: libdatrie
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 82
-Depends: libdatrie1 (= 0.2.14-1+b1), pkgconf
-Suggests: libdatrie-doc (= 0.2.14-1)
-Filename: ./libdatrie-dev_0.2.14-1+b1_amd64.deb
-Size: 18808
-MD5sum: 402f97afb4a88dd9d62c1f8ec3d7d5f2
-SHA1: 64e6a84fce87c724bd1b99f2c8d2023c8ce36923
-SHA256: cacf24a5782318f7f55a21cf5d81a3be23d3dbbe8ec5980f9b3aa3653827e23e
-SHA512: 0e4ca80edc0bb2a9518321a0dc884675b097d569246ab7f168881831a8cb283dccd6e6e66f2a9dd6d9e3e86593bffe4f313735eed216dc6ba16e42df8cd05dd1
+Depends: libdatrie1 (= 0.2.14-2), pkgconf
+Suggests: libdatrie-doc (= 0.2.14-2)
+Filename: ./libdatrie-dev_0.2.14-2_amd64.deb
+Size: 18828
+MD5sum: 463f9d479fe9afc15cfa4a20ef74a3d9
+SHA1: f3203a29ca926ab68bd187aeb288cd6118868dfe
+SHA256: 845700877ee03d0ab19250b3fbd8edd83d3d091e95f67503a1b2724ca888b9d2
+SHA512: a41649249db45a771c129a902c4500041d49d1f4758cfc2f36d719a75554cf13dcabed21b5883d29d358ee0bb6b7024e21811eb3373914101703e54a626714e4
 Homepage: https://linux.thai.net/projects/libthai
 Description: Development files for double-array trie library
  Trie is a kind of digital search tree, an efficient indexing method in which
@@ -17915,20 +17915,20 @@ Description: Development files for double-array trie library
 
 Package: libdatrie1
 Architecture: amd64
-Version: 0.2.14-1+b1
+Version: 0.2.14-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libdatrie (0.2.14-1)
+Source: libdatrie
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
-Installed-Size: 76
+Installed-Size: 75
 Depends: libc6 (>= 2.14)
-Filename: ./libdatrie1_0.2.14-1+b1_amd64.deb
-Size: 39504
-MD5sum: a76c7f8d584bb557de59cb2c84407b72
-SHA1: 925e0783c59078da7f556547acd162f07c4ee088
-SHA256: dbb4ad4f3fe1a4f70e8a4b6c46a205abd1af8150c976817b5dc59170533f1be0
-SHA512: 766c1eca4557e797ce8a75088ac295c56d7a83b71bc8df03b592a39c74963e7e8e6f12b2fe3d74d3656f35e196ce86279385162376e37530eea1b7ff95160e24
+Filename: ./libdatrie1_0.2.14-2_amd64.deb
+Size: 39108
+MD5sum: bdcf9ca9db678a4fe88d50474a5c96b7
+SHA1: cdaf377d1fb9bf447ca79db6f6a57b3def718e6e
+SHA256: 5b11c892c3cd56fc6139e9d1b30e2d5a3019e668d823725b61d026d6ce1130a8
+SHA512: c4628440ff5657bba6305fe937fbeb9277dcc26d23e77f93c392d72bfa6ac53f250dda345f6d916ea74f643418161ffd20449fa068a6e7a2dee6dd0d30798f19
 Homepage: https://linux.thai.net/projects/libthai
 Description: Double-array trie library
  This package provides shared libraries needed to run programs that use the
@@ -32425,24 +32425,24 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.25+dfsg1-2
+Version: 8:7.1.2.27+dfsg1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: imagemagick
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 292
+Installed-Size: 293
 Provides: libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.2.26), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.25+dfsg1-2_amd64.deb
-Size: 77868
-MD5sum: 2ec0e8c0fc6b2592608c432245a710c1
-SHA1: 9a85aa8164bead046fa86d32f80d83e3dd7088b8
-SHA256: fda86838c820aad16f902c82ee5bb300fe877239307cf4014187e824fe6eb3ec
-SHA512: 7e357070185566c15809e3d578b8b5e70fd34094f51b86f55733c76d89631ed2b872589774590362a62b16c8a55da0dba03a5794889eb538e4c05d24138de367
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.27+dfsg1-1_amd64.deb
+Size: 78456
+MD5sum: 778812730fbe2cd3892870d31aaec165
+SHA1: 8aed3c61040a65485a84c804a8e2fe2f9c3117ba
+SHA256: 9baafc3c9716b4b1290cbfe30290088e53532d3258c093e6b26df7e673804f69
+SHA512: 0da2ff778341bcd33b715928e69efa1656d46b8f56d5d1c4b5df66c6ff3b8715c324f2f4b4052d15baa4a52d4ce71bfc1930fcf3aa2b980dc38a1d5f0eeeb590
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
