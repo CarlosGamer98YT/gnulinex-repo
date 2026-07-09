@@ -37612,7 +37612,7 @@ Description: Qt 6 State Machine library
 
 Package: libqt6svg6
 Architecture: amd64
-Version: 6.10.2-7
+Version: 6.10.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37621,12 +37621,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 734
 Provides: qt6-svg-private-abi (= 6.10.2)
 Depends: libc6 (>= 2.35), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
-Filename: ./libqt6svg6_6.10.2-7_amd64.deb
-Size: 219676
-MD5sum: bfe0eb01f4e393b3a03a3eb19fd922ea
-SHA1: c732feac177034066ac6a476d667133a9b082e81
-SHA256: 5decfd1b43d2364635e76c098397304b3ba812e5c642843fb2194c7235493c02
-SHA512: 5d6e045f23ddd87f455595f4abd5a50cce5ca8065c9865dd2a0e614fd27e5240b21a7fb89b8a74ff23c72a482c2922cf6ba16e4ba072ecb87fc6323699508807
+Filename: ./libqt6svg6_6.10.2-9_amd64.deb
+Size: 219504
+MD5sum: 01c3656960662536a5906bcc2e13f74d
+SHA1: 9d54571d138be2cb836195aeb436e09199bd0812
+SHA256: 3e329fc50849664da3533219b0834f9321d70da78728079bfc56782f9088fe39
+SHA512: e03f0ddfea707428a242b1e269d8a1681ddb7a800eded073e3552198f59fff312e6f886056b8179616c6926638ccdf2fdf7071d46ca48c8854c973579c8edc37
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 SVG library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37641,7 +37641,7 @@ Description: Qt 6 SVG library
 
 Package: libqt6svgwidgets6
 Architecture: amd64
-Version: 6.10.2-7
+Version: 6.10.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37649,12 +37649,12 @@ Source: qt6-svg
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 73
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6svg6 (>= 6.7.2), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6svgwidgets6_6.10.2-7_amd64.deb
-Size: 18080
-MD5sum: 1fe9801a47a0b47498f2382678ad39d1
-SHA1: b6a04282250144a5ce710fd949b1495631278b45
-SHA256: d6de47e11905958092390fb7ccf92e8f3eee079ed237cac8d7089401df047fae
-SHA512: ba395dec3cd8627377dea34ec213958449d4ec59593d26a61699dfd2b3de75fa10ffb825fd6645049b86c7226a80eecf306e59827ddb5ad409807547066a8d62
+Filename: ./libqt6svgwidgets6_6.10.2-9_amd64.deb
+Size: 18192
+MD5sum: 7a9fb95d8f78614e19d15e4e3b847c56
+SHA1: d66bb3bbc136c7fc679102568cacc917cbc5e6ff
+SHA256: 63354fe3e5bb6c7b219002c4f18cd91d50f6768bc4ad5aee1790d7f4393dec9b
+SHA512: 34ce56d94db8cf02a16203a8474fc618ec04a3f7c462e4c433dae263e9c2e010c8cce996959b72ceea5c2b1e611357c7fccb73dc8215852b8a07eb061e90744b
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 SVG Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60626,7 +60626,7 @@ Description: Kvantum qt6 style engine (transitional package)
 
 Package: qt6-svg-plugins
 Architecture: amd64
-Version: 6.10.2-7
+Version: 6.10.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -60636,12 +60636,12 @@ Installed-Size: 115
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6svg6 (>= 6.6.0), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-svg-private-abi (= 6.10.2)
 Breaks: libqt6svg6 (<< 6.7.2-5~)
 Replaces: libqt6svg6 (<< 6.7.2-5~)
-Filename: ./qt6-svg-plugins_6.10.2-7_amd64.deb
-Size: 31204
-MD5sum: c04cd730a74dbf79e988df7cfb2d82a4
-SHA1: bd275f367c38300453e042557b090e39474f3f02
-SHA256: 49b88459be162ec6786ff62156c1971c036892d21f9d75ebca05559a11a027a6
-SHA512: c05b8e796f3e8f76a7aca6b0fe5cfbb63f5533feb1c647aed0fd8b148f92c5a9170135b2825dfa07a629d268455101ad5c20805da1afdcac0c6b1fa912276ce5
+Filename: ./qt6-svg-plugins_6.10.2-9_amd64.deb
+Size: 31320
+MD5sum: e926bf82fabdf325de17d956e36ef7e4
+SHA1: 307fdd8f021f88ed0a6a6b4cec33f032b552c672
+SHA256: 6b7b6f65050cabff8c605999b6b363ea17ea5037e4df3a263e058ee45d1b7ad0
+SHA512: 4f0071105ec029f88f75adfce1f540f0b93c0cf79460cf2332df1fd2c47acbc4b819d4f0de0b53a822e5a4f7c4520db3a8a338a71324b40c620ea6f48330d9fa
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 SVG library plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
