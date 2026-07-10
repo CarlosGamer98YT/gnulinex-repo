@@ -10950,19 +10950,19 @@ Description: simple and modern sound recorder for GNOME
 
 Package: gnome-sudoku
 Architecture: amd64
-Version: 1:50.1-1
+Version: 1:50.2.1-1
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2297
+Installed-Size: 2303
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.19.3), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libqqwing2v5 (>= 1.3.4), libstdc++6 (>= 13.1)
 Recommends: yelp
-Filename: ./gnome-sudoku_1%3a50.1-1_amd64.deb
-Size: 397316
-MD5sum: 4b7130ac78f77955c165150c6282fd98
-SHA1: 6f0235a787567a72169d76b0a371e6af466d9420
-SHA256: 14e59953973a50454cff69e522c08dc24bfe12473cc8f56ac5a2dad58f767e2f
-SHA512: 045fbe4b1801d4b9d3436545c44a721d83ba0bf99f355be30f5ffcff12dbb49bbe0e12e02c7ea634eeb85cee45094b7734de6bc8b7b5410cb97c6b058522a6ff
+Filename: ./gnome-sudoku_1%3a50.2.1-1_amd64.deb
+Size: 398936
+MD5sum: 5acd1baf0a889f6e17e8b25e350c56bf
+SHA1: e6f08ecd9dae00cd8ef002c4faac97b86b0fadfc
+SHA256: f68f89fe4ce123b0887b870dde3b8f4fb4c110548d2eabdfb128d9c54eb51b81
+SHA512: 1eaaf94bf32f907d9214fdba712486197e62055a80648967ed343816e51add149e596bdcf72b93df400a84c43b38c7157ab7a1a26643415e29b1bf3464f055fa
 Homepage: https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 Description: Sudoku puzzle game for GNOME
  This is an application for playing the popular sudoku logic puzzle
@@ -27828,24 +27828,24 @@ Description: Pty abstraction
 
 Package: libkf6purpose-bin
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 855
-Depends: qml6-module-org-kde-bluezqt, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-prison, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-sso-onlineaccounts, kio6, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libkf6kiocore6 (>= 6.23.0~), libkf6kiogui6 (>= 6.23.0~), libkf6kiowidgets6 (>= 6.23.0~), libkf6notifications6 (>= 6.23.0~), libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
+Installed-Size: 868
+Depends: qml6-module-org-kde-bluezqt, qml6-module-org-kde-kirigami, qml6-module-org-kde-prison, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, kio6, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
 Recommends: qml6-module-org-kde-kdeconnect, qml6-module-org-kde-purpose
 Suggests: kdeconnect
 Breaks: libkf5purpose-bin (<< 5.115.0-3~)
 Replaces: libkf5purpose-bin (<< 5.115.0-3~)
-Filename: ./libkf6purpose-bin_6.23.0-2_amd64.deb
-Size: 171660
-MD5sum: 43fb60fff69253ab11ce13dc325ee1f4
-SHA1: 4824d25a63c4c6e4eeab54a01e2f92687ef59b95
-SHA256: 347ece6456b3863dd09a2c53c20c71fde8890f8109bb363ed0b323307592c9a4
-SHA512: 2a0b0aa8ebcc96d1958bfe80f9c4512f3a45fc6110e374d85ec668384aefc7495f0b466d60c33dc21c049f9cefc6e11b27faa218954fea46853afb7d7ca0258a
+Filename: ./libkf6purpose-bin_6.26.0-1_amd64.deb
+Size: 175268
+MD5sum: 855d25b1f6ff8baa6f521bd76469d1c8
+SHA1: 0f391d7e4568c807ba76ef9e2faa1cd2abdb1981
+SHA256: 70001a38286ce8698177801ebafcc7e67c1a02b476568ca735a0f275967c1f25
+SHA512: 4b3b26ca9433481f6ea6e90c370ef0a993a6795ef642bc800f07b77cbc679d15bf198def017704af3ec4ed32386c57b22360e6d85b8c753c9f26029f69947ae1
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, runtime
  Purpose offers the possibility to create integrate services and actions on
@@ -27858,19 +27858,19 @@ Description: abstraction to provide and leverage actions of a specific kind, run
 
 Package: libkf6purpose-data
 Architecture: all
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 975
-Filename: ./libkf6purpose-data_6.23.0-2_all.deb
-Size: 92440
-MD5sum: 0c7ac27bc8cf09645b6b406667b0f39f
-SHA1: 3b4423d1d97c1a6f4f58468ef3918f7b645ccead
-SHA256: fe831b9dc7b7eeef2af3c68f847ef47da17fb95076fce7d46c340283a36a8262
-SHA512: 3c52f246f1787bf98b2844a2f3eaafe16a98930248b9583c11c4451bff95de22551ba237868cd54f79aded00104477fdb1adc3752a4618abddb346d1a586ff66
+Installed-Size: 977
+Filename: ./libkf6purpose-data_6.26.0-1_all.deb
+Size: 92648
+MD5sum: 26968d33014bc8b2407d7af98805fed1
+SHA1: 08a6aede8c99aafcf07414a9dfb76b6f4a82158f
+SHA256: 71225109ca114c9d0079cb17935fade37b2c3d8116c73eaff5c45ca9641616ed
+SHA512: c32420004b863937f74f62d03ed59b1eee7bd8a2d6e697f77c0506c36791bcea79049edc726e1d3b271d41603769b77cafb64b052e356d7c2c1d6fa157546595
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, translations
  Purpose offers the possibility to create integrate services and actions on
@@ -27883,21 +27883,21 @@ Description: abstraction to provide and leverage actions of a specific kind, tra
 
 Package: libkf6purpose6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 174
-Depends: libkf6purpose-data (= 6.23.0-2), libc6 (>= 2.14), libkf6configcore6 (>= 6.23.0~), libkf6coreaddons6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libstdc++6 (>= 5)
-Recommends: qml6-module-org-kde-purpose (= 6.23.0-2)
-Filename: ./libkf6purpose6_6.23.0-2_amd64.deb
-Size: 50720
-MD5sum: 29d4179f8a4b59beecde9910fc016a52
-SHA1: fafba92f700680dc863da471e49fdcbcc9748076
-SHA256: bb221809e331195c4f74cf82abef11cce9af5d8d6f56a4e9bfa6896f1983a088
-SHA512: 9dc9f6cce917c98b58e8e6079a675fe967c366f3cc79cbdfcc9bdc46eaa084eab915028c888552cb121f1fc0881f55bbf4f81800d91241dfdd6adaaded385b75
+Depends: libkf6purpose-data (= 6.26.0-1), libc6 (>= 2.14), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
+Recommends: qml6-module-org-kde-purpose (= 6.26.0-1)
+Filename: ./libkf6purpose6_6.26.0-1_amd64.deb
+Size: 50908
+MD5sum: 08e52160620c0bcd25267da5b224c9ad
+SHA1: 9cfae1e3ed4de66c3c4cad2bc9c9957979e35fb6
+SHA256: d32e4466632e7c2ca5f9acc7d6670c74f1d3d185ec39cb1c9b917fab7e8171e5
+SHA512: d87e9299e71faa571a9929112587a12cba86574d4b8682dae4c594e176bfcd8a60a74adec5036b2619c03a5c0f5fe0a190fa280437355cb9b28ba03f024ad302
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -27906,20 +27906,20 @@ Description: library for abstractions to get the developer's purposes fulfilled
 
 Package: libkf6purposewidgets6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 73
-Depends: libkf6purpose-data (= 6.23.0-2), libc6 (>= 2.4), libkf6i18nqml6 (>= 6.23.0~), libkf6purpose6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6purposewidgets6_6.23.0-2_amd64.deb
-Size: 19528
-MD5sum: edbe30f828f720353d1b098ea7bf8fb9
-SHA1: e4f61c45fc6c30a4e8ce989de1876bc228c2547b
-SHA256: 8b976d0bbc961b8b154228e451f6f0b6875efc5b19e8f1f0525ccaad76d39c7d
-SHA512: 1cc4d452ad3a6c5fb1952b5096c6e149a0c46e0b3372cac862adcff8d9cda7edd193053b60602ea4814d2abf4b09f398891ab7274cfb70ea5bf3d21243420173
+Depends: libkf6purpose-data (= 6.26.0-1), libc6 (>= 2.4), libkf6i18nqml6 (>= 6.26.0~), libkf6purpose6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6purposewidgets6_6.26.0-1_amd64.deb
+Size: 19552
+MD5sum: 3c75e7a0ea738892444314c7c180ef08
+SHA1: 95324b80431cb773d953ad4ab6b043525cec26be
+SHA256: db3fc7c40f895738d450edf3083dc4b3b240b6808b6e48276953604c107d9ca9
+SHA512: 9a28e4b9a0fa0385804347daccbd8d6a32b5d3fb942e09af6fd954ab86537f4ed6a61e695664e4a9650ede8a82cc42d63d5afaf4f027e9fbe3b49cd246ffe6c8
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -28270,20 +28270,20 @@ Description: Integration with su for privilege escalation
 
 Package: libkf6svg6
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-ksvg
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 329
-Depends: libc6 (>= 2.34), libkf6archive6 (>= 6.23.0~), libkf6colorscheme6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0~), libkf6coreaddons6 (>= 6.23.0~), libkf6guiaddons6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.2), libqt6svg6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkf6svg6_6.23.0-2_amd64.deb
-Size: 107236
-MD5sum: 22e4c5defb0e02316da5b691dc8daa5a
-SHA1: 23c24ba3ff38357eea34e6d52d51ac02bbcdbb2e
-SHA256: 9908202d9b2545ade716cbd6b90ee4202466c23aa2474b80f7df6adc6c003db5
-SHA512: 6e7653630d0dc09f03ea0305f0c9513b3ff442d656182e37172ef28394f3f38f2271a1554988ed59c2aa4212dff92a210bc15ed7758d33cd9242fbcf4a90ba34
+Depends: libc6 (>= 2.34), libkf6archive6 (>= 6.26.0~), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6svg6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkf6svg6_6.26.0-1_amd64.deb
+Size: 107184
+MD5sum: 21a8b445c00186809cc592bb009bb7a5
+SHA1: 93db81ae12e31c73df35ce8c3c84d16701b625ce
+SHA256: 322d1ccccbed546cf82811052513547aff5c269ef6534a8d0998c309b3dc76e4
+SHA512: 0950ac338fcbb9c1501fff94e49ed9f138386d42659476fcf6a4bbcb4eca66d6741d880d7894898e8bf016e215b2f4e15e1414f80fce535f28bf7419672e5a20
 Homepage: https://invent.kde.org/frameworks/ksvg
 Description: library for rendering SVG-based themes
  Framework for rendering SVG-based themes with stylesheet re-coloring and
@@ -29342,19 +29342,19 @@ Description: library for handling IMAP data - arch independent files
 
 Package: libkirigami-data
 Architecture: all
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 302
-Filename: ./libkirigami-data_6.23.1-3_all.deb
-Size: 33340
-MD5sum: d4d0431b446ba6565500ee8081eb2831
-SHA1: db854b1c566e2885e717fd1f4dea59ed5175878d
-SHA256: ae8dc4efe8c2465e689d30a904f3119c7ebcfc184ed24393ede43b2d245832d5
-SHA512: 0237914be4d8eb506145520be6f6c24432f349de25a8155f0efa28d37455ac237d0ff052b3b4c1e85bc086d0f092319e3b75067f86480d122f919e34ebf9118a
+Installed-Size: 313
+Filename: ./libkirigami-data_6.26.0-2_all.deb
+Size: 34888
+MD5sum: 1f569988bd9630cce4602765f5b038b5
+SHA1: 31537cae9a18832c2323704a8e49eda5af6403a8
+SHA256: df06fe69fd802b40ba7e723935657e209240c86f378799cf7b28345750a560ee
+SHA512: 46620b367c9f5fc60818568ae9b84f8611308c4fcc3a55b536895ec2d1c8354d8bf6f0668fe53726c72a4aafb6425d28d3f664e21bb2477d20d22a302c83cea4
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -29372,22 +29372,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigami6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 505
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.32), libgomp1 (>= 4.9), libkirigamiplatform6 (>= 6.3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkirigami6_6.23.1-3_amd64.deb
-Size: 177476
-MD5sum: bc9c735a5c3ab8e2f953593f492f2f95
-SHA1: 4c4b20761bebeec0a0d805b4792580f4affee1b6
-SHA256: a07d1f099ab8a9157279882435448eb6804bff1d788de12336a31b541ca9ece3
-SHA512: 70bc064425b621767c48cfba838671e5d3e10c5f4309a5beb24386dbd5f4cc8a88c023a888b407809f8e0a3035f816b0975a90dfd81b4f72bb8f15cea31538e4
+Installed-Size: 232
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.32), libgomp1 (>= 4.9), libkirigamiplatform6 (>= 6.3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkirigami6_6.26.0-2_amd64.deb
+Size: 72968
+MD5sum: 420134278fc7bab8d19f52582998499b
+SHA1: b094e3676c5e14fcd3db0a08db545f5bb502a2fd
+SHA256: b6b55c45013a20ab4c8d3b992b59fdc5b335bfd3c294a6e08e977ac62e7d1fab
+SHA512: 9b5e827754393bbe374474a197506c703eb4c723fd84a294c6d0e93a2e7083dab5fd87432c7ee621e288633ea60d001e56a9db07ca03a75f183f876849c513cd
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - core
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29443,22 +29443,22 @@ Description: app library
 
 Package: libkirigamidelegates6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 218
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamidelegates6_6.23.1-3_amd64.deb
-Size: 46500
-MD5sum: a4208c2f14f165381858c8b4be306c72
-SHA1: 15e2f4fd7bae795a6103a3a1b5dfb963515ff2d9
-SHA256: 76cd063e493424075de1605aff202f4dd245295b9cabb9dd1ee077b8c8333e70
-SHA512: 625f55864b67ed5d463ec193dda0e6d3b010e3555bfba57985e6b8bb9b6a51ca59ae47e1d42d9ecd9f90e3b20339bda4f06554fe9af09b2ca250d35852c63bf2
+Installed-Size: 64
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamidelegates6_6.26.0-2_amd64.deb
+Size: 13104
+MD5sum: 8e512e1755fa9f55197866362886086b
+SHA1: ca22e3e0c9faa5a78613b62f8d0f5461d4bac756
+SHA256: 82b6da77a99b0a649f87e86525611efec7b7a364452d0f09257c3ba367351341
+SHA512: 5982ffccc20def7e1979909da37a886cff03f5e5e81d48c8cd3f7ba16b291683b65dad82b50ed7a300a79605246a87d54e625cb0d31ce3947e9f308c9433d0fb
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - delegates
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29474,22 +29474,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamidialogs6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 237
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamidialogs6_6.23.1-3_amd64.deb
-Size: 59072
-MD5sum: 621484ec0d2f936cc2b83ac0f429e7e2
-SHA1: ebb2bac9f2b0d8522bb843a53a9e40da2a790cd2
-SHA256: fdc1fda26147173310378b1cc2a270a4b88c7c0d375a59e15b02d3ee5a0c7960
-SHA512: 9d1abb819719ea97ca7590d4fd4e5e02f9caf0feac10848d327647de0073397f7aef1738d7b7f2247739f05963195c831620db041a265fcc75009b44d130bdd2
+Installed-Size: 64
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamidialogs6_6.26.0-2_amd64.deb
+Size: 19812
+MD5sum: b20fd7641ed5769b890047b4e75af00e
+SHA1: 565628bdda001c416f3a8dbb44d95322cfe2dfae
+SHA256: db42678db87a121e493ff262bb3a0679c847aefbed0123fde42a29e044a612a7
+SHA512: 20304e1202bfbeab502cc34699ada6537f29f90ee86ca0fbd381bdd5fecd47fb4000c41159ed90740a1c3cab4b0041bb74b3189a64017e913324b8dad9397885
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - dialogs
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29505,22 +29505,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamilayouts6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 538
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.14), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamilayouts6_6.23.1-3_amd64.deb
-Size: 144596
-MD5sum: fabe21fa70561d86bc8253642c1ca7c1
-SHA1: 5930917b9788c9044b4d8f4ce71c23b9c1240f5e
-SHA256: a5a7463dc874d7fc1ef844caec51223e738ac3df1aaff833d197e02780842caa
-SHA512: ca92c0982fdef977357adea2affd93cc99ade332bfc7ceba9fc3708885f32dc5bc367e487f19b611c5c97decce07a7791a6d6bd09f0889b6d67ac6df7a1bd991
+Installed-Size: 373
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.14), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libqt6quickcontrols2-6 (>= 6.9.0~), libstdc++6 (>= 11)
+Filename: ./libkirigamilayouts6_6.26.0-2_amd64.deb
+Size: 105344
+MD5sum: af42b940b64ab7bf73ca2f258147e134
+SHA1: be2e1a909a6ae1f7733417862a7847bdba1a2829
+SHA256: a484e0b0133c29e4d18ee47196603ba7b41198d61f83ffc9f4cbf286b2c31d0d
+SHA512: 092d16b9a0d4246fcf1ab61eb3b4bc68633cc4738d0b16dd74bf8c3978bed3ca8487ecb22024da88ce93a502f9f5069736df803a831952ef3e50530563f289d9
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - layouts
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29536,22 +29536,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamilayoutsprivate6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 93
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamilayoutsprivate6_6.23.1-3_amd64.deb
-Size: 23084
-MD5sum: 978b1bcbdbf737f8205c795a4b010366
-SHA1: b7cd4cf211c295d4a547336ff3c428fc2989b649
-SHA256: a62809ca1ef024698cb20857f1c159e935965f82b7165c40286451816f2da313
-SHA512: 383ef8135f2c7da79aab0b8d56e633c5590d400c2f5e96f9f0c4a605c972dbbed98c7ee4ae7fa2b5ee5aac26c002b111699f1878fe2d49667ac33482d9f04438
+Installed-Size: 40
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamilayoutsprivate6_6.26.0-2_amd64.deb
+Size: 10192
+MD5sum: ac23a216bb41cf5883ec0ebe338e8ceb
+SHA1: 6ccb9788bf3a5059be122b3cc489684cede94550
+SHA256: e315a94f8a57e0d01cb2ca1dc0342affe154187904591d5e469e9e1bb711ac6b
+SHA512: fea9722cd9546269512db9a9f7aa917fd8466305cd0ed633a4045bcb70ee221d552aec72616db865f47aea088bb86fb7528fbfaa303f2b5e021d8605da34555f
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - layouts private
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29567,22 +29567,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiplatform6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 393
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamiplatform6_6.23.1-3_amd64.deb
-Size: 99580
-MD5sum: edd90dc724e5386478704a3587cf6e3f
-SHA1: c50314f9fb270c7d76f365490e635f41532e3205
-SHA256: 717aa95ebf10814035d6a0ae0fdd8c05c9e4d31b1952dde7852e776741317b35
-SHA512: 85f0dfa5e3fc878066c7aff6b2320265b39f8d175fb0fc0b37328fcd8804b5b9b17ad248749b28ad76857582e5dbeb9790295be196d8d27648f23e3f00867a77
+Installed-Size: 411
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.38), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libqt6quickcontrols2-6 (>= 6.9.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libkirigamiplatform6_6.26.0-2_amd64.deb
+Size: 104832
+MD5sum: 43b9ed0f0ceff5f752bc4ed520df65d9
+SHA1: 434d985e3a44c054a176f025c9190f8706854fee
+SHA256: 748aa4ced398ae4ea24e22e6d93bc9ef2d0a182e13085c649d3fdd2dacee1942
+SHA512: 6a2004ec3bb4ac3d4f351fe1fa5aaa49f23fc0863e0698386d61ed1724ad23e9a96c744a659bbbbdaac47625d14ebc02ee178da09e88e10c5873e15792801f7f
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - platform
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29598,22 +29598,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamipolyfill6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 40
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.8.0~)
-Filename: ./libkirigamipolyfill6_6.23.1-3_amd64.deb
-Size: 8596
-MD5sum: ba9913d80cc61f05bb2313848c411971
-SHA1: 85e3babe8719858471544850b1833d32a701f156
-SHA256: e547e363ddc4d1be5cde3249322b628b3943a5fcc7293146c00360c1275f4024
-SHA512: 2798570e71723028ac423e8c11037c4133dd3f31652eade8a9f2e355821b4049d0d9ce7483e94929fb52d9305366fe21ea0077d23c984fa4d6bf1380842c3852
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamipolyfill6_6.26.0-2_amd64.deb
+Size: 8764
+MD5sum: ccd6e0c2eab1dc2e49b852efbcfcc0d4
+SHA1: dc9d28dbde1e797865b49c54c6a8dbc9bedc79e3
+SHA256: b1fb789a53e83ccb3ee0c27f432eda49804a719175ca10d2dcbbcc1264c84632
+SHA512: 4e160d08f4509edf7a7aff56e07b010df3d87dd1faab8193a5f412fc59edcb6250718c681ca5f67a65d3307ea21caca0c8868e3be573ec30f941ab6b9436bdc8
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - polyfill
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29629,22 +29629,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiprimitives6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 372
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.35), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamiprimitives6_6.23.1-3_amd64.deb
-Size: 139948
-MD5sum: 1571c1531bbd3a02db070346db0279bc
-SHA1: b6785fcfc3e462d940289383a5308c8cf76cb84a
-SHA256: 98c2a837ba5749922e7eb0011cd68b7433c343517e4fe0647039fc75704c0a11
-SHA512: b7addfe0bfbf6bc3f1fa27485484da799a3be74b222deede3b7013da63cd3e19839fe13c4a543151872b80c4ed2eacadad1b302c1c1a716a9d9db42dd0e9268b
+Installed-Size: 353
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.35), libkirigamiplatform6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 11)
+Filename: ./libkirigamiprimitives6_6.26.0-2_amd64.deb
+Size: 130440
+MD5sum: c7c1a269ef24983d2f7aa455bc884dbd
+SHA1: 612329247719339a6c335fed383b5e37963c91eb
+SHA256: 2634afec273ac1a5182af463d7fd7cadfead5ee970509e8b17490eeec119842d
+SHA512: 07ae2928eb2201a01f9bbed71afa81789d3083deb142076cd80c2371903211c55b96ecb0bb275705dd85bfaec484135971adb02185d74b96a3ec386656b9ba39
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - primitives
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29660,22 +29660,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamiprivate6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 74
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkirigamiprivate6_6.23.1-3_amd64.deb
-Size: 19088
-MD5sum: f2159de13068096c7c6005838aa12609
-SHA1: 3637d69fbb5bd58755f0493188cf0741f157546e
-SHA256: d5950bbeeee09c9967e3239d3d5edce2b87a45c66e87e6c1aa87edcb3cb50c02
-SHA512: 9ff7ea2772a5b597a57cf26f00d35aeea90f908fde4c09ae93d0046386c6fbbea960715e7a3178917fb1e3129a956ff0c75d8dca92b679ccd111a3f75698f9dc
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkirigamiprivate6_6.26.0-2_amd64.deb
+Size: 19324
+MD5sum: 21a0b617e2e212eaa8a8fa79f2c262b9
+SHA1: 606d6876bcef7643ee7b8ab3ef6457cb3a55f4b0
+SHA256: f8085e75ea802d91b7e9ea806abcf755bfbd9f6b3e5b91745e88374be0209e86
+SHA512: 46be612eae8dcc0a94146e4a8c730f0119fb4a7ec0bae534b0d33a3cd4f343b12f3698863ef7c5e320486c775f0ced985e3e59ced5d5b6aa7cc201aa967e2d4c
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - private
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -29691,22 +29691,22 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: libkirigamitemplates6
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 481
-Depends: libkirigami-data (= 6.23.1-3), libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libkirigamitemplates6_6.23.1-3_amd64.deb
-Size: 115112
-MD5sum: ddfa24e322b2f6a34eac27bad5e3b2cd
-SHA1: cf8efaaeb9b326def343b1dbc2ae44d2d6f62179
-SHA256: c2933b48307186633de60314a601b692e899c240d06d44d4167be48cf0ccf6da
-SHA512: 4235efadb96d43b8d99f20f15055768d7346730c6d1493ed0bd43ad34b126b97588320e897542d5984d997b47ecce648c5e3d678d15f9873aeacf46b7abfd620
+Installed-Size: 84
+Depends: libkirigami-data (= 6.26.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamitemplates6_6.26.0-2_amd64.deb
+Size: 35416
+MD5sum: bb76d86ce8c99f4f6fab9500c7423fcb
+SHA1: 22847a0c8ec8a40c3fdcc8f08affd24630627cb2
+SHA256: f0deb2b7f75fdfe6459ce07cd334dd302111f8d02f85eb99a225c031065d70bf
+SHA512: 89da9fd527197d193b28242e2ab48bb066b806a5e4568ef864b216de00b75bb2cafebfd3678bf3352e66cbbf399e4bbb254f13625b8077cc74629e160aa130f3
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use
+Description: set of QtQuick components targeted for mobile use - templates
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -58501,19 +58501,19 @@ Description: KDE Frameworks 6 addons to QtCore (QML module)
 
 Package: qml6-module-org-kde-desktop
 Architecture: amd64
-Version: 6.23.0-2+b1
+Version: 6.26.0-1
 Priority: optional
 Section: kde
-Source: kf6-qqc2-desktop-style (6.23.0-2)
+Source: kf6-qqc2-desktop-style
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3339
-Depends: libkf6qqc2desktopstyle-data, qml6-module-org-kde-kirigami, qml6-module-org-kde-sonnet, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.38), libkf6colorscheme6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0~), libkf6iconthemes6 (>= 6.23.0~), libkirigamiplatform6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./qml6-module-org-kde-desktop_6.23.0-2+b1_amd64.deb
-Size: 533640
-MD5sum: 30c50d6de683f02773f58067547dd9ae
-SHA1: 6c5f7332e8eb92b549ff3c8c708662ad2d401697
-SHA256: 2b0d2ca54291b5945e0b13da863582f8ea75b9bf01259417a32b43ad430bcf1a
-SHA512: ecec712121f2a15a501e23ee01fb2d500d1894d72884ee85b32042c7a476175bda526941b781d57fab10b449244183cadd32e6a0f924000569e497189c4f92b5
+Installed-Size: 3362
+Depends: libkf6qqc2desktopstyle-data, qml6-module-org-kde-kirigami, qml6-module-org-kde-sonnet, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.38), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./qml6-module-org-kde-desktop_6.26.0-1_amd64.deb
+Size: 536756
+MD5sum: 56557c9c7c46d0ef0a0eb52057a1b068
+SHA1: 58e9a5f5e3302919ea64354fae7990ae6b65ba8f
+SHA256: c741bdbb5fa945db988ae7dd18f79e02aa3ad12bad70bf13a5c8c4bf5334efbe
+SHA512: 67e3900b101f807e4060ae4bd0aa0eaaa9b9aabc6a1717721714af64130a65e8b7250c74478e6abda183abbeaf233a2338ee2a8fc2cd41c3d471ed320053eb0a
 Homepage: https://invent.kde.org/frameworks/qqc2-desktop-style
 Description: Qt Quick Controls 2: Desktop Style
  Small style written in QML for QtQuickControls2 intended to be used
@@ -58653,22 +58653,22 @@ Description: holidays calculation library - qml files
 
 Package: qml6-module-org-kde-kirigami
 Architecture: amd64
-Version: 6.23.1-3
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 982
-Depends: libkirigami6 (= 6.23.1-3), libkirigamidelegates6 (= 6.23.1-3), libkirigamiplatform6 (= 6.23.1-3), qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.4), libkirigamidialogs6 (>= 6.3.0), libkirigamilayouts6 (>= 6.3.0), libkirigamilayoutsprivate6 (>= 6.18.0), libkirigamipolyfill6 (>= 6.18.0), libkirigamiprimitives6 (>= 6.3.0), libkirigamiprivate6 (>= 6.18.0), libkirigamitemplates6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-kirigami_6.23.1-3_amd64.deb
-Size: 124704
-MD5sum: a31db2612be236df96fb08301bdee52e
-SHA1: dbc9d552759b91d8285905accd981f580e6e3ec2
-SHA256: 55c1089fdf96bd0ccd67e9dcf0c908189855ad00d5038e200cc65f2ac1f6041a
-SHA512: 8fe42b8ced62fdad358c445bc350bc80dc7f6d3f8bae593a441910ad5b5f7554546e15c83a22a6ff559fbd4d1b0dbadf9aefe3c16a29bb5ccff4f4d2b996716e
+Installed-Size: 1183
+Depends: libkirigami6 (= 6.26.0-2), libkirigamidelegates6 (= 6.26.0-2), libkirigamiplatform6 (= 6.26.0-2), qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.14), libkirigamicontrols6 (>= 6.26.0), libkirigamidialogs6 (>= 6.3.0), libkirigamiforms6 (>= 6.26.0), libkirigamiformsprivatecards6 (>= 6.26.0), libkirigamiformsprivateflat6 (>= 6.26.0), libkirigamiformsprivatetemplates6 (>= 6.26.0), libkirigamilayouts6 (>= 6.3.0), libkirigamilayoutsprivate6 (>= 6.18.0), libkirigamipolyfill6 (>= 6.18.0), libkirigamiprimitives6 (>= 6.3.0), libkirigamiprivate6 (>= 6.18.0), libkirigamitemplates6 (>= 6.18.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-kirigami_6.26.0-2_amd64.deb
+Size: 138924
+MD5sum: 5e79c30b1f9d249b745bfb81904770a1
+SHA1: c8eebfa8aa8f8793bc01b948208d7abd32c54ebf
+SHA256: dde6d19e36f8024771a652816255658f4e7800f19f63e19f3417900d06eb7e03
+SHA512: 04b95f18dcb3145994ad76a03b0e70f6a3deb99931195b84fb449b25f02af265dc99ba25319e6da59e04026863cdd73172b0ac8bf90cde5c8dff6ba4e044958c
 Homepage: https://invent.kde.org/frameworks/kirigami
-Description: set of QtQuick components targeted for mobile use (QML module)
+Description: set of QtQuick components targeted for mobile use - QML module
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
  Mobile and Android. A set of high level components to make the
@@ -58901,19 +58901,19 @@ Description: Image editing components
 
 Package: qml6-module-org-kde-ksvg
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Priority: optional
 Section: libs
 Source: kf6-ksvg
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 187
-Depends: qml6-module-qtquick, libc6 (>= 2.32), libkf6colorscheme6 (>= 6.23.0~), libkf6guiaddons6 (>= 6.23.0~), libkf6svg6 (>= 6.18.0), libkirigamiplatform6 (>= 6.23.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quick6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-ksvg_6.23.0-2_amd64.deb
-Size: 46352
-MD5sum: c0f2ca5ce6e5a86588ad5377b9ab1c8d
-SHA1: 52d7058726304f32f4afa9ca503cd604609680d6
-SHA256: ce0e6e4f8d178dc79db02027fcb6beec4cd86976d172b27b25f710f33cdc5347
-SHA512: 7835263012742843fd71478cd229040f047324829b8e28bffcd5e9d43dcf8edd16bc2b6313377426e6e641d9b99cdc8feb11d6642ce914c1a45afa41aa286208
+Depends: qml6-module-qtquick, libc6 (>= 2.32), libkf6colorscheme6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6svg6 (>= 6.18.0), libkirigamiplatform6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-ksvg_6.26.0-1_amd64.deb
+Size: 46304
+MD5sum: e6b53bf80da489fa99011cdd1b06603a
+SHA1: 77283399b8f85c73b45b0a65e8deefa5c24ffc18
+SHA256: 20a3871e3b4bbd0a9703c067fb5ee03d70a167e91903f8dfbff3f236c518027c
+SHA512: 6ad98851c7a6e3848eee3adc47209b37680c1d2354598d0acc140a284bf4f6c5087719f881a03137d51795e56b8db18f1d094f9d881841c7ac09251a1f984edc
 Homepage: https://invent.kde.org/frameworks/ksvg
 Description: library for rendering SVG-based themes - QML module
  Framework for rendering SVG-based themes with stylesheet re-coloring and
@@ -59196,21 +59196,21 @@ Description: barcode API for Qt
 
 Package: qml6-module-org-kde-purpose
 Architecture: amd64
-Version: 6.23.0-2
+Version: 6.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 591
-Depends: qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libc6 (>= 2.14), libkf6coreaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.0~), libqt6gui6 (>= 6.8.0~), libqt6network6 (>= 6.8.0~), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Installed-Size: 706
+Depends: qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.14), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
 Recommends: kdeconnect
-Filename: ./qml6-module-org-kde-purpose_6.23.0-2_amd64.deb
-Size: 127744
-MD5sum: 2a3386a272550c110f6c63f26048ba4f
-SHA1: d970a7b28d974948a598b4e3bef52138fd607f60
-SHA256: 8ce7c71cd24ec0a62879ee567e8f2a5fac927d8f172380a8d3f91c0b55bf94fb
-SHA512: 365f60fa10afe66507159a7eb60eb93bc4b157ad63f0b215a826ff034827ad76a8ca357a91e53eecf191a049e5aa03411a5d1c85a4f3476cad88e253b5c4801a
+Filename: ./qml6-module-org-kde-purpose_6.26.0-1_amd64.deb
+Size: 144828
+MD5sum: 5d4408a364f2668e6a4b2af9a29ac086
+SHA1: 422eaecb08425c4afc2e5c9b6b0b4ec251d4051f
+SHA256: 2a469fbe42dba2f21e9c565e47be39554137a3224bc7584b4adfb8dbf655c42a
+SHA512: eba40c0ae80e7755777cc997664605b17f1f36aed70ba1dee0c43772c21d85d38fd9ce1cbe2a5c4dd74669475a346972a10bf72641a776c36fd617129bb61f6c
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
@@ -61169,21 +61169,21 @@ Description: GTK+ Remote Desktop Client
 
 Package: restic
 Architecture: amd64
-Version: 0.19.0-1
-Built-Using: go-md2man-v2 (= 2.0.7-1), golang-1.26 (= 1.26.4-1), golang-blackfriday-v2 (= 2.1.0-1), golang-cel-expr (= 0.24.0-1), golang-github-anacrolix-fuse (= 0.3.1-2), golang-github-backblaze-blazer (= 0.6.1-4), golang-github-cenkalti-backoff-v4 (= 4.3.0-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-cncf-xds (= 0.0~git20260121.a486691-1), golang-github-dustin-go-humanize (= 1.0.1-1), golang-github-elithrar-simple-scrypt (= 1.4.1-1), golang-github-envoyproxy-go-control-plane (= 0.13.2-2), golang-github-envoyproxy-protoc-gen-validate (= 1.0.2-2), golang-github-felixge-httpsnoop (= 1.0.3-3), golang-github-go-ini-ini (= 1.67.2-1), golang-github-go-jose-go-jose (= 4.1.4-1), golang-github-go-logr-logr (= 1.4.3-1), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-golang-protobuf-1-5 (= 1.5.4-2), golang-github-google-s2a-go (= 0.1.8-1), golang-github-google-uuid (= 1.6.0-1), golang-github-googleapis-enterprise-certificate-proxy (= 0.3.6-1), golang-github-googleapis-gax-go (= 2.14.1-1), golang-github-hashicorp-golang-lru-v2 (= 2.0.7-2), golang-github-klauspost-compress (= 1.18.6+ds1-2), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-klauspost-crc32 (= 1.3.0-1), golang-github-kr-fs (= 0.1.0-2), golang-github-minio-crc64nvme (= 1.1.1-1), golang-github-minio-md5-simd (= 1.1.2-4), golang-github-minio-minio-go-v7 (= 7.0.100-1), golang-github-ncw-swift-v2 (= 2.0.5-1), golang-github-peterbourgon-unixtransport (= 0.0.7-1), golang-github-philhofer-fwd (= 1.2.0-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-pkg-sftp (= 1.13.9-1), golang-github-pkg-xattr (= 0.4.12-1), golang-github-restic-chunker (= 0.4.0-2), golang-github-rs-xid (= 1.6.0-1), golang-github-spf13-cobra (= 1.10.2-1), golang-github-spf13-pflag (= 1.0.10-1), golang-github-spiffe-go-spiffe (= 2.6.0-1), golang-github-tinylib-msgp (= 1.6.4-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-net (= 1:0.55.0-1), golang-golang-x-oauth2 (= 0.27.0-1), golang-golang-x-sync (= 0.20.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-term (= 0.41.0-1), golang-golang-x-text (= 0.36.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-api (= 0.276.0-2), golang-google-cloud (= 0.123.0-3), golang-google-genproto (= 0.0~git20260414.afd174a-1), golang-google-grpc (= 1.81.1-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-yaml.v3 (= 3.0.4-3), golang-opentelemetry-contrib (= 1.43.0-1), golang-opentelemetry-otel (= 1.43.0-4), golang-uber-automaxprocs (= 1.5.3-1)
-Static-Built-Using: go-md2man-v2 (= 2.0.7-1), golang-1.26 (= 1.26.4-1), golang-blackfriday-v2 (= 2.1.0-1), golang-cel-expr (= 0.24.0-1), golang-github-anacrolix-fuse (= 0.3.1-2), golang-github-backblaze-blazer (= 0.6.1-4), golang-github-cenkalti-backoff-v4 (= 4.3.0-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-cncf-xds (= 0.0~git20260121.a486691-1), golang-github-dustin-go-humanize (= 1.0.1-1), golang-github-elithrar-simple-scrypt (= 1.4.1-1), golang-github-envoyproxy-go-control-plane (= 0.13.2-2), golang-github-envoyproxy-protoc-gen-validate (= 1.0.2-2), golang-github-felixge-httpsnoop (= 1.0.3-3), golang-github-go-ini-ini (= 1.67.2-1), golang-github-go-jose-go-jose (= 4.1.4-1), golang-github-go-logr-logr (= 1.4.3-1), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-golang-protobuf-1-5 (= 1.5.4-2), golang-github-google-s2a-go (= 0.1.8-1), golang-github-google-uuid (= 1.6.0-1), golang-github-googleapis-enterprise-certificate-proxy (= 0.3.6-1), golang-github-googleapis-gax-go (= 2.14.1-1), golang-github-hashicorp-golang-lru-v2 (= 2.0.7-2), golang-github-klauspost-compress (= 1.18.6+ds1-2), golang-github-klauspost-cpuid (= 2.3.0-1), golang-github-klauspost-crc32 (= 1.3.0-1), golang-github-kr-fs (= 0.1.0-2), golang-github-minio-crc64nvme (= 1.1.1-1), golang-github-minio-md5-simd (= 1.1.2-4), golang-github-minio-minio-go-v7 (= 7.0.100-1), golang-github-ncw-swift-v2 (= 2.0.5-1), golang-github-peterbourgon-unixtransport (= 0.0.7-1), golang-github-philhofer-fwd (= 1.2.0-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-pkg-sftp (= 1.13.9-1), golang-github-pkg-xattr (= 0.4.12-1), golang-github-restic-chunker (= 0.4.0-2), golang-github-rs-xid (= 1.6.0-1), golang-github-spf13-cobra (= 1.10.2-1), golang-github-spf13-pflag (= 1.0.10-1), golang-github-spiffe-go-spiffe (= 2.6.0-1), golang-github-tinylib-msgp (= 1.6.4-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-net (= 1:0.55.0-1), golang-golang-x-oauth2 (= 0.27.0-1), golang-golang-x-sync (= 0.20.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-term (= 0.41.0-1), golang-golang-x-text (= 0.36.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-api (= 0.276.0-2), golang-google-cloud (= 0.123.0-3), golang-google-genproto (= 0.0~git20260414.afd174a-1), golang-google-grpc (= 1.81.1-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-yaml.v3 (= 3.0.4-3), golang-opentelemetry-contrib (= 1.43.0-1), golang-opentelemetry-otel (= 1.43.0-4), golang-uber-automaxprocs (= 1.5.3-1)
+Version: 0.19.1-1
+Built-Using: go-md2man-v2 (= 2.0.7-1), golang-1.26 (= 1.26.4-1), golang-blackfriday-v2 (= 2.1.0-1), golang-cel-expr (= 0.24.0-1), golang-github-anacrolix-fuse (= 0.3.1-2), golang-github-backblaze-blazer (= 0.6.1-4), golang-github-cenkalti-backoff-v4 (= 4.3.0-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-cncf-xds (= 0.0~git20260121.a486691-1), golang-github-dustin-go-humanize (= 1.0.1-1), golang-github-elithrar-simple-scrypt (= 1.4.1-1), golang-github-envoyproxy-go-control-plane (= 0.13.2-2), golang-github-envoyproxy-protoc-gen-validate (= 1.0.2-2), golang-github-felixge-httpsnoop (= 1.0.3-3), golang-github-go-ini-ini (= 1.67.3-1), golang-github-go-jose-go-jose (= 4.1.4-1), golang-github-go-logr-logr (= 1.4.3-1), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-golang-protobuf-1-5 (= 1.5.4-2), golang-github-google-s2a-go (= 0.1.8-1), golang-github-google-uuid (= 1.6.0-1), golang-github-googleapis-enterprise-certificate-proxy (= 0.3.6-1), golang-github-googleapis-gax-go (= 2.14.1-1), golang-github-hashicorp-golang-lru-v2 (= 2.0.7-2), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-klauspost-crc32 (= 1.3.0-1), golang-github-kr-fs (= 0.1.0-2), golang-github-minio-crc64nvme (= 1.1.1-1), golang-github-minio-md5-simd (= 1.1.2-4), golang-github-minio-minio-go-v7 (= 7.0.100-1), golang-github-ncw-swift-v2 (= 2.0.5-1), golang-github-peterbourgon-unixtransport (= 0.0.7-1), golang-github-philhofer-fwd (= 1.2.0-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-pkg-sftp (= 1.13.9-1), golang-github-pkg-xattr (= 0.4.12-1), golang-github-restic-chunker (= 0.4.0-2), golang-github-rs-xid (= 1.6.0-1), golang-github-spf13-cobra (= 1.10.2-1), golang-github-spf13-pflag (= 1.0.10-1), golang-github-spiffe-go-spiffe (= 2.6.0-1), golang-github-tinylib-msgp (= 1.6.4-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-net (= 1:0.56.0-1), golang-golang-x-oauth2 (= 0.27.0-1), golang-golang-x-sync (= 0.20.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-term (= 0.41.0-1), golang-golang-x-text (= 0.36.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-api (= 0.276.0-2), golang-google-cloud (= 0.123.0-3), golang-google-genproto (= 0.0~git20260414.afd174a-1), golang-google-grpc (= 1.81.1-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-yaml.v3 (= 3.0.4-3), golang-opentelemetry-contrib (= 1.43.0-1), golang-opentelemetry-otel (= 1.43.0-4), golang-uber-automaxprocs (= 1.5.3-1)
+Static-Built-Using: go-md2man-v2 (= 2.0.7-1), golang-1.26 (= 1.26.4-1), golang-blackfriday-v2 (= 2.1.0-1), golang-cel-expr (= 0.24.0-1), golang-github-anacrolix-fuse (= 0.3.1-2), golang-github-backblaze-blazer (= 0.6.1-4), golang-github-cenkalti-backoff-v4 (= 4.3.0-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-cncf-xds (= 0.0~git20260121.a486691-1), golang-github-dustin-go-humanize (= 1.0.1-1), golang-github-elithrar-simple-scrypt (= 1.4.1-1), golang-github-envoyproxy-go-control-plane (= 0.13.2-2), golang-github-envoyproxy-protoc-gen-validate (= 1.0.2-2), golang-github-felixge-httpsnoop (= 1.0.3-3), golang-github-go-ini-ini (= 1.67.3-1), golang-github-go-jose-go-jose (= 4.1.4-1), golang-github-go-logr-logr (= 1.4.3-1), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-golang-protobuf-1-5 (= 1.5.4-2), golang-github-google-s2a-go (= 0.1.8-1), golang-github-google-uuid (= 1.6.0-1), golang-github-googleapis-enterprise-certificate-proxy (= 0.3.6-1), golang-github-googleapis-gax-go (= 2.14.1-1), golang-github-hashicorp-golang-lru-v2 (= 2.0.7-2), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-klauspost-crc32 (= 1.3.0-1), golang-github-kr-fs (= 0.1.0-2), golang-github-minio-crc64nvme (= 1.1.1-1), golang-github-minio-md5-simd (= 1.1.2-4), golang-github-minio-minio-go-v7 (= 7.0.100-1), golang-github-ncw-swift-v2 (= 2.0.5-1), golang-github-peterbourgon-unixtransport (= 0.0.7-1), golang-github-philhofer-fwd (= 1.2.0-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-pkg-sftp (= 1.13.9-1), golang-github-pkg-xattr (= 0.4.12-1), golang-github-restic-chunker (= 0.4.0-2), golang-github-rs-xid (= 1.6.0-1), golang-github-spf13-cobra (= 1.10.2-1), golang-github-spf13-pflag (= 1.0.10-1), golang-github-spiffe-go-spiffe (= 2.6.0-1), golang-github-tinylib-msgp (= 1.6.4-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-net (= 1:0.56.0-1), golang-golang-x-oauth2 (= 0.27.0-1), golang-golang-x-sync (= 0.20.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-term (= 0.41.0-1), golang-golang-x-text (= 0.36.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-api (= 0.276.0-2), golang-google-cloud (= 0.123.0-3), golang-google-genproto (= 0.0~git20260414.afd174a-1), golang-google-grpc (= 1.81.1-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-yaml.v3 (= 3.0.4-3), golang-opentelemetry-contrib (= 1.43.0-1), golang-opentelemetry-otel (= 1.43.0-4), golang-uber-automaxprocs (= 1.5.3-1)
 Priority: optional
 Section: utils
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Installed-Size: 41560
+Installed-Size: 41617
 Depends: libc6 (>= 2.34)
 Recommends: fuse, libjs-jquery (>= 3.6.0), libjs-sphinxdoc (>= 9.0), sphinx-rtd-theme-common (>= 3.1.0+dfsg)
-Filename: ./restic_0.19.0-1_amd64.deb
-Size: 11334560
-MD5sum: 9c2a868b1b9bd6ef8155608340d70d3d
-SHA1: f48efb00721950a3f31fc9da4030ac59005e6de6
-SHA256: 5ef17b41fb0207bd688389a6e21a70a3af04f7005b308c9df1eb8a2f1cda36d8
-SHA512: 1c1e241a9149bd02319ee1f774c6bf54b824394efdb23eb32f80d3df21b316f3d976aebdf29635bf5cfd925dccec9d24b9893f27c421264d9ea05e911be4b7de
+Filename: ./restic_0.19.1-1_amd64.deb
+Size: 11356012
+MD5sum: 3d822c8845d03990fd1197c0843f8121
+SHA1: 11f718141ddf19d695e87c473388f5e4e31c3657
+SHA256: 97711c3125b5a65788a7e99fce8eb25f9a543fa8d83c4d7e54a5febe939a0f9e
+SHA512: 34f555cc20a0959b6a248a17dbeb98bda56848d90adb24bb12654964e5f6212e956792f4e0ccd627422df13164ee2d06da3d20ed5bf7c91e4eded1075493963c
 Homepage: https://github.com/restic/restic
 Description: backup program with multiple revisions, encryption and more
  restic is a program that does backups right and was designed with the following
@@ -61660,19 +61660,19 @@ Description: integration of Debian Ruby packages with Rubygems
 
 Package: runit-helper
 Architecture: all
-Version: 2.16.6
+Version: 2.16.7
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: dh-runit
 Maintainer: Lorenzo Puliti <plorenzo@disroot.org>
 Installed-Size: 18
-Filename: ./runit-helper_2.16.6_all.deb
-Size: 4808
-MD5sum: 92e0b8cd9e076dd22c31c676d7e36e78
-SHA1: 124e8f6850c1e13008f3db7e76856211684bd347
-SHA256: 5807bfe97e9257863c4e5db03b0110772d543fe52dec92d1f8234a76d59951ae
-SHA512: d4b77d3648b5a4f102324ffd9a4909951382510b3384dc446e0e8d62ded6679225734e4f41370a3c199f0ef92ba0d0893f1e7cc2b2e7904e33544ef8506cac9f
+Filename: ./runit-helper_2.16.7_all.deb
+Size: 4932
+MD5sum: 3239284a64feee4f3a90261209ee755d
+SHA1: 77897f7216ee92bfabaacdd1c4822191e83a65f6
+SHA256: 7179b63a905793f77d9c250ccd64cd98ea57ca689e93b3fc536136470466af32
+SHA512: 0b73a36591a68b254f12e0200716fb977557cc59698afaf8529a48c186d88d29850d3e40d052b8e498daa11f60de8ace43e4f0c561fca3249eae2043f896ce9b
 Homepage: https://salsa.debian.org/debian/dh-runit
 Description: dh-runit implementation detail
  runit-helper provides code, which actually perform actions on system
