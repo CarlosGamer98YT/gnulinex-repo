@@ -1542,22 +1542,22 @@ Description: records CDs in Disk-At-Once (DAO) mode
 
 Package: chromium-common
 Architecture: amd64
-Version: 149.0.7827.196-1
+Version: 150.0.7871.100-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 67155
+Installed-Size: 67774
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
-Breaks: chromium (<< 149.0.7827.196-1)
-Replaces: chromium (<< 149.0.7827.196-1)
-Filename: ./chromium-common_149.0.7827.196-1_amd64.deb
-Size: 26300272
-MD5sum: 945b9ed2bfd215170d8ff4b97c76f7f7
-SHA1: fad44f0fa193aa5ef113fa112da42369db32e165
-SHA256: fb9155abef3adb14ba965c4f9764287fddab705c978fe431f41c2a0a45413670
-SHA512: cdacdebf2d1091760cacb76b54007e456753fac3ad79ef55048ff4c36669d60f2328b8cb551548e70567ee3bbc04ad6e88a069aeda94ce18a555deb2afa901be
+Breaks: chromium (<< 150.0.7871.100-1)
+Replaces: chromium (<< 150.0.7871.100-1)
+Filename: ./chromium-common_150.0.7871.100-1_amd64.deb
+Size: 26652176
+MD5sum: 5028f6d238b9414b66595c9d5251a80c
+SHA1: 0be5f28e38e6ce2a251a6c4b660e726505ba46bd
+SHA256: a2642b7775633f851ba3e7457aad1af3be9846321bdc6d7a5759ef4af0bd5bcb
+SHA512: 635541c3bad2a6f814e9c34149ff1eb062f7d77cefb01541ce0f1f567257d05ec295dda37c3b20947241c9b4404500d538d9afb132815cd7cd28ba536793d8ab
 Homepage: http://www.chromium.org/Home
 Description: web browser - common resources used by the chromium packages
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1568,21 +1568,21 @@ Description: web browser - common resources used by the chromium packages
 
 Package: chromium-sandbox
 Architecture: amd64
-Version: 149.0.7827.196-1
+Version: 150.0.7871.100-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 353
+Installed-Size: 358
 Depends: libc6 (>= 2.38)
-Breaks: chromium (<< 149.0.7827.196-1)
-Replaces: chromium (<< 149.0.7827.196-1)
-Filename: ./chromium-sandbox_149.0.7827.196-1_amd64.deb
-Size: 93672
-MD5sum: 968777609eb3c4c4533df856111f9f34
-SHA1: 87bf4d137205490fcfcfba207ba2a6ffa711d9d0
-SHA256: 1dc944db44b91f9d8ba0800a0661fb986f062713f4a0e0bb5b789f0fd3838033
-SHA512: 8b748f2ba13533d647fe629eae6303d42517c6373efa767a1803c61cfd29a769176493969a969a33ecbe8f6fc759455a5d4ee1b8d00299c27e0605d884d619f3
+Breaks: chromium (<< 150.0.7871.100-1)
+Replaces: chromium (<< 150.0.7871.100-1)
+Filename: ./chromium-sandbox_150.0.7871.100-1_amd64.deb
+Size: 99184
+MD5sum: 25c16a990a06787114d1fb769990d48d
+SHA1: 9c93157a97e994f4e661c2cc7a8ef9ca478ac6eb
+SHA256: 212e87f9e3ff62c399c0e4aa2a8164c2adf351fbf9871bec39461d7e7669b6e8
+SHA512: a1d1371cc31ccd72c9102da7d009202e2176ffa8931738e0688762f36354328c00e7c3bd501e30a3bc9bc26fe54a79b7f0fe3c562238d6e2a3bb91cbcb12755f
 Homepage: http://www.chromium.org/Home
 Description: web browser - setuid security sandbox for chromium
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1592,23 +1592,23 @@ Description: web browser - setuid security sandbox for chromium
 
 Package: chromium
 Architecture: amd64
-Version: 149.0.7827.196-1
+Version: 150.0.7871.100-1
 Priority: optional
 Section: web
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 302280
+Installed-Size: 307662
 Provides: gnome-www-browser, www-browser
-Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 149.0.7827.196-1)
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 150.0.7871.100-1)
 Recommends: chromium-sandbox
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
-Filename: ./chromium_149.0.7827.196-1_amd64.deb
-Size: 85692912
-MD5sum: ced1f013c077fa748e85bc6c7dd802cb
-SHA1: ed9c0a8fccae9407857dcfaaf92f7233ca8024dc
-SHA256: f18331a137e1bcf832af378025847c96fa112e7e1de11545170216e513dfb658
-SHA512: 2ded7fb6858a3a34481510002c4bd579564dac8dd9d7fe63b18ada0cbbd17dc85deab4e00f76fe145e17634e9f726a1f7d3403db7dcd46f75272b0642174da1c
+Filename: ./chromium_150.0.7871.100-1_amd64.deb
+Size: 87170052
+MD5sum: 697425b01ab614c679f1fa2021092c80
+SHA1: d959c431f8336f85ad2e802513e5e9007dc2f020
+SHA256: dc7f55ed404631eaef6efb4dccd00840ad6922793b6ce75136bf4b434c6d9ac4
+SHA512: 5ab6d39c74abe51919c270f9e19050b1ab3e4981713856e57edaf6382828141b5d014044e015593d96768a80f2240581b6c3b5e1f1c3905004ce0bfb046036ba
 Homepage: http://www.chromium.org/Home
 Description: web browser
  Web browser that aims to build a safer, faster, and more stable internet
