@@ -13335,19 +13335,19 @@ Description: Base package for Java runtimes
 
 Package: jq
 Architecture: amd64
-Version: 1.8.1-8
+Version: 1.8.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
-Installed-Size: 133
-Depends: libjq1 (= 1.8.1-8), libc6 (>= 2.38), libonig5 (>= 6.8.1)
-Filename: ./jq_1.8.1-8_amd64.deb
-Size: 85272
-MD5sum: d315a86f652312cba2e1d38a7a52d453
-SHA1: cef9cf7c6c123b866008ffd9cfa1d5585e9b32a0
-SHA256: 9fa41101442af0fa23b0db1d68591c9e339c5fa03b26ffa2280559f99ab7482a
-SHA512: 6f5b7686f67d76583eb08335e3ef4f85307a9779e09c95cdede631abe13fa6ec92acd8508487ad3543904912028f88283b2a07b1feefbe9fee958ab755ac334a
+Installed-Size: 135
+Depends: libjq1 (= 1.8.2-1), libc6 (>= 2.38), libonig5 (>= 6.8.1)
+Filename: ./jq_1.8.2-1_amd64.deb
+Size: 88168
+MD5sum: dae86c7d1be0a9747d32ad6bc834bf90
+SHA1: 6d75120eba34749b9c235c63a6227312f4ee489a
+SHA256: b973a5d304f666845e8ccefab492e3850d4bc2e7aa2a1e7450862095125f2cc0
+SHA512: bd3dc8abeddcfc3bde52571ec5e5ef106f7baee7bdbfcc2f6a698a2910f50501f5ddb61034e604428b81b31dc925f30d83e5d7fbd9b7500e9b2d955a00a68c76
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor
  jq is like sed for JSON data – you can use it to slice
@@ -25180,20 +25180,20 @@ Description: libjpeg-turbo JPEG runtime library
 
 Package: libjq1
 Architecture: amd64
-Version: 1.8.1-8
+Version: 1.8.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: jq
 Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
-Installed-Size: 440
+Installed-Size: 444
 Depends: libc6 (>= 2.39), libonig5 (>= 6.8.1)
-Filename: ./libjq1_1.8.1-8_amd64.deb
-Size: 167916
-MD5sum: 3427762bdf46129c467a69ea8ba448c5
-SHA1: f22b937f37056fed6f114f0816781883959dfea5
-SHA256: 23c5f17518247765b963dee774656b776459060275d06c685bd4dba68e36cf99
-SHA512: b7e3f8d447c5900f77df3e6a42357c3b63bdb47c0738ca20e68b393050c5832b71daa5a7ab1eb4bb0646b42a675042325673c042508bb09649dd2c6271bd7ae3
+Filename: ./libjq1_1.8.2-1_amd64.deb
+Size: 170372
+MD5sum: 19e98ef0d5f7b477a5b89e87ad13e1a2
+SHA1: 9645dbad1bcdc4130b5fcf8addf7ed1f0b828ade
+SHA256: 9a5bf964cef39ed8f0f162e20d856e31961d28a57772b5313989b42a8be7e941
+SHA512: d103c03621f7a19e3181c41d34a5315f04d276e4507fa5d248316d7d2396b93469451c083a30de0210c34768bc26bcc32b4c177df5f2089d5078d1cb3abebd07
 Homepage: https://jqlang.github.io/jq
 Description: lightweight and flexible command-line JSON processor - shared library
  jq is like sed for JSON data – you can use it to slice
