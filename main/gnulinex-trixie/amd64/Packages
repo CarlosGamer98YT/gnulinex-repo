@@ -17759,19 +17759,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.0.13-1
+Version: 7.1.3-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 412
+Installed-Size: 349
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.0.13-1_amd64.deb
-Size: 374964
-MD5sum: ad1329e3712bcb9055ee0afa7bba8f95
-SHA1: 8658c4e6ac13402624998413f2a4f11299bf2d70
-SHA256: 0524e13bf7cffbb2f43ee7844b63f8e548c35a878d38f3780021b0917b0b0ac2
-SHA512: dde883744f2d5646cb576984cbfc434c4d304689c40b88e2994670c3702f4d159c8562ab0e3cd82edb6c29cb426bf4d2c2c0815e336be8566224ceaaf4725228
+Filename: ./libcpupower1_7.1.3-1_amd64.deb
+Size: 310796
+MD5sum: 1ef97ca0ac78600a3a451ac649167fbd
+SHA1: 57952f22b0f670ed61f61dc2928d6602c46dd922
+SHA256: d94217e86c12ae5c3946d601bca654134ed69d981615884977dc27cfe575c4b5
+SHA512: 87f67063527c4fb430f6496fb8e5081571c5a6c11b038c45d097e414a2cbc46dcc5f36265161e29e5d564f0dcda7950639d258c972fedb9082ecdf7de2e070b7
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
