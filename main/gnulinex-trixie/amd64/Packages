@@ -48244,20 +48244,20 @@ Description: Terminal emulator widget for GTK 4 - runtime files
 
 Package: libwayland-bin
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 69
+Installed-Size: 68
 Depends: libc6 (>= 2.34), libexpat1 (>= 2.0.1), libxml2-16 (>= 2.14.1)
-Filename: ./libwayland-bin_1.24.0-2+b2_amd64.deb
-Size: 22164
-MD5sum: 1cd5beceee5df19b32a5b5cb79081d63
-SHA1: e28c2e11342f526e2867065fe9f7adb897c4f614
-SHA256: d508a45fc815e9d1782f6f6ad0d6e54fa54102fe71dec7d09e73fc9d4e5858d7
-SHA512: 5c0731d45c43cee3734bb9db0241a27480c83fab34666de4b854f02f661fde6e332d267865d963a9df313f20dd958f1d8991f6a55140c54b3f4bc5972ed9a2a3
+Filename: ./libwayland-bin_1.25.0-2_amd64.deb
+Size: 21616
+MD5sum: 0257880fc36ac24ea5cf1a973b4e714b
+SHA1: f8a41ded7f37b3522b476764e005ef79b82e631c
+SHA256: a01940e788d32381f5e9c434747ae130072a7f6c9b9b6b3030a4c2131d6bcaff
+SHA512: c192d0e6f31d830ab783a1667a88d339c645e02b7ab46059e38e71655f2268426988e91fa66470b27db7c6a86b49134787b6d45616c1128eb546602d8e7d1163
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - binary utilities
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48271,20 +48271,20 @@ Description: wayland compositor infrastructure - binary utilities
 
 Package: libwayland-client0
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 95
+Installed-Size: 99
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./libwayland-client0_1.24.0-2+b2_amd64.deb
-Size: 28752
-MD5sum: be130d8d7e456ce049832b674f47799d
-SHA1: b9a84c6fa81ffb89b48967a0a4bc3980afe97c69
-SHA256: da6dd5451b1ec2045ea5b69e2f35e1873e84269cc6e147cdbf9150d6b915a708
-SHA512: ed5b13f6164e8b2508aeb844128712e2ca4019170ad629bcf1a117a7294b036d5c2b26473c590731dbc5efd373a14f1c3f09e68f9d8c4c519a1dd84f4317d454
+Filename: ./libwayland-client0_1.25.0-2_amd64.deb
+Size: 29208
+MD5sum: 7a95cd55ce07c9ef2cb52e04e2f06fff
+SHA1: 3245ea589f0436503c54cf49143c478e6c056e97
+SHA256: f507b2eaba7ef2a5435d78dfb3b3b5c1b7c5d4ecb39aa00b8a06caf193244891
+SHA512: b932219eb1a911d29c50b50fe08db372a9eff60f686d254aff9339ddb0bca72c66fcc7d42626a05585f7e72d126f63ca0f50247d26e40cef0b54e6c677b68a88
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - client library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48299,20 +48299,20 @@ Description: wayland compositor infrastructure - client library
 
 Package: libwayland-cursor0
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 52
+Installed-Size: 51
 Depends: libc6 (>= 2.28), libwayland-client0 (>= 1.20.0)
-Filename: ./libwayland-cursor0_1.24.0-2+b2_amd64.deb
-Size: 12328
-MD5sum: d4664f2b99a3d0c029b021fdae6a8cd8
-SHA1: 0b5b287cfd749f75bead683dfe981ff7a88aa7d8
-SHA256: 5ac293a746084d47405302dda638224dccf029487afa2fe5cb7bce6a0bf70517
-SHA512: 034fcecbdbb5fadb8477dd34bd9cd4945da1bee9abb2c87d8fabf85dbb593191dae8214a43b4b649325a21eed7c2ab310a544f92ae5ce7991a271aca3ae0463d
+Filename: ./libwayland-cursor0_1.25.0-2_amd64.deb
+Size: 11684
+MD5sum: 3a9179e433e558dbdf5cc71217da7ddc
+SHA1: 94b66dd9601fa0183131c3a128c2af384b5d58e5
+SHA256: 55556e16fec4380385e27bbece9a81a9bb4169fc7846a9ab39d2ff9d8acd4359
+SHA512: a90ce4247e86c55596618b9e201a740a75b472af90e3b2b5fb1b571bc173ef13424617fc0bf5c8f405410373beebb857aab0be03bc5a240c302d91331df46103
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - cursor library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48326,21 +48326,21 @@ Description: wayland compositor infrastructure - cursor library
 
 Package: libwayland-dev
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 632
-Depends: libwayland-client0 (= 1.24.0-2+b2), libwayland-server0 (= 1.24.0-2+b2), libwayland-cursor0 (= 1.24.0-2+b2), libwayland-egl1 (= 1.24.0-2+b2), libwayland-bin (= 1.24.0-2+b2), libffi-dev
+Installed-Size: 653
+Depends: libwayland-client0 (= 1.25.0-2), libwayland-server0 (= 1.25.0-2), libwayland-cursor0 (= 1.25.0-2), libwayland-egl1 (= 1.25.0-2), libwayland-bin (= 1.25.0-2), libffi-dev
 Suggests: libwayland-doc
-Filename: ./libwayland-dev_1.24.0-2+b2_amd64.deb
-Size: 75632
-MD5sum: ae4eacfd4ad5ca24f23baa1981c3a472
-SHA1: 55fb905d19372ad99d7917ef308c78a492df6859
-SHA256: 5a14d35f99f34b3e034cbbe3072a34ff14b87bf125216fa4b2c6b853536dc2a3
-SHA512: 3236dc8968989779b5195bf9f95e7bc073510e63de06c0c4d0826d6b73f722287b67baef41edc966f4d2dd5e4962efc4032676abfcb05022ab5a0980f6af997f
+Filename: ./libwayland-dev_1.25.0-2_amd64.deb
+Size: 76752
+MD5sum: 8eb21b19f7260a5b61600e6f24142c63
+SHA1: 08fba6e981a40f2202e082d7113607fa04a30734
+SHA256: d00f0a161d649c3e169ad522a83e38378adb29a38bea91c51107989f82ce0169
+SHA512: 9231bc2525ac1b96b29c14392c399dab6dbed88e7194b7bb2bb494e4dfa6d49e3352a0c370fdbe41ecb7f025a79a46d32c67862038d7395a3f294c5527639f5c
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - development files
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48355,20 +48355,20 @@ Description: wayland compositor infrastructure - development files
 
 Package: libwayland-egl1
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 31
+Installed-Size: 30
 Depends: libc6 (>= 2.2.5)
-Filename: ./libwayland-egl1_1.24.0-2+b2_amd64.deb
-Size: 6216
-MD5sum: b839cf2f199123d17d3e49f9143bc781
-SHA1: 19db44ab5ba4a4510a05a5fd451ef5879e2b40bb
-SHA256: a8c05f825bc9a5eff0cb207a3bc667ae87dc8cfd06a6cc13f05c9867c014ca6b
-SHA512: 90097fda151a54d2a2c8ec979255503c8de8c1b394fcc8f082ab9d1143726b129c91b0150fe31efb2d57bfe951186aae7e8fa494d0442308baa209f048dfb0a0
+Filename: ./libwayland-egl1_1.25.0-2_amd64.deb
+Size: 5604
+MD5sum: b1948d8c914a67d61d18fec697635199
+SHA1: f308d434b17bbaff24fba56f44b1e034950dab69
+SHA256: 6ba50ac7f39deb9911914cf0606ec51b0df8c7560ac1a1bd5427d3aafe060c0d
+SHA512: e6b62851b883c2f0051b7d4f6b154b77e2081d7db9ba487f0cf30046bb96bf185479146e15e12e1faa2254881b20a225aa08606ba411bc8e8dd32f6b5765b666
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - EGL library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48383,20 +48383,20 @@ Description: wayland compositor infrastructure - EGL library
 
 Package: libwayland-server0
 Architecture: amd64
-Version: 1.24.0-2+b2
+Version: 1.25.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wayland (1.24.0-2)
+Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 114
+Installed-Size: 113
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./libwayland-server0_1.24.0-2+b2_amd64.deb
-Size: 35560
-MD5sum: 4fc8460591449fb8139ba1d581127f8b
-SHA1: 90cea230742fc3c6665a8aac927d1b2e189e2542
-SHA256: 6ab7883307805ac511e10ae92ebd1fbb48af4e09579aa5b0470cab050aaf9a96
-SHA512: 9c76ec1309a85fab76d46756bea1e90627098d1a90836d9f4fea02495dd3be249c9e966dce55675dfb34cb66ed9c14ad0658408530c870a980a4035c11470ec1
+Filename: ./libwayland-server0_1.25.0-2_amd64.deb
+Size: 35616
+MD5sum: b212c4c15f5d387fd94a9c3b7c26681b
+SHA1: b026e15da351a224d8eafdc29609476f4a515cc4
+SHA256: da9ac0cb61134a78891acaf1b8d1b14d1956d373fef67adafa1037f63e0e4952
+SHA512: ff88b5186923b25f4aa41dca59a38d8b2e3061667bc606078019ec61a907fd974979df33a0130b2c349784d946d5bb6afa5b920f756c9385453358b0739c9b01
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - server library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -57819,22 +57819,23 @@ Description: Run-time type checker for Python
 
 Package: python3-typing-extensions
 Architecture: all
-Version: 4.15.0-2
+Version: 4.16.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-typing-extensions
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 520
+Installed-Size: 540
 Depends: python3:any
-Filename: ./python3-typing-extensions_4.15.0-2_all.deb
-Size: 92520
-MD5sum: 4d73efeeee74ba10b2dbf7655aee4374
-SHA1: 848ec54d3debb28296a0ed5ab41c04ef907d735c
-SHA256: c0dbae539c0ed2d230bee550e5411b6def1643e680c4d83b33a8804ce8ed25d9
-SHA512: d3c39f61aa6b7f6901d95cf87b41c75f503ecd16f1befee98bae66116bece4a5fe11dd0edbf35051790d80346d16809888b9f63efe4bde39f667bedc20e68cec
+Suggests: python-typing-extensions-doc (= 4.16.0-2)
+Filename: ./python3-typing-extensions_4.16.0-2_all.deb
+Size: 95080
+MD5sum: 087a17a92da70298d5d2544cc56995aa
+SHA1: 17af9364e91fb903e19a20b3880e3d5634e61551
+SHA256: 5a9d586bc3239358b5e5e3b9107a57f5f5a265a145a1d7436c752751067ee379
+SHA512: 292416f24e3d0924c17df4fb24e84476074ed2b15d72749feee339395b09e829999d2cfd9f5e0d48f82a8fcaa999ab3831774ae179b4d8c1a1763b7e2f780fdc
 Homepage: https://typing-extensions.readthedocs.io/en/latest/
-Description: Backported and Experimental Type Hints for Python
+Description: Backported and Experimental Type Hints for Python (Python3 version)
  The "typing_extensions" module serves two related purposes:
  .
  1. Enable use of new type system features on older Python versions.
@@ -57844,6 +57845,8 @@ Description: Backported and Experimental Type Hints for Python
  "typing_extensions" is treated specially by static type checkers such as mypy
  and pyright. Objects defined in "typing_extensions" are treated the same
  way as equivalent forms in "typing".
+ .
+ This package contains the Python 3 version of the library.
 
 Package: python3-uno
 Architecture: amd64
@@ -69294,18 +69297,18 @@ Description: Highly customizable Wayland bar for Sway and Wlroots based composit
 
 Package: wayland-protocols
 Architecture: all
-Version: 1.48-1
+Version: 1.49-1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1135
-Filename: ./wayland-protocols_1.48-1_all.deb
-Size: 134800
-MD5sum: 7d730ae1eb42dbcdf573c6b775e9983d
-SHA1: 16dcadcbb2b214c5e9056914bbf1d2613bef8cba
-SHA256: f1c8f43f2f18c62227296a418d16bf72c41011739626f28aeccf201037603cf7
-SHA512: 83ef2927ca50ffd7c77cff947fc8816c80bb7d65b37f36d3920c701b06357a6c365971d4560443a073ae570ddaa0323f7c946bf72d046445c1bb3da0e2772ef6
+Installed-Size: 1144
+Filename: ./wayland-protocols_1.49-1_all.deb
+Size: 135956
+MD5sum: ac0460c07ec581ee6821ff488cab9961
+SHA1: b81fb4a8b35f5bbb6dc6c01bb14f704a15778854
+SHA256: d945ab1aeb98aac86b14569b0dd706471a842cd0738ae9ae5ccec5db4f632d48
+SHA512: d406c68da1482d6cd5d2bd8ff77ba8019ed1a6d27d2a564d4473c6ec93bf154f9d91f93e4f7e8a9c351bc60523e22637567eb9353df4782f0c7bde7b9b254ca4
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor protocols
  Wayland protocols that add functionality not available in the Wayland core
