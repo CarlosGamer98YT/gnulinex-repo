@@ -19164,7 +19164,7 @@ Description: EFL freedesktop.org spec implementations
 
 Package: libegl1-mesa-dev
 Architecture: amd64
-Version: 26.1.2-1
+Version: 26.1.4-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -19172,12 +19172,12 @@ Source: mesa
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
 Depends: libegl-dev, libglvnd-dev
-Filename: ./libegl1-mesa-dev_26.1.2-1_amd64.deb
-Size: 19412
-MD5sum: ff92a27064ce9025054bd975ae515d36
-SHA1: 4112e1b451d98165a415bffb9a77fd3571aa0312
-SHA256: 7b521cea40496f1d74fd8949ae05d46107656f0dab2df477f67f2c158879532b
-SHA512: 43551a582427175983f40ab933c08cb95d5bd84a589e750f93e5947f900b853e564f048c10af23c5bd589435deff3f217dd6f50cdd2b76c1995a4e5fc88987ac
+Filename: ./libegl1-mesa-dev_26.1.4-1_amd64.deb
+Size: 19444
+MD5sum: 58eca54b7fc9960715011db5a6e9e3c3
+SHA1: 52282d8d218e4db37986663378359d87bbc23b89
+SHA256: 35d454e61a43871ca179dd1bf4099219aff19c1c1fb3fe41e1010c479bbbc9f4
+SHA512: 98829f4aedc0d727ca78e0db58c11751b8ee747a22748e640b75e976ec4d0a3964b553cf45222b7a49f8c196e7e0ae887dba81584cad76d6350ae731ddc4a94c
 Homepage: https://mesa3d.org/
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
@@ -50407,20 +50407,20 @@ Description: Library for YUV scaling (shared library)
 
 Package: libyyjson0
 Architecture: amd64
-Version: 0.12.0+ds-1+b1
+Version: 0.12.0+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: yyjson (0.12.0+ds-1)
+Source: yyjson
 Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
-Installed-Size: 270
+Installed-Size: 269
 Depends: libc6 (>= 2.14)
-Filename: ./libyyjson0_0.12.0+ds-1+b1_amd64.deb
-Size: 105048
-MD5sum: 533da1e513076a53f7b39c5321297ee1
-SHA1: 47cd662ce057d48cdcf398b65c5bcf3372773fb8
-SHA256: 6d3d3028a9b682dceeec55c436096a613a5d476cccfc0b590e97e1dc9c858711
-SHA512: c763a0acc0fa620d2ff217f144bd33d7650dee1738bdce1ab1200369cc631313c454f02700ffca86098d9f88a7652e2b75a63a2f422b5bf71b7ab9ac5af0894f
+Filename: ./libyyjson0_0.12.0+ds-2_amd64.deb
+Size: 104872
+MD5sum: 23c89bad70316af47c46d658e1438028
+SHA1: e4681a4e6edc1f13ed3ba490355eae698050c2b0
+SHA256: 174d98680c090277876b0d77f939fe1680eb352bcbfee934af8e00e138da2084
+SHA512: 30c0ea724174695a4389421006050d2ce6578445804cc07225901002b8085fdb08793fcd41cf2add69cd53318a022fa957dbca768f214ca362fee787acac4578
 Homepage: https://github.com/ibireme/yyjson
 Description: high performance JSON library written in ANSI C
  Some features of the library are:
