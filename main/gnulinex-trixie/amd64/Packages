@@ -36735,7 +36735,7 @@ Description: Qt 6 concurrent module
 
 Package: libqt6core5compat6
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36743,12 +36743,12 @@ Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 418
 Depends: libc6 (>= 2.14), libicu78 (>= 78.1-1~), libqt6core6t64 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6core5compat6_6.10.2-2_amd64.deb
-Size: 139328
-MD5sum: 4af263cc90d9724b40dd4705ba54c20c
-SHA1: 6e36f6fff019c86a38c587ac7363f20f3f93ba81
-SHA256: 46721d2815931f548bfb3cd1dd4bb4bfbabeaffc05c7c7d8a520dc1f837e8760
-SHA512: 2f6424b57fa164ac64180f36b7dd8627e2b83ec0766023d7d358e3d9718dcf7df5e86caecd64f65e53e639ae67dc4d617e78b5b902484274ee9f4040517f39dd
+Filename: ./libqt6core5compat6_6.10.2-3_amd64.deb
+Size: 139420
+MD5sum: 6bde173b82b3f1680338acbfefed3a90
+SHA1: aa084e36d25036158cdf957626e6fa44d7e35187
+SHA256: f9bfad8b1cea963b8288359085a9d9d4bf7512903af6c8cc8bc5133bd05562b6
+SHA512: e10cbb4ca22b4e535d8e608ceab9e19614f9daf67fc98dd54ffd6a0033d385b8c503be1f51bac62c356d7b08ec689420b41af0aa7b4814740997aaef0bc73f02
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -59435,7 +59435,7 @@ Description: Qt 6 QML Models QML module
 
 Package: qml6-module-qt5compat-graphicaleffects
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59443,12 +59443,12 @@ Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1726
 Depends: qml6-module-qtquick, qml6-module-qtquick-window, libc6 (>= 2.29), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6shadertools6 (>= 6.10.2~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), qt6-shadertools-private-abi (= 6.10.2)
-Filename: ./qml6-module-qt5compat-graphicaleffects_6.10.2-2_amd64.deb
-Size: 336704
-MD5sum: c5784a07137e2186a7318e93bbe41115
-SHA1: 4b7d694bb4e4d33eba62b380cf123e5eeb9e6c23
-SHA256: 8f3502a7aea8864d2f52795bb221e1c946603dc3eff61432835e9779e7338a48
-SHA512: fc6381882fded2dbe73522852a1265f43ca67922ba9c4e7523fb215669f80780263fcffb6b35ff4e8ab5c029b2e1634cfd5ec1466306f049079c9183c021fa4a
+Filename: ./qml6-module-qt5compat-graphicaleffects_6.10.2-3_amd64.deb
+Size: 336700
+MD5sum: e2d9e51607df51bbf6d4b0dcc0a6efd3
+SHA1: 081448cd188ab645c67055ed0e1b603e24a38bcb
+SHA256: 8d323e50b52ea9656c653e8a1bef0eceb4c0907dd89ea4d4368dc9976119f126
+SHA512: 7a950a0e15a4a620857964dddfbaa53e2b35f6cbc7ebfa5eea3079d514c7293964ebd6ab8b26bd36b90e78e49117e48c7ffa61125542a781d5dd4672b5472a24
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60422,23 +60422,20 @@ Description: Qt5 Configuration Utility
 
 Package: qt6-5compat-dev
 Architecture: amd64
-Version: 6.10.2-2
+Version: 6.10.2-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 280
-Provides: libqt6core5compat6-dev (= 6.10.2-2)
-Depends: libqt6core5compat6 (= 6.10.2-2), qml6-module-qt5compat-graphicaleffects (= 6.10.2-2), qt6-base-dev
-Breaks: libqt6core5compat6-dev (<< 6.4.1-2~)
-Replaces: libqt6core5compat6-dev (<< 6.4.1-2~)
-Filename: ./qt6-5compat-dev_6.10.2-2_amd64.deb
-Size: 30456
-MD5sum: d799a9ac10f875edee39698f7ec48336
-SHA1: 9610d96129478e97439e8e2316e3acf85667124a
-SHA256: 134cab5a40a63b68c437d9308b7f0736e1f52d3bb667fab22729943d8beac571
-SHA512: abb38f998c5ddee674451a460cfed1b9ce4099dfadbc14f24bffa1b4805dd2e0a2df85dc18f35c7ae104a18479d6ec0392d218d4b351b39626e12f656b21e8bf
+Depends: libqt6core5compat6 (= 6.10.2-3), qml6-module-qt5compat-graphicaleffects (= 6.10.2-3), qt6-base-dev
+Filename: ./qt6-5compat-dev_6.10.2-3_amd64.deb
+Size: 30552
+MD5sum: 0c6d5b5ca4f55d2bb5fa57cfdedff4de
+SHA1: 9f454269fc40d9e05953288371de3159eafd1ecc
+SHA256: a7bd4511edf68b2a5ae43d4cbf799c5eccff99e2f60e4e16a8d267e832dd0126
+SHA512: 9acd9c7ab4ea945ad4cec069306bca90cfc0077431062bb0727ed6bf830f63da8b8e7becb1b6f7d13d17c6b94970c14ff1343243b23c8801461d670aefa0a7c8
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
