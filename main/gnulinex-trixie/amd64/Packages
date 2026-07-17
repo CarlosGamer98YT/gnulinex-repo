@@ -18152,20 +18152,20 @@ Description: GTK+ Clipboard manager (main library)
 
 Package: libdiscid0
 Architecture: amd64
-Version: 0.6.5-2+b2
+Version: 0.7.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libdiscid (0.6.5-2)
+Source: libdiscid
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 50
 Depends: libc6 (>= 2.38)
-Filename: ./libdiscid0_0.6.5-2+b2_amd64.deb
-Size: 16036
-MD5sum: c76943257a723d2ccec2a1431ea7f715
-SHA1: 0f8e6283b88443adb1c867dbfaa57db16d3b3e36
-SHA256: eda7837cc191c4cd0836b5da93e3019c23ee405c3f5e354958d80a94986e21df
-SHA512: c7a03edf5c2d0623b684ec1f22489b1854c899e783494f844db1714c3abd6cdcf2710d89b790371f93674ca17a384d1fb0fa86e472ca3a0d816d03afd892df8e
+Filename: ./libdiscid0_0.7.0-1_amd64.deb
+Size: 15988
+MD5sum: 83f8060d935988d580e97d0bf9870757
+SHA1: def0734544083a085fbbee32eb9bb59a24a441f5
+SHA256: dbfcb29889ffba2838e2a4d3c96e32a26b971d2c1466be91b3745dc22b4fcd6c
+SHA512: 7ee8a78c8a809b2acf730007ef7bd7d7abf4ca24652d6c56caf08d28977c54fcbf020850b099116e0e166a0b1e4cae2219c8e2bb1fdc05fa5457e48c338c9ada
 Homepage: https://musicbrainz.org/doc/libdiscid
 Description: library for creating MusicBrainz DiscIDs
  libdiscid is a library for creating MusicBrainz DiscIDs from audio CDs.
@@ -25315,7 +25315,7 @@ Description: GLib JSON manipulation library (common files)
 
 Package: libjsoncpp26
 Architecture: amd64
-Version: 1.9.8-1
+Version: 1.9.8-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -25323,12 +25323,12 @@ Source: libjsoncpp
 Maintainer: Timo Röhling <roehling@debian.org>
 Installed-Size: 309
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libjsoncpp26_1.9.8-1_amd64.deb
-Size: 87264
-MD5sum: 92950a2a821a1ee50ed35d46d1897aec
-SHA1: 3844d2291763050f63ad843980bc6029b1fe6bab
-SHA256: 5984c2fc4129c2aff38238bfe2eff25a19fee8a33742670a740bfd94a72ebc1f
-SHA512: d25a4545cdb42b1c09fb1e5906e3735209f002cd627c75d971b004fff94d86de2e1d3c84e97d5b80b51506515a6ec42dc6aedadc87f1e9938ac87f06e79f1069
+Filename: ./libjsoncpp26_1.9.8-2_amd64.deb
+Size: 87532
+MD5sum: 4e4c3988eed30d8e8adb735e59f06bfc
+SHA1: 78421d41c265e5ed3a8a99311fbbc6eb47b2748b
+SHA256: 4f1b8c1dcf168797bb6933c9411629ed9afe0c064a6b197d9ddf044410a6e084
+SHA512: bf1b348dda9e033427e29960a1d647676af55aa3d403e59957c3709542ab7dac523cf2ffb3cd3d94b2e482d78673e52a875833319b0b50f12d5587bb50c8436c
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: library for reading and writing JSON for C++
  jsoncpp is an implementation of a JSON reader and writer in C++. JSON
@@ -47198,23 +47198,24 @@ Description: open-source TCG Software Stack (library)
 
 Package: libtss2-esys-3.0.2-0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 675
-Provides: libtss2-esys-3.0.2-0 (= 4.1.3-6)
-Depends: libtss2-tcti-cmd0t64, libtss2-tcti-device0t64, libtss2-tcti-mssim0t64, libtss2-tcti-swtpm0t64, tpm-udev (>= 4.1.3-6), libc6 (>= 2.34), libssl3t64 (>= 3.0.0), libtss2-mu-4.0.1-0t64 (>= 3.0.1), libtss2-sys1t64 (>= 4.0.1)
-Breaks: libtss2-esys-3.0.2-0 (<< 4.1.3-6), libtss2-esys0 (<< 3.0.2-1)
+Provides: libtss2-esys-3.0.2-0 (= 4.1.3-7)
+Depends: libtss2-tcti-cmd0t64, libtss2-tcti-device0t64, libtss2-tcti-mssim0t64, libtss2-tcti-swtpm0t64, libc6 (>= 2.34), libssl3t64 (>= 3.0.0), libtss2-mu-4.0.1-0t64 (>= 3.0.1), libtss2-sys1t64 (>= 4.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys-3.0.2-0 (<< 4.1.3-7), libtss2-esys0 (<< 3.0.2-1)
 Replaces: libtss2-esys-3.0.2-0, libtss2-esys0 (<< 3.0.2-1)
-Filename: ./libtss2-esys-3.0.2-0t64_4.1.3-6_amd64.deb
-Size: 172264
-MD5sum: 325c9edfdb863f45f0e81481131593ed
-SHA1: 8c76fc1b6ecf9228576d252e1082f7b8d239a673
-SHA256: 7ae947d6e73d79a45d2dd4af7f2088474421bee642310dab7e17c9ce46ed7732
-SHA512: 79b0587456cd21c3482638544f3664d98acec305505dff6923513bba61aec824a759ef9ad9e42b1d27cb8ad116b1844fda3317aa84ac4a6dbb134714c549a327
+Filename: ./libtss2-esys-3.0.2-0t64_4.1.3-7_amd64.deb
+Size: 172276
+MD5sum: a8cabaa2426590e544ca4bff5578da25
+SHA1: 707ef42fee80a5bc989827364d5195ac52ab09a9
+SHA256: 98aedd109f1636f1632b0b1ff5558d28d6bd242a976fa83f64ab89928737fafa
+SHA512: 52d95aa97c66923d25e9d5c6312e8a2d160fb9dc93abf9abb2a6a43153aef8b14242a1185de763bfa8d7a2508d150465f1f6069750f88bf48c82bed66295499b
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47231,24 +47232,25 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-mu-4.0.1-0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 356
-Provides: libtss2-mu-4.0.1-0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.14)
+Provides: libtss2-mu-4.0.1-0 (= 4.1.3-7)
+Depends: libc6 (>= 2.14)
+Recommends: tpm-udev (>= 4.1.3-7)
 Conflicts: libtss2-mu0
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-mu-4.0.1-0 (<< 4.1.3-6)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-mu-4.0.1-0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-mu-4.0.1-0, libtss2-mu0 (<< 4.0.1-4)
-Filename: ./libtss2-mu-4.0.1-0t64_4.1.3-6_amd64.deb
-Size: 77556
-MD5sum: dad2e158d697e7e88a442b78f101a1de
-SHA1: 7548ed91d13d46fe9d40dd431e987b90d49d2881
-SHA256: c07ba3c825500d18bd28879ff632e61802213ce97c99bb382d84da6ce5739a8d
-SHA512: 679c70496be4133a97c974f0661659cc2d8257e4ddb669b7c3364105db1432eec561e6765a3d1a5f900ebc95ab4e0f9a88bbd8a9e3e7f7a5198db7e4f6004795
+Filename: ./libtss2-mu-4.0.1-0t64_4.1.3-7_amd64.deb
+Size: 77480
+MD5sum: b5f3f93d7232b600f8ee8ff5d1f61f6a
+SHA1: 517a42caacc0fd92a1b9a69dcf6826e0f61b7042
+SHA256: 83b74e945d9b34baa3f40c6d17649b8a538f76b335c2bb2ea2398e47806653c6
+SHA512: 4be53c2433946cd8e71324c2749bcf6e6761d25f2bc09220d3386aea84b73ff9864f77212e7fd126488fdf8fdbfb5a634f121d14064ef7f69c28df5b12fad010
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47265,23 +47267,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-rc0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 76
-Provides: libtss2-rc0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.4)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-rc0 (<< 4.1.3-6)
+Provides: libtss2-rc0 (= 4.1.3-7)
+Depends: libc6 (>= 2.4)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-rc0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-rc0
-Filename: ./libtss2-rc0t64_4.1.3-6_amd64.deb
-Size: 31004
-MD5sum: 0b5e97464f845db87186cf463ed5e5b7
-SHA1: 1b1ff674277ce564c138628b6fdafd922dc0efdf
-SHA256: d1b8b5c1e3ace0614fbb73c26fa18c594cf0b403a233bc6067726d40f9a2db84
-SHA512: 212ec405265010ba6aad56d63317a23d7770a64d12bc66d7593a55dc6752c6895241a5a2d1e6357008757d188c51e28ade215fb606c66d3f112f3f9e9692fdb4
+Filename: ./libtss2-rc0t64_4.1.3-7_amd64.deb
+Size: 31076
+MD5sum: a5745789febfa8247d1bf5cbf0908805
+SHA1: b0cfae4e6f1eaab56920f0a0857d718adb0a49c6
+SHA256: b40e0a4876df1668c4fade9e55fe4c5cf5d796e09d27f0ca2b2a3129c13f2ba2
+SHA512: aeb0561d8ae8cea4429900d6a9807ed66564a9da494f6799cf25d570b1fdbc5b9c6566196488f7a6158f971a9cd87d7f650077d59e9e9722cd09d28f930a999e
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47298,23 +47301,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-sys1t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 192
-Provides: libtss2-sys1 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.14), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-sys1 (<< 4.1.3-6)
+Provides: libtss2-sys1 (= 4.1.3-7)
+Depends: libc6 (>= 2.14), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-sys1 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-sys1
-Filename: ./libtss2-sys1t64_4.1.3-6_amd64.deb
-Size: 55328
-MD5sum: 81f01818dfbf3aa1e96d8183ec555a98
-SHA1: e87e12e433eb760249e6f453e0c1f969e379ae20
-SHA256: 68ce6ea778807906b90d614226fbf4203ffbf0a1a97e533635019b6799a567c9
-SHA512: c895872d910d02dbf2c1f532b3432892a98651206e5f04a491818dee9b09f0c07984a5ba77b2e3fa7acc8618f9ea692dac457ddf5046f4d860412c3436032f23
+Filename: ./libtss2-sys1t64_4.1.3-7_amd64.deb
+Size: 55472
+MD5sum: ef9d6ac0eecb87d417a0bbdfc80eb22b
+SHA1: 919205d7372820d9de5ec8a1fa5c24ae12aa4444
+SHA256: cc7134ebf00e0c2552a4cbcb8cacfef40d9e076624927895bf9ad023e2b73fe1
+SHA512: eaaf0f4b402c26270a903ba071e842164117489dbe9ac3dda8d2486dd498db74c3253071050caa9256a2f4aa95e0fe99edb6a81e330ad63542b46c2d0d409b0f
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47331,23 +47335,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-cmd0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 71
-Provides: libtss2-tcti-cmd0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.4), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-cmd0 (<< 4.1.3-6)
+Provides: libtss2-tcti-cmd0 (= 4.1.3-7)
+Depends: libc6 (>= 2.4), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-cmd0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-cmd0
-Filename: ./libtss2-tcti-cmd0t64_4.1.3-6_amd64.deb
-Size: 34368
-MD5sum: 1c25b395b2b1aaf9234910cc2e4eef25
-SHA1: 685193658787ab81c0b39e2ac8fb9321e77dea0f
-SHA256: 2e77d01d4b0f304488fd1dbdde89a4ffc5facec2c614dac86b54b658718eed8d
-SHA512: b3c01046ed2d6f2798f8034a3276b657d356cb59bc9f17e6fd0fa69d9dc34019aeee5284ffc4fb9683133e5ec5ebdfa618de217d1272f47090c1bd72e684c0bb
+Filename: ./libtss2-tcti-cmd0t64_4.1.3-7_amd64.deb
+Size: 34432
+MD5sum: bb05623190193059ae946f16acc1f598
+SHA1: 83de91d6d9df8d334a3f384e08500f14c757c381
+SHA256: 2bc1f8a21caef5e99dc02a0802a511319cafe7a6e0f0208d01c5f00ac3ec6979
+SHA512: 2e0479fc0a8098f6ea3aa3ec7946cdde64fa74e30d216bb6c785036559134908ca932b4293fc2a176cd41d24d9ce480a28a37fb8fcb985580ed22e639f1b64fc
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47364,23 +47369,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-device0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 71
-Provides: libtss2-tcti-device0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.4), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-device0 (<< 4.1.3-6)
+Provides: libtss2-tcti-device0 (= 4.1.3-7)
+Depends: libc6 (>= 2.4), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-device0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-device0
-Filename: ./libtss2-tcti-device0t64_4.1.3-6_amd64.deb
-Size: 35668
-MD5sum: 28b8a4aa81a1d0c86c0ab1df8315f9d1
-SHA1: bff7ae5970a21bc00e560b103c335c14f830248a
-SHA256: 13dc0e5bf60680527653113f866b582effbbcf075252c89d088c969168542622
-SHA512: b1db6be4225ee6aa715aa72aaebf351648fef224581957ad8d9c03e9561f56dfe97534336dbc8ed279d8b3bc0228996f3274639460ee05deeb408a47ba100766
+Filename: ./libtss2-tcti-device0t64_4.1.3-7_amd64.deb
+Size: 35724
+MD5sum: 70e8b0347c0c0de739bd0e589e30789f
+SHA1: 8e448e033452f5fef8f8d6d0fd0f457e283eb5ed
+SHA256: 24861e35389617f8a8eb685cba8b5fdfc6ac769301cfbdef245287b7f129763a
+SHA512: 907424517acc8912aa4dda8e3a1cdc29b35d15d66194dc27b464dd0463a73d885b4a829c191b56e247c1ead29b7e5893dd75b8c9351f70bd5e4c84a2e41e503d
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47397,23 +47403,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-libtpms0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 71
-Provides: libtss2-tcti-libtpms0 (= 4.1.3-6)
+Provides: libtss2-tcti-libtpms0 (= 4.1.3-7)
 Depends: libc6 (>= 2.34), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-tcti-libtpms0 (<< 4.1.3-6)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-tcti-libtpms0 (<< 4.1.3-7)
 Replaces: libtss2-tcti-libtpms0
-Filename: ./libtss2-tcti-libtpms0t64_4.1.3-6_amd64.deb
-Size: 34616
-MD5sum: 81b067d0d1d16952ce58c14f3e15b795
-SHA1: 9a44e8974f8c1cb35094bed606d3039b0d75cd80
-SHA256: 1f9a6fb0464f37667ff68286b866a46b7f466ac302348a1dba37f13ba43c7dcc
-SHA512: e23473342dd0fbb4e6a2adada4351b7ef381fecfd20145f98c241024d0e62dd98f27f81a20c83d84c89bedaaee83eaf7f8ce65fcfef56606771f020aec70df5b
+Filename: ./libtss2-tcti-libtpms0t64_4.1.3-7_amd64.deb
+Size: 34724
+MD5sum: 7af0d828df96c475cd1a938899ac8b1d
+SHA1: 3b4cd7a30f7c8a4269afac9eb99607cc5a9b9170
+SHA256: 19d1aebfb8c223fd9f7e918c1fbf892f7c6f7ba5ca32be944d95c82837fffbd1
+SHA512: 588a372e98bb5e0619a518d3961863f3b5f4d7a406b0bc5d7ea7297105b3a0a0187e922e06101ab9b31d367afaa7bf14da24703e89ad665d75c46db154fd047c
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47430,23 +47437,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-mssim0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 75
-Provides: libtss2-tcti-mssim0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.38), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-mssim0 (<< 4.1.3-6)
+Provides: libtss2-tcti-mssim0 (= 4.1.3-7)
+Depends: libc6 (>= 2.38), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-mssim0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-mssim0
-Filename: ./libtss2-tcti-mssim0t64_4.1.3-6_amd64.deb
-Size: 35736
-MD5sum: 8d275884e35e77f884775f5ead66600e
-SHA1: e34508a596d539f8de822425ad97183ac513dd99
-SHA256: 6a3745905fca830a0f4e880088ffa80d31804db3f26dc688dbb305b9f8f2207e
-SHA512: e58bf1b1a161ee9a8850c74964540177ecf9a2b0bcc54fb1ad6d41aedebd99b5ad0d0ea2a011076c91d2a7f4aa9f4cfb4393045e23562322f2a24a630941153d
+Filename: ./libtss2-tcti-mssim0t64_4.1.3-7_amd64.deb
+Size: 35820
+MD5sum: 34d49b51f20506d945a3130771852656
+SHA1: 3817e1d9625b754ce74d83b66b788f80e0cab54a
+SHA256: 4c55d668f4fd6be9165a54390ecbfb2a85e2622033c15c53b12ec0dd537a4b99
+SHA512: 6f9c374294bdeec8ded60419e07454e7939bc1e8a92b67911a62b6ea0320128b1077818c93cf2846cd9fd2fe73c5230122613aa481c65f227b9ba2b3130f8a4e
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47463,23 +47471,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-spi-helper0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 71
-Provides: libtss2-tcti-spi-helper0 (= 4.1.3-6)
+Provides: libtss2-tcti-spi-helper0 (= 4.1.3-7)
 Depends: libc6 (>= 2.4), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-tcti-spi-helper0 (<< 4.1.3-6)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-tcti-spi-helper0 (<< 4.1.3-7)
 Replaces: libtss2-tcti-spi-helper0
-Filename: ./libtss2-tcti-spi-helper0t64_4.1.3-6_amd64.deb
-Size: 34700
-MD5sum: 99d03611dd4e46e654967ae20a2728c7
-SHA1: 726bfea4d7bb3068f0dc43e9b1e8875c8b000077
-SHA256: 111640f262571c6e18751b66721f13c53dc01dd0c700ac39714271c861acf852
-SHA512: 9233b8b110ae6e6f7c9f4444f01db09781800007372ddbf5ea1ad1128d0338b35b87e8fde11ba2dab68b067077a5f576e50d3c0d8cfc0c67ab9dbca860010c06
+Filename: ./libtss2-tcti-spi-helper0t64_4.1.3-7_amd64.deb
+Size: 34788
+MD5sum: f34b0a7ba9ba2dfa30e62f160a21555c
+SHA1: 7a500ed750a2e314942bc2375242eb3adb2bc336
+SHA256: 352de5432db8f9826d4629220ebc99f7410fba00a96b897948ca0e13a4a02e22
+SHA512: 008c3e6a2d518e8592934389662b351fd56f5657ad69cf5ee1287316f02990f60b684a395768ed91582561fe02cbac3d7614e78e2c0d2e42e69e0e287e9491df
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47496,23 +47505,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tcti-swtpm0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 75
-Provides: libtss2-tcti-swtpm0 (= 4.1.3-6)
-Depends: tpm-udev (>= 4.1.3-6), libc6 (>= 2.38), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-swtpm0 (<< 4.1.3-6)
+Provides: libtss2-tcti-swtpm0 (= 4.1.3-7)
+Depends: libc6 (>= 2.38), libtss2-mu-4.0.1-0t64 (>= 3.0.1)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-swtpm0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-tcti-swtpm0
-Filename: ./libtss2-tcti-swtpm0t64_4.1.3-6_amd64.deb
-Size: 35808
-MD5sum: dd8280cea61572f888596e9ee4982274
-SHA1: 5fa38adb2f64c635864bb72e74f2d007ee1d6bab
-SHA256: cfe59cd611d8dcd6f1df8c31eb97b65c5e1feda3164e695be9c117163eff2332
-SHA512: c7c01726e2ae7ae471c8d18ed32b8b2563766118349640ee1623133caa65bb71cda0116429ef3a51621ed6ffa8406f709363eeba07197c7eda16b66bf6af25d9
+Filename: ./libtss2-tcti-swtpm0t64_4.1.3-7_amd64.deb
+Size: 35892
+MD5sum: 455ad1766812ab6b72ad44040dc5535a
+SHA1: 7452d00fffd9844901662e61e42d5c66bcdafde6
+SHA256: da586e6bf58a3c20b10bec5549eb61d94d88af4fb40699eaaafa11a9fd0d02cb
+SHA512: afbfc8b54d18520ba04b358cbb2c10fe9c3d21d29627227458212749db8f341202077ce1d3088f0a22c4ddfe03b1b776cf18d85bf43564b101140a19e3c70d48
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -47529,23 +47539,24 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtss2-tctildr0t64
 Architecture: amd64
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 71
-Provides: libtss2-tctildr0 (= 4.1.3-6)
-Depends: libtss2-tcti-cmd0t64, libtss2-tcti-device0t64, libtss2-tcti-libtpms0t64, libtss2-tcti-mssim0t64, libtss2-tcti-spi-helper0t64, libtss2-tcti-swtpm0t64, tpm-udev (>= 4.1.3-6), libc6 (>= 2.34)
-Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tctildr0 (<< 4.1.3-6)
+Provides: libtss2-tctildr0 (= 4.1.3-7)
+Depends: libtss2-tcti-cmd0t64, libtss2-tcti-device0t64, libtss2-tcti-libtpms0t64, libtss2-tcti-mssim0t64, libtss2-tcti-spi-helper0t64, libtss2-tcti-swtpm0t64, libc6 (>= 2.34)
+Recommends: tpm-udev (>= 4.1.3-7)
+Breaks: libtss2-esys0 (<< 3.0.1-2), libtss2-tctildr0 (<< 4.1.3-7)
 Replaces: libtss2-esys0 (<< 3.0.1-2), libtss2-tctildr0
-Filename: ./libtss2-tctildr0t64_4.1.3-6_amd64.deb
-Size: 34980
-MD5sum: 9eea1b75e6e7cb8fd7b770c45708deae
-SHA1: 3a58f0debb69f296365af5b15b5a8854589a2c7a
-SHA256: e32a472e1aa5cb8180d1a728cfc20d2b5417ec484c00923370991e591ddb225b
-SHA512: 4e67dba504e5baf43eaf80e6ce7f5d7deb234a3dc510fa97a3e66e270f402fd061f8ef76474fb4b5129c66b2f05df0bc37709fd7a40aadb4bd4dff96f3368882
+Filename: ./libtss2-tctildr0t64_4.1.3-7_amd64.deb
+Size: 35076
+MD5sum: d919c1d3ab2f3d5e000c759d89d5b682
+SHA1: 90cee91438457e156cf20d0438de904b521f2722
+SHA256: e446435312bc797ff5fe71f2561371c0865fcfcc57100bf7e2b4312a4780647d
+SHA512: c08272172ee168f3abd896eb05af4425106f6e13d6e8e85ba7868ea5bdc80493c4c1598c3be5a8b7375b5a7181b1ce88664a018fdf1cc0830e21306a9f6b8f05
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support
@@ -48690,20 +48701,20 @@ Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
 
 Package: libx264-165
 Architecture: amd64
-Version: 2:0.165.3222+gitb35605ac-3+b2
+Version: 2:0.165.3223+git20250910.0480cb0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: x264 (2:0.165.3222+gitb35605ac-3)
+Source: x264
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1914
+Installed-Size: 1912
 Depends: libc6 (>= 2.38)
-Filename: ./libx264-165_2%3a0.165.3222+gitb35605ac-3+b2_amd64.deb
-Size: 555604
-MD5sum: c5d88fb6f3be7c6a2c4288c7c1b093aa
-SHA1: bee0880ab7aee126882481be7888c2f19263b9d0
-SHA256: 7cc7cb7c0b4ea7e6065619a5d671094cf51b7959c0dcb2067c079cbc30ceca5f
-SHA512: bd20093116efd37dd69c1cac0ff0025f745df69e92fa7f57a627abc1e6a3cd955f3c6611d4221700ba62bc3a128a2e915e9be36ee9e8c59ea869fa909e9f1283
+Filename: ./libx264-165_2%3a0.165.3223+git20250910.0480cb0-1_amd64.deb
+Size: 554580
+MD5sum: 621d13e60bc6d4007b367808934f053c
+SHA1: de0c61cfe41e5ce4d35257d2906c96c60934d19f
+SHA256: eb4b2b4b2cf30100eff986fb6cfb4c2781d872c61782e3cfb5cc45a082357b4a
+SHA512: 1e71abc7e42ecfe613650c699848f1f0ec1f030dbf9deba8136603901111a1e0ab2259bb3f0ab099ef9890e3a8e594b3764afbb736473c2c728be32ca940c4c2
 Homepage: https://www.videolan.org/developers/x264.html
 Description: x264 video coding library
  libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
@@ -68448,23 +68459,23 @@ Description: Simple media player for the GNOME desktop based on GStreamer
 
 Package: tpm-udev
 Architecture: all
-Version: 4.1.3-6
+Version: 4.1.3-7
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: tpm2-tss
 Maintainer: Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>
 Installed-Size: 66
-Depends: systemd | systemd-standalone-sysusers | systemd-sysusers
+Depends: systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles
 Breaks: libtss2-fapi1t64 (<< 4.1.3-6)
 Replaces: libtss2-fapi1t64 (<< 4.1.3-6)
 Enhances: udev
-Filename: ./tpm-udev_4.1.3-6_all.deb
-Size: 27416
-MD5sum: 1f28504e00fd9dd054abee368d027cab
-SHA1: 5f3e6f95d3b7ccf96dd18252cd2ef77ec3df1969
-SHA256: 38e21eeb553f5d752b09ca04dd9db8f9b10c8b6c1aed3364e09f7682ab7079ef
-SHA512: 0e3fb5eadacb5ebaba9a3268c60fb2d8f8adadf89c67bff1188a147e0f63730f9a52666b90c0cca1f779216a323908e0de91ca157692ac5fb164a48a4faa6363
+Filename: ./tpm-udev_4.1.3-7_all.deb
+Size: 27464
+MD5sum: d4fba1cb75aadc2900247ac674610813
+SHA1: 6b39e9f332b0c286a509e1d98797e4903cd3266c
+SHA256: 3e093f13c81c8af3368357cf5ca81d37b7715fe455e866b5b574545de331aad7
+SHA512: 13edef2b36df111dc043c394d81860902d218a960d547e798faf7fb7d37eb5632a6880264804c1d8b290ccd6c407baf06a974572155897b7bd7967fd3600d7f6
 Homepage: https://github.com/tpm2-software/tpm2-tss
 Description: TPM2 Software stack library - udev rules for TPM modules
  This package provides udev rules for the TPM modules. Both TPM1 or TPM2 need
