@@ -54151,19 +54151,19 @@ Description: simple Xfce oriented text editor
 
 Package: mozo
 Architecture: all
-Version: 1.26.2-2
+Version: 1.28.0-1
 Priority: optional
 Section: utils
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 720
+Installed-Size: 734
 Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-matemenu-2.0 (>= 1.22), mate-menus, python3-gi, python3:any
 Recommends: mate-panel
-Filename: ./mozo_1.26.2-2_all.deb
-Size: 87268
-MD5sum: 7dbf9e980b7ab946d8c95b78cc4f0c35
-SHA1: 8d5e08bb200a4e3a1148bf5d602a1fb453d2e1b4
-SHA256: 5b18d461c8e046d4d4f3d03dd6e50a535a1692dbc41eddf3e6179a78fe068a70
-SHA512: 6abf4cc0e16e04f3211701dfc8207f871117aaf906dc82c0e3b786098446411a06d3705e0f0bde89890be1d393760d8fba12afa50d8d084edf380e33377d2de3
+Filename: ./mozo_1.28.0-1_all.deb
+Size: 95632
+MD5sum: 17ae9b0fb83efe7846d70305300cff4e
+SHA1: 6c2f2fe767e82d021baa77df692d18b837407c6f
+SHA256: 5069c3e91b84361021a795f9e87384c201d2afbe43f07e5560e6f1d96eb7253a
+SHA512: 328570816510d516ac929ea1dc3bd2c1c71be47e9869db6e0d04b4bdf8601535a9498e1991be47746ddef4f445b570e52b82338caf7285b12a3fa3a877ff434e
 Homepage: http://www.mate-desktop.org/
 Description: easy MATE menu editing tool
  Mozo is an easy-to-use menu editor for MATE that can add
