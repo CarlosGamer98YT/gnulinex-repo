@@ -6476,18 +6476,18 @@ Description: graphical setup tool for the alternatives system
 
 Package: gammastep
 Architecture: amd64
-Version: 2.0.9-2
+Version: 2.0.11-1
 Priority: optional
 Section: x11
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 786
+Maintainer: Karol Werner <karol@ppkt.eu>
+Installed-Size: 790
 Depends: python3:any, libc6 (>= 2.38), libdrm2 (>= 2.4.3), libglib2.0-0t64 (>= 2.32.0), libwayland-client0 (>= 1.20.0), libxcb-randr0 (>= 1.3), libxcb1
-Filename: ./gammastep_2.0.9-2_amd64.deb
-Size: 107984
-MD5sum: dc14c4acc319f544b1f18104fb046510
-SHA1: 8f0360e3f6dd558603b2ca4bff6ad3bcb6af6577
-SHA256: f118f87f0a4b6b1e898ddcbaa6fce244009eca0e8662d0c50a22594a57487b27
-SHA512: 248b0c6103383c59ad0cf3a11f7a6042c18ad5f9d3d37123f95479aab131a6387093131db3543a49f798616cf2e9aed1cd486287c85c8d8113d283f859e3c5ef
+Filename: ./gammastep_2.0.11-1_amd64.deb
+Size: 108300
+MD5sum: 27cbe1cd58050881d6d2b769868d1e6c
+SHA1: 99c210415fb10b95daab441883b6a044a995af21
+SHA256: d138f9a99c5177630ec644d4fa62f50924a50271b1d40cc2232e8a39ab29eb69
+SHA512: a084691699f92a6e77acd6f8e41d3bf91f7e1b0238de7a214b64f2d7895bf548316bfebe27fbca9e9dc7470d855c1c58f7c1a88a026601d84281c011a1be64a4
 Homepage: https://gitlab.com/chinstrap/gammastep
 Description: Adjust display hue to outside lighting conditions
  Gammastep automatically adjusts the color temperature of computer
@@ -24957,22 +24957,22 @@ Description: GNU Transactional Memory Library
 
 Package: libiw30t64
 Architecture: amd64
-Version: 30~pre9-21
+Version: 30~pre9-22
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wireless-tools
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 52
-Provides: libiw30 (= 30~pre9-21)
+Maintainer: Ahmed Alaoui <ahmedalaoui.debian@gmail.com>
+Installed-Size: 59
+Provides: libiw30 (= 30~pre9-22)
 Depends: libc6 (>= 2.38)
-Conflicts: libiw30 (<< 30~pre9-21)
-Filename: ./libiw30t64_30~pre9-21_amd64.deb
-Size: 17228
-MD5sum: d5ac60c488b3ac0282c51063209ff93b
-SHA1: 8e6f6373b9d2a5ecfb9e42f05d102807475e9dfd
-SHA256: 17d32420502ac5dc1072fcb8233f30b286095926e138b966c0ddfc80f89445b7
-SHA512: 6b644dca8f78f4d485c6b4f693345f026cc70c8a497ae50b2244efcd6f7703019c73a0014d601daff720d4976f86af7aa5975c350e51f1306c91c4848ce11274
+Conflicts: libiw30 (<< 30~pre9)
+Filename: ./libiw30t64_30~pre9-22_amd64.deb
+Size: 17976
+MD5sum: 69f3858ca1bd7c1d5a48f24b8bd487d0
+SHA1: 4ab0c14249cbf329e97e89e11afbd23824474fa6
+SHA256: 3105a51d15c16c94a3df80ea14dcdc1d084054840da843a4291345aa27e80794
+SHA512: 62b8f97e993a38c15e1f03a9184ce27f4c6970d802806eea7ebf288e4d0d4b5293bbcfb61472ca7769dafee35e11765b033800af03d02fb03780e43ce15686b2
 Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
 Description: Wireless tools - library
  Wireless tools are used to manipulate the Linux Wireless Extensions. The
@@ -33134,7 +33134,7 @@ Description: library for the Metacity window manager
 
 Package: libmimalloc3
 Architecture: amd64
-Version: 3.3.2+ds-1
+Version: 3.4.1+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -33144,12 +33144,12 @@ Installed-Size: 221
 Depends: libc6 (>= 2.34)
 Breaks: libmimalloc2.0 (<< 3.0.1+ds-2)
 Replaces: libmimalloc2.0 (<< 3.0.1+ds-2)
-Filename: ./libmimalloc3_3.3.2+ds-1_amd64.deb
-Size: 70724
-MD5sum: f0648f01fb5c50fe9a37a749bd0f701e
-SHA1: d033e1cc9597c492cefe51fe775f978e25131283
-SHA256: 3956d5be4c65f022764a951d798c1167cc41cb7f4ecc708c14f945bc27c58a62
-SHA512: 861b2fade8dd4dd3dae6476a841d5dee28a4c7cd04a88025babd2f5dcb797f44f4870709336b3d5c716db4b87dccf7cfeade9b4d16d946818689ae10622bb182
+Filename: ./libmimalloc3_3.4.1+ds-1_amd64.deb
+Size: 71312
+MD5sum: 4fb6d2c1c6c76ed754fb8ee53cee9286
+SHA1: e434c2cffc7d408eb109b4421c730fd938f655a4
+SHA256: aec42bcd51d2919128ab958dfd6ae8d609552f6fb7e5817d6c13285a5c29e851
+SHA512: e4d92c81f1e73404548d05769472986a6b334f5894aa4f239c1f2212b5ca5627e98850036f395002b1741b7e2ec2ee4153a32242331cb4608f8a8a6c1e6d1e84
 Homepage: https://github.com/microsoft/mimalloc
 Description: compact general purpose allocator with excellent performance
  This is a general purpose allocator with excellent performance characteristics.
