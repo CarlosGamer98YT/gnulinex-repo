@@ -8027,21 +8027,21 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 552
-Provides: gir1.2-gstallocators-1.0 (= 1.28.4-1), gir1.2-gstapp-1.0 (= 1.28.4-1), gir1.2-gstaudio-1.0 (= 1.28.4-1), gir1.2-gstgl-1.0 (= 1.28.4-1), gir1.2-gstglegl-1.0 (= 1.28.4-1), gir1.2-gstglwayland-1.0 (= 1.28.4-1), gir1.2-gstglx11-1.0 (= 1.28.4-1), gir1.2-gstpbutils-1.0 (= 1.28.4-1), gir1.2-gstrtp-1.0 (= 1.28.4-1), gir1.2-gstrtsp-1.0 (= 1.28.4-1), gir1.2-gstsdp-1.0 (= 1.28.4-1), gir1.2-gsttag-1.0 (= 1.28.4-1), gir1.2-gstvideo-1.0 (= 1.28.4-1)
+Installed-Size: 554
+Provides: gir1.2-gstallocators-1.0 (= 1.28.5-1), gir1.2-gstapp-1.0 (= 1.28.5-1), gir1.2-gstaudio-1.0 (= 1.28.5-1), gir1.2-gstgl-1.0 (= 1.28.5-1), gir1.2-gstglegl-1.0 (= 1.28.5-1), gir1.2-gstglwayland-1.0 (= 1.28.5-1), gir1.2-gstglx11-1.0 (= 1.28.5-1), gir1.2-gstpbutils-1.0 (= 1.28.5-1), gir1.2-gstrtp-1.0 (= 1.28.5-1), gir1.2-gstrtsp-1.0 (= 1.28.5-1), gir1.2-gstsdp-1.0 (= 1.28.5-1), gir1.2-gsttag-1.0 (= 1.28.5-1), gir1.2-gstvideo-1.0 (= 1.28.5-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstbase-1.0 (>= 1.28.3), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
-Filename: ./gir1.2-gst-plugins-base-1.0_1.28.4-1_amd64.deb
-Size: 162108
-MD5sum: 6ca342315c8ca6610a665e1621b020de
-SHA1: 6481d1797212b890a1eab1c1c0e5818b4483f3d2
-SHA256: 626aa58f2d91b241674a696d6df614e77d1aae5bd621813b5e10e489bc241432
-SHA512: 473465ea85b5dd156fff05f9564b78c4c1012fedf925515883ba49f716a8a3b49fa96fae31ce5e62d2b9aebbce5fa021bb9bbeecfdb1af78de8b284dcf7e656d
+Filename: ./gir1.2-gst-plugins-base-1.0_1.28.5-1_amd64.deb
+Size: 164288
+MD5sum: d04a7b3ab2ca62a6a7031957196f7d04
+SHA1: d45ffe1c91da19523da9827559a087e6171c1ef6
+SHA256: 4b34f65e89554521cbfb3e187da690e4a3cc56b565c509bc083c3c134dbae676
+SHA512: 4118380fa120bca2168e230c00df8b35a47e2d6dcdb29a505ad857cb6b627bb5fe48ac4a6bfeaf441f7d87f55da60ef8e25bdefc68024b4e5551d06d84817ccd
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -10477,20 +10477,20 @@ Description: traditional panel, used in GNOME Flashback
 
 Package: gnome-remote-desktop
 Architecture: amd64
-Version: 50.1-5
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2444
-Depends: fuse3, pipewire (>= 1.2.0), systemd | systemd-sysusers, systemd | systemd-tmpfiles, wireplumber, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.99), libei1 (>= 1.3.901), libepoxy0 (>= 1.4.3), libfreerdp-server3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.22.0), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0), libkrb5-3 (>= 1.6.dfsg.2), libnotify4 (>= 0.7.0), libopus0 (>= 1.1), libpipewire-0.3-0t64 (>= 1.2.0), libpolkit-gobject-1-0 (>= 0.101), libsecret-1-0 (>= 0.7), libsystemd0, libtss2-esys-3.0.2-0t64 (>= 2.3.1), libtss2-mu-4.0.1-0t64 (>= 3.0.1), libtss2-rc0t64 (>= 3.0.1), libtss2-tctildr0t64 (>= 3.0.1), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libvulkan1 (>= 1.2.131.2), libwinpr3-3 (>= 3.0.0), libxkbcommon0 (>= 1.0.0)
+Installed-Size: 2453
+Depends: fuse3, pipewire (>= 1.2.0), systemd | systemd-sysusers, systemd | systemd-tmpfiles, wireplumber, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.99), libei1 (>= 1.3.901), libepoxy0 (>= 1.4.3), libfreerdp-server3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.22.0), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0), libkrb5-3 (>= 1.6.dfsg.2), libnotify4 (>= 0.7.0), libopus0 (>= 1.1), libpipewire-0.3-0t64 (>= 1.2.0), libpolkit-gobject-1-0 (>= 0.101), libsecret-1-0 (>= 0.7), libsystemd0, libtss2-esys-3.0.2-0t64 (>= 2.3.1), libtss2-mu-4.0.1-0t64 (>= 3.0.1), libtss2-rc0t64 (>= 3.0.1), libtss2-tctildr0t64 (>= 3.0.1), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libvulkan1 (>= 1.2.131.2), libwinpr3-3 (>= 3.0.0), libxkbcommon0 (>= 1.0.0)
 Recommends: libmutter-17-0 | libmutter-18-0
 Breaks: gdm3 (<< 50~rc)
-Filename: ./gnome-remote-desktop_50.1-5_amd64.deb
-Size: 464340
-MD5sum: 6524f1f0a71cd507973f2c4459450073
-SHA1: cd5711925a5a6583671eb12a67615e435b7095de
-SHA256: 37d239a73bd21bbae7bc8fa8930c7b90c86387525fcc84299434d11dca4c3c2c
-SHA512: d37698777498e00be2fee580369c0c8b3f7db89a0973ea49015e617234bb4df90038c7ddc9935ad17d7903c10b528ac2cdb2ad24005d33014d7c5ae480eb7fe6
+Filename: ./gnome-remote-desktop_50.2-1_amd64.deb
+Size: 465488
+MD5sum: fec2cbe193f65a3e7e8123d22ef998f2
+SHA1: 3937ad73a720a439f6974f962f86d2c760b2829e
+SHA256: 33508205566d691a3ebf92dca6e6541106e0114b46a563a2da6c809859b4c5e0
+SHA512: 58a48744b6a05df2b32d24c5fab80971b49dd5ca999ff5c977a889dabd3bc49778064a10d0ddbe2ee24f8e47a83247d32637472c755c44c43e3a5f6a5c41637f
 Homepage: https://wiki.gnome.org/Projects/Mutter/RemoteDesktop
 Description: Remote desktop daemon for GNOME using PipeWire
  This daemon enables GNOME to offer remote desktop sharing and control
@@ -11904,23 +11904,23 @@ Description: GSettings desktop-wide schemas
 
 Package: gstreamer1.0-gl
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 466
+Installed-Size: 468
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-gl_1.28.4-1_amd64.deb
-Size: 179252
-MD5sum: 1be0e32eafdb77e15de51ef0cf9464aa
-SHA1: 6b82551f8fd65497d30ccd4b5ec80ea03537d992
-SHA256: d58c5ddf74650b6b6e4270cdeb752bc7355e9c29e6791df65aae1423229245a5
-SHA512: 5420c63e58d67de27cd1da0177492144f6aad3b14121b6c71676858256070efc3907b1d6f854881c0dcafc0480cb4ee02864c2c2a9a22e1a307fd14e7bac67b9
+Filename: ./gstreamer1.0-gl_1.28.5-1_amd64.deb
+Size: 181468
+MD5sum: 7a2c3656138fbe81192179bd82a4c652
+SHA1: b4cc6d72f62ab1fd16b2da5619b2cc86b49043ed
+SHA256: 9bf947bce1bd05db1b0334e19e68f7dd9ae5cfaaf3796bd6ddc81636f1e4c27b
+SHA512: 46575d2bc16880e5d9175cec376923d4ac3d3da34a86448a6b8af5f6904a6528f18356dcd020a10ccd5f635d122871e4247c27b8cf90a7cdad3cf074f001199d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12113,24 +12113,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-base
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2628
+Installed-Size: 2630
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-plugins-base_1.28.4-1_amd64.deb
-Size: 790392
-MD5sum: cdb138e18503c4e818fa97100fe6f91b
-SHA1: bcc51572e9e63fd8053adf8e093c4c93411ca416
-SHA256: 1c5c421389d1a8742e55cba0c92fbc14854d7f5d661f295c2d5df33ac4af49fd
-SHA512: 74fa1a9fa9e44b943699b59e11050c5e753fe146643f335b522303c833be1ac04f6bf8387ddc4b26e4eaec663cb21dad14eb7b1a4d4135f5e8b598d2c2de55dc
+Filename: ./gstreamer1.0-plugins-base_1.28.5-1_amd64.deb
+Size: 793452
+MD5sum: fc814d0fd64bc070d66f3c8ca3a451d5
+SHA1: 9192bb84d73f8b4c1cb64f64e1ad3ee591cdcdc1
+SHA256: bf68743db25b552865b3ee071014c29251128ca3b9cd25eacf3624eef849813c
+SHA512: c0afa84d5d0af625ba886ff9ad55b3629856f5eb0857d92f55792dc771ea54e7c3ed0d813aebf707d34f321311bbbc7633652c64dc06910baab9344eaf9a7acf
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12189,21 +12189,21 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-x
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 375
+Installed-Size: 377
 Provides: gstreamer1.0-videosink
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
-Filename: ./gstreamer1.0-x_1.28.4-1_amd64.deb
-Size: 144872
-MD5sum: 5072309590c73487e8ca8f8cf93c5545
-SHA1: 2cc1f4a7eb0540c6c1feb800884ccad95b177b11
-SHA256: f862a74b6b7637c2b87e5393b9b5073ac96dfe984dcbe397fb2459de26647726
-SHA512: 50ca29fc6040036413a1fe842d5697f26f902b4c427b7bb432acb20664ed1c82f261790e142d87d18e91d3f516a99443bbfc9d7d1fe1f0d6ed1ec208caed2cc4
+Filename: ./gstreamer1.0-x_1.28.5-1_amd64.deb
+Size: 147420
+MD5sum: 79678d32976010225e900fa65bfd9f0c
+SHA1: 3ca9fd64ee5a2b81cbd7603bff611692f4d88c5e
+SHA256: 93e98192238f87d30967a3a6ee34c4ae0025a73be83614eb85c26bd64fe71e88
+SHA512: 807549601258c8ae218b356ffb1645b6d555babb41b00241bc8936fe5f72e3b3d406a9cac583a0ce695031faac58ee90782412eac0df6d6c800abc2f3b841f9d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -13906,7 +13906,7 @@ Description: Tools to generate documentation in various formats from DocBook
 
 Package: kf6-breeze-icon-theme
 Architecture: all
-Version: 6.26.0-1
+Version: 6.26.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
@@ -13916,12 +13916,12 @@ Installed-Size: 59101
 Depends: hicolor-icon-theme
 Breaks: breeze-icon-theme (<< 4:5.115.0-3~)
 Replaces: breeze-icon-theme (<< 4:5.115.0-3~)
-Filename: ./kf6-breeze-icon-theme_6.26.0-1_all.deb
-Size: 3676560
-MD5sum: a6899e88f7c8ac81d2a6108fe912cc16
-SHA1: 8356ed2ae62ad183ceaac42ef40c5198c7af4107
-SHA256: 4771716d5e47e08767b2fb611a0657896d6b9f0c78105ddc64af01bb2cacc577
-SHA512: f5e23d8f4adc57e3b4889add5f1909ebd71947b2847163daab6885a8cfd0c32a07a531473b5af499ae1dc80a22ab30f29c27a722a9399497644968f6407da1e6
+Filename: ./kf6-breeze-icon-theme_6.26.0-2_all.deb
+Size: 3676908
+MD5sum: 6a47b75cdf59b07c33da25e1e300ca18
+SHA1: 06277b2301da1c557a13e5d9e7cc1d121cd3c377
+SHA256: 6c74a113b139da88aa2030d0f22aa055909668dbb02fbbe7039e508c5b2a937f
+SHA512: decc162e82127416e4c81c74e1bc7d2c02b58ba8d1150ae27f02e14a02aa83339e122a05198b209900ce8288c194c6cf2801c1d20e00ff4f9ae7a8bd7a2f2b34
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
@@ -19166,7 +19166,7 @@ Description: EFL freedesktop.org spec implementations
 
 Package: libegl1-mesa-dev
 Architecture: amd64
-Version: 26.1.4-1
+Version: 26.1.5-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -19174,12 +19174,12 @@ Source: mesa
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
 Depends: libegl-dev, libglvnd-dev
-Filename: ./libegl1-mesa-dev_26.1.4-1_amd64.deb
-Size: 19444
-MD5sum: 58eca54b7fc9960715011db5a6e9e3c3
-SHA1: 52282d8d218e4db37986663378359d87bbc23b89
-SHA256: 35d454e61a43871ca179dd1bf4099219aff19c1c1fb3fe41e1010c479bbbc9f4
-SHA512: 98829f4aedc0d727ca78e0db58c11751b8ee747a22748e640b75e976ec4d0a3964b553cf45222b7a49f8c196e7e0ae887dba81584cad76d6350ae731ddc4a94c
+Filename: ./libegl1-mesa-dev_26.1.5-1_amd64.deb
+Size: 19556
+MD5sum: be6f0c2dc8bbf79758d51f955168cc1f
+SHA1: f75c5f5ade88d62e6233a8b1077ca4ec4c379d7c
+SHA256: d4be4ce19dd3dd67e9bb31abf47e2efa6718ec7da9ae7f580dd9807d203ac912
+SHA512: 04138dc58de88aae3529cf30239bbc9bd378df796df310e22e23009be8ccf872fb12f2301e9c616fee6d97d31ec6f1209e769fb467e44195576f724430b2a08d
 Homepage: https://mesa3d.org/
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
@@ -20866,20 +20866,20 @@ Description: async fingerprint library of fprint project, shared libraries
 
 Package: libfreerdp-client3-3
 Architecture: amd64
-Version: 3.27.0+dfsg-1
+Version: 3.30.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 819
-Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.27.0+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
-Filename: ./libfreerdp-client3-3_3.27.0+dfsg-1_amd64.deb
-Size: 280788
-MD5sum: 62c4efe6606665dc15e4c542a901922b
-SHA1: 329733d4754364cf38c318e09249f5d0fcb748c3
-SHA256: 0e78b31338aef2c78f7c6348b8e68c7d32ee1f088a239df55d370580831e871d
-SHA512: 455fb9cc24a728fc308e5aa873f2126f4acadd77fc95d13aeac6bf6d7341582bd61a2e3fbb3c2631afe8ea491c228b2a0a50180ea8d19ccf7fe76f6a9a57d085
+Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.30.0+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
+Filename: ./libfreerdp-client3-3_3.30.0+dfsg-1_amd64.deb
+Size: 281776
+MD5sum: 85038b75b0531296a76d516617f72085
+SHA1: 26ad68983a43d49d6dc9331d056a5e84464b7a3e
+SHA256: c96fad80556ce29dcc22c3269168aa0e0b149ee83ff11dde27e3db92d06b107b
+SHA512: 15d4cc4eb74ffbc534f9586d01f75fe3da741ca06e4681291be1f31c277a049507afb6ac810def718ec2db988538d0e5ca183f2b3d9376e0a075e3458a5a56b4
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (client library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -20889,20 +20889,20 @@ Description: Free Remote Desktop Protocol library (client library)
 
 Package: libfreerdp-server3-3
 Architecture: amd64
-Version: 3.27.0+dfsg-1
+Version: 3.30.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 292
-Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.27.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
-Filename: ./libfreerdp-server3-3_3.27.0+dfsg-1_amd64.deb
-Size: 92388
-MD5sum: b4f20d2a17c87d2b10bcd6c85345e277
-SHA1: 5a46d22cbdd4a8b01ebf20fc35a9fc4e4a856c4e
-SHA256: 589bc7ddcb695b713c09bb9c117ee349f79fac8e342004baa6a8d2bfcc91a62b
-SHA512: 7bafdeb456ecae9bc197d1bf92cc20f69c613d000e5ad982250af45093e7c2a03348e65f0b4cdf90dd06f5c5a75c3b4c5f6fa49159e3ead31665922b53f531f4
+Installed-Size: 312
+Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.30.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
+Filename: ./libfreerdp-server3-3_3.30.0+dfsg-1_amd64.deb
+Size: 96840
+MD5sum: ef5d127c56c8000a5a30a74b69aae00e
+SHA1: 39a8e88daf3bc9b463b42ec41887ad4896103564
+SHA256: 553ddf72958f0736c40a76d32501d7bbc7507f9dcc6158c2cb10a41bd7d51faf
+SHA512: 4227fe6661b05374a50404caef5db6d3ced9e85a00c376ad77fbbf647bc4e7b30dbf6d6c47771839b74a438efb5cb6540224108c83c2ced91b54c1746e00cdd1
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (server library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -20912,21 +20912,21 @@ Description: Free Remote Desktop Protocol library (server library)
 
 Package: libfreerdp3-3
 Architecture: amd64
-Version: 3.27.0+dfsg-1
+Version: 3.30.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 2212
-Depends: libavcodec62 (>= 7:8.1.1), libavutil60 (>= 7:8.1.1), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libwinpr3-3 (= 3.27.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
+Installed-Size: 2262
+Depends: libavcodec62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libwinpr3-3 (= 3.30.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
 Suggests: freerdp-x11
-Filename: ./libfreerdp3-3_3.27.0+dfsg-1_amd64.deb
-Size: 746040
-MD5sum: f82c3b81cb36031c2ead2991e02a5fb5
-SHA1: 186b83178710df6d604bab718fac1ac259cb7322
-SHA256: 2b183479bdc14a16460d10cff690340e4acd8745cd0947bb5338845e342ba28d
-SHA512: 1eb483d16b1dfb51ff7df17c859033d5a6666620097c6cee3bd63040e1e78ab523d5c263e2f45cf5ea500980a9b1a67cc9ac22384cf16269601e87a3bb07b6ba
+Filename: ./libfreerdp3-3_3.30.0+dfsg-1_amd64.deb
+Size: 759676
+MD5sum: d54fad76663e77d533a123be8501f25c
+SHA1: fa032b412db79bb028ec79b19dd980dd71bb490e
+SHA256: 9bb806c4ac6b561c26242ddd1bf9f3897d494f053380e0b1dd36886c37286d41
+SHA512: 12f035f8c916654f168604f7d886b8a8325a65b3375ba6ac52e3c0c681dd12542dacbc97ca6d0e2f89357b9ed73cc8083866e82cfb40117807ddd88227b4080d
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -23287,23 +23287,23 @@ Description: libgspell architecture-independent files
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 767
+Installed-Size: 769
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.27.50), libgstreamer1.0-0 (>= 1.28.3), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: ./libgstreamer-gl1.0-0_1.28.4-1_amd64.deb
-Size: 276100
-MD5sum: ad71f4644c57b9703c87213f949ddd49
-SHA1: e842e57225ba9b99e551516bdcf82fb11cb6fecc
-SHA256: ce0af380d10b6a2e904d45a0022a910e9fee0949d3a149e2f4d9f63d539a66f4
-SHA512: 7dccfd60f3567bfecd5a3fc043525178c5a53a1b46df124f5c986678df0b1cc07e32e0c303193827c45b3bf7ff69e728211119cd3f1f891cc8158fec096b10e6
+Filename: ./libgstreamer-gl1.0-0_1.28.5-1_amd64.deb
+Size: 278380
+MD5sum: 434bde12f62614ca8fd031b4e021a23c
+SHA1: 2041af03fb7bf829666e2ac941eaf34a5823b2c7
+SHA256: 24ad020fb764f272209fa6566f7a10a8e35325ba0a89c1d57363acd15d4f7317
+SHA512: c808231c3bafe979aacb9639e5828308633b5454eaca721291a6385e516af6a080e3a7c33b3ce6aa8deba4e0534915834090dd3ecd06d1e1f5b63cab1a9acc65
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23351,24 +23351,24 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
-Version: 1.28.4-1
+Version: 1.28.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 3836
+Installed-Size: 3842
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.81.1), libgstreamer1.0-0 (>= 1.28.3), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
 Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: ./libgstreamer-plugins-base1.0-0_1.28.4-1_amd64.deb
-Size: 1045604
-MD5sum: bd763a269fd52eecb32ea92cf276d475
-SHA1: ba40f089a669e622fbc9ce920502a5a6a4cbe5dd
-SHA256: 176a05be09a4365e3b9f3faeb1dddbc134f393e01cc7076100e8c8cb85e826b1
-SHA512: 9eafbbf221ef7fb51f2a01761f45b2c597b70d9fb9376103dcc30cfaa1afac774966a0601fe1c9b3afe8d564894dea7a00ede8a9dfe8f36f33b8f31e4e5b5e1b
+Filename: ./libgstreamer-plugins-base1.0-0_1.28.5-1_amd64.deb
+Size: 1048048
+MD5sum: 3698115c2f3f2178d189de8c10bf1a6f
+SHA1: 555ff0a8cdf9d27e0723aa6f7223ecbf552ddae1
+SHA256: cbe0893dbe35bb01fb0a553e129238e839e8030a0a7e36c388503f9344c594d2
+SHA512: ea17b455fdc090cd77c529f75c8f176881f4540481edd6b6594578ef889c8d87a73d4d34ddb186fad87ca986a321942304ee36720f5a4c19bb34dc408203939d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -25925,7 +25925,7 @@ Description: Qt library with support for bookmarks and the XBEL format (widgets)
 
 Package: libkf6breezeicons6
 Architecture: amd64
-Version: 6.26.0-1
+Version: 6.26.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -25933,12 +25933,12 @@ Source: kf6-breeze-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 18973
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~)
-Filename: ./libkf6breezeicons6_6.26.0-1_amd64.deb
-Size: 2750000
-MD5sum: f7522cb31d4305edf26d6e8f8ebf6ced
-SHA1: 6a600cd18e41b57460be5a9b780f4bf1a87717c5
-SHA256: 2fe0b43c38b32b90cd50d6fb60e2db66ab3445269274024443c078192c7931a3
-SHA512: a2cccdbd63c2c294858309891410f148835b6b38a22d2592281ee08de9430a9f2890d41d0de651ed9b9933c90c6684244d21d42857948bd4fb98cb9f1848f671
+Filename: ./libkf6breezeicons6_6.26.0-2_amd64.deb
+Size: 2749628
+MD5sum: 3cf7c9f19cc1d925a6872e56f0ccfdf4
+SHA1: e3eb4c5c8e69ec1337ddf5b68a0b11de4d575272
+SHA256: c225fc27ab23bcbf57e15f8cc8cf721f81266623b509cbd4340d17bfaa2f307e
+SHA512: 94165f29d9c8c554000d0170350e0052ed6981dbc6b54ac8c7937a673b3c1eb12cdcd9a6e198e08364fa56d8618b7e9b4b60db984def6f4e5b7ef33aa42775ff
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
@@ -46033,20 +46033,20 @@ Description: libraries for the PipeWire multimedia server Simple Plugin API - mo
 
 Package: libspatialaudio2
 Architecture: amd64
-Version: 0.4.0-2
+Version: 0.4.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libspatialaudio
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2109
+Installed-Size: 2110
 Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libmysofa1 (>= 0.6~), libstdc++6 (>= 13.1)
-Filename: ./libspatialaudio2_0.4.0-2_amd64.deb
-Size: 1098700
-MD5sum: 55a6f83f5e926ce72d5a83b722b55fcf
-SHA1: 6d3323b3eecae8fcabc176442dc7a338bcf0ea6f
-SHA256: a15c480976584e61568a4f4d597b579d84ff3824f81a0584e87dcc5af5cedc8e
-SHA512: 111e7278b2a380c1e5ae9c918adcc120fc40dc72d10818952077e7d442ec64f7009f95f29d0a62d824a018640d83a769c4fc4b6a285b3e46182c2ac29abb21c6
+Filename: ./libspatialaudio2_0.4.1-1_amd64.deb
+Size: 1098992
+MD5sum: 114bd6d1ad797aeebadd35ffe8a2f6ba
+SHA1: 440d39194e5b5690eee33b65844aeb8bc37b4c4e
+SHA256: e0e993b5430f28ec0708b3cf2b7c7df3c3cc924bb097ad4ee5441305eb90ea3d
+SHA512: 7b9558f0b7878803ee2b487614e4b7ced4215a06b54c18ff7e1ac326e127009d01532a4939768057238ff65013d9d74a04069f9866a386f073faae20c9c40ef5
 Homepage: https://github.com/videolabs/libspatialaudio
 Description: library for ambisonic encoding and decoding (runtime files)
  libspatialaudio is an open-source and cross-platform C++ library for Ambisonic
@@ -48534,22 +48534,22 @@ Description: Java WebSocket API
 
 Package: libwinpr3-3
 Architecture: amd64
-Version: 3.27.0+dfsg-1
+Version: 3.30.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1475
-Depends: libc6 (>= 2.42), libgcc-s1 (>= 3.3), libicu78 (>= 78.1-1~), libjson-c5 (>= 0.15), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.15~beta1), libssl3t64 (>= 3.0.0), liburiparser1 (>= 0.6.0)
+Installed-Size: 1483
+Depends: libc6 (>= 2.42), libgcc-s1 (>= 3.3), libicu78 (>= 78.1-1~), libjson-c5 (>= 0.15), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.15~beta1), libssl3t64 (>= 3.0.0), liburiparser1 (>= 0.9.0)
 Suggests: freerdp-x11
 Replaces: libwinpr2-2, libwinpr2-2t64
-Filename: ./libwinpr3-3_3.27.0+dfsg-1_amd64.deb
-Size: 393224
-MD5sum: 6422b8c50d628366811b373d360054e6
-SHA1: b8581948a3d7db0862b30e4e42b6ff10392fd860
-SHA256: f78e6a98db9bef876fab1eb59d19e00084659cc50e714a69013f53cb14efb320
-SHA512: b1105e009997d8012d0063f5b57d1915461a58253e373e60267088bff5ac1fc4cef85dc0fdf8c7e693acde698e05c71d04988e2272c47472f122c0bc1e5eeaf6
+Filename: ./libwinpr3-3_3.30.0+dfsg-1_amd64.deb
+Size: 396844
+MD5sum: 6a57c4045c2a210db89c4cb40ca4b396
+SHA1: c4b9868e7752280d391a6e069c41fbd0a477471f
+SHA256: e96d0b55d200785b54c0fd1af415c1cf36a18049ee9298eb548db5df9b36779f
+SHA512: 2e65b70a77d96ded3e3bf96509149a9f018a1fa82f4546134946a46efdf2b25d6572ce9ef538443f73d6f0d96dd1de3aaceec1269f3f812caa4febd3814c35aa
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -55049,7 +55049,7 @@ Description: Operating system database files
 
 Package: oxygen-icon-theme
 Architecture: all
-Version: 5:6.2.0-1
+Version: 5:6.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
@@ -55059,12 +55059,12 @@ Installed-Size: 41664
 Depends: hicolor-icon-theme
 Breaks: fdpowermon-icons
 Replaces: fdpowermon-icons
-Filename: ./oxygen-icon-theme_5%3a6.2.0-1_all.deb
-Size: 33005952
-MD5sum: 21ba3f48b6bcc8db2b4fe8672887fd06
-SHA1: fa318b3ea5c26ce3777ff148d07f368a2ae3d0a2
-SHA256: 0c7245bf65f4cdddf272faed84af1c5a1852eaf85ed703a93cdf22ec11f516e8
-SHA512: 5cbecc21734e8f29592e93530f47e081bf628eecdf46efc8944ab8d8746f1f6700bb6fd385a0ed159f357db691e508cc5cda3bd0341690e1ac74cc1d99148d06
+Filename: ./oxygen-icon-theme_5%3a6.2.0-2_all.deb
+Size: 33005748
+MD5sum: 0ec4823b873da56abaa5fa9c98aec621
+SHA1: 4d7759427ad19365bbd04b102aaf17567bb52593
+SHA256: 6f65346282b367e10eca842056f3713fb2965190af5005ff96c51643306d1a43
+SHA512: 0ab80f41b286e6faa35491aac6d992419de3ae8c8598580513a2c87814af91be784b6c19153cadddaf24cffa64a50a7c5ac4a1bf7c5ad852321b44eb5fb30543
 Homepage: https://invent.kde.org/frameworks/oxygen-icons
 Description: Oxygen icon theme
  Oxygen Icons is a freedesktop.org compatible icon theme originally developed
