@@ -48639,23 +48639,23 @@ Description: library for converting fonts to WOFF 2.0
 
 Package: libwxbase3.2-1t64
 Architecture: amd64
-Version: 3.2.9+dfsg-1+b1
+Version: 3.2.11+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wxwidgets3.2 (3.2.9+dfsg-1)
+Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 3726
-Provides: libwxbase3.2-1 (= 3.2.9+dfsg-1+b1)
+Installed-Size: 3727
+Provides: libwxbase3.2-1 (= 3.2.11+dfsg-1)
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libpcre2-32-0 (>= 10.22), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.9+dfsg-1)
+Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.11+dfsg-1)
 Replaces: libwxbase3.2-0, libwxbase3.2-1
-Filename: ./libwxbase3.2-1t64_3.2.9+dfsg-1+b1_amd64.deb
-Size: 1073888
-MD5sum: a18bc9ede6e139015c3533e238843f3d
-SHA1: 0d979b073ec0ec1773bb86caa71211569b138b27
-SHA256: 2442239a500a8df568ed1b4f6b1667d4ee7ab24b098c290a4df9b494484fc176
-SHA512: 1f2babc7b648943ebc8445c7d6c67641d539afb813d4f14755d1011b4d1cea496725cebc4fd08a774b079027019fc65ccbb16ee36b7fdabc597f82a55c1fab0c
+Filename: ./libwxbase3.2-1t64_3.2.11+dfsg-1_amd64.deb
+Size: 1073740
+MD5sum: d7cabd063a2c4901ada8a16c5648cdbc
+SHA1: d319863f959595ccc879fc586e329184a67aa85f
+SHA256: 64cb8f1aa15e70f76ae7cb77b658ae5c3f82c7da03b4ed1d836395d5888f2e13
+SHA512: ffb3b7a4e2fca11b634100ed3123669528d59528254134e4edbbad81b82462d2d2d577c898c5186109bb50e91a1162772c40949e4c7161f48035157db4f40d25
 Homepage: https://www.wxwidgets.org/
 Description: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
  wxBase is a collection of C++ classes providing basic data structures
@@ -48673,23 +48673,23 @@ Description: wxBase library (runtime) - non-GUI support classes of wxWidgets too
 
 Package: libwxgtk3.2-1t64
 Architecture: amd64
-Version: 3.2.9+dfsg-1+b1
+Version: 3.2.11+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: wxwidgets3.2 (3.2.9+dfsg-1)
+Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 19474
-Provides: libwxgtk3.2-1 (= 3.2.9+dfsg-1+b1)
-Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.9+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
-Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.9+dfsg-1)
+Installed-Size: 19471
+Provides: libwxgtk3.2-1 (= 3.2.11+dfsg-1)
+Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.11+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
+Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.11+dfsg-1)
 Replaces: libwxgtk3.2-0, libwxgtk3.2-1
-Filename: ./libwxgtk3.2-1t64_3.2.9+dfsg-1+b1_amd64.deb
-Size: 4884668
-MD5sum: 3fdaa28ffa581323167718d83247c1f7
-SHA1: f6c90dbfb396e688154089887d04972445a60656
-SHA256: ca10c92278b73e656c290bd8c86c49aa42fbe8b7a4b894c7ceca09521cce4582
-SHA512: 3229e48bb0572bd6062b5b4bb29ab92842c386724c66d3e9773ee19dcbbc15360faf11c2dbc239be39259d8efc281a513314995ebfe99a2fad782bf0fccdce66
+Filename: ./libwxgtk3.2-1t64_3.2.11+dfsg-1_amd64.deb
+Size: 4894380
+MD5sum: 01a0bbcf4153201cd367c864030af8b9
+SHA1: aeb96f829e802c4d5b90c8e7bbc97ec5935fccce
+SHA256: ac4b7798d0bd6a7d1b84643e635231095d6d5f3a05b4fc766fcf818c4ec67a35
+SHA512: a4115756dfcde78b1b159b7945f4421dfbee99264031d223d53cd6cc8946adeea4dd8cdf4a6ecdae245759ff0094eff2376612f8b40391384feb07c0e3c46470
 Homepage: https://www.wxwidgets.org/
 Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
  wxWidgets (formerly known as wxWindows) is a class library for C++ providing
