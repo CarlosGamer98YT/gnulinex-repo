@@ -46167,20 +46167,20 @@ Description: module to create Excel spreadsheets
 
 Package: libsrt1.5-gnutls
 Architecture: amd64
-Version: 1.5.5-1
+Version: 1.5.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: srt
 Maintainer: Florian Ernst <florian@debian.org>
-Installed-Size: 1026
+Installed-Size: 1034
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.7.0), libnettle8t64, libstdc++6 (>= 14)
-Filename: ./libsrt1.5-gnutls_1.5.5-1_amd64.deb
-Size: 350156
-MD5sum: 13b0b3907a7d696e8d470a4f22a14409
-SHA1: e995c1390ef4bb47afdc2a4b7892694b4f8566a6
-SHA256: cb7d208e78f94376961b9804875f6b5eae26f79f62d1de75211a91cfd19caa9d
-SHA512: c1cb1a7d7f4970f9d54ba8f4f411e3369594226c4864fd64e1dba5ce30b6abd5dc9086457b3f9d02da48220bc7448ff46dffe3ca983d789df8eca1c9661cd41b
+Filename: ./libsrt1.5-gnutls_1.5.6-1_amd64.deb
+Size: 353180
+MD5sum: 4679385c41eda81a25463f39a5df0dc3
+SHA1: 282d55ad7a5974aaab570e2bcab9c65a173e7fd8
+SHA256: 5eaff3b73f812e9067ecf8aeb54d673f10d96ef9d1627fc12672240875ac30b8
+SHA512: 38339dbe37c7e7755bdc306ce34c640e760f807ffedf5d0eb110b81d1692ca802f269c3a0ae279be732ca93193a13b445063d09aeb95f4da14b8e0ad9e06fd4c
 Homepage: https://github.com/Haivision/srt
 Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
  SRT is a latency-aware UDP transport mechanism optimized for video streams.
@@ -57386,19 +57386,20 @@ Description: HTML/XHTML/XML string library
 
 Package: python3-more-itertools
 Architecture: all
-Version: 10.8.0-1
+Version: 11.1.0-1
+Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: more-itertools
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 308
+Installed-Size: 322
 Depends: python3:any
-Filename: ./python3-more-itertools_10.8.0-1_all.deb
-Size: 71676
-MD5sum: a416be36c54347c45b9b33194a0aaa17
-SHA1: f38f2fddc7433ccabeb49ebf78088a83cb26a965
-SHA256: 1563415a0515f8e1d758fcd41fd7cc6f950d513918482185e730f806ef703d4a
-SHA512: c1a5a43ff29a2b97678066a8c8a264d5d82d66b88d66d9471c850f37048da82c70754a67932a9655b8ff46f494765f892e7c22870e72fd0d14766d555f3461b1
+Filename: ./python3-more-itertools_11.1.0-1_all.deb
+Size: 74452
+MD5sum: 734357ffca6c8e50089aa918ded641ef
+SHA1: 00bb85e3aedc06338b0bb7a24c93cce56f284ed7
+SHA256: e052493e1e4ee6a84c0a7cc1dd461d9990ce50aa37af3c6a6eb37b1198ff37d4
+SHA512: abe13d92db0950202b5d980c6ff58bdbbe726c0bb2e14a841308a0d456bc11d36b9f9c8cc81e8cbdb42f9821da60979d2dd92a8745a6b19e41842559c8f1b047
 Homepage: https://github.com/more-itertools/more-itertools/
 Description: library with routines for operating on iterables, beyond itertools (Python 3)
  Python's itertools library is a gem - you can compose elegant solutions
