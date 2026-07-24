@@ -33267,20 +33267,20 @@ Description: mousepad plugins library
 
 Package: libmozjs-140-0
 Architecture: amd64
-Version: 140.12.0-1
+Version: 140.13.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mozjs140
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 37991
+Installed-Size: 37975
 Depends: tzdata, libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)
-Filename: ./libmozjs-140-0_140.12.0-1_amd64.deb
-Size: 11108868
-MD5sum: 319dc21ff8d8e01fcfd78594467cee0d
-SHA1: 93ecc3001fa889cc417a5fc4215b96fa3e40fdd2
-SHA256: 51d84106a95014d22a7603c87cf195f97d51ee2723cee623c20ff71f9db63d00
-SHA512: b73fe166c9a0c0ddedb8698927efc1e68c15825735a6c17af725869823060598bcf5535edaa16b43feea5983f78c2e7f3aa49f9b9d5a296230021a0fee477508
+Filename: ./libmozjs-140-0_140.13.0-1_amd64.deb
+Size: 11108516
+MD5sum: 635da3bf4673b0bb7c6b6a5813c478cc
+SHA1: 089af1b545ed2d008e3bee0e20ef72ca64ade4f7
+SHA256: 88fbd09e4b5b540da4444b368326fc85f15c7c7cc9ba8c2c22f11792db9e4a79
+SHA512: af0b0909b8ffe0b7fa62ea13ae978f72b7759e9944fd144c79d3aa6573463b655ffb380d7436486f3e1ecb68f2aad3a26d9ebd6566f4cd2ab36c56f528679493
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 Description: SpiderMonkey JavaScript library
  SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
