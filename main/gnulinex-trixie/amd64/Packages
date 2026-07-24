@@ -2412,7 +2412,7 @@ Cnf-Extra-Commands: java,jexec
 
 Package: deja-dup
 Architecture: amd64
-Version: 50.1-1
+Version: 50.1-2
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
@@ -2420,12 +2420,12 @@ Installed-Size: 5274
 Depends: fuse3, restic (>= 0.17.1), dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~beta), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.18), libjson-glib-1.0-0 (>= 1.5.2), libpackagekit-glib2-18 (>= 1.1.0), libpango-1.0-0 (>= 1.50.3), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3)
 Recommends: gvfs-backends, gvfs-fuse, packagekit, rclone
 Suggests: duplicity (>= 2.1.0)
-Filename: ./deja-dup_50.1-1_amd64.deb
-Size: 795240
-MD5sum: dc057559e2364d2b3fbe28d589d58a73
-SHA1: b1c64854a788f779213f318f445d033d10634c67
-SHA256: 3706dcf6ebdee2c4b2eb060f6c8aa7dab0f47f99f1b014b2a0dc7631fe72bd53
-SHA512: b2d6de255273c3bffd1ac096b8a47effb640b1cca6000252a4dc0dedf49917152a1b56ab70775aa9623b97144b5d6388108294c37f3f425e90bcc3fa7c8441ac
+Filename: ./deja-dup_50.1-2_amd64.deb
+Size: 795196
+MD5sum: b4d252986dcb766df24b9bde3b9e978d
+SHA1: a8e1c9a8429614721bf16986af1935075002601c
+SHA256: f8188a137ad18e2878478687740d762e4cc3f287957b044245ebd4ae1eef9fc5
+SHA512: cb112d295ce355db33e25100d57cb717fc22d1386db47212947ced4dde12a2a842d75fade4ac8e5110e27e0d09d6bc406def1768f8a1be4eba9d8c02700f8b38
 Homepage: https://apps.gnome.org/DejaDup/
 Description: Backup utility
  Déjà Dup is a simple backup tool. It hides the complexity of backing up the
@@ -8322,21 +8322,21 @@ Description: iCalendar library implementation in C (GObject Introspection)
 
 Package: gir1.2-javascriptcoregtk-4.1
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Installed-Size: 308
-Provides: gir1.2-javascriptcore-4.1 (= 2.52.4-1)
-Depends: libjavascriptcoregtk-4.1-0 (= 2.52.4-1), gir1.2-gobject-2.0
-Filename: ./gir1.2-javascriptcoregtk-4.1_2.52.4-1_amd64.deb
-Size: 45036
-MD5sum: 22dfbd1deabd241b31a213d601e6a140
-SHA1: 3116f8e1fdc1a6873834e93b70385ed24fb43aa9
-SHA256: 05e3105ba9cd95e51d456864e549293dd0af855e8c9ee246dd174a081714fb58
-SHA512: 7457dc2a8733e7906d03408be8966edd275a9f30ebd26656350de9a9e76e92aeb95c051232f17a42a4836772887a8b9ad642e204f2118da429b494eb180e626e
+Provides: gir1.2-javascriptcore-4.1 (= 2.52.5-1)
+Depends: libjavascriptcoregtk-4.1-0 (= 2.52.5-1), gir1.2-gobject-2.0
+Filename: ./gir1.2-javascriptcoregtk-4.1_2.52.5-1_amd64.deb
+Size: 45128
+MD5sum: 585594d78289dba4ccbc96b1f9563a97
+SHA1: 8fe718884845c93e79ed0d464dd7a4d34f7fbe00
+SHA256: b6991c34c8194dec0f073fef70a81cceb92c457f232bec906985a603e7de1bf5
+SHA512: a4d8cee3638ffcfcb6c7a2dcaea85fbba2fad8d28b2afdd093279834ae716ba2d3ce50c6c7af2d6487d716f3553479fe803e8e51b29db2fb783224d21def30d2
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK - GObject introspection data
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -9198,21 +9198,21 @@ Description: GObject introspection data for the VTE library (GTK 3 version)
 
 Package: gir1.2-webkit2-4.1
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Installed-Size: 606
-Provides: gir1.2-webkit2webextension-4.1 (= 2.52.4-1)
-Depends: libwebkit2gtk-4.1-0 (= 2.52.4-1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.1 (= 2.52.4-1), gir1.2-soup-3.0
-Filename: ./gir1.2-webkit2-4.1_2.52.4-1_amd64.deb
-Size: 101576
-MD5sum: e10a86b6606f9e91f1265377d3170c62
-SHA1: cd43fde7ec6776ba4025f7f3d972f536565370ef
-SHA256: 174ea4471f6f824849b729af1fe69c7f5895954ee7ddb06bdce216fe0dcc1d7a
-SHA512: d9a38edc450a5e074480b2d598ea31938fc358583bf1c03a66a5fa7fd90a4543c123bc7db2e3922ab04dad0b403e2c790d71fdc443aa3a4d5c94e639c250f39e
+Provides: gir1.2-webkit2webextension-4.1 (= 2.52.5-1)
+Depends: libwebkit2gtk-4.1-0 (= 2.52.5-1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.1 (= 2.52.5-1), gir1.2-soup-3.0
+Filename: ./gir1.2-webkit2-4.1_2.52.5-1_amd64.deb
+Size: 101628
+MD5sum: f2fa58f097dd04a1a57371c9646ce8cb
+SHA1: 070a7b9934f56fc93bca7f125c3c9b47e3745f9a
+SHA256: 9296586a997806035dc198ee4c7d504e311921017db32a02f5541ff823e3c015
+SHA512: 65d2330acb0aa6ea0b1730521cdd1e4f90054f7b2ecf1c905b3a8ca3da2101b1ce8e13e935f4832a32fceaaf337e70f3fe8add0b622cbe064fedc818bd3afbb6
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK - GObject introspection data
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -25002,20 +25002,20 @@ Description: Java WebSocket client and server implementation in Java
 
 Package: libjavascriptcoregtk-4.1-0
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 32366
+Installed-Size: 32370
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
-Filename: ./libjavascriptcoregtk-4.1-0_2.52.4-1_amd64.deb
-Size: 7532384
-MD5sum: 9e6872fe79a0db97b021e46b80a71dd6
-SHA1: beffa86cfc0996eaf3578ea5adacde699e09a818
-SHA256: f67fe8835660846157c694552641f7a25ae8c7f76249320085f073dfc3098ca9
-SHA512: d7a34e2c7beaacb46395fca63b80d24b327038eda0600ae097c1fc1c923eaa883b472609b5d3645ab1407a037ef862a1c2a9d531ec0a6f83f4898f1c93fc8dd4
+Filename: ./libjavascriptcoregtk-4.1-0_2.52.5-1_amd64.deb
+Size: 7538240
+MD5sum: 7a95bd9b79ea6c837faab5174523dcd8
+SHA1: d64926d21c897bfdbb058d419cd1ae074d17b40c
+SHA256: b50dca4da667fb8be9b567fa7b448c57baf179ad7fc80ba874eb6791b83cdf57
+SHA512: ee8dce99fa8b5817a4656209a586ece5d07a6fc2bdc62c8377e92fa721cea734e011ad630472cd9d5d2272ec405fbcefea40f2cc362a434552dd591c56d6d701
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -25029,20 +25029,20 @@ Description: JavaScript engine library from WebKitGTK
 
 Package: libjavascriptcoregtk-6.0-1
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 32366
+Installed-Size: 32370
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
-Filename: ./libjavascriptcoregtk-6.0-1_2.52.4-1_amd64.deb
-Size: 7535972
-MD5sum: 0f716d5b18054d353032987a0790a231
-SHA1: 3e40042093e5bca257b1c9927a42ccb634f30759
-SHA256: 0f4fcd4ad457fb50e1e4eb74087a74a2dd3c7ceb3e44c3530c51ce77e095c478
-SHA512: 15ea1e9d751543140ba419749b5ae8138848218bafcb6b8d8cd9c76b36a618cc48d030d679da74b8deac3b7bf50101253519bc67b6d1f05e77e0e995bff369ee
+Filename: ./libjavascriptcoregtk-6.0-1_2.52.5-1_amd64.deb
+Size: 7537872
+MD5sum: aae458327e53af311998aa3c9620848f
+SHA1: f4de2a5b22c85a317abc3e3e7144270ad365865b
+SHA256: 71fe1f2bdc971cae46f69a2b5258a9d19b7074413f5ef76ecbf3b9d4439adc25
+SHA512: d32a9a28ff56622b60f3c63a0359ef15841627c7a39c6626066dd61f99be7667884f7353f252b664699485562a6e229d747af27bb384a8b0313b51f3fa8163a1
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -48447,22 +48447,22 @@ Description: weather data from multiple sources
 
 Package: libwebkit2gtk-4.1-0
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 95708
-Depends: libjavascriptcoregtk-4.1-0 (= 2.52.4-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.4.1), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 96128
+Depends: libjavascriptcoregtk-4.1-0 (= 2.52.5-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
-Filename: ./libwebkit2gtk-4.1-0_2.52.4-1_amd64.deb
-Size: 23749124
-MD5sum: 0d0b404b7337fc658e1970e9b8799e4f
-SHA1: 15827edd0bc303fb4c4b00c5b0bf20e91699aa52
-SHA256: 76a2b0c390a97d91c693ac762841dde38cde37e32d831156af3949c964f64398
-SHA512: b13f6628cc10bc7c0188ca38241c4112cd4f5030cadc296b64f4191f54270fde46bb663cd77e952c43ab686943e340dd791fddb9686d63ef4d193022f29ec669
+Filename: ./libwebkit2gtk-4.1-0_2.52.5-1_amd64.deb
+Size: 24137028
+MD5sum: e8034473fa5a50bf1937bc3951445261
+SHA1: e5f6a7987cc9711624747b320e72ff050293d83c
+SHA256: 6ce842d2bd76669044925fff1ab1ef955a7f0e7520e1996c1c65ed81ce371872
+SHA512: 6ba2904e8d543e37c474b6f87dbbc846400d1b9c263898c29e50238c9d4e86a095fe37f83577ba775cd9689e723190a5e0cdcb9b3851af34ad7a6f09bec9ac40
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -48480,22 +48480,22 @@ Description: Web content engine library for GTK
 
 Package: libwebkitgtk-6.0-4
 Architecture: amd64
-Version: 2.52.4-1
+Version: 2.52.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 94581
-Depends: libjavascriptcoregtk-6.0-1 (= 2.52.4-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatomic1 (>= 4.8), libavif16 (>= 1.4.1), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-4-1 (>= 4.13.8), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 95009
+Depends: libjavascriptcoregtk-6.0-1 (= 2.52.5-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-4-1 (>= 4.13.8), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
-Filename: ./libwebkitgtk-6.0-4_2.52.4-1_amd64.deb
-Size: 23521524
-MD5sum: 3a36b4b912f6834d94b2670863789717
-SHA1: e44d290fb3a3f915cf0e6279a0c7e8fbd7ff2853
-SHA256: 61cacc890b503f0746d0e14ecb23a1e6215ee6b702e93631d475ce879fb80bdc
-SHA512: cfed99430ebdad9809c822eb222ed64c82a7408539582a2418da01ad7ea4358f968e2c3f383a5fd04eed8122de13c8c085a817b124ba0fa8d6d79395041086a5
+Filename: ./libwebkitgtk-6.0-4_2.52.5-1_amd64.deb
+Size: 23899248
+MD5sum: 1f96619a08e70180f8e81910dfb17e8b
+SHA1: e8080dc3dc8c094ca60ede9c8cbe46541e87eee6
+SHA256: f72590860ebf2293776fe2b3f4ebc2758a79a31ecc71e3fb4178450bc037b5d3
+SHA512: 9a8b542a087955bd22c8de7e122c941cf3fbdfe70126b4cec4228c8bf89164fdfe215459387eb18b4533ab509a8f3dd101c2175f71f043ded1431e7becc09939
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -57922,19 +57922,19 @@ Description: Python implementation of the WHATWG Encoding standard
 
 Package: python3-xapp
 Architecture: all
-Version: 3.0.2-1
+Version: 3.0.3-1
 Priority: optional
 Section: python
 Source: python-xapp
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 265
+Installed-Size: 273
 Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-xapp-1.0, python3-gi, python3-psutil, python3:any
-Filename: ./python3-xapp_3.0.2-1_all.deb
-Size: 27204
-MD5sum: c88ea8eb47fe0b2a721232f3459ba31a
-SHA1: 02fee78936b3e5adc64198cc7eb46a1dd3df1194
-SHA256: 5bd4cd69c76bb6c8408f1e71fcddc057d1967e94512c9922cf0a7059e00e8dca
-SHA512: d4fbc5626a9c67c0a90a5b17c29ba3574369e7ddc5cf8639f45e7b731407ed4bc6bfb0cd6d5d4d29349bb5a4b45ceb986ef3e9728440c2b56ae8b4ff23666a97
+Filename: ./python3-xapp_3.0.3-1_all.deb
+Size: 28912
+MD5sum: 28acef0046ac22604bfa699d57b994b8
+SHA1: a546f5840e7ff3958f9290a157011d5df6a34d19
+SHA256: df40d1422d3a222538f4e8c62ad4ce10efb4c9d06296b1eab1bf80bf91e8a70b
+SHA512: a87801e4c7da34761d3397bfe47dd13a3a2017deb0cc0be43947841ca3ce41090ae57496630f84e231ca3c64f37e49158a69c088a880b9f61de4fa184010f76c
 Homepage: https://github.com/linuxmint/python-xapp/
 Description: Python 3 XApp library
  This package contains the Python 3 version of the library.
