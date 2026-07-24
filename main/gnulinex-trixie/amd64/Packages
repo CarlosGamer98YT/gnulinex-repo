@@ -3319,23 +3319,23 @@ Description: common files for firebird 4.0 server, client and utilities
 
 Package: firebird4.0-server-core
 Architecture: amd64
-Version: 4.0.7.3271.ds6-1+b1
+Version: 4.0.7.3271.ds6-1+b2
 Multi-Arch: same
 Priority: optional
 Section: database
 Source: firebird4.0 (4.0.7.3271.ds6-1)
 Maintainer: Damyan Ivanov <dmn@debian.org>
 Installed-Size: 15302
-Depends: firebird4.0-common (= 4.0.7.3271.ds6-1), firebird4.0-common-doc (= 4.0.7.3271.ds6-1), libicu78, libc6 (>= 2.38), libfbclient2 (>= 4.0.0.2496.ds1), libgcc-s1 (>= 3.0), libre2-11-absl20260107, libstdc++6 (>= 14), libtomcrypt1 (>= 1.18.2), libtommath1 (>= 1.1.0)
+Depends: firebird4.0-common (= 4.0.7.3271.ds6-1), firebird4.0-common-doc (= 4.0.7.3271.ds6-1), libicu78, libc6 (>= 2.38), libfbclient2 (>= 4.0.0.2496.ds1), libgcc-s1 (>= 3.0), libre2-11-absl20260526, libstdc++6 (>= 14), libtomcrypt1 (>= 1.18.2), libtommath1 (>= 1.1.0)
 Recommends: firebird4.0-utils
 Suggests: firebird4.0-server
 Enhances: libfbclient2
-Filename: ./firebird4.0-server-core_4.0.7.3271.ds6-1+b1_amd64.deb
-Size: 3570764
-MD5sum: a70c0c318a0806ab8fba27e6a500a3ba
-SHA1: 8cf810ff4c5233a812020c0837ee6a67aaed869a
-SHA256: d131ab98e92d7407339a20f6bc75844bb898a2a57f3dcf022e6f6a334b6a8098
-SHA512: 67f10bac1b75911e8d749d23cc5e70e894810ce80a5bcad522303e5dc2e47e0fcc469ce244904329b59a6261ceb9a033cd267f613097586f1590366d1c82afab
+Filename: ./firebird4.0-server-core_4.0.7.3271.ds6-1+b2_amd64.deb
+Size: 3570916
+MD5sum: afc98197178175123f541fb6dcb2b329
+SHA1: 73f96da7cdf4b6f97a9204f493e8705e63ae8c43
+SHA256: 243a89c93bec44a291ea4af844160e8d6b1d330f2bfa6928727c26b82c10ee62
+SHA512: bad35490481ee93901559e7af8b24396ac3cb1d0a185319dd27b58296874c1bb27feb845a7f65a180cf4ea739a1dbdfb47e9e651d522d19d669a090571a04a5c
 Homepage: https://firebirdsql.org/
 Description: Firebird engine core
  Firebird database engine and support libraries. This package is required for
@@ -3348,21 +3348,21 @@ Description: Firebird engine core
 
 Package: firebird4.0-utils
 Architecture: amd64
-Version: 4.0.7.3271.ds6-1+b1
+Version: 4.0.7.3271.ds6-1+b2
 Priority: optional
 Section: database
 Source: firebird4.0 (4.0.7.3271.ds6-1)
 Maintainer: Damyan Ivanov <dmn@debian.org>
 Installed-Size: 7114
-Depends: firebird-utils, firebird4.0-common (= 4.0.7.3271.ds6-1), firebird4.0-common-doc (= 4.0.7.3271.ds6-1), libfbclient2 (>= 4.0.7.3271.ds6-1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libre2-11-absl20260107, libstdc++6 (>= 14)
+Depends: firebird-utils, firebird4.0-common (= 4.0.7.3271.ds6-1), firebird4.0-common-doc (= 4.0.7.3271.ds6-1), libfbclient2 (>= 4.0.7.3271.ds6-1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libre2-11-absl20260526, libstdc++6 (>= 14)
 Recommends: firebird4.0-server-core
 Suggests: firebird4.0-doc, firebird4.0-server
-Filename: ./firebird4.0-utils_4.0.7.3271.ds6-1+b1_amd64.deb
-Size: 1370404
-MD5sum: 1a625074656010b22e3b3ffa1ed96aaf
-SHA1: 92a89d1435f4b7f6d2b41df72674009a24423a8f
-SHA256: 1382e58443d2d60a7847c90c55869842008bcb45302a06f3c26f2bd752e75d9b
-SHA512: 934cb79e1e474c86d1d362a509de63357408e5510c41150cf3051013b9803141862ee94ee2be0e446d573cc750efa9204fb950ede5eaed2b05070a343382bd9c
+Filename: ./firebird4.0-utils_4.0.7.3271.ds6-1+b2_amd64.deb
+Size: 1370724
+MD5sum: 4a34c84e513921bc7eea0075c699f238
+SHA1: 9d1d09135eaa703ee7e05fa746b272aaacb8142c
+SHA256: c0e92caf8b9dde739d4e5a1058bf2fa359d84e35ff8aef8088e331bd65e646cf
+SHA512: 99249355f07e84261780d4bf91b93b05c3242b0c42c459db68ed77faa15ee273607941feb241ac3221b90f6f07c19189d835149260a8a8f3758b8288adeaaf19
 Homepage: https://firebirdsql.org/
 Description: Firebird command line utilities
  This package contains the utilities for managing Firebird databases:
@@ -12856,21 +12856,22 @@ Description: GUI utilities for Hyprland
 
 Package: hyprland
 Architecture: amd64
-Version: 0.55.4+ds-2
+Version: 0.55.4+ds-2+b1
 Multi-Arch: allowed
 Priority: optional
 Section: x11
+Source: hyprland (0.55.4+ds-2)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 18194
+Installed-Size: 18195
 Provides: hyprland-abi-2a2093c, hyprland-api-0.1
-Depends: libaquamarine11 (>= 0.12.1), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2 (>= 1.0.0), libglib2.0-0t64 (>= 2.40.0), libhyprcursor0 (>= 0.1.13), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libhyprwire3 (>= 0.3.1), libinput10 (>= 1.28.0), liblcms2-2 (>= 2.2+git20110628), liblua5.5-0 (>= 5.5.0), libmuparser2v5 (>= 2.3.4), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libre2-11-absl20260107, libstdc++6 (>= 14), libtomlplusplus3t64 (>= 3.2.0), libudis86-0 (>= 1.7.2+git20221013.5336633), libuuid1 (>= 2.16), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-errors0 (>= 1.0.1), libxcb-icccm4 (>= 0.4.2), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-xfixes0, libxcb1, libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 1.12.3), polkitd, binutils, libgl1-mesa-dri
+Depends: libaquamarine11 (>= 0.12.1), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2 (>= 1.0.0), libglib2.0-0t64 (>= 2.40.0), libhyprcursor0 (>= 0.1.13), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libhyprwire3 (>= 0.3.1), libinput10 (>= 1.28.0), liblcms2-2 (>= 2.2+git20110628), liblua5.5-0 (>= 5.5.0), libmuparser2v5 (>= 2.3.4), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libre2-11-absl20260526, libstdc++6 (>= 14), libtomlplusplus3t64 (>= 3.2.0), libudis86-0 (>= 1.7.2+git20221013.5336633), libuuid1 (>= 2.16), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-errors0 (>= 1.0.1), libxcb-icccm4 (>= 0.4.2), libxcb-render0, libxcb-res0 (>= 1.10), libxcb-xfixes0, libxcb1, libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 1.12.3), polkitd, binutils, libgl1-mesa-dri
 Recommends: libcap2-bin, xwayland, xdg-desktop-portal-hyprland
-Filename: ./hyprland_0.55.4+ds-2_amd64.deb
-Size: 4703148
-MD5sum: ee05de8f4def4d84fa052c7b0c6d1585
-SHA1: c1393d64bece529b9c473fbfc234aa2633b3cbb0
-SHA256: c59182cf78c48da5be8f38ef01b7e84b499f389e3193bed88f81cdf68fdb402c
-SHA512: 3f389d28f1cf1356eca13cecc6c1f6309fa1f160fa5a03608f8d3ec76e79bcf719e1c5e53f322da6f55470624f206aadeec68296b871aef9b7fc2744ba323ae5
+Filename: ./hyprland_0.55.4+ds-2+b1_amd64.deb
+Size: 4702888
+MD5sum: d832603419f2cc4098d57ac541fc0228
+SHA1: 9ddd991bd182e1e56cbc4bd298fd006c234f3f83
+SHA256: cee8f01b3344bdd7a3bbb45e2b16ca683a017fe3e6dba8dce36328c8242a295f
+SHA512: f933e16f223badab8ecd73dacf2abf89f0492f2473a665e35c902b8a56ef720deb74994d0d39ec432a49545b81eeafbd38582d931c3db0fac8443b5acac76094
 Homepage: https://hypr.land
 Description: Dynamic tiling Wayland compositor
  Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't
@@ -15314,20 +15315,20 @@ Description: Light-weight rendering library for Linux (binary files)
 
 Package: libarrow2300
 Architecture: amd64
-Version: 23.0.1-11+b2
+Version: 23.0.1-11+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: apache-arrow (23.0.1-11)
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 30112
-Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.3.2+ds), libre2-11-absl20260107, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
-Filename: ./libarrow2300_23.0.1-11+b2_amd64.deb
-Size: 6482272
-MD5sum: 04a8906ac9c740331b003e2cbfa9469e
-SHA1: 9bab1547ffc0668566f6b5715c56f01475ed0406
-SHA256: 45b5e48ad31e7ddf12010dc43b7643a5a1e6e798baf4ec1f0428039795a75d69
-SHA512: bb45d8c5015743900e455778f94f21332a3a008538bf1baf91bfeb650b8de19db4a72516eb6ba9c73c2f70abf63e2b0147c6f4366186c65000a79000db23b86f
+Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.4.1+ds), libre2-11-absl20260526, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
+Filename: ./libarrow2300_23.0.1-11+b3_amd64.deb
+Size: 6484008
+MD5sum: 56f8060cb2259efd7357d55be4adead1
+SHA1: 14c391568eb2c765c882b6608532d19fb2e5d086
+SHA256: d2ffd0fe554cffd8247df8643cafec53d19ff7193bbc2ca2d9fd40be92846604
+SHA512: 3a601acd0119170d54828d128a78ec618fdd824bfe3966741c375bcaa024c3ac73d5e0ca85a17fcee15b529829cba74b458c03f3a67860b6a134e24fa2872c63
 Homepage: https://arrow.apache.org/
 Description: Apache Arrow data processing library
  Apache Arrow defines a language-independent columnar memory format
@@ -20295,7 +20296,7 @@ Description: FarmHash, a family of hash functions (shared library)
 
 Package: libfbclient2
 Architecture: amd64
-Version: 4.0.7.3271.ds6-1+b1
+Version: 4.0.7.3271.ds6-1+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -20304,12 +20305,12 @@ Maintainer: Damyan Ivanov <dmn@debian.org>
 Installed-Size: 2772
 Depends: firebird4.0-common (= 4.0.7.3271.ds6-1), firebird4.0-common-doc (= 4.0.7.3271.ds6-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), libtommath1 (>= 1.1.0)
 Breaks: firebird3.0-server (<< 3.0.12.ds7-7+exp~), libreoffice-sdbc-firebird (<< 4:24.8.4-2~)
-Filename: ./libfbclient2_4.0.7.3271.ds6-1+b1_amd64.deb
-Size: 839316
-MD5sum: ed2f9dace68351b3c49210b532e24ce0
-SHA1: 9db618f43fc10dce33821a4e3815c8a080158ed2
-SHA256: 7b10bbdf2d2704790687cb048569b54cec73942cccbada44d44f8bb22cf13828
-SHA512: 6421d298cc7cec7dd9c38618375b2b44a509c0aa64625583abe1012185a863cd722533cc22dbe3849fefb8ab878d5eec304c43f6975cb0955bd85bf70d60d843
+Filename: ./libfbclient2_4.0.7.3271.ds6-1+b2_amd64.deb
+Size: 839408
+MD5sum: 74ee70c2d2277102d13205eeec5b2421
+SHA1: 7ed530ec86a047d8a3a9447804c00a6f104bf3fc
+SHA256: 407f1a8ae8256b3df478d23bbcb488eaad8acab378828f3773e261acaef9c004
+SHA512: 04f75de95db219c8b8439a130c359ca17f2400ee6291bdf1aa7179378112d2a95ebeb1b98d47a0b646988410309d186e04f13d82314247714c9fdadf2f780713
 Homepage: https://firebirdsql.org/
 Description: Firebird client library
  Client library for connecting to the Firebird server. It can also be used for
@@ -34401,7 +34402,7 @@ Description: Open Neural Network Exchange (ONNX) (libs)
 
 Package: libonnxruntime-providers
 Architecture: amd64
-Version: 1.23.2+dfsg-6+b4
+Version: 1.23.2+dfsg-6+b5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34411,12 +34412,12 @@ Installed-Size: 918
 Depends: libc6 (>= 2.38), libdnnl3.6 (>= 3.5.3), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Breaks: libonnxruntime1.21 (<< 1.21.0+dfsg-2~)
 Replaces: libonnxruntime1.21 (<< 1.21.0+dfsg-2~)
-Filename: ./libonnxruntime-providers_1.23.2+dfsg-6+b4_amd64.deb
-Size: 309924
-MD5sum: 018ab94bea760eedf237ec8b6042ceb4
-SHA1: 86e25ce9ba8501f34a798d459ca1657a6c0b0968
-SHA256: 2702f52244bf81e6b027a8e0893aadfe83b2c18c5f99c387ace349efcb6ad78e
-SHA512: 475fff5dd56e7a4d14183769965e6b086d32b86b498041154be87420a935813e2dbafc6f01aa7d6f9d458fb75e6c5ed4784661880897487f68fee8f48613ed71
+Filename: ./libonnxruntime-providers_1.23.2+dfsg-6+b5_amd64.deb
+Size: 309932
+MD5sum: 7e04cebc7cc51f3de73224d6dc855ebe
+SHA1: 878a024c552fae51a10b7ce8d3599d7f272b317e
+SHA256: 44c5a9a49eeb5701e5a69030e344a3cd582c41385f033a0ea7f4a0ca8d211388
+SHA512: 206610387d2c4ffd749b870533dffdadf369663869ad9139afc236027c590738bd2fb12afe5034eabf88fffe75a672dd51c8c75e20a8d25b01b1b3d849b94923
 Homepage: https://github.com/microsoft/onnxruntime
 Description: cross-platform inference and training ML accelerator (providers)
  ONNX Runtime is a performance-focused complete scoring engine for Open Neural
@@ -34431,23 +34432,23 @@ Description: cross-platform inference and training ML accelerator (providers)
 
 Package: libonnxruntime1.23
 Architecture: amd64
-Version: 1.23.2+dfsg-6+b4
+Version: 1.23.2+dfsg-6+b5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: onnxruntime (1.23.2+dfsg-6)
 Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
 Installed-Size: 20174
-Depends: libc6 (>= 2.38), libcpuinfo0 (>= 0.0~git20240830.fa1c679), libgcc-s1 (>= 4.0), libonnx1l (>= 1.20.0), libprotobuf32t64 (>= 3.21.12), libpthreadpool0 (>= 0.0~git20200423.6acde9c), libre2-11-absl20260107, libstdc++6 (>= 14), libxnnpack0.20241108 (>= 0.0~git20241108.4ea82e5), libonnxruntime-providers (= 1.23.2+dfsg-6+b4)
+Depends: libc6 (>= 2.38), libcpuinfo0 (>= 0.0~git20240830.fa1c679), libgcc-s1 (>= 4.0), libonnx1l (>= 1.20.0), libprotobuf32t64 (>= 3.21.12), libpthreadpool0 (>= 0.0~git20200423.6acde9c), libre2-11-absl20260526, libstdc++6 (>= 14), libxnnpack0.20241108 (>= 0.0~git20241108.4ea82e5), libonnxruntime-providers (= 1.23.2+dfsg-6+b5)
 Conflicts: libonnxruntime1.19.2, libonnxruntime1.20.1
 Breaks: libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~)
 Replaces: libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~), libonnxruntime1.19.2, libonnxruntime1.20.1
-Filename: ./libonnxruntime1.23_1.23.2+dfsg-6+b4_amd64.deb
-Size: 5343368
-MD5sum: 8f26c152926a5f1748f00682adb378cf
-SHA1: b7ff0273e38b7844e5b5202f8b3aee47da545f00
-SHA256: cff803d812efd0559d917f5e4c4c9c0117b1a430b8ab2f83b3154621197c4f24
-SHA512: 89818c7c2c9d2f5a97304bb9a563181af4a1a98b382d8f1f224d8154336bed257c3f993330affe506705ca37e9bc5e166fe21a12008651ae5c7f140df473bd41
+Filename: ./libonnxruntime1.23_1.23.2+dfsg-6+b5_amd64.deb
+Size: 5347164
+MD5sum: 56ef711fb5eae6c0eae81bf47e10bad7
+SHA1: 013c052be9025d2d6c92f593c5634db62855b0c8
+SHA256: 57f0e64089025161f9f502009ca44adcf146c7f789272169eda2866502fb9acc
+SHA512: b51f392fdd2918e55e28e6dbdf28ed739958d269c213df8190e4e58893c543f098045d22f44a27337944eddbd3ded08b0bbc3567a909e9e260ded6e676118f66
 Homepage: https://github.com/microsoft/onnxruntime
 Description: cross-platform inference and training ML accelerator (shared lib)
  ONNX Runtime is a performance-focused complete scoring engine for Open Neural
@@ -35152,7 +35153,7 @@ Description: Library for Parlatype - runtime version
 
 Package: libparquet2300
 Architecture: amd64
-Version: 23.0.1-11+b2
+Version: 23.0.1-11+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -35160,12 +35161,12 @@ Source: apache-arrow (23.0.1-11)
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 4760
 Depends: libarrow2300 (>= 23.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.23.0 (>= 0.23.0-1~)
-Filename: ./libparquet2300_23.0.1-11+b2_amd64.deb
-Size: 1426072
-MD5sum: 2efeda956119a3942b026bba62c6cdde
-SHA1: c5ff4f59878d2224021ff0a98a5c83b7609d4602
-SHA256: 2a0d7ecec6bf5ab5e16a5bccd0d4bb40eb63dc8253055bd65f6c6702ccdb076d
-SHA512: 2d5472a5c5ec1a0ecdeb518304cefaed5d77eb0c10885eb624b3ae4327c5993111e5a5a68a3d6e25d954aa56489b588e01c7481a2f6d2c6f2bce9be978fae760
+Filename: ./libparquet2300_23.0.1-11+b3_amd64.deb
+Size: 1426728
+MD5sum: 1146e17f88466b5f4ec190b5d40f885f
+SHA1: 3208d9cd837c7cb8b1373cb1bca07b0802926902
+SHA256: 648563fb5cc01d36859dd4ef6813d2740d2c2bad255bb1faeb0612f3b7d70213
+SHA512: 1ca53f9312f30683bbb5c364f4febb73e699cf730028dd4192e49e5abad4ace2c45328a25ec8a36a06a03746d17023c4efced640d525ac976d13d3456de1d53a
 Homepage: https://arrow.apache.org/
 Description: Apache Parquet is a columnar storage format
  Apache Arrow defines a language-independent columnar memory format
@@ -38376,22 +38377,22 @@ Description: Remote Desktop Awareness (shared library)
 
 Package: libre2-11
 Architecture: amd64
-Version: 20251105-1
+Version: 20251105-1+b1
 Built-Using: unicode-data (= 17.0.0-2)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: re2
+Source: re2 (20251105-1)
 Maintainer: Stefano Rivera <stefanor@debian.org>
-Installed-Size: 460
-Provides: libre2-11-absl20260107
-Depends: libabsl20260107 (>= 20260107.0-0~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
-Filename: ./libre2-11_20251105-1_amd64.deb
-Size: 168864
-MD5sum: a2797b4286d0faafded8ade05b69cbd8
-SHA1: 84acd6c909d55b70c07f1b0851aec61fd13bf058
-SHA256: f04d7a8b2176f9c193ec23053742ba2c29b2028bbc861d54d4ee2dee16084b12
-SHA512: ea62ba4ecebac47e8167867305c0c680fb0bd8bbecacc4fbe8588c3c8dcc3d8dec45fdd406f6400bc9b8a28ffb81fd4853f0a1e56cad49127943b987a5bd5a74
+Installed-Size: 457
+Provides: libre2-11-absl20260526
+Depends: libabsl20260526 (>= 20260526.0-0~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Filename: ./libre2-11_20251105-1+b1_amd64.deb
+Size: 168092
+MD5sum: f93abf5f606ed512a51558d9e7d0aa32
+SHA1: c627158401169b996b4a19d93131597839729ecb
+SHA256: 983b10edde688b9b8b9a5dbaa99682d779fe978889e57d9c11b7418fbe4db502
+SHA512: 167e6ef9a67d571d94aa194a65d90711cdcc654b1d953ade5d9977cbbe94490a507ef0299e22fadaf4573853c6ec7d45df266bb879044d2d846cb1770c2670ba
 Homepage: https://github.com/google/re2
 Description: efficient, principled regular expression library
  RE2 is a fast, safe, thread-friendly alternative to backtracking regular
@@ -57484,26 +57485,26 @@ Description: Python 3 module for automating interactive applications
 
 Package: python3-pil
 Architecture: amd64
-Version: 12.2.0-1
+Version: 12.3.0-1
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: pillow
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2697
+Installed-Size: 2692
 Provides: python3-pillow
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, media-types | python3-pil.imagetk, libavif16 (>= 1.4.1), libc6 (>= 2.38), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.4.0), libraqm0 (>= 0.7.0), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libxcb1, zlib1g (>= 1:1.1.4)
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, media-types | python3-pil.imagetk, libavif16 (>= 1.4.2), libc6 (>= 2.38), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.4.0), libraqm0 (>= 0.7.0), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libxcb1, zlib1g (>= 1:1.1.4)
 Recommends: python3-olefile
 Suggests: python-pil-doc
 Conflicts: python3-imaging (<< 1.1.7+2.0.0-1.1)
 Breaks: python3-imaging (<< 1.1.7+2.0.0-1.1)
 Replaces: python3-imaging (<< 1.1.7+2.0.0-1.1)
-Filename: ./python3-pil_12.2.0-1_amd64.deb
-Size: 558104
-MD5sum: a0daf4de833d7d0f9cc778be07c1b9ac
-SHA1: 5c01cccc98f7bf27ac87c87913731b3ecd217537
-SHA256: f8d88c17085b2c745698d187c2b665aaef34a2453852dbe98fcbce3d463de72c
-SHA512: 278ac201803d82f2804a8193c5c06633d0c80c0fc13475f3d8094c1efb51e00957e5bf5b1e3de7d594d5ceabadb23f951c7275b0473904b7f8dcb12664da35c4
+Filename: ./python3-pil_12.3.0-1_amd64.deb
+Size: 562176
+MD5sum: fd556a38d509ebe17a34f77353255f62
+SHA1: 2fb11aec79892779409207ea944488d617f4631d
+SHA256: 7a97a8828a12f43bc3f9a843f68ac37b7cd7070d4f2300f1a2c550066c79c5bf
+SHA512: 3e1bf7f9e7cb490f8655c5444722958cad4f5ab351cf1dde7c126bf4f0d85e3312b6e5bf874e8ea38f3e01524cf672b6034f2a940d32862723fb4772e3c31237
 Homepage: http://python-pillow.github.io/
 Description: Python Imaging Library (Python3)
  The Python Imaging Library (PIL) adds an image object to your Python
