@@ -6501,20 +6501,20 @@ Description: Adjust display hue to outside lighting conditions
 
 Package: gcc-16-base
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 104
+Installed-Size: 105
 Breaks: gnat (<< 7)
-Filename: ./gcc-16-base_16.1.0-2_amd64.deb
-Size: 36780
-MD5sum: cc683d1c514ee8fdd3db0ac4bc2d5925
-SHA1: d1c4ec6cb707151c4e8688e2fb4d8b2ebc9fdbda
-SHA256: 731a8b22b7e95cb17c6e0dd43e5fb6841458dea19a5bdaa868565b91bbac8d9a
-SHA512: 0f6343a157414106faf597b792ca56afb53774b6ce813def2f7ab140edb58914dc4db883c029e14442ea9f598ec51476d37cf35cdd13e196e726173312da848f
+Filename: ./gcc-16-base_16.1.0-3_amd64.deb
+Size: 37508
+MD5sum: 8dbc7d8d06fea5b7242727a1a673da62
+SHA1: c04b0a24b0bd68d89f7ebab87a6ba5156b3c451a
+SHA256: 3ab61c8321d5b428d7c3a0b5ccab843542f2975cf9854cd286b9870f25d50c1b
+SHA512: 2a217ac23a7315ac4752fc83442f20068ce0d89129d40881d9cccff1c1d461db74f249b2f3744113747036774f7538e9150fa9e418643fe4636a9436768ee696
 Homepage: https://gcc.gnu.org/
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
@@ -9231,20 +9231,20 @@ Description: Web content engine library for GTK - GObject introspection data
 
 Package: gir1.2-xapp-1.0
 Architecture: amd64
-Version: 3.2.2-1
+Version: 3.2.2-2
 Priority: optional
 Section: introspection
 Source: xapp
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 54
+Installed-Size: 52
 Depends: gir1.2-gobject-2.0, gir1.2-gtk-3.0, libxapp1 (>= 2.6.0), python3:any
 Breaks: cinnamon (<< 5.2), cinnamon-screensaver (<< 4.0)
-Filename: ./gir1.2-xapp-1.0_3.2.2-1_amd64.deb
-Size: 11580
-MD5sum: a24fb184258f544d6136ccd1203c5f46
-SHA1: 94295b1c02a527518e4fbac23056d7e036e79c93
-SHA256: 9a6c1f5909ea0e859f101d6a1b8d63758fa337b17ce1525f6b3e6a253f8c03b0
-SHA512: d1b25a6b3d7f154d021ede4e818275de339eb962dc7fd018d226d52081603b0878b3d17c176a6d7c850671a651a28f922b4087903fefb8d7080b87ca7d4d1820
+Filename: ./gir1.2-xapp-1.0_3.2.2-2_amd64.deb
+Size: 11280
+MD5sum: 06428285188d27037631065e2e99c225
+SHA1: 2808fbe7252cc76e6fe4969096b422d0aeb9ccf5
+SHA256: b81642187376291176eb81320614f6448e422e77fc73ea93eba1214b62701134
+SHA512: 028d6cfcd400674f471d54331cf65025157227452f5519b13a783e88277694455b0557fba1c4e9b0e9b45c52b535813cf65491a347e4abbbbf4b8c253b481930
 Homepage: https://github.com/linuxmint/xapp
 Description: Introspection data for Xapp
  Xapp provides components which are common to multiple desktop environments
@@ -15346,20 +15346,20 @@ Description: Apache Arrow data processing library
 
 Package: libasan8
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 11299
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libasan8_16.1.0-2_amd64.deb
-Size: 2888652
-MD5sum: 22c96dea4b9a364cf09dbdf0d9a7a803
-SHA1: 6a83c260ca701862ad32ff93edee1d9913d2bae9
-SHA256: 463c813abe69e43851f24f99117dcce9b5d0d8a12d30bc279f66c85efdecd9d0
-SHA512: b98a08ba0912e61d7f910836f5a7f8453538ff0e3456561302d9d81b3bbbeac2644843b1a54b3ba7d4d71247a557bb08881f6ffec207a9f131ef532295e80f01
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libasan8_16.1.0-3_amd64.deb
+Size: 2888908
+MD5sum: 9739797aeaff364782eac06eaa2fb637
+SHA1: fdda372bf7e69b9d3b9f8d5a8adb4bdbf16fe751
+SHA256: 4c2828bfb52a03f814466098e69704dbeb40620b1f44394437a65f87ff6461b4
+SHA512: a92c2daa0d567ef68e059097792068f96276d6cedd5e5181d512b14be7b21c6c22aba3bae39a44d281243d5d862c9fc608f5f7c6ef1a6d8b48ac17427faf2fea
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
@@ -15642,20 +15642,20 @@ Description: Development files for the ATK accessibility toolkit
 
 Package: libatomic1
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 49
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.14)
-Filename: ./libatomic1_16.1.0-2_amd64.deb
-Size: 10420
-MD5sum: 1b410ec7144931b14bbb0968c9672c31
-SHA1: 7ac5c9251301acc8667b2c46e92cdef022b6ba3e
-SHA256: 3ae74ccdf446fc27df213ae07f5ac9614098606029ae80457edce222ee3545cd
-SHA512: c5f495a414c0e19ecd63d1d6e5857fde1135cbc285623dd8c15c1414291854e43f0dddd2a67b4da21b7df32c3b9b6e0ed861de64007ea8ef77ec080ee2902162
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.14)
+Filename: ./libatomic1_16.1.0-3_amd64.deb
+Size: 10400
+MD5sum: 4c50eef4fef4db42b90f763df6365873
+SHA1: 1e8a95b4015dfcc964f509bddbeb2e0eff22ff6f
+SHA256: 4033832e95e8be6acae307a025420fc1a810365614c8472c591cb204a00a0853
+SHA512: 5cde4678d7412a7ee5b0ff9b7096d6b11bd196ff70c0a101806c4a7eb6e2a95ca256e61863e72951d5c69520a2d42c75c4ec68fa6dc4c6347a01c94ad37081e7
 Homepage: https://gcc.gnu.org/
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
@@ -17282,20 +17282,20 @@ Description: Configurable on screen keyboard with scanning mode - library
 
 Package: libcc1-0
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 148
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libcc1-0_16.1.0-2_amd64.deb
-Size: 46056
-MD5sum: 7192f8e901985f6eb248651770349b6d
-SHA1: 9ec22a112d48a82b9f59f92458427810640dd09f
-SHA256: dc0fbbd52e471bf098607dbb2b7e5bfc1c10c2ca1c6179ffcf56214198fa57f1
-SHA512: f474efe0f3411456bb3486c65808f7e101079f3b550ddf157b29d0de4b6dc0f3a76a3bf03df4498f20564fef8e52e9c3b55c596898c631bc150a705b390232e9
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libcc1-0_16.1.0-3_amd64.deb
+Size: 46044
+MD5sum: bac61c26b4dae58b9beb55808c8b0679
+SHA1: d77f43ad12f03f47663a2efe0ec2ba80d4758ac0
+SHA256: fc48d74ca43feb0ae1eda5f4b74f9fd520fa0d6d3d859428332a92283b0d2d69
+SHA512: 860daf52163bd3706b3c1e31a722c4d853327b985243b2729411127616898c589ff3c01295019dbc4dff7ccd00771127bcc8be4b6f8012d22b90f4dd8d705aa9
 Homepage: https://gcc.gnu.org/
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
@@ -21122,7 +21122,7 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgcc-s1
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Protected: yes
@@ -21131,15 +21131,15 @@ Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 197
-Provides: libgcc1 (= 1:16.1.0-2)
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.35)
+Provides: libgcc1 (= 1:16.1.0-3)
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.35)
 Replaces: libgcc1 (<< 1:10)
-Filename: ./libgcc-s1_16.1.0-2_amd64.deb
-Size: 74092
-MD5sum: 10fc6d744576b878d05c2d0ac29ed9e3
-SHA1: a98d5ca7862136111ce2dc4a09704de66ba6631a
-SHA256: a0b3de44fb6a7763460c4457a9ffb4e84b503a50d64c27cb921ecf0b2a7c7fd4
-SHA512: 1b439ce6a2eda521b7631b7116b7adcfe4ab8d1242fbf17c36ae07a5e46759551a3bfe7ed3bcfded7db3c25e5d526001e7dc666d99d67e28512608051cba20ea
+Filename: ./libgcc-s1_16.1.0-3_amd64.deb
+Size: 74116
+MD5sum: 24bae8371e2e0163ab0666c0624bb26f
+SHA1: 65ee637af4d1461990da50d810b2bb8bbf053f30
+SHA256: 820799aced43edcc1f7fd0a32edabc8761de90ac5fd15b515b86bbd0d237c590
+SHA512: b988464b9f357724e54aa8b4442ce781b7bd56b6a4699b9c63a9cea9163f33522c5a33fb18ce247d7aa4468d5a47fe36bfde095ed5983c4a04539ac87679b1a3
 Homepage: https://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
@@ -21815,21 +21815,21 @@ Description: GStreamer editing services (shared library)
 
 Package: libgfortran5
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3530
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgfortran5_16.1.0-2_amd64.deb
-Size: 877248
-MD5sum: d9aa2ea233942e637d424cef4036d45c
-SHA1: db99a64bbd8858a48b1dbdf8a87faaed9eda8921
-SHA256: a243794024b2ab3d23a658a5e42e4dce7c70c0a10ce295a9277e3726c807ef3c
-SHA512: 4b4d84b79d5d9a5334a10b372568a8954bd9399a9f0315acf94b7bc2771a928159645d5343062dff2aedae1a0fc861600a07d57cc1ee7562f03f8a3a59f73c46
+Filename: ./libgfortran5_16.1.0-3_amd64.deb
+Size: 877924
+MD5sum: f04591c7d6de203bbcaacb04082fcfb4
+SHA1: e962e655b722553942ce20c5f8f4330b8c369ea5
+SHA256: 5d31a58bd517ed656434795e7d244cce2e6fc25841c649517bf435925072d909
+SHA512: d0844418dd9f84c838c7d3c81f734b03da116c2cd3bb7ac9f749b2f8ce55aec5ab45cb6b4d6fc44822109ecf364131ed142281e5c0ad958b168834f0e6739f29
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
  Library needed for GNU Fortran applications linked against the
@@ -22748,21 +22748,21 @@ Description: Object mapper from GObjects to SQLite
 
 Package: libgomp1
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 402
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38)
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgomp1_16.1.0-2_amd64.deb
-Size: 151112
-MD5sum: e72d615f18c1658b7fa39ba2e7e1f75d
-SHA1: 184ece9fc0eb025f495a1e2b2b159fc7bd9be543
-SHA256: 4014df508cf2055e5d6b506ad1f5f63a62991b0d29b87eec07f7b8550a564bed
-SHA512: 589232d3c2960d802bff965b9a4c15ec55b17ca4f997dc731b9775d209ca457cd296bb4a0f2b0df852a10455123931c050a1ae8a683cae7a7b1cb1f00abd8671
+Filename: ./libgomp1_16.1.0-3_amd64.deb
+Size: 151160
+MD5sum: e399c636b89af15537d13a805acc4c71
+SHA1: eaf63ede1c1004daf3d24bfec4424d681e06e456
+SHA256: 3e87821d88a7522b6e9e86b1d3d8561c6ef9ec72085c000ffe6d72161e954d9c
+SHA512: 9ba8390b72ac2ddd23d92f685e073d0011f2ffc6bedab705024784591556d1ba354ec32bf14c61f9c46e47886c0145f0eb3b0244c9dadd10e4154c01db537335
 Homepage: https://gcc.gnu.org/
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
@@ -24542,20 +24542,20 @@ Description: spell checker and morphological analyzer (shared library)
 
 Package: libhwasan0
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 5089
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libhwasan0_16.1.0-2_amd64.deb
-Size: 1580120
-MD5sum: f99b171fb303c02cb1b354deadfbbc21
-SHA1: b41b6f67916ac0a2a835674bd1e5dc628d8767fd
-SHA256: eeb4b1abd1582391ef34eda21c7f2e1e54d8e75642dc19b2eb9b324901ad677e
-SHA512: 3823867919b397cf9279a42f1c77087fbfb27dc8c8b1057068c354d48ae3a2e4f1fe02d4f584cce685aca0807bcd9d1629a96d25d71b31b69c5016ddb06b6f76
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libhwasan0_16.1.0-3_amd64.deb
+Size: 1580136
+MD5sum: 3753d0319ebf13700783beb8826000c1
+SHA1: 9c90236ee12bcfc286dc6e75630baf4c75a0e57a
+SHA256: b14e989fdd6e38ee02d8e3cb7b4416331964a5b8077b2879193caf42ba7042c1
+SHA512: 90429741293c38f57e64c515db074b5e0a96213b64eb8e4453caa37353263e26af4ab1d5f208a99cabdb570a443a48d2616cf55e06c019c6b3074f26fbee61c0
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (HWASan) is a fast memory error detector.  It finds
@@ -24936,20 +24936,20 @@ Description: Java Library to create and manipulate PDF on the fly
 
 Package: libitm1
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 115
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34)
-Filename: ./libitm1_16.1.0-2_amd64.deb
-Size: 26944
-MD5sum: c803caf0a2b0c890b69dbd71d7b2362f
-SHA1: 347bc5f87993f411e58b8b126b2ec8590bf180f4
-SHA256: bbce63e715399da566335cd22b9bc5051525e4b5f2dd91c6b6ad1d25910d8980
-SHA512: 7c74edef2a77cf64a78aa2439648fedbbaf07619834ed06ed423ae2ca424672d428d00ff2ae2321caab1b04d20d7e0777bb0a499756b8a5cba07346220f3ad34
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34)
+Filename: ./libitm1_16.1.0-3_amd64.deb
+Size: 26952
+MD5sum: d4a8219fd7c13f1de3e78b945d3a00ac
+SHA1: 529fcbfdaf19aeb2c4b9a8232c5a8f78c6a15679
+SHA256: bd8a4d57b3700a6ff07446669db4e1e64a195d2df0f92ea9d29322006ae23ec5
+SHA512: 8f3f0654c2b67ee0832cf54f8be03d2f15d04d589c41a8fb195d193a6145c16ca68515836c9b1b02b445b289f7ebdda3ad102dae88599d200b4d43a3c1f1dd46
 Homepage: https://gcc.gnu.org/
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
@@ -32128,20 +32128,20 @@ Description: Java general purpose resource loading framework
 
 Package: liblsan0
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3977
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./liblsan0_16.1.0-2_amd64.deb
-Size: 1280612
-MD5sum: 8be67e8767837b1da6818aa4b04d76e4
-SHA1: 306e5a2fdfc178d0bbfebceada41b23dd6e65350
-SHA256: 0f3f25b6d30caf7ae4d9728e2d85b2e1f9173ea69e02eb2f99235061371e1138
-SHA512: e4cb6af4c1d8f9ef2117ca2f72d037f5367deb5d24bb0316755ffa8e78ca84af9a42bf76cc54ef65dcc399922ea77492141eae64f086024134dd33d32e9ebea2
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./liblsan0_16.1.0-3_amd64.deb
+Size: 1280344
+MD5sum: 922b92827fbb3faf83c06bdff9145fff
+SHA1: ea52a994a3deea5740de6d69cb86f75d68c10fcd
+SHA256: be27a2ddef4a6538559e9d76ae0cb641471efc1dc512818e5e3183f569761f75
+SHA512: 31291f093b331c628ba43faa99759a10c6112245d010e8381b4ad57ee60772e9f4a1b6665793e2c20bd8ed7535410abad6a3191be755a45eb1f0d63dd778079b
 Homepage: https://gcc.gnu.org/
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
@@ -34203,20 +34203,20 @@ Description: C library implementing OAuth Core 1.0a API (runtime)
 
 Package: libobjc4
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 209
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
-Filename: ./libobjc4_16.1.0-2_amd64.deb
-Size: 44956
-MD5sum: 07699c3af41364a4b003a01cb0474ee3
-SHA1: a742d1b003d6dad7bc4a170481c92d080de630c2
-SHA256: 88745bfecda67a14b57b7301687dcd3a8fc1406777c226a215fc6057e9d86913
-SHA512: 3adbcf34e35a260073777e8043e963f2d545aa283d5e0000ef03588ce0dbee24b165879db4ceb539c6057e387da0e807314976d96d4a0aa0303567035889523a
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
+Filename: ./libobjc4_16.1.0-3_amd64.deb
+Size: 45200
+MD5sum: aad4c73c42c6283627ea04168ff2a659
+SHA1: 22af319ac60dd210db72280cd26c0978e0ba20b4
+SHA256: 6920048210f2cf6568c05574ef5a56e3fb7131f269fd692788755e38122922b0
+SHA512: 9418e0a3cf83c838d3eba3369dd8bae143a4491b4c3308b1529996cfeb5681e6a1727bc92bb41ffb9e01ac57ff5ab506bc07fbf1eafc75cf3ef4a4750c400f0b
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
@@ -38190,20 +38190,20 @@ Description: Terminal emulator widget for Qt 6 (shared libraries)
 
 Package: libquadmath0
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 300
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38)
-Filename: ./libquadmath0_16.1.0-2_amd64.deb
-Size: 147664
-MD5sum: 37a0da4841e631171f8884bf90822979
-SHA1: 89b9a4d858e8b64c77d198061c479cc76e950c39
-SHA256: 255b4a5b3034e5879c35c1f63738d74260faa5b94d1cc70d8a3bdf130cd6b2f1
-SHA512: 7bf1607bf322a8df9a04c31361ef7170f963dd4b655503667dd8ec40075f70f1d6ee187974847e3d6de82a8bbe7cfddb6db7f33942963e4a00f3a298ae7844b2
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38)
+Filename: ./libquadmath0_16.1.0-3_amd64.deb
+Size: 147568
+MD5sum: c8a4dabcea3cef428264d6ca08dc3675
+SHA1: ea6d4d272513d143cd7aac19f56c0ec724bc4102
+SHA256: bb1e7a6288c562cdf874b79e2e6369c3137d4fed5a455f1e7338364aa8f15a2c
+SHA512: 011becd8fc4da192f40ee0360bc15d7ffee5736af124b0816136da8d16bd8674d599b04626498f372c5268c2f587b7517e64b16dd859b8b686ea3a01e42eda83
 Homepage: https://gcc.gnu.org/
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
@@ -45405,20 +45405,20 @@ Description: library to integrate with Cyrus SASL
 
 Package: libsdbus-c++2
 Architecture: amd64
-Version: 2.2.1-1.1
+Version: 2.3.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: sdbus-cpp
 Maintainer: Shengjing Zhu <zhsj@debian.org>
-Installed-Size: 405
+Installed-Size: 413
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), libsystemd0 (>= 246)
-Filename: ./libsdbus-c++2_2.2.1-1.1_amd64.deb
-Size: 120812
-MD5sum: 5e2eb4ea57774c19b96ad48f7b5d8ba0
-SHA1: fd3076b15c2a1a0028e697776aed58746bf0f351
-SHA256: 8326758444e93bb96a16e55441ed4d6f561508648d4f7b4e667ee1cc2509ba31
-SHA512: 48cf66bb9f80c6bb726b90d8420fc8ba7f572b63be4cfedc0ac9ed07fd0bccec885117629fc83bddb24450e8cb746eea06013de7c1493243c11df0965528309b
+Filename: ./libsdbus-c++2_2.3.1-1_amd64.deb
+Size: 123168
+MD5sum: 595c6ac049ccb8ff0fdd940b1b9c7252
+SHA1: 71c0f62e4490d5c6f4da6afc8d0f8ce2a270be69
+SHA256: 563295de0eb9fe2f7ba3cb923d8649f0b551c06865d9c796f8becdfaa506ba92
+SHA512: 85790e770b044169a186e70c18d65b014c040fdbd45e8b14f90e9fcaefda1d73ba8611c2a78ad687184cef8bb7daa8f45867f432c4891ca9b5d8677b886c7e93
 Homepage: https://github.com/Kistler-Group/sdbus-cpp
 Description: High-level C++ D-Bus library for Linux in modern C++ (library)
  sdbus-c++ is a high-level C++ D-Bus library for Linux designed to provide
@@ -46239,23 +46239,23 @@ Description: library being useful interface to system statistics
 
 Package: libstdc++6
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 3319
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Installed-Size: 3311
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Replaces: libstdc++6-16-dbg (<< 4.9.0-3)
-Filename: ./libstdc++6_16.1.0-2_amd64.deb
-Size: 822444
-MD5sum: d59dfddf18537022206c97d429203d3a
-SHA1: f5b55d40a61ed9a4576eb116f576a4051ef3cf70
-SHA256: 74748a4c5f0bf11b4e1b905c699aa547ea44e6d07534f722f9ec9ceb7f90bff4
-SHA512: 97273d4bb63607bf95fd8103fc6c907b57f5456291c54afdc4f22f0a2b628c9b5461507f692dff7db302fe98f17553a16e3945fe08e6dd9ade5364f9eaf17176
+Filename: ./libstdc++6_16.1.0-3_amd64.deb
+Size: 822260
+MD5sum: 4dda508769e4689a843571bed7253391
+SHA1: e7584822d22461c39f24ab95b2a8acf358b83038
+SHA256: f173c9a44daa0206e6c943202eb9d7c46d5817565dfbd10af16877ce0cefe585
+SHA512: 69c933e9a680c034579ef77459446f360363854c1f90e8a1e3894f97c1939625ddf9a2e73f236863e06c133c955914b8cbb0c0cc4c0c731f32d5278f51a33e93
 Homepage: https://gcc.gnu.org/
 Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
@@ -47154,20 +47154,20 @@ Description: Main library for the Totem media player
 
 Package: libtsan2
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 9182
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
-Filename: ./libtsan2_16.1.0-2_amd64.deb
-Size: 2573260
-MD5sum: 77c275d9e9f3446d32117dde2e01ef38
-SHA1: 2713e043410b70258330de9456c5d6e7ad805dcf
-SHA256: 9685be32cfd2e0e0bc04b090981cf26693f72b195a8d962d89b14cb0d493941c
-SHA512: ef29b7ea18ed5fed5999ad3be418a5a1c8d1c70e5f0c1842c2450c0faa23dd3b681455b5e07b2f684172730435480007527f52991d5a4af029e5d368094b399f
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
+Filename: ./libtsan2_16.1.0-3_amd64.deb
+Size: 2572908
+MD5sum: b562c854cd14e0da86c00a1bf6a58c2b
+SHA1: a9d5edbb9e4528174593bacc50b7eaa19ac8bb75
+SHA256: 139a7727245399925903b788be32548d9523f25080757d5e25ddc7e9835e0914
+SHA512: 90b8dccb593df77c56c1b5f0d6cbd56dc13099270815143cc8060cd7360059558b4f8c3847245f607b290140cea605c23c1d0b3c8a4facf99feff757a4c243b7
 Homepage: https://gcc.gnu.org/
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
@@ -47630,20 +47630,20 @@ Description: TurboJPEG runtime library - SIMD optimized
 
 Package: libubsan1
 Architecture: amd64
-Version: 16.1.0-2
+Version: 16.1.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3483
-Depends: gcc-16-base (= 16.1.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
-Filename: ./libubsan1_16.1.0-2_amd64.deb
-Size: 1136120
-MD5sum: bdba2ab6a48cac3d54370d4caf2e34a7
-SHA1: 5e2f90e1f9e31d149867befc5bc68bf6382988fb
-SHA256: 252a6aa6d1a9f0fe67053938105ff72c8e59ccb2145613c72e54a594636d11c1
-SHA512: be1ffdb7244969d7544c660d7c99754153e1b781965824e01aa09450190c3a975ecc72bd250cef8f2c825ce3b8b4b5f92a1430e06dd89b32d0f1de79d5731ec0
+Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
+Filename: ./libubsan1_16.1.0-3_amd64.deb
+Size: 1136356
+MD5sum: 51ba98882b33c4294cca330fa7f7b7eb
+SHA1: a62ec0ee507642a8512ae7395526a672b7677954
+SHA256: 122532cf82e2ac684963081a009a20cbad8e52716ae5b7547fe265cc28ca2064
+SHA512: c2e81bb11c96272d252e543e35864834949851f60b50d0476ef028c9b2fd3f2aef7ebb7f412eeb00276b528bcc0c5c3eaaeda6812d7f744f93671dc67fa53561
 Homepage: https://gcc.gnu.org/
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
@@ -48259,7 +48259,7 @@ Description: Terminal emulator widget for GTK 4 - runtime files
 
 Package: libwayland-bin
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
@@ -48267,12 +48267,12 @@ Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 68
 Depends: libc6 (>= 2.34), libexpat1 (>= 2.0.1), libxml2-16 (>= 2.14.1)
-Filename: ./libwayland-bin_1.25.0-2_amd64.deb
-Size: 21616
-MD5sum: 0257880fc36ac24ea5cf1a973b4e714b
-SHA1: f8a41ded7f37b3522b476764e005ef79b82e631c
-SHA256: a01940e788d32381f5e9c434747ae130072a7f6c9b9b6b3030a4c2131d6bcaff
-SHA512: c192d0e6f31d830ab783a1667a88d339c645e02b7ab46059e38e71655f2268426988e91fa66470b27db7c6a86b49134787b6d45616c1128eb546602d8e7d1163
+Filename: ./libwayland-bin_1.26.0-1_amd64.deb
+Size: 21676
+MD5sum: edb54334f02fc7cb0fc1b764da3843e8
+SHA1: 1e07bfac8dc9fd6215b7367aa318fd5bfead1297
+SHA256: 9e179d95de4def2771886441017738eb7da9d37d1ed56cb85ead1d593071dba6
+SHA512: b5e537236a734aa2717ddd33332f2c59bcb6f3c32beeb5b7dc7dbd26e3591c6fd398f057c52825f9ef5154764a7be632614f7a68bac57357fc0e7d1607ed7887
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - binary utilities
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48286,7 +48286,7 @@ Description: wayland compositor infrastructure - binary utilities
 
 Package: libwayland-client0
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -48294,12 +48294,12 @@ Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./libwayland-client0_1.25.0-2_amd64.deb
-Size: 29208
-MD5sum: 7a95cd55ce07c9ef2cb52e04e2f06fff
-SHA1: 3245ea589f0436503c54cf49143c478e6c056e97
-SHA256: f507b2eaba7ef2a5435d78dfb3b3b5c1b7c5d4ecb39aa00b8a06caf193244891
-SHA512: b932219eb1a911d29c50b50fe08db372a9eff60f686d254aff9339ddb0bca72c66fcc7d42626a05585f7e72d126f63ca0f50247d26e40cef0b54e6c677b68a88
+Filename: ./libwayland-client0_1.26.0-1_amd64.deb
+Size: 29364
+MD5sum: 30c2e8a464424ccab72ced7b4dd3dc3b
+SHA1: aabcdf08f5a7ae452accc846eb443649f99ea1f7
+SHA256: b432b1d30319f371efe776209e36143a23289285dd26d41751e89ad4a88b2c33
+SHA512: 003069e42ee4315dcf0e515f115fd03a587c6eda517162bfac1a858aebc1bedab489d0688e50c470e97cd6d471ad9b381d0d552419d4f59dc5040b2d10487121
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - client library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48314,7 +48314,7 @@ Description: wayland compositor infrastructure - client library
 
 Package: libwayland-cursor0
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -48322,12 +48322,12 @@ Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 51
 Depends: libc6 (>= 2.28), libwayland-client0 (>= 1.20.0)
-Filename: ./libwayland-cursor0_1.25.0-2_amd64.deb
-Size: 11684
-MD5sum: 3a9179e433e558dbdf5cc71217da7ddc
-SHA1: 94b66dd9601fa0183131c3a128c2af384b5d58e5
-SHA256: 55556e16fec4380385e27bbece9a81a9bb4169fc7846a9ab39d2ff9d8acd4359
-SHA512: a90ce4247e86c55596618b9e201a740a75b472af90e3b2b5fb1b571bc173ef13424617fc0bf5c8f405410373beebb857aab0be03bc5a240c302d91331df46103
+Filename: ./libwayland-cursor0_1.26.0-1_amd64.deb
+Size: 11780
+MD5sum: 5d9651761a8dc1d11e8b3ef4164daeb9
+SHA1: 971f7f121fec668fb42650a853ae3dbc3434cc94
+SHA256: 4733e54a70867c427c42c416b310b6782297b99c9b52f68ebd25e52860e41032
+SHA512: 3d93fa63801c5cc5ce1426180ffb963888521661f249a5d4e0aa23b23d1be616c661bf35fd157e8c3a91615a7005557d584f52b9bd50691e923980b19746d832
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - cursor library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48341,21 +48341,21 @@ Description: wayland compositor infrastructure - cursor library
 
 Package: libwayland-dev
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 653
-Depends: libwayland-client0 (= 1.25.0-2), libwayland-server0 (= 1.25.0-2), libwayland-cursor0 (= 1.25.0-2), libwayland-egl1 (= 1.25.0-2), libwayland-bin (= 1.25.0-2), libffi-dev
+Installed-Size: 664
+Depends: libwayland-client0 (= 1.26.0-1), libwayland-server0 (= 1.26.0-1), libwayland-cursor0 (= 1.26.0-1), libwayland-egl1 (= 1.26.0-1), libwayland-bin (= 1.26.0-1), libffi-dev
 Suggests: libwayland-doc
-Filename: ./libwayland-dev_1.25.0-2_amd64.deb
-Size: 76752
-MD5sum: 8eb21b19f7260a5b61600e6f24142c63
-SHA1: 08fba6e981a40f2202e082d7113607fa04a30734
-SHA256: d00f0a161d649c3e169ad522a83e38378adb29a38bea91c51107989f82ce0169
-SHA512: 9231bc2525ac1b96b29c14392c399dab6dbed88e7194b7bb2bb494e4dfa6d49e3352a0c370fdbe41ecb7f025a79a46d32c67862038d7395a3f294c5527639f5c
+Filename: ./libwayland-dev_1.26.0-1_amd64.deb
+Size: 78068
+MD5sum: 2242568fdd119672fe2dec12084a0403
+SHA1: 22f34037d1f8c651885c27dfb6dede013c4fd88e
+SHA256: 1dd01391c14d962c1effb88f9f1874385f382ca2a935bc18bd1650b0d2c06a81
+SHA512: 7a56a6765e0beef29796b432194c061be94a375bc15b91c129e345126dc14779287db8a13c40093fa5be7b2f792769d4ab15dffa3ea39a46feca27a21c6e7772
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - development files
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48370,7 +48370,7 @@ Description: wayland compositor infrastructure - development files
 
 Package: libwayland-egl1
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -48378,12 +48378,12 @@ Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 30
 Depends: libc6 (>= 2.2.5)
-Filename: ./libwayland-egl1_1.25.0-2_amd64.deb
-Size: 5604
-MD5sum: b1948d8c914a67d61d18fec697635199
-SHA1: f308d434b17bbaff24fba56f44b1e034950dab69
-SHA256: 6ba50ac7f39deb9911914cf0606ec51b0df8c7560ac1a1bd5427d3aafe060c0d
-SHA512: e6b62851b883c2f0051b7d4f6b154b77e2081d7db9ba487f0cf30046bb96bf185479146e15e12e1faa2254881b20a225aa08606ba411bc8e8dd32f6b5765b666
+Filename: ./libwayland-egl1_1.26.0-1_amd64.deb
+Size: 5688
+MD5sum: a3a23d0640c8c4907de3f3d193fb8880
+SHA1: 55d10ea7999d273aa8705df6bca5af3ab35d3544
+SHA256: c31c434c28f7a72ad6646427a37f2199a0c0d7ca24a467b4d8188402cda38bf0
+SHA512: 77986206dd2c6d8b419a6a9d01ca8c471bc0d8cc85c97ab1bdac9e7eff008d9f1bfbc4276934fee98cda6b8013a153922b8e43796e4dc2015bae54a76285dc12
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - EGL library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48398,20 +48398,20 @@ Description: wayland compositor infrastructure - EGL library
 
 Package: libwayland-server0
 Architecture: amd64
-Version: 1.25.0-2
+Version: 1.26.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wayland
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 113
+Installed-Size: 117
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./libwayland-server0_1.25.0-2_amd64.deb
-Size: 35616
-MD5sum: b212c4c15f5d387fd94a9c3b7c26681b
-SHA1: b026e15da351a224d8eafdc29609476f4a515cc4
-SHA256: da9ac0cb61134a78891acaf1b8d1b14d1956d373fef67adafa1037f63e0e4952
-SHA512: ff88b5186923b25f4aa41dca59a38d8b2e3061667bc606078019ec61a907fd974979df33a0130b2c349784d946d5bb6afa5b920f756c9385453358b0739c9b01
+Filename: ./libwayland-server0_1.26.0-1_amd64.deb
+Size: 36460
+MD5sum: 5d60a7330b622b4ba53ddd107c3430ce
+SHA1: f27c39af48f29963b4943be6ee5b4155270bff63
+SHA256: 7ff27d84063f463baea5ee7687bcd8fde63ebba669c754b12aba1d2792327e48
+SHA512: 7e90f20fae725c467bb0bea0d26e6027f409eb189dd0b44f2b8032a9933e7fd41c1b841e77514f773cbef4b02271c7edf0a90e6e82f5e2a1b1cdba739da8f756
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - server library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48726,22 +48726,22 @@ Description: x264 video coding library
 
 Package: libxapp-gtk3-module
 Architecture: amd64
-Version: 3.2.2-1
+Version: 3.2.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: xapp
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 36
-Depends: xapps-common (>= 3.2.2-1), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.10), libxapp1 (>= 2.0.0)
+Depends: xapps-common (>= 3.2.2-2), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.10), libxapp1 (>= 2.0.0)
 Breaks: libxapp1 (<< 2.2.6-1~), xapp (<< 2.4.2-1~), xapps-common (<< 2.4.2-1~)
 Replaces: libxapp1 (<< 2.2.6-1~), xapp (<< 2.4.2-1~), xapps-common (<< 2.4.2-1~)
-Filename: ./libxapp-gtk3-module_3.2.2-1_amd64.deb
-Size: 6384
-MD5sum: c47de501bfaf379378b24beb03c31e28
-SHA1: 456c30a73f5f5c5fc3eefd0aa20c5d4960b72d28
-SHA256: 72c5c39e77f6040b87a4b371dbb65de535f8c75ee9843f4e0b911927a4802e51
-SHA512: 93615515f877f14354ebf668b13e219dc4060ee68f6bc1dadf9b36cde969241abc045c02237ef1608ea3d9c4dd4c53f597981b1d48a14e16bbe64f42c50d6f7b
+Filename: ./libxapp-gtk3-module_3.2.2-2_amd64.deb
+Size: 6500
+MD5sum: 5e1bd44adfa5c06bc9efb0839cfafcad
+SHA1: a8fd28a303d3abcc2bb705d93103e2b7eebe7fa0
+SHA256: b62677ff93fb768cb56b6a441b7ddddf1dcb4a342f903f7a15a538d21dc941ad
+SHA512: 6bd65f6eb18517ab3dce16f1eccc643bb5fada6e4f30360924bea7046641b5bde356ffcb246fe9713a29758782b7c728c7eb4188e7f9a1a31aa1219b90ec0199
 Homepage: https://github.com/linuxmint/xapp
 Description: GTK 3.0 module for the XApp library
  Xapp provides components which are common to multiple desktop environments
@@ -48752,23 +48752,23 @@ Description: GTK 3.0 module for the XApp library
 
 Package: libxapp1
 Architecture: amd64
-Version: 3.2.2-1
+Version: 3.2.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: xapp
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 276
-Depends: xapps-common (>= 3.2.2-1), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.23.0), libglib2.0-0t64 (>= 2.83.0), libgnomekbd8 (>= 3.6.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libx11-6
-Recommends: libxapp-gtk3-module (= 3.2.2-1), xapp-sn-watcher (= 3.2.2-1)
+Installed-Size: 263
+Depends: xapps-common (>= 3.2.2-2), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.23.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libx11-6
+Recommends: libxapp-gtk3-module (= 3.2.2-2), xapp-sn-watcher (= 3.2.2-2)
 Breaks: nemo (<< 5.2), xapps-common (<< 2.0.6-2~)
 Replaces: xapps-common (<< 2.0.6-2~)
-Filename: ./libxapp1_3.2.2-1_amd64.deb
-Size: 74824
-MD5sum: b17b7ac670af38fd16081af8c13129ad
-SHA1: d4343aef926a23a9e98184c41057ed0a385dc54d
-SHA256: b0e725a42da92cf0ce9eb98e6b665d01b5a27450221642dce348684354afbaf5
-SHA512: 4ad192c31de45487ec1c08c35bd459470be5122f6f7b19b3cc8954890481065402b770ae7af5db2e2dd0bf825a0f27190d3734aaf6d87d29c619a8e604cf41f9
+Filename: ./libxapp1_3.2.2-2_amd64.deb
+Size: 72632
+MD5sum: 89d6461b667e7130774dadbb49759147
+SHA1: 3f91b3eefaecf0ed2ed1ad1b61c40e04ba0884af
+SHA256: 451defed2c6401b8d40eefbdc1f3293e6e8c726adb418932136c7e9f972e3a99
+SHA512: 739c8f41b62cbdada04b901aa285947df37448d3400f48c4daa326df6daa0e6ed1a51a0b33cf7c06c6fb6a14a31689dd703fd9244f1da9e9ba90663ac1381730
 Homepage: https://github.com/linuxmint/xapp
 Description: XApp library
  Xapp provides components which are common to multiple desktop environments
@@ -50538,20 +50538,20 @@ Description: Turkish spellchecker
 
 Package: libzxing4
 Architecture: amd64
-Version: 3.0.2+ds-2+b1
+Version: 3.1.0+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: zxing-cpp (3.0.2+ds-2)
+Source: zxing-cpp
 Maintainer: Boyuan Yang <byang@debian.org>
-Installed-Size: 2029
+Installed-Size: 2172
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 14)
-Filename: ./libzxing4_3.0.2+ds-2+b1_amd64.deb
-Size: 833628
-MD5sum: e9be1afda0f0bdb0ab6d4cff194e64f9
-SHA1: dc5f2201b376443591767b4393c1670202618651
-SHA256: a4e200e22dccf0a697b8616896a7ef1d56b04a3af180c7885d03cde5109f1c1c
-SHA512: 79442a68542ed1b923d7308eaf7b8289cf9e7f73ee3c3e859beeb93a782592efd4ae6208f1f1006220ff9278c0a4d3c7c6a0e569e55b192a1e231c8f18e3e955
+Filename: ./libzxing4_3.1.0+ds-1_amd64.deb
+Size: 890164
+MD5sum: 4a559b7d2991820e5a1637ef02cc4d4e
+SHA1: 9166e2620fac6f86d96d48892d129d2b6f9efa6a
+SHA256: 4b5645da52747bdcf348ebd1c7387544584fc7b8ab36a0c832c32204afa6f7ee
+SHA512: 656b4f756e99d584de41c5272d42d183cc063f150967e30162a078b0ae536a41242f7a0795feb3e8ab1c7c7d1975a66ae1a623b11fce0a23a3d41efd5bf2efcf
 Homepage: https://github.com/zxing-cpp/zxing-cpp
 Description: C++ port of ZXing library (library files)
  ZXing-C++ ("zebra crossing") is an open-source, multi-format 1D/2D
@@ -62255,19 +62255,19 @@ Description: Screen locker for Wayland
 
 Package: swell-foop
 Architecture: amd64
-Version: 1:50.0-1
+Version: 1:50.0-2
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 2214
+Installed-Size: 2213
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.78), libgtk-4-1 (>= 4.16), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.46.0)
 Recommends: yelp
-Filename: ./swell-foop_1%3a50.0-1_amd64.deb
-Size: 724000
-MD5sum: 4438c42d633d75097bbbc2c021baa055
-SHA1: 07ef4b10b1f310a7b19bcc13998a979ebbeba810
-SHA256: 71e7d9d02db5cab7817d51f5754e3bcb2559ac5f015a8c12851de406cc206fdf
-SHA512: f25bac8fd19fc7b601a85b1499aef1797ab27f65b21633215fa791641d0747ce8ce24e0f8477c27623b8de7ddb47333d9003266969e305a4f436648db1d695dc
+Filename: ./swell-foop_1%3a50.0-2_amd64.deb
+Size: 723720
+MD5sum: 7db617418a6942c486071ab86df3881d
+SHA1: a37e739a7ada809462349c088cb60725b545dcf9
+SHA256: 3633696641d71d94ba2e775b82df6d173edeb77d9e3abd0d81e1951e2e948ca1
+SHA512: 018cfc7c7f0342cb87f1088bd98e13ef3c33061d0a70d353230fed028ef4f2ad2031ce49e3deb191b37fd55bbd9a283ee0c54944e339f549b56becf99fecadfc
 Homepage: https://wiki.gnome.org/Apps/Swell%20Foop
 Description: Colored ball puzzle game
  Remove blocks of balls of the same color in as few moves as possible. Try to
@@ -62672,19 +62672,19 @@ Description: Collection of simple Type 1 font manipulation programs
 
 Package: tali
 Architecture: amd64
-Version: 1:40.9-5
+Version: 1:40.9-6
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 3242
-Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgnome-games-support-1-3 (>= 1.1.90), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), dconf-gsettings-backend | gsettings-backend
+Installed-Size: 3240
+Depends: dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgnome-games-support-1-3 (>= 1.1.90), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0)
 Recommends: yelp
-Filename: ./tali_1%3a40.9-5_amd64.deb
-Size: 1565992
-MD5sum: 0534d9bfd05ea854bc3c43a1f189f7ed
-SHA1: 26f4d4cfc74af0262fa583d78a011eada891b065
-SHA256: 5ecd6490a0f4599abfee7fe9cae343c03c77c50e2773700b2b2b63e6bb8331fb
-SHA512: 7fadefdf4078311e6c24e922c9871066533364d2dd705567fd56e7c8f68e7b0dad67766c38a16b69324371a8c34d17ebb4deb5cec2de97db938ea1052e069687
+Filename: ./tali_1%3a40.9-6_amd64.deb
+Size: 1564948
+MD5sum: 585e2720a6510604fcb52a25cb86acb4
+SHA1: 2bffa95a770b1f16ca61a0f01a65c2be056de5b2
+SHA256: 8247b8d280ac927122b38c6e92beae07f8321d333f81de8de474e7f9f8deee81
+SHA512: 012504d6f22b79ed867ab4c2b22f7cf57d79301037086f698430d305e65bc67ce1b11fb5e67b1262d71f1bb7187767172cf5aa748d664d72015b3a380ec377ba
 Homepage: https://wiki.gnome.org/Apps/Tali
 Description: sort of poker with dice and less money
  GNOME Tali is a sort of poker played using dice. You roll five dice
@@ -69677,22 +69677,22 @@ Description: VNC server to allow remote access to an existing X session
 
 Package: xapp-sn-watcher
 Architecture: amd64
-Version: 3.2.2-1
+Version: 3.2.2-2
 Priority: optional
 Section: x11
 Source: xapp
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 131
-Depends: default-dbus-session-bus | dbus-session-bus, xapps-common (>= 3.2.2-1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libxapp1 (>= 2.4.0)
+Depends: default-dbus-session-bus | dbus-session-bus, xapps-common (>= 3.2.2-2), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libxapp1 (>= 2.4.0)
 Suggests: mate-xapp-status-applet
 Breaks: libxapp1 (<< 2.2.6-1~), xapp (<< 2.4.2-1~), xapps-common (<< 2.4.2-1~)
 Replaces: libxapp1 (<< 2.2.6-1~), xapp (<< 2.4.2-1~), xapps-common (<< 2.4.2-1~)
-Filename: ./xapp-sn-watcher_3.2.2-1_amd64.deb
-Size: 30840
-MD5sum: 34db75507ab216acca9ec49bccb8d17b
-SHA1: 9ecb3f72010c32d17624f63c600238c6a9382379
-SHA256: 8ea3f34002a606e48ca49777211b05d1ad92788e37cbd7e7e7f6e7804c0f5dd1
-SHA512: 833b2bbae6d832981912dce9622296a8a8464f629cd26e7b59d56caa0b822cf6ad6c52278be2129740fdfafe03630fcfdc7b3b7fd552e7814a0eaf5daff2562d
+Filename: ./xapp-sn-watcher_3.2.2-2_amd64.deb
+Size: 31116
+MD5sum: 653d7c110808c851de78f440e072bb0a
+SHA1: 1b3be94d5ca539070f00f27409e705885ed89514
+SHA256: 61550a8a228e01cdb1bc589377dd6a1f11ec49f6816ce6ef3941b67855e9fb9e
+SHA512: 233bb24c78020ff42c882f4e1414c9d17a3c29a4e5717acdcf699aa86bacf6ce7a9c04b71dcc44126b5bada05bec29503cb298f82b533ae349f9e0301e6d7930
 Homepage: https://github.com/linuxmint/xapp
 Description: D-Bus session bus service to support the XApp library
  Xapp provides components which are common to multiple desktop environments
@@ -69723,7 +69723,7 @@ Description: Set of symbolic icons for GTK applications
 
 Package: xapps-common
 Architecture: all
-Version: 3.2.2-1
+Version: 3.2.2-2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
@@ -69733,12 +69733,12 @@ Installed-Size: 584
 Depends: python3, python3-gi, xapp-symbolic-icons, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
 Recommends: inxi, netcat
 Breaks: cinnamon (<< 4.0)
-Filename: ./xapps-common_3.2.2-1_all.deb
-Size: 55672
-MD5sum: 5d80c29b80740dbf35e34e19e32aa66d
-SHA1: 066ea6eba7138204ad12f28fd417a0fd6c42e1c4
-SHA256: 5564882b3f7ad823f59aa47fb244fb47e5b055e2fd083cb68746c6aedd32b4cb
-SHA512: fb1fd93d85d1cd99aab991fe9aa4e3bb17da9fafaed6cafddf3c8a45aeac38264fb464153b89c0c4335d2ed3b74c10cc300e28553d45b0319ce774eef964f5c5
+Filename: ./xapps-common_3.2.2-2_all.deb
+Size: 55792
+MD5sum: cdb8569c3edc1efc9cbf6c949a00d23c
+SHA1: d71e4b90fc73aa3308a9b2d9d83e8be076507078
+SHA256: 7b23c7ae86f85916895d287893c5b1693ae7ce2ca3ed8a00c1d615aa00e2023e
+SHA512: df10c1df09daeb34ca80b6415a57c62f9b4e57f6193c64fc85f7170d018bc287fb5911fbeadcf0a57d6168a2505215cb8e5e4e15d2e38697c2d8cc7dd375fff2
 Homepage: https://github.com/linuxmint/xapp
 Description: Files that are common across Xapp desktop applications
  Xapp provides components which are common to multiple desktop environments
