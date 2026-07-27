@@ -3376,21 +3376,21 @@ Description: Firebird command line utilities
 
 Package: firefox-esr
 Architecture: amd64
-Version: 140.12.0esr-1
+Version: 140.13.0esr-2
 Priority: optional
 Section: web
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 265874
+Installed-Size: 266258
 Provides: gnome-www-browser, www-browser
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
-Filename: ./firefox-esr_140.12.0esr-1_amd64.deb
-Size: 71121140
-MD5sum: 7f6ab814e1bdb7c362374ae31c445bae
-SHA1: d5510e9938854dcc27a3e6705778b34065373de5
-SHA256: f899191e79575d0d338e2e758871c4857e194a3284c1695f6120107c0058359d
-SHA512: 7f4313e18ff08511e7ac2475a50d9947fee37e2979cf30816d2b5b3b40e7b11f57f2796691254bd7e6fb8b46b7c25bf49404b87009d53423c8403f3610c841e0
+Filename: ./firefox-esr_140.13.0esr-2_amd64.deb
+Size: 71208368
+MD5sum: b3c381e8db72445a68a103ab10ae81f1
+SHA1: a3bee6b7da309c184095406187c37990b5a7d9b1
+SHA256: 6d27909e3cedef2ed56964ae1e0b9eda845f04569c0e56939b9df82a095e1220
+SHA512: 246a5aa14bf9b4a099613b9c11f5fb6789a81ca1bef6d009137d84f0e728f43a1629908db5c23690d9db4f60de6baab5a3147621acd6787a1ee23657f688bbb8
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -7992,21 +7992,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.5-1
+Version: 1.28.5-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 659
-Provides: gir1.2-cudagst-1.0 (= 1.28.5-1), gir1.2-gstanalytics-1.0 (= 1.28.5-1), gir1.2-gstbadaudio-1.0 (= 1.28.5-1), gir1.2-gstcodecparsers-1.0 (= 1.28.5-1), gir1.2-gstcodecs-1.0 (= 1.28.5-1), gir1.2-gstcuda-1.0 (= 1.28.5-1), gir1.2-gstdxva-1.0 (= 1.28.5-1), gir1.2-gsthip-1.0 (= 1.28.5-1), gir1.2-gsthipgl-1.0 (= 1.28.5-1), gir1.2-gstinsertbin-1.0 (= 1.28.5-1), gir1.2-gstmpegts-1.0 (= 1.28.5-1), gir1.2-gstmse-1.0 (= 1.28.5-1), gir1.2-gstplay-1.0 (= 1.28.5-1), gir1.2-gstplayer-1.0 (= 1.28.5-1), gir1.2-gsttranscoder-1.0 (= 1.28.5-1), gir1.2-gstva-1.0 (= 1.28.5-1), gir1.2-gstwebrtc-1.0 (= 1.28.5-1)
+Provides: gir1.2-cudagst-1.0 (= 1.28.5-2), gir1.2-gstanalytics-1.0 (= 1.28.5-2), gir1.2-gstbadaudio-1.0 (= 1.28.5-2), gir1.2-gstcodecparsers-1.0 (= 1.28.5-2), gir1.2-gstcodecs-1.0 (= 1.28.5-2), gir1.2-gstcuda-1.0 (= 1.28.5-2), gir1.2-gstdxva-1.0 (= 1.28.5-2), gir1.2-gsthip-1.0 (= 1.28.5-2), gir1.2-gsthipgl-1.0 (= 1.28.5-2), gir1.2-gstinsertbin-1.0 (= 1.28.5-2), gir1.2-gstmpegts-1.0 (= 1.28.5-2), gir1.2-gstmse-1.0 (= 1.28.5-2), gir1.2-gstplay-1.0 (= 1.28.5-2), gir1.2-gstplayer-1.0 (= 1.28.5-2), gir1.2-gsttranscoder-1.0 (= 1.28.5-2), gir1.2-gstva-1.0 (= 1.28.5-2), gir1.2-gstwebrtc-1.0 (= 1.28.5-2)
 Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.5)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.5-1_amd64.deb
-Size: 252972
-MD5sum: b28c68ec4f6d44010b9d84133cee0576
-SHA1: aedf5d63b89c09e2c425d3638fee22257311db6f
-SHA256: 89461b565deb2d875999bf95e43e53a4217ec63fb1513844af22ab59f061b670
-SHA512: e75d159ce24a1ba961f09ac511354772ee63b11f772b8fc8b5f4b583d5806354560ee620f02b88a1f521dc35137f1ebbc11c58c57e3fcbedfb079f52fbfb0230
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.5-2_amd64.deb
+Size: 252996
+MD5sum: f14baab667d8671aa198c3ec694ceb15
+SHA1: ee9bd443d643e1cdfad3ee92eb65a29b40ad26e9
+SHA256: 3d4750e02a4bba331a1590f497fef2ecb25834a55e4ea98d2e25e8196b6668cd
+SHA512: 81d740158ee341684d1525b02b411c928287053004e3743286de1db7b7a3f5a2de289eb1ae550461620db417568d42fb2d6a429df6a1d77cde8f5bae3798c376
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -9850,18 +9850,18 @@ Description: Simple GNOME app to access remote computers
 
 Package: gnome-contacts
 Architecture: amd64
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 2429
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libebook-contacts-1.2-4t64 (>= 3.16.2), libedataserver-1.2-27t64 (>= 3.17), libfolks-eds26 (>= 0.7.3), libfolks26 (>= 0.11.1), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.20.0), libglib2.0-0t64 (>= 2.80.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgoa-1.0-0b (>= 3.5.90), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.15.3), libpango-1.0-0 (>= 1.14.0), libportal-gtk4-1 (>= 0.7), libportal1 (>= 0.7), libqrencode4 (>= 3.2.0)
-Filename: ./gnome-contacts_50.0-1_amd64.deb
-Size: 441240
-MD5sum: 16861ecfb672cf4b9adf998d9b49725f
-SHA1: 5ee816355a5d427aa0be78bfdd4cb2b8d4469a67
-SHA256: b4ba3a18eb1f9b125a63ee4da983cbce2633d20398f11f13058d1f4941582e0f
-SHA512: fd43e7f4e41437eecf37133efb65d49695c60337da0afe9c2e3cd9ab808bc56679f63a22182166aaf63bead2bf16e8441ad9a1083f0cf036c0fb40171486f73b
+Filename: ./gnome-contacts_50.0-2_amd64.deb
+Size: 437968
+MD5sum: 222d55123bfbc4d05d01a99320d84cb3
+SHA1: 4b457a7a12897a45589569f5d456622e9e4525ff
+SHA256: 79b959513807c87724cc69fd851a540052b9a3f5bc47772e7236ac3959975e9b
+SHA512: aa8f99e7e99ce63bb92aac8fc6a091628b3d6c6ce2c6af33268059a20d02d19a815275779e300173d52af43693da3299ac9987ff1b50b25df13966e4fbcf9d8a
 Homepage: https://apps.gnome.org/Contacts/
 Description: Contacts manager for GNOME
  GNOME Contacts is a standalone application to view and manage contacts
@@ -12072,25 +12072,25 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.5-1
+Version: 1.28.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12039
+Installed-Size: 12314
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.5-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.5), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.5-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.6), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.16.0), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.5-1_amd64.deb
-Size: 3369136
-MD5sum: 8a82faa61684ac5cb2e4b5bac3f5e629
-SHA1: 4a7500ec0fd16f040227f4cda6643faaf8923fe6
-SHA256: 694f40d26606ba89e12e8c5062953c927c86aef7ec20572e91801d033df53454
-SHA512: 0277ce73144e48ab89c2327682a999a4f824eded110f74c50f7857374587c7202ef1af240859b4ffe1572f2650c6be43d9c62d3f51103d9a45ca7d21dca13fc0
+Filename: ./gstreamer1.0-plugins-bad_1.28.5-2_amd64.deb
+Size: 3450608
+MD5sum: 945a173c55f95d29c4a0e815ac957edb
+SHA1: 6095135c89cd925746eec528b1244512583f482b
+SHA256: 340e5d7b7db98c071f524f3a950c9471ad05b56b9d008856ea3615c9caf16a5c
+SHA512: f72a2f116ca69b418053968206386cf8664b31da915940f6ee86dc3fd454ecd43b78d92f00bfa1ed7c71cf95ea55bd016bae9a0d797410d7b2804acbacc1585d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -23318,7 +23318,7 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.5-1
+Version: 1.28.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -23327,12 +23327,12 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debia
 Installed-Size: 3093
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.5-1_amd64.deb
-Size: 994828
-MD5sum: 64c855306ac213b49b98fef034a11ca3
-SHA1: aeaaa48c5d8c90c1dc52a2d937f550dedbc584bd
-SHA256: c233ba459fac332d7d14d8062f1d417e922c1d9f78f4b91d8e3485dd91b2ffa6
-SHA512: 2a0f60c4a7da0e022e69024b3052c93af01aeffb99b1532d7f3c117b2ea47e12d28baafe81e6dc38b8b77b35cfd2a60290da42876faf1cb1baefb3845756e713
+Filename: ./libgstreamer-plugins-bad1.0-0_1.28.5-2_amd64.deb
+Size: 995344
+MD5sum: cdb537f2f4a218bd44bf4a21c9acb00c
+SHA1: 13f367f037152ad9062cc8e66cb05dd2202c6c25
+SHA256: d6d62c5093f9316deccb08e226bfadc7b0e742b7aa3bd5ab7fdc30f964df7585
+SHA512: 04311b8d1b0d620d0034448af004229151dd109282dc7c7feb7b17eeff3d987700e85563b3a596497430cad41e398501a73ff4fdf4aa9efcf3eda607f5e00d67
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -32856,21 +32856,21 @@ Description: utilities to configure the MATE desktop (window settings library)
 
 Package: libmatedict6
 Architecture: amd64
-Version: 1.26.1-1+b3
+Version: 1.26.1-2
 Priority: optional
 Section: libs
-Source: mate-utils (1.26.1-1)
+Source: mate-utils
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 200
-Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.75.3), libgtk-3-0t64 (>= 3.19.12), libpango-1.0-0 (>= 1.14.0)
+Installed-Size: 199
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.19.12), libpango-1.0-0 (>= 1.14.0)
 Breaks: mate-utils (<< 1.8.0)
 Replaces: mate-utils (<< 1.8.0)
-Filename: ./libmatedict6_1.26.1-1+b3_amd64.deb
-Size: 53084
-MD5sum: 80323f7b0836ed705b4afd9c63cb13f5
-SHA1: 2d349e0e1ec10172ca4925a277caf1d7d2e6030d
-SHA256: a54ddcb925c82d698b2601f658560aa37e4d9f0989659f788563615bb71c8a97
-SHA512: 3914a4bbd0a23d996c63055b6e7bd02a07fa8557fa90f3fb29d4937f994dd6cf4e1fbb021df9cd6e06d6021006fd8aa46e704e29400c23a7c84a3982047d5fa0
+Filename: ./libmatedict6_1.26.1-2_amd64.deb
+Size: 52724
+MD5sum: 250caa6ac10880c74600b2fa19c6be3f
+SHA1: 96a716e229f39b7c20e005c5f5172fe36bb6f176
+SHA256: 1299c0af4b11cbe5dc9110dd2c43129f4375e5cf8727b2886b681a44770fdfeb
+SHA512: 1ce29f55e13a70e97eb5d3d86f4c94c9d48d21012924938002f1765edde271ab7e439a8b91bd05e2bb6c0a32c4f5fca2ae1b5d2fba35a11165c7e067a56b17de
 Homepage: http://www.mate-desktop.org/
 Description: MATE desktop utilities (matedict library)
  The MATE dictionary is a program which can look up the definition of words
@@ -33135,7 +33135,7 @@ Description: library for the Metacity window manager
 
 Package: libmimalloc3
 Architecture: amd64
-Version: 3.4.1+ds-1
+Version: 3.4.3+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -33145,12 +33145,12 @@ Installed-Size: 221
 Depends: libc6 (>= 2.34)
 Breaks: libmimalloc2.0 (<< 3.0.1+ds-2)
 Replaces: libmimalloc2.0 (<< 3.0.1+ds-2)
-Filename: ./libmimalloc3_3.4.1+ds-1_amd64.deb
-Size: 71312
-MD5sum: 4fb6d2c1c6c76ed754fb8ee53cee9286
-SHA1: e434c2cffc7d408eb109b4421c730fd938f655a4
-SHA256: aec42bcd51d2919128ab958dfd6ae8d609552f6fb7e5817d6c13285a5c29e851
-SHA512: e4d92c81f1e73404548d05769472986a6b334f5894aa4f239c1f2212b5ca5627e98850036f395002b1741b7e2ec2ee4153a32242331cb4608f8a8a6c1e6d1e84
+Filename: ./libmimalloc3_3.4.3+ds-1_amd64.deb
+Size: 71276
+MD5sum: 63c8e0356d84fb8205890c9e0ce02efd
+SHA1: 396cea75ac6f1a7f9a464890114c8f7d03bebb07
+SHA256: 33244919c862d5c1283f382a9fa72cc010e7f910c7aa26acc0b0253e00ce0b85
+SHA512: f7fc2e292cc97cb63eda85600fe3b7cd1d3e11854d542e222b46fb3da85ac8c02ca26eaedfb030780a2682d3f47f04480c39bcbda8e04c96f136918ff8fad638
 Homepage: https://github.com/microsoft/mimalloc
 Description: compact general purpose allocator with excellent performance
  This is a general purpose allocator with excellent performance characteristics.
@@ -33652,7 +33652,7 @@ Description: portable and fully compliant implementation of NAT-PMP
 
 Package: libnautilus-extension4
 Architecture: amd64
-Version: 50.2.2-1
+Version: 50.2.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -33660,12 +33660,12 @@ Source: nautilus
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 64
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.84.0)
-Filename: ./libnautilus-extension4_50.2.2-1_amd64.deb
-Size: 18256
-MD5sum: 4ed9dcb28bcfe98ff4c2ba08f1342734
-SHA1: aed069bb13ebf672d598ffbd41016327eac97c1a
-SHA256: 4e067520dbea1308fca9e808ac6020bda8c361e687bb5691be8c8e9f0b27322c
-SHA512: 16f099d5f8b8237ed8873cf46258a8717001c8a655ce4ba1cf763c53b66a7f217da9e135d5b7c5f6122d52140cf729f0af83ad80ffc876c805e917da23d047bb
+Filename: ./libnautilus-extension4_50.2.2-2_amd64.deb
+Size: 18328
+MD5sum: fab7a3f572cf013c861efca0c5342b8f
+SHA1: f70c99c17d9ab807a044e776c1114dedf4de905a
+SHA256: f13ce5db8486a01c73fc1c2bd65506978caf2e6e25d1f5c0b3ee74d343906fd5
+SHA512: 691f9162930b6c8b6ab6d93c20833c727adb36845264b2b3e7514738bdfe9c66c580da8eb0aa660a8c04ec78f6131f9654e2c9f4063a465a83440049c639b52f
 Homepage: https://apps.gnome.org/Nautilus/
 Description: libraries for nautilus components - runtime version
  Nautilus is the official file manager and graphical shell for the
@@ -34071,19 +34071,19 @@ Description: nss module providing dynamic user and group name resolution
 
 Package: libnss3-tools
 Architecture: amd64
-Version: 2:3.124-1
+Version: 2:3.126-1
 Priority: optional
 Section: admin
 Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 5177
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libnss3 (>= 2:3.117), zlib1g (>= 1:1.2.0)
-Filename: ./libnss3-tools_2%3a3.124-1_amd64.deb
-Size: 1109528
-MD5sum: 07123494b982087793bef07794cbafc8
-SHA1: 46c944ca1e2c2650714b5686181118b1a09ab042
-SHA256: 86f5b0c85d266166249a7f99f90273f7198a8bf3793b93783f7b8ae5a6dd9741
-SHA512: bc5730a685ebfda38febb8674f165e8366c75e38e2fd55fe7ff469af6ca57b8be9bb63b9425dea19032beafd264e0bb048d61035ab4c52d2778a8dfc98d59e3b
+Filename: ./libnss3-tools_2%3a3.126-1_amd64.deb
+Size: 1108740
+MD5sum: 33642e7c4eebeb38777f09c5c02bf9f9
+SHA1: d9e47790fef0aa69548d6ebd7dfc923b171b1527
+SHA256: dd53e3d48270a7902ada71734192e2775139aa8af3564a1bf979473b103039cd
+SHA512: 40e70d069989195137b28d0183e904fed6c3afe2a6b4f445e9f2b82cf98e916c26ed56842479c7afdb1aba219f9fbe5aba624552d8e00ac12f156851e237f600
 Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description: Network Security Service tools
  This is a set of tools on top of the Network Security Service libraries.
@@ -34100,20 +34100,20 @@ Description: Network Security Service tools
 
 Package: libnss3
 Architecture: amd64
-Version: 2:3.124-1
+Version: 2:3.126-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 4551
+Installed-Size: 4576
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libsqlite3-0 (>= 3.5.9)
-Filename: ./libnss3_2%3a3.124-1_amd64.deb
-Size: 1421848
-MD5sum: 55d4f8a0c5f7c788f034ca92321754f1
-SHA1: 2642e0e8e3fc8d4c3e43a7fa8843f8509dc4727b
-SHA256: 3fe7f3bc206f0c8e786c6bfef594073a8e44a56ddc586043bb56d1b36d44d7e6
-SHA512: b34c6360992fd00e9a44b2a1f4d9e619878a6229f44804b627348b40a6a9b4eecdb670a633f5e9d75482b62dce15547614b61f1271b2700abe8a4f080b404ae7
+Filename: ./libnss3_2%3a3.126-1_amd64.deb
+Size: 1429496
+MD5sum: 432478cecef86be8704e2e0c2b5a4a33
+SHA1: b9130088aa91e16434ac6598fd6e591152990993
+SHA256: f985b3f4e178fb949157e3c40696bbbb02779d5c3dc4f0aa91fa0d28b716b61b
+SHA512: a244cfae9b742698cc1e485e6496ada56ab61a5829f85d4d8d91f49c1aa28b9f171986431c07e0e452cf75a99ec112b37ac9ebbcc53cbeb5f8a6b95a4d18458e
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 Description: Network Security Service libraries
  This is a set of libraries designed to support cross-platform development
@@ -50675,19 +50675,19 @@ Description: simple display manager
 
 Package: lightsoff
 Architecture: amd64
-Version: 1:50.0-1
+Version: 1:50.0-2
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 1643
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.6.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.40.0), libgtk-4-1 (>= 4.14)
 Recommends: yelp
-Filename: ./lightsoff_1%3a50.0-1_amd64.deb
-Size: 572924
-MD5sum: 0f4b5c4658895f4b286e4c6389395aa7
-SHA1: 6ecaf7f864bb8fa5c7dabfa768451fc79ebb3aa5
-SHA256: 9b317cdfa9ed0f6594923f36ad154d1eff9ba1360ef5f4c15cc9528c3ccbf8bf
-SHA512: 397d195a725523f267ce146e75b99c8a4c64036a8de5193b49fa0a2e7b9bb89d8df4f562a403993650b6f7b2fcb10ce3ed2aa95512607c5c08aa19c07f5f09cc
+Filename: ./lightsoff_1%3a50.0-2_amd64.deb
+Size: 572948
+MD5sum: 13454420805504079d2a460b73c3844e
+SHA1: 7e51771e6e90171feac61d2b110a501b0abf485a
+SHA256: 2afbc36afad5cf89539a05a7dbcdc21d08d79b79a5f3f8e43b6ae61846b58612
+SHA512: 8f59fec44c9c5b5a5773be2776edac58a58c1f890f5d8a052d2a3b94b08e87b2028dc9eb9672800f984564c74fa0ac5532a49fecd6999464812c292b2fa47ad7
 Homepage: https://wiki.gnome.org/Apps/Lightsoff
 Description: Light puzzle game
  Puzzle where all lights have to be switched off.
@@ -53897,21 +53897,21 @@ Description: User level public file sharing via WebDAV
 
 Package: mate-utils-common
 Architecture: all
-Version: 1.26.1-1
+Version: 1.26.1-2
 Priority: optional
 Section: x11
 Source: mate-utils
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 26092
+Installed-Size: 27768
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: mate-utils (<< 1.9.0)
 Replaces: mate-utils (<< 1.9.0)
-Filename: ./mate-utils-common_1.26.1-1_all.deb
-Size: 6587208
-MD5sum: 536309171ed53d5c57ee1f3fe5ea4aad
-SHA1: f5726862ca62fe173ec4440d890f4d8cab04b350
-SHA256: c0db1bfe74eaa09921805e88cb3aee7040d8032a7d259cd27d3c93acebc44f1d
-SHA512: 723cbe6dd77bc06597b6b4b852749406989f45320f21465ed4ca551cfdf3ad868e3f99c5c75c2bf430380100c1505e2d3687ee631c0e912ace3be846efabac17
+Filename: ./mate-utils-common_1.26.1-2_all.deb
+Size: 6661052
+MD5sum: 56197c29e30973ff221d28ce4237e402
+SHA1: 9b89b846cc847ed9b8384244716cb9a7f3aac5c7
+SHA256: 2b7601f0434aaf7b1bbc9403c0caadf7e53b0ce8dbf737a64ca7c2b30e764914
+SHA512: 511a6a59fbfda07f7b355011d5ae2d79523bd67c5ae93f365f90ed133dcd8f864e0de93584b3350a6c365f5a6e5a372143f46a7696e8c4b11c735e8c12a7dca1
 Homepage: http://www.mate-desktop.org/
 Description: MATE desktop utilities (common files)
  This package contains all the tools bundled as MATE utilities:
@@ -53927,19 +53927,18 @@ Description: MATE desktop utilities (common files)
 
 Package: mate-utils
 Architecture: amd64
-Version: 1.26.1-1+b3
+Version: 1.26.1-2
 Priority: optional
 Section: x11
-Source: mate-utils (1.26.1-1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 814
-Depends: libmatedict6 (= 1.26.1-1+b3), mate-desktop-common, mate-utils-common (>= 1.26.1-1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.75.3), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libmate-panel-applet-4-1 (>= 1.18), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libudisks2-0 (>= 2.0.0), libx11-6, libxext6, zlib1g (>= 1:1.1.4)
-Filename: ./mate-utils_1.26.1-1+b3_amd64.deb
-Size: 217860
-MD5sum: 3cd43bc9d21302d4ffa5d733879690a4
-SHA1: 34f7231cc723fde3a85ebafdd3a1e9681f573551
-SHA256: 193a4628ea5d2b88bb29260e6771edf56dabe498db81b37bd93498c607b43f9a
-SHA512: 97cbdc0531450c5277bfa59f8a2e438f1024e57cfe6a0ceccc24a7b4339404b9bf954882f3be7c81ab281f4f500dfcac36b1d7dca55411ebd4c0169edd437583
+Installed-Size: 809
+Depends: libmatedict6 (= 1.26.1-2), mate-desktop-common, mate-utils-common (>= 1.26.1-2), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libmate-panel-applet-4-1 (>= 1.18), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), libudisks2-0 (>= 2.0.0), libx11-6, libxext6, zlib1g (>= 1:1.1.4)
+Filename: ./mate-utils_1.26.1-2_amd64.deb
+Size: 216960
+MD5sum: 39ee2517a85c086641ea8474aefb9a51
+SHA1: c9d7c0e37c8f78a85b4b069d901d4515ad93616f
+SHA256: 8ffbb2b5dfc5bd4c62c4d1739c96c0db8f2aa157e0a1ee2d32af1f9d1b20d1a7
+SHA512: 99281c619784be43df5c4f13cf0008b88391bb371b7357d3ea761662011c3dea2b6c33366a06accd29b19c3b03f9aebf1bcac728e2abc42ce110c90082ee17f5
 Homepage: http://www.mate-desktop.org/
 Description: MATE desktop utilities
  This package contains all the tools bundled as MATE utilities:
@@ -54390,7 +54389,7 @@ Description: English (USA) Thesaurus for LibreOffice
 
 Package: nautilus-data
 Architecture: all
-Version: 50.2.2-1
+Version: 50.2.2-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
@@ -54398,12 +54397,12 @@ Source: nautilus
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12670
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./nautilus-data_50.2.2-1_all.deb
-Size: 1756060
-MD5sum: d3b60d4187c58b9c65ebc33f2e1baf83
-SHA1: bbe998eb6eee95c2e5dfc554a43d728bbefa37be
-SHA256: 505ed36934cf8cd4987024dee4f8f1091ac12153d7e480c93232110e91d42e0b
-SHA512: 268f1b7baca63f1c5785bed34fd766c440c718ec3f8c120f907be86828a5bf5783309319b69ea7a5a45d0b44430da76fee9c65486744f54a807cc03b270baab3
+Filename: ./nautilus-data_50.2.2-2_all.deb
+Size: 1755372
+MD5sum: 9a814c829d0813d140d58d752fae42a7
+SHA1: 476f9c6ba2d99fc02341207078efcfa9c1535279
+SHA256: 2cb37def5696b2b2ee3337bc65bf1f738579be76de355459fc54bd822d816338
+SHA512: e4fedabc26482a982c47f587063326ee6c3548cc22cff6cb39491f31f1b40fcd05b11c03461d5617880c8ad1e987622e8cc1afa312572b349ce6af339988c8b6
 Homepage: https://apps.gnome.org/Nautilus/
 Description: data files for nautilus
  Nautilus is the official file manager and graphical shell for the
@@ -54414,21 +54413,21 @@ Description: data files for nautilus
 
 Package: nautilus
 Architecture: amd64
-Version: 50.2.2-1
+Version: 50.2.2-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1725
-Depends: desktop-file-utils, eject, gsettings-desktop-schemas, gvfs, gvfs-backends, libglib2.0-data, libnautilus-extension4 (= 50.2.2-1), localsearch, nautilus-data (= 50.2.2-1), shared-mime-info, xdg-user-dirs-gtk, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcloudproviders0 (>= 0.2.5), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgexiv2-0.16-4 (>= 0.16.0), libglib2.0-0t64 (>= 2.84.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgnome-autoar-0-0 (>= 0.4.4), libgnome-desktop-4-2t64 (>= 42~beta), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.20.0), libicu78 (>= 78.1-1~), libpango-1.0-0 (>= 1.37.5), libportal-gtk4-1 (>= 0.7), libportal1 (>= 0.7), libselinux1 (>= 3.1~), libtinysparql-3.0-0 (>= 3.8.1), libwayland-client0 (>= 1.20.0), libx11-6
+Installed-Size: 1724
+Depends: desktop-file-utils, eject, gsettings-desktop-schemas, gvfs, gvfs-backends, libglib2.0-data, libnautilus-extension4 (= 50.2.2-2), localsearch, nautilus-data (= 50.2.2-2), shared-mime-info, xdg-user-dirs-gtk, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcloudproviders0 (>= 0.2.5), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgexiv2-0.16-4 (>= 0.16.0), libglib2.0-0t64 (>= 2.84.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgnome-autoar-0-0 (>= 0.4.4), libgnome-desktop-4-2t64 (>= 42~beta), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-4-1 (>= 4.20.0), libicu78 (>= 78.1-1~), libpango-1.0-0 (>= 1.37.5), libportal-gtk4-1 (>= 0.7), libportal1 (>= 0.7), libselinux1 (>= 3.1~), libtinysparql-3.0-0 (>= 3.8.1), libwayland-client0 (>= 1.20.0), libx11-6
 Recommends: gnome-sushi, libgdk-pixbuf2.0-bin, librsvg2-common, xdg-desktop-portal-gnome
 Breaks: nautilus-extension-gnome-terminal (<< 3.56.0-1ubuntu2)
 Replaces: nautilus-extension-gnome-terminal (<< 3.56.0-1ubuntu2)
-Filename: ./nautilus_50.2.2-1_amd64.deb
-Size: 561256
-MD5sum: 6786d77addd627c25070eaf68a461cca
-SHA1: f6b616d47070a83c6164add54f2f4288bfd49b60
-SHA256: 630d3275f299e0d9b535de37d37a7857c30e7c17b9a53ae9a10fa755cb885981
-SHA512: 3cc2591f3553a5f85b97b689da19fde8c85bbc7dba2b6dc4a15aab6142980406edb9fa34abd8d6006d59ff560f24f3566e7fdd7a15f1cc37057a060d6d580734
+Filename: ./nautilus_50.2.2-2_amd64.deb
+Size: 561028
+MD5sum: eba105150213d0d7380d880e84edaa36
+SHA1: c8f76f1b656450c22b851ab4eddd8440c3fadbb5
+SHA256: a2a7869573a914cc1eab5a00bb3b1eef7c7dc79d60c390a36450c4afd80f6309
+SHA512: 2db0e0b855c6b2724cfacb0dc2d3ad1cc325db4e3bec19a3b62dd624903afec6f632e23dc9079e3408aeafc2106afd4b67f387aaf4f3eb6413af002ae9995104
 Homepage: https://apps.gnome.org/Nautilus/
 Description: file manager and graphical shell for GNOME
  Nautilus is the official file manager for the GNOME desktop. It allows
@@ -60922,18 +60921,18 @@ Description: User tools for libqtxdg
 
 Package: quadrapassel
 Architecture: amd64
-Version: 1:50.2-1
+Version: 1:50.2-2
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1393
+Installed-Size: 1392
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.13.8), libmanette-0.2-0 (>= 0.1.2), libopenal1 (>= 1.14), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsndfile1 (>= 1.0.20)
-Filename: ./quadrapassel_1%3a50.2-1_amd64.deb
-Size: 254268
-MD5sum: 47fd34676cbe9e42fdb71392930013d7
-SHA1: 74db5e292466e428735878d8c09bfa2c24d1f1bc
-SHA256: 754b1a979171fbfaeb738c86db9d6d5da70ca02a65a622214ec397592e2b0fbb
-SHA512: b2c5e04d0f53bff0aaa89b3533646b7169aec81e6dcf91229960836b7fe9940e1f5f2b0423284a27c84c879bed553090d049762aea8f76bc40d72773f73af126
+Filename: ./quadrapassel_1%3a50.2-2_amd64.deb
+Size: 254192
+MD5sum: 76dafd3028f99055bcdb3a55c2f7c2cb
+SHA1: 8213f9123d7fdd4bff67e75804b4667caacb5f55
+SHA256: 83283594c6bd8644c27582738c5874118b7ade7af0d7eca991bdc94f1187c708
+SHA512: 26fbaf6c720ad75a359849a9df2e8bf7fc84203307dea3a371268d030606dbd137ec89a9a4118f93830da53024f91e12dcf85c52c9c803d62602dc9633cbe252
 Homepage: https://wiki.gnome.org/Apps/Quadrapassel
 Description: popular Russian game, similar to Tetris
  Quadrapassel comes from the classic falling-block game, Tetris. The
