@@ -1619,21 +1619,21 @@ Description: web browser
 
 Package: cinnamon-common
 Architecture: all
-Version: 6.6.8-1
+Version: 6.6.9-1
 Priority: optional
 Section: x11
 Source: cinnamon
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 9209
-Depends: gettext, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-meta-muffin-0.0 (>= 6.6~), libglib2.0-bin, python3-xapp, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
+Installed-Size: 9212
+Depends: gettext, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-meta-muffin-0.0 (>= 6.6~), libglib2.0-bin, procps, python3-xapp, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
 Breaks: cinnamon (<< 6.0.4-2~)
 Replaces: cinnamon (<< 6.0.4-2~)
-Filename: ./cinnamon-common_6.6.8-1_all.deb
-Size: 1534560
-MD5sum: cb747942ace1ba1e1954cfda47a56fc3
-SHA1: 770c25eb02b46dc5da66945a0a3da7ca4daef601
-SHA256: 56ab31c9e033499dada92e0a79fab2673209fb625d319352409ad56a2623af74
-SHA512: 78e6ec0f5649abe979e366e21de12f68cd8e78878f0060e60133d68a953f1d886cb6b197bea2786fe5c074a9e3e7e27c25f3a722270098e312fb8cab1b04381d
+Filename: ./cinnamon-common_6.6.9-1_all.deb
+Size: 1535232
+MD5sum: 08a3642d08bc7af985c31b5a733d3bfd
+SHA1: bc7d856dcd9c65040a85012410faf176481db1f4
+SHA256: d0fa3bdb637c8f7bee71d6dbc68d5439f65d4a65f5d28bf555fcdac8950ee0f6
+SHA512: ef159b08213938afdd1a412511502313eb91a39b4c40774614c512ebb2023407a730363565b5aa86c5596af466846e2d985b60ab81dcbf20197ae139863e31f2
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop (Common data files)
  Cinnamon is a desktop environment which provides advanced innovative
@@ -1893,23 +1893,23 @@ Description: daemon handling the Cinnamon session settings
 
 Package: cinnamon
 Architecture: amd64
-Version: 6.6.8-1
+Version: 6.6.9-1
 Priority: optional
 Section: x11
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 1519
+Installed-Size: 1520
 Provides: notification-daemon, polkit-1-auth-agent, x-window-manager
-Depends: cinnamon-common (= 6.6.8-1), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), cups-pk-helper, dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gkbd-capplet, gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pyinotify, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
+Depends: cinnamon-common (= 6.6.9-1), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), cups-pk-helper, dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, tecla, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
 Recommends: blueman, cinnamon-core, gnome-online-accounts-gtk, gnome-terminal, ibus, inxi, libcanberra-pulse, libxapp-gtk3-module, metacity-common, python3-babel, touchegg, xapp-sn-watcher, xdg-desktop-portal-gtk, xdg-desktop-portal-xapp
 Suggests: cinnamon-desktop-environment, cinnamon-doc, python3-opencv
 Breaks: cinnamon-common (<< 6.0.4-2~), cinnamon-core (<< 5.4~)
 Replaces: cinnamon-common (<< 6.0.4-2~)
-Filename: ./cinnamon_6.6.8-1_amd64.deb
-Size: 416188
-MD5sum: 36b0506f239b7450df035776fff9c576
-SHA1: b87480a2dbb37bbd61c4ab4d66b84c79cd547898
-SHA256: bd8e8566773a1322bad576ac011bbcbc2913cf2658b7d5673745f51efd3b1cc5
-SHA512: 0fa73b1f4e1cc718bb12ef45210b1871fab366aad8374c50f7f0346c0ab5e69f5ff0b68597f87588d4f2d9910bae4102051ce34b5e05d48e0233516b6d2f45c2
+Filename: ./cinnamon_6.6.9-1_amd64.deb
+Size: 416720
+MD5sum: cb59b400a46d7170ff3fb0e417efc0ec
+SHA1: bc0f4bd1e3cfb05bce6ce55d0e722a29be848823
+SHA256: f5cbc5bb1440af6897754d473cfd04156e376c76d619dbaec997835f2a3042db
+SHA512: 403e09f4afb26ffcb59238b06c6af57574af44066ff804bc7a7ef4518869f82f9ffe4d207897e23c27fe2bed346a53ff9b48dd210ff812dc718805e434c7b746
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop
  Cinnamon is a desktop environment which provides advanced innovative
@@ -57834,7 +57834,7 @@ Description: Run-time type checker for Python
 
 Package: python3-typing-extensions
 Architecture: all
-Version: 4.16.0-3
+Version: 4.16.0-4
 Multi-Arch: foreign
 Priority: optional
 Section: python
@@ -57842,13 +57842,13 @@ Source: python-typing-extensions
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 540
 Depends: python3:any
-Suggests: python-typing-extensions-doc (= 4.16.0-3)
-Filename: ./python3-typing-extensions_4.16.0-3_all.deb
-Size: 95120
-MD5sum: bd753a64138c4974443619d383bcc52e
-SHA1: 21f841959f25c2075b742b37e139baa792d8d9a7
-SHA256: 678817646be388de4f830f41b666fa51c1312958a1b396a7c79aa4f24b758c5c
-SHA512: 5d1ba328192daf3301cd60d264fcabc6ac6e7ec9140a1df6cd2850ecff39567a27e8b5a9839aa4a7b80ed561a2fbcfbe24629114017d399c63b534a492cf5a30
+Suggests: python-typing-extensions-doc (= 4.16.0-4)
+Filename: ./python3-typing-extensions_4.16.0-4_all.deb
+Size: 95184
+MD5sum: 81aaebced4e8320e1bb592e258ddaee3
+SHA1: ff83045def412d46300595eea7734477c986de5f
+SHA256: 71f8c52a9e94fc342f6082dbe3100e4609ab2eccd443348e738b2c51a9dc9246
+SHA512: 8aae9284f6c2443fcc0c520a67ef8fe1a7159cc0f3d625f756964d087a2686742c72b97ba1a8a78efbaa4978fd61d8b8e026f9abb25a49a4d61033a74ae2e0e7
 Homepage: https://typing-extensions.readthedocs.io/en/latest/
 Description: Backported and Experimental Type Hints for Python (Python3 version)
  The "typing_extensions" module serves two related purposes:
