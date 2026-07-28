@@ -1543,22 +1543,22 @@ Description: records CDs in Disk-At-Once (DAO) mode
 
 Package: chromium-common
 Architecture: amd64
-Version: 150.0.7871.124-1
+Version: 150.0.7871.181-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 67786
+Installed-Size: 67789
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
-Breaks: chromium (<< 150.0.7871.124-1)
-Replaces: chromium (<< 150.0.7871.124-1)
-Filename: ./chromium-common_150.0.7871.124-1_amd64.deb
-Size: 26657948
-MD5sum: ea4dfcc67f1fd5856ab3ee1d63898071
-SHA1: 03d9a17d782a229f7bb40024df2541e373f9f8d3
-SHA256: 9b6b5721d72c8d1f1a0c5daa0c1c103ebc10e14a1f15549995b2384c29a05c8a
-SHA512: 51bc416ea6f176a5cb4d3ec2d854071f89a46ddebc1741b92e5286558ee5c29b3271a18aab4e399746a0451a6460ee760e4176fcf663ffbd20f8cfcb89c2ce12
+Breaks: chromium (<< 150.0.7871.181-1)
+Replaces: chromium (<< 150.0.7871.181-1)
+Filename: ./chromium-common_150.0.7871.181-1_amd64.deb
+Size: 26675504
+MD5sum: 14a2bec96d26a2926f08f87c17f2a024
+SHA1: ff81036cfa9072fbde3c3a6924e93ed1bee79858
+SHA256: 260ca61a3ad3c986f40d92f7906e9a021326005dc6e1ebf0596a0f02eb7a1a37
+SHA512: 7f817a646100a8232b092f98f6fb5e77da0fbd252e964efc37d8125ead4be4c636d5ee0507126370cc84c3ed79a18402f9114ecd08aa595d547bf59a6ce396a9
 Homepage: http://www.chromium.org/Home
 Description: web browser - common resources used by the chromium packages
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1569,21 +1569,21 @@ Description: web browser - common resources used by the chromium packages
 
 Package: chromium-sandbox
 Architecture: amd64
-Version: 150.0.7871.124-1
+Version: 150.0.7871.181-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 358
+Installed-Size: 359
 Depends: libc6 (>= 2.38)
-Breaks: chromium (<< 150.0.7871.124-1)
-Replaces: chromium (<< 150.0.7871.124-1)
-Filename: ./chromium-sandbox_150.0.7871.124-1_amd64.deb
-Size: 99748
-MD5sum: 62d245a653237b93c15c503b74eb4681
-SHA1: 027dee13fb58b4097045e29a829a6b0e55088b63
-SHA256: af3e65f57822502bd85355c37c20c6158a544358db52d78f06b9dc24693a7ee8
-SHA512: e56cfd9d80d0752627b8681f0778986437d6df291de86948160da5ec9ff3d8f135ff0b0e6228ef22127389afc2451de3db3be7d3389f52b7b2e7315c0ee5271d
+Breaks: chromium (<< 150.0.7871.181-1)
+Replaces: chromium (<< 150.0.7871.181-1)
+Filename: ./chromium-sandbox_150.0.7871.181-1_amd64.deb
+Size: 99960
+MD5sum: 4cecc995399a77773c968e58f2d6dfaa
+SHA1: b5fe110975723cded22a2984cf8e52495ae133f4
+SHA256: eafb022d0708b3a1e67b1d567b9f1a345125e383c49576bced9c18b878148e29
+SHA512: 37b141cdc36c725390467696d2fe99c0462ec6d1cb68ed84e530255c0230b0836408afbe90e2d31a746c6734491f63fc23c6fb6221bbaa7ce10a8066bd74dc70
 Homepage: http://www.chromium.org/Home
 Description: web browser - setuid security sandbox for chromium
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1593,23 +1593,23 @@ Description: web browser - setuid security sandbox for chromium
 
 Package: chromium
 Architecture: amd64
-Version: 150.0.7871.124-1
+Version: 150.0.7871.181-1
 Priority: optional
 Section: web
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 307714
+Installed-Size: 307723
 Provides: gnome-www-browser, www-browser
-Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 150.0.7871.124-1)
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.42), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 150.0.7871.181-1)
 Recommends: chromium-sandbox
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
-Filename: ./chromium_150.0.7871.124-1_amd64.deb
-Size: 87236280
-MD5sum: 081d577f587bb83be80dab0eb693c425
-SHA1: 911266883cb9062b6726f768d255008141cf4f0d
-SHA256: 683e553141f1bf3ddcdb49a1314be926dc1a54b72dc6368c4f7f008f62ede94c
-SHA512: fb2860ea2f7fcdda153f24720663d50f351eb5822d9d20e544106b321364f6db6b6c7296fad19418ed7390e977a63e12297109752758948fe207487865f44f35
+Filename: ./chromium_150.0.7871.181-1_amd64.deb
+Size: 87209452
+MD5sum: d7e41ae1115d47b6050f45a59a3d4f01
+SHA1: a89a1cda78024c10446b63e861e63d75e18982f0
+SHA256: a0544cb3b3e25e7f1ffaaa29d02e9969eb0eb173c07165ff8a1e9d50f7e2535e
+SHA512: 17fef9ea0acdfbf6aebe8e753d11fe78f7772528a780d08be4293c9c02ff365bee110e48db2a248a2ec8bb702a3d7a312ee2e34e12b25a072828791d03cbca79
 Homepage: http://www.chromium.org/Home
 Description: web browser
  Web browser that aims to build a safer, faster, and more stable internet
@@ -54931,23 +54931,23 @@ Description: standards-compliant, fast, light-weight and extensible window manag
 
 Package: openjdk-25-jre-headless
 Architecture: amd64
-Version: 25.0.4~4ea-1
+Version: 25.0.4+7-1
 Multi-Arch: same
 Priority: optional
 Section: java
 Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
-Installed-Size: 239455
+Installed-Size: 239466
 Provides: java-runtime-headless (= 25)
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), liblcms2-2 (>= 2.8), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Recommends: libcups2t64, libfontconfig1, libfreetype6 (>= 2.3.5), libharfbuzz0b (>= 2.1.1), libasound2t64 (>= 1.0.16)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
-Filename: ./openjdk-25-jre-headless_25.0.4~4ea-1_amd64.deb
-Size: 53702616
-MD5sum: 3947784d80c95d458fcb4ab3d21af7ad
-SHA1: 3f96697a245f83f6aef5709a6b05f449c79f0b3f
-SHA256: 8a134887d3d33229d02e301e00735f697c85c7a95dde3e83e1387d1cdfe363b4
-SHA512: 2a6a9763ec8fe293f4f7b324e84fa78501c092e977e1bd41537dbe4c3e6ab4a9fbc2ceaa53275de2cef3a725de30651cee29cb35e99873b7f9b3de89cf9cd39a
+Filename: ./openjdk-25-jre-headless_25.0.4+7-1_amd64.deb
+Size: 53701508
+MD5sum: 9ee511688ce4d4889392c208c6003b5a
+SHA1: 83f453f8e498c8c75640bdc49d41cb970778ec52
+SHA256: 0aead3ed453cc49244f2e7d94f0ac5468191f0131ef7145d1ae18de14eac4286
+SHA512: e871d01ab8657e81fa0d0eae56826ffe21987af9a83f11ba3587c00c01875fb5a302c8b0420bea21271d6ab8d4e2bdfbc89e1783adbb83c8db339fcb9651042e
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
@@ -54955,7 +54955,7 @@ Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 
 Package: openjdk-25-jre
 Architecture: amd64
-Version: 25.0.4~4ea-1
+Version: 25.0.4+7-1
 Multi-Arch: same
 Priority: optional
 Section: java
@@ -54963,14 +54963,14 @@ Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
 Installed-Size: 645
 Provides: java-runtime (= 25)
-Depends: openjdk-25-jre-headless (= 25.0.4~4ea-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
+Depends: openjdk-25-jre-headless (= 25.0.4+7-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
-Filename: ./openjdk-25-jre_25.0.4~4ea-1_amd64.deb
-Size: 203952
-MD5sum: 4b338fd9bdcdb26d0123076215ebb056
-SHA1: 67bdc779d6768232cf28664c8301803f400354b2
-SHA256: 5ad9a68a1ef3c0a0d29483d1b6aec70975a4cc457c4ceb2e2ed8ec9b01cfa7a9
-SHA512: 5048ba502e4078563cf13eff61452f5842ebceacb9f4dec7352f8a5b1890109865f08b9c1e504fd6888b4b4250c285130889b48f4b4ff2a770955a5d49fddd7b
+Filename: ./openjdk-25-jre_25.0.4+7-1_amd64.deb
+Size: 203604
+MD5sum: 93dbaacccc6773508b1973e1e7d181f5
+SHA1: 7e90cdac82717ef2dab17b65e6015e84b46cccb9
+SHA256: ff3c0e43987f5a01792eaac93667f97b20c460441f164f00445c5bac515d2065
+SHA512: e19ef65fbacc175f44f7cc2cea31ffc002cfb6ad9f786814e9cf9e947fb0f3f4608155cbd65689eb0c1cdcc010d718b389dab65ac7594ae44227dd4bf0af1e57
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
