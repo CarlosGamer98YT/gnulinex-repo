@@ -12737,19 +12737,19 @@ Description: IRC client for X based on X-Chat 2
 
 Package: hitori
 Architecture: amd64
-Version: 44.0-4
+Version: 44.0-5
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 1078
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
 Recommends: gvfs, yelp
-Filename: ./hitori_44.0-4_amd64.deb
-Size: 197180
-MD5sum: 33875b146e4af7f47883505e65ca240c
-SHA1: e3972aa840ff7acd311d4921f28431dd50535758
-SHA256: 236e2b3986f790840509a705596709b62f75c608e5059fa6f0014e34a773b36e
-SHA512: 18324a712abc2b5f6562d005897735d8e1f78c1a6da0d53dbdc0bad22c8d1106d8add937e6bc1b24cbe97a519828966b0bb197805ce1fa52fafce6fb4527e60f
+Filename: ./hitori_44.0-5_amd64.deb
+Size: 196472
+MD5sum: 8091b5d5367336350fba61b31d9b4bd8
+SHA1: 220264c7a0c77055e790893eb5b1898e66c2e1d3
+SHA256: 5c668f3a5db5ad5ab22af9b2bbc1f3fc8df47ecefe5abaa261f62c32301dc8cf
+SHA512: fd9cb62ff500e812c864de516362aad19e8142b6fc9807d6e9ea2e262d839493f4e74253ff532813fa32454b2136cb56211018f4c1858719ea8e6205d7c4c661
 Homepage: https://wiki.gnome.org/Apps/Hitori
 Description: logic puzzle game similar to sudoku
  Hitori puzzles give you a grid filled with numbers. The goal is to
@@ -54514,22 +54514,22 @@ Description: File manager and graphical shell for Cinnamon
 
 Package: network-manager-applet
 Architecture: amd64
-Version: 1.36.0-4
+Version: 1.36.0-5
 Priority: optional
 Section: gnome
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 292
-Depends: libatk1.0-0t64 (>= 1.12.4), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.40.0), libgtk-3-0t64 (>= 3.10), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.16.0), libnma0 (>= 1.8.28), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), dconf-gsettings-backend | gsettings-backend, nm-connection-editor (= 1.36.0-4), network-manager, policykit-1-gnome | polkit-1-auth-agent, default-dbus-session-bus | dbus-session-bus
+Installed-Size: 299
+Depends: nm-connection-editor (= 1.36.0-5), network-manager, policykit-1-gnome | polkit-1-auth-agent, default-dbus-session-bus | dbus-session-bus, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.40.0), libgtk-3-0t64 (>= 3.10), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.16.0), libnma0 (>= 1.8.28), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18)
 Recommends: notification-daemon, gnome-keyring, gnome-icon-theme, mobile-broadband-provider-info, iso-codes
 Suggests: network-manager-openconnect-gnome, network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome
 Breaks: network-manager-gnome (<< 1.36.0-3~)
 Replaces: network-manager-gnome (<< 1.36.0-3~)
-Filename: ./network-manager-applet_1.36.0-4_amd64.deb
-Size: 82708
-MD5sum: 3640c76ebd15c32cf2a27785d1491e26
-SHA1: 98f7657fb24235f246a376f05628c50f2e8be687
-SHA256: 1f9bc7f6a1f556927b18ef52ec846b9fa8350a2be16fc4b6236389754305f840
-SHA512: 575f0eeb5206ba9cd1a25fb9354f0555b0acafd920c2b9e5e971132c5366d13b79cb64d56706a1533029a5955e25134a059a30c7510b5a553e728e61f79e2f55
+Filename: ./network-manager-applet_1.36.0-5_amd64.deb
+Size: 88500
+MD5sum: 6c452db818aab67cd10bb7fecd43292b
+SHA1: 123095d7683f0ea0f24adbfb2589b4fc689c5475
+SHA256: caaed8caa9f987c7b477406b6815168a3aa1351f3d771f474807b1486b7d9c53
+SHA512: e912654de0cfb26c5b8e1d578d1c65847e85c2a1566fa336757fd0a98b80c8e67d8dc7bb8fe211bd4032e0bfd684741f3f8a21279fc447d7ab77d705a79d392a
 Homepage: https://networkmanager.dev
 Description: network management framework (notification area applet)
  NetworkManager is a system network service that manages your network devices
@@ -54652,22 +54652,22 @@ Description: network management framework (daemon and userspace tools)
 
 Package: nm-connection-editor
 Architecture: amd64
-Version: 1.36.0-4
+Version: 1.36.0-5
 Priority: optional
 Section: gnome
 Source: network-manager-applet
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 5495
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.44.0), libgtk-3-0t64 (>= 3.21.6), libjansson4 (>= 2.14), libnm0 (>= 1.40.0), libnma0 (>= 1.8.36), libselinux1 (>= 3.1~), network-manager, policykit-1-gnome | polkit-1-auth-agent, default-dbus-session-bus | dbus-session-bus
+Installed-Size: 5502
+Depends: network-manager, policykit-1-gnome | polkit-1-auth-agent, default-dbus-session-bus | dbus-session-bus, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.44.0), libgtk-3-0t64 (>= 3.21.6), libjansson4 (>= 2.14), libnm0 (>= 1.40.0), libnma0 (>= 1.8.36), libselinux1 (>= 3.1~)
 Recommends: mobile-broadband-provider-info
 Breaks: network-manager-gnome (<< 1.36.0-3~)
 Replaces: network-manager-gnome (<< 1.36.0-3~)
-Filename: ./nm-connection-editor_1.36.0-4_amd64.deb
-Size: 818292
-MD5sum: 9138d4e391650b7d08f85fa8748bd5dd
-SHA1: e86a5ed5740742a20158d44d5b3da754226d8ede
-SHA256: 5519dbdb2cc6e2943fd49a52dd2059b82e751b03eb7433d67d5509d720afb491
-SHA512: 42a7851c972e49fd3bc5dc302d7d6890a31215c459441c100e5ce6a204504113bb3759f4cb79d8cf0d9d49fa924c2e277302dd910e894e107da2dc3e4707f092
+Filename: ./nm-connection-editor_1.36.0-5_amd64.deb
+Size: 824364
+MD5sum: ae95b404c89b7543b9da25f72c0f5de5
+SHA1: 67b26b29c5276899541f012131ffd6692e17d9df
+SHA256: 9f9c3f43bc489f6c6b2926fd2c41beed26d2f831d5491813f21f309d3c031099
+SHA512: aaa1a59b7ca48382fcfec009d803d43f4ebca8fe589efd0c311134894337a941afd0dc46ec1f6a7ded8eab221e9b9e3ca4dacc8173ee21af1d07fd1f30cb031a
 Homepage: https://networkmanager.dev
 Description: network management framework (connection configuration editor)
  NetworkManager is a system network service that manages your network devices
