@@ -25193,19 +25193,19 @@ Description: JavaScript display engine for LaTeX and MathML
 
 Package: libjs-sphinxdoc
 Architecture: all
-Version: 9.1.0-4
+Version: 9.1.0-6
 Multi-Arch: foreign
 Priority: optional
 Section: javascript
 Source: sphinx
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 286
-Filename: ./libjs-sphinxdoc_9.1.0-4_all.deb
-Size: 45736
-MD5sum: 048b2c5db91eb44df3e4ab46d5a7dc40
-SHA1: 40535aaee429fdae26642dba261a5b7f88ed3cc2
-SHA256: 7ccdd7bba71633b28e23407b585d7f968f877484b1ae3cd4a35abb8f96df7542
-SHA512: 3474a6aca34a2a31d106c36682ce4f5f586319da68f4742cf83458ae1e71153cac13b571b8912fdf1019db85a4ab0b732104d2414713ed28ab4ce437b45c9086
+Filename: ./libjs-sphinxdoc_9.1.0-6_all.deb
+Size: 46064
+MD5sum: 95ae975c9d442fedf67d3241f437ad67
+SHA1: 0f36c163c8a2117522fc2c12ccfd9337bb508b87
+SHA256: 584fdc19a58d2742c08093e4f93d188a0f81a99cdec9623d5cadb1ad735d1584
+SHA512: 42be454137d9a83ac40425dff88ae7a1d9c101ff21319c4b4c15c228cef1b4f9f1fd9efe9d46792525013e6e8818bed92bc4071f22c0ce0141b4c6fbf53eec22
 Homepage: https://www.sphinx-doc.org/
 Description: JavaScript support for Sphinx documentation
  Sphinx is a tool for producing documentation for Python projects, using
@@ -46721,20 +46721,19 @@ Description: KDE text handling addons - CommonMark library
 
 Package: libthai-data
 Architecture: all
-Version: 0.1.30-2
+Version: 0.1.30-3
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libthai
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 627
-Breaks: libthai0 (<< 0.1.10)
-Filename: ./libthai-data_0.1.30-2_all.deb
+Filename: ./libthai-data_0.1.30-3_all.deb
 Size: 171672
-MD5sum: cba52615114f8d78f7b409d7018603ff
-SHA1: 47292881edd583c65752fb59dfe4c6a1e3b1ef54
-SHA256: aa18e0f82257ff1bbe4601828d561b35b5ac87170d5e4b69d5ab4badb6904943
-SHA512: 4303818828825d2244b5298bb6dc61664b1f977ef1b1e5400e39b123eb6bc68e59a920a9b29627793db99333babbc02d80d1362a010313bf51d1d292bbf8bfb4
+MD5sum: a934b08c0ea02e9d7e5e08bf00e818ea
+SHA1: b057dbcf9ee7c39a7201ea877e44bbd8e39bd6b9
+SHA256: 3581d94e52bf6b07611c7da8e32ed6e23d4406bbcac7b4aa5fd2013bd50ea0fa
+SHA512: b0011d277bfe1f54159a3788acf9331c627aeaecfbe3c2c896dd53036fbb65c799372900acb807b804a0c2850aeaeac564697ad41623c158d956a439ce87ab67
 Homepage: https://linux.thai.net/projects/libthai
 Description: Data files for Thai language support library
  LibThai is a set of Thai language support routines aimed to ease
@@ -46746,22 +46745,21 @@ Description: Data files for Thai language support library
 
 Package: libthai-dev
 Architecture: amd64
-Version: 0.1.30-2
+Version: 0.1.30-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libthai
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 136
-Depends: libdatrie-dev, pkgconf, libthai0 (= 0.1.30-2)
+Depends: libdatrie-dev, pkgconf, libthai0 (= 0.1.30-3)
 Suggests: libthai-doc
-Enhances: libkhtml5
-Filename: ./libthai-dev_0.1.30-2_amd64.deb
-Size: 24540
-MD5sum: 9dfbe34dc1c5ae130177449cb4e0097b
-SHA1: 707240335eb82eb069636ca9c26ee5779ce2b2fd
-SHA256: 87106b724dad4d109ce364bce06086f86e97ecaff4bef0fb443f14114e680fe9
-SHA512: a38fa4d2b7bddd7c431149d550b82bad19fd17c5903a9bdf016c188c30ba53d6a48ba7f4ffcfdf5c9b8794d59a6831505ca8f4a956ee69790b77f5a7373a86c4
+Filename: ./libthai-dev_0.1.30-3_amd64.deb
+Size: 24512
+MD5sum: 9298d1638ac1bdf63abd2f9e115ebc00
+SHA1: 640f30cee3d44e891eba49333f223c93909f3290
+SHA256: d514369432ce6b525a76a4d340ff761e1812523d2a601f01ef358edaf96d8a20
+SHA512: 045eaf074bf59bce07570b02b86678ce2ad0cb20cc77dd3bd557dc82e584dab5f64c77fa308376355c05441fc36dddd375aad09b7fbb6a2d4db6851f1866310d
 Homepage: https://linux.thai.net/projects/libthai
 Description: Development files for Thai language support library
  LibThai is a set of Thai language support routines aimed to ease
@@ -46774,21 +46772,20 @@ Description: Development files for Thai language support library
 
 Package: libthai0
 Architecture: amd64
-Version: 0.1.30-2
+Version: 0.1.30-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libthai
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 92
-Depends: libthai-data (>= 0.1.10), libc6 (>= 2.14), libdatrie1 (>= 0.2.1)
-Enhances: libqtcore4, libqtgui4
-Filename: ./libthai0_0.1.30-2_amd64.deb
-Size: 51800
-MD5sum: 81770bc08cc373a9e33f0d33926cb3cc
-SHA1: e4f159108d28d377a4f71db43de8448d6d2163ba
-SHA256: 9e796ccf0b6c3a6d405de769439ff1ff87d1529fcf1a5f2fe51a2617ebc1d46d
-SHA512: b911c1def0bcd9e8056e7bb9d28db4c60b336aedda3b57cca2210d9dc0609e177749773e43f2ee4034b85637760d920bd19c8c938ba3ded8ca836c950bdf05d6
+Depends: libthai-data, libc6 (>= 2.14), libdatrie1 (>= 0.2.1)
+Filename: ./libthai0_0.1.30-3_amd64.deb
+Size: 51736
+MD5sum: ea7228ab53c4144872a7fc294636fc90
+SHA1: c38472649748bb3a0122c7bf3d5d740432ea726b
+SHA256: f96f56b227dea0cf78f464d2426c555b6abb37851a462af9a7d54e5656744e60
+SHA512: fc185cc1407435556fae9132381c1dfe2eea9cfaad62070a65718e1cf0a762225ab7a646e81df10591ef597d67445f4e9fe9e65402b6d5e9708759e7081ae944
 Homepage: https://linux.thai.net/projects/libthai
 Description: Thai language support library
  LibThai is a set of Thai language support routines aimed to ease
@@ -63060,12 +63057,12 @@ Description: scalable PostScript and OpenType fonts based on URW Fonts
 
 Package: texlive-base
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 47044
+Installed-Size: 50233
 Provides: dvipdfmx
 Depends: debconf (>= 0.5) | debconf-2.0, tex-common (>= 6.14), libpaper-utils, sensible-utils, texlive-binaries (>= 2026.20260303), ucf, xdg-utils
 Recommends: lmodern (>= 0.93.3)
@@ -63073,12 +63070,12 @@ Suggests: ghostscript, gv | postscript-viewer, perl-tk, xpdf | pdf-viewer, xzdec
 Conflicts: tex4ht (<< 20160814), texlive (<< 2026.20260328), texlive-base (<< 2026.20260328), texlive-bibtex-extra (<< 2026.20260328), texlive-binaries (<< 2026.20260303), texlive-extra-utils (<< 2026.20260328), texlive-font-utils (<< 2026.20260328), texlive-fonts-extra (<< 2026.20260328), texlive-fonts-extra-doc (<< 2026.20260328), texlive-fonts-extra-links (<< 2026.20260328), texlive-fonts-recommended (<< 2026.20260328), texlive-fonts-recommended-doc (<< 2026.20260328), texlive-formats-extra (<< 2026.20260328), texlive-full (<< 2026.20260328), texlive-games (<< 2026.20260328), texlive-humanities (<< 2026.20260328), texlive-humanities-doc (<< 2026.20260328), texlive-lang-all (<< 2026.20260328), texlive-lang-arabic (<< 2026.20260328), texlive-lang-chinese (<< 2026.20260328), texlive-lang-cjk (<< 2026.20260328), texlive-lang-cyrillic (<< 2026.20260328), texlive-lang-czechslovak (<< 2026.20260328), texlive-lang-english (<< 2026.20260328), texlive-lang-european (<< 2026.20260328), texlive-lang-french (<< 2026.20260328), texlive-lang-german (<< 2026.20260328), texlive-lang-greek (<< 2026.20260328), texlive-lang-italian (<< 2026.20260328), texlive-lang-japanese (<< 2026.20260328), texlive-lang-korean (<< 2026.20260328), texlive-lang-other (<< 2026.20260328), texlive-lang-polish (<< 2026.20260328), texlive-lang-portuguese (<< 2026.20260328), texlive-lang-spanish (<< 2026.20260328), texlive-latex-base (<< 2026.20260328), texlive-latex-base-doc (<< 2026.20260328), texlive-latex-extra (<< 2026.20260328), texlive-latex-extra-doc (<< 2026.20260328), texlive-latex-recommended (<< 2026.20260328), texlive-latex-recommended-doc (<< 2026.20260328), texlive-luatex (<< 2026.20260328), texlive-metapost (<< 2026.20260328), texlive-metapost-doc (<< 2026.20260328), texlive-music (<< 2026.20260328), texlive-pictures (<< 2026.20260328), texlive-pictures-doc (<< 2026.20260328), texlive-plain-generic (<< 2026.20260328), texlive-pstricks (<< 2026.20260328), texlive-pstricks-doc (<< 2026.20260328), texlive-publishers (<< 2026.20260328), texlive-publishers-doc (<< 2026.20260328), texlive-science (<< 2026.20260328), texlive-science-doc (<< 2026.20260328), texlive-xetex (<< 2026.20260328)
 Breaks: texlive-common (<< 2013), texlive-extra-utils (<< 2024.20240829), texlive-fonts-recommended (<< 2019.20200213), texlive-fonts-recommended-doc (<< 2019.20200213), texlive-lang-cyrillic (<< 2019.20190506), texlive-lang-english (<< 2022.20220923), texlive-lang-european (<< 2019.20190506), texlive-lang-other (<< 2019.20190506), texlive-lang-spanish (<< 2019.20190506), texlive-latex-extra (<< 2019.20190701), texlive-latex-extra-doc (<< 2019.20190701), texlive-math-extra (<< 2017), texlive-plain-generic (<< 2020)
 Replaces: texlive-common (<< 2013), texlive-extra-utils (<< 2024.20240829), texlive-fonts-recommended (<< 2019.20200213), texlive-fonts-recommended-doc (<< 2019.20200213), texlive-lang-cyrillic (<< 2019.20190506), texlive-lang-european (<< 2019.20190506), texlive-lang-other (<< 2019.20190506), texlive-lang-spanish (<< 2019.20190506), texlive-latex-extra (<< 2019.20190701), texlive-latex-extra-doc (<< 2019.20190701), texlive-plain-generic (<< 2020)
-Filename: ./texlive-base_2026.20260527-3_all.deb
-Size: 23933604
-MD5sum: a931711ebb2784d28b03f6fc1bffd2ad
-SHA1: 13889624e422c48486d6947fba63079bc33d9fef
-SHA256: ae695ddc8e9e9f5041fdacced0969d318178ba9de89628985269d252e264530e
-SHA512: ace69256922e1a0b08414bb81bf280f79685d94fc3f6c5863fee7cd4b5c6636214d60b9b248c9fdb84975199b4f359fd204de82bcb892f39693c7a35081550b9
+Filename: ./texlive-base_2026.20260711-2_all.deb
+Size: 24543584
+MD5sum: a21d8e2bb51bcf46bc30d06da59e4b8c
+SHA1: a6cdbc8049ddcb304acdcda4375b7c89ebca298e
+SHA256: 8cdbdb69793c4b9c24897cef5ddee20d4e084fcb146c7ca053e236267536a615
+SHA512: 0604109fc02aa297e1fd88c7c8a1fa17d912d117d87936ad6c9abfc7951da8471a8486f11c6d6ebfd4a8cd36f704bffdefb474fd7956547a6e9809ed224c212a
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Essential programs and files
  These files are regarded as basic for any TeX system, covering plain TeX
@@ -63204,7 +63201,7 @@ Description: Binaries for TeX Live
 
 Package: texlive-fonts-recommended
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -63215,12 +63212,12 @@ Depends: tex-common (>= 6.13), texlive-base (>= 2026.20260328)
 Recommends: tex-gyre, tipa (>= 2:1.2-2.1)
 Suggests: texlive-fonts-recommended-doc
 Breaks: texlive-base (<< 2022.20220405)
-Filename: ./texlive-fonts-recommended_2026.20260527-3_all.deb
-Size: 4990568
-MD5sum: 293bbd523d7c96d54725d5d9d979a6e3
-SHA1: b7bec88ae0a185ae8290b5293e5c4dbd614ce97d
-SHA256: 9c086720e71ea161a5ff98ae01f537f94dd0a723447f105f2d560cefe95b2ff1
-SHA512: cc98f0f98d987fd8a1816fed68648d7ac84505deba94f4090e7e93afff96f35009be8868e53df9bc3b0ef0c42b57380e3dc42a89b8f15212b6f86dc36b709338
+Filename: ./texlive-fonts-recommended_2026.20260711-2_all.deb
+Size: 4991048
+MD5sum: c081307d10592c0ed24ffde47c758f91
+SHA1: 3240cac3686a7822afadce0369639f0700a5f8db
+SHA256: 968dd80142e5f55946414886eedfa268c05777fdb6b3d7ebb8290ae19e8d9f7a
+SHA512: 2ce745f05faa0e3dcbc453a66ff556a929ba0d7d477cf8778f8e24bcc10be1457663f5a62010f14e317d730d25d1a628a30b8f7cc27deddb73b50a45efe98159
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Recommended fonts
  Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX
@@ -63285,23 +63282,23 @@ Description: TeX Live: Recommended fonts
 
 Package: texlive-latex-base
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 15243
+Installed-Size: 15377
 Depends: tex-common (>= 6.13), fonts-lmodern, texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303)
 Suggests: texlive-latex-base-doc, wp2latex
-Breaks: latexml (<= 0.8.6-4), texlive-base (<< 2022.20220405), texlive-formats-extra (<< 2020.20201129), texlive-lang-japanese (<= 2022.20221123-1), texlive-latex-extra (<< 2026.20260527), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
+Breaks: latexml (<= 0.8.6-4), sphinx-common (<= 9.1.0-5), texlive-base (<< 2022.20220405), texlive-formats-extra (<< 2020.20201129), texlive-lang-japanese (<= 2022.20221123-1), texlive-latex-extra (<< 2026.20260527), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
 Replaces: texlive-latex-extra (<< 2026.20260527), texlive-latex-recommended (<< 2024.20250309), texlive-luatex (<< 2025.20260124)
-Filename: ./texlive-latex-base_2026.20260527-3_all.deb
-Size: 1437264
-MD5sum: fbd71c9e830738d6c29c3c7c1d7592fd
-SHA1: 1fa5389f92848a2265ec75aded15ab0c69bbe3bf
-SHA256: 61e2a1a20e295f50ca8a0e9616d8f67507a111e35115535bed748a0771729f46
-SHA512: 4ec927f090bc3b6dca3e4f71f1281fab636a949cdac4b43cdb3141170fdad394003ee1baf0f24b1752cfc03ae3e4cbe8ce503a6d23befcd3b16d8c4fb4d249c1
+Filename: ./texlive-latex-base_2026.20260711-2_all.deb
+Size: 1450924
+MD5sum: 765a181cab150f81a02f0158aaeba47c
+SHA1: 4d8983f19ab612616e94a85d1c865709039f472e
+SHA256: b7f8f45b3f0b4813d93afd4f240f15c1be48ddeb1bbcc90f6334751058d9179a
+SHA512: c3db42183b734f78c4fdb80405a0b78f7bbd4efb0da73545b237861a0eff599a19a70793d5c4bc9ce89c3019f8c5925f44c41469906a40f920d4d55a0558e8c5
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX fundamental packages
  These packages are either mandated by the core LaTeX team, or very widely
@@ -66956,23 +66953,23 @@ Description: TeX Live: LaTeX additional packages
 
 Package: texlive-latex-recommended
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 25833
+Installed-Size: 25836
 Depends: tex-common (>= 6.13), texlive-base (>= 2022.20220405), texlive-binaries (>= 2026.20260303), texlive-latex-base (>= 2026.20260328)
 Suggests: texlive-latex-recommended-doc, texlive-luatex, texlive-pstricks
 Breaks: texlive-base (<< 2022.20220405), texlive-latex-base (<< 2024.20250309), texlive-latex-extra (<< 2019.20191208)
 Replaces: texlive-latex-base (<< 2019.20191208), texlive-latex-extra (<< 2019.20191208)
-Filename: ./texlive-latex-recommended_2026.20260527-3_all.deb
-Size: 8452044
-MD5sum: 0d2143ed508ede3e2cdcce86f28f755b
-SHA1: faf3e30fbca9391cc09f1aa777c6ca44260b3651
-SHA256: a199dbe83d9e6ba534538f71c50a538a354c4953e4a94c65d44e19572d3d9dc3
-SHA512: a35d0c9f29277988725bff4880d0a2856db991cdabac8875407cecc5d1e57f0226acda30cf96a3784ba5463334e17db75de58e0e9826745c2393c02b370417e0
+Filename: ./texlive-latex-recommended_2026.20260711-2_all.deb
+Size: 8453660
+MD5sum: 57249396178d27260288b48b246d9634
+SHA1: 9983c1ee16a47d6874c106620b8f0aa19e92ab51
+SHA256: 8ce140f142e1c5f23db244a83ce91ef06f8288eedd9cf0f4f8da7dd24987748d
+SHA512: f824d338200a90ab2a4bbff2ab2f01cb70be474444456139183c66764e0e00c1c9acb8d88fea128fba13ce605fc09f311374a0773516d3d4e407d1423da6421e
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX recommended packages
  A collection of recommended add-on packages for LaTeX which have widespread
@@ -67124,24 +67121,24 @@ Description: TeX Live: LaTeX recommended packages
 
 Package: texlive-pictures
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 102553
+Installed-Size: 98842
 Depends: tex-common (>= 6.13), python3, texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303), texlive-latex-recommended (>= 2026.20260328)
 Recommends: ruby, tk
 Suggests: dot2tex, prerex (>> 6.5.3-1), texlive-latex-extra, texlive-pictures-doc, vprerex (>> 6.5.3-1)
 Breaks: prerex (<= 6.5.3-1), texlive-base (<< 2022.20220405), texlive-science (<< 2025.20250727)
 Replaces: prerex (<= 6.5.3-1)
-Filename: ./texlive-pictures_2026.20260527-3_all.deb
-Size: 23854988
-MD5sum: 840c941c6b8326795b30aa4b359274be
-SHA1: dddc10969adea4a1bfeb8d48f346ab35f7f713b6
-SHA256: 59d49dc73545a37ac317d11da561692791c58f60bff51589731c3399f542de8a
-SHA512: 88b0141223c0498451bea857cc641aefb95572a8e08d5101c7b42e91c08a55b99a1a48ea2f11981f336d004ea0a1d3630f91b5c717698a5abf78f6b579104925
+Filename: ./texlive-pictures_2026.20260711-2_all.deb
+Size: 23828256
+MD5sum: 621d1399d8ad3ff55c40b118aa5f0c7e
+SHA1: 48d30b886f5706a74729c803c9e8760c468a949c
+SHA256: c52699436b92dc3c5cb9f0d7120ce73ee5da1cbd0285e8d156d03a83232352c0
+SHA512: 217abaec3f12c9b1e0298a6b44cc58b2c85eac36e12d3d062a4eafa639fa8c0fcc385f473994a1c76c0a852c734eaa442060213db79276271897673bd345d469
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Graphics, pictures, diagrams
  Including TikZ, pict, etc., but MetaPost and PStricks are separate.
@@ -67190,6 +67187,9 @@ Description: TeX Live: Graphics, pictures, diagrams
  edition of Euclid's "Elements"
  .
  cachepic -- Convert document fragments into graphics
+ .
+ callout-itembox -- A LaTeX package for colored callout item/numbered text
+ boxes with a tinted
  .
  callouts -- Put simple annotations and notes inside a picture
  .
@@ -67344,6 +67344,8 @@ Description: TeX Live: Graphics, pictures, diagrams
  .
  lua-tikz3dtools -- Not-so-experimental LuaLaTeX package for 3D illustrations
  in TikZ
+ .
+ luadraw -- Lua-based mathematical graphs for LuaLaTeX
  .
  luamesh -- Computes and draws 2D Delaunay triangulation
  .
@@ -68050,7 +68052,7 @@ Description: TeX Live: Plain (La)TeX packages
 
 Package: texlive
 Architecture: all
-Version: 2026.20260527-3
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
@@ -68058,12 +68060,12 @@ Source: texlive-base
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 55
 Depends: texlive-fonts-recommended (>= 2026.20260328), texlive-latex-base (>= 2026.20260328), texlive-latex-recommended (>= 2026.20260328)
-Filename: ./texlive_2026.20260527-3_all.deb
-Size: 17072
-MD5sum: 756961c283833d7a96915eeb295fb4fc
-SHA1: 02269fc3d079d93d4f04c13de6522ee0f58964e2
-SHA256: 93ba56947614a1acc8d8fecd1d2d6c66d4127f0d85ed40572475808d1872f67d
-SHA512: 52639e669b3a78f18f88f65fe520ba46cbb1b62028c54898ac5c125b983f080c0029d67307704a4d239c6d5939d797fa8d9d367c370369cd8c788a4bd087216a
+Filename: ./texlive_2026.20260711-2_all.deb
+Size: 17164
+MD5sum: c6442080effb2e885c9cec060c00f564
+SHA1: 2802fa2e98573c5e0584793c0160fb396133c602
+SHA256: 89ff00241c6132f6d0433ed3053537c8375db12220bb43ac47cce486f9ef7595
+SHA512: caaae32f3771976a1a6028cc13183612788d4ae0ee5ed5e592e9db96f90e5e20ea3398803ea30e9f55b9074bbaa1b753a80ab9cfb7bdd0d5f1811797e4bea5fa
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: A decent selection of the TeX Live packages
  The TeX Live software distribution offers a complete TeX system. It
