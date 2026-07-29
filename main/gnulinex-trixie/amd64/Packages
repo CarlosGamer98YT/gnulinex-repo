@@ -2762,32 +2762,6 @@ Description: archive manager for MATE
  Engrampa doesn't perform archive operations by itself, but relies on
  standard tools for this.
 
-Package: enlightenment-data
-Architecture: all
-Version: 0.27.1-2
-Priority: optional
-Section: x11
-Source: e17
-Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 403117
-Conflicts: enlightenment-data
-Enhances: enlightenment
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
-Size: 400653372
-MD5sum: 1eca4262b66d69f7496f7f5886340caa
-SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
-SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
-SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
-Homepage: https://www.enlightenment.org
-Description: X11 window manager based on EFL - run time data files
- Enlightenment is an advanced window manager for X11. Unique
- features include: a fully animated background, nice drop shadows
- around windows, backed by an extremely clean and optimized
- foundation of APIs.
- .
- These are the architecture independent runtime support files for the
- Enlightenment Window Manager.
-
 Package: enlightenment
 Architecture: amd64
 Version: 0.27.1-2
@@ -32261,7 +32235,7 @@ Description: Shared library for the Lua interpreter version 5.3
 
 Package: liblua5.5-0
 Architecture: amd64
-Version: 5.5.0-4
+Version: 5.5.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32269,12 +32243,12 @@ Source: lua5.5
 Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
 Installed-Size: 600
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
-Filename: ./liblua5.5-0_5.5.0-4_amd64.deb
-Size: 154472
-MD5sum: 0a8c8250a9c6e4bd665a098f516865dd
-SHA1: 87fc3a905d26e451f8018253cd569a6be7c11295
-SHA256: 92a5892dd37863f87615f44b2b0849b0d037ce52caa24bff3b1134a4d3a51ccf
-SHA512: f50c62d4a8c7c2981a990146d77ae5552511b2b0667ee0ee5ccbd2af22041a0e03bc0c6899a57cc79a265cef4eea7649478783368e722571e1c6ee9428300704
+Filename: ./liblua5.5-0_5.5.0-5_amd64.deb
+Size: 155124
+MD5sum: 1be48907f187adc2fda0275e7dd0f280
+SHA1: c46766df4bb2a67f432ad4d04413fad6c8f8e5fb
+SHA256: ca8212e81860e0951fcfededabf263b49ae2f0d73e67e6106d2e30264e2495e9
+SHA512: 2cb1bb7fae27436a651bbbf5aea952eb055387d1f0ab9a5e26acfe3a2573301b6fafdbb0037349be808d4df6d8037a741736c8c31ddf2bef09882429297bf3f5
 Homepage: http://www.lua.org
 Description: Shared library for the Lua interpreter version 5.5
  Lua is a powerful, light-weight programming language designed for extending
@@ -38713,33 +38687,6 @@ Description: office productivity suite -- SDK -- architecture-independent parts
  .
  This package contains the (architecture-independent) files needed to build
  plugins/add-ons for LibreOffice (includes, IDL files, ...)
-
-Package: libreoffice-dev-doc
-Architecture: all
-Version: 4:26.2.4.2-2
-Priority: optional
-Section: doc
-Source: libreoffice
-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 602722
-Recommends: libreoffice-dev (= 4:26.2.4.2-2), www-browser
-Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.2.4.2-2_all.deb
-Size: 211255316
-MD5sum: e8b5e169dd139c2b36a0775bac327b9b
-SHA1: d53a082f1d2744b1619c96dfd456ab14a87da030
-SHA256: 5db825f0bf783ff9ffffffaa353a517bc008f8391fa9bb8cc0b281be309c507b
-SHA512: 045aa0c44a532345ba64198ea3b4f300ccb186a0b8ee041a5ca4c9648dc0fb73828cda025f6215f91227ae6387a981007c23b1c79bae1600f09e6069c866eeaa
-Homepage: http://www.libreoffice.org
-Description: office productivity suite -- SDK documentation
- LibreOffice is a full-featured office productivity suite that provides
- a near drop-in replacement for Microsoft(R) Office.
- .
- This package contains the documentation of the LibreOffice SDK:
- .
-  * C++/Java API reference
-  * IDL reference
-  * C++/Java/Basic examples
 
 Package: libreoffice-dev-gui
 Architecture: amd64
