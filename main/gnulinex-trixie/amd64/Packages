@@ -3127,22 +3127,22 @@ Description: Hierarchical notes-manager (binaries)
 
 Package: featherpad-l10n
 Architecture: all
-Version: 1.6.3-1
+Version: 1.6.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: featherpad
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1756
+Installed-Size: 1760
 Depends: qt6-translations-l10n
 Breaks: featherpad (<< 0.11.1)
 Replaces: featherpad (<< 0.11.1)
-Filename: ./featherpad-l10n_1.6.3-1_all.deb
-Size: 252296
-MD5sum: 68d90f6fc5fcef32e54fdac1acf66eda
-SHA1: 4d96317403b9b7baab9632e91c2e432b229f3d38
-SHA256: 27470b9b3416cb21e2bc492faaffdc16dc64d8a54ac6dd9835e8713ff787c29d
-SHA512: 106391ded22e3b88e86cc3f74bc2d3670f15588c853d2a6c0f1cea84acbac87f982d2dbc9111bc42eeb5a9854a775af6dd63af21135ad02a10eb7e9454e28901
+Filename: ./featherpad-l10n_1.6.4-1_all.deb
+Size: 252940
+MD5sum: 4e85d6d82118dda92268c8c219359425
+SHA1: 5217cfebb0b39c6e26216383b710fd37bf39ee1a
+SHA256: 6dec60661a60ba349cb167050bd13fe452d8d4865a22125bb1c90afc360b1b2b
+SHA512: 5a44df3738fe2d460675028bf4cfa314d71a9ac43119ef31aacbd82eab62279c67039cde0441a275b58a282e5f7a9e423e7cb787d800beab67e0f6931c1360c8
 Homepage: https://github.com/tsujan/featherpad
 Description: localization files for featherpad
  FeatherPad is a lightweight plain-text editor written in Qt. It operates
@@ -3153,19 +3153,19 @@ Description: localization files for featherpad
 
 Package: featherpad
 Architecture: amd64
-Version: 1.6.3-1
+Version: 1.6.4-1
 Priority: optional
 Section: editors
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1959
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libhunspell-1.7-0, libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.1.2), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 5.2), libx11-6
+Installed-Size: 1963
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libhunspell-1.7-0 (>= 1.7.3+really1.7.3), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.1.2), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 5.2), libx11-6
 Recommends: featherpad-l10n, libglib2.0-bin
-Filename: ./featherpad_1.6.3-1_amd64.deb
-Size: 610972
-MD5sum: 2c9756d61766b0865bcdd1c0e2f9a216
-SHA1: 62285fdf0f8066e93d234e5fe8fdb5af89bdf56b
-SHA256: 2b7cbaa21b94218738b8b1fd10b6c09cf595c9ec534354ce12a431c72df57fbd
-SHA512: c7915d17afdb6b69280195d60ecf151ab103ee6e5db284f748e9a414f071353376101ba875b5b3b1171d8bd05a3b9840c6e142c6c9d0035d49afd13459543992
+Filename: ./featherpad_1.6.4-1_amd64.deb
+Size: 612684
+MD5sum: a84a98245f5f47ade474530499ccddd5
+SHA1: 62a255b020da18e9c0342db180cc77460e0f8ef4
+SHA256: be5ea5d6fd098ae5ba69d1819cf3cc58d2cc03406f77a4376eafd9f86ca65956
+SHA512: 5da035a386458abcd9ce263ae4dd7147fd2376431179ffbdfa48c14b32fb324f8f71b1d5d572570261c607aa3cccdbc73acaf3f2a78a3a2daa28d6f0976b2123
 Homepage: https://github.com/tsujan/featherpad
 Description: lightweight plain-text editor written in Qt
  FeatherPad is a lightweight plain-text editor written in Qt. It operates
@@ -5574,7 +5574,7 @@ Description: OpenType fonts based on URW Fonts
 
 Package: fonts-thai-tlwg
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5582,12 +5582,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-garuda, fonts-tlwg-kinnari, fonts-tlwg-laksaman, fonts-tlwg-loma, fonts-tlwg-mono, fonts-tlwg-norasi, fonts-tlwg-purisa, fonts-tlwg-sawasdee, fonts-tlwg-typewriter, fonts-tlwg-typist, fonts-tlwg-typo, fonts-tlwg-umpush, fonts-tlwg-waree
-Filename: ./fonts-thai-tlwg_1%3a0.7.4-1_all.deb
-Size: 51216
-MD5sum: a69c1a10fb0a97cc90d644acb5dab7bb
-SHA1: ef9eeaf141354387ac56998a691d05abb3673b53
-SHA256: 8958b12baa29e9e7b22948c2e337e1dd913b8b9cfa9a2e91e53a5bca742471dc
-SHA512: babc3991c75b8d5fcb2f61d60ef068b3a3a6e645392a477d5f84690ed4b5a70b60f681e652b4ad933ff3d384406270c9bd44693e77c8aafe511693e659b21ef2
+Filename: ./fonts-thai-tlwg_1%3a0.7.4-2_all.deb
+Size: 51384
+MD5sum: a4636ec74cc9639c4d5b451bee5f6f89
+SHA1: ea18b72cf1b611f801c8e5a4936861b752700a0e
+SHA256: b52848f7fe7833e8ad809bfd466c0a538c04a00b8a506e43dcf95dd704e6495a
+SHA512: f2ccc889eab42c4fbaaa472c5652cc7684ea9b4a2790d18fed90001fffe71df6c865201e954fb11510cf8a68bf98877c3bbf80373c5e48f41a1c97158e156d18
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai fonts maintained by TLWG (metapackage)
  Shortcut for installing all Thai fonts that are collected, enhanced and
@@ -5604,22 +5604,20 @@ Description: Thai fonts maintained by TLWG (metapackage)
 
 Package: fonts-tlwg-garuda-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 383
-Recommends: fonts-tlwg-garuda (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-garuda (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-garuda (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-garuda-ttf_1%3a0.7.4-1_all.deb
-Size: 179400
-MD5sum: 274bf06186e8b56175432c5a099f8be6
-SHA1: 5e518fc5a462cced4bb8482b3ffde3b9d85187cc
-SHA256: 6c9e43ae61b2d5afd283b42fcca29c4dcf280cc59940fa2fa82607113f3733ff
-SHA512: 7466457dc4e0c6eea3d3e6b4f7e1d42903febfd9ddc4e6bbfeb76035bb9d596fc5eda9d898b8bf43c655b4c10a9051acc3dc6b05a951b411eb5002efc270caab
+Recommends: fonts-tlwg-garuda
+Filename: ./fonts-tlwg-garuda-ttf_1%3a0.7.4-2_all.deb
+Size: 179584
+MD5sum: 50878ab2b0e836f8bb2bc21c0c4497f7
+SHA1: 95f4d64841d009d669042fe05b16f5ec35de8d16
+SHA256: eb5063eded1d3f4a7d8e5c23df2a2c04a03263b3408d7f2159cf9e28db775845
+SHA512: a9ac293f4838ba6d46d231f0176365c84054a36895b294e07a0fbeace8de9b59713e7052c99854fa51427ed513cef32464d0a36579880f280b9164e72425fe63
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Garuda TrueType font
  This package provides Thai Garuda font, code-named "NF2", from the
@@ -5630,7 +5628,7 @@ Description: Thai Garuda TrueType font
 
 Package: fonts-tlwg-garuda
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5638,12 +5636,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 65
 Depends: fonts-tlwg-garuda-otf | fonts-tlwg-garuda-ttf
-Filename: ./fonts-tlwg-garuda_1%3a0.7.4-1_all.deb
-Size: 45980
-MD5sum: 96d336cf799c5ae79a06d009fff5f0c1
-SHA1: f1c56e6e3564907aa6c2b7414566a8caab2a39af
-SHA256: f1cc7adb82446a8fe1a3a26ec22971985244f75f42eecd3eb742434f8caa2a76
-SHA512: fefcb0d42749ddd0c301e935de06680eedf5ab793a43e9783d9c1e956796247e6fa90f51de82bedeca7b2005b093849a05daeceed2b0c5ca358bb481a1e0bb0b
+Filename: ./fonts-tlwg-garuda_1%3a0.7.4-2_all.deb
+Size: 46148
+MD5sum: 5c348470953fcc52fa75b34209f1a0fa
+SHA1: 14861e3a86c7a4bd658c5ad9e75328484075b315
+SHA256: 5b6c088a4acf10a9608109c4eb2c575b10f9ee5d9d5f09fcd10d0b81f9f699ba
+SHA512: 09ade4a2c36cdd34afbc2179396e10fada5e1a884de29509dbc58af163e62478963ebcd79565f7873eb1641b165a5a6393b41ebe4bcf0de32c309684aa1630fa
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Garuda font (dependency package)
  This package provides Thai Garuda font, code-named "NF2", from the
@@ -5656,22 +5654,20 @@ Description: Thai Garuda font (dependency package)
 
 Package: fonts-tlwg-kinnari-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 645
-Recommends: fonts-tlwg-kinnari (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-kinnari (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-kinnari (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-kinnari-ttf_1%3a0.7.4-1_all.deb
-Size: 302972
-MD5sum: c9aff88d886e97c44348f2900a51f14e
-SHA1: e926959ea03d3ea447493af3e4e1f5b52965d8bf
-SHA256: 8f1487c352db12411f877007c5bd422868f968881676f9cc0304f848d0521244
-SHA512: bc2def294a5f6729c38509838e46282a45a8b9371b09231a110bd7f79284dae990676661fab8a82ce6a5223ce50faa1b38a1a60899c945c9a2336af4d7c393d8
+Recommends: fonts-tlwg-kinnari
+Filename: ./fonts-tlwg-kinnari-ttf_1%3a0.7.4-2_all.deb
+Size: 303012
+MD5sum: 9a686e4224ca35540db49d91855f4c79
+SHA1: 439ba0ac8d0255e83cbcfb472a01e62c4585f5ce
+SHA256: 21b121783b1eeded35f72dbc9518426c1e967838fee0504600159448b019e501
+SHA512: 1c361651f3e04734799cac062265f913b8cb9ad799cdfa28d8ec18693c3f4b53826de1353e67eea851864d39aa36d184648af78e84801b64f3f7650b2beedb55
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Kinnari TrueType font
  This package provides Thai Kinnari font, code-named "NF1", from the
@@ -5682,7 +5678,7 @@ Description: Thai Kinnari TrueType font
 
 Package: fonts-tlwg-kinnari
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5690,12 +5686,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 65
 Depends: fonts-tlwg-kinnari-otf | fonts-tlwg-kinnari-ttf
-Filename: ./fonts-tlwg-kinnari_1%3a0.7.4-1_all.deb
-Size: 45964
-MD5sum: 6ea4a5a1f3504dd6604f26bb97c1cc71
-SHA1: 6e8d5414b089f9151c893418cbcc3131973018b0
-SHA256: 758130037fa243f56401856933b081e0a5ff61be2176d4fa03d70841068fc827
-SHA512: e41e486534c1f224ad28d27d4edd65e53b66d2af89c69898c8f284140031b3aa7f499f47d6c5ffe4b4072b20c7ed648b01dc341295375baebdec410888a4eac2
+Filename: ./fonts-tlwg-kinnari_1%3a0.7.4-2_all.deb
+Size: 46136
+MD5sum: af4a3de731cf975955bf575d12a73262
+SHA1: 1803c4fad8f497b5d74821c08d7c8b80895a2242
+SHA256: c2c8caf2c6462c65340a12523cf8918b6029f2cf3f2e005b575e54a492b7f5bf
+SHA512: 01a85c22349e47d473c4159265674f752552c698cb08056051d1917cb66ba950c82fb573d04597c890fec7661070ef088445f2e70657b195fad03315a37f407f
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Kinnari font (dependency package)
  This package provides Thai Kinnari font, code-named "NF1", from the
@@ -5708,22 +5704,20 @@ Description: Thai Kinnari font (dependency package)
 
 Package: fonts-tlwg-laksaman-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 528
-Recommends: fonts-tlwg-laksaman (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-laksaman (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-laksaman (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-laksaman-ttf_1%3a0.7.4-1_all.deb
-Size: 214796
-MD5sum: 156cfc0b68c3957c7c204fde4c54f2e0
-SHA1: 5235e82ec19fb5103dbde7c52449af360cb3e18b
-SHA256: df9fd68598338cfebd4b970b10aa854d53c781aae03f6187a362dab9d11d0037
-SHA512: 28d8b4bb7b9aae7f862139a0c19d9fb31d5eab7058fef2d737767e009fdbdcc2676f0ee63f83231b24190f1469afff04ead694bb66dff136523b5ceb98369b64
+Recommends: fonts-tlwg-laksaman
+Filename: ./fonts-tlwg-laksaman-ttf_1%3a0.7.4-2_all.deb
+Size: 214776
+MD5sum: 367e5ecb3652ad27159a7e6c7a99ead5
+SHA1: 8157cf9e60c07f2b36ca09a934c43e93df5820e4
+SHA256: 6d2da38a8367b9f9f4bf7236f021968192582c1527252b53795de99625e968d0
+SHA512: 8aa528cd7ea5c21784c00ee9e15e5bd78acce3302ce2014fff1b52c1a80aac0bb7794e4e9a915de08a62a820944a8791e4a4fe90efa6d1e8a5db374001308983
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Laksaman TrueType font
  This package provides Thai Laksaman font from TLWG, in TrueType format.
@@ -5733,7 +5727,7 @@ Description: Thai Laksaman TrueType font
 
 Package: fonts-tlwg-laksaman
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5741,12 +5735,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 65
 Depends: fonts-tlwg-laksaman-otf | fonts-tlwg-laksaman-ttf
-Filename: ./fonts-tlwg-laksaman_1%3a0.7.4-1_all.deb
-Size: 45948
-MD5sum: adf08313e7d73ba624ac0b8e72fef4d9
-SHA1: fe6c1f7b338e2da40b6735d5c3ac1b4faad27665
-SHA256: 7150c004fea6931502e2923d91182471f26667f9f966614e433475cb7365ac97
-SHA512: a01c766a18b942134ae585643d59ef4b7f71a1e7f71e3b4f8443d92d99304f9da7b950c7e6433d471c33e57df3fd6844965358dba23da7716920131734ab8813
+Filename: ./fonts-tlwg-laksaman_1%3a0.7.4-2_all.deb
+Size: 46116
+MD5sum: e82e727bba9db76047a39c820fcfb71e
+SHA1: d929a131627da2b8bf2f0968850a09fd65636400
+SHA256: 54d89da4c761d19fd9fe00076ce7b6a55259db4ac9aa91b7eaf0d943a583071c
+SHA512: 3f645412664fda7974ae78589c8f258f9e5f8904011adafcf0037d5b32db0cb2d5f7ab926607ec94d25bcc5ceac8ba6874b8143793ef176d31a8d4f2f010a3f6
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Laksaman font (dependency package)
  This package provides Thai Laksaman font from TLWG.
@@ -5758,22 +5752,20 @@ Description: Thai Laksaman font (dependency package)
 
 Package: fonts-tlwg-loma-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 420
-Recommends: fonts-tlwg-loma (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-loma (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-loma (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-loma-ttf_1%3a0.7.4-1_all.deb
-Size: 196180
-MD5sum: c08d28b2377279fd2854023c5db14025
-SHA1: 19051d348ba2255fabae00fcba3a5546e26e121d
-SHA256: 1554ed00c1dedcda5170765edf86d00236750210d631cffd9bcab6097959931d
-SHA512: 2508ae634dd81e659672f6f9562f7fc71d6ffcf4da3b67efbdbea2b841ba411958df572188d2be8b119cb32550fab6a23afae319e204d24a53e348927f399037
+Recommends: fonts-tlwg-loma
+Filename: ./fonts-tlwg-loma-ttf_1%3a0.7.4-2_all.deb
+Size: 196312
+MD5sum: a49ac19f259975675311f6200a7f2a36
+SHA1: 45ce9b07eac5b15a4e126e087b9fee5b1f4c2e33
+SHA256: 53d7bc11b8e8276bbd84d570b50db8ba6599a23d8e731d4b3fa8157f89a3b834
+SHA512: edfe67ff9425e6ddb240a697066af22358d87e6341956c1299c3010849f0a0c66c3b678503eb5191d7a510c110b558daf5d7c8e79fb0572a0748d99e29451dbd
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Loma TrueType font
  This package provides Thai Loma UI font from NECTEC, in TrueType format.
@@ -5784,7 +5776,7 @@ Description: Thai Loma TrueType font
 
 Package: fonts-tlwg-loma
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5792,12 +5784,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-loma-otf | fonts-tlwg-loma-ttf
-Filename: ./fonts-tlwg-loma_1%3a0.7.4-1_all.deb
-Size: 45724
-MD5sum: 5a5cc8d901c46f2b99588c69fb36d9b8
-SHA1: c67d5cd8952e6ae4080adebac9b6254b4b79415c
-SHA256: 7674319cf11465b3d521c5a765b9f4f27b969790aa73d8d39c15fa44a3e4f377
-SHA512: 5ad42b19efd57e0f3d98c684146bb0cfa2cde294abe25439bf6a3cdefc2b635060e7735d71b6a5bf857f4f96e217b75065cee10504ad43474a1beb88efd2bfed
+Filename: ./fonts-tlwg-loma_1%3a0.7.4-2_all.deb
+Size: 45900
+MD5sum: 09387ded3a0f2bfa4ac42a7ac16b3050
+SHA1: 27c8c7fd4579ee1217be8e67e28032af5689b15c
+SHA256: 8f01eeb723926fe2d300cd118d44fcbd4a4bcd8a17de82fa58b86e797728e9ac
+SHA512: b0fab84077ce66f8d9ec2793506234fd331eb60fcccddee9273c4e908e5254028667d64d17ec10feb02040721dbbb228e90e1176968a38e84cf8f96c7214316e
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Loma font (dependency package)
  This package provides Thai Loma UI font from NECTEC.
@@ -5810,22 +5802,20 @@ Description: Thai Loma font (dependency package)
 
 Package: fonts-tlwg-mono-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 453
-Recommends: fonts-tlwg-mono (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-mono (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-mono (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-mono-ttf_1%3a0.7.4-1_all.deb
-Size: 201896
-MD5sum: 5d12028b49fbb8330aea35449e2f30b4
-SHA1: e90be103f77192dda208f6934fc54c36367d002c
-SHA256: be88d01a3d1cc8e595bb487a655d2a4b4ddc8df41c6ba03eaec7adff2fd10200
-SHA512: e6502a97322cf1606bd7ce319491446e9259d6b45cf9ddeeb7b40ff67d3f8f2d394fd1491a40c1918589ccaba05a8c343e9a19119533e7df7a2b06dc173870ef
+Recommends: fonts-tlwg-mono
+Filename: ./fonts-tlwg-mono-ttf_1%3a0.7.4-2_all.deb
+Size: 202088
+MD5sum: e1cb0f2b11b7849ee44bc66ae8bd65ba
+SHA1: 9dd2a17f3c8cc7ec891da1fed97d08cebea38e6f
+SHA256: a822a5be0ccddcbb643554a50e4a2e19c1ec7cc8a490f41b1475195006a0a254
+SHA512: 8b3604389ab83a5c22b2137349f86740b915c83834291fdf75202d04f42e8c365455daf71d2b135f18db37b2c8dd7fe1cab377211c44ee4b70379ce11724f124
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgMono TrueType font
  This package provides Thai TlwgMono monospace font from TLWG, in TrueType
@@ -5838,7 +5828,7 @@ Description: Thai TlwgMono TrueType font
 
 Package: fonts-tlwg-mono
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5846,12 +5836,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-mono-otf | fonts-tlwg-mono-ttf
-Filename: ./fonts-tlwg-mono_1%3a0.7.4-1_all.deb
-Size: 45696
-MD5sum: 1f9dc096dde9c7d50a1b1bd8bfd17bfe
-SHA1: fa8858aec61b2084d8d4e96b4eb29ba7cf385525
-SHA256: 026b97799cf2a4962a60db20215553efec0bfafd596c32efbd419f292373f931
-SHA512: 7a173685e74e8af2cd14ba411843bf96290ac45552dab78937e1a506aa20c42722c0c391f22d0f2efa0d85a688650c23456ae802acb9b9e69897b912516929dd
+Filename: ./fonts-tlwg-mono_1%3a0.7.4-2_all.deb
+Size: 45876
+MD5sum: 60a99467ceebfbd3bc7c6bc613d3164f
+SHA1: c22103dd953f0382172861b32db034c1c9156c5a
+SHA256: e3ef83d5feacf98fc1ee6398b1b2224e733b34a8e09db85e01685c09ad10eb32
+SHA512: bc9908c0b6bc50f0cf20361e36954eba80b1157a9a976f57ba901c128ff4f139020a06f9cc5585dac8b1fcfba62951476a5df095d5643c706e9bd3dff0f42524
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgMono font (dependency package)
  This package provides Thai TlwgMono monospace font from TLWG.
@@ -5865,22 +5855,20 @@ Description: Thai TlwgMono font (dependency package)
 
 Package: fonts-tlwg-norasi-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 747
-Recommends: fonts-tlwg-norasi (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-norasi (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-norasi (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-norasi-ttf_1%3a0.7.4-1_all.deb
-Size: 338584
-MD5sum: cea4ba19ffce4eb3fbc21ebf31cc0756
-SHA1: 153941e89de6805c0bfcc02c5e0b47d1357580c3
-SHA256: 36e4c872317f2c1767ca4076ddf440b06f8d613152910a2d8a89cd2f09783566
-SHA512: a520ef00216f7cb90536b2816465463fa1ada0c9ef0580562abd4e30cb47f47cab71363f55e573a1a60c90b62220a6eab16b271d7d966ec8949f54187d8ba3f4
+Recommends: fonts-tlwg-norasi
+Filename: ./fonts-tlwg-norasi-ttf_1%3a0.7.4-2_all.deb
+Size: 338748
+MD5sum: 4e6cbaceaea4084b3a34332fe9f9bb33
+SHA1: 3d3a037221d6eab979196f9f36bc1a573655ff4d
+SHA256: e580e92ee91ffa37759826f9ed3dd1c982cc6a83e75572e165ed5a5ace9ee998
+SHA512: f6c75199767b0cc18ac94d8f66af633f89254c374b2b87a3b88069c8439404a01542d00f09fc76c10a7a1feb31456103d9d19e39920d21c9e19dbe5aa1b55c81
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Norasi TrueType font
  This package provides Thai Norasi font, code-name "NF3", from the
@@ -5892,7 +5880,7 @@ Description: Thai Norasi TrueType font
 
 Package: fonts-tlwg-norasi
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5900,12 +5888,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-norasi-otf | fonts-tlwg-norasi-ttf
-Filename: ./fonts-tlwg-norasi_1%3a0.7.4-1_all.deb
-Size: 45724
-MD5sum: 7bde4043782b8b91e373d70e96401d9b
-SHA1: a8d0c9593d07b7be25ce5355133821305e93d0e4
-SHA256: 0ea0efbbc5bf7ee7a9f3b6f3fdbf52b5cc24909fea2fed13618285c37b50782a
-SHA512: ceb0c6933af0132db65273ebfa3755f05d23105749fefb551cd160274f00d9c0767462f33b12c282ba14582c63b254b41735c5dd9f38a69d6b0c9bb076cee59f
+Filename: ./fonts-tlwg-norasi_1%3a0.7.4-2_all.deb
+Size: 45896
+MD5sum: 105db2266fe49be4131415b54f54d744
+SHA1: eb37faf97be3e24addf19b8d3ef5438fac4ccace
+SHA256: cb159e50e03b6aadbca4fcac0f82539424500985f800cdf2ebd2a8ffdec993cd
+SHA512: 49c2edb8fd13edef28790e4189bc2e9577bc70ab267a8e791c55123ef5626670e2893b97d4542690ac3630936e63e4f65c947d4803b077a3b164f2dfaebc08c2
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Norasi font (dependency package)
  This package provides Thai Norasi font, code-name "NF3", from the
@@ -5919,22 +5907,20 @@ Description: Thai Norasi font (dependency package)
 
 Package: fonts-tlwg-purisa-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 687
-Recommends: fonts-tlwg-purisa (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-purisa (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-purisa (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-purisa-ttf_1%3a0.7.4-1_all.deb
-Size: 331276
-MD5sum: a3fd2f3732fdda91cdc4f5153282c595
-SHA1: e40266114e5dafeccbf0671ac04768409882c931
-SHA256: c4e5cbd47fb1ff3b6e8a1535aa3edd431adbfde411e5df1bb1d82cc2bde716fe
-SHA512: c493cb02996c6953ab8e638770567259375169ef2f45b2c1bda08a11d8c0c5899a664e255432a728eca10aabfc93a024e091fd37f6855eefb9e701fd432c9507
+Recommends: fonts-tlwg-purisa
+Filename: ./fonts-tlwg-purisa-ttf_1%3a0.7.4-2_all.deb
+Size: 331732
+MD5sum: 9e58244b99b82049023b38aede07ab92
+SHA1: defd58d3fe83d956d6d41562e610e6fc49fb8f6a
+SHA256: dca22ab25c7cdfc08412232d26bd0396d1bc901d1433c5f8fd87d8984c694c8a
+SHA512: 7d09995b2ee1229b34bf0a0d05748cd66bc8ffab4c88f1a278e7a610a0865558c38e491936d1c0118c35cac3434e324ef2c0212ea04c86b3911153f33ee6bd86
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Purisa TrueType font
  This package provides Thai Purisa handwriting font from TLWG, in TrueType
@@ -5945,7 +5931,7 @@ Description: Thai Purisa TrueType font
 
 Package: fonts-tlwg-purisa
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -5953,12 +5939,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 56
 Depends: fonts-tlwg-purisa-otf | fonts-tlwg-purisa-ttf
-Filename: ./fonts-tlwg-purisa_1%3a0.7.4-1_all.deb
-Size: 45384
-MD5sum: 9d0dec8f124a332ba5b00f02a17a5635
-SHA1: 794b42a51a77647726ff3f35e420c86c1c17ffdc
-SHA256: c94f5ab71780f0f52fb2994b72aa99a4c221a0c921d964e2404cc7629b89d30a
-SHA512: 1fd6576704cbd9aa6beec86768855ce74e39ea9a6014e8322dde77174afb80c97d3ffa740a2e39f1dee73b0ebf17195fd7b32616661111de36e90c1287e146a1
+Filename: ./fonts-tlwg-purisa_1%3a0.7.4-2_all.deb
+Size: 45544
+MD5sum: 9a774b74e16ee74c5e5525d9c682c202
+SHA1: fa981d47203692392344886f7e4f018b5ad7523c
+SHA256: 6689e3f58a57a1ee460218a6b17ca484e3b0acd7f5384045313094fe21f1ba90
+SHA512: 192ece68b2d289f78208c3b39262ba185d7efd1cd308948247732113b9acc72246954f8613c0eedc7c9427658e4fb469044083810e7c8a7a1b4b41f6ec616b18
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Purisa font (dependency package)
  This package provides Thai Purisa handwriting font from TLWG.
@@ -5970,22 +5956,20 @@ Description: Thai Purisa font (dependency package)
 
 Package: fonts-tlwg-sawasdee-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 451
-Recommends: fonts-tlwg-sawasdee (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-sawasdee (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-sawasdee (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-sawasdee-ttf_1%3a0.7.4-1_all.deb
-Size: 197308
-MD5sum: 649192d97d3a274f5346a71a07798d13
-SHA1: 754859336853c9d06127f649b10526a45be3c6ee
-SHA256: bba27deeb9414ea5434605a3f94b68b78d9f6d9a710cf620e852010f92102657
-SHA512: 26a3789507b8d60fb54776aebb298e38ed229b72a7acb692a732ebbfb05b957b77ad64444c394d7263eea6faf7a731dcefc1675ac1356f01e49cff22bfa7ecb3
+Recommends: fonts-tlwg-sawasdee
+Filename: ./fonts-tlwg-sawasdee-ttf_1%3a0.7.4-2_all.deb
+Size: 197484
+MD5sum: 6ea7a372aa4507e1fdb6e9e1ad103e27
+SHA1: 098c03b01e2a68fcf4bfe4b59a45835509771e19
+SHA256: 16646a5db466e766e012c5b11d16dc0d8b605ab28bbca784361eb46fa684e0e8
+SHA512: 44276e8f6712128a7107e6a51257119b1c8eb40bce5447cadd8fb76c4a20ff66a733f5ff8d71a47f4cb2f3229645a3f35965b53ab026fc887d3bed1bc7802509
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Sawasdee TrueType font
  This package provides Thai Sawasdee decorative font from TLWG, in TrueType
@@ -5996,7 +5980,7 @@ Description: Thai Sawasdee TrueType font
 
 Package: fonts-tlwg-sawasdee
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6004,12 +5988,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 56
 Depends: fonts-tlwg-sawasdee-otf | fonts-tlwg-sawasdee-ttf
-Filename: ./fonts-tlwg-sawasdee_1%3a0.7.4-1_all.deb
-Size: 45400
-MD5sum: e1e21c63b60d167986009c85a8e33d1f
-SHA1: 2926960a88d8d83b84e1af6aff53c6b899ebb6f6
-SHA256: 9883fa28e6eac62e8847aa6bb22f2126114b942433017a7495af744d4dd22247
-SHA512: d65c2d587c1c3f3d6dced02926884db684c57397bc379fc7538c7826c73b5816b0127242ec7a6d8a530160eca01188faf590a6756ff3907b41bc04615e894a78
+Filename: ./fonts-tlwg-sawasdee_1%3a0.7.4-2_all.deb
+Size: 45576
+MD5sum: 33d9bd963085fedd5bf39613c3aadf9b
+SHA1: 9fe56f6a44f8d164a2fffa4f3bdcfcbb3aad2048
+SHA256: 02c1cb97fd91f8bd9cad5ecf07f57cfd4e26096b139f459b9d4d70681f9fb5c9
+SHA512: 119254db059bcbc22a2017ace69a974272b04c6364908cd19387611eb521fbd7c2cb38e8d51da0e405ca457a34b546664953476ef4cbfea2e188e24a495fd531
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Sawasdee font (dependency package)
  This package provides Thai Sawasdee decorative font from TLWG.
@@ -6021,22 +6005,20 @@ Description: Thai Sawasdee font (dependency package)
 
 Package: fonts-tlwg-typewriter-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 473
-Recommends: fonts-tlwg-typewriter (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-typewriter (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-typewriter (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-typewriter-ttf_1%3a0.7.4-1_all.deb
-Size: 204908
-MD5sum: 8a97080de67a8b92b9cd624bc0cc534e
-SHA1: 160c9bcd7e900b64b4c233aad492ec20815cdfb5
-SHA256: 0d1af7613abee17eb04b0405eb83f2f7cc28ccc08498120277e807e7f7e8fce9
-SHA512: 958f7c008332dfa9b1e06519dfa726087806211cce909e5f40a53fa94c2046676bfa907fa323b06af2a98f2f25de1936dcdfb42be78981ce7b80c429750110f2
+Recommends: fonts-tlwg-typewriter
+Filename: ./fonts-tlwg-typewriter-ttf_1%3a0.7.4-2_all.deb
+Size: 205060
+MD5sum: b9c37476ddb082425c4b80821d8e14d4
+SHA1: 0a3af3ebcfeef65bd20fc0dc45dc41790227df6a
+SHA256: 26c4685efc8a8a874305649af58008a3f7435998d13e4cb5e2c09f3d2a31d058
+SHA512: 0832705796904e6bac718af0ceb8f5c3441f6ef0b77770e60c3887b7600ed989ecf3f884937576acd8b3bb119b29e891c0a335196733cafef33dc7f2b376b810
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypewriter TrueType font
  This package provides Thai TlwgTypewriter monospace font from TLWG, in
@@ -6049,7 +6031,7 @@ Description: Thai TlwgTypewriter TrueType font
 
 Package: fonts-tlwg-typewriter
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6057,12 +6039,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 56
 Depends: fonts-tlwg-typewriter-otf | fonts-tlwg-typewriter-ttf
-Filename: ./fonts-tlwg-typewriter_1%3a0.7.4-1_all.deb
-Size: 45448
-MD5sum: 3b40f3673fb2796a08fb42e1aac0403a
-SHA1: cf5e2a0e82e462c38f29b8224193a562010fcc36
-SHA256: eddf98018006f348fa0a5cf474d1dc4c9306aaaadb2ef992bdb7b3a919cb9399
-SHA512: 1033294e99b2fa67fbc85b07bd020d1653d9335d0b3cef8c32a2c9fa0d4bb13b160edd2634749dfeb8413eeac46b06d89b7f49d68076940bcd521261c4a669a6
+Filename: ./fonts-tlwg-typewriter_1%3a0.7.4-2_all.deb
+Size: 45616
+MD5sum: 027cdf789813045b183000f2e94b54a1
+SHA1: 67579704abe8d62dccddbf4e51948b4133d81c02
+SHA256: 4746a25ce83c69a0ad447d3a201f08e9978bb592c342cb9b853df8002bed3056
+SHA512: 1bcb174c277277200b1b1fd77ab2e432f3f9e560681fe82efc7a693b20548b2f54cd52c201b7fe37610df656bcd0ab9c378f6ba226a8347ee221eca74bd07afb
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypewriter font (dependency package)
  This package provides Thai TlwgTypewriter monospace font from TLWG.
@@ -6076,22 +6058,20 @@ Description: Thai TlwgTypewriter font (dependency package)
 
 Package: fonts-tlwg-typist-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 466
-Recommends: fonts-tlwg-typist (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-typist (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-typist (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-typist-ttf_1%3a0.7.4-1_all.deb
-Size: 203352
-MD5sum: 5612860fca3a09940f43aeda1ac3d2f5
-SHA1: bf7157ecbfed170184dde26d2109629bd5897bbd
-SHA256: 5d8d2d4860915c876fe37a55d5b02480a65f800cc69d6a14de836968581ccfea
-SHA512: 698c441896bb909b5b8cd487d0232600b133fdb61b217aabad2e3a8968302ce6d79a9891bae66e0ea61afdfddb6debf1920e1be9b08edcae4a2e148b53a8b38c
+Recommends: fonts-tlwg-typist
+Filename: ./fonts-tlwg-typist-ttf_1%3a0.7.4-2_all.deb
+Size: 203484
+MD5sum: 0bb7d00751794f9b6cd57ea35e0da63b
+SHA1: 0c974a45b9302332ca519903cfbda5d9b9274eca
+SHA256: 7449cd31906650fb973b87abc3fb365cb542a206771ca983560fa0a142d34b48
+SHA512: bcd0d7d46decd1022a50e2766f5214f1589d8c092cee4d8ee94342ad2658d32881b69fc987ef5c467671da5f6ea062a0bd484344b26d1cbe65b25af75e2a98d8
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypist TrueType font
  This package provides Thai TlwgTypist monospace font from TLWG, in
@@ -6104,7 +6084,7 @@ Description: Thai TlwgTypist TrueType font
 
 Package: fonts-tlwg-typist
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6112,12 +6092,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-typist-otf | fonts-tlwg-typist-ttf
-Filename: ./fonts-tlwg-typist_1%3a0.7.4-1_all.deb
-Size: 45700
-MD5sum: 6d4dc1625bdabc68ee59d4d9d76aba07
-SHA1: 7f8a627736237250478b4f7ce87c6f49f92fe05a
-SHA256: 2e581292162b59f873ad24e39332a1eba93339974607de6ac5e61d2877f82b45
-SHA512: a1510997854c7d6369d2c583a586b6b33b9478b6b5a6efc929092e1546c39b63fcac9c06aaab3b203805996d01d8e2049b24f5eaa4ddad6ea69ba78326595553
+Filename: ./fonts-tlwg-typist_1%3a0.7.4-2_all.deb
+Size: 45864
+MD5sum: d62c4b49b77a8eaaf68636519310f515
+SHA1: fadd295886cff363b785536ae10da3838c55c3d3
+SHA256: 78e513077ac2ab58a9996c7dc247f61c0d4dc1905b7d67a24bf657c57f11d302
+SHA512: d2619eab4f54151597cba5e9ed8e4d2b7de4564e932880ef750722db271e580612f0439e2c86241c7fd411491c036e732f5897b7161b48f317a9a2acfcfa390b
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypist font (dependency package)
  This package provides Thai TlwgTypist monospace font from TLWG.
@@ -6131,22 +6111,20 @@ Description: Thai TlwgTypist font (dependency package)
 
 Package: fonts-tlwg-typo-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 467
-Recommends: fonts-tlwg-typo (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-typo (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-typo (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-typo-ttf_1%3a0.7.4-1_all.deb
-Size: 203588
-MD5sum: ac846e64671dfa9e74e75af7b4b4ecfb
-SHA1: 89f56e7626f101ce6b4ce46780087c1e66f4a161
-SHA256: 56580e479e7eb395d22ded3d4ddef0a013a25a64d99ad3614da86c087f299f05
-SHA512: 601ec3f1db615cdaa37a975bc336c0b753132438143a1d1a83ad66fa2973bf31c8aff456772ef7090586bcd397a481b676dbbbfc912b04e66c82c26a1518e32f
+Recommends: fonts-tlwg-typo
+Filename: ./fonts-tlwg-typo-ttf_1%3a0.7.4-2_all.deb
+Size: 203812
+MD5sum: 51b40c7674d82cd76a7cfb6d586db299
+SHA1: 81489ec251391dd985683245e05c5be7a2c15a8a
+SHA256: aa23a0bdd1fd59c18f41aea3a58c7b049a3d5a5a225f2c225543fb20db56db6a
+SHA512: 427005c3e7e825342a8e8742a47cfb2d0b63e8f0b03022a8d6fe92f2d3ec5c9c3d2e21d13bf6fc4ee8276fa0e8e38d8df1ba78acc8119d403c608e382c5c0ac1
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypo TrueType font
  This package provides Thai TlwgTypo monospace font from TLWG, in TrueType
@@ -6160,7 +6138,7 @@ Description: Thai TlwgTypo TrueType font
 
 Package: fonts-tlwg-typo
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6168,12 +6146,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-typo-otf | fonts-tlwg-typo-ttf
-Filename: ./fonts-tlwg-typo_1%3a0.7.4-1_all.deb
-Size: 45736
-MD5sum: cd080aff00da43c9440b093ad1cd8250
-SHA1: 959c4705dcd0fd0d6df62bcdad46a54d33a52b72
-SHA256: 0043d9b481129305db4b9200428018d8ca017e249adc21a827285ae76bb18635
-SHA512: f3ff1f0c2061b8f3bd1236272920c5525933f79bc42ae892c721f9848fda9028f833d991ca98b3b3d13b836cf1cf97967a8fc6d1688db87b95ae229d612f0021
+Filename: ./fonts-tlwg-typo_1%3a0.7.4-2_all.deb
+Size: 45912
+MD5sum: 57b2ab892b63a4bc75339451352831c8
+SHA1: 8c0e8cbb7ef235309cfdcc8ab6e71bb626827a24
+SHA256: 2c63e30b99f9f0fe7fad99817328e13996e97047170d09e2ee380d252affb770
+SHA512: d373c653d223ec6023dfebc78a5389df0a264ebb47e76b28cf871814f94b3f24e0bd0c579a173924779e5fcd093bd566eda01256326c47d7863ce37f5181f6ab
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai TlwgTypo font (dependency package)
  This package provides Thai TlwgTypo monospace font from TLWG.
@@ -6188,22 +6166,20 @@ Description: Thai TlwgTypo font (dependency package)
 
 Package: fonts-tlwg-umpush-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 598
-Recommends: fonts-tlwg-umpush (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-umpush (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-umpush (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-umpush-ttf_1%3a0.7.4-1_all.deb
-Size: 256580
-MD5sum: eace6ac320407f8eea3e73ea477effdb
-SHA1: ec890699faf14745c0bc39f6990a70241bc6a501
-SHA256: 22312b38312787e6f917d8b5e47421dcabf81af5e97e72b4c277532570105b92
-SHA512: 5e4e2277bb419ef29f5a7de131b9cbc9ef4795ad0bcf56ae8cd83a9f565c507948f89b71d8c3fdde6af88e024c09179dfcd12a98c629c955eeef5095814211cc
+Recommends: fonts-tlwg-umpush
+Filename: ./fonts-tlwg-umpush-ttf_1%3a0.7.4-2_all.deb
+Size: 256728
+MD5sum: 5c8efd9832df45dab5f2ca6bd3061e40
+SHA1: 5b5cac45c2f031e55065fd8609a02c20171df08e
+SHA256: 894118f5f5c4d1513999eff629030e48cdce034d66842d7ec751b53fc1d3d1d9
+SHA512: 221caa7fe42db97c81ef6791c8b741ec6cf87c38367eebc74e820330312bc1b89a4629732628f2d119f1726253907f5ba1c5f3b3ca413452fb62f4ad5d68b8ac
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Umpush TrueType font
  This package provides Thai Umpush font from TLWG, in TrueType format.
@@ -6213,7 +6189,7 @@ Description: Thai Umpush TrueType font
 
 Package: fonts-tlwg-umpush
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6221,12 +6197,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 65
 Depends: fonts-tlwg-umpush-otf | fonts-tlwg-umpush-ttf
-Filename: ./fonts-tlwg-umpush_1%3a0.7.4-1_all.deb
-Size: 45960
-MD5sum: 6582d726977d1db78bab33ef5d2f344d
-SHA1: 3bd9b95739e8808fe812ece929bf1d2870a23f7d
-SHA256: 0c99985f21aa24cb1f72c5f6680888de86c237688ead10d56c97e3fbe1340e1e
-SHA512: 908bf212a5f88d395d8cd80473b833362ae3bdd84f3155105818c49b5b2be5dc5c11f2d4df276b2906c704815246aaec6be402df9bd6770bbd9d9adbb4c27a9c
+Filename: ./fonts-tlwg-umpush_1%3a0.7.4-2_all.deb
+Size: 46124
+MD5sum: b94ad1be16d904c1b9170a979123a1dc
+SHA1: ff583b8ac22647c0927c0a55224af85a37d3c7a7
+SHA256: 92c3e10581d10ae7a171355f9fdd37cb0c947003ca349efc32f3e25ef745a074
+SHA512: a00c868c0ae7d5a2c190e7233e32d204f142931d45e53e7099be2bf7916597e1fca3f3e9ce6db79557740d2916f7768e2d0200fd4604aef55ff2f9d4c097b074
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Umpush font (dependency package)
  This package provides Thai Umpush font from TLWG.
@@ -6238,22 +6214,20 @@ Description: Thai Umpush font (dependency package)
 
 Package: fonts-tlwg-waree-ttf
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 447
-Recommends: fonts-tlwg-waree (>= 1:0.6.2-2)
-Breaks: fonts-tlwg-waree (<< 1:0.6.2-2)
-Replaces: fonts-tlwg-waree (<< 1:0.6.2-2)
-Filename: ./fonts-tlwg-waree-ttf_1%3a0.7.4-1_all.deb
-Size: 203724
-MD5sum: aa7b4b3f98816dac1a4f9eecca2c0586
-SHA1: 99f370f0c7e1b81ff140a4302e4f66698ab18f1d
-SHA256: 31e148e422ffcb616b56563cdbe96867b1da2520c2856d70edad8aac243a1ded
-SHA512: 112ec8d11460ac8fe5689e1d620f2b70e9fbd3b5f6e7a7905c47172314ebe2f53b790d8e909716b5603cab5fb02aa475a9933864639e693ee8051772914d9e80
+Recommends: fonts-tlwg-waree
+Filename: ./fonts-tlwg-waree-ttf_1%3a0.7.4-2_all.deb
+Size: 203788
+MD5sum: d35c27d5b4107f0b0f40825e0bac8d3f
+SHA1: 2c3dca49904f5b1d88fa0cee0dcefb50216753c3
+SHA256: b0aaa45af7295039f9185edaedf0139eb718052f74f9cf9b932c708efbf108a6
+SHA512: 968cbe8514ba9ae057080f6050553c309a56727ce86061b22c01da050dfdf4ab11bb9c989fb0ad2cbd789bb14cbec117408e5586b5d7dd8c1a08df0ba07cc5a6
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Waree TrueType font
  This package provides Thai Waree font from TLWG, in TrueType format.
@@ -6264,7 +6238,7 @@ Description: Thai Waree TrueType font
 
 Package: fonts-tlwg-waree
 Architecture: all
-Version: 1:0.7.4-1
+Version: 1:0.7.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
@@ -6272,12 +6246,12 @@ Source: fonts-tlwg
 Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Installed-Size: 63
 Depends: fonts-tlwg-waree-otf | fonts-tlwg-waree-ttf
-Filename: ./fonts-tlwg-waree_1%3a0.7.4-1_all.deb
-Size: 45720
-MD5sum: 009d077b9c3cefb50ceed03c74195da5
-SHA1: 1450c908b54e6592ba5fa76803121bd51b98be9d
-SHA256: e78df34bfe62e9f6a87050678f01c1483435ea9196da3cf4983b796357fa0920
-SHA512: 80f57df58aa86e1f6172c227e2a7297b9a300e0e8eabdc619d0b1051d964875378837bcd5ce2d19b32ad98a28ce14b97cb458775f114be28d646252862bdd793
+Filename: ./fonts-tlwg-waree_1%3a0.7.4-2_all.deb
+Size: 45896
+MD5sum: 877d0393b28ef05bc41339cfba7d6763
+SHA1: 44c8c8fc0eab94c7caacbc7f210c06f47f1eca01
+SHA256: c12fb44b2ddb49e3f1de05d78237580f7ec72261ace80b5443f4cf4793ce7f5b
+SHA512: 2afbdfda4ba92adfd5e72286562af9beaaece79f9f64c77952282c7d254f065fd382c5db21c870592acbcda77c11de7900c37f2d9b15eae3e4668a8338d8ae62
 Homepage: https://linux.thai.net/projects/fonts-tlwg
 Description: Thai Waree font (dependency package)
  This package provides Thai Waree font from TLWG.
@@ -8664,20 +8638,20 @@ Description: GObject introspection data for the libnm library
 
 Package: gir1.2-nma-1.0
 Architecture: amd64
-Version: 1.10.6-7+b2
+Version: 1.10.6-8
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libnma (1.10.6-7)
+Source: libnma
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 30
 Depends: gir1.2-gtk-3.0, gir1.2-nm-1.0, libnma0 (>= 1.8.28)
-Filename: ./gir1.2-nma-1.0_1.10.6-7+b2_amd64.deb
-Size: 7428
-MD5sum: 4b453457bb72fa7f330f2cf306710d29
-SHA1: 3b92706c7da1974db46bad35dc59db365d8b5c31
-SHA256: 37829d808dd0a41a6660e18dead69836c5b7b2150e4e60645e66ea86d8dff7ce
-SHA512: d60caaa26238634d0b4806d952494ca7d4ebe9455d86559fda2150e96330c5c87667292cbfe4c646f6469a471586c4da580d8cb5c2ffb08c8d5ff74386f6ec73
+Filename: ./gir1.2-nma-1.0_1.10.6-8_amd64.deb
+Size: 7268
+MD5sum: 9fc883a9029347f367ca725152780d8a
+SHA1: 6defae27815c736ce88f59d6247a75844385cd92
+SHA256: 413e660c6800560af93eb51cb138bee882222ae0008a729664b7d68119ced8a5
+SHA512: ebdb37ea7cf213fcd8cafef6c80d449c36147b652cd18f168458be9173ccbae67ab958182b3415268735334e4d909fd1720cf628398860db47d727ef9968ebda
 Homepage: https://networkmanager.dev
 Description: GObject introspection data for libnma
  The libnma library provides GTK 3 dialogs for NetworkManager.
@@ -8689,20 +8663,20 @@ Description: GObject introspection data for libnma
 
 Package: gir1.2-nma4-1.0
 Architecture: amd64
-Version: 1.10.6-7+b2
+Version: 1.10.6-8
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libnma (1.10.6-7)
+Source: libnma
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 30
 Depends: gir1.2-gtk-4.0, gir1.2-nm-1.0, libnma-gtk4-0 (>= 1.8.34)
-Filename: ./gir1.2-nma4-1.0_1.10.6-7+b2_amd64.deb
-Size: 7456
-MD5sum: 90e785c6e346eb1761175a0d202bb7e1
-SHA1: 5865e2704f76dd43b58ada8ea467820ed9667318
-SHA256: 3da115b84f5301596900db229a75626c2acdf852300784abffea087c90a72f8c
-SHA512: 90bd2d91a0a8c8f47ec7265dc5fd0aa784fbc5f654f2130f57dbd37f831ee756af5f61d947183d82ad6d51a41952eb2280f5642023e42e3b965a5115c14aa0dd
+Filename: ./gir1.2-nma4-1.0_1.10.6-8_amd64.deb
+Size: 7288
+MD5sum: e7c2a6ee24efdcf3403a82a5440139b5
+SHA1: 6f64a1ca0a80d635f9e783355433d2e1671b7fe4
+SHA256: 7bb0ef87cf4540034f99dc2fc6323df456b9ee4cac888d641bded45f177b51b9
+SHA512: d98495786eb9777ad8025c5f79f245835f497346c064260ca1787318af9be058c8c7134ad97de525d29a7f05d885182f123b012fc3f4883140ac4370c7e2a662
 Homepage: https://networkmanager.dev
 Description: GObject introspection data for libnma-gtk4
  The libnma-gtk4 library provides GTK 4 dialogs for NetworkManager.
@@ -33847,21 +33821,21 @@ Description: GObject-based client library for NetworkManager
 
 Package: libnma-common
 Architecture: all
-Version: 1.10.6-7
+Version: 1.10.6-8
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libnma
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 977
+Installed-Size: 976
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: network-manager-gnome (<< 1.30.0)
-Filename: ./libnma-common_1.10.6-7_all.deb
-Size: 136096
-MD5sum: d38562cb05d9c3af4e6b9e4b5779aab4
-SHA1: c03697fddbd53a1e0227da63083ed3eed7c7f829
-SHA256: 6f4872426aae6282ba555c7f036916ad7c103c6edf94dcf8be7566583a7ee3f8
-SHA512: 7d20eee0d83ec28316b8b7b7411596b2404571d0c8c440761bc87c44c13e2bf1b842ccf0c9a3de7c3176ea8be46e82cb119c9d0d8047f29a6a6ad8312727f5fa
+Filename: ./libnma-common_1.10.6-8_all.deb
+Size: 135092
+MD5sum: 85fd986d3ae311a82fb9f148464e73f3
+SHA1: 7afdacf5395fb0aeb7c71fb84ed3d75f34260edb
+SHA256: c8cab70dc986357d5f3d6955e6cfe6c2fb29f171303c580805afca6bfe0384b7
+SHA512: 7813e12f4bbfac89b9974473491123ff7db637cd9d207efbc9c34f08c46f55570f56c7bc4e0da63bb235eadf96a2a48783f166210c32f489738ecb1a184dacc1
 Homepage: https://networkmanager.dev
 Description: NetworkManager GUI library - translations
  The libnma library provides Gtk+ dialogs and UI utilities for NetworkManager.
@@ -33870,40 +33844,40 @@ Description: NetworkManager GUI library - translations
 
 Package: libnma-gtk4-0
 Architecture: amd64
-Version: 1.10.6-7+b2
+Version: 1.10.6-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libnma (1.10.6-7)
+Source: libnma
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 351
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgck-2-2 (>= 4.0.0), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.38.0), libgtk-4-1 (>= 4.0.0), libnm0 (>= 1.8.0), libnma-common (= 1.10.6-7)
-Filename: ./libnma-gtk4-0_1.10.6-7+b2_amd64.deb
-Size: 90368
-MD5sum: 5827eaae63611b8d5253cfac8ba91219
-SHA1: d6f49a1fd8525040559d5681440325857d80a3fd
-SHA256: f637aa44a7a582eb98890e5fffbc6d389e13e695da2ab88d527f9251efe51e6e
-SHA512: c30acd593f69bde508c1a7cf0be3cf590fdafa0585472a72e99755203484c0edb0bc327fba5ecb58742c3cb2c95e08669001209c1018ae21793c4dde2052de8e
+Depends: libnma-common (= 1.10.6-8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgck-2-2 (>= 4.0.0), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.38.0), libgtk-4-1 (>= 4.0.0), libnm0 (>= 1.8.0)
+Filename: ./libnma-gtk4-0_1.10.6-8_amd64.deb
+Size: 89744
+MD5sum: a6e991cdd989ff86752079a030d348b2
+SHA1: e206f1ea6d6234cbbd550369ab4147a26012d5e4
+SHA256: 3fc5dcbd5814c325ae6f1076a89eb1b1ff2940b60f3387716043cc869fdf8bb5
+SHA512: d9946f2a5a14e64cf2e46d54be21d7b64afc858bfb663d67d5149f6770caa03fc0ef855109e25152b754c0c64b6a75a6c575abfdc3d7e03124c575bd63fd183a
 Homepage: https://networkmanager.dev
 Description: NetworkManager GUI GTK4 library
  This library provides GTK 4 dialogs and UI utilities for NetworkManager.
 
 Package: libnma0
 Architecture: amd64
-Version: 1.10.6-7+b2
+Version: 1.10.6-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libnma (1.10.6-7)
+Source: libnma
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 383
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgck-2-2 (>= 4.0.0), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.21.5), libnm0 (>= 1.8.0), libnma-common (= 1.10.6-7)
-Filename: ./libnma0_1.10.6-7+b2_amd64.deb
-Size: 91228
-MD5sum: 13103d67382c83aa0023673a0c43d1d7
-SHA1: 9fe44648a0aa466312315147eb1856a4cb2f73e2
-SHA256: 6a74997608887c9448212da24a260669866955dad130792e11bf75b0e669a7a7
-SHA512: 628e71fda15414aec6d920ff4c205c8b1bc726a7fd225f799ef98fb94e52805aebff98f0721d6145f46327615679303d853567c88b9e21045aafc163d8a6e175
+Depends: libnma-common (= 1.10.6-8), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgck-2-2 (>= 4.0.0), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.21.5), libnm0 (>= 1.8.0)
+Filename: ./libnma0_1.10.6-8_amd64.deb
+Size: 90736
+MD5sum: 6dfa684cc3f33227b34ea147e164d74a
+SHA1: e43ae52ad1150f047f66fc7052f73c4430b4b314
+SHA256: 019d8e2ad673329874570b63a196f96359422860120c4ad789ae13ab6136acdb
+SHA512: 80cc7d175e560537d6bd94a1d9990765e85d71244c9a800e48bdbccf8621ec324851728f2f4010e4c1233fe01ca672790898ce88a4410b5c6b7dbc8e41b542d3
 Homepage: https://networkmanager.dev
 Description: NetworkManager GUI library
  This library provides GTK 3 dialogs and UI utilities for NetworkManager.
@@ -46570,7 +46544,7 @@ Description: systemd utility library
 
 Package: libtag-c2
 Architecture: amd64
-Version: 2.3-1
+Version: 2.3.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -46578,12 +46552,12 @@ Source: taglib
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 88
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libtag2 (>= 2.2)
-Filename: ./libtag-c2_2.3-1_amd64.deb
-Size: 31032
-MD5sum: 39a6721cc59649b14e65c29aa711a2ed
-SHA1: 603808557bfe383c2bc4629c7910263bab6483c9
-SHA256: eaf76c9823b6087007b432920f32e78850c46ce640280e4dda2317af37c1f639
-SHA512: 98532662b62392a7502db85f22fdda8b281d09e92c700edb6550603f0dd46be9ee11fc4ac7a1c6e60b7b9808a7c6f40dd64ebfd276ee34bc6f85e13bb0701399
+Filename: ./libtag-c2_2.3.1-1_amd64.deb
+Size: 31336
+MD5sum: e448584cc5cda9ed0cc0402f6dfe3808
+SHA1: dee7868b9db1cef3007974280294135f9900c24e
+SHA256: 691a10dd096dcfa508d28cbd6264f36bb31512d181a08c74f8d9835c298fc459
+SHA512: 8cd3a33237d3ab7417f8952afa48673e4a564b7a4177ecd9a8f3baea851c0948fa7b89dc9c1caf500c217eb1bbfdb4e7fb5bd83055a1a0c986005c88e21d968b
 Homepage: https://taglib.org/
 Description: audio meta-data library - C bindings
  TagLib is a library for reading and editing audio meta data, commonly know as
@@ -46607,20 +46581,20 @@ Description: audio meta-data library - C bindings
 
 Package: libtag2
 Architecture: amd64
-Version: 2.3-1
+Version: 2.3.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: taglib
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1585
+Installed-Size: 1586
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libtag2_2.3-1_amd64.deb
-Size: 421708
-MD5sum: 14350db2bf6403cb5952aef743d628a0
-SHA1: 63d6fa940a9a3900ad2b943e2d07e602dff41b4b
-SHA256: b3fdc43127074a512132471d6a1e708af5e75dca6bbdb1fca519cd95e3b54744
-SHA512: 4a0fd445d1a34b7913e46f9c735435218c3cb16ee69ceeea7d06d45f8e4bdd70bb68776d2b6d0905047d4dde32bd8a2fc564d557e6658f95627e0888a4d89964
+Filename: ./libtag2_2.3.1-1_amd64.deb
+Size: 421916
+MD5sum: c23706d198f6fce5ff7addbd6e39f081
+SHA1: 78301cce6964cdffe6b632ac27ecdb03983a62e6
+SHA256: 3772d3270e9c6c25ba5fb72f71ee68e34cc676525ad961ac86b36a4b9bb5328d
+SHA512: 779732bfab1b822d1c90903d1eb774deb6e042d5172ff0b24bf2bdcb8c17aded1855555a3506ae980329cd0471b1689394e33de3207efb8077b4ab1e9f72e6b1
 Homepage: https://taglib.org/
 Description: audio meta-data library
  TagLib is a library for reading and editing audio meta data, commonly know as
