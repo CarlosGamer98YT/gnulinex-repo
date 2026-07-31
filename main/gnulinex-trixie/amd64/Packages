@@ -27205,19 +27205,19 @@ Description: address book API for KDE frameworks
 
 Package: libkf6coreaddons-data
 Architecture: all
-Version: 6.26.0-2
+Version: 6.26.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kcoreaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1189
-Filename: ./libkf6coreaddons-data_6.26.0-2_all.deb
-Size: 143072
-MD5sum: cfdb767ec80ae963e30c974a3101ea11
-SHA1: 5fc056ce601f081e027836fcc3da2ce50bcaaad3
-SHA256: 077a33178e7e691a756d70f684e1ea2b18f464bf9dfb6a1268b418de5e507c7b
-SHA512: 223e77c8e708d8f2e6dcf9c99b2dcdf03501797a54349ffccf9d7a5536b4812fb6d8713974625b828b246c553b76fb05e74c6db8e672683b100d91827811fb96
+Filename: ./libkf6coreaddons-data_6.26.0-3_all.deb
+Size: 143248
+MD5sum: 1ebea8b4351e192539785eb7aa28e2c9
+SHA1: 6c7b555038a709ea353c40bad82dcddd352117e8
+SHA256: 4c699c023ead21cb816a5ba102766a5d295f715a8493d0f17c04a0a0c339fe40
+SHA512: b933f08ba95416502331db0023d8eeb1a5cd51ebff6539a81d5e855a3be06f26b8220ebb17a7553b16d648af8a06707ba31f663377ee6db803bd27c7a75e7537
 Homepage: https://invent.kde.org/frameworks/kcoreaddons
 Description: KDE Frameworks 6 addons to QtCore - data files
  KCoreAddons provides classes built on top of QtCore to perform various tasks
@@ -27231,20 +27231,20 @@ Description: KDE Frameworks 6 addons to QtCore - data files
 
 Package: libkf6coreaddons6
 Architecture: amd64
-Version: 6.26.0-2
+Version: 6.26.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kcoreaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1101
-Depends: libkf6coreaddons-data (= 6.26.0-2), shared-mime-info (>= 2.1~), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libmount1 (>= 2.24.2), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libstdc++6 (>= 11), libudev1 (>= 183)
-Filename: ./libkf6coreaddons6_6.26.0-2_amd64.deb
-Size: 320840
-MD5sum: 53e064209dc2fe5d7b700452cb50eccd
-SHA1: 879b7dc2f1ba8122dd4aaec55aa455fbb04ab155
-SHA256: 4e850974e71fceccfa7a8f13f901ce8011a7eb823cf0fa2d3703a1baf4bc51de
-SHA512: ab3b8593a00db07abf5e660dfd47617d375f581e1b29b269532793ff31937662dfaec49343352dc077aa928183786d4f3e4949e3720582c8b32adf2ea0e56b72
+Depends: libkf6coreaddons-data (= 6.26.0-3), shared-mime-info (>= 2.1~), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libmount1 (>= 2.24.2), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libstdc++6 (>= 11), libudev1 (>= 183)
+Filename: ./libkf6coreaddons6_6.26.0-3_amd64.deb
+Size: 320644
+MD5sum: 7f8098fbe20d80ee23675c0bfd929a8e
+SHA1: 362e1ab0ba302bc029e5e15cdbb4d912d6ada85f
+SHA256: 833b04cb1eca703bd06e36f7c3d7a9ca8409cdaef70f64b6aa7b95540ff303f9
+SHA512: 63538463de71ad08c5ca666403fd928f1a324dd595e3c9515814df00f1f007a1050210c3967cedfa0a8d866c614afaa4cad2b7285e6aed6a786c0f59f77befe2
 Homepage: https://invent.kde.org/frameworks/kcoreaddons
 Description: KDE Frameworks 6 addons to QtCore
  KCoreAddons provides classes built on top of QtCore to perform various tasks
@@ -35023,7 +35023,7 @@ Description: sends desktop notifications to a notification daemon
 
 Package: libnss-myhostname
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: admin
@@ -35031,12 +35031,12 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 274
 Depends: libc6 (>= 2.34)
-Filename: ./libnss-myhostname_261.1-3_amd64.deb
-Size: 106756
-MD5sum: dd7e24e0762820ed8a7c6abe427f0739
-SHA1: 37dff15d17385df3a0631f4e857ba080801e0eab
-SHA256: f971123d33cf59e6a5c204d05ab9e90ffc12e3d9fedc795e94f470c5b54084cc
-SHA512: 7d089c2fafa43989f5b7e60d781ac615bce067c7529089d29a60262becb66a0bc95aaca3673b402af558dbf2c954949b65a5a79c1047760a03f55e392aabf53b
+Filename: ./libnss-myhostname_261.2-1_amd64.deb
+Size: 107108
+MD5sum: 6fcf3301b4f0d70e02fcda2b15a3eeaa
+SHA1: 9ddf2a7924f12a2eea43e6d5bad022ae41223540
+SHA256: 6b942f182826209fe7ad04c440e6225c6c3d08003f528b13bf7a0b504ba7b634
+SHA512: 437c36fc390b31ba9687ce773038a943e1db6fca31ffd7b51dcbcb757e46319d2cf2cf22c3c39161971eeb795cb7b079af71b67a639d2e253d43c73e5abad4a5
 Homepage: https://systemd.io
 Description: nss module providing fallback resolution for the current hostname
  This package contains a plugin for the Name Service Switch, providing host
@@ -35053,7 +35053,7 @@ Description: nss module providing fallback resolution for the current hostname
 
 Package: libnss-mymachines
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: admin
@@ -35062,12 +35062,12 @@ Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.deb
 Installed-Size: 491
 Depends: libc6 (>= 2.34)
 Recommends: systemd-container
-Filename: ./libnss-mymachines_261.1-3_amd64.deb
-Size: 212508
-MD5sum: 41fa07e5ed2dc7624198337c073a4314
-SHA1: b34868a92edcbe5d6d443fdbe3c98d124134f319
-SHA256: c33a5d7704eb11ca68cde9de1364a325a2b74015a2af9650809f699aa36def2f
-SHA512: d804a71c13479f4bb462166bc0498d7b7e814e33b5f5499a0b1f2e284e7a2824b8cd18752ce35c8d7b2d09d8df54d37ba6ec56cd38158624179b2628c80ae08f
+Filename: ./libnss-mymachines_261.2-1_amd64.deb
+Size: 212840
+MD5sum: c55a669aa190e05dcf24a562b8beb824
+SHA1: 0caeae703603d3fc81ae9c5b2be97ba91ee0c2dc
+SHA256: 6860d1b474b88ad3eaced58515ae94cd01376add5204e3bd6803d28bdc3de14b
+SHA512: 3ae7d266e5fb4ac5501cf44c1fac404fc78d97a8ee378dabb557ef5dc03ca011d56bf7996090fa04b1dc58fe3d582e0d802b54f0e08c9bc6158dafb9317c18ef
 Homepage: https://systemd.io
 Description: nss module to resolve hostnames for local container instances
  nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
@@ -35079,21 +35079,21 @@ Description: nss module to resolve hostnames for local container instances
 
 Package: libnss-systemd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 556
+Installed-Size: 557
 Depends: libc6 (>= 2.34)
 Recommends: systemd-userdbd
-Filename: ./libnss-systemd_261.1-3_amd64.deb
-Size: 226352
-MD5sum: cba9cfb03d84112884e90a09da18d591
-SHA1: a1f5b38fc78bf007dc651aa14ccc587bb14c7d1a
-SHA256: d79c1e8bc35fc5174a1a90355d6bf86a480cb1f33fbbb238d62cf2a4ee9e9a96
-SHA512: d5854b0205a9c40a26b6dd19e3fa1940e468bff6bf70f69b97d7ae350860caefda18044dbfeaa10cf28769add508643f7169bd92ee419690745e89153f561e7a
+Filename: ./libnss-systemd_261.2-1_amd64.deb
+Size: 226512
+MD5sum: 3fa5a028eefb058d240ca446e1d3b854
+SHA1: d1b78725ad0cc0daf2c818046060e2c46f2487de
+SHA256: 0a7e646ad3f468a2c4e76a107c45d9e99b87355f1fdf849d817e64e799a1d2da
+SHA512: 097352440cc66bef93d6a48a132df18e2777e69123303c25df4fe6f7247e7f78a7d3f88c7798fa75a4cbb54123543a453314c626538fcb892100b5bb77e8931c
 Homepage: https://systemd.io
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
@@ -35968,23 +35968,23 @@ Description: Pluggable Authentication Modules for PAM
 
 Package: libpam-systemd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 785
-Provides: default-logind (= 261.1-3), logind (= 261.1-3)
-Depends: libc6 (>= 2.34), libpam0g, systemd (= 261.1-3), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Provides: default-logind (= 261.2-1), logind (= 261.2-1)
+Depends: libc6 (>= 2.34), libpam0g, systemd (= 261.2-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
 Conflicts: libpam-elogind-compat
-Filename: ./libpam-systemd_261.1-3_amd64.deb
-Size: 316560
-MD5sum: 26a802bcb5fac38b782e5f24db1b5c33
-SHA1: 498de1569174edc42431e3ac4ad2c087475189b0
-SHA256: a72d05ac94c937ad9cadb5133ac9eb325db5baedae235f2bb874b6b1f96e2216
-SHA512: 3b73859b2cd8562f8f82c7f9cf8038a836856a64c3e5ce178cc7c959aafb7a0ea5c59b7738efe9b49e04008774b764f1c2327ac940d2bdb83c3ca981e6705697
+Filename: ./libpam-systemd_261.2-1_amd64.deb
+Size: 317208
+MD5sum: 4825faefb5e7695132c59cadc4336e0e
+SHA1: 94d4bba2e40d83c86529cec1a568d812e5e7783f
+SHA256: 0bde39e2084f4515a82b90a8e98e6da785d81da422f2f1d9a84513a0814c3b89
+SHA512: 617df984bfd8c4567140bd70ce452c0fc113d7387a40efb83358badeb4d3a83bb9daa07d1f1fcaced747685fde3b31017317f80e5f4a6060cf173ff3c908b1ec
 Homepage: https://systemd.io
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
@@ -47822,20 +47822,20 @@ Description: Qt-based interface to system statistics
 
 Package: libsystemd-dev
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 6132
-Depends: libsystemd0 (= 261.1-3)
-Filename: ./libsystemd-dev_261.1-3_amd64.deb
-Size: 1370936
-MD5sum: 56a81a4c60293397849997cc1e4c0cab
-SHA1: fd60f7b15829642271e521432e2c417f2631752b
-SHA256: 043de7616a34d9bc131d21a19f14a85b20edebca3c0adf3bd7b5100967739783
-SHA512: dfa8c237c20b23888bc7f5f67593356cb6dc2a27943160d4fc6bcea03383387e3ad1cd61383f7e6c6954acfa110a21f064dc56bdbf6a478891a7a7811f8a62ac
+Installed-Size: 6146
+Depends: libsystemd0 (= 261.2-1)
+Filename: ./libsystemd-dev_261.2-1_amd64.deb
+Size: 1385444
+MD5sum: 9b639383b13a7aa5fa6299a030764824
+SHA1: 90b8b1ac769b96f49e6c9dc988756517f3f176a1
+SHA256: d99f6eadc54fd7735ceb1d9531aceb453c6b4ba4f6580e8ad65aeee9ceb73a07
+SHA512: 81aefd17cc608cfc9ae67d95cfb5de0d907afbd921e14e43b22696c974835f87a9aa7beabc2ee3eda8be9882184ff3ee30adb1259db516340016cfd6cb784758
 Homepage: https://systemd.io
 Description: systemd utility library - development files
  This library provides APIs to interface with various system components such as
@@ -47846,22 +47846,22 @@ Description: systemd utility library - development files
 
 Package: libsystemd-shared
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 8519
+Installed-Size: 8535
 Depends: libc6 (>= 2.34)
 Recommends: libacl1, libapparmor1, libaudit1, libblkid1, libbpf1, libcrypt1, libcryptsetup12, libkmod2, libmount1, libpam0g, libseccomp2, libselinux1, libzstd1
 Suggests: libarchive13t64, libbz2-1.0, libcurl4t64, libdw1t64, libelf1t64, libfdisk1, libfido2-1, libgcrypt20, libidn2-0, liblz4-1, liblzma5, libmicrohttpd12t64, libp11-kit0, libpcre2-8-0, libpwquality1, libqrencode4, libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, zlib1g
-Filename: ./libsystemd-shared_261.1-3_amd64.deb
-Size: 2565708
-MD5sum: b69385122368859c85e37378efdcd7ee
-SHA1: cab437b35f708bb0d62c7cef67f23aead25710f7
-SHA256: 7eea7c8fa06416606df3d3217849d46690ab672e2192c803002fe8a506d6a756
-SHA512: d1240bffebd71217661e8e146dcc653286a5f2d28f679cb154010a8bc334977db2a8f423b774cde33576074d9dcd602cf095919bc551023a28838cb7e2508a37
+Filename: ./libsystemd-shared_261.2-1_amd64.deb
+Size: 2571312
+MD5sum: b89fe34348fd613d415d2edd650a90a8
+SHA1: 705e20c5107c7c91323ef11a3f0f7ef28f61eab8
+SHA256: 9e8eaa464d61998bddef02d517a0eae04b9457cad78b54e603f3621d6a13365a
+SHA512: d1a5c843ebc53377fb0aafcf1c9880c5bd994a4e799220224a09902ddd872bb29993a9422227f0f03b256cea6f0183d07a8e7cf5127daf90e214d5c0cd7b2f4e
 Homepage: https://systemd.io
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
@@ -47870,7 +47870,7 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47880,35 +47880,12 @@ Installed-Size: 1281
 Depends: libc6 (>= 2.34)
 Recommends: libzstd1
 Suggests: libgcrypt20, liblz4-1, liblzma5
-Filename: ./libsystemd0_261.1-3_amd64.deb
-Size: 466972
-MD5sum: 24a6923268546c7cdddb3a7f00f18d29
-SHA1: db9fced0080303fb58924801b79fa62635854500
-SHA256: 96e3a4d19a23f1e159271cd7875e141df6352b1795da25537742c73eb88bce28
-SHA512: fefccd29e53d70326563e91c14a5eae145414093d9dc6d9553c9813a3cfe7996f3c2d6aabf214859810c43a9e51b019d1c00efe7c4da68c828feb3bfd1b4704b
-Homepage: https://systemd.io
-Description: systemd utility library
- This library provides APIs to interface with various system components such as
- the system journal, the system service manager, D-Bus and more.
-
-Package: libsystemd0
-Architecture: i386
-Version: 261.1-3
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: systemd
-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 1343
-Depends: libc6 (>= 2.42)
-Recommends: libzstd1
-Suggests: libgcrypt20, liblz4-1, liblzma5
-Filename: ./libsystemd0_261.1-3_i386.deb
-Size: 497500
-MD5sum: b07403090d1b598fab6d867045414b4a
-SHA1: 237fe270ee8e15a7560c64290bc1ea0d2d00b1b6
-SHA256: f8dd0ef0bcf429d2c1fa4ecbb99b6e9fa8b2d5f42233a7711cae804caf1dd3f8
-SHA512: 7e557d4744b685af6bc7d45569682ec0320bbd503ac5f0f9029679979330be01d78f466b88bba2a9e88e0dafed1cc95f35906d015fb302250eb1db27f4a72e49
+Filename: ./libsystemd0_261.2-1_amd64.deb
+Size: 468248
+MD5sum: 3c38224892124a7457ac5f363c60ecd9
+SHA1: b8ec59dd0d74f8b95447e984672730410093d43a
+SHA256: 13b8835c64c5fa97ca03107032a73c288962fa0300654a285d78624028cee6b6
+SHA512: f4d1dd0f309bb8c737a3561953a07e1ebb6d37ebce3c7ca453c7fdc8d533e9a89ff6eb5b3148c6957fdfa9496b2bed84cc6af3ff4fa7c0f2ffc6bf398d365c44
 Homepage: https://systemd.io
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
@@ -49021,20 +48998,20 @@ Description: UBSan -- undefined behaviour sanitizer (runtime)
 
 Package: libudev-dev
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 147
-Depends: libudev1 (= 261.1-3)
-Filename: ./libudev-dev_261.1-3_amd64.deb
-Size: 53848
-MD5sum: 7a3514f6dcd04e1f3b5257e398dc8463
-SHA1: a7b9213c35c56fe2c4ba76ae68fe7b1378ed928f
-SHA256: d10da59dbadb4dc9c186b85fcef6f68d76f84c1b368dd14b493e00cc59eaefaf
-SHA512: 20be07c10f05cfadba7996a9933d1096dd1ec483b74107060c3beec501ef54b5650c374de6b5a9344a1d690c5f0fca5f0e2947a5274a6f45141dbac1cfe49e1d
+Depends: libudev1 (= 261.2-1)
+Filename: ./libudev-dev_261.2-1_amd64.deb
+Size: 54020
+MD5sum: afa4e2d0a164e900d587533c821832a7
+SHA1: 197918d29c44db42b22f8e5b6ca4a36aa13c9a7d
+SHA256: c476367bf60d765fa0c72df4bddda21c4ac71fa32504e5de1c5f94e909ad6ea2
+SHA512: cfb20c202c3bac05542fb9496f3acbf55966a1173796a00436329d418a1c57d551c309abfe36a95d4f66e004dbd48af3dfd3ae7356b3e20cc9519c4afd8641c7
 Homepage: https://systemd.io
 Description: libudev development files
  This library provides APIs to introspect and enumerate devices on the local
@@ -49045,7 +49022,7 @@ Description: libudev development files
 
 Package: libudev1
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -49053,33 +49030,12 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 357
 Depends: libc6 (>= 2.34)
-Filename: ./libudev1_261.1-3_amd64.deb
-Size: 138836
-MD5sum: a6ad7c92beb5d3c230fc9a1514761309
-SHA1: a835c8c28f713a5b149f6c68ab1a2656563af515
-SHA256: 66ac6284085f792b5f7f638ce7ed980b5328f871c97e963c1e71f8389b956722
-SHA512: be5915f893f0f31bfaa95699d201729467fb055612fc847619a780e2ef94f294d87aa6516d4e6b2f36dea0a8a8e60c59e3dbb8e4cb0b73e2466b37a35085bac6
-Homepage: https://systemd.io
-Description: libudev shared library
- This library provides APIs to introspect and enumerate devices on the local
- system.
-
-Package: libudev1
-Architecture: i386
-Version: 261.1-3
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: systemd
-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 344
-Depends: libc6 (>= 2.42)
-Filename: ./libudev1_261.1-3_i386.deb
-Size: 142716
-MD5sum: 85b26a26c557f36d48f6c780317768a7
-SHA1: bea75e91928c0c261567aab5deff623558af1233
-SHA256: 5f461800e9d304e2d551f8aef29f4de3720bf13f4219e8f0c7355e34c2bc8eae
-SHA512: f80c7f7a89777ba889110fb88b4828ff700c5c9aed0ec47a60af11e10695ba162376ad56ae2c31bc7ea5ad3174ea965bebab45192cedecda8d269a2be0502a6b
+Filename: ./libudev1_261.2-1_amd64.deb
+Size: 139796
+MD5sum: d63534f63c427e6446c0a1dd9b3bcd2b
+SHA1: fefe8b7ee346fa89e2f661ef78b1942d525c1c85
+SHA256: 23d38d6777cac55b02b999c88f9ff17a9b14a7046b6eeb6d9901cb6bac7df15b
+SHA512: d59d89598d0fe2c16b075d6a6da690a32a0f14a3032e4258f2055f6f28a66573c1242103271e4e77610a2cc52206f2c650918194c37aecded85074669d441f46
 Homepage: https://systemd.io
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
@@ -59765,22 +59721,22 @@ Description: modern CSS selector implementation for BeautifulSoup (Python 3)
 
 Package: python3-talloc
 Architecture: amd64
-Version: 2:2.4.4+samba4.24.4+dfsg-1
+Version: 2:2.4.4+samba4.24.5+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: samba (2:4.24.4+dfsg-1)
+Source: samba (2:4.24.5+dfsg-1)
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 95
 Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libpython3.14 (>= 3.14.1), libtalloc2 (>= 2.0.4~git20101213)
 Breaks: python3-talloc-dev
 Replaces: python3-talloc-dev
-Filename: ./python3-talloc_2%3a2.4.4+samba4.24.4+dfsg-1_amd64.deb
-Size: 33844
-MD5sum: d594106e831fd79bb19023ca1175e727
-SHA1: 26eead254f5f997104f827d3e54475db1213ec86
-SHA256: d24cc857658aec39d39c8b8970cca7802678c2fe5b01b2ce28c750ef71ef9ddb
-SHA512: d577fffe6034d9f3f0587e5c518974c2c13dff1af634cf1b8ace6a28f41f36b04152693e42c17981d8a994751d3cdec1c9def89c901305c2159eb5bd3e6d59bd
+Filename: ./python3-talloc_2%3a2.4.4+samba4.24.5+dfsg-1_amd64.deb
+Size: 34096
+MD5sum: 121a6a7972056575ca3e8845edd7cba1
+SHA1: 4bd6086161bc06e7d3beafe09f3f12ffb5b63518
+SHA256: c3d4350374626ddb3ee1c8c5b929f0715989b056f0fa9878d8cfe08fb6fb3d9c
+SHA512: 654f0d9023b9f518e85224cf808e32d3380a7642f5ac34ad679ef4f45cb66fa2cdea9215cbadf6b63f99290219b9fd1412cfd8c5e352bf77369472c1489a56bc
 Homepage: https://www.samba.org
 Description: hierarchical pool based memory allocator - Python3 bindings
  A hierarchical pool based memory allocator with destructors. It uses
@@ -59790,19 +59746,19 @@ Description: hierarchical pool based memory allocator - Python3 bindings
 
 Package: python3-tdb
 Architecture: amd64
-Version: 2:1.4.15+samba4.24.4+dfsg-1
+Version: 2:1.4.15+samba4.24.5+dfsg-1
 Priority: optional
 Section: python
-Source: samba (2:4.24.4+dfsg-1)
+Source: samba (2:4.24.5+dfsg-1)
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 93
 Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.4), libtdb1 (>= 1.3.11)
-Filename: ./python3-tdb_2%3a1.4.15+samba4.24.4+dfsg-1_amd64.deb
-Size: 35860
-MD5sum: f664998a986e40c5e06c3fec6a0eaa4c
-SHA1: 8a13de26b9bf4c4d53adcbe11d561e204f5ed7b6
-SHA256: 0acb7f86f721c4ac268159ed90f6898441bf8227b15394a5099e81e50c1b89a8
-SHA512: 1f73c4c341181d4ae875369132365a62e97126be505b81e793d71a9b304b7f5bb9766d79cadd519e3c61e5746cff61c3a4b261e99297859510742ca5797870cd
+Filename: ./python3-tdb_2%3a1.4.15+samba4.24.5+dfsg-1_amd64.deb
+Size: 36060
+MD5sum: f7d8d41e9af498420d99e8ff8ef182ef
+SHA1: 858248bfa329039f20f9df945ecdf67989e976f9
+SHA256: 7c896991975644bd3705ce093e877752054c619ac144e0462a7a8bc65e43e9cd
+SHA512: 4fed8b4522274ab93f7ea5f0dc0e6f06ea2327149505c8bd4a3bd9dbd8e5fc59f28a1183ef3836a740f8aafcbe69764be445c8504401c19cfaf368645334be9e
 Homepage: https://www.samba.org
 Description: Python3 bindings for TDB
  This is a simple database API. It is modelled after the structure
@@ -60715,7 +60671,7 @@ Description: QML module for kconfig
 
 Package: qml6-module-org-kde-coreaddons
 Architecture: amd64
-Version: 6.26.0-2
+Version: 6.26.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -60723,12 +60679,12 @@ Source: kf6-kcoreaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 149
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libkf6coreaddons6 (>= 6.26.0), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-coreaddons_6.26.0-2_amd64.deb
-Size: 35828
-MD5sum: c271366884395ab1c6100f6d2687dac7
-SHA1: 50719f9ac13ced1142e9f12eb108a0a6266ab765
-SHA256: d3dc0e751583228a099157f31974a0a93c8fd3f58723a4e95f13f849401d4351
-SHA512: b338ea9f9e4ca564951561805f123ca6b97997f55d11f1e7f197c908680f207c5907fb9ae2dc5ad43122d783ce7e714db1516b954769baf9c79c6d68e77ed32e
+Filename: ./qml6-module-org-kde-coreaddons_6.26.0-3_amd64.deb
+Size: 36056
+MD5sum: 29df100ed614695767c6bea1361f112f
+SHA1: 1e019927536cac54c63f94348c0ad493ffc8a203
+SHA256: 4411ddbf05d7b8483014fa2b7a22345da6568bca13859f81302c57d03012dfd3
+SHA512: 866970e29c741e39293b8085a5050531cb5508f02bf796b2f3fcdeb053780e93394af9bf55b8fc32ce7c46e736101641b7e386e6ca25a7d595dd485876676b80
 Homepage: https://invent.kde.org/frameworks/kcoreaddons
 Description: KDE Frameworks 6 addons to QtCore (QML module)
  KCoreAddons provides classes built on top of QtCore to perform various tasks
@@ -64613,22 +64569,22 @@ Description: System Tools to manage computer configuration -- scripts
 
 Package: systemd-container
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 2722
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd, libmount1, libarchive13t64 | libarchive13
+Installed-Size: 2726
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd, libmount1, libarchive13t64 | libarchive13
 Recommends: libnss-mymachines, default-dbus-system-bus | dbus-system-bus, libarchive13t64, libbpf1, libcryptsetup12, libfdisk1, libseccomp2, libselinux1, libssl3t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-container_261.1-3_amd64.deb
-Size: 847824
-MD5sum: 191d5cc6e547b967f331fb21b36a1ef9
-SHA1: ac31c00021decc3812acc59ae7bb9f4829482c9a
-SHA256: 304af847324d966429cb3dc3737375bc62e622f7c843cbe2257d637d9ed75e9a
-SHA512: 14ccb257ea64959d84ce6176d2aeca55b0fc3509a1968faca3c2b56bc45c633b0a561411aa01da4ecbcd8900da6b4cdd02e10dd7f9dc088a5111f06018e43376
+Filename: ./systemd-container_261.2-1_amd64.deb
+Size: 850600
+MD5sum: 18932ac7bdd98f566783b7967cfa9b12
+SHA1: 4720d09eb3d228c3b11ae40446ead94b033111cc
+SHA256: 0d70a295a329c8733c8c17cca11f7b4b68889272109526078153320006883e8b
+SHA512: 724fae66a4a7f5ff251fd5f51cca92713fde46c8241a9f275c17fd16954f05884d3765b9c4529449ceb00ead98bc1c979c8195233facf961a337b99de030d5d8
 Homepage: https://systemd.io
 Description: systemd container/nspawn tools
  This package provides systemd's tools for nspawn and container/VM management:
@@ -64639,7 +64595,7 @@ Description: systemd container/nspawn tools
 
 Package: systemd-coredump
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
@@ -64647,15 +64603,15 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 258
 Provides: core-dump-handler
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
-Filename: ./systemd-coredump_261.1-3_amd64.deb
-Size: 99048
-MD5sum: b44711b36d1e1713a66602c1f00573bc
-SHA1: 6e5906abd7e94b20300ec8d5ec899b4de086d2b9
-SHA256: 1268b41da44de04427cf389b9aca5cf1feff88dd74ab19120c0c4763d6e71e4a
-SHA512: 3557dba70c8be9211f0dc1bae199b4c7227d07db3338039b679820db6a7e09d4306c185d188604d853002078e7650a1313f988a1ec667e94fcd1eec21003013a
+Filename: ./systemd-coredump_261.2-1_amd64.deb
+Size: 99144
+MD5sum: 5c0bcc3cb081968addc8433c5aff40ba
+SHA1: 2facfd1dfa17d016f71688abfdb24803eb825ffb
+SHA256: 4b3f1f73d3d45ee979dc71c1785780fac7e4df6a409f01c8ab5512a47f3c7e8f
+SHA512: 253dfccf4aa90c217f8a625ca02f61ff5d5a56bd58d1460de9c292ace04f949cf4a207b3b62c65bed1202a9414ebc5f1cb0c023a19b2f9d3aadde11e7e63cbf6
 Homepage: https://systemd.io
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
@@ -64664,21 +64620,21 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-cryptsetup
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 497
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), libcryptsetup12
+Installed-Size: 501
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), libcryptsetup12
 Recommends: libssl3t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-cryptsetup_261.1-3_amd64.deb
-Size: 156096
-MD5sum: 4cfaa64b50a8883f3f0dc7dd89c8d252
-SHA1: 1f45e55e8305849b79de06f28faff433e9499c1a
-SHA256: a8508d435e61e6c14148f706a7dfe8d44272a56ff0d178991fa0a39b2d1dd07c
-SHA512: 866fa590e67f03eb429a4cbc3221dbac7499484263e5f985df96e18ec0556d1ceecb1c08d6ae7fa7008b3dd8c1aedd7efb8107cc772de7fee9a8e5c6a608baec
+Filename: ./systemd-cryptsetup_261.2-1_amd64.deb
+Size: 156680
+MD5sum: 080c3ef7fca8d7dad02212d874c5e6ae
+SHA1: 2c1f8c4ea6d787876d801ac6043d78993a159d29
+SHA256: e2ec21831edbd3775d1c787fc77aaa6fb854e0e0e8f18a7ebd0882217b936fd7
+SHA512: 591a03d04920339febf0e89e2cbecfb1ca713309253f4a2b58f1834520adcbe510136f6175030ab96f5d06c6a94ffe5a230562bd5916b7313a7dfa93b188cfee
 Homepage: https://systemd.io
 Description: Provides cryptsetup, integritysetup and veritysetup utilities
  Utilities and units that integrated cryptsetup/integritysetup/veritysetup
@@ -64686,21 +64642,21 @@ Description: Provides cryptsetup, integritysetup and veritysetup utilities
 
 Package: systemd-oomd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 219
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd | systemd-standalone-sysusers | systemd-sysusers
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd | systemd-standalone-sysusers | systemd-sysusers
 Breaks: systemd (<< 250.2-2~)
 Replaces: systemd (<< 250.2-2~)
-Filename: ./systemd-oomd_261.1-3_amd64.deb
-Size: 81256
-MD5sum: c5854144133dd86355af16139771af01
-SHA1: 146c295068ea715b2a1d2d6a3d92960463e52d3c
-SHA256: cebba74102fc8630b03444634eb798a5c3e88ca7062524d8ec1b1cbcea0ae96d
-SHA512: 2a76f5077b713f98705084eef1b1230d21e7856d063f9fa0ba84f6da4963546742cd9a4daf8a59501d849e93afb1e232ca7ec2e3e319cee9ab76a51f413ff96e
+Filename: ./systemd-oomd_261.2-1_amd64.deb
+Size: 81472
+MD5sum: 5bf42ada64120d41008f375c3a20f7bd
+SHA1: 96e171c46cdf1c8fc8fb3f47ae888b7f40695dad
+SHA256: 1de14dc99706f21c0064115819f72cdb7b2aad0db3da6e256c2c7918c1f1ad7d
+SHA512: 476e119b6ce27e631b43e3dc53dc828d6533a9993c617bceca987fe303d0441855cc0b6641bf4bc21331cf19c8c73f9c6c05eb4828e28c189906aed2b2981be0
 Homepage: https://systemd.io
 Description: userspace out-of-memory (OOM) killer
  systemd-oomd is a system service that uses cgroups-v2 and
@@ -64709,7 +64665,7 @@ Description: userspace out-of-memory (OOM) killer
 
 Package: systemd-sysv
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: important
 Protected: yes
@@ -64718,16 +64674,16 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 76
 Pre-Depends: systemd
-Depends: systemd (= 261.1-3)
+Depends: systemd (= 261.2-1)
 Recommends: libpam-systemd, libnss-systemd
 Conflicts: bfh-container (<< 20211009-22~), file-rc, finit-sysv, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, runit-init, startpar, systemd-shim, sysuser-helper, sysv-rc, sysvinit-core
 Replaces: sysvinit-core
-Filename: ./systemd-sysv_261.1-3_amd64.deb
-Size: 40796
-MD5sum: 5af3b318974409a8765f2cdfb4d49681
-SHA1: dbb41aa4a2f076bbfc7410f4c15fdea17067f134
-SHA256: e899aa2154dff15028e9ece9901bd4e9700b75c3a635152a60c10ee4056558fc
-SHA512: 22829dbd9d5eb9f380ec26838aff7e5b2eafdaf39fbd1130c6d52281e175e10f134b27d733a31f2393df623fd4ad996ec692afe50017c88005d4c57932414cb7
+Filename: ./systemd-sysv_261.2-1_amd64.deb
+Size: 41156
+MD5sum: 4caca7a0a92af7eb32e7d95342e8339b
+SHA1: 1cb0ca727744f79f87e5d78e0a2c43ef8fc2c64a
+SHA256: e84bfea91ab975dbb55a9702a588ea2323c1c43f8986d8a71e7f8bb33026c126
+SHA512: 19533d637d1f84eda83e323d531362735e93879e630513854b4aabbea44a7aea8baffcfbaf82af19ef8b774f368f06b2022a1eef19e4fa7ded1dbde1b1148de9
 Homepage: https://systemd.io
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
@@ -64737,7 +64693,7 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: standard
 Section: admin
@@ -64745,15 +64701,15 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 182
 Provides: time-daemon
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd
 Conflicts: systemd (<< 256.2-2~), time-daemon
 Replaces: time-daemon
-Filename: ./systemd-timesyncd_261.1-3_amd64.deb
-Size: 71116
-MD5sum: 85319a0fc1ad5395864ada9e865ac436
-SHA1: 2b44f65ee54dc2927f36c59cf9936e1adab4e7a3
-SHA256: 82302597001979fe6ff945390b4a518c268f4ac708187aedbad554f1be7a721d
-SHA512: 2908c7915cd603568d85dbada7f7e59d679cbab741dadc5dc147cb183bfe5f40a387f23fb3456677356d537e8c20e9ab4404c1c261931bc7020a2982db0dc56b
+Filename: ./systemd-timesyncd_261.2-1_amd64.deb
+Size: 71296
+MD5sum: 936bc0f5bd381ebca8c984d2e0961cc2
+SHA1: 4781b41eb894888e74bbdf414e980f89385cb530
+SHA256: b020aa9ff075c2f6f16c88e225adca66d7de61ce19ada20ac9705682ef244184
+SHA512: c82d5b88b79728c4948be7d587319914e1cef4cd45ace0af42f908b222c60c861033110172500066fed4b71bc1912d3eebe0b710ff682395fb01f1444066b66a
 Homepage: https://systemd.io
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
@@ -64761,21 +64717,21 @@ Description: minimalistic service to synchronize local time with NTP servers
 
 Package: systemd-tpm
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 515
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, tpm-udev
+Installed-Size: 520
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, tpm-udev
 Breaks: systemd (<< 261-2~)
 Replaces: systemd (<< 261-2~)
-Filename: ./systemd-tpm_261.1-3_amd64.deb
-Size: 157412
-MD5sum: 47f6aca6f8392db40e3326d8ac036488
-SHA1: d431c6a227c67441a79a619cbcc53b322b9e42c7
-SHA256: 4f326749dc02c527d5ab2ccf26091fb6627d2cd96c3dc076094ddc6216591e3d
-SHA512: 12855574229c0710b20e5211c6a658359484f8989fbc3e7dfd099fd934d14b0e75ac6dca0961e3f8d9d5650b88a9731b10dcbafb0175368d69c46cad5dc7901a
+Filename: ./systemd-tpm_261.2-1_amd64.deb
+Size: 158300
+MD5sum: 9b2a6edef17bdf3ed2e7e41ebfca0bb0
+SHA1: b56cd010b2b94d3b925228408b72af88f48af71d
+SHA256: 6384d7565752f61728d4330085c9dbe2b446343a9b8129ee8f0ab7c8ad1ef547
+SHA512: 6e188d4bf2437b60c35981a868464bfc2ea4650f68dc9f8943d7efa748948d4a5d6c4adfcbbc603382b71becd7b99a15e9983da100027e7236a6f5244110719f
 Homepage: https://systemd.io
 Description: Provides tpm2 utilities and units
  Utilities and units that provide tpm2 functionality and support in systemd,
@@ -64783,20 +64739,20 @@ Description: Provides tpm2 utilities and units
 
 Package: systemd-userdbd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 228
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd (= 261.1-3), libnss-systemd (= 261.1-3)
-Filename: ./systemd-userdbd_261.1-3_amd64.deb
-Size: 82788
-MD5sum: 2eac371b8a57e8612b0aafd2360ec044
-SHA1: 1ef64686491b9cc841b76615985cf9c5bd50e20a
-SHA256: bbfd1383f69e2a67f3500c7992828ded46cea0d9a0a5d1c6aad58fb351adf56d
-SHA512: 19365a3f6e2cddf3226203149da7987c8b057545cb61cda331caccfdf1767706db4e3dc41b93c5483f4728f61bf137d8a46bc8486d4afcde811569fed0130cc5
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd (= 261.2-1), libnss-systemd (= 261.2-1)
+Filename: ./systemd-userdbd_261.2-1_amd64.deb
+Size: 82944
+MD5sum: 9004dd2881b9a93b77690fbeea8d6c57
+SHA1: 3167ed2f3ac9a27ec51714f63858bbe4d1838a72
+SHA256: 89c9e51973e322358149e3b7a98fd460d5d5e2dfeff369cab49db9e4c29f4544
+SHA512: 7fb06a19d163ab7ad1bdfb87382b2636ddbc3d99bda557d7c44e3a6aaa16fc62185b7128f978389f5702bb2a4a8cdb07fed62f1db21fd7bd861b9ebb5912257b
 Homepage: https://systemd.io
 Description: dynamic user/group manager
  systemd-userdbd is a system service that multiplexes user/group lookups to all
@@ -64807,25 +64763,25 @@ Description: dynamic user/group manager
 
 Package: systemd
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 11010
-Provides: systemd-sysusers (= 261.1-3), systemd-tmpfiles (= 261.1-3)
-Pre-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3)
-Depends: libblkid1, libmount1, libsystemd0 (= 261.1-3)
+Installed-Size: 11013
+Provides: systemd-sysusers (= 261.2-1), systemd-tmpfiles (= 261.2-1)
+Pre-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1)
+Depends: libblkid1, libmount1, libsystemd0 (= 261.2-1)
 Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, login, mount, systemd-timesyncd | time-daemon, systemd-tpm, systemd-cryptsetup, libacl1, libbpf1, libcryptsetup12, libgcrypt20, libpam0g, libseccomp2, libselinux1, libssl3t64
 Suggests: systemd-container, systemd-homed, systemd-imds, systemd-userdbd, systemd-boot, systemd-report, systemd-resolved, systemd-repart, polkitd
 Conflicts: consolekit, elogind, libpam-ck-connector, opensysusers (<< 0.7.3-4.1~), systemctl, systemd-shim
 Breaks: dracut-core (<< 102-2~), less (<< 563), sicherboot (<< 0.1.6)
-Filename: ./systemd_261.1-3_amd64.deb
-Size: 3327472
-MD5sum: 76707fdcc480c4507afee1c252c6d598
-SHA1: 4f60cde955f65026d9f9eff16aeb973fa412ec4f
-SHA256: 743088eed42c1aa6a8c72de2f7acc2f0d3cc47475b7384250d09b6b8bc5fd196
-SHA512: 78626c528668829544ddf7f71f5799f9931d4986bc8b8c6c119ee0cbcec5cc4c8fd38f2450f4db6c68817d8d13a85d07f7baec63dc8c38501d4604f1c7d55628
+Filename: ./systemd_261.2-1_amd64.deb
+Size: 3329380
+MD5sum: 1dcd15e1f27afc70164b2c3788656b0e
+SHA1: c555b1597b97eed82ece14311c959754dc5f9876
+SHA256: 6dd5641b1fe3f830a8188f56684009d33231d6d814fb65deaf7ecb2f53845207
+SHA512: ee9324c07e54138f62f93d118ef6325c48d69456280be174013c2b1436a8ebc04981a41cdd01ca136444c019b96c096d45bd8cd92a2b13b74726ef8d5cde5ef8
 Homepage: https://systemd.io
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
@@ -70853,24 +70809,24 @@ Description: D-Bus thumbnailing service
 
 Package: udev
 Architecture: amd64
-Version: 261.1-3
+Version: 261.2-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10651
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libblkid1, libkmod2, libudev1 (= 261.1-3)
+Installed-Size: 10652
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libblkid1, libkmod2, libudev1 (= 261.2-1)
 Recommends: libacl1, libmount1, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
 Conflicts: systemd (<< 261.1-3~)
-Breaks: systemd (<< 261.1-3)
+Breaks: systemd (<< 261.2-1)
 Replaces: systemd (<< 261.1-3~)
-Filename: ./udev_261.1-3_amd64.deb
-Size: 1485240
-MD5sum: 00d3a38d5078ba986b1908c007995532
-SHA1: 8cde40cb3a0f95c02471c2d82ddb1defde1d6e6d
-SHA256: b597776fb8bf4996145e72e114929291f0c97e35e5273a4386bc696709c3c853
-SHA512: 12f4a36dbc5bd5cdf91e0d22c31cedf222f878e746544e0adaa841ae5a1cfc1fc9d9ac58dac740b2b01472f11fd929e4ee1078652aa6dcbe27315bd699780c38
+Filename: ./udev_261.2-1_amd64.deb
+Size: 1485344
+MD5sum: 97f701c01d299c3d64aa06f217a1a949
+SHA1: 40d57831a0a1afb4c95e9dc06aabe265b732a210
+SHA256: 8eed7103bd900cb415002bc322b690d8c9f77d7953a40e0115eb53579334085c
+SHA512: 315e00112b921e320da5580256ad0ba468ab3624f1a46fb428beb78a86a3559efa8dacc73f88e78dadf0ac20538ce3c9d785c98a98dadeec2dea6f2efca42af2
 Homepage: https://systemd.io
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
