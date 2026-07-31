@@ -1222,6 +1222,27 @@ Description: Budgie Session Manager
  This package contains the translations and data files
  which are required for a budgie desktop session.
 
+Package: bup
+Architecture: amd64
+Version: 0.33.10-1+b1
+Priority: optional
+Section: admin
+Source: bup (0.33.10-1)
+Maintainer: Robert Edmonds <edmonds@debian.org>
+Installed-Size: 712
+Depends: git, par2, python3 (<< 3.15), python3-pylibacl, python3-pyxattr, python3 (>= 3.14~), python3:any, libacl1 (>= 2.2.23), libc6 (>= 2.38), libpython3.14 (>= 3.14.1), libreadline8t64 (>= 6.0)
+Recommends: bup-doc, python3-fuse, python3-tornado
+Filename: ./bup_0.33.10-1+b1_amd64.deb
+Size: 166392
+MD5sum: 1726574209474333e082f907ed2e77e3
+SHA1: 9cd3119d82c90921abafb3b31512a4cbee3e1932
+SHA256: 48be84d1d2ae36c000e4c21d2801fd47a2c756904ae0a614fe8527a854e2dbd5
+SHA512: c307997a548a562410040d26a8a074754a69c7ad8e420673f0b1aa0f3475a4ecdab13577b8f7f8ff9b3b43ad0d1d688ada682185e3c0d97f9953f10b83a43df5
+Homepage: https://github.com/bup/bup
+Description: highly efficient file backup system based on git
+ bup is a backup tool which stores the backups in a system based around
+ the packfile format from git.
+
 Package: ca-certificates-java
 Architecture: all
 Version: 20260311
@@ -1992,6 +2013,29 @@ Description: system service to manage device colour profiles -- system daemon
  .
  This package contains the dbus-activated colord system daemon.
 
+Package: cracklib-runtime
+Architecture: amd64
+Version: 2.9.6-5.3
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: cracklib2
+Maintainer: Jan Dittberner <jandd@debian.org>
+Installed-Size: 583
+Depends: file, libcrack2 (>= 2.9.6-5.3), libc6 (>= 2.34)
+Recommends: wamerican | wordlist
+Filename: ./cracklib-runtime_2.9.6-5.3_amd64.deb
+Size: 142756
+MD5sum: ef97f7e9976ed620bc3dbec606e69ef9
+SHA1: 69ace1fc69169da5d5b4ff2ae51ea74e8eddedc6
+SHA256: 60f4a3e6f95f9f6cb4c5c2c09cc803be9798916042e12cafaa2ff5e3179abee4
+SHA512: eec5bd76ca1e705d1147b19edd1ef9ef18319601e1df8a38ad225eb21f829adafdb14690a378b318afbaa2f3f49936ef5a8b5758472fae76d0f6fee7e9d7d033
+Homepage: https://github.com/cracklib/cracklib
+Description: runtime support for password checker library cracklib2
+ Run-time support programs which use the shared library in libcrack2
+ including programs to build the password dictionary databases used by
+ the functions in the shared library.
+
 Package: culmus
 Architecture: all
 Version: 0.140-3
@@ -2695,6 +2739,33 @@ Description: Wrapper for various spell checker engines - transitional package
  .
  This empty transitional package is here to ensure smooth upgrades.
 
+Package: enchant
+Architecture: amd64
+Version: 2.8.16+dfsg-4
+Priority: optional
+Section: text
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 97
+Depends: libc6 (>= 2.34), libenchant-2-2 (>= 2.8.2), libglib2.0-0t64 (>= 2.76)
+Breaks: enchant-2 (<< 2.8.16)
+Replaces: enchant-2 (<< 2.8.16)
+Filename: ./enchant_2.8.16+dfsg-4_amd64.deb
+Size: 26200
+MD5sum: 0a31b2c114bb7add3e6edd58470478ac
+SHA1: a515636b8ccad7c4c7a048a4e2f6bc680a37a832
+SHA256: 08d235ed29ae9ba2e90d1548225e5f9af99af23a79f470ee5b96efd91e40ce5e
+SHA512: b04a6fa87641a1465bf14cc7e2055aaaee61d687371d86f1825d30bf68b513d43eca87d2be55ca01e28a983d7a4f5615258d8156d79e957a615279d4cbe55ad7
+Homepage: https://rrthomas.github.io/enchant/
+Description: Wrapper for various spell checker engines (binary programs)
+ Enchant is a generic spell checking library which uses existing
+ spell checker engines such as ispell, aspell and myspell as its backends.
+ .
+ Enchant steps in to provide uniformity and conformity on top of these
+ libraries, and implement certain features that may be lacking in any
+ individual provider library.
+ .
+ This package contains standalone runtime binary programs.
+
 Package: engrampa-common
 Architecture: all
 Version: 1.28.2-1
@@ -2891,6 +2962,59 @@ Description: Comprehensive Image Viewer Using EFL
   * Applying artistic filters to your images, such as black and white and old
     photo.
   * Drag And Drop file operations to easily maintain your photo directories.
+
+Package: evince-common
+Architecture: all
+Version: 49~alpha.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: evince
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 12196
+Filename: ./evince-common_49~alpha.1-1_all.deb
+Size: 1532708
+MD5sum: 906376baac90368e5a9398d5123bd513
+SHA1: fcfed8e70b86ac36081ddad07a32ed1a34a4aa3b
+SHA256: d546bb5671fe2810d2ad13f2572cc0cd2184a90866d785062bb4a9efb98d15b0
+SHA512: 818fdf758125cfd20315aab593bacb898514aeaabc2d16fc983736510aea2f6790c569830a74b18a049dcb03bd5bcd78b71b914a2898d0cbf9f42bcfaa73d82d
+Homepage: https://gitlab.gnome.org/GNOME/evince
+Description: Document (PostScript, PDF) viewer - common files
+ Evince is a simple multi-page document viewer.  It can display and print
+ PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+ Document Format (PDF) and XML Paper Specification (XPS) files.
+ When supported by the document, it also allows searching for text,
+ copying text to the clipboard, hypertext navigation, and
+ table-of-contents bookmarks.
+ .
+ This package contains architecture-independent files for evince.
+
+Package: evince
+Architecture: amd64
+Version: 49~alpha.1-1
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 942
+Provides: djvu-viewer, pdf-viewer, postscript-viewer
+Depends: evince-common (>= 49~alpha.1-1), gsettings-desktop-schemas, libevdocument-4.0-6 (= 49~alpha.1-1), libevview-4.0-5 (= 49~alpha.1-1), shared-mime-info, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.2~alpha), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.17.92), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7)
+Recommends: default-dbus-session-bus | dbus-session-bus
+Suggests: gvfs, nautilus-sendto, poppler-data, unrar
+Enhances: nautilus
+Filename: ./evince_49~alpha.1-1_amd64.deb
+Size: 290656
+MD5sum: fb03859e5eae3123dbd88e384558fafa
+SHA1: a3d804d3f36e5a5bdd769072813f6765ef5209b6
+SHA256: 90dc092a9e90aca32818c7d796db48e263ebf56ba73a6abe2edc3265889f1cf2
+SHA512: 9648e000b46974599b6515d84c2385a004501950c45a5ea89d5e442ea0984cfb01e4c3c19e6ef75bd95eb6f04418081d06472e1fd74b7cf6b93cbc41ead70571
+Homepage: https://gitlab.gnome.org/GNOME/evince
+Description: Document (PostScript, PDF) viewer
+ Evince is a simple multi-page document viewer.  It can display and print
+ PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+ Document Format (PDF) and XML Paper Specification (XPS) files.
+ When supported by the document, it also allows searching for text,
+ copying text to the clipboard, hypertext navigation, and
+ table-of-contents bookmarks.
 
 Package: evolution-data-server-common
 Architecture: all
@@ -3347,6 +3471,94 @@ Description: Firebird command line utilities
   * fbstat -- analyze databases (original name gstat)
   * nbackup -- incremental backup and file-level copy
   * gpre -- preprocess sources with embedded SQL
+
+Package: firefox-esr-l10n-es-ar
+Architecture: all
+Version: 140.13.0esr-2
+Priority: optional
+Section: localization
+Source: firefox-esr
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Installed-Size: 482
+Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Recommends: hunspell-es | myspell-es
+Filename: ./firefox-esr-l10n-es-ar_140.13.0esr-2_all.deb
+Size: 367632
+MD5sum: 9d1a10fe120252554062bd6af3fc7cb4
+SHA1: 4b0e4e5e14da30b46bfff262e6d4a318496b9b0b
+SHA256: efe87a0d5b4693328c8918c14613206474c700a0262963085468ffdc7c6ab557
+SHA512: d874e47db63c61f5529462f357136f22a699ce45d51a439971189167b425d5b0493297da33fcf105c0fe8ee5289a0bfaafc4ec0539b51ad7145e695ea1fa1929
+Description: Spanish (Argentina) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Argentina).
+
+Package: firefox-esr-l10n-es-cl
+Architecture: all
+Version: 140.13.0esr-2
+Priority: optional
+Section: localization
+Source: firefox-esr
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Installed-Size: 483
+Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Recommends: hunspell-es | myspell-es
+Filename: ./firefox-esr-l10n-es-cl_140.13.0esr-2_all.deb
+Size: 368312
+MD5sum: ae276ee8aa9dc63712f2e74fc35ad219
+SHA1: dfd76e78ec5219ed2769bedf6a4424dc0c66da7f
+SHA256: dc58fe2a8cce675cd3cf9413331a64a20d4d1fb44ce35c59ca376ac3231c2596
+SHA512: 756b36c7f51c9f7a8b84e697b82cb25400df9275edeacec1e7fccde37698574782ed4f598f3f00f0d6c2d38b7d6f7ca6de52649e99bb8af466ebe7429d764831
+Description: Spanish (Chile) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Chile).
+
+Package: firefox-esr-l10n-es-es
+Architecture: all
+Version: 140.13.0esr-2
+Priority: optional
+Section: localization
+Source: firefox-esr
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Installed-Size: 483
+Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Recommends: hunspell-es | myspell-es
+Filename: ./firefox-esr-l10n-es-es_140.13.0esr-2_all.deb
+Size: 369080
+MD5sum: 0ff8b9f7d9fc995e5078c5881f2a9722
+SHA1: b4b79325066fa12bf0d4c28fbc8db30e1fc0e7e2
+SHA256: 1b6352e5b74fa672cea738c010ffd7fe0201cf44551eba55022b34d8dd02fcf8
+SHA512: cc718105f5770225e9abacb1487fa1c0979ed0d13dbfce6266645a01c6bfaf4c6f7ea6c8c3e82f24742cfcc36f0439171911cee7bda178968718187e5689a464
+Description: Spanish (Spain) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Spain).
+
+Package: firefox-esr-l10n-es-mx
+Architecture: all
+Version: 140.13.0esr-2
+Priority: optional
+Section: localization
+Source: firefox-esr
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Installed-Size: 483
+Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Recommends: hunspell-es | myspell-es
+Filename: ./firefox-esr-l10n-es-mx_140.13.0esr-2_all.deb
+Size: 368320
+MD5sum: 526fcc8086fbef36fb802a0308c17099
+SHA1: c9814de496c9c5612118fc28b4dc79ecfbae2f1c
+SHA256: 5cd24c7327be3eb69e0504185bcb68265d9c3cc36aa6779819c7dc342dba9342
+SHA512: e87a8ac1ed0f1d40a193c516ec126d46819ddd69f48e5f1a47e4b754c55e243160fb8551281c73977b7a11ca6cc2695879be20bd292ddafb2875a4784974b2ad
+Description: Spanish (Mexico) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Mexico).
 
 Package: firefox-esr
 Architecture: amd64
@@ -8554,6 +8766,36 @@ Description: GObject introspection data for Mutter
  This package contains the GObject introspection data which may be
  used to generate dynamic bindings.
 
+Package: gir1.2-mutter-18
+Architecture: amd64
+Version: 50.2-3
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: mutter
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 544
+Depends: libmutter-18-0 (= 50.2-3), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
+Filename: ./gir1.2-mutter-18_50.2-3_amd64.deb
+Size: 133116
+MD5sum: 2b57e3486f75e414b54c259c21c54ebe
+SHA1: 091679b50a06d6e6b678ab65ee276b4efbbcd405
+SHA256: 8adda1ff4c03e088ae79615158b3b4475e9c3d8c0bebb5773ed522e243bf992f
+SHA512: 5081c8d2ec15f62dd0e1e764e133d9db7ceb6fe277905508a131a1dc65e81eac7977c87cafd8b33711c09a9de56ebca675c5c29fee171914d80e8d838209a179
+Homepage: https://mutter.gnome.org/
+Description: GObject introspection data for Mutter
+ Mutter is a Wayland display server and X11 window manager and
+ compositor library. It contains functionality related to, among other
+ things, window management, window compositing, focus tracking, workspace
+ management, keybindings and monitor configuration.
+ .
+ Internally it uses a fork of Cogl, a hardware acceleration abstraction
+ library used to simplify usage of OpenGL pipelines, as well as a fork
+ of Clutter, a scene graph and user interface toolkit.
+ .
+ This package contains the GObject introspection data which may be
+ used to generate dynamic bindings.
+
 Package: gir1.2-nemo-3.0
 Architecture: amd64
 Version: 6.6.4-1
@@ -10141,6 +10383,32 @@ Description: pink variation of the GNOME-Colors icon theme
  This package provides the GNOME-Illustrious (Pink) variation of the
  GNOME-Colors icon theme.
 
+Package: gnome-keyring
+Architecture: amd64
+Version: 50.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 4325
+Depends: default-dbus-session-bus | dbus-session-bus, gcr (>= 3.4), p11-kit (>= 0.16), pinentry-gnome3, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libgck-1-0 (>= 3.3.90), libgcr-base-3-1 (>= 3.27.90), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libsystemd0
+Recommends: gnome-keyring-pkcs11, libpam-gnome-keyring
+Filename: ./gnome-keyring_50.0-1_amd64.deb
+Size: 706064
+MD5sum: ea90d3566da94e9bbd0f03ddae8f85e6
+SHA1: 864bc0e00667071284c2cccc350a9397ef0da6dc
+SHA256: cbf64e610fcabdab9dd0f341a35c7853f372e17ba9c1b9f9af7c35d008d8e1d2
+SHA512: 492e7677b7f23affe4fba5519e5e3be1c3fbec6a339a925192a836e52fb197bc7903907ed7bfcf3b1cba2bbeda27cfa544e14ae28e2f696f14e3533c6298b9ad
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: GNOME keyring services (daemon and tools)
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+
 Package: gnome-klotski
 Architecture: amd64
 Version: 1:3.38.2-6
@@ -11020,6 +11288,61 @@ Description: game to move tiles so that they reach their places
  Taquin is a computer version of the 15-puzzle and other sliding
  puzzles. The object of Taquin is to move tiles so that they reach their
  places, either indicated with numbers, or with parts of a great image.
+
+Package: gnome-terminal-data
+Architecture: all
+Version: 3.60.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: gnome-terminal
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 8702
+Recommends: gnome-terminal
+Filename: ./gnome-terminal-data_3.60.0-1_all.deb
+Size: 992368
+MD5sum: c7e82d9b0f8b1cc24e960e2000dc9f60
+SHA1: 2299c003396da149604796eff94629dd510effa8
+SHA256: 860b3e8032205c5ab7f0059fe0df361cd79500004d808edf6b1a07bdae397308
+SHA512: 8ae8f05575667c1be0ea64adb2a4b281ce0e9ba832d653f78e65bb7290517e05f9e33273fa3dfa413fec3ca9480094c33ee6f06ac41efc504978cb18e685fcc4
+Homepage: https://wiki.gnome.org/Apps/Terminal
+Description: Data files for the GNOME terminal emulator
+ GNOME Terminal is a terminal emulation application that you can use to
+ perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+ terminals.
+ .
+ This package contains data, help files and localization settings for
+ gnome-terminal, the GNOME terminal emulator application.
+
+Package: gnome-terminal
+Architecture: amd64
+Version: 3.60.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 960
+Provides: x-terminal-emulator
+Depends: default-dbus-session-bus | dbus-session-bus, gnome-terminal-data (<< 3.62), gnome-terminal-data (>= 3.60), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.23.0), libhandy-1-0 (>= 1.5.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libuuid1 (>= 2.16), libvte-2.91-0 (>= 0.84.0), libx11-6
+Recommends: gvfs, nautilus-extension-gnome-terminal, xdg-terminal-exec, yelp
+Filename: ./gnome-terminal_3.60.0-1_amd64.deb
+Size: 238636
+MD5sum: be1f1a1cee18197d146c74261d5bbf3f
+SHA1: 75dc93249d6eca5d311fc23b428b23fb6c812b70
+SHA256: 52410f8ad8af87ff160d33c6b1c481fb37dd19eca9bb9de1760154ca5d3200f6
+SHA512: e18d50281d0688a586c555f63fdca5ef7626f7e21609f85b7e810338a304ea187bb57dedd1c6ef90d6300f024e2fc0d760ccc1db319a34f4ea65ac5a87d7e155
+Homepage: https://wiki.gnome.org/Apps/Terminal
+Description: GNOME terminal emulator application
+ GNOME Terminal is a terminal emulation application that you can use to
+ perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+ terminals.
+ .
+ GNOME Terminal features the ability to use multiple terminals in a single
+ window (tabs) and profiles support.
 
 Package: gnome-tetravex
 Architecture: amd64
@@ -14787,6 +15110,53 @@ Description: extensions to the C++ standard library
  .
  This package contains Abseil's shared libraries.
 
+Package: libabsl20260526
+Architecture: amd64
+Version: 20260526.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: abseil
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2842
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
+Filename: ./libabsl20260526_20260526.0-2_amd64.deb
+Size: 563208
+MD5sum: 87a9b88d433488acec08b16c947292be
+SHA1: f01fb804a73e20026af221068bf8ba31d6e8fb8c
+SHA256: f5d582707a247f92724526b9aae53c28f60ab5fa5c33fd9f31ac3ea9d2b4d880
+SHA512: 8d0774632e022d1776558e2b8e5b01113129dcaa88cdeb51ae98672180c98a09aa2f4522fe43382dcd5c11a6497de65bbf42e9f684470a9282259a00782d8ac1
+Homepage: https://abseil.io/
+Description: extensions to the C++ standard library
+ Abseil is an open-source collection of C++ library code designed to augment the
+ C++ standard library. The Abseil library code is collected from Google's C++
+ codebase and has been extensively tested and used in production. In some cases,
+ Abseil provides pieces missing from the C++ standard; in others, Abseil
+ provides alternatives to the standard for special needs.
+ .
+ This package contains Abseil's shared libraries.
+
+Package: libabw-0.1-1
+Architecture: amd64
+Version: 0.1.4-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libabw
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 336
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), librevenge-0.0-0, libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.1.4)
+Filename: ./libabw-0.1-1_0.1.4-1_amd64.deb
+Size: 117608
+MD5sum: 01007d10b83024c3adcdb1120674d8d6
+SHA1: 087d44dcb8169ed8e1c0c98b206368480b82c4dc
+SHA256: b5a5068ba28adabbec9b6e217d3a2ad9f122c2101833b149fc993198b6c773da
+SHA512: 17f973c92aae3b728c8bee942b3e9a38b3198ac0c67bcfb457638e6f5d820088cc772a0decec6c4917ab0669d8327352d1e2d06fc0bf9a398925e79e159f28f4
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
+Description: library for reading and writing AbiWord(tm) documents
+ Libabw is library providing ability to interpret and import AbiWord
+ documents into various applications.
+
 Package: libaccountsservice0
 Architecture: amd64
 Version: 23.13.9-8+b2
@@ -15383,6 +15753,33 @@ MD5sum: 65865cd2a1777649f675028f887d9b0f
 SHA1: 98e95a2ab12c3f40b4a1a5358438196fa58230d9
 SHA256: 8e6970b2bdf54b1f66a75b78018f9640cda78dca440a15293fdafbcf697cc95e
 SHA512: f16769f66e2d6cd1211b1e44e63de2a2efdffec84930f1e60fef650b64834f7d36295c55b32a96de6ca2d28d2b6b89910fc1194c64b3034e1d6031284d44c287
+Homepage: https://www.alsa-project.org/
+Description: shared library for ALSA applications
+ This package contains the ALSA library and its standard plugins, as well
+ as the required configuration files.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: libasound2t64
+Architecture: i386
+Version: 1.2.16.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: alsa-lib
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Installed-Size: 1394
+Provides: libasound2 (= 1.2.16.1-1)
+Depends: libasound2-data (>= 1.2.16.1-1), libc6 (>= 2.42)
+Suggests: libasound2-plugins (>= 1.0.24)
+Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16.1-1)
+Replaces: libasound2
+Filename: ./libasound2t64_1.2.16.1-1_i386.deb
+Size: 421772
+MD5sum: 3aee64e5c3df3f72fc418eece3f98853
+SHA1: dc1881933603c960bfc86be436accd941555751d
+SHA256: 474e76cae3e058e2bf24e3f86336d29e4086d801d960ec5a6f227d23bc239a98
+SHA512: f57f2b08ce8bbe16af68e249a8c50a30e60a1d7e2b93ea7b60c77602edfa739ee71ce550133caeb69cd6ba606a8289d676e5e530e2fc13895110db7cae7acd7c
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications
  This package contains the ALSA library and its standard plugins, as well
@@ -16440,6 +16837,34 @@ Description: CD/DVD burning library for GNOME - runtime
  .
  This package contains the shared library.
 
+Package: libbrlapi0.8
+Architecture: amd64
+Version: 6.9.1+repack-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: brltty
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 145
+Depends: libc6 (>= 2.38), libsystemd0
+Filename: ./libbrlapi0.8_6.9.1+repack-1_amd64.deb
+Size: 94068
+MD5sum: 6b04ed75d4d8e12b97f20162a7999cd6
+SHA1: f85e3d0cef6b75ffea7554575fabbbc3a6a0a15d
+SHA256: 7e0104389c5a725ca7e12761a2de64d4f449c74d6af15dd3788c147db478e19c
+SHA512: dbe04b35ea8094cba77efa507152b234d56dfc3532171490dbbf54e7ea3ebea9d1f457fbbd97e2b87d93c842a1ef20299cd5e4c55cfd9e5ba1009a60778188a5
+Homepage: https://brltty.com
+Description: braille display access via BRLTTY - shared library
+ BRLTTY is a daemon which provides access to the console (text mode)
+ for a blind person using a braille display.  It drives the braille
+ display and provides complete screen review functionality.
+ .
+ BrlAPI is a library which gives an application access to a braille display and
+ lets it write braille.
+ .
+ This package contains the shared library necessary to run programs which
+ need to communicate with a braille display.
+
 Package: libbsh-java
 Architecture: all
 Version: 2.0b4-21
@@ -16697,6 +17122,29 @@ Description: GNU C Library: Non-essential gconv modules
  C Library's gconv facility, to support encodings other than Latin-1 and UTF
  based.
 
+Package: libc-gconv-modules-extra
+Architecture: i386
+Version: 2.42-17
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: glibc
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 7704
+Breaks: libc6 (<< 2.42-1)
+Replaces: libc6 (<< 2.42-1)
+Filename: ./libc-gconv-modules-extra_2.42-17_i386.deb
+Size: 1105112
+MD5sum: 6dc10251d698c1145142036746f037e9
+SHA1: 495969c9a502cc8c6d41eeeeb85c0a9319681c78
+SHA256: 7f703440d8240c76fa5cb6eff9edb4a0c61e3c91bdd5db8e380ac50c8417d195
+SHA512: fab3c780611f2f68b8db0811a3a67698a3ee3bef0a61c407e2e95e1a74ca4f5103c37f08329432149843bf043a8eaa31e923a2ac6a037555f9c4e6e4941b48c6
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Non-essential gconv modules
+ This package provides additional character set conversion modules for the GNU
+ C Library's gconv facility, to support encodings other than Latin-1 and UTF
+ based.
+
 Package: libc-l10n
 Architecture: all
 Version: 2.42-17
@@ -16742,6 +17190,29 @@ Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
  and link programs which use the standard C library.
 
+Package: libc6-i386
+Architecture: amd64
+Version: 2.42-17
+Priority: optional
+Section: libs
+Source: glibc
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 12165
+Depends: libc6 (= 2.42-17)
+Conflicts: libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-sparc, libc6-sparc64, libc6-x32:i386
+Replaces: libc6-dev-i386
+Filename: ./libc6-i386_2.42-17_amd64.deb
+Size: 2539192
+MD5sum: b153ff34050b088242bf75e4b8f6e307
+SHA1: 33122cb2d9e8ce4fb4158f8222bcc06e5874f080
+SHA256: 83917d4460f7aeceafb41d971540ad691852f452ac33857ae5216dfd218840fc
+SHA512: 762aabe30936671a2e1c055ac0602b8b0d3a50816185ba39359003e3fe7765f735b1787e3990142c0e0f9e89c4deb753e4e0b8fd523aab34e1c696e3b736583e
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: 32-bit shared libraries for AMD64
+ This package includes shared versions of the standard C
+ library and the standard math library, as well as many others.
+ This is the 32bit version of the library, meant for AMD64 systems.
+
 Package: libc6
 Architecture: amd64
 Version: 2.42-17
@@ -16762,6 +17233,34 @@ MD5sum: 3c95ba3cb4ebf11249b559f000fc9b1d
 SHA1: e8faeeea9d7507ecb55f6fdb3dbba557dc014bf0
 SHA256: 23b27afdc6463a607187337c30659d2e3f8d79e83c545e65220ee7692e5b88dc
 SHA512: 6fe886f2285e30b7c1dda967bdfbaaa92a83f857ca9cbc4212cc12229ebc476da55761fa03637e651c634cdf9367e7ba0058e682e8c10a0fd097b43d60bd280c
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+
+Package: libc6
+Architecture: i386
+Version: 2.42-17
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: glibc
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 4810
+Provides: libc6-i686
+Depends: libgcc-s1, libc-gconv-modules-extra (= 2.42-17)
+Recommends: libidn2-0 (>= 2.0.5~)
+Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis
+Conflicts: libc6-i686
+Breaks: base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libfec0 (<< 1.0-26-gc5d935f-1+b3), libhiprtc-builtins5 (<< 5.7.1-5+b1), libqt6webenginecore6 (<< 6.8.2+dfsg-3), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)
+Replaces: libc6-i386, libc6-i686
+Filename: ./libc6_2.42-17_i386.deb
+Size: 1658620
+MD5sum: a95f3fe3c21bc0d67b4f4d37c77123b7
+SHA1: cf1a76c8a93c826bb1eb2a349f4283a19949a6b3
+SHA256: 4bc3c3cd49847212ab9dc88af95b23bb3f75efad8a76283a45c426e8e901eec2
+SHA512: 9fbaeb3c2d03ac689c20d20b005189ed777da10b8f7689b6de9bddba1190113be71d3996d815b8ebec2df70156c75c1a133b065ce1523977913884e1224d9313
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -17730,6 +18229,32 @@ Description: CPU frequency and voltage scaling tools for Linux (libraries)
  .
  This package contains the shared library.
 
+Package: libcrack2
+Architecture: amd64
+Version: 2.9.6-5.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cracklib2
+Maintainer: Jan Dittberner <jandd@debian.org>
+Installed-Size: 238
+Depends: libc6 (>= 2.14)
+Recommends: cracklib-runtime
+Breaks: cracklib-runtime (<< 2.9.2-4)
+Filename: ./libcrack2_2.9.6-5.3_amd64.deb
+Size: 43424
+MD5sum: f2f5ea86fa10ac7fd9522c8716770635
+SHA1: 1cf68c1169c6da83703c64502f29b4e84d17d109
+SHA256: fffd75ecb610e4c5a6b80dccfa864468e3ee7a061daac8e97c10263e9d6ad759
+SHA512: beedaf24a3fd616c6b26d701a0835c3e31e374d8e7386069fff88c1b1ec6bbe03fa981df91ffee2975804666fa8e5bad3444e9b81d427ea2e5dd0ea2ff154a69
+Homepage: https://github.com/cracklib/cracklib
+Description: pro-active password checker library
+ Shared library for cracklib2 which contains a C function which may be
+ used in a passwd like program. The idea is simple: try to prevent
+ users from choosing passwords that could be guessed by crack by
+ filtering them out, at source. cracklib2 is NOT a replacement passwd
+ program. cracklib2 is a LIBRARY.
+
 Package: libcrypt-rc4-perl
 Architecture: all
 Version: 2.02-5
@@ -17777,6 +18302,62 @@ Description: CUE Sheet Parser Library
  Libcue is intended to parse a so called cue sheet from a
  char string or a file pointer. For handling of the parsed
  data a convenient API is available.
+
+Package: libcurl3t64-gnutls
+Architecture: amd64
+Version: 8.21.0-2
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: curl
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 36
+Depends: libcurl4-gnutls (>= 8.21.0-2)
+Filename: ./libcurl3t64-gnutls_8.21.0-2_amd64.deb
+Size: 16968
+MD5sum: fe3685cb63b3b61108c71f0891b38cc3
+SHA1: 1442af2f9fc7578e580618be2dc963611de826b5
+SHA256: c08c71d13ed0bd5e076e2107f4fafbe605a5667c2aff3988edd4fc8003ca6970
+SHA512: bc2bf83d0aaf67175a44908042381f22a0d001efe29d4dc1e86be00070d71e8c50524747bb4237c52a17647253b2025f46d0842e7418e91a56160af348e915fb
+Homepage: https://curl.se/
+Description: transitional package for libcurl4-gnutls
+ This is a transitional package.  It can be safely removed.
+
+Package: libcurl4-gnutls
+Architecture: amd64
+Version: 8.21.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: curl
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 1075
+Depends: libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
+Recommends: ca-certificates
+Breaks: libcurl3t64-gnutls (<< 8.20.0-3~)
+Replaces: libcurl3t64-gnutls (<< 8.20.0-3~)
+Filename: ./libcurl4-gnutls_8.21.0-2_amd64.deb
+Size: 416400
+MD5sum: d98dd1d33e0f9f29a4434a5b3a548abe
+SHA1: 8879effb3ba66ba885d36ce3b6750e81c76da25b
+SHA256: ba5927ccbe56ae983badb14903d50ce83a5a74300746956df1703880c8da7df2
+SHA512: 9ebf62e1473db0da1d49d4a8d401cb4963115bb59fa204d4e29eef39e37bee84f211a4e46b5177499525428e850f72841b8cab1c7af16e5a5f63786a059c83f6
+Homepage: https://curl.se/
+Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
+ FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
+ RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP
+ form based upload, proxies, cookies, user+password authentication (Basic,
+ Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling
+ and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported,
+ fast, thoroughly documented and is already used by many known, big and
+ successful companies and numerous applications.
+ .
+ SSL support is provided by GnuTLS.
 
 Package: libcvc0t64
 Architecture: amd64
@@ -19972,6 +20553,29 @@ Description: EFL advanced canvas library
  and/or savers for various formats: eet, gif, jpeg, png, svg, tiff and
  xpm
 
+Package: libevdocument-4.0-6
+Architecture: amd64
+Version: 49~alpha.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evince
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 680
+Depends: libarchive13t64 (>= 3.4.0), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libdjvulibre21 (>= 3.5.30), libexempi8 (>= 2.5.0), libgdk-pixbuf-2.0-0 (>= 2.39.2), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libgxps2t64 (>= 0.2.1), libkpathsea6 (>= 2026.20260303.78225+ds), libpango-1.0-0 (>= 1.18.0), libpoppler-glib8t64 (>= 22.02.0), libspectre1 (>= 0.2.3), libsynctex2 (>= 2026.20260303.78225+ds), libtiff6 (>= 4.0.3)
+Filename: ./libevdocument-4.0-6_49~alpha.1-1_amd64.deb
+Size: 180908
+MD5sum: 52a84786926b3cc38ea1c4d9f03f16a5
+SHA1: 429abe021ea1c91242083e58bff0b03d5849685b
+SHA256: 62c1053991d8ec144e0594bac674a5ee326eab3408a81bfa1a016c785e5f6132
+SHA512: 2633ecb429b39474868208accc27b7fa76c386eb4e3aa15aac3b94123aba28d23fae09c1211505b97339b3e4ab3787494676b5f93b2126bc18b361e01906bdc7
+Homepage: https://gitlab.gnome.org/GNOME/evince
+Description: Document (PostScript, PDF) rendering library
+ This package contains libevdocument, which performs the rendering of the
+ documents.
+ .
+ It ships with a ps, pdf, dvi, tiff, djvu, comics and xps backend.
+
 Package: libevdocument3-4t64
 Architecture: amd64
 Version: 48.4+dfsg-1
@@ -20089,6 +20693,27 @@ Description: KDE PIM event handling - data files
  .
  This package provides the data files used by the library.
 
+Package: libevview-4.0-5
+Architecture: amd64
+Version: 49~alpha.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evince
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 411
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libevdocument-4.0-6 (>= 49~alpha.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.14.0)
+Filename: ./libevview-4.0-5_49~alpha.1-1_amd64.deb
+Size: 135080
+MD5sum: f7b23121b66b145f9a04891b086f2584
+SHA1: 5e71000faf560010d34ef4a9e8cbb3a30885f933
+SHA256: 2ce63dc196b861f0c494759c20d346685c0fd24367ddd8da3293e10b09fd0a47
+SHA512: 96eeea5d53d59e749f841b18689de32b447ae8a91d429b05383d6205ee18ef2f20aaac4af342df27717ebf0d1df6abd42eb136223b201103d612e12e28899be7
+Homepage: https://gitlab.gnome.org/GNOME/evince
+Description: Document (PostScript, PDF) rendering library - Gtk+ widgets
+ This package contains libevview, which provides GTK+ widgets for displaying
+ documents.
+
 Package: libevview3-3t64
 Architecture: amd64
 Version: 48.4+dfsg-1
@@ -20197,6 +20822,53 @@ Description: libexo common files
  .
  This package contains the common files in use by exo library. It ships
  desktop files and documentation.
+
+Package: libexttextcat-2.0-1
+Architecture: amd64
+Version: 3.4.8-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libexttextcat
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 49
+Depends: libc6 (>= 2.14), libexttextcat-data (= 3.4.8-3)
+Filename: ./libexttextcat-2.0-1_3.4.8-3_amd64.deb
+Size: 15360
+MD5sum: 02c9dd304098cb94b9b35691e1fd91e7
+SHA1: 370e86f0674f3a7a5c789a41ebe3e22004e74ddc
+SHA256: b07096f7d10aaedf3c5e402853528cf0dcdd86d1eb031c6feac3019d99f1fa63
+SHA512: c4d2f1f92deb5eb0735534a02212c33b610819bd23d5d0d9a3df6774e7d95e7fcc3ef6e455f0d1ae8c7af3d877f481283dedfe14fa21bf373528d62915d2b2b1
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Description: Language detection library
+ Libexttextcat is a library with functions that implement the classification
+ technique described in Cavnar & Trenkle, "N-Gram-Based Text Categorization".
+ It was primarily developed for language guessing, a task on which it is known
+ to perform with near-perfect accuracy.
+
+Package: libexttextcat-data
+Architecture: all
+Version: 3.4.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Source: libexttextcat
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 559
+Filename: ./libexttextcat-data_3.4.8-3_all.deb
+Size: 184096
+MD5sum: d522c86cf447aa19757b566bb3cfc39f
+SHA1: 9683a11df769ea123083f7fb6161b0478359b63d
+SHA256: f7683a80cc187e7fc1aadddd2e123ba97fe06ba0b5840020d4e4335a40e49818
+SHA512: e6f68161397783826c7c1771cc3941dc6a07416c56d15cb6aa5f958d62ab87bcf350965cd9cce99979535da2ac9e54a1f9c18976b3aaf3d534643e7709fddece
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Description: Language detection library - data files
+ Libexttextcat is a library with functions that implement the classification
+ technique described in Cavnar & Trenkle, "N-Gram-Based Text Categorization".
+ It was primarily developed for language guessing, a task on which it is known
+ to perform with near-perfect accuracy.
+ .
+ This package provides the libtextcat data files.
 
 Package: libextutils-depends-perl
 Architecture: all
@@ -20351,6 +21023,32 @@ Description: shared library for ffmpegthumbnailer
  configuration flags of ffmpeg.
  .
  This package contains the shared library for ffmpegthumbnailer framework.
+
+Package: libfftw3-single3
+Architecture: amd64
+Version: 3.3.11-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: fftw3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2177
+Depends: libc6 (>= 2.34), libgomp1 (>= 4.9)
+Suggests: libfftw3-bin, libfftw3-dev
+Filename: ./libfftw3-single3_3.3.11-1_amd64.deb
+Size: 737808
+MD5sum: df675ad327bd6892adac60b097f883ef
+SHA1: 56f4cf3fb2cb9c3e41dc3f876fc2327113ed10bf
+SHA256: db75f0947f85db7b76f57862d22ec49c9fb47f362fb4778918b90458829ba25b
+SHA512: f10dd5fcd36a511df9cba9bf002cc84dc82d4974555f48879ede7e6219686dfc3a1e8dfc75b8f19f1acd2e2b5a439418b21e8f08cba3eb703d41d432b9fac8cc
+Homepage: https://fftw.org
+Description: Library for computing Fast Fourier Transforms - Single precision
+ The FFTW library computes Fast Fourier Transforms (FFT) in one or more
+ dimensions. It is extremely fast. This package contains the shared library
+ for single precision transforms.
+ .
+ To get the static library and the header files, you need to install
+ libfftw3-dev. For documentation, see libfftw3-doc.
 
 Package: libflatpak0
 Architecture: amd64
@@ -20812,6 +21510,26 @@ Description: async fingerprint library of fprint project, shared libraries
  allowing fprint to perform non-blocking device tasks.
  .
  This package provides shared libraries.
+
+Package: libfreehand-0.1-1
+Architecture: amd64
+Version: 0.1.3-1
+Priority: optional
+Section: libs
+Source: libfreehand
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 487
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), liblcms2-2 (>= 2.2+git20110628), librevenge-0.0-0, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: ./libfreehand-0.1-1_0.1.3-1_amd64.deb
+Size: 269188
+MD5sum: 35b8397fe1305dc12d327255fe380a20
+SHA1: 389a7c62b28cf7cdbe1175f1c1c4734dcdc4c411
+SHA256: 8850bc1432acc5e841254b1231b737f2daac82b223eebff688aaab98ad1da074
+SHA512: 7a4709d4f82ea31e3a1434d490fa52c214bea379dcd9de0584fa0dd961c5d2ad554a9567c1fbe30f9cf106700643e4cd38b0e02460b1e1d87d9a93c7e4ccdcf3
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: Library for parsing the FreeHand file format structure
+ Libfreehand is library providing ability to interpret and import
+ Adobe/Macromedia drawings into various applications.
 
 Package: libfreerdp-client3-3
 Architecture: amd64
@@ -21761,6 +22479,29 @@ Description: GStreamer editing services (shared library)
  This package contains the shared library for the GStreamer editing
  services.
 
+Package: libgexiv2-0.16-4
+Architecture: amd64
+Version: 0.16.0-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gexiv2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 260
+Depends: libc6 (>= 2.29), libexiv2-28 (>= 0.28.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libstdc++6 (>= 13.1)
+Filename: ./libgexiv2-0.16-4_0.16.0-3_amd64.deb
+Size: 80348
+MD5sum: bb0c69f8e0ed46027703ed7cefad555d
+SHA1: b6ec3337540481527fbab23e40c120d6faae9aa3
+SHA256: 9decbcab1bc8a9841142b1186aef5ad76d08f89aa3c4eae4006d21f1bdb2e52e
+SHA512: f09db0c143f16567aa5883e35032b3fae7de1a0000f96be033d96cb516b1c579275e44fa7230c71d6792c0fc634416ee7a55791dcfe328274af3511820be20cd
+Homepage: https://wiki.gnome.org/Projects/gexiv2
+Description: GObject-based wrapper around the Exiv2 library
+ gexiv2 is a GObject-based wrapper around the Exiv2 library. It makes the basic
+ features of Exiv2 available to GNOME applications.
+ .
+ This package contains the shared library.
+
 Package: libgfortran5
 Architecture: amd64
 Version: 16.1.0-3
@@ -22069,6 +22810,35 @@ MD5sum: a2c338c4cfb6b0ffaa6f58e74b7559be
 SHA1: e9d97f7169936e4592e557aecba91701856d5e36
 SHA256: 776e6ff4aca9a8584b59805f6ea8aacb9311365f32bf26c7b82dad457929ec32
 SHA512: 48740309283f3eddd7ae2f476187c0b8c013cd6a5b4f6812699a7ad22656318f1d82327a10e5d0e3847891f22ab36f7d184abd86ed9da8f12a2c085e41f6dec8
+Homepage: https://gitlab.gnome.org/GNOME/glib
+Description: GLib library of C routines
+ GLib is a library containing many useful C routines for things such
+ as trees, hashes, lists, and strings.  It is a useful general-purpose
+ C library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package contains the shared libraries.
+
+Package: libglib2.0-0t64
+Architecture: i386
+Version: 2.88.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: glib2.0
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 4923
+Provides: libgio-2.0-0 (= 2.88.2-1), libglib-2.0-0 (= 2.88.2-1), libglib2.0-0 (= 2.88.2-1), libgmodule-2.0-0 (= 2.88.2-1), libgobject-2.0-0 (= 2.88.2-1), libgthread-2.0-0 (= 2.88.2-1)
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
+Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
+Suggests: low-memory-monitor
+Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
+Replaces: libglib2.0-0 (<< 2.80.0-7~)
+Filename: ./libglib2.0-0t64_2.88.2-1_i386.deb
+Size: 1604412
+MD5sum: 6877c0e3016a007565d953478c444494
+SHA1: 80847198054fae78feb4ba425b491b60975eb865
+SHA256: 8acf406d2658cca57d8674813b69ffd1d0a98de6ab247a94e752066f2fd3f100
+SHA512: f4e282d85d20d9af207e1313b58c342736e091bcac790cc357f8055a9d24c692ebc2ff26389e560c0e5daef403d5ce75fcc2b72dd62741d2f4a7dd9892f0a4ba
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
@@ -22762,6 +23532,32 @@ MD5sum: 840b54dd51d608738e86e6d922a91deb
 SHA1: 7ba23f0b74d20bcd47b36dfa429cc5e0199428d5
 SHA256: 4c23e2388d2eaecf74cb7143b183f37a41f87c13b1c2499009cef1504ff1d14d
 SHA512: 1fa1d58073c1ca0050dbb857a1142e5ba46d6d76f8a7e93df7a1c76e0cbc2e573d3524afddea609474ec3c2092410a3cf2ecbb343b5556046161fc714114bd79
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: GnuPG development runtime library
+ Library that defines common error values, messages, and common
+ runtime functionality for all GnuPG components.  Among these are GPG,
+ GPGSM, GPGME, GPG-Agent, libgcrypt, pinentry, SmartCard Daemon and
+ possibly more in the future.
+ .
+ It will likely be renamed "gpgrt" in the future.
+
+Package: libgpg-error0
+Architecture: i386
+Version: 1.61-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libgpg-error
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.38)
+Recommends: libgpg-error-l10n
+Filename: ./libgpg-error0_1.61-3_i386.deb
+Size: 95272
+MD5sum: d2d32878d315bf98b4d8248cbc5241e2
+SHA1: 579d7ab4f41ed0c26ae62a5bfd15d458e9d057b8
+SHA256: 09e05449cf04fc77a96e219111fb664f780366f010a981aa9791d4333b9857b3
+SHA512: 3dc114cd176c7be80cf40bca9f6b20e76d0bafa6174263cc36afec25ed9b2c61b342b96b0683df3b841e72d6febc2e38db41b3f344c02db8bcbabdc48ad09776
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: GnuPG development runtime library
  Library that defines common error values, messages, and common
@@ -24419,6 +25215,29 @@ Description: HEIF and AVIF file format decoder and encoder - shared library
  .
  This package contains the shared library.
 
+Package: libhidapi-hidraw0
+Architecture: amd64
+Version: 0.15.0-2+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: hidapi (0.15.0-2)
+Maintainer: Scott Talbert <swt@techie.net>
+Installed-Size: 48
+Depends: libc6 (>= 2.38), libudev1 (>= 183)
+Filename: ./libhidapi-hidraw0_0.15.0-2+b2_amd64.deb
+Size: 12616
+MD5sum: ebb03982e62fea336865ec1d314aed32
+SHA1: 80c35a03847b573f0e44cc2dbaa32c936444d1eb
+SHA256: a3d7343c8998953dd79f049faad99d429bb33dc411a61269f89d3517e737eb90
+SHA512: 0b2959b140f9441a0ecb277d60e14abc639d291d25c315d0148bef32bb7ad166e8cad700e4d3bb9a2509bac0d0aa4a49649fff557e9874b9d89cc5d9106c6e9a
+Homepage: https://github.com/libusb/hidapi
+Description: Multi-Platform library for communication with HID devices (hidraw backend)
+ HIDAPI is a multi-platform library enabling applications to easily
+ interface with Bluetooth and USB HID-class devices.
+ .
+ This package contains the hidraw-based implementation of HIDAPI.
+
 Package: libhsqldb1.8.0-java
 Architecture: all
 Version: 1.8.0.10+dfsg2-2
@@ -24858,6 +25677,62 @@ Description: runtime library for the iniParser INI file reader/writer
  .
  The iniParser library is a simple C library offering INI file parsing
  services (both reading and writing).
+
+Package: libinput-bin
+Architecture: amd64
+Version: 1.31.3-1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: libinput
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libudev1 (>= 183), libwacom9 (>= 2.0.0)
+Filename: ./libinput-bin_1.31.3-1_amd64.deb
+Size: 28040
+MD5sum: 02d27007dff7c0d193726d78498de922
+SHA1: 1004abe0a8ce585e5cf9bd64af039b574bc9c5ca
+SHA256: c47ce8f67cc8519d711306223df74cd9e13bb67d684837e15668a04b8e3aeb4f
+SHA512: 55b9b997ab4533efa44f250dc5d45354cae61fe5c1530e9e8e2b76aa47592aed37cc244450835382dba03263ce9880d59c6750ad54d988d6697bfa6468df9476
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Description: input device management and event handling library - udev quirks
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the udev quirks database and helpers.
+
+Package: libinput10
+Architecture: amd64
+Version: 1.31.3-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libinput
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 473
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.18.0), libinput-bin (>= 1.31.3-1)
+Filename: ./libinput10_1.31.3-1_amd64.deb
+Size: 160208
+MD5sum: 7ec9a073e5fd8f07b99a4cee7b99c57f
+SHA1: 56bf6edf90e0f410536821d4db1adec9de16a30d
+SHA256: 0e2628eec17c8cd54470718afad92976678767231dfcfefb6f012503bf58321a
+SHA512: d5717d851c094882b0281fd048321fc8ccdc07cdbfd031f56e276492dfdb19d3d4b70a066178a81d01a8a3bb4888deb0d156e38afd29c39965aea097e8c05eed
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Description: input device management and event handling library - shared library
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the shared library.
 
 Package: libitext-java
 Architecture: all
@@ -33385,6 +34260,55 @@ Description: library for accessing the Microsoft Graph API
  libmsgraph is a GLib-based library for accessing online service APIs
  using the Microsoft Graph protocol.
 
+Package: libmspack0t64
+Architecture: amd64
+Version: 0.11-1.1+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libmspack (0.11-1.1)
+Maintainer: Marc Dequènes (Duck) <Duck@DuckCorp.org>
+Installed-Size: 113
+Provides: libmspack0 (= 0.11-1.1+b2)
+Depends: libc6 (>= 2.14)
+Breaks: libmspack0 (<< 0.11-1.1)
+Replaces: libmspack0
+Filename: ./libmspack0t64_0.11-1.1+b2_amd64.deb
+Size: 53384
+MD5sum: f1bbf604de73b45856e616d62be7cfc5
+SHA1: 959e3db2963f1ff86737777801565a86050123e0
+SHA256: e43d9b17afb75efe4783ab504639eddcf80aeb5845d0dc98cc1e7ab8c0558ecd
+SHA512: 4f89e9354291f11d26a6444a491264a4cb2bd8dab48abb619e1be54b9f90826012d97033646bb7d6bfc8e6dd7b19343bc73b12f25322526cad74f33d52a929a4
+Homepage: https://www.cabextract.org.uk/libmspack/
+Description: library for Microsoft compression formats (shared library)
+ The purpose of libmspack is to provide both compression and decompression of
+ some loosely related file formats used by Microsoft. The intention is to
+ support all of the following formats: COMPRESS.EXE [SZDD],
+ Microsoft Help (.HLP), COMPRESS.EXE [KWAJ], Microsoft Cabinet (.CAB),
+ HTML Help (.CHM), Microsoft eBook (.LIT), Windows Imaging Format (.WIM),
+ Exchange Offline Address Book (.LZX).
+
+Package: libmspub-0.1-1
+Architecture: amd64
+Version: 0.1.5-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libmspub
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 462
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0, libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Filename: ./libmspub-0.1-1_0.1.5-1_amd64.deb
+Size: 174376
+MD5sum: e1ca3d6b3e5b7e9bbd57834ce68def2a
+SHA1: 25632a684418b04c3d7de97502d3fc1264c976a2
+SHA256: f9c5444d435a3c97a13158c052d3d4e131c1f397993d8fa3994a302c7b799c14
+SHA512: 0875e493e083410d0491a37d38047f729d98ac065b3ca92128d034262d2ca045e41fb164af922ead1216aa2976be4724ef463cca6cfddbcfd26d05755a9d6ef1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libmspub
+Description: library for parsing the mspub file structure
+ Libmspub is library providing ability to interpret and import mspub
+ diagrams into various applications.
+
 Package: libmuffin0t64
 Architecture: amd64
 Version: 6.6.3-1
@@ -33562,6 +34486,62 @@ Description: window manager library from the Mutter window manager
  This package contains the window manager shared library, used by mutter
  itself, and gnome-shell.
 
+Package: libmutter-18-0
+Architecture: amd64
+Version: 50.2-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mutter
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5065
+Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 40~alpha), mutter-common (>= 50~beta), mutter-common-bin (>= 49.0), libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcanberra0 (>= 0.2), libcolord2 (>= 1.4.5), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libegl1, libeis1 (>= 1.5.0), libfribidi0 (>= 0.19.2), libgbm1 (>= 21.3.0~rc1), libgl1, libglib2.0-0t64 (>= 2.83.0), libglycin-2-0 (>= 2.0~beta.2), libgnome-desktop-4-2t64 (>= 3.17.92), libgraphene-1.0-0 (>= 1.10.0), libgudev-1.0-0 (>= 238), libharfbuzz0b (>= 0.6.0), libinput10 (>= 1.30.0), liblcms2-2 (>= 2.6), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.18.0), libpipewire-0.3-0t64 (>= 1.6.1), libpixman-1-0 (>= 0.11.2), libstartup-notification0 (>= 0.11), libsystemd0 (>= 226), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-server0 (>= 1.24.0), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbregistry0 (>= 1.0.0), libxrandr2 (>= 2:1.2.99.3)
+Breaks: gnome-kiosk (<< 50~rc~), gnome-shell (<< 50~rc~), xwayland (<< 2:23.1.0)
+Filename: ./libmutter-18-0_50.2-3_amd64.deb
+Size: 1502304
+MD5sum: 63b4e9b44b604fa21d8a3caf848b990c
+SHA1: aaad513bda99f41c33781393d2c5163f74182f6c
+SHA256: 2d3af3faacd02c3db3f875e24a5b9ce2249d4a1443e3992df290a01e186e0b37
+SHA512: 897683956267ab77b89f894853ae678bee81d6726e8c2f40284f707a5e8dc5d4acf55781e6df35f60e08fedb9ea272e08b3e8be0b1dffb64836d50f78eb729e9
+Homepage: https://mutter.gnome.org/
+Description: window manager library from the Mutter window manager
+ Mutter is a Wayland display server and X11 window manager and
+ compositor library. It contains functionality related to, among other
+ things, window management, window compositing, focus tracking, workspace
+ management, keybindings and monitor configuration.
+ .
+ Internally it uses a fork of Cogl, a hardware acceleration abstraction
+ library used to simplify usage of OpenGL pipelines, as well as a fork
+ of Clutter, a scene graph and user interface toolkit.
+ .
+ This package contains the window manager shared library, used by mutter
+ itself, and gnome-shell.
+
+Package: libmythes-1.2-0
+Architecture: amd64
+Version: 2:1.2.6-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mythes
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 30
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: ./libmythes-1.2-0_2%3a1.2.6-1_amd64.deb
+Size: 8152
+MD5sum: ddf7aab36471e8377e3d03bc7da38810
+SHA1: dcd64da6e6f4c070143b633d9e308feceb8aa897
+SHA256: 891d418fd69ff99efc49ab68d2a8fd382e700870c75618a03ce0646452106de6
+SHA512: d3ec8a2bbf0acdce4a437a3cfbadbadf5cc46aec07690f01583c88926f94efce50417b610595251ac358e260a064ff598b0f9abbed51cc2760ce5579dc5a8ded
+Homepage: https://github.com/hunspell/mythes
+Description: simple thesaurus library
+ MyThes is a simple thesaurus that uses a structured
+ text data file and an index file with binary search
+ to lookup words and phrases and return information
+ on part of speech, meanings, and synonyms
+ .
+ This package contains the shared library.
+
 Package: libnatpmp1t64
 Architecture: amd64
 Version: 20230423-1.2+b5
@@ -33695,6 +34675,86 @@ Description: HTTP and WebDAV client library (GnuTLS enabled)
    * autoconf macros supplied for easily embedding neon directly inside an
      application source tree.
 
+Package: libnghttp3-9
+Architecture: amd64
+Version: 1.17.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: nghttp3
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 206
+Depends: libc6 (>= 2.14)
+Filename: ./libnghttp3-9_1.17.0-1_amd64.deb
+Size: 68104
+MD5sum: 3041cbc21e4a097f897ff5dfa9be1f9a
+SHA1: 6fa22b445c207680d3bba2001c5d432c266e1f00
+SHA256: 56b36ea1945fd79e3dd4186fbfb6aff6d047c43fe67b9b28403a24365e5e8f57
+SHA512: 0718742c516f79544abd1e71a5004366936c6dac653386b0c2e9b429e4dfdc0cae6f2b489f7817288304f18a8f570669d613d4642d51f942a249cac02beca270
+Homepage: https://github.com/ngtcp2/nghttp3
+Description: HTTP/3 mapping over QUIC and QPACK (library)
+ nghttp3 is an implementation of HTTP/3 mapping over
+ QUIC (RFC 9114) and QPACK (RFC 9204). The library is
+ written in C.
+ .
+ This package contains the shared library.
+
+Package: libngtcp2-16
+Architecture: amd64
+Version: 1.24.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ngtcp2
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 389
+Depends: libc6 (>= 2.25)
+Filename: ./libngtcp2-16_1.24.0-1_amd64.deb
+Size: 144968
+MD5sum: a05349f47aa604d5125e4a3b561c7404
+SHA1: 6bb917e6ac22e392b93189e6f4a27b7583008654
+SHA256: c7cc3ddab5bfa468597e857c2c5c89a442263c9155576e9e4a629660c0ca19c5
+SHA512: 2b23c5e71e899e9b9fbea48df91478930673af4575c1b28c006889e056a80c4196d1ee1183f13627f9dbfae4485e3b4e30ea2dbf190d27e4616a84d5222df30c
+Homepage: https://github.com/ngtcp2/ngtcp2
+Description: QUIC protocol library
+ ngtcp2 project is an implementation of QUIC protocol,
+ standardized in RFC 9000.
+ .
+ QUIC is a transport protocol that multiplexes stream of
+ data over UDP, providing low-latency, secure and reliable
+ connections.
+ .
+ This package contains the shared library.
+
+Package: libngtcp2-crypto-gnutls8
+Architecture: amd64
+Version: 1.24.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ngtcp2
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 76
+Depends: libc6 (>= 2.14), libgnutls30t64 (>= 3.8.2), libngtcp2-16 (>= 1.24.0)
+Filename: ./libngtcp2-crypto-gnutls8_1.24.0-1_amd64.deb
+Size: 23880
+MD5sum: 84355ba207ef0882ee7e585a08fe303d
+SHA1: d118c79ed5fa5c197e0fe3ba18eab1c4926b4b66
+SHA256: 318e930e203fc34b65a65b12673d7cfdfd101d32553b96581eef2fee81f42948
+SHA512: 719ee76932bdef871b80fb4f4cf8ea3fa0c5f8a33d0f030a3e646ea5776058605ebb62a245bdf486b263cda07488b4970cb82eec7778640de86c97bfcee8db13
+Homepage: https://github.com/ngtcp2/ngtcp2
+Description: crypto helper library for with GnuTLS backend
+ ngtcp2 project is an implementation of QUIC protocol,
+ standardized in RFC 9000.
+ .
+ QUIC is a transport protocol that multiplexes stream of
+ data over UDP, providing low-latency, secure and reliable
+ connections.
+ .
+ This package contains the shared library.
+ .
+ TLS support is provided by GnuTLS.
+
 Package: libnl-3-200
 Architecture: amd64
 Version: 3.12.0-2+b1
@@ -33782,6 +34842,33 @@ MD5sum: d4b8f1d15099766c6e21a39eb3cc41c0
 SHA1: a610b4b11369d997e866781754b69e7998e12119
 SHA256: f89e28125b754ab382c197b736e9214f6e7b11018d35aa6b16184cbc72f665c7
 SHA512: 1b764a941ba35f5043a5f6f95c59f0aab7f6529d137221e8fe1ceec2073f339e883891240475ded011b04491cc1a643dc8c36daf4291f5784aa2761ac56c1506
+Homepage: https://networkmanager.dev/
+Description: GObject-based client library for NetworkManager
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains a convenience library to ease the access to
+ NetworkManager.
+
+Package: libnm0
+Architecture: i386
+Version: 1.56.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1728
+Depends: libc6 (>= 2.42), libglib2.0-0t64 (>= 2.44.0), libgnutls30t64 (>= 3.7.2), libudev1 (>= 183)
+Filename: ./libnm0_1.56.1-1_i386.deb
+Size: 484496
+MD5sum: dec71aee7a8b1d119908f9c0f0c12256
+SHA1: 491af81fc611151228920b09a92df7b838ef4ceb
+SHA256: 070e1d7061c514674bfa084aeec7ff0482f8a74d661c413c46255dad03c559e3
+SHA512: f1cbe8d1be84e867ef555a35cad90c5852501a3100a9aa534da573c4934393ccc66ca5e7a22d1c6680355269d984df3062958eea96e69d6f218e4d5564cad284
 Homepage: https://networkmanager.dev/
 Description: GObject-based client library for NetworkManager
  NetworkManager is a system network service that manages your network devices
@@ -34499,6 +35586,31 @@ Description: HTJ2K image compression/decompression library (runtime files)
  .
  This package installs the runtime files.
 
+Package: libopenjph0.28
+Architecture: amd64
+Version: 0.28.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: openjph
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 539
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
+Filename: ./libopenjph0.28_0.28.1-1_amd64.deb
+Size: 159164
+MD5sum: 19b78c3fd143cbfd7785b0e43bd47b11
+SHA1: 26f17cf92d1e3438ad3412b53ebf1ff741f485cc
+SHA256: b4d076f530117b090368592b5f0d8796ff0b939c9ead2e2857eb3cba3826e6f7
+SHA512: 9c618f301d5c5b128d6d91c6b20518361c938b738f46798528e746dd08fadab1f45774dec3093dbdc566cfb0383f3a578e921c73aca60088c02b8a4f194c845e
+Homepage: https://github.com/aous72/OpenJPH
+Description: HTJ2K image compression/decompression library (runtime files)
+ Implementation of High-throughput JPEG2000 (HTJ2K), also known as JPH, JPEG2000
+ Part 15, ISO/IEC 15444-15, and ITU-T T.814. This library only implements HTJ2K
+ only, supporting features that are defined in JPEG2000 Part 1 (for example, for
+ wavelet transform, only reversible 5/3 and irreversible 9/7 are supported).
+ .
+ This package installs the runtime files.
+
 Package: libopusfile0
 Architecture: amd64
 Version: 0.12-4+b4
@@ -34728,6 +35840,37 @@ Description: Library for accessing PackageKit using Qt6
  software packages or searching for multimedia codecs and file handlers.
  .
  This package provides a library to access PackageKit using Qt6.
+
+Package: libpam-gnome-keyring
+Architecture: amd64
+Version: 50.0-1
+Multi-Arch: same
+Priority: optional
+Section: admin
+Source: gnome-keyring
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: libpam-runtime (>= 1.0.1-6), libc6 (>= 2.33), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~)
+Recommends: gnome-keyring
+Filename: ./libpam-gnome-keyring_50.0-1_amd64.deb
+Size: 16908
+MD5sum: 9d05054c877eb5ce9e582ae27a3f2fa0
+SHA1: 62f9573f7174ccb49fe4de0cbde54993132e1313
+SHA256: b494efe32c8dbadd9d928c6e5bf0438bac547bdcaf2898f6c03e85165e31d274
+SHA512: e1000d95b548802611eae562cb7da4f2b88c16aa424e28a00c27973b2defcb7ef4e4489416280e698245fbaceaabec56c7650d967500968b4e8dedf99cee87be
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Description: PAM module to unlock the GNOME keyring upon login
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ This package contains a PAM module that will automatically unlock the
+ keyrings using your login password, making gnome-keyring usage
+ transparent without losing its security benefits.
+ .
+ When installed, this module will automatically be used by GDM and
+ gnome-screensaver to unlock your keyrings when logging in and when
+ unlocking the screen saver.
 
 Package: libpam-kwallet-common
 Architecture: all
@@ -35823,6 +36966,30 @@ Description: polkit Authorization API
  .
  This package contains a library for accessing polkit.
 
+Package: libpoppler156
+Architecture: amd64
+Version: 26.01.0-5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: poppler
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Installed-Size: 4989
+Depends: libc6 (>= 2.38), libcurl4-gnutls (>= 8.20.0-3~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgpgmepp7 (>= 2.1.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), zlib1g (>= 1:1.1.4)
+Recommends: poppler-data
+Suggests: gpgsm (>= 2.2.42)
+Filename: ./libpoppler156_26.01.0-5_amd64.deb
+Size: 2115876
+MD5sum: abb0cf5b25b8f822b2761929c7658f8f
+SHA1: 25582d3110b16f9233fb70ef5af392e1b312eabd
+SHA256: 003d82bcf7a89b27685a77838ffbe3c4084455d5ce4282c81b461b8e255b8600
+SHA512: 762077d4c5425dd3e145f8f51ccfa92c4880ff5c0eb646ceb8fae40cafb7a16461956d5ee2e7a31dada6167597c140d88e38d6e5a3f0a44295b11f3fb85573be
+Homepage: https://poppler.freedesktop.org/
+Description: PDF rendering library
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the shared core library.
+
 Package: libportal-gtk3-1
 Architecture: amd64
 Version: 0.10.0-1
@@ -36106,6 +37273,154 @@ SHA512: 3fa1bdfe058a172d643847505495ed3b89c8905c0c92e85cfd5128d33a9fd1930444bef9
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: pTeX encoding library
  library for encoding support in pTeX, a Japanese TeX engine.
+
+Package: libpwquality-common
+Architecture: all
+Version: 1.4.5-5
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: libpwquality
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 456
+Breaks: libpwquality-tools (<< 1.4.1-2~)
+Replaces: libpwquality-tools (<< 1.4.1-2~)
+Filename: ./libpwquality-common_1.4.5-5_all.deb
+Size: 51856
+MD5sum: 59a3cb3016a20c47a035feeb9665b504
+SHA1: 93f4a07f788e3045195f87e2e92f0d21f819fc82
+SHA256: fd4faa77458c41c98507c94762e8a4fd663d8caf7d05865aba3f653c32d25d76
+SHA512: 756e9eeb696cb2728abb326bc489c193a949b30b39ef0693b953101152d69d58b0a2e99124d8b2505f183775f0aee68537c0dd68a6ce27671baff6fb0caf886a
+Homepage: https://github.com/libpwquality/libpwquality
+Description: library for password quality checking and generation (data files)
+ libpwquality's purpose is to provide common functions for password
+ quality checking and also scoring them based on their apparent randomness. The
+ library also provides a function for generating random passwords with good
+ pronounceability.
+ .
+ This package contains the configuration file and man page for libpwquality.
+
+Package: libpwquality1
+Architecture: amd64
+Version: 1.4.5-5+b3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libpwquality (1.4.5-5)
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: libpwquality-common, libc6 (>= 2.38), libcrack2 (>= 2.8.14)
+Filename: ./libpwquality1_1.4.5-5+b3_amd64.deb
+Size: 12988
+MD5sum: 41de5a119f024eb5deeff42188fa125e
+SHA1: bb56d44d0789fd445281676a13ddfa5611c919a6
+SHA256: 68805a186ad301dbaaa44b1102741423eef8846d693be9eb9521713d4f7d4f4e
+SHA512: b513b0205cfe5974fbd10035e4a2506faca3927e805d2fef6d1011010afe6e3b90cd449ad5b5dfbfe35a1152bc4be7b6ea9212fe8e7534e74cedfc4c49428ece
+Homepage: https://github.com/libpwquality/libpwquality
+Description: library for password quality checking and generation
+ libpwquality's purpose is to provide common functions for password
+ quality checking and also scoring them based on their apparent randomness. The
+ library also provides a function for generating random passwords with good
+ pronounceability.
+ .
+ This package contains the shared library.
+
+Package: libpython3-stdlib
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3-defaults
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 26
+Depends: libpython3.14-stdlib (>= 3.14.6)
+Filename: ./libpython3-stdlib_3.14.6-1_amd64.deb
+Size: 8108
+MD5sum: a923382135be811660920b00dbe23b38
+SHA1: fbae3aa801ea8b99e789ba9ef01542ec26e5507a
+SHA256: 2047ae88f078cb0e27fd8635a903b7918469936520f65f21e0a58b6e0dd68e84
+SHA512: 28b81def4a9b1cb24c7bb67be1018996a1360b78d33b9599ee08b109e4ff4cd649ede5f419bc24a02c197150756436b826eb4961f5d87cde76500921e2d3b3d5
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+ This package contains the majority of the standard library for the Python
+ language (default python3 version).
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's standard library (currently v3.14).
+
+Package: libpython3.14-minimal
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3.14
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 5644
+Depends: libc6 (>= 2.14), libssl3t64 (>= 3.4.0)
+Recommends: libpython3.14-stdlib
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: libpython3.14-stdlib (<< 3.13.1-3~)
+Replaces: libpython3.14-stdlib (<< 3.13.1-3~)
+Filename: ./libpython3.14-minimal_3.14.6-1_amd64.deb
+Size: 895808
+MD5sum: 1738269f82249b12b01bad14c5f5d7db
+SHA1: 2a57ab7c3d9af3a70ed9b6389e767849d74bb447
+SHA256: 411a4bc7d864624b193736f90b64fcb56137cc1c7761b0d1c2ac1a51b5f66752
+SHA512: 8d7f8d4609c8a107264ab3030da3bba29966f39535e05eca224cd95e9def3b312e4c08957af8bb8cddddc600b461de1a8ed78de68dd1f250a7ed3efe356b6373
+Description: Minimal subset of the Python language (version 3.14)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.14-minimal.
+
+Package: libpython3.14-stdlib
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3.14
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 10045
+Depends: libpython3.14-minimal (= 3.14.6-1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.42), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), libzstd1 (>= 1.5.5)
+Filename: ./libpython3.14-stdlib_3.14.6-1_amd64.deb
+Size: 2277716
+MD5sum: 94a545923d66f00353754fdedbdd4779
+SHA1: e5104c3e1cb50628f6f5a7fd29de8c3d55407db1
+SHA256: ece5aa69f2d5b7f69b281f77cb84d3e02e6bc4cf6e1c5f5a15cd46dfe77c1610
+SHA512: 53beee1ffbf917fc2040df2ece42ed612670659f01731701e69b72642367c1b736a06d86fc47dba413414e1a0357ae97db5d768f42647d1024298efeb9948643
+Description: Interactive high-level object-oriented language (standard library, version 3.14)
+ Python is a high-level, interactive, object-oriented language. Its 3.14 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.14's standard library. It is normally not
+ used on its own, but as a dependency of python3.14.
+
+Package: libpython3.14
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: python3.14
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 8139
+Depends: libpython3.14-stdlib (= 3.14.6-1), libc6 (>= 2.38), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Replaces: libpython3.14
+Filename: ./libpython3.14_3.14.6-1_amd64.deb
+Size: 2376168
+MD5sum: de3f8dbb9a686d49b92686e29deb0207
+SHA1: f055adecb6c22de9186aa62ac40f6bbf28b77496
+SHA256: 968b19f131fa558cef0d94695551beb9156b9d92b8e1bed01ec76d41a6676c16
+SHA512: 4c2f5efbc034da927dbfcb74125567128db33a36a83a9028082f9cea203cb28d9e58e9842f1caec0cde94d3a27eb398a1ca161c4bf577638243127236d8a0123
+Description: Shared Python runtime library (version 3.14)
+ Python is a high-level, interactive, object-oriented language. Its 3.14 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
 
 Package: libqalculate-data
 Architecture: all
@@ -38207,6 +39522,26 @@ Description: Qt/C++ wrapper over minizip - Version 1 (Qt6) - development files
  This package contains development files for version 1 of the library,
  compiled for use with Qt version 6.
 
+Package: libqxp-0.0-0
+Architecture: amd64
+Version: 0.0.3-1
+Priority: optional
+Section: libs
+Source: libqxp
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 411
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0, libstdc++6 (>= 11)
+Filename: ./libqxp-0.0-0_0.0.3-1_amd64.deb
+Size: 130724
+MD5sum: 3101155f04c07e440152cf64ec1a140f
+SHA1: 19d352c5caa44d0c86b46ecc09b465053dd7289d
+SHA256: ee1a4e98ddfb93f74d4346487f4c5a737803b91f74e4fb993ac2d2c489c9a00b
+SHA512: dfcd3e92dd5eb2f3edffc47c103894e8b031a1c7104a96a7f6500f20a1fc857fee7e7c00f26ad48ce4393312b1a8a9846e68aaa8b7df637eeb64d6fe732015f9
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: library for reading and converting QuarkXPress files
+ libqxp is a library and a set of tools for reading and converting
+ QuarkXPress file format. It supports versions 3.1-4.1 currently.
+
 Package: libraqm0
 Architecture: amd64
 Version: 0.10.5-1
@@ -38277,6 +39612,29 @@ Description: Raven library for budgie-desktop
  sub-systems such as GVC and gnome-settings-daemon.
  .
  This provides the budgie-desktop user-defined settings called raven.
+
+Package: libraw25
+Architecture: amd64
+Version: 0.22.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libraw
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 2601
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libstdc++6 (>= 5.2)
+Filename: ./libraw25_0.22.1-1_amd64.deb
+Size: 423592
+MD5sum: 2ad2735a084ba17021d09d9afe96a2a2
+SHA1: 402b436b1f48a0d19ccad3a845685d174cb56a1a
+SHA256: 1e8b156c9fbcdc4e56186e6e9c9709f502c79ede8e698da9f23ccc26e54a313e
+SHA512: 42fb3d28aa265aca6901cce7b85ae07fb4933126d5b8273189d9aaeec8ae4074caa02d8850702f76b6b913264423745df540910cdd6d9222b28fc7a8585e4d96
+Homepage: https://www.libraw.org
+Description: raw image decoder library
+ LibRaw is a library for reading RAW files obtained from digital photo cameras
+ (CRW/CR2, NEF, RAF, DNG, and others).
+ .
+ This package contains the shared library.
 
 Package: librda-common
 Architecture: all
@@ -44941,6 +46299,27 @@ Description: REST service access library
  claim to be "RESTful".  It includes convenience wrappers for libsoup and
  libxml to ease remote use of the RESTful API.
 
+Package: librevenge-0.0-0
+Architecture: amd64
+Version: 0.0.6-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: librevenge
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 826
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./librevenge-0.0-0_0.0.6-1_amd64.deb
+Size: 284728
+MD5sum: f0c87342af313b778512c032ef83654c
+SHA1: 62174ddce2f1b1074025f84f81ee17c2c1c5264b
+SHA256: 0af8cfc91de81056b1f51e398dc6a00b35493aad6cbe562e1e699e11889e37f2
+SHA512: 69192417f9cee2c1769083093e9bfd9cc8b4d8420a6751f93c4ad224d6bf0fa1e7cd9fb3d9275bfb89d6c50f06df13371abe5d1a32e4e8690d8694e1778aaac7
+Homepage: https://sourceforge.net/p/libwpd/wiki/librevenge/
+Description: Base Library for writing document interface filters
+ librevenge is a base library for writing document import filters. It has
+ interfaces for text documents, vector graphics, spreadsheets and presentations.
+
 Package: librhino-java
 Architecture: all
 Version: 1.7.15.1-0.1
@@ -46134,6 +47513,29 @@ Description: Single-Sign-On with CA for Entra via Himmelblau (library)
  .
  Contains the shared library.
 
+Package: libstaroffice-0.0-0
+Architecture: amd64
+Version: 0.0.8-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libstaroffice
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 2578
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), librevenge-0.0-0 (>= 0.0.6), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./libstaroffice-0.0-0_0.0.8-1_amd64.deb
+Size: 759420
+MD5sum: eb6dd56bdae63da476c835bf2e0bb122
+SHA1: 695a7c5fe45147d577047903b7d924bb77f4b481
+SHA256: 2714f71da22810cc53415732b5ab1b2ef2e25d32cb07a48a123ba086027133a3
+SHA512: 1c562e11443e0cf0e5dfa8fd838892f5f5b91139f2514f388d1be22c188e2c054bcece3015302a0824b09908e35e5428ac62f938d0e0845cf5dad14bb2dcfa60
+Homepage: https://github.com/fosnola/libstaroffice
+Description: Import filter library to import all StarOffice documents
+ The purpose of libstaroffice is to build a filter for old StarOffice's
+ documents (.sdc, .sdw, ...) based on librevenge (see
+ https://sourceforge.net/p/libwpd/wiki/librevenge/ and
+ http://www.documentliberation.org/projects/ ).
+
 Package: libstatgrab10t64
 Architecture: amd64
 Version: 0.92.1-1.2
@@ -46484,6 +47886,29 @@ MD5sum: 24a6923268546c7cdddb3a7f00f18d29
 SHA1: db9fced0080303fb58924801b79fa62635854500
 SHA256: 96e3a4d19a23f1e159271cd7875e141df6352b1795da25537742c73eb88bce28
 SHA512: fefccd29e53d70326563e91c14a5eae145414093d9dc6d9553c9813a3cfe7996f3c2d6aabf214859810c43a9e51b019d1c00efe7c4da68c828feb3bfd1b4704b
+Homepage: https://systemd.io
+Description: systemd utility library
+ This library provides APIs to interface with various system components such as
+ the system journal, the system service manager, D-Bus and more.
+
+Package: libsystemd0
+Architecture: i386
+Version: 261.1-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: systemd
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 1343
+Depends: libc6 (>= 2.42)
+Recommends: libzstd1
+Suggests: libgcrypt20, liblz4-1, liblzma5
+Filename: ./libsystemd0_261.1-3_i386.deb
+Size: 497500
+MD5sum: b07403090d1b598fab6d867045414b4a
+SHA1: 237fe270ee8e15a7560c64290bc1ea0d2d00b1b6
+SHA256: f8dd0ef0bcf429d2c1fa4ecbb99b6e9fa8b2d5f42233a7711cae804caf1dd3f8
+SHA512: 7e557d4744b685af6bc7d45569682ec0320bbd503ac5f0f9029679979330be01d78f466b88bba2a9e88e0dafed1cc95f35906d015fb302250eb1db27f4a72e49
 Homepage: https://systemd.io
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
@@ -46862,6 +48287,32 @@ MD5sum: 9032abbc5d05fce3190ebd3f33eafde3
 SHA1: d5d3c84ceb2793e1657a940308f0bd926fb8c3f7
 SHA256: 65d84ff8620abbcd8185cbba81ec9ac7cef7c03a355f99582ce4a8be95991765
 SHA512: 0f5ecc68370f2d200d981d60ff30ac201aa7f559838a4941e66cec02e77a614bb35cb1b55fdcae5a0e6bfa9fbbf78f7d3712abd3fa6cef20cbac07f3c29c4386
+Homepage: https://thrift.apache.org/
+Description: Thrift C++ library
+ Thrift is a software framework for the development of reliable and
+ performant communication and data serialization.  It combines a software
+ stack with code generation to build services that operate seamlessly
+ across a number of different development languages.
+ .
+ This package contains the runtime libraries needed for C++ applications
+ using Thrift.
+
+Package: libthrift-0.23.0
+Architecture: amd64
+Version: 0.23.0-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: thrift
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1324
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
+Filename: ./libthrift-0.23.0_0.23.0-3_amd64.deb
+Size: 393768
+MD5sum: 223af9aefdce3fafb14416fb2c6d811a
+SHA1: a142f594c92f25dd9349c9596595d0d7e669fd22
+SHA256: c98d3c67a9e733b181403d7fdc2781f6b91ce3ca296e859a07ad5127a92583b3
+SHA512: e4cc1f01c80d34ca75d6d1428d01c373a77d0c1319857e8a61b7cc8a501493640d50106a438d48af5d6d9b3d4ea5b41d366216b9d7683dd7c52ac51cbb72dee5
 Homepage: https://thrift.apache.org/
 Description: Thrift C++ library
  Thrift is a software framework for the development of reliable and
@@ -47613,6 +49064,27 @@ Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
 
+Package: libudev1
+Architecture: i386
+Version: 261.1-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: systemd
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 344
+Depends: libc6 (>= 2.42)
+Filename: ./libudev1_261.1-3_i386.deb
+Size: 142716
+MD5sum: 85b26a26c557f36d48f6c780317768a7
+SHA1: bea75e91928c0c261567aab5deff623558af1233
+SHA256: 5f461800e9d304e2d551f8aef29f4de3720bf13f4219e8f0c7355e34c2bc8eae
+SHA512: f80c7f7a89777ba889110fb88b4828ff700c5c9aed0ec47a60af11e10695ba162376ad56ae2c31bc7ea5ad3174ea965bebab45192cedecda8d269a2be0502a6b
+Homepage: https://systemd.io
+Description: libudev shared library
+ This library provides APIs to introspect and enumerate devices on the local
+ system.
+
 Package: libudfread3
 Architecture: amd64
 Version: 1.2.0-3
@@ -47857,6 +49329,40 @@ Description: abstraction for power management - shared library
  operations (such as suspending the system) are restricted using PolicyKit.
  .
  This package contains the shared library to be used by applications.
+
+Package: liburiparser1
+Architecture: amd64
+Version: 1.0.1+dfsg-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: uriparser
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Installed-Size: 167
+Depends: libc6 (>= 2.26)
+Filename: ./liburiparser1_1.0.1+dfsg-1_amd64.deb
+Size: 57336
+MD5sum: b4e1b2f2c9d07d8e60bbf07080e8d8d0
+SHA1: acf098cd50808aa36ec42edb2a6ee02b21629965
+SHA256: 33a29120b864d0c89939e92129be4c90a9d206347e21f060dd1fbc834b42597d
+SHA512: 3d2f5bba56dc96d0e96d15f89e6ee004d5d1e2e27c1399d2111f2d0cfd0031284350264bc0235ce8a34c8dc56249367c4aaed69120aa2e17bc28e6eaad8e7074
+Homepage: https://uriparser.github.io/
+Description: URI parsing library compliant with RFC 3986
+ uriparser is a library that parses Uniform Resource Identifiers (URIs),
+ strictly adhering to RFC 3986 where syntax for URIs is defined. URIs
+ are used to identify resources, like http://www.debian.org/ or
+ urn:isbn:0-395-36341-1.
+ .
+ uriparser has the following features:
+ .
+  * strictly compliant to RFC 3986, implementing:
+    + parsing
+    + reference resolution
+    + reference creation
+    + recomposition
+    + syntax-based normalization
+  * fast (linear input length time complexity)
+  * unicode support
 
 Package: libuser1
 Architecture: amd64
@@ -48175,6 +49681,28 @@ Description: Terminal emulator widget for GTK 4 - runtime files
  This package contains the runtime library, needed by programs using the
  VTE widget with GTK 4.
 
+Package: libwacom9
+Architecture: amd64
+Version: 2.18.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libwacom
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.6.901), libglib2.0-0t64 (>= 2.68.0), libgudev-1.0-0 (>= 146), libwacom-common
+Suggests: libwacom-bin (= 2.18.0-1)
+Filename: ./libwacom9_2.18.0-1_amd64.deb
+Size: 27000
+MD5sum: 775ac3d5011917ec563436ead2b7369d
+SHA1: 94db6840bb9314258842e0280701c2c9301df090
+SHA256: 8db015ab8737977615e42e43304f45ed534f41535c5d799b9f6ae9bdf60233fe
+SHA512: 77ee806a9b0f88be4645f558e6864877289b9b7b273b79602d8b9b7c0c077b69fe1b323dfd61d0a147f9082b772888656719ebb296960270e43374e58447d7c4
+Description: Wacom model feature query library
+ libwacom is a library to identify wacom tablets and their model-specific
+ features. It provides easy access to information such as "is this a built-in
+ on-screen tablet", "what is the size of this model", etc.
+
 Package: libwayland-bin
 Architecture: amd64
 Version: 1.26.0-1
@@ -48218,6 +49746,34 @@ MD5sum: 30c2e8a464424ccab72ced7b4dd3dc3b
 SHA1: aabcdf08f5a7ae452accc846eb443649f99ea1f7
 SHA256: b432b1d30319f371efe776209e36143a23289285dd26d41751e89ad4a88b2c33
 SHA512: 003069e42ee4315dcf0e515f115fd03a587c6eda517162bfac1a858aebc1bedab489d0688e50c470e97cd6d471ad9b381d0d552419d4f59dc5040b2d10487121
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - client library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the client side of
+ the Wayland protocol.
+
+Package: libwayland-client0
+Architecture: i386
+Version: 1.26.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: wayland
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
+Filename: ./libwayland-client0_1.26.0-1_i386.deb
+Size: 29728
+MD5sum: a33a4d2957464cad779c1d7ebd976625
+SHA1: 361c4f14a4fc5a47609b843bd70326497361b3d1
+SHA256: 736c0f838e52614d8c04db44a2bfd3ad691ea8ec4ecc15d38c34e6c020e5d173
+SHA512: 4e4f737116ce547cbffc140f45ee524450e1a10610e679afd81ae71b53629ec6b1c0c59dba3bde753e513f2662b01bf47db1b87b211b61f98a258f1df721cce4
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - client library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48330,6 +49886,34 @@ MD5sum: 5d60a7330b622b4ba53ddd107c3430ce
 SHA1: f27c39af48f29963b4943be6ee5b4155270bff63
 SHA256: 7ff27d84063f463baea5ee7687bcd8fde63ebba669c754b12aba1d2792327e48
 SHA512: 7e90f20fae725c467bb0bea0d26e6027f409eb189dd0b44f2b8032a9933e7fd41c1b841e77514f773cbef4b02271c7edf0a90e6e82f5e2a1b1cdba739da8f756
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - server library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the server side of
+ the Wayland protocol.
+
+Package: libwayland-server0
+Architecture: i386
+Version: 1.26.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: wayland
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
+Filename: ./libwayland-server0_1.26.0-1_i386.deb
+Size: 38516
+MD5sum: 1b7b49ddbf402b97bf091e6fedf8b4eb
+SHA1: 7ffdcccd1b1ddd35fb3e02973fd473b541c4d829
+SHA256: a352c88c7201a00bbf4a84b6e112342ba3071ebc200aa6fc4045731f69a8b3f8
+SHA512: 06c09c8ab68ac73a372ac43e36376ecfa080fba2d3f0f7e7d46ead682a9b97d12c969ea3f4f60f3a08600aa9bd702859dedc3875c3fe74b67f2844c5f04f5e58
 Homepage: https://wayland.freedesktop.org/
 Description: wayland compositor infrastructure - server library
  Wayland is a protocol for a compositor to talk to its clients as well
@@ -48641,6 +50225,29 @@ Description: x264 video coding library
  video streams.
  .
  This package contains the libx264 shared library.
+
+Package: libx265-216
+Architecture: amd64
+Version: 4.2-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: x265
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 17089
+Depends: libc6 (>= 2.38), libnuma1 (>= 2.0.11), libstdc++6 (>= 13.1)
+Filename: ./libx265-216_4.2-3_amd64.deb
+Size: 1241424
+MD5sum: b98c2a19a34449949b78e0b8298fcb46
+SHA1: e9cda7b67c3be7976b7ed1a44c72a25eb02b7dbf
+SHA256: 5b5fe21673d6d55c55f2dc1fa273a40ddb9fbc4edd9581634542667b72c7839a
+SHA512: dc5b388042cbdede83987ab15345bcd395fc9766197c171c0ee32d4c6270fd6ecb75b0f99cfb839cd4b8d0e4e1e5ef371ca48b8bd31010aa1080dfa24077defb
+Homepage: https://bitbucket.org/multicoreware/x265_git
+Description: H.265/HEVC video stream encoder (shared library)
+ libx265 is an encoding library for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ This package contains the shared library.
 
 Package: libxapp-gtk3-module
 Architecture: amd64
@@ -54329,6 +55936,37 @@ Description: data files for nautilus
  This package contains pictures, localization files and other data
  needed by nautilus.
 
+Package: nautilus-extension-gnome-terminal
+Architecture: amd64
+Version: 3.60.0-1
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Source: gnome-terminal
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 107
+Depends: gnome-terminal (= 3.60.0-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libnautilus-extension4 (>= 3.14.1), libstdc++6 (>= 4.1.1)
+Replaces: brasero (<< 3.27.92-2~)
+Enhances: nautilus
+Filename: ./nautilus-extension-gnome-terminal_3.60.0-1_amd64.deb
+Size: 32092
+MD5sum: 572b0cadf0c9a0be49e9d59e7ff32f44
+SHA1: 59db945224558e7fa838092ff99213e30867cd2e
+SHA256: 704e1d036944fdd9431f522ce117aa2481cbc42cf57b34b2ce8728f5f3bc343a
+SHA512: 913cf1edaa063895092631f8bc8e9079a029f5070ddfb94cd6a31a9321369c4366916c10ec2d6b196decb3156e3b84bc1e8328a271d2b32f381cf49cba025294
+Homepage: https://wiki.gnome.org/Apps/Terminal
+Description: GNOME terminal emulator application - Nautilus extension
+ GNOME Terminal is a terminal emulation application that you can use to
+ perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+ terminals.
+ .
+ GNOME Terminal features the ability to use multiple terminals in a single
+ window (tabs) and profiles support.
+ .
+ This package contains the extension for Nautilus, the GNOME Files app.
+
 Package: nautilus
 Architecture: amd64
 Version: 50.2.2-2
@@ -54462,19 +56100,19 @@ Description: network management framework (notification area applet)
 
 Package: network-manager-gnome
 Architecture: amd64
-Version: 1.36.0-4
+Version: 1.36.0-3+b1
 Priority: optional
 Section: oldlibs
-Source: network-manager-applet
+Source: network-manager-applet (1.36.0-3)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 18
-Depends: network-manager-applet (= 1.36.0-4), nm-connection-editor (= 1.36.0-4)
-Filename: ./network-manager-gnome_1.36.0-4_amd64.deb
-Size: 10588
-MD5sum: 07d6b0ebda6af804700d03a87d48dd9b
-SHA1: 40b21ebef27a62c649b585a12b59c14863422b38
-SHA256: 408f3f8b84b64eb16ec13786f2f4069f30f89a7c17d233656a61f74e41d7a4dc
-SHA512: a5b4e8477d0706621162f2a2e157b84e97442f78ae41de01d310e32c1a38b9d869cf5415bdd93cd04da673d9f9e0cf9092117d4a6a100973e68796f25df9466b
+Installed-Size: 19
+Depends: network-manager-applet (= 1.36.0-3+b1), nm-connection-editor (= 1.36.0-3+b1)
+Filename: ./network-manager-gnome_1.36.0-3+b1_amd64.deb
+Size: 10776
+MD5sum: 79ff36810c361e145b3452b2960411ca
+SHA1: 915a3a2b62fe1c6ec550b5479a6f4b180826daef
+SHA256: 46af18ac4223e55dfe0c8c3324eb9d671c1e0286d93e93af902437e69e32a2aa
+SHA512: a11d9874c8a7a64f0b6f058bf73b63760203fb0ecdb6252fede1aebef974c1c4f795083f1c4ff8060be08e63bba3928bc069243f54a7d9de90e65993fe5c2c7c
 Homepage: https://networkmanager.dev
 Description: transitional package for network-manager-applet and nm-connection-editor
  NetworkManager is a system network service that manages your network devices
@@ -56717,6 +58355,39 @@ Description: Low-level CSS parser (test data)
  .
  This package contains the test data of the library.
 
+Package: python3-apt
+Architecture: amd64
+Version: 3.1.0
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python-apt
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 1105
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libapt-pkg7.0 (>= 2.9.27+exp1), libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
+Recommends: lsb-release, iso-codes
+Suggests: python-apt-doc, apt
+Breaks: apt-xapian-index (<< 0.51~), kthresher (<= 1.4.0-1), python-apt (<< 0.7.98+nmu1)
+Replaces: python-apt (<< 0.7.98+nmu1)
+Filename: ./python3-apt_3.1.0_amd64.deb
+Size: 193828
+MD5sum: 927d2642ba62c591f25cdb89f9945a57
+SHA1: 3bdb61612a776c2bfbf66cc7d1525b681a65dab6
+SHA256: a5cae9e41be31f5083518f33188015b6c862c98b9b513d9f8ab7e680cb1bf908
+SHA512: 0c5ac3ccce7ed141da6a1539ade01022d68d4d678fd39e2af0d6ed2530dbfc31f7d14adea2a219a592077ce7351816c00a21218728f3c3a645fd163a852286dd
+Description: Python 3 interface to libapt-pkg
+ The apt_pkg Python 3 interface will provide full access to the internal
+ libapt-pkg structures allowing Python 3 programs to easily perform a
+ variety of functions, such as:
+ .
+  - Access to the APT configuration system
+  - Access to the APT package information database
+  - Parsing of Debian package control files, and other files with a
+    similar structure
+ .
+ The included 'aptsources' Python interface provides an abstraction of
+ the sources.list configuration on the repository and the distro level.
+
 Package: python3-autocommand
 Architecture: all
 Version: 2.2.2-4
@@ -56767,6 +58438,59 @@ Description: tools for internationalizing Python applications - Python 3.x
  .
  This package provides the Python 3.x module.
 
+Package: python3-bcrypt
+Architecture: amd64
+Version: 5.0.0-5
+Static-Built-Using: rust-base64 (= 0.22.1-1), rust-bcrypt (= 0.15.1-5), rust-bcrypt-pbkdf (= 0.10.0-1), rust-getrandom (= 0.4.2-3), rust-subtle (= 2.6.1-1)
+Priority: optional
+Section: python
+Source: python-bcrypt
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1027
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Breaks: python3-passlib (<< 1.9.3-1~)
+Filename: ./python3-bcrypt_5.0.0-5_amd64.deb
+Size: 235520
+MD5sum: e24ac19b8bf6c6f6f9a5c23599ebe4fc
+SHA1: 921be0fa95ea93fe23a00d1af29b0add5f7de543
+SHA256: e548eaec88f5e827e4829dd4bd1f5cbcf90e31bf0b10ebd89eaf5e91aefdac80
+SHA512: 279219da7f9a1c216a4843126d94a7c1fb0d2dcbc3c7df9d798831518b1803a3ad711b8ac98df1b9aa27a09e08944228fbef60637d6195f277b81f95ffa2847d
+Homepage: https://github.com/pyca/bcrypt
+Description: password hashing library for Python 3
+ bcrypt is a Python module which provides a password hashing method based on
+ the Blowfish password hashing algorithm, as described in
+ "A Future-Adaptable Password Scheme" by Niels Provos and David Mazieres:
+ http://static.usenix.org/events/usenix99/provos.html.
+ .
+ This package provides the bcrypt Python module for Python 3.x.
+
+Package: python3-brlapi
+Architecture: amd64
+Version: 6.9.1+repack-1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: brltty
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 698
+Depends: libbrlapi0.8 (>= 6.9.1+repack), libc6 (>= 2.34), python3 (<< 3.15), python3 (>= 3.13~)
+Filename: ./python3-brlapi_6.9.1+repack-1_amd64.deb
+Size: 206948
+MD5sum: d4630d9151938424859c664cfb8e241f
+SHA1: c7606e043eeb2b719f13b2a99c89c513f07bf061
+SHA256: 5d617d884e3a7648dec4a195301eb21fe196e7640952b87107b5957aab194033
+SHA512: 847f66ad3c76fa996b8801c81ad381cd2f40ef028c4dc621501d8a31ca02c4a192ccecae4d633f26ade75c1324567674a14e7211e85c31bde6840a09fa6a27f8
+Homepage: https://brltty.com
+Description: Braille display access via BRLTTY - Python3 bindings
+ BRLTTY is a daemon which provides access to the console (text mode)
+ for a blind person using a braille display.  It drives the braille
+ display and provides complete screen review functionality.
+ .
+ BrlAPI is a library which gives an application access to a braille display and
+ lets it write braille.
+ .
+ This package provides Python 3 bindings.
+
 Package: python3-bs4
 Architecture: all
 Version: 4.15.0-1
@@ -56793,6 +58517,26 @@ Description: error-tolerant HTML parser for Python 3
  .
  This package contains BeautifulSoup 4, for Python 3.x.
 
+Package: python3-cairo
+Architecture: amd64
+Version: 1.27.0-3
+Priority: optional
+Section: python
+Source: pycairo
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 695
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libcairo2 (>= 1.18.4)
+Filename: ./python3-cairo_1.27.0-3_amd64.deb
+Size: 123020
+MD5sum: 9962b14b45b98be4a296b03532006721
+SHA1: 7f72a125b89fef4989696e430d5bc28e3ecd12ec
+SHA256: 9f7360362b1cf81462080ac21b9e744a0ef4b000deb80a665ebd8d87b56c2543
+SHA512: 1586c1a87e96379713acadfea0bb2b3e4a1fc85c342431cba5bfd08c31b46852f294f1097fb89441a8a6a22137506e6ec54a072c4ede5e9704686d8323b0613a
+Homepage: https://cairographics.org/pycairo/
+Description: Python3 bindings for the Cairo vector graphics library
+ This package contains modules that allow you to use the Cairo vector
+ graphics library in Python3 programs.
+
 Package: python3-caja
 Architecture: amd64
 Version: 1.26.0-2+b1
@@ -56817,6 +58561,62 @@ Description: Python3 binding for Caja components
  .
  The Python binding for Caja allows one to write Caja property page
  and menu item extensions in Python.
+
+Package: python3-cffi-backend
+Architecture: amd64
+Version: 2.0.0-3
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python-cffi
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 456
+Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
+Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.38), libffi8 (>= 3.4)
+Filename: ./python3-cffi-backend_2.0.0-3_amd64.deb
+Size: 111384
+MD5sum: 7c51de99d36595cfe9dd01aae42a727f
+SHA1: acf480f7a0568eff2ea17aa8815bc49f234863c2
+SHA256: cf4769cfbe7a10db9877b55e44060cd5a8c4f4ac7387d22d47f335580308ae0f
+SHA512: 49ea299c68c1859f627b8be2c964463c14b59093fc10c5739cb1a61a6eecbceb04be5e56452e1c4fc7f01cf2da91e1cadbb187157617d00371bf4445c303f311
+Homepage: https://cffi.readthedocs.org/
+Description: Foreign Function Interface for Python 3 calling C code - runtime
+ Convenient and reliable way of calling C code from Python 3.
+ .
+ The aim of this project is to provide a convenient and reliable way of calling
+ C code from Python. It keeps Python logic in Python, and minimises the C
+ required. It is able to work at either the C API or ABI level, unlike most
+ other approaches, that only support the ABI level.
+ .
+ This package contains the runtime support for pre-built cffi modules.
+
+Package: python3-charset-normalizer
+Architecture: amd64
+Version: 3.4.7-2
+Priority: optional
+Section: python
+Source: python-charset-normalizer
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1132
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.38)
+Suggests: python-charset-normalizer-doc
+Filename: ./python3-charset-normalizer_3.4.7-2_amd64.deb
+Size: 246840
+MD5sum: ce0fc6f343da4fcbf4279a31676b3167
+SHA1: 19abec93572d11fabe03b588665b622254da66a1
+SHA256: 5d79c86d33eed50383024bfdce5d14b832b8a9143e4229051dc17bb8a440bd74
+SHA512: b90a6904fe33f0630b89c104ec2fef476f5e148ab42a96ecbd0b54c5d69023ba3acfcec346fb4714f9dc6f48d1c2138bed04d8fe8fa63bdafec8efdfc998e213
+Homepage: https://github.com/ousret/charset_normalizer
+Description: charset, encoding and language detection (Python 3)
+ charset-normalizer is a library for detection of charsets, encodings,
+ and languages in Python programs. It can be compared to chardet, with
+ a different approach, which intends to make it faster and more reliable.
+ charset-normalizer can also detect natural languages.
+ .
+ All IANA character set names for which the Python core library provides
+ codecs are supported.
+ .
+ This package installs the library for Python 3.
 
 Package: python3-configobj
 Architecture: all
@@ -56881,6 +58681,29 @@ Description: cssselect parses CSS3 Selectors and translates them to XPath 1.0
  This module used to live inside of lxml as lxml.cssselect before it was
  extracted as a stand-alone project.
 
+Package: python3-cups
+Architecture: amd64
+Version: 2.0.4-3+b1
+Priority: optional
+Section: python
+Source: python-cups (2.0.4-3)
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 454
+Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.38), libcups2t64 (>= 1.7.0)
+Filename: ./python3-cups_2.0.4-3+b1_amd64.deb
+Size: 75032
+MD5sum: f5facfed3e1f598ccc9ab661be0ec7b3
+SHA1: ead9a79ed0889d60d6565b182de491191e2fbc08
+SHA256: 702dc222dfbf4f9ec0467cb4716d819093417404ab366a29b76db069d68f0c74
+SHA512: 6d91f3b6caa2c2b9a945ca20009274be0dee821e305da58c3e85aeea50ed1cd27f6f94f82070ef23b8b4f590fb9e3db4c632302f6a9e06b0186712d81f2a0808
+Homepage: https://github.com/OpenPrinting/pycups
+Description: Python3 bindings for CUPS
+ A module of python3 bindings for using the CUPS 2+ API in
+ python3 programs.
+ .
+ CUPS needs to be installed and running for python3-cups to work
+ correctly.
+
 Package: python3-dasbus
 Architecture: all
 Version: 1.7-2
@@ -56906,6 +58729,33 @@ Description: Pythonic D-Bus library
  This DBus library is written in Python 3, based on GLib and inspired by pydbus.
  .
  This package installs the library for Python 3.
+
+Package: python3-dbus
+Architecture: amd64
+Version: 1.4.0-1+b1
+Priority: optional
+Section: python
+Source: dbus-python (1.4.0-1)
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 608
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.16.0)
+Recommends: python3-gi
+Suggests: python-dbus-doc
+Filename: ./python3-dbus_1.4.0-1+b1_amd64.deb
+Size: 113148
+MD5sum: 0a81035ac2d726dd4168f96815169e81
+SHA1: 1d00d01c12b8245f21b8c47435cd09dabab4afc3
+SHA256: 5259584a4f270d7768d32609c48def0cd05ef79b5df9dd0aa632a92514652a0a
+SHA512: 0256f697330632be1471bb7ed42f605337a590c65568db723da85a612e7b1bd78d20e3f76cc9d05a127fb50b003d98158df8a51146f482173344b2fbc5f58638
+Homepage: https://www.freedesktop.org/wiki/Software/DBusBindings#Python
+Description: simple interprocess messaging system (Python 3 interface)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides a Python 3 interface to D-Bus.
+ .
+ See the dbus description for more information about D-Bus in general.
 
 Package: python3-distro
 Architecture: all
@@ -57302,6 +59152,30 @@ Description: HTML/XHTML/XML string library
  aware of HTML escaping rules. It can be used to implement automatic
  string escaping.
 
+Package: python3-minimal
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3-defaults
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 111
+Pre-Depends: python3.14-minimal (>= 3.14.6)
+Filename: ./python3-minimal_3.14.6-1_amd64.deb
+Size: 25128
+MD5sum: ceeda18d463c766684e84b3ae50b3c67
+SHA1: ab1f4401f3d58b8da5355c33e4dcb0cfb0233e56
+SHA256: 96066b55b6703c190edcb181db29824ce2a7c82ffbb1609e5cffc4a3091ca34b
+SHA512: 2cc32ff2b6d306020066ddc329ebac00b1ba0d11b3beed9f1d792c952f1bcd50003291ce077f600b8441442b00bdb732e18dfa590cc7e797c41a321dbd99cc0d
+Homepage: https://www.python.org/
+Description: minimal subset of the Python language (default python3 version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python3.14-minimal/README.Debian for a list of the modules
+ contained in this package.
+Cnf-Visible-Pkgname: python3
+
 Package: python3-more-itertools
 Architecture: all
 Version: 11.1.0-1
@@ -57350,6 +59224,28 @@ Description: Python module to read/write MS OLE2 files
  MS Office 2007+ files, Image Composer and FlashPix files, Outlook MSG files,
  StickyNotes, several Microscopy file formats, McAfee antivirus quarantine
  files, etc.
+
+Package: python3-packaging
+Architecture: all
+Version: 26.2-2
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Source: python-packaging
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 401
+Depends: python3:any
+Filename: ./python3-packaging_26.2-2_all.deb
+Size: 84200
+MD5sum: 3a1dbf74be7876375ae808f287a9c339
+SHA1: 12d701bc8e700924e150c94e80bd19638fdf727d
+SHA256: 11c9e27d6914430f5dd51d0979420f0130aef19f3cac80c0930ef8a9054c7997
+SHA512: d16c026eef4aab9c7a749a6d8e117445e43902b39cb4e867693031832256a5cf47bde6e3eec854a1128a2ba6bfea0267b5b0613b3778bd0ada14aff47fee96a8
+Homepage: https://github.com/pypa/packaging
+Description: core utilities for python3 packages
+ These core utilities currently consist of:
+  - Version Handling (PEP 440)
+  - Dependency Specification (PEP 440)
 
 Package: python3-pampy
 Architecture: all
@@ -57445,6 +59341,60 @@ Description: Python Imaging Library (Python3)
   o Read only (Open/Load): ARG, CUR, DCX, FLI, FPX, GBR, GD, ICO, IMT, IPTC,
     MCIDAS, MPEG, PhotoCD, PCX, PIXAR, PSD, TGA, SGI, SUN, TGA, WMF, XPM.
   o Save only: PDF, EPS (without ghostscript).
+
+Package: python3-pip-whl
+Architecture: all
+Version: 26.1.2+dfsg-1
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Source: python-pip
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1519
+Depends: ca-certificates
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Filename: ./python3-pip-whl_26.1.2+dfsg-1_all.deb
+Size: 1463208
+MD5sum: 0e09e4e1a68952597cbde656860c354e
+SHA1: e4bba7930ddaca9b5f3e44f0e33f1b1b007260c4
+SHA256: 7a6e9401e27a1b1324cd593eeb66d39b40fd06422d128b4f87b11e1d83a29d58
+SHA512: 19028bc7a5acaea078f0d07c88837d6bdda8530e3ca4eb69cac9e24e55debb398759596f99555327bb67689d8141d0017290e523b842d3080a25819fecc4b721
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer (pip wheel)
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using pip inside a virtual environment.
+
+Package: python3-pip
+Architecture: all
+Version: 26.1.2+dfsg-1
+Priority: optional
+Section: python
+Source: python-pip
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 9884
+Provides: pip
+Depends: ca-certificates, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2), libjs-sphinxdoc (>= 9.0)
+Breaks: python-pip
+Replaces: python-pip
+Filename: ./python3-pip_26.1.2+dfsg-1_all.deb
+Size: 1402368
+MD5sum: 8277aa50f01cbde699c0c8cef3093748
+SHA1: 25246368b3c27c59e94b763e30bd767f93cf0ef9
+SHA256: 09ccdd385727c4bd91f0ed254a6a6ca9adb3b7e0a1d07b2a1f900d503c02cc0b
+SHA512: d2d88f9c8d3febd1dab5637cd772bd364dfcae8c771430ff09187a4a6e89a848e5889dd76f7dcb3126c8dacf7ad6de304dec4b2752e9d7a9cd597228b795abe1
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the Python 3 version of the package.
 
 Package: python3-pkg-resources
 Architecture: all
@@ -57554,6 +59504,31 @@ Description: simple Linux inotify Python bindings
  inotify is a Linux Kernel feature available since 2.6.13. inotify makes
  it possible for applications to easily be notified of filesystem changes.
 
+Package: python3-pylibacl
+Architecture: amd64
+Version: 0.7.3-0.1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python-pylibacl
+Maintainer: Iustin Pop <iustin@debian.org>
+Installed-Size: 128
+Depends: python3 (<< 3.15), python3 (>= 3.13~), libacl1 (>= 2.2.23), libc6 (>= 2.4)
+Suggests: python-pylibacl-doc
+Filename: ./python3-pylibacl_0.7.3-0.1_amd64.deb
+Size: 23228
+MD5sum: f7fb16eedb6b4d4577435935d40e5fc9
+SHA1: 9875afecf5b749b4facfb545432ef86861ad26be
+SHA256: 198d248b3019887a2ea201b40e77ff39a870c04af5a59c4f0143d14174237983
+SHA512: 799affc31818a13f91326efc7fec1713a1a9cee8c633d4fde9502390a51dfebad0207a88ff5a32c7e629c09efcf25c2079c5b5bfee7f223dd27be7801d76bdc0
+Homepage: https://pylibacl.k1024.org/
+Description: module for manipulating POSIX.1e ACLs (Python3 version)
+ pylibacl is a Python interface to the libacl library. It allows
+ manipulation of the POSIX.1e-compliant filesystem ACLs present
+ in some operating systems (GNU/Linux included).
+ .
+ This package contains the library for Python 3.
+
 Package: python3-pyqt6.sip
 Architecture: amd64
 Version: 13.11.1-1
@@ -57639,6 +59614,82 @@ Description: Python3 version of the Olson timezone database
  .
  This package contains the Python 3 version of the library.
 
+Package: python3-pyxattr
+Architecture: amd64
+Version: 0.8.1-1+b7
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python-pyxattr (0.8.1-1)
+Maintainer: Iustin Pop <iustin@debian.org>
+Installed-Size: 97
+Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4)
+Suggests: python-pyxattr-doc
+Filename: ./python3-pyxattr_0.8.1-1+b7_amd64.deb
+Size: 18660
+MD5sum: 61731b4bbae458d9f488c67c9b68cefd
+SHA1: 370caf14dd6dd112718b1643b6dbe3ecfd6bedd7
+SHA256: b7ab1590406ac305f1040cd4d48eb34d3ae33de5120d4e986c4fd04bc6c501ea
+SHA512: 41b5634eff98bf2ac6c414dd4ab228838a16422eceaa62c4a45c3fa3e58b684ecbacc70a98a11d1e78d11a1286254bd76923bcf5ab8e8c35edf47b3a42ae9766
+Homepage: https://pyxattr.k1024.org/
+Description: module for manipulating filesystem extended attributes (Python3)
+ pyxattr is a Python interface to the libattr library. It allows
+ manipulation of the filesystem extended attributes present in some
+ operating systems (GNU/Linux included).
+ .
+ This package contains the library for Python 3.
+
+Package: python3-setproctitle
+Architecture: amd64
+Version: 1.3.7-2
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python-setproctitle
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 80
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4)
+Filename: ./python3-setproctitle_1.3.7-2_amd64.deb
+Size: 19640
+MD5sum: 348317d65b73c6e89f4d2fe8cafc9f12
+SHA1: 4495f49db50ce3e2e7041915a6e8725b1613167e
+SHA256: 62ed5e3605bc91639d8031d4d5ba562c1d06c1cf2e12f53c2ef3081d2b6aaa86
+SHA512: 41f4da9870bb960034bff5d61db5464a1a9c6e904dfef8102d6863adc235a1607e813f971fecb6e221352d829cd2120f52f6349d3282741a4457c360326b0c76
+Homepage: https://github.com/dvarrazzo/py-setproctitle
+Description: Setproctitle implementation for Python 3
+ The library allows a process to change its title (as displayed by system tools
+ such as ps and top).
+ .
+ Changing the title is mostly useful in multi-process systems, for example when
+ a master process is forked: changing the children's title allows one to
+ identify the task each process is busy with. The technique is used by
+ PostgreSQL and the OpenSSH Server for example.
+ .
+ This is the Python 3 package.
+
+Package: python3-setuptools-whl
+Architecture: all
+Version: 78.1.1-0.1
+Priority: optional
+Section: python
+Source: setuptools
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1324
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Filename: ./python3-setuptools-whl_78.1.1-0.1_all.deb
+Size: 1268108
+MD5sum: e934bc86bda1f654ec0ea5424888cbf5
+SHA1: 468cf3d650ab46d0f28d03542b09bff6d5fdf2e8
+SHA256: 0caf134e73ab90ffeaa5ce2529d73ea7d48078b2a9251ed9d1b7b514a61e9483
+SHA512: c568e788dbbd1d2b75ab24cdff458296ddeb6cb4cb960d59b627431e898c8efff169226f4c2eb63008c059e71e46f4a0d5f6df99c87912696e92999b0ae5f9a4
+Homepage: https://pypi.python.org/pypi/setuptools
+Description: Python Distutils Enhancements (wheel package)
+ Extensions to the python-distutils for large or complex distributions.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using setuptools inside a virtual environment.
+
 Package: python3-setuptools
 Architecture: all
 Version: 78.1.1-0.1
@@ -57660,6 +59711,26 @@ SHA512: bb242c068e39c43cb3fd425abf39978d86eb7fbbd86f043c78396cef712b3e124e2168e4
 Homepage: https://pypi.python.org/pypi/setuptools
 Description: Python3 Distutils Enhancements
  Extensions to the python-distutils for large or complex distributions.
+
+Package: python3-smbc
+Architecture: amd64
+Version: 1.0.25.1-1+b5
+Priority: optional
+Section: python
+Source: pysmbc (1.0.25.1-1)
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 138
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), libsmbclient0 (>= 2:4.10.0+dfsg)
+Filename: ./python3-smbc_1.0.25.1-1+b5_amd64.deb
+Size: 22776
+MD5sum: 8ef2b9170a1b2f344a51852b5dbc5b66
+SHA1: 9802bec35d2ca30d0cc872deb9ff3186310e4531
+SHA256: 0a66408b859f51b0cf809ff9c89982c6a7f00ddd95474d8223a1af584ed7273d
+SHA512: 7628078a555048b2a9ef507a9a9aaceb7ceeac70fd40ba5affd56f6d5f0d5003076befc1d8f9f2688b659a9a7e552db666e60578b2efffdcbff3db4e232dc16e
+Homepage: https://github.com/hamano/pysmbc
+Description: Python 3 bindings for the Samba client library
+ This package contains an extension that allows one to write Python 3 programs
+ that can talk to SMB/CIFS servers.
 
 Package: python3-soupsieve
 Architecture: all
@@ -57691,6 +59762,54 @@ Description: modern CSS selector implementation for BeautifulSoup (Python 3)
  controlled, specialized parsing.
  .
  This package contains Soup Sieve for Python 3.x.
+
+Package: python3-talloc
+Architecture: amd64
+Version: 2:2.4.4+samba4.24.4+dfsg-1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: samba (2:4.24.4+dfsg-1)
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 95
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libpython3.14 (>= 3.14.1), libtalloc2 (>= 2.0.4~git20101213)
+Breaks: python3-talloc-dev
+Replaces: python3-talloc-dev
+Filename: ./python3-talloc_2%3a2.4.4+samba4.24.4+dfsg-1_amd64.deb
+Size: 33844
+MD5sum: d594106e831fd79bb19023ca1175e727
+SHA1: 26eead254f5f997104f827d3e54475db1213ec86
+SHA256: d24cc857658aec39d39c8b8970cca7802678c2fe5b01b2ce28c750ef71ef9ddb
+SHA512: d577fffe6034d9f3f0587e5c518974c2c13dff1af634cf1b8ace6a28f41f36b04152693e42c17981d8a994751d3cdec1c9def89c901305c2159eb5bd3e6d59bd
+Homepage: https://www.samba.org
+Description: hierarchical pool based memory allocator - Python3 bindings
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+ .
+ This package contains the Python 3 bindings.
+
+Package: python3-tdb
+Architecture: amd64
+Version: 2:1.4.15+samba4.24.4+dfsg-1
+Priority: optional
+Section: python
+Source: samba (2:4.24.4+dfsg-1)
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Installed-Size: 93
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.4), libtdb1 (>= 1.3.11)
+Filename: ./python3-tdb_2%3a1.4.15+samba4.24.4+dfsg-1_amd64.deb
+Size: 35860
+MD5sum: f664998a986e40c5e06c3fec6a0eaa4c
+SHA1: 8a13de26b9bf4c4d53adcbe11d561e204f5ed7b6
+SHA256: 0acb7f86f721c4ac268159ed90f6898441bf8227b15394a5099e81e50c1b89a8
+SHA512: 1f73c4c341181d4ae875369132365a62e97126be505b81e793d71a9b304b7f5bb9766d79cadd519e3c61e5746cff61c3a4b261e99297859510742ca5797870cd
+Homepage: https://www.samba.org
+Description: Python3 bindings for TDB
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains the Python3 bindings.
 
 Package: python3-tinycss2
 Architecture: all
@@ -57807,6 +59926,37 @@ Description: Python-UNO bridge
  may be run within the LibreOffice process and can be called from C++
  or the built in StarBasic scripting language.
 
+Package: python3-venv
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3-defaults
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3.14-venv (>= 3.14.6), python3 (= 3.14.6-1)
+Filename: ./python3-venv_3.14.6-1_amd64.deb
+Size: 1184
+MD5sum: e684a4c85a449394fa1ca87de4d3947f
+SHA1: 16b3f803da2cfeff18f6ee03d5a2bcc865a1e061
+SHA256: cdad3f8cbc471b59b62993c8395398ef5d41bf10fcfadcde61cc84491a12fb15
+SHA512: bc4410aae5613bc0645314debf8a11e68b921d3d55939fecd1be80682f9916fa486cb9582e452874fd177cca522f4706216cff6d27b5d22b6c3be4a9c87a8cb1
+Homepage: https://www.python.org/
+Description: venv module for python3 (default python3 version)
+ This package contains the venv module for the Python language (default python3
+ version).
+ .
+ The venv module provides support for creating lightweight "virtual
+ environments" with their own site directories, optionally isolated from system
+ site directories. Each virtual environment has its own Python binary (which
+ matches the version of the binary that was used to create this environment)
+ and can have its own independent set of installed Python packages in its site
+ directories.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's venv module (currently v3.14).
+
 Package: python3-webencodings
 Architecture: all
 Version: 0.5.1-6
@@ -57837,6 +59987,34 @@ Description: Python implementation of the WHATWG Encoding standard
  implementation for encoders and decoders is Python’s.
  .
  This package provides the module for Python 3.
+
+Package: python3-wheel
+Architecture: all
+Version: 0.47.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Source: wheel
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 120
+Depends: python3-packaging (>= 24), python3:any
+Suggests: python3-setuptools
+Filename: ./python3-wheel_0.47.0-1_all.deb
+Size: 26944
+MD5sum: 1653bf02188309cad0c1f76ca56238f8
+SHA1: 01b3b35aa08487306e1981d21ad9aa62528352e5
+SHA256: db43e3642c87039470504c5e09ed093b799bc9a1b4bdcc206c3eba5d753a5077
+SHA512: 8365606c035ef22238c8bcba2c1a7086f2d3aa4c77de05507be996e46c9b20a2f3d81e87b9652325c56a7fd5bb6cedc66b77ec9b8d549b553fd971ed26b19db3
+Homepage: https://github.com/pypa/wheel
+Description: built-package format for Python
+ A wheel is a ZIP-format archive with a specially formatted filename and the
+ `.whl` extension.  It is designed to contain all the files for a PEP 376
+ compatible install in a way that is very close to the on-disk format.
+ .
+ The wheel project provides a `bdist_wheel` command for setuptools.  Wheel
+ files can be installed with `pip`.
+ .
+ This is the Python 3 compatible package.
 
 Package: python3-xapp
 Architecture: all
@@ -57908,6 +60086,29 @@ Description: extract data from Microsoft Excel spreadsheet files (Python3 versio
  .
  This package contains only the Python3 version of xlrd.
 
+Package: python3-yaml
+Architecture: amd64
+Version: 6.0.3-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: pyyaml
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 814
+Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libyaml-0-2
+Filename: ./python3-yaml_6.0.3-1_amd64.deb
+Size: 185748
+MD5sum: 6b0169d79c36cb2c83708d6797931933
+SHA1: 0dd2a36c5f28b2da946b096acbd91481650b32f2
+SHA256: 077a7ddd1870a82aa4a0dcedcac29dc592a5a62fc3f4889ecdbd19eb6269a229
+SHA512: f6755f33cb240e63376438764c5c3a38d5740238dc56ab7f8d403b826d5c4aa695c7a8822eea6179931e366c68346a212e3cc613355b060b78b5934c185708da
+Homepage: https://github.com/yaml/pyyaml
+Description: YAML parser and emitter for Python3
+ Python3-yaml is a complete YAML 1.1 parser and emitter for Python3.  It can
+ parse all examples from the specification. The parsing algorithm is simple
+ enough to be a reference for YAML parser implementors. A simple extension API
+ is also provided.  The package is built using libyaml for improved speed.
+
 Package: python3-zipp
 Architecture: all
 Version: 3.23.0-1
@@ -57930,6 +60131,110 @@ Description: pathlib-compatible Zipfile object wrapper - Python 3.x
  It's pathlib-compatible interface for zip files using zipfile object inside.
  .
  This package contains Python 3.x module.
+
+Package: python3.14-minimal
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3.14
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 7403
+Pre-Depends: libc6 (>= 2.38)
+Depends: libpython3.14-minimal (= 3.14.6-1), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Recommends: python3.14
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: ./python3.14-minimal_3.14.6-1_amd64.deb
+Size: 2415760
+MD5sum: aae65a94d12dcc58196359abaa632594
+SHA1: 7b4f99389b9c19f3caa3715b3872cbc40fec9f2b
+SHA256: 4ab3f798512bb083ad9dbbda7361b7a8cff264510a8342dbe028a8948c2456c9
+SHA512: 6c99daeafaf0122a4ec70eff5a68eb8f821f5154350710e59e8bdf6e1ea6c08e8cab958e011e9718303060b1125fe130ee7af359bcb623a3f6c6ac48f758b9fb
+Description: Minimal subset of the Python language (version 3.14)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.14-minimal/README.Debian for a list of the modules
+ contained in this package.
+Cnf-Visible-Pkgname: python3.14
+
+Package: python3.14-venv
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3.14
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 27
+Depends: python3.14 (= 3.14.6-1), python3-pip-whl (>= 22.2), python3-setuptools-whl (>= 70.1)
+Breaks: python3-pip (<< 1.5.6-4)
+Filename: ./python3.14-venv_3.14.6-1_amd64.deb
+Size: 5464
+MD5sum: f1062f983696798ca3497b61e420a08e
+SHA1: cebb637cba97ac0e1d07382e5685df0d3a147747
+SHA256: dbb412d8688349a8ad7f934e00c35f2e34128732eb1255e77da740e5079db0e9
+SHA512: aed49e34dc4b8aaeb303c92ecd5784ef18731b4bd6c52ec9f25313b0e714248a6c476f1c77f450bfbfc36f8fd56e6678e3f0fd416bc85c211aeb816e097840ba
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.14)
+ Python is a high-level, interactive, object-oriented language. Its 3.14 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.14 binary.
+
+Package: python3.14
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 920
+Depends: python3.14-minimal (= 3.14.6-1), libpython3.14-stdlib (= 3.14.6-1), media-types | mime-support, tzdata
+Recommends: ca-certificates
+Suggests: python3.14-venv, python3.14-doc, binutils
+Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
+Filename: ./python3.14_3.14.6-1_amd64.deb
+Size: 846136
+MD5sum: 57be130d0b6df83443e4bd3e3efb43fe
+SHA1: ad58cdeed848fdf5febcad479727547b6175e1ff
+SHA256: 56b80282d4339435611029d25be5d6392626c675a27c83e5054652734c775588
+SHA512: 94bbc1a32efc59e069f360df79ef5b8c9cb17f80106ea7f987583c426da64d049b4004da99e665e52d85211662a92dd77167b8b07d893a9aec323e8fae898110
+Description: Interactive high-level object-oriented language (version 3.14)
+ Python is a high-level, interactive, object-oriented language. Its 3.14 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python3
+Architecture: amd64
+Version: 3.14.6-1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3-defaults
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 80
+Provides: python3-profiler, python3-supported-max (= 3.14), python3-supported-min (= 3.13)
+Pre-Depends: python3-minimal (= 3.14.6-1)
+Depends: python3.14 (>= 3.14.6), libpython3-stdlib (= 3.14.6-1)
+Suggests: python3-doc (>= 3.14.6-1), python3-tk (>= 3.14.6), python3-venv (>= 3.14.6-1)
+Conflicts: python3-distutils
+Replaces: python3-minimal (<< 3.1.2-2)
+Filename: ./python3_3.14.6-1_amd64.deb
+Size: 25104
+MD5sum: 6606fd6508f8a7f3aa3637f71f88fa6a
+SHA1: 1303f0288c365844762bb5a851e0330e8064e515
+SHA256: 966202970d505fc0b39dc2875f3c1eb50bc0b76bfd963fddeb5fc3ea7ae76960
+SHA512: ea946b4daa2d5d92eff9494f0b9deab66fac02335d79acf4faf381e208f6394b4c461267029bb9b933f1cf79d7dd3f49ef3c438f29bd2773ecb77978c2617eb5
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.14).
 
 Package: qalculate-gtk
 Architecture: amd64
@@ -62453,6 +64758,28 @@ Homepage: https://systemd.io
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
+
+Package: systemd-tpm
+Architecture: amd64
+Version: 261.1-3
+Priority: optional
+Section: admin
+Source: systemd
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 515
+Depends: libc6 (>= 2.34), libsystemd-shared (= 261.1-3), libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, tpm-udev
+Breaks: systemd (<< 261-2~)
+Replaces: systemd (<< 261-2~)
+Filename: ./systemd-tpm_261.1-3_amd64.deb
+Size: 157412
+MD5sum: 47f6aca6f8392db40e3326d8ac036488
+SHA1: d431c6a227c67441a79a619cbcc53b322b9e42c7
+SHA256: 4f326749dc02c527d5ab2ccf26091fb6627d2cd96c3dc076094ddc6216591e3d
+SHA512: 12855574229c0710b20e5211c6a658359484f8989fbc3e7dfd099fd934d14b0e75ac6dca0961e3f8d9d5650b88a9731b10dcbafb0175368d69c46cad5dc7901a
+Homepage: https://systemd.io
+Description: Provides tpm2 utilities and units
+ Utilities and units that provide tpm2 functionality and support in systemd,
+ including boot services and generators.
 
 Package: systemd-userdbd
 Architecture: amd64
