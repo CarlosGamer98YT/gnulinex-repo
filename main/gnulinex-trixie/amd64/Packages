@@ -9231,7 +9231,7 @@ Description: Flatpak portal library - introspection data
 
 Package: gir1.2-xmlb-2.0
 Architecture: amd64
-Version: 0.3.28-1
+Version: 0.3.29-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -9239,12 +9239,12 @@ Source: libxmlb
 Maintainer: Debian EFI team <debian-efi@lists.debian.org>
 Installed-Size: 37
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libxmlb2 (>= 0.3.27)
-Filename: ./gir1.2-xmlb-2.0_0.3.28-1_amd64.deb
-Size: 9236
-MD5sum: c747d60bf8e150c553d6aa827095da16
-SHA1: 5433c1974482260582ed882489bc626a7f49a49e
-SHA256: bc3e95efd1fe0e5520062c12505d8fd7d4fb16ee28e986ae4adcce42c67639b3
-SHA512: 3c2bd9d8515689df03533fd3f3ce81a088a8f32e9965ab8808a6dc10265b651c444b7401903e989322fafd9a8ac0b81f527b114a7ed52582c1d12a083a10f83c
+Filename: ./gir1.2-xmlb-2.0_0.3.29-1_amd64.deb
+Size: 9280
+MD5sum: e3f76db29041314429629dc08f456638
+SHA1: 661b0e66712c7b5c73279ce809522f2faebd57e4
+SHA256: 9c6529797235b28628fa5955458f9b02c8837053486fcd158877c3cf23fede62
+SHA512: 8d1558e8c5d35367d55bee2deefe5f50f769be45f1c424fa5337b447ffd51643ca16dad981d2f6bdf190d391c807ba8ebc730385a3dbd4e36d8625e4efa0d26f
 Homepage: https://github.com/hughsie/libxmlb
 Description: GObject introspection data for libxmlb
  This package provides the introspection data for libxmlb.
@@ -11003,18 +11003,18 @@ Description: Cross-platform configuration utilities
 
 Package: gnome-taquin
 Architecture: amd64
-Version: 3.38.1-5
+Version: 3.38.1-6
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 5910
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.44.0), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.23.1)
-Filename: ./gnome-taquin_3.38.1-5_amd64.deb
-Size: 4530260
-MD5sum: 6d8804c5e39e97f9884e44d0807b43e6
-SHA1: 5ab36f6de53f83dfa76b74d8bddea1068fa65072
-SHA256: 84baba904693a30b2bd8303ece4454906e25ff517e77777cce0b84dfd235707f
-SHA512: 961a8d397f07fda50c5d047d066078942e6c7a93f8a65e844bf477773bcabf36150538ac6f56f0524d37f3bcda4010e7cb43426a375cb821502fd4ff2a35f00d
+Filename: ./gnome-taquin_3.38.1-6_amd64.deb
+Size: 4529940
+MD5sum: 307bc8c4c903ad9355beeed5f86f157b
+SHA1: 5724bdfaa537de73b62cedbf0a70a3e2d12d2a2b
+SHA256: e485b74138d67bdac678f3f8a2253d847e8fed4588d74aa2828647c2e976c447
+SHA512: f3980c417e341c49f1eeeb76967de11544da44a224bf56618b95a5d75a722a5ec1d834a3e4f99ca24b97eb158621631f67ffc96339c33003ace9ad30691024f0
 Homepage: https://wiki.gnome.org/Apps/Taquin
 Description: game to move tiles so that they reach their places
  Taquin is a computer version of the 15-puzzle and other sliding
@@ -11023,19 +11023,19 @@ Description: game to move tiles so that they reach their places
 
 Package: gnome-tetravex
 Architecture: amd64
-Version: 1:3.38.3-2
+Version: 1:3.38.3-3
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 2656
+Installed-Size: 2647
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcairo2 (>= 1.12.0), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.23.1)
 Recommends: yelp
-Filename: ./gnome-tetravex_1%3a3.38.3-2_amd64.deb
-Size: 1014516
-MD5sum: 6ad86b668d681c46f84d62fcefea4673
-SHA1: d0ed662a117c17243a24ce8ae96c183c34e4fdfa
-SHA256: 8b495575d1f17c3519dbe5f52977e89d44be2673624ebc2c179f00dcc56594ca
-SHA512: 36950fb6a89d1309a9b86f11425b8189f810f28fc4c7804096a46102a6cdba6afc11e4391c5a4a82d7a52113d071062c8e57351da41312f57a304b39aca21648
+Filename: ./gnome-tetravex_1%3a3.38.3-3_amd64.deb
+Size: 1013732
+MD5sum: 82d45a73780ee4e9dbc334eac60ce4b8
+SHA1: 0020d43038cb5f0dd3777fdf78cdc72796ba82f4
+SHA256: 2595a22b2da87d3b862ea5a138dd1e0814f563aa51597422e06da7285829f3d2
+SHA512: bbfd8244d25eade3caa867bb1552efa7ac0c4802474b4a72afb27b5b5f586127fdc7c5faa74581f50950c4adb04964008dfdc15e8b2693e13ac27eeff8db5507
 Homepage: https://gitlab.gnome.org/GNOME/gnome-tetravex
 Description: put tiles on a board and match their edges together
  GNOME Tetravex is a simple puzzle game which scope is to move the
@@ -36684,7 +36684,7 @@ Description: Qt 6 concurrent module
 
 Package: libqt6core5compat6
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36692,12 +36692,12 @@ Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 418
 Depends: libc6 (>= 2.14), libicu78 (>= 78.1-1~), libqt6core6t64 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6core5compat6_6.10.2-3_amd64.deb
-Size: 139420
-MD5sum: 6bde173b82b3f1680338acbfefed3a90
-SHA1: aa084e36d25036158cdf957626e6fa44d7e35187
-SHA256: f9bfad8b1cea963b8288359085a9d9d4bf7512903af6c8cc8bc5133bd05562b6
-SHA512: e10cbb4ca22b4e535d8e608ceab9e19614f9daf67fc98dd54ffd6a0033d385b8c503be1f51bac62c356d7b08ec689420b41af0aa7b4814740997aaef0bc73f02
+Filename: ./libqt6core5compat6_6.10.2-4_amd64.deb
+Size: 139304
+MD5sum: 42810e76b280f63278118f2ef0018f6e
+SHA1: 62a1c4e69389d814f3bb90b31ac96de0bef33833
+SHA256: c45b6ee91059b0d3da1a8a38ac7e9ef7772b6fb331f64fabc33fff311ab2ec3d
+SHA512: 004e9d1b1eb38ca007d902efe07587335d5d9d97c783e7d4f60dcfe6891650ce411d8518553f61bf1ff7ad2b171bec3edd40fb95b2e7d348bbd6080904d870ae
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -51729,7 +51729,7 @@ Description: OpenSSH user/password GUI dialog for LXQt
 
 Package: lxqt-panel-l10n
 Architecture: all
-Version: 2.3.2-3
+Version: 2.3.2-4
 Multi-Arch: foreign
 Priority: optional
 Section: localization
@@ -51737,12 +51737,12 @@ Source: lxqt-panel
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 3475
 Depends: qt6-translations-l10n
-Filename: ./lxqt-panel-l10n_2.3.2-3_all.deb
-Size: 417280
-MD5sum: 187e8a02cc0ab91172f45a3a0fa4a2fc
-SHA1: a943b946ea445a51d56ff1a725fe9afc1e30d7e7
-SHA256: a45a245e0d6418eb376aaa01afb21ef24499f05ab2a0dbc9827b441f1bb82d8a
-SHA512: ee4540f02c8a839f2d05807d34df0bd331cf4c3270b5c17cc8252e313dabeda27c00301aba0da9035a295495987f889dd935dd009cb55c168a17f8e49840d96e
+Filename: ./lxqt-panel-l10n_2.3.2-4_all.deb
+Size: 417536
+MD5sum: 4186b2dc375e7c9a345dc136900f8925
+SHA1: 38528360b8e455edfc7ff3ece3f7d4b67ded9556
+SHA256: 750e162068c5fa8ebfb0f325b1a88994646de766bd0756684f6becddad16e6df
+SHA512: b2c60c504c1efaa7e4a31ef4f57305403862a4c06ef8b010db0f9aa4b1e6c8b2982571dc2a13561fa910ef9359305a9a1d8f4fbf3b3ed8da9a62f1eb0b332041
 Homepage: https://github.com/lxqt/lxqt-panel
 Description: Language package for lxqt-panel
  This package contains the localization files required for the LXQt
@@ -51750,22 +51750,22 @@ Description: Language package for lxqt-panel
 
 Package: lxqt-panel
 Architecture: amd64
-Version: 2.3.2-3
+Version: 2.3.2-4
 Priority: optional
 Section: x11
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 3590
-Depends: lxqt-menu-data, lxqt-policykit, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libdbusmenu-lxqt0 (>= 0.4.0~), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.2.4~), liblxqt-globalkeys-ui2 (>= 2.0.0~), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.0.0~), libpulse0 (>= 0.99.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6svg6 (>= 6.6.0), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.7.2), libqt6xdg4 (>= 4.4.0~), libqt6xml6 (>= 6.6.0), libsensors5 (>= 1:3.5.0), libstatgrab10t64 (>= 0.92.1), libstdc++6 (>= 13.1), libsysstat-qt6-1 (>= 1.1.0), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 3589
+Depends: lxqt-menu-data, lxqt-policykit, lxqt-theme-debian, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libdbusmenu-lxqt0 (>= 0.4.0~), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.2.4~), liblxqt-globalkeys-ui2 (>= 2.0.0~), liblxqt-globalkeys2 (>= 2.0.0~), liblxqt2 (>= 2.4.0~), libpulse0 (>= 0.99.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6svg6 (>= 6.6.0), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.7.2), libqt6xdg4 (>= 4.4.0~), libqt6xml6 (>= 6.6.0), libsensors5 (>= 1:3.5.0), libstatgrab10t64 (>= 0.92.1), libstdc++6 (>= 13.1), libsysstat-qt6-1 (>= 1.1.0), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2)
 Recommends: lxqt-about, lxqt-config, lxqt-notificationd, lxqt-panel-l10n, lxqt-qtplugin, lxqt-runner, lxqt-session, pavucontrol-qt | pavucontrol, qlipper
 Suggests: lxqt | lxqt-core, qtxdg-tools
 Breaks: lxqt-branding-debian (<< 0.14.0.8)
 Replaces: lxqt-branding-debian (<< 0.14.0.8)
-Filename: ./lxqt-panel_2.3.2-3_amd64.deb
-Size: 885540
-MD5sum: 5917a3d7f3595f26adc8f709fee70704
-SHA1: 461561a516a75cf7904f366d09683eb3777ef695
-SHA256: 65ab0911dd8c65537f14aae63a73b4aceb6cf3452eeb12085e839ed829b8c27f
-SHA512: 73cefe7760c1a820fa3b3aabc2948026b476e24ab301dee63977bbcc8f1ca1027adcca0ceeed1f31ec3811241e93d2c6fc2c8b8cbf1323db39966a6e1f35248c
+Filename: ./lxqt-panel_2.3.2-4_amd64.deb
+Size: 886948
+MD5sum: f2512f00c6548bf3a88d74818ef3f895
+SHA1: 262f302be6b01b6563a2ee807f00a93cacd11a82
+SHA256: e4aaf61c8ccbeec951073577cd0698bab6094b299c7dc0646177afdec52012f4
+SHA512: daaf519f4318251c82bfab698dfebdc47e12d2b72745f5ea538db9168b0ed6052518ba3745a8df623071510c233a76502cbb3dd2dc1f3eaffffdcceed7e1c331
 Homepage: https://github.com/lxqt/lxqt-panel
 Description: LXQt desktop panel
  This package includes the LXQt panel, which serves as the desktop panel
@@ -59366,7 +59366,7 @@ Description: Qt 6 QML Models QML module
 
 Package: qml6-module-qt5compat-graphicaleffects
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -59374,12 +59374,12 @@ Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1726
 Depends: qml6-module-qtquick, qml6-module-qtquick-window, libc6 (>= 2.29), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6shadertools6 (>= 6.10.2~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), qt6-shadertools-private-abi (= 6.10.2)
-Filename: ./qml6-module-qt5compat-graphicaleffects_6.10.2-3_amd64.deb
-Size: 336700
-MD5sum: e2d9e51607df51bbf6d4b0dcc0a6efd3
-SHA1: 081448cd188ab645c67055ed0e1b603e24a38bcb
-SHA256: 8d323e50b52ea9656c653e8a1bef0eceb4c0907dd89ea4d4368dc9976119f126
-SHA512: 7a950a0e15a4a620857964dddfbaa53e2b35f6cbc7ebfa5eea3079d514c7293964ebd6ab8b26bd36b90e78e49117e48c7ffa61125542a781d5dd4672b5472a24
+Filename: ./qml6-module-qt5compat-graphicaleffects_6.10.2-4_amd64.deb
+Size: 336776
+MD5sum: 3163264e6548e8c6f12fc7813a9f351a
+SHA1: f2bfa65a0dd7c3c5795994c878b1e9ed62671ac6
+SHA256: 8c5c095e5d63d79e8fd32a7ce7f66d83bfac9b48b8fa9ab11d23e84a9d588af4
+SHA512: 91bf375d912f21bbbe484474660bd27120cbdd4e44b6e97315163b30de57d043dfb53d0bf751e511b12a80c4f42bded31ec676ca73a2be78251283866f3d8ccd
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60353,20 +60353,20 @@ Description: Qt5 Configuration Utility
 
 Package: qt6-5compat-dev
 Architecture: amd64
-Version: 6.10.2-3
+Version: 6.10.2-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: qt6-5compat
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 280
-Depends: libqt6core5compat6 (= 6.10.2-3), qml6-module-qt5compat-graphicaleffects (= 6.10.2-3), qt6-base-dev
-Filename: ./qt6-5compat-dev_6.10.2-3_amd64.deb
-Size: 30552
-MD5sum: 0c6d5b5ca4f55d2bb5fa57cfdedff4de
-SHA1: 9f454269fc40d9e05953288371de3159eafd1ecc
-SHA256: a7bd4511edf68b2a5ae43d4cbf799c5eccff99e2f60e4e16a8d267e832dd0126
-SHA512: 9acd9c7ab4ea945ad4cec069306bca90cfc0077431062bb0727ed6bf830f63da8b8e7becb1b6f7d13d17c6b94970c14ff1343243b23c8801461d670aefa0a7c8
+Depends: libqt6core5compat6 (= 6.10.2-4), qml6-module-qt5compat-graphicaleffects (= 6.10.2-4), qt6-base-dev
+Filename: ./qt6-5compat-dev_6.10.2-4_amd64.deb
+Size: 30612
+MD5sum: 950635c430d6dbfe5edffbfa38928234
+SHA1: 36988621aecd5a493e378c03e0a6089b99b8438d
+SHA256: d55bdadbc934ac2b5cf479fdc984861991ee15cbda3c067b3398e854ccd4b521
+SHA512: 3e7ce74954b0d66a9257fe8a9838fc407ca9274752dc773b8f61919ce0cfe3f22ea1e6954b48caa2597e15ec1623ca17ba0287d6ef3f772f02b93dd45eaa32b9
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Qt5Compat - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62813,18 +62813,18 @@ Description: tool for selecting tasks for installation on Debian systems
 
 Package: tecla
 Architecture: amd64
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 300
 Depends: libadwaita-1-0 (>= 1.4~beta), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.13.8), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.6.1)
-Filename: ./tecla_50.0-1_amd64.deb
-Size: 39592
-MD5sum: 54a81942d6849164b46995902550c0bc
-SHA1: 9aab547541d319bf9af394849b0bcb7194a549b2
-SHA256: e7ad74765364b796c482fc77f58c55ca1ad43ebb3042707b66f4586f2572c066
-SHA512: eb6a4c18fd8ec10944648a475d858df7a3a62d714e073eeb2d34b0989374120a3de1bcfdf40469e785413ec52d225353d69cb54f69dff3aa454d6630a6601cd6
+Filename: ./tecla_50.0-2_amd64.deb
+Size: 39688
+MD5sum: 289511600c3550b2994a5e2bb4bd5063
+SHA1: 00a1d0d944c67339d5040569cf4fdf22ac2cb334
+SHA256: 288d308af53fd205fdc854fac09004710da9af60858718a878c4050fac9f0b7d
+SHA512: 1a8ae0a33f305d229980cdba0f674e33ccca254b03face8d5655c6a8c7ec21372ed962a43889c618637bbc005668a12282f1a7370d40e0fcc12a135eda2ba63e
 Homepage: https://gitlab.gnome.org/GNOME/tecla
 Description: keyboard layout viewer for the GNOME desktop
  This app is a basic keyboard layout viewer for integration
