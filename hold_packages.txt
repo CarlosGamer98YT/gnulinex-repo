@@ -2,3 +2,4 @@ grub-efi-ia32-bin_2.12-9+deb13u1_amd64.deb
 grub-efi-ia32-unsigned_2.12-9+deb13u1_amd64.deb
 network-manager-applet_1.36.0-3+b1_amd64.deb
 nm-connection-editor_1.36.0-3+b1_amd64.deb
+
