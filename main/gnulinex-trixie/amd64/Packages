@@ -59206,19 +59206,19 @@ Description: core utilities for python3 packages
 
 Package: python3-pampy
 Architecture: all
-Version: 2.0.2-4
+Version: 2.0.2-5
 Priority: optional
 Section: python
 Source: python-pampy
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 53
+Installed-Size: 51
 Depends: python3:any
-Filename: ./python3-pampy_2.0.2-4_all.deb
-Size: 11644
-MD5sum: a34757d511583766d24c3a88d150a5bb
-SHA1: cdfa0e61fb52545009f5565cd5b3e3090fe590a6
-SHA256: 05fc7e049b32c4e08cbc6fa6fcad724e0ed143498628fd965e303c1826bb561e
-SHA512: d74cce2d93fd615282298a71bedd51c7655b4010bb553f7546415fb931f5782b84dad0d6e83962435af0b5409bd1f8844b44619585c0d141f3f3f15645ae486f
+Filename: ./python3-pampy_2.0.2-5_all.deb
+Size: 11256
+MD5sum: 3b93d7d072ac0319b33c3b1130a22f30
+SHA1: 0f7c572a0e7337c9a1f33ec714d5d5414222cdb6
+SHA256: d9ae8e642449fa1c3e1e4943137729369124b78e7d3dd8266b6cf4ef2d778444
+SHA512: 75f25d8aa36f7f0ad7e0369ccd525d0ebd65f60d61f9c3b93c59dd0fbd4503c5d1d07f0d193dcce9101d60701d2b3807d53da33622a9d6df81510d84a6bf9ea8
 Homepage: https://github.com/FirefighterBlu3/python-pam
 Description: Python module for simple PAM authentications (Python 3)
  Provide an authenticate() function that will allow the caller to
