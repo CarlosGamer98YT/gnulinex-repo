@@ -22966,23 +22966,23 @@ Description: Development metapackage for the GLib family of libraries
 
 Package: libglibmm-2.68-1t64
 Architecture: amd64
-Version: 2.88.1-1
+Version: 2.88.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibmm2.68
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 3584
-Provides: libglibmm-2.68-1 (= 2.88.1-1)
+Provides: libglibmm-2.68-1 (= 2.88.1-2)
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.87.3), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 14)
-Breaks: libglibmm-2.68-1 (<< 2.88.1-1)
+Breaks: libglibmm-2.68-1 (<< 2.88.1-2)
 Replaces: libglibmm-2.68-1
-Filename: ./libglibmm-2.68-1t64_2.88.1-1_amd64.deb
-Size: 676880
-MD5sum: 0f6c225d5434051482d09db2077b0e35
-SHA1: a8e901d0ff6ab5c465315cf03c04a2880e666d54
-SHA256: 03651a4e263a92e6011ad92e17b34a434af325feebcce6e95146f1c69fbabfed
-SHA512: ee5d84fb7513d8a627101b8c32cde2c3e80c1b72d865d17a018d1f72dec19fd30febc79719e136416ce95105378d882997ad76f20db988750efb2e9fb03b9a5a
+Filename: ./libglibmm-2.68-1t64_2.88.1-2_amd64.deb
+Size: 677544
+MD5sum: b786087e1a90f6f55e59a379d347e5e1
+SHA1: 4d12bce893da42319fac5875fa3699ff2b77369d
+SHA256: d98e472c397208269f20decd2d56e5ca41a7ed56bd37d614b8c47e1807c2270c
+SHA512: 43884f1a63e2ef51866a50f32b222665b6877fb6464207c48e835db7cb859cd337a339b9cb5191428d5684f26bf2bc73702f90b8287b57755929620cdd8ca3da
 Homepage: https://www.gtkmm.org/
 Description: C++ wrapper for the GLib toolkit (shared libraries)
  GLib is a low-level general-purpose library used mainly by GTK+/GNOME
@@ -65723,7 +65723,7 @@ Description: TeX Live: LaTeX fundamental packages
 
 Package: texlive-latex-extra
 Architecture: all
-Version: 2026.20260711-1
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
@@ -65735,12 +65735,12 @@ Recommends: default-jre, libspreadsheet-parseexcel-perl, texlive-fonts-recommend
 Suggests: python3-pygments, icc-profiles, libfile-which-perl, texlive-latex-extra-doc, texlive-science
 Breaks: dblatex (<< 0.3.8-2~), latexml (<= 0.8.6-5), sdaps (<< 1.9.7), texlive-base (<< 2022.20220405), texlive-latex-base (<< 2026.20260527), texlive-latex-extra-doc (<< 2018.20181106), texlive-latex-recommended (<< 2024.20240706), texlive-luatex (<< 2020.20200804), texlive-publishers (<< 2018.20181213), texlive-science (<< 2024.20240401), texlive-xetex (<< 2026.20260328)
 Replaces: sdaps (<< 1.9.7), texlive-latex-base (<< 2019.20191203), texlive-latex-recommended (<< 2019.20190915), texlive-publishers (<< 2018.20181213), texlive-xetex (<< 2026.20260328)
-Filename: ./texlive-latex-extra_2026.20260711-1_all.deb
-Size: 32713784
-MD5sum: d1c08577bb8ad516de841e3de6b63648
-SHA1: a306fa885fa32679b9e9e5a900fd5247d3d4abc6
-SHA256: a16e1387710e7e7d80daf23477ed2a6b9be2877994714df14a34b02d294a6716
-SHA512: 3381368f2759fd6296d7a11226322ed50b8a3cd159d4628af55ebd40378636eefd1a8744d27e0e3f77699a881bb55e4e5f2e2dccf740aae435f241d490d6c14b
+Filename: ./texlive-latex-extra_2026.20260711-2_all.deb
+Size: 32714644
+MD5sum: 12827fe7e358eecec3910ee1367d1c57
+SHA1: e32e02dab8544f591c44aa74969a273dadba2094
+SHA256: 78b30698af22c8ecce896587615e816f5b51f9aa2faadd9944cbf8abd3c129f8
+SHA512: 59b8daf5ec3369a75de2e44873202cef708cf763a31bcb32ab709eea8e2aea1eb1f5d97bdcee9907cda69879b4f0d4cc474027fc16c93969a10b7442c18b9391
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: LaTeX additional packages
  A very large collection of add-on packages for LaTeX.
@@ -70049,7 +70049,7 @@ Description: TeX Live: Graphics, pictures, diagrams
 
 Package: texlive-plain-generic
 Architecture: all
-Version: 2026.20260711-1
+Version: 2026.20260711-2
 Multi-Arch: foreign
 Priority: optional
 Section: tex
@@ -70063,12 +70063,12 @@ Suggests: default-jre-headless
 Conflicts: tex4ht (<< 20160814), tex4ht-common
 Breaks: tex4ht (<< 20160814), texlive-base (<< 2022.20220405)
 Replaces: tex4ht (<< 20160814)
-Filename: ./texlive-plain-generic_2026.20260711-1_all.deb
-Size: 30499436
-MD5sum: f309c41547a82c6c85238a6dabcc7da2
-SHA1: 5954d54b900efbe55ce473dd0010b9f887e3857c
-SHA256: 4eeb179062260e908ad6bb52c654a1a4f34be60ac872a71769835e72eb6f1241
-SHA512: b2f12e74e38f47ce124d970874fb7949233e56d20101988207f3a67d400f01976085e3fc3bc9d12c7d795d8a130f890c50f9e9d762f491b5b0a1c708a7b3f010
+Filename: ./texlive-plain-generic_2026.20260711-2_all.deb
+Size: 30500480
+MD5sum: a7030ac72210058102ac7ad3480505e0
+SHA1: 2c4f36a7aad23c5dc2c5151f9f4aa3490507d5f1
+SHA256: a7c1a6e090223712fcd69d65e5055a96e2a11ecf18aae67bbb91cc11bb33cada
+SHA512: eafafdc0a14fcd0a8f36c2fa36b2c93675d3dacddf8c8d97a9107c4009089841e7fc0bdd65c33ab0ba04ab5e9e7fe485d547b3aba83569e2cbde0fc633439c18
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Plain (La)TeX packages
  Add-on packages and macros that work with plain TeX, often LaTeX, and
@@ -72065,20 +72065,19 @@ Description: GTK+/GNOME portal backend for xdg-desktop-portal
 
 Package: xdg-desktop-portal-hyprland
 Architecture: amd64
-Version: 1.3.12-1+b1
+Version: 1.4.0-1
 Priority: optional
 Section: x11
-Source: xdg-desktop-portal-hyprland (1.3.12-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 897
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsdbus-c++2 (>= 2.2.1), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0)
+Installed-Size: 1024
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsdbus-c++2 (>= 2.3.1), libstdc++6 (>= 13.1), libuuid1 (>= 2.16), libwayland-client0 (>= 1.20.0)
 Recommends: xdg-desktop-portal-gtk
-Filename: ./xdg-desktop-portal-hyprland_1.3.12-1+b1_amd64.deb
-Size: 270104
-MD5sum: 8e3b2030f7f2ed2759bccb3938777b98
-SHA1: d71c3509bb2c80c1aaca52973557853466758ad4
-SHA256: bdab26f48b04110f1f29d6e56e2cdce35db6dffd0215bdcda0a8e16b21e159ff
-SHA512: c59f5e7f6dcd049b146ec5be4aa6490251e80ca2f500cb69bdaa07cadfe6e465db3f9d095776769d9a217661a70ca328a6367e70fff5b42c00841fd1950d32ba
+Filename: ./xdg-desktop-portal-hyprland_1.4.0-1_amd64.deb
+Size: 306204
+MD5sum: b7c8e84a4058cd28fdc9d43edd0b2f22
+SHA1: f28ce918ed2a1759dc1741b3da4bc96da0c8a5d9
+SHA256: ae4dc690bdfe78279f5527497591f59949248e034117f7cd39b22a021af10ca5
+SHA512: 7bccda36d0ae28fb8ae6c90866bf9ee850777437d9a4be2134cccc4e35f2a1c4c4d06bd200ca2c93f8aef9e2a421148fa3ce5a911cf43390d80e6f2dff736f7a
 Homepage: https://github.com/hyprwm/xdg-desktop-portal-hyprland
 Description: XDG Desktop Portal backend for Hyprland
  This package provides an XDG Desktop Portal backend for Hyprland.
