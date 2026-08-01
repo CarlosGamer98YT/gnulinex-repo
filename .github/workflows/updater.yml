@@ -55,7 +55,7 @@ jobs:
               LOCAL_VER="${REST%%_*}"
               LOCAL_VER="${LOCAL_VER//%3a/:}"
               
-              if [ -f "$GITHUB_WORKSPACE/hold_packages.txt" ] && grep -q -x "$PKG_NAME" "$GITHUB_WORKSPACE/hold_packages.txt"; then
+              if [ -f "$GITHUB_WORKSPACE/hold_packages.txt" ] && grep -v '^[[:space:]]*#' "$GITHUB_WORKSPACE/hold_packages.txt" | grep -q -E "^(${PKG_NAME}|${deb})([_[:space:]]|$)"; then
                 echo "-> Omitiendo actualización de $PKG_NAME (bloqueado por hold_packages.txt)..."
                 continue
               fi
