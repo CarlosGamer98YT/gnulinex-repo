@@ -30706,19 +30706,19 @@ Description: mail transport service library - data files
 
 Package: libkmime-data
 Architecture: all
-Version: 25.12.3-1
+Version: 25.12.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kmime
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 307
-Filename: ./libkmime-data_25.12.3-1_all.deb
-Size: 20824
-MD5sum: 535241c2c9dade474b3958cf570148a2
-SHA1: 37a46559097c102b2cbfe14152e66b54ce4bdeb0
-SHA256: b428a634246f865c488e098857a29a4a46d608100224c463a9e92e2803914dcc
-SHA512: d2570861370f8f6278f93de878275c35ae4b6b0fdf51a9c18de7b834e312aef008bc916ff82ecbc36906091663f446f5fc3204c8dafa5f26ac2d80e8042bc346
+Filename: ./libkmime-data_25.12.3-2_all.deb
+Size: 20936
+MD5sum: 3f8e533cf5b1cdd4e41e24da75be02f7
+SHA1: 127632219e9ce691981d5baba3ef8438191562f4
+SHA256: 6891d666f8c18b4a7aa144b5b6797012dd36d34e17fc34bb4189ed3533fa8465
+SHA512: a6562e94ec70fd8b42d167ad76656c111e768f28556734e1f68c37eba2e70776b39eba878243574947ee0bfc119ee7e5f1120e1c4acf4187f7d039069b661209
 Homepage: https://invent.kde.org/pim/kmime
 Description: Arch independent data for library for handling MIME data
  This library provides an API for handling MIME data. MIME (Multipurpose
@@ -31956,7 +31956,7 @@ Description: KDE PIM messaging library, message viewer library
 
 Package: libkpim6mime6
 Architecture: amd64
-Version: 25.12.3-1
+Version: 25.12.3-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31964,13 +31964,13 @@ Source: kmime
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 409
 Provides: libkpim6mime6-25.12
-Depends: libkmime-data (= 25.12.3-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf6codecs6 (>= 6.18.0~), libqt6core6t64 (>= 6.9.1), libstdc++6 (>= 5)
-Filename: ./libkpim6mime6_25.12.3-1_amd64.deb
-Size: 122084
-MD5sum: 984c51aa776d0a96f80b12173541ae69
-SHA1: 80772a031fbe74679804a404398f70e4b46d62df
-SHA256: 8526f561de8a955eafed63d001fef69158c1af03e6fd8c137766a9becd04ae84
-SHA512: 30326e4515f20aea614deda6d706eef435a455fc23e857b91c95daeeeafd2da08ee53263f237d017ee4d784b012ac24f9893e7d56af819e16681f3b664e622b1
+Depends: libkmime-data (= 25.12.3-2) | libkf6mime-data, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf6codecs6 (>= 6.18.0~), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
+Filename: ./libkpim6mime6_25.12.3-2_amd64.deb
+Size: 122368
+MD5sum: d4a5da84f9e921c81a047398cc14491c
+SHA1: 7c806cfbeedccb8cc5f026dc72f78c797af0d711
+SHA256: 08deee75b91ea9a44d69987dd037883812ba05d70e5b02504f3b5b355d5caa26
+SHA512: f0c7b7e43eef68f8c03a274ede1d8d0d5fd3d943363a5f6155eb1790a3f2db2e3b0f9c4e39db97da235b3a38d172368ee051e9461019d4869330e03fba691e76
 Homepage: https://invent.kde.org/pim/kmime
 Description: library for handling MIME data
  This library provides an API for handling MIME data. MIME (Multipurpose
@@ -39569,20 +39569,20 @@ Description: Library for complex text layout
 
 Package: librav1e0.8
 Architecture: amd64
-Version: 0.8.1-10
+Version: 0.8.1-11
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: rust-rav1e
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Installed-Size: 3299
+Installed-Size: 3267
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
-Filename: ./librav1e0.8_0.8.1-10_amd64.deb
-Size: 973436
-MD5sum: 9cf75c881903e0b1812cf481d57195f7
-SHA1: e637e93870d4570ce057a3c794df917e72f3a5fe
-SHA256: 94431f2fa9f8d88369fde3185cf315283ed5a70fc52a58ccde37bd005aeaaf84
-SHA512: dfea45ab1847015c5972677e3cfda75d93b8dade82c543c1c496427c0cb89e27fb76d36f1272ff040c69eddcb6a5de68ec6802bc9a80e41b09ba743e7f5de781
+Filename: ./librav1e0.8_0.8.1-11_amd64.deb
+Size: 966416
+MD5sum: 17befe569e2f309488981405d4e7bdd9
+SHA1: f51b75a8b730520d20ee4d2e6802c3ca5b99a723
+SHA256: 8c09b7713c298c357056c77cf0dfe496d9a15cbd6806950978e9ffec8d967b9a
+SHA512: 11ff1021c5fb8336a4e9e52da175a60feed21ad06933d4f6e9e0cda42f8868efbf78f71be3e8fb03900add00e2d8baa33ec682bf5d0fe4af6e56d4a206ca68c5
 Homepage: https://github.com/xiph/rav1e/
 Description: Fastest and safest AV1 encoder - shared library
  rav1e is an encoder for the AV1 video codec.
@@ -58616,19 +58616,19 @@ Description: simple but powerful config file reader and writer for Python 3
 
 Package: python3-cssselect
 Architecture: all
-Version: 1.4.0-1
+Version: 1.5.0-1
 Priority: optional
 Section: python
 Source: python-cssselect
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 96
-Depends: python3, python3:any
-Filename: ./python3-cssselect_1.4.0-1_all.deb
-Size: 22052
-MD5sum: 5d0e41cd15e026608fe0ce41525a6943
-SHA1: 658fbba4eb1e8699c7a274be329467b795685678
-SHA256: 7df98baa3a11d5fd3a8c3893236b8875ca59619a386761634e5b62e3261dacfd
-SHA512: 0d556091a1f6a463ed5e99c6b1696514151714fd7ebe9a60a372e6c30c247a2e36e18c0defc7d1bcbf73e74399d3deb3b8d01c1f25b787ce1b10f27fac52dfa6
+Installed-Size: 99
+Depends: python3:any
+Filename: ./python3-cssselect_1.5.0-1_all.deb
+Size: 23364
+MD5sum: e0f0d91ea31392b6e4cc6a8b36777758
+SHA1: ab8cf6318b0b2ba63c59148d75e95e10808ed0f9
+SHA256: a20fe4af19d6dd25eb7dc676c903e65eee2979554be758f09c9df2a0d083a780
+SHA512: c8eaa9ce0fdb0bacc41fd77b4aa95b27fd4cb8bea889c118ed3506daee298f12903d93920c7d53217adb0eab296b687854db479617a54da67584cdc4c99657be
 Homepage: https://github.com/scrapy/cssselect/
 Description: cssselect parses CSS3 Selectors and translates them to XPath 1.0
  cssselect parses CSS3 Selectors and translate them to XPath 1.0 expressions.
