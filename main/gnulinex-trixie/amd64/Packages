@@ -8024,20 +8024,20 @@ Description: GObject introspection data for the GNOME menu library
 
 Package: gir1.2-gnomebg-4.0
 Architecture: amd64
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 28
-Depends: gir1.2-gdk-4.0 (>= 4.4.0), gir1.2-gdkpixbuf-2.0, gir1.2-gnomedesktop-4.0 (= 44.5-1), libgnome-bg-4-2t64 (>= 3.27.90)
-Filename: ./gir1.2-gnomebg-4.0_44.5-1_amd64.deb
-Size: 13204
-MD5sum: b0ee4ac04593cb718b4e5fcf58d44842
-SHA1: 48a294ec1613648b2acdf638bf3c36a3e72c32af
-SHA256: b73cc289746be430e9cb2298c858c847360f40524248da37a161641877120ed2
-SHA512: 8023bfe8a94603940b701afd81a7257ff4dd23fbd0672975d0f98f59d5e9446b3fabb8c9ba88b624e6e48f3813447b27a6169fe73dae801b198ab0dd027ec71c
+Installed-Size: 22
+Depends: gir1.2-gdk-4.0 (>= 4.4.0), gir1.2-gdkpixbuf-2.0, gir1.2-gnomedesktop-4.0 (= 44.5-2), libgnome-bg-4-2t64 (>= 3.27.90)
+Filename: ./gir1.2-gnomebg-4.0_44.5-2_amd64.deb
+Size: 7024
+MD5sum: aa3f3ab6a80bda8255d28e53d4bd34cb
+SHA1: bc899af72d4c5ab88ce61acc9aa96c6e770139c3
+SHA256: e495b5b3b37b94ee6b816aa5f5c6af05b6e6e0e138755ce967bbb32a080b374f
+SHA512: eada7604235468ee3096177c3252fcb830b976ce65f469eace193c59ee7200aff6ec93995ad3a2ed04dda4ecbf1dd6557ddb33949d0b8283c4f3455a6468cd98
 Description: Introspection data for GnomeBG (GTK 4)
  The gnome-desktop set of libraries provides various utility functions
  that are used in multiple components of the GNOME desktop, but do not
@@ -8074,21 +8074,21 @@ Description: Introspection data for GnomeBluetooth
 
 Package: gir1.2-gnomedesktop-4.0
 Architecture: amd64
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 33
+Installed-Size: 27
 Depends: gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-gobject-2.0, libgnome-desktop-4-2t64 (>= 43~alpha)
 Breaks: gnome-shell (<< 42~alpha)
-Filename: ./gir1.2-gnomedesktop-4.0_44.5-1_amd64.deb
-Size: 14424
-MD5sum: 32011a2fe9cbf419a6cec861c07924c4
-SHA1: 6e3418864c594c032205dfb49d441c30a0a45ed9
-SHA256: 7d7c7ab60eb0d950021d4da51706e9dadfe3bfbf12e891ffc1786efccf3e4e4a
-SHA512: 34e03df0e212324e12facffa5b4dec0fc863cece8e72910ee8dc389cfea0a722b140ba1c13acfb4d0aa611a656e13063eaf12a1885281b1c8c6020297ad8c321
+Filename: ./gir1.2-gnomedesktop-4.0_44.5-2_amd64.deb
+Size: 8284
+MD5sum: 4de5c3505055d7f30e777456f1f8f164
+SHA1: 3e8e406832cda43dcf87d42a5cd00a47c567cd03
+SHA256: 49c064a2c00b16c2d793843e5c532728d4dacf3fe563d659143acd517dbbe64c
+SHA512: bacf0094518d451e14f43fe17b093e34b26081df5c368ac365d4c09ccfddee8fcc1f80f2e40c21cfaa9fd7d3ba9b5ac727be2b76a0f441eca68a2c64aae35ceb
 Description: Introspection data for GnomeDesktop (GTK 4)
  The gnome-desktop set of libraries provides various utility functions
  that are used in multiple components of the GNOME desktop, but do not
@@ -10132,20 +10132,20 @@ Description: GNOME Desktop Environment -- essential components
 
 Package: gnome-desktop3-data
 Architecture: all
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2959
+Installed-Size: 2953
 Breaks: libgnome-desktop-3-17 (<< 3.36), libgnome-desktop-3-18 (<< 3.36)
-Filename: ./gnome-desktop3-data_44.5-1_all.deb
-Size: 433712
-MD5sum: 4c92f3bbfe3e873af27625a76876024d
-SHA1: 26921c0437cc26a4b44ff7b7c015fbb6a836e100
-SHA256: 64e7d5769450cb9d69863cb8b8eb6a87f2b3e2b57554acfeaadb22ddd550e8f3
-SHA512: 03fb6261d97930f5d1e58cd4b6da4ac4c081fd708f87d2601dd81264e8bb4167670e3d02d4df4b0750b7e8482e586c549797270a6c1fa65b13099ebd4e047dda
+Filename: ./gnome-desktop3-data_44.5-2_all.deb
+Size: 427500
+MD5sum: c186ad335f2ea3b82bd6a9589484c8a9
+SHA1: 1dfb42b2f8d4ed71cba0ee8478a91d2feb0ee34c
+SHA256: ee377962c69ca4760302dc84ebf787cede1f4a5866910edf70217eeb6dfb0628
+SHA512: bd4ca23b9f350dc4796c875dba37749a41bc6fa35baf778f896b290efe6ab9c2cea012766c137db8b4a6196119509b6d2deedcfd06eb998d21ff240799a67980
 Description: Common files for GNOME desktop apps
  This package includes some files that are shared between several GNOME
  apps (internationalization files).
@@ -23088,24 +23088,24 @@ Description: Archives integration support for GNOME
 
 Package: libgnome-bg-4-2t64
 Architecture: amd64
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 120
-Provides: libgnome-bg-4-2 (= 44.5-1)
+Installed-Size: 114
+Provides: libgnome-bg-4-2 (= 44.5-2)
 Depends: gsettings-desktop-schemas, libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgnome-desktop-4-2t64 (>= 3.17.92), libgtk-4-1 (>= 4.4.0)
 Recommends: locales | locales-all
-Breaks: libgnome-bg-4-2 (<< 44.5-1)
+Breaks: libgnome-bg-4-2 (<< 44.5-2)
 Replaces: libgnome-bg-4-2
-Filename: ./libgnome-bg-4-2t64_44.5-1_amd64.deb
-Size: 64768
-MD5sum: 386b743aa9c06e211d2722122cd316b5
-SHA1: 535b6debdf422512f13175f41eaaf804e93cbad2
-SHA256: 5e247700616b008b44b48984d1f5767e3275651e4e66f1629ac5b5fd743daabb
-SHA512: 562edcbff2bcb9a47da4d9ebc73882f03bf229e75869e5a8b9387c9159b8201d55c8971991032b58ca881f1b8b0c49efa909e6894a1e0966375afe7848cca801
+Filename: ./libgnome-bg-4-2t64_44.5-2_amd64.deb
+Size: 58576
+MD5sum: cae50c858b04761a5076874ddab66695
+SHA1: f9caab5c591e62bcc39ef0b3d483f04bc59fdc20
+SHA256: 16c46f3e6eb5a60296458d1280c51e273f8f9e92909266ca902a7ea414dac023
+SHA512: 977da790b4301c874d7e95e9ee57b58e4f0cc69549a3724baceda697f7f2e317ec86d68656bf1820e147a4d34eb0607b589362880a9b1e4deacd6d48182a6bb3
 Description: Utility library for background images - runtime files
  The gnome-desktop set of libraries provides various utility functions
  that are used in multiple components of the GNOME desktop, but do not
@@ -23162,24 +23162,24 @@ Description: GNOME Bluetooth 3 UI support library
 
 Package: libgnome-desktop-3-20t64
 Architecture: amd64
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 298
-Provides: libgnome-desktop-3-20 (= 44.5-1)
-Depends: bubblewrap, gnome-desktop3-data (>= 44.5-1), gnome-desktop3-data (<< 45~), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
+Installed-Size: 236
+Provides: libgnome-desktop-3-20 (= 44.5-2)
+Depends: bubblewrap, gnome-desktop3-data (>= 44.5-2), gnome-desktop3-data (<< 45~), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
 Recommends: locales | locales-all
-Breaks: libgnome-desktop-3-20 (<< 44.5-1)
+Breaks: libgnome-desktop-3-20 (<< 44.5-2)
 Replaces: libgnome-desktop-3-20
-Filename: ./libgnome-desktop-3-20t64_44.5-1_amd64.deb
-Size: 95504
-MD5sum: 43f09ba6ff564a69f38180a49ea56f5c
-SHA1: 636d3776ab52bef5896ce213debe05142ce61822
-SHA256: ef78560346ab604356964c2e27ee5d037c9c8d012e8b5b06368e55dd961445b8
-SHA512: 7ee2575f8a1619abea664566d3bbc9d1ebc14a01dd5cfa0c8eb748eddb71d630545fe58cbcb2816cb1065d2dba7af6b956cc33823e3dce7c067ada0eddbbc9a4
+Filename: ./libgnome-desktop-3-20t64_44.5-2_amd64.deb
+Size: 71880
+MD5sum: 9e647a859091fb3b100596eccb4fd56e
+SHA1: 4a947abdd4323d8e5b798e25373ea0a57c2ad02f
+SHA256: c3b0becb85682ecaa880df6e75f71c2d144cdd573149ea2f609a8b4bacb1f5d2
+SHA512: b9f76f79e04bac12b7a14109cc91e39539c82ea3ac46cb3d8bbe0f30a7dc41c99a5d1af44b1a19ac0d90c22349321cfb36f186df61de103b3e3a2bdb9ad8f815
 Description: Utility library for the GNOME desktop - GTK 3 version
  This library provides various utility functions that are used in multiple
  components of the GNOME desktop, but do not have a sufficiently stable API
@@ -23191,24 +23191,24 @@ Description: Utility library for the GNOME desktop - GTK 3 version
 
 Package: libgnome-desktop-4-2t64
 Architecture: amd64
-Version: 44.5-1
+Version: 44.5-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 199
-Provides: libgnome-desktop-4-2 (= 44.5-1)
-Depends: bubblewrap, gnome-desktop3-data (>= 44.5-1), gnome-desktop3-data (<< 45~), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
+Installed-Size: 193
+Provides: libgnome-desktop-4-2 (= 44.5-2)
+Depends: bubblewrap, gnome-desktop3-data (>= 44.5-2), gnome-desktop3-data (<< 45~), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
 Recommends: locales | locales-all
-Breaks: libgnome-desktop-4-2 (<< 44.5-1)
+Breaks: libgnome-desktop-4-2 (<< 44.5-2)
 Replaces: libgnome-desktop-4-2
-Filename: ./libgnome-desktop-4-2t64_44.5-1_amd64.deb
-Size: 87016
-MD5sum: b95f8d0837d384d6aa4bbe9c957747ee
-SHA1: 2c2dcb1a3cb606ecdb3134deb5ae851a9d8d1295
-SHA256: 1dac6785884a4afeb5ad5a0d7971d8cec01a79ca3d933709f7aca36a350be52b
-SHA512: 30cca61aef93844d91c8eeb1845d14df07cdd3cfe4dc2e17e3370b186b937a98800d785ab4816eba270e223024178149c89831ad37e2dffde42a12e02e473cd5
+Filename: ./libgnome-desktop-4-2t64_44.5-2_amd64.deb
+Size: 80756
+MD5sum: 383df430306e0b3e941c2c03418443fb
+SHA1: 06679ac414358e93fbab7916b4576daed366db7f
+SHA256: cb2a6a260bb5cd3d4c7d87927dd442c25aeda999e7032108b3210ccef5c7df6a
+SHA512: ec07916b28e121df6699c06881137559e3c2e5d950b17f040ee8bd24d2ceca3f2731f7d4c4ad428750274d4b46ce2296e65426a968f3b89dcf7b8eb78daa1d3c
 Description: Utility library for the GNOME desktop - runtime files
  The gnome-desktop set of libraries provides various utility functions
  that are used in multiple components of the GNOME desktop, but do not
@@ -47892,7 +47892,7 @@ Description: systemd utility library
 
 Package: libtag-c2
 Architecture: amd64
-Version: 2.3.1-1
+Version: 2.3.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47900,12 +47900,12 @@ Source: taglib
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 88
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libtag2 (>= 2.2)
-Filename: ./libtag-c2_2.3.1-1_amd64.deb
-Size: 31336
-MD5sum: e448584cc5cda9ed0cc0402f6dfe3808
-SHA1: dee7868b9db1cef3007974280294135f9900c24e
-SHA256: 691a10dd096dcfa508d28cbd6264f36bb31512d181a08c74f8d9835c298fc459
-SHA512: 8cd3a33237d3ab7417f8952afa48673e4a564b7a4177ecd9a8f3baea851c0948fa7b89dc9c1caf500c217eb1bbfdb4e7fb5bd83055a1a0c986005c88e21d968b
+Filename: ./libtag-c2_2.3.1-2_amd64.deb
+Size: 31360
+MD5sum: 2dc6e0f2beb2778f842a3f0d5afa92d7
+SHA1: 976d11d8906ef7f5918b1bfcd8f2a56cac869626
+SHA256: f50ee6822c51f2ad5990213d4c6e34acb75fa24b4f811946a4ac9c05723d691b
+SHA512: dbddbf8da8dd4af22d5ae2eb7cd396dfc2ddbec2f640680eee7df63ccadb1f47619a5e43348876af3bc3bb61321d6c21775b72d4aa85ac5bcadaa1ba963d1d29
 Homepage: https://taglib.org/
 Description: audio meta-data library - C bindings
  TagLib is a library for reading and editing audio meta data, commonly know as
@@ -47929,7 +47929,7 @@ Description: audio meta-data library - C bindings
 
 Package: libtag2
 Architecture: amd64
-Version: 2.3.1-1
+Version: 2.3.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47937,12 +47937,12 @@ Source: taglib
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1586
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./libtag2_2.3.1-1_amd64.deb
-Size: 421916
-MD5sum: c23706d198f6fce5ff7addbd6e39f081
-SHA1: 78301cce6964cdffe6b632ac27ecdb03983a62e6
-SHA256: 3772d3270e9c6c25ba5fb72f71ee68e34cc676525ad961ac86b36a4b9bb5328d
-SHA512: 779732bfab1b822d1c90903d1eb774deb6e042d5172ff0b24bf2bdcb8c17aded1855555a3506ae980329cd0471b1689394e33de3207efb8077b4ab1e9f72e6b1
+Filename: ./libtag2_2.3.1-2_amd64.deb
+Size: 421708
+MD5sum: 7c3edaa968bf8b799edc3fb0e6df2cc4
+SHA1: ab26137c63035fde1777778330a60f13cf031069
+SHA256: 4592271b9b73156c503a02e5194f8e1abad77e614e283643e9ae97e8db52bd33
+SHA512: 00075a46962b443b2fea75151b45e03632f383a3e6a0dae79c5fdc77c3b5eb41f3fe8ee1ed4671806f6a01bdb71833b533655caeffce72de014a91163f71987d
 Homepage: https://taglib.org/
 Description: audio meta-data library
  TagLib is a library for reading and editing audio meta data, commonly know as
@@ -51747,7 +51747,7 @@ Description: XMMS2 - client library
 
 Package: libxmp4
 Architecture: amd64
-Version: 4.7.1-1
+Version: 4.7.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -51755,12 +51755,12 @@ Source: libxmp
 Maintainer: Stephen Kitt <skitt@debian.org>
 Installed-Size: 712
 Depends: libc6 (>= 2.33)
-Filename: ./libxmp4_4.7.1-1_amd64.deb
-Size: 334324
-MD5sum: 1ad27512609375657a9e948b3ff8f959
-SHA1: 1276c6d2c31df2a12ab6480a093b70104f13c602
-SHA256: e95704a1d2b2bc9e18a8b444ecac696bfd02a13a74fe4e8d74b80ed0f1ba7563
-SHA512: c7dd1da466c47606425e55d0c1d4352d4ddc45ca75a593ce64e5cc10b75574a7df3122eb23761784ea60826ba7ab8260faaadaa2a8c60e6f277f5e62cb4f51e9
+Filename: ./libxmp4_4.7.2-1_amd64.deb
+Size: 334460
+MD5sum: 06272041a11f9fbb2965a24b7616ea24
+SHA1: bcf4523c243d9f0cdee339b9244fd0dc0f86e80c
+SHA256: 84ce2df7f09b7b363a01155f897e2fba6deb038627847f5c2f90e30c0a50eea6
+SHA512: 0d6f5601affa91ad79c01282cbdf21b3603e2cd7a2c3058562875292f9c75cd0cf1feda9b741a4e8d9f044abf078587a42e24a85308afabdd1aa680bc3b5895b
 Homepage: http://xmp.sourceforge.net/
 Description: module file rendering library
  libxmp is a library designed to interpret module files and produce
@@ -52018,20 +52018,20 @@ Description: Turkish spellchecker
 
 Package: libzxing4
 Architecture: amd64
-Version: 3.1.0+ds-1
+Version: 3.1.1+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: zxing-cpp
 Maintainer: Boyuan Yang <byang@debian.org>
-Installed-Size: 2172
+Installed-Size: 2196
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 14)
-Filename: ./libzxing4_3.1.0+ds-1_amd64.deb
-Size: 890164
-MD5sum: 4a559b7d2991820e5a1637ef02cc4d4e
-SHA1: 9166e2620fac6f86d96d48892d129d2b6f9efa6a
-SHA256: 4b5645da52747bdcf348ebd1c7387544584fc7b8ab36a0c832c32204afa6f7ee
-SHA512: 656b4f756e99d584de41c5272d42d183cc063f150967e30162a078b0ae536a41242f7a0795feb3e8ab1c7c7d1975a66ae1a623b11fce0a23a3d41efd5bf2efcf
+Filename: ./libzxing4_3.1.1+ds-1_amd64.deb
+Size: 896716
+MD5sum: 75bc96c2ddad59f86d41f12221d7c88b
+SHA1: c973f087fc198d5679d4df45fda94127f1043249
+SHA256: fde324949b592a1828aa6316fad81fb4453bc2efa1d1b3d84958a4bad376acd3
+SHA512: 602a7f3f6a3967088b676ae0d87d22300dafa7d1946235e60d9e5a5ed3cc5285b07f95ee515a2e2fbed509047089f15b8eddbd82f6052c303506ffdd9695b5c8
 Homepage: https://github.com/zxing-cpp/zxing-cpp
 Description: C++ port of ZXing library (library files)
  ZXing-C++ ("zebra crossing") is an open-source, multi-format 1D/2D
@@ -56520,18 +56520,18 @@ Description: Scriptable screen reader
 
 Package: os-prober
 Architecture: amd64
-Version: 1.84
+Version: 1.85
 Priority: optional
 Section: utils
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 98
+Installed-Size: 97
 Depends: libc6 (>= 2.34), grub-common, mount
-Filename: ./os-prober_1.84_amd64.deb
-Size: 18472
-MD5sum: 67346bdc334a588c6009c1e71eda2609
-SHA1: dd1319e958b0a0ccb3fb4b04f8ea349625862efd
-SHA256: b61f323a0b2541f6348c068af6b1021c406f1314676b4386df93be9d91ab631f
-SHA512: d7b0257ade0cf8100346a1a0a8f4d4d37a3ff7606252103f3942852027c213a3ebf3237776c2540f1f22fed8fc1266d2a8bc8e0a2724d3118161448c9add2ea3
+Filename: ./os-prober_1.85_amd64.deb
+Size: 17840
+MD5sum: 285b88c201b0599711186a85173718c3
+SHA1: c0489b97aa3b3e535dc8bb6ecf9bca4a3ce944b1
+SHA256: 11807c596bbb2f8c6f24c9a3f035a3a9da7b003c480788beea6a5f982bf334a9
+SHA512: 5541183765b3603d1b4b4ea3b37ec2a01e92bbc833c78b97fdbf24d2f5c5bb193dcde78c131ce26a50a9a674687e6fc01ad2344be4c7ffe2b3d7b0fe863a37df
 Description: utility to detect other OSes on a set of drives
  This package detects other OSes available on a system and outputs the
  results in a generic machine-readable format.
@@ -72139,7 +72139,7 @@ Description: LXQt portal backend for xdg-desktop-portal
 
 Package: xdg-desktop-portal-wlr
 Architecture: amd64
-Version: 0.8.3-1
+Version: 0.8.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
@@ -72148,12 +72148,12 @@ Installed-Size: 159
 Provides: xdg-desktop-portal-backend
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.113), libgbm1 (>= 21.3.0~rc1), libinih1 (>= 40), libpipewire-0.3-0t64 (>= 0.3.34), libsystemd0 (>= 243), libwayland-client0 (>= 1.20.0), xdg-desktop-portal, pipewire
 Recommends: slurp | wofi | bemenu
-Filename: ./xdg-desktop-portal-wlr_0.8.3-1_amd64.deb
-Size: 51684
-MD5sum: 81d7fe42a23d37700fefab2d009f6a8b
-SHA1: 966a291e478aeddbaf407f5887d545dcd6cade03
-SHA256: b7a11dac0a5fa16324aab5817e1c83e8fe17624e6d2136cf4dc7bbe4fd226d85
-SHA512: 06d30890b7d1bbbab2f6359c6a7f113b78f2d0f1aa6444b26d0e5d453012e0806c94a671e55c00829921043b0d1477dd7fcc787e8634685a831b39aa35afd486
+Filename: ./xdg-desktop-portal-wlr_0.8.4-1_amd64.deb
+Size: 52084
+MD5sum: f2fda78f031821ad1edab1508fcbd2ea
+SHA1: c9d8562538f99fb95bbb18ddb121de72c310de21
+SHA256: a460a88ad9573f08ac61e107855cecc27106d8ad9059b81b6cc40a0bbcfbe09c
+SHA512: 6ac2a37bea9ef92fdd017425ead013116e3534ea320014a550523372eea3a28433efc098150b0c13981770318a4d4f6a4ddd9db64cc5a61f66b2d71e4dde4ee0
 Homepage: https://github.com/emersion/xdg-desktop-portal-wlr
 Description: xdg-desktop-portal backend for wlroots
  Support for the screenshot, screencast, and possibly remote-desktop
