@@ -13103,20 +13103,21 @@ Description: hardware identification / configuration data
 
 Package: hyprland-guiutils
 Architecture: amd64
-Version: 0.2.2-1
+Version: 0.2.2-1+b1
 Priority: optional
 Section: x11
+Source: hyprland-guiutils (0.2.2-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 732
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.3), libhyprtoolkit5 (>= 0.5.4), libhyprutils12 (>= 0.13.1), libstdc++6 (>= 13)
+Installed-Size: 801
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 13), libhyprtoolkit5 (>= 0.5.4), libhyprutils13 (>= 0.14.0), libstdc++6 (>= 13.1)
 Breaks: hyprland-qtutils (<< 0.2.1-2~)
 Replaces: hyprland-qtutils (<< 0.2.1-2~)
-Filename: ./hyprland-guiutils_0.2.2-1_amd64.deb
-Size: 132408
-MD5sum: 062c8a1f4d1f6fe9dfa2a0106b13b0cf
-SHA1: e8e560a1635737d99dcefec11c44d8770f7a47b2
-SHA256: 1ad7e841e5a0d580ef904105a2adb69fdfdbcec090cff08068783e522387ef43
-SHA512: dfeef7008772c3b13d594ccc348ffe0a5d5fd2a6b1582152235e093778365e1e536dddfe720c766389dc4ff82ddef4bd40c3021f0835b2c6efca305b58b85526
+Filename: ./hyprland-guiutils_0.2.2-1+b1_amd64.deb
+Size: 145412
+MD5sum: f47a39d8bc7e3731bb7b01dd8717f08e
+SHA1: cce3a78171d019c9e2c84094c3fe78d6ad15debe
+SHA256: fa5a842bb0341f1873327efedc5af1137ade376581870030b85d661eda6cd9f0
+SHA512: 4e404de06443c3f635f52f9317600274d43d67c5e8ade735434aac0b7fcfb87093e7adce4217baa44f3a658e2a5e17cdbaed21fd24ef3915fdc779dfeea05f0b
 Homepage: https://github.com/hyprwm/hyprland-guiutils
 Description: GUI utilities for Hyprland
  Graphical helper tools (dialogs, update and donation screens)
@@ -13171,20 +13172,20 @@ Description: Dynamic tiling Wayland compositor
 
 Package: hyprpaper
 Architecture: amd64
-Version: 0.8.4-1+b1
+Version: 0.8.4-1+b2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: hyprpaper (0.8.4-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 550
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.3), libhyprlang2 (>= 0.6.8), libhyprtoolkit5 (>= 0.5.4), libhyprutils12 (>= 0.13.1), libhyprwire3 (>= 0.3.1), libmagic1t64 (>= 5.12), libstdc++6 (>= 13), libwayland-client0 (>= 1.20.0)
-Filename: ./hyprpaper_0.8.4-1+b1_amd64.deb
-Size: 155920
-MD5sum: c84fc5d351dca1a942968f94a584f59c
-SHA1: 600ba5392a733dd21f88ce9149af230706fb76d5
-SHA256: dc95a3c375b4fa46292bd764aa7de588d13625d9e58439463ece0f54901fcc71
-SHA512: 9b121883d4133d63bf0c427c793feb403c58e492ed5e56c7890fd3da06f54bc2c119cd817f3546d837fb5563e2a34997238d7c10f92e85c6a73a4bcb88c9b19a
+Installed-Size: 574
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 13), libhyprlang2 (>= 0.6.8), libhyprtoolkit5 (>= 0.5.4), libhyprutils13 (>= 0.14.0), libhyprwire3 (>= 0.3.1), libmagic1t64 (>= 5.12), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0)
+Filename: ./hyprpaper_0.8.4-1+b2_amd64.deb
+Size: 162956
+MD5sum: 5950e41986dbcde85b099f540f4fa80c
+SHA1: 76abf5a321d88f662a5a1f454a164a63f17b7747
+SHA256: 7593044214ee3b90f8af54c88b233c4c5bb17862522370a6319c9bd957ae013b
+SHA512: 9f3e0980fdf6b83ec35ca3f1252405f314a725169451f77bdbab9b38052144c5d2c25a0881cc4e877a863ed32127c90fdc5983d7f2e555e79005711e670b6f1a
 Homepage: https://github.com/hyprwm/hyprpaper
 Description: Wallpaper utility for Hyprland
  Hyprpaper is a blazing fast wallpaper utility for Hyprland
@@ -13193,19 +13194,19 @@ Description: Wallpaper utility for Hyprland
 
 Package: hyprpicker
 Architecture: amd64
-Version: 0.4.7-1+b1
+Version: 0.4.7-1+b2
 Priority: optional
 Section: x11
 Source: hyprpicker (0.4.7-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 364
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.3), libhyprutils12 (>= 0.13.1), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./hyprpicker_0.4.7-1+b1_amd64.deb
-Size: 98668
-MD5sum: d922af854433b282a30e9bbbdc804095
-SHA1: 2f7da6b9d84e1f5f9427d45f59724c929046cc56
-SHA256: 0cec8aa36cf87036f4b1b3a5c538d108aa6511aacef19eab599b43de1c9e303d
-SHA512: e73371162c51dde640163c1484c2275e00a0525295e9b33bd2f0d219e3565bda07510208fa556ac917b3e906f6e95445a1e2ff5e88d1a17d0e59bd6379138105
+Installed-Size: 380
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 13), libhyprutils13 (>= 0.14.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
+Filename: ./hyprpicker_0.4.7-1+b2_amd64.deb
+Size: 102456
+MD5sum: f9e5e18ccd7997abda1c21cb5ec9a52e
+SHA1: 73cd83f6e7d98acfb73a2addc36ab759c9a37395
+SHA256: edd43eb6c8040a5243e6bda8d83f059d817ad9458a6c867dff61b975f9a82989
+SHA512: c7d6a5446944df459ae2fc3f95d97f470f08b88296d5ad61399ad1321ca405ba2f982b471eca2180be8718559c606e8e0e0caa4205844df5415bdd120bfd7111
 Homepage: https://github.com/hyprwm/hyprpicker
 Description: wlroots-compatible Wayland color picker
  Minimal color picker, that lets you select colors from the screen and output
@@ -25353,20 +25354,20 @@ Description: hyprland cursor format, library and utilities
 
 Package: libhyprgraphics4
 Architecture: amd64
-Version: 0.5.1-2+b1
+Version: 0.5.1-2+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprgraphics (0.5.1-2)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 250
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libheif1 (>= 1.0.0), libhyprutils12 (>= 0.13.1), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libmagic1t64 (>= 5.12), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libstdc++6 (>= 13), libwebp7 (>= 1.5.0)
-Filename: ./libhyprgraphics4_0.5.1-2+b1_amd64.deb
-Size: 84984
-MD5sum: 324fde9ce72799b1295f1fc40ebfa73e
-SHA1: 2ae9ae600d359636cd0e5e0194f9c23da7f3346b
-SHA256: 4cb86d12259c41b95e4051219cb940f1d0dae571c12e514a6dd41f781bb59ad1
-SHA512: c2d419113fba533b001cec44acf73bc4fc8783e234c9fbe3922c392cd748ddc93086ba676f6d78049a72b1cce811fd928c9d43f1cfa4e40abf1fc0b102fbe7bf
+Installed-Size: 262
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libgcc-s1 (>= 13), libglib2.0-0t64 (>= 2.12.0), libheif1 (>= 1.0.0), libhyprutils13 (>= 0.14.0), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libmagic1t64 (>= 5.12), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libstdc++6 (>= 16), libwebp7 (>= 1.5.0)
+Filename: ./libhyprgraphics4_0.5.1-2+b2_amd64.deb
+Size: 88940
+MD5sum: bf2bb5755b729a4d36f1e89ccb79d56a
+SHA1: f9a0bb82aea0c3d16a2646e9217f163c27e633bb
+SHA256: 82f7cb7ae1c41f3ce9f9e0dbd335d051e01eebab81dbcfa71375f964b18db44e
+SHA512: b6d86a12597396033011023abd374f91a52b6c890ade38e0eb260676df7c3d448e81a787e1ccb242bc380bcd0c8ca55e8f0c22c359109e997f191994ebf292c7
 Homepage: https://github.com/hyprwm/hyprgraphics
 Description: C++ graphics utility library for Hyprland - library
  Hyprgraphics is a small C++ library with graphics / resource related utilities
@@ -25374,20 +25375,20 @@ Description: C++ graphics utility library for Hyprland - library
 
 Package: libhyprlang2
 Architecture: amd64
-Version: 0.6.8-4+b1
+Version: 0.6.8-4+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprlang (0.6.8-4)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 281
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.3), libhyprutils12 (>= 0.13.1), libstdc++6 (>= 13.1)
-Filename: ./libhyprlang2_0.6.8-4+b1_amd64.deb
-Size: 96924
-MD5sum: 09be2b8d8cf2ed769834f20de8be19dd
-SHA1: 6809da693ee5502c4a46e40b214426981a5fcb44
-SHA256: 8d56a5e78ebce2feaa5211f8243674e928709990e916be3f693a5eebba8f5e44
-SHA512: 3b9c0cceed36335b27072f0938b78429d5f9b97e9aa843606ba5e8b70b804c9061a5b63007c62766d7d6dff65b361c79c06c2173f9c6d002921e35c9d332167e
+Installed-Size: 309
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 13), libhyprutils13 (>= 0.14.0), libstdc++6 (>= 13.1)
+Filename: ./libhyprlang2_0.6.8-4+b2_amd64.deb
+Size: 105576
+MD5sum: 7d8fc286c6930705822fc7474960ae87
+SHA1: a477493e147de0794d04be125b6521024d1f890e
+SHA256: 292151a14eb191127c0d054e2efcc5530daa96562eae683cce1b5537e44e1adb
+SHA512: 2d7479d935f3794c08aa4d5018a4a011705401c53c140bbded25de570a8780911f6e03c90da26f43525f2481198a86cc994f00546db1bfd319a101167d34f9b6
 Homepage: https://github.com/hyprwm/hyprlang/
 Description: Fast and user-friendly configuration language (library files)
  The hypr configuration language is an extremely efficient, yet easy to
@@ -25451,20 +25452,20 @@ Description: Utilities used across the Hyprland ecosystem (library)
 
 Package: libhyprwire3
 Architecture: amd64
-Version: 0.3.1-3
+Version: 0.3.1-3+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: hyprwire
+Source: hyprwire (0.3.1-3)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 405
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libgcc-s1 (>= 4.3), libhyprutils12 (>= 0.13.1), libstdc++6 (>= 14)
-Filename: ./libhyprwire3_0.3.1-3_amd64.deb
-Size: 129532
-MD5sum: 7bc44b477317dc4d67c2b91eb38452ab
-SHA1: 37378c6a280fc173f7dd9a9d87ea729eb8b18521
-SHA256: 63b46b69ddcd76f48de0ba701d77789b00e3bd9fc3f41d435133185eccd13fc0
-SHA512: 1753ad03f5742c1ea38d05fdcd03a6230f12929547c37cdac621c2693db913d787ad9d995356f1fa1faf602f30c0357c6fa511f19bc472e754281923467e5970
+Installed-Size: 430
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libgcc-s1 (>= 13), libhyprutils13 (>= 0.14.0), libstdc++6 (>= 14)
+Filename: ./libhyprwire3_0.3.1-3+b1_amd64.deb
+Size: 136744
+MD5sum: 43bc27aac5130cf6f9d4f2ad365941ca
+SHA1: bb7bd0b9eb1df286afc5c410ab3291accd63b71b
+SHA256: 5eca1f72c8d96a3ac5393b90b0ecf5f95b7aa54d9cfa4a244ee12a4ec1b94eb5
+SHA512: 2c746fcf63d6fa2786e47d633b61584b86530b846cf7a330baaaad9e04b9ca63b8b4ab01dd97e4f2629ced415e886bebb7556152eb72081f6fffe90b18d931de
 Homepage: https://github.com/hyprwm/hyprwire
 Description: Fast and consistent wire protocol for IPC -- binary files
  Hyprwire is a fast and consistent wire protocol, and its implementation. This
@@ -37531,25 +37532,25 @@ Description: tool for generating and solving Sudoku puzzles (library)
 
 Package: libqt5core5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 6220
-Provides: libqt5core5a (= 5.15.19+dfsg-3), qtbase-abi-5-15-19
+Provides: libqt5core5a (= 5.15.19+dfsg-4), qtbase-abi-5-15-19
 Depends: shared-mime-info, libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.22.0), libicu78 (>= 78.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 14), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5a (<< 5.15.19+dfsg-3)
+Breaks: libqt5core5a (<< 5.15.19+dfsg-4)
 Replaces: libqt5core5a
-Filename: ./libqt5core5t64_5.15.19+dfsg-3_amd64.deb
-Size: 1892152
-MD5sum: 4dfbbd36ff4f24700fc3e12c6ffb401d
-SHA1: fe414e4e8fedee7cbf144de7507c706254565e4f
-SHA256: 5f42d62d200a6b34f8f6ef80602f22d08f107f159eaffcd8b98402fbae7a56c9
-SHA512: 3948356a807c9b22ea968a017de69fd8149fec6435f75cb410f88bd197cba33fe903c0e02cf1b21584f13c16dd78748d10e89d46ffb3c756f6f1109cd071e4f6
+Filename: ./libqt5core5t64_5.15.19+dfsg-4_amd64.deb
+Size: 1893304
+MD5sum: 42a2182a548ce3b2af91d6c8e9022de3
+SHA1: 28bcbd3ab8e57c3225ba9450e717df0dd8a941c8
+SHA256: 62c97fd49cb97049dbd4d45cd30d57a48144ea98516c6e195eeb808172658623
+SHA512: a50ca85ffc0c9ab0cc413cc0134c1cec4f570f8e9ec5296bbf7daa747cde151f7623c2537d8153d3669577236656f8074a27649efe6428121dcef91e479604c0
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37559,23 +37560,23 @@ Description: Qt 5 core module
 
 Package: libqt5dbus5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 757
-Provides: libqt5dbus5 (= 5.15.19+dfsg-3)
+Provides: libqt5dbus5 (= 5.15.19+dfsg-4)
 Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-19
-Breaks: libqt5dbus5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5dbus5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5dbus5
-Filename: ./libqt5dbus5t64_5.15.19+dfsg-3_amd64.deb
-Size: 211452
-MD5sum: 42964fe3c8aabbe770c380d994d57d55
-SHA1: befe8da44628b58fcd524a93226f36f4a2446aea
-SHA256: 216ecd7a73fcdbd775fc9ac28375006a11152e60d21b6184ccbeed837718174a
-SHA512: f8351fd04aea49efa295e6354e9f09d4722ad3773aafc6a777de45868f6cb268d67ee136fe29a787576144b29dac632a290df36b88d600e39863d0bf509b380c
+Filename: ./libqt5dbus5t64_5.15.19+dfsg-4_amd64.deb
+Size: 211648
+MD5sum: fb6621f5b77c5460651379289c5dddcc
+SHA1: 8aa824197ccd717b1f239f82ce77a1407abf65e8
+SHA256: 3d141068c8c840f3c108e562b83efa17356d2e5b571e66b77a9471ae2dfcdef0
+SHA512: 63a15b38a102545c7d0ca96a76134eca9e8575ecf8edcacc4442872d49ee860be8199e46e6565a07faea653e24f7d9c0106fcc59108e7555ada810f1010caac7
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37590,26 +37591,26 @@ Description: Qt 5 D-Bus module
 
 Package: libqt5gui5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 13050
-Provides: libqt5gui5 (= 5.15.19+dfsg-3)
+Provides: libqt5gui5 (= 5.15.19+dfsg-4)
 Depends: fontconfig, libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.4), libgl1, libglib2.0-0t64 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libpng16-16t64 (>= 1.6.46), libqt5core5t64 (>= 5.15.15), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1 (>= 1:0.9.12), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
 Recommends: libqt5svg5, qt5-gtk-platformtheme, qtwayland5
 Suggests: qgnomeplatform-qt5, qt5-image-formats-plugins
 Conflicts: libqt5gui5-gles
-Breaks: libqt5gui5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5gui5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5gui5
-Filename: ./libqt5gui5t64_5.15.19+dfsg-3_amd64.deb
-Size: 3524660
-MD5sum: d35e3c6a27c60e8f3d79b3c788d93f9c
-SHA1: a6964bcdf204bbac87b75f8b1796e77aea7847f4
-SHA256: f9416fe31cffeb2e7fb25b1845adb83149d5a7e0ee5cb250498bf5cae17d1c87
-SHA512: e22fbbe7ac7e5a60656bbf96b70d620fa3d57d1c9de2dff9a2b6ec86d3fb78934669fb4f487efba2bea5df629abe69916df2b3ea06ce7e6bccd16ea909b4df75
+Filename: ./libqt5gui5t64_5.15.19+dfsg-4_amd64.deb
+Size: 3524444
+MD5sum: 520ee480c0ad1e4b5be237f3166c84f9
+SHA1: 07db7eb2499a06c0c38ff421aa9378828a1f71a4
+SHA256: d963cd66204ee22bb50476552d30543bfca1ce89710b32c1cde9f175a85131e0
+SHA512: dbbaf42b34b2a6dfc56b7badb6e593fbfb337afe1b7e1eeb8c3c26a7cc6ef66f3a47e157a19026657abbe182c92ea2eca8d244568d4693bb689f87b820a92821
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37619,23 +37620,23 @@ Description: Qt 5 GUI module
 
 Package: libqt5network5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2530
-Provides: libqt5network5 (= 5.15.19+dfsg-3)
+Provides: libqt5network5 (= 5.15.19+dfsg-4)
 Depends: libssl3t64, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
-Breaks: libqt5network5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5network5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5network5
-Filename: ./libqt5network5t64_5.15.19+dfsg-3_amd64.deb
-Size: 682716
-MD5sum: b359ffbce86d0fb46626d269fb6eaedf
-SHA1: ab55510c672aab685139fa799d78a492c721f956
-SHA256: 14a4931322d1e914ae7bcce473745a9007f1501792521b02c622cf7c1327e614
-SHA512: 93a288e2fb31c2350e9fb71ceef4538eb67375764783fe227f8ff7780c20cf03a25b83b8608fe49f069953c7779aa17b8b48bade7e1619e1db2b916bf2944b16
+Filename: ./libqt5network5t64_5.15.19+dfsg-4_amd64.deb
+Size: 683172
+MD5sum: 21509b8abef9878ae7b2f24023ddba7a
+SHA1: 6fda4fcbd1905011767316f24e656190eb328db1
+SHA256: 828a02996899ab7e5b5caf02a65a29975d199fe22a9264312bbc35458f4fbc20
+SHA512: b484b33fc163c710e6ef70b1518cb82f060a9b45f9fedd0b1cd697ae47478e58d0d4ff0fe97de5468672ac567017b239a1e4bb5e66b65566203e87eeaa1e2383
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37646,24 +37647,24 @@ Description: Qt 5 network module
 
 Package: libqt5printsupport5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 741
-Provides: libqt5printsupport5 (= 5.15.19+dfsg-3)
+Provides: libqt5printsupport5 (= 5.15.19+dfsg-4)
 Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-15-19
 Recommends: libcups2
-Breaks: libqt5printsupport5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5printsupport5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5printsupport5
-Filename: ./libqt5printsupport5t64_5.15.19+dfsg-3_amd64.deb
-Size: 200616
-MD5sum: 67d60c392239eaf0d35132389f6ba15c
-SHA1: 1023543819adcfbd11a5d131521e30804e3ad590
-SHA256: 09c2cc703f2e23fb39aafca8ee0a25ed15504a2ca4131a356675d3e301554e4e
-SHA512: 45fe3ad2744f18f21d41788ec2db64248495895d1ce7de93841073229f5362820b4e219e4a57e511e4471bb2cd917bbb65480f68e68dcc8e765dcadacd084379
+Filename: ./libqt5printsupport5t64_5.15.19+dfsg-4_amd64.deb
+Size: 201080
+MD5sum: dfeb7a078697c68022ade018605a3615
+SHA1: 674d34e89cb86ed3c8330e642e53fe33b662a490
+SHA256: f3afe32468a4975a558aa286ab2313eca804982d4423c4588835cc73bd353224
+SHA512: d54207affc5915c1f7a57cba26be895b984edd357723d195bd7a119aabe45b490892c8ab17ee917ff02ee4de96795f3c9af4ba2573ee9a9f4658963f77ef0641
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37919,23 +37920,23 @@ Description: QtWayland compositor library
 
 Package: libqt5widgets5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7577
-Provides: libqt5widgets5 (= 5.15.19+dfsg-3)
+Provides: libqt5widgets5 (= 5.15.19+dfsg-4)
 Depends: libc6 (>= 2.29), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
-Breaks: libqt5widgets5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5widgets5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5widgets5
-Filename: ./libqt5widgets5t64_5.15.19+dfsg-3_amd64.deb
-Size: 2416768
-MD5sum: 07818df2834048b924d947a043d600fd
-SHA1: b35033f7345bfeaf91c82722b69f7c950f7f67fc
-SHA256: 18b819a9f0a1c6fd8cb1d255ef5d28dabd14d327c08a780364d18608317358d7
-SHA512: 6bcd10523f93a4417dcb7374ba925374b25fd64a93f4cd7185b3368edf4ccc85be6a1873dc894e47e6e654f0ae0dc1ed3ebf057969ea63137d9bbcc207093c89
+Filename: ./libqt5widgets5t64_5.15.19+dfsg-4_amd64.deb
+Size: 2420696
+MD5sum: c928acf28d4fe602715aba7ddce99c29
+SHA1: f48c5d0caf8bdb8bc366988d3cc0b40e87daae17
+SHA256: ac1cb4259fa003821ea7c9a21b46b46ee37032e691149e2de8c89446bf57aaa9
+SHA512: a29f5527a015bf1d0dabcdee9ad3f497d33baca395b7375ce5f0fcf5e81119ca932835370f825881ad9b0531c7b763bf244f9e04e8194b7b1bc6b681d3484574
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37945,23 +37946,23 @@ Description: Qt 5 widgets module
 
 Package: libqt5xml5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 448
-Provides: libqt5xml5 (= 5.15.19+dfsg-3)
+Provides: libqt5xml5 (= 5.15.19+dfsg-4)
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
-Breaks: libqt5xml5 (<< 5.15.19+dfsg-3)
+Breaks: libqt5xml5 (<< 5.15.19+dfsg-4)
 Replaces: libqt5xml5
-Filename: ./libqt5xml5t64_5.15.19+dfsg-3_amd64.deb
-Size: 120012
-MD5sum: 40f42280c88115ee777e3d9ec464faee
-SHA1: befa07c8506d32ca60068c6703083a812e63fae3
-SHA256: e8094505fa8991185a4385aa22d13f83e3bbf6f73b2808953b0caa5425ad1936
-SHA512: a0a64219483930ac352894e3cb623aef7e030938a1ad5f7cd955f692abfeb812658fc8ed74f90d6cdfd5f5d3aef59d35e8a154813de57c561c580eaaedf45d5e
+Filename: ./libqt5xml5t64_5.15.19+dfsg-4_amd64.deb
+Size: 120180
+MD5sum: b5f96df5a2d743c344a0441ab1b9217b
+SHA1: 8b54baba831c1dba562af40e819cc8b5cbf7fe30
+SHA256: fcad54268d2d52711441034bca090bb5f6095f9168a76903f619984ab6061a7b
+SHA512: 945d1ad5f3e8f16309f0a67c26ae82ca201c6f5bcf0fe4a3ede7d8ce86a7454feeb2234bd799745f8a6e8dc0bab199ad5092da186d3ef8ed4d720750317fa32e
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62536,7 +62537,7 @@ Description: Kvantum style engine (binaries)
 
 Package: qt5-gtk-platformtheme
 Architecture: amd64
-Version: 5.15.19+dfsg-3
+Version: 5.15.19+dfsg-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -62544,12 +62545,12 @@ Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 478
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-19
-Filename: ./qt5-gtk-platformtheme_5.15.19+dfsg-3_amd64.deb
-Size: 123368
-MD5sum: 5458461475748b59bca9d29b84eddaec
-SHA1: 42213c5cc5ae27df7b477698c7be0df87ad2cb0c
-SHA256: 0518caf88de612b00ec8746c464de21f212b5ab376f4933e2622737c74f34470
-SHA512: e2339aa26bfd6099631c7468a70e0afc9a0b3f56914fe0cee2d8577b1cf1a1f6f755c2119d8131a541543e6dfef45526c575b36cbae336fb78d544b1da70512c
+Filename: ./qt5-gtk-platformtheme_5.15.19+dfsg-4_amd64.deb
+Size: 123768
+MD5sum: 261a6e6557b80be5200500b2a8ec10ad
+SHA1: f69f727db8935d000df9edce17689c8a5b5b5885
+SHA256: 4f8ff1b785bbce5922d191e995ff4f8ae0913b17376b73a7447f28e525957603
+SHA512: 4346ec74485703b8c304cc818969fefbbf6b48d7977424744dd6f6336775bf6a99387450fefc0c1c73844f701d03d15555de0fdb57114aabaa907abfee03afed
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
