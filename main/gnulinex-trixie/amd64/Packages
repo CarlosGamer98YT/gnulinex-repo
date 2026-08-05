@@ -18388,19 +18388,19 @@ Description: Cinnamon pulseaudio abstraction library
 
 Package: libdate-manip-perl
 Architecture: all
-Version: 6.99-1
+Version: 6.99-2
 Multi-Arch: foreign
 Priority: optional
 Section: perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 11392
+Installed-Size: 11394
 Depends: perl:any
-Filename: ./libdate-manip-perl_6.99-1_all.deb
-Size: 905344
-MD5sum: 897f2b205ea4a9a5b1665cf727becd57
-SHA1: 4aa0a00aa089e4bff366d607f26cbf65878ac3e9
-SHA256: 64bee4a4b896f4aeaef3f104e1b4bbb05bd081464a6bc5a4f77d1c3b2f29227c
-SHA512: 00f86c42531ec4db842a52a7e643ec587a6f836f6e295e31768e68c67768bb327211084d23232db1c316f57c12aec1fea14e7fd7f93194c5b67b24a0f8d6d914
+Filename: ./libdate-manip-perl_6.99-2_all.deb
+Size: 908464
+MD5sum: 6e0fc920803c726797ce9839f308ecb5
+SHA1: a9db46d4c15ace89084f799c90795fe49c65f77a
+SHA256: f2e2e23a1649c5c4b1caafa3ac7bb835e1f02ed1c6c19b53d5f7e93ccb17d869
+SHA512: 8c58c9cbc166f2c5c70bd6ae989499822f052d1bb24a73e582156f72a4e0ca16f88c8a6741c88fcb8f9f4cd4d67521f2722157043b67148319e843fb1837fba2
 Homepage: https://metacpan.org/release/Date-Manip
 Description: module for manipulating dates
  Date::Manip is a Perl module that contains a set of routines designed to make
@@ -58396,21 +58396,21 @@ Description: tools for internationalizing Python applications - Python 3.x
 
 Package: python3-bcrypt
 Architecture: amd64
-Version: 5.0.0-5
-Static-Built-Using: rust-base64 (= 0.22.1-1), rust-bcrypt (= 0.15.1-5), rust-bcrypt-pbkdf (= 0.10.0-1), rust-getrandom (= 0.4.2-3), rust-subtle (= 2.6.1-1)
+Version: 5.0.0-6
+Static-Built-Using: rust-base64 (= 0.22.1-3), rust-bcrypt (= 0.19.2-1), rust-bcrypt-pbkdf (= 0.10.0-1), rust-getrandom (= 0.4.2-3), rust-subtle (= 2.6.1-1)
 Priority: optional
 Section: python
 Source: python-bcrypt
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 1027
+Installed-Size: 962
 Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Breaks: python3-passlib (<< 1.9.3-1~)
-Filename: ./python3-bcrypt_5.0.0-5_amd64.deb
-Size: 235520
-MD5sum: e24ac19b8bf6c6f6f9a5c23599ebe4fc
-SHA1: 921be0fa95ea93fe23a00d1af29b0add5f7de543
-SHA256: e548eaec88f5e827e4829dd4bd1f5cbcf90e31bf0b10ebd89eaf5e91aefdac80
-SHA512: 279219da7f9a1c216a4843126d94a7c1fb0d2dcbc3c7df9d798831518b1803a3ad711b8ac98df1b9aa27a09e08944228fbef60637d6195f277b81f95ffa2847d
+Filename: ./python3-bcrypt_5.0.0-6_amd64.deb
+Size: 229148
+MD5sum: 049922163bc864fe600c80b1e5b15480
+SHA1: 93a939e1f72bbf273189036b4635d6fbe4362b2c
+SHA256: 5e3c995128291a0ef1b40455d9874d3dd6f2250572af4094825946f6d70b6a86
+SHA512: d1c61814464417c2dbaa49dd626417749fd611e950ec8284aff33f2503fd67a6dea0b29964868ab9e87afabd6f2ff8ce28868563644ffc259c1cce4496bc8d88
 Homepage: https://github.com/pyca/bcrypt
 Description: password hashing library for Python 3
  bcrypt is a Python module which provides a password hashing method based on
