@@ -8768,20 +8768,20 @@ Description: GObject introspection data for Mutter
 
 Package: gir1.2-mutter-18
 Architecture: amd64
-Version: 50.2-3
+Version: 50.3-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 544
-Depends: libmutter-18-0 (= 50.2-3), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
-Filename: ./gir1.2-mutter-18_50.2-3_amd64.deb
-Size: 133116
-MD5sum: 2b57e3486f75e414b54c259c21c54ebe
-SHA1: 091679b50a06d6e6b678ab65ee276b4efbbcd405
-SHA256: 8adda1ff4c03e088ae79615158b3b4475e9c3d8c0bebb5773ed522e243bf992f
-SHA512: 5081c8d2ec15f62dd0e1e764e133d9db7ceb6fe277905508a131a1dc65e81eac7977c87cafd8b33711c09a9de56ebca675c5c29fee171914d80e8d838209a179
+Depends: libmutter-18-0 (= 50.3-1), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
+Filename: ./gir1.2-mutter-18_50.3-1_amd64.deb
+Size: 133340
+MD5sum: ca180ca16c4093853e5d403e08e1473c
+SHA1: 6a67dc329a42e5ea0f2757e705d1576bbca5f806
+SHA256: 45a263e09a4c73d11700763427c053f5b5fc8bde9c50f98222e30055a990eb1f
+SHA512: 6cb8be50b83e067ef4c0742ad0fadba316c64eb121c258b84f81d88828ac5aefd57835b49060210de18d25038591d9c86584787722306319b6dbe9e399e63512
 Homepage: https://mutter.gnome.org/
 Description: GObject introspection data for Mutter
  Mutter is a Wayland display server and X11 window manager and
@@ -10870,21 +10870,21 @@ Description: GNOME Session Manager - default GNOME session
 
 Package: gnome-settings-daemon-common
 Architecture: all
-Version: 50.1-1
+Version: 51~beta-1
 Priority: optional
 Section: gnome
 Source: gnome-settings-daemon
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5277
-Provides: gnome-settings-daemon-schemas (= 50.1-1)
-Depends: dconf-gsettings-backend | gsettings-backend
+Installed-Size: 5378
+Provides: gnome-settings-daemon-schemas (= 51~beta-1)
+Depends: dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~)
 Breaks: gdm (<< 49~alpha.1), gnome-initial-setup (<< 49~alpha), gnome-session (<< 49~alpha.1), gnome-shell (<< 49~alpha.1), ubuntu-session (<< 49~alpha.1)
-Filename: ./gnome-settings-daemon-common_50.1-1_all.deb
-Size: 638156
-MD5sum: 5933a5ead83bd1d6673efd2df0c8c365
-SHA1: f49f5c328e36dfe128192e0d1e047c618a63b5fb
-SHA256: aedf7b6ac73a9001f45385e0c70d539c0ffa27e77ec4eca662c2e9f579db3a9f
-SHA512: e087b278f485c0e4cdd210f1b295aa30ae6089068f39b941d7cb1484e000f4c82ee038ab370932579763563993518ee52e74a5ed7551be5d6594fa3ea18b3d67
+Filename: ./gnome-settings-daemon-common_51~beta-1_all.deb
+Size: 646052
+MD5sum: b6564366e77595b44944e18ed66d8d95
+SHA1: 6e2c0e94358c99d6d492fdf19255dfa8028960c2
+SHA256: 1c71c7fab7d57facb809e9316762df6d2dec36c2097983b9977e4c3ff9aee77b
+SHA512: 18dfbed12e00bd0435408b9d5a442c21a00c0aa2494904b78e563ef38954746e72fcc8ab8b15c5851b52092655398d12395e013bf1c3b10480bbc1beb3fd5e26
 Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 Description: daemon handling the GNOME session settings - common files
  This package contains GSettings schemas and other architecture-independent
@@ -10895,21 +10895,21 @@ Description: daemon handling the GNOME session settings - common files
 
 Package: gnome-settings-daemon
 Architecture: amd64
-Version: 50.1-1
+Version: 51~beta-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1277
-Depends: default-logind | logind, gnome-settings-daemon-common (= 50.1-1), gsettings-desktop-schemas (>= 46~beta), libspa-0.2-bluetooth | pulseaudio-module-bluetooth, pipewire-audio | pulseaudio, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcanberra0 (>= 0.16), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgck-2-2 (>= 3.2.2), libgcr-4-4 (>= 3.8.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib-2-0 (>= 3.26.3), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.34.2), libgudev-1.0-0 (>= 146), libgweather-4-0t64 (>= 4.1), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.0.0), libnotify4 (>= 0.8.7), libp11-kit0 (>= 0.25.0), libpolkit-gobject-1-0 (>= 0.114), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsystemd0 (>= 213), libupower-glib3 (>= 0.99.12), libx11-6, libxfixes3 (>= 1:6.0.0)
+Installed-Size: 1303
+Depends: default-logind | logind, gnome-settings-daemon-common (= 51~beta-1), gsettings-desktop-schemas (>= 46~beta), libspa-0.2-bluetooth | pulseaudio-module-bluetooth, pipewire-audio | pulseaudio, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcanberra0 (>= 0.16), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgck-2-2 (>= 3.2.2), libgcr-4-4 (>= 3.8.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib-2-0 (>= 0.99.1), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.34.2), libgudev-1.0-0 (>= 146), libgweather-4-0t64 (>= 3.91.0), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.0.0), libnotify4 (>= 0.8.7), libp11-kit0 (>= 0.25.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsystemd0 (>= 213), libupower-glib3 (>= 0.99.8), libx11-6, libxfixes3 (>= 1:6.0.0)
 Recommends: iio-sensor-proxy, pipewire-audio, pkexec, systemd-oomd, x11-xserver-utils
 Suggests: usbguard
 Breaks: gnome-shell (<< 47~rc), mutter-common (<< 47~rc), phosh (<< 0.50~rc)
-Filename: ./gnome-settings-daemon_50.1-1_amd64.deb
-Size: 307828
-MD5sum: 9b6583d4123a9fcb26ba0dda2e617e24
-SHA1: 5511272895597d0d0710ff6dcf4096fed9814c13
-SHA256: e154deaaebf092a18ef2da3f0135fb778d0273f3c83a3d55479512b047a5b41e
-SHA512: 3e292cff38e2dac5a295d8b292a706540c24390f40b626f5e01f14f2a78203a495e352fbc33d3c6689075b45749ff280904825fc8297268f32e8437b9b9dcaba
+Filename: ./gnome-settings-daemon_51~beta-1_amd64.deb
+Size: 318864
+MD5sum: edff0e98bbbfcd4ba2b011446ddde558
+SHA1: ad9f9c62dc324c99fe29589e0c791d78cbad4e95
+SHA256: 164b264ba9dbb200b052594b674fbeca999997fc2a5c4555817d06a572958cc5
+SHA512: 74e70fe24f1ce70aa23875dd8a591e9c38cd8e60aa4ff8a36072753c52568d541162284caabdef249bddf9e1f8e9509c73044e0018093193feca6825b5a60424
 Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 Description: daemon handling the GNOME session settings
  This package contains the daemon which is responsible for setting the
@@ -34488,21 +34488,21 @@ Description: window manager library from the Mutter window manager
 
 Package: libmutter-18-0
 Architecture: amd64
-Version: 50.2-3
+Version: 50.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5065
+Installed-Size: 5193
 Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 40~alpha), mutter-common (>= 50~beta), mutter-common-bin (>= 49.0), libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcanberra0 (>= 0.2), libcolord2 (>= 1.4.5), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libegl1, libeis1 (>= 1.5.0), libfribidi0 (>= 0.19.2), libgbm1 (>= 21.3.0~rc1), libgl1, libglib2.0-0t64 (>= 2.83.0), libglycin-2-0 (>= 2.0~beta.2), libgnome-desktop-4-2t64 (>= 3.17.92), libgraphene-1.0-0 (>= 1.10.0), libgudev-1.0-0 (>= 238), libharfbuzz0b (>= 0.6.0), libinput10 (>= 1.30.0), liblcms2-2 (>= 2.6), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.18.0), libpipewire-0.3-0t64 (>= 1.6.1), libpixman-1-0 (>= 0.11.2), libstartup-notification0 (>= 0.11), libsystemd0 (>= 226), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-server0 (>= 1.24.0), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbregistry0 (>= 1.0.0), libxrandr2 (>= 2:1.2.99.3)
 Breaks: gnome-kiosk (<< 50~rc~), gnome-shell (<< 50~rc~), xwayland (<< 2:23.1.0)
-Filename: ./libmutter-18-0_50.2-3_amd64.deb
-Size: 1502304
-MD5sum: 63b4e9b44b604fa21d8a3caf848b990c
-SHA1: aaad513bda99f41c33781393d2c5163f74182f6c
-SHA256: 2d3af3faacd02c3db3f875e24a5b9ce2249d4a1443e3992df290a01e186e0b37
-SHA512: 897683956267ab77b89f894853ae678bee81d6726e8c2f40284f707a5e8dc5d4acf55781e6df35f60e08fedb9ea272e08b3e8be0b1dffb64836d50f78eb729e9
+Filename: ./libmutter-18-0_50.3-1_amd64.deb
+Size: 1569968
+MD5sum: 88ed0057c4c6696e54e69be1e7199636
+SHA1: 8ca5504573dd801657ffc80df02acfa988146d59
+SHA256: 58cae633e111997d883b19f75289e63798fe24e4140fd523ecbe0733334c8057
+SHA512: fb4368616c7927a4da200c87399498950b79075bce024b350da9a51a864b83e1d5f4ac69b7236aa4936bbf27bd822f5b5408abb12674d774364437a9822e2391
 Homepage: https://mutter.gnome.org/
 Description: window manager library from the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -55753,7 +55753,7 @@ Description: command line tools for the MuPDF viewer
 
 Package: mutter-common-bin
 Architecture: amd64
-Version: 50.2-3
+Version: 50.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -55764,12 +55764,12 @@ Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.22.0), l
 Suggests: python3-argcomplete
 Breaks: libmutter-17-0 (<< 50~), mutter (<< 48.1~)
 Replaces: mutter (<< 48.1~)
-Filename: ./mutter-common-bin_50.2-3_amd64.deb
-Size: 46932
-MD5sum: bd2821582f8d6c631caacf968c739728
-SHA1: f54634a96c4f145754cc6ce0a3452d8315fb7229
-SHA256: 70b6818160bc73ca56eedf4e901d36791adf861081d0d68dd770c510e3e6826d
-SHA512: c7b4acb45b0bb5be7535dfd37767cc470caf8973fcb37365e50a74db3abaec5eeb666d2fb83414fdeffcb533b72dfbfe483319b81a8e00edcc90881b7ec74397
+Filename: ./mutter-common-bin_50.3-1_amd64.deb
+Size: 47656
+MD5sum: c171de5ab6993bdd05e313652a670d39
+SHA1: 4b92616bf5b74002289c405a813b65ecb7797a34
+SHA256: 791fbdb50d938e15a22bac45c071b502dbff5cde0ef101987f532a583eea37ae
+SHA512: eb7075766f601f0a834f7c30aac88631b77b2f8fa1e9d37128d2e39e43b04170a7abdef9504ebd44016e46759103e2e4e9948d222c85cf0008e5c30215842e6c
 Homepage: https://mutter.gnome.org/
 Description: shared programs for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -55786,7 +55786,7 @@ Description: shared programs for the Mutter window manager
 
 Package: mutter-common
 Architecture: all
-Version: 50.2-3
+Version: 50.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -55796,12 +55796,12 @@ Installed-Size: 3975
 Depends: dconf-gsettings-backend | gsettings-backend, python3:any
 Breaks: libmutter-10-0 (<< 49~), libmutter-11-0 (<< 49~), libmutter-12-0 (<< 49~), libmutter-13-0 (<< 49~), libmutter-14-0 (<< 49~), libmutter-15-0 (<< 49~), libmutter-16-0 (<< 49~), libmutter-17-0 (<< 50~), magpie-common (<< 0.9.3-0ubuntu8~)
 Replaces: magpie-common (<< 0.9.3-0ubuntu8~)
-Filename: ./mutter-common_50.2-3_all.deb
-Size: 504312
-MD5sum: 86bd93d2736b9782ebea461a4a9827b7
-SHA1: 80784b1c169d7fc57333634c2bd0ed7cecfbe314
-SHA256: e61a737a2a3d1a88a990489f1d1774e1f071683bb4f18114ba3465148431572d
-SHA512: fb55727852fc246a0f8c285d09b355f4e677e342e94eaeb9563bf36af3c1eda86ebf2ac660a02a30cb9fba49fea2bb525e0648bb4fc90931939ec04f284022b1
+Filename: ./mutter-common_50.3-1_all.deb
+Size: 504684
+MD5sum: 8a82bbb54dc4bcc5fe00cc9758f92840
+SHA1: a32e44539fc87f3fa55db3f4fbcb9e0d8a3425b4
+SHA256: 898da9a54c0274113c7075c822a6cf4fb4d7010a56887e7612aa65943a65e808
+SHA512: 9e1fab07998b1f88badb23c45db7c5c3fcfddd9c2e854e9e4b49d703eff2483e6e25b049625c146cc4b3634d40fb5977389fe119e5bc1825d4a8ef8d0c78da06
 Homepage: https://mutter.gnome.org/
 Description: shared files for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
