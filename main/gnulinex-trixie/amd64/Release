@@ -1,23 +1,23 @@
 Architectures: amd64 all
 Codename: forky
 Components: main
-Date: Tue, 04 Aug 2026 22:35:33 +0000
+Date: Wed, 05 Aug 2026 06:07:49 +0000
 Label: GnuLinex Repository
 Origin: GnuLinex
 Suite: stable
 MD5Sum:
- 37b021807ddab0b43b26dbab134374c4          3580973 Packages
- 0b286a9dd8ba0b24c88ab12859c4d226          1034452 Packages.gz
- 1f8b9d7ae0af0bb4c6f6a56cc937aed0              154 Release
+ 6c4aaa1803cb789507a3ceb7b3d95c33          3580973 Packages
+ c8be79d66556b6efc5a40918b3fa4962          1034470 Packages.gz
+ 2616e6681b98d08e100da2d78d4552fd              154 Release
 SHA1:
- 8715b7b82b12d82534f48a6732e944f305c31b00          3580973 Packages
- d5a59043f901c374701866c7ab333fd3c3ccd73e          1034452 Packages.gz
- 96ac7a03aee32931cb9a7be2f3e8fcfa13d7d989              154 Release
+ c6b9f888090285cb94da95c529bbf6db1ae7aeb0          3580973 Packages
+ acb56edaecfb59f79a2985d80ee5acf4773988df          1034470 Packages.gz
+ 33d9c73ba33edbd7fff79a5b2224cc1e95a43db3              154 Release
 SHA256:
- 29e25b7373326e17239462017ec1cea85c00e462642d20f3ba3abdf349b8b5ee          3580973 Packages
- 7334e962354ad465e71139924afcc935e3189d0c164a500bf4fd463761326ce1          1034452 Packages.gz
- fc125dc84a299299d1d92be1f1dbbdd41f9b39d9fd27d9da6a6288bc8630023a              154 Release
+ 32f2977f2fa73627a18f25a9f6e2fe8ceded5554b7ca8636397688560a0d9f4c          3580973 Packages
+ d2dd7b15d9f1c57a309612cbbfee64df8343451bffd498f49a84e3b8506744e6          1034470 Packages.gz
+ c14bb30b76f84c6f01c158229fec1c258796d2e77e6d8cde81ecd56f19b90d47              154 Release
 SHA512:
- c9aae36d182001bd06e00d62b8fa72af91642f52f69d3a70fbd34a9040ddbd92dff1d6b96400cfd0e90500dabc4be033aaf48bcfd51b37ac153159b23f88fbb6          3580973 Packages
- ccf0ee0f7df03b04915662dd4c0e3bc222d9efc982c3b49013ba9f29ecd821acdc01ad039058364c76a5360cb07fc205da36a00853a2c1b1259127b11b4adb4c          1034452 Packages.gz
- ddb6c7848ebe50bfba62af9508c9d4afee45fd91aebabf58a9c3766e4c505299e247a9fd400d587d40be61a33e156b9f4d1a613ce61ab58b5b4a56b5ef19faec              154 Release
+ 1afa7f1cfadda4289e1b40585bb73592fe43ac0ebbd94d2f8c3ea21afcca39e3ffff70b821b12aaaf3fcf85fb97cef2b702acd39ccd37f7c5d23ef16d7f9d4bc          3580973 Packages
+ e2162f264a48d98471bc6f4672a18509b823881ca4c3e6c624fab886d9c16f5d64a2726b7530c7ad944c72d238f5af66103711e7230020a710bfa03842de1f33          1034470 Packages.gz
+ d2229d935dbab475d008493217b6794713896b6b94b5594eefb18668efad7489627e3b4d99cffa0bbcd73dbb1aee391c3ae744ba380419a2de3b7ba9283a5544              154 Release

@@ -48921,23 +48921,23 @@ Description: TPM2 Software stack library - TSS and TCTI libraries
 
 Package: libtumbler-1-0t64
 Architecture: amd64
-Version: 4.20.1-1
+Version: 4.20.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tumbler
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 101
-Provides: libtumbler-1-0 (= 4.20.1-1)
+Installed-Size: 102
+Provides: libtumbler-1-0 (= 4.20.2-1)
 Depends: libc6 (>= 2.33), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.56.0), libxfce4util7 (>= 4.17.1~)
-Breaks: libtumbler-1-0 (<< 4.20.1-1)
+Breaks: libtumbler-1-0 (<< 4.20.2-1)
 Replaces: libtumbler-1-0
-Filename: ./libtumbler-1-0t64_4.20.1-1_amd64.deb
-Size: 32872
-MD5sum: 38e6b882bab7b7788a1d29bddcc76537
-SHA1: b144f736cf0ae2aee77ff4f302ab57097f36269b
-SHA256: 333b8068c4fd6f453adf973208ce9244dcef290ad2984c6d14a02a3d4faca9ed
-SHA512: 221dae8d435118d0c8337ca4dec59ab7d627efd1d106ef633d2d9d2b35658a233279447eb52e410f1599ea121a760b6d53b8f39788c5ad0f65f2abb3c9385d49
+Filename: ./libtumbler-1-0t64_4.20.2-1_amd64.deb
+Size: 33000
+MD5sum: 0e101e2ab2554de8f306e6c5cfc3e498
+SHA1: 6c42fe9c7805ecbe9b3d889564f10a64e0e0ca2e
+SHA256: 34058b1c51f367b30cf3c1068f4a37033f7a38c3beb217ca3515339940970341
+SHA512: e16f2cf065083b0b95f3775f92665d57c04de5448b0d72153ba85927571d133a29115ca76d3946620695096d605999a015a1ec57866c72fb2f274ec2abc1edb0
 Homepage: https://docs.xfce.org/xfce/thunar/tumbler
 Description: library for tumbler, a D-Bus thumbnailing service
  Tumbler is a D-Bus service for applications to request thumbnails for various
@@ -51135,19 +51135,19 @@ Description: library for simulating (generating) X11 keyboard/mouse input events
 
 Package: libxfce4panel-2.0-4
 Architecture: amd64
-Version: 4.20.7-2
+Version: 4.20.8-1
 Priority: optional
 Section: libs
 Source: xfce4-panel
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 230
+Installed-Size: 238
 Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.6.0), libwayland-client0 (>= 1.20.0), libxfce4ui-2-0 (>= 4.20.2-2), libxfce4util7 (>= 4.20.1-2), libxfce4windowing-0-0 (>= 4.20.1)
-Filename: ./libxfce4panel-2.0-4_4.20.7-2_amd64.deb
-Size: 84148
-MD5sum: 6d67bfcfd391bbad464414f692ee1d39
-SHA1: 903b4da3006474bdb00d8bc8194e944329c25ffb
-SHA256: 67e87cf636ddbb5b61c5e9d4495562453a14877d9146ec0fae7cdc01e44048a3
-SHA512: d61e4d708beb01833b397617804459b890229083979df246d59c04b4b4a3fe9f4cd34a874a913560944b5147ca53fe18d651c3a174ef4fcb60d6cf59a5aeabca
+Filename: ./libxfce4panel-2.0-4_4.20.8-1_amd64.deb
+Size: 85548
+MD5sum: 1d19f3113bf429ee4bed684f65ccdd6b
+SHA1: 076bcf280cbf9af267cd6521bcad4c832adba66f
+SHA256: 097287f9f3613ea2dab481614cb7ab1bab13eda91b9600c3a3d014f1e0fa21b2
+SHA512: 7768119f540f90cd42dfafea8ebd274be0d9667065b709489c5d58c50cac8200e79033afb40be111e6b231bc6c542c85319f2091f5fc725cc74864987cd544a7
 Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
 Description: Xfce4 panel library (GTK3 variant)
  This package contains the GTK3 variant of the panel library, used by the
@@ -58475,19 +58475,19 @@ Description: error-tolerant HTML parser for Python 3
 
 Package: python3-cairo
 Architecture: amd64
-Version: 1.27.0-3
+Version: 1.29.0-1
 Priority: optional
 Section: python
 Source: pycairo
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 695
+Installed-Size: 705
 Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libcairo2 (>= 1.18.4)
-Filename: ./python3-cairo_1.27.0-3_amd64.deb
-Size: 123020
-MD5sum: 9962b14b45b98be4a296b03532006721
-SHA1: 7f72a125b89fef4989696e430d5bc28e3ecd12ec
-SHA256: 9f7360362b1cf81462080ac21b9e744a0ef4b000deb80a665ebd8d87b56c2543
-SHA512: 1586c1a87e96379713acadfea0bb2b3e4a1fc85c342431cba5bfd08c31b46852f294f1097fb89441a8a6a22137506e6ec54a072c4ede5e9704686d8323b0613a
+Filename: ./python3-cairo_1.29.0-1_amd64.deb
+Size: 124312
+MD5sum: 8ff99be18edb8c62f22fa0bb6d251e77
+SHA1: f556e226803abbece5a4b58bae2d439edf34c188
+SHA256: 353543ae21d9d7964288d320b0ae235b6d025245626764387dd81068b2151c96
+SHA512: f32f729b0ded9385245d09c8e7c3a699afe91c26a31c2d1b2a9371df542ef861ff69532157445a6f03f31cb92fe129b7c395ef9fa94d708805df40403a7bb7d9
 Homepage: https://cairographics.org/pycairo/
 Description: Python3 bindings for the Cairo vector graphics library
  This package contains modules that allow you to use the Cairo vector
@@ -70765,20 +70765,20 @@ Description: lightweight BitTorrent client (GTK+ interface)
 
 Package: tumbler-common
 Architecture: all
-Version: 4.20.1-1
+Version: 4.20.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: xfce
 Source: tumbler
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 609
+Installed-Size: 610
 Suggests: libtumbler-1-0t64
-Filename: ./tumbler-common_4.20.1-1_all.deb
-Size: 70900
-MD5sum: 98a2b9c3cb523b53d8a677e00fe53513
-SHA1: 3f27a5eff0a9ed48799a11ddbd8c0d13ce59791b
-SHA256: 5207993ecd5376274d3358f00193f5acfd3b1b6b10c1dc5d9a5e6851e84f8bbf
-SHA512: 0091e4ef1735ffebcdb40791f9896eed9cf64285a855e6115e34390bacaaf08116f841dd677a02325499af14e18d1c5e512736f4a0ad8405864e8621cf4e2dca
+Filename: ./tumbler-common_4.20.2-1_all.deb
+Size: 71000
+MD5sum: b95c62fa727740a60beb5dbc82a6bbc7
+SHA1: 0ff757fd35f09861b3917b390247911147554296
+SHA256: ba81c1a5f3248fb4c296ecd025ed03a86156e4f5818359c86ab06e0b5003f479
+SHA512: 34129a05278f5b946fe611428fa54541c254f30adfc974be5f627f4f7363ce6ec31e17d5ed68afa76efe845dad407296432fdcaa5cc5e7259451b7c4de1c7a80
 Homepage: https://docs.xfce.org/xfce/thunar/tumbler
 Description: D-Bus thumbnailing service (common files)
  Tumbler is a D-Bus service for applications to request thumbnails for various
@@ -70788,19 +70788,19 @@ Description: D-Bus thumbnailing service (common files)
 
 Package: tumbler
 Architecture: amd64
-Version: 4.20.1-1
+Version: 4.20.2-1
 Priority: optional
 Section: xfce
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 378
-Depends: tumbler-common (= 4.20.1-1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.85.0), libtumbler-1-0t64 (>= 4.17.2), libxfce4util7 (>= 4.17.1)
+Installed-Size: 379
+Depends: tumbler-common (= 4.20.2-1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.85.0), libtumbler-1-0t64 (>= 4.17.2), libxfce4util7 (>= 4.17.1)
 Suggests: tumbler-plugins-extra
-Filename: ./tumbler_4.20.1-1_amd64.deb
-Size: 88584
-MD5sum: de8da816c59661ac964cd39378ed753c
-SHA1: 2b1a4945bf52e01d4a32405b67989aca4779bcca
-SHA256: f3cd98bbcce26e2f6ce50e2888ef756a10f9d5aa5cde87802b1ba80bccfd4902
-SHA512: 765d24f82b82ef6435c298f15414e7ebf483d5f7277694bc9137523f7f20be28732d0b60a5d9072c252cf1cc7efa919ab2c9c68250197b8fc11b9a9b043e901e
+Filename: ./tumbler_4.20.2-1_amd64.deb
+Size: 89104
+MD5sum: b6113e918946daaf5148329f8f2d2c79
+SHA1: 95f05cd0b5c58e29ba1cfbf76fc4cf42d486a3cc
+SHA256: bd77d83052be86eeb029733bb7ee8c58b1dc60499b3e90cac649190e01d00e89
+SHA512: 82ce9202810c8a8a12166a461a5488a19264f8ea25d02646de3c0d34f26b82cba746531c1b3b965d234e6f22a57dfb89a5bc7301477cf8d218de8c0afd58961d
 Homepage: https://docs.xfce.org/xfce/thunar/tumbler
 Description: D-Bus thumbnailing service
  Tumbler is a D-Bus service for applications to request thumbnails for various
@@ -72576,23 +72576,23 @@ Description: enhancements for the Xfce4 Desktop Environment
 
 Package: xfce4-helpers
 Architecture: amd64
-Version: 4.20.4-1
+Version: 4.20.5-1
 Multi-Arch: foreign
 Priority: optional
 Section: xfce
 Source: xfce4-settings
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 181
+Installed-Size: 184
 Depends: python3, python3-urllib3
 Suggests: sensible-utils
 Breaks: libexo-common (<< 4.15), libexo-helpers
 Replaces: libexo-common (<< 4.15), libexo-helpers
-Filename: ./xfce4-helpers_4.20.4-1_amd64.deb
-Size: 46444
-MD5sum: 52838805e56a6dee51a2f14f3e5b40d0
-SHA1: d6aff758f4bc2fe061e97c1d4f79aab32e963f09
-SHA256: 8d44827f565507721700d3df0d880055d8d7204e31ba1d5d2d5df9cd57833b37
-SHA512: 6f3b1610f1e0b290b6fc6f103b519f3ca329068eae900f20a078ad432fab6838e1d2afb51e9d9d0ff96613aeed8bdd319745cb930548c4d2d258ef05a1659006
+Filename: ./xfce4-helpers_4.20.5-1_amd64.deb
+Size: 46932
+MD5sum: 1a2c05e77ee756d4eb39dc761bd3fd3b
+SHA1: 925a9d0fd3d3324443b5e2a2804058bd4687776e
+SHA256: 8839d8770a6fbbb2820c089bf257a1ab047e3dfb156939d9b3b6678496f2d3d5
+SHA512: f6cefac98debc179add6339dd81f4d749dd449a8cd63de7f81d76f1833b04e3c6834700e2c75a30d65912dc96a79b5b3f89b1f915087ad24b6a20ba6850b7910
 Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
 Description: helpers for the Xfce4 desktop environment
  This package contains the helper files in use by Xfce4 for its
@@ -72717,18 +72717,18 @@ Description: simple, visually-appealing notification daemon for Xfce
 
 Package: xfce4-panel
 Architecture: amd64
-Version: 4.20.7-2
+Version: 4.20.8-1
 Priority: optional
 Section: xfce
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 8103
-Depends: exo-utils, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 4.17.0), libgarcon-gtk3-1-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.22.29), libgtk-layer-shell0 (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 43.0), libx11-6, libxext6, libxfce4panel-2.0-4 (>= 4.20.3), libxfce4ui-2-0 (>= 4.20.2-2), libxfce4util7 (>= 4.20.1-2), libxfce4windowing-0-0 (>= 4.20.1), libxfconf-0-3 (>= 4.12.1)
-Filename: ./xfce4-panel_4.20.7-2_amd64.deb
-Size: 858020
-MD5sum: 28c43f99a847b47665eda0b1ac5bdd43
-SHA1: 5c6c62d44495b1c6c1df8c472908d1d9dde606fc
-SHA256: d6d2b8ae9f2c1eee5341a195f9cedf9f8be97dc80846d16e8249b3eb656277c4
-SHA512: 1d0a24778b93178b97422fe30f7240701e24217b496dab9335455e930253f8b03cc4b0e053c91cfdeb2c7d8ee8644ec074ac922071df50113b04d22b31f31895
+Installed-Size: 8243
+Depends: exo-utils, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 4.17.0), libgarcon-gtk3-1-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.22.29), libgtk-layer-shell0 (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 43.0), libx11-6, libxext6, libxfce4panel-2.0-4 (>= 4.20.3), libxfce4ui-2-0 (>= 4.20.2-2), libxfce4util7 (>= 4.20.1-2), libxfce4windowing-0-0 (>= 4.20.6), libxfconf-0-3 (>= 4.12.1)
+Filename: ./xfce4-panel_4.20.8-1_amd64.deb
+Size: 876500
+MD5sum: f2986c3f874009b17534203080d4c1f6
+SHA1: 64300a980bedccfd65f5960b25730d9852512698
+SHA256: 85dc6ff9858ade2271228be5b6507a575be3f242b35f9d86b591cee21dd887eb
+SHA512: 88bd491ea82dd5a7c7de01455b72d86623dc626f3ccb83452db8737e6a4dbc91687d3b8c5f0ca04eb4a7938a0e043554418ef671dc98257edd7ff41a86de146a
 Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
 Description: panel for Xfce4 desktop environment
  This is the panel provided by the Xfce4 desktop project.  If you want a
@@ -72763,20 +72763,20 @@ Description: quick access to folders, documents and removable media
 
 Package: xfce4-power-manager-data
 Architecture: all
-Version: 4.20.0-1
+Version: 4.20.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: xfce
 Source: xfce4-power-manager
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 3261
+Installed-Size: 3276
 Recommends: librsvg2-common, xfce4-power-manager
-Filename: ./xfce4-power-manager-data_4.20.0-1_all.deb
-Size: 408808
-MD5sum: e600196b22302ec92a32672091b35eef
-SHA1: ef889ab707cd9ebd18dcde1126020836a9c67085
-SHA256: 2738edc575fdf76e6c2498ae70e261e1f9ebe453f4d9499eddbf2eeff5ed97a8
-SHA512: d4880c676c54008d963a87dda1011d1e7ff4efa2590d897b9e77a18297792d1aa97841f5ede5f4c5a63fbd4a71d9c2bffc1dbf187edbf98ca30a30cc7ff1c1f2
+Filename: ./xfce4-power-manager-data_4.20.1-1_all.deb
+Size: 409576
+MD5sum: 11393ee0998d3d7f4c5385ee4401a83b
+SHA1: 3832f8ca0087554d50bd847f4d272e0d15037fd3
+SHA256: 6d96f4934d657cb1d59217654e76b12b28042f4ebdd7bc10329ef539f8e5e3d8
+SHA512: b46025249083a6e9ab39fc588eeae19cb96abbc7a32cb3a499c178a7ec695a81a26453465de21ef96eb7197e97cdbe92671887f6be519f550af6544df3e3f5fe
 Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
 Description: power manager for Xfce desktop, arch-indep files
  This power manager for the Xfce desktop enables laptop users to set up
@@ -72788,19 +72788,19 @@ Description: power manager for Xfce desktop, arch-indep files
 
 Package: xfce4-power-manager-plugins
 Architecture: amd64
-Version: 4.20.0-1
+Version: 4.20.1-1
 Priority: optional
 Section: xfce
 Source: xfce4-power-manager
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 Installed-Size: 143
 Depends: xfce4-power-manager, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libwayland-client0 (>= 1.20.0), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.18.4), libxfce4util7 (>= 4.19.2), libxfconf-0-3 (>= 4.6.0), libxrandr2 (>= 2:1.2.99.2)
-Filename: ./xfce4-power-manager-plugins_4.20.0-1_amd64.deb
-Size: 53664
-MD5sum: eb1e8e8a3d6617079ed30825c90326b0
-SHA1: 4356e03eae358cf9c85c162bdc2e26fae0c930ec
-SHA256: c9345c86a45ac2f37750b3c22d4b149b0911df00309db9693db978d7f885d566
-SHA512: 512bd150bd354a46b1be9c1d23fde3a0c497d3b4d9e1eddf13168286375cf60d4f5ff9fcebeeb1940162fc6f4fdaf07a6c1d0864d59b476dacda5569f658cb49
+Filename: ./xfce4-power-manager-plugins_4.20.1-1_amd64.deb
+Size: 53924
+MD5sum: 4eadb0682d00e2fad1920e6ba4f84e7e
+SHA1: 71b60efcaf50f3d2dd5111d9f8223aeaf7d838ee
+SHA256: 0455948074bb96e7a7715c97b6503c4cf1b7e6a3845baf75e5ab5824afaccc90
+SHA512: 721c4769a135454d8bb39f142c907817e770d248fa18a8d0c2104ca4f8bd33d1edc2b5ea11848f5186ddc0a7366c2e02b6478c310efcde6baf1ed16bd21ec059
 Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
 Description: power manager plugins for Xfce panel
  This power manager for the Xfce desktop enables laptop users to set up
@@ -72812,19 +72812,19 @@ Description: power manager plugins for Xfce panel
 
 Package: xfce4-power-manager
 Architecture: amd64
-Version: 4.20.0-1
+Version: 4.20.1-1
 Priority: optional
 Section: xfce
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 529
-Depends: upower, xfce4-power-manager-data (= 4.20.0-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libwayland-client0 (>= 1.20.0), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.18.4), libxfce4util7 (>= 4.19.2), libxfconf-0-3 (>= 4.6.0), libxrandr2 (>= 2:1.2.99.2)
+Installed-Size: 522
+Depends: upower, xfce4-power-manager-data (= 4.20.1-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libwayland-client0 (>= 1.20.0), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.18.4), libxfce4util7 (>= 4.19.2), libxfconf-0-3 (>= 4.6.0), libxrandr2 (>= 2:1.2.99.2)
 Recommends: default-logind | logind, xfce4-power-manager-plugins
-Filename: ./xfce4-power-manager_4.20.0-1_amd64.deb
-Size: 135644
-MD5sum: 3f6437ce3ff9030b7fc049b325358852
-SHA1: 40dca734e0f015ca1ce9af7f0ef61318b97981ba
-SHA256: 56c1d74c1bd53c28c9bf23177e7c4435cbeda4e16054df81e8d53c35f34abec0
-SHA512: c4faecbb3b666dcd111b6eec1b2dcb5d4357fce28f634e3d20370104eed4363530fc1fe938c53d2ea5adc2c69b6932b4d6b59192475e9786ba105fb301c66e2d
+Filename: ./xfce4-power-manager_4.20.1-1_amd64.deb
+Size: 136896
+MD5sum: a3e9e7c0558f8ad946a6c120f2d66db3
+SHA1: a28cb5d87306181de76c932268285621aeba458f
+SHA256: 93095fc63bc00b8da4352f3d4ad78c74dfe7ba4a16da9bf6a974add08dc0c740
+SHA512: 803ceb326b2efb57d69ec1b5e7e01ffc8ef506376e0d9093e5a1491cac90efa82f27422d4bde7e363a430ad75d006a4ed7403eb5d7a9893cafaaee6e0a475916
 Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
 Description: power manager for Xfce desktop
  This power manager for the Xfce desktop enables laptop users to set up
@@ -72936,19 +72936,19 @@ Description: Xfce4 Session Manager
 
 Package: xfce4-settings
 Architecture: amd64
-Version: 4.20.4-1
+Version: 4.20.5-1
 Priority: optional
 Section: xfce
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 6835
+Installed-Size: 7134
 Depends: exo-utils, libgarcon-common, xfce4-helpers, xfconf, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libcolord2 (>= 1.4.3), libexo-2-0 (>= 0.11.0), libfontconfig1 (>= 2.12.6), libgarcon-1-0 (>= 0.6.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.5.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfce4ui-2-0 (>= 4.19.5), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.19.3), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxrandr2 (>= 2:1.2.99.3)
 Recommends: colord, x11-utils, xiccd
-Filename: ./xfce4-settings_4.20.4-1_amd64.deb
-Size: 937988
-MD5sum: a22c5af9d0b235e3f79cef60c8276d43
-SHA1: 06d4f11a19810941bb7e88238deed531a229f7c4
-SHA256: 6b56add99d4992692b01aa4c9d6f51796b515134fb62b02fdb15836895367640
-SHA512: 97842c7a142f297d27f682ec7115fbff9114af98c539be8b36a61051efc47bc005fd93afb543b9c418d5f0ee0fabe41613ca7f2572e36a9771512857c6d82002
+Filename: ./xfce4-settings_4.20.5-1_amd64.deb
+Size: 952180
+MD5sum: 0d56dbd7a4897a45060c8f354e91bfa3
+SHA1: cc937e12c59648d1513a2807300fb8239a88eeaa
+SHA256: 33de1d8eb675dc9e2c1cd7029899ed6aec8f4b426dfa0de4159a91ed902c620f
+SHA512: 7528f31e9f02a5d4f75b63f9569c29bcfb529ac50ace419047127f50928a8664645ca4b2c15fc9762306a7ff8ad38e5c470639b6a26782286081bb3b9369a41d
 Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
 Description: graphical application for managing Xfce settings
  xfce4-settings is the Xfce settings manager front-end. It comes
