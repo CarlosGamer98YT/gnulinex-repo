@@ -11411,18 +11411,18 @@ Description: guided tour and greeter for GNOME
 
 Package: gnome-user-docs
 Architecture: all
-Version: 50.2-1
+Version: 51~beta-1
 Priority: optional
 Section: doc
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 75794
+Installed-Size: 78163
 Depends: yelp
-Filename: ./gnome-user-docs_50.2-1_all.deb
-Size: 12603280
-MD5sum: 4fdc2ce0c24700fb3f0149302df2c508
-SHA1: 63f12ed5284288c5e91bb725bbf8dee9aafaf43d
-SHA256: 6e9789587f704c70c57db779be859e91c65f6f05d8bce5783a0c39bfa50e215a
-SHA512: 9834c9154cc61a9596735e47e5029b027be8b9c28539b18a18c79fb078aa59f9ec9a664bf99c24ff84d2b083e12d3af61ad671d948d43ca67ab43f7ea134ca68
+Filename: ./gnome-user-docs_51~beta-1_all.deb
+Size: 12978616
+MD5sum: fc27b0cbbc3ab5a912bcf8131e3eab35
+SHA1: e481b27eec4c1b7314c4b7de6ed09c9654a09617
+SHA256: 4afcf3777d8233c9f31c07697257394c4f185ea1fa9991c18fe3edf9012bb583
+SHA512: 5068adb33f662e0c4703ee7ef4bb00d94ce35fb2bec5f8a4545783a0c33c36f8d8fbe736b8e73bdeac711b770e212756af68b3267ac0aedb809f6d7678b5fc5d
 Homepage: https://help.gnome.org/gnome-help/
 Description: GNOME Help
  Documentation for using the GNOME desktop environment and its components.
@@ -13785,20 +13785,20 @@ Description: powerful text editor
 
 Package: kde-baseapps
 Architecture: amd64
-Version: 4:26.04.0+5.170
+Version: 4:26.04.0+5.171
 Priority: optional
 Section: metapackages
-Source: meta-kde (5:170)
+Source: meta-kde (5:171)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 10
 Depends: dolphin (>= 4:26.04.0), kdialog (>= 4:26.04.0)
 Recommends: keditbookmarks (>= 26.04.0), kfind (>= 4:26.04.0), konqueror (>= 4:26.04.0), konsole (>= 4:26.04.0), kwrite (>= 4:26.04.0)
-Filename: ./kde-baseapps_4%3a26.04.0+5.170_amd64.deb
-Size: 4144
-MD5sum: 9f0254c97a2ba58711ea3add1af24b61
-SHA1: 892dd2e88d60f16e30178a0d89ef5aeb443afe7f
-SHA256: 206c856343df6f5d9d0ee40fabacb1614fa97e8991838e9fca8c0bf708246adb
-SHA512: 84ad97af36f2ae6065e2520261d34e1a1afad9416465b98b34e3073e0548640f8e7441fae7da70bd1f1dc51785a15c9484355d0303f1a5b8c52d7c66c8d4fb4a
+Filename: ./kde-baseapps_4%3a26.04.0+5.171_amd64.deb
+Size: 4160
+MD5sum: d5d74f91f091e9ae2f22c16443ecc6b5
+SHA1: 05feab029ddd0554ce00ac63b6730c1e9ae04ada
+SHA256: 98c091b215c8cafbc38f2385763d40b14511c7aeff64965644e2e2e912e1075e
+SHA512: ce3e885999b70961c8f78abd0178b9d0d01a5e5afd20c048e3db949439afd57997616a4f462c72716a7d227ff524bf297401835f0ad44f8e23bb49934ea0fc38
 Homepage: https://www.kde.org
 Description: base applications from the official KDE release (metapackage)
  KDE is produced by an international technology team that creates free and open
@@ -13914,21 +13914,21 @@ Description: Unattended updates configuration
 
 Package: kde-plasma-desktop
 Architecture: amd64
-Version: 5:170
+Version: 5:171
 Priority: optional
 Section: metapackages
 Source: meta-kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 10
-Depends: kde-baseapps (>= 4:26.04.0), plasma-desktop (>= 4:6.6.4), plasma-workspace (>= 4:6.6.4), udisks2, upower
-Recommends: kde-inotify-survey, kwin-x11 (>= 4:6.6.4), libpam-fprintd, sddm (>= 0.11), webext-plasma-browser-integration (>= 6.6.4), xserver-xorg
+Depends: kde-baseapps (>= 4:26.04.0), plasma-desktop (>= 4:6.7.2), plasma-workspace (>= 4:6.7.2), udisks2, upower
+Recommends: kde-inotify-survey, kwin-x11 (>= 4:6.7.2), libpam-fprintd, sddm (>= 0.11), webext-plasma-browser-integration (>= 6.7.2), xserver-xorg
 Suggests: kdeconnect
-Filename: ./kde-plasma-desktop_5%3a170_amd64.deb
-Size: 4132
-MD5sum: 254ddd07ef54613bae91c8018df1b054
-SHA1: 81bdb6e2e508787f021b9936ad06e800ab02c6f3
-SHA256: 11d92cf1bc444adfd72102ceff0ba02f58aadd7f8a6a39925127255b71f9743c
-SHA512: adf59be74a813253ead28af861ec2818e45bc42acc6acc46b797219ec7e7be2f99d6309bb96c0bc812c84f596a3099e8f0e03e7300bf5ec1ec69439e812ef391
+Filename: ./kde-plasma-desktop_5%3a171_amd64.deb
+Size: 4148
+MD5sum: 89e782603db3c20783ab1a4c49c4f06f
+SHA1: c3ed184b73847353ccb0e02b880fd996e45519cb
+SHA256: 5fad03195aabe3b2747999202596f5affc6a791e33587e94f59a63b594254098
+SHA512: 5120065886dd65330bf561978e9f3c2e34af01780438452e5adb8f8c0a160c5c1ac16883fe2f2bbe63ae6843c6f7c5a9be0836e0bb07094b362161e8d7706431
 Homepage: https://www.kde.org
 Description: KDE Plasma Desktop and minimal set of applications
  KDE is the powerful, integrated, and easy-to-use Free Software desktop
@@ -13960,21 +13960,21 @@ Description: Screenshot capture utility
 
 Package: kde-standard
 Architecture: amd64
-Version: 5:170
+Version: 5:171
 Priority: optional
 Section: metapackages
 Source: meta-kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 10
-Depends: kde-plasma-desktop (>= 5:170), kwalletmanager (>= 4:26.04.0), plasma-dataengines-addons (>= 4:6.6.4), plasma-pa (>= 6.6.4) | kmix (>= 4:26.04.0), plasma-runners-addons (>= 4:6.6.4), plasma-wallpapers-addons (>= 4:6.6.4), plasma-widgets-addons (>= 4:6.6.4), polkit-kde-agent-1 (>= 4:6.6.4)
-Recommends: akregator (>= 4:25.12.3), ark (>= 4:26.04.0), dragonplayer (>= 4:26.04.0), juk (>= 4:26.04.0), gwenview (>= 4:26.04.0), kaddressbook (>= 4:25.12.3), kate (>= 4:26.04.0), kcalc (>= 4:26.04.0), khelpcenter (>= 4:26.04.0), kmail (>= 4:25.12.3), konq-plugins (>= 4:26.04.0), korganizer (>= 4:25.12.3), okular (>= 4:26.04.0), plasma-nm (>= 4:6.6.4), sweeper (>= 4:26.04.0)
+Depends: kde-plasma-desktop (>= 5:171), kwalletmanager (>= 4:26.04.0), plasma-dataengines-addons (>= 4:6.7.2), plasma-pa (>= 6.7.2) | kmix (>= 4:26.04.0), plasma-runners-addons (>= 4:6.7.2), plasma-wallpapers-addons (>= 4:6.7.2), plasma-widgets-addons (>= 4:6.7.2), polkit-kde-agent-1 (>= 4:6.7.2)
+Recommends: akregator (>= 4:25.12.3), ark (>= 4:26.04.0), dragonplayer (>= 4:26.04.0), juk (>= 4:26.04.0), gwenview (>= 4:26.04.0), kaddressbook (>= 4:25.12.3), kate (>= 4:26.04.0), kcalc (>= 4:26.04.0), khelpcenter (>= 4:26.04.0), kmail (>= 4:25.12.3), konq-plugins (>= 4:26.04.0), korganizer (>= 4:25.12.3), okular (>= 4:26.04.0), plasma-nm (>= 4:6.7.2), sweeper (>= 4:26.04.0)
 Suggests: skanlite
-Filename: ./kde-standard_5%3a170_amd64.deb
-Size: 4144
-MD5sum: a90ca7093a4c3cb88cf4cfb040db7f6d
-SHA1: ff66fc10233ccef9846eeb5ac4d71616fc072894
-SHA256: 153e3748dc9ca153b79a93a2f5e7325c9140a4445b7d146e605e155622750904
-SHA512: a1ecc64eec3b5ff53f907501b77aed5da94cbc0e4038f4e4f8fe28ea7b7647156ac1ca19ba78e5b34fb8245a74ab52bf7750f17a22a223279d50361990601864
+Filename: ./kde-standard_5%3a171_amd64.deb
+Size: 4160
+MD5sum: e6efc92baaaa446f3580a44e9acfe50a
+SHA1: 307b5188667de3d12cbad39d242035e1819dca81
+SHA256: 791cfa5d0422af2cb0483b7c75c5acb4fd16540f91c38daf9d40ff4ceae595a3
+SHA512: ee16ad5a638630875701b753fd2e61ecd22fc281bdb9026d5f3cf3a354d459f9df07f5d52472cd8dbb66251036e8e5c1bf108f84c50b39a9378ffe8029fbcf09
 Homepage: https://www.kde.org
 Description: KDE Plasma Desktop and standard set of applications
  The KDE Software Compilation is the powerful, integrated, and easy-to-use Free
@@ -13985,19 +13985,19 @@ Description: KDE Plasma Desktop and standard set of applications
 
 Package: kdeaccessibility
 Architecture: amd64
-Version: 4:26.04.0+5.170
+Version: 4:26.04.0+5.171
 Priority: optional
 Section: metapackages
-Source: meta-kde (5:170)
+Source: meta-kde (5:171)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 10
 Depends: kmag (>= 4:26.04.0), kmousetool (>= 4:26.04.0), kmouth (>= 4:26.04.0), kontrast (>= 26.04.0)
-Filename: ./kdeaccessibility_4%3a26.04.0+5.170_amd64.deb
-Size: 4148
-MD5sum: 2c2600110ba274e6a2fe96ac046dc2ee
-SHA1: 594dddf7e2481b49f38f83e3bad7186d6dbf93a2
-SHA256: bcc44f9b84d1984d0ea7d0b0be64e640f83f2da100391f97d89971f9e6e87498
-SHA512: bde1f323a0406582ca94e14d774aaf768f5dc784dadbccf8e7d1b997c715afc8d0fb75e11b2b528093f0561918b0cd1299dbb22fd1fb7d1affacea54d1794902
+Filename: ./kdeaccessibility_4%3a26.04.0+5.171_amd64.deb
+Size: 4160
+MD5sum: 5632da81d210280010b584fd10663918
+SHA1: 0e6b91c41783f4785c1088001010c16e1773b0a5
+SHA256: 0668fca6a26d175181f0606ab12202ec0c23ed7eaadcd06cdf713967beae57e7
+SHA512: a98efc81348ef450fae87303dc8643c4214f804682d40a5f1f62cc31fc988954312b7d6962db97b1b1e0bba579f0369a92d39f08e868b383d521ce86055ccc80
 Homepage: https://www.kde.org
 Description: accessibility packages from the official KDE release
  KDE is produced by an international technology team that creates free and open
@@ -59089,19 +59089,19 @@ Description: fast and lightweight templating for the Python 3 platform
 
 Package: python3-markupsafe
 Architecture: amd64
-Version: 3.0.3-1+b1
+Version: 3.0.3-2
 Priority: optional
 Section: python
-Source: markupsafe (3.0.3-1)
+Source: markupsafe
 Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 71
+Installed-Size: 68
 Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14)
-Filename: ./python3-markupsafe_3.0.3-1+b1_amd64.deb
-Size: 14320
-MD5sum: 2193d1e5b771b1b02be26420f58ebd04
-SHA1: 4b2f71d0318a5731d55036388d9da46cbc845462
-SHA256: dc155f95952947c815a5bcac2bff850ca898d990501c162cee651ba9b043edbd
-SHA512: 53b8c96f4c303cad2541d44b4135a8d7167f81947591ab7dace1675a6ca803983508658cf4bb20e755dc73624d3c23a284690cf42a79054820f978e5c29dbd6b
+Filename: ./python3-markupsafe_3.0.3-2_amd64.deb
+Size: 13888
+MD5sum: dadcc967478d6fe8ab5d4205a995c7ac
+SHA1: 445a65c6dcae70a53c178a7ca4832b0659303558
+SHA256: 72c231e5716449288dd4d8d0f9e07249ff2a198a2ca0e49156102e723f4330b2
+SHA512: bfba4aa953c34184bb910b289ba8b4e256c8c14187008e793fb286ea6e1a9571a9b52312140c2ac48d7bbe3074bbc7dba3f90cf37ab09c0f04460cadc2f4b882
 Homepage: https://palletsprojects.com/p/markupsafe/
 Description: HTML/XHTML/XML string library
  MarkupSafe is a Python library implementing a unicode subclass that is
