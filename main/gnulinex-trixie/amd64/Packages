@@ -71043,22 +71043,22 @@ Description: Graphical tools for certain user account management tasks
 
 Package: vim-common
 Architecture: all
-Version: 2:9.2.0524-1
+Version: 2:9.2.0858-1
 Multi-Arch: foreign
 Priority: important
 Section: editors
 Source: vim
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 2240
+Installed-Size: 2242
 Recommends: xxd, vim | vim-gtk3 | vim-motif | vim-nox | vim-tiny
 Breaks: vim-runtime (<< 2:9.0.1658-1~)
 Replaces: vim-runtime (<< 2:9.0.1658-1~)
-Filename: ./vim-common_2%3a9.2.0524-1_all.deb
-Size: 483444
-MD5sum: f68940da6d39d1915e8fea2551444193
-SHA1: 76f5172a347b041b3c68162a93394c43dc3c9784
-SHA256: b65e5131e3852752fc1b4e88dbaa4c51965f7fe02edbf190e1d06bef12ec3981
-SHA512: 2aef70596df1baa0ff5c74a5769855d9ea488f4892adfa91e48622f058e1e783999c68d05c276f77e2a506702196c4671fdf17f53caf8609fb43f1d3182edf86
+Filename: ./vim-common_2%3a9.2.0858-1_all.deb
+Size: 485096
+MD5sum: f3133c4e6715fd6f7af6811f4b3dda5d
+SHA1: 5e552af36913d2fdaa784ad7f59b7f93589439a5
+SHA256: c21aad77632ef790d2352f1c38e688069980bbd530034248dd5e1158da9c9fe3
+SHA512: c98e02e371771a9db8605270a720213f8480bbe8ca2fb2a6dc0a0960c60164b292a424e28ff470f45dbafb535006081b65f01679a2a2509c3208640b4e0e9513
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Common files
  Vim is an almost compatible version of the UNIX editor Vi.
@@ -71069,22 +71069,22 @@ Description: Vi IMproved - Common files
 
 Package: vim-runtime
 Architecture: all
-Version: 2:9.2.0524-1
+Version: 2:9.2.0858-1
 Multi-Arch: foreign
 Priority: optional
 Section: editors
 Source: vim
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 38706
+Installed-Size: 38849
 Recommends: vim | vim-gtk3 | vim-motif | vim-nox | vim-tiny
-Breaks: vim-tiny (<< 2:9.2.0524-1)
+Breaks: vim-tiny (<< 2:9.2.0858-1)
 Enhances: vim-tiny
-Filename: ./vim-runtime_2%3a9.2.0524-1_all.deb
-Size: 7137684
-MD5sum: 352690b0346a8c041c9d156b5b90442e
-SHA1: 2674e76cb42b1dc8a5bcb561c179491406511f86
-SHA256: 6e92c5adecfb5222c61f8dfe32ddf034cc575cd57574b6935450fe50b0b98d9e
-SHA512: 9d291d8570285b8dabe784b3ceeab287a292cd48df115949f62991b0de60f252af3049783f5a1e87744912ef18a4fbd811fdb918321f0b373abedcd0b99c7067
+Filename: ./vim-runtime_2%3a9.2.0858-1_all.deb
+Size: 7157864
+MD5sum: 5cd523222254112cd9d18fb2b8b55d31
+SHA1: 6082df800b7fcc278a3af028d27987126aa04e7b
+SHA256: 1421e29be1730c7aebd055b52d22d86b0305785d155006a9a30e156558774e77
+SHA512: 69adb4eb753e189df98339d036e920f3b6aec89e72188e71cff6679f960945322e235a0c807a9f8b88cbde439fcaa3a30f2a309c8a42be803c6536165eaccd55
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Runtime files
  Vim is an almost compatible version of the UNIX editor Vi.
@@ -71097,21 +71097,21 @@ Description: Vi IMproved - Runtime files
 
 Package: vim-tiny
 Architecture: amd64
-Version: 2:9.2.0524-1+b1
+Version: 2:9.2.0858-1
 Priority: important
 Section: editors
-Source: vim (2:9.2.0524-1)
+Source: vim
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 1863
+Installed-Size: 1867
 Provides: editor
-Depends: vim-common (= 2:9.2.0524-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Depends: vim-common (= 2:9.2.0858-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: indent
-Filename: ./vim-tiny_2%3a9.2.0524-1+b1_amd64.deb
-Size: 769368
-MD5sum: 064e680228b6c1e78b3bf767ec57f030
-SHA1: a15e7ce669188c2103491fb1e4bc084e24342931
-SHA256: 9da8371a285e3a72dab655df3ccfc88095929ddc2cbfe690a0ee4ff76eed5356
-SHA512: 9cc9919cf1f1ad430270f93f614a5dd42211bdedc93eaf8a2f707593bf655f9daf60e2b050300aab5d87bc94c0ab034d03354b23bf72bcbcd67d4836a62198d3
+Filename: ./vim-tiny_2%3a9.2.0858-1_amd64.deb
+Size: 771212
+MD5sum: d5c4e2a958d7cbfd2355b940bcbad832
+SHA1: a961e2db17d3be4b4a6d16d3c775edbdc8c1185d
+SHA256: df2d037d405f1376d1d8025d022dba81fbfed8695f68a131b788d16d3b68cf83
+SHA512: 6abd0bd8e31a9ba4e30d9e6b8a577d4c3240c62269b09106c05c02a2b0e69442bf9c2b2948c7419264615edf7909e5289eb56da51c08efadcbc4b432a3255149
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - compact version
  Vim is an almost compatible version of the UNIX editor Vi.
@@ -71125,21 +71125,20 @@ Description: Vi IMproved - enhanced vi editor - compact version
 
 Package: vim
 Architecture: amd64
-Version: 2:9.2.0524-1+b1
+Version: 2:9.2.0858-1
 Priority: optional
 Section: editors
-Source: vim (2:9.2.0524-1)
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 4132
+Installed-Size: 4164
 Provides: editor
-Depends: vim-common (= 2:9.2.0524-1), vim-runtime (= 2:9.2.0524-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libgpm2 (>= 1.20.7), libselinux1 (>= 3.1~), libsodium26 (>= 1.0.14), libtinfo6 (>= 6)
+Depends: vim-common (= 2:9.2.0858-1), vim-runtime (= 2:9.2.0858-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libgpm2 (>= 1.20.7), libselinux1 (>= 3.1~), libsodium26 (>= 1.0.14), libtinfo6 (>= 6)
 Suggests: ctags, vim-doc, vim-scripts
-Filename: ./vim_2%3a9.2.0524-1+b1_amd64.deb
-Size: 1745816
-MD5sum: 73223e2daffaf3ba1c7099e37ef18fc2
-SHA1: 550044e1c5fee14b53a631a290f88132f0dae80e
-SHA256: dc10e0065be77b600e47c97fe2920ffae01bf0e0be01ccd73af5d27f258cfe48
-SHA512: ff01d56448d96b0c993ceb66fde7ee46ca58627fe8b64e0efeafffbf4d81be2a4ebf0d91771a0cdb5cf433b0cf0eb79346a616789dfc163a7b93e426141061c8
+Filename: ./vim_2%3a9.2.0858-1_amd64.deb
+Size: 1760928
+MD5sum: a0881b89c718dd4398e18d0235e4a580
+SHA1: 168bb75e5923c40ef4a9204c90e1038569ea63f1
+SHA256: a146e1522011659f2a60420ec3958be9f7dc30e6aa396b0da37a5eb8fbc301c0
+SHA512: 9353f3ac94277b4b6c1bffc322bf6216096595a80d0b4f1536bf3e2f18dba9d044858c6a5c8f39fb187ef4a0da77c72b138715bab089173679348228059538d1
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor
  Vim is an almost compatible version of the UNIX editor Vi.
