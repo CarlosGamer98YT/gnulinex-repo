@@ -2833,6 +2833,32 @@ Description: archive manager for MATE
  Engrampa doesn't perform archive operations by itself, but relies on
  standard tools for this.
 
+Package: enlightenment-data
+Architecture: all
+Version: 0.27.1-2
+Priority: optional
+Section: x11
+Source: e17
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 403117
+Conflicts: enlightenment-data
+Enhances: enlightenment
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
+Size: 400653372
+MD5sum: 1eca4262b66d69f7496f7f5886340caa
+SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
+SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
+SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
+Homepage: https://www.enlightenment.org
+Description: X11 window manager based on EFL - run time data files
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ These are the architecture independent runtime support files for the
+ Enlightenment Window Manager.
+
 Package: enlightenment
 Architecture: amd64
 Version: 0.27.1-2
@@ -7652,19 +7678,19 @@ Description: GObject introspection data for the GCR library
 
 Package: gir1.2-gdesktopenums-3.0
 Architecture: amd64
-Version: 50.1-2
+Version: 51~beta-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gsettings-desktop-schemas
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 30
-Filename: ./gir1.2-gdesktopenums-3.0_50.1-2_amd64.deb
-Size: 10360
-MD5sum: 6793e6fe071ce2c26871fa4b51eb0d77
-SHA1: 9ac46ed7fca5dffefbeb5b0530e14204e6c9df32
-SHA256: 72290882d9611bb57c2913311d94f17fa287752c7eadf7bb884edf4657573660
-SHA512: 2c1bbb8133580dece8362951a0c69213bed9ca7d6a0fbfcf90181d94fab2d4510020d47cbbc7f8342cbf634544b1f8e71fc936613513b653ff98466ede9faf4a
+Installed-Size: 31
+Filename: ./gir1.2-gdesktopenums-3.0_51~beta-1_amd64.deb
+Size: 10432
+MD5sum: 4e999adf87d27a66a718189b038f70ee
+SHA1: bb5b9ba9add79288e7d992b24009c36d99232bdc
+SHA256: c94f40ecb8a62b5bd58978362fb72b3632304a9b60d3a42c042f39c0ef9b95eb
+SHA512: d9e041292a786a2b5f2f4a00b016effa819df22ac07f9b07ca78acb694d7c0cb1cdc154cf7718019f9aa0390c95fe0c6cd747072924110f57e4eaf2708e7c574
 Homepage: https://www.gnome.org/
 Description: GObject introspection for GSettings desktop-wide schemas
  gsettings-desktop-schemas contains a collection of GSettings schemas for
@@ -9105,21 +9131,21 @@ Description: GObject introspection data for polkit
 
 Package: gir1.2-rb-3.0
 Architecture: amd64
-Version: 3.4.9-4+b2
+Version: 3.5.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: rhythmbox (3.4.9-4)
+Source: rhythmbox
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 492
-Provides: gir1.2-mpid-3.0 (= 3.4.9-4+b2)
-Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.4.0), gir1.2-gstpbutils-1.0 (>= 1.4.0), gir1.2-gtk-3.0 (>= 3.20.0), gir1.2-libxml2-2.0, librhythmbox-core10 (>= 3.4.8)
-Filename: ./gir1.2-rb-3.0_3.4.9-4+b2_amd64.deb
-Size: 367724
-MD5sum: dfe94c19b95cea3c30c2c1a12c0616a9
-SHA1: 9ad680bfb8559a2d24964856e81934fa277997af
-SHA256: d19eb7a9704e515ec9f1fe71b094214e6f79597ff2528cdbd2c2cc428ba1a639
-SHA512: 5c2c811f75ba555a425eb3bfecfa4a0c5600bf4a50a5bef1b4692068a9f6cbfb515c17f7aa2488c0e6ea0c29dfb2b8d02594e09ae08d04cff32b987428b90665
+Provides: gir1.2-mpid-3.0 (= 3.5.0-1)
+Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0, gir1.2-gstpbutils-1.0, gir1.2-gtk-3.0, gir1.2-libxml2-2.0, librhythmbox-core10 (>= 3.5.0)
+Filename: ./gir1.2-rb-3.0_3.5.0-1_amd64.deb
+Size: 367656
+MD5sum: f37f6d85e1c538ab0dee0edac4a8f76d
+SHA1: d042a22d8d968818a0d63360d8b4e4ba3378d99a
+SHA256: 4001f7b5be14427c4699ee3fc7a6db39e0cd64b1d1530699d599be29233eec76
+SHA512: aedc0adf9b3b507c11401249362b64c4f01f8f88287125120e00a0bfbc6880760d588383dcf293078ec0e8b625a7fdcdcc96a098bc8dae49cefae11ebf71eb8e
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: GObject introspection data for the rhythmbox music player
  Rhythmbox is a very easy to use music playing and management program
@@ -10928,42 +10954,42 @@ Description: daemon handling the GNOME session settings
 
 Package: gnome-shell-common
 Architecture: all
-Version: 50.2-3
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Source: gnome-shell
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 8068
+Installed-Size: 8069
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: gnome-session-common (<< 50~alpha)
-Filename: ./gnome-shell-common_50.2-3_all.deb
-Size: 910284
-MD5sum: 0cf4ff6e178e210781f97816b20544f2
-SHA1: 350cf9140e21d6cfb0a3ad6a185109422a496527
-SHA256: 2d76897f32905386240b3e15ade5d51f68d8f6b4f96465b48ba51eb100fbbb10
-SHA512: 994e04737cfa1d921621c00e15f5ea212b78b5680d54716026f1264dab559b56ff98bd256e080ab07e50b032fab6c978bd4d7ec3a751ad59dabe07de00dba585
+Filename: ./gnome-shell-common_50.3-1_all.deb
+Size: 909772
+MD5sum: e2d50142bfb50c147d7cbecde1c9417c
+SHA1: ef739170f67d761346157c229f1133ed8ff4a0eb
+SHA256: 9a1a363433be8abbd41a94346f7ffccde73fc469cec70248f7e15cd026303979
+SHA512: 68f369c1fa7549bfaa0c8150fdaa100c75bc37befef1bcb1a98356fd31735ddfad3f8b3867c02b8a88d58056e947aba2ae944da317787560f8a0314405fba2ae
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: common files for the GNOME graphical shell
  This package contains translations and data files for the GNOME shell.
 
 Package: gnome-shell
 Architecture: amd64
-Version: 50.2-3
+Version: 50.3-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6702
+Installed-Size: 6742
 Provides: notification-daemon, polkit-1-auth-agent
-Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-18 (>= 50.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.87.1), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 50.2-3), gsettings-desktop-schemas (>= 50~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.87.1), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-18-0 (>= 50.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
+Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-18 (>= 50.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.87.1), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 50.3-1), gsettings-desktop-schemas (>= 50~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.87.1), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-18-0 (>= 50.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
 Recommends: bolt, evolution-data-server (>= 3.45), gdm3, gnome-browser-connector, gnome-remote-desktop, gnome-menus, gnome-user-docs, ibus, iio-sensor-proxy, power-profiles-daemon, switcheroo-control, unzip
 Suggests: gir1.2-malcontent-0, gir1.2-telepathyglib-0.12, gir1.2-telepathylogger-0.2, gnome-shell-extension-prefs
 Breaks: gnome-session (<< 49~beta~), gnome-shell-extension-appindicator (<< 50), gnome-shell-extension-dash-to-panel (<< 55), gnome-shell-extension-dashtodock (<< 79), gnome-shell-extension-desktop-icons (<< 21.04), gnome-shell-extension-desktop-icons-ng (<< 46+really47.0.2-2), gnome-shell-extension-taskbar (<< 57.0-2.1~), gnome-shell-extension-top-icons-plus (<< 27-3~), gnome-shell-extension-workspaces-to-dock (<< 54~), gnome-shell-extensions (<< 40.0~)
-Filename: ./gnome-shell_50.2-3_amd64.deb
-Size: 917076
-MD5sum: e499490463f46952f9dd7d17282dcaba
-SHA1: 19e1c8956c300061e4851199bb774ac12ff6cd6e
-SHA256: 94cf1be202cc863b1fae628d14bdfff348cc75cba0424e89f9a5090759df45d0
-SHA512: 7547ebec3d0fcad6439c064edcd844e606de694be3d3adccc7b8c2da8c4962213a001232c3ec9080a3f48d44e8d97760783806dc80dd57d6f8d416aeded18904
+Filename: ./gnome-shell_50.3-1_amd64.deb
+Size: 937556
+MD5sum: 2f9ef377a5e8146115433e85f7aaa943
+SHA1: cf6be99e8efb5cc47b133d5d4e64ee424e62495f
+SHA256: ac766d3002857b196e4af6fee7ebdab6009a6d39249abc18eca3f988db666201
+SHA512: 7fce3531740c7867ff2c7cdf64ed810e358d2728779e1561008d09181c6b1707d9526a8bd009aa096ad9c45d0d6beee29c8b74e988a44b68faefacdbf5fa9cf1
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: graphical shell for the GNOME desktop
  The GNOME Shell provides core interface functions like switching
@@ -11216,20 +11242,20 @@ Description: sushi is a quick previewer for nautilus
 
 Package: gnome-system-monitor
 Architecture: amd64
-Version: 50.0-1
+Version: 51~beta-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6088
+Installed-Size: 6170
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.83.0), libglibmm-2.68-1t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.5), libgtkmm-4.0-0 (>= 4.17.5), libgtop-2.0-11 (>= 2.41.2), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.46.0), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 13.1), libsystemd0
 Recommends: gvfs
 Suggests: pkexec
-Filename: ./gnome-system-monitor_50.0-1_amd64.deb
-Size: 816708
-MD5sum: c8be21a7dac807df4f5088714f0ead17
-SHA1: 64b58fcd7ce15db4abc1621e0c80f41e3703b363
-SHA256: c0ef3ec56b4d181ca74d93286655c1deb1913aa9b85296fbff87d78e4f587f38
-SHA512: c5d7d5bbb84dc020d1ff4640aa8954673e2c2988fe02417a089e4cef3beae87d98c94130faf13e4a35dc7c007f010581325f89ccbbf415a17379e1f0ced7f2e1
+Filename: ./gnome-system-monitor_51~beta-1_amd64.deb
+Size: 816104
+MD5sum: 94ef39baf32667b8c6a299d0b1db4f89
+SHA1: c8c1d0e09eee1e0065716fa9904d23fd2912ed34
+SHA256: f9e4cb49784c8bef5f8166afb896015ea95884d4ce7e78d3fd2254cbcf579125
+SHA512: ce52d374abfeeb94f676f6e71c62d67feee4c886d89a217ca40abd9228e4c2d40fbbc38dfa886db9bda199e22cce521e5aa2392e20400b3c095e2a386e7d85bb
 Homepage: https://apps.gnome.org/SystemMonitor/
 Description: Process viewer and system resource monitor for GNOME
  This package allows you to graphically view and manipulate the running
@@ -12153,21 +12179,20 @@ Description: GRand Unified Bootloader (common files for version 2)
 
 Package: gsettings-desktop-schemas
 Architecture: all
-Version: 50.1-2
+Version: 51~beta-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6404
+Installed-Size: 6819
 Depends: dconf-gsettings-backend | gsettings-backend, user-session-migration
 Recommends: python3, python3-gi
-Breaks: gnome-panel (<< 3.49), gnome-shell (<< 44), libmutter-11-0 (<< 44), metacity (<< 1:3.49), ukwm (<< 1.2.1)
-Filename: ./gsettings-desktop-schemas_50.1-2_all.deb
-Size: 779112
-MD5sum: a836906f779210725dfe70c4e78c8edd
-SHA1: e89c6309685493ad19c848f7a19df75a5147fd98
-SHA256: aa0e0397c7edc8d82fc2f3f1e26ea3bf88c4bf1f2eac98d5759d1fe01dcb2429
-SHA512: 994438bf2e379211b11da538cb6cd8892faa4dcafb10686d4749fdbf74a1405549f38643b6a16f8ad534f68c62230cc1f2c9438d5afa478371f142dea04c0d2d
+Filename: ./gsettings-desktop-schemas_51~beta-1_all.deb
+Size: 818112
+MD5sum: b2ccebca55ac8f4aa0e98c8b80e23615
+SHA1: e236bb146590279d8cdc0bd25d260706e1817f72
+SHA256: b94ca77c3c96b2dc9073dcca79cc011f31fd536a93d23a9948add4af0ad60613
+SHA512: 684c6ed7e5e62c58503d2c6b8e053dc2be1737d7b4963aaa37c3ff40730ebc996adc18e8abfcd3d536d99fafc9ada4e057ede4406ac59905c70be77182f6c5f2
 Homepage: https://www.gnome.org/
 Description: GSettings desktop-wide schemas
  gsettings-desktop-schemas contains a collection of GSettings schemas for
@@ -18951,21 +18976,21 @@ Description: Client library for evolution calendars
 
 Package: libecore-audio1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 157
+Installed-Size: 155
 Depends: libc6 (>= 2.14), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-audio1_1.28.1-1.1+b3_amd64.deb
-Size: 36488
-MD5sum: 1436e76a7d3a3eb78181e74ee180474c
-SHA1: 938d99df4e695ae8bb130bc64559a52546adb70f
-SHA256: 93ba44a92a72a1980dd2195ed1188ed099918fb2ad0df923ced6ea085761dc93
-SHA512: 1da1875a596cb9dac39a5fec88d4cc0d3d12060e726fa06da7e51637479c9003d3940da75f665c04ed105a178daa16510567ea62753efd81c73f77c7da2e4404
+Filename: ./libecore-audio1_1.28.1-2_amd64.deb
+Size: 36720
+MD5sum: 515e2fe89c1224e1a4292e9a7c282eeb
+SHA1: 09d8fc9b5dfcf3de09aac8a3e0ce588b2fc3f745
+SHA256: 112b96a830331e89797623ca8708031e438d0b80c2c8b8693622831bd33ecb39
+SHA512: 227460be4a75fbecf8b804b01b17d94fb3a3c887f9458943550cb202d3ff50ad33d6efc1fe9b25740596d720c5b36dee8c2d8cd43d464049d8e23ae1f837935d
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for audio playback and recording
  Ecore is a library of convenience functions. It provides abstractions
@@ -18978,20 +19003,20 @@ Description: Ecore functions for audio playback and recording
 
 Package: libecore-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 131
+Installed-Size: 129
 Depends: libc6 (>= 2.38), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
-Filename: ./libecore-bin_1.28.1-1.1+b3_amd64.deb
-Size: 29028
-MD5sum: f6005090ac4b75c89db67fbcf291ba3d
-SHA1: b9cd44861b09c8f5f6ae76aa8a142a05899da225
-SHA256: 40992e9c4173b83adaa4867bd052ab58564175ffebc6541b90ff23fbb5db3a64
-SHA512: 1c0c7c74cf1faa385dc9e36bae453ebbfe6c28ba9b8c024e0aaa80d50f25bf46016bd5a82105b680edd1268e82692b194d223343e1fde2faf5cf7a5c2a83af3e
+Filename: ./libecore-bin_1.28.1-2_amd64.deb
+Size: 29452
+MD5sum: 488348c1d3a58cbe74b3922fa757ccde
+SHA1: 54ac57d7fdc8eba870b8026c422596ae17a2c925
+SHA256: 3ec6ca5d98a86252f336dd495e24e05a2a782ea155bb750bc3653077520fad1b
+SHA512: 8b45e457b59514b6171021405be6b8e0c3656f9178e7954f52a1e98011f3b28691ee216e98938a6c3d7df34e03cfd77b9ce5680f0f00d92013d8ff480b619fec
 Homepage: https://www.enlightenment.org
 Description: EFL core abstraction layer - utilities
  Ecore is a library of convenience functions. It provides abstractions
@@ -19006,23 +19031,23 @@ Description: EFL core abstraction layer - utilities
 
 Package: libecore-con1t64
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 788
-Provides: libecore-con1 (= 1.28.1-1.1+b3)
+Installed-Size: 798
+Provides: libecore-con1 (= 1.28.1-2)
 Depends: libecore-bin (>= 1.28.1), libc6 (>= 2.38), libecore1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libssl3t64 (>= 3.0.0)
-Breaks: libecore-con1 (<< 1.28.1-1.1), libeina1a (<< 1.28.1)
+Breaks: libecore-con1 (<< 1.28.1-2), libeina1a (<< 1.28.1)
 Replaces: libecore-con1
-Filename: ./libecore-con1t64_1.28.1-1.1+b3_amd64.deb
-Size: 196708
-MD5sum: e2443f9a6781ea534de0081d09ff07c6
-SHA1: 360892c7f34eb500177cc6bd0ff74f9ea7505a88
-SHA256: d0e1ebae9763fe0036774b4467c771b5d99be9db7eb2b232ea1f6dbb746b25dd
-SHA512: 2435c5c7a755afc3ed82d958ed7318736daa863af56508f01a9eca3f3259a3cad529a618e7ae5961a67ef5dc8704752c17b3505c2f32c179ac1f32f9d4a191ab
+Filename: ./libecore-con1t64_1.28.1-2_amd64.deb
+Size: 204132
+MD5sum: 075650fd3b533b70fffb2d71bef5859a
+SHA1: 844fc38d82705a05a0c11ff33395909c3c65f8b2
+SHA256: 38658fb391962dc4ca4e83b9ef31dab72bfb537ce4fc11c1149d227c7c2c02bf
+SHA512: 92ddf042097a891ede1e812e1f26440108beea3d35686abbe57fb3dc7557f10a2f6b56aa6f38e689a86cc3851fd624f68fe584f7d3c031cc36158a04ef88ecd3
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for network connections
  Ecore is a library of convenience functions. It provides abstractions
@@ -19038,21 +19063,21 @@ Description: Ecore functions for network connections
 
 Package: libecore-drm2-1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 150
+Installed-Size: 152
 Depends: libc6 (>= 2.34), libecore1 (>= 1.28.1-0~eo), libeeze1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libelput1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-drm2-1_1.28.1-1.1+b3_amd64.deb
-Size: 40368
-MD5sum: af4362ab6d71f5d34e9fd31653f4aa69
-SHA1: b36c824cab4d41ab5c6e9b44915e47d2df62e2dd
-SHA256: e5bce17d5c1733f5ff8d963d4df7e510c8bff74aca05d6cc13769883e745670f
-SHA512: 465a653401c5288c9edf9e25ae0c6e85095a752621828caf9dfa1811ba89ce51e05491b913e4884aeeb9a6b0f52a943308a3824ed9772db398d4aea4ea359a9e
+Filename: ./libecore-drm2-1_1.28.1-2_amd64.deb
+Size: 41756
+MD5sum: 6e77860c7931cb94f2829a69793d0719
+SHA1: 424733e23c41d568b8c6277ed4316f035d2c0643
+SHA256: 5372d24dbcd6e4db74d4863045c70dc1faeaaed3b4a25c46e9ccf09737bd8ff1
+SHA512: f694c8b3672bd21edbec75245668b998886f245ed8305c6d5b1e0e4948492309b960e01c92931143bd0c81bc5a93f10c980cbbaea462a3b7e972dd9bf294079e
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for DRM
  Ecore is a library of convenience functions. It provides abstractions
@@ -19067,21 +19092,21 @@ Description: Ecore functions for DRM
 
 Package: libecore-evas1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 561
+Installed-Size: 567
 Depends: libc6 (>= 2.38), libecore-drm2-1 (>= 1.28.1-0~eo), libecore-fb1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-ipc1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libelput1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-evas1_1.28.1-1.1+b3_amd64.deb
-Size: 138804
-MD5sum: e91dc7f96e9af047f923bf2a15f8681a
-SHA1: e646da6eca5c78f0403b495e088b0414e3518ab1
-SHA256: 53b59311bab26f6a88c2e072053e7d7158a2392315ec5d84a62628be71296ab2
-SHA512: 440b19b8a51575ee91a1000e0dc1cbe020ee52f41d7ac60452af5d64502513f63c743658dfa0fa1f51edfb2c79f70b6b13863d6965f943ca0c953c9b7a2d7827
+Filename: ./libecore-evas1_1.28.1-2_amd64.deb
+Size: 144420
+MD5sum: 691e29b01e9302ace8edf2a97a97fe52
+SHA1: ba2982e9c4215863395f629c2a9fb9b8b58e996b
+SHA256: 01d747c684a24a5e03874872c4c060c618733d3af834fff7199fd804da78bd2c
+SHA512: b92127051151b3d989af55105a0ecfedef7fbd4f8520ae2a9b28ef51d3acf8f44771f0a0e51ccdaf853ef3ecca4e9c9895601c088b39f38ec44ac3c6e5c3329c
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for the Evas wrapper
  Ecore is a library of convenience functions. It provides abstractions
@@ -19095,21 +19120,21 @@ Description: Ecore functions for the Evas wrapper
 
 Package: libecore-fb1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 126
+Installed-Size: 128
 Depends: libc6 (>= 2.38), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-fb1_1.28.1-1.1+b3_amd64.deb
-Size: 25148
-MD5sum: e759cf02ec24dd5665b795dc17d15576
-SHA1: e1d086fd2ee913e8d7f4620252dd73a2c0f2f869
-SHA256: cb4715b7a3188a9c766f680564f3b534b9185ef7aab53c8588068121243354eb
-SHA512: 9eda2ea9cf959e06377da4b4643369d0e9abad4594766113b4506a52fbadf5cb228ccf18ffaa5e2dc6ce200c22e33849d650a1662ab3da43c7aadf29938cca41
+Filename: ./libecore-fb1_1.28.1-2_amd64.deb
+Size: 25268
+MD5sum: 3bee1c2b8566dafa2da443a347fe5104
+SHA1: 294a254f3bfe9045cddf6b56752951696352a538
+SHA256: 18ac345680719269aae4eb9a2a885ae13cfea7b2fc051926f99b8f149176ed2d
+SHA512: 7dc4724afc0a51c5b17308436144c9d7b68b40f33ab54a394a2d6b95d26b19c8da5998e137672791335e7eb6dff5de7ca1f875b5d2fba2d9fcf9e0d7ad7898d5
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for frame buffer displays
  Ecore is a library of convenience functions. It provides abstractions
@@ -19123,21 +19148,21 @@ Description: Ecore functions for frame buffer displays
 
 Package: libecore-file1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 111
+Installed-Size: 109
 Depends: libc6 (>= 2.33), libecore-con1t64 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-file1_1.28.1-1.1+b3_amd64.deb
-Size: 25752
-MD5sum: 50b51dc7c171876895cd940cdfe1ee33
-SHA1: 1f855ff8cdeacb8af5a40df46d1ade17136c255a
-SHA256: bb21a24c8128b230a830ed38704d2e282617dae112bf5db6a7a1fa8647e6ba50
-SHA512: f3be71e31428160f1e15a17dbd652d3cdcd229824e48b2fc2b90d5212dc6aaa5ffbfaacd27be73e49bc8e5da2469c1dc22cdc05547eaaa200dcb162c38c07d2e
+Filename: ./libecore-file1_1.28.1-2_amd64.deb
+Size: 25904
+MD5sum: 0e39c2fb000b51ca088eefd6fc279589
+SHA1: 610b900fda16bfc959875267fe4883e66034653a
+SHA256: 75d8476aa241c667d172178f5d127a0a0b1f2f1159371cf08d98c076eff6e4a1
+SHA512: e0acef61345fd7ca8600f47e1da8422513988a8a991cefd644d8579d42c322b7f66cc7bffd3d62d52f8e3eac9ea2b55a1f198b0830b340d945a7d7a92c3b453d
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for files and directories
  Ecore is a library of convenience functions. It provides abstractions
@@ -19151,21 +19176,21 @@ Description: Ecore functions for files and directories
 
 Package: libecore-imf1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 336
-Depends: libc6 (>= 2.33), libecore-evas1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libgcc-s1 (>= 3.0), libscim8v5 (>= 1.4), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libx11-6, libxkbcommon0 (>= 0.5.0)
+Installed-Size: 238
+Depends: libc6 (>= 2.38), libecore-evas1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libglib2.0-0t64 (>= 2.12.0), libibus-1.0-5 (>= 1.5.1), libwayland-client0 (>= 1.20.0), libx11-6, libxkbcommon0 (>= 0.5.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-imf1_1.28.1-1.1+b3_amd64.deb
-Size: 80216
-MD5sum: 503640622e98f7ee65f42642f8c6933a
-SHA1: d8a62d850ef59a5c2902e97582af76cd276da841
-SHA256: a34ce5d0712e1f1289acf91fb1414211b53ae7eabd80e1dc85b723f60fbba215
-SHA512: efed6cef561f96f3596f64cd69dc6f41e726729d20135500ee8bf0ab185f8dfa9f13874c8ca56704679b384c2fd9fa3d05608750861e079515022cb958d41b8c
+Filename: ./libecore-imf1_1.28.1-2_amd64.deb
+Size: 53080
+MD5sum: fb36bbd8230509cba2203e3b9b7aa483
+SHA1: e3580af7ba1bf3143615d6ae19afc8bda34b92ac
+SHA256: e4240e972cbedd304134339d6e37929f3d0fdee00e002d4005064abf7fedc3dc
+SHA512: 485779f71fbf37b19f771701d94993a04b523ff8c53ffc606332fbedc3c26094b89d3e142747f84aa84692c6fa9ec8d7b0d40e6d90b70f5b799bfce8336c2476
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for Input Method Framework
  Ecore is a library of convenience functions. It provides abstractions
@@ -19180,21 +19205,21 @@ Description: Ecore functions for Input Method Framework
 
 Package: libecore-input1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 184
+Installed-Size: 186
 Depends: libc6 (>= 2.38), libecore1 (>= 1.28.1-0~eo), libeeze1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-input1_1.28.1-1.1+b3_amd64.deb
-Size: 36560
-MD5sum: b1324a046c3b985f668523be182f9090
-SHA1: 322ef4774fb417eb884da94ed4b44857d3bf27d2
-SHA256: 61468aec2226c390de04b0c94145fae99b5b444cbbf7bca7339fd8269ef364ba
-SHA512: 22b767da3eb804eb798c578a951ba49327231aff8d2b919b20692dfe6de834413349a866ba5677502e68bca3840bb9ab6fb88abb1c62f4f197afa8b023343706
+Filename: ./libecore-input1_1.28.1-2_amd64.deb
+Size: 36792
+MD5sum: 3e4d73e1027e7b4cf760133b283ccf93
+SHA1: 4eb01c738192361c1e1439b23fb04b62602696fc
+SHA256: d340abdef5274fe85fb864c88e99978fbf2a450045d10e102a5ba50844f192ab
+SHA512: d2ad3986bdbfad29c76d418a558a7b83222169ff28491748b82f8a10b63db712edb13a7f63ed863c9c8823e6fdfe10d75da4aaaca50cb40ee8a590b62a3b0209
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for input devices
  Ecore is a library of convenience functions. It provides abstractions
@@ -19208,21 +19233,21 @@ Description: Ecore functions for input devices
 
 Package: libecore-ipc1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 119
+Installed-Size: 125
 Depends: libc6 (>= 2.33), libecore-con1t64 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-ipc1_1.28.1-1.1+b3_amd64.deb
-Size: 28532
-MD5sum: 28957fb719d76167abfc6c644f44b864
-SHA1: 6247e328da4f5244f439b9506029bb696c1cfadc
-SHA256: cecbc0a6d63a02754dcd9a88b265cba56ac428d66f31b7d0b348489ec8093174
-SHA512: bfe5b3fca6e7984a5b4f49c07a3c0047b4611139867d827908202fabe669b05fc78f01a5ffb9e9ae7ecb7c64c977f4cbad5419fe83e822c6b385d82af0687649
+Filename: ./libecore-ipc1_1.28.1-2_amd64.deb
+Size: 29952
+MD5sum: 241cbe02a064a9bb54d145e137ca2c89
+SHA1: 95f599b9826434aca2b8c76dfb7aef352a5a6d28
+SHA256: ffdd562d0e34f236c2a18b7330813434a4a7169553c6a8a79e15c0a6542a151a
+SHA512: 69bd22499594e3eefc2ec6e878ffedc06b84335c372f03a84b2ca8cf7518ee03d97f2e19259805c708b9521bfda1f38c559b582cf0a4e72d4ac9ec98d5dc0a7f
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for inter-process communication
  Ecore is a library of convenience functions. It provides abstractions
@@ -19236,21 +19261,21 @@ Description: Ecore functions for inter-process communication
 
 Package: libecore-wl2-1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 260
+Installed-Size: 262
 Depends: libc6 (>= 2.38), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.5.91), libxkbcommon0 (>= 0.5.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-wl2-1_1.28.1-1.1+b3_amd64.deb
-Size: 66004
-MD5sum: ac5b09c2926e2716f318d9e31a774f8b
-SHA1: ad2dc50220e7b3775e0661c2ae38ec997f83e9cf
-SHA256: 21b838587dfb990de45512a0382ca7fcdeb9b426597e9b316bd10a02369a541f
-SHA512: 1e33e96086578019944e7ecb69bc56c21a84c68a585cf718e0da7042b508fd79f9f63e2c06e2ccdb2f31664b06d86809381872c077dc91807f4c8dab129278f4
+Filename: ./libecore-wl2-1_1.28.1-2_amd64.deb
+Size: 68424
+MD5sum: 11ed4470653740aaa20e8e2a10c19fe0
+SHA1: 2f7b539d4aa6d6fc6b1afdd73248967010a3cb7b
+SHA256: 9ef4b1de6d45edc41b413bef5e73fa64d23f7b291f715f1f1d2a8ce840c2a4e0
+SHA512: 92071af689cd2d1e7ab6a1b6861059ffa96e06c71cc11f34aa344ad37ebfed56410ee87af49d7f126b473a7eb273655e6dcface5fdccd1acae3b4a8320a41861
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for Wayland displays
  Ecore is a library of convenience functions. It provides abstractions
@@ -19263,21 +19288,21 @@ Description: Ecore functions for Wayland displays
 
 Package: libecore-x1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 533
+Installed-Size: 539
 Depends: libc6 (>= 2.38), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.3), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore-x1_1.28.1-1.1+b3_amd64.deb
-Size: 148544
-MD5sum: 7559038e527225a2b9a371cf9464277e
-SHA1: b1efb24837da0cbb9a0261172acda9bb2dc4ffdd
-SHA256: 0717b099ded8054c5791d7437f3ec6cf0cf4dffed1d66960d1999c8d8c0257c9
-SHA512: cffd37c2efd0de8704e6a742a5ccd836f870da90cc407b94f9678d2bea0644b3e6f9b6bfcdd765687affc2e88e54b2223ad496e243eb072b51d888ff2ba2baaf
+Filename: ./libecore-x1_1.28.1-2_amd64.deb
+Size: 153564
+MD5sum: c6af917eb9594cff43e432090eb4d800
+SHA1: 15a65d8495c3a7b531a23494df1834f4d91975bd
+SHA256: 5994ca26d2e333716cb23313b8b8fc75056b6ed91e79e5096f56350685abc227
+SHA512: 3592870cf0c64ce423ceeb3a2078cd878af3ee5490d9957b5a875fe743805bf7db9121e527b0d157114ee45e67bd20218ddee75fa78d546a0088d33ac7878faa
 Homepage: https://www.enlightenment.org
 Description: Ecore functions for X Window System displays
  Ecore is a library of convenience functions. It provides abstractions
@@ -19292,21 +19317,21 @@ Description: Ecore functions for X Window System displays
 
 Package: libecore1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 976
-Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libeina1t64 (>= 1.28.1-0~eo)
+Installed-Size: 1002
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libeina1t64 (>= 1.28.1-0~eo), libglib2.0-0t64 (>= 2.32.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libecore1_1.28.1-1.1+b3_amd64.deb
-Size: 268976
-MD5sum: f20b059fa9f5e4ea4cdad6d5dd67784d
-SHA1: 27ea33b98cdab1a10af0f937e9f046ab00bec45a
-SHA256: f0baffc4a4bb04839ab0cf0977e6ebe5830102b29b1d5cad1155d208e1a77510
-SHA512: aec32f5bd5c4f4d6f8572e45731fb62db76d37c9d3c610b046fbb8e9a9fef4fd0228c8d2cd75b8c5941426df3f965f34fae78459932efd0088918e537be4540d
+Filename: ./libecore1_1.28.1-2_amd64.deb
+Size: 281404
+MD5sum: caa128ccda1e359db6c1a40aa6c37e15
+SHA1: 5a515dd06456fca523ef7c829355d70669e459bc
+SHA256: 5e5fb69169a09cfe62c08352212bbbcfa533b702b476a77a0491ae571c910c19
+SHA512: 3c0b0d79c8e745aa0f7848a04ba502672a52590379b2348f5b7a355c5a2d2cd4f196304a693167a0bca66c2530fe4b61741fe7947d5770c0abb6c70781590ea2
 Homepage: https://www.enlightenment.org
 Description: EFL core abstraction layer
  Ecore is a library of convenience functions. It provides abstractions
@@ -19318,21 +19343,21 @@ Description: EFL core abstraction layer
 
 Package: libector1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 346
+Installed-Size: 340
 Depends: libc6 (>= 2.14), libeet1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libector1_1.28.1-1.1+b3_amd64.deb
-Size: 116288
-MD5sum: 9c816f8f5f6e80fa2b355e38607b2c8b
-SHA1: 661dad26bfb829a95eaad87ed3f7f6456f68421c
-SHA256: 48aca452491551a5146b532bcc8250ae56ab26b030f2dc90ea04c73992f963b0
-SHA512: 83e5acb15f1c61d6a47b103fec6148a289247bff1dd3d761c3429560ff712717cf91cd13a24cfd799fab2d74445869be0693ef6d303dad618532e9903fed0f48
+Filename: ./libector1_1.28.1-2_amd64.deb
+Size: 116696
+MD5sum: 700cdb2ae76e37830fd00ddc633c8b7c
+SHA1: 2f48e9caa5ce7ab39d3cb73eb8d45ab19cbfb8bf
+SHA256: 314b50a8c038f882c9954e1afc195acd75d2b1ea47c8d50eb69a191f330f0c40
+SHA512: 1ccc53f36c89552c607645e03e95ca3e3708b778f9311ef89efb387db1b4413e6f840f77a7576eff2a54ca87bb1f67892cebf4c738677ac649ddfe82064c9649
 Homepage: https://www.enlightenment.org
 Description: EFL vector graphics capabilities
  Ector provides a new retained rendering library that is used by Evas
@@ -19478,20 +19503,20 @@ Description: GTK4 utility library for evolution data servers
 
 Package: libedje-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 800
+Installed-Size: 802
 Depends: libembryo-bin (>= 0.9.9.050+svn20090204), libc6 (>= 2.38), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), liblua5.1-0 (>= 5.1.3)
-Filename: ./libedje-bin_1.28.1-1.1+b3_amd64.deb
-Size: 217260
-MD5sum: 99d5d2057894f70a054fa0fd9a73ef33
-SHA1: dc5a603b4766769fb8ba728a89b7835780ec6889
-SHA256: 067391948ce943a3a1e8379cdc986199becbd288b6516a29b2d50a500df9d1ff
-SHA512: 33bc2b95b912a51c62fdc341c9911409c2f8cb0884ddcf28f20240469d89b52d188d1fbd2d57d17a90ef1f7296c36e3646d1583c1719c1dee1bd5b511fd45e53
+Filename: ./libedje-bin_1.28.1-2_amd64.deb
+Size: 222184
+MD5sum: d4837e5081e7310cf207ddeebde4f885
+SHA1: bb08e3ed08870754eef8f893eefb4b4ae0eb7a37
+SHA256: 3e434a2da32f4384dd995d3192f87b1098d2559286c0c2de71e0b68189c1dd32
+SHA512: c18122b2b57462635bb22d33084ef40003dd24404f1bf68c13ac4686d76a3c1454d8adf5a4a16a7c7352d8d33f7b5083f469a77b92f54fca2d956fe1704c943c
 Homepage: https://www.enlightenment.org
 Description: EFL layout and animation tools - utilities
  Edje is a graphical layout and animation library for animated resizable,
@@ -19505,22 +19530,22 @@ Description: EFL layout and animation tools - utilities
 
 Package: libedje1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 1235
+Installed-Size: 1273
 Depends: libc6 (>= 2.38), libecore-audio1 (>= 1.28.1-0~eo), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore-imf1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libembryo1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), liblua5.1-0 (>= 5.1.3)
-Suggests: libedje-bin (= 1.28.1-1.1+b3)
+Suggests: libedje-bin (= 1.28.1-2)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libedje1_1.28.1-1.1+b3_amd64.deb
-Size: 346296
-MD5sum: ed90e3ad5b654ce52cb8343b6db93a86
-SHA1: 43fb2fa0a68ea35c460d913ace0b2aabaf4cd3a6
-SHA256: b7c13b200ac2024a9f81659d45e730560a5d2ed47a65e3cf00fa34ed6c686344
-SHA512: bc5420af5fa75536bd47dbcaf66d291fd043cf7cb4b2651f4b391987c872075c81e84f723ddd014132e4d2efe9551e96742267e30f8ecdf947e40d55f169cc73
+Filename: ./libedje1_1.28.1-2_amd64.deb
+Size: 363884
+MD5sum: 098be16ea75a1f850841b2e186568db2
+SHA1: 3e31a287bf442f415dd9a9c62506d4e08d445f49
+SHA256: dac9601f790070f6defd74329ce00553c95fe608a773c93eda19d1da926a174d
+SHA512: 8ead67f019610824684efa761eec940b6d1a78b6fc10d10282d4ee9f51834794da43d639500387d08cf89626a2f9adfa5387fa425d8c27f9f744b80421f81b54
 Homepage: https://www.enlightenment.org
 Description: EFL layout and animation tools
  Edje is a graphical layout and animation library for animated resizable,
@@ -19531,21 +19556,21 @@ Description: EFL layout and animation tools
 
 Package: libeet1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 299
+Installed-Size: 301
 Depends: libc6 (>= 2.38), libeina1t64 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libjpeg62-turbo (>= 1.3.1), libssl3t64 (>= 3.0.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libeet1_1.28.1-1.1+b3_amd64.deb
-Size: 103160
-MD5sum: 94293dfdb8aae158970559afb25380db
-SHA1: 80996634687d6d50617d0c96cf83d08ed2c610e3
-SHA256: fa08cae8335c6470b23c7bda9b58042db2e573df646a054e8e42f475af35ac95
-SHA512: f6df12b54a0ab602c775d9564cd3a5c33ca89f8d86bf4c71426fa11858e90758b75c2b8ef6fe23ef86596deb7eec6c532f0f455f06263c5f99ae144cdceb6780
+Filename: ./libeet1_1.28.1-2_amd64.deb
+Size: 104676
+MD5sum: 3b3db02fd212e9de130e669843714761
+SHA1: 999408b1d9b1b624a3cfe215088a19f6e0e99acc
+SHA256: b9dfb540fc7a33a7846bec0e1002b7c93842cd779d78902f4a21856d673a1a6d
+SHA512: b81f3cb3654661ff154f23a7b01b09d7fc6a9da71a2447b220bac8896d407f1f07dda2c51978097b5c3b538adcb0c6185d7489b931bf03b002cdbb70b4c841f7
 Homepage: https://www.enlightenment.org
 Description: EFL file chunk reading/writing
  Eet is a tiny library designed to write an arbitrary set of chunks of data to a
@@ -19560,21 +19585,21 @@ Description: EFL file chunk reading/writing
 
 Package: libeeze1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 188
+Installed-Size: 186
 Depends: libc6 (>= 2.38), libecore-file1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libmount1 (>= 2.20.1), libudev1 (>= 199)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libeeze1_1.28.1-1.1+b3_amd64.deb
-Size: 41492
-MD5sum: b33b0f29cb7dd759471d6717ccd501e8
-SHA1: 2eb0661eec4c585f44b8f3ad0bcf0ad0424857c6
-SHA256: 57182e61128609afd1639443441735c2bcffd2cd2c5e41c2ac35bad35ed58072
-SHA512: 5a3b9273929fa55646cd88d76741263ee818b51f533bf83909f55acf48bd4e010f78391206fda8f432a82f88e76ad5e229643342f00c85f16fd5c75973c61235
+Filename: ./libeeze1_1.28.1-2_amd64.deb
+Size: 42448
+MD5sum: 20f09b0e2e617319360b2352015ae604
+SHA1: 7ce23424ebd860e893280f8231b62c4ce0b42614
+SHA256: 56821036c0e8e4ecb607156bdfb18edf446b136a50c5a17b45ab3aa748f3f368
+SHA512: d580244428da1aa3ff27b95763d159fe6f53b2ff0248fbf3628b61ac3e262dd4aaabd6f372b62b982743307e68349bf3472099a4c1757542b5905d4deacac111
 Homepage: https://www.enlightenment.org
 Description: EFL udev device manipulation
  Eeze is a library for manipulating devices through udev with a simple
@@ -19632,20 +19657,20 @@ Description: Library to manage UEFI variables
 
 Package: libefreet-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 103
+Installed-Size: 105
 Depends: libc6 (>= 2.34), libecore-file1 (>= 1.28.1-0~eo), libecore-ipc1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo)
-Filename: ./libefreet-bin_1.28.1-1.1+b3_amd64.deb
-Size: 25120
-MD5sum: 358d97ff263bb52117fc13b58be6c9c0
-SHA1: 7e702cfe7dae2e1453973e674fd1d77af7f79259
-SHA256: d2bad8f52eb34c8c9925fbb6b0e0c0174f31552e1117a43532a1e12379a66ac5
-SHA512: 88f965263fd63fe6c715c33f66feb3dab8de850825e798a7a9fae85a0aebbd040744a445a461d38103ab008a39df4052ace0da36e44c859155583cd84a2f9c78
+Filename: ./libefreet-bin_1.28.1-2_amd64.deb
+Size: 25460
+MD5sum: b839579771dc50ae4ce8e9dbe289768b
+SHA1: 94c7c1c17a7fe641a407477b296fe5ddf47774b8
+SHA256: 30e965b3f54970183f0c7017fa61caac1af361bda5afbebb7c42c28cce920964
+SHA512: 06e1b8936c42f0adcd7aa3f9ece12a6b0ba362753e93f7b5a8012ec4496f620a9dd6ce2cae617a34870d16572d709ba3b346d7609893f5ab41bbab3ef43003fd
 Homepage: https://www.enlightenment.org
 Description: EFL helper program to create efreet data caches
  Efreet is a library designed to help apps work several of the
@@ -19666,21 +19691,21 @@ Description: EFL helper program to create efreet data caches
 
 Package: libefreet1a
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 378
+Installed-Size: 384
 Depends: libc6 (>= 2.38), libecore-con1t64 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore-ipc1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libefreet1a_1.28.1-1.1+b3_amd64.deb
-Size: 100140
-MD5sum: 069582ebddcc19c089a53c063bb7283a
-SHA1: 29f4ec21eb250058252c1bf22e0f7c677056f1c2
-SHA256: d042afb8163c8e4ed015289082e52314cfdd2740375642ff28bf8bcdddbb1abe
-SHA512: cfcf60e35761265c0031f2d655e3402cd5512645600f13608cb6b634b77b95b22a154b1364c862007de8621a5ced262c610499428861169a81860ec5e72de86a
+Filename: ./libefreet1a_1.28.1-2_amd64.deb
+Size: 104660
+MD5sum: 55a09db3665381de1968a443d40bae8c
+SHA1: d73a234b521b3206670967f743a6c17caa6bf9ec
+SHA256: 9583cc4eec382a361663875e0bf53f0438d9a17c17a704450f356cc61ade7241
+SHA512: 678f1671963e5a207a2b8f3ca4ec5b53f4bec2bd8126fc2a0fe3def9a25c119037d3c6e39a7eecdec50fc15cef2e93087ca9072a995587fe18a3bc97d436ade0
 Homepage: https://www.enlightenment.org
 Description: EFL freedesktop.org spec implementations
  Efreet is a library designed to help apps work several of the
@@ -19772,24 +19797,24 @@ Description: Emulated Input client library
 
 Package: libeina1t64
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 1819
-Provides: libeina1a (= 1.28.1-1.1+b3)
+Installed-Size: 1929
+Provides: libeina1a (= 1.28.1-2)
 Depends: libc6 (>= 2.38), libunwind8
 Conflicts: libeina0, libeina1
-Breaks: libecore-bin (<= 1.28.1), libedje-bin (<= 1.28.1), libeet-bin (<= 1.28.1), libeeze-bin (<= 1.28.1), libefreet-bin (<= 1.28.1), libeina-bin (<= 1.28.1), libeina1a (<< 1.28.1-1.1), libelementary-bin (<= 1.28.1), libelementary-data (<= 1.28.1), libembryo-bin (<= 1.28.1), libeolian-bin (<= 1.28.1), libethumb-client-bin (<= 1.28.1), libevas-loaders (<= 1.28.1), libevas1-engines-drm (<= 1.28.1), libevas1-engines-fb (<= 1.28.1), libevas1-engines-wayland (<= 1.28.1), libevas1-engines-x (<= 1.28.1)
+Breaks: libecore-bin (<= 1.28.1), libedje-bin (<= 1.28.1), libeet-bin (<= 1.28.1), libeeze-bin (<= 1.28.1), libefreet-bin (<= 1.28.1), libeina-bin (<= 1.28.1), libeina1a (<< 1.28.1-2), libelementary-bin (<= 1.28.1), libelementary-data (<= 1.28.1), libembryo-bin (<= 1.28.1), libeolian-bin (<= 1.28.1), libethumb-client-bin (<= 1.28.1), libevas-loaders (<= 1.28.1), libevas1-engines-drm (<= 1.28.1), libevas1-engines-fb (<= 1.28.1), libevas1-engines-wayland (<= 1.28.1), libevas1-engines-x (<= 1.28.1)
 Replaces: libeina1a
-Filename: ./libeina1t64_1.28.1-1.1+b3_amd64.deb
-Size: 462396
-MD5sum: 89e9be17a9a472f53bed26517c0ac069
-SHA1: 1e71ffb4e5ff677a9046aa104470d0f0f1277663
-SHA256: 5aaa7abbde654fe611dcd7df6b80ac424986982613f80a81510ee0b0f0c03641
-SHA512: 33374f5eab74bcfc2ed123f30e786b9ed58d5d6274d362f3e887ae582e7dae76e8f6d0007a1f6adee562efb59a5fc39fc39efda5f61fd475424a62c93a9450ba
+Filename: ./libeina1t64_1.28.1-2_amd64.deb
+Size: 499780
+MD5sum: b8a6cc23e6c15340c3f3e31d5ba5eea4
+SHA1: f05145f1e72a85f002e8675fd23461eee4643c1a
+SHA256: c9b5c12e6c6298d15dafb2cf70081006270233bb3301ca36baf825923b5f990a
+SHA512: 154ade289130912eda9bd9dce48b4c2083ab3346cf5a20d1e09f6f1b20e909a71801f0f084729d8d85d6e2b2c192eb7a23908880268cd7f9a60f9f995ce3e1fd
 Homepage: https://www.enlightenment.org
 Description: EFL optimized data types
  The Eina library is a library which implements an API for data types
@@ -19804,21 +19829,21 @@ Description: EFL optimized data types
 
 Package: libeio1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 235
+Installed-Size: 237
 Depends: libc6 (>= 2.38), libecore-file1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libeio1_1.28.1-1.1+b3_amd64.deb
-Size: 61132
-MD5sum: 0303b8ad31d2a310b59aa96a0f3ed8dd
-SHA1: a62d342ffb0ee205f199f90db8a2867c7eba59ab
-SHA256: 2b42a892410c68d306309c32d0d8b97765b3e48f5be47212e4e8b0f1cd789afc
-SHA512: 948789ab5ba21c2d9df53aabbc672c657765edf15a891d0b3c9d1cb0fc71af961996a79bc38a4dc68182eab308def5f5a584f716387554ad5bfd5510085a901a
+Filename: ./libeio1_1.28.1-2_amd64.deb
+Size: 63060
+MD5sum: 17e77cfd0fb071103ba7ac5603dfa449
+SHA1: f4ff5c673d8e4965b1fa23b4987d8f97e7162778
+SHA256: 63e0812ac59705191b4431c6df295141039937379759b71dd437683055fa6aa8
+SHA512: 8ab24bf3e70e6494bbf528a785f79a2e252c8c677fcfaee2f867a99797cdf2052eacba8cef410cc88dce1b747292f0c258875a80812903c29d09c156f5869a9f
 Homepage: https://www.enlightenment.org
 Description: EFL non-blocking, threaded I/O
  Eio library is a library that implements an API for asynchronous
@@ -19885,20 +19910,20 @@ Description: Expression Language API
 
 Package: libelementary-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 1668
+Installed-Size: 1666
 Depends: libc6 (>= 2.38), libecore-con1t64 (>= 1.28.1-0~eo), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo), libelementary1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo)
-Filename: ./libelementary-bin_1.28.1-1.1+b3_amd64.deb
-Size: 574860
-MD5sum: 291f48c36ebeec896a33c6bab6724638
-SHA1: 7367d76475edafaa7f62fc7650b2445c3598f951
-SHA256: da148d50d9e7c1a914c304796f819d592261e0a16dda3ad63fa2f09b8269db50
-SHA512: 1e501c650b193a86b80a2022c779fbaba314c4709f1d30d68c8e54ef58a7030d8b22397e2717fb9d0dbf729b4688dfb6812736c6d7d305179709d394b731602f
+Filename: ./libelementary-bin_1.28.1-2_amd64.deb
+Size: 578320
+MD5sum: a0715dd12a8abfa44ea96515ecde4fb1
+SHA1: 0e4284b4b30408da55e107991155fab74db4fb61
+SHA256: e1227694f32c3f10ee8591306845e856471987a98a03a44d381957d314030d52
+SHA512: 8e24905f174d3a28f0e7af0462012c755f7c77305c0b97a14ed9abafdd7eb36e8579aae953a2f57f44c0ffb4ce9f552fb2007749ba0b54ceb8535f738eba8194
 Homepage: https://www.enlightenment.org
 Description: EFL widget set - helper programs
  Elementary is a widget set based on the Enlightenment Foundation
@@ -19912,19 +19937,19 @@ Description: EFL widget set - helper programs
 
 Package: libelementary-data
 Architecture: all
-Version: 1.28.1-1.1
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 35681
-Filename: ./libelementary-data_1.28.1-1.1_all.deb
-Size: 22862556
-MD5sum: e47747ee0d496122617642ad2d515c4d
-SHA1: c0bdcd6668d7cb0cef36177cedc2b3ec17830575
-SHA256: c57f73858466f42d8285c75bf70c7634f70caa131b65b5a9909a86199f4c3fc5
-SHA512: 51d9d10e8e5ab06b56d40138d217d39341a9a8f3275e9a16ca44e5e6435167e3ed1555d373dba2276ccf8d9c8c8a5431d69b16ec1fddc1c567af0094cfec8f31
+Installed-Size: 35674
+Filename: ./libelementary-data_1.28.1-2_all.deb
+Size: 22856800
+MD5sum: 285d8e5dc0caf3530bdcf05f98a974d0
+SHA1: 15bbead0543def8e05f95ec54524e85e23106461
+SHA256: 784772f0605527b2eb6c282b958d70bfcc860f46704e68317d61f38d2abe7401
+SHA512: 2f55d9573fd8b82315e109b2f2436bb45915feddb8c6064791aadb07fa870423cf7f3787be20719c79a30c9a0c4b6489ac93910afcedc755e4fe8cbbc4ec6764
 Homepage: https://www.enlightenment.org
 Description: EFL widget set - data files
  Elementary is a widget set based on the Enlightenment Foundation
@@ -19938,22 +19963,22 @@ Description: EFL widget set - data files
 
 Package: libelementary1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 5736
-Depends: libelementary-data (= 1.28.1-1.1), libc6 (>= 2.38), libecore-con1t64 (>= 1.28.1-0~eo), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore-imf1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libemotion1 (>= 1.28.1-0~eo), libethumb-client-bin, libethumb-client1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libwayland-client0 (>= 1.20.0)
+Installed-Size: 5850
+Depends: libelementary-data (= 1.28.1-2), libc6 (>= 2.38), libecore-con1t64 (>= 1.28.1-0~eo), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore-imf1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libefreet-bin, libefreet1a (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libemotion1 (>= 1.28.1-0~eo), libethumb-client-bin, libethumb-client1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libwayland-client0 (>= 1.20.0)
 Recommends: libelementary-bin
 Breaks: libeina1 (<< 1.28.1)
-Filename: ./libelementary1_1.28.1-1.1+b3_amd64.deb
-Size: 1461980
-MD5sum: 15b3f684afc8623e1fd9ce84738dffd9
-SHA1: 458f2417ff8abdaa67982bfcea89079489c817a6
-SHA256: 0da3d382d65395c9f6b2b81c2491394c175860dac0f06f3286b1a42f18127bc0
-SHA512: fae5d7b4d85eb4968c10e363cb1aa3db634ecd3aad36e05cc84d2d364288463fc55168d2387842d64bb112c6aa422a97136d02adff8038458c40489730e5fa9b
+Filename: ./libelementary1_1.28.1-2_amd64.deb
+Size: 1527676
+MD5sum: f06a2468d1ddd8850c9f35394860b26c
+SHA1: 0a120c983fd1062705607a0e2713f3e7c29593c0
+SHA256: b681677a8aaac6c58ea9befbebf198a3191a28d0609eb0627cf9bb565d4e88a5
+SHA512: fcee5a07e4b47404b557cb2730d5c6192bb5828499c17951f9042ff6ae54e4d479115615a2c2ea8635049eb1e19af3da064186abf197f91c1c5f8d903f935c93
 Homepage: https://www.enlightenment.org
 Description: EFL widget set
  Elementary is a widget set based on the Enlightenment Foundation
@@ -19964,21 +19989,21 @@ Description: EFL widget set
 
 Package: libelput1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 161
+Installed-Size: 159
 Depends: libc6 (>= 2.38), libecore-input1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libeeze1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libinput10 (>= 1.7.2), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libelput1_1.28.1-1.1+b3_amd64.deb
-Size: 41612
-MD5sum: 3b23d9ec4f63d32db4b3857f9d7e4564
-SHA1: 8c27cbe4fc08f9595bc127fcf2218587f364f227
-SHA256: fbcbd7bb8ceee4d0d9034e4f116bf19edef42493339e0ca7dd5a6cc1dd86e5d3
-SHA512: 0bcafeca1fb082aedb80985d6b045aa39fb21239c141ed527163e0850be4d5fd4b15534a21a3855a3c72cd9becfd90c67a32e4dcdb6d8c871cd79ab9e1ed4990
+Filename: ./libelput1_1.28.1-2_amd64.deb
+Size: 42944
+MD5sum: 221efb744aff2844d03a1bb870a53de1
+SHA1: 4d3a9fd45c3e4ff446b0f1fd56fb025cec9b4e71
+SHA256: 67fcccff11254ae6227e8ddba67a289d6dc731cff2e4567a7fd0473606e1ff57
+SHA512: b272e4fa920853d5def85f5d4d6b5e6c6716ff4bf9e0797c20465cf70d79e57915080192028ef936bd62182d5ff8029a818f23912fba169d26c282f1828bfb67
 Homepage: https://www.enlightenment.org
 Description: EFL abstraction for libinput
  Elput abstraction for the libinput library.  It can be used by
@@ -19990,19 +20015,19 @@ Description: EFL abstraction for libinput
 
 Package: libembryo-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Priority: optional
 Section: devel
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 268
+Installed-Size: 266
 Depends: libc6 (>= 2.38), libeina1t64 (>= 1.28.1-0~eo)
-Filename: ./libembryo-bin_1.28.1-1.1+b3_amd64.deb
-Size: 88776
-MD5sum: c85cce71dfe0d23b53bb50ffad01e539
-SHA1: da7eef26ac00bddfa634bc8991388305d5d44b32
-SHA256: eb79c9fb66e5620a1557089fbbd84bf715e86b2c4fbe13837bd2f394c9052e91
-SHA512: be862040cc02a7e0d9962bf7bb699db2a051730a93f0502e855c2203bec0f87d1ed450e175925d3719a47fa2a678526f2f8427ddfc677a333c036a7ec5a0b9c8
+Filename: ./libembryo-bin_1.28.1-2_amd64.deb
+Size: 91784
+MD5sum: 9ec3282c638a35bd75354f6a111180ec
+SHA1: 58d114c79f0d04475c993454ec2aafb80d883bc0
+SHA256: e144488bd42e2d54e4e0446846de6a8c3fb64e1fbda57da683c43d5607bfe0c3
+SHA512: c40e7d7208de067789e851a8ce432512c030c322c8b2271bd3a017845b9c1b7bccbe8993b793bbd207b6cbf60987f626205b8a62bd0d7c0a20585a3dc99eb145
 Homepage: https://www.enlightenment.org
 Description: EFL SMALL-based abstract machine (AMX) compiler
  Embryo is a tiny library designed to interpret limited Small programs
@@ -20016,22 +20041,22 @@ Description: EFL SMALL-based abstract machine (AMX) compiler
 
 Package: libembryo1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 135
+Installed-Size: 133
 Depends: libc6 (>= 2.38), libeina1t64 (>= 1.28.1-0~eo)
 Suggests: libembryo-bin
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libembryo1_1.28.1-1.1+b3_amd64.deb
-Size: 31092
-MD5sum: c7ab5d2d0f99dd561ab8de71b60c6bbe
-SHA1: 3b1da4f0ee7f24d0826297d2ad8eb5e1d6efe0b1
-SHA256: 2e9109a0e68df021096d72d21edffab5c368f497a7bdd68af71628c9d61f3173
-SHA512: c0b099658c9dc73d661253a7a7551ab4b60d02b7a0c5cf9358a00953e25d9acce85aa3a38b97b91cd6446fb2bdb01e9d81c3869ba7d47637c08159b08fffea89
+Filename: ./libembryo1_1.28.1-2_amd64.deb
+Size: 31212
+MD5sum: 4364240586ea7d06cd9170dfdb628afe
+SHA1: 2866a890877d4f8a686dfd228f8ea863fcbfecc2
+SHA256: 090fc0cb40f30195e10bab75919b7baee8b4ff14bebcff2af3e40584fa5a009b
+SHA512: 6912f3c2948beeb57bbb6a2246f92b81187daa0dc00d1b6672cf557bddfde774bac8cb58c6ce318db9833eb1e9ce52c86e3c7f232292a593329628a715a9d822
 Homepage: https://www.enlightenment.org
 Description: EFL SMALL-based abstract machine (AMX) bytecode interpreter
  Embryo is a tiny library designed to interpret limited Small programs
@@ -20047,21 +20072,21 @@ Description: EFL SMALL-based abstract machine (AMX) bytecode interpreter
 
 Package: libemile1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 211
+Installed-Size: 205
 Depends: libc6 (>= 2.33), libeina1t64 (>= 1.28.1-0~eo), libjpeg62-turbo (>= 1.3.1), liblz4-1 (>= 0.0~r130), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.1.4)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libemile1_1.28.1-1.1+b3_amd64.deb
-Size: 68996
-MD5sum: 7d1b383c4a71ee9b1b47427670a00d0d
-SHA1: 4828a3c28b531699d00d61d2ce0b6454d34c6e03
-SHA256: 14471817ad7a5f22a812a66b556f6a425f5c858ac2528e3ce96608e7867c30b2
-SHA512: 5c311ee3999751e6dcfcb0a87d0f685418d0295cacd041360ec6fe7336334b4ef78f497222773ef604bc7addf8b663d1478b1d96136ef30d49003e33b3c3a9f1
+Filename: ./libemile1_1.28.1-2_amd64.deb
+Size: 67100
+MD5sum: 097c8665bf6faabfb512bbbc455e72d8
+SHA1: 7bbbca5ca342cd6d357360479856bddd5d95a4d4
+SHA256: 0cd017cf6a39bfaa44d58a3bef420ea5e8217b77be114c953c1536ea798fe645
+SHA512: ed315e3661f5601624ec043b41681ca57609438126f8dda282d98b520d8792d7937b696a633adae6435e136815a20d8aeb3149e3ffdc8431af8b906395beb4d8
 Homepage: https://www.enlightenment.org
 Description: EFL compression and encryption
  Emile provides a library to bring together serialization, compression
@@ -20072,21 +20097,21 @@ Description: EFL compression and encryption
 
 Package: libemotion1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 314
+Installed-Size: 312
 Depends: libc6 (>= 2.38), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libeeze1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libeio1 (>= 1.28.1-0~eo), libethumb1 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libemotion1_1.28.1-1.1+b3_amd64.deb
-Size: 69672
-MD5sum: 082b2486c0b63063e090c27b19ea3d57
-SHA1: 6f023bbbf0de4dab9910470842c0efd319880fdb
-SHA256: d3210c910ffcff90786ea7cdc4509f93571380cbf08f8191c589874203817756
-SHA512: 5edcd415f2140ecf172d6fca9e506d3ea4a65a0d3f5c7814f93e600367bb6d3245d40178db719151fa5c790450c6219152a887a060d9dde71dd0a5dcc40ef7e8
+Filename: ./libemotion1_1.28.1-2_amd64.deb
+Size: 71380
+MD5sum: 0d6b0b3207b81bc7b2aa5a7c3fd23064
+SHA1: e9b409162381d69e463cd2cf81b5a5dce8d8cfb2
+SHA256: 0033fa3747388135964de450c5bd01b56f9fed5239dbb68481da602aaa30e12a
+SHA512: d0348e839d73ea8604294355ae6cc71849b60dcacf58122305b3a4c485f8b5e3dc52bfe2b32297b219b938aa7371f1b8b469e5bbdfc2e64e5dc560adb974fee5
 Homepage: https://www.enlightenment.org
 Description: EFL media object functionality
  Emotion is a library that allows playing audio and video files, using
@@ -20204,20 +20229,20 @@ Description: OpenGL function pointer management library
 
 Package: libethumb-client-bin
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 194
+Installed-Size: 192
 Depends: libc6 (>= 2.34), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libethumb-client1 (>= 1.28.1-0~eo), libethumb1 (>= 1.28.1-0~eo)
-Filename: ./libethumb-client-bin_1.28.1-1.1+b3_amd64.deb
-Size: 40340
-MD5sum: adead78d2beb1b4097cea1462c59ba3d
-SHA1: bdc8a44196a19d440bc027381e89cba916b75bf0
-SHA256: 21aab68e11e1ccf0309ef7b18372f63fd4ab34f9e5abc3ed80d186b0c9c858cc
-SHA512: 7577499319074a6397869786f2bd0cbdb9a19432525b71a9af413f476acb1ccac239d0b27c3e1451e690ccb51636c5ab5d5cfae1ccb50c8800a371f0cad6c80f
+Filename: ./libethumb-client-bin_1.28.1-2_amd64.deb
+Size: 40936
+MD5sum: 747ee8cfb6f692b8c0202fe0078ab421
+SHA1: bcc7f6e30613417d30e283297240cd15f39dd0a0
+SHA256: 65869eb70d00280b64a7e2acb8e910eb0c7d13daa5711d616092670423d887dc
+SHA512: 4a1c7df852b07fb362a3a7e3bcca9bceb542f4a5c78efb37b2773cfae46091e556fa76cbb239bdc103b274b88a81c8014b221062f52b0f91f9ea76a5586f5141
 Homepage: https://www.enlightenment.org
 Description: EFL ethumb helper binary
  Ethumb uses Evas to generate thumbnail images of given files. The API allows
@@ -20236,21 +20261,21 @@ Description: EFL ethumb helper binary
 
 Package: libethumb-client1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 124
+Installed-Size: 122
 Depends: libc6 (>= 2.4), libecore1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libethumb1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libethumb-client1_1.28.1-1.1+b3_amd64.deb
-Size: 26968
-MD5sum: 923aa5e8a6776de470970844c02f3ea6
-SHA1: 31974bed2304c5db7f1b9fd57095e3587000750a
-SHA256: 14bf6486ab40c8a62d64e7faf1275ee8f963d9b951e50a5ca14c20d17e7ff94d
-SHA512: c65f845bfe428e7b53e86b69faaad371b7525b2111f2e1eff3df850d3d54e16651e5ce22b520b8c6259f5a6c0db70cd90ae14c0b8d238fda8c5224a88bfcf7bd
+Filename: ./libethumb-client1_1.28.1-2_amd64.deb
+Size: 27400
+MD5sum: 9dd1ac57812c8ebaec92ca094262677d
+SHA1: 6848a52535d15abd719d40d4e4301f4a8dcb2858
+SHA256: 1c2fb2e05bc3af4b5a9c6645bc711924a06e667700d5606ac485da67271e0c7e
+SHA512: 4c08e2bc4493e0a97712f68a2c92cb14cf39f81329f7e452495353c1a713cd38a4048430e68615e15ebe6bd061bc466c1691b21f6c423ada66a068040a8a144d
 Homepage: https://www.enlightenment.org
 Description: EFL client for ethumb
  Ethumb uses Evas to generate thumbnail images of given files. The API allows
@@ -20268,21 +20293,21 @@ Description: EFL client for ethumb
 
 Package: libethumb1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 128
+Installed-Size: 126
 Depends: libc6 (>= 2.33), libecore-evas1 (>= 1.28.1-0~eo), libecore-file1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libedje1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libethumb1_1.28.1-1.1+b3_amd64.deb
-Size: 32764
-MD5sum: 6557f40be5ecfad893fd4c7b19d4f334
-SHA1: 40fd858e26acfc02c7953008ece54cedcfa32d45
-SHA256: 0752e2a44015cac90329a57c11f4016fea2c837905a896faeb7583c6ff1c0d65
-SHA512: f4c55801ac67c50fa6a8701b3784f0c66af2cf0132ce65372764a874d43caeec71a1d5f960bd589e3e4fa17baf8bdb0e82fd593198e0394d4ce6c1e429ef231c
+Filename: ./libethumb1_1.28.1-2_amd64.deb
+Size: 33344
+MD5sum: ef164a5a8742a90aea131acd39bad86c
+SHA1: 3f699ce16a757ecf9ab068cdcc19d5bd1d1c3e14
+SHA256: 29ff3c585e33b6a7547fb8c979bda74bbffab4d12fabd84561361195e3cc1705
+SHA512: 1224d02a50553bc2cd9988d09ede6459d90463dfa9b5bccee0545a986e2426142ad1ab5fd4b9dfafc99f8c36b3721355dce5094cdf27bf83f21f87c7fd70dd4c
 Homepage: https://www.enlightenment.org
 Description: EFL for thumbnail image creation
  Ethumb uses Evas to generate thumbnail images of given files. The API allows
@@ -20355,20 +20380,20 @@ Description: high-performance event loop library modelled after libevent
 
 Package: libevas-loaders
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 306
+Installed-Size: 304
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libeina1t64 (>= 1.28.1-0~eo), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.12.0), libgstreamer1.0-0 (>= 1.0.0), libpoppler-cpp3 (>= 26.01.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libspectre1 (>= 0.2.3), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
-Filename: ./libevas-loaders_1.28.1-1.1+b3_amd64.deb
-Size: 43692
-MD5sum: 124a14d543fc8d41ea4f7c26ab234b70
-SHA1: c6d2f45fcfedd421585255a7890c907af8a545df
-SHA256: a55a9308fd5933719664739872f05b27202fd267d8f7005be8b8ce1151655529
-SHA512: a29806f12f872cb9e3830e533ff83b30b48a0b9c4fc45a1b1f144892bedc3ec5384d06c1c328aa6a0aa086904a3c74760ec94855139c4b9b6664bb1a2465745c
+Filename: ./libevas-loaders_1.28.1-2_amd64.deb
+Size: 44676
+MD5sum: e6e162e5e89b0b3a2039fe15207ef3ec
+SHA1: e6fe8712b989373b27c54620c5b3ba4e13cf94c0
+SHA256: 1937293f17b037b3e641a37b0041c060234a4e92d00585e18446b0f163a4ca6b
+SHA512: ae8702573f61bfa6259f19d70b9038b0ee3767a3b3c43400ba0499d1ae707f4a7ad7ff7a8881986f9660162a8652911d97bc69fb5c4840579d17303ac89894d4
 Homepage: https://www.enlightenment.org
 Description: EFL additional loaders for Evas
  This package contains programs that allow Evas to load many image and
@@ -20383,22 +20408,22 @@ Description: EFL additional loaders for Evas
 
 Package: libevas1-engines-drm
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 146
+Installed-Size: 148
 Provides: libevas1-engine
 Depends: libc6 (>= 2.38), libecore-drm2-1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libegl1, libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libgbm1 (>= 8.1~0), libgles2
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libevas1-engines-drm_1.28.1-1.1+b3_amd64.deb
-Size: 34556
-MD5sum: e379afec96ee9be14e7ba0be136d3d54
-SHA1: 74a9ac4dcfd5c4bc9c3dd213ee6ee9581d489770
-SHA256: ab6d0074ad9a50bcfbcab975c110819277847a035cf625b1fa14f3250dac97a1
-SHA512: b5bf6f0c9690d243f50dfc2ae417bd076bdcc981225e7fcc5c95942cc7471e561eaa888747249ae52baf3aba1ce9811615bca26c59b0c20d9c817ceef9f73314
+Filename: ./libevas1-engines-drm_1.28.1-2_amd64.deb
+Size: 35328
+MD5sum: 43f35d9588b7ed52548b667e7b4880c5
+SHA1: 1560e18d19fc1bf24675273e896f641ed10b75d8
+SHA256: f56a95f4d44730315c2723bf2c9c4397ee18785aa69d661f0669dfea633b8719
+SHA512: 2b4e3238281e3b9a5549295dfca60f6ec6e764cf17555ac67055f341520ec43dc204dc39967664fcecf86657da335be268f6c602d2841f122d45477a04b2708a
 Homepage: https://www.enlightenment.org
 Description: Evas module providing the DRM engine
  Evas is a clean display canvas API for several target display systems
@@ -20417,22 +20442,22 @@ Description: Evas module providing the DRM engine
 
 Package: libevas1-engines-fb
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 113
+Installed-Size: 111
 Provides: libevas1-engine
 Depends: libc6 (>= 2.38), libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libevas1-engines-fb_1.28.1-1.1+b3_amd64.deb
-Size: 26916
-MD5sum: 5dbb3f8c6836d44c1e84bf55915bf18f
-SHA1: 63234c2c77db3e46fac83338a9a31f3555b4cb02
-SHA256: 451937ae10c94f392d3bcc8dcefd11e12fa4c07e87c3a28db7cbb1810f738175
-SHA512: 2c3cca2a62134a1e4dec79b227db60501acb1d5c8c6da5fbf75d76f8b351052cdba50813364268aaf85076932fbe3d6d34fc4d0bf7bf4739402062bc3a3838f1
+Filename: ./libevas1-engines-fb_1.28.1-2_amd64.deb
+Size: 27056
+MD5sum: 8d896ced50d3d2055c0c63176d765afc
+SHA1: 8c48714b488c35625a637ff60c6b660dd485ced6
+SHA256: 2c385b1f31b4834cf61027dc55635b06981b60ab45406b815a053b9db4fccfcd
+SHA512: 09a1ee297114f32b018380c587c845554007305c212e248b8f3d7cf70eaf01d338f51c3686ee481ff93ef88af2dd31fb48f530fc886cf26542f91634047ca1d6
 Homepage: https://www.enlightenment.org
 Description: Evas module providing the Framebuffer engine
  Evas is a clean display canvas API for several target display systems
@@ -20451,22 +20476,22 @@ Description: Evas module providing the Framebuffer engine
 
 Package: libevas1-engines-wayland
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 321
+Installed-Size: 323
 Provides: libevas1-engine
 Depends: libc6 (>= 2.38), libecore-evas1 (>= 1.28.1-0~eo), libecore-input1 (>= 1.28.1-0~eo), libecore-wl2-1 (>= 1.28.1-0~eo), libecore-x1 (>= 1.28.1-0~eo), libecore1 (>= 1.28.1-0~eo), libegl1, libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libgles2, libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.9.91), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libevas1-engines-wayland_1.28.1-1.1+b3_amd64.deb
-Size: 88740
-MD5sum: e77c4622244bdb3a26b035540b953606
-SHA1: dbb9798d584d0a69f0a62f910896f1151e367374
-SHA256: ce5c31ecf320f877f9230376c84974f5e80f667c1e9badb6100b198e32fa353a
-SHA512: 8fef5043c9602a1092941b60c98f58717d0f456f686a1d866b0accfcd1d25459597e8c1c63b9b7a5c166ceb499f821110e8721cd960c9d126cbf76afb8d8abbd
+Filename: ./libevas1-engines-wayland_1.28.1-2_amd64.deb
+Size: 91872
+MD5sum: 470a401cf3e02cebfe826708238b621d
+SHA1: d8972a4a041da4ddb8a20c03f49c34abee72ecf4
+SHA256: 7b68cf63bf9e09b61d9d88df08a2af117509a3ca1b4c4dbdc76ccbd4fe817ecc
+SHA512: 4468a1ddbee761dddcd540c535509b108ea2663cb77f6b50a304a1fdc6b959f6de92ec398bb4f7dc18c65745233438abf7ed2d98263a74a56c081cde29e566ce
 Homepage: https://www.enlightenment.org
 Description: Evas module providing the Wayland engine
  Evas is a clean display canvas API for several target display systems
@@ -20485,22 +20510,22 @@ Description: Evas module providing the Wayland engine
 
 Package: libevas1-engines-x
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 1287
+Installed-Size: 1317
 Provides: libevas1-engine, libevas1-engine-gl-x11, libevas1-engine-software-x11
 Depends: libc6 (>= 2.38), libecore-x1 (>= 1.28.1-0~eo), libector1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libegl1, libeina1t64 (>= 1.28.1-0~eo), libevas1 (>= 1.28.1-0~eo), libgles2, libx11-6, libxext6, libxrender1 (>= 1:0.9.12)
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libevas1-engines-x_1.28.1-1.1+b3_amd64.deb
-Size: 353348
-MD5sum: e560ce68d3d1c6843cdd3f504cb009c8
-SHA1: cb775ec50b2fa570296e181ab64b25e169d5aa79
-SHA256: 73fe94519c4c544746566fad5fdba3daf723a1a7a7ec33a4928581c790f09cd2
-SHA512: 083ecab7d7d1dfec5b4274225324703a9ec0d653a390fb88f8c9479eaeb3682ece8f0f431a95698e32905164632e7e906c4ee4af62f8471bee6b8d19b923f1c2
+Filename: ./libevas1-engines-x_1.28.1-2_amd64.deb
+Size: 364736
+MD5sum: a39d843b50a29b471bda2868863696d2
+SHA1: 663a92b9cda233f29824b337af9eb8eef19f3721
+SHA256: 7980c5dd46a9ffaa14f92b7fc6d45f8c8b5b6313d4816e68325cfa4501427e4d
+SHA512: 71156fbe2a0ac1a6262a5955e38080028457835fd978e71553820a7a0826567702caf15aa4d0501821ed3ac6b743c5aaa8dc3278f8b66ad749e62f5bfa1f98dd
 Homepage: https://www.enlightenment.org
 Description: Evas module providing the X11 engines
  Evas is a clean display canvas API for several target display systems
@@ -20521,22 +20546,22 @@ Description: Evas module providing the X11 engines
 
 Package: libevas1
 Architecture: amd64
-Version: 1.28.1-1.1+b3
+Version: 1.28.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: efl (1.28.1-1.1)
+Source: efl
 Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 3625
+Installed-Size: 3659
 Depends: libevas1-engines-x | libevas1-engine, libc6 (>= 2.38), libecore1 (>= 1.28.1-0~eo), libector1 (>= 1.28.1-0~eo), libeet1 (>= 1.28.1-0~eo), libeina1t64 (>= 1.28.1-0~eo), libemile1 (>= 1.28.1-0~eo), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.11), libfribidi0 (>= 1.0.0), libgif7 (>= 5.1), libharfbuzz0b (>= 0.9.4), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), liblua5.1-0 (>= 5.1.3), liblz4-1 (>= 0.0~r130), libopenjp2-7 (>= 2.0.0), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3), libunibreak7 (>= 5.1), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0)
 Recommends: libevas-loaders, libevas1-engines-drm, libevas1-engines-fb, libevas1-engines-wayland, libevas1-engines-x
 Breaks: libeina1a (<< 1.28.1)
-Filename: ./libevas1_1.28.1-1.1+b3_amd64.deb
-Size: 1031764
-MD5sum: e55774e596e29a1b796e1a4dabc70d7a
-SHA1: f7488bcab5430abf486a4acb02c7f5211a5e0540
-SHA256: c4db8de6eac9658561713415e3b829b6896f9ebf3b9b8155d8d49150d7250994
-SHA512: dd5778eefe929008da764b5e2271987d19e3a01f7ad92e8dc16401e030603ef56c71b3f8556eefba65f0143bfb1f020f9464166c28d6260e201b838df6045763
+Filename: ./libevas1_1.28.1-2_amd64.deb
+Size: 1068852
+MD5sum: 49bdbd7d44cd1ddf686cfbdcb6d00259
+SHA1: 1b40830108cd25549a9c4e650ceddf104bcbc8e3
+SHA256: 71603da56c8d094cdb8d2a8a357c3ae50617e74184847b03ffecfe78243b44a8
+SHA512: 36cfe0b347a032bfc44254eb1325c803b66a57860e6a67ce0d75918dbf37bcb01b61cd4522a2e142b8ff95e266034c6168855cb2b59a83862edb06d35e64a68f
 Homepage: https://www.enlightenment.org
 Description: EFL advanced canvas library
  Evas is a clean display canvas API for several target display systems
@@ -25401,20 +25426,20 @@ Description: Fast and user-friendly configuration language (library files)
 
 Package: libhyprtoolkit5
 Architecture: amd64
-Version: 0.5.4-1+b2
+Version: 0.5.4-1+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprtoolkit (0.5.4-1)
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 1651
-Depends: libaquamarine11 (>= 0.12.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 4.3), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
-Filename: ./libhyprtoolkit5_0.5.4-1+b2_amd64.deb
-Size: 422244
-MD5sum: e821850cb357e7fb1fa7e4ebf9011882
-SHA1: 8952bb168d441beeb1287c40cd1bbc1929c8ee99
-SHA256: 31befd233ca7451cf041ea18c29c3330e034b16089edf5629522c38776089d36
-SHA512: 28aa240ba03a4b28b6e269743ff1bfd682e99de2451d3868db67dad927ad366ef9b47b66dd072967c319ff928a5e7102f1dcfa70ff63f99ee24de8f9cf664a15
+Installed-Size: 1719
+Depends: libaquamarine13 (>= 0.14.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdrm2 (>= 2.4.116), libegl1, libgbm1 (>= 7.11~1), libgcc-s1 (>= 13), libgles2, libglib2.0-0t64 (>= 2.12.0), libhyprgraphics4 (>= 0.5.1), libhyprlang2 (>= 0.6.8), libhyprutils13 (>= 0.14.0), libiniparser4 (>= 4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.11.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0)
+Filename: ./libhyprtoolkit5_0.5.4-1+b3_amd64.deb
+Size: 448784
+MD5sum: e4723850f436c800e2aac4c81b24d002
+SHA1: abed5ffdc2e45b0ced81f86397206df2af509b9c
+SHA256: 7267342ec46f00a723636a5e1a5a86800ca367e985521da3f2ba445799c7c5de
+SHA512: ceec8c0ccb061d615871829f5f02676673dcd47b6dac5f46c717e982593fe490d10031a8ffec7074e6fffb8fe707ad37d532f103c810e0caa0aa859e753d50c1
 Homepage: https://github.com/hyprwm/hyprtoolkit
 Description: Modern, wayland-native C++ GUI toolkit -- binary files
  Hyprtoolkit is designed to be a small, simple, and modern C++ toolkit for
@@ -40047,6 +40072,33 @@ Description: office productivity suite -- SDK -- architecture-independent parts
  This package contains the (architecture-independent) files needed to build
  plugins/add-ons for LibreOffice (includes, IDL files, ...)
 
+Package: libreoffice-dev-doc
+Architecture: all
+Version: 4:26.2.4.2-2
+Priority: optional
+Section: doc
+Source: libreoffice
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 602722
+Recommends: libreoffice-dev (= 4:26.2.4.2-2), www-browser
+Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.2.4.2-2_all.deb
+Size: 211255316
+MD5sum: e8b5e169dd139c2b36a0775bac327b9b
+SHA1: d53a082f1d2744b1619c96dfd456ab14a87da030
+SHA256: 5db825f0bf783ff9ffffffaa353a517bc008f8391fa9bb8cc0b281be309c507b
+SHA512: 045aa0c44a532345ba64198ea3b4f300ccb186a0b8ee041a5ca4c9648dc0fb73828cda025f6215f91227ae6387a981007c23b1c79bae1600f09e6069c866eeaa
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- SDK documentation
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the documentation of the LibreOffice SDK:
+ .
+  * C++/Java API reference
+  * IDL reference
+  * C++/Java/Basic examples
+
 Package: libreoffice-dev-gui
 Architecture: amd64
 Version: 4:26.2.4.2-2+b1
@@ -46348,20 +46400,20 @@ Description: Libraries for rhino Java Script Engine
 
 Package: librhythmbox-core10
 Architecture: amd64
-Version: 3.4.9-4+b2
+Version: 3.5.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: rhythmbox (3.4.9-4)
+Source: rhythmbox
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1910
-Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.85.1), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.20.0), libgtk-3-0t64 (>= 3.20.0), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmtp9t64 (>= 1.1.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libpeas-1.0-1 (>= 1.36.0-6~), libsoup-3.0-0 (>= 3.0.3), libtdb1 (>= 1.2.7+git20101215), libtotem-plparser18 (>= 3.26.0), libxml2-16 (>= 2.14.1)
-Filename: ./librhythmbox-core10_3.4.9-4+b2_amd64.deb
-Size: 774496
-MD5sum: cbb881fac0d94514d97c0b26cfc443c6
-SHA1: 55884d8bd21568d3abccf0b6c76d02431c88b2e8
-SHA256: 6050b3da86f0848b072e8fd9061caee8994ec61ce45b2f5e5c8c52321434bedc
-SHA512: 2316ee46047f16d6d948c6382699d093712569a73b91d4b913e68253432e507c991eb48ffd60f1eb598c7b8155ea7b7821d977268dac2477c56160a802d4f996
+Installed-Size: 1925
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.85.1), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgtk-3-0t64 (>= 3.16.2), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmtp9t64 (>= 1.1.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libpeas-1.0-1 (>= 1.36.0-6~), libsoup-3.0-0 (>= 3.0.3), libtdb1 (>= 1.2.7+git20101215), libtotem-plparser18 (>= 3.26.0), libxml2-16 (>= 2.14.1)
+Filename: ./librhythmbox-core10_3.5.0-1_amd64.deb
+Size: 777676
+MD5sum: bcafa031532997be78a1b1ed0aa1bce6
+SHA1: bdb11d81abb6dbced5b5e3650c1403049c173070
+SHA256: 4f8d494b1a8917a2c90ae091e4cda7b38ed5f0f49c888d20a9ec14a0547ca51a
+SHA512: b80d719f807e57c667fb36dfd40183f0db2e6097d5c48a171e941ba134107f5e1ee8f147b34ce716ece8f90d2369e89a1147a86968311d92e4590fab7d69c189
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: support library for the rhythmbox music player
  Rhythmbox is a very easy to use music playing and management program
@@ -56744,23 +56796,23 @@ Description: PDF document viewer for GNOME
 
 Package: papirus-icon-theme
 Architecture: all
-Version: 20250501+git20251229-1
+Version: 20260801-1
 Priority: optional
 Section: x11
 Maintainer: Debian Desktop Theme Team <team+desktop-themes-team@tracker.debian.org>
-Installed-Size: 189716
+Installed-Size: 190640
 Provides: epapirus-icon-theme
 Depends: hicolor-icon-theme
 Recommends: librsvg2-common
 Suggests: gtk-update-icon-cache
 Breaks: epapirus-icon-theme
 Replaces: epapirus-icon-theme
-Filename: ./papirus-icon-theme_20250501+git20251229-1_all.deb
-Size: 22931880
-MD5sum: 91c6eb9a0b9e161b90df8cd7b9f062e1
-SHA1: da5a9197a300d345dbe95d777dcdcbb003c43f36
-SHA256: a6ffcbe693f959a5ab6e054ca8a9efdcf2ce19e1c95803ada468b34f6edccd95
-SHA512: 7415d0e07f24fd39e50056979bf97e30d2bb8d09680aa87fe237c6c39748033b25f0fac46ad43d13e54c938260d6390ef1f4b26204ededc8cf221669055376bc
+Filename: ./papirus-icon-theme_20260801-1_all.deb
+Size: 23015604
+MD5sum: 6e060a9f5f705e3c6cb3a82bf5345f3d
+SHA1: 161e5fd7c76bfca70352309448f4938e75fda0e6
+SHA256: cb0ff79d4d17f4dfec77f5852256fc5bb661b5ddf315e86df19a8a5332da3542
+SHA512: 9b520d0f75f6b0c0ea40d14c0525f4f9f9546cf2081c0b72f845ec50f95ac2ffbd1993ee8ff9a4fc5c61e260db7d6037a23cce52f549e4bbb15f72ede6f4d014
 Homepage: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 Description: Papirus open source icon theme for Linux
  Papirus is a SVG-based icon theme, drawing inspiration from Material Design
@@ -63406,21 +63458,21 @@ Description: backup program with multiple revisions, encryption and more
 
 Package: rhythmbox-data
 Architecture: all
-Version: 3.4.9-4
+Version: 3.5.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: rhythmbox
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 9068
+Installed-Size: 9370
 Depends: dconf-gsettings-backend | gsettings-backend
 Recommends: rhythmbox
-Filename: ./rhythmbox-data_3.4.9-4_all.deb
-Size: 2176708
-MD5sum: b5874e5b54907013089e9d5c6e8047be
-SHA1: f5b7cdbdf196df09b75d10995bd447b3b599aa27
-SHA256: 41bdc25c73faa507574e219182b0d8eea0fe712819cef0f34b40afe1349b7ac8
-SHA512: 9b49789ec15df1fc404de64b884c30bf737e2f629656e2bba237c3cb9800ad05cd83e5c88af5e5bb5ae737bee0d5b5efb75027dd370416200020188fd306ce13
+Filename: ./rhythmbox-data_3.5.0-1_all.deb
+Size: 2217440
+MD5sum: 79c8cfa26bc6d2ba6a58f87b33e9a5ac
+SHA1: b02a9dd2efebdd9c70d61bb2e905865991814f5f
+SHA256: 60a58ecc3fb5361c9a95ec105c1efbc08004f8b9c9e7cf6721c5dcb3454c351f
+SHA512: a178ce63b9c4a569765f37bd5ffde9b01db70ef7e9660b7f77fec99e791241f3018eb0670f494fb51d9f373a6883df4cb2be485a6e1fa3ae59022b358d405c57
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: data files for rhythmbox
  Rhythmbox is a very easy to use music playing and management program
@@ -63435,19 +63487,19 @@ Description: data files for rhythmbox
 
 Package: rhythmbox-plugin-cdrecorder
 Architecture: amd64
-Version: 3.4.9-4+b2
+Version: 3.5.0-1
 Priority: optional
 Section: gnome
-Source: rhythmbox (3.4.9-4)
+Source: rhythmbox
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 369
-Depends: libbrasero-media3-1 (>= 3.0.0), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.20.0), libpeas-1.0-1 (>= 1.36.0-6~), librhythmbox-core10 (>= 3.0), libxml2-16 (>= 2.14.1), rhythmbox (= 3.4.9-4+b2)
-Filename: ./rhythmbox-plugin-cdrecorder_3.4.9-4+b2_amd64.deb
-Size: 342092
-MD5sum: f90a8f8bc5f96b3b7e1bab426cd5f7fe
-SHA1: 712d9f858e39b38561d7834a60ff743b643ef014
-SHA256: ea613000f3628dcd4102fd82dc0ff84e24bf39e2b9dd8d36fdd5b1586e0e98c5
-SHA512: 6c4f6b7111dba9a361171453c05efb3e65f89a22a0eaab77be7d08d396481f4bd34d47987b308ee24933538d25acf5b44cf92a8c4f24bb2e5fe7b940f6d61e7d
+Installed-Size: 368
+Depends: rhythmbox (= 3.5.0-1), python3 (<< 3.15), python3 (>= 3.14~), libbrasero-media3-1 (>= 3.0.0), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.0.0), libpeas-1.0-1 (>= 1.36.0-6~), librhythmbox-core10 (>= 3.0), libxml2-16 (>= 2.14.1)
+Filename: ./rhythmbox-plugin-cdrecorder_3.5.0-1_amd64.deb
+Size: 341964
+MD5sum: bdaf7210e9db8c135f2ed2665a9e9c54
+SHA1: 90b0b73278af3840482c729255eb17d70746f1ff
+SHA256: b925c72e1907e8f9f507b699e0a0ea50976f239186ab9849a45ff52df1ef7552
+SHA512: 3138b2c6a3349c7194bd83caf23e5e79f19afcbac45b6868d2e47e5ee6f2344e685ae9c4048fa0110016b25d8b2e8bf5a13f669110f415e7c7a2558a893eb0c5
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: burning plugin for rhythmbox music player
  Rhythmbox is a very easy to use music playing and management program
@@ -63461,19 +63513,19 @@ Description: burning plugin for rhythmbox music player
 
 Package: rhythmbox-plugins
 Architecture: amd64
-Version: 3.4.9-4+b2
+Version: 3.5.0-1
 Priority: optional
 Section: gnome
-Source: rhythmbox (3.4.9-4)
+Source: rhythmbox
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1895
-Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.33), libdmapsharing-4.0-3t64 (>= 3.9.12), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.66.0), libgpod4t64 (>= 0.8.2-4), libgrilo-0.3-0 (>= 0.3.15-1.1~), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.20.0), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), liblirc-client0t64 (>= 0.10.2), libmtp9t64 (>= 1.1.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpeas-1.0-1 (>= 1.36.0-6~), librhythmbox-core10 (= 3.4.9-4+b2), libsecret-1-0 (>= 0.18), libsoup-3.0-0 (>= 3.0.3), libtotem-plparser18 (>= 3.26.0), python3 (<< 3.15), python3 (>= 3.14~), python3.14, python3:any, rhythmbox (= 3.4.9-4+b2), gir1.2-rb-3.0 (= 3.4.9-4+b2), gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-peas-1.0 (>= 1.36.0-6~), gir1.2-gstreamer-1.0, gir1.2-secret-1, gir1.2-soup-3.0, python3-gi (>= 3.52), python3-mako
-Filename: ./rhythmbox-plugins_3.4.9-4+b2_amd64.deb
-Size: 653424
-MD5sum: b7829c882cd18dc9b1e2d2c1bf817457
-SHA1: 54e5f4eda85b193bfa374ada3a69c519ed48b19f
-SHA256: c40b20f445fccad11665bdcc315a381ff01608efacae520a123e371f1dfbc931
-SHA512: 7e525b623df48d18adef9ac0eba0ec9c350b2f942a7863ac0dc06addcc36b7067189f08b836a187d35627e14252c39fd989b2522934fbd2ddc9bf1ea6f72befe
+Installed-Size: 1936
+Depends: gir1.2-glib-2.0, gir1.2-gstreamer-1.0, gir1.2-gtk-3.0, gir1.2-peas-1.0 (>= 1.36.0-6~), gir1.2-rb-3.0 (= 3.5.0-1), gir1.2-secret-1, gir1.2-soup-3.0, librhythmbox-core10 (= 3.5.0-1), python3-gi (>= 3.52), python3-mako, rhythmbox (= 3.5.0-1), python3 (<< 3.15), python3 (>= 3.14~), python3.14, python3:any, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.33), libdmapsharing-4.0-3t64 (>= 3.9.12), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.66.0), libgpod4t64 (>= 0.7.92), libgrilo-0.3-0 (>= 0.3.15-1.1~), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0t64 (>= 3.3.16), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), liblirc-client0t64 (>= 0.10.2), libmtp9t64 (>= 1.1.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpeas-1.0-1 (>= 1.36.0-6~), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libtotem-plparser18 (>= 3.26.0)
+Filename: ./rhythmbox-plugins_3.5.0-1_amd64.deb
+Size: 662132
+MD5sum: b244ae96ec9176be3bd09dc8d731034c
+SHA1: fce6270387b7a41d261b5cabc3c0120ae3518eef
+SHA256: 59b682a78389e3f7255350c6ade04c23ec1e38a176c4757e67f371082533c6db
+SHA512: 157afde83a4408b3fec39f36230c40263cc64ab89c2907e256f1a2115e20b92da5778779de782b2af888a61ec16641fdb511e4a0266a9604766002e5c9394108
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: plugins for rhythmbox music player
  Rhythmbox is a very easy to use music playing and management program
@@ -63508,22 +63560,21 @@ Description: plugins for rhythmbox music player
 
 Package: rhythmbox
 Architecture: amd64
-Version: 3.4.9-4+b2
+Version: 3.5.0-1
 Priority: optional
 Section: gnome
-Source: rhythmbox (3.4.9-4)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 634
-Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.20.0), libpeas-1.0-1 (>= 1.36.0-6~), librhythmbox-core10 (= 3.4.9-4+b2), libx11-6, rhythmbox-data (>= 3.4.9-4), dbus, gstreamer1.0-plugins-base (>= 1.4.0), gstreamer1.0-plugins-good (>= 1.4.0), gstreamer1.0-x, media-player-info
-Recommends: yelp, avahi-daemon, notification-daemon, gstreamer1.0-plugins-ugly, gvfs-backends, rhythmbox-plugins
-Suggests: gstreamer1.0-plugins-bad, gnome-codec-install, gnome-control-center, rhythmbox-plugin-cdrecorder
+Installed-Size: 633
+Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-x, librhythmbox-core10 (= 3.5.0-1), media-player-info, rhythmbox-data (>= 3.5.0-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.0.0), libpeas-1.0-1 (>= 1.36.0-6~), libx11-6
+Recommends: avahi-daemon, gstreamer1.0-plugins-ugly, gvfs-backends, notification-daemon, rhythmbox-plugins, yelp
+Suggests: gnome-codec-install, gnome-control-center, gstreamer1.0-plugins-bad, rhythmbox-plugin-cdrecorder
 Breaks: python3-gi (<< 3.52)
-Filename: ./rhythmbox_3.4.9-4+b2_amd64.deb
-Size: 451812
-MD5sum: 58c25da891372b0ec03345fc32c1fc99
-SHA1: f286e5cb1cb213b25dc61303767a8a813e5697b1
-SHA256: 7c520c70575a3790f5e49a6dc2366ed11b280a2c94d6ba983d2be328915d7350
-SHA512: 65814dac855dbea421241e08f171d7924449b09236b2086d24dea4b8e641550c52d062a4274c206f42fd24db76df93f13f51dbdc3bbc96f549160f682747777f
+Filename: ./rhythmbox_3.5.0-1_amd64.deb
+Size: 452704
+MD5sum: 779b846b192b7e325daa22f6d552ff03
+SHA1: 42313d76dea2031377c8921463f519152340e917
+SHA256: 15eed67fae7727aeeb5f8a96f6ae4869557783720dbf558a157b281c6b2729fc
+SHA512: 6c5c2aeaef45d692e68e7162879a0feced121c0f80a54572c8382d6b2052dfc287252540beb679ad0bd56faf95af61090a00772bcd392f32bcd0cea8db8f2358
 Homepage: https://wiki.gnome.org/Apps/Rhythmbox
 Description: music player and organizer for GNOME
  Rhythmbox is a very easy to use music playing and management program
