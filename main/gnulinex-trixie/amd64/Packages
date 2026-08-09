@@ -64970,19 +64970,19 @@ Description: Tango icon library
 
 Package: task-cinnamon-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 9
-Depends: tasksel (= 3.88), task-desktop, cinnamon-desktop-environment
-Filename: ./task-cinnamon-desktop_3.88_all.deb
+Depends: tasksel (= 3.89), task-desktop, cinnamon-desktop-environment
+Filename: ./task-cinnamon-desktop_3.89_all.deb
 Size: 1092
-MD5sum: b4f448e71136457efd3985a698388a82
-SHA1: 8dfa818775be4aea26b88e3f7d91f5cc39ff976c
-SHA256: 7b2922a89e8da9e0bf1d79a4243d9fcc6b9c3d89d471c8ef8676b739ed9fbf71
-SHA512: 7f85d2d229454a728827e520e8fb7c192c955d9e90a730a5bfee12793fc14759948797bf0d4a0ef25488fc66754c52598549b162728d2c40b30a13235921c59f
+MD5sum: 200b0d57193448e460bb49ae70dabd0d
+SHA1: 28e89b366c47abe9cdc701fe1360ea6e124b3e3b
+SHA256: 9b5cc369e8e05a7bcbb9f706c11924b764da5e2eccb48f94fe9d1841c4b2424b
+SHA512: 2e03c49c3e71f95eb061e321dbad621022eda4bb6e1927951600192f3f39efdd0d3d5b39d535229cf41fd2ae3ea66cfaa6f3b04378bf98502f1aab09661b05db
 Description: Cinnamon
  This task package is used to install the Debian desktop, featuring
  the Cinnamon desktop environment, and with other packages that Debian users
@@ -64990,39 +64990,39 @@ Description: Cinnamon
 
 Package: task-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.88), desktop-base
+Depends: tasksel (= 3.89), desktop-base
 Recommends: task-gnome-desktop | task-xfce-desktop | task-kde-desktop | task-lxde-desktop | task-gnome-flashback-desktop | task-cinnamon-desktop | task-mate-desktop | task-lxqt-desktop | task-lomiri-desktop | task-phosh-desktop, xdg-utils, fonts-symbola, avahi-daemon, libnss-mdns, anacron, eject, iw, alsa-utils, sudo, cups
-Filename: ./task-desktop_3.88_all.deb
-Size: 1012
-MD5sum: f61222a2b4f634daba3bb4cbca52b601
-SHA1: 4fbd93b7658343b8f16abb19170ad9e9d91b73e5
-SHA256: e0dd5b700edf1f15b6fbbb4b54ffe184f43e707f79eb15a33afc43188bfc8879
-SHA512: c4a4a0bdb18a642b25c26b196154c0bb01cbbeb9b460091426a0ab269319fcd9d80e0eec1c3f04cb2f13d7c1a4b51393948850997dba86570f6a84ee33d6f46e
+Filename: ./task-desktop_3.89_all.deb
+Size: 1008
+MD5sum: 1894deeb417d0f5e5c99d12a22e39401
+SHA1: e0d25d24301d2e73f9d0862335a44371d515ee0f
+SHA256: db46ba71d618121adc0a54a34d0f9d75dd38cf9cb1a944145a10078cc066851c
+SHA512: 866d7a27ee34f19400adbee205cfcda4da856457dc0f3e02d2064df45d8466904840bc2c1676af8fc00d0724f9a62853c147806cd876bba29e62308b29a919d3
 Description: Debian desktop environment
  This task package is used to install the Debian desktop.
 
 Package: task-gnome-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 9
-Depends: tasksel (= 3.88), task-desktop, gnome-core
+Depends: tasksel (= 3.89), task-desktop, gnome-core
 Recommends: gnome
-Filename: ./task-gnome-desktop_3.88_all.deb
-Size: 1100
-MD5sum: 6341d91770c347a204223d62d6c04d08
-SHA1: 7e66fb748878e0f32b9cb81d16e657c73ba054f6
-SHA256: acf0a91ac8d0cc2835b71299b3e09e64168dd25339e00436cb1c70f801a52de1
-SHA512: 4e9d1b1ddcb23adcc8acc5f4b4a6c7233451de68e8c4a7d7a4b670aa97dd3a0ba8a3717dc8f3bcec937f0b2258d54969a803f4d755aabe7c110b366b8f08f40b
+Filename: ./task-gnome-desktop_3.89_all.deb
+Size: 1092
+MD5sum: efa6647b63f895e945cfb1b4c111db3a
+SHA1: 33eddad02e2b8e7a27f03eadc7859d1e53d0b0ae
+SHA256: adf9ee4d84e8f6b981d0f733d1146b8143ae7ce55dc02fc74c94c1cb1b7e4270
+SHA512: 793c26449214e641218590876cf09bab829a497f2a51ee6e151dbd327fc56c3461fa3531a9b109b0f3418f5cb8f42f60097c4e7f0bd452a93283f9276661e253
 Description: GNOME
  This task package is used to install the Debian desktop, featuring
  the GNOME desktop environment, and with other packages that Debian users
@@ -65030,20 +65030,20 @@ Description: GNOME
 
 Package: task-kde-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.88), task-desktop, kde-standard, sddm
+Depends: tasksel (= 3.89), task-desktop, kde-standard, sddm
 Recommends: firefox-esr | firefox, kdeaccessibility, orca, gimp, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-plasma, libreoffice-kf6, libreoffice-help-en-us, mythes-en-us, hunspell-en-us, hyphen-en-us, print-manager
-Filename: ./task-kde-desktop_3.88_all.deb
-Size: 1072
-MD5sum: 288ee135af872d46e243c87f14a2c714
-SHA1: 418bf08782eba42b917eef27db5323233580a605
-SHA256: 37ffd0522cabd8c051228e5184b49bda508e8ff091d8e3a1afcbb306382892a9
-SHA512: 0019558b66f0b15764dae58d392b61a6a1e7027df0ddca3b0590f9212291cf306b9330e008a064fdfd8d0eb898fb0591d54c1f0d448585546a732b46579b66d7
+Filename: ./task-kde-desktop_3.89_all.deb
+Size: 1068
+MD5sum: 78b031b76d1fe4b240618c4864520922
+SHA1: ec300722a0f40f07baa52551fe6f57880a6cc6cc
+SHA256: 4cbd146b0700cef7402cd027848e227b58e58b741e0c358bebbe0bc1482819f4
+SHA512: 60d8271c971e45348b4790d4edd3c3f7be603d8a332e38b4534fddc369872801f278cdba455575cbfc586b0500fc7dc9020907d4993ca12e33b9b8b55b4f04c6
 Description: KDE Plasma
  This task package is used to install the Debian desktop, featuring
  the KDE Plasma desktop environment, and with other packages that Debian users
@@ -65051,84 +65051,84 @@ Description: KDE Plasma
 
 Package: task-spanish-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.88)
+Depends: tasksel (= 3.89)
 Recommends: libreoffice-l10n-es, libreoffice-help-es, firefox-esr-l10n-es-ar | firefox-l10n-es-ar, firefox-esr-l10n-es-cl | firefox-l10n-es-cl, firefox-esr-l10n-es-mx | firefox-l10n-es-mx, firefox-esr-l10n-es-es | firefox-l10n-es-es, myspell-es
-Filename: ./task-spanish-desktop_3.88_all.deb
+Filename: ./task-spanish-desktop_3.89_all.deb
 Size: 944
-MD5sum: af4f1c42f7b2668b9bb58fee445826c3
-SHA1: 1e51cd15bb031cdd8d3b54db86913c0ee6c83726
-SHA256: 7c0cbaa3984764b0ff8c7656c0d56f84fa4dab6e1ba075f0756a4cefa1c552b8
-SHA512: 051dc97a0457211901f73940c41c7f1196e4e5a7a7053c80403ff3a0aaaf302a6f319e739d09ebb03ad1928dd9a8eb5bcc2d6742f2e2cdb8cedfdd58bab80373
+MD5sum: e80b6c6ca39ce158352b97561f7afbab
+SHA1: 24604f9fc0e3e54ab50f43f5cb31cc10b9d9af04
+SHA256: 3606d05dc31ce8e75e92fd4ff7faefa0a5accdb125e2f9ae2c3c2044101d7482
+SHA512: d9ee8a64082d3c215fc0afccbbb9c5f84347669f613ff8ec2cf2dbdda06ab2f8b7c823ca86c35395ff173f53bfaf375be32f6d63b327a259b07bdae4aecaceeb
 Description: Spanish desktop
  This task localises the desktop in Spanish.
 
 Package: task-spanish-kde-desktop
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.88)
-Filename: ./task-spanish-kde-desktop_3.88_all.deb
-Size: 888
-MD5sum: c6e270d412a2337022424a225c1c96c3
-SHA1: bfadf919d373acceb8a1654cc2c5d57db9d64192
-SHA256: 7a48d0999ec5737bd1165a22a4066818b7037d885d6e8e558f70c1d7587d9bf1
-SHA512: ffc67b8f125fd9054369d832fba54573d6d6f22a3ef40d1f41182ebe84b04b6e40d7a9ee824a7e73ac1c94120e44408d90c4e14004a0ed7ca058c16af8430d1b
+Depends: tasksel (= 3.89)
+Filename: ./task-spanish-kde-desktop_3.89_all.deb
+Size: 884
+MD5sum: 2301b3690833444872503a9fc4ea95d1
+SHA1: 0ebaf761b29b13ed2fffdf15d0b275ee077b4a50
+SHA256: c19e03b02e473230495e89150cd8ca397074704d8718d3b5cdb2eb5890df57e0
+SHA512: 625b7700322cca9dd1296bcf96ebd5e4ad95a8af41da39cdc514e76d0bec2c736d39671c1d7c323edc6336aa2f8287fcd7a9dac75e96e43ca00620e72b093e07
 Description: Spanish KDE Plasma desktop
  This task localises the KDE Plasma desktop in Spanish.
 
 Package: task-spanish
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.88), manpages-es
+Depends: tasksel (= 3.89), manpages-es
 Recommends: ispanish, wspanish, aspell-es, debian-reference-es, util-linux-locales
-Filename: ./task-spanish_3.88_all.deb
-Size: 972
-MD5sum: f4f5161bb2909fad4af39364ad892330
-SHA1: e8cdd8468b25ebf1d95fbf521737405f5abe49c7
-SHA256: 65072d8055dd8c17b76687a60ebb5c01a1251e4bc428230ca76a967c4fb194b6
-SHA512: d55bd907652189c74aceefd16d534cecd61e7b71273c90f7281a5acdf54ee8f765a48045e4d07e720c2c83cb8a8ea6dc546b299867f69df1d1f14a5ceedb4600
+Filename: ./task-spanish_3.89_all.deb
+Size: 964
+MD5sum: e9455e49e3170a6e3ca1bfc27eeb3cd3
+SHA1: 5e50ba9d9f156a334988148bc0a2e17407e5a936
+SHA256: 166343c469544df500591dc383ea008ebe90a39f19d3d71c6079bbb78e8930ed
+SHA512: b9e231991c326bd7942e4f73e09cfd85a700ff4a6789e08dcf6ed1dbef84837d8861f9446be4d109681b94d37dcc410218a8db68b615eb59ca3b384e5998b302
 Description: Spanish environment
  This task installs programs, data files, and
  documentation that make it easier for Spanish speakers to use Debian.
 
 Package: tasksel-data
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: admin
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 213
-Depends: tasksel (= 3.88)
+Depends: tasksel (= 3.89)
 Recommends: laptop-detect
-Filename: ./tasksel-data_3.88_all.deb
-Size: 18412
-MD5sum: a9bd85eab227dec23db6da3834a44418
-SHA1: a25f97f0bae2bc356df0300e6263a743d5f60747
-SHA256: ccb3b0986948927f7ab57fd6c7f04ddbbdd51a8b33fc4b0e7bb895f98aa018fd
-SHA512: afa6052396e0483b4be13ccc199dc61e04faaafc901a5c08078aeaadc0523aaf693d14a8727155f6180ac62ee8432d8cf82f01bec46c232a74654642cde49f35
+Filename: ./tasksel-data_3.89_all.deb
+Size: 18428
+MD5sum: dfa9eaa305cddb7fb6b68a46dfa2cd05
+SHA1: e490d900c598f2fb11292dd5dab6145a5b2161cf
+SHA256: bf90d53f24c99c765215a0cbf5c31d09043bbdb8f95752de6a0eef0ebba3631b
+SHA512: da4c31732c1cf39d01eb59853621577cf0f926e519d14bbfee78e675dd4865b7a79ab67bfff809ba104db69b0ac1f7abf0b8adaf3c3a571f243823e699125e18
 Description: official tasks used for installation of Debian systems
  This package contains data about the standard tasks available on a Debian
  system.
 
 Package: tasksel
 Architecture: all
-Version: 3.88
+Version: 3.89
 Priority: optional
 Section: admin
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
@@ -65136,12 +65136,12 @@ Installed-Size: 346
 Pre-Depends: debconf | cdebconf
 Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt, tasksel-data
 Conflicts: base-config (<< 2.32)
-Filename: ./tasksel_3.88_all.deb
-Size: 49508
-MD5sum: d3668ecb940d7863f332f9125a368002
-SHA1: 89cf6b52f0e5e288f4312cacfd02fbec31dbff45
-SHA256: 1b01314a704f78d73d1f97a416dd99c0103f6d5cebab5a20e4c8604b6cb67e68
-SHA512: 3cac26994382508e7707c274c94648e105c4e6500975efba8d3beca44aa33bc3723ff68c8052635814e83a57c3d77930a9edce32a5efa16a22cd675d61fe498c
+Filename: ./tasksel_3.89_all.deb
+Size: 49852
+MD5sum: edf031dc83e5f5d6a2941cf41573cac1
+SHA1: b7cda2af8dd82af6c4098d984fdc2b8695ffd1e9
+SHA256: 1565cb51a46b570902dd3a189c4603598f5536ac10abfabede0fd86e869bbffd
+SHA512: 2cc3c006b0bb96784172d6798f3775305550e622cb966e14fce0692c5b46de74f02b75c1c872f4aaf9b1dfef92b2f3108ca645319328608f005eb40c38c64502
 Description: tool for selecting tasks for installation on Debian systems
  This package provides 'tasksel', a simple interface for users who
  want to configure their system to perform a specific task.
@@ -70886,19 +70886,19 @@ Description: /dev/ and hotplug management daemon
 
 Package: udiskie
 Architecture: all
-Version: 2.6.2-1
+Version: 2.7.0-1
 Priority: optional
 Section: utils
 Maintainer: Gianfranco Costamagna <locutusofborg@debian.org>
-Installed-Size: 516
+Installed-Size: 523
 Depends: python3-gi, udisks2, python3-docopt, python3-yaml, python3:any
-Recommends: gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, gobject-introspection, notification-daemon, python3-keyutils
-Filename: ./udiskie_2.6.2-1_all.deb
-Size: 91496
-MD5sum: eeb9be65349be20e7b2754b1761a856d
-SHA1: aca07a2d9b00054e2c5bc1c5f330c111a32b5746
-SHA256: 752709130d5f925830ab696a33f6e63105fd3744ab4aa631f9cda254ac32614f
-SHA512: 3b2e4924a4600f844e083e8600af89c1e58208c43844a0985c83e9821dd0f33aa827cf054e37f445bc91b2ba39a17035a496fea9467d9e42f8e1ae856fbad59a
+Recommends: gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, gobject-introspection, notification-daemon
+Filename: ./udiskie_2.7.0-1_all.deb
+Size: 92984
+MD5sum: 86ae3a28957103b322614b11a4b9a8e1
+SHA1: 6edc3e3231d226e2f82c1195469ecbf1fb851f05
+SHA256: f81b094148c13921054ef93c38fe6e5af8b1e9a59f4ed1060dd889f8cb4eb215
+SHA512: 722e8f6e88ec67c7bb0d1c9cb77d50e6a77168b411c494e80602ee7d86d273be086b22ba76ab33c861c15278c8600cc18ce976110f8ecca75681ab817ec7e558
 Homepage: https://github.com/coldfix/udiskie
 Description: automounter for removable media for Python
  udiskie is a front-end for UDisks written in Python. Its main purpose is
@@ -72115,19 +72115,19 @@ Description: GTK+/GNOME portal backend for xdg-desktop-portal
 
 Package: xdg-desktop-portal-hyprland
 Architecture: amd64
-Version: 1.4.0-1
+Version: 1.4.1-1
 Priority: optional
 Section: x11
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 1024
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libhyprlang2 (>= 0.6.8), libhyprutils12 (>= 0.13.1), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsdbus-c++2 (>= 2.3.1), libstdc++6 (>= 13.1), libuuid1 (>= 2.16), libwayland-client0 (>= 1.20.0)
+Installed-Size: 1043
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 13), libhyprlang2 (>= 0.6.8), libhyprutils13 (>= 0.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsdbus-c++2 (>= 2.3.1), libstdc++6 (>= 13.1), libuuid1 (>= 2.16), libwayland-client0 (>= 1.20.0)
 Recommends: xdg-desktop-portal-gtk
-Filename: ./xdg-desktop-portal-hyprland_1.4.0-1_amd64.deb
-Size: 306204
-MD5sum: b7c8e84a4058cd28fdc9d43edd0b2f22
-SHA1: f28ce918ed2a1759dc1741b3da4bc96da0c8a5d9
-SHA256: ae4dc690bdfe78279f5527497591f59949248e034117f7cd39b22a021af10ca5
-SHA512: 7bccda36d0ae28fb8ae6c90866bf9ee850777437d9a4be2134cccc4e35f2a1c4c4d06bd200ca2c93f8aef9e2a421148fa3ce5a911cf43390d80e6f2dff736f7a
+Filename: ./xdg-desktop-portal-hyprland_1.4.1-1_amd64.deb
+Size: 315068
+MD5sum: f04f761840df68c7d7449a0d5747556e
+SHA1: 1c7bbd93e5cfbb67b14931bbe5c63c185aea9141
+SHA256: 01a9b9c5229e05ccbe4368bd0092c705060c80abd164245de4b35209d8a2a1f6
+SHA512: 6d5b9ed46c893fd9891718431db777747ed74d6b8916d0a0aaf2edb91412f69e67ef0cde239bb0c38f03d8546fdf657a4b01d3359bf308483a82d9683508cf97
 Homepage: https://github.com/hyprwm/xdg-desktop-portal-hyprland
 Description: XDG Desktop Portal backend for Hyprland
  This package provides an XDG Desktop Portal backend for Hyprland.
