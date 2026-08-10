@@ -656,7 +656,7 @@ Description: GNU Aspell spell-checker
 
 Package: at-spi2-common
 Architecture: all
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -665,31 +665,31 @@ Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1374
 Breaks: at-spi2-core (<< 2.46.0-2~)
 Replaces: at-spi2-core (<< 2.46.0-2~)
-Filename: ./at-spi2-common_2.61.0-1_all.deb
-Size: 171468
-MD5sum: 07e036a8ae2da686e579046931ac19b7
-SHA1: 6d0cda99525c43a9c4797d29ad6e5b35cb3204aa
-SHA256: 3c91e1621745254044a7602342f44896dca359e310db61b9bc1df477b479fab2
-SHA512: 219bc30e145a12523574ec17409c5e66e89e4b2c42bbb4ee3e66957fafd0fdcae7bf1df56cb7fd28e549164ad95885ae5f419d193b4c12bd781f93739c4e9016
+Filename: ./at-spi2-common_2.61.1-1_all.deb
+Size: 171372
+MD5sum: 3993318fda767019cd468406d7f82696
+SHA1: 4ea2fc822a75e80c6eb07f5d2035036ae9a59e48
+SHA256: 2194625297df0e4bccb8ab9ef0a268d480ef7eca3f39090149b86ed71d642cf1
+SHA512: 30efdc49e3c3781a67f4201e9298086cafcc1c1f8094c1c9c65ac516ddac9778550f7eeb3af5040a91e124d0fff1ef7b263b147eaabd592663dd23d4c5388018
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
 Package: at-spi2-core
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 213
-Depends: libatspi2.0-0t64 (= 2.61.0-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
-Filename: ./at-spi2-core_2.61.0-1_amd64.deb
-Size: 62040
-MD5sum: 7cbc1fa6dcc71e83aa328e046ab69c70
-SHA1: 0f1c8cf53090aa74806a1f3cca84030528bde3bd
-SHA256: d2712f6f5edf6d7d56af7a3f64da0e687c350e7d68432f6326601425f1c39a0f
-SHA512: 77193a9a6afa51ae3825c4ae5295262c5b6ab0691c4229673fab79a93aa80d313f5f85bfc411af6ee110417c4fef2f5abd5c5fd1de97150f00259aa866385b1b
+Depends: libatspi2.0-0t64 (= 2.61.1-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
+Filename: ./at-spi2-core_2.61.1-1_amd64.deb
+Size: 62156
+MD5sum: 1a9a938cdbcb70cb5c4a688e00a7cb5d
+SHA1: 3b75821f270857ee21615f61b97d5f55580db86b
+SHA256: cbe8e8ef3311a090d0b34da015254b8afeb6e15d51770e5b8296471cc8bbc8e7
+SHA512: b773cc2d32d82ecbacd3beb1710525a920873f4c3c7cf34b651de88aa4a7431081165b5ac9ecf899b242665bda60cf8a0e6bb8d0bb7d1e2b22aca8a27a96d6c0
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (D-Bus core)
  This package contains the core components of GNOME Accessibility.
@@ -7066,20 +7066,20 @@ Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
 
 Package: gir1.2-atk-1.0
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 100
-Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.61.0-1)
-Filename: ./gir1.2-atk-1.0_2.61.0-1_amd64.deb
-Size: 23452
-MD5sum: c8107c37f6a132fae739eb8a36e1c331
-SHA1: 992e5597637da9ff5c7f3946a7089f7c028ba350
-SHA256: be67e32963278ad58d438afd99430b64a9dc53b9772fd80afc08d44b98058f1d
-SHA512: 1c0dad063f341aec9aeb410897eef096d1976905b34eac548c1a72fb458dc67cfc0940643788ab6902b3935883f809f1f98734fab07695bbf574e3530fa79e55
+Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.61.1-1)
+Filename: ./gir1.2-atk-1.0_2.61.1-1_amd64.deb
+Size: 23496
+MD5sum: b3e69483fb95c669eb2e7f9d855934a6
+SHA1: 1aba130d30dc8b17b50d2ae482c9dbfd30b53308
+SHA256: 181017700f8944fe1726904260e4f6500525cb07aecc243fdaa85cbe5ac28fb2
+SHA512: 32340082506c3d78298c4781a0ece3950d5d896802d1dcacd71e9614bf48afae59432ff403e6bde705836da6a2464e468b039dde111b182486dba72325cff75c
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit (GObject introspection)
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -7092,22 +7092,22 @@ Description: ATK accessibility toolkit (GObject introspection)
 
 Package: gir1.2-atspi-2.0
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 96
-Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.61.0-1), python3:any
+Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.61.1-1), python3:any
 Breaks: python3-pyatspi (<< 2.57.0-1)
 Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
-Filename: ./gir1.2-atspi-2.0_2.61.0-1_amd64.deb
-Size: 23132
-MD5sum: 32404e71ca2caf8040c9e5476cd9146d
-SHA1: 77a86c1c9dcdeec83ebfb6e74ee287f7af54a927
-SHA256: 866d5cba47b7d90dd17bf2b88ec1087b3fabb44887a734fa3c11f124745223d4
-SHA512: 9da27b2f3fb8ce2090f016ede673a761b14fca6bde0b613d11e8bf554061c60997333040b848866ffe29182d32b0085fb8b020dd708a206ae13f7cdfa4e124a8
+Filename: ./gir1.2-atspi-2.0_2.61.1-1_amd64.deb
+Size: 23184
+MD5sum: 9440cd6d417f53a4d6b05d73b8e1aeeb
+SHA1: fa338158f25148139dd0d89d496a653b9378e8eb
+SHA256: db2a604f6ec940554ca5ea121bc1227d9a3267f4e4482c54dff044631ce06feb
+SHA512: a23ae65054f2c15613d11079049439a83c9beaa515f2681520a351a88e57f010685f53fde7b62c2a27a02962740d19141b638740b2250783bc432a475567a87d
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
@@ -7913,20 +7913,20 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-girepository-3.0
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 108
-Depends: gir1.2-glib-2.0 (= 2.88.2-1), libgirepository-2.0-0 (= 2.88.2-1)
-Filename: ./gir1.2-girepository-3.0_2.88.2-1_amd64.deb
-Size: 43860
-MD5sum: 966fc82da0ba5b3648a960cfaac9233a
-SHA1: 3dbeea92f9f8e15bba8a5b861679a38397c01d87
-SHA256: 6dd367e42fd05d0e3518d94fa51d62c893c367bf7f08782f0a85edbc7e023c68
-SHA512: d4fb1772507fc12f54e7734e6b67a1380ae50db64811f65fd92873eda3c1aa132320ff65a122cb31f023fd346beee469884d7af636c968894a0b8c062d6a7a87
+Depends: gir1.2-glib-2.0 (= 2.88.3-2), libgirepository-2.0-0 (= 2.88.3-2)
+Filename: ./gir1.2-girepository-3.0_2.88.3-2_amd64.deb
+Size: 44228
+MD5sum: 808a4a9e00add980c36cbb8ba919cd7a
+SHA1: f89ad67442908c065d318cbf78292fb5ee13c423
+SHA256: 2d9a157e1be6715c5d69975d6cc078c8b251c47f445c8e98ab8a9ed46f063d8f
+SHA512: da5c4cd87d1d14b34cadb9ed349a114674fdee74988bb51d7ad3334acc296e82607bb9bc6ae542ca54b756041980ba7bef131bd793d12b8c6026ffef638ca4db
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GIRepository library, API version 3.0
  GObject Introspection is a project for providing machine readable
@@ -7941,23 +7941,23 @@ Description: Introspection data for GIRepository library, API version 3.0
 
 Package: gir1.2-glib-2.0-dev
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 11604
-Provides: gir1.2-gio-2.0-dev (= 2.88.2-1), gir1.2-giounix-2.0-dev (= 2.88.2-1), gir1.2-glibunix-2.0-dev (= 2.88.2-1), gir1.2-gmodule-2.0-dev (= 2.88.2-1), gir1.2-gobject-2.0-dev (= 2.88.2-1)
-Depends: gir1.2-glib-2.0 (= 2.88.2-1)
+Provides: gir1.2-gio-2.0-dev (= 2.88.3-2), gir1.2-giounix-2.0-dev (= 2.88.3-2), gir1.2-glibunix-2.0-dev (= 2.88.3-2), gir1.2-gmodule-2.0-dev (= 2.88.3-2), gir1.2-gobject-2.0-dev (= 2.88.3-2)
+Depends: gir1.2-glib-2.0 (= 2.88.3-2)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~), libgirepository1.0-dev (<< 1.78.1-7~)
 Replaces: libgirepository1.0-dev (<< 1.78.1-7~)
-Filename: ./gir1.2-glib-2.0-dev_2.88.2-1_amd64.deb
-Size: 902728
-MD5sum: ea9e2be4c1b43b100d87c31b6786333d
-SHA1: 8fe8ac9745e934cb4159754c246688226f765cad
-SHA256: 803e92b96b19038bd9a5ce8899fa42bf67ee947b3980ea6a8898184e88017143
-SHA512: df89c3630f39d88b631da994966181d9da9fccdb507f69b1e8a7248b2e1022ed3357981269ab8e8fb29d5a3af844b5f35bdee1fb7afc36907f848f8b7a64a7e2
+Filename: ./gir1.2-glib-2.0-dev_2.88.3-2_amd64.deb
+Size: 903176
+MD5sum: 79e575b6fd07b521879853da88be86d0
+SHA1: 614e277271afeadadfc798b9fde73718e4322fe3
+SHA256: 9df4b5ec67499367376856b3d254d2d9ba8a562999ba96155173ff219ea60215
+SHA512: e47dc0d6d479905fcc73f8a765b0b241c080b8a079ffe8167927617a0f953fab15f79578ca3517dcca0a4c65ba004b37e3e302d58c6fc2777f787e1930097a89
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GIR XML for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -7972,22 +7972,22 @@ Description: GIR XML for GLib, GObject, Gio and GModule
 
 Package: gir1.2-glib-2.0
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 746
-Provides: gir1.2-gio-2.0 (= 2.88.2-1), gir1.2-giounix-2.0 (= 2.88.2-1), gir1.2-glibunix-2.0 (= 2.88.2-1), gir1.2-gmodule-2.0 (= 2.88.2-1), gir1.2-gobject-2.0 (= 2.88.2-1)
-Depends: libglib2.0-0t64 (= 2.88.2-1)
+Provides: gir1.2-gio-2.0 (= 2.88.3-2), gir1.2-giounix-2.0 (= 2.88.3-2), gir1.2-glibunix-2.0 (= 2.88.3-2), gir1.2-gmodule-2.0 (= 2.88.3-2), gir1.2-gobject-2.0 (= 2.88.3-2)
+Depends: libglib2.0-0t64 (= 2.88.3-2)
 Breaks: awesome (<< 4.3-8~), cinnamon (<< 6.4.12-1~), gnome-menus (<< 3.36.0-4~), gnome-shell (<< 48.5-3~), libgirepository-1.0-1 (<< 1.78.1-3~), libgjs0 (<< 1.87.2~), libgjs0g (<< 1.82.3-2~), python3-gi (<< 3.55.3~)
-Filename: ./gir1.2-glib-2.0_2.88.2-1_amd64.deb
-Size: 179372
-MD5sum: 6883b83dd4ad0799215bc33569c14ae3
-SHA1: 7d782f7d913fac4f7d713707323e03c9e146f163
-SHA256: dfc9813dd708f862d446da3e7734dd355c70277440958ccfafc3c9bfbcc283e2
-SHA512: 6374f0c17e87e22612302b8f91bc74006a7d602d58ee9506bf57815541b8092e0cff0b5c28170d0a0b77bd57596d626c057e29d382822f356a5b14cca33d9c15
+Filename: ./gir1.2-glib-2.0_2.88.3-2_amd64.deb
+Size: 179824
+MD5sum: f074966317a1e30be96a73c843dc1d60
+SHA1: 755f683a94355f0e3c6973d9b31fc9e9ebbd5057
+SHA256: ad0df01745df7781c20b8dd939af665fed5fce0fdf24df07c20619c00389cf2a
+SHA512: 4f0a06946fcd68228ada785e3040ec19e0c003e2f5f202064f94050727ff6d1d1470c2215edcb08462c7d45847488501d1565b1155297244bd22e06e73b265a9
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -8407,20 +8407,20 @@ Description: GObject introspection data for the GWeather library
 
 Package: gir1.2-handy-1
 Architecture: amd64
-Version: 1.8.3-3+b2
+Version: 1.8.3-4
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libhandy-1 (1.8.3-3)
+Source: libhandy-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 72
+Installed-Size: 71
 Depends: gir1.2-gio-2.0, gir1.2-gtk-3.0, libhandy-1-0 (>= 1.5.0)
-Filename: ./gir1.2-handy-1_1.8.3-3+b2_amd64.deb
-Size: 17044
-MD5sum: 06c6e460f305dfd9e230eb0d43434a78
-SHA1: fdf1752e1b7120963c0ea17e4b269460782d1615
-SHA256: a34a497f9707ea3662b6db29e0bd47248a82153ce4ac5b3ab5bc4da170b53376
-SHA512: 25a7338d510a314017ea7afbc8077041a8b8050dd6d6ee04e517063867d9f7f89feb7ea1483b5485ff0701939d79dc5f107a5ce0c332ae2fe7f46c2536005838
+Filename: ./gir1.2-handy-1_1.8.3-4_amd64.deb
+Size: 16848
+MD5sum: ff04286ee491b431a8327c150b3b0ad3
+SHA1: dd1b8a7110220b85105d0aafc6b6503acaa1177f
+SHA256: 0c4f9f1c13bf5aac966623d0198d31e1b74a771cf8f46c1f679fdfd6749ca519
+SHA512: b867e2619d5a9caf07ce387b45ef2707827ccab8ad02b446126e95acbf3137c7c52b45ea25e71ad11e6cf70a8564136f9a632077a8b84676847a18b7fabcd1fe
 Homepage: https://gnome.pages.gitlab.gnome.org/libhandy/
 Description: GObject introspection files for libhandy
  libhandy provides GTK widgets and GObjects to ease developing
@@ -9390,7 +9390,7 @@ Description: GObject introspection data for upower
 
 Package: gir1.2-vte-2.91
 Architecture: amd64
-Version: 0.84.0-2
+Version: 0.84.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -9398,12 +9398,12 @@ Source: vte2.91
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 80
 Depends: gir1.2-cairo-1.0, gir1.2-gdk-3.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, libvte-2.91-0 (>= 0.84.0)
-Filename: ./gir1.2-vte-2.91_0.84.0-2_amd64.deb
-Size: 24324
-MD5sum: acc921ca820ae08b8b979ed4eff0e122
-SHA1: 6b218ec90c391cee7ac22baf0625a6dccdb67794
-SHA256: 44d94a74280046985a128179aa05720aea2fdfebd5f3e4539918a7bcc73ce4ef
-SHA512: 54d0620048473b9a8ec1b38bcb5f97d8d59699bba8aac1279c0b62b24bb997a4409a2f4fa1ff26d2d393443237fe774693443cffe7474a17e723438a90da0e98
+Filename: ./gir1.2-vte-2.91_0.84.1-1_amd64.deb
+Size: 24468
+MD5sum: cc54b61c9bc47928f2e852c3d6371124
+SHA1: 2f090d86ee003949653f4dbba98d7f30d1e5ceb5
+SHA256: 7070c8a2a092ecc037432498e884aae6428a4a61bc9772c4eb3fbd993d751060
+SHA512: 09d3ca6bbfb3a88473d57c1eaf0e7e5b516882ef6a0489c5ceed486797fadfd75489191ddc68b40db836343c36f34b33b529b9731225efc9e407758f7919f173
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: GObject introspection data for the VTE library (GTK 3 version)
  This package contains introspection data for VTE, a terminal emulator
@@ -9522,22 +9522,22 @@ Description: GObject introspection data for libxmlb
 
 Package: girepository-tools
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 364
-Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.88.2-1), libglib2.0-0t64 (= 2.88.2-1)
+Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.88.3-2), libglib2.0-0t64 (= 2.88.3-2)
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./girepository-tools_2.88.2-1_amd64.deb
-Size: 132564
-MD5sum: ba08259f7b39618a421ab7d8c3899703
-SHA1: af5135e70b0b513875a9515f9c8d2cdbfbba7231
-SHA256: 2abd0ddcccd09a46fc93e5292c1db21b3426b945c5657c4851e0c59ca6accff1
-SHA512: 78d9351c3498a4c67487029cbc8bfc4ee246296c1a69eb88a00d6fc5a746c6f7439eedce9d114c26fc6c70acafe0c980426e60f6d3ce4028d8636e2dbe5189bb
+Filename: ./girepository-tools_2.88.3-2_amd64.deb
+Size: 132968
+MD5sum: 28898b3157d026f0712ef3ea24169f28
+SHA1: 9642c1f4d593e920f66da3f5e6eb29c7a9575b54
+SHA256: c56c884eba42f27604611a5592719be58893c0c2bf6739c4a158928abbe65ff8
+SHA512: b5890ffa9727f31577b0f55ead5ff6ebb3ff5d87e19dcc44da6505e6e6ba011e06cc80ee4b91e478ec203bf0c4fb2da090d41c70d992317751511ce45d6727ce
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Tools for working with GObject-Introspection repositories
  GLib is a library containing many useful C routines for things such
@@ -15843,7 +15843,7 @@ Description: GNU Aspell spell-checker runtime library
 
 Package: libatk-adaptor
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: misc
@@ -15851,15 +15851,15 @@ Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 56
 Provides: at-spi
-Depends: libatk-bridge2.0-0t64 (= 2.61.0-1), libglib2.0-0t64 (>= 2.62)
+Depends: libatk-bridge2.0-0t64 (= 2.61.1-1), libglib2.0-0t64 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
-Filename: ./libatk-adaptor_2.61.0-1_amd64.deb
-Size: 9052
-MD5sum: dfb63ed3c25e00df5581198393f41926
-SHA1: 988e5b7ef45d0929d12a26f15367fcd5257d4217
-SHA256: f038cef12f49986f3382918d842690cb8a4de17fb8626e20af5fed2e822efe33
-SHA512: 471cd45867b9ab9b72657e8e3a557a3f29d87af2bb00e0365dff7b6c304d93302fbb03df380bc599facad9f7d9110eef858fc8258faa81ebb1205a0ee3e6d499
+Filename: ./libatk-adaptor_2.61.1-1_amd64.deb
+Size: 9100
+MD5sum: 1de59a0a1f41fb0dbfa12a60b0f5fdd7
+SHA1: 534a0291bdcf55317275570bf63af87cea5ef82b
+SHA256: b0cfe209e3997a589ffbe140516c61927c916247985a68a51207edcc8ec5f5a8
+SHA512: 5348918caae400e2ff9fc77115b53aa99ba5c943a4dfa032843921adb9c9c446a2ec91a1d0d3ad9d213b00f8cef2c511e091add7f656c5b1508a203d75ed617f
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
@@ -15867,43 +15867,43 @@ Description: AT-SPI 2 toolkit bridge
 
 Package: libatk-bridge2.0-0t64
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 283
-Provides: libatk-bridge2.0-0 (= 2.61.0-1)
-Depends: libatk1.0-0t64 (= 2.61.0-1), libatspi2.0-0t64 (= 2.61.0-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libatk-bridge2.0-0 (<< 2.61.0-1)
+Provides: libatk-bridge2.0-0 (= 2.61.1-1)
+Depends: libatk1.0-0t64 (= 2.61.1-1), libatspi2.0-0t64 (= 2.61.1-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
+Breaks: libatk-bridge2.0-0 (<< 2.61.1-1)
 Replaces: libatk-bridge2.0-0
-Filename: ./libatk-bridge2.0-0t64_2.61.0-1_amd64.deb
-Size: 67008
-MD5sum: efe22c421c073c221d4908f32798e669
-SHA1: 33f06ebd7b7ea125a61a9ceb7552fa7578ae5d2a
-SHA256: 3b856458e95db456efb5b6596e425889e61b48f7a992924ceb30c71709009e9c
-SHA512: e400b933e7ebffebee6bfce708a40018ce2a2da2f9de2d68c30f02461eb4b34a32b177e4a09d2034724960cb07a40ec7d68a10aa5994e5fc71c312a01ec20ea1
+Filename: ./libatk-bridge2.0-0t64_2.61.1-1_amd64.deb
+Size: 66808
+MD5sum: 44077ed0ec9f41c8c7f3c369106fde8a
+SHA1: 201892b4656381f9f957e885f39538c2324bf31c
+SHA256: ce975d5e02fc91895738b89ce1eff4fed7255ce61e49677a53cea55497292c58
+SHA512: fc89540ccef17737b0041e71e38ae6c864aaa57b16207a17575aebb38eb3e82150982d97629e9745968a762fdbf7c5cfa62005e0128c52420cddf8a264730194
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge - shared library
  This package contains the ATK bridge shared library.
 
 Package: libatk-bridge2.0-dev
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 32
-Depends: libatk-bridge2.0-0t64 (= 2.61.0-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.61.0-1)
-Filename: ./libatk-bridge2.0-dev_2.61.0-1_amd64.deb
-Size: 7576
-MD5sum: 9121efb3dfe7ae28f6f385752bd98957
-SHA1: 71f6c2bb54a44fb8bfa71f034868aa970df0d317
-SHA256: d8f710f083cdf137dea20fbf1f627dbd06ab22732aa28b3a3e47b8dafb849cfa
-SHA512: d3632add2629787299422a016b42cff05c35c6132a73ea2dbfcc6cd9a2e994fa514af63c6998e5bc7ae8bca8b01f5dc23d6f0d48dc7b64ad635cde3636d2b996
+Depends: libatk-bridge2.0-0t64 (= 2.61.1-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.61.1-1)
+Filename: ./libatk-bridge2.0-dev_2.61.1-1_amd64.deb
+Size: 7632
+MD5sum: 0c70b8c2c14984cac14a9934f8bc35b3
+SHA1: 7c318e0c8e9676226961b994807b77f972bfc7ca
+SHA256: 5e66f437b4c33e3365a3548230ade9a4b2c36fbbe98b7c05fc68a93cdf45deee
+SHA512: 45738732737cf5d62448f46f516617d925aa40fb7bf3c5da8ab2b87ffdfff19f30deceb44f463181db62b848aa4d0afd76b5e3952473ec188b60a389ca73b6be
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the AT-SPI 2 toolkit bridge
  These are the development files for libatk-bridge2.0, needed for
@@ -15958,23 +15958,23 @@ Description: ATK implementation for Java using JNI
 
 Package: libatk1.0-0t64
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 204
-Provides: libatk1.0-0 (= 2.61.0-1)
+Provides: libatk1.0-0 (= 2.61.1-1)
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), at-spi2-common
-Breaks: libatk1.0-0 (<< 2.61.0-1)
+Breaks: libatk1.0-0 (<< 2.61.1-1)
 Replaces: libatk1.0-0
-Filename: ./libatk1.0-0t64_2.61.0-1_amd64.deb
-Size: 49708
-MD5sum: 6270b036bd6e25ddf409067c9a60caf3
-SHA1: f3d0e1d4d7efa21425100dfd36b2559cf63a0d65
-SHA256: dfdb6b388f040dc49dad7ba4509a2875510154883ec4c116cd66610148c44727
-SHA512: cded6e5218b6903531b2e45d8c65ae46ed42ec6de1002d015cfa787eef9d78e1d1989a20c2c57c2792629eb4e3b2bc0112b67cd6ddc3395ddcf4ebfac6664345
+Filename: ./libatk1.0-0t64_2.61.1-1_amd64.deb
+Size: 49756
+MD5sum: fc072f1aeaebf02f32289a6a3a55fd59
+SHA1: 58e3e8646cc398ac362f96b302969c635243eaae
+SHA256: 6c6dadc8da24035107df050ba17122b14b2e5319ad0dee58e9d1b88550621536
+SHA512: 57400decfee868b8022314d819ff1b08258379dded92bc1953d7abb654427089d8973ecfcf6608f800747813c133c348a8a7fc869498262b07c1f994e1b07e8a
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -15986,22 +15986,22 @@ Description: ATK accessibility toolkit
 
 Package: libatk1.0-dev
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1357
-Provides: gir1.2-atk-1.0-dev (= 2.61.0-1)
-Depends: gir1.2-atk-1.0 (= 2.61.0-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.61.0-1), pkgconf, libglib2.0-dev
+Provides: gir1.2-atk-1.0-dev (= 2.61.1-1)
+Depends: gir1.2-atk-1.0 (= 2.61.1-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.61.1-1), pkgconf, libglib2.0-dev
 Replaces: gir-repository-dev
-Filename: ./libatk1.0-dev_2.61.0-1_amd64.deb
-Size: 103632
-MD5sum: 97d138c391307e13054a8e7feed32a8f
-SHA1: f2ec804dffcd4f6d8ec7de06f7b25ec304a0b4a1
-SHA256: 333e0dc098d0219898f77b36265ac98f07aff5df8dc97ee2e232ad11a217d1d9
-SHA512: 6de7aef7787b2c57f1d0d671f63e489e061da39923ba1606b122fc9a5058b1f719260b9db142407b661e3706f52e31936789b35b0c667485878c67369253917c
+Filename: ./libatk1.0-dev_2.61.1-1_amd64.deb
+Size: 103652
+MD5sum: c205620044df7bc6b2f10645cc2ed131
+SHA1: d9c72d15fd4730e14600fe8e8b52988eca95b7b0
+SHA256: 50879153a458e8c3833308f609955152fef2a1af8d66a60828a35b23578b163f
+SHA512: 8e7026eebe450db729b9eaf0550db2aa0412a4cd2b11171661bbbb9034834ab8fd1fd82fc5131c2711c9c6a7e4b2853826cb8f224625bad3276ad901a42e5a44
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -16114,24 +16114,24 @@ Description: MATE document viewing library
 
 Package: libatspi2.0-0t64
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 285
-Provides: libatspi2.0-0 (= 2.61.0-1)
+Provides: libatspi2.0-0 (= 2.61.1-1)
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4), libxres1 (>= 2:1.2.1)
-Recommends: at-spi2-core (= 2.61.0-1)
-Breaks: libatspi2.0-0 (<< 2.61.0-1)
+Recommends: at-spi2-core (= 2.61.1-1)
+Breaks: libatspi2.0-0 (<< 2.61.1-1)
 Replaces: libatspi2.0-0
-Filename: ./libatspi2.0-0t64_2.61.0-1_amd64.deb
-Size: 82192
-MD5sum: 66f4810857943c730a5066ca3e3ba36a
-SHA1: 78ea3aaed9a58ce570543d61444dd8fc29d78b16
-SHA256: b5c0406f5d7dbfb7b4fd8b86a83b02bf6edbc6fc3034bfc7e0174d16f83bbcf5
-SHA512: 3deb1e8b8c4a808e2453e9790ca56fe804e6472542a76871b601ff662cfef709b47b5b49a3d7fa161d65fbad6f515cc5def18ecd91bee6a881d15b432b3be5e9
+Filename: ./libatspi2.0-0t64_2.61.1-1_amd64.deb
+Size: 82628
+MD5sum: b8270c774e46a592fe0486c1497fd4fc
+SHA1: 2efa94ba75882b2ef106e96412c56bfb047a3677
+SHA256: 8160f6e172adea0b22160fa8d6466b2f4e5033236d7170a8aaca7b3823f1ff5c
+SHA512: d15866c10ec23b2479cdaed4b74ddcc5a25251564b4877e199e325211f3c6be6cbfb148fca2b393c6dd82bdbdaec03e346a31466877265f401132010392630a4
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface - shared library
  This package contains the shared library for applications that wish to use
@@ -16139,22 +16139,22 @@ Description: Assistive Technology Service Provider Interface - shared library
 
 Package: libatspi2.0-dev
 Architecture: amd64
-Version: 2.61.0-1
+Version: 2.61.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 893
-Provides: gir1.2-atspi-2.0-dev (= 2.61.0-1)
-Depends: gir1.2-atspi-2.0 (= 2.61.0-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.61.0-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
+Provides: gir1.2-atspi-2.0-dev (= 2.61.1-1)
+Depends: gir1.2-atspi-2.0 (= 2.61.1-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.61.1-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
 Replaces: gir-repository-dev
-Filename: ./libatspi2.0-dev_2.61.0-1_amd64.deb
-Size: 83064
-MD5sum: 42a79a546f108068d5f3d398f6dfb4d6
-SHA1: 2195448ee41e2206c84cc8a546d03b28abe524b6
-SHA256: 2a3060f16233e98d031e2ce4d80f454aa35895baeceec831ac30b1faf342aa26
-SHA512: 63d0dc1bbb5f27c1d8a22f3f725096762eb8206624976f2b358e9b2db3b3a64660ee9f15fc222932e53c1887a1334e2e22f1a8977ed7d022084c7aae36f5cb9a
+Filename: ./libatspi2.0-dev_2.61.1-1_amd64.deb
+Size: 83096
+MD5sum: eea6e79e714580fdd6f1bbcbab6eaed6
+SHA1: 6e35be264c53d94fdebca5cb99fea515e628b73b
+SHA256: 896e828569ac6e03f74ee54d95c52524c6afd4e83a3c279511a705837d9410e8
+SHA512: 9f2bd6076840b08c7352206f562e16d6495f422cff3a1f5ff8f92039633861107f24b44167c6a987bf7b0f3f7737d9b1d5e8b1f7c2841c8a54edfaf8071e1280
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the assistive technology service provider
  These are the development files for at-spi2, needed for compilation of
@@ -22598,24 +22598,24 @@ Description: Libraries for the GNU Image Manipulation Program
 
 Package: libgio-2.0-dev-bin
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 693
-Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.88.2-1)
-Recommends: libglib2.0-bin (= 2.88.2-1)
+Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.88.3-2)
+Recommends: libglib2.0-bin (= 2.88.3-2)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev-bin_2.88.2-1_amd64.deb
-Size: 150564
-MD5sum: 04632702b08ea85f1e79026961cf6140
-SHA1: c5e98066bd470299a1f1cf9dbc8d4be80972ad01
-SHA256: 805f6c1defd21008045421a5b192d5605c574203fc7d7f977abc29f915d1d1be
-SHA512: 7aa86f20dced3ff66943ae8fd55a8661495279db89816f39eabf3e852d5bfefc515d2fe9aa5bbc42d8b149d58c335c7987c627e1bffe38b6cb076943fdbcdac4
+Filename: ./libgio-2.0-dev-bin_2.88.3-2_amd64.deb
+Size: 150908
+MD5sum: edaec62785a0e0b7a93af74f0c878024
+SHA1: 9bdbf2fab35a7555e36a3b327c10678235a0693b
+SHA256: 9371de6b117abe5e587ddd6557acb1d44e3a65e2ddb50fb4a8e0b014f54dd263
+SHA512: 2f445d312f540ff50228a4cf3f0c26309f638cd19caed796c3ee2d4433c3c24e7cc60cb89eab3d9968df7f1adb4bf9857462200289a69b068b7206954a93025a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22643,24 +22643,24 @@ Description: Development utilities for GLib, GObject and GIO libraries
 
 Package: libgio-2.0-dev
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 10869
-Depends: libffi-dev, libglib2.0-0t64 (= 2.88.2-1), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
-Recommends: libgio-2.0-dev-bin (= 2.88.2-1), libglib2.0-bin (= 2.88.2-1)
+Depends: libffi-dev, libglib2.0-0t64 (= 2.88.3-2), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
+Recommends: libgio-2.0-dev-bin (= 2.88.3-2), libglib2.0-bin (= 2.88.3-2)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev_2.88.2-1_amd64.deb
-Size: 1695364
-MD5sum: cba696853d8c20eed8504fa2a7ceb41b
-SHA1: 5b4364b84f81b8bd8b6ebd3d6904d71c8ca27863
-SHA256: 744ebd31b146d1a2e95f46e6d313cdec79e5f57c115db2fded9df6eb958024f9
-SHA512: e9a15c004acd4d8cf0ed5b6e288cc4e87fbcfc08dbeae844ba7a2a23fe0ffca89ba51c4e5351f83f754c716d5eca458c297dd6822d1e73c7a2867f85e2a47526
+Filename: ./libgio-2.0-dev_2.88.3-2_amd64.deb
+Size: 1697252
+MD5sum: 5c8fe4ebd0bb25afd93007065459d6d2
+SHA1: 6de81483b6dc7bec9bf695de4ed453bdb3e3a9b4
+SHA256: 018377189799644357fc7404322b885eb66cf3281fec3e5078b26520e0687c58
+SHA512: 0bead15a106cbfb54aed70b91e98771951f534c55a6e2c1fb52e6bacfeffca320a2ceb676356be5473d69bb5e26f19d5d25a13dddfd007cc4e561e2dc0aeb171
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development files for the GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22712,21 +22712,21 @@ Description: Library for handling GObject introspection data (runtime library)
 
 Package: libgirepository-2.0-0
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 346
-Provides: libgirepository-2.0-0-with-libffi8 (= 2.88.2-1)
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.88.2-1)
-Filename: ./libgirepository-2.0-0_2.88.2-1_amd64.deb
-Size: 126812
-MD5sum: 44b4f2f9373ac761911a051f5fe8e4db
-SHA1: c666f3729a8fd578288e9fcd65da88e282278220
-SHA256: f70ec538c47e04100834762d6747d475598deb42d4aa8cefb018a6a526a57e7f
-SHA512: afca8d8c775d475a885ccaf03acc87405129f2c5574aa5f17c7b54775e28cd822994764152944c8c6513d296a3786c24ac3d8087e07af1d9b5e0ef0458438472
+Provides: libgirepository-2.0-0-with-libffi8 (= 2.88.3-2)
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.88.3-2)
+Filename: ./libgirepository-2.0-0_2.88.3-2_amd64.deb
+Size: 127108
+MD5sum: 89b077227588e191b7d85a6921554732
+SHA1: ea1fbb5f3e1d46d49ab6daed81389c8268efc502
+SHA256: 22e8ddf20f4c9176c935d2c5b93a14a8c45b26fc8ef0dd57e23da4f35666ea20
+SHA512: ea774250d5f5113fc3db73beb51e464e22f2ceafe4ff73385c1c0b84bbed3e2fff8a2cd54a02629445d69f61dc94aa9a69cafcccae1e5ee61418768d702d6f88
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib runtime library for handling GObject introspection data
  GLib is a library containing many useful C routines for things such
@@ -22817,54 +22817,25 @@ Description: interface to the GLib and GObject libraries
 
 Package: libglib2.0-0t64
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4470
-Provides: libgio-2.0-0 (= 2.88.2-1), libglib-2.0-0 (= 2.88.2-1), libglib2.0-0 (= 2.88.2-1), libgmodule-2.0-0 (= 2.88.2-1), libgobject-2.0-0 (= 2.88.2-1), libgthread-2.0-0 (= 2.88.2-1)
+Installed-Size: 4462
+Provides: libgio-2.0-0 (= 2.88.3-2), libglib-2.0-0 (= 2.88.3-2), libglib2.0-0 (= 2.88.3-2), libgmodule-2.0-0 (= 2.88.3-2), libgobject-2.0-0 (= 2.88.3-2), libgthread-2.0-0 (= 2.88.3-2)
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
 Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
 Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.88.2-1_amd64.deb
-Size: 1535916
-MD5sum: a2c338c4cfb6b0ffaa6f58e74b7559be
-SHA1: e9d97f7169936e4592e557aecba91701856d5e36
-SHA256: 776e6ff4aca9a8584b59805f6ea8aacb9311365f32bf26c7b82dad457929ec32
-SHA512: 48740309283f3eddd7ae2f476187c0b8c013cd6a5b4f6812699a7ad22656318f1d82327a10e5d0e3847891f22ab36f7d184abd86ed9da8f12a2c085e41f6dec8
-Homepage: https://gitlab.gnome.org/GNOME/glib
-Description: GLib library of C routines
- GLib is a library containing many useful C routines for things such
- as trees, hashes, lists, and strings.  It is a useful general-purpose
- C library used by projects such as GTK+, GIMP, and GNOME.
- .
- This package contains the shared libraries.
-
-Package: libglib2.0-0t64
-Architecture: i386
-Version: 2.88.2-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: glib2.0
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4923
-Provides: libgio-2.0-0 (= 2.88.2-1), libglib-2.0-0 (= 2.88.2-1), libglib2.0-0 (= 2.88.2-1), libgmodule-2.0-0 (= 2.88.2-1), libgobject-2.0-0 (= 2.88.2-1), libgthread-2.0-0 (= 2.88.2-1)
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
-Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
-Suggests: low-memory-monitor
-Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
-Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.88.2-1_i386.deb
-Size: 1604412
-MD5sum: 6877c0e3016a007565d953478c444494
-SHA1: 80847198054fae78feb4ba425b491b60975eb865
-SHA256: 8acf406d2658cca57d8674813b69ffd1d0a98de6ab247a94e752066f2fd3f100
-SHA512: f4e282d85d20d9af207e1313b58c342736e091bcac790cc357f8055a9d24c692ebc2ff26389e560c0e5daef403d5ce75fcc2b72dd62741d2f4a7dd9892f0a4ba
+Filename: ./libglib2.0-0t64_2.88.3-2_amd64.deb
+Size: 1536036
+MD5sum: 611e97a072d69e9f7965f18cb3c0cae0
+SHA1: 36003aa5465493c5e2d5287b701e6095329f387b
+SHA256: 69652da8e008596188e326785b878a2a12b2e2572146fed2288dd4ea2a2a95bf
+SHA512: 4389ac33f5451ced703aa995d3bfddef6bc3796b4f7637db79b13f3f655353076c0348305266a1a73863b3156581b25a4652b4a2c7fb506691e2054ea08b87eb
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
@@ -22875,20 +22846,20 @@ Description: GLib library of C routines
 
 Package: libglib2.0-bin
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 348
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.88.2-1)
-Filename: ./libglib2.0-bin_2.88.2-1_amd64.deb
-Size: 113896
-MD5sum: 796d2811cac0d4b6db06d9935b12cfb8
-SHA1: 00c43fa7eb10b40d1352935de5c8f8af37689805
-SHA256: f43e0e3b52552dc14489f82c51d7e0cd7a30c28774c4abdd4cdaf38220e84696
-SHA512: 4f4aa52ad44fd76ef0e99920c31c32b3817ebde0eaccea5b1794f5b6baa16dfaf0b593277d6158fa5904aefc167cea8032657abca8eb08b144d56f9d97e35426
+Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.88.3-2)
+Filename: ./libglib2.0-bin_2.88.3-2_amd64.deb
+Size: 114208
+MD5sum: b6d730b4ac687d32b7c011a16699b91b
+SHA1: c69b57a0733a39347463140d7f2a2a076dd98003
+SHA256: dc93883af9e9b17f995bd590985028a6db61a4429c3da51551a45b2d725e9dcd
+SHA512: b08f806d7fe946b1ddb90cfdd56c11e2555cdd77edbc347d776f80a662840944c6fae9d7b1e6365122f04b489492d24c2b417bf3be2cc1bc8daeaf8359a45be1
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22908,19 +22879,19 @@ Description: Programs for the GLib library
 
 Package: libglib2.0-data
 Architecture: all
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 10238
-Filename: ./libglib2.0-data_2.88.2-1_all.deb
-Size: 1276440
-MD5sum: 10f78afb9764384a30952f876a0cf402
-SHA1: bf87614d01d4d06dbc185405b03adaac4987e64b
-SHA256: f53e54b60848b837f8d704209664b437d1665775c24050b8ab964aea0e3a3602
-SHA512: d93d825476613be8fc2ba32860268959ab01cbfce1cbf95e80ac28d101c6c355845f712ef9ca6ad6b6b2d06e628c9f190195ac152ea306ea4040c588affc6124
+Filename: ./libglib2.0-data_2.88.3-2_all.deb
+Size: 1276620
+MD5sum: 6b27ed14558a8c0266146ffa98e0cec4
+SHA1: 6953478cfde69d44dfb2d0f9f02ce60f9afc2b66
+SHA256: 8796dc6ac8607fee18b0402038b3f5c18ded6f73b76bfa1750b66744eb397255
+SHA512: 20f315be0eba1cc971ccf1fd7676763d88642e9603b0fa896a644f9eeefd199b26d9f61630a5df957368297f55891c2c0e3e5ff074475d4302dfa59574bee5c7
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
@@ -22932,21 +22903,21 @@ Description: Common files for GLib library
 
 Package: libglib2.0-dev-bin
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 84
-Depends: girepository-tools (= 2.88.2-1), libgio-2.0-dev-bin (= 2.88.2-1)
+Depends: girepository-tools (= 2.88.3-2), libgio-2.0-dev-bin (= 2.88.3-2)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Filename: ./libglib2.0-dev-bin_2.88.2-1_amd64.deb
-Size: 37644
-MD5sum: b501ec02bc85687df1e60672a78b9577
-SHA1: da1cb506ea6c4ceb94dd90fd280b612395cb4864
-SHA256: a7d053780c0712165575ded7c18b127184a82a90699e3ac78f0184bf137eaf3e
-SHA512: 0328684f0972e95ab517c7f0a1a62c10af0ceaa0a648f4ea023d6b62503e346af3b7d779f90241c8bcddccdff29de6b74901a58f6c9ce9c5f050bf4220ca25cc
+Filename: ./libglib2.0-dev-bin_2.88.3-2_amd64.deb
+Size: 38020
+MD5sum: d918e1decbc48fbc2e97a9e90c4ed0ea
+SHA1: bcf0fc6ca470f6efcfb99e377dd2d896521496e4
+SHA256: 982a7161c7edec233866adb0e4375b8710e5cbcff26c8233c212e0e2cf966588
+SHA512: 503dfb73e35a402a6f10caaf9cbb2effecfeab6e62d351d0a5ed83b45d1dae2a1d4709b974f66ec06c5c71f7078ba796303dc380c4d7968bc9b6970f3868b84c
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22959,21 +22930,21 @@ Description: Development utilities for the GLib library
 
 Package: libglib2.0-dev
 Architecture: amd64
-Version: 2.88.2-1
+Version: 2.88.3-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 88
-Depends: girepository-tools (= 2.88.2-1), libgio-2.0-dev (= 2.88.2-1), libglib2.0-bin (= 2.88.2-1), libglib2.0-dev-bin (= 2.88.2-1)
+Depends: girepository-tools (= 2.88.3-2), libgio-2.0-dev (= 2.88.3-2), libglib2.0-bin (= 2.88.3-2), libglib2.0-dev-bin (= 2.88.3-2)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Filename: ./libglib2.0-dev_2.88.2-1_amd64.deb
-Size: 38384
-MD5sum: b4b9b52c8d4e3142c8280a7852b0e9f6
-SHA1: 3ef132300c21cb395ea4d7f8bd162ce59de4d694
-SHA256: 65bdc4ad29194beb5245afaca32f11017df3e1e7d9656269066366c12283d529
-SHA512: 82d02ebb6ba0ddf69951165f7b84e21f2e813206b92cc40ad79ac2401e5c59bca368cf5f1d0e85a48b4aa63467fab09b3152e462b49b1bbe9398b7224174922f
+Filename: ./libglib2.0-dev_2.88.3-2_amd64.deb
+Size: 38764
+MD5sum: 01fd03634d0e465197c0659b58d6efee
+SHA1: 275a7667735fe24ed2d2a0c486739dee29d0833f
+SHA256: 03f057643d693505469e14f248cd0949cb42dc8080e0d3705a6aaa25bf726cc9
+SHA512: 91a814d6089a78c72a7e58b7996b6b0a728b467e1c2a6f62201197b47acb3c84ee3ce2d7a6b5dfa5beed147d7cae893ea4cdf8f058c60013c0244ad959ba9e9d
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development metapackage for the GLib family of libraries
  GLib is a library containing many useful C routines for things such
@@ -24882,20 +24853,20 @@ Description: library of matchers for building test expressions
 
 Package: libhandy-1-0
 Architecture: amd64
-Version: 1.8.3-3+b2
+Version: 1.8.3-4
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libhandy-1 (1.8.3-3)
+Source: libhandy-1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1364
+Installed-Size: 1383
 Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.14.0), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.23.1), libpango-1.0-0 (>= 1.14.0)
-Filename: ./libhandy-1-0_1.8.3-3+b2_amd64.deb
-Size: 311048
-MD5sum: e9232162f7cbb590faf250ccdaa83147
-SHA1: 79dffd4632857dcfbb3c3f8c6d3d064a29448c83
-SHA256: 9897ef2cbc2b9a9d3429555ccd0a307628b531119dbce07740501f6c5c48dcf2
-SHA512: 8cda589c958860f1c71a3b9c31436dfbec20e9bdcf6d09a40078a389a56df421e4e8351125ddc308c8a1cbf8793ffa63ae93ae6c471be473d59dc1da0851d0b7
+Filename: ./libhandy-1-0_1.8.3-4_amd64.deb
+Size: 321168
+MD5sum: f3a5f363288ffba4a04e186680e56d10
+SHA1: 0b6b385a655d2890f9dd48d2c290cb308adc3e84
+SHA256: deb1fd3fa895bf1d6d04141e06e63755627a45ee0476e76901e965342c644592
+SHA512: a2b009f6fae1b8a5564ceac844774408e00ddb08ba61c8f8e45746be5d564240e875dd1248e84c2bd2377777b4aaf13aaf83724d2804db891846c109cdad1815
 Homepage: https://gnome.pages.gitlab.gnome.org/libhandy/
 Description: Library with GTK widgets for mobile phones
  libhandy provides GTK widgets and GObjects to ease developing
@@ -49614,20 +49585,20 @@ Description: VP8 and VP9 video codec (shared library)
 
 Package: libvte-2.91-0
 Architecture: amd64
-Version: 0.84.0-2
+Version: 0.84.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: vte2.91
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1092
-Depends: libvte-2.91-common (= 0.84.0-2), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgtk-3-0t64 (>= 3.21.5), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
-Filename: ./libvte-2.91-0_0.84.0-2_amd64.deb
-Size: 380548
-MD5sum: 122832a40e9c69d6f06242acf6221887
-SHA1: 3723c2e311d6969e7d3c0f6a91fa1f298535c13b
-SHA256: c8ffd4923fc14640a4c57e9680dd32b8ea51a98606ca3c2a3cec1b064bdd5743
-SHA512: 612e38ecf18873e2570935e08fc1e57279aa32bc39aded531c8c6f0c9c8626b5968a7a2a11685cedc5324253db36f45df3fd540dc5c51d71a35b7ef41dfc0a55
+Depends: libvte-2.91-common (= 0.84.1-1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgtk-3-0t64 (>= 3.21.5), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
+Filename: ./libvte-2.91-0_0.84.1-1_amd64.deb
+Size: 380384
+MD5sum: 78dfdcfe55f03740613d1265436c0813
+SHA1: 4ee81bad9e2bb158a0b4308a15b27d869d5bec0c
+SHA256: c72c5f1889e32c0737cc415559430071fa88a978980b88783cc55fbf56f79d0d
+SHA512: e84db0b35e0deb8e4b630b04601c45fbdafc0e5a8454aacfa37846c6e01723b79156cf48db99f0211de16e9122737bf62b030e81a50c885b3f0639a634fa8789
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 3 - runtime files
  The VTE library provides a terminal emulator widget VteTerminal for
@@ -49640,20 +49611,20 @@ Description: Terminal emulator widget for GTK 3 - runtime files
 
 Package: libvte-2.91-common
 Architecture: amd64
-Version: 0.84.0-2
+Version: 0.84.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: vte2.91
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 511
+Installed-Size: 512
 Depends: libc6 (>= 2.34)
-Filename: ./libvte-2.91-common_0.84.0-2_amd64.deb
-Size: 61360
-MD5sum: 668e95ce9993f578c9767815aced785c
-SHA1: a72a03b1c90c5c366f71410015b6617cadd0f336
-SHA256: 7d1bf74ae4b68c4ecaae2897850c2df732deb35185fcf1bc85d702c0c2a34677
-SHA512: 515c431467f564e19cfcbaf1dc4fcc2ab4bb3bf016380370421cae9748827e19c250ba504e708301432b9b648a1224d5a6cedf58507c98d29e3d5184593f4849
+Filename: ./libvte-2.91-common_0.84.1-1_amd64.deb
+Size: 61684
+MD5sum: feed65e34e397989b455e1b46ca7db94
+SHA1: f018b79c01b5c25aee14e1897d8edab3dbad12c4
+SHA256: 229ff084daf09f3259e3d9d3303a92e7c484a6b86b7f8f971845a6c5453a3531
+SHA512: 08fa05935723104116d97a115eee03e80e5523ac7ab4fb41970023f29f7516310baf333ebcdf1157688f47653a82113d475cb8dd5890e21c8e595de5f8fb4586
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 3 - common files
  The VTE library provides a terminal emulator widget VteTerminal for
@@ -49666,20 +49637,20 @@ Description: Terminal emulator widget for GTK 3 - common files
 
 Package: libvte-2.91-gtk4-0
 Architecture: amd64
-Version: 0.84.0-2
+Version: 0.84.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: vte2.91
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1098
-Depends: libvte-2.91-common (= 0.84.0-2), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.14.1), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
-Filename: ./libvte-2.91-gtk4-0_0.84.0-2_amd64.deb
-Size: 383152
-MD5sum: 371ddcde64d0881857e8e7d430a3bc7e
-SHA1: 7280d7afc420df4b991df0e3949a330360228573
-SHA256: a37527c0b511352b26ba237f1e6dcb061ca1f2eff238e7207d3f4b1bf387f7c9
-SHA512: 731acbe987e1367c8666edf6e4db3b6f6f26a20e06ad1d5182b4a37553f641271431ec02ef31e79df3521edd11708786010ab9bdf9c714537646f40b58678d7f
+Depends: libvte-2.91-common (= 0.84.1-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.14.1), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
+Filename: ./libvte-2.91-gtk4-0_0.84.1-1_amd64.deb
+Size: 382168
+MD5sum: bef47ae501760ce71dff0a44a436dfa9
+SHA1: 56ac4287c81f0c19223b73505f8f93878be64ed6
+SHA256: 34c504c81238084db4447dac969ef73dd725664a6b18ed7e3e6681078cc209e8
+SHA512: 446b8ed6be365c8c47c993c6e6c7fb7c327416f2a56f4ebe14aef17a158949bb2acd147cb2fffbcba621795ae2cd25b677fc6b7d9bcd3a8319fe606894b43314
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 4 - runtime files
  The VTE library provides a terminal emulator widget VteTerminal for
