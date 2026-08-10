@@ -35668,20 +35668,20 @@ Description: High-level API for basic manipulation of Ogg Opus audio streams
 
 Package: liborcus-0.21-0
 Architecture: amd64
-Version: 0.21.0-11+b1
+Version: 0.21.0-11+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: liborcus (0.21.0-11)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1767
-Depends: libarrow2300 (>= 23.0.1), libboost-iostreams1.90.0 (>= 1.90.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), liborcus-parser-0.21-0 (>= 0.21.0), libparquet2300 (>= 23.0.1), libstdc++6 (>= 13.1)
-Filename: ./liborcus-0.21-0_0.21.0-11+b1_amd64.deb
-Size: 515856
-MD5sum: 9ad9da02e8c0be566cee7f5ba66c47af
-SHA1: c68a021cba9e8e9dd2003e40c6483d79226ac7a1
-SHA256: 368432b6c6ee68a008b631a13d8c7bb1d1ad32e7bbfdf342b75143ed945a2fbe
-SHA512: 3801d8986029b41f0f64c5cce0fc635e48933c6f397da01702861fe51e53d08e144f23993598196cc0be07781e2277d7d0d51aa73eb0079aa24c91db30a7db6a
+Installed-Size: 1843
+Depends: libarrow2500 (>= 25.0.0), libboost-iostreams1.90.0 (>= 1.90.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), liborcus-parser-0.21-0 (>= 0.21.0), libparquet2500 (>= 25.0.0), libstdc++6 (>= 13.1)
+Filename: ./liborcus-0.21-0_0.21.0-11+b2_amd64.deb
+Size: 551824
+MD5sum: 9786e8d18bd591c1a3f621a540bd537c
+SHA1: 804c259f979ef2f8c828c2ca600893db6eff2a4d
+SHA256: d82ca2a2a88e3f85e17126242d7456ed73b526980a6e379824466deec71e5836
+SHA512: c6e1280716013d9dc5dcdab972b3e88adf072ce532e49adc4a8bd1c57c41f94745031d6ba6dedb9cd8ca7e12c220e761d2950cf8be9c7be9c466e149b1497d63
 Homepage: https://gitlab.com/orcus/orcus
 Description: library for processing spreadsheet documents
  Orcus is a library that provides a collection of standalone file processing
@@ -35694,20 +35694,20 @@ Description: library for processing spreadsheet documents
 
 Package: liborcus-parser-0.21-0
 Architecture: amd64
-Version: 0.21.0-11+b1
+Version: 0.21.0-11+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: liborcus (0.21.0-11)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 384
+Installed-Size: 396
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./liborcus-parser-0.21-0_0.21.0-11+b1_amd64.deb
-Size: 120648
-MD5sum: d07871a1180f15090a8a65c448b26a55
-SHA1: a5eec68085554db0268c1c95fec070e929387476
-SHA256: c577533297a6ad55f4b1c137540d5515585aa1efb04f0ba7aac96bd1c4a146e2
-SHA512: c93b2ebe49cfc0a369eb1fb2dfa48f719ad319152bc0b897926a1ac3fb2c1d8dbbf399d2cb12cbcf60b1928d4799838c1e3735ec00e8b74095ab26d363e5f248
+Filename: ./liborcus-parser-0.21-0_0.21.0-11+b2_amd64.deb
+Size: 127556
+MD5sum: 17a029aa9eac6793444e61a8b49c8e01
+SHA1: 0d709d3d1fa3c79bb7decef2c7f834e187af4f64
+SHA256: a015e1e8baa05c68493b7c79120662a5d9f34b9cdfbd868fc63a468aae68f03c
+SHA512: 402433ff4f7b001f4c13f5187759cfba22e66d0cbbfc1b63e0890b75c49ae01a644a85959eb94c6d0e64ea99552cc00951c60056c6225bf3ff9b8730a8ee45ed
 Homepage: https://gitlab.com/orcus/orcus
 Description: library for processing spreadsheet documents - parser library
  Orcus is a library that provides a collection of standalone file processing
@@ -70521,22 +70521,22 @@ Description: File Manager for Xfce
 
 Package: thunderbird
 Architecture: amd64
-Version: 1:140.12.0esr-1
+Version: 1:140.13.0esr-2
 Priority: optional
 Section: mail
 Maintainer: Carsten Schoenert <c.schoenert@t-online.de>
-Installed-Size: 274189
+Installed-Size: 274581
 Provides: mail-reader
 Depends: debianutils (>= 1.16), fontconfig, libotr5t64, librnp0 (>= 0.17.0), libgpgme45, psmisc, x11-utils | kdialog | zenity, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.2-1.1~), libcairo2 (>= 1.10.2-1.1~), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxext6, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4)
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Suggests: apparmor, fonts-lyx, libgssapi-krb5-2
 Breaks: birdtray (<< 1.7.0+ds-1~), webext-allow-html-temp (<= 10.0.8-1~), webext-dav4tbsync (<= 4.8-2~), webext-eas4tbsync (<= 4.17-1~), webext-mailmindr (<= 1.7.1-2~), webext-quicktext (<= 6.4.6-1~), webext-tbsync (<= 4.16-1~), webext-xnotepp (<= 4.5.81-1~)
-Filename: ./thunderbird_1%3a140.12.0esr-1_amd64.deb
-Size: 69461816
-MD5sum: 2ff2629be463d2bb0ceb3350ab283f60
-SHA1: 2a4bc8d667871cca8e528b1c1e157d3a9637922e
-SHA256: fc928c9405faf7241fc1fe9ba58c4f94f06e8736aeceaf71a63524ae231f58f2
-SHA512: 576bfbdb007f9e1dc04ce6c0f46bfd37d3b407d73b3342454b1c85fd91e8d35b2e8ebd8e8b1e0bc5f0af3c2649e90132a834960ce8a9f165101cb6874cf622e0
+Filename: ./thunderbird_1%3a140.13.0esr-2_amd64.deb
+Size: 69569172
+MD5sum: c582550b59938c2ca3358df8f96af1ca
+SHA1: 981c78106cedf2e76e12149780ffde1a7318ce82
+SHA256: 5316e41f6893c7cd7825c86504efb1a69d4f25e31418cc10672498ffa11f4468
+SHA512: 3be7abf1f072f4994e31e1e7ffafd7b8c47c302f5c219bf59a247dcc82947591b5f2f8db934340528036ec9449014b22dba787cb50e46dc6b6f479c3a0d432d4
 Homepage: https://www.thunderbird.net/
 Description: mail/news client with RSS, chat and integrated spam filter support
  Thunderbird is an mail client suitable for free distribution. The goal of
