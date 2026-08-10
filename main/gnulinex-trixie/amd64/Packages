@@ -64569,20 +64569,20 @@ Description: system performance tools for Linux
 
 Package: system-config-printer
 Architecture: all
-Version: 1.5.18-5
+Version: 1.5.18-6
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1046
-Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-notify-0.7, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-polkit-1.0, python3-cups, python3-cupshelpers (= 1.5.18-5), python3-dbus, python3-gi, system-config-printer-common (= 1.5.18-5), python3:any
+Depends: cups, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-notify-0.7, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-polkit-1.0, python3-cups, python3-cupshelpers (= 1.5.18-6), python3-dbus, python3-gi, system-config-printer-common (= 1.5.18-6), python3:any
 Recommends: avahi-utils, system-config-printer-udev
 Suggests: gnome-software
-Filename: ./system-config-printer_1.5.18-5_all.deb
-Size: 182888
-MD5sum: 6beb6f49e62f6c9728742e94893c3c27
-SHA1: bad26c026580cab83895cbb982bf75e6ef7c92bb
-SHA256: 8a74adceec7ef08a1a3d7faedd7e26ffaca947e7c5935bacfc6756dced581b31
-SHA512: 842b06bf5071a3d3dcfac8515ac4f1c9f47461ed95e78c7bd491dd40d2e022cc552e9a4ada5bd812394344129ab11fba89bd34b0f9ac5e5fbcce57b0a6034f71
+Filename: ./system-config-printer_1.5.18-6_all.deb
+Size: 182928
+MD5sum: dcfadbadaecce79ed3b7ad1292baefe0
+SHA1: 89c47d3e32b36c470a37ee73ebd07fa6ee570b06
+SHA256: 5c83ccc82d1265fba768509f72862d1c7538f76f1c3d49f29caba91dd9cbd068
+SHA512: 2007a893f21cdba4f9288e6e11cbf408a02f7221c39a4fc1fb0ca67b3d3fb5dd5f995ca35996467214c0cd65c3859e70724d96081fce9348d822b26955987c22
 Homepage: https://github.com/OpenPrinting/system-config-printer
 Description: graphical interface to configure the printing system
  System-config-printer is a GUI written in Python using GTK+ to
