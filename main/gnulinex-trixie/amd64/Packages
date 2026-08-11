@@ -33110,20 +33110,20 @@ Description: Shared library for the Lua interpreter version 5.3
 
 Package: liblua5.5-0
 Architecture: amd64
-Version: 5.5.0-5
+Version: 5.5.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: lua5.5
 Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
-Installed-Size: 600
+Installed-Size: 612
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
-Filename: ./liblua5.5-0_5.5.0-5_amd64.deb
-Size: 155124
-MD5sum: 1be48907f187adc2fda0275e7dd0f280
-SHA1: c46766df4bb2a67f432ad4d04413fad6c8f8e5fb
-SHA256: ca8212e81860e0951fcfededabf263b49ae2f0d73e67e6106d2e30264e2495e9
-SHA512: 2cb1bb7fae27436a651bbbf5aea952eb055387d1f0ab9a5e26acfe3a2573301b6fafdbb0037349be808d4df6d8037a741736c8c31ddf2bef09882429297bf3f5
+Filename: ./liblua5.5-0_5.5.1-1_amd64.deb
+Size: 158952
+MD5sum: efd8355d87ced8e6043609a115e61c84
+SHA1: bc245a22538423511f3a3d585ff6551007589813
+SHA256: 3731e3f364e7545d05b2265b0b3bd8b40f416d7e5794df255f9175ad2d6ae63d
+SHA512: c56e3df4716be6e7b8f14a7c2a8449cc867cc2d586660798ab20da73930536e580d66a1e34752c11a191ac2a15b9ab6d7cca8e51ce9a8eb17f46e675f63bef69
 Homepage: http://www.lua.org
 Description: Shared library for the Lua interpreter version 5.5
  Lua is a powerful, light-weight programming language designed for extending
