@@ -798,19 +798,19 @@ Description: Window matching library - daemon
 
 Package: baobab
 Architecture: amd64
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2307
+Installed-Size: 2311
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~beta), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.15.1), libpango-1.0-0 (>= 1.14.0)
 Recommends: yelp
-Filename: ./baobab_50.0-1_amd64.deb
-Size: 327100
-MD5sum: 719e915ad7014d1a5f218ad279a79767
-SHA1: 22401d5d3980068d5290f1c748c480932ce645be
-SHA256: 24a2249e1f15520f93fc2638af8232ab632da1a7d1714b2da957ce18b914c736
-SHA512: 5ab6dbf8be66aab447dfd5a1f710a5452ca66a08d8e67c936c37951fd75f9b8f699f3ac6007b8b2422ac96b0abedfff515e4a87af67f442d9f8f65c240b6fd5a
+Filename: ./baobab_50.0-2_amd64.deb
+Size: 330952
+MD5sum: b05b53ce50e2991e52f2209dc0083ccf
+SHA1: 6f56f7e86d0799e572c60adb9d5a312bd74c7e4a
+SHA256: a2009d7edc2c244e5ade51d67902ffc3a74d3af6ec9bd34e15b6d0eec98a813e
+SHA512: c67c7a4e2295ccd0ad4b07cf73c46e7be058f0732b7c4fe32ab0f2e727f548a387d88a8fb0d6d4940466008f8722ca93d18248364e076f10df921819bce247a2
 Homepage: https://apps.gnome.org/Baobab/
 Description: GNOME disk usage analyzer
  Disk Usage Analyzer is a graphical, menu-driven application to analyse
@@ -10507,19 +10507,19 @@ Description: classic Eastern tile game for GNOME
 
 Package: gnome-maps
 Architecture: amd64
-Version: 50.2-1
+Version: 51~beta-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6103
-Depends: geoclue-2.0, gir1.2-adw-1 (>= 1.8~alpha), gir1.2-gdk-4.0, gir1.2-gdkpixbuf-2.0, gir1.2-geoclue-2.0, gir1.2-geocodeglib-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-gsk-4.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0, gir1.2-pango-1.0, gir1.2-rest-1.0, gir1.2-secret-1, gir1.2-shumate-1.0 (>= 1.6~alpha), gir1.2-soup-3.0, gir1.2-xdp-1.0, gjs, libglib2.0-bin, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.52.5), libshumate-1.0-1 (>= 1.6~alpha), libxml2-16 (>= 2.14.1), gir1.2-json-1.0
+Installed-Size: 6314
+Depends: geoclue-2.0, gir1.2-adw-1 (>= 1.8~alpha), gir1.2-gdk-4.0, gir1.2-gdkpixbuf-2.0, gir1.2-geoclue-2.0, gir1.2-geocodeglib-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-gsk-4.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0, gir1.2-pango-1.0, gir1.2-rest-1.0, gir1.2-secret-1, gir1.2-shumate-1.0 (>= 1.6~alpha), gir1.2-soup-3.0, gir1.2-xdp-1.0, gjs, libglib2.0-bin, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.52.5), libshumate-1.0-1 (>= 1.6~alpha), libsqlite3-0 (>= 3.7.15), libxml2-16 (>= 2.14.1), gir1.2-json-1.0
 Suggests: fonts-adwaita-sans
-Filename: ./gnome-maps_50.2-1_amd64.deb
-Size: 1376940
-MD5sum: df381148bdda1971d1254f20f5fec540
-SHA1: d2e8293094ebb0fa89c992be370b09389b5a6434
-SHA256: 7a72284ce8415c2b6e845f583d5f067103be43a220f24db8f7611e422a5fbced
-SHA512: 6b10e47f0f0f152a7b36b9fb841e2959f2123671220fa3fcaec39108d39283500b2ccd85174b4880d4fa2180959b046c8c149601822739b47d4b8dd9afdcd432
+Filename: ./gnome-maps_51~beta-1_amd64.deb
+Size: 1418612
+MD5sum: 053df73fc2e92dcd120515999a161153
+SHA1: 45883ca876bc756cbc846715af3168a8feb3eb97
+SHA256: 10214e02c093920282cebde82c2a9645fafffa37569c72d1b062641f0d0fc3fc
+SHA512: 64f9581b6267e9a2049b58f4a69294e71e07b0e6e6f3f0d20cd3979540d5cc3259f3e051785ad6da84da9413b57b91e1cb7a6cae4055ebfec237564a262d281c
 Homepage: https://apps.gnome.org/Maps/
 Description: map application for GNOME
  Maps is a map application for GNOME that allows you to view maps in different
@@ -51964,26 +51964,26 @@ Description: high performance JSON library written in ANSI C
 
 Package: libzeitgeist-2.0-0
 Architecture: amd64
-Version: 1.0.4-5+b4
+Version: 1.0.4-6
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: zeitgeist (1.0.4-5)
+Source: zeitgeist
 Maintainer: Debian semweb Team <team+semweb@tracker.debian.org>
-Installed-Size: 497
+Installed-Size: 506
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libsqlite3-0 (>= 3.5.9)
 Suggests: zeitgeist-core | zeitgeist
-Filename: ./libzeitgeist-2.0-0_1.0.4-5+b4_amd64.deb
-Size: 147796
-MD5sum: ff6526c9c94eb11f845ab71cbcd59ee3
-SHA1: 436028b5a87a41f8801d9aabf318122fec886824
-SHA256: a0968b0715848ce68e41f211f442ce5b110748c9634e0ad61a4848fa4e80aff1
-SHA512: 7ba6be82b6ce220c561c5fafad8f05f61707c0dd9ac6d9edef0d77d83e2998a54316a51ad7c71524642f370a8b3f32382bb40b5913d512ebd7d74652c7bb5aa9
+Filename: ./libzeitgeist-2.0-0_1.0.4-6_amd64.deb
+Size: 152564
+MD5sum: 2bfca2dcf55213dc2a55b8606e8cacea
+SHA1: b39d9c32bff0bce1d35ec2088f6cb9b9f5a062f9
+SHA256: 751afbd737251818d416df76661082aec340c31d22a2b6ecdee64d58a987fb5b
+SHA512: 93dff1f932e3c617b7bf95c13ce57e66adb9c3138fc98f57e7532c4e4041478127578eb775edfc03e9e7823ee22e5dda1e16a9f455ca3d6cf873533bfad6d422
 Homepage: https://zeitgeist.freedesktop.org/
-Description: library to access Zeitgeist - shared library
+Description: event logging framework - shared library
  Zeitgeist is a service which logs the user's activities and events
  (files opened, websites visited,
- conversations hold with other people, etc.)
+ conversations held with other people, etc.)
  and makes the relevant information available to other applications.
  .
  It serves as a comprehensive activity log
@@ -64105,7 +64105,7 @@ Description: Debian Breeze SDDM theme
 
 Package: sddm-theme-debian-elarun
 Architecture: all
-Version: 0.21.0+git20251101.dfa5315-2
+Version: 0.21.0+git20260801.f62b7ba-1
 Priority: optional
 Section: kde
 Source: sddm
@@ -64114,13 +64114,13 @@ Installed-Size: 1691
 Provides: sddm-theme
 Depends: desktop-base, qml6-module-qtquick
 Recommends: sddm
-Breaks: sddm (<< 0.21.0+git20251101.dfa5315-2)
-Filename: ./sddm-theme-debian-elarun_0.21.0+git20251101.dfa5315-2_all.deb
-Size: 1620980
-MD5sum: 66d3bb0585bca9a96610c8ab845466b5
-SHA1: 3eccbdee4641dc8cf2f9a053b55fcaaea7f45901
-SHA256: 724cdfd81f619db6814aa7b3d92382b1f06da556bcf063b4b65f1f5b9434c7d8
-SHA512: c89e032838823e5a360ffc611bbb3dfef2f00b39550bfc121af1c42593b67fb3970982878e35908c5da00302e4896366c482bffa8a4a333379a400060ca11d5b
+Breaks: sddm (<< 0.21.0+git20260801.f62b7ba-1)
+Filename: ./sddm-theme-debian-elarun_0.21.0+git20260801.f62b7ba-1_all.deb
+Size: 1621052
+MD5sum: 9586c97692b5f09c2b0943901674c319
+SHA1: 72d6f3766defccf0849499c0db962bcc6e0c3e58
+SHA256: 3df68bdb77824beb5b60426c788f65057b50f569c338f32271855562bc7acbfc
+SHA512: 9427a66092a3ec9a6788f263271d4c0341ca42d049ddb0df87d4f1c887e74b15ede58b76de05adbca7f8c21a4e3f128b13d4c6ad21ee61c8fb4944c9737c31df
 Homepage: https://github.com/sddm/sddm
 Description: 'Debian Elarun' Theme for SDDM X11 display manager
  Elarun theme for SDDM, using the active desktop-base theme for the
@@ -64128,22 +64128,22 @@ Description: 'Debian Elarun' Theme for SDDM X11 display manager
 
 Package: sddm
 Architecture: amd64
-Version: 0.21.0+git20251101.dfa5315-2
+Version: 0.21.0+git20260801.f62b7ba-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2430
+Installed-Size: 2471
 Provides: x-display-manager
 Depends: x11-common, xauth, xkb-data, xserver-xorg | xserver, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), libxcb-xkb1, libxcb1, qml6-module-qtquick
 Recommends: libpam-systemd, sddm-theme-debian-breeze | sddm-theme
 Suggests: libpam-kwallet5
 Breaks: sddm-theme-breeze (<< 4:6.0.0~)
-Filename: ./sddm_0.21.0+git20251101.dfa5315-2_amd64.deb
-Size: 749148
-MD5sum: 6b20e9323380f877471c5fe99203bb95
-SHA1: 6b3224a269fcb71717f6a34237aea7703dc18548
-SHA256: 1cc70c773bb6b31cf8289f6e1d6d0ad6cec22f56760698ffd234c571ab13af27
-SHA512: b573a16124cbd5d04398ed985784372183221cba68892ea620dbe736b43c7922235ff18e0e62eb74d2699945da472f894a1abac759ae24cb19d61c76bcb26697
+Filename: ./sddm_0.21.0+git20260801.f62b7ba-1_amd64.deb
+Size: 757084
+MD5sum: dc82a1331182251ba8173ef3e1529670
+SHA1: f3c76bcaf15c7a84375155e4e6296b0f66539d6a
+SHA256: bc1fb7ac8df9a388c3cd0e62693fec61ce831f0bc9780efc5b8e3c6a17b7b400
+SHA512: 24e1897f9d74df3233f836c51e31198bf788b4c630818fc0289f4620244371e51b82df80e95fa4e39b180ac8482b1dad0142d1d7d9aec15c109e4adb508cc1a4
 Homepage: https://github.com/sddm/sddm
 Description: modern display manager for X11
  SDDM is a modern display manager for X11 aiming to be fast, simple
@@ -73823,21 +73823,21 @@ Description: Help browser for GNOME
 
 Package: zeitgeist-core
 Architecture: amd64
-Version: 1.0.4-5+b4
+Version: 1.0.4-6
 Priority: optional
 Section: utils
-Source: zeitgeist (1.0.4-5)
+Source: zeitgeist
 Maintainer: Debian semweb Team <team+semweb@tracker.debian.org>
-Installed-Size: 475
+Installed-Size: 491
 Provides: zeitgeist-extension-fts
-Depends: libc6 (>= 2.38), libdee-1.0-4 (>= 1.0.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libxapian30 (>= 1.4.28~), libzeitgeist-2.0-0 (>= 0.9.14)
+Depends: libc6 (>= 2.38), libdee-1.0-4 (>= 1.0.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), libxapian30 (>= 1.4.28~), libzeitgeist-2.0-0 (>= 0.9.14), init-system-helpers (>= 1.66~)
 Suggests: zeitgeist-datahub
-Filename: ./zeitgeist-core_1.0.4-5+b4_amd64.deb
-Size: 147668
-MD5sum: 8b691cc00d8332a75036dc1e5e0d6e3a
-SHA1: 4ff066d63883366091af39d040fce3b719ec1015
-SHA256: 088b503155cdf5390d39d61080cf0baa343ea69d9f5f22b48587f7ca99b0601f
-SHA512: 419517b379349cdc0448f456db91e98cf0469ef833de677521e5fbc041e4e68ab285c18773e1bb1dc969cd44fb48013e4702410f9b9cc51522b6555177186ca2
+Filename: ./zeitgeist-core_1.0.4-6_amd64.deb
+Size: 158828
+MD5sum: 33b44e65edccee42382af54bb9fbc122
+SHA1: 7e0e0c02a08c6cfac4afcfdcf6d7e8fa29e51d7d
+SHA256: e5ee38c08d0660483b9ae514f27d75911924f117be7c1b5922ebb3c1890d4919
+SHA512: cc1d053e87462fc8d947b187277c49d06b8b2da502974109dddc4264e23756c12108ab4ded4cad4bef030d7a27ff9ab8c4b6a92b9f47512f178b70fcf26c5cdd
 Homepage: https://zeitgeist.freedesktop.org/
 Description: event logging framework - engine
  Zeitgeist is a service which logs the user's activities and events
@@ -73903,23 +73903,23 @@ Description: Display graphical dialog boxes from shell scripts
 
 Package: zsh-common
 Architecture: all
-Version: 5.9-8
+Version: 5.9.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: shells
 Source: zsh
 Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
-Installed-Size: 16421
+Installed-Size: 17261
 Recommends: zsh
 Suggests: zsh-doc
 Breaks: zsh-doc (<= 5.8-7~)
 Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
-Filename: ./zsh-common_5.9-8_all.deb
-Size: 4145676
-MD5sum: 6e89707e7c10e70eb443b36b5da185be
-SHA1: f62f8cfffc4d0f40583d3242123182265742983a
-SHA256: 400c958c7fdb66a945cad32c0edc81cedcfface0059b5e2beb46097a457099bd
-SHA512: 2095b76296ed54124c4d2c594baca0954e5437d45565d0b27df3495909bb75e06e4edc063cdf4b2059b27af2df7b4874406f8fb4ef347782236b8af20873f622
+Filename: ./zsh-common_5.9.2-1_all.deb
+Size: 4292760
+MD5sum: 186a2fdf39dd3fd2ef00d8eefdb2d49c
+SHA1: c65639e17801999df627a5111f32ec84ffb9a244
+SHA256: bebe32e32590e6e1002e8abcc63cb2ecc737db6a385def890a2c1587f40d4cbf
+SHA512: fa49b46b14f6aa6386b8127354a363cc3ba302c842da6dab6fc79025d0a1c3b28849eccc123bb70ca277bfbb7573ae112efe7598687efdd2dc1dc9ed584a7660
 Homepage: https://www.zsh.org/
 Description: architecture independent files for Zsh
  Zsh is a UNIX command interpreter (shell) usable as an
@@ -73935,21 +73935,20 @@ Description: architecture independent files for Zsh
 
 Package: zsh
 Architecture: amd64
-Version: 5.9-8+b40
+Version: 5.9.2-1
 Priority: optional
 Section: shells
-Source: zsh (5.9-8)
 Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
-Installed-Size: 2499
-Depends: zsh-common (= 5.9-8), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
+Installed-Size: 2518
+Depends: zsh-common (= 5.9.2-1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
 Recommends: libgdbm6t64 (>= 1.16), libncursesw6 (>= 6), libpcre2-8-0 (>= 10.22)
 Suggests: zsh-doc
-Filename: ./zsh_5.9-8+b40_amd64.deb
-Size: 912844
-MD5sum: b6da1490870fe42327718474de562095
-SHA1: 026c20248c4d4bd18c454b2e6f3535526f52d4bf
-SHA256: 0dee4458e665bb2f8761c31c8c7f2a38b600a67eabc2b7235d9685d727781b67
-SHA512: d0caf4f9323c4fb9e07a7b1121c5bb8a34d2f7cd41092ba15a5e7bec9ffe20d35bd8797f9d77b4c6bea973f8e81c65f2186fdffda4a801c200ab7536f015b2cf
+Filename: ./zsh_5.9.2-1_amd64.deb
+Size: 931400
+MD5sum: 652a455a7ab6001ff3caa82b9b86ae0e
+SHA1: f23dc2d7fbb80b6b503dd0ba33ba7ca771acddb1
+SHA256: b0e59f6e8ba588e436f01b171ae35e5f3cc9ed4134dc8bb701b7fd22a56f845f
+SHA512: a4faae1e97f00657204dfe22e0dd49948063b15b5c9b961538d50670371e2f06d25140cd941770f8d692ff9f035ee3cafb5763a1aa6feef8c62bd1c45a7b9aac
 Homepage: https://www.zsh.org/
 Description: shell with lots of features
  Zsh is a UNIX command interpreter (shell) usable as an
