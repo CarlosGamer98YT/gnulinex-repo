@@ -73935,20 +73935,21 @@ Description: architecture independent files for Zsh
 
 Package: zsh
 Architecture: amd64
-Version: 5.9.2-1
+Version: 5.9.2-1+b1
 Priority: optional
 Section: shells
+Source: zsh (5.9.2-1)
 Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
-Installed-Size: 2518
+Installed-Size: 2571
 Depends: zsh-common (= 5.9.2-1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
 Recommends: libgdbm6t64 (>= 1.16), libncursesw6 (>= 6), libpcre2-8-0 (>= 10.22)
 Suggests: zsh-doc
-Filename: ./zsh_5.9.2-1_amd64.deb
-Size: 931400
-MD5sum: 652a455a7ab6001ff3caa82b9b86ae0e
-SHA1: f23dc2d7fbb80b6b503dd0ba33ba7ca771acddb1
-SHA256: b0e59f6e8ba588e436f01b171ae35e5f3cc9ed4134dc8bb701b7fd22a56f845f
-SHA512: a4faae1e97f00657204dfe22e0dd49948063b15b5c9b961538d50670371e2f06d25140cd941770f8d692ff9f035ee3cafb5763a1aa6feef8c62bd1c45a7b9aac
+Filename: ./zsh_5.9.2-1+b1_amd64.deb
+Size: 966304
+MD5sum: 157332a5320ab97fab887204bae7fa02
+SHA1: 069e32f5fa1cdf691df4440967fab912ce0d7b01
+SHA256: 568a92e56b6ccf8770697f1cdb56ac6b44af612678411b581c0986d22de09e79
+SHA512: 5fd2e281b1211614afbca7faa78971b1f06f7d6ebb7c53d1ac7ea468cd367a4602bf3f6d6319f2caa42db5a09fe7b46a59bae42376ebc6fd3f24ca58f081c626
 Homepage: https://www.zsh.org/
 Description: shell with lots of features
  Zsh is a UNIX command interpreter (shell) usable as an
