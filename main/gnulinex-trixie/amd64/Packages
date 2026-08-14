@@ -1809,20 +1809,20 @@ Description: Translation files for the Cinnamon desktop
 
 Package: cinnamon-screensaver
 Architecture: amd64
-Version: 6.6.1-1
+Version: 6.6.1-2
 Priority: optional
 Section: x11
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 731
-Depends: cinnamon-desktop-data (>= 6.6), gir1.2-caribou-1.0, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-cvc-1.0, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, iso-flags-png-320x240, python3-gi, python3-gi-cairo, python3-setproctitle, python3-xapp, python3-xlib, x11-utils, xapp-symbolic-icons, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.4), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.14.0), libx11-6, libxdo3 (>= 1:3.20130104.1), libxext6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.3)
+Depends: cinnamon-desktop-data (>= 6.6), gir1.2-caribou-1.0, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-cvc-1.0, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, iso-flags-png-320x240, procps, python3-gi, python3-gi-cairo, python3-setproctitle, python3-xapp, python3-xlib, x11-utils, xapp-symbolic-icons, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.4), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.14.0), libx11-6, libxdo3 (>= 1:3.20130104.1), libxext6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.3)
 Recommends: libpam-gnome-keyring
-Breaks: cinnamon (<< 6.6), cinnamon-core (<< 5.2~), gir1.2-cscreensaver-1.0 (<< 6.6.1-1), libcscreensaver0 (<< 6.6.1-1)
-Filename: ./cinnamon-screensaver_6.6.1-1_amd64.deb
-Size: 137776
-MD5sum: 282412ff56d2f1f4a2d6d8a4afe80139
-SHA1: e0b1b53135d07b961ac39a961ea79de2fe3e645a
-SHA256: e4459bafd6b9c97da65225b5fa5b8ce294003525c341accbcc31dd759afec4b5
-SHA512: e328824714d999867b8df64c0b61be303d4c918604940e9469f0442587ccdf981fb4c0a7947469218c9c3fa042892c0318eeee5398cfc5245edb362fb79aaacd
+Breaks: cinnamon (<< 6.6), cinnamon-core (<< 5.2~), gir1.2-cscreensaver-1.0 (<< 6.6.1-2), libcscreensaver0 (<< 6.6.1-2)
+Filename: ./cinnamon-screensaver_6.6.1-2_amd64.deb
+Size: 139004
+MD5sum: 21b198b2bb9ddd7c63b0bc58364cc64c
+SHA1: 3280ccf62b6720281e873c6d345633fd79dca5a5
+SHA256: 7162180720d44e2abdecbe672436bb609cd61cf05585c0d5dce51b7e17e7a636
+SHA512: 3e983d795f95fb2482b10ec83baedf877bb73695ceeba7bd5d5f80923e798dfafb4223f43c923c334f2d5aece7e0cac7e2fa8da112512d9c9c6cfef601a4dbf3
 Homepage: https://github.com/linuxmint/cinnamon-screensaver/
 Description: Cinnamon screen saver and locker
  cinnamon-screensaver is a screen saver and locker that aims to have simple,
@@ -2311,18 +2311,18 @@ Description: simple configuration storage system - utilities
 
 Package: dconf-editor
 Architecture: amd64
-Version: 49.0-1
+Version: 49.0-2
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3821
-Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdconf1 (>= 0.25.1), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.22.0), libhandy-1-0 (>= 1.6)
-Filename: ./dconf-editor_49.0-1_amd64.deb
-Size: 636652
-MD5sum: 00e663e909de1a5522a61fd8214a81e3
-SHA1: b48da96a96d1f50dc2b14f009158ca47fa499857
-SHA256: 1035720f5821f730967787792c3e098acd5ae52856649bf9b574ec0e790f2674
-SHA512: 8e016700ead57df299a52afbcc68be33fc02bf6930e997ce3adc8723dbc48cbf65034f74db37a6a0034d81b360499092875db28b4bd9c27ff43153f69527efa0
+Installed-Size: 3764
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdconf1 (>= 0.14.0), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.21.5), libhandy-1-0 (>= 1.5.0)
+Filename: ./dconf-editor_49.0-2_amd64.deb
+Size: 625512
+MD5sum: 73d4f35e7b016b7e0d15601bc37a80e3
+SHA1: d57173e1bdcc788aff22a97046ff144c8c6fba59
+SHA256: 5bf84e3685af2dc27814c23e16230a3165d9cbb16f4e2535a6c50c0317fb9b33
+SHA512: 8a44b91082642a7f455fb7220d4e1b579c72c54fff4be5e06e8bef5fdc685e2ded980f2cc9646a5a8f5ac9455090ef1937bd924e0a6a5b6049ad5d5a87c27f63
 Homepage: https://apps.gnome.org/DconfEditor/
 Description: simple configuration storage system - graphical editor
  DConf is a low-level key/value database designed for storing desktop
@@ -7331,21 +7331,21 @@ Description: Introspection data for CinnamonDesktop
 
 Package: gir1.2-cloudproviders-0.3.0
 Architecture: amd64
-Version: 0.4.0-2+b1
+Version: 0.4.0-3
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libcloudproviders (0.4.0-2)
+Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 30
-Provides: gir1.2-cloudproviders-0.3 (= 0.4.0-2+b1)
+Installed-Size: 29
+Provides: gir1.2-cloudproviders-0.3 (= 0.4.0-3)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, libcloudproviders0 (>= 0.2.5)
-Filename: ./gir1.2-cloudproviders-0.3.0_0.4.0-2+b1_amd64.deb
-Size: 7576
-MD5sum: 946d3e89a76ab71b21eecb8f0f3bb728
-SHA1: fc5c4d84d3d92f584d17450da67cfbb1ece24adc
-SHA256: a4f3974b71de2adf905b24efb8dcb8e0438b137305874af868e396f726a374dc
-SHA512: 7f015599fc423752a68015d482bd162f12309a4cd47ed2820be94877b469d8fa5932b61e0bc619c446efe6c47445a0dd5c7122458cb0d9ec688e06716fd72a86
+Filename: ./gir1.2-cloudproviders-0.3.0_0.4.0-3_amd64.deb
+Size: 7344
+MD5sum: a7129550d2c5d6c92ad73743f0fccc35
+SHA1: 4b2aaefc0d326a91dba6e7c8e4213530a707a8ca
+SHA256: 8c371812fe28ecfca80e4f723ee3d23ebf3ec7a49bf57e0e963933c4c1f684cc
+SHA512: deec831b74e0720bd8eee37df232efa4651183d9c7af7456612589e679ff5a2c9c9dc52c31a5b823a2c9ad1297c4a55698dc3ba2b62b32bc48c3da22b5d782e6
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - introspection data
  libcloudproviders is a glib based library that makes it easier to implement
@@ -7759,7 +7759,7 @@ Description: GObject introspection data for the GNOME Display Manager
 
 Package: gir1.2-gegl-0.4
 Architecture: amd64
-Version: 1:0.4.70-3
+Version: 1:0.4.70-4
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -7767,12 +7767,12 @@ Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 103
 Depends: gir1.2-babl-0.1 (>= 1:0.1.116), gir1.2-glib-2.0, gir1.2-gobject-2.0, libgegl-0.4-0t64 (>= 1:0.4.50)
-Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-3_amd64.deb
-Size: 30824
-MD5sum: 361bde8c9c1e9888c1446b5efb39341f
-SHA1: a13928152c18d9f7347505dd0d40b9fea41aa54c
-SHA256: 1e7eec3ce4017e111dc1fd23499ae40f3e2f41f54cbc3e04c3ed11d5ba2a23a1
-SHA512: 7d59502768fcd4d2cf041af682cdc32007d9d2401bb5d009c3897a6bd5230b38f5a89a91636b2473fdbc1435a0d71af96aa78f634a3cc1ec1d1b601efe4f7f68
+Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-4_amd64.deb
+Size: 30872
+MD5sum: f54f6c88a1a1544cb44d6b0527c7233a
+SHA1: 3e2c283c2ff19717b0096c75dc953ccbe90e6171
+SHA256: ddb3734bdbae5feebf5d84de25a3e59e691d8de1d1b08a46588fcfe9e3b7706a
+SHA512: ba102cf86fdf7fe21be0e9c84e602cd16fd692264c9d959567bcc474e9ff5169b825d796165a013fdc1dab806ca543056aad813a465f6af731552b037a2f2cb8
 Homepage: https://gegl.org/
 Description: GObject introspection data for the Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -10087,41 +10087,41 @@ Description: Contacts manager for GNOME
 
 Package: gnome-control-center-data
 Architecture: all
-Version: 1:50.3-1
+Version: 1:51~beta-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-control-center
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 19279
+Installed-Size: 19273
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./gnome-control-center-data_1%3a50.3-1_all.deb
-Size: 3841468
-MD5sum: 53b7335cfb1887e6ebd969ec8ced09fc
-SHA1: dace6dc90e0b0f58e8814de7232bca3395273ace
-SHA256: 0200e8134a1aeea54b00f37250fddc046cb47ccb0b29260ff1b31bd075078927
-SHA512: 5aa0c9875be6d456220bcca53008e2775d29d09e7727df21d4fe2dd0b165ce01385261b4f0f6235a84b5c1f154502a5a7aece53dd89b1142ad390248b0b3bf64
+Filename: ./gnome-control-center-data_1%3a51~beta-1_all.deb
+Size: 3878836
+MD5sum: 22a96340fa9cca5d8a7fac9f7e85411c
+SHA1: aaa36fffd7626edb5fa10d37e80946fd608432f2
+SHA256: 47e8c32f5438f1bbef1a798f422f4a8d69e76790b3b18f6346528c31b8728983
+SHA512: 7b0a21227e402c1a3205e1706d558f7287605ab02077e27d89cbf235bebe7e54f470ed18f8937c4a220a7ae7c0885c4c29ef1175a0f54d4124fe24fb5de0bf21
 Description: configuration applets for GNOME - data files
  This package contains data files (icons, pixmaps, locales files) needed by
  the configuration applets in the gnome-control-center package.
 
 Package: gnome-control-center
 Architecture: amd64
-Version: 1:50.3-1
+Version: 1:51~beta-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4975
-Depends: accountsservice (>= 23.11.69), colord, desktop-base, desktop-file-utils, gnome-control-center-data (<< 1:51~), gnome-control-center-data (>= 1:50.3-1), gnome-desktop3-data, gnome-online-accounts (>= 3.51.0), gnome-settings-daemon (>= 48~rc), gsettings-desktop-schemas (>= 50~alpha), heif-gdk-pixbuf, heif-thumbnailer, libjxl-gdk-pixbuf, mutter-common (>= 47), tecla, upower, webp-pixbuf-loader, libaccountsservice0 (>= 23.13.9), libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord-gtk4-1t64 (>= 0.1.24), libcolord2 (>= 1.4.3), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-4-4 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.30.1), libglib2.0-0t64 (>= 2.83.0), libgnome-bg-4-2t64 (>= 3.27.90), libgnome-bluetooth-ui-3.0-13 (>= 42~beta), libgnome-desktop-4-2t64 (>= 3.33.4), libgnutls30t64 (>= 3.7.0), libgoa-1.0-0b (>= 3.51.0), libgoa-backend-1.0-2 (>= 3.51.0), libgraphene-1.0-0 (>= 1.5.4), libgsound0t64 (>= 1.0.1), libgtk-4-1 (>= 4.21), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libibus-1.0-5 (>= 1.5.2), libjson-glib-1.0-0 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmalcontent-0-0 (>= 0.13), libmm-glib0 (>= 1.16.6), libnm0 (>= 1.52.0), libnma-gtk4-0 (>= 1.8.34), libpango-1.0-0 (>= 1.37.2), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libsoup-3.0-0 (>= 3.0.3), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 1.90.6), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.20.0), libx11-6, libxml2-16 (>= 2.14.1)
+Installed-Size: 5121
+Depends: accountsservice (>= 23.11.69), colord, desktop-base, desktop-file-utils, gnome-control-center-data (<< 1:52~), gnome-control-center-data (>= 1:51~beta-1), gnome-desktop3-data, gnome-online-accounts (>= 3.51.0), gnome-settings-daemon (>= 48~rc), gsettings-desktop-schemas (>= 51~alpha), heif-gdk-pixbuf, heif-thumbnailer, libjxl-gdk-pixbuf, mutter-common (>= 47), tecla, upower, webp-pixbuf-loader, libaccountsservice0 (>= 23.13.9), libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord-gtk4-1t64 (>= 0.1.24), libcolord2 (>= 1.4.3), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-4-4 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.30.1), libglib2.0-0t64 (>= 2.83.0), libgnome-bg-4-2t64 (>= 51~alpha), libgnome-bluetooth-ui-3.0-13 (>= 42~beta), libgnome-desktop-4-2t64 (>= 51~alpha), libgnome-qr-gtk-4-0 (>= 51~alpha), libgnutls30t64 (>= 3.7.0), libgoa-1.0-0b (>= 3.51.0), libgoa-backend-1.0-2 (>= 3.51.0), libgraphene-1.0-0 (>= 1.5.4), libgsound0t64 (>= 1.0.1), libgtk-4-1 (>= 4.21.5), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libibus-1.0-5 (>= 1.5.2), libjson-glib-1.0-0 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmalcontent-0-0 (>= 0.13), libmm-glib0 (>= 1.16.6), libnm0 (>= 1.52.0), libnma-gtk4-0 (>= 1.8.34), libpango-1.0-0 (>= 1.37.2), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libsoup-3.0-0 (>= 3.0.3), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 1.90.6), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.20.0), libx11-6, libxml2-16 (>= 2.14.1)
 Recommends: cracklib-runtime, cups-pk-helper, fwupd, gnome-bluetooth-sendto, gnome-remote-desktop (>= 47), gnome-user-docs, gnome-user-share, iso-codes, libcanberra-pulse, libnss-myhostname, libspa-0.2-bluetooth | pulseaudio-module-bluetooth, malcontent-gui, mobile-broadband-provider-info, nm-connection-editor | network-manager-gnome (<< 1.36.0-3~), polkitd, power-profiles-daemon, realmd, rygel | rygel-tracker, system-config-printer-common
 Suggests: gnome-software | gnome-packagekit, gstreamer1.0-plugins-good
 Breaks: gnome-shell (<< 49)
-Filename: ./gnome-control-center_1%3a50.3-1_amd64.deb
-Size: 1925316
-MD5sum: 1bbf66164097b291b6e5adea7d5e05a1
-SHA1: 9cbdf5290a4dfa842a584e8b3e1806bc29f8b913
-SHA256: 1f41b0060f079810d50385cbc1ce4dabc652bbae86de21dc0b6d3231833f5a2a
-SHA512: 736da9a501df78c0ffab5b966ba5bed51cf03ed50740451012ca25803d59d10963da1b664658e660fdd29014eb7d20efdef3ae20f5d5c286e4526ef634c23bbe
+Filename: ./gnome-control-center_1%3a51~beta-1_amd64.deb
+Size: 1948032
+MD5sum: 5e1e3a46497454be66e9c07b99b29cf9
+SHA1: 9243dda59ca40109f83aa91fde7f1f5e73558e95
+SHA256: a7b73ff32e9f60ff35cd6be8587852ad3cfd0888670b9d3a0f3f166f54a32657
+SHA512: c90bfdbdf51feb9818fb7a915c97ff4f7b2572e4d3948360c9b0bcec96c86e05f389bae4a8392e703bb025297375a2684e3400f2e4d292fd5c9f51465b244369
 Description: utilities to configure the GNOME desktop
  This package contains configuration applets for the GNOME desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
@@ -17961,22 +17961,22 @@ Description: Library of the javascript bindings for the Cinnamon
 
 Package: libcloudproviders-dev
 Architecture: amd64
-Version: 0.4.0-2+b1
+Version: 0.4.0-3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: libcloudproviders (0.4.0-2)
+Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 243
-Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.0-2+b1)
-Depends: libcloudproviders0 (= 0.4.0-2+b1), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.0-2+b1), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
+Installed-Size: 242
+Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.0-3)
+Depends: libcloudproviders0 (= 0.4.0-3), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.0-3), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
 Suggests: libcloudproviders-doc
-Filename: ./libcloudproviders-dev_0.4.0-2+b1_amd64.deb
-Size: 18072
-MD5sum: e04829892ff0b6dc43f60fa11f3833f5
-SHA1: 8fc21abfb55d01cd590394e2af4cb9c6121c74f2
-SHA256: 006558865157bccbe8865b2e1e0f8c19fb2fc3a4d5a327a512cef533e003c8a0
-SHA512: 020ac1c40eafb8b81969ccf8a0036dd64d1aff453048a0a330c33be534c86bd81797a1e80d9957c4be6907443def1341551d92ba0dcffadae620ebe51a3601ff
+Filename: ./libcloudproviders-dev_0.4.0-3_amd64.deb
+Size: 17828
+MD5sum: 9abaea14a04e3c6ddd4f73618211255f
+SHA1: 51475dfddd6fe65f15a4a054b586af5c8a19344c
+SHA256: c03197f7cb5365038ef6eca250e8e7a25bb622c42562031676e09059f799a961
+SHA512: d2ce2eb70c5c1d8bd8213c8b99af15a20fa47a5cae4d5614e1496fe56020c6623af755d67f84b49c9848925160210413008929c013dd409dc6318a88b3ed6846
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - development files
  libcloudproviders is a glib based library that makes it easier to implement
@@ -17991,20 +17991,20 @@ Description: cloud provider library - development files
 
 Package: libcloudproviders0
 Architecture: amd64
-Version: 0.4.0-2+b1
+Version: 0.4.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libcloudproviders (0.4.0-2)
+Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 118
+Installed-Size: 117
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.56.0)
-Filename: ./libcloudproviders0_0.4.0-2+b1_amd64.deb
-Size: 29216
-MD5sum: 1b6b7ec4805fab4f8c3a4ac41a069213
-SHA1: 49348ab16846eaceed5f0e4870f62c170b3c64ac
-SHA256: c6da929f1a00eb152c248f95aa7c142d631c1482e877b06e1adbf0f22d13b18c
-SHA512: c33f0dbd1317dff041e9efc445562e1bf74307ce184eb67a538c429ffa72aa3fbb9568874e841172cfd006ee3826eef05e5812073d7a8ea39db15b389fc2a2fb
+Filename: ./libcloudproviders0_0.4.0-3_amd64.deb
+Size: 29500
+MD5sum: ea10d83c2d358d458d4cb242b63c1076
+SHA1: 13883ff385d8798f3c22ca5d6cc0be94509d3361
+SHA256: 8b8bce20229f86e69031d4e4ebd0399e7f63b1f6ae77abb00855538ac2453721
+SHA512: fe978b0902cf16076b830ca8b7bd10830ee5b44dc83250854b07f630ae88165f27a460be82450ddedfd2b6109e71d905f1aad94193eb1d343221d95acb2c7e0d
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library
  libcloudproviders is a glib based library that makes it easier to implement
@@ -22372,24 +22372,24 @@ Description: GObject based collection and utility library
 
 Package: libgegl-0.4-0t64
 Architecture: amd64
-Version: 1:0.4.70-3
+Version: 1:0.4.70-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 8615
-Provides: libgegl-0.4-0 (= 1:0.4.70-3)
-Depends: libgegl-common (>= 1:0.4.70-3), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
+Installed-Size: 8789
+Provides: libgegl-0.4-0 (= 1:0.4.70-4)
+Depends: libgegl-common (>= 1:0.4.70-4), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
 Suggests: graphviz
-Breaks: libgegl-0.4-0 (<< 1:0.4.70-3)
+Breaks: libgegl-0.4-0 (<< 1:0.4.70-4)
 Replaces: libgegl-0.4-0
-Filename: ./libgegl-0.4-0t64_1%3a0.4.70-3_amd64.deb
-Size: 1956456
-MD5sum: 2cdaee491a790fccb9aa0b1058f659b7
-SHA1: 31fb0a2d4bd47987f43fd90449b1b04cdb94ab32
-SHA256: 0ea415228f86cad133d594d7a32312cc1a75388c585838424f3871acc4bb51cd
-SHA512: 2e2d13e56b970a06f721d0ac7ab4e62b0a801700f47514bac0630aa09a37af0166589182d0813b2414176c8a9201278712800276b2f866c00be4c08cafdad34e
+Filename: ./libgegl-0.4-0t64_1%3a0.4.70-4_amd64.deb
+Size: 1985780
+MD5sum: 1a651c5d636f6fad2ce3aae06dfa9d7b
+SHA1: 891d55407ced469e8b46f469c6622ff148cc5569
+SHA256: 6f7ba05f142e3105dc16d0e63f036a4c908bb83d3db868bcfde6f16329423af4
+SHA512: 0becb48d50b269703d127f40e3abfb4845faa293e2a4af6d25b429ed0ce688dca705ed36d5b1f80b8d8e83e743394fa5fa130551e25d516e784077894925a93b
 Homepage: https://gegl.org/
 Description: Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -22401,19 +22401,19 @@ Description: Generic Graphics Library
 
 Package: libgegl-common
 Architecture: all
-Version: 1:0.4.70-3
+Version: 1:0.4.70-4
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: gegl
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 6148
-Filename: ./libgegl-common_1%3a0.4.70-3_all.deb
-Size: 930764
-MD5sum: 5e3903f576a5a3f0eafdbf764d966a3c
-SHA1: f147bb94df5d12593e5efe7fba5845943a299885
-SHA256: d09c1e4c18e365d03d96401fffc04493d91f388b3e94aac33708157e61b7ba9a
-SHA512: 6c723bb678fae145bbff1196bedbb9fc2f33470b9b7c9d6a78de81a6c02246ab4c237b68159ff832dbc0498d7097b8db4fee31b3c01ffec10cc1e6585192580b
+Filename: ./libgegl-common_1%3a0.4.70-4_all.deb
+Size: 929880
+MD5sum: 927862e1af8732ff67306ac426dd3b55
+SHA1: e4b377a7ef8d4ae543e64d6754dee6d0353c0619
+SHA256: 60275943f0e49ce5b667700be6400cb1d114ad2c82bee45057562a351050e7ac
+SHA512: 7752f9259e00ad96003286c74be2e7291672714d33b24bbef723202bb74d5d54751416818def67903311f6655cfc231fbf6139eaa28ffd5047551fcb589a6d72
 Homepage: https://gegl.org/
 Description: Generic Graphics Library - common files
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -23225,20 +23225,20 @@ Description: Utility library for the GNOME desktop - runtime files
 
 Package: libgnome-games-support-1-3
 Architecture: amd64
-Version: 1.8.2-7+b1
+Version: 1.8.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libgnome-games-support1 (1.8.2-7)
+Source: libgnome-games-support1
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 104
+Installed-Size: 107
 Depends: libgnome-games-support-common, libc6 (>= 2.38), libgee-0.8-2 (>= 0.8.3), libglib2.0-0t64 (>= 2.44.0), libgtk-3-0t64 (>= 3.19.12)
-Filename: ./libgnome-games-support-1-3_1.8.2-7+b1_amd64.deb
-Size: 29760
-MD5sum: a668f70e231d525979a3010217d06307
-SHA1: 910a7f8629bbebd1401f9420a22a4f771d92ed7e
-SHA256: 4819ad5d9dcc529cb944fc7cf48ffe9f40a6e43c983fab777b2bf14d36189fd6
-SHA512: acd08bc4a9a43211bb7ed700b0600b7232c8f96ae4b21406213168ce76891a3c1597f476740d6e001005c97697a034518472d31677538499afcefa4c2a7cfd24
+Filename: ./libgnome-games-support-1-3_1.8.2-8_amd64.deb
+Size: 30980
+MD5sum: 2a5b23b1e02e73ef2911cbf2622fa4da
+SHA1: 94ebe8a5abc96ae1686d420d56b635e24066b4af
+SHA256: 85775d1177c6917c49ad735d6ea28b67aeb9b8328e60620b9060943b416039e7
+SHA512: 7a526e8ff085722d4cb71da745df6e44967b1caad2c4b1dc155d529c3d469ae1ade2c61cc730608f902bc0e6ab13dc0df976fb2c581eef4222fcf5bee366a903
 Homepage: https://gitlab.gnome.org/GNOME/libgnome-games-support
 Description: library for common functions of GNOME games
  libgnome-games-support is a small library intended for internal use by the
@@ -23246,19 +23246,19 @@ Description: library for common functions of GNOME games
 
 Package: libgnome-games-support-common
 Architecture: all
-Version: 1.8.2-7
+Version: 1.8.2-8
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libgnome-games-support1
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 224
-Filename: ./libgnome-games-support-common_1.8.2-7_all.deb
-Size: 19932
-MD5sum: 93b582dd3f8e03ba5fdf48af5d238a5d
-SHA1: ad5f445f8c704c914d5ef3c490b39065b05d9eda
-SHA256: 766824e4874b4b2b9544fdbaadf7b1e711d514b6cc5cbce652948884c837c32c
-SHA512: f88426a244b414a3f7ff6d1a575c619f5114b9b5408571b8673e0f0f41bacb112dea30e42e3d1bda3e0117c08430785a345977f4b4dd2be61d23e16f51181205
+Installed-Size: 231
+Filename: ./libgnome-games-support-common_1.8.2-8_all.deb
+Size: 20160
+MD5sum: d2a1336b419ee84f3392a4ae09f335f2
+SHA1: 760f93ebee56f525e068460764705c9d750f3ae5
+SHA256: eb15da9bc81d4c116187ff1a95c1a27ce9b0d45f5c11e051f124df3ef1de0dd1
+SHA512: 555ef9151d7b0ef97f0ed029192b40c45109041904fcdd8c1fe281ecdc5538aa4e881766b8aef4f8ff4ae5f591ba33926853c94db4274b22523f9b42b1f9fcbe
 Homepage: https://gitlab.gnome.org/GNOME/libgnome-games-support
 Description: library for common functions of GNOME games (common files)
  libgnome-games-support is a small library intended for internal use by the
@@ -32908,20 +32908,20 @@ Description: lightweight KMS plane library
 
 Package: liblightdm-gobject-1-0
 Architecture: amd64
-Version: 1.32.0-7+b1
+Version: 1.33.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: lightdm (1.32.0-7)
+Source: lightdm
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 155
+Installed-Size: 159
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libx11-6, libxklavier16 (>= 5.0)
-Filename: ./liblightdm-gobject-1-0_1.32.0-7+b1_amd64.deb
-Size: 56480
-MD5sum: 619403c65c067e4b99a4d91ba8fcfb02
-SHA1: 4aa0590d144cc6914fd0ccff29d43c05876ec5cf
-SHA256: 989556d6beefe7814577cbccaa5d44be79be93a8cba4637f745ce72a0cc237cc
-SHA512: 82534084f6d7fbda6ef88536e4c4f9f674ac0130a0f40f61b7438e54736565a58466d7509fd672139a6fb3f7453dd57fd0893888f11ffdab80fb387b6ac2f30c
+Filename: ./liblightdm-gobject-1-0_1.33.0-1_amd64.deb
+Size: 58540
+MD5sum: 1357cc7614e9a4666d9d6c2169569d94
+SHA1: ee407459656f8ef3fa52e87d3c4744836470d259
+SHA256: 21f66d1570f941503238607939734bfe67b862e96070e23568398e67a183d7b8
+SHA512: d78a244adb58b8fa5b4933e69a0104e90f2e7c99090a33dfa884ab58091e9b1f6972f01f683981cf7f1c2aafe6101f3726f03a7b799aa830b8c4409a5cd01071
 Homepage: https://discourse.ubuntu.com/c/light-dm/107
 Description: simple display manager (GObject library)
  This package contains the GObject library for lightdm, used by the GTK+
@@ -52150,22 +52150,21 @@ Description: simple display manager (GTK+ greeter)
 
 Package: lightdm
 Architecture: amd64
-Version: 1.32.0-7+b1
+Version: 1.33.0-1
 Priority: optional
 Section: x11
-Source: lightdm (1.32.0-7)
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 817
+Installed-Size: 831
 Provides: x-display-manager
-Depends: adduser, default-dbus-system-bus | dbus-system-bus, libpam-systemd | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6 (>= 1:1.1.5)
+Depends: adduser, default-dbus-system-bus | dbus-system-bus, default-logind | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6 (>= 1:1.1.5)
 Recommends: xserver-xorg
 Suggests: accountsservice, upower, xserver-xephyr
-Filename: ./lightdm_1.32.0-7+b1_amd64.deb
-Size: 164464
-MD5sum: 592b6a131c92cf3282d9874da8cff151
-SHA1: 335b23e27578c430593473c073d467549d4e7995
-SHA256: 049a576242d7dd0407eca0bd551ccc51233f6f38f95e5d43b0b5322e46eb4750
-SHA512: d67d45684ba3152d83f2466d1944765e81b0937ccb78414c6144c820cdeb4522f7f3cb4ea844626579af3c1a1a34ddcd36872ca7087eecf223f3ee62ab8cf5ef
+Filename: ./lightdm_1.33.0-1_amd64.deb
+Size: 171248
+MD5sum: 125556c911f7a838e57fea6ba9ffaad4
+SHA1: 0a3932b52e89766f4016ab9f6256aef47a686f15
+SHA256: d15951f63ebfbd74f90a2942ea0e0a44179ea06cf3561e7a0ae2b2e84e18caed
+SHA512: 07ce17bd53b1b0bf46bccf6b70e3ea8b4e5afbeff8036e1274f3af63e2434524f1ec8f66005b1d39c98738b26d3030635e48556022cf1621f220fd9db6cbc479
 Homepage: https://discourse.ubuntu.com/c/light-dm/107
 Description: simple display manager
  An X display manager that:
