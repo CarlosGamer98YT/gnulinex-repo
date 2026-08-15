@@ -6690,7 +6690,7 @@ Description: Adjust display hue to outside lighting conditions
 
 Package: gcc-16-base
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -6698,12 +6698,12 @@ Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 105
 Breaks: gnat (<< 7)
-Filename: ./gcc-16-base_16.1.0-3_amd64.deb
-Size: 37508
-MD5sum: 8dbc7d8d06fea5b7242727a1a673da62
-SHA1: c04b0a24b0bd68d89f7ebab87a6ba5156b3c451a
-SHA256: 3ab61c8321d5b428d7c3a0b5ccab843542f2975cf9854cd286b9870f25d50c1b
-SHA512: 2a217ac23a7315ac4752fc83442f20068ce0d89129d40881d9cccff1c1d461db74f249b2f3744113747036774f7538e9150fa9e418643fe4636a9436768ee696
+Filename: ./gcc-16-base_16.2.0-1_amd64.deb
+Size: 37984
+MD5sum: df5d4290b975c1102d91f936e6c3f841
+SHA1: 60d9f5a4056316be2eb58428827bcc5c820a9ad2
+SHA256: 2c83b8b5a3ebe4431ca1f8f20370af04f8e80ca5a8726afd56f3fa1523f83e16
+SHA512: a7244635fb87e3e51cf006f7927f5969e8481fde741b14e47fd92cb582ad64b911502ed76e09f618b360a458bffb096185462f7cc58bb7fd79772ec308bf8198
 Homepage: https://gcc.gnu.org/
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
@@ -15695,20 +15695,20 @@ Description: Apache Arrow data processing library
 
 Package: libasan8
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 11299
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libasan8_16.1.0-3_amd64.deb
-Size: 2888908
-MD5sum: 9739797aeaff364782eac06eaa2fb637
-SHA1: fdda372bf7e69b9d3b9f8d5a8adb4bdbf16fe751
-SHA256: 4c2828bfb52a03f814466098e69704dbeb40620b1f44394437a65f87ff6461b4
-SHA512: a92c2daa0d567ef68e059097792068f96276d6cedd5e5181d512b14be7b21c6c22aba3bae39a44d281243d5d862c9fc608f5f7c6ef1a6d8b48ac17427faf2fea
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libasan8_16.2.0-1_amd64.deb
+Size: 2889016
+MD5sum: f7ddaf798c210a710eae5e6fab7cece6
+SHA1: 51052cd381745199f431d04652fdce8f653750d3
+SHA256: bc0ea89095da58424dc156de953231ae809e21e307e524879f6d59b2d5d8915e
+SHA512: 951c9d0db72df36471a3d17b233eeb11db8c6af13eaa3169a6600f45db632365ee344cf073614f4637c4f666f5c3c372ac87ca0eed431b7ec07bea9a7b3b2174
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
@@ -16018,20 +16018,20 @@ Description: Development files for the ATK accessibility toolkit
 
 Package: libatomic1
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 49
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.14)
-Filename: ./libatomic1_16.1.0-3_amd64.deb
-Size: 10400
-MD5sum: 4c50eef4fef4db42b90f763df6365873
-SHA1: 1e8a95b4015dfcc964f509bddbeb2e0eff22ff6f
-SHA256: 4033832e95e8be6acae307a025420fc1a810365614c8472c591cb204a00a0853
-SHA512: 5cde4678d7412a7ee5b0ff9b7096d6b11bd196ff70c0a101806c4a7eb6e2a95ca256e61863e72951d5c69520a2d42c75c4ec68fa6dc4c6347a01c94ad37081e7
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.14)
+Filename: ./libatomic1_16.2.0-1_amd64.deb
+Size: 10404
+MD5sum: d93e04976e1a79e63abbf39fc1990359
+SHA1: 498a2195b4571d05d11357263398371a5542bcf5
+SHA256: e73093bae9f29771425780a07b674eb8c2ef6036c2d6563d299a34f8120a4593
+SHA512: 998e64ae81751a2ddbfb823e2b478e2eb4f77f5327c504c321707f051ca4944740ad52e286c883db351342c561735067930120f9fcd4ac083cc6efbf8a386b2f
 Homepage: https://gcc.gnu.org/
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
@@ -17760,20 +17760,20 @@ Description: Configurable on screen keyboard with scanning mode - library
 
 Package: libcc1-0
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 148
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libcc1-0_16.1.0-3_amd64.deb
-Size: 46044
-MD5sum: bac61c26b4dae58b9beb55808c8b0679
-SHA1: d77f43ad12f03f47663a2efe0ec2ba80d4758ac0
-SHA256: fc48d74ca43feb0ae1eda5f4b74f9fd520fa0d6d3d859428332a92283b0d2d69
-SHA512: 860daf52163bd3706b3c1e31a722c4d853327b985243b2729411127616898c589ff3c01295019dbc4dff7ccd00771127bcc8be4b6f8012d22b90f4dd8d705aa9
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libcc1-0_16.2.0-1_amd64.deb
+Size: 46164
+MD5sum: bcd8740646b409aef148e5a14163512f
+SHA1: e9bb507e444fe7fd46c6cf32c44a59ef8a92c2ab
+SHA256: 834a31a138d69f957f846b0efc5a552cdf204b92906e88d817060cc54338ec80
+SHA512: 8410d504485f91b84248fb6b10dd1c2872794b748bcb2a862d1350f02c497f69059b239b1312325a1981c83a7ed3bef60e482e864dbe3aa9717e8e192140abb7
 Homepage: https://gcc.gnu.org/
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
@@ -21819,7 +21819,7 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgcc-s1
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Protected: yes
@@ -21828,15 +21828,15 @@ Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 197
-Provides: libgcc1 (= 1:16.1.0-3)
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.35)
+Provides: libgcc1 (= 1:16.2.0-1)
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.35)
 Replaces: libgcc1 (<< 1:10)
-Filename: ./libgcc-s1_16.1.0-3_amd64.deb
-Size: 74116
-MD5sum: 24bae8371e2e0163ab0666c0624bb26f
-SHA1: 65ee637af4d1461990da50d810b2bb8bbf053f30
-SHA256: 820799aced43edcc1f7fd0a32edabc8761de90ac5fd15b515b86bbd0d237c590
-SHA512: b988464b9f357724e54aa8b4442ce781b7bd56b6a4699b9c63a9cea9163f33522c5a33fb18ce247d7aa4468d5a47fe36bfde095ed5983c4a04539ac87679b1a3
+Filename: ./libgcc-s1_16.2.0-1_amd64.deb
+Size: 74112
+MD5sum: e92d5a33d5f961cd274fd39643fec50f
+SHA1: a4f92528472dec4a01242c5e61dd61728114821f
+SHA256: 9c41e1c5492be427c847d6ef9c7929be7e4f05f7af5b1054aa5180103e958c12
+SHA512: a4a98e9b14324a83a6195c383ff085fb5acf4dd00658c5db6c267a823730f3016b1f3b4a5d1aed3caf892d2662df5c2251b3af2d928b7e95f99656514ae47f56
 Homepage: https://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
@@ -22535,21 +22535,21 @@ Description: GObject-based wrapper around the Exiv2 library
 
 Package: libgfortran5
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3530
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgfortran5_16.1.0-3_amd64.deb
-Size: 877924
-MD5sum: f04591c7d6de203bbcaacb04082fcfb4
-SHA1: e962e655b722553942ce20c5f8f4330b8c369ea5
-SHA256: 5d31a58bd517ed656434795e7d244cce2e6fc25841c649517bf435925072d909
-SHA512: d0844418dd9f84c838c7d3c81f734b03da116c2cd3bb7ac9f749b2f8ce55aec5ab45cb6b4d6fc44822109ecf364131ed142281e5c0ad958b168834f0e6739f29
+Filename: ./libgfortran5_16.2.0-1_amd64.deb
+Size: 878116
+MD5sum: 5de1257fb9f3fe3ec89176e5779085f0
+SHA1: 910486b891eb3007551aac115cb75a935a602aff
+SHA256: 3ca9f191dbd938681d9ab7fe8827e7d6d6b628d2ddbed1069b796c741bab30a3
+SHA512: 244b3d48b496864f6789e9b983c77816f751d92840719d7d6a9ec7546220db87c46746e928ff4839244eddeeba7969e2c6f8e9bcc817de57273e7574951c8cff
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
  Library needed for GNU Fortran applications linked against the
@@ -23467,21 +23467,21 @@ Description: Object mapper from GObjects to SQLite
 
 Package: libgomp1
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 402
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38)
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgomp1_16.1.0-3_amd64.deb
-Size: 151160
-MD5sum: e399c636b89af15537d13a805acc4c71
-SHA1: eaf63ede1c1004daf3d24bfec4424d681e06e456
-SHA256: 3e87821d88a7522b6e9e86b1d3d8561c6ef9ec72085c000ffe6d72161e954d9c
-SHA512: 9ba8390b72ac2ddd23d92f685e073d0011f2ffc6bedab705024784591556d1ba354ec32bf14c61f9c46e47886c0145f0eb3b0244c9dadd10e4154c01db537335
+Filename: ./libgomp1_16.2.0-1_amd64.deb
+Size: 151448
+MD5sum: 9cede8f831e7f72adaed7847cd191c57
+SHA1: 8e42b44da859cc046c9888aa14ae5f7dee38e54b
+SHA256: 07fb753348b98e18b40b0ebf81c83a468bde7a3d312fb6cd44700b6ab28f607a
+SHA512: 1e627a03a36ea4d42daafcb80744f22bd4c99186344911aef1a4f0313aff7f4310ebb18a42c260e60a99dd0447fa31444f589894760b9ed9d13f3adade64b0fc
 Homepage: https://gcc.gnu.org/
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
@@ -25310,20 +25310,20 @@ Description: spell checker and morphological analyzer (shared library)
 
 Package: libhwasan0
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 5089
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libhwasan0_16.1.0-3_amd64.deb
-Size: 1580136
-MD5sum: 3753d0319ebf13700783beb8826000c1
-SHA1: 9c90236ee12bcfc286dc6e75630baf4c75a0e57a
-SHA256: b14e989fdd6e38ee02d8e3cb7b4416331964a5b8077b2879193caf42ba7042c1
-SHA512: 90429741293c38f57e64c515db074b5e0a96213b64eb8e4453caa37353263e26af4ab1d5f208a99cabdb570a443a48d2616cf55e06c019c6b3074f26fbee61c0
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libhwasan0_16.2.0-1_amd64.deb
+Size: 1580084
+MD5sum: f8b4fb98a419bd0f2a8b81f20555668c
+SHA1: ea8426f0e488767220f351b495d93987b8af34aa
+SHA256: fb1f2ec2e1ec040f7df165b0c4ae2e878102ba6c33ef0f36c6fa59d2e423f47e
+SHA512: 6cac5646648c97956fd34c44f8d66758a1df490946f99718ccf92025f2c2060831ae3a26451bfce575789a08aaec3038a0f9563651951671893a7af4fb56e3d2
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (HWASan) is a fast memory error detector.  It finds
@@ -25760,20 +25760,20 @@ Description: Java Library to create and manipulate PDF on the fly
 
 Package: libitm1
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 115
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34)
-Filename: ./libitm1_16.1.0-3_amd64.deb
-Size: 26952
-MD5sum: d4a8219fd7c13f1de3e78b945d3a00ac
-SHA1: 529fcbfdaf19aeb2c4b9a8232c5a8f78c6a15679
-SHA256: bd8a4d57b3700a6ff07446669db4e1e64a195d2df0f92ea9d29322006ae23ec5
-SHA512: 8f3f0654c2b67ee0832cf54f8be03d2f15d04d589c41a8fb195d193a6145c16ca68515836c9b1b02b445b289f7ebdda3ad102dae88599d200b4d43a3c1f1dd46
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34)
+Filename: ./libitm1_16.2.0-1_amd64.deb
+Size: 26968
+MD5sum: 1dc59840929588b17c24830e1dd861b8
+SHA1: 0e7365751f665fe83d0a93ace1b594dde2058377
+SHA256: 53f2cbcf1cd8e9d809c462dfacf921b0d237d2ecbbec7fdead1c68736e130fe9
+SHA512: 3e32a15e86a1b5f2ad11305a86554700fec4907f410262a226da15dbdbc577c7723e098e9746a2563432af734b832af33571fcb9c4d66de868d93173312d935f
 Homepage: https://gcc.gnu.org/
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
@@ -32952,20 +32952,20 @@ Description: Java general purpose resource loading framework
 
 Package: liblsan0
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3977
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./liblsan0_16.1.0-3_amd64.deb
-Size: 1280344
-MD5sum: 922b92827fbb3faf83c06bdff9145fff
-SHA1: ea52a994a3deea5740de6d69cb86f75d68c10fcd
-SHA256: be27a2ddef4a6538559e9d76ae0cb641471efc1dc512818e5e3183f569761f75
-SHA512: 31291f093b331c628ba43faa99759a10c6112245d010e8381b4ad57ee60772e9f4a1b6665793e2c20bd8ed7535410abad6a3191be755a45eb1f0d63dd778079b
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./liblsan0_16.2.0-1_amd64.deb
+Size: 1280476
+MD5sum: 9584924502896d84cdf3e88d7822f11c
+SHA1: 958e6e65a0da3a7e38d053a3c8215a1b09f6b37a
+SHA256: 3dc2d3f43d39af159405d31eb6332e382a39f634507a42be5491c3efd0db04bf
+SHA512: ae43d0c8ed507c154a78f602dba9438426b10221a0117470644de5d7528a2a2aed1315815def222f3324145b448b8b7884cde7fcb214c3929ba359743c111e3c
 Homepage: https://gcc.gnu.org/
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
@@ -35239,20 +35239,20 @@ Description: C library implementing OAuth Core 1.0a API (runtime)
 
 Package: libobjc4
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 209
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
-Filename: ./libobjc4_16.1.0-3_amd64.deb
-Size: 45200
-MD5sum: aad4c73c42c6283627ea04168ff2a659
-SHA1: 22af319ac60dd210db72280cd26c0978e0ba20b4
-SHA256: 6920048210f2cf6568c05574ef5a56e3fb7131f269fd692788755e38122922b0
-SHA512: 9418e0a3cf83c838d3eba3369dd8bae143a4491b4c3308b1529996cfeb5681e6a1727bc92bb41ffb9e01ac57ff5ab506bc07fbf1eafc75cf3ef4a4750c400f0b
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
+Filename: ./libobjc4_16.2.0-1_amd64.deb
+Size: 44884
+MD5sum: ae289ab1383295c0bde85ae4f8600d89
+SHA1: d056683bc1f19150385ea84840454e65e952ff68
+SHA256: 5cf94ecee87db55efad4f16d7e4f59d396147e20257c4792ad62f80a6d1ffc36
+SHA512: 0ed7131b2c58eaa92be0581759dacd1077e0e76dcc99b87b59522cca3065b2039bc180472d38dde3f7dd64f12787a1c941c4a10a32fc5713745bd6a82eea1c55
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
@@ -39454,20 +39454,20 @@ Description: Terminal emulator widget for Qt 6 (shared libraries)
 
 Package: libquadmath0
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 300
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38)
-Filename: ./libquadmath0_16.1.0-3_amd64.deb
-Size: 147568
-MD5sum: c8a4dabcea3cef428264d6ca08dc3675
-SHA1: ea6d4d272513d143cd7aac19f56c0ec724bc4102
-SHA256: bb1e7a6288c562cdf874b79e2e6369c3137d4fed5a455f1e7338364aa8f15a2c
-SHA512: 011becd8fc4da192f40ee0360bc15d7ffee5736af124b0816136da8d16bd8674d599b04626498f372c5268c2f587b7517e64b16dd859b8b686ea3a01e42eda83
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38)
+Filename: ./libquadmath0_16.2.0-1_amd64.deb
+Size: 147696
+MD5sum: 000faceebe740d5e4711933b02aa6be4
+SHA1: 7a7b176edde3bb8079555b1fb8ec57dffc25803c
+SHA256: 84ac5039a25bf4d0d38a65c899f9f8353f372abb68339ec4c04fcfad5ee16263
+SHA512: f6632f901f6ca340af3e779b188bf735cc018c2c3540475c71024f63ab2790407e6dd4588b5b04d089134005485744be9479e8caf2ccdbc89771df2a626656d8
 Homepage: https://gcc.gnu.org/
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
@@ -47589,23 +47589,23 @@ Description: library being useful interface to system statistics
 
 Package: libstdc++6
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 3311
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Installed-Size: 3320
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Replaces: libstdc++6-16-dbg (<< 4.9.0-3)
-Filename: ./libstdc++6_16.1.0-3_amd64.deb
-Size: 822260
-MD5sum: 4dda508769e4689a843571bed7253391
-SHA1: e7584822d22461c39f24ab95b2a8acf358b83038
-SHA256: f173c9a44daa0206e6c943202eb9d7c46d5817565dfbd10af16877ce0cefe585
-SHA512: 69c933e9a680c034579ef77459446f360363854c1f90e8a1e3894f97c1939625ddf9a2e73f236863e06c133c955914b8cbb0c0cc4c0c731f32d5278f51a33e93
+Filename: ./libstdc++6_16.2.0-1_amd64.deb
+Size: 823688
+MD5sum: 59f29e3625c9a86f5f84b34bb7fa927f
+SHA1: 2a85a29b6d5638843a7f63d8f039ca60fef8bbcd
+SHA256: fc0706f1e0ab327dfa3495d227b6bfd719d10803477b7503769cc75a161a619e
+SHA512: 5325f6df7b178ffa6ae9678737c829af48b547d475522bdcae32a9fb9aa88f5b89016a8eb7390aeeb7054f0920372d2b80c63b77b480a01b67cd5bf390eff314
 Homepage: https://gcc.gnu.org/
 Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
@@ -48527,20 +48527,20 @@ Description: Main library for the Totem media player
 
 Package: libtsan2
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 9182
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
-Filename: ./libtsan2_16.1.0-3_amd64.deb
-Size: 2572908
-MD5sum: b562c854cd14e0da86c00a1bf6a58c2b
-SHA1: a9d5edbb9e4528174593bacc50b7eaa19ac8bb75
-SHA256: 139a7727245399925903b788be32548d9523f25080757d5e25ddc7e9835e0914
-SHA512: 90b8dccb593df77c56c1b5f0d6cbd56dc13099270815143cc8060cd7360059558b4f8c3847245f607b290140cea605c23c1d0b3c8a4facf99feff757a4c243b7
+Installed-Size: 9181
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
+Filename: ./libtsan2_16.2.0-1_amd64.deb
+Size: 2572728
+MD5sum: f0e8068bdc2bdce93955a90facd2eabf
+SHA1: 8c7869c2c729f55341f1cd9c13034355e1782de2
+SHA256: 6b2d2e6eb50f3c14bbbee53cd13760510b14bee8bae2f1860a00904ac457fb0f
+SHA512: e3366094a97f80b01522973ca084035033f38c55312265d7abb2199a7293e981965a1dc63c216ff9621d8d4480a071d3a4fcc2efbe899777b952fa9c2fa6e3dd
 Homepage: https://gcc.gnu.org/
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
@@ -49003,20 +49003,20 @@ Description: TurboJPEG runtime library - SIMD optimized
 
 Package: libubsan1
 Architecture: amd64
-Version: 16.1.0-3
+Version: 16.2.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3483
-Depends: gcc-16-base (= 16.1.0-3), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
-Filename: ./libubsan1_16.1.0-3_amd64.deb
-Size: 1136356
-MD5sum: 51ba98882b33c4294cca330fa7f7b7eb
-SHA1: a62ec0ee507642a8512ae7395526a672b7677954
-SHA256: 122532cf82e2ac684963081a009a20cbad8e52716ae5b7547fe265cc28ca2064
-SHA512: c2e81bb11c96272d252e543e35864834949851f60b50d0476ef028c9b2fd3f2aef7ebb7f412eeb00276b528bcc0c5c3eaaeda6812d7f744f93671dc67fa53561
+Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
+Filename: ./libubsan1_16.2.0-1_amd64.deb
+Size: 1136120
+MD5sum: 3e3f3f166f7cba759a18f1db812866c6
+SHA1: ea3aef6653f23e3f76d19464618a9607f999d0af
+SHA256: 91caaea38352356b23f245d8911a2dc53688db6c6395458c58d0b417421b3d62
+SHA512: 14804a4737ac5be249414039a362f2bf057727560e14ebda2f088243534d209ec7707fcc425610b9096dc91e004662a4c4148d3e91d7d342cd0b15f655cc2ce6
 Homepage: https://gcc.gnu.org/
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
