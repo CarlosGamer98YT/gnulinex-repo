@@ -18240,19 +18240,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.1.7-1
+Version: 7.1.8-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 423
+Installed-Size: 433
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.1.7-1_amd64.deb
-Size: 386500
-MD5sum: bffa63db96d208622dadabf0d9063b0b
-SHA1: 55d27fb2d3c573bc6ddcb325b88f541ced796a8c
-SHA256: e14278853e351a61eec5cc5f9301526e6b5760126955ae1097201b93727abbb6
-SHA512: ff58f587c3d48ce516c4cf888cf127b55900c591e0fd09bd23e80cbb2f3659948c2aab49cabd686e8990cded8bad82a3c1a1697916416f6f33c9647266d3abbd
+Filename: ./libcpupower1_7.1.8-1_amd64.deb
+Size: 396588
+MD5sum: cd0fa8d1c389f0b9ae0fe97b12e835f6
+SHA1: 89d23697e1bfe59d99d06693e9d708320e146ec1
+SHA256: 8fb0bccbe2979dcc021d335e236b7f1a73a36888a1985a588f47a48642ae18eb
+SHA512: 44a266dda0884463368d3f7aa50f774b168650a58d1642737351407d7434d1e1b13a450964b80196d9c1ec8a856cb07b7ef63e4f845bcd63d8dadd7351520e8a
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
@@ -59513,19 +59513,19 @@ Description: module for manipulating POSIX.1e ACLs (Python3 version)
 
 Package: python3-pyqt6.sip
 Architecture: amd64
-Version: 13.11.1-1
+Version: 13.12.0-1
 Priority: optional
 Section: python
 Source: pyqt6-sip
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 316
+Installed-Size: 331
 Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4)
-Filename: ./python3-pyqt6.sip_13.11.1-1_amd64.deb
-Size: 66880
-MD5sum: a9702cce73f1efe3cf3ff0407fcd5109
-SHA1: 31ce2df5d7ab0e3603e10aae11b08d3765c67b15
-SHA256: fdb0bce1da886ffe355c4d864fb64b831fb43904b190a42de711bc0181805fa3
-SHA512: 32e6f60a7245e3cb3f704f0993536c47995f5968606c12b18348a4cc479295ec1a5fee1581b0dc520c9df4ff1c1f73eb4dd438385a10571d573fd824ae1c3a86
+Filename: ./python3-pyqt6.sip_13.12.0-1_amd64.deb
+Size: 72988
+MD5sum: 31039d1ce516c0400f7fd39757eedbe2
+SHA1: 5b9caced061e8a31d8832ba36bbbd699f5984c40
+SHA256: 783220be9c59646b8712b3e690908a2845dced36ef5db86c7d2c92cc5d33b9b8
+SHA512: f8514893c7ac0f21c04f7e9476bb40a791375f3c03904f0096487eca9f71ac402fe9dde0432258fb89f93ca59cafc92817f0e3470aa2635429303340166039bf
 Homepage: https://github.com/Python-SIP/sip
 Description: runtime module for Python extensions using SIP
  SIP is a collection of tools that makes it very easy to create Python bindings
