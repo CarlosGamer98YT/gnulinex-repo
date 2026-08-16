@@ -8853,20 +8853,20 @@ Description: libraries for nemo components - gir bindings
 
 Package: gir1.2-nm-1.0
 Architecture: amd64
-Version: 1.56.1-1
+Version: 1.58.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: network-manager
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 374
-Depends: gir1.2-gio-2.0, libnm0 (>= 1.56.1)
-Filename: ./gir1.2-nm-1.0_1.56.1-1_amd64.deb
-Size: 84444
-MD5sum: 244bfa6c605c30fab58ad62596b05848
-SHA1: 975c631718e448d4101f485f43fdfd5f3dee1ac3
-SHA256: 1dfe71038699ddf1821ff0e92db93e04d6baf580a0b023ef142113bb209faa0c
-SHA512: a58d29d779c6cfed612777e112e0a5a588c2b4fb7258dd39179a7b969643bd6e3cb162bca671b7fd13babb97ab4072c3032497739646d82acbb92615797fd61c
+Installed-Size: 376
+Depends: gir1.2-gio-2.0, libnm0 (>= 1.58.0)
+Filename: ./gir1.2-nm-1.0_1.58.0-2_amd64.deb
+Size: 84936
+MD5sum: f1702338cf125c9d0f3ccd5e8be24cf4
+SHA1: 61696cc73e0bc91ec492d4577bca5e0b35ff4df5
+SHA256: 864d7d39cadd6f8bf6cef37e94806b17d74a0711576df9f973e47570c0a1d051
+SHA512: 5d63ad2595ee243b751ee351f9491f34822182eb3211d4dae4923a460074f7f04db6c18503c8fb37c6c141e1487db512dacdccea51d545be2603e49ae2ada4bb
 Homepage: https://networkmanager.dev/
 Description: GObject introspection data for the libnm library
  NetworkManager is a system network service that manages your network devices
@@ -34829,7 +34829,7 @@ Description: library for dealing with netlink sockets - route interface
 
 Package: libnm0
 Architecture: amd64
-Version: 1.56.1-1
+Version: 1.58.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34837,39 +34837,12 @@ Source: network-manager
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 1633
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.44.0), libgnutls30t64 (>= 3.7.2), libudev1 (>= 183)
-Filename: ./libnm0_1.56.1-1_amd64.deb
-Size: 470140
-MD5sum: d4b8f1d15099766c6e21a39eb3cc41c0
-SHA1: a610b4b11369d997e866781754b69e7998e12119
-SHA256: f89e28125b754ab382c197b736e9214f6e7b11018d35aa6b16184cbc72f665c7
-SHA512: 1b764a941ba35f5043a5f6f95c59f0aab7f6529d137221e8fe1ceec2073f339e883891240475ded011b04491cc1a643dc8c36daf4291f5784aa2761ac56c1506
-Homepage: https://networkmanager.dev/
-Description: GObject-based client library for NetworkManager
- NetworkManager is a system network service that manages your network devices
- and connections, attempting to keep active network connectivity when
- available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
- devices, and provides VPN integration with a variety of different VPN
- services.
- .
- This package contains a convenience library to ease the access to
- NetworkManager.
-
-Package: libnm0
-Architecture: i386
-Version: 1.56.1-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: network-manager
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 1728
-Depends: libc6 (>= 2.42), libglib2.0-0t64 (>= 2.44.0), libgnutls30t64 (>= 3.7.2), libudev1 (>= 183)
-Filename: ./libnm0_1.56.1-1_i386.deb
-Size: 484496
-MD5sum: dec71aee7a8b1d119908f9c0f0c12256
-SHA1: 491af81fc611151228920b09a92df7b838ef4ceb
-SHA256: 070e1d7061c514674bfa084aeec7ff0482f8a74d661c413c46255dad03c559e3
-SHA512: f1cbe8d1be84e867ef555a35cad90c5852501a3100a9aa534da573c4934393ccc66ca5e7a22d1c6680355269d984df3062958eea96e69d6f218e4d5564cad284
+Filename: ./libnm0_1.58.0-2_amd64.deb
+Size: 472124
+MD5sum: 836283bec49434c727804e0397e4f573
+SHA1: 7c9b3dff381bc4d294f35643c50b9cd21961b6ab
+SHA256: ab798afa3d7bdf5a061e18ff5bdab673ecd829795f25bd762a887b7f59230ad2
+SHA512: 10d237d810b06629d737bb037bb6f4104e4b17ff7b5f21d3a114bf509f9fd7c4cff8e2a44e468f59a51ef9ca7856981d21a077346cbfd6d5af83fe3d785d5293
 Homepage: https://networkmanager.dev/
 Description: GObject-based client library for NetworkManager
  NetworkManager is a system network service that manages your network devices
@@ -56113,21 +56086,21 @@ Description: transitional package for network-manager-applet and nm-connection-e
 
 Package: network-manager-l10n
 Architecture: all
-Version: 1.56.1-1
+Version: 1.58.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: network-manager
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 8783
+Installed-Size: 11056
 Breaks: network-manager (<< 1.52.0-3~)
 Replaces: network-manager (<< 1.52.0-3~)
-Filename: ./network-manager-l10n_1.56.1-1_all.deb
-Size: 1245864
-MD5sum: 393ab3c12498c3441128f4c06d07003b
-SHA1: cae278f581f6c4deea34917ae1b7fd5b44aa9b91
-SHA256: fa24845db7f347bfbc8c50ed835759231061e32f99994c46bb02d7e73d2192b0
-SHA512: dd6ccd840871f0ea0e472eea0199ddcf2ffe46f2325f384fd44a4ca6601d982e0c81191c308e2de5b489f62c266da390a719df38871a3a34b5bd36ee16cb1ad7
+Filename: ./network-manager-l10n_1.58.0-2_all.deb
+Size: 1492180
+MD5sum: 58c1abf0c7c04f4e0b3181aebc92f464
+SHA1: 59cc1b3676b46c281b857c7023948b707ec9e2d6
+SHA256: a38a093a751d3b6d6f98d69a6658f3ce129b5a3a526f09a08c838e93892e4a02
+SHA512: 4c58487a325e3111d41bdaeb6bfb0484bfe6113365fab27f8762b51c53cf312dbfddebf90df9d0e8766e4c9dd6ff4ab4aece6bba2ce469b21fb17b21e5973c82
 Homepage: https://networkmanager.dev/
 Description: network management framework (translation files)
  This package provides translations for messages of the programs found in the
@@ -56135,21 +56108,21 @@ Description: network management framework (translation files)
 
 Package: network-manager-tui
 Architecture: amd64
-Version: 1.56.1-1
+Version: 1.58.0-2
 Priority: optional
 Section: net
 Source: network-manager
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 868
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.44.0), libnewt0.52 (>= 0.52.25), libnm0 (= 1.56.1-1)
+Installed-Size: 900
+Depends: libnm0 (= 1.58.0-2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.44.0), libnewt0.52 (>= 0.52.25), libslang2 (>= 2.2.4)
 Breaks: network-manager (<< 1.56.0-4~)
 Replaces: network-manager (<< 1.56.0-4~)
-Filename: ./network-manager-tui_1.56.1-1_amd64.deb
-Size: 211052
-MD5sum: 7196a8c2386224e5e01c1e9b11d94c4e
-SHA1: 21408c01e44bdd4bd6c984203d6ac68e74d57732
-SHA256: 0a9ae2d1c255f099f7a44f01faaf42bc01921fb324e52d7d0d507277252335bc
-SHA512: 81fe2b81ff470b11c8ebbdc2a9a3a606e02eef52909bd34b924c0e4a2cf956e6dc63b0c837c0c3e77e5e1ae9418730affce72103ee6545cb4ea5e69b7b1dbbcd
+Filename: ./network-manager-tui_1.58.0-2_amd64.deb
+Size: 226732
+MD5sum: 6e51e3a76b017de327ca610e1eccab87
+SHA1: 1350721fdaafe58fd76341e8af653f9944c85d32
+SHA256: 6988e0afdfd22e41763b5e6b80354442e606a728a3f1d209074bf91f05fc2c1e
+SHA512: fcc3906940c14fa37c7ab6fa520bbba751d1ebcde959603fc3bf236394e81819643e311b7d1e708d3968980c99861f1da151ed91627604afa0c385e6b70924ef
 Homepage: https://networkmanager.dev/
 Description: NetworkManager curses-based UI
  This package contains nmtui, a curses-based "TUI" (Text User Interface) for
@@ -56158,21 +56131,21 @@ Description: NetworkManager curses-based UI
 
 Package: network-manager
 Architecture: amd64
-Version: 1.56.1-1
+Version: 1.58.0-2
 Priority: optional
 Section: net
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 6996
-Depends: libaudit1 (>= 1:2.2.1), libbluetooth3 (>= 5), libc6 (>= 2.42), libcurl3t64-gnutls (>= 7.24.0), libglib2.0-0t64 (>= 2.58.0), libgnutls30t64 (>= 3.7.2), libmm-glib0 (>= 1.10.0), libndp0 (>= 1.2), libnm0 (= 1.56.1-1), libpsl5t64 (>= 0.13.0), libreadline8t64 (>= 6.0), libselinux1 (>= 3.1~), libsystemd0 (>= 209), libudev1 (>= 183), systemd | systemd-standalone-sysusers | systemd-sysusers, default-dbus-system-bus | dbus-system-bus
+Installed-Size: 7021
+Depends: libnm0 (= 1.58.0-2), default-dbus-system-bus | dbus-system-bus, systemd | systemd-standalone-sysusers | systemd-sysusers, libaudit1 (>= 1:2.2.1), libbluetooth3 (>= 5), libc6 (>= 2.42), libcurl4-gnutls (>= 8.20.0-3~), libglib2.0-0t64 (>= 2.58.0), libgnutls30t64 (>= 3.7.2), libmm-glib0 (>= 1.10.0), libndp0 (>= 1.2), libpsl5t64 (>= 0.13.0), libreadline8t64 (>= 6.0), libselinux1 (>= 3.1~), libsystemd0 (>= 209), libudev1 (>= 183)
 Recommends: ppp, dnsmasq-base, modemmanager, wireless-regdb, wpasupplicant, libpam-systemd, polkitd, udev, network-manager-l10n, network-manager-tui
 Suggests: network-manager-ovs, network-manager-team, nftables | iptables
 Breaks: ppp (>= 2.5.2-2~), ppp (<< 2.5.2-1+~)
-Filename: ./network-manager_1.56.1-1_amd64.deb
-Size: 2172800
-MD5sum: 626a15564e79bf6c3c5f66ea3d6e3949
-SHA1: cbcfa7839e8dcf1a6d360cc1b730d785cbc8ca93
-SHA256: 4308f795fc1458128521d94adcc0be69721aaf8c6369130f6d24ce4cf394620e
-SHA512: 7dc97834a238dd46a704530aa062e2bc805fa353ea71b883d279471fa0d4bcfdfbd49b2aa34e8424c472a2befb6ec30766623fa6b3c14bacf918cb2e5cde0a36
+Filename: ./network-manager_1.58.0-2_amd64.deb
+Size: 2178388
+MD5sum: cd26b6212c2c48bd5704b8097a97240d
+SHA1: 24fd782b80b8e2960095c44690a8e0241876b5c8
+SHA256: 1512b37022edf0c268c09f246cf95516dbdf2c315457da563601a7b6afc8ecc5
+SHA512: acaf5bbd826ac78c17da0264872841451e62d1b3972bc2ab1c5cac6ecd0340210c510187a871fef5119000fa4c8eda6afc094c28b9db741326f9a9106b177b98
 Homepage: https://networkmanager.dev/
 Description: network management framework (daemon and userspace tools)
  NetworkManager is a system network service that manages your network devices
