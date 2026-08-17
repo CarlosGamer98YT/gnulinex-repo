@@ -3634,22 +3634,22 @@ Description: make color lines of five or more length
 
 Package: flatpak
 Architecture: amd64
-Version: 1.18.0-1
+Version: 1.18.1-1
 Priority: optional
 Section: admin
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 9080
+Installed-Size: 9278
 Depends: bubblewrap (>= 0.10.0~), fuse3, xdg-dbus-proxy (>= 0.1.0), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-4 (>= 3.17.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpgme45 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxml2-16 (>= 2.14.1), libzstd1 (>= 1.5.5)
 Recommends: ca-certificates, default-dbus-system-bus | dbus-system-bus, desktop-file-utils, gtk-update-icon-cache, hicolor-icon-theme, libpam-systemd, p11-kit, polkitd, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
 Suggests: avahi-daemon, malcontent-gui
 Conflicts: xdg-app
 Replaces: xdg-app
-Filename: ./flatpak_1.18.0-1_amd64.deb
-Size: 1649968
-MD5sum: 39026a996232417eb01567fa69f2cda9
-SHA1: 2ea00300958351f36fda2b9e6a23f5f530554d9d
-SHA256: 62ab162dbcf781cbd89baaa1d4e90efdab3996d540923670a097abd8ef388e87
-SHA512: d23af4d6ab08d789e83edeccc10bd7f0dbd6484f010bfb5abce6eaf688052ab6ae9bdb608506637e550839630b6de187921e96af3672f14f11a821c8b79a4be4
+Filename: ./flatpak_1.18.1-1_amd64.deb
+Size: 1690604
+MD5sum: a733f051fa9baac278c888ccda3f1e50
+SHA1: 5ade0bc1db5e17cb545afaac2c6a7bb5739ff4bd
+SHA256: 1b33ac3916aeeaefbd894303b0c2a69bf4ea1afdf1b1452180413caba5c85ac5
+SHA512: 50f49c1d249a72141e1b6031752ec4a161ded741c300b7af9b2d166d4572724f935ca55ee51abcacd50bfb43c8ee620b87f1facdc9bc5ed201adcfddefd8524d
 Homepage: https://flatpak.org/
 Description: Application deployment framework for desktop apps
  Flatpak installs, manages and runs sandboxed desktop application bundles.
@@ -14875,7 +14875,7 @@ Description: kwayland runtime integration plugins for Qt5/KF5
 
 Package: kwayland6-data
 Architecture: all
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -14883,12 +14883,12 @@ Source: kwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 17
 Depends: plasma-version-base-6.7
-Filename: ./kwayland6-data_4%3a6.7.2-1_all.deb
-Size: 4868
-MD5sum: ec1298ecf2d5a91509a30cae457650e2
-SHA1: 27bc9825ae96350ff5ed1ccb1a86b2352cadc466
-SHA256: 03c6c83ac369f301ac31754ca593adb118173f1c633c8b8b617918d62d63baff
-SHA512: eade6effda5fec8d30c6b1bae88f47df07898e1ecfae43e8b79bd0af30eb5796dff847eae02965eec4529bfaca89ea0574136c4b9a040c0644b062b3dd3cf639
+Filename: ./kwayland6-data_4%3a6.7.4-1_all.deb
+Size: 4932
+MD5sum: 7c2657951399402224e496f67ba77067
+SHA1: 756829d000ea67fa36e6858feb16c42c7ca37a9c
+SHA256: e062a10fea78295d50b4ee4b3cad66926030163e29022fbdb715067aaf01fda2
+SHA512: facbfe748fe670e2eda9558b676d412dfa155b334a46394149d1cb97dd329009a30b20b25482f587776a131ebd758bbb6382ed157ef255fcbe15699ba4310753
 Homepage: https://invent.kde.org/frameworks/kwayland
 Description: Qt library wrapper for Wayland libraries - data files
  KWayland provides a Qt-style Server library wrapper for
@@ -21083,20 +21083,20 @@ Description: Library for computing Fast Fourier Transforms - Single precision
 
 Package: libflatpak0
 Architecture: amd64
-Version: 1.18.0-1
+Version: 1.18.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: flatpak
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 1128
+Installed-Size: 1157
 Depends: bubblewrap (>= 0.10.0~), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0t64 (>= 2.83.0), libgpgme45 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxml2-16 (>= 2.14.1), libzstd1 (>= 1.5.5)
-Filename: ./libflatpak0_1.18.0-1_amd64.deb
-Size: 397364
-MD5sum: fc29c923e1b3868db6eeeaa15ec77755
-SHA1: c58c323f756aede4ac11ce8aebfa0e29a250e5e5
-SHA256: b7da524f728b209a94de0b5238508b726dfdeb938745585bbb9bdc7d454818de
-SHA512: 310d9f2d550e65b9e437c2f4b27b6df6d51918619c0172d3ea7636a7d74fc8d9b43c7522b0dc3818fc6b04571856d39507288c3f10299544d363e3f6cb5e0bec
+Filename: ./libflatpak0_1.18.1-1_amd64.deb
+Size: 415992
+MD5sum: 6cd8b7672288c6f8cb925cd7c7e5b926
+SHA1: 3eba3c581175d269748633e061f4b2924786f664
+SHA256: 25a3a2702a51c99f7d901ec11eefa3174680650280d375ce68c68eee1e56d636
+SHA512: 70eab376d2c47101c0feecd55e1f5bdb69d83d2a9c5cb34ec5968257f7a442368038a13fb3e063a963b3b917f7b8303cb8cd95ac071151bdf1d79301886ccf3e
 Homepage: https://flatpak.org/
 Description: Application deployment framework for desktop apps (library)
  Flatpak installs, manages and runs sandboxed desktop application bundles.
@@ -32599,20 +32599,20 @@ Description: library for handling TNEF data - data files
 
 Package: libkwaylandclient6
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1115
-Depends: kwayland6-data (= 4:6.7.2-1), plasma-version-base-6.7, libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.24.0), qt6-base-private-abi (= 6.10.2)
-Filename: ./libkwaylandclient6_4%3a6.7.2-1_amd64.deb
-Size: 202448
-MD5sum: 78d8e18c86192f8e2ee0c1717e929f3f
-SHA1: 1559f40f88febb50e443ec1e28455455eab256ab
-SHA256: b398ed6f7c6b5c3a8d3398cf07991d0dca4d2fd608a20e3185872fa891ea87e6
-SHA512: fe7eb40cd0ba7cb3120862b5f66277891401c3778350e72e0ac582bd6bcf19ae3fc0cc6b4468fd090cf0928882a7ccb51f6d050eb75837b84bc3a7dd127e7be2
+Installed-Size: 1123
+Depends: kwayland6-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.27), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.24.0), qt6-base-private-abi (= 6.10.2)
+Filename: ./libkwaylandclient6_4%3a6.7.4-1_amd64.deb
+Size: 207176
+MD5sum: f76082d3a8a8eb56f8ad0862ff02be9c
+SHA1: 52ddc715f17455947765d8ee19ebf176451fba10
+SHA256: 523c79f9ab3e57fd9b15729741bdca0fdfc5671aad12720e9a954e0fdb503ffc
+SHA512: 8a83760f2d5be3f1e057a1c531d3ab6b49973243f9eee5a7e1fc2bdd959860aa708485fe1b2ec707b35dff2e2a13c75c99984caa46bf920169fbc73ec90a9b61
 Homepage: https://invent.kde.org/frameworks/kwayland
 Description: Qt library wrapper for Wayland libraries
  KWayland provides a Qt-style Client library wrapper for
@@ -36700,7 +36700,7 @@ Description: Plasma Runtime components
 
 Package: libplasmaactivities-data
 Architecture: all
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -36710,12 +36710,12 @@ Installed-Size: 19
 Depends: plasma-version-base-6.7
 Breaks: libplasmaactivities6 (<< 6.3.4-2)
 Replaces: libplasmaactivities6 (<< 6.3.4-2)
-Filename: ./libplasmaactivities-data_6.7.2-1_all.deb
-Size: 5688
-MD5sum: f8b18543a27a2e3c91e55e6c7e4fc442
-SHA1: eec28595d52e069b689d1ffbed5f71ffc0101491
-SHA256: a46b4d24b4e11e9b990b81ecfaf1d44dd080ab29423353851b4854e0a08c8482
-SHA512: e6a0aeaa51a5f15c3b994a819bfc5042898172b2515d8157191cb57a9047cd46247c58b660bb20d1770c085cae38da53976f3a3490ee507ec70eb9a7241f1e51
+Filename: ./libplasmaactivities-data_6.7.4-1_all.deb
+Size: 5744
+MD5sum: 71c79ada6e1db67e10570e537c42ab69
+SHA1: 446ce2578c41e359c127c807eba7fd2656bd1276
+SHA256: 601fe28179b596c04956b1d4130f9165c0d0e218ce9492dc743fe6a8c81c5ed5
+SHA512: 75d09596e425e1771e9c3bfcff5727aacd5908f5678d94795519a5bc5b0b169678b36c54a0867dcc60e41b94bb81e6be15c9b1ef55f17c7fdd478710cc9d12aa
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - shared library
  When a user is interacting with a computer, there are three main areas of
@@ -36727,21 +36727,21 @@ Description: core components for the KDE's Activities system - shared library
 
 Package: libplasmaactivities7
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 262
-Depends: libplasmaactivities-data (>= 6.7.2-1), plasma-version-base-6.7, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
+Installed-Size: 270
+Depends: libplasmaactivities-data (>= 6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
 Recommends: kactivitymanagerd, plasma-activities-bin
-Filename: ./libplasmaactivities7_6.7.2-1_amd64.deb
-Size: 71864
-MD5sum: b519781c9113ef448e661bbdfb658a45
-SHA1: fb1ef71cf963c7794fad94e802900ac0d4684a29
-SHA256: 9dff08629ecd75f2f9b4d6c69450dad22e0c2b7c9c4007aca6fed9fcb5a41711
-SHA512: 21c6ba00dc349b882343ba1f9309c6b197a1a520c53c7e631187670a4e63153e40b9dc8e48cfa2cad1380980fb4b6fdf9fcc1185032dc5972c6596202b8868da
+Filename: ./libplasmaactivities7_6.7.4-1_amd64.deb
+Size: 75780
+MD5sum: 69f5108639e798ed3f8cd07405b119ee
+SHA1: ec6bb92c0f8e606f2160f02824ade5c35febb25d
+SHA256: 9773af0237bb746ffbc09de2ce5184b975f41325082360ac8e467af677eeb11c
+SHA512: 4ac4dfeafa4370bf2f40fe7e4ab484737eaa7849147603f3a2c982fa3d01a9f765426c43cc5af3f6fa81fe4aecc5f5eebaeffb1438660311ef6a73ddb7eccf83
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - shared library
  When a user is interacting with a computer, there are three main areas of
@@ -36753,7 +36753,7 @@ Description: core components for the KDE's Activities system - shared library
 
 Package: libplasmaactivitiesstats1
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36761,12 +36761,12 @@ Source: plasma-activities-stats
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 297
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkf6configcore6 (>= 6.26.0~), libplasmaactivities7 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libstdc++6 (>= 6)
-Filename: ./libplasmaactivitiesstats1_6.7.2-1_amd64.deb
-Size: 81456
-MD5sum: eef255f20f27b89800f7ca98190ec0ed
-SHA1: 745ca7e45361e80fe00b3e309f07f40ee4e73bcf
-SHA256: f164a7069cce52388a7e4f5df830c7a75f723242c04a8a7503f58a7f5acf3c1d
-SHA512: cfea7e17dd0f0da90cad672bccb15c055b6d9044ccab25055f07892770dfe225f0aad47b1e0d0a052672d6a2875a6592a926843b84ad28ed2cdf5775f4002e2e
+Filename: ./libplasmaactivitiesstats1_6.7.4-1_amd64.deb
+Size: 83212
+MD5sum: c4b08c5133b8c7484d911791636cc019
+SHA1: eda3b2a45a83fdef55669a41896dcf75a1398f4f
+SHA256: 0e427714fac42304c9c3d00571fa384cbf0f68e93723169538ba2eff06354246
+SHA512: 3c754fd83d2fa7bfabba117c46cb66bb166cd584b9d394a516c30eb9f197f1ce35c82bccb747eb89ba41b8c44988fc2ff06f049c6ff240efbb9469a3fd8168aa
 Homepage: https://invent.kde.org/plasma/plasma-activities-stats
 Description: usage data collected by the activities system
  A library for accessing the usage data collected by the activities
@@ -57386,19 +57386,19 @@ Description: run commands as another user with polkit authorization
 
 Package: plasma-activities-bin
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 63
 Depends: plasma-version-base-6.7, libc6 (>= 2.34), libplasmaactivities7 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./plasma-activities-bin_6.7.2-1_amd64.deb
-Size: 15632
-MD5sum: 29437ece694ace2e584339865fe42c30
-SHA1: 29eda429250184f38b5c38cbd225b4ebdc2dbff6
-SHA256: 0d734139ba99bcec742e142022dba11cfc2a0640dfd9e3e33428f3a4b8569e4b
-SHA512: 4db2f9c0fe9e2c7cdd033b4724d4be0da1eb033113516151ed2a78ab7433ad3a1ff9f9bea63bb29cbbcc5d9a0af9f7b58e589f30ede578ed98e7da52dd532ede
+Filename: ./plasma-activities-bin_6.7.4-1_amd64.deb
+Size: 15768
+MD5sum: 384100a5f0c9ed61924833c2e3feea32
+SHA1: fe8cb813d11511454f5f00ccd5b08354275c811d
+SHA256: 1b8825e48054cffc6f9f309c9de237232755a4624dd4b4dc65f4623af0799960
+SHA512: 9cbd02d54d550146ff3fc38443fb21961d26db40b3058d39dc6797d2b1ab6180dec864d73bfecb35405083c6b3de5042b5e8dba5492d89d57769d2c953ff0990
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - CLI
  When a user is interacting with a computer, there are three main areas of
@@ -60570,20 +60570,20 @@ Description: Qt 5 Qt Quick 2 QML module
 
 Package: qml6-module-org-kde-activities
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-activities
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 179
-Depends: libplasmaactivities7 (= 6.7.2-1), plasma-version-base-6.7, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.32), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.6.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-activities_6.7.2-1_amd64.deb
-Size: 45964
-MD5sum: 489eb93f69011f5a80bd5c1dce07699b
-SHA1: b0bc9a5e0888008d461558dfdbc206d220875af3
-SHA256: 77682832ddb253aac27d052c9d9dcfafb19232d3eb28cf9ed5c79a7785155f9d
-SHA512: d8b6051f24b01b2660c3b85a8e34e29c112e800da4fad5a269b5ac2c94948cf15f2ec9095dc53c391d90aa0dfe5e71b47e1273c5c41b06af06ddd302a27d81f8
+Installed-Size: 183
+Depends: libplasmaactivities7 (= 6.7.4-1), plasma-version-base-6.7, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.32), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.6.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-activities_6.7.4-1_amd64.deb
+Size: 48192
+MD5sum: b7e5c8192dd8946767809412f435f431
+SHA1: 9abb8276a9301a30c24367560361a84475d8d6fd
+SHA256: 4c2ac091c9769dcb777faa9350bc04f553d2b6fd64b3587cbdce709ab7c39da5
+SHA512: 0776e85302bfc4d4ff6656852a225fbe5214e97d772eb90e7c60bca509af95dc34a31e6eb1599a9458efae97962802e63f65fdca3d07014c082f0bdd90e96f62
 Homepage: https://invent.kde.org/plasma/plasma-activities
 Description: core components for the KDE's Activities system - QML module
  When a user is interacting with a computer, there are three main areas of
