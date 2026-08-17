@@ -9766,18 +9766,18 @@ Description: Various applets for the GNOME panel - binary files
 
 Package: gnome-backgrounds
 Architecture: all
-Version: 50.0-3
+Version: 51~beta-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 38776
-Filename: ./gnome-backgrounds_50.0-3_all.deb
-Size: 39042952
-MD5sum: fdd5b22e2e634342046457143c850cb7
-SHA1: 36cbccb471c3479ce22b1c927aedff41bf0d702d
-SHA256: 637214c04622a9589deb01e754e75912702118738ff7dfb2747c1d283f2a8a92
-SHA512: 9307ac0afcfa35b5ec6f293f8e68ceb0178f2b33f5d0fcf0c98b13deababf77f9b17a906bb115be0543a187fa5c1077415676fb80d8fc57ae2cd639e00ca8c7d
+Installed-Size: 31019
+Filename: ./gnome-backgrounds_51~beta-1_all.deb
+Size: 31095560
+MD5sum: 75701b9fc68cb15881aad6e7eaf2848e
+SHA1: 0f5f1e0c5b51cc7932bacc8cad962272e78c4a3c
+SHA256: a8119e51cc486dbcc5102f3e745a1b4400a7b623b47bc24dffef962f14620e84
+SHA512: aafa8754134d54a019283a9c9b8f681385b44f4d0aca1057bbe8e861835a360408e7a883e10c99ac1cde443bb03afab35d202919a03a3c6d7cf88b7b0eb91b9e
 Description: Set of backgrounds packaged with the GNOME desktop
  This is a collection of desktop wallpapers created with GNOME users in
  mind.
@@ -13841,19 +13841,19 @@ Description: base applications from the official KDE release (metapackage)
 
 Package: kde-cli-tools-data
 Architecture: all
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: utils
 Source: kde-cli-tools
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3743
+Installed-Size: 3744
 Depends: plasma-version-base-6.7
-Filename: ./kde-cli-tools-data_4%3a6.7.2-1_all.deb
-Size: 670524
-MD5sum: 6517192d77308b1b8d2c03825b49c869
-SHA1: 913b7217f45b1698c8d4453b622a4f1806a4125a
-SHA256: 36c8314dab9f4b7dadda484fe27793e6c91fa06f66b06a98707b5d257bb66aad
-SHA512: ac77956b3957ef554e18c7036c63e562483ab6eea058d53607a0f410078b03b88dafba863b2e5d29d96e88f8ce12623db0213810e1ea7ad38b6af1a27b9462ae
+Filename: ./kde-cli-tools-data_4%3a6.7.4-1_all.deb
+Size: 670816
+MD5sum: 639d9de4ca66dbbafd5fa93bc7e1c394
+SHA1: 8b420d417ee06cddd120e9b1c982296248b86365
+SHA256: af6de622f6339fe42738fdc4dc645e51f4fd85744d1bed8a95e4aae7ac50a1ec
+SHA512: d210890e33de6d8cdc73199cc8fb110e0fecbbde27c636501ece09511950119e600ad979f118520d44f06f625e73743fd59ffc4364afec300f4c70830fd648b7
 Homepage: https://invent.kde.org/plasma/kde-cli-tools
 Description: tools to use kioslaves from the command line
  These command line tools enable you to use KDE services such as
@@ -13866,19 +13866,19 @@ Description: tools to use kioslaves from the command line
 
 Package: kde-cli-tools
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: utils
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 977
-Depends: kde-cli-tools-data (= 4:6.7.2-1), kio6, libkf6su-bin, plasma-version-base-6.7, libc6 (>= 2.38), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconwidgets6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6parts6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6su6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 1009
+Depends: kde-cli-tools-data (= 4:6.7.4-1), kio6, libkf6su-bin, plasma-version-base-6.7, libc6 (>= 2.38), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconwidgets6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6parts6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6su6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
 Recommends: systemsettings
-Filename: ./kde-cli-tools_4%3a6.7.2-1_amd64.deb
-Size: 163176
-MD5sum: a1e9ba799fbeb26b05a94dee4142b7f6
-SHA1: 1a84f3a4290e12e2b492a32e750a4f18de9354f5
-SHA256: 454a2e5353cfd9a39efac459365d5fbb607d96c90cdb306ac739c42986e5e456
-SHA512: 4c22d3c08bee1e17651fe5e44c04b817577236adca57e7bedc9ceda18968fc494591d7d390236ccffc38135ba35ed270a68bf9bf337d036053dfeeadbaf4e6a0
+Filename: ./kde-cli-tools_4%3a6.7.4-1_amd64.deb
+Size: 168580
+MD5sum: 4e749b902f689ce1e560a4fb5d88073e
+SHA1: a8e78d3e2bd2edf32ad4ca7449fc8137fc4e97ab
+SHA256: 2f1a0c0559cca8809fca98e38a44854aa644dd3f9f23d2f3ad5a9933173964b3
+SHA512: f6d26597d7ca0e31d014c92927806a59db7097c690f54f172b906038254a56c4d761b2198ee7ae9ab1f7477f994841196c300bf227adff83225277112f6bfde6
 Homepage: https://invent.kde.org/plasma/kde-cli-tools
 Description: tools to use KDE services from the command line
  These command line tools enable you to use KDE services such as
@@ -13889,19 +13889,19 @@ Description: tools to use KDE services from the command line
 
 Package: kde-config-screenlocker
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: libs
 Source: kscreenlocker
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 814
-Depends: libkscreenlocker6 (= 6.7.2-1), systemsettings, plasma-version-base-6.7, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configqml6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6package6 (>= 6.0.0), libkf6xmlgui6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./kde-config-screenlocker_6.7.2-1_amd64.deb
-Size: 120908
-MD5sum: 955bffed501fa760e68979cd986f4023
-SHA1: 6d299e92d02b609c2fe0bd22704fdf36ed68878a
-SHA256: e16fd559fceb2a9063ade5ac3fccf99e041081ab412664b6dbf3963f19a987ec
-SHA512: cc08b97b67f3457a6e4592249c6b6f136891d91042bad80bb0ec421f2a616eb72ff9e9a00ed9144da5d38df65e4e9d538a85290bca2bc3ca62828142148e52aa
+Installed-Size: 817
+Depends: libkscreenlocker6 (= 6.7.4-1), systemsettings, plasma-version-base-6.7, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configqml6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6package6 (>= 6.0.0), libkf6xmlgui6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./kde-config-screenlocker_6.7.4-1_amd64.deb
+Size: 122308
+MD5sum: 9008790585f737011fdc05180a9b24d0
+SHA1: d2c7841907eb6de45c126bd08d7d102dfb5c4ba3
+SHA256: 2b04acb486377107258b7ff74264c984954c852fef39a119afbc6a3c5b284e58
+SHA512: b38871d4941d6bdb23cedd24e9d1da196303401e440135b17a46a93fa3bb376ece590c09bc1ea51aa63a30da477180c56c3bfa599a3d5fee243382060d61d3bb
 Homepage: https://invent.kde.org/plasma/kscreenlocker
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker.
@@ -14232,7 +14232,7 @@ Description: Default Plasma icon theme
 
 Package: kglobalacceld
 Architecture: amd64
-Version: 6.7.2-2
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -14240,12 +14240,12 @@ Installed-Size: 43
 Depends: plasma-version-base-6.7, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkglobalacceld0 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~)
 Breaks: libkf5globalaccel-bin (<< 5.115.0-7~)
 Replaces: libkf5globalaccel-bin (<< 5.115.0-7~)
-Filename: ./kglobalacceld_6.7.2-2_amd64.deb
-Size: 9092
-MD5sum: 5e73f38341635ec69312752e9075f44b
-SHA1: fb72189657e6a8bf211a44cf47a4b25635141fd4
-SHA256: 31c08b3d371221d1c39c9059fc127e3ce0634c02be9efd7e0ed4d87cf58da7c7
-SHA512: c0373abe1ddbe1df7d36706eb75ec533195570febefa4be2134f15ed297fe33212df93b3248d15e892b003f61f6d6d445b3f78e77be66cc975366b6bc6006c73
+Filename: ./kglobalacceld_6.7.4-1_amd64.deb
+Size: 9264
+MD5sum: b797be29d1ba14f25134aa672165d0e9
+SHA1: e38a26060dec11c0cdf2104b41c7059d2c0431f3
+SHA256: 23e8e644817049f9a74850715ded493f6625342270e17cf2bc083d4d771a3375
+SHA512: 85f01e7a8d8cbc0804e7b39ee7c42eed24d8073e686cb9d7914cc3e0f2e4005356451680102bb82b2d780d14c12071f44aead44d6703f14534c5f7bb41391392
 Homepage: https://invent.kde.org/plasma/kglobalacceld
 Description: daemon for global keyboard shortcuts on the Plasma desktop
  Daemon providing Global Keyboard Shortcut (Accelerator) functionality for the
@@ -14281,20 +14281,20 @@ Description: additional image format plugins for Qt Gui
 
 Package: kinfocenter
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3815
+Installed-Size: 3857
 Depends: libkf6kcmutils-bin, qml6-module-org-kde-kirigami, systemsettings, usb.ids, plasma-version-base-6.7, kio6, libc6 (>= 2.34), libdrm2 (>= 2.4.75), libkf6authcore6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6solid6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: aha, clinfo, dmidecode, iproute2, libdisplay-info-bin, mesa-utils, pciutils, pulseaudio-utils, vulkan-tools, wayland-utils
 Suggests: samba
-Filename: ./kinfocenter_4%3a6.7.2-1_amd64.deb
-Size: 947428
-MD5sum: e174d1e38cb9973c20ddb0e84e6650f4
-SHA1: 32813e3eb0d2c7b8093921efbed88445f556159e
-SHA256: bb176ca41bdc0f6daace364f87ef707e5b272eb8a811b71045b3536a2c320d91
-SHA512: 70188dbcbb091ca302fe413950e198ebb5944d313d6c576ec97e5b4f2a2e0a9c476ed725187566a7a6ead2fa9b670c3895dce3477104918ed282c606c9a0e6d8
+Filename: ./kinfocenter_4%3a6.7.4-1_amd64.deb
+Size: 968188
+MD5sum: 211b748133511ba920fa84fb4be3696c
+SHA1: b02e7c56f7561826ba2055561ff8222e231a085e
+SHA256: 393aeef2798ab17428b9a7d1476be0aa359fe98e990a352492bd37536ebe2835
+SHA512: 7b0bac2327050837c60efc228fab55a9b13adbd78c3437797ea6f32a7adad05ad38d4e25d35e6264f149c09702bcb968687192a1a2e98ca9f9a0e60fc06dd9a4
 Homepage: https://invent.kde.org/plasma/kinfocenter
 Description: system information viewer
  The kinfocenter provides you with a centralized and convenient
@@ -14569,19 +14569,19 @@ Description: mail transport akonadi library - plugins
 
 Package: knighttime
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 134
 Depends: plasma-version-base-6.7, libc6 (>= 2.34), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libknighttime0 (>= 6.4.91), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./knighttime_6.7.2-1_amd64.deb
-Size: 36856
-MD5sum: 0d80d8ea4eef8aff00bc757e8ca35dd5
-SHA1: 9ec9736458c45b9e5e18a38563131f4835609cf8
-SHA256: d1ddca92d153e2549cf1a9267cc742c73f4af0dbf4a58e5906cdae30eb910214
-SHA512: af99d16ae1d1c5f6544405a2589e65f466ca95d7320abba38b4ba3c7dfdd8556154e465047027a22cd2aafabe4103d0a9aaea7eb0311a829f392b4b1496dc663
+Filename: ./knighttime_6.7.4-1_amd64.deb
+Size: 37716
+MD5sum: 1d67c924d80d573c0c59a0de67fa2671
+SHA1: 1b5b5146d7abce188b84b04cb62060125a19de14
+SHA256: 0815db1873186279060a953f9113fc16e35509c8f8b14f1c63a31c3a5dfe4c4f
+SHA512: 16c354efc01dac53b065178a700f05c0a4ca886a0048de5ab71e6471030828ddee82fc0ee9666b51646223228e14788af14484214111a0ac094296aa72606635
 Homepage: https://invent.kde.org/plasma/knighttime
 Description: helpers for scheduling the dark-light cycle for the Plasma desktop
  The KNightTime provides helpers for scheduling the dark-light cycle. It can be
@@ -14957,21 +14957,21 @@ Description: KDE window manager data files
 
 Package: kwin-style-aurorae
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Source: aurorae
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 854
+Installed-Size: 866
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkdecorations3-6 (>= 4:6.7.0~), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6svg6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6opengl6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6uitools6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Breaks: kwin-common (<< 4:6.4.90~), kwin-data (<< 4:6.6~)
 Replaces: kwin-common (<< 4:6.4.90~), kwin-data (<< 4:6.6~)
-Filename: ./kwin-style-aurorae_6.7.2-1_amd64.deb
-Size: 155324
-MD5sum: 0a74cd6a2a638b1517a1f7c0f799fe7e
-SHA1: 1f69db95c24f5c710f17acd80b330014ff8c84c2
-SHA256: 265d642bd734c6fedaffc025c0fc3c52572dee1fcf50767cb613851e3e46d971
-SHA512: 819b708769a82c89ca0bdebeddd41d54bb09d811b239fcf9b2b9b1051ca2e0567c02757a6ec1e67e67327ba6a735fdf793eba3ca16c2dd54519855edc72b4a52
+Filename: ./kwin-style-aurorae_6.7.4-1_amd64.deb
+Size: 158696
+MD5sum: 6e3ce6a7b5e6cbd5ed8193e2e93b8238
+SHA1: a3c5294932bd2eaa252e61421e4af0d5d14a7047
+SHA256: 0e7318304c184b50fc097918f0edc49c5c37ed9352018de68b95e99c1b5b93ab
+SHA512: 360b130d62c108bb7442ce2a06e806a963dd347b75078488ef58ad28393aefa2d63ee9fac441c9b4ec394b629934a9766f5e5dea8d5869f915b7821115213edf
 Homepage: https://invent.kde.org/plasma/aurorae
 Description: KWin Aurorae decoration style engine
  Aurorae is a themeable window decoration for KWin.
@@ -15096,18 +15096,18 @@ Description: window-stacking Wayland compositor
 
 Package: layer-shell-qt
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 38
 Depends: plasma-version-base-6.7, libc6 (>= 2.2.5), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.10.2), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./layer-shell-qt_6.7.2-1_amd64.deb
-Size: 8000
-MD5sum: 6cebef43fcdf6fc494bfda57c579f15e
-SHA1: 72f52fa80bc068584a0431a4077b4fbf8c74861d
-SHA256: 656361e87a4b7c893a5d970f47be0290f6b13d428fa15817ff7b26ef401ddf90
-SHA512: fe55e02e849c772f9c1b5089cf0ba221c746c41d40bea752ab2bedd49b5b45b5acae711bb7e04cde65b687f0edc2190cb63f32284cbe7e8c33d975eb999806ee
+Filename: ./layer-shell-qt_6.7.4-1_amd64.deb
+Size: 8060
+MD5sum: e2004bba471fc055ea13dd667ecaee58
+SHA1: 284107a41bdcdb2848ff90035018cb88f70524fa
+SHA256: 32752429bfdff0bb72aedf4775b24a7a990309199c4da6cae0e6e91cded72386
+SHA512: ee8a19b35721491c87b0c34916ee14c4ab80ef3e31354ac27199ec26ff8fdfb0cd102cd72690233d3996063b9cc7bbd3ac6e033db6e2f714c9644e68fdc0b2be
 Homepage: http://www.kde.org/
 Description: use the Wayland wl-layer-shell protocol - plugin
  Qt component to allow applications to make use of the Wayland
@@ -26259,7 +26259,7 @@ Description: kcalutils - data files
 
 Package: libkdecorations3-6
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -26269,12 +26269,12 @@ Installed-Size: 472
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkdecorations3private2 (>= 4:6.2.90), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: kwin-common (<< 4:5.26.70), kwin-decoration-oxygen (<< 4:5.26.70), kwin-style-breeze (<< 4:5.26.70), kwin-wayland (<< 4:5.26.70), kwin-wayland-backend-drm (<< 4:5.26.70), kwin-wayland-backend-fbdev (<< 4:5.26.70), kwin-wayland-backend-virtual (<< 4:5.26.70), kwin-wayland-backend-wayland (<< 4:5.26.70), kwin-wayland-backend-x11 (<< 4:5.26.70), kwin-x11 (<< 4:5.26.70), libkdecorations2-5v5, libkdecorations2-6
 Replaces: libkdecorations2-5v5, libkdecorations2-6
-Filename: ./libkdecorations3-6_4%3a6.7.2-1_amd64.deb
-Size: 77140
-MD5sum: 9fbdcf8caef02c85388e6f3b5b009d4f
-SHA1: 2c9b4049891834398186b16a4d81515097945539
-SHA256: 0b8fa1273d87a076a8cd7a73abf8e514be90d1ed4e539275b6696f324aecc9d7
-SHA512: bd8bbfbef45e4f6d9b246eff76b009f93149c7472d72cc157d6c928d706c55e29071d4daddeee6c9cf09ce832a78e3b27a73544338367bc5b091b6010a2c7edc
+Filename: ./libkdecorations3-6_4%3a6.7.4-1_amd64.deb
+Size: 78676
+MD5sum: 5adae75db4fcb6f2c08768693c5748fa
+SHA1: c300176543c4df5447b7ac8ebbe9c06c6e68792a
+SHA256: 030e9e0e6624cc6ca194ece7437a6b0b8e8d07776cccfda3b47a7c478a12b4f4
+SHA512: 61632cfb8f4cfd267858072d9393a3e8bae83ea09e9517ef9afb732a320a4d6df37d9c5d4f1f5b232ff59903f00030970b9fafe29195eb3c9a98c5d2793d51f1
 Homepage: https://invent.kde.org/plasma/kdecoration
 Description: library to create window decorations
  KDecoration2 is a library to create window decorations. These window
@@ -26283,7 +26283,7 @@ Description: library to create window decorations
 
 Package: libkdecorations3private2
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -26292,12 +26292,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 54
 Depends: plasma-version-base-6.7, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: kwin-common (<< 4:5.26.70), kwin-wayland (<< 4:5.26.70), kwin-wayland-backend-drm (<< 4:5.26.70), kwin-wayland-backend-fbdev (<< 4:5.26.70), kwin-wayland-backend-virtual (<< 4:5.26.70), kwin-wayland-backend-wayland (<< 4:5.26.70), kwin-wayland-backend-x11 (<< 4:5.26.70), kwin-x11 (<< 4:5.26.70)
-Filename: ./libkdecorations3private2_4%3a6.7.2-1_amd64.deb
-Size: 10640
-MD5sum: 2d6b3ace46fed7e58842dd2915e5a0a0
-SHA1: cde7cb6e9e6789f013c183ff816c747db9c57871
-SHA256: ee0d3f9dba027ab3b8faadf8085cb39ceba80d6ff0750f82ca061f97152882af
-SHA512: f1929f0e9a0418867e38eef86a34b700cdb439a6ea93634b1c79c0c3f92d8a797c5d449efc5734f09ddaf9d133d6098b81f4a5c38af1c812d8e073740d9dcaf6
+Filename: ./libkdecorations3private2_4%3a6.7.4-1_amd64.deb
+Size: 10700
+MD5sum: c6c2af4c94011a3d57576250b8cf97ff
+SHA1: 8b1fab729f823cec6f2b57d2e59c35ee2a72115c
+SHA256: 92ce048a26946a4571ef964b3096c9e4b58f7f47c701f41ba3676e07eeacb1d4
+SHA512: 6b5dabace1e3da15aa4741758be9f3214f74420e28672232cb51181f84748bc7f06c16cd7c1bb826b5039b106be2fea8b8f3190b48207179e0e78a420d396718
 Homepage: https://invent.kde.org/plasma/kdecoration
 Description: library to create window decorations - private library
  KDecoration2 is a library to create window decorations. These window
@@ -28779,21 +28779,21 @@ Description: Used to write plugins loaded at runtime called "Runners"
 
 Package: libkf6screen8
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libkscreen
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 493
-Depends: libkscreen-data (= 4:6.7.2-1), plasma-version-base-6.7, libc6 (>= 2.29), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 505
+Depends: libkscreen-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.29), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
 Recommends: pnp.ids
-Filename: ./libkf6screen8_4%3a6.7.2-1_amd64.deb
-Size: 133364
-MD5sum: 7e6f8709ac675c468ca6bc1348348ba2
-SHA1: f217b7e33cbb454047831c0693ad31e0e815a291
-SHA256: 74986adb4528f82ef7f675858c55d393d9042beaf82e33e72cd63f559bd095a3
-SHA512: e3e0c0267cc56e8e25f9a639c5b10f24c11cfe2b42c833b1870700c9ea49f431c9b99773696ca06be24657007bd081b1b6b9b3a3a6051a36e79aeb437e9df970
+Filename: ./libkf6screen8_4%3a6.7.4-1_amd64.deb
+Size: 139096
+MD5sum: 80f2d580eff846375103fe52c5790bd7
+SHA1: b639159d4840f6c5f7bfbfc002806c0253207016
+SHA256: deab768b47360eb29147b89941b0bf0f6896cc8c97016e268870293f381e91d5
+SHA512: 6ca9b32d8c861447db995e6bc94b80ea625d83a39b0b383e1a1f5cdc8946985960f9c31c9922c3d0db026a2d410580b833f0ad157b57d6752131a59e9267bbe2
 Homepage: https://invent.kde.org/plasma/libkscreen
 Description: library for screen management - shared library
  The KDE multiple monitor support is trying be as smart as possible
@@ -28804,20 +28804,20 @@ Description: library for screen management - shared library
 
 Package: libkf6screendpms8
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libkscreen
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 96
-Depends: libkscreen-data (= 4:6.7.2-1), plasma-version-base-6.7, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libxcb-dpms0, libxcb1, qt6-base-private-abi (= 6.10.2)
-Filename: ./libkf6screendpms8_4%3a6.7.2-1_amd64.deb
-Size: 27868
-MD5sum: 56dc7cfc9313f0dd1688f2e8934d037b
-SHA1: 1b78ecd845a5f24a3d6391ad51007e01e3710778
-SHA256: 07765f81ea1a747d63893f3240943ca8ce01ce97326d1109335308951c22315b
-SHA512: a37be531c6c3d6f461cff77cc28d6523f02d02b0e7de035a4860bd27d2d0f2e8a93be766a30aee86621bbd72063caf6b069c4c909ed5b38c239ebd65c0e62466
+Depends: libkscreen-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libxcb-dpms0, libxcb1, qt6-base-private-abi (= 6.10.2)
+Filename: ./libkf6screendpms8_4%3a6.7.4-1_amd64.deb
+Size: 28508
+MD5sum: be78182916d5f9c995592bb20d972415
+SHA1: 6d434d47143a6eac147aecf768399572b6f8c776
+SHA256: c9b800a07cb8f1da77cfda590969861ce2a34222c88516ee8fa6cac417a9203e
+SHA512: 57831d9697d914bfe86a3047922e2b3fa9362a391c8bc2e300e4bc1d77eac205d441772df28bcec87e2cb8b93e5037952192747f2169d4e3f41c051a41d0bbd4
 Homepage: https://invent.kde.org/plasma/libkscreen
 Description: library for screen management - dpms support library
  The KDE multiple monitor support is trying be as smart as possible
@@ -30101,20 +30101,20 @@ Description: Google API library for KDE -- data files
 
 Package: libkglobalacceld0
 Architecture: amd64
-Version: 6.7.2-2
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kglobalacceld
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 432
+Installed-Size: 452
 Depends: plasma-version-base-6.7, kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-record0, libxcb-xkb1, libxcb1, qt6-base-private-abi (= 6.10.2)
-Filename: ./libkglobalacceld0_6.7.2-2_amd64.deb
-Size: 119968
-MD5sum: 33a4d770fc5628a62a985759168d61f6
-SHA1: 6decaf3a70e4b1cdbc37ec1d7917822c659851e7
-SHA256: 15fb97ada01133c30e63fcdf92856728ad9914d39b445fc9472493590871332c
-SHA512: 6a6a75a7cd4b7e6613f9c537f74b6d589f4a9cad295fdf93394ff966a3d3b4ea3c03ede521c3c74a7ef54febceb3541713edb095e00dc39921827db650b12496
+Filename: ./libkglobalacceld0_6.7.4-1_amd64.deb
+Size: 127700
+MD5sum: 20d6475779d0177e955c43685723337e
+SHA1: 042e9af313d3e145a3456cba7ea7d1ab3962456d
+SHA256: 9bd918c0d17ba6174f7ca507ff6bbf2fd187a23d9617ed1a982b0f65f340dc52
+SHA512: 143f23089bfb08e73788e4cec6aa72c195cd0b978c55beac3b65f1c98989213ff44c55781b2f27d52d05035a81f8870eaad71e7642c923e033d1b2bf499ed15c
 Homepage: https://invent.kde.org/plasma/kglobalacceld
 Description: daemon for global keyboard shortcuts on the Plasma desktop - shared library
  Daemon providing Global Keyboard Shortcut (Accelerator) functionality for the
@@ -30758,7 +30758,7 @@ Description: Plasma Workspace MPRIS library
 
 Package: libknighttime0
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -30766,12 +30766,12 @@ Source: knighttime
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 106
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkf6holidays6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libknighttime0_6.7.2-1_amd64.deb
-Size: 30776
-MD5sum: bb3704fa734038160670ba644a88e815
-SHA1: d355741797d6a901027e16f859a119d89b4b4cb2
-SHA256: f8410754574c62cc06ebf5d109b00fdf21e538d9598d36c5e33323d6e2f5aed3
-SHA512: f3129765211d491351f9f142b39dbd2464958dced7e168ec27ba9e55aebe1277c14ab7b9af89b86e1e0b6c66de4e61da0811babb8669194ee260e13c18c854c2
+Filename: ./libknighttime0_6.7.4-1_amd64.deb
+Size: 31884
+MD5sum: c23e5c65c4c92308696f70e40b6aacee
+SHA1: 3bc587ade545ae670e656dc2b3b4271929a10c22
+SHA256: 108cced908653cfe0fcb7c24f94a6403c36588a3798f6e796736565aa0c965fa
+SHA512: 58715ecd15818313ff2b66819755e518876eb1643e4bd8c57820c2c10eef39e5b87064101a56145012f06ff48b5f8b8ff30983daf102727a28bc3d330fb1f191
 Homepage: https://invent.kde.org/plasma/knighttime
 Description: dark-light cycle scheduling helpers for Plasma - shared library
  The KNightTime provides helpers for scheduling the dark-light cycle. It can be
@@ -32267,22 +32267,22 @@ Description: Image editing components -- shared library
 
 Package: libkscreen-bin
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libkscreen
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 742
-Depends: plasma-version-base-6.7, libc6 (>= 2.34), libgcc-s1 (>= 4.3), libkf6screen8 (>= 4:6.7.2), libkf6screendpms8 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 13), libwayland-client0 (>= 1.20.0), libxcb-randr0 (>= 1.3), libxcb1 (>= 1.6), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 758
+Depends: plasma-version-base-6.7, libc6 (>= 2.34), libgcc-s1 (>= 13), libkf6screen8 (>= 4:6.7.2), libkf6screendpms8 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 16.2.0-1), libwayland-client0 (>= 1.20.0), libxcb-randr0 (>= 1.3), libxcb1 (>= 1.6), qt6-base-private-abi (= 6.10.2)
 Breaks: libkf5screen-bin, libkf6screen-bin
 Replaces: libkf5screen-bin, libkf6screen-bin
-Filename: ./libkscreen-bin_4%3a6.7.2-1_amd64.deb
-Size: 195044
-MD5sum: e35cd3b5c3a7ac2ef852929161a07127
-SHA1: c184ccdd311ff63666c957324908912348fa763b
-SHA256: 9797c70145e457077df9dbef3fbf5457c312a0f8066f69990ab70047cc84852d
-SHA512: 9249845cb66470518bb3700afced25c3147c918880fe15f705c583c10275de92ef70db420174e978e355fc4e2bc38c3eba087dab60f2407ae215c47f2fd6be2a
+Filename: ./libkscreen-bin_4%3a6.7.4-1_amd64.deb
+Size: 203144
+MD5sum: 669d15f247ca36a5ff83c1b487b7ee52
+SHA1: 6b8e79ba4d3c65c63c5a35e0f103c88a55a5e8b6
+SHA256: cf89986c091356aab4275feaee995b67f687a6eca7f528bcdadf8370b832c06f
+SHA512: 308a5e43d532cf4ba5423773b72ec92d6bd39d0b25dca4f093cfb4d34ff529598b6f2cd0ab4946cf6d8f78a9511f1ba976542dc953f9fc8b6939465fa49dacfe
 Homepage: https://invent.kde.org/plasma/libkscreen
 Description: library for screen management - helpers
  The KDE multiple monitor support is trying be as smart as possible
@@ -32293,22 +32293,22 @@ Description: library for screen management - helpers
 
 Package: libkscreen-data
 Architecture: all
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libkscreen
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 167
+Installed-Size: 164
 Depends: plasma-version-base-6.7
 Breaks: libkf6screen-data
 Replaces: libkf6screen-data
-Filename: ./libkscreen-data_4%3a6.7.2-1_all.deb
-Size: 12924
-MD5sum: d5f72a55186c8dd32d74c101dc99b21a
-SHA1: 3c4464d9e4ea33b1edaf3f7e5d53da512ab87e8f
-SHA256: 40f0fcef7d82d48a2f0f5e925ff62ffa3e9cb7b0b5d9350dbf2987196a1bb4cd
-SHA512: f6d13fbc5918028342b19f445f101b660e97a55527be4f8230fc65b71dfcd7e39ac9a9c9a05f86e910e69b569cbd46c30376c7f02077ef78c19bb1efd918d7ab
+Filename: ./libkscreen-data_4%3a6.7.4-1_all.deb
+Size: 12812
+MD5sum: fb9421146df39efae06f2462e412f826
+SHA1: aecd02395297b7ee1ab37246ad06288e40ee118d
+SHA256: 3384e8dab18ecc3d3d8218e5fb2f90215dd179a3d020879082c52ae7f3ed3a8f
+SHA512: 6ece3cf1a602a94f2db41ebc69279200c8fae3005dbebf883ef2ac124933e9f3781702859a5ef7496e344b73ffa4ffa747f20d38241214936ae3b569015ee1ec
 Homepage: https://invent.kde.org/plasma/libkscreen
 Description: library for screen management - data files
  The KDE multiple monitor support is trying be as smart as possible
@@ -32319,25 +32319,25 @@ Description: library for screen management - data files
 
 Package: libkscreenlocker6
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kscreenlocker
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 601
+Installed-Size: 615
 Pre-Depends: psmisc
 Depends: plasma-version-base-6.7, kio6, libc6 (>= 2.34), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configqml6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6package6 (>= 6.0.0), libkf6screendpms8 (>= 4:6.6~), libkf6windowsystem6 (>= 6.26.0~), libkf6xmlgui6 (>= 6.26.0~), liblayershellqtinterface6 (>= 6.6.1), libpam0g (>= 0.99.7.1), libplasma7 (>= 6.7.2), libplasmaquick7 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.3~), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb1, libxi6 (>= 2:1.2.99.4)
 Recommends: kde-config-screenlocker
 Suggests: libpam-fprintd, libpam-kwallet5, libpam-pkcs11, libpam-sss
 Breaks: libkscreenlocker5
 Replaces: libkscreenlocker5
-Filename: ./libkscreenlocker6_6.7.2-1_amd64.deb
-Size: 153668
-MD5sum: e98e7603ff217586ddd8619acd09c571
-SHA1: f418a469124d33daab5fa6670a98d5dad0a22300
-SHA256: 0566d563bb3d262cc8a6bab924b6ddb7a8f8d85da9b8793d0c5ebb7a796b0ca4
-SHA512: 2f260f81974a5c97cd9ca32d54c9c739a83361e9859356542c16fd51854471a0190f4b275982086bf6af0d3ce0bb6d6d41bcce618afa4ad8773d93f084d9a651
+Filename: ./libkscreenlocker6_6.7.4-1_amd64.deb
+Size: 157692
+MD5sum: a037b4c0d1406e929193e08f7331556d
+SHA1: 30c8ef91d8813e2c9d012b2a943279e2a4cf40fe
+SHA256: 9d5f161957ac1556a4022a8a7ff95964692b7c87593ecc38420b783dc7766973
+SHA512: 299d73ef375752e2067171671bd061792cbf840d3780d2cf41144710f15ffe825ef0c05c36b5f5a2f158931b92bfef32d72ac250cf3d3163016ca86f343e54ee
 Homepage: https://invent.kde.org/plasma/kscreenlocker
 Description: Secure lock screen architecture
  KDE systemsettings module to configure kscreenlocker.
@@ -32405,21 +32405,21 @@ Description: library for handling SMTP data - arch independent files
 
 Package: libksysguard-bin
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 321
-Depends: libksysguard-data (= 4:6.7.2-3), plasma-version-base-6.7, libc6 (>= 2.38), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libkf6authcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libnl-3-200 (>= 3.11.0), libpcap0.8t64 (>= 1.0.0), libprocesscore11 (>= 4:6.7.2), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1), libudev1 (>= 183)
+Installed-Size: 325
+Depends: libksysguard-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.38), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libkf6authcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libnl-3-200 (>= 3.11.0), libpcap0.8t64 (>= 1.0.0), libprocesscore11 (>= 4:6.7.2), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 16), libudev1 (>= 183)
 Breaks: ksysguard (<< 4:5.21.80), libkf5sysguard-bin
 Replaces: ksysguard (<< 4:5.21.80), libkf5sysguard-bin
-Filename: ./libksysguard-bin_4%3a6.7.2-3_amd64.deb
-Size: 86252
-MD5sum: ae71b961ca7f2976187dbf2f0d1e6c52
-SHA1: 03a294b6f48175eafd6e843b91546602c575c85d
-SHA256: 634718a22b63430c7fe6e4bf6ba5a27353dc13ea92de9e876a06bea0f42f5ac0
-SHA512: 07f6706e7779fa09ce830a7c4c4d36dc1a7794a274fb2c286a42dce5f6ac78fe24c51246c39d37f77010abcf7ab8c99f466b2dc1925999b5875057fe3889e572
+Filename: ./libksysguard-bin_4%3a6.7.4-1_amd64.deb
+Size: 89268
+MD5sum: d0b91590699b2d48e1870264981b5391
+SHA1: 3e1eaccbeac0d8a687d2b25973263dc575bf21f1
+SHA256: 7b55e90a850bae683476aaad9e5d5294a6f094973ab687f5929e5c98d3a736eb
+SHA512: 5c4e44996d815030f833568ffad3d10d46c3b32a2d59fc5647ab5334d00a66f8adff5e61c4cdbf98c0df244cb8f418d6109c9a46c60173bf315f7697bac82ca6
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - utilities
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32429,23 +32429,23 @@ Description: library for system monitoring - utilities
 
 Package: libksysguard-data
 Architecture: all
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2015
+Installed-Size: 2024
 Depends: plasma-version-base-6.7, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts
 Suggests: qml6-module-org-kde-ksysguard
 Breaks: ksysguard-data (<< 4:5.21.80), libkf5sysguard-data
 Replaces: ksysguard-data (<< 4:5.21.80), libkf5sysguard-data
-Filename: ./libksysguard-data_4%3a6.7.2-3_all.deb
-Size: 188012
-MD5sum: d1028b3a3f1564be2f8c90e18b454cbf
-SHA1: 60773b0fc1747046a8bed46969391ccb2651fc6c
-SHA256: 19e40bbe983a7cff217e7172010bff693bb053681659501e654916613d84cc52
-SHA512: ddddc4ad95c68fd6eb8d19995dd74b4d04b480450826c85017082bdb5cc6c54daae70129c56b52532f4b12865b4b2dad6556bfec0cb8296d4a9d199d0230fd4c
+Filename: ./libksysguard-data_4%3a6.7.4-1_all.deb
+Size: 188876
+MD5sum: 613c41e0af3a2a4750f9d2b0e4fbb696
+SHA1: 1d509295f93f9c75fad3faeeb03d1a407c588ea0
+SHA256: 29694786101abf83042523f7872c10964cba464aa96618008d4ee607279e06bc
+SHA512: 52c1f6fc71eb66172be0d2981c0e0d674a2e5f176b3732f93611254ac0926f9f96fd6e47909b4b859407cc6e2c32caa1421d418b3b1d9c4aa9f630e080baf607
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - data files
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32455,20 +32455,20 @@ Description: library for system monitoring - data files
 
 Package: libksysguardformatter2
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 85
-Depends: libksysguard-data (= 4:6.7.2-3), plasma-version-base-6.7, libc6 (>= 2.34), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libksysguardformatter2_4%3a6.7.2-3_amd64.deb
-Size: 22208
-MD5sum: 6bdb60366471d2c04f2ab0e200a01af1
-SHA1: 28736eff78566301dcc7a55b6da9ff64fb4b3392
-SHA256: 6fe7301fd67ef34d4c62e41a6534f005e76f0e0a0b5b21b8d10091e53af0b5c5
-SHA512: 5b961071f51f25ae452b287c5e66e4f8c48b7f66c811d004e07c801d28402d19b88c95e80267f4e38495d14d46d0a6009a5d90480fce59db310e81e8c980258a
+Depends: libksysguard-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.34), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libksysguardformatter2_4%3a6.7.4-1_amd64.deb
+Size: 22720
+MD5sum: e9a2e776b38380ad057b5cfd38558eaa
+SHA1: 0fb901c545ebe84ff5a30e41d1ba56c25d283d6b
+SHA256: 4f45b1597c9d6eeb420287488ac88c4d3ea6691e97a70888fc39ffb2031719c0
+SHA512: ecd76d74091ca27a05958078f7164617a06f44d2e233658fc0bd2bafc6480d07d5f3792918e50399a4a0d975eac7990d0c1852e3034adabacee9d191f5b12532
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - ksysguardformatter shared library
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32478,20 +32478,20 @@ Description: library for system monitoring - ksysguardformatter shared library
 
 Package: libksysguardsensorfaces2
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 497
-Depends: libksysguard-data (= 4:6.7.2-3), plasma-version-base-6.7, libc6 (>= 2.14), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6configqml6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6solid6 (>= 6.26.0~), libksysguardsensors2 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 9), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./libksysguardsensorfaces2_4%3a6.7.2-3_amd64.deb
-Size: 122632
-MD5sum: b48d3f0edde72f67f73e123dd2585c52
-SHA1: b584f70ccbe91df81cb851f36204c5181038eec5
-SHA256: 7ff1a11d897d66955a9382bedd5042893fdde509fec08841b33d99b0c59a475e
-SHA512: cf852960b888b26059e70aab6a0f4f5f2d60bc9b78664ae51846c98f30076171a935174071c10938c2070e6f54c8f076bf4da8949d21b72ec45e2f836d8110fb
+Depends: libksysguard-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.14), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6configqml6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6solid6 (>= 6.26.0~), libksysguardsensors2 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 9), qt6-declarative-private-abi (= 6.10.2)
+Filename: ./libksysguardsensorfaces2_4%3a6.7.4-1_amd64.deb
+Size: 123100
+MD5sum: 8494935e5185ba502ff3ef3560ffb170
+SHA1: 17bcf3bcc26fcfe185d24dab5a222c8a25d737dd
+SHA256: 9ddc26d5faefcd73d63a52f6359f1f40969905302b0e7cf78b3802fc3c456410
+SHA512: 4f23ce4dba54aebec1b3b2fd95b8b398c71caff5d71280bd0a67b45666793e75a5972f82039bf7165abc73e33021883569da2abe8b302707221afdfeda3b5bd5
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - ksysguardsensorfaces shared library
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32501,20 +32501,20 @@ Description: library for system monitoring - ksysguardsensorfaces shared library
 
 Package: libksysguardsensors2
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 378
-Depends: libksysguard-data (= 4:6.7.2-3), plasma-version-base-6.7, libc6 (>= 2.14), libkf6i18n6 (>= 6.26.0~), libksysguardformatter2 (>= 4:6.1.90), libksysguardsystemstats2 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libksysguardsensors2_4%3a6.7.2-3_amd64.deb
-Size: 103768
-MD5sum: 9aaef502aec1a1b26d63eee2d0677ba6
-SHA1: 204c30939133eb598be806f17ab14dd14f61c66b
-SHA256: 5757bd0065e254edd7ced7b61ef4fdfd9cab7f9af23c0254209a1c7767d75ae0
-SHA512: 3f105ea7a38a3a2cc12770acc2566a7b2706d0a2684f359aa5a8204417b1949c1496cb3b475d24d78d9bed1f188530eaea9db94004794d68820898862a96688d
+Installed-Size: 390
+Depends: libksysguard-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.14), libkf6i18n6 (>= 6.26.0~), libksysguardformatter2 (>= 4:6.1.90), libksysguardsystemstats2 (>= 4:6.1.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libksysguardsensors2_4%3a6.7.4-1_amd64.deb
+Size: 109504
+MD5sum: 43ebaea1c31f1d5b4c888f92060bdafb
+SHA1: c96dd21805b8b9b2ad074659b4005d737040687e
+SHA256: 4ad739b7a72977fd8884072e7a4cd1bf592856e4519f600dc060582ac039da9b
+SHA512: 5c376f71ae23b1226138fbdf455b135b2942e85942512e619cccd8fda0ef40e1cf150eadf130b0b30964b6908b42d081b6107439eb81dfa693c11e6d77de8628
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - ksysguardsensors shared library
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32524,20 +32524,20 @@ Description: library for system monitoring - ksysguardsensors shared library
 
 Package: libksysguardsystemstats2
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 225
-Depends: libksysguard-data (= 4:6.7.2-3), plasma-version-base-6.7, libc6 (>= 2.38), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libsensors5 (>= 1:3.5.0), libstdc++6 (>= 5)
-Filename: ./libksysguardsystemstats2_4%3a6.7.2-3_amd64.deb
-Size: 59288
-MD5sum: 06c76a971aabf43c8421e1f98a7e5039
-SHA1: f8f5f9526c24df97b1c56875d7d8173fa68ab9dd
-SHA256: bb3f914770e153f14606a5bac3f959749f9bd6569f8b8e7aed40ce1f48cc0612
-SHA512: 20166b6a1d67425b6195e118f1d3c68eef0510fad578a60331ffd30353a542c17ed7a4779d0e6ad069c1884ef18da4e4c31ce8fd27fc43bf4a42b5f93c29ee47
+Installed-Size: 233
+Depends: libksysguard-data (= 4:6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.38), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libsensors5 (>= 1:3.5.0), libstdc++6 (>= 5)
+Filename: ./libksysguardsystemstats2_4%3a6.7.4-1_amd64.deb
+Size: 63232
+MD5sum: 299ec8f08970921a6581be3017bc2e6d
+SHA1: e1cafdaf08a236a889997424d0aaa4a27bb73f9a
+SHA256: 2a5bc97c5314441dd3e3558f228a0e4899c03a92168c9370fb53314b22145b01
+SHA512: 2b4e5c6c9cd1321046d1cdb218bcda222dc9ee82a739e4d6961a5177dc9b97afb33c5ddf94504eec31f9ba2e4361bed430f017013c739438b03ccb701c30ec6e
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: library for system monitoring - ksysguardsystemstats shared library
  KSysGuard is a program to monitor various elements of your system, or any
@@ -32701,21 +32701,21 @@ Description: Plasma Workspace library
 
 Package: liblayershellqtinterface6
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: layer-shell-qt
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 130
+Installed-Size: 134
 Depends: plasma-version-base-6.7, libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.6.0+dfsg~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2)
-Recommends: layer-shell-qt (= 6.7.2-1)
-Filename: ./liblayershellqtinterface6_6.7.2-1_amd64.deb
-Size: 31800
-MD5sum: d8e7bb01d3e4d470a0aef5e9f7631a3f
-SHA1: b032b3f68699c0d66867de309691ba47282e5e3d
-SHA256: bc603186fd4b1542c55c3aa9a273af70f8cfba6825bba193459be23a1f5e6b68
-SHA512: 4770f158f06322322ab41b2ba326810aae798c2109d24a62d55537b25f0ba96fc64f9f94ce35245fb8a63ee4c709a7ce479343e2ad13d60a03261b1760047681
+Recommends: layer-shell-qt (= 6.7.4-1)
+Filename: ./liblayershellqtinterface6_6.7.4-1_amd64.deb
+Size: 31912
+MD5sum: 73a5b282ecc0b30a1e3e36b70d06a740
+SHA1: 9562414d7ad35e337659127abe5304eed04b75b1
+SHA256: 86aace3d6ee388708da9cefbec479abaa2d64e58a0e5bcc4247173c5c76a0a96
+SHA512: 6cb6c27ee3ccebe6d60e9a030ce36f914986828a663fad8eff86dff5ba64a4e69baadaa15e6cd09561b8c48cb3d76881fcab5bc0f11ec65054ee9a768b1a44be
 Homepage: http://www.kde.org/
 Description: use the Wayland wl-layer-shell protocol - run-time library
  Qt component to allow applications to make use of the Wayland
@@ -35848,19 +35848,19 @@ Description: PAM module to unlock the GNOME keyring upon login
 
 Package: libpam-kwallet-common
 Architecture: all
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: admin
 Source: kwallet-pam
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 28
 Depends: socat, plasma-version-base-6.7
-Filename: ./libpam-kwallet-common_6.7.2-1_all.deb
-Size: 7120
-MD5sum: 76ea2aa98a88f552af056d0152535bfa
-SHA1: 26cc93faa135d7de42350816a12a07c37d8853c1
-SHA256: 7477f37eee251c8e051e5b321041a1d6d58633d2191f950dff68163bae1474f7
-SHA512: 7c9d97cb019e62f17ecc317b3289a39cf055bf357f74e00ec0e402dd028941d15b1082169d3e42ab6fb40f3cc037578d9ffdb8290f4c7023c6dab78f1058b41a
+Filename: ./libpam-kwallet-common_6.7.4-1_all.deb
+Size: 7184
+MD5sum: cb7776ba450c5bef26c4d48d15223fbe
+SHA1: 343b2e88a53922289ba9979a23fb402bef97340c
+SHA256: cd89ac165807e03984b76c5c98085b8d29446ec747116b0ba4a1a17bb69d72b5
+SHA512: 457ea36ad7f913a684136780d13859cfb38e4b10c757195f5ff2d7ba234cc6bc4faf2e1e23261102b90163a75a1b2c68f09dfb754ed867da1484c22a684c58d8
 Homepage: https://invent.kde.org/plasma/kwallet-pam
 Description: KWallet integration with PAM (common files)
  The KDE Wallet system provides a secure way to store passwords and other
@@ -35872,19 +35872,19 @@ Description: KWallet integration with PAM (common files)
 
 Package: libpam-kwallet5
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: admin
 Source: kwallet-pam
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 41
-Depends: kwallet6, libpam-kwallet-common (>= 6.7.2-1), plasma-version-base-6.7, libc6 (>= 2.33), libgcrypt20 (>= 1.12.0), libpam0g (>= 0.99.7.1)
-Filename: ./libpam-kwallet5_6.7.2-1_amd64.deb
-Size: 11888
-MD5sum: 0d999f6d1ba6ba97c9ddc796fa121e7b
-SHA1: 606861e3cc87e0910ed03f199310a54bb09779ed
-SHA256: bdc530379fb190c56cfc441e59f11d069edcfd4d40f5e5961d945fac1bff635e
-SHA512: 3b3a057d03bcc56bf88e1fda33926f59f5f7c229cd423c537367d6d8052468e62db4307397a58c676570cad6e243cb5d82fa9c96cc8bdcc8ef393cef908c9b80
+Depends: kwallet6, libpam-kwallet-common (>= 6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.33), libgcrypt20 (>= 1.12.0), libpam0g (>= 0.99.7.1)
+Filename: ./libpam-kwallet5_6.7.4-1_amd64.deb
+Size: 12076
+MD5sum: 709f4df190627862a41c4cc903bcef85
+SHA1: 8d5b51609ae878187e0d360867b63ab24183c2e3
+SHA256: f1ce2e50fe6c75e5d7b079603ac87c4e36b5a590ffc30f3386fdc0839b728052
+SHA512: c47fb0961cae5f84381e3bf77dde92bffc6fe5cb5fa125cd18ae3d4ef0c152f624bbc1c808fd55b2a08ec8f8c2cea32e3a79d87fb3d41172a8da351a707e1c97
 Homepage: https://invent.kde.org/plasma/kwallet-pam
 Description: KWallet integration with PAM
  The KDE Wallet system provides a secure way to store passwords and other
@@ -36607,7 +36607,7 @@ Description: GPU-accelerated video/image rendering primitives (shared library)
 
 Package: libplasma-geolocation-interface6
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36617,12 +36617,12 @@ Installed-Size: 124
 Depends: plasma-version-base-6.7, libc6 (>= 2.14), libkf6configcore6 (>= 6.2.0~), libkf6coreaddons6 (>= 6.2.0~), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.2.90~)
 Replaces: plasma-workspace (<< 4:6.2.90~)
-Filename: ./libplasma-geolocation-interface6_4%3a6.7.2-1_amd64.deb
-Size: 31864
-MD5sum: 31ed8c57d631753fbddd0c70d97dde6c
-SHA1: 607eb03b2b1c702b9690c705cd193ef952312e03
-SHA256: d95628d38db6968287539b9f77ae34a95a87dc78d6d6a1906eceae4a44ec8338
-SHA512: 0c2629cadc2a097bc78a17e6a9ea83c0d7f1c70b3cbead56bbf3cb83bb70f472b2163bbaa7b4b5db375f2d27b02001ee7b956475ccca63b053d26a394cc65ea8
+Filename: ./libplasma-geolocation-interface6_4%3a6.7.4-1_amd64.deb
+Size: 32840
+MD5sum: 5987484c72288660a0b3e42c4fd645fb
+SHA1: e51af4ab5be92f4424ee2e36ca9c49c1bf481cb1
+SHA256: 9f25b4a29ec330370520ad51710d1d08bc9ded2dcdc40b4d91df1a5810a48c0a
+SHA512: cf0b5c95f30eabd1418b1271a523e9311f938a25a019d54fe7a4a1cb9aa8dbe9b13638d8d6e300680bf8ef8767881d1e84b048eac2326a06bc8c2a3c97fccbd4
 Homepage: https://invent.kde.org/plasma/plasma5support
 Description: Plasma geolocation library
  This library provides support for interfacing with geolocation
@@ -36630,7 +36630,7 @@ Description: Plasma geolocation library
 
 Package: libplasma5support-data
 Architecture: all
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -36640,12 +36640,12 @@ Installed-Size: 6082
 Depends: plasma-version-base-6.7
 Breaks: plasma-workspace-data (<< 4:6.5.90~)
 Replaces: plasma-workspace-data (<< 4:6.5.90~)
-Filename: ./libplasma5support-data_4%3a6.7.2-1_all.deb
-Size: 468136
-MD5sum: 06897316ace595934b0c75be6292c9e5
-SHA1: d1f1c22fe99e26c135dadf08a419c2bde6ad9df8
-SHA256: 42c884f8ad9e705ab79578bd8642827aabb989c0881d8b2894e68674686807bf
-SHA512: 92d0f5a6f420f4f232d8ed4e7ad97abe88fec7225169207f1bb080918542f54a4157ff528e63c61f7d8d2165ba18b4dbbdaf021f305d4cfa4632a449f11212d3
+Filename: ./libplasma5support-data_4%3a6.7.4-1_all.deb
+Size: 468108
+MD5sum: 4f30bce7b3ddc64ceb92e31dea601e57
+SHA1: ff81c2a95ba4e925197d62e6af544b700a0092ab
+SHA256: 4e56c2a5758ad44a150e06c4b6bbc8dedbe398e0c8089922db3f5408309f4fa9
+SHA512: e3efc54b12fc4e3062cb56753d1b7064874d878d2476ffd587baf9f5aaadf265db91a1a93f341ecc554fa332cb2235aa565f9665503f0bef2bcb763fdfa05c24
 Homepage: https://invent.kde.org/plasma/plasma5support
 Description: support components for porting from KF5/Qt5 to KF6/Qt6 - data files
  Plasma5Support Framework providing migration aids for KF5 -> KF6 migrations.
@@ -36654,22 +36654,22 @@ Description: support components for porting from KF5/Qt5 to KF6/Qt6 - data files
 
 Package: libplasma5support6
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma5support
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2239
-Depends: libplasma5support-data (= 4:6.7.2-1), plasma-version-base-6.7, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.2.0~), libkf6configgui6 (>= 6.2.0~), libkf6coreaddons6 (>= 6.18.0), libkf6guiaddons6 (>= 6.2.0~), libkf6i18n6 (>= 6.2.0~), libkf6idletime6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6networkmanagerqt6 (>= 6.0.0), libkf6notifications6 (>= 6.2.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.2.0~), libkf6unitconversion6 (>= 6.0.0), libplasma-geolocation-interface6 (>= 4:6.7.2), libplasmaactivities7 (>= 6.0.5), libprocesscore11 (>= 4:6.6~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libweather-ion7 (>= 4:6.7.2), libx11-6, libxfixes3, qt6-base-private-abi (= 6.10.2)
+Installed-Size: 2299
+Depends: libplasma5support-data (= 4:6.7.4-1), plasma-version-base-6.7, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.2.0~), libkf6configgui6 (>= 6.2.0~), libkf6coreaddons6 (>= 6.18.0), libkf6guiaddons6 (>= 6.2.0~), libkf6i18n6 (>= 6.2.0~), libkf6idletime6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6networkmanagerqt6 (>= 6.0.0), libkf6notifications6 (>= 6.2.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.2.0~), libkf6unitconversion6 (>= 6.0.0), libplasma-geolocation-interface6 (>= 4:6.7.4), libplasmaactivities7 (>= 6.0.5), libprocesscore11 (>= 4:6.6~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libweather-ion7 (>= 4:6.7.4), libx11-6, libxfixes3, qt6-base-private-abi (= 6.10.2)
 Breaks: plasma-workspace (<< 4:6.5.90~)
 Replaces: plasma-workspace (<< 4:6.5.90~)
-Filename: ./libplasma5support6_4%3a6.7.2-1_amd64.deb
-Size: 485112
-MD5sum: f5f623c769a925ba0f75d9a3e7d40ac7
-SHA1: edf89f34590ae010a777b868a311a97a9d4ef603
-SHA256: b7c217f11c335189a0ad59bbf8af9ab1a624a3f2f90fbe53b03c95fa26a5291c
-SHA512: 1a1fd58eb862b602089db09fc9eadbbd729cd6e278f85bd7945f245331b7a8b9416eb5c075c96a9a2f6513b4e3ce48e4e6e8f2d0f0d2d3b900bb2a40f852d248
+Filename: ./libplasma5support6_4%3a6.7.4-1_amd64.deb
+Size: 499216
+MD5sum: 54d4e6d190d571bbbcc27ae6d7425ba7
+SHA1: 5ecb05ae26b74ee64e8f917bb162d114e52a5479
+SHA256: 3d90c51b40829a1f8d4124a1b893fef46af31ae757438de95d92c8da08ee865a
+SHA512: 1fc19a4f1151a45d83e59cd5d02d66192236b7f1d6dc7cf7fb8dfd3744890f7c2f6b1d345c6e70e41419def0a2164dface4c58ba9912f8242136458ea52f5bf0
 Homepage: https://invent.kde.org/plasma/plasma5support
 Description: support components for porting from KF5/Qt5 to KF6/Qt6 - shared library
  Plasma5Support Framework providing migration aids for KF5 -> KF6 migrations.
@@ -37075,20 +37075,20 @@ Description: library for tracing bitmaps
 
 Package: libpowerdevilcore2
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: powerdevil
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 874
+Installed-Size: 894
 Depends: plasma-version-base-6.7, libc6 (>= 2.33), libddcutil5 (>= 2.2.7), libkf6authcore6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.0.0), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6screen8 (>= 4:6.6~), libkf6solid6 (>= 6.26.0~), libkf6xmlgui6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.7.0~), libplasmaactivities7 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 11), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libxcb1, qt6-base-private-abi (= 6.10.2)
-Filename: ./libpowerdevilcore2_4%3a6.7.2-1_amd64.deb
-Size: 245580
-MD5sum: e41ced06ea79afdcf5c11098a080e0a0
-SHA1: 6048e8a6df4c94a04bc7429c4ba6a28babdb0dc7
-SHA256: 26aff11f79e8162104cb251052bb72619d079a6854213fae51ff6bf9238ad337
-SHA512: 3f6f08afc3c1e513c8f3584280492667fa290ede9cb08ddef9cb2e0cb4440e063920d3f2deb1c1ae848fb9096e9c5612cacb2382829f1b28e1b80636db9fe058
+Filename: ./libpowerdevilcore2_4%3a6.7.4-1_amd64.deb
+Size: 253132
+MD5sum: 956ab385ef207bc0f66fa86b54666489
+SHA1: d2bca2a28e2b606033490e9920c2f4d184346fda
+SHA256: 14856db630ee1d83c22934f21a6dc4cce871beec2345c28047e6620aaa862d9d
+SHA512: b3b790cd938910ea6362086bfcd8c807a31ea977dc8b1baae489cb8808d1976cad1c1afdb4ac04d77dba65b9ece42619bb390ae0ebd5a417621c4e7657eeab07
 Homepage: https://invent.kde.org/plasma/powerdevil
 Description: shared library for the KDE power management features in Plasma
  PowerDevil is the internal name of the KDE power management service
@@ -49884,7 +49884,7 @@ Description: wayland compositor infrastructure - server library
 
 Package: libweather-ion7
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -49892,12 +49892,12 @@ Source: plasma5support
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1347
 Depends: plasma-version-base-6.7, libc6 (>= 2.4), libkf6holidays6 (>= 6.18.0), libplasma5support6 (>= 6.0.5), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libweather-ion7_4%3a6.7.2-1_amd64.deb
-Size: 101608
-MD5sum: 0a95d28307b1c1a6755ce7761741e3e7
-SHA1: 99b15ea80b5880e07f745e1c2af75196855e1b07
-SHA256: 907407d9d4e19ce053418befa62c5288798b7853ecc0cf9c8f186c9c46e8a2b4
-SHA512: 7d2a6230e7d517ddbde2b22e055e7685c0c170c8b00276815edc188dde6cb60300b9bafc5fe1a649e6b22fc07cae81fe99b8498bbc10a7fba97c3f20a74576c5
+Filename: ./libweather-ion7_4%3a6.7.4-1_amd64.deb
+Size: 101820
+MD5sum: 2be06eb1d9b06772aa18d63fbfc8a6d9
+SHA1: b4e9632383be48bce53088438fe4bf3b0388140e
+SHA256: 1214bed5decb383b99143fd8882296931e56c076fb5b86546a69e6c593f43d74
+SHA512: 112195114bc563ae068173ad7d21c5beaf82b135bd01c7ed4dc0ed25ddf4527b348f44d63130705d72f2561e8b1641565f0bc567f1596fcc8fbe189568bc1e77
 Homepage: https://invent.kde.org/plasma/plasma5support
 Description: weather data from multiple sources
  Library to get online weather data from multiple sources.
@@ -51283,21 +51283,21 @@ Description: Utility functions library for Xfce4
 
 Package: libxfce4windowing-0-0
 Architecture: amd64
-Version: 4.20.6-1
+Version: 4.20.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libxfce4windowing
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 319
+Installed-Size: 349
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdisplay-info3 (>= 0.3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0+git20210214), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 3.2.0), libx11-6, libxrandr2 (>= 2:1.5.0), libxfce4windowing-common
 Breaks: budgie-core (<< 10.9.2-4~), xfce4-panel (<< 4.19.5~), xfdesktop4 (<< 4.19.5~)
-Filename: ./libxfce4windowing-0-0_4.20.6-1_amd64.deb
-Size: 117048
-MD5sum: 8a4e3129c7297c99e82a5401df3f0aba
-SHA1: 9642363faeb738571bb0949869de30bb5534cd88
-SHA256: e904aa6392afa59f5b1cbe1c3d8a1dec60ce98710872440e6b832198ef8c66aa
-SHA512: b579d7d58ecaa91314d526934fe3250d5c45136ea5fdb10a41ef038ec0b8400186e2f2206ca4d2988f1abade6887c2c38458a5f0799d7e10d14dd5aa8e9c042d
+Filename: ./libxfce4windowing-0-0_4.20.7-1_amd64.deb
+Size: 126900
+MD5sum: ca28ccfa6ed01b1106d0e3e79954856d
+SHA1: 6877a7d275a12e67ada97cab753ab5f1eeef8ea7
+SHA256: f9bab65549b01bc1bfbfdf1aed3afcc0df83691e373d954f2d8c1de42830dfb0
+SHA512: faabbb21f925e4d61a1fbf03e7ddc4d5e3deae222c2ae4de02449c1bd86beaf4cc234007cb7c2e48e0b4c422162579b7dba602e0e25286e5165e54a013628bf2
 Homepage: https://docs.xfce.org/xfce/libxfce4windowing/start
 Description: Wayland utility functions library for Xfce4
  an abstraction library that attempts to present windowing concepts (screens,
@@ -51305,19 +51305,19 @@ Description: Wayland utility functions library for Xfce4
 
 Package: libxfce4windowing-common
 Architecture: all
-Version: 4.20.6-1
+Version: 4.20.7-1
 Multi-Arch: foreign
 Priority: optional
 Section: xfce
 Source: libxfce4windowing
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 257
-Filename: ./libxfce4windowing-common_4.20.6-1_all.deb
-Size: 61420
-MD5sum: 7b65456fd9549e3e8d93573afaadfef9
-SHA1: 31a88f41a6acac80e8b2d8504dd4053018c893f8
-SHA256: 16e58040a549075ed3fccd2f9a2cb292452427651c26cf6c86c7a0340d5fbecb
-SHA512: 67aa3d0ab3319b31cddcc5d831f7b465947ff65089f4e0929d94e620e67400565fc71691f5fd9341c6111d302116ccddcdcb9bf56a88da70e42c09d892f848ab
+Installed-Size: 259
+Filename: ./libxfce4windowing-common_4.20.7-1_all.deb
+Size: 63056
+MD5sum: 5ab28966e8704f939693ae1c5610c16d
+SHA1: 0ec46bd87a384f70471ea99cc69c60f43ef6dcc1
+SHA256: 0578f9f7b0121a04877e0a461aff85c7d87c0169ff2f70230c3b0f99bfdcd3e2
+SHA512: 0b963a34649d30db953e5d96f7aaf1a3c03c3a3d9074d49714342d96d61882213f6686ddd25cb5178f5ae9da56c3f90a0e2bfdb9429188aeefcb367ac87693c9
 Homepage: https://docs.xfce.org/xfce/libxfce4windowing/start
 Description: common files for libxfce4windowing
  This package contains various architecture-independent common files for
@@ -56561,22 +56561,22 @@ Description: Operating system database files
 
 Package: oxygen-icon-theme
 Architecture: all
-Version: 5:6.2.0-2
+Version: 5:6.28.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Source: oxygen-icons
+Source: kf6-oxygen-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 41664
+Installed-Size: 41955
 Depends: hicolor-icon-theme
 Breaks: fdpowermon-icons
 Replaces: fdpowermon-icons
-Filename: ./oxygen-icon-theme_5%3a6.2.0-2_all.deb
-Size: 33005748
-MD5sum: 0ec4823b873da56abaa5fa9c98aec621
-SHA1: 4d7759427ad19365bbd04b102aaf17567bb52593
-SHA256: 6f65346282b367e10eca842056f3713fb2965190af5005ff96c51643306d1a43
-SHA512: 0ab80f41b286e6faa35491aac6d992419de3ae8c8598580513a2c87814af91be784b6c19153cadddaf24cffa64a50a7c5ac4a1bf7c5ad852321b44eb5fb30543
+Filename: ./oxygen-icon-theme_5%3a6.28.0-2_all.deb
+Size: 33293936
+MD5sum: 7e951bd6ccab773334f6917bb28aeb31
+SHA1: 089b55cad0a058687aaec9cfb54454acac050f5c
+SHA256: 8e023b452327046814e754d54f1777d7e39027d3b67088f66315f58f77ebf660
+SHA512: f1f021d305bc46cc8565e6a35c41453e2e1de2c3cf86fe667c7941b98ce324ec80232352e0da4ebe1fbdc48a35c83b67cae3dc03e1f2ccebcfc9ec3b11a9e2c1
 Homepage: https://invent.kde.org/frameworks/oxygen-icons
 Description: Oxygen icon theme
  Oxygen Icons is a freedesktop.org compatible icon theme originally developed
@@ -57411,20 +57411,20 @@ Description: core components for the KDE's Activities system - CLI
 
 Package: plasma-browser-integration
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 862
+Installed-Size: 870
 Depends: plasma-version-base-6.7, libc6 (>= 2.34), libkf6configcore6 (>= 6.8.0~), libkf6coreaddons6 (>= 6.8.0), libkf6crash6 (>= 6.8.0~), libkf6dbusaddons6 (>= 6.8.0~), libkf6filemetadata3 (>= 6.8.0~), libkf6i18n6 (>= 6.8.0~), libkf6jobwidgets6 (>= 6.18.0), libkf6kiogui6 (>= 6.8.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.8.0~), libkf6purposewidgets6 (>= 6.8.0~), libkf6service-bin, libkf6service6 (>= 6.8.0~), libkf6statusnotifieritem6 (>= 6.8.0~), libplasmaactivities7 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.6.0+dfsg~), libqt6widgets6 (>= 6.6.0+dfsg~), libstdc++6 (>= 9), libtaskmanager6 (>= 4:6.7.0~)
 Breaks: webext-plasma-browser-integration (<< 6.3.2-2~)
 Replaces: webext-plasma-browser-integration (<< 6.3.2-2~)
-Filename: ./plasma-browser-integration_6.7.2-1_amd64.deb
-Size: 179176
-MD5sum: 6023e5da6a6a1f5e4b96f308ef89fee6
-SHA1: 236371471cdef59216b799d3b84d457c1557f2d3
-SHA256: 2eec48aaa2c04c81105f5274b933c47a9b2a9b0fa23bc3c58bdac2c506f5524c
-SHA512: 2c8de955e3ed95f8f860217d976aca5073edd447efd922693bff6b2a485fcecf948038e424af2e7e0257447579406c02fbd44ac257f3a841792c38fa38407e6f
+Filename: ./plasma-browser-integration_6.7.4-1_amd64.deb
+Size: 182368
+MD5sum: b10d4ca87dec776be99f17264f6951b7
+SHA1: 8777cc192914a5a358d074556160298ac548358b
+SHA256: 5fad4a1980e3a988a76071079b26c86f1602e59bc84b49dcdadb5d5fe2372783
+SHA512: 47e003e1f8917ff7fdecaebb3a988e9414a0f2e46635ef1d510f310901f653c106a5ea1d8a865bda1cb4373ab4e5553486c3274cebff7b6f68d98c51e9c7ad50
 Homepage: https://invent.kde.org/plasma/plasma-browser-integration
 Description: Chromium, Google Chrome, Firefox integration for Plasma (backend)
  Plasma Browser Integration is an extension for common browsers
@@ -57684,22 +57684,22 @@ Description: Discover software management suite
 
 Package: plasma-integration
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 661
+Installed-Size: 666
 Depends: breeze (>= 4:6.2.90~), qml6-module-org-kde-breeze, plasma-version-base-6.7, kio6, libc6 (>= 2.14), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6quickcontrols2-6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libxcb1, libxcursor1 (>> 1.1.2), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: fonts-hack, fonts-noto-color-emoji, fonts-noto-core, fonts-noto-ui-core, xdg-desktop-portal-kde
 Breaks: plasma5-integration (<< 6.5.90~)
 Replaces: plasma5-integration (<< 6.5.90~)
 Enhances: kio6
-Filename: ./plasma-integration_6.7.2-1_amd64.deb
-Size: 139856
-MD5sum: 68e585928e2cb1c593125e9aaf53d3ea
-SHA1: c04fc302dade5b991b79cd5f3ac1f491fba41a46
-SHA256: d5d42ea1ed19eaa94d8732aa9dfaa0a113688920a3afe890f1953f694c0a8f53
-SHA512: 9a1022f9b7a70c9fddaed75de5262683c3be0e977efb35ea6c728b52594db3aba0b1814e45e8cee51cc30bc9be0e89b9fe2460759bdf47ab4cac8ab239879559
+Filename: ./plasma-integration_6.7.4-1_amd64.deb
+Size: 142612
+MD5sum: 75532dabd5d554e32bcc34e6c51afd59
+SHA1: 53a33bddfea1d136b944d9a8a366ec6b94f9f32a
+SHA256: 02b5a47ba50f94002cb8f966c14e233b0862ecdd9ad1d993036490ad84103355
+SHA512: 970f12c94c045a3b8edab059c500a62154cce778fae604189541215ada770ef57597e40843fe81c51c4372abc56da1145115f550e1c22941571f4a4985939b12
 Homepage: https://invent.kde.org/plasma/plasma-integration
 Description: Qt Platform Theme integration plugins for KDE Plasma 6
  A plugin to provide Qt Platform Theme integration for the Plasma 6
@@ -57707,22 +57707,22 @@ Description: Qt Platform Theme integration plugins for KDE Plasma 6
 
 Package: plasma-nm
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 14757
+Installed-Size: 14880
 Depends: mobile-broadband-provider-info, network-manager, plasma-desktoptheme, plasma-version-base-6.7, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-ksvg, qml6-module-org-kde-networkmanager, qml6-module-org-kde-quickcharts, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, kio6, libc6 (>= 2.14), libglib2.0-0t64 (>= 2.12.0), libkf6colorscheme6 (>= 6.26.0~), libkf6completion6 (>= 6.26.0~), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6modemmanagerqt6 (>= 6.26.0~), libkf6networkmanagerqt6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6solid6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libnm0 (>= 1.40.0), libopenconnect5 (>= 9.00), libplasma7 (>= 6.7.0~), libqcoro6dbus0t64 (>= 0.4.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6keychain1 (>= 0.16.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quickwidgets6 (>= 6.10.0~), libqt6webenginecore6 (>= 6.10.2), libqt6webenginecore6-bin (>= 6.10.2), libqt6webenginewidgets6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), qt6-declarative-private-abi (= 6.10.2)
 Recommends: kwallet6, systemsettings
 Suggests: network-manager-fortisslvpn, network-manager-iodine, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-pptp, network-manager-ssh, network-manager-strongswan, network-manager-vpnc
 Breaks: plasma-mobile (<< 6.6~)
 Replaces: plasma-mobile (<< 6.6~)
-Filename: ./plasma-nm_4%3a6.7.2-1_amd64.deb
-Size: 1955264
-MD5sum: 9b36d754685315594b0e64e4f31c6db1
-SHA1: ee63576f4a7821808be1adef73e068a7066b11e9
-SHA256: 41fc779fb06de92e1bb1ceedec5f6baa54a9be065982646aa4264a123797a5ad
-SHA512: 04b735203663c27635e4d736d2d4eadf67ffe142efe4a76ef0c13ae8510e752cec28419388aa8bfcd1a32e1269f732e02051b337c76ef8033392ea5fddaa170f
+Filename: ./plasma-nm_4%3a6.7.4-1_amd64.deb
+Size: 1972716
+MD5sum: ded747d8bf67e51f48ec0a44c0b46f0d
+SHA1: b2b513fddd6e3f8654dedddf87c5dcc1f09cd0ef
+SHA256: b3429d7aa40935d3fd2e1bd0532facda116db5c46b71be015d63d33c9d9f062d
+SHA512: 9be5d9171617f03bc7a768a962cb693d352b8da81281e1aa7a69e1818ae57c0b2f5d1434d79e8b5120944076fb4b325b2a7ee00d5cb67bc1b942ac465095db90
 Homepage: https://invent.kde.org/plasma/plasma-nm
 Description: Plasma network connections management
  plasma-nm provides a Plasma applet written in QML for managing network
@@ -57765,19 +57765,19 @@ Description: additional runners for Plasma 6 and Krunner
 
 Package: plasma-vault
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1601
+Installed-Size: 1621
 Depends: cryfs, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, plasma-version-base-6.7, kio6, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6networkmanagerqt6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.10.0~), libplasma7 (>= 6.7.0~), libplasmaactivities7 (>= 6.7.0~), libprocesscore11 (>= 4:6.6~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 14)
 Suggests: gocryptfs
-Filename: ./plasma-vault_6.7.2-1_amd64.deb
-Size: 333444
-MD5sum: 89d43f9618db41f2fee27e568fa6cf7e
-SHA1: 26552092e5bf3d4a3499302261ef8cff51f645cb
-SHA256: 0b5bcff07b23b8719a2d3d80246894ea1f5e1149039069c2adee2195dfdaa1e1
-SHA512: 6d1d42762f28361b4ca63d4220f93aeec9339304bc90647ee2ffb49a17f8f895f9667d4cc4f32f9469c2ba3290ac319c57265c5b0e536b423eb834a3f9b0e747
+Filename: ./plasma-vault_6.7.4-1_amd64.deb
+Size: 341148
+MD5sum: eacc79a5584bb7ade1da1460c5e07728
+SHA1: 26ee4bfde6a8d17325a9118c04fce0d8fbb37fe6
+SHA256: 3e0fd9989adcb66f94519ed23e24f515c8d54af57ba522a18598220c1e9fa308
+SHA512: 9c1a7f7ceb25acdf385f6327c38c8fd0f32ba579c0dcca842d8aa78b94680ba1ec6778f87dd52c1b1ed16b090be1afb8e771bc918ed9fa526d3fafba772d2acc
 Homepage: https://invent.kde.org/plasma/plasma-vault
 Description: Plasma applet and services for creating encrypted vaults
  File encryption widget.
@@ -58038,19 +58038,19 @@ Description: official text editor of the MATE desktop environment
 
 Package: polkit-kde-agent-1
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 453
 Provides: polkit-1-auth-agent
-Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, plasma-version-base-6.7, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./polkit-kde-agent-1_4%3a6.7.2-1_amd64.deb
-Size: 69160
-MD5sum: 1bf76af18a84fa097d3f4eb8858fa397
-SHA1: 0217add98acd3e6318c20b412b29565139535103
-SHA256: 5f1bee52b00bb3177d3a1b5b6e657e3f4d176a741092cc57658fd6f95d8a3a23
-SHA512: cdc6e5a85b4aeae212897244cc93779a124f6ec0a55c647aefaf271d08a2b411dfa72562551752b41f84f63841913e73addca586e20f00de61cb7528ba27513d
+Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, plasma-version-base-6.7, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./polkit-kde-agent-1_4%3a6.7.4-1_amd64.deb
+Size: 69620
+MD5sum: 9011bdedb02eb2a125d4a0e52f8bb8d4
+SHA1: e164e0f945384ccc09441ac289ee913678fd8cbc
+SHA256: 839ae6af10b0efb0236bfe71363a792333869bbdfdb525f492379bdf78d326c0
+SHA512: 81d4c2e07495d01d2ea46c25d804f30d094d60fde408fba06377f8e0e6744fc09bbc9edd5fca3b0428b35ae66de831aec1c48f3588019ef7cac28bef9e5fedf1
 Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
 Description: KDE dialogs for PolicyKit
  PolicyKit is an application-level toolkit for defining and handling the policy
@@ -58103,22 +58103,22 @@ Description: framework for managing administrative policies and privileges
 
 Package: powerdevil-data
 Architecture: all
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: powerdevil
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3649
+Installed-Size: 3662
 Depends: plasma-version-base-6.7
 Breaks: plasma-mobile (<< 6.6~), plasma-workspace-data (<< 4:6.2.0~)
 Replaces: plasma-mobile (<< 6.6~), plasma-workspace-data (<< 4:6.2.0~)
-Filename: ./powerdevil-data_4%3a6.7.2-1_all.deb
-Size: 861068
-MD5sum: 15b3e91dcc199e8245e5bf5795ab496f
-SHA1: f9f6fb53a832ddda4ee2267f033a42f73b360147
-SHA256: e5530499db3a0eff895c55428c54cbde7cc65f43a8b868e7a5cc1a58b503cff2
-SHA512: 08592a4f45e35f227d1851f04446010de8d813c2504703ff0a0ee1b22c6c456f8cb8307db772342f9ca7e733f6bb74f311d382a24dc903273150284cc3a0d8c4
+Filename: ./powerdevil-data_4%3a6.7.4-1_all.deb
+Size: 861680
+MD5sum: 96853a02f6f1384ac3edd84e49284365
+SHA1: de191c33f5dca6d3be52be24e8973668270711e1
+SHA256: c03a39d892e4024f1260837ad9ff17d8f848cc10d589af900261401c07a0268c
+SHA512: c0e39930abbdab37ccddec96076fc6e1220e6c09ee7e5fed4764e77cc2d77cc148dbd63050ed7eabdaababf4e8348e3577024dd5911e3810a106ddf1989f9d68
 Homepage: https://invent.kde.org/plasma/powerdevil
 Description: data files for the KDE power management service for Plasma
  PowerDevil is the internal name of the KDE power management service
@@ -58129,21 +58129,21 @@ Description: data files for the KDE power management service for Plasma
 
 Package: powerdevil
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2741
-Depends: libcap2-bin, powerdevil-data (= 4:6.7.2-1), plasma-version-base-6.7, plasma-desktoptheme, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-notifications, qml6-module-org-kde-plasma-workspace, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, libc6 (>= 2.34), libddcutil5 (>= 2.2.7), libkf6authcore6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6package6 (>= 6.0.0), libkf6runner6 (>= 6.26.0~), libkf6screen8 (>= 4:6.6~), libkf6screendpms8 (>= 4:6.6~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.26.0~), libkf6xmlgui6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.7.0~), libplasma7 (>= 6.7.0~), libpowerdevilcore2 (>= 4:6.7.2), libqcoro6dbus0t64 (>= 0.4.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
+Installed-Size: 2753
+Depends: libcap2-bin, powerdevil-data (= 4:6.7.4-1), plasma-version-base-6.7, plasma-desktoptheme, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-notifications, qml6-module-org-kde-plasma-workspace, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, libc6 (>= 2.34), libddcutil5 (>= 2.2.7), libkf6authcore6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6package6 (>= 6.0.0), libkf6runner6 (>= 6.26.0~), libkf6screen8 (>= 4:6.6~), libkf6screendpms8 (>= 4:6.6~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.26.0~), libkf6xmlgui6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.7.0~), libplasma7 (>= 6.7.0~), libpowerdevilcore2 (>= 4:6.7.4), libqcoro6dbus0t64 (>= 0.4.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Recommends: power-profiles-daemon, systemsettings
 Breaks: plasma-mobile (<< 6.6~), plasma-workspace (<< 4:6.2.0-1~), powerdevil-data (<< 4:6.3.2-2~)
 Replaces: plasma-mobile (<< 6.6~), plasma-workspace (<< 4:6.2.0-1~), powerdevil-data (<< 4:6.3.2-2~)
-Filename: ./powerdevil_4%3a6.7.2-1_amd64.deb
-Size: 545020
-MD5sum: 38e36893d8ae4cb33bc12fb7c25dd443
-SHA1: c17e63f2e89abf8ef809b7073837182b01118ab7
-SHA256: a14b8e84a4e07142a62413da7fbda43d02d1a646299758e25181eab0b079d2ff
-SHA512: da073391c22108a36945497ff3375d43263b5da0c6071949290cc04b9da48ba574ffad7900721a07435b552e4e71a00783f84dd6151daffce6f91af0fd1987f6
+Filename: ./powerdevil_4%3a6.7.4-1_amd64.deb
+Size: 555216
+MD5sum: 9611083752981977414442cbba5da7ff
+SHA1: 210ba5e26111c59dbef3611825a8a26666206184
+SHA256: 6c007cf758ab5316c85fe9a353d1028bc7279cb6e14cbdf87fde6396723fa0e5
+SHA512: ea1a8d70cefd42d91dc890c76761cca82fa2cb24458a25b5224caf263babea2457dcb05dbab49a414c50b55e597e00ad0dcf7a6d6ec687ab47e4e535705ec5ad
 Homepage: https://invent.kde.org/plasma/powerdevil
 Description: KDE power management service for Plasma
  PowerDevil is the internal name of the KDE power management service
@@ -61127,7 +61127,7 @@ Description: library for rendering SVG-based themes - QML module
 
 Package: qml6-module-org-kde-ksysguard
 Architecture: amd64
-Version: 4:6.7.2-3
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -61135,12 +61135,12 @@ Source: libksysguard
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 323
 Depends: plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-quickcharts, qml6-module-qtcore, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.4), libkf6coreaddons6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libksysguardformatter2 (>= 4:6.1.90), libksysguardsensorfaces2 (>= 4:6.1.90), libksysguardsensors2 (>= 4:6.1.90), libprocesscore11 (>= 4:6.4.91), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-ksysguard_4%3a6.7.2-3_amd64.deb
-Size: 33444
-MD5sum: 291d3a573ec6d38fe6e27deca38ccde7
-SHA1: e6c04fc8473bf6a14d20f3cf40b1252d31ddbb29
-SHA256: 9947d0cf42c527dc1d362578b2dcf77bfa9b5030c60754569627a4d80a39e3ce
-SHA512: 235426ad50ac868c9a8e276fec995cc5013e495f4838ebf815a9deb3ad5ff15852ea91916205bd3cc2351087cd2eb7406b0c3d300a8da5994363a02d03e2074a
+Filename: ./qml6-module-org-kde-ksysguard_4%3a6.7.4-1_amd64.deb
+Size: 33596
+MD5sum: 26f54c88185dfe326708169fa39bf3c1
+SHA1: 15be618c5feecafd8cf31bb8baaa73e7c1fee0c3
+SHA256: f07c9d46da5d1a2391bc6af80505a176387eccd21c06cf39032fb3094d30648c
+SHA512: 4cc86a26370301020cc95dcd85544d44479b8f733c47244f63b7a41f3d40f4ecc6941b855768486b8f1287fc53e18e31c59917b48163147482e93747cc84bda4
 Homepage: https://invent.kde.org/plasma/libksysguard
 Description: KSysGuard QtDeclarative QML Support
  Contains a plugin for QtDeclarative that provides
@@ -61321,20 +61321,20 @@ Description: QML datetime engine for Plasma
 
 Package: qml6-module-org-kde-plasma-plasma5support
 Architecture: amd64
-Version: 4:6.7.2-1
+Version: 4:6.7.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma5support
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 245
-Depends: libplasma5support6 (= 4:6.7.2-1), plasma-version-base-6.7, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-plasma-plasma5support_4%3a6.7.2-1_amd64.deb
-Size: 60144
-MD5sum: 242ba56309d29b724f4977d701afc02b
-SHA1: 642be780923af3c7745bac5d43e6bd24c91f3654
-SHA256: 049b4c60374992a99b450ca883d937b2eb9922dea7786d8b495ed8e7fc4f611c
-SHA512: 6aca65bb6fb7f12b062af5c3cd71d99d7d4021b82309ee89110964711a44134fcf09f19f9f1f3267cce0a366ae03a7c25baf3e91b060efda418eed2a251aed09
+Installed-Size: 249
+Depends: libplasma5support6 (= 4:6.7.4-1), plasma-version-base-6.7, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-plasma-plasma5support_4%3a6.7.4-1_amd64.deb
+Size: 62824
+MD5sum: 2b3cd1d4e65de738dc69dd531c883e16
+SHA1: 769a60b553649966076d4b815c38b63552e5d492
+SHA256: 5452eb697dd1d09f3a01b074f653136093920b68c422907bcbde2ada025c174a
+SHA512: 09014afadb6ff0e2fa87601bbf86f35158fdf660fb804b3f52bfe9d7832035032f2a4dbdbc0723aef36be87b36ebc46a3d8ce6f6ca4cf6a6a2a770bd412d0f30
 Homepage: https://invent.kde.org/plasma/plasma5support
 Description: support components for porting from KF5/Qt5 to KF6/Qt6 - QML module
  Plasma5Support Framework providing migration aids for KF5 -> KF6 migrations.
@@ -64915,19 +64915,20 @@ Description: Tango icon library
 
 Package: task-cinnamon-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 9
-Depends: tasksel (= 3.89), task-desktop, cinnamon-desktop-environment
-Filename: ./task-cinnamon-desktop_3.89_all.deb
-Size: 1092
-MD5sum: 200b0d57193448e460bb49ae70dabd0d
-SHA1: 28e89b366c47abe9cdc701fe1360ea6e124b3e3b
-SHA256: 9b5cc369e8e05a7bcbb9f706c11924b764da5e2eccb48f94fe9d1841c4b2424b
-SHA512: 2e03c49c3e71f95eb061e321dbad621022eda4bb6e1927951600192f3f39efdd0d3d5b39d535229cf41fd2ae3ea66cfaa6f3b04378bf98502f1aab09661b05db
+Depends: tasksel (= 3.90), task-desktop
+Recommends: cinnamon-desktop-environment
+Filename: ./task-cinnamon-desktop_3.90_all.deb
+Size: 1096
+MD5sum: 8b3a90f4aad21a2b786aad4fc85b5a3f
+SHA1: ee022f88a1ac02a1860d31e2427b7869e6d6fae2
+SHA256: becdd0ec697257cc493a9a069c5e77f586ecbd47289d0e2cabd47f1658779a29
+SHA512: f66f4372918dfd27d732aa18c026baf522348e7ec8961a651f411b36a4af306ae6743b52df76ea67c83a030b3f1d7b703d1cf7f11a303d482a90bac0406ea234
 Description: Cinnamon
  This task package is used to install the Debian desktop, featuring
  the Cinnamon desktop environment, and with other packages that Debian users
@@ -64935,39 +64936,39 @@ Description: Cinnamon
 
 Package: task-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.89), desktop-base
+Depends: tasksel (= 3.90), desktop-base
 Recommends: task-gnome-desktop | task-xfce-desktop | task-kde-desktop | task-lxde-desktop | task-gnome-flashback-desktop | task-cinnamon-desktop | task-mate-desktop | task-lxqt-desktop | task-lomiri-desktop | task-phosh-desktop, xdg-utils, fonts-symbola, avahi-daemon, libnss-mdns, anacron, eject, iw, alsa-utils, sudo, cups
-Filename: ./task-desktop_3.89_all.deb
+Filename: ./task-desktop_3.90_all.deb
 Size: 1008
-MD5sum: 1894deeb417d0f5e5c99d12a22e39401
-SHA1: e0d25d24301d2e73f9d0862335a44371d515ee0f
-SHA256: db46ba71d618121adc0a54a34d0f9d75dd38cf9cb1a944145a10078cc066851c
-SHA512: 866d7a27ee34f19400adbee205cfcda4da856457dc0f3e02d2064df45d8466904840bc2c1676af8fc00d0724f9a62853c147806cd876bba29e62308b29a919d3
+MD5sum: 2fb13f3b389b78655f58d0589905f354
+SHA1: 684edeb971a6035caec0fd3cca5bf1967bdde112
+SHA256: ac744902b0e52262c9b840818595b24d3cfa968de1a868d773cc7e011c153068
+SHA512: 055c1c172848bac28325e60bc4e6ed2d6296a339e7c7279ffbfe950b205a2d4b011f6675c25c8d1f5eaeed2c2a2737151f425ed0b91859717bb761446a3da0e1
 Description: Debian desktop environment
  This task package is used to install the Debian desktop.
 
 Package: task-gnome-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 9
-Depends: tasksel (= 3.89), task-desktop, gnome-core
-Recommends: gnome
-Filename: ./task-gnome-desktop_3.89_all.deb
+Depends: tasksel (= 3.90), task-desktop
+Recommends: gnome-core, gnome
+Filename: ./task-gnome-desktop_3.90_all.deb
 Size: 1092
-MD5sum: efa6647b63f895e945cfb1b4c111db3a
-SHA1: 33eddad02e2b8e7a27f03eadc7859d1e53d0b0ae
-SHA256: adf9ee4d84e8f6b981d0f733d1146b8143ae7ce55dc02fc74c94c1cb1b7e4270
-SHA512: 793c26449214e641218590876cf09bab829a497f2a51ee6e151dbd327fc56c3461fa3531a9b109b0f3418f5cb8f42f60097c4e7f0bd452a93283f9276661e253
+MD5sum: 1db8f1e966d87fdf579e88f91b1be176
+SHA1: 73294087c80421e3f29fc73e47258ab4eff8ac0a
+SHA256: f0c750fc5b4f445cf9ed48f376c184137d8b531b56209a9148deb361a7c567e4
+SHA512: c58f76a3663f7762f878d2aed7989501b4dea5a1fe755d832870d9276d7bf4397ddc5ba8ab7435f65956f2b25ffbda9e7a789bbed24419d84476fe397ae26c20
 Description: GNOME
  This task package is used to install the Debian desktop, featuring
  the GNOME desktop environment, and with other packages that Debian users
@@ -64975,20 +64976,20 @@ Description: GNOME
 
 Package: task-kde-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.89), task-desktop, kde-standard, sddm
-Recommends: firefox-esr | firefox, kdeaccessibility, orca, gimp, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-plasma, libreoffice-kf6, libreoffice-help-en-us, mythes-en-us, hunspell-en-us, hyphen-en-us, print-manager
-Filename: ./task-kde-desktop_3.89_all.deb
+Depends: tasksel (= 3.90), task-desktop
+Recommends: kde-standard, sddm, firefox-esr | firefox, kdeaccessibility, orca, gimp, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-plasma, libreoffice-kf6, libreoffice-help-en-us, mythes-en-us, hunspell-en-us, hyphen-en-us, print-manager
+Filename: ./task-kde-desktop_3.90_all.deb
 Size: 1068
-MD5sum: 78b031b76d1fe4b240618c4864520922
-SHA1: ec300722a0f40f07baa52551fe6f57880a6cc6cc
-SHA256: 4cbd146b0700cef7402cd027848e227b58e58b741e0c358bebbe0bc1482819f4
-SHA512: 60d8271c971e45348b4790d4edd3c3f7be603d8a332e38b4534fddc369872801f278cdba455575cbfc586b0500fc7dc9020907d4993ca12e33b9b8b55b4f04c6
+MD5sum: c07a2d72704bed89c59b3f8a1b1b40a8
+SHA1: 511535cc8c20189b831baad0802b0155112945c9
+SHA256: d2306b9061be5851159e02adda52b74192fd5fa2097da1f7c6700d20c82634c2
+SHA512: 712f41363f2a647bedb3c5ad5530c5a28e63edc1949d5b2b4cd383b8438cba3fe94bc3881f572b51223cc86937e8f409cbd85b52fdeb5c4fbe903ce8b35e30af
 Description: KDE Plasma
  This task package is used to install the Debian desktop, featuring
  the KDE Plasma desktop environment, and with other packages that Debian users
@@ -64996,97 +64997,97 @@ Description: KDE Plasma
 
 Package: task-spanish-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.89)
+Depends: tasksel (= 3.90)
 Recommends: libreoffice-l10n-es, libreoffice-help-es, firefox-esr-l10n-es-ar | firefox-l10n-es-ar, firefox-esr-l10n-es-cl | firefox-l10n-es-cl, firefox-esr-l10n-es-mx | firefox-l10n-es-mx, firefox-esr-l10n-es-es | firefox-l10n-es-es, myspell-es
-Filename: ./task-spanish-desktop_3.89_all.deb
+Filename: ./task-spanish-desktop_3.90_all.deb
 Size: 944
-MD5sum: e80b6c6ca39ce158352b97561f7afbab
-SHA1: 24604f9fc0e3e54ab50f43f5cb31cc10b9d9af04
-SHA256: 3606d05dc31ce8e75e92fd4ff7faefa0a5accdb125e2f9ae2c3c2044101d7482
-SHA512: d9ee8a64082d3c215fc0afccbbb9c5f84347669f613ff8ec2cf2dbdda06ab2f8b7c823ca86c35395ff173f53bfaf375be32f6d63b327a259b07bdae4aecaceeb
+MD5sum: 8ad3d0d160afd8f12617a1a41b4cfbc9
+SHA1: 9d654656819de5084c63c4b25d8599902c9ff742
+SHA256: f6a7ea811ca26ef14dd44a382993eb27c3f2e6f35bf5978af87a25477b0cfcab
+SHA512: 02f11df7b7df27df955a99984f992002a7e8365d134a2f4644130148037ee3ae8036bf4e070240ba658bf7fc8506641c311117f2bcaea9832e1adcfe438690af
 Description: Spanish desktop
  This task localises the desktop in Spanish.
 
 Package: task-spanish-kde-desktop
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.89)
-Filename: ./task-spanish-kde-desktop_3.89_all.deb
+Depends: tasksel (= 3.90)
+Filename: ./task-spanish-kde-desktop_3.90_all.deb
 Size: 884
-MD5sum: 2301b3690833444872503a9fc4ea95d1
-SHA1: 0ebaf761b29b13ed2fffdf15d0b275ee077b4a50
-SHA256: c19e03b02e473230495e89150cd8ca397074704d8718d3b5cdb2eb5890df57e0
-SHA512: 625b7700322cca9dd1296bcf96ebd5e4ad95a8af41da39cdc514e76d0bec2c736d39671c1d7c323edc6336aa2f8287fcd7a9dac75e96e43ca00620e72b093e07
+MD5sum: f779d3badb48ef5c42abec2dd3a57f6f
+SHA1: 09f4787ccc419be47e5053fef90138fa10519958
+SHA256: ab8ec1d88738ccf0e1aefed5fe7cf376fa0c200de20553f07cc3d8bf51c0f6a0
+SHA512: 5fe066597f2711b10b1d6f02c6a9302d86f3392de6bb094c0fe9587f0b32072d32ec66ffd936cded1b663031737889b9288f5f87c5493a240958193f4a4e455a
 Description: Spanish KDE Plasma desktop
  This task localises the KDE Plasma desktop in Spanish.
 
 Package: task-spanish
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: tasks
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 6
-Depends: tasksel (= 3.89), manpages-es
+Depends: tasksel (= 3.90), manpages-es
 Recommends: ispanish, wspanish, aspell-es, debian-reference-es, util-linux-locales
-Filename: ./task-spanish_3.89_all.deb
+Filename: ./task-spanish_3.90_all.deb
 Size: 964
-MD5sum: e9455e49e3170a6e3ca1bfc27eeb3cd3
-SHA1: 5e50ba9d9f156a334988148bc0a2e17407e5a936
-SHA256: 166343c469544df500591dc383ea008ebe90a39f19d3d71c6079bbb78e8930ed
-SHA512: b9e231991c326bd7942e4f73e09cfd85a700ff4a6789e08dcf6ed1dbef84837d8861f9446be4d109681b94d37dcc410218a8db68b615eb59ca3b384e5998b302
+MD5sum: 0943e2976bc1ca06480475eb77554272
+SHA1: 50d8cfa4c90def9da4f8889de2bbcced81b1200b
+SHA256: 4af42a893be64f923e388045baa0a6fb980d1702051570145fcc6de6960a9a27
+SHA512: 5fad02ed63ecef33f357fc7d590bf82330665241cf18efa3867b68e2d719ecd4181ad95796e9d9b538feee96c975cd51ba80067acd129c0e6a2334fd9082a8b9
 Description: Spanish environment
  This task installs programs, data files, and
  documentation that make it easier for Spanish speakers to use Debian.
 
 Package: tasksel-data
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: admin
 Source: tasksel
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 213
-Depends: tasksel (= 3.89)
+Depends: tasksel (= 3.90)
 Recommends: laptop-detect
-Filename: ./tasksel-data_3.89_all.deb
-Size: 18428
-MD5sum: dfa9eaa305cddb7fb6b68a46dfa2cd05
-SHA1: e490d900c598f2fb11292dd5dab6145a5b2161cf
-SHA256: bf90d53f24c99c765215a0cbf5c31d09043bbdb8f95752de6a0eef0ebba3631b
-SHA512: da4c31732c1cf39d01eb59853621577cf0f926e519d14bbfee78e675dd4865b7a79ab67bfff809ba104db69b0ac1f7abf0b8adaf3c3a571f243823e699125e18
+Filename: ./tasksel-data_3.90_all.deb
+Size: 18432
+MD5sum: c8689855769adbfd764f39a78354e5f9
+SHA1: 6d0e32145505d4d89caa2e57ad57b04a0b3f4685
+SHA256: 29eb869651a54fe3a029bddeecd3b523235aea16bcb3d6514564ce9135e57567
+SHA512: be61a087d4636f38a679120b0439cb2ecc312bfec2d2e54bf47f70d4c592f125645448e7b9c39c49b63ce670dde5e3501832ec9877c9354f276699a448a55ae7
 Description: official tasks used for installation of Debian systems
  This package contains data about the standard tasks available on a Debian
  system.
 
 Package: tasksel
 Architecture: all
-Version: 3.89
+Version: 3.90
 Priority: optional
 Section: admin
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 346
+Installed-Size: 351
 Pre-Depends: debconf | cdebconf
 Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt, tasksel-data
 Conflicts: base-config (<< 2.32)
-Filename: ./tasksel_3.89_all.deb
-Size: 49852
-MD5sum: edf031dc83e5f5d6a2941cf41573cac1
-SHA1: b7cda2af8dd82af6c4098d984fdc2b8695ffd1e9
-SHA256: 1565cb51a46b570902dd3a189c4603598f5536ac10abfabede0fd86e869bbffd
-SHA512: 2cc3c006b0bb96784172d6798f3775305550e622cb966e14fce0692c5b46de74f02b75c1c872f4aaf9b1dfef92b2f3108ca645319328608f005eb40c38c64502
+Filename: ./tasksel_3.90_all.deb
+Size: 51760
+MD5sum: 91014172d87939862dbdb4c236813ddd
+SHA1: 712e89be2ccb85bb904846d4bea32f2849074555
+SHA256: e4c6fdcf71a3cfbf6333fc56e33ef67dd37c43efba854957b971c1783d6e9a60
+SHA512: 27262860ca3ba0c140fee16a8d9d94a5159831312688a469279338d0cc3445ac8323bb52a9de2163f21bf0749fa727f7ae558a4bb82526d11b5c728414b8330e
 Description: tool for selecting tasks for installation on Debian systems
  This package provides 'tasksel', a simple interface for users who
  want to configure their system to perform a specific task.
@@ -71581,7 +71582,7 @@ Description: graphical application for configuring displays in Wayland composito
 
 Package: webext-plasma-browser-integration
 Architecture: all
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
@@ -71590,12 +71591,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 824
 Depends: plasma-browser-integration, plasma-version-base-6.7
 Recommends: firefox-esr | firefox | chromium
-Filename: ./webext-plasma-browser-integration_6.7.2-1_all.deb
-Size: 159928
-MD5sum: 29d213e900ad57d6dc4d03b1fd72184d
-SHA1: d1a742acb602194506c7fdfa15b165adc6f04781
-SHA256: 81d22f2cc9aad9cb2b313ec3eee3c533da331e09fe0e8be1f084c2a047ed6d68
-SHA512: b7e18ca0521691a692fe518f19f12744864e32816da20533455d1f0d47845c12205a7dae3c55ded679d16ef266b7fcc5c92c94fcb88165e59e1f1533c60c0636
+Filename: ./webext-plasma-browser-integration_6.7.4-1_all.deb
+Size: 159828
+MD5sum: be69b7bedb6072f64beb740c9dcd0032
+SHA1: 4ef32e3b59bceeabdab1b7efdc69d9c4a19d82bf
+SHA256: 0134ffbe0a212891ea4cf6125de9e531e6c5da9a89fc78c17123705a9083ee56
+SHA512: b857f53867f308d926dc619f1c0e7430ae82b622d0e9649f3b57aeff7d549e552247af04ff5931ff98df1bfd73e7706b2c2a2d4e6e6217e46a29012319425f86
 Homepage: https://invent.kde.org/plasma/plasma-browser-integration
 Description: Chromium, Firefox integration for Plasma (web extension component)
  Plasma Browser Integration is an extension for common browsers
@@ -72089,20 +72090,20 @@ Description: XDG Desktop Portal backend for Hyprland
 
 Package: xdg-desktop-portal-kde
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3266
+Installed-Size: 3324
 Provides: xdg-desktop-portal-backend
 Depends: kio-fuse, qml6-module-org-kde-iconthemes, xdg-desktop-portal, plasma-version-base-6.7, qml6-module-org-kde-kcmutils, qml6-module-org-kde-ki18n, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-pipewire, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, kio6, libc6 (>= 2.34), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6itemviews6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libkwaylandclient6 (>= 4:6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libxkbcommon0 (>= 0.5.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
-Filename: ./xdg-desktop-portal-kde_6.7.2-1_amd64.deb
-Size: 687104
-MD5sum: 3cdc76238510adb70d677d27c8ee7948
-SHA1: 6377e682bf39f8cb7253fb2ede79bc57471433ea
-SHA256: 423b300396394f0a76c5ff531cdb55061b7bcf48f3bcb1ca41528f70346ee609
-SHA512: 58ce46612ae3ed2854961bcd5c8eeca662c99251e2e5a9022ae1ccae8ddba54c8e3e0129a298fafd955ab950ab694cc9382aa6247b7a18f2ce0c216165b52721
+Filename: ./xdg-desktop-portal-kde_6.7.4-1_amd64.deb
+Size: 708096
+MD5sum: dcf8bd13917069f86b0a63c29be66e65
+SHA1: d8d3c40cc7c81e83d7b6eac6c4465044cbe86d37
+SHA256: 71d244e01212305e47bbf6b0fd9ffe8f3891bf0d2c39ee60408fab0fca3a3fbf
+SHA512: 677e102e125c7d096f7bf80522803aca138d72b1d059a8ef1c9ffee7a95b7aa8af0d8f72c2df4f84e9b5f0bac820ab37e4b6104cb04a147e80d6d017abc16f76
 Homepage: https://invent.kde.org/plasma/xdg-desktop-portal-kde
 Description: backend implementation for xdg-desktop-portal using Qt
  xdg-desktop-portal-kde provides a Qt implementation for the
