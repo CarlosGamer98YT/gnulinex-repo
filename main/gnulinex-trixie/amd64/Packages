@@ -36678,22 +36678,22 @@ Description: support components for porting from KF5/Qt5 to KF6/Qt6 - shared lib
 
 Package: libplasma7
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libplasma
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 457
+Installed-Size: 465
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6configqml6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6svg6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.26.0~), libplasmaactivities7 (>= 6.7.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libxcb1
 Breaks: libplasma6
 Replaces: libplasma6
-Filename: ./libplasma7_6.7.2-1_amd64.deb
-Size: 131572
-MD5sum: 6bce9e2e7de2b759336b34f1a3a277a3
-SHA1: 0101ed874014107f58543c1e75cb398f095e81d9
-SHA256: f7966717b0c6bcc7f5ba840f3b1834ed6d6a6c3055c6cad4ce6ba2fb3f42fe6f
-SHA512: 0548e81268fdebcf9baa5bd2b7fed2df507bf49c113cf111c3ace634b9779f83de91cd86cf01f198b6384fc858189e856337f9ce72722f7ff4eda9044f8f709a
+Filename: ./libplasma7_6.7.4-2_amd64.deb
+Size: 136848
+MD5sum: 21f75d256ad577b1380427664ee96c32
+SHA1: 5c9a711ea92cb2353bcd9db1446b7bcaea47b60a
+SHA256: feaedc5aff97f8a7871e1284a2fc57aab35db8bca676d4704fb1d5477adfef72
+SHA512: ac3ee5d264aa1f27a48990143bc6d6587d2cf164edf5affdc5fb5be1d84fbdbcbf1f0be6edc01d5908f5faecc1a1bda6ed26866182fd22f1251ea0797d85c0f2
 Homepage: https://invent.kde.org/plasma/libplasma
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF6 and Qt 6.
@@ -36774,20 +36774,20 @@ Description: usage data collected by the activities system
 
 Package: libplasmaquick7
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libplasma
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 731
+Installed-Size: 747
 Depends: plasma-version-base-6.7, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6configqml6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6svg6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.26.0~), libplasma7 (>= 6.7.2), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
-Filename: ./libplasmaquick7_6.7.2-1_amd64.deb
-Size: 197780
-MD5sum: f3a6ef1644ab9c751c7082217cb7c83c
-SHA1: 29f9325917933b5f3108082cc840656e325f7801
-SHA256: 68dcbca2a2d065c308d8184fd0f2040f26dbd0b995817676d4af6bcd924c4b4f
-SHA512: 42a7645179cd43c89492706caa9a121cc0df13b7fd2ef594df4fe3cdd670618f1de28d931a785d983d9303cf78642977a575766fe8b26802d3bebe048536638a
+Filename: ./libplasmaquick7_6.7.4-2_amd64.deb
+Size: 205348
+MD5sum: c5d0b1eaa4cf78c09b919a98c0c59c4a
+SHA1: 32a07b762ff8e3526611c155ee5652ab55b455de
+SHA256: bd3f3a9e59ffa142028a7d7fe6a767f1dd3e21ef68b104997b2f6796f54b0c7f
+SHA512: cae7fe90e3c5d0ecd9a7ac6d3886c0d534c25d9c28c5eab850104ed6987aac26f00e2ba48c30b3efee97a8161d0bd5f59606a99c4c41c20cf5990ea37190f145
 Homepage: https://invent.kde.org/plasma/libplasma
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF6 and Qt 6.
@@ -57564,21 +57564,21 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktoptheme
 Architecture: amd64
-Version: 6.7.2-1
+Version: 6.7.4-2
 Priority: optional
 Section: libs
 Source: libplasma
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6199
-Depends: qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-tooling, qml6-module-qtquick-window, plasma-version-base-6.7, libc6 (>= 2.32), libegl1, libgcc-s1 (>= 3.4), libglx0, libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libopengl0, libplasma7 (>= 6.6.1), libplasmaquick7 (>= 6.7.2), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-render0, libxcb1, qt6-declarative-private-abi (= 6.10.2)
+Installed-Size: 3031
+Depends: plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.32), libegl1, libgcc-s1 (>= 3.4), libglx0, libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.26.0~), libkirigamiplatform6 (>= 6.26.0~), libopengl0, libplasma7 (>= 6.6.1), libplasmaquick7 (>= 6.7.2), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-render0, libxcb1
 Breaks: plasma-framework (<< 5.115.0-6~)
 Replaces: plasma-framework (<< 5.115.0-6~)
-Filename: ./plasma-desktoptheme_6.7.2-1_amd64.deb
-Size: 1906244
-MD5sum: 8c68c6f9aaefe36cb629a682fafbaf61
-SHA1: cff9f56314448c81c9b97f3cb28ec8f7162411e8
-SHA256: 1d8548d4cf64be43697bfa256896c378eb6e4c3d387f4b9cc7a85d80a41a65e1
-SHA512: 63e5c31da0095c255ae6b4b76cdff3c0c17af26492197e78127fb1bd2ed7daccbed5f08403d77d92ad860373ae7ecf3879b5eb7d62f1b5e2c043f4d8ff55ba01
+Filename: ./plasma-desktoptheme_6.7.4-2_amd64.deb
+Size: 1450232
+MD5sum: edfa8aa03c3e8f37ffde2eccd7b61931
+SHA1: 149de030f61721917b3f9ee81bfd0a3e5679f456
+SHA256: 6b43c1111af4be921a827175eda69f235038428f78403f0e922367510394ddc9
+SHA512: e1cc049cfe376a24daff452f10862a5d8c435a5b282e15db09162c03b70d36f17bea28e0f3b46753dddc607e7b4227c945f3eb5b454f31e7af46f8d9ac1e77ed
 Homepage: https://invent.kde.org/plasma/libplasma
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF6 and Qt 6.
