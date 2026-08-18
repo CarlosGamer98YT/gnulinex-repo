@@ -23671,7 +23671,7 @@ Description: library to read and write songs and artwork to an iPod
 
 Package: libgps32
 Architecture: amd64
-Version: 3.27.5-2
+Version: 3.27.5-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -23681,12 +23681,12 @@ Installed-Size: 208
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libstdc++6 (>= 5)
 Suggests: gpsd
 Conflicts: fso-gpsd
-Filename: ./libgps32_3.27.5-2_amd64.deb
-Size: 87076
-MD5sum: 3087ff07f7d9664b610f61ec52ba9946
-SHA1: a95cd7c676a9e356620597e103fb114bdc7fe094
-SHA256: 6ae89fd9df3053542bc37a6fbecb0a886955fe331e384f90c6a00cf86b71e220
-SHA512: a737ef057532df3f4ce52ba95a7091443262865969f94c2d05a8d4bfd759d7d4aede481b4d7c33e647f3cc1fcbd888db137f710b6323fe013d46e44f82c7cf4a
+Filename: ./libgps32_3.27.5-3_amd64.deb
+Size: 87240
+MD5sum: be06627655ab0443d0920ed9c4c46cf1
+SHA1: c956d497edbc54a29369793ad78c20afdd7b51b2
+SHA256: 6e4864844a4518af6487c2047f1edde4154a2f676ba8b95582df5568052f1974
+SHA512: fcd765e5be16b3146f8de97f7a854481294fa43874fd293c0d094ab01a2593edba67868c7696c4654fb8c3e1af83a74a52afe62d766cc9d5bc1c0d474639ac7b
 Homepage: https://gpsd.io
 Description: Global Positioning System - library
  The gpsd service daemon can monitor one or more GPS devices connected to
