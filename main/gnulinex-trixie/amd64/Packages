@@ -19727,7 +19727,7 @@ Description: EFL freedesktop.org spec implementations
 
 Package: libegl1-mesa-dev
 Architecture: amd64
-Version: 26.1.5-1
+Version: 26.1.6-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -19735,12 +19735,12 @@ Source: mesa
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
 Depends: libegl-dev, libglvnd-dev
-Filename: ./libegl1-mesa-dev_26.1.5-1_amd64.deb
-Size: 19556
-MD5sum: be6f0c2dc8bbf79758d51f955168cc1f
-SHA1: f75c5f5ade88d62e6233a8b1077ca4ec4c379d7c
-SHA256: d4be4ce19dd3dd67e9bb31abf47e2efa6718ec7da9ae7f580dd9807d203ac912
-SHA512: 04138dc58de88aae3529cf30239bbc9bd378df796df310e22e23009be8ccf872fb12f2301e9c616fee6d97d31ec6f1209e769fb467e44195576f724430b2a08d
+Filename: ./libegl1-mesa-dev_26.1.6-1_amd64.deb
+Size: 19560
+MD5sum: f5c5431eddcc30c72426d4b4e2068a0a
+SHA1: a83865b3dd1c19fa3d479a5f0a775cb97c04d101
+SHA256: 76bd4e98da37649640086c6158f868af7a96fde242abd96a6cb5198f960c4839
+SHA512: b79a07258eb1b0e93fd703390b6f6d5145afa6a7b5511aad865cb9e77b2dab42931865569ed06347170c6b61832db3246c0dd7d67c4ea60f7d914b9fe0c9e4f4
 Homepage: https://mesa3d.org/
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
@@ -37947,7 +37947,7 @@ Description: Qt 5 XML module
 
 Package: libqt6concurrent6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37955,14 +37955,14 @@ Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 170
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 11)
-Breaks: libqt6concurrent6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6concurrent6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6concurrent6t64
-Filename: ./libqt6concurrent6_6.10.2+dfsg-15_amd64.deb
-Size: 38008
-MD5sum: 5d4fe056bb1f826f5d1c24f563e14634
-SHA1: 73f75ba2b74bcb38569e6f369d7e95c11d04b583
-SHA256: 9e96591209536f51bedbe1480f217fd07c8560e051afa4b2d89c9ed2443b01bc
-SHA512: 1d078a89fc4598ed58d665174b39d14edded76e82186ec3ed1b662aea8aef34efb1329cea26096deb1cbcc2df958c2d31664d54e341ccf24ade1e4d1b214286a
+Filename: ./libqt6concurrent6_6.10.2+dfsg-16_amd64.deb
+Size: 38172
+MD5sum: d1fa8b1981a2c25e67e11f0eeaeda14d
+SHA1: c5baed774c553f7d7005b186d424948c62f2f5c4
+SHA256: 8a5513848b96cbed499020414bd61de62c5c3696b624bfd0a6f6abe491b21df3
+SHA512: 4f2d62807488019e3c2e0304e219e3afc2e019c329fef23280a3ed98ad0c3af32b6ba0bf1389e53c2c3fc90f6771bc8d3f45e79b20637c6f86d0c885e2afab91
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 concurrent module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -37996,24 +37996,24 @@ Description: Qt 6 Qt5Compat library
 
 Package: libqt6core6t64
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6722
-Provides: libqt6core6 (= 6.10.2+dfsg-15), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 6954
+Provides: libqt6core6 (= 6.10.2+dfsg-16), qt6-base-private-abi (= 6.10.2)
 Depends: shared-mime-info, libb2-1 (>= 0.98.1), libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.26.0), libicu78 (>= 78.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 14), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
 Recommends: qt6-translations-l10n
-Breaks: libqt6core5compat6 (<< 6.6.0~), libqt6core6 (<< 6.10.2+dfsg-15)
+Breaks: libqt6core5compat6 (<< 6.6.0~), libqt6core6 (<< 6.10.2+dfsg-16)
 Replaces: libqt6core6
-Filename: ./libqt6core6t64_6.10.2+dfsg-15_amd64.deb
-Size: 1916376
-MD5sum: c4d53cb950a7cd46cbd320361527a481
-SHA1: 9f59df1431ba81244d13ad6f6b2ecb356cfdae10
-SHA256: 94658c4cb6963d18afd03607019bb3bd956906596e8c9e1006533a33fd90e0e4
-SHA512: 4618c14fb97beafcc8addc6e0b268224e8e723323fbf3bb6f6c5478f9b40a7ac22e8a3616820d4928915835fd19f1d022822306d8ab8886b76efae7228ee3d5e
+Filename: ./libqt6core6t64_6.10.2+dfsg-16_amd64.deb
+Size: 2009196
+MD5sum: 991533056748659fff8d884bf53bed65
+SHA1: faa735f1b79c57dcd8c9b99373aaa5d8b733ddd9
+SHA256: 8a56515fd4430232e0cbf54e302937b0e9f7cf7a80e7afe3453ea14e89fb762f
+SHA512: ddd746a4a8d456a64f6e5939ebc68332e25049a4f468a9a2e9f6ea438dbaf26a07e09cc6d7a050d055a4231c58212d251e2d5a8c0ebf321119876432651b6fb3
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38023,22 +38023,22 @@ Description: Qt 6 core module
 
 Package: libqt6dbus6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 984
+Installed-Size: 1036
 Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6dbus6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6dbus6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6dbus6t64
-Filename: ./libqt6dbus6_6.10.2+dfsg-15_amd64.deb
-Size: 271772
-MD5sum: 340a71d799cb3df0ee9dfb828f02fd3d
-SHA1: 54aec1a05da2c4c272e4430e3d75ac25f72e3da8
-SHA256: f94e4679e2f3d3ed98dc57a050574a2c988ab688a9ba5f451ec549180596b6ea
-SHA512: d4d66d39ec15cf69eef9c42baf902a3462c37725147edce6adc8afb3e3aeb07fcbbf689159d3097c38d1ee28e21efc766629de11a6293fefa31ee684f1ffa4d2
+Filename: ./libqt6dbus6_6.10.2+dfsg-16_amd64.deb
+Size: 289576
+MD5sum: 33a349c8a57d22bb2eb305bf8058d15b
+SHA1: 31c84d2735f1d9ea0590f138a8a2293287b192c0
+SHA256: fc8c9682dd302e524b933062b244de312c24d8d022a40c1edf421c1299233d54
+SHA512: 0e13d34bbe445b68cce9b3a8db1c9e2eed3788f1a9f4b8bf91b9b57034f40cdbbddc1295bb6d8bb350093215418df2ec51c026e2f32465d61b6115d60d1cc493
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38053,23 +38053,23 @@ Description: Qt 6 D-Bus module
 
 Package: libqt6gui6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 11621
+Installed-Size: 12131
 Depends: fontconfig, libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.26.0), libglx0, libharfbuzz0b (>= 2.1.1), libice6 (>= 1:1.0.0), libinput10 (>= 1.19.1), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libopengl0, libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 12), libts0t64 (>= 1.15), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-cursor0 (>= 0.0.99), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), qt6-base-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
 Recommends: qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-svg-plugins, qt6-wayland
-Breaks: libqt6gui6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6gui6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6gui6t64
-Filename: ./libqt6gui6_6.10.2+dfsg-15_amd64.deb
-Size: 3307048
-MD5sum: 081ab23a46b31d85b10a5dbf72934650
-SHA1: f57c0e5f95b80be5d0b2f0b8b1506afb03036135
-SHA256: 02db471ec9abc8f150543d62cfbfc0fa1b2b96c747f17648d8a341810014d323
-SHA512: b9323f9ef826859395c35ec539da11da20ad8582df336f4c9aa81ae099436809ae6a6842af7588794a73d53af1ab149ca651dce5b90a9e06b0c8e9d2356bf104
+Filename: ./libqt6gui6_6.10.2+dfsg-16_amd64.deb
+Size: 3492016
+MD5sum: 92b1c741048b205f4c3b16c0060f45a3
+SHA1: 96e420a35bcf4c0dc55f3db8dc0770876014b31a
+SHA256: ff9db296c9e7fc3a1fbc6d545b78850b29260361685cda846c6cc615b91c45cd
+SHA512: 2b8ceeeae34b21ba29252acd6bf33554340270ceca456bfc307a8d3cc44cead9963b485f80b3d0a5bb295bfa648236d46d50e8f60d37405f7f0d61d700d7a7e6
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38198,22 +38198,22 @@ Description: Qt 6 Multimedia Widgets library
 
 Package: libqt6network6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2798
+Installed-Size: 2930
 Depends: libssl3t64, libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.46.0), libgssapi-krb5-2 (>= 1.17), libproxy1v5 (>= 0.5.3), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libstdc++6 (>= 12), libzstd1 (>= 1.5.5), qt6-base-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
-Breaks: libqt6network6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6network6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6network6t64
-Filename: ./libqt6network6_6.10.2+dfsg-15_amd64.deb
-Size: 811040
-MD5sum: 9a75b5f540abd39bc7ae3e9765b9910f
-SHA1: 58cd7a25f8faca80ff036e34f7f796b0d20d094a
-SHA256: 24de4a09c63723febd216f4cfcc7e87a3067033439e4157ec6c4b2c09b316fed
-SHA512: ffe276b3a0b0b42040127344c93752a48c7e96bd297660a889991862d9551eb33141d8f96081047ce9514de7eed828c6473ac45abdb38e86a3fd7aec79f12a0a
+Filename: ./libqt6network6_6.10.2+dfsg-16_amd64.deb
+Size: 858420
+MD5sum: e02232a3a81fe145d4e52875cc508945
+SHA1: 1e0dc7f048f094296f6fe5331f5c216e3177a92b
+SHA256: d150a4fa08b141b8e308031dcc18236197d0b73eb04694e8660abf34f73b3d53
+SHA512: 6003964ac3b14df0f102e8be8cb245b00e9be4cb8c8724a065bdcf1796d6430db935f2c1adc55fa7dc8f5a90758615535c1c1508db9f9ad2fe78aaf8cbd990e6
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38251,22 +38251,22 @@ Description: Qt 6 NetworkAuth library
 
 Package: libqt6opengl6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1669
+Installed-Size: 1709
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.62), libegl1, libgbm1 (>= 17.1.0~rc2), libinput10 (>= 1.19.1), libmtdev1t64 (>= 1.0.8), libopengl0, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libstdc++6 (>= 12), libts0t64 (>= 1.15), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6opengl6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6opengl6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6opengl6t64
-Filename: ./libqt6opengl6_6.10.2+dfsg-15_amd64.deb
-Size: 414976
-MD5sum: 05d88d5a694e024e66c6fbc4e2c916e7
-SHA1: 7d56e6828995ad55b45e346295e5a3b049f1c9e0
-SHA256: 4b81332fe910d27cec2eee3921796bb6bad7dbb246fbda1548c1840a9bc900f3
-SHA512: 0e213eb0b716832d6aa2581b343c8d81b87135e959d4164f57eea68e562d08738d02d1ec3cd40fde4e947f8ff966415541b8ce5ba38fe2bcb33d66e3238fdb42
+Filename: ./libqt6opengl6_6.10.2+dfsg-16_amd64.deb
+Size: 429028
+MD5sum: 0af128ed89df57144891f68c5e7a4e34
+SHA1: aeeb9385b72a56cdfaa5f3dac8e4321230c09de4
+SHA256: 69a8ace1c76bdae8584e6958dd94022ca8dca213606377440aa9a1f3dbe254c1
+SHA512: ac1a149c4800141f5d7595345bba2660ad243c7bbeb96d3984f3e78500f7648dc96f9171d105c44c734c089f1e1385ce8dc1b098669210ff74952d95c60437ec
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 OpenGL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38280,7 +38280,7 @@ Description: Qt 6 OpenGL module
 
 Package: libqt6openglwidgets6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -38288,14 +38288,14 @@ Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 207
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.8.2), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6openglwidgets6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6openglwidgets6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6openglwidgets6t64
-Filename: ./libqt6openglwidgets6_6.10.2+dfsg-15_amd64.deb
-Size: 47228
-MD5sum: 6a190b99e8937d0b99e7ba5f59a7a824
-SHA1: 9de5685a9fa077aeed4f5900036ab39b0d700092
-SHA256: b3a082ca48ad73793d0d5077af136b9a8bdfe54814a40d87c5eaadd2b33fbade
-SHA512: e6e51586e13637b8c574d248463b7be3d874ea3b8f29b1015e6e02770c893f7e935b67ac4fb5eff8ab76634ad7176f355a88e02546d4e2a6537c3bf2172e8e2f
+Filename: ./libqt6openglwidgets6_6.10.2+dfsg-16_amd64.deb
+Size: 47612
+MD5sum: 1b2f560a4f2e0fa4f8512f74182e1ba6
+SHA1: 148c13720b5271aea9681a2fc42f4ce7fe2902f9
+SHA256: 5376bd299e6d64c1633693ce9fa2b37501e35081732374b1cd0779b37bcf85cb
+SHA512: 82ec0ece034e9766a98265d43ad4b454b4981ee2d53e2417dd5d1d5d00981f692ed70f891b1f1936953e1c0448534c8c016e1e10a4cfe53a9f22e93e8742983e
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 OpenGL widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38432,23 +38432,23 @@ Description: Qt 6 Positioning library - Qt Quick library
 
 Package: libqt6printsupport6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 786
+Installed-Size: 818
 Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
 Recommends: libcups2
-Breaks: libqt6printsupport6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6printsupport6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6printsupport6t64
-Filename: ./libqt6printsupport6_6.10.2+dfsg-15_amd64.deb
-Size: 217208
-MD5sum: e96c9689c526b9a109ef0c7912d67ff7
-SHA1: 58e022535f53e16e905e5a2cf5ff23d43a4b5465
-SHA256: 60c66801f45f75d0ca07ecf01445df46639d8e480e3c7b95bef006486274cd0f
-SHA512: fd4045890e374f1d8bc2cd20d4e66e66ebc1d4ce2bd404f268a9d69bd07a0898400a56f2afb75f11a95911c357d4bf0218844ade93beb53afd9a9b6bc2bcbb39
+Filename: ./libqt6printsupport6_6.10.2+dfsg-16_amd64.deb
+Size: 225496
+MD5sum: aebb01040039fc3dc45d58267d7b94f3
+SHA1: 9db4ec3973f3c7f0f36afa90c89d90cebc54b462
+SHA256: a20fc5c33da172dee31872bda104faad1b418574fc68b7ae4647766b20527361
+SHA512: a4e349d93d032568c223ce8d7a2963e0d6543f25accc800e1c70af39166943cc0b92adea9aba48c22a59519e37c2c1eb642b69898e400e1cff29d97ae3beccb0
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38772,20 +38772,20 @@ Description: Qt 6 shader tools module
 
 Package: libqt6sql6-sqlite
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 241
+Installed-Size: 249
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6sql6 (>= 6.6.0), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6sql6-sqlite_6.10.2+dfsg-15_amd64.deb
-Size: 63888
-MD5sum: f4e8345c5f19c8ebde9102299b937f2e
-SHA1: fa089ba84ec2f53215b567f1fcabc90c1b8d0a16
-SHA256: 695d44b92aa46ab6a6d52bfb238cf8ab636eeeec565fd5ac8168e8a5ee1f2dba
-SHA512: 7501eb093331e040022915fe141f3cdcdd2a4f3fb6067600567a8b46d0a7db95e7751cf691ded069e442d8592924a096e89f8b79543271a24ff2674d34f5e932
+Filename: ./libqt6sql6-sqlite_6.10.2+dfsg-16_amd64.deb
+Size: 66096
+MD5sum: 2d409f29735e9cdfcc76e681338b4f48
+SHA1: c6155ead0920761d4fafa8c0c44847d852f3e0ed
+SHA256: 42d2a1e4469f0ea16ca6f7f63f1886f63eebc99b647a35831465781d4f2dd746
+SHA512: 62600d4c7d3055dc385ea4ca50f0edaa1630ac3722d6d176ea4148300811898e78a98c4bece59541a5a43736023b58c4cfe11c3bad47cccd4828d3639c5e0d09
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 SQLite 3 database driver
  This package contains the SQLite 3 plugin for Qt 6.
@@ -38795,23 +38795,23 @@ Description: Qt 6 SQLite 3 database driver
 
 Package: libqt6sql6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 503
+Installed-Size: 531
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
 Recommends: libqt6sql6-sqlite | libqt6sql6-mysql | libqt6sql6-odbc | libqt6sql6-psql | libqt6sql6-ibase
-Breaks: libqt6sql6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6sql6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6sql6t64
-Filename: ./libqt6sql6_6.10.2+dfsg-15_amd64.deb
-Size: 144632
-MD5sum: c4072546af8aa2237f72e21a6448203e
-SHA1: f9411ca58193d1725e82320bb9e4051f152a33a5
-SHA256: 5268ba326d791110b8f307702dcaac01e81b7ff5537c8692520c249e1fa78a55
-SHA512: 73f376396b6a833d6d6eab0a29b05c6d86591e390bda6a978ddb1a574612a98de89960b536ee71ad36dcdc077f2fb2f6453fe51b7f03fecf5d6eaad9f0d70052
+Filename: ./libqt6sql6_6.10.2+dfsg-16_amd64.deb
+Size: 155992
+MD5sum: 835e88f702186c3dfd79bbbf10af59b6
+SHA1: d09364e63589c8721eca53ce5f00c7e797d6446d
+SHA256: f0d51404a1c3c7ce86f9969ffab0f38370745c844a5c570a0df1f1f8799c9a89
+SHA512: c8e21a821874ec2e6d3c7a4e07ed1a9c5df4e1619b01ae44ec18757024fef4d0d53ac102109e35017f70a991f2eb22070aa9b35120082dd3c72b49c14ac15fea
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 SQL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38909,22 +38909,22 @@ Description: Qt 6 SVG Widgets library
 
 Package: libqt6test6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 626
+Installed-Size: 642
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 12), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6test6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6test6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6test6t64
-Filename: ./libqt6test6_6.10.2+dfsg-15_amd64.deb
-Size: 190816
-MD5sum: 3b834f7f02b5922b1895583265f978a0
-SHA1: 61c9dbe19aeb8156450f4b201ca1191fd5c1529d
-SHA256: 2816a777c5896126b69cab3afa2a9674744053e38e19ca5d274c4dea38de4830
-SHA512: 5b40815a43583d7d7621c991a4242621cf075d3999d7f8ec08bc1d51663dfce2390339a7087e2ba2024c18083eec680ef9ddb34581db3de9754529fc270d08fa
+Filename: ./libqt6test6_6.10.2+dfsg-16_amd64.deb
+Size: 197984
+MD5sum: abe52163014f7d539508b27159fa617b
+SHA1: 36a45b3c641000fc3ed9b45b1f76c7b8e786f4a4
+SHA256: e577f90e5d169bc5e4610fa46fbd5e0b51f94e622dbebe38bf16cd0abe69d2f1
+SHA512: 63c9a68af2d4ba0a097d78ec2a95de4240c9b140f1e91811ff282f8e9492d8d8e70b4e17765f8591632635e0783afce0dbd2ffafeeae0daf18fde635b1ca87cc
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 test module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39009,22 +39009,22 @@ Description: Qt 6 Virtual Keyboard library
 
 Package: libqt6waylandclient6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1802
+Installed-Size: 1854
 Depends: libc6 (>= 2.34), libegl1, libopengl0, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6opengl6 (>= 6.1.2), libstdc++6 (>= 12), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.8.1), libwayland-egl1 (>= 1.15.0), libxkbcommon0 (>= 0.5.0), qt6-base-private-abi (= 6.10.2)
 Breaks: qt6-wayland (<< 6.10.2~)
 Replaces: qt6-wayland (<< 6.10.2~)
-Filename: ./libqt6waylandclient6_6.10.2+dfsg-15_amd64.deb
-Size: 356120
-MD5sum: 176a98b2eae28f81c1453340c59b822f
-SHA1: feb086d6f345444ac765c8b7f1cf837a672d69c1
-SHA256: 2f2344e1546f94c99ce042296570e9efd9b30076129e79a95122b5cdc8dc2fd7
-SHA512: 58203dc27bdef96c291a7cf535dd36eec4fbefb2074c0b8aff7c36bad83688526f77201324daf057571b536e4ee46c289b8b8f963269b29896a5b0a7fd43287a
+Filename: ./libqt6waylandclient6_6.10.2+dfsg-16_amd64.deb
+Size: 376400
+MD5sum: 40b68b7e807b64f8dc234adf8227b87b
+SHA1: cf76ded8a90eb81df7d9931f2a094aa9e0aa7d3c
+SHA256: 1c07f14e9b31f03754f2ca4cd4da4d3cfa6279fb38741c970aca2fbe6256949c
+SHA512: 5919a399d59625e29162f44e2c22c12f3e1ccbd8744062156fb2e0083a189844af09af201e7554414cca00205e965c20db2dc1fac75838c00ea3295d04a924de
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Wayland client module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39274,22 +39274,22 @@ Description: Qt 6 WebView library
 
 Package: libqt6widgets6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 8702
+Installed-Size: 9066
 Depends: libc6 (>= 2.35), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.2), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6widgets6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6widgets6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6widgets6t64
-Filename: ./libqt6widgets6_6.10.2+dfsg-15_amd64.deb
-Size: 2653968
-MD5sum: e2ba124e0df2832bd8edf4bacfda0654
-SHA1: 4adcad4762673f8512f6b3a6752c4dd37716904e
-SHA256: a0f1dca338b3a4d510955ec95388fcf9cded3c338b357f1402130bc5ced26bad
-SHA512: 7ec2ff5afd30fa1a12ab2b50b81f9bc3a8a715068bfc27a00f245c0a5311f3c8c00262da53d3bfa4b4e95e9b6052361466d2a63e63afdde6d3400f4eb31449e0
+Filename: ./libqt6widgets6_6.10.2+dfsg-16_amd64.deb
+Size: 2790128
+MD5sum: ee0f9139580edb7374057565b67e5330
+SHA1: acbf6d025bd72a11c0c0cca79196815bdd0f1e7f
+SHA256: 06cdba06d1e6528ff0d93ccb25c76f7ff1dfa60e08ecae47777b3673661ff924
+SHA512: cc0859fa372cf048531f3b06166ed8b47a01e3c285cfaafcfd18cadce0fc23cfae42a57bdb89b3b123c7e3b7c609b84d295157f309660334c0dfe268e525ffef
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39299,22 +39299,22 @@ Description: Qt 6 widgets module
 
 Package: libqt6wlshellintegration6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 496
+Installed-Size: 500
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 12), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2)
 Breaks: qt6-wayland (<< 6.10.2~)
 Replaces: qt6-wayland (<< 6.10.2~)
-Filename: ./libqt6wlshellintegration6_6.10.2+dfsg-15_amd64.deb
-Size: 95364
-MD5sum: 2f5c7330685c8e71acd282df8a0883d7
-SHA1: 823f87251f554e1205b0d1cf93e4399851b99dbd
-SHA256: 40224a87096d9551b537e2613e91c0b70eb3c438a28aa5d669e4f2f4d5ff4d0f
-SHA512: 9e5a3a6d963636e514377260a406ec75e72ed3b0d39a379a219a2d0159c8dac691788aff19a7ffd827f3decb2460950a48062ad367730711615fe265d695e386
+Filename: ./libqt6wlshellintegration6_6.10.2+dfsg-16_amd64.deb
+Size: 96948
+MD5sum: efef8907a589fc63aed5337d0c9cc1e2
+SHA1: a6374013d9ea3aaf6a6e599e290ed5d0a1a02139
+SHA256: 0d6d6d62892e80c69e0de4a2a747d2d127e3b3a424d1faa63d53a6c0d8de558e
+SHA512: 9434e5f5be579508c6e10d5628b52d0952602c5e5e9a9a51b4b76ee0267189f76b35213cd492a2dd7aa83723198ee45c3121b46d662bda3a99fbb7ebcdf8b309
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Wayland ShellIntegration library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39377,22 +39377,22 @@ Description: Implementation of the XDG Iconloader for Qt (shared lib)
 
 Package: libqt6xml6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 324
+Installed-Size: 336
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Breaks: libqt6xml6t64 (<< 6.10.2+dfsg-15)
+Breaks: libqt6xml6t64 (<< 6.10.2+dfsg-16)
 Replaces: libqt6xml6t64
-Filename: ./libqt6xml6_6.10.2+dfsg-15_amd64.deb
-Size: 83888
-MD5sum: 4bb8d9e00e30535f2c43cbba2125c9e3
-SHA1: c955c865a780e3e8e50eb910f48a7c0d1af19d06
-SHA256: 0fea9dd59b88df14bc3b3104610d0f53990dcf8a1354e6b7f0081eda8c7cfedb
-SHA512: 27e5fe5daaa37fe8db6525c74907162f367102a545bfb27027aea6adc53116e2f4139d54541536eb66e910460233dbce2198b938e79ce6654997bef5e45f8028
+Filename: ./libqt6xml6_6.10.2+dfsg-16_amd64.deb
+Size: 87908
+MD5sum: 6e4479ab2d58ba6cf04a69ac7ffdd5c0
+SHA1: 38927680a0e2f56e885f69d1f9f301d2654d4d79
+SHA256: cce27d4cd7d35cb94050bf1a47b76785f5930993b0df9b5618e619c76d367c59
+SHA512: d4101a3a48c54e1a6d7a1615e657a4dc9bbaa51a8829b40e359d985d0bdc5cb4cc95db21016618386e1d09bd6363a01794514dceaa2a59538a6a2cfcf02f2f27
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60295,20 +60295,20 @@ Description: Lightweight and cross-platform clipboard history applet
 
 Package: qmake6-bin
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1851
+Installed-Size: 2263
 Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2)
-Filename: ./qmake6-bin_6.10.2+dfsg-15_amd64.deb
-Size: 625240
-MD5sum: ec3caf3863adc22ca8e8c7224ac12021
-SHA1: e15ac5de6748ea5113cc5d0c5d14ee4a5f6c8487
-SHA256: 9ac93561711ba4731424f6484022224537c8edf944788ed643aec00d59225eda
-SHA512: 30a259ac077336c564ab8210c6ebd40241a1820c767e71d24fa6230588a82557322ab96a3e393010c07cacbbdf46398b2e7db7719cd7f9a5208a10c2fdbc528f
+Filename: ./qmake6-bin_6.10.2+dfsg-16_amd64.deb
+Size: 708752
+MD5sum: ff438d640683c8cc9d1496cd8790fc2e
+SHA1: cb62a31eeaf0393196fa23b4be1368f2efbcbcf3
+SHA256: 88715ca3025935601ddcf018963c748bb3419fdfe7b1ba8029e7708c9e0d42e5
+SHA512: f55c1bace05ab4c80fc688c18fa3fb99055becddd4d92287ebcc9c3d3acb59f9033096d75462fa2b6b2845c09ad54a231bc30e68a50fa622588d90d265d1c5e4
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 qmake Makefile generator tool — binary file
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -60319,22 +60319,22 @@ Description: Qt 6 qmake Makefile generator tool — binary file
 
 Package: qmake6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1082
-Depends: qmake6-bin (= 6.10.2+dfsg-15), qtpaths6 (= 6.10.2+dfsg-15), python3:any
+Depends: qmake6-bin (= 6.10.2+dfsg-16), qtpaths6 (= 6.10.2+dfsg-16), python3:any
 Breaks: qt6-base-dev (<< 6.6.0+dfsg~)
 Replaces: qt6-base-dev (<< 6.6.0+dfsg~)
-Filename: ./qmake6_6.10.2+dfsg-15_amd64.deb
-Size: 145904
-MD5sum: 3dd1d8eb08f27225efbfe050f0c06986
-SHA1: 65a5e7795c814740661526ba5132ae3a86220f15
-SHA256: 818f21d09979bcaf718f15e79a8887ba5b4264b7548a6a25df0973e89f42047a
-SHA512: ffd157e081e4fe883f4d0e7f66ab9fdc670b874ec65c774e4d959fb7e968cdc026384b2e1c170badd061d9362933109d86aa2352cb717d928b6c7a2c925cb756
+Filename: ./qmake6_6.10.2+dfsg-16_amd64.deb
+Size: 145960
+MD5sum: a6bff42fecb54a62463aa19474d2b69c
+SHA1: 905b7ad0d9d526171070fcd81e3ffa88a09fcb6e
+SHA256: 62e3646dbc5adec148c161664200b83d72ff7d2bc76f57a6981eeded69a5ddba
+SHA512: 49d659e240d5330e2b7de8a84ecfc5cfd89039c3528a77f77ee4b27a023cf2cf75d478bbcb4f0c83111999ed99c31ffb83f5dfd7451eb41d6d6f9fcc96df99c3
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62637,24 +62637,24 @@ Description: Qt 6 Qt5Compat - development files
 
 Package: qt6-base-dev-tools
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4581
-Provides: qt6-wayland-dev-tools (= 6.10.2+dfsg-15)
+Installed-Size: 4820
+Provides: qt6-wayland-dev-tools (= 6.10.2+dfsg-16)
 Depends: python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpcre2-16-0 (>= 10.22), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.7.2), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5)
 Suggests: cmake
 Breaks: qt6-wayland-dev-tools (<< 6.10.2~)
 Replaces: qt6-wayland-dev-tools (<< 6.10.2~)
-Filename: ./qt6-base-dev-tools_6.10.2+dfsg-15_amd64.deb
-Size: 1067372
-MD5sum: 74313971c09d9f0d6a210c51005465ee
-SHA1: 71cc90f2d8158506dabfabb077e9304d5a093c33
-SHA256: 776a20b7d84d9e3e579f56470be38033bff3c29404cdd0a3549b6514f8a17852
-SHA512: 2727d76cf95d7b7f988c4eb0a4e9da5d70bccb7d66fda5d6c74f77c176ffaea35214b305a87b5d6b122cfd5cdd3eafbf0da9e7f62eb75cf7eb858b1a51108606
+Filename: ./qt6-base-dev-tools_6.10.2+dfsg-16_amd64.deb
+Size: 1133184
+MD5sum: 8e6a8a94de8e85d3e1abd1e45fc74e26
+SHA1: 98a16297bf9594eec12b64c062731bb29c2ed028
+SHA256: c703c9c412ba94726fa0952222a8bc74b63b48b76a2f8b1676d6cb3b5840f2e1
+SHA512: dc9ef95044f610731b5df3856d87cf4802774adb0da0ed271af1189516b9374efd46fb3fa2e5cf3a36bb95a0021a81a57b15aba53225ed520365033fa11ca712
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62669,23 +62669,23 @@ Description: Qt 6 base development programs
 
 Package: qt6-base-dev
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 22036
-Provides: libqt6opengl6-dev (= 6.10.2+dfsg-15)
-Depends: libgl-dev, libglx-dev, libopengl-dev, libqt6concurrent6 (= 6.10.2+dfsg-15), libqt6core6t64 (= 6.10.2+dfsg-15), libqt6dbus6 (= 6.10.2+dfsg-15), libqt6gui6 (= 6.10.2+dfsg-15), libqt6network6 (= 6.10.2+dfsg-15), libqt6opengl6 (= 6.10.2+dfsg-15), libqt6openglwidgets6 (= 6.10.2+dfsg-15), libqt6printsupport6 (= 6.10.2+dfsg-15), libqt6sql6 (= 6.10.2+dfsg-15), libqt6test6 (= 6.10.2+dfsg-15), libqt6waylandclient6 (= 6.10.2+dfsg-15), libqt6widgets6 (= 6.10.2+dfsg-15), libqt6wlshellintegration6 (= 6.10.2+dfsg-15), libqt6xml6 (= 6.10.2+dfsg-15), libvulkan-dev, qmake6 (= 6.10.2+dfsg-15), qt6-base-dev-tools (= 6.10.2+dfsg-15), qt6-qpa-plugins (= 6.10.2+dfsg-15), qtpaths6 (= 6.10.2+dfsg-15)
+Installed-Size: 22102
+Provides: libqt6opengl6-dev (= 6.10.2+dfsg-16)
+Depends: libgl-dev, libglx-dev, libopengl-dev, libqt6concurrent6 (= 6.10.2+dfsg-16), libqt6core6t64 (= 6.10.2+dfsg-16), libqt6dbus6 (= 6.10.2+dfsg-16), libqt6gui6 (= 6.10.2+dfsg-16), libqt6network6 (= 6.10.2+dfsg-16), libqt6opengl6 (= 6.10.2+dfsg-16), libqt6openglwidgets6 (= 6.10.2+dfsg-16), libqt6printsupport6 (= 6.10.2+dfsg-16), libqt6sql6 (= 6.10.2+dfsg-16), libqt6test6 (= 6.10.2+dfsg-16), libqt6waylandclient6 (= 6.10.2+dfsg-16), libqt6widgets6 (= 6.10.2+dfsg-16), libqt6wlshellintegration6 (= 6.10.2+dfsg-16), libqt6xml6 (= 6.10.2+dfsg-16), libvulkan-dev, qmake6 (= 6.10.2+dfsg-16), qt6-base-dev-tools (= 6.10.2+dfsg-16), qt6-qpa-plugins (= 6.10.2+dfsg-16), qtpaths6 (= 6.10.2+dfsg-16)
 Breaks: libqt6opengl6-dev (<< 6.4.2+dfsg-12~), qt6-base-private-dev (<< 6.10.2+dfsg-6~), qt6-wayland-dev (<< 6.10.2~), qt6-wayland-private-dev (<< 6.10.2~)
 Replaces: libqt6opengl6-dev (<< 6.4.2+dfsg-12~), qt6-base-private-dev (<< 6.10.2+dfsg-6~), qt6-wayland-dev (<< 6.10.2~), qt6-wayland-private-dev (<< 6.10.2~)
-Filename: ./qt6-base-dev_6.10.2+dfsg-15_amd64.deb
-Size: 2268696
-MD5sum: 3611277b2727e8651bef46b4fea2c461
-SHA1: 25629f53fad069f29e12ffca66e14f799b17e85f
-SHA256: df29b296d74da01b27984e1533d9b9aa4193e0e3a58662f8e4e210460fe9cb03
-SHA512: 95c797ef3b7347e186f4ba9ad9c5ffd643bb70b1af6a1e2bda0a2ba64b82e82ea86ae7743e8c8fa786cafa3cb8829894d1bcaf71c91eb90cfb22ab3150dd8e31
+Filename: ./qt6-base-dev_6.10.2+dfsg-16_amd64.deb
+Size: 2283412
+MD5sum: 0a0a8adf13ad55bc13379ebf5e1019c6
+SHA1: a753a75171c65a665f737bdaf8632bab5530537b
+SHA256: 0d34831dccc43a038c195bba7385a4bd2ddd47fee495243a1ae6a4c079704202
+SHA512: af0b88f292cd6b5fecc4c547f5801e419c57e1ac4fd23f89a2bc2f6a749d397bb5aa785f03121d50429b144289657c7f1251abb14f6114e21fda36c05720f675
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62699,22 +62699,22 @@ Description: Qt 6 base development files
 
 Package: qt6-base-private-dev
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 6472
-Depends: libfontconfig-dev, libinput-dev, libxkbcommon-dev, qt6-base-dev (= 6.10.2+dfsg-15)
+Depends: libfontconfig-dev, libinput-dev, libxkbcommon-dev, qt6-base-dev (= 6.10.2+dfsg-16)
 Breaks: qt6-base-dev (<< 6.10.2+dfsg-1~), qt6-wayland-private-dev (<< 6.10.2~)
 Replaces: qt6-base-dev (<< 6.10.2+dfsg-1~), qt6-wayland-private-dev (<< 6.10.2~)
-Filename: ./qt6-base-private-dev_6.10.2+dfsg-15_amd64.deb
-Size: 892360
-MD5sum: b475343b501bbd5b140fa28547aa53e3
-SHA1: 0f93813d6d0aa1bafaa933516767bb1e05955431
-SHA256: 068098d26f3ca2ad36c3f18f0fe4a09679da7ad0298d3ae712b309c92cc955cc
-SHA512: 0ed341b5a53ecefdaade246b969537f66249b44b713293ab69d2fa2f4f5998d32b10fe9ff3bac5627d550f76535e275ccd71954bfc209a9a9d6831a188b70bb4
+Filename: ./qt6-base-private-dev_6.10.2+dfsg-16_amd64.deb
+Size: 892404
+MD5sum: cc3c99c4fd004ce03eb6116cb0589758
+SHA1: a2aec1d6a249f2411b585ad81ce6cc0b340e71f4
+SHA256: 41b666445bae1f1c740a8b99c6acc65ada5fdbe61d69583ca666ef257563d98d
+SHA512: 87b540fec07b46153cee2aac8c77c9f1f4c8dc7e0f6a58855de5e3d048327953de895a40143e13836f3e6412d3e929d7313fff62d1ab91fce20b9b824405dccc
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62727,20 +62727,20 @@ Description: Qt 6 base private development files
 
 Package: qt6-gtk-platformtheme
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 346
+Installed-Size: 366
 Depends: gnome-themes-extra-data, libc6 (>= 2.14), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.4.0), libstdc++6 (>= 12), libx11-6, qt6-base-private-abi (= 6.10.2)
-Filename: ./qt6-gtk-platformtheme_6.10.2+dfsg-15_amd64.deb
-Size: 95812
-MD5sum: d0a20a6334723eeb9964752fe6cc14ea
-SHA1: 64cb4e28fb9dcf249c1e0919aaf855732477cc32
-SHA256: d2f906f29bb76bce5f79a14a592183907e56c3f176e4e4d324a75eeee57de720
-SHA512: e27b6c227b8fca13c9d9922ed1ebebc4280e244149b38655bf5ab2c21654c2a5b70f901ceffa99feb0af84bc3178383306b756be9ec4d9c8606dc53b37312765
+Filename: ./qt6-gtk-platformtheme_6.10.2+dfsg-16_amd64.deb
+Size: 100528
+MD5sum: af8be66a36e83314057b11be1041c089
+SHA1: c317708513865b7f0b871d0edb6ecc7eef6c467a
+SHA256: abcc47119edc949a4c2ed2be35f98a57194cc55b31ae217c0a45c65e36133be1
+SHA512: bf3c2a7563195bd98a5df38376b2a3b9606f17e844c147501c2da792ddada11aa40842b63bca7b26dc5e6b34f1d9e5629d23f773aa5093a893c5f8f9098cb938
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62774,20 +62774,20 @@ Description: Qt 6 Location plugins
 
 Package: qt6-qpa-plugins
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 342
+Installed-Size: 346
 Depends: fontconfig, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.3.1), libqt6network6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
-Filename: ./qt6-qpa-plugins_6.10.2+dfsg-15_amd64.deb
-Size: 89900
-MD5sum: ce539d1bbf6251fb89ef5c5fb459081d
-SHA1: ff60fe78d0418eef9ddd53ed954a84c0f51c7757
-SHA256: 717c50a920a033da48557a2ba88b5114cc20bee84988bab4cb2cdb0bec6614cb
-SHA512: ff0586f72417750e180bed2b398d78fd241223035c4f7b0a47714b715e5a0e5bf54ed86c5563b7f7d8b2e0ef66fbd8adb34f2eefa0aa6f4211486a2299a32052
+Filename: ./qt6-qpa-plugins_6.10.2+dfsg-16_amd64.deb
+Size: 94108
+MD5sum: 06a1b1d472b4cdad49c3fba055c825d7
+SHA1: c9ce3df054daeb70256977560f52659c186046d5
+SHA256: d847cde0ef39d24a90a39b7fc0bf6aff2d508937b1bfabbd07e51a279ac474c6
+SHA512: dc365120ca75180415aefc46619affc077842911f9fb4eecdc2173627de12195c2c8e62fe65bba2d60d0c64f8771c06e10687639874979bc4b926c33600fabcd
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 QPA plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62997,22 +62997,22 @@ Description: Terminal emulator widget for Qt 6 (data files)
 
 Package: qtpaths6-bin
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 219
+Installed-Size: 227
 Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
 Breaks: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
 Replaces: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
-Filename: ./qtpaths6-bin_6.10.2+dfsg-15_amd64.deb
-Size: 56160
-MD5sum: e03ec700cf39b1672fb9b8cb3774253a
-SHA1: 3eaa0159be585d8770bb42dcedbcf283a583759e
-SHA256: bf876596c88ca62d26cd31261ff881852d59d55a1bb4fe23001dcac556d10e6e
-SHA512: a41b8ecf934a0c09dbc94bd3044c2b173a42ba3ec47ec55c7cedd352be2f965758c4ad750a6c7cf26060b03c24cb4a82aa549906f5c1b486a95b0180dc3c050b
+Filename: ./qtpaths6-bin_6.10.2+dfsg-16_amd64.deb
+Size: 58436
+MD5sum: 53bae3306f51ce0cb954c66ac544fc64
+SHA1: 11c8b59fbc12c1fcd81de72c0dfd40ab221b4250
+SHA256: 9c8c8f1884d15483a5dba77d09d77adc2d9c7bf7e421d1150de2b7cb6fd9652b
+SHA512: 6c2fc6d3cf8c8e628687496196fb4d4fd6c810053022dac537874581d0cd1cf36cbca15955a89e56e2466a61bede7312669cad6a28f838f166e82406c6953a49
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 qtpaths quetioning tool — binary file
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -63023,22 +63023,22 @@ Description: Qt 6 qtpaths quetioning tool — binary file
 
 Package: qtpaths6
 Architecture: amd64
-Version: 6.10.2+dfsg-15
+Version: 6.10.2+dfsg-16
 Multi-Arch: same
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 150
-Depends: qtpaths6-bin (= 6.10.2+dfsg-15)
+Depends: qtpaths6-bin (= 6.10.2+dfsg-16)
 Breaks: qmake6 (<< 6.10.2+dfsg-8~), qt6-base-dev (<< 6.10.2+dfsg-8~), qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
 Replaces: qmake6 (<< 6.10.2+dfsg-8~), qt6-base-dev (<< 6.10.2+dfsg-8~), qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
-Filename: ./qtpaths6_6.10.2+dfsg-15_amd64.deb
-Size: 31668
-MD5sum: fb3b6175a1c49a2a560d1f9babea4524
-SHA1: 5ce77cb1017f0b11608af773715cbf6a992a2d03
-SHA256: a96ffaad6509e69d2d945746c6797b18209f4372065d067b9d14b099543361a1
-SHA512: 8ad0cb64597e703ece7563be4acd622bd750c3eac371636e9fa2f02e53d2d14870e9385c23863fba5f082647b383aec9fed459a19c78c3c8c30b369f68aece41
+Filename: ./qtpaths6_6.10.2+dfsg-16_amd64.deb
+Size: 31720
+MD5sum: b058ff3c8f10d0561dc1a88971405b56
+SHA1: 460a7f1a3905bf486aae2b95349d87a2238b31e8
+SHA256: 6a20766657d078cb5f7e8e15cf41242f5e47fd0d3431861f8e1a76abee396ea5
+SHA512: b9ea3b7e3dda961a7a179d66e63fde553d0e109e5c4e2e4ef73971fbe7ca9d8bb0a35d33e47aa48321939be68454fd58358a27971e92bcee73972af169a708c2
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 qtpaths quetioning tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
