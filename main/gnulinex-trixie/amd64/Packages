@@ -3163,23 +3163,23 @@ Description: Utility files for libexo
 
 Package: eza
 Architecture: amd64
-Version: 0.23.4-2
-Built-Using: rust-fast-srgb8 (= 1.0.0-7), rust-option-ext (= 0.2.0-1), rustc (= 1.94.1+dfsg1-1)
-Static-Built-Using: rust-addr2line (= 0.24.2-2), rust-adler (= 1.0.2-3), rust-ansi-width (= 0.1.0-1), rust-backtrace (= 0.3.75-2), rust-base64 (= 0.22.1-2), rust-bitflags (= 2.11.0-1), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.44-1), rust-crossbeam-deque (= 0.8.6-1), rust-crossbeam-epoch (= 0.9.18-1), rust-crossbeam-utils (= 0.8.21-1), rust-deranged (= 0.3.11-1), rust-dirs (= 6.0.0-2), rust-dirs-sys (= 0.5.0-2), rust-either (= 1.15.0-1), rust-equivalent (= 1.0.1-1), rust-fast-srgb8 (= 1.0.0-7), rust-form-urlencoded (= 1.2.2-1), rust-gimli (= 0.31.1-2), rust-git2 (= 0.20.4-1), rust-glob (= 0.3.3-1), rust-hashbrown (= 0.16.1-2), rust-iana-time-zone (= 0.1.64-1), rust-idna (= 1.1.0-1), rust-idna-adapter (= 1.1.0-1), rust-idna-mapping (= 1.0.0-1), rust-indexmap (= 2.14.0-1), rust-itoa (= 1.0.18-1), rust-libc (= 0.2.186-1), rust-libgit2-sys (= 0.18.3-1), rust-libz-sys (= 1.1.20-1), rust-linux-raw-sys (= 0.11.0-1), rust-locale (= 0.2.2-1), rust-log (= 0.4.29-1), rust-memchr (= 2.8.0-1), rust-miniz-oxide (= 0.7.1-2), rust-natord-plus-plus (= 2.0.0-1), rust-nu-ansi-term (= 0.50.1-1), rust-num-conv (= 0.2.0-1), rust-num-traits (= 0.2.19-2), rust-number-prefix (= 0.4.0-1), rust-object (= 0.36.5-4), rust-option-ext (= 0.2.0-1), rust-palette (= 0.7.6-2), rust-partition-identity (= 0.3.0-1), rust-path-clean (= 1.0.1-1), rust-percent-encoding (= 2.3.2-2), rust-phf (= 0.11.3-1), rust-phf-shared (= 0.11.3-1), rust-plist (= 1.8.0-1), rust-powerfmt (= 0.2.0-1), rust-proc-mounts (= 0.3.0-1), rust-quick-xml (= 0.38.4-1), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-rustc-demangle (= 0.1.24-2), rust-rustix (= 1.1.3-1), rust-ryu (= 1.0.22-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-serde-norway (= 0.9.38-1), rust-siphasher (= 1.0.1-1), rust-smallvec (= 1.15.1-1), rust-terminal-size (= 0.4.4-1), rust-thiserror-1 (= 1.0.69-1), rust-time (= 0.3.47-1), rust-time-core (= 0.1.8-1), rust-timeago (= 0.6.0-1), rust-tinyvec (= 1.10.0-1), rust-tinyvec-macros (= 0.1.0-1), rust-unicode-bidi (= 0.3.17-1), rust-unicode-joining-type (= 1.0.0-1), rust-unicode-normalization (= 0.1.25-1), rust-unicode-width (= 0.2.2-1), rust-unicode-width-0.1 (= 0.1.14-2), rust-unsafe-libyaml (= 0.2.11-1), rust-url (= 2.5.8-1), rust-utf8-iter (= 1.0.4-1), rust-uutils-term-grid (= 0.7.0-1), rust-uzers (= 0.12.2-1), rustc (= 1.94.1+dfsg1-1)
+Version: 0.23.5-5
+Built-Using: rust-fast-srgb8 (= 1.0.0-7), rust-option-ext (= 0.2.0-1), rustc (= 1.95.0+dfsg1-2)
+Static-Built-Using: rust-addr2line (= 0.25.1-2), rust-adler2 (= 2.0.1-3), rust-ansi-width (= 0.1.0-2), rust-anstream (= 0.6.21-1), rust-anstyle (= 1.0.14-2), rust-anstyle-parse (= 0.2.7-1), rust-anstyle-query (= 1.1.5-1), rust-backtrace (= 0.3.76+dfsg-2), rust-base64 (= 0.22.1-3), rust-bitflags (= 2.13.0-1), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.45-1), rust-clap (= 4.6.5-1), rust-clap-builder (= 4.6.5-1), rust-clap-lex (= 1.1.0-1), rust-colorchoice (= 1.0.5-1), rust-crossbeam-deque (= 0.8.7-1), rust-crossbeam-epoch (= 0.9.20-1), rust-crossbeam-utils (= 0.8.22-1), rust-deranged (= 0.5.8-1), rust-dirs (= 6.0.0-2), rust-dirs-sys (= 0.5.0-2), rust-either (= 1.17.0-1), rust-equivalent (= 1.0.2-1), rust-fast-srgb8 (= 1.0.0-7), rust-gimli (= 0.32.3-4), rust-git2 (= 0.21.0-1), rust-glob (= 0.3.3-1), rust-hashbrown (= 0.16.1-2), rust-iana-time-zone (= 0.1.65-1), rust-indexmap (= 2.14.0-1), rust-is-terminal-polyfill (= 1.70.2-1), rust-itoa (= 1.0.18-1), rust-libc (= 0.2.186-1), rust-libgit2-sys (= 0.18.7+ds-1), rust-libz-sys (= 1.1.20-1), rust-linux-raw-sys (= 0.12.1-1), rust-locale (= 0.2.2-1), rust-log (= 0.4.32-1), rust-memchr (= 2.8.3-1), rust-miniz-oxide (= 0.9.1-2), rust-natord-plus-plus (= 2.0.0-1), rust-nu-ansi-term (= 0.50.1-1), rust-num-conv (= 0.2.2-1), rust-num-traits (= 0.2.19-2), rust-object (= 0.37.3-2), rust-option-ext (= 0.2.0-1), rust-palette (= 0.7.6-3), rust-partition-identity (= 0.3.1-1), rust-path-clean (= 1.0.1-1), rust-percent-encoding (= 2.3.2-2), rust-phf (= 0.11.3-1), rust-phf-shared (= 0.11.3-1), rust-plist (= 1.8.0-1), rust-powerfmt (= 0.2.0-1), rust-proc-mounts (= 0.3.0-1), rust-quick-xml (= 0.38.4-1), rust-rayon (= 1.12.0-1), rust-rayon-core (= 1.13.0-1), rust-rustc-demangle (= 0.1.24-2), rust-rustix (= 1.1.4+dfsg-1), rust-ryu (= 1.0.22-1), rust-serde (= 1.0.229-1), rust-serde-core (= 1.0.229-1), rust-serde-norway (= 0.9.42-1), rust-siphasher (= 1.0.3-1), rust-strsim (= 0.11.1-1), rust-terminal-size (= 0.4.4-1), rust-thiserror (= 2.0.18-1), rust-time (= 0.3.54-1), rust-time-core (= 0.1.9-1), rust-timeago (= 0.6.1-1), rust-unicode-width (= 0.2.2-1), rust-unicode-width-0.1 (= 0.1.14-2), rust-unit-prefix (= 0.5.2-1), rust-unsafe-libyaml (= 0.2.11-1), rust-utf8parse (= 0.2.2-1), rust-uutils-term-grid (= 0.8.0-1), rust-uzers (= 0.12.2-1), rustc (= 1.95.0+dfsg1-2)
 Priority: optional
 Section: utils
 Source: rust-eza
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Installed-Size: 1541
+Installed-Size: 1960
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libgit2-1.9 (>= 1.9.0)
 Breaks: exa (<< 0.14.1-1)
 Replaces: exa (<< 0.14.1-1)
-Filename: ./eza_0.23.4-2_amd64.deb
-Size: 568488
-MD5sum: da3053dd6e0a3fa6cce127469b8e8335
-SHA1: f4b59e7c7357eda8f0b44dbbd501be9c16881bc8
-SHA256: 29794b07f50d20768f82ffd45bd7bf689bf6d9602ea6388fdc13e9e53e127cf4
-SHA512: 6f586da0a197fc638c32063164393da82c3e3ec7619bf02b24c1e72a69fbaf78e94ed84526622ebea146679586d13e77be385783551ea41ec92a5cc37f770a9f
+Filename: ./eza_0.23.5-5_amd64.deb
+Size: 699508
+MD5sum: 9204b49826524787ec5e39153d337b2f
+SHA1: ca1e7b1f3276f0634a6947a871a17c1addc29e05
+SHA256: 9af893f5ae9b7b6291ef433ac5576361a64a53d2126aa24dfa1624bf0dc2720c
+SHA512: 13ad9b1928a1823080367288db6c13922bb05a066fdbee833a962b4278f9643560fc0fc2b538965a07ae4d66d04148826526478a420af2dbe5007d493e5b1976
 Homepage: https://github.com/eza-community/eza
 Description: Modern replacement for ls
  eza is an improved file lister with more features and better defaults.
@@ -33440,22 +33440,22 @@ Description: Simple GObject game controller library
 
 Package: libmarco-private2
 Architecture: amd64
-Version: 1.26.2-4.1+b2
+Version: 1.26.2-6
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: marco (1.26.2-4.1)
+Source: marco
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 779
+Installed-Size: 794
 Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), libstartup-notification0 (>= 0.7), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxpresent1 (>= 1.0.1), libxrandr2, libxrender1 (>= 1:0.9.12), libxres1 (>= 2:1.2.1)
 Breaks: libmarco, libmarco-private0, libmarco-private1, mate-window-manager (<= 1.0.0-2)
 Replaces: libmarco, libmarco-private0, libmarco-private1
-Filename: ./libmarco-private2_1.26.2-4.1+b2_amd64.deb
-Size: 277936
-MD5sum: f4ffc57d8c61847b76e1793e6bd94980
-SHA1: 116027215fbc6359c69eabb0848adcca2466416f
-SHA256: dcdeb53b033ca43e5fa77147114d64e17f29f736ffc042eb5157924a58ad6658
-SHA512: d829ac13138a6d0b67c3998bfafde50d7ebcba5e906aed15ca7d607be4f7f9de18d45e20219e3ab06dbf85ed3b33493035cd171ad0987640cb06dc499ffd8f9c
+Filename: ./libmarco-private2_1.26.2-6_amd64.deb
+Size: 286120
+MD5sum: 2a7fb55035e8bfeed5cccfe27b3000ac
+SHA1: 81179bfcbd6425622df2cbdf4b446e0f9eef08fb
+SHA256: 63fa77a8d109d0009c8240ebadb152439f40733ba0376e4e92a61e611b3e66e0
+SHA512: c2055e745d62151460f5e9c17d4a2bb5003e1e6f5a328389c93fc4864e1a038bceddbc4aef56c1b52a60afc15caecf229b927fec6898d1b6529e7df2533f556a
 Homepage: http://www.mate-desktop.org/
 Description: library for Marco window manager
  Marco is a small window manager, using GTK+ to do everything. It is
@@ -53965,20 +53965,20 @@ Description: framework for parental control of applications
 
 Package: marco-common
 Architecture: all
-Version: 1.26.2-4.1
+Version: 1.26.2-6
 Priority: optional
 Section: x11
 Source: marco
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 6121
+Installed-Size: 6120
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: mate-window-manager (<= 1.0.0-2)
-Filename: ./marco-common_1.26.2-4.1_all.deb
-Size: 745176
-MD5sum: d77db5312867b04a3e780d8e08908cd9
-SHA1: b956066c83139f57a18a890ac76476e2d008d863
-SHA256: 36f33ee27bd254133811c3f79ac9c78aaed6e02ab31ab9b2eb465fdc3e92e2e4
-SHA512: 22bcbce773f5de7dd89d4f1af5597689818d54b36665829ee95ac423089426789b90418dd73b5b2c31406273bb0cb46f3f8da42b28e32f35c06dd57ce1960030
+Filename: ./marco-common_1.26.2-6_all.deb
+Size: 743452
+MD5sum: 3145ab99ff4a90daf8326a38c56cedd2
+SHA1: a98281460cb478230114eea303a0d552344eb53c
+SHA256: 2773d530ca2fd7d194d6901f59ce135d4088f9f9f0e3b4337d5601752ceae07d
+SHA512: a2d8b801bdff275ba91ae2edb8b0bf0037996b7de7df4ad4178ccb3fc9fb05fb20ea7e5097ed017e00540709b4603d8a92b6c9cb51077d74200926ddc669d9b1
 Homepage: http://www.mate-desktop.org/
 Description: lightweight GTK+ window manager for MATE (common files)
  Marco is a small window manager, using GTK+ to do everything. It is
@@ -53988,21 +53988,20 @@ Description: lightweight GTK+ window manager for MATE (common files)
 
 Package: marco
 Architecture: amd64
-Version: 1.26.2-4.1+b2
+Version: 1.26.2-6
 Priority: optional
 Section: x11
-Source: marco (1.26.2-4.1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 146
+Installed-Size: 145
 Provides: x-window-manager
-Depends: libmarco-private2 (= 1.26.2-4.1+b2), marco-common (= 1.26.2-4.1), mate-desktop-common (>= 1.24), zenity, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.36.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libx11-6
+Depends: libmarco-private2 (= 1.26.2-6), marco-common (= 1.26.2-6), mate-desktop-common (>= 1.24), mate-settings-daemon-common (>= 1.24), zenity, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.36.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libx11-6
 Breaks: mate-window-manager (<= 1.0.0-2)
-Filename: ./marco_1.26.2-4.1+b2_amd64.deb
-Size: 38088
-MD5sum: 86408d1a35913231e1a4361ca04516b9
-SHA1: 93e55476cef3e92a19c310fd5444f258ea35ce45
-SHA256: d0d69ea7b08493cd9d9e4104883e4f95ec246cb5c141655f8773c234b6d5b666
-SHA512: 0acef0add0e1f1b0ab7f7633abcc5c70c7725a9804d86c529b8bf8d2cbbf895ba3c42909a271dced45eb2d5f2ef16f0be0693b48d305ce0aee5617a3b87f25ae
+Filename: ./marco_1.26.2-6_amd64.deb
+Size: 38112
+MD5sum: f688b1663d8218d5a4b08b35f479ba0d
+SHA1: 99763bceeefdf6e78312aba551f03c6246624892
+SHA256: 977763e1e10ef9e51740194fb7ce8d6598ea13a36c6b7b91e8d2ee97a4252b34
+SHA512: 0283fd5ae26e721b2f32813f94717b91de80203009e328fa7810171dfb25ac87539b6d607a89e13e64e66f17cd89ad39b7ff0d4a68b59cc39e1ab1caccc7ac90
 Homepage: http://www.mate-desktop.org/
 Description: lightweight GTK+ window manager for MATE
  Marco is a small window manager, using GTK+ to do everything. It is
@@ -54283,20 +54282,20 @@ Description: MATE desktop calculator
 
 Package: mate-control-center-common
 Architecture: all
-Version: 1.26.1-1.1
+Version: 1.28.1-1
 Priority: optional
 Section: x11
 Source: mate-control-center
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 15036
+Installed-Size: 15440
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: mate-control-center (<< 1.11.0)
-Filename: ./mate-control-center-common_1.26.1-1.1_all.deb
-Size: 2113028
-MD5sum: 5ae0c7f1f01f341be01e7a60e1b86a47
-SHA1: 4e7b8ff14ace5ac2330fa41f84109caab9601446
-SHA256: b2ee9633f684cfdd95b5fdc43115486c39bc43960fe3dd559f9ee4db7159ad4a
-SHA512: 7a696c84ce719f6e1047497c92175d66dd4ae84ea1df57dbd71001759c9ba817712309b4e5b0f6faa62c573a465a458600eb8068d2a920480c6babf67933dd55
+Filename: ./mate-control-center-common_1.28.1-1_all.deb
+Size: 2117520
+MD5sum: 6687a28a380d29f50359e0cbf5d1ccb6
+SHA1: 6e164040c487e40c6ed8a1a6c531a91caa5f9c43
+SHA256: f231bd9f5259c4bfce60294598bbfefe0cfb7c0fbd92e811a0783c5c6126f548
+SHA512: 83d6e613255a82eafbb8c8088a1fb5f7c9411ddb980458158b47d9892a11a08f9222f476b36ab7b528b0e1464eaa22de6e154d24f5a0ebf08ac36603b135f546
 Homepage: http://www.mate-desktop.org/
 Description: utilities to configure the MATE desktop (common files)
  The MATE control center contains configuration applets for the MATE desktop,
@@ -54309,21 +54308,20 @@ Description: utilities to configure the MATE desktop (common files)
 
 Package: mate-control-center
 Architecture: amd64
-Version: 1.26.1-1.1+b6
+Version: 1.28.1-1
 Priority: optional
 Section: x11
-Source: mate-control-center (1.26.1-1.1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 1114
-Depends: caja-common (>= 1.8.0), desktop-file-utils, gsettings-desktop-schemas, libglib2.0-bin, libmate-slab0t64 (= 1.26.1-1.1+b6), libmate-window-settings1t64 (= 1.26.1-1.1+b6), marco-common (>= 1.18), mate-control-center-common (>= 1.26.1-1.1), mate-desktop (>= 1.22), mate-icon-theme, mate-menus, mate-settings-daemon (>= 1.22), libaccountsservice0 (>= 0.6.21), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdconf1 (>= 0.14.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libmarco-private2 (>= 1.22.2), libmate-desktop-2-17t64 (>= 1.25), libmatekbd4 (>= 1.18), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libx11-6, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxml2-16 (>= 2.14.1), libxss1
+Installed-Size: 1265
+Depends: caja-common (>= 1.8.0), desktop-file-utils, gsettings-desktop-schemas, libglib2.0-bin, marco-common (>= 1.18), mate-control-center-common (>= 1.28.1-1), mate-desktop (>= 1.22), mate-icon-theme, mate-menus, mate-settings-daemon (>= 1.22), libaccountsservice0 (>= 0.6.21), libatk1.0-0t64 (>= 1.12.4), libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdconf1 (>= 0.14.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libmarco-private2 (>= 1.22.2), libmate-desktop-2-17t64 (>= 1.28.2), libmate-menu2 (>= 1.22.0), libmatekbd4 (>= 1.18), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libudisks2-0 (>= 2.0.0), libx11-6, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxml2-16 (>= 2.14.1), libxss1
 Suggests: gconf2
 Breaks: ubuntu-mate-default-settings (<< 16.04)
-Filename: ./mate-control-center_1.26.1-1.1+b6_amd64.deb
-Size: 314620
-MD5sum: f85fd16e92e7a5d319bcd885f8ba32ec
-SHA1: 9bb50ee27fe6d0ac038428dcc3c19569b1c746da
-SHA256: 05f97841cebfd7e91ebc6d2e41d71eef4244de2e4d4d7d9e0bbab618655e1714
-SHA512: 92927e928d91923f262c7bcabbca06b6e59c3313a66150f3cd7e7b6f6db40f2ca1bea010d29e093fcc1778e451af2a9055689b9be6646b3c83eb1b89d0c3d633
+Filename: ./mate-control-center_1.28.1-1_amd64.deb
+Size: 357528
+MD5sum: c8770e37547bb3454369358bd2622ddf
+SHA1: 94e4f7562fd0a555b313a85c64df8e1d51700b08
+SHA256: 8c01de1a26306f9c6c010e691f082d3645f6354a56872b09d8e3dfb3ef9354f1
+SHA512: 263be16b49d82b1b279fdcacedef0f8673f02b50ccd2b1f672d7501d53bb99de274261cfda991241d1104c1382d323d89e51ffa7a284e5cee2083559ef93f295
 Homepage: http://www.mate-desktop.org/
 Description: utilities to configure the MATE desktop
  The MATE control center contains configuration applets for the MATE desktop,
@@ -64078,7 +64076,7 @@ Description: Debian Breeze SDDM theme
 
 Package: sddm-theme-debian-elarun
 Architecture: all
-Version: 0.21.0+git20260801.f62b7ba-1
+Version: 0.21.0+git20260801.f62b7ba-2
 Priority: optional
 Section: kde
 Source: sddm
@@ -64087,13 +64085,13 @@ Installed-Size: 1691
 Provides: sddm-theme
 Depends: desktop-base, qml6-module-qtquick
 Recommends: sddm
-Breaks: sddm (<< 0.21.0+git20260801.f62b7ba-1)
-Filename: ./sddm-theme-debian-elarun_0.21.0+git20260801.f62b7ba-1_all.deb
-Size: 1621052
-MD5sum: 9586c97692b5f09c2b0943901674c319
-SHA1: 72d6f3766defccf0849499c0db962bcc6e0c3e58
-SHA256: 3df68bdb77824beb5b60426c788f65057b50f569c338f32271855562bc7acbfc
-SHA512: 9427a66092a3ec9a6788f263271d4c0341ca42d049ddb0df87d4f1c887e74b15ede58b76de05adbca7f8c21a4e3f128b13d4c6ad21ee61c8fb4944c9737c31df
+Breaks: sddm (<< 0.21.0+git20260801.f62b7ba-2)
+Filename: ./sddm-theme-debian-elarun_0.21.0+git20260801.f62b7ba-2_all.deb
+Size: 1621240
+MD5sum: bc0ffab8f57bc928b5f6b90b3cfc6190
+SHA1: 25fbfd58b1fea4b4b9c659ce1475faa90c071255
+SHA256: 91ef6bfb1801cf69597c2dfc2c3037dd5e2268ab181cad6528f8404acb57237c
+SHA512: b9732477fb395c97b8fba0729b9bcb915fe9ffa8ea64f15a2d1d2fe7d19d798b82c0fc2e955a9d0593c0774cca13f8fcd88923a495ef0db001d88ec0e58925b2
 Homepage: https://github.com/sddm/sddm
 Description: 'Debian Elarun' Theme for SDDM X11 display manager
  Elarun theme for SDDM, using the active desktop-base theme for the
@@ -64101,7 +64099,7 @@ Description: 'Debian Elarun' Theme for SDDM X11 display manager
 
 Package: sddm
 Architecture: amd64
-Version: 0.21.0+git20260801.f62b7ba-1
+Version: 0.21.0+git20260801.f62b7ba-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -64111,12 +64109,12 @@ Depends: x11-common, xauth, xkb-data, xserver-xorg | xserver, debconf (>= 0.5) |
 Recommends: libpam-systemd, sddm-theme-debian-breeze | sddm-theme
 Suggests: libpam-kwallet5
 Breaks: sddm-theme-breeze (<< 4:6.0.0~)
-Filename: ./sddm_0.21.0+git20260801.f62b7ba-1_amd64.deb
-Size: 757084
-MD5sum: dc82a1331182251ba8173ef3e1529670
-SHA1: f3c76bcaf15c7a84375155e4e6296b0f66539d6a
-SHA256: bc1fb7ac8df9a388c3cd0e62693fec61ce831f0bc9780efc5b8e3c6a17b7b400
-SHA512: 24e1897f9d74df3233f836c51e31198bf788b4c630818fc0289f4620244371e51b82df80e95fa4e39b180ac8482b1dad0142d1d7d9aec15c109e4adb508cc1a4
+Filename: ./sddm_0.21.0+git20260801.f62b7ba-2_amd64.deb
+Size: 757500
+MD5sum: 38f3fb54e4c22235852dd492642f22c3
+SHA1: 51974cdafe9427c1fbac95d34194997f228ff23b
+SHA256: f0cc85d0e35126dfea08978484ea1908e84b9a67263d3a3bca53b19d5895bfe9
+SHA512: b37d9376946185df0fa667f7259d6b064fa873051d8cb5dc434d110ca72a8f0ede637b61a865bc202ac6ff1d464d1f83ff6f99ddc311f0891576ea3ed20abdf2
 Homepage: https://github.com/sddm/sddm
 Description: modern display manager for X11
  SDDM is a modern display manager for X11 aiming to be fast, simple
