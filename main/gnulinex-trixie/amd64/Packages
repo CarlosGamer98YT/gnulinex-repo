@@ -3754,19 +3754,19 @@ Description: generic font configuration library - support binaries
 
 Package: fonts-adwaita-sans
 Architecture: all
-Version: 50.0+dfsg-2
+Version: 51.0+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Source: fonts-adwaita
 Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
 Installed-Size: 1765
-Filename: ./fonts-adwaita-sans_50.0+dfsg-2_all.deb
-Size: 681008
-MD5sum: 5e71aadf30e8519ae332d8d18370c8cb
-SHA1: 6dd117731e09182e0f925f004f9ce095588e4757
-SHA256: 00dc926f87276718f8fdb92300056bacf4f8c42553675c37ee176b3a351d2828
-SHA512: db1f8d455185c19f581fe79daf1b8c18c28babbdf28012dcc467ff4db499ed45761628698c5eafe352fc652833e324cec2dbb49083801e49e4bda9305bc1353c
+Filename: ./fonts-adwaita-sans_51.0+dfsg-1_all.deb
+Size: 681344
+MD5sum: 9c200b56fdf6c3678538e474e9bfa238
+SHA1: 23693e163c7ad61a6222426854705452c9af6c38
+SHA256: e367eb06bee885545b22245e4509d35bd6a44c5633570d24696eb3bec3360c5f
+SHA512: 48c20fc7910bcb7680f924a292ccbb05204637002bd905097e58d162225e51044b6d7185cf578b4611d15d9133a13ee196b8a66946feb52c25b58a5cf1d85012
 Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
 Description: Adwaita Sans Fonts
  This package contains the Adwaita Sans fonts, built from Inter variable
@@ -3774,19 +3774,19 @@ Description: Adwaita Sans Fonts
 
 Package: fonts-adwaita
 Architecture: all
-Version: 50.0+dfsg-2
+Version: 51.0+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
 Installed-Size: 140
 Depends: fonts-adwaita-sans
-Filename: ./fonts-adwaita_50.0+dfsg-2_all.deb
-Size: 124428
-MD5sum: fcc6da73dc3223a278b4f5eadb074818
-SHA1: 4877dee58897ad06168d878ec00436da2a1ca72c
-SHA256: 892ad7b859f3810f39590a4ccfae7099e9cdf4824685d22fe59bb7751715e4cb
-SHA512: 705a6a94a7e4883d4c7148d9a9109fd80a2202ad38d1effc7d38883a762449c1e590ef174e7149de7d0448e98e670b7369e89ecc9e5e122225fe6c6a71142a19
+Filename: ./fonts-adwaita_51.0+dfsg-1_all.deb
+Size: 124492
+MD5sum: 41cbbe4aa713729838ae228feae86184
+SHA1: ac90d42d509780554597672c0a27ce746a56b010
+SHA256: b6e375240312925708893932c114cce7dd3b750d412b8db2b6a75e863eaae337
+SHA512: 4e444de285da510a38901f50d30dfebf01e679eae5598b713594001644d458ec6ba0d85f56d4312e8e2b9aff97da15f9735d1c4c7085ed2ffd076b6f7c068e24
 Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
 Description: Adwaita Fonts Collection
  This metapackage installs available Adwaita font families that are
@@ -7045,7 +7045,7 @@ Description: GObject introspection files for libadwaita
 
 Package: gir1.2-amtk-5
 Architecture: amd64
-Version: 5.10.0-1
+Version: 5.10.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -7053,12 +7053,12 @@ Source: libgedit-amtk
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 26
 Depends: gir1.2-gtk-3.0, libgedit-amtk-5-0 (>= 5.10.0)
-Filename: ./gir1.2-amtk-5_5.10.0-1_amd64.deb
-Size: 6636
-MD5sum: 211b6b3337fa8d71543041e8f2b71402
-SHA1: 5b8580228bd56198d7ecfacd3a2bd67d104c079f
-SHA256: 65a23dc261d6a6e1539ffb7990dd950c1c93314ad1b3d720538e5d6e206c9b7f
-SHA512: da9c44dddad1c65eeb21766844f5c174f93a3b174711b585d0275084eb54e0039be8107d1c8e8892aedf8994ccd18af3f067334ed8f5b1571377c6e12657d25f
+Filename: ./gir1.2-amtk-5_5.10.0-2_amd64.deb
+Size: 6664
+MD5sum: 0b35949ef41937068a7451794bb7d093
+SHA1: 25e42563a9d7ea5036447e38fecd5656eb0789f9
+SHA256: 931956c38f4156908ff9167f8cffa09d13dc6da1b4c157f87f05f837a0669df4
+SHA512: ad32ab1455a00ae5ba80d138d8a04c6a1eef6b784e42e9cd7029212dcc43b1ae56637ce671cc7f708e616624d33e92e69de6a1bfee6d99608fd37c6233cf420b
 Homepage: https://gedit-text-editor.org/technology.html
 Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
  Amtk is a basic GtkUIManager replacement based on GAction.  It
@@ -11459,18 +11459,18 @@ Description: GNOME Help
 
 Package: gnome-user-share
 Architecture: amd64
-Version: 48.3-1
+Version: 48.3-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1347
+Installed-Size: 1359
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libselinux1 (>= 3.1~), dconf-gsettings-backend | gsettings-backend, apache2-bin (>= 2.4), libapache2-mod-dnssd (>= 0.6-3.1~)
-Filename: ./gnome-user-share_48.3-1_amd64.deb
-Size: 329524
-MD5sum: 440bb1566a77ab59c4777084a417ccce
-SHA1: dbea4dca97a36309094ba4ffaa8b1fea94981bf9
-SHA256: 47208f8d9713a3ef8f1fee99c54cc9ac9d69c9c3f6f65e05fbcbe59672a14c33
-SHA512: c88cd3b402d92496b70308629939cba6d1598a4f10f07a04badd7cbbbc98c22f1d957532fc86e328a4555056b7e7a376af8e616d7fb5348ec41ae7d32990b9de
+Filename: ./gnome-user-share_48.3-2_amd64.deb
+Size: 331352
+MD5sum: 08d2952dfe3f9a9e34ec3b5bd2805025
+SHA1: 978b058a1dcf16d26120f765a78eb2fc57537af3
+SHA256: 177f9277fb7282783842c681bdcfbf901e34fcf76e438a554b3357c820d4b1cc
+SHA512: aacd7e4ea4710aa857509bf5d9c988d1da5c20d8699caf62a880cde993b060978bf041992b5b3727e1be18bb52c42ccebeafcac7616bc39164246f36e16b017d
 Description: User level public file sharing via WebDAV
  gnome-user-share is a small package that allows easy user-level file sharing
  via WebDAV. The shared files are announced on the network by Avahi.
@@ -22121,20 +22121,20 @@ Description: GNOME Display Manager (shared library)
 
 Package: libgedit-amtk-5-0
 Architecture: amd64
-Version: 5.10.0-1
+Version: 5.10.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libgedit-amtk
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 95
-Depends: libgedit-amtk-5-common (= 5.10.0-1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4)
-Filename: ./libgedit-amtk-5-0_5.10.0-1_amd64.deb
-Size: 25944
-MD5sum: 8110acc204f0d174e249a94974c99205
-SHA1: 072f14708ffd8d1884d8f7c16f4d99b35aacc66a
-SHA256: 89164bbe05b1a8e3f74947c5a9715a14c6770dc33097e4672f9f6aa4b27c9bcc
-SHA512: f4609c4f14dfc8d58595c47c740292e7ff9e3301eb34d9a38e074a7c291621360390a19eb1f08631871fe40624b56bb8eeceed8b6b17b638349f614fc1b44d12
+Installed-Size: 99
+Depends: libgedit-amtk-5-common (= 5.10.0-2), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4)
+Filename: ./libgedit-amtk-5-0_5.10.0-2_amd64.deb
+Size: 27452
+MD5sum: 685630e84b8510ce5e8b41bc90deb6c2
+SHA1: ea50e2c0263347b15730f1d6b5ae3c444e901a6e
+SHA256: 0dc85c9fcf1efe5de10681a263317defbe4e64fdf6b55a989262667c3324cf50
+SHA512: a08eb0abbedd6f82f4d2e44b46d7ef6120f231e978bd2930dfcd2bd37ed198a2889387d2ca9967304785dddf1f705ea2de84284e49de0d347badea24e16ef9b6
 Homepage: https://gedit-text-editor.org/technology.html
 Description: Actions, Menus and Toolbars Kit for GTK+
  Amtk is a basic GtkUIManager replacement based on GAction.  It
@@ -22143,19 +22143,19 @@ Description: Actions, Menus and Toolbars Kit for GTK+
 
 Package: libgedit-amtk-5-common
 Architecture: all
-Version: 5.10.0-1
+Version: 5.10.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libgedit-amtk
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 177
-Filename: ./libgedit-amtk-5-common_5.10.0-1_all.deb
-Size: 22148
-MD5sum: 8359af2d3dc82b913768484227f1a37f
-SHA1: cdaa06a826b2e1d140f1c0740a8181ad05af8fc3
-SHA256: c2ca91c86abd371923d7cdc23cac79763e5c6f7721adcccaa356d423d86a61fc
-SHA512: adf15ffab9a6ca085d85652e20485fb3dd3aee45fe9ae0442f6cec780edcc54481cd50135685f5ef856675e4b5e021408406dd7a08c468b7ce2ebfdb9cd81ac6
+Filename: ./libgedit-amtk-5-common_5.10.0-2_all.deb
+Size: 22228
+MD5sum: 3220ff2c2229326af375e3d48ea92ec7
+SHA1: d8617ec18aac5c85b3d99375cba1c73bb0584e85
+SHA256: 3a7ec6de554828998a0de841157f52a40069ee232654c72ef962a4e7e5f55df0
+SHA512: 6a098a95092dbd848c1cf25ba6528e3459a94d4d3cfa055672377e201f3e31769907ea2e3623018382114a8d22354071fdf3bd4c5b0ea210ba98be17955260ae
 Homepage: https://gedit-text-editor.org/technology.html
 Description: Actions, Menus and Toolbars Kit for GTK+ - architecture-independent files
  Amtk is a basic GtkUIManager replacement based on GAction.  It
