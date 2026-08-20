@@ -58765,19 +58765,19 @@ Description: command-line interface description language (Python3)
 
 Package: python3-gi-cairo
 Architecture: amd64
-Version: 3.56.3-2
+Version: 3.57.1-1
 Priority: optional
 Section: python
 Source: pygobject
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 65
-Depends: python3-cairo, python3-gi (= 3.56.3-2), python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
-Filename: ./python3-gi-cairo_3.56.3-2_amd64.deb
-Size: 13248
-MD5sum: cd967e65840445f6d239d6ea760eea40
-SHA1: 6406e1190bdc00f7755246b1c9405e74b38f90d3
-SHA256: 335a7fb5ee459f729ac300328e8c899db50f95cee379982530d753f0c091cd82
-SHA512: 2e1be4532f8168fe28f1a979e220e64b7a9de475bdb114b06a691c5627c0c80a3b96bffdf035036b0beca3ea078c1bcef312c3822ce76270d9dbb3ec72a906d2
+Depends: python3-cairo, python3-gi (= 3.57.1-1), python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
+Filename: ./python3-gi-cairo_3.57.1-1_amd64.deb
+Size: 13344
+MD5sum: 27aa95d3dffce6536cac9d595439b1d9
+SHA1: c40d87f3227f1e28c3c82f0c1fad4853ea623fad
+SHA256: 3c0cd318e6929cb1f3c7822589ef2fda20aa3b98cdd3e62a363820075c62bdcd
+SHA512: f0ee48ea85cff283971934174a163f45b95fe7b4e573aaaf6194179011ce07ce8b3c86518d13d552d39de71bea48d3c6129522214e71a829345811fd28abcb2d
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 Cairo bindings for the GObject library
  GObject is an abstraction layer that allows programming with an object
@@ -58789,21 +58789,21 @@ Description: Python 3 Cairo bindings for the GObject library
 
 Package: python3-gi
 Architecture: amd64
-Version: 3.56.3-2
+Version: 3.57.1-1
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Source: pygobject
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1102
+Installed-Size: 1127
 Depends: gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0 (>= 2.86.0-7~), python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~)
 Breaks: autoradio (<< 3.6.4-1.1~), blueprint-compiler (<< 0.16.0), budgie-desktop (<< 10.9.3-1.1~), entangle (<< 3.0-5.1~), eog (<< 47.0-4~), eom (<< 1.28.0-1.1~), exaile (<< 4.1.4), gedit (<< 48.1-8~), gir1.2-peas-1.0 (<< 1.36.0-6~), gnome-music (<< 48.0), liferea (<< 1.16.1+ds-2.1~), pluma (<< 1.28.0-1.1~), rednotebook (<< 2.39), rhythmbox (<< 3.4.9-2~), streamtuner2 (<< 2.2.2+dfsg-2.3~), totem (<< 43.2-7~)
-Filename: ./python3-gi_3.56.3-2_amd64.deb
-Size: 274984
-MD5sum: 0d916528876ef3289755efcbf837b786
-SHA1: 34dc39d57f4440623506bbd0db84bc676c0dcab1
-SHA256: 4bf0ab3571b0b7cdd460570b0637366577eb8bcccd9d34628636c0a871f0c1a3
-SHA512: 132b21280332a32f2f34264de4132e72c864c558b4fde2c23e5d7b2806413a1e744bbf64dc50cb3e2ef4df2aaf40b52385a79b4068b0aa844b0691e14d54fcd0
+Filename: ./python3-gi_3.57.1-1_amd64.deb
+Size: 284124
+MD5sum: 5e8f51a8c8801064edc24d807f480fe0
+SHA1: 9642ea8a5b7c8cc2d78750eb113f860990e772f1
+SHA256: dcf216c7beb4b0e02827ff5227405daf064b2fc509d8b80958530f63f04a9abf
+SHA512: f95a17071bc6afd5ad66728e60ddf54479a6039c98a442c3e67052199e66a5709282bbe7c0d1d1baea0d96dc6a051ae1c1ba17b56d6710fee4dc6c45255c114e
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 bindings for gobject-introspection libraries
  GObject is an abstraction layer that allows programming with an object
