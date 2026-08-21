@@ -34092,20 +34092,20 @@ Description: mousepad plugins library
 
 Package: libmozjs-140-0
 Architecture: amd64
-Version: 140.13.0-1
+Version: 140.14.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mozjs140
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 37975
+Installed-Size: 38719
 Depends: tzdata, libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)
-Filename: ./libmozjs-140-0_140.13.0-1_amd64.deb
-Size: 11108516
-MD5sum: 635da3bf4673b0bb7c6b6a5813c478cc
-SHA1: 089af1b545ed2d008e3bee0e20ef72ca64ade4f7
-SHA256: 88fbd09e4b5b540da4444b368326fc85f15c7c7cc9ba8c2c22f11792db9e4a79
-SHA512: af0b0909b8ffe0b7fa62ea13ae978f72b7759e9944fd144c79d3aa6573463b655ffb380d7436486f3e1ecb68f2aad3a26d9ebd6566f4cd2ab36c56f528679493
+Filename: ./libmozjs-140-0_140.14.0-1_amd64.deb
+Size: 11413348
+MD5sum: aa68da9a3b3c4eeca102ce9746a25ce9
+SHA1: 4f645e9146ef9fe646ba1e6319842758841d58cf
+SHA256: 3a6d431fc891b5e5337c4ecb79f2a3063b28d08c8e8a3855d27f0fea30c71418
+SHA512: 6396c202d6635236f9f938dc148bd185bf1bb76186473c2f8d9009e0724046a42e00b78a6db8b0d1b4e047dbf27e1f84fda2a3ba34607c47ebed1c769759659a
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 Description: SpiderMonkey JavaScript library
  SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
@@ -64146,18 +64146,18 @@ Description: GNOME front end for GnuPG
 
 Package: showtime
 Architecture: all
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: video
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 707
-Depends: gir1.2-adw-1 (>= 1.8), gir1.2-gst-plugins-base-1.0, gir1.2-gtk-4.0 (>= 4.20), gstreamer1.0-gl, gstreamer1.0-gtk4, gstreamer1.0-plugins-good, python3-gi, gir1.2-gst-plugins-bad-1.0, dconf-gsettings-backend | gsettings-backend, python3:any
-Filename: ./showtime_50.0-1_all.deb
-Size: 100980
-MD5sum: 03e37611231bef6567f3e16974d6c45a
-SHA1: 253648fd36f37946b62ac30ae70d4c3e0906ff24
-SHA256: 8ce322ef96ded1c1564bfc6c49723a7350bb4d844e17e1cf508ffa58760c0ece
-SHA512: f280df1eb76d13c536dee113e466c50ad585fc480a753c4bb072a2ea311eff278aed84c2259574c99eedd2aa4c33e074760f4ff6a5d67bfd2b0877b0cf8def0c
+Depends: gir1.2-adw-1 (>= 1.8), gir1.2-gst-plugins-base-1.0, gir1.2-gtk-4.0 (>= 4.20), gstreamer1.0-gl, gstreamer1.0-gtk4, gstreamer1.0-plugins-good, python3-gi, gir1.2-gst-plugins-bad-1.0, python3:any, dconf-gsettings-backend | gsettings-backend
+Filename: ./showtime_50.0-2_all.deb
+Size: 101040
+MD5sum: 6fe98826de404c0f29c914b09bd99aba
+SHA1: 02c132c0eae48cb97c75b3889e6babfc439de32c
+SHA256: b5b1370439e2fca56000882c8d1521fd1384f7ae03f89ac283bbca287f1db3bf
+SHA512: d3b43a61a19611f8097287c7f46ebb191c785e79dbedd881794cbed80241a6c0f27bbf35400cd67354f95c51bc522e83e400ce8c82374dad5076080f460ae5ad
 Homepage: https://apps.gnome.org/Showtime
 Description: Watch without distraction
  Play your favorite movies and video files without hassle. Showtime features
@@ -64242,19 +64242,19 @@ Description: spell checking library for Qt, plugins
 
 Package: sound-juicer
 Architecture: amd64
-Version: 3.40.0-4
+Version: 3.40.0-5
 Priority: optional
 Section: sound
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 4085
 Depends: default-dbus-session-bus | dbus-session-bus, gsettings-desktop-schemas, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, iso-codes, dconf-gsettings-backend | gsettings-backend, libbrasero-media3-1 (>= 3.0.0), libc6 (>= 2.38), libcanberra-gtk3-0 (>= 0.25), libdiscid0 (>= 0.5.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libgtk-3-0t64 (>= 3.21.4), libmusicbrainz5-2 (>= 5.1.0+git20150707), libpango-1.0-0 (>= 1.14.0)
 Suggests: brasero, gstreamer1.0-lame, gstreamer1.0-plugins-really-bad, gstreamer1.0-plugins-ugly
-Filename: ./sound-juicer_3.40.0-4_amd64.deb
-Size: 1608360
-MD5sum: 8ad5ca27ef66f957da8525864c07a97b
-SHA1: fac93684d8f08ca7f44d962462f17ccdee6b8bbd
-SHA256: fd1b26baaaa3de336a8389f987b01c0ddda703cdc42a11cd90b6f0659e86a451
-SHA512: 63364d692b17523374c1a21eb5b13eec3017507fef2d75a3b8cc007f2a5a92bcbfa5eb08af4bffa353239861cd4347a8dd51945219f9ce921af8c2bd2fac89d3
+Filename: ./sound-juicer_3.40.0-5_amd64.deb
+Size: 1610036
+MD5sum: e5f10f6f9f3728e3615ca76ad1d4baa6
+SHA1: dd85f4e3f51523e668ef04d14ac17bf9d01e776a
+SHA256: ce62e7a7d29f6a2af40429e85733c2e4b9694a3770a91c49c3fa06a0d9ea2fcb
+SHA512: 537d4021d63379dfeff5e40b81abbc41b5c8995ed04da7a4984efc2e7507055bcffb55c2a590067c13b360ddbd56ffa363eeb06426f47fd8fc17a6ee04e19701
 Homepage: https://wiki.gnome.org/Apps/SoundJuicer
 Description: GNOME CD Ripper
  A CD ripper for GNOME which aims to have a simple, clean, easy to use
