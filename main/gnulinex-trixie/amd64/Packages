@@ -34192,20 +34192,20 @@ Description: MJPEG capture/editing/replay and MPEG encoding toolset (library)
 
 Package: libmsgraph-1-1
 Architecture: amd64
-Version: 0.3.4-1
+Version: 0.3.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: msgraph
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 120
+Installed-Size: 124
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgoa-1.0-0b (>= 3.1.1), libjson-glib-1.0-0 (>= 1.5.2), libsoup-3.0-0 (>= 3.0.3)
-Filename: ./libmsgraph-1-1_0.3.4-1_amd64.deb
-Size: 34292
-MD5sum: b4d52b139b6c6ab637cb57979d80fd00
-SHA1: ffc40ff369744ecdcfea02a4b6c5a94f12e3111b
-SHA256: e3c037d74ca919e789c860c1eb5bd3da4246764a4ab08d5abb72ddcf8503070a
-SHA512: dc64342171cbc081306c1d65456785259b804a9775909467ce972358969ab505b77a5c6af57f57beca6da01cce2bb6bb2f4d545c33707a93bac2a7abfb52e1f3
+Filename: ./libmsgraph-1-1_0.3.4-2_amd64.deb
+Size: 36636
+MD5sum: 86e771d2bf2a079044ae5dd0c0f3e0c4
+SHA1: 93e53fca342849e2d7e63ea616a69579bb3d17e5
+SHA256: 74048feebce22995e31292708c80bd6c3e6267cdb7326f784217b6f24a6604d8
+SHA512: 068b508d9cb1becf75851e0c785be1587be8311e0b1ac40024eb0882e47435170d49b8ee40709cb36df881977352ac57b5698934af1764bb929104c31953c66d
 Homepage: https://gnome.pages.gitlab.gnome.org/msgraph/
 Description: library for accessing the Microsoft Graph API
  libmsgraph is a GLib-based library for accessing online service APIs
