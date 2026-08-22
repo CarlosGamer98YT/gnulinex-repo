@@ -2994,19 +2994,19 @@ Description: Comprehensive Image Viewer Using EFL
 
 Package: evince-common
 Architecture: all
-Version: 49~alpha.1-1
+Version: 49~alpha.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: evince
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 12196
-Filename: ./evince-common_49~alpha.1-1_all.deb
-Size: 1532708
-MD5sum: 906376baac90368e5a9398d5123bd513
-SHA1: fcfed8e70b86ac36081ddad07a32ed1a34a4aa3b
-SHA256: d546bb5671fe2810d2ad13f2572cc0cd2184a90866d785062bb4a9efb98d15b0
-SHA512: 818fdf758125cfd20315aab593bacb898514aeaabc2d16fc983736510aea2f6790c569830a74b18a049dcb03bd5bcd78b71b914a2898d0cbf9f42bcfaa73d82d
+Filename: ./evince-common_49~alpha.1-2_all.deb
+Size: 1532848
+MD5sum: 14fa3e6657af3fe54980f9a42b2ea4a6
+SHA1: 3b0070eeffbe0219f27155b53a73212c89d25cf5
+SHA256: d912d2cbc3e3c8357573248f60d516c84ec40799577d4ab06dbb1a4ba26ae9d9
+SHA512: 7c9b84f8fcd594a281c9bd246b6716389e0b28e8578a6ed630d002b3d2e5c5ba878c253d2c321a01e5870ddbfe64bc6518f534e7eecaa42a2a263fd3cbd3cac3
 Homepage: https://gitlab.gnome.org/GNOME/evince
 Description: Document (PostScript, PDF) viewer - common files
  Evince is a simple multi-page document viewer.  It can display and print
@@ -3020,22 +3020,22 @@ Description: Document (PostScript, PDF) viewer - common files
 
 Package: evince
 Architecture: amd64
-Version: 49~alpha.1-1
+Version: 49~alpha.1-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 942
+Installed-Size: 953
 Provides: djvu-viewer, pdf-viewer, postscript-viewer
-Depends: evince-common (>= 49~alpha.1-1), gsettings-desktop-schemas, libevdocument-4.0-6 (= 49~alpha.1-1), libevview-4.0-5 (= 49~alpha.1-1), shared-mime-info, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.2~alpha), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.17.92), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7)
+Depends: evince-common (>= 49~alpha.1-2), gsettings-desktop-schemas, libevdocument-4.0-6 (= 49~alpha.1-2), libevview-4.0-5 (= 49~alpha.1-2), shared-mime-info, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libadwaita-1-0 (>= 1.2~alpha), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.17.92), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7)
 Recommends: default-dbus-session-bus | dbus-session-bus
 Suggests: gvfs, nautilus-sendto, poppler-data, unrar
 Enhances: nautilus
-Filename: ./evince_49~alpha.1-1_amd64.deb
-Size: 290656
-MD5sum: fb03859e5eae3123dbd88e384558fafa
-SHA1: a3d804d3f36e5a5bdd769072813f6765ef5209b6
-SHA256: 90dc092a9e90aca32818c7d796db48e263ebf56ba73a6abe2edc3265889f1cf2
-SHA512: 9648e000b46974599b6515d84c2385a004501950c45a5ea89d5e442ea0984cfb01e4c3c19e6ef75bd95eb6f04418081d06472e1fd74b7cf6b93cbc41ead70571
+Filename: ./evince_49~alpha.1-2_amd64.deb
+Size: 297312
+MD5sum: 995855057cae826142817a7126c7a3d5
+SHA1: 6b1ce6909700f68e27a175001a322c3043418a89
+SHA256: 5b1750576bfd8f6b2edcf610b449bc63d43bc7bbc25918c641e24f1c1790dfe5
+SHA512: b4ff1d57d9c8d22df9c25f0ef528c882c08d5c3671365d0cd9810033207bf7469c2a597729079a678e326060fcfb979bd12c37dc6d6146568fdc8c81181fe08d
 Homepage: https://gitlab.gnome.org/GNOME/evince
 Description: Document (PostScript, PDF) viewer
  Evince is a simple multi-page document viewer.  It can display and print
@@ -20533,20 +20533,20 @@ Description: EFL advanced canvas library
 
 Package: libevdocument-4.0-6
 Architecture: amd64
-Version: 49~alpha.1-1
+Version: 49~alpha.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evince
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 680
+Installed-Size: 689
 Depends: libarchive13t64 (>= 3.4.0), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libdjvulibre21 (>= 3.5.30), libexempi8 (>= 2.5.0), libgdk-pixbuf-2.0-0 (>= 2.39.2), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libgxps2t64 (>= 0.2.1), libkpathsea6 (>= 2026.20260303.78225+ds), libpango-1.0-0 (>= 1.18.0), libpoppler-glib8t64 (>= 22.02.0), libspectre1 (>= 0.2.3), libsynctex2 (>= 2026.20260303.78225+ds), libtiff6 (>= 4.0.3)
-Filename: ./libevdocument-4.0-6_49~alpha.1-1_amd64.deb
-Size: 180908
-MD5sum: 52a84786926b3cc38ea1c4d9f03f16a5
-SHA1: 429abe021ea1c91242083e58bff0b03d5849685b
-SHA256: 62c1053991d8ec144e0594bac674a5ee326eab3408a81bfa1a016c785e5f6132
-SHA512: 2633ecb429b39474868208accc27b7fa76c386eb4e3aa15aac3b94123aba28d23fae09c1211505b97339b3e4ab3787494676b5f93b2126bc18b361e01906bdc7
+Filename: ./libevdocument-4.0-6_49~alpha.1-2_amd64.deb
+Size: 188560
+MD5sum: 09d86c3e60850cf6b23d6e7c9fb30758
+SHA1: 386cbdbe2ad160a4daaf4d0be32c2cb11d2b5ee1
+SHA256: 5e4c5954bdd4d367d2416000a0640e371fab4f9f9d045fb7ec0ecf688cab6e58
+SHA512: a2de9fb2c45ce8dc5b4d4d7fbfc6592633f8f297b062e2f029c2bdc8be7ebcbd188369481f1fb5be4c2a5a84c352477f69635da53617aecd982af90bcd01bc1d
 Homepage: https://gitlab.gnome.org/GNOME/evince
 Description: Document (PostScript, PDF) rendering library
  This package contains libevdocument, which performs the rendering of the
@@ -20673,20 +20673,20 @@ Description: KDE PIM event handling - data files
 
 Package: libevview-4.0-5
 Architecture: amd64
-Version: 49~alpha.1-1
+Version: 49~alpha.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evince
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 411
+Installed-Size: 423
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libevdocument-4.0-6 (>= 49~alpha.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.12.0), libpango-1.0-0 (>= 1.14.0)
-Filename: ./libevview-4.0-5_49~alpha.1-1_amd64.deb
-Size: 135080
-MD5sum: f7b23121b66b145f9a04891b086f2584
-SHA1: 5e71000faf560010d34ef4a9e8cbb3a30885f933
-SHA256: 2ce63dc196b861f0c494759c20d346685c0fd24367ddd8da3293e10b09fd0a47
-SHA512: 96eeea5d53d59e749f841b18689de32b447ae8a91d429b05383d6205ee18ef2f20aaac4af342df27717ebf0d1df6abd42eb136223b201103d612e12e28899be7
+Filename: ./libevview-4.0-5_49~alpha.1-2_amd64.deb
+Size: 140576
+MD5sum: 00a96753b15a93a41af3344055c437f7
+SHA1: fc095892061053a756b564ec1bdcd24d599c274d
+SHA256: 53e5765ac0ecde3780f8a68ca2bc0cd9d2322d5ff9449bf518962657ae5cbda7
+SHA512: 865ba7b3fc85aa72e2a76fe6ff4a5a03ed51abea0b8e0089d56bb2e500cb5caf52c08f3dbc3b94cf6350b449013dec8c2e0f12650be3b16045fa90e00b9b651a
 Homepage: https://gitlab.gnome.org/GNOME/evince
 Description: Document (PostScript, PDF) rendering library - Gtk+ widgets
  This package contains libevview, which provides GTK+ widgets for displaying
