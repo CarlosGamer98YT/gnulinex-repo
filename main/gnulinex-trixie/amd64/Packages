@@ -1642,7 +1642,7 @@ Description: web browser
 
 Package: cinnamon-common
 Architecture: all
-Version: 6.6.9-1
+Version: 6.6.9-2
 Priority: optional
 Section: x11
 Source: cinnamon
@@ -1651,12 +1651,12 @@ Installed-Size: 9212
 Depends: gettext, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-meta-muffin-0.0 (>= 6.6~), libglib2.0-bin, procps, python3-xapp, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
 Breaks: cinnamon (<< 6.0.4-2~)
 Replaces: cinnamon (<< 6.0.4-2~)
-Filename: ./cinnamon-common_6.6.9-1_all.deb
-Size: 1535232
-MD5sum: 08a3642d08bc7af985c31b5a733d3bfd
-SHA1: bc7d856dcd9c65040a85012410faf176481db1f4
-SHA256: d0fa3bdb637c8f7bee71d6dbc68d5439f65d4a65f5d28bf555fcdac8950ee0f6
-SHA512: ef159b08213938afdd1a412511502313eb91a39b4c40774614c512ebb2023407a730363565b5aa86c5596af466846e2d985b60ab81dcbf20197ae139863e31f2
+Filename: ./cinnamon-common_6.6.9-2_all.deb
+Size: 1535376
+MD5sum: dcc10f4aed5c3074e980a817c914352b
+SHA1: 2928899711677f23829b0a33624b6466ee27375a
+SHA256: 2f22904bad278ac7f39835966bb6a606d5e5ddfacc1e48bd6db289a0589621aa
+SHA512: daa388e3e044ba8e1d53546920122e81d6a5d7173c568802f4c532b6d533a0e7f3cd38a4f7e472e31c6734b52b6ccd6e9c73833db19a6d923b64d9bc288d7ec6
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop (Common data files)
  Cinnamon is a desktop environment which provides advanced innovative
@@ -1916,23 +1916,23 @@ Description: daemon handling the Cinnamon session settings
 
 Package: cinnamon
 Architecture: amd64
-Version: 6.6.9-1
+Version: 6.6.9-2
 Priority: optional
 Section: x11
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 1520
+Installed-Size: 1548
 Provides: notification-daemon, polkit-1-auth-agent, x-window-manager
-Depends: cinnamon-common (= 6.6.9-1), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), cups-pk-helper, dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, tecla, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
-Recommends: blueman, cinnamon-core, gnome-online-accounts-gtk, gnome-terminal, ibus, inxi, libcanberra-pulse, libxapp-gtk3-module, metacity-common, python3-babel, touchegg, xapp-sn-watcher, xdg-desktop-portal-gtk, xdg-desktop-portal-xapp
+Depends: accountsservice, cinnamon-common (= 6.6.9-2), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, tecla, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
+Recommends: blueman, cinnamon-core, cups-client, gnome-online-accounts-gtk, gnome-terminal, ibus, inxi, libcanberra-pulse, libxapp-gtk3-module, metacity-common, python3-babel, touchegg, xapp-sn-watcher, xdg-desktop-portal-gtk, xdg-desktop-portal-xapp
 Suggests: cinnamon-desktop-environment, cinnamon-doc, python3-opencv
 Breaks: cinnamon-common (<< 6.0.4-2~), cinnamon-core (<< 5.4~)
 Replaces: cinnamon-common (<< 6.0.4-2~)
-Filename: ./cinnamon_6.6.9-1_amd64.deb
-Size: 416720
-MD5sum: cb59b400a46d7170ff3fb0e417efc0ec
-SHA1: bc0f4bd1e3cfb05bce6ce55d0e722a29be848823
-SHA256: f5cbc5bb1440af6897754d473cfd04156e376c76d619dbaec997835f2a3042db
-SHA512: 403e09f4afb26ffcb59238b06c6af57574af44066ff804bc7a7ef4518869f82f9ffe4d207897e23c27fe2bed346a53ff9b48dd210ff812dc718805e434c7b746
+Filename: ./cinnamon_6.6.9-2_amd64.deb
+Size: 432048
+MD5sum: a65baf1f78c4b7a5ce77b053c9fd42c1
+SHA1: a5816e26e1ad0bfbdfa6270541ee56b9c0c8b548
+SHA256: 20a6297e2745db3dd31633c865dabe662ba59a5c42dd13bb433784c8ddf992e2
+SHA512: e5e0820a45d3ef15d1242efb1629673679e0f34427752853bcdfd7b9e2b10c9668a6211e3566f89e877702108c8526c8330264084e729ac1abb04d7a6c054e42
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop
  Cinnamon is a desktop environment which provides advanced innovative
@@ -8215,21 +8215,21 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 556
-Provides: gir1.2-gstallocators-1.0 (= 1.28.6-1), gir1.2-gstapp-1.0 (= 1.28.6-1), gir1.2-gstaudio-1.0 (= 1.28.6-1), gir1.2-gstgl-1.0 (= 1.28.6-1), gir1.2-gstglegl-1.0 (= 1.28.6-1), gir1.2-gstglwayland-1.0 (= 1.28.6-1), gir1.2-gstglx11-1.0 (= 1.28.6-1), gir1.2-gstpbutils-1.0 (= 1.28.6-1), gir1.2-gstrtp-1.0 (= 1.28.6-1), gir1.2-gstrtsp-1.0 (= 1.28.6-1), gir1.2-gstsdp-1.0 (= 1.28.6-1), gir1.2-gsttag-1.0 (= 1.28.6-1), gir1.2-gstvideo-1.0 (= 1.28.6-1)
+Provides: gir1.2-gstallocators-1.0 (= 1.28.6-2), gir1.2-gstapp-1.0 (= 1.28.6-2), gir1.2-gstaudio-1.0 (= 1.28.6-2), gir1.2-gstgl-1.0 (= 1.28.6-2), gir1.2-gstglegl-1.0 (= 1.28.6-2), gir1.2-gstglwayland-1.0 (= 1.28.6-2), gir1.2-gstglx11-1.0 (= 1.28.6-2), gir1.2-gstpbutils-1.0 (= 1.28.6-2), gir1.2-gstrtp-1.0 (= 1.28.6-2), gir1.2-gstrtsp-1.0 (= 1.28.6-2), gir1.2-gstsdp-1.0 (= 1.28.6-2), gir1.2-gsttag-1.0 (= 1.28.6-2), gir1.2-gstvideo-1.0 (= 1.28.6-2)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstbase-1.0 (>= 1.28.3), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
-Filename: ./gir1.2-gst-plugins-base-1.0_1.28.6-1_amd64.deb
-Size: 166500
-MD5sum: f55c7d34befc47fd509b41cf574fcf32
-SHA1: 41fdaf5acf32e9816a79423e22594e8b86ab1380
-SHA256: fd6d16bd0bde93267d1762971085959b78a08abaf632f0dd60cbf11702fc2818
-SHA512: 2a379e9f1ba569888a352848fe08835fdfb31ac7927170a607a2dcad5f34b5a8b8dd94cc445b8bf28275446417f22f5a6dd4e7ab217660a07270a54282e5c2f0
+Filename: ./gir1.2-gst-plugins-base-1.0_1.28.6-2_amd64.deb
+Size: 166488
+MD5sum: 260196882b592244d292d95d6428c98d
+SHA1: 20c5264299bda98cbce4d8d3e43e49112e99db51
+SHA256: 063b5ae305182b081c7f208cd360141bb7cf13f1e04c86a8dcf52d42a0606099
+SHA512: df99ce1f69e2c149d1ffcd919366f1bab1060121d3ec50565a8fbc7152ce9fecec2c0c50a8638d3c8e58e61e4f3ff764a0741d38d25f8fbf34238678d24019dc
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -9019,21 +9019,21 @@ Description: Layout and rendering of internationalized text - gir bindings
 
 Package: gir1.2-peas-1.0
 Architecture: amd64
-Version: 1.38.1-6+b1
+Version: 1.38.1-7
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libpeas (1.38.1-6)
+Source: libpeas
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 30
-Provides: gir1.2-peasgtk-1.0 (= 1.38.1-6+b1)
+Installed-Size: 29
+Provides: gir1.2-peasgtk-1.0 (= 1.38.1-7)
 Depends: gir1.2-gio-2.0 (>= 2.86.0-7~), gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-gmodule-2.0 (>= 2.86.0-7~), gir1.2-gobject-2.0 (>= 2.86.0-7~), gir1.2-gtk-3.0, libpeas-1.0-1 (>= 1.26.0)
-Filename: ./gir1.2-peas-1.0_1.38.1-6+b1_amd64.deb
-Size: 8848
-MD5sum: 5c0de62332595efc73ead6ae3a466e65
-SHA1: f351f784efd49b27ecee432b8d45e9ce149e6c52
-SHA256: 97aa1107b04ec045fedef2c65eee9b5068f377f40dd7d910d5449eb41f4f7b48
-SHA512: 038ec5d665f420bab9b16eff5d1de6f6534d15157d8caa2b2fdfacc6042253b444fd9b5a030249791f89241d8dd6251c8a207b820899b0b3a5d72269ef3bed81
+Filename: ./gir1.2-peas-1.0_1.38.1-7_amd64.deb
+Size: 8600
+MD5sum: 714bc762aec20f94bb60c7bab4acc40d
+SHA1: 272be50216230a836688023415825d6994ae1ca5
+SHA256: 25c82f240c6aeb47b68a91b66075e1b60424debee366f6ad65e834abdafccf36
+SHA512: 7afbc973ac8fe3e872e46ff1b3cb06dba2061285f08630239d6fef5d5a61c0e08cf2920c222abf8758a637b2fe60204e1a1291128bd63212b20013df79c59a56
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library (introspection files)
  libpeas is a library that allows applications to support plugins.
@@ -9043,20 +9043,20 @@ Description: Application plugin library (introspection files)
 
 Package: gir1.2-peas-2
 Architecture: amd64
-Version: 2.2.1-1+b1
+Version: 2.2.1-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libpeas2 (2.2.1-1)
+Source: libpeas2
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 25
+Installed-Size: 24
 Depends: gir1.2-gio-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libpeas-2-0 (>= 1.99.0)
-Filename: ./gir1.2-peas-2_2.2.1-1+b1_amd64.deb
-Size: 7020
-MD5sum: 1b9739d8e604b63e104f6a6c933bec74
-SHA1: f2eca0e6d5c6727680ee9836206026ac22a74924
-SHA256: a2988c6a54005e01b09b59d5fca332a74dc38d3ede5bddfaa0388a049c862b75
-SHA512: c26866ebe472aee1109bee1dc52c54ce53e827ef8261bae78afb3c926ce78c56fde842db00fedaf0adb1aa358668ed6ea8c4db638c0e612ee091a1164e2f1f47
+Filename: ./gir1.2-peas-2_2.2.1-2_amd64.deb
+Size: 6760
+MD5sum: cb385ead79c327ac8f4194538a42f715
+SHA1: 43f43266925ba284209e2208774e1e7990991de6
+SHA256: efe9765091fb169531a1fba22b6a3462622f4c66e1fe587c49f6b324b55d48ac
+SHA512: adf52b7842a10e1933d22845b84b5afe104fcfcf3d587a081fbae9b722c00d03bbb12c00ee422723ea50060f48da07c704f9141afbc84e90fcce702210048261
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library (introspection files)
  libpeas-2 is a library that allows applications to support plugins.
@@ -10744,19 +10744,19 @@ Description: Remote desktop daemon for GNOME using PipeWire
 
 Package: gnome-robots
 Architecture: amd64
-Version: 1:50.0-2
+Version: 1:50.0-3
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 4942
+Installed-Size: 4769
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.9.3), libpango-1.0-0 (>= 1.14.0)
 Recommends: yelp
-Filename: ./gnome-robots_1%3a50.0-2_amd64.deb
-Size: 942240
-MD5sum: fec01d364665483e4467eb10bd9fbae5
-SHA1: a8f0ab92c4bd582dec122f58db9fe9ecc0567324
-SHA256: 0cc24e5c35e70155870cb213e47749b6af0346ebb36dcf828ad1411d3d2a44b8
-SHA512: 37c0a9216d1dd29b7c355e4bce8984442769f659cc28106e24dde3a8968be395b8656d13b9b9cbae076c1d8d73013d17f212a54285d2733ec2d7080d9fb0adb4
+Filename: ./gnome-robots_1%3a50.0-3_amd64.deb
+Size: 911368
+MD5sum: 5a165ca373e847f9955eee85df97ff82
+SHA1: 5d05edfa7130c3a1c7c467dd3630456990e23c8b
+SHA256: 3cb751ccaa81cbc5698a22bea81068e3eca5901d541edd8fa516019709050a5d
+SHA512: 0d8164f09afcae3d5d0e8b27c344753128e5360c0fc9bf6f846ca8459a0594b11ecdd8e22166580f8c052279ea5f6c237af979bbd90b8e49e0e5d535d56bc264
 Homepage: https://wiki.gnome.org/Apps/Robots
 Description: improved old BSD robots game
  GNOME Robots is a game where you try and avoid a band of marauding
@@ -12203,7 +12203,7 @@ Description: GSettings desktop-wide schemas
 
 Package: gstreamer1.0-gl
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -12214,12 +12214,12 @@ Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Depends: libc6 (>= 2.29), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-gl_1.28.6-1_amd64.deb
-Size: 189436
-MD5sum: df20a8240225283da1013c978312e78e
-SHA1: 30f596a92f9120251a15908dab88efcc56f4508b
-SHA256: 05e5b2b83fdc5563b563f00b3a5ef565d8ee737d18c348894ee5ae9beb30e1aa
-SHA512: 2df0597736bd5b61c1d57bb6ea2608b4fa574d2db2b4ad00ecbfcc62e89a683270c9ef4b00563b88b33c3d071bbff46b5d0fd1ec4402a1864cc55cf41ac06a41
+Filename: ./gstreamer1.0-gl_1.28.6-2_amd64.deb
+Size: 189524
+MD5sum: 32477c6b6214a8411f4663f68ec7a52b
+SHA1: 644e68b211680cb8db131b7031e3b884e07778be
+SHA256: f690e3b3d588b187ce8373f6f073fb0f0a73b729cb1ead4743213ef99a3b1c9f
+SHA512: 400cba6cb0f56716195258bead3a62b00e6ea99b8e4f421d6a4078974546ce3bc61827131d8b6ece9cd032217b95ccab6eb157a5b4a110bcb647b0054acaac7d
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12412,24 +12412,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-base
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2696
+Installed-Size: 2688
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-plugins-base_1.28.6-1_amd64.deb
-Size: 822644
-MD5sum: b0e78d4481ed28eb21cf497a60b66010
-SHA1: 0d93edf9e9971f5527c0125127fa3f43539c4fd1
-SHA256: d2734c8a7251022c8a61bef7948fdd0fdb88fc59fff201398090b6a44f8d1e3a
-SHA512: fd4a30a33a2686cfe7907b4c7c13dcd396c964cd0a41ef5c27934036889b924d966659464b6a4cb2492fe6c9c37a077d87c30357b6315f207b2451794d33817c
+Filename: ./gstreamer1.0-plugins-base_1.28.6-2_amd64.deb
+Size: 821904
+MD5sum: f649ef33587457c71acbda3d7ad29499
+SHA1: c0443f2ab35e6d09150b2cff825fbc330446a094
+SHA256: e36b21cb643045fe6a034ebf1b4d61aa846953a59a47e615d842e2869c2caad0
+SHA512: 7995b5970a647c2cd34f334787ec2fd974224438e38ffd34a4a077d5982f7cb5a8607885005a00ac9dd8ceaaa241a869c77f6d96b80c9483e5e8c9be33aa8d77
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12488,7 +12488,7 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-x
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -12497,12 +12497,12 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debi
 Installed-Size: 383
 Provides: gstreamer1.0-videosink
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
-Filename: ./gstreamer1.0-x_1.28.6-1_amd64.deb
-Size: 151936
-MD5sum: c14fe26fce1d4b9130abe94dc34ae31b
-SHA1: f79f16eb72e910830bbc6a42033492df0e3ba6f5
-SHA256: 166f8440ad2a4bca0568efd849a61c0edb69f97427d8138e23ff1c8be3cbbdef
-SHA512: ff731e05f4f4ee18ec8b00edc96ad05638790cf6cb6b562a6efb5a3eb8fefa3e4ecf268b5b8e6bf7285d0cb18faeaf886fd0679d904aa3e22a1abb4c90b764c7
+Filename: ./gstreamer1.0-x_1.28.6-2_amd64.deb
+Size: 151832
+MD5sum: e7856509d5b82409c7dafc759d4e8410
+SHA1: 786ef576b1d54891323b6a31691306d0b5ba72d3
+SHA256: c4d76d18464f07671e179baf51befc4bff760d2e33a4e5047b260d4150f3cd6a
+SHA512: d86fb91ec74a1477ff4feeacbe95db0eb011392fc98ab75beaaafdbd893685653cda89c76bd7e90a229cb558c94539b408daa6bcea5afae52fa49e2ae57a7b46
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12568,19 +12568,19 @@ Description: GTK+ utility for computing checksums and more
 
 Package: gucharmap
 Architecture: amd64
-Version: 1:17.0.2-1
+Version: 1:17.0.2-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 4428
-Depends: libgucharmap-2-90-7 (= 1:17.0.2-1), dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.3.16), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Depends: libgucharmap-2-90-7 (= 1:17.0.2-2), dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.3.16), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
 Recommends: yelp
-Filename: ./gucharmap_1%3a17.0.2-1_amd64.deb
-Size: 1168692
-MD5sum: 3356abacf91589a904d06e0f712986f8
-SHA1: 98d2d2f9461319620a6e5d29875742805053abec
-SHA256: 7f873ed9451c8f43f36e47580508e0e13b6f4a040537436f3256c57508a9106b
-SHA512: 75c4f705eb18b14a82fe8329240815e2a8d25af779b06cb9bd4a0bf19aa16c9f529207bbb7ef5bce973b12be9b4a94f08531157bcb72d2d90296abad66f72906
+Filename: ./gucharmap_1%3a17.0.2-2_amd64.deb
+Size: 1169656
+MD5sum: 85852a7a6435cf1882c3ae4eb4cd4f73
+SHA1: 135cc8238db6557c0557cf09e9b4e2f883eaf6ff
+SHA256: 4c002fe05f5e484f6aa677a561aa168ec90797543d9da99c501a32d68d29fa84
+SHA512: 03170bbc44e9d9e165c346ddf164fd102a729a94c37da546a3863daf45be996293aea5df60dcadbf586f55e9c258340a0495b3b782f64fde541e59c57bd99d9f
 Homepage: https://wiki.gnome.org/Apps/Gucharmap
 Description: Unicode character picker and font browser
  This program allows you to browse through all the available Unicode
@@ -13243,19 +13243,19 @@ Description: wlroots-compatible Wayland color picker
 
 Package: iagno
 Architecture: amd64
-Version: 1:50.0-1
+Version: 1:50.0-2
 Priority: optional
 Section: games
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 3320
+Installed-Size: 3328
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.7), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.78.0), libglycin-2-0 (>= 2.0~beta), libglycin-gtk4-2-0 (>= 2.0~beta), libgtk-4-1 (>= 4.13.5)
 Recommends: yelp
-Filename: ./iagno_1%3a50.0-1_amd64.deb
-Size: 656432
-MD5sum: 49a6a64e5a7cecfa7d13a84064d81893
-SHA1: 717809603ea44d754f0c92cda4d7d706d58e3838
-SHA256: 285ad8b567472b606e09b86bde90fdc5c6d0e0ab84d972aa6e86efe439783a6e
-SHA512: c07180384a92171569fa6134aa8689a11db08cadb4dbd0c6b34b210923639205e48816e3d683b2cb81cb5beb6c87ca36dc02ac2e81ece57096d62b829775f1cb
+Filename: ./iagno_1%3a50.0-2_amd64.deb
+Size: 659048
+MD5sum: 1475ca364b085ac10955a93c3818f0d3
+SHA1: 39b5cd039623353f211b9a1a5a838ea099769ba8
+SHA256: c2835a8ceb5282d518457890fd7e218a2fbf93e60314fe0245d1258fdc8033f6
+SHA512: 60158886771fd8686ed367b0f306bb7d3b3cc06842d94763cacdc40deb211e7aa3a26eaaff0bc8faf3812e543dcb0f805bbfabca7ec895c2b679cafc393de05a
 Homepage: https://gitlab.gnome.org/GNOME/iagno
 Description: popular Othello game for GNOME
  Reversi is a computer version of a game more popularly called Othello.
@@ -14208,27 +14208,25 @@ Description: Tools to generate documentation in various formats from DocBook
 
 Package: kf6-breeze-icon-theme
 Architecture: all
-Version: 6.28.0-2
+Version: 4:6.28.0-3
 Multi-Arch: foreign
 Priority: optional
-Section: kde
+Section: libs
 Source: kf6-breeze-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 58978
-Depends: hicolor-icon-theme
-Breaks: breeze-icon-theme (<< 4:5.115.0-3~)
-Replaces: breeze-icon-theme (<< 4:5.115.0-3~)
-Filename: ./kf6-breeze-icon-theme_6.28.0-2_all.deb
-Size: 3666524
-MD5sum: 17df6d9482903a6c0cfb5c92347cd8bd
-SHA1: 784659d5325c42ef80dc891f145f20d3386de929
-SHA256: 3b9bb4c77804f52a54c7c5d0a91f33677516fe208cdd5acdf6b43b503ae17a09
-SHA512: 5fe822e9acc775052f1def82c635291951e7e62b736a5ee4d4443637450478354e13af5a5eac6f35b54f40cd14c732ff3734650862d7cf6cc2b41aaaf4254717
+Installed-Size: 37
+Depends: breeze-icon-theme (>= 4:6.28.0-3)
+Filename: ./kf6-breeze-icon-theme_4%3a6.28.0-3_all.deb
+Size: 11800
+MD5sum: 68df9568acac0a43e5b94ad7c5f4632a
+SHA1: 47e2452747658d38e5865d6af6ef3cfe537936e3
+SHA256: 3c104789be71a9c62896f89aee46c903acbd810f9eedbc5f102d77f489142a41
+SHA512: 1bfa3c652f2cd32ee179dd339f382408b514731add8f17a10b10550e320ede2b6c8eabedd6a1ba7fc0e9846797c0a64cc464c62193414b52e10bc3ec084de1d4
 Homepage: https://invent.kde.org/frameworks/breeze-icons
-Description: Default Plasma icon theme
- This is the default icon theme for the KDE Plasma 6 desktop.
+Description: transitional dummy package for breeze-icon-theme
+ Empty transitional dummy package to upgrade to breeze-icon-theme.
  .
- This package is part of the Breeze theme module.
+ This can be safely removed after the upgrade.
 
 Package: kglobalacceld
 Architecture: amd64
@@ -23982,7 +23980,7 @@ Description: libgspell architecture-independent files
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -23993,12 +23991,12 @@ Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libg
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: ./libgstreamer-gl1.0-0_1.28.6-1_amd64.deb
-Size: 290776
-MD5sum: fc6542dc2f32588ee6d4ce1ecbea3bb5
-SHA1: 6d812a2dba6818d0df26955f6816070672f99935
-SHA256: fa6280d506e1c3d0d57c86c22e4ee8d48018e0232ed34b2f81754c76cb4c524a
-SHA512: c0c4976a80773c5a01522202741f19c6257143b8bc2cf8d3937ee73ce362f91fe734cb0231a841fbc84b7e0be37945252d0b2c57c9ac236fe248f4f9a1a69c85
+Filename: ./libgstreamer-gl1.0-0_1.28.6-2_amd64.deb
+Size: 290824
+MD5sum: f6040dd1f05e96a534a3bf2f090c85e7
+SHA1: c3b100ac6fb429e15a4cda030118067a964659ee
+SHA256: d4b4c955fd411efe2c535410c94d02345eb4a1913bee8d477aa313fc0c50d97e
+SHA512: bf81b48aff0a6b26b702ab5e66cd7ad54a7c843d527532609d16e6ec318a1429684daab0c59f18be6f25d4eed8c931d74066c03d17a30e6ed5382488ff7dcead
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -24046,7 +24044,7 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -24058,12 +24056,12 @@ Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: ./libgstreamer-plugins-base1.0-0_1.28.6-1_amd64.deb
-Size: 1086072
-MD5sum: 2e8267339c64cbfe5463d85960ff8224
-SHA1: 0045e42f46c4869b450e83e6cecfd110b16047c1
-SHA256: 3e06fce99d3bfb43fba7e41b5c45f30030508f83d86797712d7a141522e7507d
-SHA512: db50c5cb0671e3d759efd7283c16c9bf87c5d2ffa3f4a95e633ed5c12911534d47f3f45bc01cf373136375c6b58fdc96af27f5594bb7cea78be660d1b5232f6e
+Filename: ./libgstreamer-plugins-base1.0-0_1.28.6-2_amd64.deb
+Size: 1086676
+MD5sum: ddaf7c36e1be744374c5b25f01e429d6
+SHA1: 76679c0e6298d36b9b7eebf7c97307bac2cd36cc
+SHA256: 167e219aad68c69f2292bbba8b46211517577a93949e4e19620be0cc41fb919f
+SHA512: eab0a6888907a6f331802d5e877c6b138127517c02ccf355554ee91abd599f69a147ef2b1474c0fc9b2b12be1772934ca03c26c2e0c35fbebacf8cff073cf3a1
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -24549,21 +24547,21 @@ Description: gtop system monitoring library (common)
 
 Package: libgucharmap-2-90-7
 Architecture: amd64
-Version: 1:17.0.2-1
+Version: 1:17.0.2-2
 Built-Using: unicode-data (= 17.0.0-2)
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gucharmap
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 5674
+Installed-Size: 5678
 Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.16.2), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22)
-Filename: ./libgucharmap-2-90-7_1%3a17.0.2-1_amd64.deb
-Size: 1200468
-MD5sum: 6eeff85af9ec3e44b34123203a51c5c0
-SHA1: ac32a1a95aec1279e785d42059b473c7456a2ef1
-SHA256: 676870e7030fba0e566776e589d40701bd17309008c1ca8c5b077602cac18bec
-SHA512: 64ff5c656c1ec1426d9651d86e86a728382a6599dbaed59d6349cbf494a9fd828a7fb51e00b834d87df1c131c6dda369b77413cb66655552169daf8b202e6732
+Filename: ./libgucharmap-2-90-7_1%3a17.0.2-2_amd64.deb
+Size: 1200188
+MD5sum: c3b5c3c05c8c9aa534bfb77b7563a902
+SHA1: 8011856f67baaeae17cd8395824bf285dc1b6132
+SHA256: 66879da2fe40309db49189e9d10e2290ae1190d20730bc9090b30f917e5f7ee3
+SHA512: 6e39c4b437d90acc4719ac208620237584c9d698585d4ccaba5b4291f2ca3406c1af1a1a883af24edbe8ae1445caecf5f4e4f1a14120aca02b939629a5c6fc5d
 Homepage: https://wiki.gnome.org/Apps/Gucharmap
 Description: Unicode browser widget library (shared library)
  The libgucharmap library contains a Unicode browser widget; it is
@@ -26700,7 +26698,7 @@ Description: Qt library with support for bookmarks and the XBEL format (widgets)
 
 Package: libkf6breezeicons6
 Architecture: amd64
-Version: 6.28.0-2
+Version: 4:6.28.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -26708,17 +26706,18 @@ Source: kf6-breeze-icons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 18933
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~)
-Filename: ./libkf6breezeicons6_6.28.0-2_amd64.deb
-Size: 2744824
-MD5sum: 89c394470ed729abd0492dbde452de90
-SHA1: a3533f42ff57a4ef7cc55d2ca74320a0b46b41e9
-SHA256: 94354be617d29d36b0e133580f41602df5b3d35485e8889ef3da7847fd794ce4
-SHA512: 3c7b925d36b0e3256b7052cd2500bb3dd8aa0ce6d40909bdf8b1721ab5079f6687f0e60e2c8aa5b6c69ea1430c2c1cc44c72681411f79a671833df80a636cb8e
+Filename: ./libkf6breezeicons6_4%3a6.28.0-3_amd64.deb
+Size: 2740352
+MD5sum: 566e3425eb2ed5bf561025dd58c4bbc4
+SHA1: 2f7143b225b7b3fa5de878a018ae2856b4a915bd
+SHA256: 78bb2e75190a54260ea536e4971fad297131c5ae808d7341327e57bcd9c5a3b7
+SHA512: 5e930bff1954ac351431c903d8e5a04041f8a741745202797497ad99f7a895a10fa83305f68e2a374838733c51d404489bf87452055b2e2832dfe193daf745c2
 Homepage: https://invent.kde.org/frameworks/breeze-icons
-Description: Default Plasma icon theme
- This is the default icon theme for the KDE Plasma 6 desktop.
+Description: Breeze icons library
+ The Breeze icons library provides the Breeze icon theme as embeddable library
+ for applications.
  .
- This package is part of the Breeze theme module.
+ This package contains the shared library.
 
 Package: libkf6calendarcore6
 Architecture: amd64
@@ -36252,61 +36251,61 @@ Description: PDF library for Java
 
 Package: libpeas-1.0-1
 Architecture: amd64
-Version: 1.38.1-6+b1
+Version: 1.38.1-7
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libpeas (1.38.1-6)
+Source: libpeas
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 216
+Installed-Size: 221
 Depends: libpeas-common, libc6 (>= 2.14), libgirepository-2.0-0 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~), libgtk-3-0t64 (>= 3.21.5), libpython3.14 (>= 3.14.1)
 Breaks: libpeas-1.0-0 (<< 1.38.1-4~)
 Replaces: libpeas-1.0-0 (<< 1.38-4~)
-Filename: ./libpeas-1.0-1_1.38.1-6+b1_amd64.deb
-Size: 62156
-MD5sum: e55c895bb15da68dab5724edfc03ebec
-SHA1: 184247694a47832f48c43cdcc5fcc18b1598138c
-SHA256: aa9096b7aaf9e83622bfed6089dce05b191849448e637bda321abf01c87e8ed7
-SHA512: 23e9d325d821bdf120bf6f70b105e6c55768f09d72ea1a031b454b7e8208fdedd0391c8c7b1a60f57e4742e8307bb90a73166b84cfe06d94fa68b2099b4a900e
+Filename: ./libpeas-1.0-1_1.38.1-7_amd64.deb
+Size: 65604
+MD5sum: 87511f5db6834577444908094bb9100d
+SHA1: dc787054f616b58906c84acd2f16150d2969dcef
+SHA256: a3a249a885a6c70c06929a706bebc4d632ab9e303824c3a9a52ed0ecdfc30596
+SHA512: f114c5e3825bcc390f80577343d5dac3d3c532d4029ea2dd901bd97cdda45cd87560af2263d65ea08bbc5f10cdd04fbdc690f9af60c5fac3e85cfbfc1d63912d
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library
  libpeas is a library that allows applications to support plugins.
 
 Package: libpeas-2-0
 Architecture: amd64
-Version: 2.2.1-1+b1
+Version: 2.2.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libpeas2 (2.2.1-1)
+Source: libpeas2
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 142
+Installed-Size: 144
 Depends: libpeas-2-common, libc6 (>= 2.14), libglib2.0-0t64 (>= 2.86.0), libpython3.14 (>= 3.14.1)
-Filename: ./libpeas-2-0_2.2.1-1+b1_amd64.deb
-Size: 42800
-MD5sum: 1089555785910a6ad856f859bf817929
-SHA1: e0a65b014271bc9ef21782227ed3f0b722bfce71
-SHA256: f1a22ea4a6a992ca6ae94ec62bead022457bcedf97fbcb28888433e56611e5f0
-SHA512: cb6501c468f96d42ae1a1d61a4206e327467cc9342c724bc8fee216251129c65bdbae5144701c6f7c91346ae555f7951dd09153f894041114de11e3ecd216dad
+Filename: ./libpeas-2-0_2.2.1-2_amd64.deb
+Size: 44284
+MD5sum: 52b27f0f7ceee8d2cbbbe143332eb8a6
+SHA1: 95949f0269e01391108b81b14b4d1e87e536b8bf
+SHA256: b1680f73e1114d91a824979717d2a68d3d0c7542df5bca90ba6a29012ff09697
+SHA512: 6b65f949082872d695d89f8ebc16e2c0c31b87feffcb49e195ba4ac7dfbee8dc248922e5da30cc6957dd2732ecdab8fd20f9337caafcc53778bfc7cc21074049
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library
  libpeas-2 is a library that allows applications to support plugins.
 
 Package: libpeas-2-common
 Architecture: all
-Version: 2.2.1-1
+Version: 2.2.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libpeas2
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 398
-Filename: ./libpeas-2-common_2.2.1-1_all.deb
-Size: 41428
-MD5sum: 56eea1ca6e680299e3f7d28109289b3e
-SHA1: dbb74f0d79f1fb523b35cfddd99cc406d3ab0833
-SHA256: c0604649d24e114874f55b4384007365a8358ef19150673d17d4f06a504ed458
-SHA512: da8f1c3526cb3b3473775fe7b38f7c450a40d77c082f6b1e482fd97178414d0c884f2eed8c5bc9ebebd8aad5f3a671c86ec281d5bad3c3d4cc09075ab36dfe34
+Filename: ./libpeas-2-common_2.2.1-2_all.deb
+Size: 41452
+MD5sum: fca3324b7f09f49c093922cc5d000a8d
+SHA1: a9b2613ccf76aa2d6ff51c9ed836480bf868d646
+SHA256: a07483f1e3621769194a22017bd9f6057f62ffe9a319a2bdf1fc6f428518716b
+SHA512: 1e47b622038b8faa0585f6ccf5f5fc5ccf7aaa5d4ac41f7d25ae8931865c91f8856588c39104b6d35125f15f4d2a75e97fbab8f22f0545fc87b0ce4037f1a2b1
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library (common files)
  libpeas-2 is a library that allows applications to support plugins.
@@ -36315,19 +36314,19 @@ Description: Application plugin library (common files)
 
 Package: libpeas-common
 Architecture: all
-Version: 1.38.1-6
+Version: 1.38.1-7
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libpeas
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 432
-Filename: ./libpeas-common_1.38.1-6_all.deb
-Size: 50872
-MD5sum: 6f1295a5609456f952d4be8d6a23c8f6
-SHA1: 5e586843babe48a86b40b3b03a49019cb21320bf
-SHA256: e67baa4061dbe799519d1794bd76aa08a96eab28db96dfb775ae3cf25d5478d1
-SHA512: b8cc0570f20f796b2edbc6c1a18850a610a0641f68696f4066acf6543d61f8e32c221c676a6b60bc4703fa2725b018df293a5e11207a88eb4eab5b327402e28f
+Filename: ./libpeas-common_1.38.1-7_all.deb
+Size: 50912
+MD5sum: 6bcefedb23e2c3130f252bf4a0ee8297
+SHA1: 481289ba57b0e69a8bdffd2132e2ffa81d16713b
+SHA256: 858be8582d65faec0c11383ef93b7d200383a3dd1c5a77ac9d61b51ac4cec40a
+SHA512: d8214b8959762902139189a27a736c38acdf604c1ada1dc679a1ed2d4ef0532235880b900a2d967482961e5fb75fdf486e58be0f786d07a74caca1f9a25ef8a7
 Homepage: https://wiki.gnome.org/Projects/Libpeas
 Description: Application plugin library (common files)
  libpeas is a library that allows applications to support plugins.
