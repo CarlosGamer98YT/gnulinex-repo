@@ -11320,7 +11320,7 @@ Description: game to move tiles so that they reach their places
 
 Package: gnome-terminal-data
 Architecture: all
-Version: 3.60.0-1
+Version: 3.60.0-4
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
@@ -11328,13 +11328,13 @@ Source: gnome-terminal
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 8702
 Recommends: gnome-terminal
-Filename: ./gnome-terminal-data_3.60.0-1_all.deb
-Size: 992368
-MD5sum: c7e82d9b0f8b1cc24e960e2000dc9f60
-SHA1: 2299c003396da149604796eff94629dd510effa8
-SHA256: 860b3e8032205c5ab7f0059fe0df361cd79500004d808edf6b1a07bdae397308
-SHA512: 8ae8f05575667c1be0ea64adb2a4b281ce0e9ba832d653f78e65bb7290517e05f9e33273fa3dfa413fec3ca9480094c33ee6f06ac41efc504978cb18e685fcc4
-Homepage: https://wiki.gnome.org/Apps/Terminal
+Filename: ./gnome-terminal-data_3.60.0-4_all.deb
+Size: 991792
+MD5sum: 712d154ed44eb7fa930f4e133a561dc5
+SHA1: b3e354fd626c86353e87a0ce20f8bb2a68ebab05
+SHA256: f6b47000fbb2845efa2fc9f7989e12bf67af0c87f91c5aa666f3563e084b0919
+SHA512: 14197b8599ae3a35a2997255af4b5d278aef9d93739ba84a5e87e8500df997b4ebf19dae8136d2b3ff54e8b899f8cadbb94cf9ee2c6a73fa3791cd514ff468df
+Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: Data files for the GNOME terminal emulator
  GNOME Terminal is a terminal emulation application that you can use to
  perform the following actions:
@@ -11347,22 +11347,22 @@ Description: Data files for the GNOME terminal emulator
 
 Package: gnome-terminal
 Architecture: amd64
-Version: 3.60.0-1
+Version: 3.60.0-4
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 960
+Installed-Size: 968
 Provides: x-terminal-emulator
 Depends: default-dbus-session-bus | dbus-session-bus, gnome-terminal-data (<< 3.62), gnome-terminal-data (>= 3.60), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.23.0), libhandy-1-0 (>= 1.5.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libuuid1 (>= 2.16), libvte-2.91-0 (>= 0.84.0), libx11-6
 Recommends: gvfs, nautilus-extension-gnome-terminal, xdg-terminal-exec, yelp
-Filename: ./gnome-terminal_3.60.0-1_amd64.deb
-Size: 238636
-MD5sum: be1f1a1cee18197d146c74261d5bbf3f
-SHA1: 75dc93249d6eca5d311fc23b428b23fb6c812b70
-SHA256: 52410f8ad8af87ff160d33c6b1c481fb37dd19eca9bb9de1760154ca5d3200f6
-SHA512: e18d50281d0688a586c555f63fdca5ef7626f7e21609f85b7e810338a304ea187bb57dedd1c6ef90d6300f024e2fc0d760ccc1db319a34f4ea65ac5a87d7e155
-Homepage: https://wiki.gnome.org/Apps/Terminal
+Filename: ./gnome-terminal_3.60.0-4_amd64.deb
+Size: 244264
+MD5sum: f729cff80e0a438e7db9085b3d4ae12d
+SHA1: f4beb2a646c76088ef745c7e3502bfef94e7b227
+SHA256: 32e3e0be59bed6b861bc6c7d17d2a9629426fd8dd3b52f20c531d64c5c86e18e
+SHA512: 481e0812f8bc30ae969cf466067f031118577c8470e5fa06788cf3edf5a56fd74f48b85fa7ba5274a7854c007c1fb5eef7ea0d2433ab46d60ed9bf06710a054a
+Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: GNOME terminal emulator application
  GNOME Terminal is a terminal emulation application that you can use to
  perform the following actions:
@@ -38260,21 +38260,21 @@ Description: Qt 6 OpenGL widgets module
 
 Package: libqt6pdf6
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5076
+Installed-Size: 5244
 Provides: qt6-pdf-private-abi (= 6.10.2)
-Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.4), libicu78 (>= 78.1-1~), libopenjp2-7 (>= 2.5.0), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
-Filename: ./libqt6pdf6_6.10.2+dfsg-4_amd64.deb
-Size: 2154948
-MD5sum: f0c01b3d852ab861565e26bd477a5e4c
-SHA1: a2dd2196c0fc59a71febe0421a8a6fb8f2fc1fcf
-SHA256: fac4f616f2aa59918abf881813d8ba5e3251da0b6f39dff6b86daa989817ec93
-SHA512: 776ab5f0f198893c016005c04b8a2e3c864be33e3f909744c400de6ce61fedf1a5bc69efa4991542b3aed95b5389603cb990dc24fc79f895e1e7bf21d5719754
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.4), libicu78 (>= 78.1-1~), libopenjp2-7 (>= 2.5.0), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), qt6-base-private-abi (= 6.10.2), zlib1g (>= 1:1.1.4)
+Filename: ./libqt6pdf6_6.10.2+dfsg-5_amd64.deb
+Size: 2215288
+MD5sum: e404230c81b4b48453d3ad524f4865f8
+SHA1: 8d0b87ec443e06ca495f375bee542477b2a8ed24
+SHA256: f62bb40a46dcf0d49540e1ddd59f6d231b89853b9d4dd9185c30eb46305f4ef9
+SHA512: ff157d1b48489c76d23d67f2b2345e590283ad056c4524d0a9e9a2378ae0a233cb06c738f2dcd903f1dd768d292e1cb0ac4f1d5cb198e0f7cd617d2165ee5f34
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 PDF library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38286,20 +38286,20 @@ Description: Qt 6 PDF library
 
 Package: libqt6pdfwidgets6
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 277
+Installed-Size: 281
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6pdf6 (>= 6.6.0), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
-Filename: ./libqt6pdfwidgets6_6.10.2+dfsg-4_amd64.deb
-Size: 67600
-MD5sum: 5f4ffc7e6457b132690a949553fed1cf
-SHA1: b3cadd2c522c49b64c4d9a7343730d2a9e7a8ea2
-SHA256: e4073a2643ed16a1f5902e0d5f20da0c0878438a6d6d12d014387dacdbf95722
-SHA512: 0afda68c0e590710b3524afb59ed53c5881dc55872e9b4d9b53459f4c5fa0c6e880dc1b2b7adade4057434270203010c2788b648b79bbb0b3bc78b98b28c4f87
+Filename: ./libqt6pdfwidgets6_6.10.2+dfsg-5_amd64.deb
+Size: 68816
+MD5sum: a9b265ad3af8d7f5e88c662177ea5048
+SHA1: fe534d631d23713d46bb8d2c093d293fdbc6e9df
+SHA256: 345c8d98c9ac1513729d1789f1ea3508da4b12ef613fefb111f13785b29d58f9
+SHA512: e5717440853e64777468ca8ab4bc2169b242dad7d592fae5ed8a8ebc7b1066da221a9aefcde1c9c9d47b3a09d9cce5e7cafe271864cd30ce10aeedd37ebd7a89
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 PDF Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39066,19 +39066,19 @@ Description: Qt 6 WebChannel Quick library
 
 Package: libqt6webengine6-data
 Architecture: all
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 53397
-Filename: ./libqt6webengine6-data_6.10.2+dfsg-4_all.deb
-Size: 19293200
-MD5sum: 042d777fe4a935d3bc65fb9c9ea9bb6a
-SHA1: 3b66193ca0429d7ed125a39ee8a2569ee56d4f7f
-SHA256: affc5c4020c2826ce253321110be4208cd55f5e0577fd9b7a9f0ff3f2ab2f7a9
-SHA512: 92f6574b581b04f4d3e9954d47a2bcadc518f82a0816779105e13daefd3f8b0fd6dbb05271e4f4a665f55e0a96697df05a4d8cfabd4f74168c041a333c7e3d5a
+Filename: ./libqt6webengine6-data_6.10.2+dfsg-5_all.deb
+Size: 19299376
+MD5sum: c06b655ff5f93b71d6334a8fdc834e6d
+SHA1: dbd4bd7e32dfb02db9e9ebaff503d273daa3d2f7
+SHA256: 4543efa2228779eefe21493548802d70a68b8bc68d0929245cbf394538280a1a
+SHA512: 5147bacec944f3b452034e7fd408fd6a343476b52539b5eb2fa33081db8650bd1ff452b87f9502c15e6bb986a4889e0a5c888bb6501511f3268ed9354c0602da
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Web content engine library - data
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39091,20 +39091,20 @@ Description: Qt 6 Web content engine library - data
 
 Package: libqt6webenginecore6-bin
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 18521
+Installed-Size: 19460
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 0.6.0), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6webenginecore6 (>= 6.6.0), libstdc++6 (>= 12), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libxcb1 (>= 1.9.2), zlib1g (>= 1:1.2.11.dfsg)
-Filename: ./libqt6webenginecore6-bin_6.10.2+dfsg-4_amd64.deb
-Size: 6890184
-MD5sum: 6e652d1e4cc1d9dba48debb104503ebe
-SHA1: e91565f1bbf92e38b7aee42e50661cd338ce8242
-SHA256: aa9620c548cfe6a6663dca69c498410844821a25a12f53ce7bf3ee4c4bd421ac
-SHA512: b768ce71f1312432ee7b328d9076f4afbf709d5182bb3e2727ea97de3d48aae16cb623d13b0c6c4b3e980b834a4abc02c3d6d3796d4004a239eab9572767b511
+Filename: ./libqt6webenginecore6-bin_6.10.2+dfsg-5_amd64.deb
+Size: 7137884
+MD5sum: f4df1d7f23ffd6e0abb743263d508478
+SHA1: 03327e2386c7703ec393ca21fe21405c933a4ce9
+SHA256: aec318f069410bdb4437cc85ab351fa7b9d7e058acca05d31527921e39829f37
+SHA512: 3894b7564b0418f2a49e38d1f1a8f8485382c741c5eba8f8fc193c18c64185aa91f62a74195af714b6c92e5842c3b0807d180e17d19fccfaf99e50aa0bfa8ecf
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine Core binaries
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39117,21 +39117,21 @@ Description: Qt 6 WebEngine Core binaries
 
 Package: libqt6webenginecore6
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 201125
+Installed-Size: 208869
 Provides: qt6-webengine-private-abi (= 6.10.2)
-Depends: libqt6webengine6-data (= 6.10.2+dfsg-4), sse3-support, libasound2t64 (>= 1.0.17), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.0), libglx0, libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.10.2~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6webchannel6 (>= 6.10.2~), libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 12), libtiff6 (>= 4.7.0), libudev1 (>= 183), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6 (>= 2:1.4.99.1), libxcb-dri3-0, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxml2-16 (>= 2.14.1), libxrandr2, libxslt1.1 (>= 1.1.27), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), zlib1g (>= 1:1.2.11.dfsg)
-Filename: ./libqt6webenginecore6_6.10.2+dfsg-4_amd64.deb
-Size: 62792644
-MD5sum: ff72cb522aac86d300a6404c843675e9
-SHA1: 56b7f07eb0ceeb0c944f5f53d2984e73bd91797a
-SHA256: df67f1109a881020bd92bf60a498a8a1903ccb4d758918dd6cfea3b4faf5d23d
-SHA512: 844ef66d5f2850d99897be2774efddc96787b2ab6cf0979c7d229bad560bd879f8ad20f09a45f5e9eee0e60d0095f75a81ec46d806d5fcdc6d5c15f569d785d2
+Depends: libqt6webengine6-data (= 6.10.2+dfsg-5), sse3-support, libasound2t64 (>= 1.0.17), libc6 (>= 2.43), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.0), libglx0, libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6positioning6 (>= 6.10.2~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6webchannel6 (>= 6.10.2~), libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 12), libtiff6 (>= 4.7.0), libudev1 (>= 183), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6 (>= 2:1.4.99.1), libxcb-dri3-0, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxml2-16 (>= 2.14.1), libxrandr2, libxslt1.1 (>= 1.1.27), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), zlib1g (>= 1:1.2.11.dfsg)
+Filename: ./libqt6webenginecore6_6.10.2+dfsg-5_amd64.deb
+Size: 64912524
+MD5sum: c4b54e20f5c79f86d933ba2b4716ed16
+SHA1: 3075ae67e097f92895363b2bd15e851ee756347f
+SHA256: 9d328ce1a390883eb52d10c679125a0df88056124cf9640643f979532fb20245
+SHA512: 801691371661dbba2b6cf2159116a38bfc67c7bad7eeb4c1b2c30e89a7450423a1033d7ececb8380be7af3d0ce4ef2f80fdffe5288d30d9e1cc035510410ea8d
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine Core library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39144,20 +39144,20 @@ Description: Qt 6 WebEngine Core library
 
 Package: libqt6webenginequick6
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1098
+Installed-Size: 1122
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6webchannelquick6 (>= 6.10.2~), libqt6webenginecore6 (>= 6.10.2), libqt6webenginecore6-bin (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-webengine-private-abi (= 6.10.2)
-Filename: ./libqt6webenginequick6_6.10.2+dfsg-4_amd64.deb
-Size: 220788
-MD5sum: 51b9721bb8966ac6a121e96a484eb4c3
-SHA1: 3699aff3782a2d4ef9f8249c1eb03c9180037182
-SHA256: e0e146c3b8ebc33d3c7017f66397639f25bc187c64ab5ec4e8cd21d7d1dedf03
-SHA512: c25d91067d7e3acfa7b90a066e3b8c7ba171a22c8ec0e9d667ce21071f5293055bbce7b703865ab5a1ec1e1e60577dffb83898f9445cbdaa237618b0c4a971e7
+Filename: ./libqt6webenginequick6_6.10.2+dfsg-5_amd64.deb
+Size: 226580
+MD5sum: 975293c62bc4fd16a6e28d41d411eae6
+SHA1: e9867b6269d458760494cc892c15dc6f0b9556dd
+SHA256: 4cff9bdea59a3395c1b9473430349d57b81d28a56a4c25007ce50d267f3056de
+SHA512: 3f6206e554bafff376be3d4a529baec001909ce01b0ab360106296eeb3f0c6b7edeae882a4c3b99737ccea4fa0fd6a8afbff0f8da80dd4f3eb63e245f6d9a2e1
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine Quick library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39170,20 +39170,20 @@ Description: Qt 6 WebEngine Quick library
 
 Package: libqt6webenginewidgets6
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 341
-Depends: libqt6webengine6-data (= 6.10.2+dfsg-4), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6printsupport6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6quickwidgets6 (>= 6.10.2+dfsg~), libqt6webenginecore6 (>= 6.9.1), libqt6webenginecore6-bin (>= 6.9.1), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-webengine-private-abi (= 6.10.2)
-Filename: ./libqt6webenginewidgets6_6.10.2+dfsg-4_amd64.deb
-Size: 81268
-MD5sum: 68533426a6adf7893f27454266df8ba4
-SHA1: 6f8a2008a772da0799144904810647d1bcbbf862
-SHA256: 6861e72037c930bdcd484dd17920add519b2f134d3e695260e19d644dc258e30
-SHA512: ea49bae39a69f7623a0b99322acc1d19c4c8cdecf2b61cf9836b661f218b2bf3b33b0e7c207a76ff474e6870e2385a2cce1966466b893c7ddc04e4ee661ebb23
+Installed-Size: 345
+Depends: libqt6webengine6-data (= 6.10.2+dfsg-5), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6printsupport6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libqt6quickwidgets6 (>= 6.10.2+dfsg~), libqt6webenginecore6 (>= 6.9.1), libqt6webenginecore6-bin (>= 6.9.1), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-webengine-private-abi (= 6.10.2)
+Filename: ./libqt6webenginewidgets6_6.10.2+dfsg-5_amd64.deb
+Size: 82348
+MD5sum: 0642c2e1fabb857af5793bbf02e3d1b2
+SHA1: 785344fb7cd27cb5731c245537010afbb4e47a95
+SHA256: f812d4b9b14bb02da4548bb1546358936fa6186531537e34a45620791defb89f
+SHA512: 0320e1d8c209ebb375e551d05e88a5043752e63f9bdb993afe751ed1ab813a867c37dfd2cc2062af79909591b06496bfef52a76799b2af69ad01cfafeaab7e13
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -55841,23 +55841,23 @@ Description: data files for nautilus
 
 Package: nautilus-extension-gnome-terminal
 Architecture: amd64
-Version: 3.60.0-1
+Version: 3.60.0-4
 Multi-Arch: same
 Priority: optional
 Section: gnome
 Source: gnome-terminal
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 107
-Depends: gnome-terminal (= 3.60.0-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libnautilus-extension4 (>= 3.14.1), libstdc++6 (>= 4.1.1)
+Depends: gnome-terminal (= 3.60.0-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libnautilus-extension4 (>= 3.14.1), libstdc++6 (>= 4.1.1)
 Replaces: brasero (<< 3.27.92-2~)
 Enhances: nautilus
-Filename: ./nautilus-extension-gnome-terminal_3.60.0-1_amd64.deb
-Size: 32092
-MD5sum: 572b0cadf0c9a0be49e9d59e7ff32f44
-SHA1: 59db945224558e7fa838092ff99213e30867cd2e
-SHA256: 704e1d036944fdd9431f522ce117aa2481cbc42cf57b34b2ce8728f5f3bc343a
-SHA512: 913cf1edaa063895092631f8bc8e9079a029f5070ddfb94cd6a31a9321369c4366916c10ec2d6b196decb3156e3b84bc1e8328a271d2b32f381cf49cba025294
-Homepage: https://wiki.gnome.org/Apps/Terminal
+Filename: ./nautilus-extension-gnome-terminal_3.60.0-4_amd64.deb
+Size: 32692
+MD5sum: df37548111022a452b7e057d36e1a4cd
+SHA1: 2d28289570817affb9aa10166fb683ee142212fc
+SHA256: 45e86fbe21c06d9379649ffc93733e4cfeed4462561b44c3bd02c48bc01c618a
+SHA512: a1240d9d5f0f5a2b326d62a551978f2fa20cb5813b011d7a7a7595929be126ad1f32af4964c614e5bad844414e2567ac0b78b9ce3354fa3db85e382ba9181759
+Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: GNOME terminal emulator application - Nautilus extension
  GNOME Terminal is a terminal emulation application that you can use to
  perform the following actions:
@@ -62085,22 +62085,22 @@ Description: Qt 6 WebChannel QML module
 
 Package: qml6-module-qtwebengine-controlsdelegates
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 390
-Depends: qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
+Depends: qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.10.2)
 Breaks: libqt6webenginequickdelegatesqml6
 Replaces: libqt6webenginequickdelegatesqml6
-Filename: ./qml6-module-qtwebengine-controlsdelegates_6.10.2+dfsg-4_amd64.deb
-Size: 74172
-MD5sum: f9645b441650679d7c473c8cdfe8302a
-SHA1: 91ed947dd42f41e554bf6b96b812714e806aa3a9
-SHA256: d402e5e1c39051191b75bf12236bc38478c5a174ee3af437730a69da324e9a8c
-SHA512: 0b9c0d63cd8c9bee5b7c3facdc260d887b318fa1e95d81adb76e9c4e86407811901376ff41ba026fada078de9226ace25ae9d6825fa4692efb0702519a068be7
+Filename: ./qml6-module-qtwebengine-controlsdelegates_6.10.2+dfsg-5_amd64.deb
+Size: 74812
+MD5sum: d9baa20d942e9eacc1a33c5b7da01b21
+SHA1: 7c949e05d992841a76ec2355ff15177fb9ea57a2
+SHA256: cbdad09a0dc5dcdc3e937c425f0c729d85d61f7fa675b6f12d42dd856f3cc7eb
+SHA512: 1ae3148a428d13e241953aabcc491a942441a6dba7e43a7c5c4978506307d752934b5bafa3cdc5253eebb54755094904e203d5621108a6aeb6629b52003af104
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine Controls Delegates QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -62114,7 +62114,7 @@ Description: Qt 6 WebEngine Controls Delegates QML module
 
 Package: qml6-module-qtwebengine
 Architecture: amd64
-Version: 6.10.2+dfsg-4
+Version: 6.10.2+dfsg-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -62122,12 +62122,12 @@ Source: qt6-webengine
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 333
 Depends: qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtwebchannel, qml6-module-qtwebengine-controlsdelegates, libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6qml6 (>= 6.10.2+dfsg~), libqt6webenginequick6 (>= 6.6.0), libstdc++6 (>= 5), qt6-webengine-private-abi (= 6.10.2)
-Filename: ./qml6-module-qtwebengine_6.10.2+dfsg-4_amd64.deb
-Size: 55032
-MD5sum: 59b3adb1ae7a35514a2adc9e1f1fbdf7
-SHA1: 42759bc2bdb7d47f85fdc6dafb7548666df849e0
-SHA256: 95d862957e11649978adc3cca9cd95cd4080d5ea50a095e99aa3f2d9b9f3b69d
-SHA512: 0753fe83301ffd54fd722be282f19ff817bf1f4ec6cf80f3e5147dffcf148a4c07e807d73d308b9722a23ae581b49138da343b92c8f8ae3b335c4d77aa7b8eeb
+Filename: ./qml6-module-qtwebengine_6.10.2+dfsg-5_amd64.deb
+Size: 55044
+MD5sum: 922960638643d7554d9fa8fc4c94ed0a
+SHA1: 34c4a3c301f4f0455d78f1c9e88b044135fb6f64
+SHA256: 78b0629efa97655ebbd5299ab25961710d70a352254178f9a802234c5e05f420
+SHA512: fb0e829f116aefd1a29fad7260371949234db39256a0d9f1762c691a6a892b5df3d82498e260578b44291fedd952d30f10651b14b71d8fbc1941b3933131079b
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 WebEngine QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
