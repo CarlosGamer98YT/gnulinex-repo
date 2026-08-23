@@ -37093,22 +37093,22 @@ Description: Document (Comic Books, DjVu, PDF) rendering library - GTK widgets
 
 Package: libpq5
 Architecture: amd64
-Version: 18.4-1+b2
+Version: 18.6-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: postgresql-18 (18.4-1)
+Source: postgresql-18
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 1246
+Installed-Size: 1265
 Depends: libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libldap2 (>= 2.6.2), libssl3t64 (>= 3.0.0)
 Recommends: ca-certificates
 Suggests: libpq-oauth
-Filename: ./libpq5_18.4-1+b2_amd64.deb
-Size: 259588
-MD5sum: e96efa76b03f60734ec7bc35b29e3492
-SHA1: 01939acaf731f04c71b791a95a0311ce4d17832e
-SHA256: 30907b5b68763340c32dfb2c12a9ea0349f42d7bd10cbc807275805b3bf10399
-SHA512: 545e07a148136e8dbc5d4f59742130035d20d3cda06446fc653185b294a3d073f73a7343d8b12e56a230a9e5b25c7267daf09ecde5a025abe78b54844d331003
+Filename: ./libpq5_18.6-3_amd64.deb
+Size: 272568
+MD5sum: 4e3eb74d59e11076070667cfdadb9f1d
+SHA1: 4984f0bdd15bedb26741bf70c1e26a34176f2af9
+SHA256: b8d633b4dba8d527f2076dd2ec3f0d25ff00a5228dc36cf897b2d06ba6ceb3aa
+SHA512: 07074f2005c7c508693c8efe6f3c656f81ecf9e68325e0c6e0f9acc0f75d0090494db4ae5bf599fea4606f4573ff440abf5c72256774183af42d044ffd4422f4
 Homepage: http://www.postgresql.org/
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
@@ -58467,21 +58467,21 @@ Description: Python3 binding for Caja components
 
 Package: python3-cffi-backend
 Architecture: amd64
-Version: 2.0.0-3
+Version: 2.1.1-1
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python-cffi
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 456
+Installed-Size: 463
 Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
 Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./python3-cffi-backend_2.0.0-3_amd64.deb
-Size: 111384
-MD5sum: 7c51de99d36595cfe9dd01aae42a727f
-SHA1: acf480f7a0568eff2ea17aa8815bc49f234863c2
-SHA256: cf4769cfbe7a10db9877b55e44060cd5a8c4f4ac7387d22d47f335580308ae0f
-SHA512: 49ea299c68c1859f627b8be2c964463c14b59093fc10c5739cb1a61a6eecbceb04be5e56452e1c4fc7f01cf2da91e1cadbb187157617d00371bf4445c303f311
+Filename: ./python3-cffi-backend_2.1.1-1_amd64.deb
+Size: 120680
+MD5sum: c39c4cef7c38e6cde21ba92bf47f1e32
+SHA1: 14fd718c82cbcff02aef301a6e7dad59204edeec
+SHA256: 6badb35f485cd7006f43d9f3a1aae961ebeb11ea6246fcaa0e3377739a4e1731
+SHA512: 4d5f649e6d481d9cc3621b129b8761e2b7ffabcc29808c0552bff9cad0d531b08835059f5c8056e45a78cc09b69c23133bca2a9e3ef643121f51a2f0253dbb7f
 Homepage: https://cffi.readthedocs.org/
 Description: Foreign Function Interface for Python 3 calling C code - runtime
  Convenient and reliable way of calling C code from Python 3.
