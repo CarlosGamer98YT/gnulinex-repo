@@ -771,20 +771,20 @@ Description: framework for file search and metadata management
 
 Package: bamfdaemon
 Architecture: amd64
-Version: 0.5.6+repack-1.1+b3
+Version: 0.5.6+repack-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: bamf (0.5.6+repack-1.1)
+Source: bamf
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 440
-Depends: libbamf3-2t64 (= 0.5.6+repack-1.1+b3), libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libgtop-2.0-11 (>= 2.22.3), libstartup-notification0 (>= 0.11), libwnck-3-0 (>= 3.4.7), libx11-6
-Filename: ./bamfdaemon_0.5.6+repack-1.1+b3_amd64.deb
-Size: 147920
-MD5sum: bde79c1f31da87ecfa837da9fface76d
-SHA1: 8441e652fd3e39d47a4f345967de1c5d394e78e6
-SHA256: 6a12fff33bb66319660bea5690690ea63b288997404a39f33464fe33d15af3bf
-SHA512: 8d6a92bb39e2adb51b910966490569d4d4a78ec9d2b79422a3c90dd17050ebe288ea69531076faea194ed09ab0520ca5dbdb1d054b499a410417db433d648b99
+Installed-Size: 451
+Depends: libbamf3-2t64 (= 0.5.6+repack-2), libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libgtop-2.0-11 (>= 2.22.3), libstartup-notification0 (>= 0.11), libwnck-3-0 (>= 3.4.7), libx11-6
+Filename: ./bamfdaemon_0.5.6+repack-2_amd64.deb
+Size: 152608
+MD5sum: 8fa40c3703c6b7e927e1bbbe706be96b
+SHA1: 2897cf962b71d025ae5386c77704d9b05dd65434
+SHA256: af2c5c03ca99c7f1964858e7fd212bfcb8ab94960a667f21ddf0b40d1a5c8181
+SHA512: cb9656ea596bf1ab522a3c3334189123e4e9d970da67a96b832e242dcb6bd5a443c28f048c1d07158da3a49bf2d2c0f39a08b3fa8b0dac1c33835bf2f2750724
 Homepage: https://launchpad.net/bamf
 Description: Window matching library - daemon
  Bamf matches application windows to desktop files. It removes the
@@ -1023,20 +1023,20 @@ Description: Control backlight brightness
 
 Package: budgie-control-center-data
 Architecture: all
-Version: 2.1.2-1
+Version: 2.1.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: budgie-control-center
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Installed-Size: 12809
+Installed-Size: 12811
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./budgie-control-center-data_2.1.2-1_all.deb
-Size: 2950432
-MD5sum: 176fd16593e1eba760c4689043128b1e
-SHA1: fd8a550efc64423f9e80e2fb2d2aa700c6d59caa
-SHA256: 246d0788126670be475906b6cab3b12052f828f28dd8dafd565198dec28d531a
-SHA512: dbdb63c0f36cdc192182226a0dca412ee78911ae459b1d578532cda182eae0e8759c84e433881c5a73af3fae35a3d136088364d6515459883447fbf282d23387
+Filename: ./budgie-control-center-data_2.1.3-1_all.deb
+Size: 2951328
+MD5sum: 6c3e09130cb0ee705043005274e2fb0f
+SHA1: 2a3781d72079d2bca8f11d188afc31f6b1eb913b
+SHA256: f08ba9f0713c7df6c7903e5cdbefaa38688f2096d68cebd80e0bc31369940ff5
+SHA512: 774db6643a44694c3ba38a1caef2ead47895180cc2f5f10a7ceaf3864a0466044ff6393149aeb35c450800df011a52c5aff08729727e2d92d83f4df63d7b82a9
 Homepage: https://github.com/buddiesofbudgie/budgie-control-center
 Description: configuration applets for Budgie - data files
  This package contains data files (icons, pixmaps, locales files) needed by
@@ -1048,21 +1048,20 @@ Description: configuration applets for Budgie - data files
 
 Package: budgie-control-center
 Architecture: amd64
-Version: 2.1.2-1+b1
+Version: 2.1.3-1
 Priority: optional
 Section: misc
-Source: budgie-control-center (2.1.2-1)
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Installed-Size: 4434
+Installed-Size: 4433
 Depends: accountsservice, budgie-control-center-data, colord (>= 0.1.30), desktop-file-utils, gnome-desktop3-data, gnome-settings-daemon (>= 49), gsettings-desktop-schemas (>= 40), libaccountsservice0 (>= 0.6.40), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.22.20), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 232), libhandy-1-0 (>= 1.5.0), libibus-1.0-5 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.24.0), libnma0 (>= 1.8.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.103), libpulse-mainloop-glib0 (>= 13.0~), libpulse0 (>= 13.0~), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1)
-Recommends: budgie-desktop (>= 10.7), cracklib-runtime, cups-pk-helper, gkbd-capplet, gnome-user-docs, gnome-user-share, iso-codes, libcanberra-pulse, libnss-myhostname, network-manager-applet, pkexec, polkitd, power-profiles-daemon, rygel | rygel-tracker, system-config-printer-common (>= 1.4)
-Suggests: gnome-software | gnome-packagekit, libcanberra-gtk3-module, realmd, x11-xserver-utils
-Filename: ./budgie-control-center_2.1.2-1+b1_amd64.deb
-Size: 1576888
-MD5sum: 5fbbb9d5c98ac0cea91b5e5d18745006
-SHA1: ba2856c5436ae23e666943d3965eee18894667de
-SHA256: 0952b59b7943ef1fa0e4670ce5cde4bf84750cd2853481b48d0da550ce184260
-SHA512: c71515eb9f9035cf19179461aec41e2ae14fa0a6e46dcda81b9d708315b70bce978a098712aa22fa3e8ab7d6b4c8a15364920c460823eef0c441dcec317aad7d
+Recommends: budgie-desktop (>= 10.10.2), cracklib-runtime, cups-pk-helper, gnome-user-docs, gnome-user-share, iso-codes, libcanberra-pulse, libnss-myhostname, network-manager-applet, pkexec, polkitd, power-profiles-daemon, rygel | rygel-tracker, system-config-printer-common (>= 1.4), tecla
+Suggests: gnome-software | gnome-packagekit, libcanberra-gtk3-module, realmd
+Filename: ./budgie-control-center_2.1.3-1_amd64.deb
+Size: 1577776
+MD5sum: 6376c74e826b385784938118429fe565
+SHA1: c7616bafadc450dc445a99ddc2d068b1bf2f2520
+SHA256: de7d11d72a57e6980986d43c0fa573e72c7445f0d07eb1d2cddf8b930e426260
+SHA512: 6d2af9f2d43e287eb204d103fd6c0e9ef48576171c0f51449ecd291f70d53ab258592d14ed4ad3cadab75a7d2480983d0daff1b1514fa932de3cc4ea2c580fbf
 Homepage: https://github.com/buddiesofbudgie/budgie-control-center
 Description: utilities to configure the Budgie desktop
  This package contains configuration applets for the Budgie desktop,
@@ -7146,19 +7145,19 @@ Description: GObject introspection data for Babl library
 
 Package: gir1.2-bamf-3
 Architecture: amd64
-Version: 0.5.6+repack-1.1+b3
+Version: 0.5.6+repack-2
 Priority: optional
 Section: introspection
-Source: bamf (0.5.6+repack-1.1)
+Source: bamf
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 95
+Installed-Size: 94
 Depends: gir1.2-glib-2.0, gir1.2-gobject-2.0, libbamf3-2t64 (>= 0.5.3)
-Filename: ./gir1.2-bamf-3_0.5.6+repack-1.1+b3_amd64.deb
-Size: 66256
-MD5sum: b762e57be70c5876be09bcd500f3543a
-SHA1: d50ea5e41d140e21a4f8a23af0aa067a8d15fda0
-SHA256: 6fdc47cc6e191ed8085bfb1287b00e89b423f6cbaaa03aff40ebc0da9dcba3c9
-SHA512: 16db942799374216f4021b319d57f64f9b8962445fe315c516cde5782f9497b0aceaf236f1c32cb88064dfe704c3ea91c8f108f427b6654c6b192635ec2fab18
+Filename: ./gir1.2-bamf-3_0.5.6+repack-2_amd64.deb
+Size: 65832
+MD5sum: b446aa18a42d373b6113c32dc6f743b2
+SHA1: d63de0aaa69b4eba126fd4ce906d0439ef554927
+SHA256: 0ef9e74749856748c9a4db59e29488f48c29027a684f65f28b6f3bb8b6907654
+SHA512: 712ba1f0accbecf6c3716b28f75a50b43d68ac47a2e95e88d32946d54db4534fa123745e6705a8fabb05d21935bb3dca4a12eef72591b613b97db336340b8352
 Homepage: https://launchpad.net/bamf
 Description: GObject introspection data for the Bamf library
  Bamf matches application windows to desktop files. It removes the
@@ -16503,23 +16502,23 @@ Description: Wigets for use with Baloo - binaries
 
 Package: libbamf3-2t64
 Architecture: amd64
-Version: 0.5.6+repack-1.1+b3
+Version: 0.5.6+repack-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: bamf (0.5.6+repack-1.1)
+Source: bamf
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 308
-Provides: libbamf3-2 (= 0.5.6+repack-1.1+b3)
+Installed-Size: 311
+Provides: libbamf3-2 (= 0.5.6+repack-2)
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0)
-Breaks: libbamf3-2 (<< 0.5.6+repack-1.1), unity (<< 3.2.12)
+Breaks: libbamf3-2 (<< 0.5.6+repack-2), unity (<< 3.2.12)
 Replaces: libbamf3-2
-Filename: ./libbamf3-2t64_0.5.6+repack-1.1+b3_amd64.deb
-Size: 112148
-MD5sum: 53fa375bb3dc4497d3531433e7103eb0
-SHA1: 2a26c3185160232f2ca2c7debd36dc1bcb451a15
-SHA256: 73d1850a8eec83bf75ce33b56074aa9c6354f05d113e1b4192dcb69678b6716a
-SHA512: 240e7fa3f3880b8f1a72b35ddc815bae3389e79999d8c1f13dce9224dd6bf1a35a5c8997a3cf3b3f7ae8b6451afedf38c6fdbf1d7b53332e3b01b2fd9829889d
+Filename: ./libbamf3-2t64_0.5.6+repack-2_amd64.deb
+Size: 114384
+MD5sum: 329de012203d1f1ee83d407de63ada43
+SHA1: 1ad6e5b58b44904d9d57483c314f2b56541ebd60
+SHA256: b809a009b039a62927e07b61d252e144bd0ec1b963bfbf90fb82f3ce9e89c258
+SHA512: cf63658d7feb2b8a2a46656d9e70982f3f2546d0cd45d9a4a16c9d466017be0fa3109890e6a6d620ac19fabae7ed43c097b68362a50f2d2a59cd915fd1aec197
 Homepage: https://launchpad.net/bamf
 Description: Window matching library - shared library
  Bamf matches application windows to desktop files. It removes the
@@ -20078,7 +20077,7 @@ Description: EFL media object functionality
 
 Package: libenca0
 Architecture: amd64
-Version: 1.21-1.1
+Version: 1.22-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -20086,12 +20085,12 @@ Source: enca
 Maintainer: Syed Shahrukh Hussain <syed.shahrukh@ossrevival.org>
 Installed-Size: 240
 Depends: libc6 (>= 2.29)
-Filename: ./libenca0_1.21-1.1_amd64.deb
-Size: 62936
-MD5sum: 64a0aac75d196f47a545f60ec3760cda
-SHA1: b4d1a391f6255dbd305fc77bd3ecdd95051def0b
-SHA256: 8ce8e320e5129fcea46c5b206a0bd2858d4e3709fe82662995afb38d005cf0b9
-SHA512: 0ff18ace5a47e2d20046657005a51d7b6d41d0b0055499326e235ea82e53a8f2ed6d2a743d43ad59650e5535a09070c50607329145a11f4d9dea35d41cd2c8a8
+Filename: ./libenca0_1.22-1_amd64.deb
+Size: 64288
+MD5sum: c0b66d6a8f736cbd89e3487c16dde128
+SHA1: 262d87659a5e0d63b6347ff8a2d64fd476746c6b
+SHA256: 760f12b2b13abf4c8faea2cb444dfc9a5afe413447944ad7a1261871412a3105
+SHA512: c397c5d33c5c729d8ed1e5b728481356cdf8224970999e2af82d18d07c42f94529f51c1ac0d6740abc1a2e18d57cf1da1107bf5b880a2e731f7aa22fc6baca88
 Homepage: https://github.com/nijel/enca
 Description: Extremely Naive Charset Analyser - shared library files
  Enca is an Extremely Naive Charset Analyser. It detects the character set and
@@ -38099,20 +38098,20 @@ Description: Qt 6 Location library
 
 Package: libqt6multimedia6
 Architecture: amd64
-Version: 6.10.2-4
+Version: 6.10.2-6
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-multimedia
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2538
-Depends: libpipewire-0.3-0t64, libavcodec62 (>= 7:8.1.1), libavformat62 (>= 7:8.1.1), libavutil60 (>= 7:8.1.1), libc6 (>= 2.35), libegl1, libgcc-s1 (>= 3.4), libopengl0, libpulse0 (>= 5.0), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libx11-6, libxext6, libxrandr2 (>= 2:1.5.0), qt6-base-private-abi (= 6.10.2)
-Filename: ./libqt6multimedia6_6.10.2-4_amd64.deb
-Size: 782088
-MD5sum: f916eb35142e570461ebb249acf313f0
-SHA1: 7da00f993abf8f15a7ceca42352de590fdb8767a
-SHA256: 7dfd1e4d665ad6bf31c067e4f264fefa1007ba29d6b69a3abf44d25bd192d66f
-SHA512: d49a64b0be94a4c319254fbf52cef28513d356a9798a9fad0f0bf12094861cabd03f83398d5f44290fb098af4997e4f092551597db61c783e74b521f7589936a
+Installed-Size: 2578
+Depends: libpipewire-0.3-0t64, libavcodec62 (>= 7:8.1.2), libavformat62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libc6 (>= 2.43), libegl1, libgcc-s1 (>= 3.4), libopengl0, libpulse0 (>= 5.0), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6dbus6 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6network6 (>= 6.10.2+dfsg~), libqt6opengl6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 12), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libx11-6, libxext6, libxrandr2 (>= 2:1.5.0), qt6-base-private-abi (= 6.10.2)
+Filename: ./libqt6multimedia6_6.10.2-6_amd64.deb
+Size: 797104
+MD5sum: 57f4b7cb1867048c2574c896897f3ee0
+SHA1: 2ec31b6e677f78d956b80db3ab33ff001b23503e
+SHA256: b96355fb5178a3d06f8babf5ca786ff554096ca9fbd02a78ccc255aea5375365
+SHA512: fda749c9f1b6f382d3e767d8cb3c98f87c1f2ef0b6364edc84cdccd006d79ad784477370b0912e4906d822439ba82a1726231952c5a5ed6523b385c1d06955b8
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38123,7 +38122,7 @@ Description: Qt 6 Multimedia library
 
 Package: libqt6multimediawidgets6
 Architecture: amd64
-Version: 6.10.2-4
+Version: 6.10.2-6
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -38131,12 +38130,12 @@ Source: qt6-multimedia
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 78
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6multimedia6 (>= 6.8.2), libqt6widgets6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5)
-Filename: ./libqt6multimediawidgets6_6.10.2-4_amd64.deb
-Size: 19760
-MD5sum: 8a72a207286c166f32a3ffcd8372824c
-SHA1: 632df27d5131f4c51316e8f67ae1b0534c9f7065
-SHA256: c27d7a09baf98d911f959a09f8e2d7ef6f841295914aff9be26e3d02cbbebbd6
-SHA512: b34dcddebadeadf0a518c4916533ce2aa7733898e1cca9f7b820444262c3eb02b65704c008f6264096e0d989658aa3a1bf7a789a368fce50ed0b3b259422ce00
+Filename: ./libqt6multimediawidgets6_6.10.2-6_amd64.deb
+Size: 19988
+MD5sum: fc4d19bd1531fc60ff15e2e12c3102c6
+SHA1: 2b3cbfaddc7761ec93dd08ba33c9758054bcd7ea
+SHA256: b9ded677fd41e8cfcbc52420208270623b0cf7ea5994827e19c9b7e60fe72dfa
+SHA512: bffa8f9fddf52c9373e40c03a44dc0e211e62dd6a5f30fd4afdd0cf448094601d50c83468590daf7b4a777d1a49c4f309e0b39eddf4bfdf9246c2c24c40600ab
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia Widgets library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -52329,20 +52328,20 @@ Description: metadata database, indexer and search tool - metadata extractors
 
 Package: loupe
 Architecture: amd64
-Version: 50.0-2
-Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 3.1.0-2), rust-glycin-common (= 1.0.4-2), rust-glycin-utils (= 4.1.0-2), rust-gufo (= 0.4.1-2), rust-gufo-common (= 1.1.0-2), rust-gufo-exif (= 0.4.0-2), rust-gufo-jpeg (= 0.4.0-2), rust-gufo-png (= 0.4.1-2), rust-gufo-tiff (= 0.4.0-2), rust-gufo-webp (= 0.4.0-2), rust-gufo-xmp (= 0.4.0-2), rust-nix (= 0.30.1-3), rustc (= 1.94.1+dfsg1-1)
-Static-Built-Using: rust-adler (= 1.0.2-3), rust-aho-corasick (= 1.1.4-1), rust-anyhow (= 1.0.102-1), rust-arc-swap (= 1.9.1-1), rust-ashpd (= 0.13.11-2), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.5.0-2), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.11.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.24.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-2), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.44-1), rust-concurrent-queue (= 2.5.0-4), rust-crc32fast (= 1.5.0-2), rust-crossbeam-deque (= 0.8.6-1), rust-crossbeam-epoch (= 0.9.18-1), rust-crossbeam-utils (= 0.8.21-1), rust-dlib (= 0.5.2-2), rust-either (= 1.15.0-1), rust-encoding-rs (= 0.8.35-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 0.1.4-1), rust-env-logger (= 0.11.8-1), rust-equivalent (= 1.0.1-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-futures-channel (= 0.3.32-1), rust-futures-core (= 0.3.32-1), rust-futures-executor (= 0.3.32-1), rust-futures-io (= 0.3.32-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.32-1), rust-futures-timer (= 3.0.4+ds-1), rust-futures-util (= 0.3.32-1), rust-gdk-pixbuf (= 0.22.0-2), rust-gdk-pixbuf-sys (= 0.22.0-2), rust-gdk4 (= 0.11.2-1), rust-gdk4-sys (= 0.11.2-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.6-1), rust-gio-sys (= 0.22.0-3), rust-glib (= 0.22.7-3), rust-glib-sys (= 0.22.6-3), rust-glycin (= 3.1.0-2), rust-glycin-common (= 1.0.4-2), rust-glycin-utils (= 4.1.0-2), rust-gobject-sys (= 0.22.6-2), rust-graphene-rs (= 0.22.0-2), rust-graphene-sys (= 0.22.0-2), rust-gsk4 (= 0.11.1-2), rust-gsk4-sys (= 0.11.1-2), rust-gtk4 (= 0.11.3-3), rust-gtk4-sys (= 0.11.3-1), rust-gufo (= 0.4.1-2), rust-gufo-common (= 1.1.0-2), rust-gufo-exif (= 0.4.0-2), rust-gufo-jpeg (= 0.4.0-2), rust-gufo-png (= 0.4.1-2), rust-gufo-tiff (= 0.4.0-2), rust-gufo-webp (= 0.4.0-2), rust-gufo-xmp (= 0.4.0-2), rust-gweather-sys (= 4.8.0-2), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-indexmap (= 2.14.0-1), rust-jiff (= 0.2.24-1), rust-lazy-static (= 1.5.0-1), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.9.1-2), rust-libadwaita-sys (= 0.9.1-2), rust-libc (= 0.2.186-1), rust-libgweather (= 4.8.0-2), rust-libloading (= 0.8.5-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.11.0-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.29-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.0-1), rust-memfd (= 0.6.4-2), rust-memmap2 (= 0.9.8-1), rust-memoffset (= 0.8.0-1), rust-miniz-oxide (= 0.7.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.22.6-1), rust-pango-sys (= 0.22.0-2), rust-parking (= 2.2.0-1), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-quote (= 1.0.45-1), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.12.3-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.0-1), rust-rustix (= 1.1.3-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.0-1), rust-slab (= 0.4.9-1), rust-smallvec (= 1.15.1-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.26.3-2), rust-syn (= 2.0.117-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.4-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-subscriber (= 0.3.22-3), rust-unicode-ident (= 1.0.13-1), rust-uuid (= 1.23.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-xml-rs (= 0.8.19-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.13.2-1), rust-zbus-names (= 4.3.1-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.9.2-1), rust-zvariant-utils (= 3.3.0-1), rustc (= 1.94.1+dfsg1-1)
+Version: 50.0-3
+Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 3.1.0-3), rust-glycin-common (= 1.0.4-3), rust-glycin-utils (= 4.1.0-3), rust-gufo (= 0.4.1-3), rust-gufo-common (= 1.1.0-3), rust-gufo-exif (= 0.4.0-3), rust-gufo-jpeg (= 0.4.0-3), rust-gufo-png (= 0.4.1-4), rust-gufo-tiff (= 0.4.0-3), rust-gufo-webp (= 0.4.0-3), rust-gufo-xmp (= 0.4.0-3), rust-nix (= 0.30.1-3), rustc (= 1.95.0+dfsg1-2)
+Static-Built-Using: rust-adler2 (= 2.0.1-3), rust-aho-corasick (= 1.1.4-2), rust-anyhow (= 1.0.103-1), rust-arc-swap (= 1.9.2-1), rust-ashpd (= 0.13.13-1), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.6.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.13.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.25.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-3), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.45-1), rust-concurrent-queue (= 2.5.0-4), rust-crc32fast (= 1.5.0-2), rust-crossbeam-deque (= 0.8.7-1), rust-crossbeam-epoch (= 0.9.20-1), rust-crossbeam-utils (= 0.8.22-1), rust-dlib (= 0.5.3-1), rust-either (= 1.17.0-1), rust-encoding-rs (= 0.8.35-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 1.0.1-1), rust-env-logger (= 0.11.10-1), rust-equivalent (= 1.0.1-1), rust-errno (= 0.3.14-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-futures-channel (= 0.3.33-1), rust-futures-core (= 0.3.33-1), rust-futures-executor (= 0.3.33-1), rust-futures-io (= 0.3.33-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.33-1), rust-futures-timer (= 3.0.4+ds-1), rust-futures-util (= 0.3.33-1), rust-gdk-pixbuf (= 0.22.0-3), rust-gdk-pixbuf-sys (= 0.22.0-3), rust-gdk4 (= 0.11.2-2), rust-gdk4-sys (= 0.11.2-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.8-1), rust-gio-sys (= 0.22.8-1), rust-glib (= 0.22.8-2), rust-glib-sys (= 0.22.8-2), rust-glycin (= 3.1.0-3), rust-glycin-common (= 1.0.4-3), rust-glycin-utils (= 4.1.0-3), rust-gobject-sys (= 0.22.6-3), rust-graphene-rs (= 0.22.8-1), rust-graphene-sys (= 0.22.8-2), rust-gsk4 (= 0.11.1-2), rust-gsk4-sys (= 0.11.1-2), rust-gtk4 (= 0.11.3-3), rust-gtk4-sys (= 0.11.3-1), rust-gufo (= 0.4.1-3), rust-gufo-common (= 1.1.0-3), rust-gufo-exif (= 0.4.0-3), rust-gufo-jpeg (= 0.4.0-3), rust-gufo-png (= 0.4.1-4), rust-gufo-tiff (= 0.4.0-3), rust-gufo-webp (= 0.4.0-3), rust-gufo-xmp (= 0.4.0-3), rust-gweather-sys (= 4.8.0-3), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-indexmap (= 2.14.0-1), rust-jiff (= 0.2.27-1), rust-lazy-static (= 1.5.0-3), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.9.1-2), rust-libadwaita-sys (= 0.9.1-2), rust-libc (= 0.2.186-1), rust-libgweather (= 4.8.0-3), rust-libloading (= 0.8.9-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.12.1-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.32-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.3-1), rust-memfd (= 0.6.5-1), rust-memmap2 (= 0.9.11-1), rust-memoffset (= 0.8.0-1), rust-miniz-oxide (= 0.9.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.22.8-1), rust-pango-sys (= 0.22.0-4), rust-parking (= 2.2.1-1), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-quote (= 1.0.46-1), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.13.1-1), rust-regex-automata (= 0.4.16-1), rust-regex-syntax (= 0.8.11+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.1-1), rust-rustix (= 1.1.4+dfsg-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.8-1), rust-slab (= 0.4.12-1), rust-smallvec (= 1.15.2-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.28.0-2), rust-syn (= 2.0.118-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.10-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-subscriber (= 0.3.23-1), rust-unicode-ident (= 1.0.24-1), rust-uuid (= 1.23.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-xml-rs (= 0.8.19-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.18.0-1), rust-zbus-names (= 4.3.4-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.13.1-1), rust-zvariant-utils (= 3.5.0-1), rustc (= 1.95.0+dfsg1-2)
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 8100
+Installed-Size: 8141
 Depends: libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-4-1 (>= 4.16), libgweather-4-0t64 (>= 4.0.0), liblcms2-2 (>= 2.12.0), libseccomp2 (>= 2.5.0), dconf-gsettings-backend | gsettings-backend, glycin-loaders (>= 2.0~rc+ds-~~)
-Filename: ./loupe_50.0-2_amd64.deb
-Size: 2114328
-MD5sum: 94479b23e2961e49fd87934323bdbddd
-SHA1: 66b2fd3df23c327ab986954a1eb07800ea8941e0
-SHA256: 3c01c848c1d2107fdd0e952d786da14a8b67c07a2aadf31d7d9390ac1e8ac5bd
-SHA512: 8f50575dae574efe214a3ba38bfdf503a3bfdd818b71455e1fb7f1b81450d8fe40b78788ae3c32771e036001badbed26f2d66fe86df8629472b3431acf793cc6
+Filename: ./loupe_50.0-3_amd64.deb
+Size: 2128168
+MD5sum: 707c9b2e2e4ca2bd161c46606155341f
+SHA1: ccaa348d66decff3ca2df2ac95997c58bb122fba
+SHA256: 9a45551c3adb7f3b94eeebd7ff827fff8bfced6e106dbf1d192a90a7f247bafc
+SHA512: eb9817c0741f3ea3e22639959712701e7b07cae7b4fe22efabe23b5f7c4dab0945afe1052459896e48a3437c5acbce69772f7e9f24119bf74f7c7265450d59c7
 Homepage: https://apps.gnome.org/Loupe/
 Description: Image viewer for GNOME
  Loupe is a simple image viewer for the GNOME desktop.
@@ -52353,22 +52352,22 @@ Description: Image viewer for GNOME
 
 Package: lsd
 Architecture: amd64
-Version: 1.2.0-2
-Built-Using: rust-option-ext (= 0.2.0-1), rustc (= 1.94.1+dfsg1-1)
-Static-Built-Using: rust-aho-corasick (= 1.1.4-1), rust-anstream (= 0.6.21-1), rust-anstyle (= 1.0.14-1), rust-anstyle-parse (= 0.2.7-1), rust-anstyle-query (= 1.1.4-1), rust-arraydeque (= 0.5.1-1), rust-bitflags (= 2.11.0-1), rust-bstr (= 1.12.0-1), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.44-1), rust-chrono-humanize (= 0.2.2-1), rust-clap (= 4.6.1-1), rust-clap-builder (= 4.6.0-1), rust-clap-lex (= 1.1.0-1), rust-colorchoice (= 1.0.0-1), rust-crossterm (= 0.28.1-3), rust-dirs (= 6.0.0-2), rust-dirs-sys (= 0.5.0-2), rust-encoding-rs (= 0.8.35-1), rust-equivalent (= 1.0.1-1), rust-foldhash (= 0.2.0-2), rust-form-urlencoded (= 1.2.2-1), rust-git2 (= 0.20.4-1), rust-globset (= 0.4.18-1), rust-hashbrown (= 0.16.1-2), rust-hashlink (= 0.10.0-2), rust-human-sort (= 0.2.2-1), rust-iana-time-zone (= 0.1.64-1), rust-idna (= 1.1.0-1), rust-idna-adapter (= 1.1.0-1), rust-idna-mapping (= 1.0.0-1), rust-indexmap (= 2.13.0-1), rust-is-terminal-polyfill (= 1.70.1-1), rust-itoa (= 1.0.15-1), rust-libc (= 0.2.178-2), rust-libgit2-sys (= 0.18.3-1), rust-libz-sys (= 1.1.20-1), rust-linux-raw-sys (= 0.11.0-1), rust-lock-api (= 0.4.14-1), rust-log (= 0.4.29-1), rust-lscolors (= 0.20.0-3), rust-memchr (= 2.8.0-1), rust-mio (= 1.1.1-1), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-option-ext (= 0.2.0-1), rust-parking-lot (= 0.12.5-1), rust-parking-lot-core (= 0.9.12-1), rust-percent-encoding (= 2.3.2-2), rust-pure-rust-locales (= 0.8.2-1), rust-regex-automata (= 0.4.13-1), rust-regex-syntax (= 0.8.10+dfsg-1), rust-rustix (= 1.1.3-1), rust-ryu (= 1.0.22-1), rust-scopeguard (= 1.2.0-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-serde-yaml (= 0.9.34-1), rust-signal-hook (= 0.3.18-1), rust-signal-hook-mio (= 0.2.5-1), rust-signal-hook-registry (= 1.4.0-1), rust-smallvec (= 1.15.1-1), rust-strsim (= 0.11.1-1), rust-sys-locale (= 0.3.2-1), rust-term-grid (= 0.1.7-1), rust-terminal-size (= 0.4.4-1), rust-thiserror (= 2.0.18-1), rust-tinyvec (= 1.10.0-1), rust-tinyvec-macros (= 0.1.0-1), rust-unicode-bidi (= 0.3.17-1), rust-unicode-joining-type (= 1.0.0-1), rust-unicode-normalization (= 0.1.25-1), rust-unicode-width (= 0.2.2-1), rust-unicode-width-0.1 (= 0.1.14-2), rust-unsafe-libyaml (= 0.2.11-1), rust-url (= 2.5.8-1), rust-utf8-iter (= 1.0.4-1), rust-utf8parse (= 0.2.2-1), rust-uzers (= 0.12.2-1), rust-vsort (= 0.2.0-1), rust-wild (= 2.2.1-1), rust-xattr (= 1.5.1-1), rust-xdg (= 2.5.2-5), rust-yaml-rust2 (= 0.10.4-1), rustc (= 1.94.1+dfsg1-1)
+Version: 1.2.0-3
+Built-Using: rust-option-ext (= 0.2.0-1), rustc (= 1.95.0+dfsg1-2)
+Static-Built-Using: rust-aho-corasick (= 1.1.4-2), rust-anstream (= 0.6.21-1), rust-anstyle (= 1.0.14-2), rust-anstyle-parse (= 0.2.7-1), rust-anstyle-query (= 1.1.5-1), rust-arraydeque (= 0.5.1-2), rust-bitflags (= 2.13.0-1), rust-bstr (= 1.12.1-1), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.45-1), rust-chrono-humanize (= 0.2.2-1), rust-clap (= 4.6.5-1), rust-clap-builder (= 4.6.5-1), rust-clap-lex (= 1.1.0-1), rust-colorchoice (= 1.0.0-1), rust-crossterm (= 0.29.0-2), rust-derive-more (= 2.1.1-1), rust-dirs (= 6.0.0-2), rust-dirs-sys (= 0.5.0-2), rust-encoding-rs (= 0.8.35-1), rust-equivalent (= 1.0.1-1), rust-errno (= 0.3.14-1), rust-foldhash (= 0.2.0-2), rust-form-urlencoded (= 1.2.2-1), rust-git2 (= 0.21.0-1), rust-globset (= 0.4.19-1), rust-hashbrown (= 0.16.1-2), rust-hashlink (= 0.10.0-2), rust-human-sort (= 0.2.2-1), rust-iana-time-zone (= 0.1.64-1), rust-idna (= 1.1.0-1), rust-idna-adapter (= 1.1.0-1), rust-idna-mapping (= 1.0.0-1), rust-indexmap (= 2.14.0-1), rust-is-terminal-polyfill (= 1.70.2-1), rust-itoa (= 1.0.18-1), rust-libc (= 0.2.186-1), rust-libgit2-sys (= 0.18.7+ds-1), rust-libz-sys (= 1.1.20-1), rust-linux-raw-sys (= 0.12.1-1), rust-lock-api (= 0.4.14-1), rust-log (= 0.4.32-1), rust-lscolors (= 0.21.0-2), rust-memchr (= 2.8.3-1), rust-mio (= 1.2.0-1), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-option-ext (= 0.2.0-1), rust-parking-lot (= 0.12.5-1), rust-parking-lot-core (= 0.9.12-1), rust-percent-encoding (= 2.3.2-2), rust-pure-rust-locales (= 0.8.2-1), rust-regex-automata (= 0.4.16-1), rust-regex-syntax (= 0.8.11+dfsg-1), rust-rustix (= 1.1.4+dfsg-1), rust-ryu (= 1.0.22-1), rust-scopeguard (= 1.2.0-1), rust-serde (= 1.0.229-1), rust-serde-core (= 1.0.229-1), rust-serde-yaml (= 0.9.34-1), rust-signal-hook (= 0.3.18-1), rust-signal-hook-mio (= 0.2.5-1), rust-signal-hook-registry (= 1.4.8-1), rust-smallvec (= 1.15.2-1), rust-strsim (= 0.11.1-1), rust-sys-locale (= 0.3.2-1), rust-term-grid (= 0.1.7-1), rust-terminal-size (= 0.4.4-1), rust-thiserror (= 2.0.18-1), rust-tinyvec (= 1.10.0-1), rust-tinyvec-macros (= 0.1.0-1), rust-unicode-bidi (= 0.3.17-1), rust-unicode-joining-type (= 1.0.0-1), rust-unicode-normalization (= 0.1.25-1), rust-unicode-width (= 0.2.2-1), rust-unicode-width-0.1 (= 0.1.14-2), rust-unsafe-libyaml (= 0.2.11-1), rust-url (= 2.5.8-1), rust-utf8-iter (= 1.0.4-1), rust-utf8parse (= 0.2.2-1), rust-uzers (= 0.12.2-1), rust-vsort (= 0.2.0-1), rust-wild (= 2.2.1-1), rust-xattr (= 1.6.1-1), rust-xdg (= 2.5.2-5), rust-yaml-rust2 (= 0.10.4-1), rustc (= 1.95.0+dfsg1-2)
 Priority: optional
 Section: utils
 Source: rust-lsd
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Installed-Size: 2919
+Installed-Size: 2940
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libgit2-1.9 (>= 1.9.0)
 Recommends: fonts-font-awesome
-Filename: ./lsd_1.2.0-2_amd64.deb
-Size: 942624
-MD5sum: 7c57644de026f39246dee0adff3e15b5
-SHA1: 740de96366eec11b7395e25b47be30222e0fc36e
-SHA256: 9058804a2da183bb2283faab26ac6ce6cb67db3734c74087472f445ca3eea79b
-SHA512: a92bc6bf940a5e346cdfab77afca69b31aa760527a1a4b6a37021b005a4f5c58801feb72d48181bde16d435fafe1d65e3ce0f03c89974c738d28bb0497e823ef
+Filename: ./lsd_1.2.0-3_amd64.deb
+Size: 949460
+MD5sum: becd2f7a30bde5c6c24ef84f60659036
+SHA1: 9300ab65cbae9e100f891058eb08187f08b1d304
+SHA256: de7762434f0d1ec587557539fcdb97cff071121867dd1bb12fa88d6e9c0c73a1
+SHA512: 56daef806d0be1053f903269085f8d46813c7f54d3b5705f4a7c28c3553695679e382bc764122022be4ab79e754420416bfcc7f936186aa2b3b11d47bd0f7349
 Homepage: https://github.com/lsd-rs/lsd
 Description: ls command with a lot of pretty colors and some other stuff
  Rewrite of GNU ls with lot of added features like colors, icons, tree-view,
@@ -58202,19 +58201,19 @@ Description: tools for internationalizing Python applications - locale data file
 
 Package: python-caja-common
 Architecture: all
-Version: 1.26.0-2
+Version: 1.26.0-3
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-caja
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 416
-Filename: ./python-caja-common_1.26.0-2_all.deb
-Size: 31552
-MD5sum: 2c5b03275f2874f350ef1627eb4530ad
-SHA1: 87e5f74e14daae49c688e97b9a26d5e37024ba70
-SHA256: f69c2538e331cabbfcf28c4bcf9da1e849219a15e99eb6e15828dc0eaac3c2fd
-SHA512: f2ebc725a62ceb96fd9e0e84bdd3932416fba7228edf80878e86168b2b34db864bb30ae8ce30ff445c11e823975f0de3b8f99c2f87a12ef7c87f85075dbfb799
+Filename: ./python-caja-common_1.26.0-3_all.deb
+Size: 31708
+MD5sum: cbdd373e4211043369c51bae1ce66421
+SHA1: 33596f4f287a7a7d356c18a4123a91f4f8f40eba
+SHA256: db3f49e851816663f91fd8a550acad2a93170f6113ec04107e89f98545c3298c
+SHA512: 90c9bb7d60b4c16a123ed1f0507ea412d08ab347c730027273e6839e64e07e00b2ef61c054c15f95d60f0c56ef8dd18120384b5b07956d251f0e00aab18eade6
 Homepage: http://www.mate-desktop.org/
 Description: Python binding for Caja components (common files)
  Caja is the official file manager for the MATE desktop. It allows one
@@ -58442,19 +58441,20 @@ Description: Python3 bindings for the Cairo vector graphics library
 
 Package: python3-caja
 Architecture: amd64
-Version: 1.26.0-2+b1
+Version: 1.26.0-3
+Multi-Arch: same
 Priority: optional
 Section: python
-Source: python-caja (1.26.0-2)
+Source: python-caja
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 56
-Depends: gir1.2-caja-2.0, python-caja-common (= 1.26.0-2), libc6 (>= 2.4), libcaja-extension1 (>= 1.20), libglib2.0-0t64 (>= 2.28.0), libgtk-3-0t64 (>= 3.0.0), libpython3.14 (>= 3.14.1)
-Filename: ./python3-caja_1.26.0-2+b1_amd64.deb
-Size: 14192
-MD5sum: cd83892a68bce69cd40c39faaf381709
-SHA1: 5f2c6552854b098b58b944d58d56716a9bffc337
-SHA256: 659076a31c268629e33f2722ffbebe12bc434b6c2651604158b7944ebb3c81c9
-SHA512: df3fe5437255dd1ab9347fefee97259b7b63f3a7531a5b8f190ffdc9b3a962c513b867fcc759ec20fd8126a7cf94af0837ec531f27ba0a1b8f50cd7fb6b552cd
+Installed-Size: 55
+Depends: gir1.2-caja-2.0, python-caja-common (= 1.26.0-3), libc6 (>= 2.4), libcaja-extension1 (>= 1.20), libglib2.0-0t64 (>= 2.28.0), libgtk-3-0t64 (>= 3.0.0), libpython3.14 (>= 3.14.1)
+Filename: ./python3-caja_1.26.0-3_amd64.deb
+Size: 14476
+MD5sum: 8a0f11670f4c3bd94eff3c0771d61a80
+SHA1: 161400d3a151ab78ec8c5e017b8350617dcf1a06
+SHA256: 41b18b1ced7042fc891809040aad4591b1124fc99c120387eaa81b4a6281a5dd
+SHA512: cfb9e26d8e40518f3c48506d4217a921a0fb3127664b259159a9dedfbcdaeb192eb952a5cdd44c191b0be38335de5103ae0025158388cd6e1cd64867ccb17fd2
 Homepage: http://www.mate-desktop.org/
 Description: Python3 binding for Caja components
  Caja is the official file manager for the MATE desktop. It allows one
@@ -61645,22 +61645,22 @@ Description: Qt 6 Location QML module
 
 Package: qml6-module-qtmultimedia
 Architecture: amd64
-Version: 6.10.2-4
+Version: 6.10.2-6
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qt6-multimedia
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 508
+Installed-Size: 492
 Depends: qml6-module-qtquick, libc6 (>= 2.32), libqt6core6t64 (>= 6.10.2+dfsg~), libqt6gui6 (>= 6.10.2+dfsg~), libqt6multimedia6 (>= 6.10.2), libqt6qml6 (>= 6.10.2+dfsg~), libqt6quick6 (>= 6.10.2+dfsg~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Breaks: libqt6multimediaquick6
 Replaces: libqt6multimediaquick6
-Filename: ./qml6-module-qtmultimedia_6.10.2-4_amd64.deb
-Size: 96984
-MD5sum: ac6cacb4cb71582937b8c4c6e38fe67e
-SHA1: 042c96afa68e8a348bf76856f98f1f40a45a3f22
-SHA256: e9327c323ccda6c4387a430ddb0d34a9d1bdc92ca6600fb70099e13929e14d98
-SHA512: 35f87cbdc673f41d3af2bdc248b149f069d8b39b1170f4d4da3f3328213520591e73bcc79fc883f390932c57bcf8c6531da1f9857f7375abe26bda9b0372fcbb
+Filename: ./qml6-module-qtmultimedia_6.10.2-6_amd64.deb
+Size: 93084
+MD5sum: 23c1a20605116c20ec7476b8aab95368
+SHA1: 3759eddd9a48cd5a14170b98920d01ebe5b3702d
+SHA256: b1e4f7f290a8236ca1022a8aba83663d819cf3b2966a1d37475140182a4333e3
+SHA512: c74179dddcd2223fbaef1d9ec349bd07c63291d8a8270a5ab54431e243086165d7d27b87fd441c11e08afbd65f4673b13bd319b1b1711523d9492a0dfc12af97
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 Multimedia QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
