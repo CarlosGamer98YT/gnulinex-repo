@@ -3502,20 +3502,20 @@ Description: Firebird command line utilities
 
 Package: firefox-esr-l10n-es-ar
 Architecture: all
-Version: 140.13.0esr-2
+Version: 140.14.0esr-2
 Priority: optional
 Section: localization
 Source: firefox-esr
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 482
-Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Depends: firefox-esr (>= 140.14.0esr-2), firefox-esr (<< 140.14.0esr-2.1~)
 Recommends: hunspell-es | myspell-es
-Filename: ./firefox-esr-l10n-es-ar_140.13.0esr-2_all.deb
-Size: 367632
-MD5sum: 9d1a10fe120252554062bd6af3fc7cb4
-SHA1: 4b0e4e5e14da30b46bfff262e6d4a318496b9b0b
-SHA256: efe87a0d5b4693328c8918c14613206474c700a0262963085468ffdc7c6ab557
-SHA512: d874e47db63c61f5529462f357136f22a699ce45d51a439971189167b425d5b0493297da33fcf105c0fe8ee5289a0bfaafc4ec0539b51ad7145e695ea1fa1929
+Filename: ./firefox-esr-l10n-es-ar_140.14.0esr-2_all.deb
+Size: 367812
+MD5sum: ff91239b90e059b9a0b5d952ec5544dd
+SHA1: 13ca478a23b62856b5dbe5b42fccf3998cfa838a
+SHA256: 8515689c77995f7b8592aedefed16514c09bbc239bb1eb716f27eaac882ba385
+SHA512: 52a050e0aa79be28ecadf296eecfaa7dcb5c2a775ccc2d892741d13dcdb8a5cb41fc0f034ca29697aeb08a7e34ab9cbbd10cc678d44a689920a5faa03cf39f61
 Description: Spanish (Argentina) language package for Firefox ESR
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -3524,20 +3524,20 @@ Description: Spanish (Argentina) language package for Firefox ESR
 
 Package: firefox-esr-l10n-es-cl
 Architecture: all
-Version: 140.13.0esr-2
+Version: 140.14.0esr-2
 Priority: optional
 Section: localization
 Source: firefox-esr
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 483
-Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Depends: firefox-esr (>= 140.14.0esr-2), firefox-esr (<< 140.14.0esr-2.1~)
 Recommends: hunspell-es | myspell-es
-Filename: ./firefox-esr-l10n-es-cl_140.13.0esr-2_all.deb
-Size: 368312
-MD5sum: ae276ee8aa9dc63712f2e74fc35ad219
-SHA1: dfd76e78ec5219ed2769bedf6a4424dc0c66da7f
-SHA256: dc58fe2a8cce675cd3cf9413331a64a20d4d1fb44ce35c59ca376ac3231c2596
-SHA512: 756b36c7f51c9f7a8b84e697b82cb25400df9275edeacec1e7fccde37698574782ed4f598f3f00f0d6c2d38b7d6f7ca6de52649e99bb8af466ebe7429d764831
+Filename: ./firefox-esr-l10n-es-cl_140.14.0esr-2_all.deb
+Size: 368512
+MD5sum: 8a6c4e262a44427178c2ad074a5d3783
+SHA1: 654a2a85774d99f5229adb5101ce5b13a699c5dc
+SHA256: 7ded5e5efe7968cedafcd4bc7cca324ba703305d7ac6653917f201e8fd8ad7f3
+SHA512: 279dc256452d71dd2247a0d8b278236cef9a76c134df77c3d3fa3b95fa41c6813ba8072a5846a249ef78dec2f4621583482597e59fd771c51b26128be1e1a716
 Description: Spanish (Chile) language package for Firefox ESR
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -3546,20 +3546,20 @@ Description: Spanish (Chile) language package for Firefox ESR
 
 Package: firefox-esr-l10n-es-es
 Architecture: all
-Version: 140.13.0esr-2
+Version: 140.14.0esr-2
 Priority: optional
 Section: localization
 Source: firefox-esr
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 483
-Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Depends: firefox-esr (>= 140.14.0esr-2), firefox-esr (<< 140.14.0esr-2.1~)
 Recommends: hunspell-es | myspell-es
-Filename: ./firefox-esr-l10n-es-es_140.13.0esr-2_all.deb
-Size: 369080
-MD5sum: 0ff8b9f7d9fc995e5078c5881f2a9722
-SHA1: b4b79325066fa12bf0d4c28fbc8db30e1fc0e7e2
-SHA256: 1b6352e5b74fa672cea738c010ffd7fe0201cf44551eba55022b34d8dd02fcf8
-SHA512: cc718105f5770225e9abacb1487fa1c0979ed0d13dbfce6266645a01c6bfaf4c6f7ea6c8c3e82f24742cfcc36f0439171911cee7bda178968718187e5689a464
+Filename: ./firefox-esr-l10n-es-es_140.14.0esr-2_all.deb
+Size: 369280
+MD5sum: 77c53fc9a8b90f0d6b4e3d55e600c560
+SHA1: 865aef1e71e4c02a7d26dd32f1cca7cdc6f12c29
+SHA256: a93accba1b7b9fc5718cba7719b76eb3517671a32bbb7289e44972d9bab81391
+SHA512: 585c23e1f91cb35def4cf76957aee66eddcbe3e345934f072d4354134f153661a8901fd2b3ae938aa5b422582cbb945515ddbcebf7ddd4bc5edd8373575dbe5c
 Description: Spanish (Spain) language package for Firefox ESR
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -3568,20 +3568,20 @@ Description: Spanish (Spain) language package for Firefox ESR
 
 Package: firefox-esr-l10n-es-mx
 Architecture: all
-Version: 140.13.0esr-2
+Version: 140.14.0esr-2
 Priority: optional
 Section: localization
 Source: firefox-esr
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 483
-Depends: firefox-esr (>= 140.13.0esr-2), firefox-esr (<< 140.13.0esr-2.1~)
+Depends: firefox-esr (>= 140.14.0esr-2), firefox-esr (<< 140.14.0esr-2.1~)
 Recommends: hunspell-es | myspell-es
-Filename: ./firefox-esr-l10n-es-mx_140.13.0esr-2_all.deb
-Size: 368320
-MD5sum: 526fcc8086fbef36fb802a0308c17099
-SHA1: c9814de496c9c5612118fc28b4dc79ecfbae2f1c
-SHA256: 5cd24c7327be3eb69e0504185bcb68265d9c3cc36aa6779819c7dc342dba9342
-SHA512: e87a8ac1ed0f1d40a193c516ec126d46819ddd69f48e5f1a47e4b754c55e243160fb8551281c73977b7a11ca6cc2695879be20bd292ddafb2875a4784974b2ad
+Filename: ./firefox-esr-l10n-es-mx_140.14.0esr-2_all.deb
+Size: 368512
+MD5sum: cf010b04c3ae3ff17f972f3ad8773e87
+SHA1: 700c33a604b5ec866ac565916f06f7e24ebdfd97
+SHA256: 148d183634f99fbbd218af2b54a7fe9caba2f420957c743f802d7ebb409ccf7c
+SHA512: 5478b31a014981bbc8cdda6ef8ee9a52aa8ca2fbac5fedd5f40a55daf864db3af2b722398b2961b2514d73986698985023b126e9ff6c8e5e046c4d94bba589da
 Description: Spanish (Mexico) language package for Firefox ESR
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -3590,21 +3590,21 @@ Description: Spanish (Mexico) language package for Firefox ESR
 
 Package: firefox-esr
 Architecture: amd64
-Version: 140.13.0esr-2
+Version: 140.14.0esr-2
 Priority: optional
 Section: web
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 266258
+Installed-Size: 266161
 Provides: gnome-www-browser, www-browser
-Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
+Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.112~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx12 (>= 1.16.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
-Filename: ./firefox-esr_140.13.0esr-2_amd64.deb
-Size: 71208368
-MD5sum: b3c381e8db72445a68a103ab10ae81f1
-SHA1: a3bee6b7da309c184095406187c37990b5a7d9b1
-SHA256: 6d27909e3cedef2ed56964ae1e0b9eda845f04569c0e56939b9df82a095e1220
-SHA512: 246a5aa14bf9b4a099613b9c11f5fb6789a81ca1bef6d009137d84f0e728f43a1629908db5c23690d9db4f60de6baab5a3147621acd6787a1ee23657f688bbb8
+Filename: ./firefox-esr_140.14.0esr-2_amd64.deb
+Size: 71192480
+MD5sum: 0e7f924b4cb79741a733094224f4e13b
+SHA1: d6adbba782b491c4be7ecad7a7fa26280a97ff0a
+SHA256: bbe8776c74132a8d33ea97e4957e52ae22001f9e9f4924889ad5466967ee9219
+SHA512: 6daa8e4789e669669123e08bde7268c91c584c748c5743abeff6998f29d26dfaa97d6bf7847a967dc383ff3e4ff74544fbe83ff2ac440a0f816ae8c80857de9c
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
