@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64 all
 Codename: forky
 Components: main
-Date: Mon, 24 Aug 2026 16:03:23 +0000
+Date: Mon, 24 Aug 2026 21:49:29 +0000
 Label: GnuLinex Repository
 Origin: GnuLinex
 Suite: stable
 MD5Sum:
- 9def5ed483fea44bd7ac67f96e874560          3578153 Packages
- 3ce612fde954b3d6cf78100cac0f7d1b          1033767 Packages.gz
- 42876e3ffb2dca7ca8c4761659a36bfc              154 Release
+ 6375710db1cc50769daab1da055a2d87          3578172 Packages
+ 380239319c2edc5e7e09ba52af3dc3fc          1033783 Packages.gz
+ 3f93d1155ae166211c516d4aaf76e25d              154 Release
 SHA1:
- 9c536bff5f8385f67f6a53d1269478b5a716f6ad          3578153 Packages
- 94bb65a29e5c816fe3d638d7226e891b3e04c6f8          1033767 Packages.gz
- e9602fa8ad780e3ec7d91be4b4f57a40ae0ddf14              154 Release
+ 6207dae003f776626562b6bca5374af6f83d628c          3578172 Packages
+ 61cc4072a2fdb285b5cd4413f90959413c184421          1033783 Packages.gz
+ b303e79c6cd53b69943130f8f83a643196f0bb2a              154 Release
 SHA256:
- b1c2e671a1d1f68ab75f4dae1374c47d0a12ccbc3e770c4b09ecdd683b918776          3578153 Packages
- 2ff2b0acc1a9d8e8149c8fd1393f8fb632a8f5ba0f527d31a3d7df1c29a48d9a          1033767 Packages.gz
- 1d7a96858adb3bcaf458cf8ed009701bc6e2f0b6f8433768388cdce5c81d2230              154 Release
+ 6f93ecef9a334a2b05ca064f3942ac7175d695d484e47be4700552c095698ffa          3578172 Packages
+ e4bb6c51b206676f62c8a5a2d31018e03271746d9f16c8e0db63583dcb89bbc0          1033783 Packages.gz
+ d6067b8125eb07c4f62f3ec66a2d14436005b0063b02ee8e5061b0747059a11a              154 Release
 SHA512:
- 9e0d69661c7e9f7fd6054f6bd0f6db916350914b390a3f8538cfd6266f8ac3db37e3bd971a9e2f8409c2b249cee4a1a4c864843ba952646ba7235d442b4d943e          3578153 Packages
- 92c01b7f273b8e7cb6815aa8e5bec8ca61c94c597fbd56c010f255ddfd727f030a2bf1041d6a37b2bb6baa659cb178fe891bd935178448c6836adfeb768d1eb5          1033767 Packages.gz
- 336a727b68e58fe7007b3f39329f28515445b4dc97dbc939191e1e4cb92450e5e235ae65fe9f297234dc4dc8287354b933b7d55202033ef66c9945167ba376a4              154 Release
+ 3bf52304033f88b80268fbf5ef566909d3a8effb66fcf357b0f40b369be6473c317b3819e35f1bed003727318405a729eab30d3d138bb4965cd579ea8dd9465e          3578172 Packages
+ c41a2b6b7492863d69c8e1da386de8d1c3a4533fc05eeba4d39087e76f4c0629f5129f99e86b4231793efd7b8ce4297e09cef26bed47424186d0daa5c4693644          1033783 Packages.gz
+ 2f7b312165b55aff8f0096e2cb09da7814fb66388a12b2ac182230de815aef469bb0f1f7c0ef7e316746de4f674a0087d2db23e352ded31a81acc24f5f98edd8              154 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmqMa0sACgkQB28BYc8+
-H7/g0A//TgcKzBO776cXY6T/izbUptTxoH7SSgg/mWEcPkuL+xFGbjWBslJT4WDC
-gpvCfpSEjGpLVQqixw+ntuQq7uCzS4h/3WIjPMnrDmdgloX3cP6wSqa6qmxdRaP/
-r6toIqfZwS/AedN+c2ngu3d1LYvxURriBxj3J5RFJ2XJzAGgnateDKrMzEDr8f5v
-VFGFExnDHQVU+QwyqnHArnZ5wbjFQL2RW4b6Z5uPdvIVeaX2x5D7ob7TCCXkoC+6
-aSiEX3k81FdlWckd3YT/SGTObWrHdlAfaIrs1UGGlw5B166zNUgrYegIqDLqMehU
-MPc5Gga3dKVED67HWe/xQkZH+DivRmj56cp3XExptk/4NycMdsydziB69EfMYtjX
-Sc+vTeblmkze55mBAtGXMJ2VOKNcOMNrnHFkqwyE4TK4wJCH7yvO8maEmCwsgRy4
-z/k1CsaONTGIkYKRL65FEnIpN9aZtUu5oEtMD5gb9BUikYTMdZLhw4nhNaiDKMpE
-cXeGt7YmRCqonNSBzt7Lm8NiJ7bfsYBwFxTKfZbF+afvJuARBtGcNQooSAkWM+jY
-cRgPQTyPcq8Xrm4vLOCtNpsaUQe7oPbQBkjHjT91IB3lxRQwI+ZtqulUHfcT0JKV
-+Qce8Ux1TxWbdi/4O9Yk0uCWAFJ5Gs9eFnb81665qYPQK9UsSgo=
-=Zfk7
+iQIzBAEBCgAdFiEEVtI8Ve6h95aDeyppB28BYc8+H78FAmqMvGkACgkQB28BYc8+
+H78+IxAAxIMkr+oMC4BhIetlnfVzPoztiTa1Cbtb1kX/ws3JCFGyMURJyYm1+N5P
+gLTVU/aGv+ihQAFWH6JejucsF11iou25ezPxENdeLxR9+nJWc3PkY8qjDoOVryNj
+oGj9DDAAZBenpZv0FIcMig9kiuhVxDdGzj/iweuUkDYw9oXBxd+AJzQTgL7hDqrl
+Cj1HjtJQ0E5F9cfLe9T3x0IryMIow+UUvq6hgwihRpESlFBiSuJK06HmAXsyfJ/K
+8Opc4UStWbzBFGzRjGdatVlZrmS4j9HVj/+zZIfoJEeOGOzZTqC8TbOR0Cd/eySB
+nXPVNgWcdkzq6e5QlvPdrpu8iZ8n9jnUSG4zk539RO+mViKght3Dxzoho38bcWrV
+aM7IuXdFvm6hcNU5Asp3aHrvJ5vS7zuU+amp47MnkTxLb1WhYAJoqYDyrmdSnkyA
+2DvhYOASUcdf6WV/TK/ZzPstwpThAzUBL04kW9+SDFZh4wjBvK5j1wUvInM4A9s6
+52ch1L6xq9pL5UhvTkMbGQgtQFAj0pU4mpyw0ZaaxjxEDsdWR9xCjcl8fGjyG7Bt
+2XORKGeYgYQ6dzuTdHcUHroni5yuLJhPhLagh/aXxDY0IVELgdw2n5sEOKOty/2J
+GmZjGBk56xsfk5ankij+dtEjGSxoNeJbEnUaPidg4XYvKfCoYV8=
+=1D9t
 -----END PGP SIGNATURE-----
