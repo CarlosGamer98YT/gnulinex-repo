@@ -31808,7 +31808,7 @@ Description: library for handling mbox mailboxes
 
 Package: libkpim6messagecomposer6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31816,13 +31816,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1997
 Provides: libkpim6messagecomposer6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), kio6, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.1.0), libkf6calendarcore6 (>= 6.22.0~), libkf6codecs6 (>= 6.22.0~), libkf6completion6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6contacts6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textautocorrectioncore1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicontactcore6 (>= 4:26.04.3), libkpim6akonadicontactcore6-26.04, libkpim6akonadicontactwidgets6 (>= 4:26.04.3), libkpim6akonadicontactwidgets6-26.04, libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6akonadiwidgets6 (>= 4:26.04.3), libkpim6akonadiwidgets6-26.04, libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6identitymanagementwidgets6 (>= 26.04.3), libkpim6identitymanagementwidgets6-26.04, libkpim6libkdepim6 (>= 4:26.04.3), libkpim6libkdepim6-26.04, libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mailtransport6 (>= 26.04.3), libkpim6mailtransport6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6messageviewer6 (>= 4:26.04.3), libkpim6messageviewer6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libkpim6pimcommonakonadi6 (>= 4:26.04.3), libkpim6pimcommonakonadi6-26.04, libkpim6templateparser6 (>= 4:26.04.3), libkpim6templateparser6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 13.1)
-Filename: ./libkpim6messagecomposer6_4%3a26.04.3-2_amd64.deb
-Size: 525980
-MD5sum: b31bdb09d98d0f609fe1cbd55afdd9c9
-SHA1: bdb89d89505b818fa6494cd52615a3645b353dfd
-SHA256: b587a8e231e85a855c3acb749dcdc6e85b8759adae0097e03d69e5259d5275cc
-SHA512: bd9ea76bb4431bac9ee3cb47e6d09eef3c281a462ef1bf311352dfdaef41254e4d95311f9bfca07ff7821ae4415f447cfe9e953a522e37e6ada7c39676f8f6f3
+Depends: messagelib-data (= 4:26.04.3-7), kio6, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.1.0), libkf6calendarcore6 (>= 6.22.0~), libkf6codecs6 (>= 6.22.0~), libkf6completion6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6contacts6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textautocorrectioncore1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicontactcore6 (>= 4:26.04.3), libkpim6akonadicontactcore6-26.04, libkpim6akonadicontactwidgets6 (>= 4:26.04.3), libkpim6akonadicontactwidgets6-26.04, libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6akonadiwidgets6 (>= 4:26.04.3), libkpim6akonadiwidgets6-26.04, libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6identitymanagementwidgets6 (>= 26.04.3), libkpim6identitymanagementwidgets6-26.04, libkpim6libkdepim6 (>= 4:26.04.3), libkpim6libkdepim6-26.04, libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mailtransport6 (>= 26.04.3), libkpim6mailtransport6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6messageviewer6 (>= 4:26.04.3), libkpim6messageviewer6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libkpim6pimcommonakonadi6 (>= 4:26.04.3), libkpim6pimcommonakonadi6-26.04, libkpim6templateparser6 (>= 4:26.04.3), libkpim6templateparser6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 13.1)
+Filename: ./libkpim6messagecomposer6_4%3a26.04.3-7_amd64.deb
+Size: 525376
+MD5sum: e564fb3f9d9402febbbb05e2c5de19c3
+SHA1: 17efedebc7ddccd5fe1d9a9af35e0531468f8652
+SHA256: 3ba8b190474073e5b03bc1a6ba8a823e7f82444033d8dd5e23b57ebd56fc1103
+SHA512: 38b8e3f300e88b291da85b9a4f588972d37a34eb61173532ebbad9960aafcf3a3066b32eb35489e0d55501bddf3ea0aacd8fd6b45485add3768927abd063cb54
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM messaging library, composer library
  This package contains the message composer library. It provides basic e-mail
@@ -31832,7 +31832,7 @@ Description: KDE PIM messaging library, composer library
 
 Package: libkpim6messagecore6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31840,13 +31840,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 363
 Provides: libkpim6messagecore6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), kio6, libc6 (>= 2.32), libgpgmepp7 (>= 2.1.0), libkf6archive6 (>= 6.22.0~), libkf6codecs6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkpim6messagecore6_4%3a26.04.3-2_amd64.deb
-Size: 97080
-MD5sum: 3154e82b1e06b7367059e629bf158fa1
-SHA1: 1d1c4d0650be1c7d2673b4cea77e4a056ab81113
-SHA256: d87f9e0fd1b8559a1b6cb8ae1b2374403e249b3e64bdcdf92e4dda7bc5cb589b
-SHA512: c750419ca2a417c5ad92b4966f7f09780a8bfdfc54c4b0b71f24513658ca6427752e84f726e993df736adce62fce6e399ff4d1578391648bb086df89316f1990
+Depends: messagelib-data (= 4:26.04.3-7), kio6, libc6 (>= 2.32), libgpgmepp7 (>= 2.1.0), libkf6archive6 (>= 6.22.0~), libkf6codecs6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkpim6messagecore6_4%3a26.04.3-7_amd64.deb
+Size: 96876
+MD5sum: e59f5842c459b372bda34b6cfac59ca4
+SHA1: d393dc5d15fe2800de59c6925e3e7fc4f4738c5f
+SHA256: 1bb79c424a51be46133e003c8f991809a23e8703478025c01a5b219e132c99f7
+SHA512: b2b31f4f9e284b1d63f691637cb6d4aa4d970baf8ddf80b8e09c27a3ed8ba7902ba94837ef47c415e6b6c8c6bd1f8075587cadc5a700c4582d1681457e76e47c
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM messaging library, core library
  This package contains the message core library. It provides basic e-mail
@@ -31856,7 +31856,7 @@ Description: KDE PIM messaging library, core library
 
 Package: libkpim6messagelist6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31864,13 +31864,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1602
 Provides: libkpim6messagelist6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), libc6 (>= 2.32), libgcc-s1 (>= 3.0), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.0.0), libkf6textutils1 (>= 2.0.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6akonadisearchpim6 (>= 4:26.04.3), libkpim6akonadisearchpim6-26.04, libkpim6akonadiwidgets6 (>= 4:26.04.3), libkpim6akonadiwidgets6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 14)
-Filename: ./libkpim6messagelist6_4%3a26.04.3-2_amd64.deb
-Size: 428748
-MD5sum: 7f0fdfd7219196f0279162223a3535d1
-SHA1: 153cd6003f1a415fe1ff6b11b4f1608dc9a29800
-SHA256: 74ccfd4aa6dc6e1a96df73aeff1c9d96f2e53c5065e37336c000cf3a2fecb8c5
-SHA512: 696c92d646b4157e98ceb7323e1acf0f0aea5369f6d1e643e073de45b8d0566e08c478fd091af20d116e7e534a7b21be5aec353776f8eb33139900f5ac2b4123
+Depends: messagelib-data (= 4:26.04.3-7), libc6 (>= 2.32), libgcc-s1 (>= 3.0), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.0.0), libkf6textutils1 (>= 2.0.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6akonadisearchpim6 (>= 4:26.04.3), libkpim6akonadisearchpim6-26.04, libkpim6akonadiwidgets6 (>= 4:26.04.3), libkpim6akonadiwidgets6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 14)
+Filename: ./libkpim6messagelist6_4%3a26.04.3-7_amd64.deb
+Size: 428096
+MD5sum: ef697cb262ec64e6ae5c556408c15f24
+SHA1: c5c46d6da4136b9949a76215c202e486e362b322
+SHA256: 049e24bfcd93797419e958968b21925c3aa32c2aeae8b7a0b71f67b06166e635
+SHA512: 57fb8cae3335cdf6bc0377fcf0202dbc3988326111059440995064b98aa756ea5e01a130924820271254e422aa0f6bebb8b3bf77fe5b17b4d0dfd9aaaa2bb8dc
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM messaging library, message list library
  This package contains the message list library. It provides a widget for the
@@ -31880,7 +31880,7 @@ Description: KDE PIM messaging library, message list library
 
 Package: libkpim6messageviewer6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31888,13 +31888,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2525
 Provides: libkpim6messageviewer6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), kio6, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.1.0), libkf6codecs6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6contacts6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6itemviews6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6syntaxhighlighting6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6textedittexttospeech1 (>= 2.0.0~), libkf6texttemplate6 (>= 6.3.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicontactcore6 (>= 4:26.04.3), libkpim6akonadicontactcore6-26.04, libkpim6akonadicontactwidgets6 (>= 4:26.04.3), libkpim6akonadicontactwidgets6-26.04, libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6grantleetheme6 (>= 26.04.3), libkpim6grantleetheme6-26.04, libkpim6gravatar6 (>= 4:26.04.3), libkpim6gravatar6-26.04, libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mbox6 (>= 26.04.3), libkpim6mbox6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libkpim6webengineviewer6 (>= 4:26.04.3), libkpim6webengineviewer6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6webenginewidgets6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
-Filename: ./libkpim6messageviewer6_4%3a26.04.3-2_amd64.deb
-Size: 659056
-MD5sum: 34cfc6536e0c8a6dcd4e1cebb8d699ad
-SHA1: c90020569f7616f254510557ead3d860b7a0051a
-SHA256: 244de29bcb6e4c1a0392cbbaa9b632dee70d322dc451d2ca58e09045e581048a
-SHA512: 1efd5a7c46b03d9db213dd6a238077a09c9b58fc2ec7b00da4fce59da80b5996df9bd2bf59f8b6b5af43f2eac5bb02e6918046882c1ffb02430a84d0446bf104
+Depends: messagelib-data (= 4:26.04.3-7), kio6, libc6 (>= 2.32), libgcc-s1 (>= 3.0), libgpgmepp7 (>= 2.1.0), libkf6codecs6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6configwidgets6 (>= 6.0.0), libkf6contacts6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6itemviews6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.22.0~), libkf6syntaxhighlighting6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6textedittexttospeech1 (>= 2.0.0~), libkf6texttemplate6 (>= 6.3.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6akonadicontactcore6 (>= 4:26.04.3), libkpim6akonadicontactcore6-26.04, libkpim6akonadicontactwidgets6 (>= 4:26.04.3), libkpim6akonadicontactwidgets6-26.04, libkpim6akonadicore6 (>= 4:26.04.3), libkpim6akonadicore6-26.04, libkpim6akonadimime6 (>= 4:26.04.3), libkpim6akonadimime6-26.04, libkpim6grantleetheme6 (>= 26.04.3), libkpim6grantleetheme6-26.04, libkpim6gravatar6 (>= 4:26.04.3), libkpim6gravatar6-26.04, libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mbox6 (>= 26.04.3), libkpim6mbox6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libkpim6textedit6 (>= 26.04.3), libkpim6textedit6-26.04, libkpim6webengineviewer6 (>= 4:26.04.3), libkpim6webengineviewer6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6webenginewidgets6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
+Filename: ./libkpim6messageviewer6_4%3a26.04.3-7_amd64.deb
+Size: 658156
+MD5sum: e5ae28007aed8b75712115cfe76fd3a3
+SHA1: 9c93b8d1231c726bdcb6fcbf510add471453ef39
+SHA256: aed4d08f53c27ebc1007062d19c7fc05ea261e1c9d5638243e3b25d830bf5608
+SHA512: b3228185e2707d00c1dc01c476994b28e85869139d799b02f555e0818b441580318ee851a4ee88397c7f91c840f41aca68ad4afaf88f7082c5cd0c0b9f6279b1
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM messaging library, message viewer library
  This package contains the message viewer library which implements feature-rich
@@ -31931,7 +31931,7 @@ Description: library for handling MIME data
 
 Package: libkpim6mimetreeparser6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -31939,15 +31939,15 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 493
 Provides: libkpim6mimetreeparser6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), libc6 (>= 2.32), libgpgmepp7 (>= 2.1.0), libkf6codecs6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
+Depends: messagelib-data (= 4:26.04.3-7), libc6 (>= 2.32), libgpgmepp7 (>= 2.1.0), libkf6codecs6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkpim6libkleo6 (>= 4:26.04.3), libkpim6libkleo6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libqgpgmeqt6-15 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
 Breaks: libkf5mimetreeparser5abi1
 Replaces: libkf5mimetreeparser5abi1
-Filename: ./libkpim6mimetreeparser6_4%3a26.04.3-2_amd64.deb
-Size: 139948
-MD5sum: 5084a551e28d3eead9790f18d8cf0025
-SHA1: be9be7b52d1be28eb8154af38aa9689725e15bc0
-SHA256: 727080bee8cea917e4febb499217d2632027305903ec55fa16cd9ee747c59bcf
-SHA512: 99e95c80be42444064170700e8f152fa7d38448945b2a0ddb708d30e02a8dc24a310e4a031a655e3106c9f84a7773986e3755c9b2b2c6b528fd2e25c4e22bc8f
+Filename: ./libkpim6mimetreeparser6_4%3a26.04.3-7_amd64.deb
+Size: 139804
+MD5sum: 8f6a59a14990de610b91652c7198906d
+SHA1: 84b52a245861735a4e7d5b07c572b1b118b14ddd
+SHA256: 5c93292fbcb2bf1151ffdd97e01a45e9b6d2cbc2b8517323d03c6fde5632cf8f
+SHA512: d6cb4a7c538c8ec36a608fa535284f174d29250874837bd29954623b10e2a817f1e8d69f87513ee1cfe778c132324d60b64dc2933681d1c8126151fb1f1cb0ec
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM Mime Tree parser library
  This library implements a parser for the mime tree used by KMail.
@@ -32072,7 +32072,7 @@ Description: library for handling SMTP data
 
 Package: libkpim6templateparser6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32080,13 +32080,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 456
 Provides: libkpim6templateparser6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), libc6 (>= 2.32), libkf6codecs6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6syntaxhighlighting6 (>= 6.22.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkpim6templateparser6_4%3a26.04.3-2_amd64.deb
-Size: 109628
-MD5sum: 1fea7cb86320e11ee7cdbadd75d52d1c
-SHA1: c23063cc2b97865ec9ba5df72a8c7e4a63979025
-SHA256: 36336952163e80c02b4c39bc5636805e464feb88e191ab1e63c8eda51291d1c0
-SHA512: 95e0fc47175042d448dcffc0929af7cc2746f992608d233ce6c53e56d430131a0cce4a69feee7f7a33a56efe6bc87680433bb5b8b9616a1fd53da0d35d103416
+Depends: messagelib-data (= 4:26.04.3-7), libc6 (>= 2.32), libkf6codecs6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6sonnetui6 (>= 6.22.0~), libkf6syntaxhighlighting6 (>= 6.22.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6identitymanagementcore6 (>= 26.04.3), libkpim6identitymanagementcore6-26.04, libkpim6messagecore6 (>= 4:26.04.3), libkpim6messagecore6-26.04, libkpim6mime6 (>= 26.04.3), libkpim6mime6-26.04, libkpim6mimetreeparser6 (>= 4:26.04.3), libkpim6mimetreeparser6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkpim6templateparser6_4%3a26.04.3-7_amd64.deb
+Size: 109948
+MD5sum: 76d49e652bbf2b96d835f3741f7a1c69
+SHA1: f7f5e698bece338dd4da3225c8927321754444cb
+SHA256: 2f0cb6633a465351589bc89f57c27ac8d7ca76511129d8500cf2caef5e438d7b
+SHA512: 932c708cf93ae70e43f6f44f2e4d8d2924c7f0d9f6e4a8e5d736dc8c404afdae25643e6e0d096647e49ac6b50da8103f2d23c307febcd1b961804cc9eca0d38b
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KMail template parser library
  This library implements a parser for the mail templates which KMail uses to
@@ -32147,7 +32147,7 @@ Description: library for handling TNEF data
 
 Package: libkpim6webengineviewer6
 Architecture: amd64
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -32155,13 +32155,13 @@ Source: messagelib
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 610
 Provides: libkpim6webengineviewer6-26.04
-Depends: messagelib-data (= 4:26.04.3-2), libc6 (>= 2.29), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6webenginewidgets6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkpim6webengineviewer6_4%3a26.04.3-2_amd64.deb
-Size: 159112
-MD5sum: 10df9105b41eef080aa6baf6cf53e139
-SHA1: d9f78e75234e9e912faef36e0e8d273d924dc5a2
-SHA256: 17b35f398f8771d3b3264e003ae6c794af45e966bd119abf7a17dab192eb55fc
-SHA512: 9c10dba1e717250fcb15339fc38d43c18e83586b0fcdb2a2290bef29c8ed3ea89c8701c846326e1ed49237678b345f20bcdd02a959e8646604887cd5938c2788
+Depends: messagelib-data (= 4:26.04.3-7), libc6 (>= 2.29), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.22.0~), libkf6configgui6 (>= 6.22.0~), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6textaddonswidgets1 (>= 2.0.0~), libkf6textcustomeditor1 (>= 2.0.0~), libkf6widgetsaddons6 (>= 6.22.0~), libkf6xmlgui6 (>= 6.22.0~), libkpim6pimcommon6 (>= 4:26.04.3), libkpim6pimcommon6-26.04, libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libqt6webenginecore6 (>= 6.9.0~), libqt6webenginecore6-bin (>= 6.9.0~), libqt6webenginewidgets6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkpim6webengineviewer6_4%3a26.04.3-7_amd64.deb
+Size: 159552
+MD5sum: 944d4b6bc179c6291eae56accd71cc7b
+SHA1: 3f90d2eb23628d3d8dbfc884ad017027e90b2a5d
+SHA256: dc605a4239ba3d34fddb5815214b46b1ae94155e7df5300fef0959bc20352cbb
+SHA512: e133d98c29e5c631a2c99c4acaa050495beb8d0127a6f3600bcbea599a70e8c25a119bb83963def610d24802ace87f10ff867b3d49b805de87d9f8c4591f399b
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE's Qt WebEngine Viewer
  This library implements view on Qt WebEngine used by KDE PIM.
@@ -55419,7 +55419,7 @@ Description: MBox email archive importer
 
 Package: messagelib-data
 Architecture: all
-Version: 4:26.04.3-2
+Version: 4:26.04.3-7
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -55428,12 +55428,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7755
 Breaks: kf5-messagelib-data
 Replaces: kf5-messagelib-data
-Filename: ./messagelib-data_4%3a26.04.3-2_all.deb
-Size: 923308
-MD5sum: e3db292a2440b672576a90ab3785f199
-SHA1: d15854bc82ff15148921576644c76dd55bf71230
-SHA256: 9e7fa011643744f6f1d70e7e378b055c41bdbc55ca9df9627543325a892647ff
-SHA512: 7d7d531ac85effb33da45f98c78588ea832a7190f088316fe4beb9bd8874fd49915a4d8e0ad2135c278849317f6543f9a181e110b84d9eed2517d8f330e9f002
+Filename: ./messagelib-data_4%3a26.04.3-7_all.deb
+Size: 923976
+MD5sum: dd89a9471fb0928c9584d6ec9b0e9cb7
+SHA1: af2b44b711e1dc4b048e7359390e6ae3494a4917
+SHA256: 8e35b90b8868470a6ab28f33597953e1e15c8b2f643aa681d34b399d5a7aebb0
+SHA512: 7f8a180588ea27f0e0e4c6397eb5170331e7a3d0fc06820254e9af71537151feb7eb88c6c168534a05c6c0a05bb5c6cb215ee5e79019ee6098e557d232917c29
 Homepage: https://invent.kde.org/pim/messagelib
 Description: KDE PIM messaging library - data files
  This package contains the data files shipped with the message libraries.
