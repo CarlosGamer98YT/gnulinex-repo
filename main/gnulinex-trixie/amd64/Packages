@@ -6802,22 +6802,22 @@ Description: simple tool to view and install deb files - GNOME GUI
 
 Package: gdm3
 Architecture: amd64
-Version: 50.1-2
+Version: 50.2-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5858
+Installed-Size: 5878
 Provides: x-display-manager
-Depends: accountsservice (>= 0.6.35), dconf-cli (>= 0.20), dconf-gsettings-backend (>= 0.20), dbus-bin | systemd-sysv, default-dbus-system-bus | dbus-system-bus, default-logind | logind, gir1.2-gdm-1.0 (= 50.1-2), gnome-session | x-session-manager | x-window-manager | x-terminal-emulator, gnome-session-bin (>= 50~alpha), gnome-session-common (>= 50~alpha), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~alpha), gsettings-desktop-schemas, libgdm1 (= 50.1-2), libglib2.0-bin (>= 2.35.0), libnss-systemd (>= 258.1-2~), libpam-modules (>= 0.72-1), libpam-runtime (>= 0.76-13.1), librsvg2-common, polkitd, procps, ucf, x11-common (>= 1:7.6+11), x11-xserver-utils, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, libaccountsservice0 (>= 0.6.55), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 232), libjson-glib-1.0-0 (>= 1.5.2), libkeyutils1 (>= 1.5.9), libpam0g (>= 0.99.7.1), libpolkit-gobject-1-0 (>= 0.99), libselinux1 (>= 3.1~), libsystemd0 (>= 259), libxau6 (>= 1:1.0.11)
+Depends: accountsservice (>= 0.6.35), dconf-cli (>= 0.20), dconf-gsettings-backend (>= 0.20), dbus-bin | systemd-sysv, default-dbus-system-bus | dbus-system-bus, default-logind | logind, gir1.2-gdm-1.0 (= 50.2-1), gnome-session | x-session-manager | x-window-manager | x-terminal-emulator, gnome-session-bin (>= 50~alpha), gnome-session-common (>= 50~alpha), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~alpha), gsettings-desktop-schemas, libgdm1 (= 50.2-1), libglib2.0-bin (>= 2.35.0), libnss-systemd (>= 258.1-2~), libpam-modules (>= 0.72-1), libpam-runtime (>= 0.76-13.1), librsvg2-common, polkitd, procps, ucf, x11-common (>= 1:7.6+11), x11-xserver-utils, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, libaccountsservice0 (>= 0.6.55), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 232), libjson-glib-1.0-0 (>= 1.5.2), libkeyutils1 (>= 1.5.9), libpam0g (>= 0.99.7.1), libpolkit-gobject-1-0 (>= 0.99), libselinux1 (>= 3.1~), libsystemd0 (>= 259), libxau6 (>= 1:1.0.11)
 Recommends: at-spi2-core, desktop-base (>= 10.0.0), gnome-session | x-session-manager, x11-xkb-utils, zenity
 Suggests: orca, libpam-fprintd (>= 0.8.0-2), libpam-sss (>= 2.3.0-1), libpam-pkcs11, libpam-gnome-keyring
 Breaks: gnome-remote-desktop (<< 50~rc)
-Filename: ./gdm3_50.1-2_amd64.deb
-Size: 834144
-MD5sum: 3e91171f5e6cd2a967d6eec84b13a6d7
-SHA1: 70d56907310b26e15cd4798c8d73f87df1c41e79
-SHA256: c0d5bbf9d1f5add885fba2edca73e71cf48703df81fedf68519711707e383e94
-SHA512: e1366238894683203e5964475dd5689f1748781d66643e4dc992b86faae74812041c37799febc902e6eff044d8d706ace5bce92f65959ba45fce849ee459ac4a
+Filename: ./gdm3_50.2-1_amd64.deb
+Size: 843224
+MD5sum: 8b966553a16975bba5de8bf11b495092
+SHA1: 4055d23fdb7067cacfdc137ae41cfa0f43d61795
+SHA256: 12cc5b1692de728fdd646a994e76a5f449ab49f11421541171f5d28f97e951ae
+SHA512: aea4109b1af5f7f0fa7d811e901bb47cf0ad4d742655175b903e6582dc5d8fe32167b4c406d1ff213fbbcf2a860e83002efcab76470ab49e18da5c7914b62783
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GNOME Display Manager
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -7361,22 +7361,22 @@ Description: cloud provider library - introspection data
 
 Package: gir1.2-cmenu-3.0
 Architecture: amd64
-Version: 6.6.0-1+b1
+Version: 6.6.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: cinnamon-menus (6.6.0-1)
+Source: cinnamon-menus
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 22
-Depends: libcinnamon-menu-3-0 (= 6.6.0-1+b1), gir1.2-gio-2.0
+Installed-Size: 21
+Depends: libcinnamon-menu-3-0 (= 6.6.0-2), gir1.2-gio-2.0
 Breaks: cinnamon (<< 5.2~)
-Filename: ./gir1.2-cmenu-3.0_6.6.0-1+b1_amd64.deb
-Size: 5428
-MD5sum: 393eb5896d928d8284c54c6c96c0d23e
-SHA1: b095366142fd47f534e9d4121d1c87982b2bc4f5
-SHA256: e8085c0b8a6c342fc01f59b20c1216eec92b18584974baa94a9479a23781dce1
-SHA512: d610c6d91da87e9b54d943f0b0e785b1985b06c4983fd72e61a48256082ec6646d03995b0f0170ceb9b56e4e9acaa9912f0c6a0da678b65d954daf018f9773b5
-Homepage: http://cinnamon.linuxmint.com
+Filename: ./gir1.2-cmenu-3.0_6.6.0-2_amd64.deb
+Size: 5496
+MD5sum: 51ce9efc78bde0041832b378c18501a5
+SHA1: 2068cb54e2da657cc840b21d4d1d9896c349ccb4
+SHA256: 02fb148cde0e279490de55ae89f88cbddd0249bcff52d07d95b5be4052c8275a
+SHA512: 88ab3400163c0c9db68f67dfd88e0ca043e956c25d8b7ddbecb6e7295553cd2617d739a4695bef1c48aa6ea9a1272ce4df0082bcb1e7929b9cf82674d0ef60bc
+Homepage: https://github.com/linuxmint/cinnamon-menus
 Description: GObject introspection data for the Cinnamon menu library
  This package contains introspection data for Cinnamon menu, an
  implementation of the desktop menu specification from freedesktop.org.
@@ -7732,19 +7732,19 @@ Description: GDK Pixbuf library - GObject-Introspection
 
 Package: gir1.2-gdm-1.0
 Architecture: amd64
-Version: 50.1-2
+Version: 50.2-1
 Priority: optional
 Section: introspection
 Source: gdm3
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 62
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libgdm1 (>= 50~beta)
-Filename: ./gir1.2-gdm-1.0_50.1-2_amd64.deb
-Size: 16264
-MD5sum: f4efb650a9ba42bd3db8c73d59498d7a
-SHA1: 0eb7992791772a13185ca95416eee341b024fc8b
-SHA256: ddf147286ec92d37028cf3457914ad0e580a2e04053b40c1f8c8752903862d9e
-SHA512: a23d6ca4d0ef04593b0fe9358db814f67e5a5637c53d6cd9bca6ca421fba96f50653d8eb9da61a25ebe06799f25e9d24fd94e738edb0ca18491e3f57fe05189e
+Filename: ./gir1.2-gdm-1.0_50.2-1_amd64.deb
+Size: 16316
+MD5sum: e0d0e4c97a74b7dc9a2906080e2b191a
+SHA1: 98604c7f2101975ed3becc14d77d621922f7318f
+SHA256: 5d6b157a519032a29771bc1a60cdaa9b1dc4330a908676ccb6db10528dcce40f
+SHA512: f65ab1ff5669a9885f34b8319f4ea063b3049cbf09dcf6cbc2571752c7f946013e89b9cd5336a9f8a098aabe5babe92cca2ae7d6d75dfeb4c7272f1fc395c569
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GObject introspection data for the GNOME Display Manager
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -9563,18 +9563,18 @@ Description: Tools for working with GObject-Introspection repositories
 
 Package: gjs
 Architecture: amd64
-Version: 1.88.1-1
+Version: 1.89.2+really1.88.1-1
 Priority: optional
 Section: interpreters
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 197
-Depends: libgjs0 (= 1.88.1-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.86.0-7~)
-Filename: ./gjs_1.88.1-1_amd64.deb
-Size: 124268
-MD5sum: 7ec2dfca0dda1c7a1e18305d9a4fc7c4
-SHA1: 539bbdf1d5cc31ae1d5e2d0d81c787c8795f1799
-SHA256: 46dfcc95e1a68e85ac31633112a449dec6ae64020d15b2d9cf0b5047bd6a69ec
-SHA512: 5075ac829ff1744ccf0a8905c7b279756037b5875bfc5c44396162f6c2a7ab1536c2ee471cc08b318287e5d6405aaeb10c7a6f7409367760f98e203952694a66
+Depends: libgjs0 (= 1.89.2+really1.88.1-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.14.0)
+Filename: ./gjs_1.89.2+really1.88.1-1_amd64.deb
+Size: 124572
+MD5sum: c25afed3384b49846b7980f628ea96da
+SHA1: 987a3fa5e9e3412647bd5759ea16c2a39dfa58d0
+SHA256: af57786b279a146bc0a8c3904ce5ccb09b7ae89f5619f79294dd2485b98d17b5
+SHA512: b53982b528628f9219f6db7446bbfb844f71a3c88b5297c5053618de89b0f8d0975e88e05cb018347e02788aca77255d806dca58bf84d1281a4e5be6a29013a3
 Homepage: https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md
 Description: Mozilla-based javascript bindings for the GNOME platform (cli tool)
  Makes it possible for applications to use all of GNOME's platform
@@ -17855,22 +17855,22 @@ Description: Cinnamon library for loading .desktop files
 
 Package: libcinnamon-menu-3-0
 Architecture: amd64
-Version: 6.6.0-1+b1
+Version: 6.6.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: cinnamon-menus (6.6.0-1)
+Source: cinnamon-menus
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 161
+Installed-Size: 164
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0)
 Breaks: cinnamon (<< 5.2~), cinnamon-control-center (<< 5.2~)
-Filename: ./libcinnamon-menu-3-0_6.6.0-1+b1_amd64.deb
-Size: 48156
-MD5sum: 84df2f1247cb771633ebf42f9b3d9a9e
-SHA1: 16e2baf642aa990dbecd7c798e89a59bf5a56a8c
-SHA256: bae49904c1a77d5ec667fa85bf475798ae204efd2af0f207120e96d262dfc80c
-SHA512: b111eb1ef2a214180b62b018a22a3fe5388e0c24c11b10c500ff6366273792d3ef56e48b04f491d7bb74fd82d68ba1bff0ef762782510b58ca7d0875ae2fa6b0
-Homepage: http://cinnamon.linuxmint.com
+Filename: ./libcinnamon-menu-3-0_6.6.0-2_amd64.deb
+Size: 50332
+MD5sum: 959685b81c4ab11a8fffb33973fdc6d0
+SHA1: 02a2a62e21271a441ca6daa6ca32e8aef7d5d64f
+SHA256: b9a014b26377d0889b917b21eb621c18809f998264bcdd167a773fcc3d771995
+SHA512: 38e9b74aa15d389be8c33ee30b4b9e51456f87dc22375619177a59160c3b5416f34df78322b2d7c97fd5e2a433876a7e62e96a2007cb13642cfa0bf22b6de831
+Homepage: https://github.com/linuxmint/cinnamon-menus
 Description: Cinnamon implementation of the freedesktop menu specification
  The package contains an implementation of the draft
  "Desktop Menu Specification" from freedesktop.org:
@@ -22041,7 +22041,7 @@ Description: GDK Pixbuf library - data files
 
 Package: libgdm1
 Architecture: amd64
-Version: 50.1-2
+Version: 50.2-1
 Priority: optional
 Section: libs
 Source: gdm3
@@ -22049,12 +22049,12 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Installed-Size: 215
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.33), libglib2.0-0t64 (>= 2.83.0), libsystemd0 (>= 259)
 Breaks: gnome-kiosk (<< 50)
-Filename: ./libgdm1_50.1-2_amd64.deb
-Size: 52804
-MD5sum: 1b8fddb360c64a134be100ab0873eb8d
-SHA1: b4ed4aec14d440d16426f95792d6dec2d06da38a
-SHA256: 8cd4e301d5631217ea98137fdb0b72c05da0d75541282eae046fece9fe3d90c6
-SHA512: d94565de4eb4e6e102eccf6236924438bdd93ece42400570e9d362b5d8a06f7c6d0e588be532e9ecab7c6c25bf8bca9dbcf8cdec0785930dc28534d9f89e8d47
+Filename: ./libgdm1_50.2-1_amd64.deb
+Size: 54260
+MD5sum: 7411714ac6ad08762fe3fdfac65fece5
+SHA1: 0a604a9f1c3159d1ed3b784c6f7eed798e2b0508
+SHA256: c5dfbf6a31beb3e9531e7932ed6c6d6b02e8005058dd5bbe71391791ce1083a6
+SHA512: c1720072e324df7d883d9c211493f74458c13cf98d868a3bcb856ca0dd65ee7a4ae433b0dc3d5445e922434b2a0f2d944a9769530b16d61ba085e9128e27d7fc
 Homepage: https://wiki.gnome.org/Projects/GDM/
 Description: GNOME Display Manager (shared library)
  GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -22690,22 +22690,22 @@ Description: GLib runtime library for handling GObject introspection data
 
 Package: libgjs0
 Architecture: amd64
-Version: 1.88.1-1
+Version: 1.89.2+really1.88.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gjs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1925
-Depends: gir1.2-gio-2.0, gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0, gir1.2-gobject-2.0, libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.12.0), libreadline8t64 (>= 6.0), libstdc++6 (>= 12), libx11-6
+Installed-Size: 1965
+Depends: gir1.2-gio-2.0, gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0, gir1.2-gobject-2.0, libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.14.0), libreadline8t64 (>= 6.0), libstdc++6 (>= 12), libx11-6
 Conflicts: libgjs0g
 Replaces: libgjs0g
-Filename: ./libgjs0_1.88.1-1_amd64.deb
-Size: 552248
-MD5sum: bfeaf98abc9b032d279973d0ea19d893
-SHA1: d94d9876712d2fb06dfa641276e8adbf7a9073a4
-SHA256: c9d234d136f345cca4dab3490935d793c63bceb9041aa2651938992f1f27f4cd
-SHA512: f41b81e053da0a8df7e1414e16e0c3ecea18f5044ef39b09852410770b8b17ddb820462f97fc7ce73801afa581108135fef365abe927a6d231e5b551b8006866
+Filename: ./libgjs0_1.89.2+really1.88.1-1_amd64.deb
+Size: 571524
+MD5sum: 50a3e91413732c8ab72a02499d0d2851
+SHA1: d2ad7c22fe237e10f64128f77b139828b032ba47
+SHA256: 455309fdbc68654f06f586dc4c3168064fefef5e36a6fcbeb9f3eef15e57371d
+SHA512: 412eefcfc02cc64c5883c61f417ca025817f95daae06256fb94c45ec57aeb31c1e3df5fa99bc47dd533b938e6226aa1c1e92ff20e7cd490057b0745739df1155
 Homepage: https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md
 Description: Mozilla-based javascript bindings for the GNOME platform
  Makes it possible for applications to use all of GNOME's platform
@@ -57657,7 +57657,7 @@ Description: Qt Platform Theme integration plugins for KDE Plasma 6
 
 Package: plasma-nm
 Architecture: amd64
-Version: 4:6.7.4-1
+Version: 4:6.7.4-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -57667,12 +57667,12 @@ Recommends: kwallet6, systemsettings
 Suggests: network-manager-fortisslvpn, network-manager-iodine, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-pptp, network-manager-ssh, network-manager-strongswan, network-manager-vpnc
 Breaks: plasma-mobile (<< 6.6~)
 Replaces: plasma-mobile (<< 6.6~)
-Filename: ./plasma-nm_4%3a6.7.4-1_amd64.deb
-Size: 1972716
-MD5sum: ded747d8bf67e51f48ec0a44c0b46f0d
-SHA1: b2b513fddd6e3f8654dedddf87c5dcc1f09cd0ef
-SHA256: b3429d7aa40935d3fd2e1bd0532facda116db5c46b71be015d63d33c9d9f062d
-SHA512: 9be5d9171617f03bc7a768a962cb693d352b8da81281e1aa7a69e1818ae57c0b2f5d1434d79e8b5120944076fb4b325b2a7ee00d5cb67bc1b942ac465095db90
+Filename: ./plasma-nm_4%3a6.7.4-2_amd64.deb
+Size: 1969840
+MD5sum: aa52539ad43d8cae405d054066277944
+SHA1: c1ec7a79b519ade9855c8e12a77f8575d1d51e54
+SHA256: 548c4f5ffb6550f5265a3d8c95e95e9ea0487df72f2f35109ccf1fe5ce4d3a51
+SHA512: f501e571cee80a69829e4446e45284e4b2148548d841b9b53c22e62e992ba7c1ec721b1c58376ee1f6c4a8075cc134086f49457da9f9be1b0737837c87e9e05d
 Homepage: https://invent.kde.org/plasma/plasma-nm
 Description: Plasma network connections management
  plasma-nm provides a Plasma applet written in QML for managing network
