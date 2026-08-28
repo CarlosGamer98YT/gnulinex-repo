@@ -6958,22 +6958,23 @@ Description: Data files for GIMP
 
 Package: gimp
 Architecture: amd64
-Version: 3.2.4-3
+Version: 3.2.4-3+b1
 Priority: optional
 Section: graphics
+Source: gimp (3.2.4-3)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 32779
-Depends: gimp-data (<= 3.2.4-z), gimp-data (>= 3.2.4), gir1.2-gimp-3.0 (= 3.2.4-3), graphviz, libgimp-3.0-0 (<= 3.2.4-z), libgimp-3.0-0 (>= 3.2.4), librsvg2-common, python3-gi, python3-gi-cairo, xdg-utils, libaa1 (>= 1.4p5), libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libasound2t64 (>= 1.0.16), libbabl-0.1-0 (>= 1:0.1.118), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcfitsio10t64 (>= 4.2.0~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.27.1), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 6), libgs10 (>= 9.10~dfsg), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libharfbuzz0b (>= 2.6.5), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1:3.1.3), libjson-glib-1.0-0 (>= 1.5.2), libjxl0.11 (>= 0.7.0), liblcms2-2 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), libmng2 (>= 2.0.2), libmypaint-1.5-1 (>= 1.5.0), libopenexr-3-4-33 (>= 3.4.6+ds), libopenjp2-7 (>= 2.2.0), libpango-1.0-0 (>= 1.50.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.47.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), librsvg2-2 (>= 2.52.5), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwmf-0.2-7 (>= 0.2.12), libwmflite-0.2-7 (>= 0.2.12), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxmu6 (>= 2:1.1.3), libxpm4, zlib1g (>= 1:1.1.4)
+Installed-Size: 33408
+Depends: gimp-data (<= 3.2.4-z), gimp-data (>= 3.2.4), gir1.2-gimp-3.0 (= 3.2.4-3+b1), graphviz, libgimp-3.0-0 (<= 3.2.4-z), libgimp-3.0-0 (>= 3.2.4), librsvg2-common, python3-gi, python3-gi-cairo, xdg-utils, libaa1 (>= 1.4p5), libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libasound2t64 (>= 1.0.16), libbabl-0.1-0 (>= 1:0.1.118), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.14.0), libcfitsio10t64 (>= 4.2.0~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.27.1), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 6), libgs10 (>= 9.10~dfsg), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libharfbuzz0b (>= 2.6.5), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1:3.1.3), libjson-glib-1.0-0 (>= 1.5.2), libjxl0.11 (>= 0.7.0), liblcms2-2 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), libmng2 (>= 2.0.2), libmypaint-1.5-1 (>= 1.5.0), libopenexr-3-4-33-imath-3-2, libopenjp2-7 (>= 2.2.0), libpango-1.0-0 (>= 1.50.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.47.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), librsvg2-2 (>= 2.52.5), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwmf-0.2-7 (>= 0.2.12), libwmflite-0.2-7 (>= 0.2.12), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxmu6 (>= 2:1.1.3), libxpm4, zlib1g (>= 1:1.1.4)
 Recommends: ghostscript
 Suggests: gimp-data-extras, gimp-help-en | gimp-help, gvfs-backends, python3
 Conflicts: gimp-dds
 Replaces: gimp-dds
-Filename: ./gimp_3.2.4-3_amd64.deb
-Size: 6921564
-MD5sum: 15c83195f90b60cba91dd0596a1c31a8
-SHA1: df5e59412aff07aa3871e6389589c57c031bc0bb
-SHA256: 126b1f44f57b724d3becc4c51438038f95da355f3dcf2394528539a08ffc37f5
-SHA512: d1f4ee33db7d90fda36cb3388b50fc3e9131b3ef41cdceacbaa6b00d39bdf9e387b0e9bea499a62d34039e2be163b11c5a1879bcec3498de788a75315c9137fd
+Filename: ./gimp_3.2.4-3+b1_amd64.deb
+Size: 7119704
+MD5sum: 5b99d3b268206be55e2db8e623dda558
+SHA1: fb5c26a41daa668538f1e3bdc534b2700d1c5999
+SHA256: 60a1f3dcf36407f1be90e0e781c57b36648beb019f5e33470dec75ff1a64438f
+SHA512: 4ece961217fbfc7f4925a2142272d04d0ff24c9ab1196247d32db1c963eec79bc1194ef7a827ee547ba5bd1140928aefbe0d85efb100bc5f58c88b7d5d088f2e
 Homepage: https://www.gimp.org/
 Description: GNU Image Manipulation Program
  GIMP is an advanced picture editor. You can use it to edit, enhance, and
@@ -7758,20 +7759,20 @@ Description: GObject introspection data for the GNOME Display Manager
 
 Package: gir1.2-gegl-0.4
 Architecture: amd64
-Version: 1:0.4.70-4
+Version: 1:0.4.70-4+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gegl
+Source: gegl (1:0.4.70-4)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 103
+Installed-Size: 104
 Depends: gir1.2-babl-0.1 (>= 1:0.1.116), gir1.2-glib-2.0, gir1.2-gobject-2.0, libgegl-0.4-0t64 (>= 1:0.4.50)
-Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-4_amd64.deb
-Size: 30872
-MD5sum: f54f6c88a1a1544cb44d6b0527c7233a
-SHA1: 3e2c283c2ff19717b0096c75dc953ccbe90e6171
-SHA256: ddb3734bdbae5feebf5d84de25a3e59e691d8de1d1b08a46588fcfe9e3b7706a
-SHA512: ba102cf86fdf7fe21be0e9c84e602cd16fd692264c9d959567bcc474e9ff5169b825d796165a013fdc1dab806ca543056aad813a465f6af731552b037a2f2cb8
+Filename: ./gir1.2-gegl-0.4_1%3a0.4.70-4+b1_amd64.deb
+Size: 31204
+MD5sum: 54632ad4d3013ffc33331a6c26894409
+SHA1: ac5a52157232e7f4365f6e2106be1908a6cedf56
+SHA256: 9b3f2f558194019e28595473aa8147b2dae269a206af32ecc1e8dd3fc5f9817c
+SHA512: fbb0e808b1258610dc55e6d3f43adf2e5016cfda562b062aa4c72ef9edec6f5e9826451b12abee417734a98e3e70fb7361b5c5ee1fa42dd213937946c87bfc33
 Homepage: https://gegl.org/
 Description: GObject introspection data for the Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -7860,21 +7861,21 @@ Description: GObject-based wrapper around the Exiv2 library - introspection data
 
 Package: gir1.2-gimp-3.0
 Architecture: amd64
-Version: 3.2.4-3
+Version: 3.2.4-3+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gimp
+Source: gimp (3.2.4-3)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 413
-Provides: gir1.2-gimpui-3.0 (= 3.2.4-3)
+Installed-Size: 414
+Provides: gir1.2-gimpui-3.0 (= 3.2.4-3+b1)
 Depends: gir1.2-babl-0.1 (>= 1:0.1.118), gir1.2-cairo-1.0, gir1.2-gdkpixbuf-2.0, gir1.2-gegl-0.4 (>= 1:0.4.66), gir1.2-gexiv2-0.16 (>= 0.16), gir1.2-gio-2.0, gir1.2-giounix-2.0, gir1.2-glib-2.0, gir1.2-glibunix-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, libgimp-3.0-0 (>= 3.2.4)
-Filename: ./gir1.2-gimp-3.0_3.2.4-3_amd64.deb
-Size: 92928
-MD5sum: b640983ed02b259e4c0d519b6baca4fa
-SHA1: 0bc8513a5d3f9cedf66729a471e90bf891f67977
-SHA256: 31ebf8204caf65e241e8fedf5f5b31bb341381cf3dfa2b04569acdd9818ed593
-SHA512: e4c1fe6aebecc4502d165f38d1bd827a5e02905ccaf67bcef6477c2497cca8a9ee196bd3bb3a3dfc30339172e08e88ea750108f5b2d7a1eeee7768a441dada54
+Filename: ./gir1.2-gimp-3.0_3.2.4-3+b1_amd64.deb
+Size: 93204
+MD5sum: 8cc291aff6fdc72589f3d53122ece082
+SHA1: ec1157109359a4f87ebf3f21a44ff2c35afce65a
+SHA256: 659a6cdb2846fe1ad4da7d2707700621e37daf089e0474c63d3af538b8cea2ff
+SHA512: 58e99637277071d2dcec07aafff18d352a1ea13418f1210205c15a78c8fcd99304107712fc7c9a93dcf4312b692d6201985697064b348968e3f058446d442949
 Homepage: https://www.gimp.org/
 Description: Introspection data for the GIMP library
  This package includes the libgimp libraries, which are necessary to run
@@ -8179,21 +8180,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-1+b2
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gst-plugins-bad1.0
+Source: gst-plugins-bad1.0 (1.28.6-1)
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 662
-Provides: gir1.2-cudagst-1.0 (= 1.28.6-1), gir1.2-gstanalytics-1.0 (= 1.28.6-1), gir1.2-gstbadaudio-1.0 (= 1.28.6-1), gir1.2-gstcodecparsers-1.0 (= 1.28.6-1), gir1.2-gstcodecs-1.0 (= 1.28.6-1), gir1.2-gstcuda-1.0 (= 1.28.6-1), gir1.2-gstdxva-1.0 (= 1.28.6-1), gir1.2-gsthip-1.0 (= 1.28.6-1), gir1.2-gsthipgl-1.0 (= 1.28.6-1), gir1.2-gstinsertbin-1.0 (= 1.28.6-1), gir1.2-gstmpegts-1.0 (= 1.28.6-1), gir1.2-gstmse-1.0 (= 1.28.6-1), gir1.2-gstplay-1.0 (= 1.28.6-1), gir1.2-gstplayer-1.0 (= 1.28.6-1), gir1.2-gsttranscoder-1.0 (= 1.28.6-1), gir1.2-gstva-1.0 (= 1.28.6-1), gir1.2-gstwebrtc-1.0 (= 1.28.6-1)
+Installed-Size: 663
+Provides: gir1.2-cudagst-1.0 (= 1.28.6-1+b2), gir1.2-gstanalytics-1.0 (= 1.28.6-1+b2), gir1.2-gstbadaudio-1.0 (= 1.28.6-1+b2), gir1.2-gstcodecparsers-1.0 (= 1.28.6-1+b2), gir1.2-gstcodecs-1.0 (= 1.28.6-1+b2), gir1.2-gstcuda-1.0 (= 1.28.6-1+b2), gir1.2-gstdxva-1.0 (= 1.28.6-1+b2), gir1.2-gsthip-1.0 (= 1.28.6-1+b2), gir1.2-gsthipgl-1.0 (= 1.28.6-1+b2), gir1.2-gstinsertbin-1.0 (= 1.28.6-1+b2), gir1.2-gstmpegts-1.0 (= 1.28.6-1+b2), gir1.2-gstmse-1.0 (= 1.28.6-1+b2), gir1.2-gstplay-1.0 (= 1.28.6-1+b2), gir1.2-gstplayer-1.0 (= 1.28.6-1+b2), gir1.2-gsttranscoder-1.0 (= 1.28.6-1+b2), gir1.2-gstva-1.0 (= 1.28.6-1+b2), gir1.2-gstwebrtc-1.0 (= 1.28.6-1+b2)
 Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.6)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.6-1_amd64.deb
-Size: 256728
-MD5sum: c4d0f6a9116ceadedc708402bf86a254
-SHA1: 1872cfb7fe9f49adfaa84420e5dc9aad89e699b5
-SHA256: 771e628fed8d8fe8002b27c582c8ffc53baeab38460659fff58ec862e84bd2fd
-SHA512: 37e7795ccc349a4ba1a6bc45323271605b0c84bf3d41edcfb0af7277e3fb6e4123289aaa3bf9771b5424b9dd399e4e6cf65e0d75d62b8fa1d9a568d2a135f8fc
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.6-1+b2_amd64.deb
+Size: 257052
+MD5sum: bd86e8098fc0b927adee5963615ecb6c
+SHA1: 9bc35d3e1d1286826451e8fa028ab0864668a229
+SHA256: bb2b972252e8b38d0b1fa94de730e4d97206b14f32162315295fe478bcf04311
+SHA512: cfbd06ff086dd04ee590fea8fcbdd07eac615b4714e46c6634eb7f204c8d8c351bf6b3e7f4fb0337751bcb71acda2ee84aef6e6b261cb95d6159b28badd2cff3
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -8509,21 +8510,21 @@ Description: iCalendar library implementation in C (GObject Introspection)
 
 Package: gir1.2-javascriptcoregtk-4.1
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Installed-Size: 308
-Provides: gir1.2-javascriptcore-4.1 (= 2.52.5-1)
-Depends: libjavascriptcoregtk-4.1-0 (= 2.52.5-1), gir1.2-gobject-2.0
-Filename: ./gir1.2-javascriptcoregtk-4.1_2.52.5-1_amd64.deb
-Size: 45128
-MD5sum: 585594d78289dba4ccbc96b1f9563a97
-SHA1: 8fe718884845c93e79ed0d464dd7a4d34f7fbe00
-SHA256: b6991c34c8194dec0f073fef70a81cceb92c457f232bec906985a603e7de1bf5
-SHA512: a4d8cee3638ffcfcb6c7a2dcaea85fbba2fad8d28b2afdd093279834ae716ba2d3ce50c6c7af2d6487d716f3553479fe803e8e51b29db2fb783224d21def30d2
+Provides: gir1.2-javascriptcore-4.1 (= 2.52.6-1)
+Depends: libjavascriptcoregtk-4.1-0 (= 2.52.6-1), gir1.2-gobject-2.0
+Filename: ./gir1.2-javascriptcoregtk-4.1_2.52.6-1_amd64.deb
+Size: 45140
+MD5sum: db450f4e4d6d2e2c52982d9b1bd61f16
+SHA1: e66582ea37226126318f4dd17e0a331bd2b35ab1
+SHA256: acf5b517573b54473ae885625ffbf9c5a7ec970a48589bd0eaedfc072f3390ab
+SHA512: 9bef747bcea0e3d39577e4e54393e4a0e955ce8c03f3384df42386e2f5377bac4878376de92486b7939cd599abb5162b1e9c36854972d118e95144c410f8dbe2
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK - GObject introspection data
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -9415,21 +9416,21 @@ Description: GObject introspection data for the VTE library (GTK 3 version)
 
 Package: gir1.2-webkit2-4.1
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Installed-Size: 606
-Provides: gir1.2-webkit2webextension-4.1 (= 2.52.5-1)
-Depends: libwebkit2gtk-4.1-0 (= 2.52.5-1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.1 (= 2.52.5-1), gir1.2-soup-3.0
-Filename: ./gir1.2-webkit2-4.1_2.52.5-1_amd64.deb
-Size: 101628
-MD5sum: f2fa58f097dd04a1a57371c9646ce8cb
-SHA1: 070a7b9934f56fc93bca7f125c3c9b47e3745f9a
-SHA256: 9296586a997806035dc198ee4c7d504e311921017db32a02f5541ff823e3c015
-SHA512: 65d2330acb0aa6ea0b1730521cdd1e4f90054f7b2ecf1c905b3a8ca3da2101b1ce8e13e935f4832a32fceaaf337e70f3fe8add0b622cbe064fedc818bd3afbb6
+Provides: gir1.2-webkit2webextension-4.1 (= 2.52.6-1)
+Depends: libwebkit2gtk-4.1-0 (= 2.52.6-1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.1 (= 2.52.6-1), gir1.2-soup-3.0
+Filename: ./gir1.2-webkit2-4.1_2.52.6-1_amd64.deb
+Size: 101636
+MD5sum: 84a1b0cfd788d28f9ba399ce7d732e17
+SHA1: c1e7a81624a5affe0c7c5343e3147b7406e82b1f
+SHA256: baf72599d4e8bff1b6a48fdbabb5908711aef12bd2932d70ae18d992c328f8c1
+SHA512: 8f7defc1802f9df735bf5c0ba1294e2480d53a4672950b627d61183c15ab4c4b4e7f99a1d34c2f5ec148f28a1556dc3ad30a6e49e489c4b6acec64f79489cfc4
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK - GObject introspection data
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -12370,25 +12371,25 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-1+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gst-plugins-bad1.0
+Source: gst-plugins-bad1.0 (1.28.6-1)
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12617
+Installed-Size: 12606
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.6-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33 (>= 3.4.6+ds), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.6), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.16.0), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.6-1+b2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-2-30 (>= 3.2.2), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33-imath-3-2, libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.6), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.16.0), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.6-1_amd64.deb
-Size: 3599256
-MD5sum: 49257b11894ab3422a68748dae92cf8d
-SHA1: 9d38babcd59220cb6a769d7104bb26b93d0f6e11
-SHA256: 84f3b888275eb04051824376bb03cbcbd29536aaadc0dfa562daf21c6eca0172
-SHA512: 2f77f0812ade309fa39db79b2005d373889ab9a224445d5d6b3fe3a73c6787833abb09635c1ff4f6a31336e5e79cef2766d1762be639a98f5a1d7c515325a5c9
+Filename: ./gstreamer1.0-plugins-bad_1.28.6-1+b2_amd64.deb
+Size: 3597516
+MD5sum: 0db9ce2c4a7771fc7384458f0cda7d83
+SHA1: 7a5ddb72f13f38981419a75d52117872dda16a19
+SHA256: d9000edc35f72e04b98cb22b8f14fe96dc823115841c0c3c8b22be03fce09273
+SHA512: 4e6dca1bed92388c3bc75a4014778761fb605baaea9aac267391eb640c734ef87d6ccce8511b74834d4fae42fe5133ef61c370c5eee2536ec15aa6c7d90fca7b
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -14252,21 +14253,21 @@ Description: daemon for global keyboard shortcuts on the Plasma desktop
 
 Package: kimageformat6-plugins
 Architecture: amd64
-Version: 6.28.1-1
+Version: 6.28.1-1+b1
 Priority: optional
 Section: kde
-Source: kf6-kimageformats
+Source: kf6-kimageformats (6.28.1-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3229
-Depends: libheif-plugin-j2kdec, libheif-plugin-libde265, libheif-plugin-x265, libavif16 (>= 1.4.2), libc6 (>= 2.38), libgcc-s1 (>= 12), libheif1 (>= 1.19.1), libimath-3-1-29t64 (>= 3.1.12), libjxl0.11 (>= 0.9.2), libkf6archive6 (>= 6.28.0~), libopenexr-3-4-33 (>= 3.4.6+ds), libopenjp2-7 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libraw25 (>= 0.22.0), libstdc++6 (>= 13.1)
+Installed-Size: 3294
+Depends: libheif-plugin-j2kdec, libheif-plugin-libde265, libheif-plugin-x265, libavif16 (>= 1.4.2), libc6 (>= 2.38), libgcc-s1 (>= 12), libheif1 (>= 1.19.1), libimath-3-2-30 (>= 3.2.2), libjxl0.11 (>= 0.9.2), libkf6archive6 (>= 6.28.0~), libopenexr-3-4-33-imath-3-2, libopenjp2-7 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libraw25 (>= 0.22.0), libstdc++6 (>= 13.1)
 Breaks: kf6-kimageformat-plugins
 Replaces: kf6-kimageformat-plugins
-Filename: ./kimageformat6-plugins_6.28.1-1_amd64.deb
-Size: 568728
-MD5sum: e3b1d2be0b396d5ad5f0473fb6bc9c7c
-SHA1: c6fdf70277b4f3e54174a8d80734c0c87044eb7a
-SHA256: 4ae35e01015755af7450843659b914ed022b555f4d83a9c9e35125f838e83bfc
-SHA512: 129cc8ed34a8e78d42d9629517c7524b4407148be090d263cd706439f4ec7f5d5f96c1613d24582d22dc11e78015782d6c988f8c573dd330a9ee3c8276166799
+Filename: ./kimageformat6-plugins_6.28.1-1+b1_amd64.deb
+Size: 585924
+MD5sum: f41b1d3c52ae16cdadce431cb6b96a47
+SHA1: 72f46626e8314f53ee411ca0d8e897793c710794
+SHA256: 2a644e54c903c61079561773713ec7499a12eb4377fa3c7a64195d32859e6d4a
+SHA512: ce6aecfdcb980806d541972e1d7cd6b68ed2a1aa5718570bc26e28b6157b78914a0dcc23b46f2b320254ad82461719e11c80a34f4a94be6946942919bd65ddfa
 Homepage: https://invent.kde.org/frameworks/kimageformats
 Description: additional image format plugins for Qt Gui
  This framework provides additional image format plugins for QtGui.  As
@@ -14330,21 +14331,22 @@ Description: Extra functionality for kioslaves data files
 
 Package: kio-extras
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.04.0-1+b1
 Priority: optional
 Section: kde
+Source: kio-extras (4:26.04.0-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3239
-Depends: kio-extras-data (= 4:26.04.0-1), kio6, libappimage1.0abi1t64 (>= 1.0.4-3~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.23.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libplasmaactivities7 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-4 (>= 2.3.0), libproxy1v5 (>= 0.5.3), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2)
+Installed-Size: 3284
+Depends: kio-extras-data (= 4:26.04.0-1), kio6, libappimage1.0abi1t64 (>= 1.0.4-3~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.23.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-4-33-imath-3-2, libplasmaactivities7 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-4 (>= 2.3.0), libproxy1v5 (>= 0.5.3), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2)
 Recommends: libkf6kcmutils-bin, systemsettings
 Breaks: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
 Replaces: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
-Filename: ./kio-extras_4%3a26.04.0-1_amd64.deb
-Size: 704268
-MD5sum: f2c0aef66c96b009452bb0a845b4acfd
-SHA1: e00cfcd53f8bec249a4ebc9e5139280e9a94728e
-SHA256: 189e0c2414fc80b16f30bae71a3e1fb1e42c6f6ab5a24d1e237ae0113698218a
-SHA512: 8ac1da543ae2957b40c0ef66d3b5575a9b55be508c062e8b30a33148fb7147bd3cda067135b20ae4bcb596922f7bd4b2db4b923164e8a4ac8cd57c1810d1462d
+Filename: ./kio-extras_4%3a26.04.0-1+b1_amd64.deb
+Size: 724616
+MD5sum: a399bb98d9cf4f61bb85b6ccf76e3178
+SHA1: 97487f4ee2bb1efba29809210fb7529828858acc
+SHA256: 65b06a4727ca54e914e56904050b16c8e0ca19bdabb0c0f888903915596c6874
+SHA512: 812702bac834345376df9d6b3bd49ec07bf7e897be42e584dfce6efff3516c6da33462027ef4a9a160e9ca2f4b6eb714d62aff7e039cc64a15b54e59812f4125
 Homepage: https://invent.kde.org/network/kio-extras
 Description: Extra functionality for kioslaves
  A kioslave is a plugin designed to be intimately familiar with a certain
@@ -22318,24 +22320,24 @@ Description: GObject based collection and utility library
 
 Package: libgegl-0.4-0t64
 Architecture: amd64
-Version: 1:0.4.70-4
+Version: 1:0.4.70-4+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gegl
+Source: gegl (1:0.4.70-4)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 8789
-Provides: libgegl-0.4-0 (= 1:0.4.70-4)
-Depends: libgegl-common (>= 1:0.4.70-4), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
+Installed-Size: 8782
+Provides: libgegl-0.4-0 (= 1:0.4.70-4+b1)
+Depends: libgegl-common (>= 1:0.4.70-4), libbabl-0.1-0 (>= 1:0.1.116), libc6 (>= 2.43), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 4.9), libjpeg62-turbo (>= 1.3.1), libjson-glib-1.0-0 (>= 1.5.2), liblcms2-2 (>= 2.2+git20110628), libopenexr-3-4-33-imath-3-2, libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.18.0), libraw25 (>= 0.22.0), librsvg2-2 (>= 2.52.5), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libumfpack6 (>= 1:7.0.1), libwebp7 (>= 1.5.0)
 Suggests: graphviz
 Breaks: libgegl-0.4-0 (<< 1:0.4.70-4)
 Replaces: libgegl-0.4-0
-Filename: ./libgegl-0.4-0t64_1%3a0.4.70-4_amd64.deb
-Size: 1985780
-MD5sum: 1a651c5d636f6fad2ce3aae06dfa9d7b
-SHA1: 891d55407ced469e8b46f469c6622ff148cc5569
-SHA256: 6f7ba05f142e3105dc16d0e63f036a4c908bb83d3db868bcfde6f16329423af4
-SHA512: 0becb48d50b269703d127f40e3abfb4845faa293e2a4af6d25b429ed0ce688dca705ed36d5b1f80b8d8e83e743394fa5fa130551e25d516e784077894925a93b
+Filename: ./libgegl-0.4-0t64_1%3a0.4.70-4+b1_amd64.deb
+Size: 1982792
+MD5sum: cdd1cf4f1015fb48e2e438963f4f407d
+SHA1: 5e84d6cedfb62a9f0ec8dd494a1d618154325a41
+SHA256: cc4b0f81f01c29e24fbc5ae693645d43c3ae07e60010b1066a6b1524b6f29648
+SHA512: f5de5ee123ef3c904c082083de6d2b12afa8400fa35c83c2438d0c9b5cf3f1a3ab811418a91f9814a7e64c3c21dae9384967f189e45caddb780ac0e578f043a4
 Homepage: https://gegl.org/
 Description: Generic Graphics Library
  GEGL (Generic Graphics Library) is a graph based image processing
@@ -22526,21 +22528,21 @@ Description: library for GIF images (library)
 
 Package: libgimp-3.0-0
 Architecture: amd64
-Version: 3.2.4-3
+Version: 3.2.4-3+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gimp
+Source: gimp (3.2.4-3)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 7333
-Depends: libbabl-0.1-0 (>= 1:0.1.118), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libgirepository-1.0-1 (>= 0.9.2), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), liblcms2-2 (>= 2.2+git20110628), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Installed-Size: 7390
+Depends: libbabl-0.1-0 (>= 1:0.1.118), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libgirepository-1.0-1 (>= 0.9.2), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), liblcms2-2 (>= 2.2+git20110628), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
 Recommends: gimp-data (<= 3.2.4-z), gimp-data (>= 3.2.4)
-Filename: ./libgimp-3.0-0_3.2.4-3_amd64.deb
-Size: 1078392
-MD5sum: 5f659ceb6c133a356f09ccd288f63c88
-SHA1: 4152b22899c9d9079122f95a9064cefdc732903e
-SHA256: e5e4a9f33e10093643e79712c7d9e8763f18689c4fa682bb38193384e917d7b2
-SHA512: c35f68cf91c57ae79b7971f35015a515a81274cdda83fc5374a3ae8dab3d5ea3e26258fdc14737bed891ef3bdb940dfc462fecceb461571583918862dd6d76d4
+Filename: ./libgimp-3.0-0_3.2.4-3+b1_amd64.deb
+Size: 1113680
+MD5sum: df72542d646a566b2c7a0ad3b47b53af
+SHA1: 113236d32212a6f28539940d2d267354e8e1ee4c
+SHA256: 0d2fc9507d86977c1184a81afd1e074c5c457f766d7e0db6fb0170be5fd909a7
+SHA512: c065a14f2a3509920167672f6e879b6089305b95ab2aad94ab95e002e27e03ca3b8d317bb3653b47f088d9462d404eac105a3521d28686bfa707a9c8160131b2
 Homepage: https://www.gimp.org/
 Description: Libraries for the GNU Image Manipulation Program
  This package includes the libgimp libraries, which are
@@ -24009,21 +24011,21 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.6-1
+Version: 1.28.6-1+b2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gst-plugins-bad1.0
+Source: gst-plugins-bad1.0 (1.28.6-1)
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3192
+Installed-Size: 3193
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.6-1_amd64.deb
-Size: 1041616
-MD5sum: ab28224e29bdfd488c03770ef9ca3227
-SHA1: 480929a7571b636477d9b3494100f5b4a46fb8df
-SHA256: d6968de8d4acfab19136ccdd918b3d69c681beacafdab0fdf3ddead8aae63768
-SHA512: 1e6bc71fc8d8c539b12860add0937fe13f842795ac9412cb525bf74ef727e75e4e205111ce13116be04e09d028f1597f0f4a7e9bf110fc7c78ebcf7902cac4fa
+Filename: ./libgstreamer-plugins-bad1.0-0_1.28.6-1+b2_amd64.deb
+Size: 1042216
+MD5sum: 322012ca31e9aa8041625927bd09b8fa
+SHA1: 1a8e50eeeb35dd1d74d9ee58f7403fe86b7df3ba
+SHA256: cbbe9a492923d1c41a9180ed5248a90fc8e6ac4f424fa091fad31604863882af
+SHA512: 5d37ea3b4494fef6d8381588399bcb3bd453de5d23e324c6e394684ebbfa59074969bed7a2404d5fc512f2184678ac412f27bcd49bbf03bba2a1010a9cd3f7e5
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -25774,20 +25776,20 @@ Description: Java WebSocket client and server implementation in Java
 
 Package: libjavascriptcoregtk-4.1-0
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 32370
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
-Filename: ./libjavascriptcoregtk-4.1-0_2.52.5-1_amd64.deb
-Size: 7538240
-MD5sum: 7a95bd9b79ea6c837faab5174523dcd8
-SHA1: d64926d21c897bfdbb058d419cd1ae074d17b40c
-SHA256: b50dca4da667fb8be9b567fa7b448c57baf179ad7fc80ba874eb6791b83cdf57
-SHA512: ee8dce99fa8b5817a4656209a586ece5d07a6fc2bdc62c8377e92fa721cea734e011ad630472cd9d5d2272ec405fbcefea40f2cc362a434552dd591c56d6d701
+Installed-Size: 32378
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
+Filename: ./libjavascriptcoregtk-4.1-0_2.52.6-1_amd64.deb
+Size: 7541996
+MD5sum: 2886a142d35594cde9f3b53ac340106a
+SHA1: 0f5cefeea126dd699340b0cb788f1f7defdb0339
+SHA256: 48f520a16453bf8d8b117c5f954697a2746d4197dde39acb1efec0e4d00a0dde
+SHA512: ce6fd001082c6d63d77f61155c1596a35cf1fbc8dfd06ffe76d0cd5994b93709388940bcd8fd2183ae0ca1fdede671068b64503c29a8531516e06db33ed6076f
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -25801,20 +25803,20 @@ Description: JavaScript engine library from WebKitGTK
 
 Package: libjavascriptcoregtk-6.0-1
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 32370
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
-Filename: ./libjavascriptcoregtk-6.0-1_2.52.5-1_amd64.deb
-Size: 7537872
-MD5sum: aae458327e53af311998aa3c9620848f
-SHA1: f4de2a5b22c85a317abc3e3e7144270ad365865b
-SHA256: 71fe1f2bdc971cae46f69a2b5258a9d19b7074413f5ef76ecbf3b9d4439adc25
-SHA512: d32a9a28ff56622b60f3c63a0359ef15841627c7a39c6626066dd61f99be7667884f7353f252b664699485562a6e229d747af27bb384a8b0313b51f3fa8163a1
+Installed-Size: 32378
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
+Filename: ./libjavascriptcoregtk-6.0-1_2.52.6-1_amd64.deb
+Size: 7539528
+MD5sum: 09f99f3b7b971007f7e1e59e4285425e
+SHA1: cd19b2b3423de7048d26ae79d3201d5c478a40a2
+SHA256: e36ac6e393be81706cdd53de2dbc72bbb37d3986e3b3bb3c0afb24db7d3f5cc3
+SHA512: 8d48d0073d6640f0924c604e2e2cdf630ee0c016585862561decf035ca4020dd05efa759fbe43a97272a1ad3e93f2b52eeb7f8cb008d72822af56bacdfba99f4
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
@@ -26137,7 +26139,7 @@ Description: JavaServer Pages API
 
 Package: libjxl-gdk-pixbuf
 Architecture: amd64
-Version: 0.11.2-5
+Version: 0.11.2-5.1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -26145,12 +26147,12 @@ Source: jpeg-xl
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
 Installed-Size: 50
 Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.80.0), libjxl0.11 (>= 0.9.2)
-Filename: ./libjxl-gdk-pixbuf_0.11.2-5_amd64.deb
-Size: 20096
-MD5sum: 5465edbd5b804a046f769c2f8adc1a26
-SHA1: 253f5094c8a77ada7ace738e73e35cc5aba7f82e
-SHA256: 3d59c094193e2c34ca2c77915486708c4b66547ed88c5eff07ff2fe0107a7a2e
-SHA512: 28db5d3fbcfc5b755d20f7fc609df918cf09649d63ecc5a250f0d15d2fdb7549a739bc8cc22f736c971908ae54963a9a2e0e0653a58fdf278d2bb07a90e7d2fe
+Filename: ./libjxl-gdk-pixbuf_0.11.2-5.1_amd64.deb
+Size: 20424
+MD5sum: 065248cae2e0bdd52d25070cc2fc1e00
+SHA1: c07fc387f1d48db2d0c7a669bb4663c68a97bc28
+SHA256: 9cc0445e1a753e84834884bb375d93c201e3c394c5392cc47f214b6f294ac723
+SHA512: d4eaf52648f13741b84028c8ab257a9c9bafe19b7a4c773ecd6654a57cadcc9306b9446961adcc36596f94095ec34e77891ba8ad0cbebbf7b19f4e111d087370
 Homepage: https://github.com/libjxl/libjxl
 Description: JPEG XL Plugin for gdk-pixbuf
  This package installs the required files for reading JPEG XL files in
@@ -26158,20 +26160,20 @@ Description: JPEG XL Plugin for gdk-pixbuf
 
 Package: libjxl0.11
 Architecture: amd64
-Version: 0.11.2-5
+Version: 0.11.2-5.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: jpeg-xl
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
-Installed-Size: 4568
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libhwy1t64 (>= 1.0.3), liblcms2-2 (>= 2.13), libstdc++6 (>= 12)
-Filename: ./libjxl0.11_0.11.2-5_amd64.deb
-Size: 1256172
-MD5sum: e60a109d5a7ee8d1c5a978bd304977a4
-SHA1: 6f623f56bba6d911cbf27b304a73a70f58b511d4
-SHA256: fffaa4e0fa031d64ac27c276699da0c6b40242775fe3ae79ae2a3ef7d74f90b3
-SHA512: 1651c880ee0c19bad88e7b708366c9a2c2f4577663d388cc2dcae11c0947607b74214c36cafdcb176d1278bb510d422921640923d9fca66f1a767de20728e639
+Installed-Size: 4608
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgcc-s1 (>= 3.4), libhwy1t64 (>= 1.0.3), liblcms2-2 (>= 2.13), libstdc++6 (>= 12)
+Filename: ./libjxl0.11_0.11.2-5.1_amd64.deb
+Size: 1272644
+MD5sum: a4ec52008f81d097623556bd221ceb11
+SHA1: 0ad6f1649bc1feeb9319e0f9061fd891107fba46
+SHA256: 12f922d62e579d7bf19c679a0750b04e92a9ad1efb54e10627268d16939b438f
+SHA512: 6cff5ae9ae0d541c15a6915b8936f1d985e3139844634b2b431d91c162dac2c375b7dd3584c90be3e044ad9ec6c588d42feb61e0364a36421582cef1d5fa13dc
 Homepage: https://github.com/libjxl/libjxl
 Description: JPEG XL Image Coding System - "JXL" (shared libraries)
  The JPEG XL Image Coding System (ISO/IEC 18181) is a lossy and
@@ -35445,22 +35447,23 @@ Description: GObject based interface to system-tools-backends - shared library
 
 Package: libopenexr-3-4-33
 Architecture: amd64
-Version: 3.4.6+ds-4+b2
+Version: 3.4.14-0.1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: openexr (3.4.6+ds-4)
+Source: openexr
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
-Installed-Size: 2511
-Depends: libc6 (>= 2.34), libdeflate0 (>= 1.19), libgcc-s1 (>= 3.4), libimath-3-1-29t64 (>= 3.1.12), libopenjph0.28 (>= 0.28.1), libstdc++6 (>= 14)
+Installed-Size: 2627
+Provides: libopenexr-3-4-33-imath-3-2
+Depends: libc6 (>= 2.43), libdeflate0 (>= 1.19), libgcc-s1 (>= 3.4), libimath-3-2-30 (>= 3.2.2), libopenjph0.28 (>= 0.28.1), libstdc++6 (>= 13.1)
 Breaks: libopenexr-3-1-30 (<< 3.4.6+ds-3)
 Replaces: libopenexr-3-1-30 (<< 3.4.6+ds-3)
-Filename: ./libopenexr-3-4-33_3.4.6+ds-4+b2_amd64.deb
-Size: 724208
-MD5sum: 6a8b9e3196dbffb0c0d20c6d3db72806
-SHA1: b8b32edd6bb0aab1890a8c1d151d8eecd70a11f7
-SHA256: cf6c72f8ec42f209a8ef0c39d64c8376ae101b13f0311fa163e596ebab7bb4f7
-SHA512: 07ab16117954532ec935976b6dbb3b999a1e47adcbb72d79a053ece06bb6b80c995935f3712990425dcdc5c9e06227753f426698f22000a874c4aeba7b1ab23a
+Filename: ./libopenexr-3-4-33_3.4.14-0.1_amd64.deb
+Size: 781728
+MD5sum: 6f23d27d4adf8d763493a2471456fa01
+SHA1: 50666b478c96b97977626b8895b8b43a3b94c2db
+SHA256: 2a87dbc82abcaa4c98dd25d694b7c113d8de122d7e3cac17c656ea507d7bda71
+SHA512: 141760b381ebbc56ce0abded8f09e609aafe4ec2d1c33cbdb727c210cf0de8fa1052d2d06a96a6c3d8b1dbfc7b51c0ed4ad94ac5be4640a1afd53bf450524785
 Homepage: https://www.openexr.com
 Description: runtime files for the OpenEXR image library
  OpenEXR is a high dynamic-range (HDR) image file format developed by
@@ -49855,22 +49858,22 @@ Description: weather data from multiple sources
 
 Package: libwebkit2gtk-4.1-0
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 96128
-Depends: libjavascriptcoregtk-4.1-0 (= 2.52.5-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 96165
+Depends: libjavascriptcoregtk-4.1-0 (= 2.52.6-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
-Filename: ./libwebkit2gtk-4.1-0_2.52.5-1_amd64.deb
-Size: 24137028
-MD5sum: e8034473fa5a50bf1937bc3951445261
-SHA1: e5f6a7987cc9711624747b320e72ff050293d83c
-SHA256: 6ce842d2bd76669044925fff1ab1ef955a7f0e7520e1996c1c65ed81ce371872
-SHA512: 6ba2904e8d543e37c474b6f87dbbc846400d1b9c263898c29e50238c9d4e86a095fe37f83577ba775cd9689e723190a5e0cdcb9b3851af34ad7a6f09bec9ac40
+Filename: ./libwebkit2gtk-4.1-0_2.52.6-1_amd64.deb
+Size: 24162928
+MD5sum: 4b9c62824e4efc782566b55ce67608b3
+SHA1: 054962bdd0575114e7dbce93c6cade3548256123
+SHA256: 680db93a2e5fb3970bff3de1fbfcdb29db7d7e980ec51fb4202cf82a07dec374
+SHA512: abfb1f8f518828a68a5c7cea8780583769ad0a44dac1e14b5151ea12ec50cef2b239b504f53d0a3fa97a142efa72f079dd963ba44654c6c91227f153eb09b883
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -49888,22 +49891,22 @@ Description: Web content engine library for GTK
 
 Package: libwebkitgtk-6.0-4
 Architecture: amd64
-Version: 2.52.5-1
+Version: 2.52.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: webkit2gtk
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 95009
-Depends: libjavascriptcoregtk-6.0-1 (= 2.52.5-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-4-1 (>= 4.13.8), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 95046
+Depends: libjavascriptcoregtk-6.0-1 (= 2.52.6-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatomic1 (>= 4.8), libavif16 (>= 1.4.2), libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.12.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.27.50), libgtk-4-1 (>= 4.13.8), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx11-6, libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
-Filename: ./libwebkitgtk-6.0-4_2.52.5-1_amd64.deb
-Size: 23899248
-MD5sum: 1f96619a08e70180f8e81910dfb17e8b
-SHA1: e8080dc3dc8c094ca60ede9c8cbe46541e87eee6
-SHA256: f72590860ebf2293776fe2b3f4ebc2758a79a31ecc71e3fb4178450bc037b5d3
-SHA512: 9a8b542a087955bd22c8de7e122c941cf3fbdfe70126b4cec4228c8bf89164fdfe215459387eb18b4533ab509a8f3dd101c2175f71f043ded1431e7becc09939
+Filename: ./libwebkitgtk-6.0-4_2.52.6-1_amd64.deb
+Size: 23914220
+MD5sum: e26e3f8c9b8c195fd5f300fb3f4c5f0e
+SHA1: fbcb732a7a8d506e6d80795da9c5bdf3a5150955
+SHA256: 813a218643776903e41704e1020d3bca69d483a85f6976d2e08c72dac33de7ab
+SHA512: 1ba98a76c9d6a7ae54365225f35cc09e4f2ffb85aec55faea7acc7d609a96ec0c9dd9114799d3b29ed433cce65e381b2358e4a9f638cacf66a5a36dc4cbaab66
 Homepage: https://webkitgtk.org/
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
