@@ -867,20 +867,20 @@ Description: Set of tools to manage Bluetooth devices for linux
 
 Package: bluez
 Architecture: amd64
-Version: 5.87-1
+Version: 5.87-2
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 5331
+Installed-Size: 5479
 Depends: default-dbus-system-bus | dbus-system-bus, kmod, udev, systemd | systemd-standalone-sysusers | systemd-sysusers, libasound2t64 (>= 1.0.17), libc6 (>= 2.42), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196)
 Suggests: pulseaudio-module-bluetooth
-Filename: ./bluez_5.87-1_amd64.deb
-Size: 1653228
-MD5sum: 2f459a4ab8508b4c01219602af593671
-SHA1: 06f6201317e03993edf32c091724e79789637744
-SHA256: a17227cdda5ca0c55434d61162171c4b5a3371d8e8cc6ae5160ef66354809ef7
-SHA512: f37dc72f65e9c7e81369b9839dfa236ffc9d41186122c30ebf964430a99575934c9ce102f69f43240807794b302e054a1d5fed155e5f45e2cc8826a18f048567
+Filename: ./bluez_5.87-2_amd64.deb
+Size: 1725604
+MD5sum: ce5fac98fdb53d99676a6ff420d4421e
+SHA1: 1aa60a23afcbce4cc20f32e996e99c39db0a4564
+SHA256: 905f44a759279013783e5faf28238186d96bd715382813e8d2e12d7b09d9c1f6
+SHA512: 298b55e15dc302e792f2dcfaf8daeaaf5fc1839e0a3fad36df8b3b6f81561ae18949ba32d97e81611a2c69be53a1d4e0dbb5aac4c8d01deca6226e17341bdc50
 Homepage: http://www.bluez.org
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
