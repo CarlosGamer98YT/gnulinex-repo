@@ -13492,20 +13492,20 @@ Description: Input method configuration framework
 
 Package: imagemagick
 Architecture: amd64
-Version: 8:7.1.2.27+dfsg1-1+b1
+Version: 8:7.1.2.29+dfsg2-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Source: imagemagick (8:7.1.2.27+dfsg1-1)
+Source: imagemagick (8:7.1.2.29+dfsg2-1)
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
 Installed-Size: 81
 Depends: imagemagick-7.q16 (>= 8:6.9.2.10+dfsg-2~)
-Filename: ./imagemagick_8%3a7.1.2.27+dfsg1-1+b1_amd64.deb
-Size: 25836
-MD5sum: 4dcb3f65a4c7dc61b6bc76036b702e10
-SHA1: ad833f9b88f69c4c8dc058970ac92a7c555acf5a
-SHA256: 3a853b350a07f340e5a5c4106eb937fe25c15adb5a1e86508cf84a853090446f
-SHA512: 4071ae83ea078d9525edd87af90e6c1f3d9cf2bf77c545b5a9aa9eae8ae6f9703f1724871267b5ded15f08c94034b7b55d80aa1cbfc8a8df5c5ca76288abd458
+Filename: ./imagemagick_8%3a7.1.2.29+dfsg2-1+b1_amd64.deb
+Size: 25872
+MD5sum: b960dd44bfdc6fa6402eca92e910d134
+SHA1: 595987959555e7156874d1802ee55e09e95f66a2
+SHA256: 11970a21759ba6c18dc011e4c53dff527fc45f62f001156c06dbc4daf811d54f
+SHA512: d7c94226385e3c37b2c0f043db565762be692fe6fc96d95f581a468f24d0d25fa664680a7b1c8f4acb0b46200b0ae7426c7b821e0a8c815e461a32a0fd808b0f
 Homepage: https://www.imagemagick.org/
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -33202,24 +33202,24 @@ Description: Shared libraries for LXQt desktop environment (libs)
 
 Package: libmagickcore-7.q16-10-extra
 Architecture: amd64
-Version: 8:7.1.2.27+dfsg1-1+b1
+Version: 8:7.1.2.29+dfsg2-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: imagemagick (8:7.1.2.27+dfsg1-1)
+Source: imagemagick (8:7.1.2.29+dfsg2-1)
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 294
+Installed-Size: 298
 Provides: libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.2.26), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33 (>= 3.4.6+ds), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.30), libglib2.0-0t64 (>= 2.12.0), libmagickcore-7.q16-10 (>= 8:7.1.2.26), libmagickwand-7.q16-10 (>= 8:7.1.1.21), libopenexr-3-4-33-imath-3-2, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2-16 (>= 2.14.1)
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-7.q16-10
-Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.27+dfsg1-1+b1_amd64.deb
-Size: 78728
-MD5sum: 88e12e36c8c7361cd1544ce885c612c4
-SHA1: 2b253e01d73b4740c05c488af9123a46b2f9102e
-SHA256: fa4a1a46d53500d67cbfce9e48f917b32eb954d86ae689e271c4752a61bb28c1
-SHA512: afee1c260d3d5ce1e9ebc1fd50941a7337a81d807c83ccdf4728e47929c740251ab46b776cfc8bda699e94cd353f8f7abe04dfa7a9e99a9a2f4354356428d9eb
+Filename: ./libmagickcore-7.q16-10-extra_8%3a7.1.2.29+dfsg2-1+b1_amd64.deb
+Size: 79884
+MD5sum: d17e72fef56bb7405ff6743cd6b8d2f2
+SHA1: eb5da9c078ff368f5b5e134315f8e1023eeed58a
+SHA256: 0766bc23fd28f49108d06109bc8afa55062c9a56c3922f10afc98a116254f8a3
+SHA512: 414294abb39d29e88ed4b77cc68394250b8cbfc5cd6ba957454b7c47b41951b18bd85d45d686801bea6d1edc4310655321fda7847d295048cf9e9fd7e72d5394
 Homepage: https://www.imagemagick.org/
 Description: low-level image manipulation library - extra codecs (Q16)
  This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
@@ -62258,20 +62258,20 @@ Description: feature-rich audio player with support of many formats
 
 Package: qpdfview-djvu-plugin
 Architecture: amd64
-Version: 0.5.0+ds-5+b1
+Version: 0.5.0+ds-7
 Priority: optional
 Section: graphics
-Source: qpdfview (0.5.0+ds-5)
+Source: qpdfview
 Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
-Installed-Size: 135
+Installed-Size: 141
 Provides: djvu-viewer
-Depends: qpdfview (= 0.5.0+ds-5+b1), libc6 (>= 2.14), libdjvulibre21 (>= 3.5.28), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.6.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
-Filename: ./qpdfview-djvu-plugin_0.5.0+ds-5+b1_amd64.deb
-Size: 45700
-MD5sum: d905549249b88df88ab8f5c18074097a
-SHA1: a892eca5371e3dd40a779d10e35c484496594532
-SHA256: afa603d515e61d1e0f1d2673496962390c19b3f5fb6ca2b7e2180e11a5743453
-SHA512: 62820afee5671b12ee884be310cde90155a9f822dca095e50568386f7e2d6abf07810c4f54c51dcb5b5af3c6ac6de5ca0671e4bef005cb01d7dd960dcacb8580
+Depends: qpdfview (= 0.5.0+ds-7), libc6 (>= 2.14), libdjvulibre21 (>= 3.5.30), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
+Filename: ./qpdfview-djvu-plugin_0.5.0+ds-7_amd64.deb
+Size: 47092
+MD5sum: a49a1caddb213640f366468f7297e8dd
+SHA1: 081aa0cfc6ed626f9a6c0cc3279956cf36d4e3e3
+SHA256: ba0078d6fb3ee61680e987464dd8b411faa0898521ff1e518e75afe3bc6b3f97
+SHA512: 40002ce3e6c72975469c8b1298151074bc3aefc89a301447bc4bf426fc356767239715f345b27617935d991fe0d634166185abf67f7f9e3dd9039ecebbfc8bb2
 Homepage: https://launchpad.net/qpdfview
 Description: tabbed document viewer - DjVu plugin
  qpdfview is a simple tabbed document viewer which uses the Poppler library for
@@ -62283,21 +62283,19 @@ Description: tabbed document viewer - DjVu plugin
 
 Package: qpdfview-pdf-poppler-plugin
 Architecture: amd64
-Version: 0.5.0+ds-5+b1
+Version: 0.5.0+ds-7
 Priority: optional
 Section: graphics
-Source: qpdfview (0.5.0+ds-5)
+Source: qpdfview
 Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
-Installed-Size: 262
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpoppler-qt6-3t64 (>= 21.11.0), libqt6core6t64 (>= 6.6.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5)
-Breaks: qpdfview (<< 0.4.18-3~)
-Replaces: qpdfview (<< 0.4.18-3~)
-Filename: ./qpdfview-pdf-poppler-plugin_0.5.0+ds-5+b1_amd64.deb
-Size: 68920
-MD5sum: 0a63ca2bf350b6747e54633f31c37035
-SHA1: 9d06364bcb7be1b54c707bac6df67487547b611a
-SHA256: 48d94ef4760f6137364597474d1e90dfa3f07088c48bf1d2157a20bf7ea3f768
-SHA512: 054dadf0fb9d35c26449f7c283f54b48ff813bf89a616e6eb092819f6b5fdeac30ad6fbd24dc48058926564aa840696e17cc8b2799fae5179d6fae9bcd513884
+Installed-Size: 256
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpoppler-qt6-3t64 (>= 21.11.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5)
+Filename: ./qpdfview-pdf-poppler-plugin_0.5.0+ds-7_amd64.deb
+Size: 67724
+MD5sum: cc80eb5870e4e1b179c4a80b0292902f
+SHA1: a108fa7f3ce940b8c2e9b7532c0e5809e49643bb
+SHA256: 0419569ce4942aebd028ee1502c82e6ae1caec0563235997e136d01e7f088d94
+SHA512: df9f882ec181984ae7d0479b0447d3f867024c092f1974ebf5976289b9fc096a5189cc2d9282e37348d5c7e2073a2eb24b3a528fc46e3c70b8185899c1d44754
 Homepage: https://launchpad.net/qpdfview
 Description: tabbed document viewer - Poppler plugin
  qpdfview is a simple tabbed document viewer which uses the Poppler library for
@@ -62309,20 +62307,20 @@ Description: tabbed document viewer - Poppler plugin
 
 Package: qpdfview-ps-plugin
 Architecture: amd64
-Version: 0.5.0+ds-5+b1
+Version: 0.5.0+ds-7
 Priority: optional
 Section: graphics
-Source: qpdfview (0.5.0+ds-5)
+Source: qpdfview
 Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
-Installed-Size: 91
+Installed-Size: 93
 Provides: postscript-viewer
-Depends: qpdfview (= 0.5.0+ds-5+b1), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.6.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libspectre1 (>= 0.2.3), libstdc++6 (>= 5)
-Filename: ./qpdfview-ps-plugin_0.5.0+ds-5+b1_amd64.deb
-Size: 29952
-MD5sum: c8f40a4d1e5199e9de25f274b6735a41
-SHA1: 89ad430730f1b3b2510d0744b761e94fc9ab1443
-SHA256: a569b2933d766f5d0bdb88aa847d03bad1770d166bf4cc4fa3373dcee5dff200
-SHA512: 6d533d2d7a94fed5be79371673330b592a136d111573b2392dfab608e31a0af20fe6335594c3c7ee32883a2ffdc7b21341c905e4647052ba791eef758878d0eb
+Depends: qpdfview (= 0.5.0+ds-7), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libspectre1 (>= 0.2.3), libstdc++6 (>= 5)
+Filename: ./qpdfview-ps-plugin_0.5.0+ds-7_amd64.deb
+Size: 28992
+MD5sum: 5a8be15211d14816ccb1a567f4c3c1ff
+SHA1: 958d70acdffd45d664c7b9ca5d9e16b9106ba2b4
+SHA256: b6f5342547f12889cbdf4bcc1670cb17f253bed840837e29c0e0abde6cfb2ebe
+SHA512: ffb6e43b008819b9869dcaa3385784b55bc93db4fb1fcab0ee3d1e8716c400105e92ad29df013f2cf5a9d16b33e0ac801ed5500612ae10ecca202e52daf52e77
 Homepage: https://launchpad.net/qpdfview
 Description: tabbed document viewer - PostScript plugin
  qpdfview is a simple tabbed document viewer which uses the Poppler library for
@@ -62334,20 +62332,19 @@ Description: tabbed document viewer - PostScript plugin
 
 Package: qpdfview-translations
 Architecture: all
-Version: 0.5.0+ds-5
+Version: 0.5.0+ds-7
 Priority: optional
 Section: graphics
 Source: qpdfview
 Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
-Installed-Size: 2458
-Depends: qpdfview (>= 0.5.0+ds-5)
-Replaces: qpdfview-languages
-Filename: ./qpdfview-translations_0.5.0+ds-5_all.deb
-Size: 295620
-MD5sum: 69e7dc3c4cc135dd713032c81627aa38
-SHA1: 511d3a21386a28e813e51ca7c695718a4c30e37e
-SHA256: 4bb2d478a31c8c0e5e1d0bc91d9e7203216ec3adfc772959952fc6a44449678d
-SHA512: ba3b56194ff57e9e2223b7fdc0c09615edb9fd6c3b9cdec06da2fa172664b78b7c2f640321327c05b70a080581d1baa0401b904813b5767c06e23b11741a1903
+Installed-Size: 2457
+Depends: qpdfview (>= 0.5.0+ds-7)
+Filename: ./qpdfview-translations_0.5.0+ds-7_all.deb
+Size: 294436
+MD5sum: c114d2dbf53d8b72233836c7bad8ef9e
+SHA1: 56eda461f454bcbbee7f05f1a7cadb900f172050
+SHA256: 631424fa1b118df04ae1f02710603c7670ebfbd64bc97ebd7e286e915d8c811c
+SHA512: af4f36c43b8ee499c57d63ad5213f6653c410242b3d44692018933a095902b8c9b03475bc4109b5b379477b27006056db0c8651e2395ea5e08250816960d53be
 Homepage: https://launchpad.net/qpdfview
 Description: tabbed document viewer - translations
  qpdfview is a simple tabbed document viewer which uses the Poppler library for
@@ -62359,21 +62356,20 @@ Description: tabbed document viewer - translations
 
 Package: qpdfview
 Architecture: amd64
-Version: 0.5.0+ds-5+b1
+Version: 0.5.0+ds-7
 Priority: optional
 Section: graphics
-Source: qpdfview (0.5.0+ds-5)
 Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
-Installed-Size: 1414
+Installed-Size: 1480
 Provides: pdf-viewer
-Depends: libc6 (>= 2.34), libcups2t64 (>= 1.4.0), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.6.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 13.1), libsynctex2 (>= 2024.20240313.70630+ds), hicolor-icon-theme, libqt6sql6-sqlite, libqt6svg6, qpdfview-pdf-poppler-plugin
-Recommends: qpdfview-djvu-plugin (= 0.5.0+ds-5+b1), qpdfview-ps-plugin (= 0.5.0+ds-5+b1), qpdfview-translations (= 0.5.0+ds-5)
-Filename: ./qpdfview_0.5.0+ds-5+b1_amd64.deb
-Size: 391448
-MD5sum: a7f2b18fdc7e74a8716081c1875ffe72
-SHA1: ecbb9e2d6fe47829d9b3a2240d898f3ac63f8469
-SHA256: 5aeb82e4ef8413345674e6db8fc35945c1204321c88639373bd3ac613962ddbb
-SHA512: 4c418da109c9ad6d8b3188090a6febfcd1b9ea95c8671bc73a5a20090a29a070012d63c2ce468ebe288c1b9691a0fe1e4c3bcbda8f8b2da97fa8568fdfb2e507
+Depends: libc6 (>= 2.34), libcups2t64 (>= 1.4.0), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.8.2), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 14), libsynctex2 (>= 2026.20260303.78225+ds), hicolor-icon-theme, libqt6sql6-sqlite, libqt6svg6, qpdfview-pdf-poppler-plugin
+Recommends: qpdfview-djvu-plugin (= 0.5.0+ds-7), qpdfview-ps-plugin (= 0.5.0+ds-7), qpdfview-translations (= 0.5.0+ds-7)
+Filename: ./qpdfview_0.5.0+ds-7_amd64.deb
+Size: 418184
+MD5sum: 8e8a0e617647a3a476b6d0b3ecd774fb
+SHA1: da98ad11dae2c3830e9c00f039e3b331dec955a6
+SHA256: b71cc291cc24c109d55eafdf4051c6d91570c1893e15d182f8d0400773d344ea
+SHA512: bd052421cfb571ab301296d86243382ab2ba68f565445787676a6d886c18ee896ffb250178aed70433320534e7358bcf547147eefc8549f830c1aa6d0c8b7951
 Homepage: https://launchpad.net/qpdfview
 Description: tabbed document viewer
  qpdfview is a simple tabbed document viewer which uses the Poppler library for
@@ -62393,6 +62389,7 @@ Description: tabbed document viewer
    - Partial form support (PDF only)
    - Persistent per-file settings
    - Support for DjVu and PostScript documents via plugins
+Commands: qpdfview
 
 Package: qps
 Architecture: amd64
