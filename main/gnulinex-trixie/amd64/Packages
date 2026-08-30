@@ -2512,20 +2512,20 @@ Description: GTK+ Clipboard manager
 
 Package: dolphin-data
 Architecture: all
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: utils
 Source: dolphin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7795
+Installed-Size: 7980
 Breaks: dolphin (<< 4:24.05.2-1~)
 Replaces: dolphin (<< 4:24.05.2-1~)
-Filename: ./dolphin-data_4%3a26.04.0-1_all.deb
-Size: 955172
-MD5sum: 4da9b41ef3600c3f4794f65079bc54f0
-SHA1: 93bb68482f87dd1f424a602862a2610d1925adf3
-SHA256: 6ad455ddbd0d4a2f1b86ecb7b8e45c02825bf66d28559dc87f142a074a816b9b
-SHA512: aa0befcf5a34bb0f24e8bc039e1f8d59aaac8c5f136f4327c5fc76a2514257c12614a1cf28a4bfcfb0e9e34e83701615d2e2bca7a24cb0fddfcb1e666784ce7d
+Filename: ./dolphin-data_4%3a26.08.0-1_all.deb
+Size: 982456
+MD5sum: d6437f501ab0dd7d42c7613c890c7f71
+SHA1: 45a3eb1518e87fa0730e0e351cd5c619aafd59c2
+SHA256: 9dbdf17525e4981b32af5376bcc353bfffb29425e77a83d026c3d722eb728fcf
+SHA512: 0b321b89d91bbed05634e3720adf8bddc52a19a047f8fbbee6e7c1ac5dd414432f69fa52659c6f62ac3640edadb993f3e3ae3d2a23fc4e6d2f5427233873f2e8
 Homepage: https://apps.kde.org/dolphin/
 Description: file manager - data
  Dolphin is KDE's file manager that lets you navigate and browse the contents
@@ -2536,7 +2536,7 @@ Description: file manager - data
 
 Package: dolphin-doc
 Architecture: all
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: doc
 Source: dolphin
@@ -2544,12 +2544,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 4563
 Breaks: dolphin (<< 4:24.05.2-1~)
 Replaces: dolphin (<< 4:24.05.2-1~)
-Filename: ./dolphin-doc_4%3a26.04.0-1_all.deb
-Size: 2973128
-MD5sum: 8c6a77a422c457e10b2474eb8e18bb63
-SHA1: 01b2da54c5b02aa7713b8df335e33b673e836199
-SHA256: 5d208b3df20d4e4b099f2899056486290b2db58e212b5b73d055704776adc0bb
-SHA512: 23321eb2023b382d78c1be3152f888372adc19cf4fb4d44b1a37023b172890d9a4f2090a154e9e0e6f6c7cd9010016205f7aba67119d5e1bd04cfd5b88965ef6
+Filename: ./dolphin-doc_4%3a26.08.0-1_all.deb
+Size: 2973352
+MD5sum: 1e8801b6052bd02c6201d065f6720bb5
+SHA1: a8796861c33e62f0d4898e8ad7b847863e39a3eb
+SHA256: f8bf26d82cc896d5f06c3d2972d31f35e04eede1419e205ae794f7278a82d1d6
+SHA512: 92add9b0a4250e09dff63bd92f638e39fc6383eeb9bf6d13844dcac9e617cb30b510a85b13b65092cf4233cd68887ae210cbe907c68062a3882934294061faa1
 Homepage: https://apps.kde.org/dolphin/
 Description: file manager - documentation
  Dolphin is KDE's file manager that lets you navigate and browse the contents
@@ -2560,22 +2560,22 @@ Description: file manager - documentation
 
 Package: dolphin
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: utils
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4372
-Depends: baloo6, dolphin-data (= 4:26.04.0-1), kio6, libc6 (>= 2.34), libdolphinvcs6 (= 4:26.04.0-1), libkf6baloo6 (>= 6.23.0~), libkf6baloowidgets6 (>= 4:26.04~), libkf6bookmarks6 (>= 6.23.0~), libkf6bookmarkswidgets6 (>= 6.23.0~), libkf6codecs6 (>= 6.23.0~), libkf6colorscheme6 (>= 6.23.0~), libkf6completion6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0), libkf6configgui6 (>= 6.23.0), libkf6configwidgets6 (>= 6.10.0), libkf6coreaddons6 (>= 6.23.0~), libkf6crash6 (>= 6.23.0~), libkf6dbusaddons6 (>= 6.23.0~), libkf6filemetadata3 (>= 6.23.0~), libkf6guiaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libkf6iconthemes6 (>= 6.23.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.23.0~), libkf6kcmutilscore6 (>= 6.23.0~), libkf6kiocore6 (>= 6.23.0~), libkf6kiofilewidgets6 (>= 6.23.0), libkf6kiogui6 (>= 6.23.0~), libkf6kiowidgets6 (>= 6.23.0~), libkf6newstuffwidgets6 (>= 6.23.0~), libkf6notifications6 (>= 6.23.0~), libkf6parts6 (>= 6.23.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.23.0~), libkf6textwidgets6 (>= 6.23.0~), libkf6userfeedbackcore6 (>= 6.23.0~), libkf6userfeedbackwidgets6 (>= 6.23.0~), libkf6widgetsaddons6 (>= 6.23.0~), libkf6windowsystem6 (>= 6.23.0~), libkf6xmlgui6 (>= 6.0.0), libpackagekitqt6-2 (>= 1.1.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.9.1), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.4.0~), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 4553
+Depends: baloo6, dolphin-data (= 4:26.08.0-1), kio6, libc6 (>= 2.34), libdolphinvcs6 (= 4:26.08.0-1), libkf6baloo6 (>= 6.23.0~), libkf6baloowidgets6 (>= 4:26.08~), libkf6bookmarks6 (>= 6.23.0~), libkf6bookmarkswidgets6 (>= 6.23.0~), libkf6codecs6 (>= 6.23.0~), libkf6colorscheme6 (>= 6.23.0~), libkf6completion6 (>= 6.23.0~), libkf6configcore6 (>= 6.23.0), libkf6configgui6 (>= 6.23.0), libkf6configwidgets6 (>= 6.10.0), libkf6coreaddons6 (>= 6.23.0~), libkf6crash6 (>= 6.23.0~), libkf6dbusaddons6 (>= 6.23.0~), libkf6filemetadata3 (>= 6.23.0~), libkf6guiaddons6 (>= 6.23.0~), libkf6i18n6 (>= 6.23.0~), libkf6iconthemes6 (>= 6.23.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.23.0~), libkf6kcmutilscore6 (>= 6.23.0~), libkf6kiocore6 (>= 6.23.0~), libkf6kiofilewidgets6 (>= 6.23.0), libkf6kiogui6 (>= 6.23.0~), libkf6kiowidgets6 (>= 6.26.0), libkf6newstuffwidgets6 (>= 6.23.0~), libkf6notifications6 (>= 6.23.0~), libkf6parts6 (>= 6.23.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.23.0~), libkf6textwidgets6 (>= 6.23.0~), libkf6userfeedbackcore6 (>= 6.23.0~), libkf6userfeedbackwidgets6 (>= 6.23.0~), libkf6widgetsaddons6 (>= 6.23.0~), libkf6windowsystem6 (>= 6.23.0~), libkf6xmlgui6 (>= 6.0.0), libpackagekitqt6-2 (>= 1.1.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.9.1), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.10.2)
 Recommends: dolphin-doc (>= 4:24.05.2~), dolphin-plugins, ffmpegthumbs, kdegraphics-thumbnailers, kdenetwork-filesharing, kimageformat6-plugins, kio-extras (>= 4:24.12.2~), qt6-image-formats-plugins
 Suggests: kio-admin
 Breaks: dolphin-data (<< 4:24.12.2-2~), dolphin-plugins (<< 4:24.05~)
 Replaces: dolphin-data (<< 4:24.12.2-2~)
-Filename: ./dolphin_4%3a26.04.0-1_amd64.deb
-Size: 1023316
-MD5sum: a4211771befdd2cc0c8fb6a756eec568
-SHA1: 882dc5b886aaad7bae18dcfcf2a6733324373810
-SHA256: 0001322b2e32b4ee2e03185f05461162e97ec4713dfbdd58e01525bb03f4a842
-SHA512: a115753ea613847fa22a581bbb337b94f06a8b0a35da22f4df174e3fa54574d59d2aa88849f936c366e9a92e27e4e0d396f510f69c3ed4513cc877dae13564e3
+Filename: ./dolphin_4%3a26.08.0-1_amd64.deb
+Size: 1071072
+MD5sum: c92a4a62c79d066408402b87fa2339e9
+SHA1: 6b856d896e8844f1c77d93afdf1d242e582efe09
+SHA256: a8c385f3fbdb3d1e908b914001cf3e12f664341719687d5c1902a0203b419abb
+SHA512: a0d0acc80f13508d7bdbe70809ce6b052f0d8cbca8d3ca1e6701fe56b989ef29d972cc9bc3646899258f9628f6dd9251288409d1707399e7b9787e2b5838d4eb
 Homepage: https://apps.kde.org/dolphin/
 Description: file manager
  Dolphin is KDE's file manager that lets you navigate and browse the contents
@@ -15068,19 +15068,19 @@ Description: KDE window manager, X11 version
 
 Package: labwc
 Architecture: amd64
-Version: 0.20.1-1
+Version: 0.20.2-1
 Priority: optional
 Section: x11
 Maintainer: Lab Wayland Compositor Team <team+labwc@tracker.debian.org>
-Installed-Size: 865
+Installed-Size: 889
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.68.0+git20210214), libinput10 (>= 1.28.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.19.6), libpng16-16t64 (>= 1.6.46), librsvg2-2 (>= 2.46.0), libsfdo0 (>= 0.1.4), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-server0 (>= 1.23.0), libwlroots-0.20 (>= 0.20.0~), libxcb-ewmh2 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.0.0), libxml2-16 (>= 2.14.1)
 Suggests: foot | alacritty | x-terminal-emulator, kanshi, mako-notifier, swaybg, swayidle, waybar, xwayland
-Filename: ./labwc_0.20.1-1_amd64.deb
-Size: 318388
-MD5sum: 0b87e147554f17f467923d9641885b5e
-SHA1: e9cadb045724b3f5b73d48a07c301d60ee0741a0
-SHA256: 104ab64ae76c03ed64bc1b30f866f24e9d49221220244fb96f804c8da84a2809
-SHA512: 3e54d5085de67af34bf3a1804f08cfb69126b8ee62343dae3caced55fdc40583270695cebdfb3498ac9990a87fcc4ed18f4829f7477cc0c1314d29d9202b6529
+Filename: ./labwc_0.20.2-1_amd64.deb
+Size: 330600
+MD5sum: 73790fe08b712888b4e37c1e7cc5f164
+SHA1: db91308a5426e98e654d8cc8c07473af14be6b49
+SHA256: 12afbc445d4d9772381a5a64b2bcfdd95de70f8b0630e750194436877a15440b
+SHA512: fb2e5a1c684b83f223e5772d075755cecb7287998eb50a4f4f4285a2227e071fde02f7d13f35da93c7da326ffd87c107548dc894e3091a4bfb2298b606557619
 Homepage: https://labwc.github.io/
 Description: window-stacking Wayland compositor
  Labwc is a wlroots-based window-stacking compositor for wayland, inspired by
@@ -16481,21 +16481,21 @@ Description: Dynamic, any to any, pixel format conversion library
 
 Package: libbaloowidgets-bin
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: libs
 Source: baloo-widgets
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 116
+Installed-Size: 120
 Depends: kio6, libc6 (>= 2.34), libkf6baloowidgets6 (>= 4:25.12.1), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.4.0~), libkf6i18n6 (>= 6.4.0~), libkf6kiocore6 (>= 6.4.0~), libkf6kiogui6 (>= 6.4.0~), libkf6kiowidgets6 (>= 6.4.0~), libkf6widgetsaddons6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1)
 Breaks: libkf5baloowidgets-bin
 Replaces: libkf5baloowidgets-bin
-Filename: ./libbaloowidgets-bin_4%3a26.04.0-1_amd64.deb
-Size: 26512
-MD5sum: 26ebe4f0e5d7f6515eb6ea6e917293d0
-SHA1: aa4ad9f94374c55ca15649d7f3bd75ac5ff18294
-SHA256: aa0c57e134697b6c804ce12149c329ef158cadd90589692e50eb9890860ac5ec
-SHA512: f77c90fb0de7bc96d2f0f9b76d9e30f1b24f3d5d90d001eff31abb6be4714036e4129243a431490fc7a323fb2931e40a87bb64576b80ae5a8d65c6ce5e0d709b
+Filename: ./libbaloowidgets-bin_4%3a26.08.0-1_amd64.deb
+Size: 27152
+MD5sum: f4e85152a59fabefb4411e6cd58e22f4
+SHA1: 6c0d2c3c3df790c1f9ca66b84d15698e3aab60ef
+SHA256: a684fc0463dfcce9855b66e207514638ab6761c12aa090cdc78216460045d5b2
+SHA512: 6ad479f1f583939c3ef1efd91d9f8f3197ebabbcc854c428b93fb97b2cc8e8d29d75fb2dbd41887b97975d0186ef9fd77b4359158abca45ddb544b5b7360f85d
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: Wigets for use with Baloo - binaries
  Baloo is a framework for searching and managing metadata.
@@ -18805,7 +18805,7 @@ Description: DMAP client and server library - runtime
 
 Package: libdolphinvcs6
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -18813,12 +18813,12 @@ Source: dolphin
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 50
 Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libdolphinvcs6_4%3a26.04.0-1_amd64.deb
-Size: 11212
-MD5sum: 0fff7674c72ba6ffed9bf39deac6b0ad
-SHA1: b531e512fb7f3e6f24c285aa9c0236b44fb9370a
-SHA256: f1270efab79ecb6632dbcd962f23757e12871dfeaa7a43c5e229f0188967af21
-SHA512: c9f8cbf4db20eab311756b12476290a7adaaee04a9a9f390c782c92706111559be5849edcdf617d9ec3117a6f5416aeda328f339c0d10fb78b97d2414e9e0e9b
+Filename: ./libdolphinvcs6_4%3a26.08.0-1_amd64.deb
+Size: 11204
+MD5sum: 2fb2c10d4c379755f99be49331216360
+SHA1: 69e0be9150312a567c10e84be48557549c18a28f
+SHA256: d3608217e4fdae5ffea58f656b9c2fc0b3053ab90063936b5de332e9d0128fb8
+SHA512: a5d1ca4811d23a4f37acd5bf9b7ee9ff320a4e051c62837a0b91673397897b15b121ffdac5b0547cb2a15bd58a7ec5ef834cd9f58c2dbee8414e0cd82bf77e48
 Homepage: https://apps.kde.org/dolphin/
 Description: library to show version control in Dolphin
  This library enables developers to expand Dolphin with the ability to show
@@ -26608,23 +26608,23 @@ Description: framework for file search and metadata management - internal librar
 
 Package: libkf6baloowidgets6
 Architecture: amd64
-Version: 4:26.04.0-1
+Version: 4:26.08.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: baloo-widgets
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 624
+Installed-Size: 618
 Depends: libkf6filemetadata-bin, kio6, libc6 (>= 2.14), libkf6baloo6 (>= 6.4.0~), libkf6configcore6 (>= 6.4.0~), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.4.0~), libkf6i18n6 (>= 6.4.0~), libkf6kiocore6 (>= 6.4.0~), libkf6service-bin, libkf6service6 (>= 6.4.0~), libkf6widgetsaddons6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1)
 Recommends: libbaloowidgets-bin
 Breaks: libkf5baloowidgets5
 Replaces: libkf5baloowidgets5
-Filename: ./libkf6baloowidgets6_4%3a26.04.0-1_amd64.deb
-Size: 124868
-MD5sum: 11e589cb5c3a260d61c92adf64980e41
-SHA1: f2c895fbe906d77f3084252eed183d85b2586755
-SHA256: 029e206be320b6910c28e0ed3705924c566cd45300682ef5dfe5c43ab0c2f06c
-SHA512: 1f2a8a0b924e40010292a78ec02227b2a4c9dd75b9dda873d37013384ddfcbd84f648dad896855650bad4c15e11517870341122e7fcc64634021429fd9ac07dd
+Filename: ./libkf6baloowidgets6_4%3a26.08.0-1_amd64.deb
+Size: 123996
+MD5sum: f5fa567eec7374c067b1d175e023aa4a
+SHA1: b8a0b69e8fcae4569437843a99507c4634c39d88
+SHA256: 01b798ba5504875c1f2b0e995f17db1d5ebe9aeb537e846c9a78afcf7b69f3f5
+SHA512: 35eea43f953cf45b2a616d56096382d4bbdae2bb26161395778458fb0934f68b20539b209459f600a00db55c707c27752883c70a148601de81c98b0bb2cb7aa1
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: Wigets for use with Baloo
  Baloo is a framework for searching and managing metadata.
@@ -35281,19 +35281,19 @@ Description: RemoteDesktop portal DBus helper library
 
 Package: libokular6core4
 Architecture: amd64
-Version: 4:26.04.2-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: libs
 Source: okular
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1614
+Installed-Size: 1666
 Depends: kio6, kwallet6, libc6 (>= 2.38), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libphonon4qt6-4t64 (>= 4:4.12.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.6.0~), libqt6printsupport6 (>= 6.6.0~), libqt6qml6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 13), phonon4qt6, zlib1g (>= 1:1.1.4)
-Filename: ./libokular6core4_4%3a26.04.2-1_amd64.deb
-Size: 437304
-MD5sum: f92687102004e2428d3bb372d4011c9f
-SHA1: 7d100a56a12985d46da672304af0670d6ea2d552
-SHA256: 3283f42355707277a12954c8a03551ce8c007b05c483d783d6890e424a1abcd7
-SHA512: 735bca736375a5e48ed04a9107f9c557c47b2c5a9bafe642acf147a29448fc0506b08fa2bfd6bc74d817d2553e42180e47201d4256b43b6e059bab1b7b55f413
+Filename: ./libokular6core4_4%3a26.08.0-1_amd64.deb
+Size: 455256
+MD5sum: f4f3dda37294084f4b64439d3837b1a7
+SHA1: 06bb3c765fec25cc01dafda857d312a1cabc6c64
+SHA256: 0c53b843875e3f08423556831e962c50a2f1658ae77e7242b4def55182c9f91a
+SHA512: 4d1544c1717deb2fa4034653e3d46df277b5daaae00938e229fbdc99703c1a45c670cd0bde2642f7dbc56f053e6e2acb18f535edc902a49e778b3e3afb36df0b
 Homepage: https://okular.kde.org
 Description: libraries for the Okular document viewer
  This package contains libraries used by the Okular document viewer.
@@ -56188,20 +56188,20 @@ Description: preferences manager for Openbox window manager
 
 Package: okular-data
 Architecture: all
-Version: 4:26.04.2-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: graphics
 Source: okular
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7671
+Installed-Size: 7829
 Breaks: okular (<< 4:24.05.2-1~)
 Replaces: okular (<< 4:24.05.2-1~)
-Filename: ./okular-data_4%3a26.04.2-1_all.deb
-Size: 1047756
-MD5sum: 202331642095483923c38fb4a41c447a
-SHA1: 8a6db14e264a0249e265f1e10ea3800d5d7ede33
-SHA256: d85e761bf152ee1fab65db9e59dbb243d40bd0b0448bd69ada830416ac377341
-SHA512: 3fa4fb46f92c66eae3b37b13415a4e0f2b11f805b4f5654187e2110a1ab62abd0bbcfc84cfcc460776a841d83c02bedc88393844f7ba41149ea6531bb1887b4e
+Filename: ./okular-data_4%3a26.08.0-1_all.deb
+Size: 1075712
+MD5sum: 707af11729c78c7001ca609613de0f32
+SHA1: 3e77d6d962b6f86fa448bda51ea66314cd250c09
+SHA256: 225d7e925566d6f5d59d1ed3763e83c049f3d071e387119fb66e3384402ea789
+SHA512: c748eb5c77c234b16d1c23f0adff4e01ba2a7fce8addcd0e5f76669b1b69451d22693db3c4e102c93f20b8706b1ba44c56cf232cd62336efc8e4495aa827c725
 Homepage: https://okular.kde.org
 Description: universal document viewer - data files
  Okular is a universal document viewer with support for advanced document
@@ -56211,23 +56211,23 @@ Description: universal document viewer - data files
 
 Package: okular
 Architecture: amd64
-Version: 4:26.04.2-1
+Version: 4:26.08.0-1
 Priority: optional
 Section: graphics
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4419
+Installed-Size: 4547
 Provides: pdf-viewer, postscript-viewer
-Depends: okular-data (= 4:26.04.2-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.04.2-1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 26.01.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
+Depends: okular-data (= 4:26.08.0-1), kio6, kwallet6, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6bookmarks6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.3.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6wallet6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libokular6core4 (= 4:26.08.0-1), libphonon4qt6-4t64 (>= 4:4.12.0), libpoppler-qt6-3t64 (>= 26.01.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.6.0~), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.6.0~), libqt6texttospeech6 (>= 6.6.1), libqt6widgets6 (>= 6.6.0~), libqt6xml6 (>= 6.6.0), libspectre1 (>= 0.2.3), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.10.2)
 Recommends: cups-bsd, okular-doc
-Suggests: ghostscript, okular-extra-backends (= 4:26.04.2-1), poppler-data, texlive-binaries, unrar
+Suggests: ghostscript, okular-extra-backends (= 4:26.08.0-1), poppler-data, texlive-binaries, unrar
 Breaks: okular-data (<< 4:24.12.2-1~)
 Replaces: okular-data (<< 4:24.12.2-1~)
-Filename: ./okular_4%3a26.04.2-1_amd64.deb
-Size: 1058588
-MD5sum: 1e1fcd9b57806bb252fe8aecab998f8e
-SHA1: 1b9d8027d30c02eff2eedc29450f32f2480fd7ea
-SHA256: 16ddeb83b0c8108e38d45968efed2817b764605929c7cb1be0407b287b2389b1
-SHA512: 0ab105a9bf39f12a6961a418a2138e591a03edc5d022517b330fa33f3d04eebc2f9139a6a1c6c71d567aecc92ff8a95e5ab7338bb65345a988f457eb78909c74
+Filename: ./okular_4%3a26.08.0-1_amd64.deb
+Size: 1088740
+MD5sum: 79222af700f4a5cd4e6c0b6e5523e216
+SHA1: 4e588686a946f54d027b2d7ce850a527b715a775
+SHA256: 4f79211bb0ff29e9e5809763e3b3b4b442bf4deb05c6b83bf0614b0fa3556350
+SHA512: 5dda7f4ad5bfd3ac993a7a3e73cd2b37a7c4b34a650951a2691e5e50407a3ed3e897daf5ba78d0191a86b82e227c278961efde388219517e0fffd83f5c8a4e2f
 Homepage: https://okular.kde.org
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
@@ -64026,22 +64026,22 @@ Description: Debian Breeze SDDM theme
 
 Package: sddm-theme-debian-elarun
 Architecture: all
-Version: 0.21.0+git20260801.f62b7ba-2
+Version: 0.21.0+git20260801.f62b7ba-3
 Priority: optional
 Section: kde
 Source: sddm
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1691
+Installed-Size: 1692
 Provides: sddm-theme
 Depends: desktop-base, qml6-module-qtquick
 Recommends: sddm
-Breaks: sddm (<< 0.21.0+git20260801.f62b7ba-2)
-Filename: ./sddm-theme-debian-elarun_0.21.0+git20260801.f62b7ba-2_all.deb
-Size: 1621240
-MD5sum: bc0ffab8f57bc928b5f6b90b3cfc6190
-SHA1: 25fbfd58b1fea4b4b9c659ce1475faa90c071255
-SHA256: 91ef6bfb1801cf69597c2dfc2c3037dd5e2268ab181cad6528f8404acb57237c
-SHA512: b9732477fb395c97b8fba0729b9bcb915fe9ffa8ea64f15a2d1d2fe7d19d798b82c0fc2e955a9d0593c0774cca13f8fcd88923a495ef0db001d88ec0e58925b2
+Breaks: sddm (<< 0.21.0+git20260801.f62b7ba-3)
+Filename: ./sddm-theme-debian-elarun_0.21.0+git20260801.f62b7ba-3_all.deb
+Size: 1621392
+MD5sum: ff773f0440d7840b15754ca33ef475ff
+SHA1: ffe11b0df0698836456132273df02d121040a9fe
+SHA256: f1fa4f86889b2788edb9b201406e2e6b97ada97f513a24508376d95ae5b8bf11
+SHA512: cfad3e7f43a700f4508f5a6c71587e18b26dc60a859cf58f00489e7e06a1c56cf3004a452620cab75036b4e2149f044c032c75cd3cdfc7d4f33a99b2f41909ec
 Homepage: https://github.com/sddm/sddm
 Description: 'Debian Elarun' Theme for SDDM X11 display manager
  Elarun theme for SDDM, using the active desktop-base theme for the
@@ -64049,22 +64049,22 @@ Description: 'Debian Elarun' Theme for SDDM X11 display manager
 
 Package: sddm
 Architecture: amd64
-Version: 0.21.0+git20260801.f62b7ba-2
+Version: 0.21.0+git20260801.f62b7ba-3
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2471
+Installed-Size: 2472
 Provides: x-display-manager
 Depends: x11-common, xauth, xkb-data, xserver-xorg | xserver, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), libxcb-xkb1, libxcb1, qml6-module-qtquick
 Recommends: libpam-systemd, sddm-theme-debian-breeze | sddm-theme
-Suggests: libpam-kwallet5
+Suggests: libpam-kwallet5, libpam-gnome-keyring
 Breaks: sddm-theme-breeze (<< 4:6.0.0~)
-Filename: ./sddm_0.21.0+git20260801.f62b7ba-2_amd64.deb
-Size: 757500
-MD5sum: 38f3fb54e4c22235852dd492642f22c3
-SHA1: 51974cdafe9427c1fbac95d34194997f228ff23b
-SHA256: f0cc85d0e35126dfea08978484ea1908e84b9a67263d3a3bca53b19d5895bfe9
-SHA512: b37d9376946185df0fa667f7259d6b064fa873051d8cb5dc434d110ca72a8f0ede637b61a865bc202ac6ff1d464d1f83ff6f99ddc311f0891576ea3ed20abdf2
+Filename: ./sddm_0.21.0+git20260801.f62b7ba-3_amd64.deb
+Size: 757796
+MD5sum: 7f196c1a2fdfa49f9f142209ab920eb2
+SHA1: ed80b6c36ae7b449b0383dcc64dab814d9467095
+SHA256: ab0f2ec40858a588b7b1c7fbfce33f29c63ca591f1e6c57bf89470a7f7faa65f
+SHA512: c76d14602c675cb12564a800fc709cef9f568d77840d685e4dfb0eb95b02adc5719ae8835f1d23808593403a199d1f6d87407b3def1adf1a77fa72aa9218d623
 Homepage: https://github.com/sddm/sddm
 Description: modern display manager for X11
  SDDM is a modern display manager for X11 aiming to be fast, simple
