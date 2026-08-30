@@ -7916,20 +7916,20 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-girepository-3.0
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 108
-Depends: gir1.2-glib-2.0 (= 2.88.3-3), libgirepository-2.0-0 (= 2.88.3-3)
-Filename: ./gir1.2-girepository-3.0_2.88.3-3_amd64.deb
-Size: 44388
-MD5sum: 2e77345b95d0d47f28d22794b67888a1
-SHA1: 6cb210c2ce865305c898359bbcc45316bd19d6f5
-SHA256: 6fcb5edde40552dd4db091ad85cb13ddc9d92a7cf8ab393a7b2ba63393f0c7b7
-SHA512: d3f267db896eb79e6b04e4031a02d4419c8c16854c52ddec405087b8fe73fc380712fb022337a8d97a964973b3947fd82f753292dd0160d11fe808725f8100bc
+Installed-Size: 109
+Depends: gir1.2-glib-2.0 (= 2.89.4-2), libgirepository-2.0-0 (= 2.89.4-2)
+Filename: ./gir1.2-girepository-3.0_2.89.4-2_amd64.deb
+Size: 44768
+MD5sum: 68243f6cba232b899adb86ea9a540d92
+SHA1: c6f6cb16a4452ba3b518d8eb0d55f819c5ae5c78
+SHA256: e80983cfde723d91bc55691c14db8c1dd0b683105ad3b140ddb212936b083ca4
+SHA512: 786527adfc4a91c364b9fe1f7ec8afa79bf5e3cbba15c171669fbbb11a6f6ae545a9a64f3275f95c725e0a9174c083b3b1c2483714f6ffa633abdcb9fceb3922
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GIRepository library, API version 3.0
  GObject Introspection is a project for providing machine readable
@@ -7944,23 +7944,23 @@ Description: Introspection data for GIRepository library, API version 3.0
 
 Package: gir1.2-glib-2.0-dev
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11604
-Provides: gir1.2-gio-2.0-dev (= 2.88.3-3), gir1.2-giounix-2.0-dev (= 2.88.3-3), gir1.2-glibunix-2.0-dev (= 2.88.3-3), gir1.2-gmodule-2.0-dev (= 2.88.3-3), gir1.2-gobject-2.0-dev (= 2.88.3-3)
-Depends: gir1.2-glib-2.0 (= 2.88.3-3)
+Installed-Size: 11649
+Provides: gir1.2-gio-2.0-dev (= 2.89.4-2), gir1.2-giounix-2.0-dev (= 2.89.4-2), gir1.2-glibunix-2.0-dev (= 2.89.4-2), gir1.2-gmodule-2.0-dev (= 2.89.4-2), gir1.2-gobject-2.0-dev (= 2.89.4-2)
+Depends: gir1.2-glib-2.0 (= 2.89.4-2)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~), libgirepository1.0-dev (<< 1.78.1-7~)
 Replaces: libgirepository1.0-dev (<< 1.78.1-7~)
-Filename: ./gir1.2-glib-2.0-dev_2.88.3-3_amd64.deb
-Size: 903228
-MD5sum: f9a4b6d35c2bc50cc2568afb7babc900
-SHA1: e28539a6e70f347f0adb296c112f37de024fc0e4
-SHA256: c64e02e51f0fa71820c642443851c0580c6c259537241f2478910b29f1f5d602
-SHA512: 1616ff086dad299faf86a406b7c370dff8c8f0af0a55222986d8e3bcd7664cf00b40c3914dc0216bf3089056c00869cfc389eb4bfb9a91b596b0ab4bfff22cf0
+Filename: ./gir1.2-glib-2.0-dev_2.89.4-2_amd64.deb
+Size: 907896
+MD5sum: 3c1a1810a8645e53890967fbae867752
+SHA1: 768b8a2cb4a3d0f1be1d92f4f1e018f680bbd546
+SHA256: b21f339b35a6e35cf257c7fbf376f34c54f323ace6aa96b3f9115d4680649f16
+SHA512: 23e4ecb1938cebbbc1786473b240fa6d0df748fa4dabe09d2bc523040e1ab96c42d03d78e38aad89ab6923879d6c4396d6998a039949e50c42fb70abbcffbb08
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GIR XML for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -7975,22 +7975,22 @@ Description: GIR XML for GLib, GObject, Gio and GModule
 
 Package: gir1.2-glib-2.0
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 746
-Provides: gir1.2-gio-2.0 (= 2.88.3-3), gir1.2-giounix-2.0 (= 2.88.3-3), gir1.2-glibunix-2.0 (= 2.88.3-3), gir1.2-gmodule-2.0 (= 2.88.3-3), gir1.2-gobject-2.0 (= 2.88.3-3)
-Depends: libglib2.0-0t64 (= 2.88.3-3)
+Installed-Size: 748
+Provides: gir1.2-gio-2.0 (= 2.89.4-2), gir1.2-giounix-2.0 (= 2.89.4-2), gir1.2-glibunix-2.0 (= 2.89.4-2), gir1.2-gmodule-2.0 (= 2.89.4-2), gir1.2-gobject-2.0 (= 2.89.4-2)
+Depends: libglib2.0-0t64 (= 2.89.4-2)
 Breaks: awesome (<< 4.3-8~), cinnamon (<< 6.4.12-1~), gnome-menus (<< 3.36.0-4~), gnome-shell (<< 48.5-3~), libgirepository-1.0-1 (<< 1.78.1-3~), libgjs0 (<< 1.87.2~), libgjs0g (<< 1.82.3-2~), python3-gi (<< 3.55.3~)
-Filename: ./gir1.2-glib-2.0_2.88.3-3_amd64.deb
-Size: 179972
-MD5sum: a8014277107accf51fc5eec0cba891be
-SHA1: 3be16da3643c382fb3edee8a3d882512f73bf954
-SHA256: 1688701185536e96d4214b8e516cf04cdab6de3bf920a039f220bda5f3b2500d
-SHA512: 52c91348e78ae0413256c5216fa92e6e7e4e2454af13fe8466a8c0a738abc4e973ca1c1be4d9ee9c2ccfd49318f0b98b89c872304e6ca75344f9fc2f485d0d36
+Filename: ./gir1.2-glib-2.0_2.89.4-2_amd64.deb
+Size: 180724
+MD5sum: c56a866a5e8495fe61d4880085f9f737
+SHA1: 68acaf450f36394ebc6604b3a1adcad5503c6cf7
+SHA256: 2499b63492e95d19e18bbf9c99a076ac39995ff5c5bcc10494b566a2632361e4
+SHA512: cc77a8d2c8e56875d32aba1e40277c5671ee65e8ac25896da09f6b46d51b47227c47380c45d95e85a7be261993dd4ed86d1b83ee855a9a90fe96266a826df597
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -8796,20 +8796,20 @@ Description: GObject introspection data for Mutter
 
 Package: gir1.2-mutter-18
 Architecture: amd64
-Version: 50.3-1
+Version: 50.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 544
-Depends: libmutter-18-0 (= 50.3-1), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
-Filename: ./gir1.2-mutter-18_50.3-1_amd64.deb
-Size: 133340
-MD5sum: ca180ca16c4093853e5d403e08e1473c
-SHA1: 6a67dc329a42e5ea0f2757e705d1576bbca5f806
-SHA256: 45a263e09a4c73d11700763427c053f5b5fc8bde9c50f98222e30055a990eb1f
-SHA512: 6cb8be50b83e067ef4c0742ad0fadba316c64eb121c258b84f81d88828ac5aefd57835b49060210de18d25038591d9c86584787722306319b6dbe9e399e63512
+Depends: libmutter-18-0 (= 50.4-1), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
+Filename: ./gir1.2-mutter-18_50.4-1_amd64.deb
+Size: 133388
+MD5sum: d73bb6467bc90221caa1319c73c5de70
+SHA1: 85138c313970b2b9984e103b23dc78469a7ab14a
+SHA256: 18572d641ca80b045959b5753860eeb495381e3eb67a1fdf6a39cc4ec0e268f6
+SHA512: 33956155564e9f0f043e4096813cb9e508e001d6d3aeba1f74506d37504b1f0d5c8c5401b63256eec4b3a223646f32c0aef800b8b337206655ef5a38d3236f9d
 Homepage: https://mutter.gnome.org/
 Description: GObject introspection data for Mutter
  Mutter is a Wayland display server and X11 window manager and
@@ -9524,22 +9524,22 @@ Description: GObject introspection data for libxmlb
 
 Package: girepository-tools
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 372
-Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.88.3-3), libglib2.0-0t64 (= 2.88.3-3)
+Installed-Size: 373
+Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.89.4-2), libglib2.0-0t64 (= 2.89.4-2)
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./girepository-tools_2.88.3-3_amd64.deb
-Size: 137316
-MD5sum: dafb882e1cea275dd261069bc7d31bc2
-SHA1: 74ef1be6be1b41997325c671c7aeda7731ab388d
-SHA256: 990f893986060444b2a0e7195781d09d2af7bbb0dcc96b4c885f627f9e44af78
-SHA512: c3b53fb00f4a8ab35c2b2ddfd76b4581eee0b437c614b5da2db92e325ba5e5f4daad781396103094a76a7130e0fda63b7cab1d8ac6b5c972bb451f5ce59ce0e6
+Filename: ./girepository-tools_2.89.4-2_amd64.deb
+Size: 137648
+MD5sum: 7a6ec3359b2b8c1cd00f6e9dc2a5238b
+SHA1: 5ac810a1267f23ac3777debdcb85f4775d04cf50
+SHA256: 01be100175dccb8fe1cf5753c934072d0ceaf4f6e39a27cfb70da1722a53df84
+SHA512: 646cfe0df89f7d7854e9489644633bc9a109c12be172c04ca41d86595430ceb81f2bad4182c0e7eb29eca1d255f24f66198fa01ce96dbf1218f465f3a8250ea2
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Tools for working with GObject-Introspection repositories
  GLib is a library containing many useful C routines for things such
@@ -10957,7 +10957,7 @@ Description: daemon handling the GNOME session settings
 
 Package: gnome-shell-common
 Architecture: all
-Version: 50.3-1
+Version: 50.4-1
 Priority: optional
 Section: gnome
 Source: gnome-shell
@@ -10965,34 +10965,34 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Installed-Size: 8069
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: gnome-session-common (<< 50~alpha)
-Filename: ./gnome-shell-common_50.3-1_all.deb
-Size: 909772
-MD5sum: e2d50142bfb50c147d7cbecde1c9417c
-SHA1: ef739170f67d761346157c229f1133ed8ff4a0eb
-SHA256: 9a1a363433be8abbd41a94346f7ffccde73fc469cec70248f7e15cd026303979
-SHA512: 68f369c1fa7549bfaa0c8150fdaa100c75bc37befef1bcb1a98356fd31735ddfad3f8b3867c02b8a88d58056e947aba2ae944da317787560f8a0314405fba2ae
+Filename: ./gnome-shell-common_50.4-1_all.deb
+Size: 910236
+MD5sum: 24fbc3bf110841c4f886cad70b370f58
+SHA1: d11deb56538bff179ffd3a08e39a690f29595367
+SHA256: 4b403c2af0da0bae558bdf481d64915702d5bf9aa0292b10daac2a8aa02eb22a
+SHA512: 80c0e7d5589c1b90b6521ffa1d8d492ca208497e3bfbbbf4642d5cb4d2884e00b740e114d9db7e713c4f96494ca90da4a514f92aebde18bd2deae599e96b3cbc
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: common files for the GNOME graphical shell
  This package contains translations and data files for the GNOME shell.
 
 Package: gnome-shell
 Architecture: amd64
-Version: 50.3-1
+Version: 50.4-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 6742
 Provides: notification-daemon, polkit-1-auth-agent
-Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-18 (>= 50.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.87.1), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 50.3-1), gsettings-desktop-schemas (>= 50~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.87.1), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-18-0 (>= 50.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
+Depends: gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gnomebg-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-18 (>= 50.0), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0, gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.87.1), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 50.4-1), gsettings-desktop-schemas (>= 50~alpha), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.87.1), libgles2, libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmutter-18-0 (>= 50.0), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
 Recommends: bolt, evolution-data-server (>= 3.45), gdm3, gnome-browser-connector, gnome-remote-desktop, gnome-menus, gnome-user-docs, ibus, iio-sensor-proxy, power-profiles-daemon, switcheroo-control, unzip
 Suggests: gir1.2-malcontent-0, gir1.2-telepathyglib-0.12, gir1.2-telepathylogger-0.2, gnome-shell-extension-prefs
 Breaks: gnome-session (<< 49~beta~), gnome-shell-extension-appindicator (<< 50), gnome-shell-extension-dash-to-panel (<< 55), gnome-shell-extension-dashtodock (<< 79), gnome-shell-extension-desktop-icons (<< 21.04), gnome-shell-extension-desktop-icons-ng (<< 46+really47.0.2-2), gnome-shell-extension-taskbar (<< 57.0-2.1~), gnome-shell-extension-top-icons-plus (<< 27-3~), gnome-shell-extension-workspaces-to-dock (<< 54~), gnome-shell-extensions (<< 40.0~)
-Filename: ./gnome-shell_50.3-1_amd64.deb
-Size: 937556
-MD5sum: 2f9ef377a5e8146115433e85f7aaa943
-SHA1: cf6be99e8efb5cc47b133d5d4e64ee424e62495f
-SHA256: ac766d3002857b196e4af6fee7ebdab6009a6d39249abc18eca3f988db666201
-SHA512: 7fce3531740c7867ff2c7cdf64ed810e358d2728779e1561008d09181c6b1707d9526a8bd009aa096ad9c45d0d6beee29c8b74e988a44b68faefacdbf5fa9cf1
+Filename: ./gnome-shell_50.4-1_amd64.deb
+Size: 936148
+MD5sum: 5fef52d5c833f986dbcc2d9decc602c7
+SHA1: 77cffcb7f9338c92330750c8e4a0f556ef1dc25c
+SHA256: a7c1aa44c739d7653b69885ac9c5fc7219dafdb2995b1b44b5cc580b710144a5
+SHA512: 4db487a81cfb2b9ba98a98c3565f184d677fc4563ecaac06b6428034d19b48e900543702539d1157f3f6472a73bc711c39c3a19bd049174adee6e292e0bb4ea5
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: graphical shell for the GNOME desktop
  The GNOME Shell provides core interface functions like switching
@@ -22550,24 +22550,24 @@ Description: Libraries for the GNU Image Manipulation Program
 
 Package: libgio-2.0-dev-bin
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 693
-Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.88.3-3)
-Recommends: libglib2.0-bin (= 2.88.3-3)
+Installed-Size: 694
+Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.89.4-2)
+Recommends: libglib2.0-bin (= 2.89.4-2)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev-bin_2.88.3-3_amd64.deb
-Size: 151952
-MD5sum: d48f21541ed2c0a029a0743196873ebe
-SHA1: bb735f70072f0a1c67c4f1972238b848bd7e57d2
-SHA256: e5776415a963bbbc2f35acbb646b2e989056bc960f8d382d6326a61a03140440
-SHA512: 16c9bbf96b236183c5baad2e2338e4e6d89364ea29d6273e4c2f5b09af25e7f14263e4639ccda376d2366155d7840899964a969c11beebf1953a20bd39af692d
+Filename: ./libgio-2.0-dev-bin_2.89.4-2_amd64.deb
+Size: 152340
+MD5sum: 90f5439d293585000a5a39fc5edb1270
+SHA1: 0ce0d2fa3070640f23f155186983fdd1d069c2dd
+SHA256: 17380f6f64b7b9dd81a73793292448aa47a3e8dac755481cf52bd9d58e2a58e4
+SHA512: e0e7f750ebf02114da054d86602e7cf876279d252dbb4edb41685b3921a541db50b3c631a72f073ccefd38eccd524a22ff433630fe182d9f4e3fb92070e6dce8
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22595,24 +22595,24 @@ Description: Development utilities for GLib, GObject and GIO libraries
 
 Package: libgio-2.0-dev
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11004
-Depends: libffi-dev, libglib2.0-0t64 (= 2.88.3-3), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
-Recommends: libgio-2.0-dev-bin (= 2.88.3-3), libglib2.0-bin (= 2.88.3-3)
+Installed-Size: 11081
+Depends: libffi-dev, libglib2.0-0t64 (= 2.89.4-2), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
+Recommends: libgio-2.0-dev-bin (= 2.89.4-2), libglib2.0-bin (= 2.89.4-2)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev_2.88.3-3_amd64.deb
-Size: 1763880
-MD5sum: 21bb1759f6ef27bc75fff3c98fdae470
-SHA1: a5a15711f1ca245e9815fd7d3472c5cd4b7374ba
-SHA256: 6f4210ff8325f63b185114b9a2232c79439599b3d2e5b21740a2386c2c1a4ee8
-SHA512: 3edc6cf4bf98ffe4ca2953bd7e2009d9326421ca37580258faaf2d4f0d14a2412bee4351ec85726a936c1bf2e3380ad7f85d79abba98e29ebf5bb9349ac7eddc
+Filename: ./libgio-2.0-dev_2.89.4-2_amd64.deb
+Size: 1778536
+MD5sum: b1036dbdfe294707fb57d49ff0881477
+SHA1: 93e1906ba6fb5ec1704eaca784fd77161c2d1aec
+SHA256: 3afe8e66d008fefb2ebb268d0e13d962285e6ff71aa226cd42e8e8d24e290c8a
+SHA512: db11aa715bc871a77cd49d6810885b8d7900752c95a58d5e033dd89e65c146fa08f5f6c3a70c166e0b17f0de0e715ee4e7bf01f2605949b6aab2faa475a9588b
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development files for the GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22664,21 +22664,21 @@ Description: Library for handling GObject introspection data (runtime library)
 
 Package: libgirepository-2.0-0
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 350
-Provides: libgirepository-2.0-0-with-libffi8 (= 2.88.3-3)
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.88.3-3)
-Filename: ./libgirepository-2.0-0_2.88.3-3_amd64.deb
-Size: 130388
-MD5sum: b9f4a9f12f5febbfc2fa3ec61f6e0925
-SHA1: e3fb31838bb1b9fe0c993a4b5f0099a392c8723d
-SHA256: 6123ae305977b3e355d3780dc585da14aa5f90e76aab7bfed61aa0ec53540d06
-SHA512: 6a37d4d3e35ad32cecc51ca4c0bbd37a85708fdeea02d511fcb086dad122c9b50655bad4c3af32ce6f515f42154e55afaadf2b2889ca63b61649f0634427f5a2
+Installed-Size: 351
+Provides: libgirepository-2.0-0-with-libffi8 (= 2.89.4-2)
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.89.4-2)
+Filename: ./libgirepository-2.0-0_2.89.4-2_amd64.deb
+Size: 130488
+MD5sum: cdb844b7370529401333e6fd48fc6b7e
+SHA1: b94be03f3e098a1cb103bc7c99a18b34cc534430
+SHA256: d58833a63d6c34291e4a3777206847392406b4a779ff99a121b8b5fc7d93c798
+SHA512: 1f6a29428d810b9bb03e8e58894ef3c355fa6799c90364e4b9ca689412fccc3a722660640d4dcdafdf28e2bd245c3f056e378ef098d0134b7caf01e26f14c0eb
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib runtime library for handling GObject introspection data
  GLib is a library containing many useful C routines for things such
@@ -22769,25 +22769,25 @@ Description: interface to the GLib and GObject libraries
 
 Package: libglib2.0-0t64
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4578
-Provides: libgio-2.0-0 (= 2.88.3-3), libglib-2.0-0 (= 2.88.3-3), libglib2.0-0 (= 2.88.3-3), libgmodule-2.0-0 (= 2.88.3-3), libgobject-2.0-0 (= 2.88.3-3), libgthread-2.0-0 (= 2.88.3-3)
+Installed-Size: 4615
+Provides: libgio-2.0-0 (= 2.89.4-2), libglib-2.0-0 (= 2.89.4-2), libglib2.0-0 (= 2.89.4-2), libgmodule-2.0-0 (= 2.89.4-2), libgobject-2.0-0 (= 2.89.4-2), libgthread-2.0-0 (= 2.89.4-2)
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
 Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
 Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.88.3-3_amd64.deb
-Size: 1603448
-MD5sum: 2311a2be2a33287c636b5d60aa284842
-SHA1: 37ff4efb0fab2fd7e1676e60ad8e161f33d213c5
-SHA256: 1d2c3cd9119c5002d0e8de03d453f4611b81b1d039f481d62567a60f77b7b4bb
-SHA512: c0cf645f0f039a14c63483d9d53a8b026d8aee829fcd63b0c258aabf7c5b84c370860ab93f16af5fd80d9290868b79f49161e28d382ad44e707d70183438016a
+Filename: ./libglib2.0-0t64_2.89.4-2_amd64.deb
+Size: 1618104
+MD5sum: 225d55afa040fca982b4644c807c5be6
+SHA1: 68ee07df6429f8c448368efd362167318a3094a2
+SHA256: 6fc710846497e8ceb34d4d2e79b08ddca6200aa03dc92840e8eee16b0922fdb3
+SHA512: ed25435469db78280c1498c9c22c40a0f77e43efe2b6bd6d7339eca959335da40b1cc4b11c44f47e6165fcd7079052480daa7e203ea03211d8699fafc54e5b8d
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
@@ -22798,20 +22798,20 @@ Description: GLib library of C routines
 
 Package: libglib2.0-bin
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 352
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.88.3-3)
-Filename: ./libglib2.0-bin_2.88.3-3_amd64.deb
-Size: 116968
-MD5sum: 328555903d2cb6fc5de371398d85873e
-SHA1: c92a79b43be4e330eb2b4cf7076989c13e23cefd
-SHA256: 3d4b9e713e3219505effb9215aeafe3164bb19c19df26f4b38f25c8872ebf4e0
-SHA512: 7a5d7fe8ddd337917f1fbfa921f1381f60c74cb39062846f33906e8361ccfc4f447156591900ee64f90612b5db58c21041988927cdc4de0d62e75580698a2905
+Installed-Size: 353
+Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.89.4-2)
+Filename: ./libglib2.0-bin_2.89.4-2_amd64.deb
+Size: 117360
+MD5sum: 19ac74b8f7354cb80b90fa15251e6f30
+SHA1: 4f306b2b5ba4bf14139fe025b5712a3c33890df1
+SHA256: 8bde81906d3fa99f5693ca495b628efdbd691c5f6e3594f82cfeed1368f52397
+SHA512: 65b099210a5118f6a26c08edffd0d24b19d743877522414f2765975ffba8b092824abe58c0424f0f3dd3499b640140b4489495ac3a9dcabc0b906cf1ea0b68ab
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22831,19 +22831,19 @@ Description: Programs for the GLib library
 
 Package: libglib2.0-data
 Architecture: all
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 10238
-Filename: ./libglib2.0-data_2.88.3-3_all.deb
-Size: 1277384
-MD5sum: f57f06c5c65abe272ae9c0888a54609b
-SHA1: 0900a83d355546e1adee7cda729b0ad9129741ab
-SHA256: 3badc528a75b608e4f176ef4dedd660f987b22d5437f29f791f59fd30caf41f8
-SHA512: 84f7d27086e9fc69b6f8f100497fca5f2b487a5d0168cc9aa7d51612f28575ce8b5a2376e242cf51d3a08581e2b5b8d56f9e22f300d3598bf7913f119720a928
+Installed-Size: 10231
+Filename: ./libglib2.0-data_2.89.4-2_all.deb
+Size: 1296924
+MD5sum: 88baadad6b32180c8aaf35f3f00545ae
+SHA1: b52bd4f16dfb3681c79e1e1b5a0c15d2d2a0849d
+SHA256: 15cef35e133e3d06894a9cd7b632c714caaacb7e688c9a8b5be74a8a6afe4efc
+SHA512: c6d2e97c5fd5675cbe1a89ad39ad789dcd27e02a8f05f02f0301fe5e1683b0ad933cc92b5ab00521eb6b50eeb62e9b667f0214a310f44525d5afada89068297f
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
@@ -22855,21 +22855,21 @@ Description: Common files for GLib library
 
 Package: libglib2.0-dev-bin
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 84
-Depends: girepository-tools (= 2.88.3-3), libgio-2.0-dev-bin (= 2.88.3-3)
+Installed-Size: 85
+Depends: girepository-tools (= 2.89.4-2), libgio-2.0-dev-bin (= 2.89.4-2)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Filename: ./libglib2.0-dev-bin_2.88.3-3_amd64.deb
-Size: 38180
-MD5sum: c0a8acf06a071942fb8fcd349d632d54
-SHA1: ba9ad5c1e30b6a108bcebcff7ecfa75cb5096d64
-SHA256: a42a83418a32509c1df693dda2292e0cd3897161f2ab464c4f981ad9a22c4714
-SHA512: 56a01caac499d403980de57e0fbb7718442e9f80206f3d621e5415fc49e22bec92d9fa6aeeaf6a42c2c6fc1e0d66d1046e36ec795f54b457d62f8a63938dc60d
+Filename: ./libglib2.0-dev-bin_2.89.4-2_amd64.deb
+Size: 38564
+MD5sum: d1647b722086608491ff07affb2196e9
+SHA1: 4ae49c9c19466ccc0f53762848196916066b3b5f
+SHA256: 2577e5b959d1b5ff9554fb1fc70456416e243969423c2b0517b1784340790911
+SHA512: 8e8ce21cabbfbadc1561fc9a611c4538634d3a42c7cb05191e48910df3ab62a4b0869bb86ce70c7738f2546b634f90a138957cb6810b1fda17c35382fd52f170
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22882,21 +22882,21 @@ Description: Development utilities for the GLib library
 
 Package: libglib2.0-dev
 Architecture: amd64
-Version: 2.88.3-3
+Version: 2.89.4-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 88
-Depends: girepository-tools (= 2.88.3-3), libgio-2.0-dev (= 2.88.3-3), libglib2.0-bin (= 2.88.3-3), libglib2.0-dev-bin (= 2.88.3-3)
+Installed-Size: 89
+Depends: girepository-tools (= 2.89.4-2), libgio-2.0-dev (= 2.89.4-2), libglib2.0-bin (= 2.89.4-2), libglib2.0-dev-bin (= 2.89.4-2)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Filename: ./libglib2.0-dev_2.88.3-3_amd64.deb
-Size: 38920
-MD5sum: 297943d30cb0bacda8cc0433bcb866f1
-SHA1: a390d31818d07fb3cba092b00065e2ab007d3603
-SHA256: ec1549f9c6852306af32b0f24fbda2ded04870df7370f321752416cb2e1c8b26
-SHA512: 373adef1392355f48fba04d8573b8c137aeffdd107ac4eec0ef3b5341493a50690b7637610bdfb14363886cf14e60eebe9588a043a371f17ff95235814df37b2
+Filename: ./libglib2.0-dev_2.89.4-2_amd64.deb
+Size: 39288
+MD5sum: cee7a4cd2a6709725d7a381ce3a71edf
+SHA1: 9dc67443e1467694b5443aae31f4a6ed5fcffa43
+SHA256: 16b64b7633800b062ae9aa894b62d5add0e8f5d1f4e003d580f4af7052c5357d
+SHA512: 0db56704a50cde257f031bb552cef2251a2d2ff4aaa6cd5677a1cc3275c8a308fb61dcd1bf2ede6dc1f3447cb1d18762e5f9fe943d51582f58a70d9db2726f64
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development metapackage for the GLib family of libraries
  GLib is a library containing many useful C routines for things such
@@ -23437,7 +23437,7 @@ Description: GCC OpenMP (GOMP) support library
 
 Package: libgpg-error-l10n
 Architecture: all
-Version: 1.61-3
+Version: 1.61-5
 Multi-Arch: foreign
 Priority: optional
 Section: localization
@@ -23447,12 +23447,12 @@ Installed-Size: 672
 Breaks: libgpg-error0 (<< 1.32-1.1~)
 Replaces: libgpg-error0 (<< 1.32-1.1~)
 Enhances: libgpg-error0
-Filename: ./libgpg-error-l10n_1.61-3_all.deb
-Size: 119040
-MD5sum: 4b8ffc5447e44da4966476885f8fc440
-SHA1: f00740abef2db78b08ed034fddadbeae96e52884
-SHA256: 401ee32d69ca63a501073cb9bdf8c8e74e1eb0f6a226227c9264690d731f4915
-SHA512: c365b43d4d9e2ac059b37e60492d20878a3c94e8383b700ec48e38056b7ae1a04de070fbeeab8a62c16af547b6dea63348e4b57720540a161e10f897f294e787
+Filename: ./libgpg-error-l10n_1.61-5_all.deb
+Size: 118916
+MD5sum: 8a1110f6cc915b2d2f793e415f5d3c86
+SHA1: 25cfeb45a6aba54efbd4dd05f03f919cf97b55cf
+SHA256: cfc7f96a83f85f5e319316fc9782f72205006a296c47aab0d7c72f1bca2ad22f
+SHA512: 610289350986ad34e424abb73baef258fcfabdaf3133c058c1a5c1db041d3211ba7d9a8bb288204f3081e05db837415c527778f0283baad10a6641598642f9c3
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: library of error values and messages in GnuPG (localization files)
  Library that defines common error values, messages, and common
@@ -23466,47 +23466,21 @@ Description: library of error values and messages in GnuPG (localization files)
 
 Package: libgpg-error0
 Architecture: amd64
-Version: 1.61-3
+Version: 1.61-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libgpg-error
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 219
+Installed-Size: 223
 Depends: libc6 (>= 2.38)
 Recommends: libgpg-error-l10n
-Filename: ./libgpg-error0_1.61-3_amd64.deb
-Size: 89172
-MD5sum: 840b54dd51d608738e86e6d922a91deb
-SHA1: 7ba23f0b74d20bcd47b36dfa429cc5e0199428d5
-SHA256: 4c23e2388d2eaecf74cb7143b183f37a41f87c13b1c2499009cef1504ff1d14d
-SHA512: 1fa1d58073c1ca0050dbb857a1142e5ba46d6d76f8a7e93df7a1c76e0cbc2e573d3524afddea609474ec3c2092410a3cf2ecbb343b5556046161fc714114bd79
-Homepage: https://www.gnupg.org/related_software/libgpg-error/
-Description: GnuPG development runtime library
- Library that defines common error values, messages, and common
- runtime functionality for all GnuPG components.  Among these are GPG,
- GPGSM, GPGME, GPG-Agent, libgcrypt, pinentry, SmartCard Daemon and
- possibly more in the future.
- .
- It will likely be renamed "gpgrt" in the future.
-
-Package: libgpg-error0
-Architecture: i386
-Version: 1.61-3
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: libgpg-error
-Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 234
-Depends: libc6 (>= 2.38)
-Recommends: libgpg-error-l10n
-Filename: ./libgpg-error0_1.61-3_i386.deb
-Size: 95272
-MD5sum: d2d32878d315bf98b4d8248cbc5241e2
-SHA1: 579d7ab4f41ed0c26ae62a5bfd15d458e9d057b8
-SHA256: 09e05449cf04fc77a96e219111fb664f780366f010a981aa9791d4333b9857b3
-SHA512: 3dc114cd176c7be80cf40bca9f6b20e76d0bafa6174263cc36afec25ed9b2c61b342b96b0683df3b841e72d6febc2e38db41b3f344c02db8bcbabdc48ad09776
+Filename: ./libgpg-error0_1.61-5_amd64.deb
+Size: 93060
+MD5sum: 140c331defcdef13939da0d7ef0c8436
+SHA1: 1b30bbcd25892b5cbcc03458a96f2ec15fd3966a
+SHA256: ef307016953fca2d257786cb323ad7c3b8b84fe9e17a64c9adeaae5d5a434d30
+SHA512: f55afed7d685de4d25299984d2626ee382f5a27ba71d08efd151ecc9112a92173798ef36311e688e8648205ebd74f5cf8c272ce9f077dd2f34747eea9a6aaf66
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: GnuPG development runtime library
  Library that defines common error values, messages, and common
@@ -34439,21 +34413,21 @@ Description: window manager library from the Mutter window manager
 
 Package: libmutter-18-0
 Architecture: amd64
-Version: 50.3-1
+Version: 50.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5193
-Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 40~alpha), mutter-common (>= 50~beta), mutter-common-bin (>= 49.0), libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcanberra0 (>= 0.2), libcolord2 (>= 1.4.5), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libegl1, libeis1 (>= 1.5.0), libfribidi0 (>= 0.19.2), libgbm1 (>= 21.3.0~rc1), libgl1, libglib2.0-0t64 (>= 2.83.0), libglycin-2-0 (>= 2.0~beta.2), libgnome-desktop-4-2t64 (>= 3.17.92), libgraphene-1.0-0 (>= 1.10.0), libgudev-1.0-0 (>= 238), libharfbuzz0b (>= 0.6.0), libinput10 (>= 1.30.0), liblcms2-2 (>= 2.6), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.18.0), libpipewire-0.3-0t64 (>= 1.6.1), libpixman-1-0 (>= 0.11.2), libstartup-notification0 (>= 0.11), libsystemd0 (>= 226), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-server0 (>= 1.24.0), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbregistry0 (>= 1.0.0), libxrandr2 (>= 2:1.2.99.3)
+Installed-Size: 5189
+Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 40~alpha), mutter-common (>= 50~beta), mutter-common-bin (>= 49.0), libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libcanberra0 (>= 0.2), libcolord2 (>= 1.4.5), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libegl1, libeis1 (>= 1.5.0), libfribidi0 (>= 0.19.2), libgbm1 (>= 21.3.0~rc1), libgl1, libglib2.0-0t64 (>= 2.83.0), libglycin-2-0 (>= 2.0~beta.2), libgnome-desktop-4-2t64 (>= 3.17.92), libgraphene-1.0-0 (>= 1.10.0), libgudev-1.0-0 (>= 238), libharfbuzz0b (>= 0.6.0), libinput10 (>= 1.30.0), liblcms2-2 (>= 2.6), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.18.0), libpipewire-0.3-0t64 (>= 1.6.1), libpixman-1-0 (>= 0.11.2), libstartup-notification0 (>= 0.11), libsystemd0 (>= 226), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-server0 (>= 1.24.0), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbregistry0 (>= 1.0.0), libxrandr2 (>= 2:1.2.99.3)
 Breaks: gnome-kiosk (<< 50~rc~), gnome-shell (<< 50~rc~), xwayland (<< 2:23.1.0)
-Filename: ./libmutter-18-0_50.3-1_amd64.deb
-Size: 1569968
-MD5sum: 88ed0057c4c6696e54e69be1e7199636
-SHA1: 8ca5504573dd801657ffc80df02acfa988146d59
-SHA256: 58cae633e111997d883b19f75289e63798fe24e4140fd523ecbe0733334c8057
-SHA512: fb4368616c7927a4da200c87399498950b79075bce024b350da9a51a864b83e1d5f4ac69b7236aa4936bbf27bd822f5b5408abb12674d774364437a9822e2391
+Filename: ./libmutter-18-0_50.4-1_amd64.deb
+Size: 1571460
+MD5sum: 7100ba0e3d750db1bb723ff25a45df0e
+SHA1: b2d6f0e5fdef899062134a73be98cfce403ec7fa
+SHA256: efc7e5343bc4bdc2c93dc34bdd2b626e5b3bb1e701e8400d752257128ffdcaf5
+SHA512: 10b900b6b0dadfc693dc9f75859bc4393b5d71e0ed758299971c08bbbe2d0bf7b7d0f95a2922e382e5cd8e7fe993d452fabc966dd21c42ae4c05b7a1131d8760
 Homepage: https://mutter.gnome.org/
 Description: window manager library from the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -35799,19 +35773,19 @@ Description: PAM module to unlock the GNOME keyring upon login
 
 Package: libpam-kwallet-common
 Architecture: all
-Version: 6.7.4-1
+Version: 6.7.4-3
 Priority: optional
 Section: admin
 Source: kwallet-pam
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 28
-Depends: socat, plasma-version-base-6.7
-Filename: ./libpam-kwallet-common_6.7.4-1_all.deb
-Size: 7184
-MD5sum: cb7776ba450c5bef26c4d48d15223fbe
-SHA1: 343b2e88a53922289ba9979a23fb402bef97340c
-SHA256: cd89ac165807e03984b76c5c98085b8d29446ec747116b0ba4a1a17bb69d72b5
-SHA512: 457ea36ad7f913a684136780d13859cfb38e4b10c757195f5ff2d7ba234cc6bc4faf2e1e23261102b90163a75a1b2c68f09dfb754ed867da1484c22a684c58d8
+Installed-Size: 34
+Depends: socat, init-system-helpers (>= 1.66~), plasma-version-base-6.7
+Filename: ./libpam-kwallet-common_6.7.4-3_all.deb
+Size: 8396
+MD5sum: 2a7dd62afada389fce0adafd333f5207
+SHA1: 33afda609c98968a28fe3e0dbe7a9bfa93614ebb
+SHA256: 52c99970760310d81571019bf2c6663160e11471060c7f2e3d1aff27ab88dd33
+SHA512: 0924ebecd92bedafdd52b7e33019e5467bb430c21da559a2e667546b41fb3a5ebdd7a4d5636d8d4a841d20952cbff55ed1d37918e3a90f2f8dfc05cfa8864f28
 Homepage: https://invent.kde.org/plasma/kwallet-pam
 Description: KWallet integration with PAM (common files)
  The KDE Wallet system provides a secure way to store passwords and other
@@ -35823,19 +35797,19 @@ Description: KWallet integration with PAM (common files)
 
 Package: libpam-kwallet5
 Architecture: amd64
-Version: 6.7.4-1
+Version: 6.7.4-3
 Priority: optional
 Section: admin
 Source: kwallet-pam
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 41
-Depends: kwallet6, libpam-kwallet-common (>= 6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.33), libgcrypt20 (>= 1.12.0), libpam0g (>= 0.99.7.1)
-Filename: ./libpam-kwallet5_6.7.4-1_amd64.deb
-Size: 12076
-MD5sum: 709f4df190627862a41c4cc903bcef85
-SHA1: 8d5b51609ae878187e0d360867b63ab24183c2e3
-SHA256: f1ce2e50fe6c75e5d7b079603ac87c4e36b5a590ffc30f3386fdc0839b728052
-SHA512: c47fb0961cae5f84381e3bf77dde92bffc6fe5cb5fa125cd18ae3d4ef0c152f624bbc1c808fd55b2a08ec8f8c2cea32e3a79d87fb3d41172a8da351a707e1c97
+Installed-Size: 42
+Depends: kwallet6, libpam-kwallet-common (>= 6.7.4-3), libpam-runtime, libc6 (>= 2.33), libgcrypt20 (>= 1.12.0), libpam0g (>= 0.99.7.1), plasma-version-base-6.7
+Filename: ./libpam-kwallet5_6.7.4-3_amd64.deb
+Size: 12400
+MD5sum: 8a9cab8875264aae6309e21a8a3feb38
+SHA1: 9132ebfbfdd63f7604f06b474dedfb46d53b7154
+SHA256: dfd43f8a363a4584aa14006d5b7f0448bc60a7b689af3946442b1b812e16b0ec
+SHA512: 2af37b94bf2c1ddbe448fe7f84b8754dc1a4318fb1a49c6fb0392321760b354855517acf156f2f324933b9cd94e62dfbbd262ec199ec71c7c9b87777fe84a738
 Homepage: https://invent.kde.org/plasma/kwallet-pam
 Description: KWallet integration with PAM
  The KDE Wallet system provides a secure way to store passwords and other
@@ -55702,7 +55676,7 @@ Description: command line tools for the MuPDF viewer
 
 Package: mutter-common-bin
 Architecture: amd64
-Version: 50.3-1
+Version: 50.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -55713,12 +55687,12 @@ Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.22.0), l
 Suggests: python3-argcomplete
 Breaks: libmutter-17-0 (<< 50~), mutter (<< 48.1~)
 Replaces: mutter (<< 48.1~)
-Filename: ./mutter-common-bin_50.3-1_amd64.deb
-Size: 47656
-MD5sum: c171de5ab6993bdd05e313652a670d39
-SHA1: 4b92616bf5b74002289c405a813b65ecb7797a34
-SHA256: 791fbdb50d938e15a22bac45c071b502dbff5cde0ef101987f532a583eea37ae
-SHA512: eb7075766f601f0a834f7c30aac88631b77b2f8fa1e9d37128d2e39e43b04170a7abdef9504ebd44016e46759103e2e4e9948d222c85cf0008e5c30215842e6c
+Filename: ./mutter-common-bin_50.4-1_amd64.deb
+Size: 47720
+MD5sum: 18c920b793a16221709829fc716ddb8c
+SHA1: 640e9762595bddb28d64dd3466e00daef32c07e3
+SHA256: 2c5bb6a216b3114535de51ced844578091d3425c72cfe3df2e1af997197e5f8d
+SHA512: a8a614cdf367dea1610f91570d06c324729eb16270536b935d27653d1ca3c568b9ea5eb1a95bb9781e6e1b14a7b1700475eba50ad7fffe0bec865e6b28241eb9
 Homepage: https://mutter.gnome.org/
 Description: shared programs for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -55735,22 +55709,22 @@ Description: shared programs for the Mutter window manager
 
 Package: mutter-common
 Architecture: all
-Version: 50.3-1
+Version: 50.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3975
+Installed-Size: 3974
 Depends: dconf-gsettings-backend | gsettings-backend, python3:any
 Breaks: libmutter-10-0 (<< 49~), libmutter-11-0 (<< 49~), libmutter-12-0 (<< 49~), libmutter-13-0 (<< 49~), libmutter-14-0 (<< 49~), libmutter-15-0 (<< 49~), libmutter-16-0 (<< 49~), libmutter-17-0 (<< 50~), magpie-common (<< 0.9.3-0ubuntu8~)
 Replaces: magpie-common (<< 0.9.3-0ubuntu8~)
-Filename: ./mutter-common_50.3-1_all.deb
-Size: 504684
-MD5sum: 8a82bbb54dc4bcc5fe00cc9758f92840
-SHA1: a32e44539fc87f3fa55db3f4fbcb9e0d8a3425b4
-SHA256: 898da9a54c0274113c7075c822a6cf4fb4d7010a56887e7612aa65943a65e808
-SHA512: 9e1fab07998b1f88badb23c45db7c5c3fcfddd9c2e854e9e4b49d703eff2483e6e25b049625c146cc4b3634d40fb5977389fe119e5bc1825d4a8ef8d0c78da06
+Filename: ./mutter-common_50.4-1_all.deb
+Size: 504880
+MD5sum: 09f421d066bb488ed21ec24748351738
+SHA1: 6abba36a04dda99c28e7c4ee8f6342d58ddcf85f
+SHA256: c4384355953cf6214ce039da29706e50def58e347ab1b2ca73324168d9e5f59e
+SHA512: e9f3c21fa7f9fcb99dc1c45f86c73e41763117a190eac57414e1f85477d25d22da2fd4baec09674686ad368b2134b5620b41fd699a6b60cdca52a1141c781c05
 Homepage: https://mutter.gnome.org/
 Description: shared files for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -59084,7 +59058,7 @@ Cnf-Visible-Pkgname: python3
 
 Package: python3-more-itertools
 Architecture: all
-Version: 11.1.0-1
+Version: 11.1.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
@@ -59092,12 +59066,12 @@ Source: more-itertools
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 322
 Depends: python3:any
-Filename: ./python3-more-itertools_11.1.0-1_all.deb
-Size: 74452
-MD5sum: 734357ffca6c8e50089aa918ded641ef
-SHA1: 00bb85e3aedc06338b0bb7a24c93cce56f284ed7
-SHA256: e052493e1e4ee6a84c0a7cc1dd461d9990ce50aa37af3c6a6eb37b1198ff37d4
-SHA512: abe13d92db0950202b5d980c6ff58bdbbe726c0bb2e14a841308a0d456bc11d36b9f9c8cc81e8cbdb42f9821da60979d2dd92a8745a6b19e41842559c8f1b047
+Filename: ./python3-more-itertools_11.1.0-2_all.deb
+Size: 74524
+MD5sum: e1d0b9ac0f2c68a6746d54d2e75176e7
+SHA1: d35d5a83196d30172229c3214e6a0dbe8306a97c
+SHA256: 8981cb86b068469b59d8b95ec7f8f652300d9c436e4a2695c8d3af59a76cfc68
+SHA512: c39b0ee965f911984a5fa27b2f60e1bcfe97b8ab9c6c57394ce02103d72ccb535deab51980798431b1fc842e5e44bffbe59322ea069b476068be3fd0fea006c9
 Homepage: https://github.com/more-itertools/more-itertools/
 Description: library with routines for operating on iterables, beyond itertools (Python 3)
  Python's itertools library is a gem - you can compose elegant solutions
@@ -59460,21 +59434,21 @@ Description: runtime module for Python extensions using SIP
 
 Package: python3-pyqt6
 Architecture: amd64
-Version: 6.11.0-2+b1
+Version: 6.11.0-3
 Priority: optional
 Section: python
-Source: pyqt6 (6.11.0-2)
+Source: pyqt6
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 17906
-Depends: python3-pyqt6.sip (<< 14), python3-pyqt6.sip (>= 13.11), python3, python3:any, libc6 (>= 2.35), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.2), libqt6gui6 (>= 6.10.2), libqt6network6 (>= 6.10.2), libqt6opengl6 (>= 6.3.0), libqt6openglwidgets6 (>= 6.6.0), libqt6printsupport6 (>= 6.8.2), libqt6sql6 (>= 6.9.1), libqt6test6 (>= 6.8.2), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.9.1), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
+Installed-Size: 18145
+Depends: python3-pyqt6.sip (<< 14), python3-pyqt6.sip (>= 13.11), python3, python3:any, libc6 (>= 2.43), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.2), libqt6gui6 (>= 6.10.2), libqt6network6 (>= 6.10.2), libqt6opengl6 (>= 6.3.0), libqt6openglwidgets6 (>= 6.6.0), libqt6printsupport6 (>= 6.8.2), libqt6sql6 (>= 6.9.1), libqt6test6 (>= 6.8.2), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.9.1), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2)
 Breaks: pyqt6-dev-tools (<< 6.11.0-2~)
 Replaces: pyqt6-dev-tools (<< 6.11.0-2~)
-Filename: ./python3-pyqt6_6.11.0-2+b1_amd64.deb
-Size: 2660392
-MD5sum: 70e656a6c902481c872cb07fb57d0104
-SHA1: b703fff28545ca21d448fa16f61c773d11679628
-SHA256: 8ae89a48872a6f94d3de41207221ec35933566cffd16d66f83f6968f5d4c615d
-SHA512: a0f2c5d78eccc10cf6737ff3d6ed17a03be8eb570f92f1624c023ca863d97f19bac910d1056eeca0abf44fd712415f10576e62b40406daf1809d1b520e4f30bc
+Filename: ./python3-pyqt6_6.11.0-3_amd64.deb
+Size: 2692536
+MD5sum: d789dfe74bb88f3f9c1fc13a633cbb05
+SHA1: 4054631e17c666a80008ec5da2cf9718b0651b0b
+SHA256: ea4d81ffe8dc926e96567d1509cdcf48d4bd4c3f22a3118ece1815e385d505af
+SHA512: 4ecbf9608072d57c5289f4f81371478cc7457bce714369b8c591dac14a7454a5b85fddbf3c9fd2c3721524dd4d3987eaa1078c8ad037f6cd26c5f9580eb56e9b
 Homepage: https://riverbankcomputing.com/software/pyqt/intro
 Description: Python bindings for Qt 6
  PyQt6 exposes the Qt 6 API to Python.
@@ -59547,20 +59521,20 @@ Description: module for manipulating filesystem extended attributes (Python3)
 
 Package: python3-setproctitle
 Architecture: amd64
-Version: 1.3.7-2
+Version: 1.3.7-3
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python-setproctitle
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 80
+Installed-Size: 77
 Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4)
-Filename: ./python3-setproctitle_1.3.7-2_amd64.deb
-Size: 19640
-MD5sum: 348317d65b73c6e89f4d2fe8cafc9f12
-SHA1: 4495f49db50ce3e2e7041915a6e8725b1613167e
-SHA256: 62ed5e3605bc91639d8031d4d5ba562c1d06c1cf2e12f53c2ef3081d2b6aaa86
-SHA512: 41f4da9870bb960034bff5d61db5464a1a9c6e904dfef8102d6863adc235a1607e813f971fecb6e221352d829cd2120f52f6349d3282741a4457c360326b0c76
+Filename: ./python3-setproctitle_1.3.7-3_amd64.deb
+Size: 18980
+MD5sum: dce6740c9e730ff4e4909bee2f0de690
+SHA1: 1f19e4b49def44b36b7beb1e0582b917089684c8
+SHA256: 957c6df8b36501171379380476815031858d5ec54a9f145515a5b809167d6644
+SHA512: f1c40c9dfbb775ddf286315a2ec01852766b3a4a0796e35114fedf25ed2459c6d0f51cdc52001dc2057135213467ea0dd1eca3bf1eca74b42a24794c0124dbb0
 Homepage: https://github.com/dvarrazzo/py-setproctitle
 Description: Setproctitle implementation for Python 3
  The library allows a process to change its title (as displayed by system tools
