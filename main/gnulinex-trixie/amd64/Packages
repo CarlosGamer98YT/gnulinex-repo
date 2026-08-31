@@ -12833,20 +12833,20 @@ Description: image viewer by KDE
 
 Package: heif-gdk-pixbuf
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: graphics
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 40
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0)
-Filename: ./heif-gdk-pixbuf_1.23.1-1_amd64.deb
-Size: 10188
-MD5sum: 70bd43af36e7b0d3a87013ef19259596
-SHA1: 8e8bd090a54b9bce5ae56fb7b064aabb7643bfe7
-SHA256: 25913886fe3fb68debe34c272690eb94272ce72ffd22fb91cf4ef3eb77b864c6
-SHA512: c2263d6db2a8ad475d3d4b36cf4e2a801382866d17bd65fbb833c157f2ccd4e665f0546cf8701486543d6601182ceaf139a67d8693545b1168e211c3b8802520
+Installed-Size: 41
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0)
+Filename: ./heif-gdk-pixbuf_1.23.2-1_amd64.deb
+Size: 10724
+MD5sum: 9668b1110d62c3d94fcf35e228c9169c
+SHA1: adcdec8f824f08770761c738cb3a461411741a38
+SHA256: 451362ff2a52a768ae1129fefb7181f4832a1850676c5ce6d658296a6c0dc797
+SHA512: d4f48a45fca08ea751d08be1ec4997671edbe04eb40501e7e8a054acfb57ecc866226a2be63ab66e034f814397eb18ebeaa505176a5c1e7da5a8788e65b08e3c
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - gdk-pixbuf loader
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -12864,20 +12864,20 @@ Description: HEIF and AVIF file format decoder and encoder - gdk-pixbuf loader
 
 Package: heif-thumbnailer
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: graphics
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 61
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1)
-Filename: ./heif-thumbnailer_1.23.1-1_amd64.deb
-Size: 19332
-MD5sum: 12563ca656793ee3f285068e44bcf88b
-SHA1: dd018a7fb26781ee530e34767e16fabef1e7fe2e
-SHA256: f14fa4e2f9504d54656b66efddc908a562190eb21e6cae4ca73f3b4c9c04d083
-SHA512: 227d17a3f38607cf7d3ceb1f93c0ca0704f73e9ea0bddf134b88c9833d163874f3dfec11770127450667e51e3f719f32452552b68fc2a68b023312d32a3577f0
+Installed-Size: 66
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1)
+Filename: ./heif-thumbnailer_1.23.2-1_amd64.deb
+Size: 20252
+MD5sum: 94f5d1d6d659f05853f406d3c20dcb95
+SHA1: 9c40bda5674dc6c9619729c1d6cbbe833bf59e17
+SHA256: d954e146732aeb61f844c6fde7c667ffa163f0969adb6e115c3dcfc9a8b225ba
+SHA512: f4aaf1475e92c0c4e48a8a0596b4b6f2f2d9ebc8806834f2b5f0cb36708e40dd5c16d7d9fedd924bba1c7ce03ffead9ca3721843ae37efcbc16f23de84e7de90
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - thumbnailer
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -24946,20 +24946,20 @@ Description: OpenType text shaping engine (shared library)
 
 Package: libheif-plugin-aomenc
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 79
-Depends: libheif1 (= 1.23.1-1), libaom3 (>= 3.2.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-aomenc_1.23.1-1_amd64.deb
-Size: 28260
-MD5sum: e1f93dd91d4736538991483df3cd3dfe
-SHA1: 5ea77c40bc34b1b9462ee6035f00dac5ceb216c6
-SHA256: 6aea6283c01777aeb41df52e0b5f1d46fc706eecc11ca9f5b90f99764208c090
-SHA512: fcff1e13dd973493fa9170dd350fa93c44f0a3a7bf4fc71a2737084624be944f1b4ca5c47a4bf5e2d871de4ccbdf8e3e4b97197d9d8bbb257a1a203e41dd26fe
+Installed-Size: 80
+Depends: libheif1 (= 1.23.2-1), libaom3 (>= 3.2.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-aomenc_1.23.2-1_amd64.deb
+Size: 29232
+MD5sum: 6e2267619e724c0e2fb1f89293a85c27
+SHA1: 1766964170e2b66197635de6a5c43d82356b2d5d
+SHA256: 5832539e367681625de887645cbb317e61ab0f392b96c948f9863a06c6f7bc9a
+SHA512: d09ec7b18948dff271716dde98a3ba2ba85d13f73115df12fd13f9bfbaa3ab6c484dc9eb7ff27853936783f73e4b10345b38cf86d78f5a34e4b976a44ea6d24a
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - aomenc plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -24978,20 +24978,20 @@ Description: HEIF and AVIF file format decoder and encoder - aomenc plugin
 
 Package: libheif-plugin-dav1d
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 63
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.14), libdav1d7 (>= 0.1.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-dav1d_1.23.1-1_amd64.deb
-Size: 19788
-MD5sum: 25ac6979103c3f1a2178b79eb4b84239
-SHA1: d208d010c0ec8992c8a2820a2cc07a4f0d26e879
-SHA256: ef4c11a006ba013531748b1aee02d95d1013757e57dc1c22c6cb832207d83438
-SHA512: 251be57089b6eabfde92c02491a2a1f201f0d951902ab99e1c7409d8d541da58abce18a695d6fe91b418bccf4984ae4959299a60fb791405c0fe80316372d32a
+Installed-Size: 60
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.14), libdav1d7 (>= 0.1.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-dav1d_1.23.2-1_amd64.deb
+Size: 20352
+MD5sum: 9c5eeddce8469debaee934799f633a67
+SHA1: 2fc57f80dc339f73551983c45a8d10bfa14b3e58
+SHA256: 9a8e08f0a806cc4f6d79ffe73b114b5dbb02d8f7b904b9544308b98bea3710ae
+SHA512: cc0331c297a8c654f3c3db06640a6dfa90af4aaa2b0d1c1a80f4914ea2f64232258be71565803ee885a1b5e95e2e040e4204accf299a0c28335426893f14939d
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - dav1d plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25010,20 +25010,20 @@ Description: HEIF and AVIF file format decoder and encoder - dav1d plugin
 
 Package: libheif-plugin-j2kdec
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 67
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopenjp2-7 (>= 2.0.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-j2kdec_1.23.1-1_amd64.deb
-Size: 20328
-MD5sum: e5438d3734fa9dff811c9d862702bacd
-SHA1: 8635e496ffba67977d5841ebcc8279795ba0fcfa
-SHA256: 5528c109fc8ebd692b93be1ef7362017af3157a46010b48b1325123ce427e15a
-SHA512: 00463b8a9b9b2365efb1a825436f31e50ff2daabf54921f42098e0227ad785372db0f8d6f0e2865e02e2f43ed7a365131f7c8208154734b12f927c4af259628f
+Installed-Size: 68
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopenjp2-7 (>= 2.0.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-j2kdec_1.23.2-1_amd64.deb
+Size: 20844
+MD5sum: a3a0867bd3af899a34c77bdb74f6ca05
+SHA1: c660d86e72529e9738f8f837fa3f9693981f73ca
+SHA256: 9eceb4e96ad6ef624a2ae6367fe8a1c7def3d0873a2fc5ee52d5d62dc022b894
+SHA512: f025e9e36d077ac15a8c856d076d8700b4dcf20f2298a1613d295824981c2af1fa2ddbbe878bbf605c6f8e503261b65b373a5889842f4906e2b1dcd53dc1f04a
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - j2kdec plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25043,20 +25043,20 @@ Description: HEIF and AVIF file format decoder and encoder - j2kdec plugin
 
 Package: libheif-plugin-libde265
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 55
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.14), libde265-0 (>= 1.1.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-libde265_1.23.1-1_amd64.deb
-Size: 17292
-MD5sum: e15359cae26c02abc26dc761da35c29b
-SHA1: 6112e65fc6d450615724cd720e92f196f2e0defd
-SHA256: 9588218dbf9462294ff996cb3c8b62c8c1df378b80d87976a5701132c1e4c39f
-SHA512: f9dfc898bd3470da2cf3ac406197a7d8f354881d2b8e5cbaf1b4c9779db89fb2b36ea90c7c6061616b310518da6e487c8c00451263f4c79e4b623a8b340ed83e
+Installed-Size: 56
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.14), libde265-0 (>= 1.1.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-libde265_1.23.2-1_amd64.deb
+Size: 17884
+MD5sum: ecb0a65fc3b17ad162b9808a4fc2a7bd
+SHA1: fcf7a7256b8b52b5dc6633e0f9906d869ad64bc5
+SHA256: a77ec6f5714f1b8a2abeb5e943a821384706bc61daa2ad1996641920c61dc475
+SHA512: cac96d8a926e383c2ec880912a154dba3a5b77b12f164935c8ccf6c452549eacc3f7f613cab6c46c8541c419113b2a9a3a9f9332bf5a16a7ec330fe7c84d22b0
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - libde265 plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25076,20 +25076,20 @@ Description: HEIF and AVIF file format decoder and encoder - libde265 plugin
 
 Package: libheif-plugin-x265
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 71
-Depends: libheif1 (= 1.23.1-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libx265-216 (>= 4.2)
-Filename: ./libheif-plugin-x265_1.23.1-1_amd64.deb
-Size: 23844
-MD5sum: 2118056616ada51f1d9f0e90c4c8da98
-SHA1: 137e79a3a62566a71def5579903207616743d0b0
-SHA256: 050398172471ef4cf032d46be957d93f7f942470fd693132d4cecfe801011801
-SHA512: 8662853ff8c67a0a15424ed78d33fbb53c26b71a2a794eba6313420565798944eceb6987d65c4f212db62924d3a092a58f27855b21e4bce0493b640352cae0e6
+Installed-Size: 72
+Depends: libheif1 (= 1.23.2-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libx265-216 (>= 4.2)
+Filename: ./libheif-plugin-x265_1.23.2-1_amd64.deb
+Size: 25000
+MD5sum: 0706609780a900396b323a6e8a592320
+SHA1: 3e65f8570b4de2b4d1d7202f245649a59faeb6a8
+SHA256: 7acd82700b10ef30771f0580ae1fc071bdeb6a736c19917c8017d35dbd247d54
+SHA512: 22a3fd6d6100293d40fbff40784862ff160462df5513da2775f475f12efb97177262463c5ecde030f2f3d123828f7eec8b9b9bf20205d80d579180e9be24384d
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - x265 plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25108,22 +25108,22 @@ Description: HEIF and AVIF file format decoder and encoder - x265 plugin
 
 Package: libheif1
 Architecture: amd64
-Version: 1.23.1-1
+Version: 1.23.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libheif
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2525
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libsharpyuv0 (>= 1.5.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libheif-plugin-libde265 (= 1.23.1-1), libheif-plugin-dav1d (= 1.23.1-1) | libheif-plugin-aomdec (= 1.23.1-1)
-Recommends: libheif-plugin-x265 (= 1.23.1-1), libheif-plugin-aomenc (= 1.23.1-1)
-Suggests: libheif-plugin-ffmpegdec (= 1.23.1-1), libheif-plugin-jpegdec (= 1.23.1-1), libheif-plugin-jpegenc (= 1.23.1-1), libheif-plugin-j2kdec (= 1.23.1-1), libheif-plugin-j2kenc (= 1.23.1-1), libheif-plugin-kvazaar (= 1.23.1-1), libheif-plugin-rav1e (= 1.23.1-1), libheif-plugin-svtenc (= 1.23.1-1)
-Filename: ./libheif1_1.23.1-1_amd64.deb
-Size: 761452
-MD5sum: bce5329d9267eb13f1dc9fa0e421304c
-SHA1: 5c946651164df820f5e1621d97537a797b31682b
-SHA256: 237cc2b9651aee72f56dd9a8f3fa7ac4abb78fb6e37f79bdb38d1bdb5df25dbb
-SHA512: 1c9309f649079a0df4e9d8ea6bd784386ecaabbbb6445c066a29dbf212ce2f6c7016b8782813703d92f8c557c6f4f2f7c866cc2cbf925903880cb40e223a0467
+Installed-Size: 2779
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libsharpyuv0 (>= 1.5.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libheif-plugin-libde265 (= 1.23.2-1), libheif-plugin-dav1d (= 1.23.2-1) | libheif-plugin-aomdec (= 1.23.2-1)
+Recommends: libheif-plugin-x265 (= 1.23.2-1), libheif-plugin-aomenc (= 1.23.2-1)
+Suggests: libheif-plugin-ffmpegdec (= 1.23.2-1), libheif-plugin-jpegdec (= 1.23.2-1), libheif-plugin-jpegenc (= 1.23.2-1), libheif-plugin-j2kdec (= 1.23.2-1), libheif-plugin-j2kenc (= 1.23.2-1), libheif-plugin-kvazaar (= 1.23.2-1), libheif-plugin-rav1e (= 1.23.2-1), libheif-plugin-svtenc (= 1.23.2-1)
+Filename: ./libheif1_1.23.2-1_amd64.deb
+Size: 851580
+MD5sum: fc884c0e7e85666c6bf3ef149e5aaf41
+SHA1: 5d4aaa40afd895340060d35579a8fee32ec33644
+SHA256: f248845b0daa6333d3d2d9c75542f66ef4150d52b2657b261a9d623c1b237461
+SHA512: 004e8fdf168c9ff10b352123f86f13d31d24ed7162eef9c196b867c5b9f14435fb15681f5ded920646c175e063578411d49d230a4413732b0c9d2cedea7ec206
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - shared library
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
