@@ -35004,19 +35004,19 @@ Description: nss module providing dynamic user and group name resolution
 
 Package: libnss3-tools
 Architecture: amd64
-Version: 2:3.126-1
+Version: 2:3.127-1
 Priority: optional
 Section: admin
 Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 5177
+Installed-Size: 5397
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libnss3 (>= 2:3.117), zlib1g (>= 1:1.2.0)
-Filename: ./libnss3-tools_2%3a3.126-1_amd64.deb
-Size: 1108740
-MD5sum: 33642e7c4eebeb38777f09c5c02bf9f9
-SHA1: d9e47790fef0aa69548d6ebd7dfc923b171b1527
-SHA256: dd53e3d48270a7902ada71734192e2775139aa8af3564a1bf979473b103039cd
-SHA512: 40e70d069989195137b28d0183e904fed6c3afe2a6b4f445e9f2b82cf98e916c26ed56842479c7afdb1aba219f9fbe5aba624552d8e00ac12f156851e237f600
+Filename: ./libnss3-tools_2%3a3.127-1_amd64.deb
+Size: 1167612
+MD5sum: f30b46351c57ae439cea27b5c0d97abd
+SHA1: ad7262c29fcbf6f6e0cf0aa0cf7eaf9516f943d1
+SHA256: f3c23b98daf3a90643a2eb3b7b161fb1e29b65518944c39be57cccf71cb555a5
+SHA512: 4303009ed76089578686f8b1e1327a46729833d1e442f8c5028aa1b8398e388eaf60c51cbfb1143e3065209d460db4acb6f0c8b7ab429fe6c26c0461bc50f533
 Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description: Network Security Service tools
  This is a set of tools on top of the Network Security Service libraries.
@@ -35033,20 +35033,20 @@ Description: Network Security Service tools
 
 Package: libnss3
 Architecture: amd64
-Version: 2:3.126-1
+Version: 2:3.127-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: nss
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 4576
+Installed-Size: 4724
 Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.34), libsqlite3-0 (>= 3.5.9)
-Filename: ./libnss3_2%3a3.126-1_amd64.deb
-Size: 1429496
-MD5sum: 432478cecef86be8704e2e0c2b5a4a33
-SHA1: b9130088aa91e16434ac6598fd6e591152990993
-SHA256: f985b3f4e178fb949157e3c40696bbbb02779d5c3dc4f0aa91fa0d28b716b61b
-SHA512: a244cfae9b742698cc1e485e6496ada56ab61a5829f85d4d8d91f49c1aa28b9f171986431c07e0e452cf75a99ec112b37ac9ebbcc53cbeb5f8a6b95a4d18458e
+Filename: ./libnss3_2%3a3.127-1_amd64.deb
+Size: 1503488
+MD5sum: c3c54d0260806b3a07dd10a04f784b7f
+SHA1: 506a833aaacc3ac71941dfb774a41f58d3265e43
+SHA256: bd88adc9b88f8dde0e6de5ca84d6868425e1e20cbc56103c09da87dc1ac13eeb
+SHA512: 6d2602199662fccfd2abef0c5a9a92d370c5da98822b9130f14f9322950ae5f5e1d14b41140c4aab71e0f8d5d70c49ccb130630d4567f179135f7329adbf722a
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 Description: Network Security Service libraries
  This is a set of libraries designed to support cross-platform development
