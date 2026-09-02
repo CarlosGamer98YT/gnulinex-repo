@@ -2016,21 +2016,21 @@ Description: system service to manage device colour profiles -- system daemon
 
 Package: cracklib-runtime
 Architecture: amd64
-Version: 2.9.6-5.3
+Version: 2.9.6-5.3+b1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
-Source: cracklib2
+Source: cracklib2 (2.9.6-5.3)
 Maintainer: Jan Dittberner <jandd@debian.org>
-Installed-Size: 583
-Depends: file, libcrack2 (>= 2.9.6-5.3), libc6 (>= 2.34)
+Installed-Size: 584
+Depends: file, libcrack2 (>= 2.9.6-5.3+b1), libc6 (>= 2.34)
 Recommends: wamerican | wordlist
-Filename: ./cracklib-runtime_2.9.6-5.3_amd64.deb
-Size: 142756
-MD5sum: ef97f7e9976ed620bc3dbec606e69ef9
-SHA1: 69ace1fc69169da5d5b4ff2ae51ea74e8eddedc6
-SHA256: 60f4a3e6f95f9f6cb4c5c2c09cc803be9798916042e12cafaa2ff5e3179abee4
-SHA512: eec5bd76ca1e705d1147b19edd1ef9ef18319601e1df8a38ad225eb21f829adafdb14690a378b318afbaa2f3f49936ef5a8b5758472fae76d0f6fee7e9d7d033
+Filename: ./cracklib-runtime_2.9.6-5.3+b1_amd64.deb
+Size: 142968
+MD5sum: 993d688eb840f55ede365000b94aed60
+SHA1: 2eebafa05ae20e1fd66032afda155d3187c204f1
+SHA256: c0c6109f5c9cc7824203e61af97db2b9f43814eb47ad584bd6e975860a3a1948
+SHA512: c7d0fed2f580dedbe74ae4f96409f4de0f9c325892842c194c1da189f7a2f555a2feae0d70c9313ad0bb44aac16475f1bedba4f305363ed35af96b3a590eb679
 Homepage: https://github.com/cracklib/cracklib
 Description: runtime support for password checker library cracklib2
  Run-time support programs which use the shared library in libcrack2
@@ -18210,22 +18210,22 @@ Description: CPU frequency and voltage scaling tools for Linux (libraries)
 
 Package: libcrack2
 Architecture: amd64
-Version: 2.9.6-5.3
+Version: 2.9.6-5.3+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: cracklib2
+Source: cracklib2 (2.9.6-5.3)
 Maintainer: Jan Dittberner <jandd@debian.org>
-Installed-Size: 238
+Installed-Size: 243
 Depends: libc6 (>= 2.14)
 Recommends: cracklib-runtime
 Breaks: cracklib-runtime (<< 2.9.2-4)
-Filename: ./libcrack2_2.9.6-5.3_amd64.deb
-Size: 43424
-MD5sum: f2f5ea86fa10ac7fd9522c8716770635
-SHA1: 1cf68c1169c6da83703c64502f29b4e84d17d109
-SHA256: fffd75ecb610e4c5a6b80dccfa864468e3ee7a061daac8e97c10263e9d6ad759
-SHA512: beedaf24a3fd616c6b26d701a0835c3e31e374d8e7386069fff88c1b1ec6bbe03fa981df91ffee2975804666fa8e5bad3444e9b81d427ea2e5dd0ea2ff154a69
+Filename: ./libcrack2_2.9.6-5.3+b1_amd64.deb
+Size: 44420
+MD5sum: c69d9bc6ef2e31f054ff489f852c6093
+SHA1: ba595f826399e9de3d00bf4880c7d4b3fde5c92e
+SHA256: a9582764513019a0f68d5c987cf8e5d1039cc3ea7037c6c7ba65aae5dfa89069
+SHA512: 344722ce11721bcbe5f8cf3fd185aad93162cbbdca6df92d07981eceb600abb596ebbea9942e548f5dbb553a4e51ac525f8818edee8f9309c420cb7cb31d3821
 Homepage: https://github.com/cracklib/cracklib
 Description: pro-active password checker library
  Shared library for cracklib2 which contains a C function which may be
@@ -51457,22 +51457,22 @@ Description: namespace aware SAX-Parser utility library
 
 Package: libxml2-16
 Architecture: amd64
-Version: 2.15.3+dfsg-1
+Version: 2.15.3+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libxml2
+Source: libxml2 (2.15.3+dfsg-1)
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 1600
+Installed-Size: 1681
 Depends: libc6 (>= 2.38), zlib1g (>= 1:1.2.2.3)
 Conflicts: w3c-dtd-xhtml
 Breaks: libxml-libxml-perl (<< 2.0207+dfsg+really+2.0134-3~)
-Filename: ./libxml2-16_2.15.3+dfsg-1_amd64.deb
-Size: 642080
-MD5sum: 61f761a9aba653b5ba226be80f79756e
-SHA1: 94424b10265d924f1607555ea826ac64121d8142
-SHA256: b920f80146fb87f38402508ce1abda303bd3c8f4acb1f8c1b9b2f68a3c11e478
-SHA512: 826c2e85f595790ae34a8c63ced41d06862e1bacf2b30a4a3561a0c7ffe2af72f1a37ee1ccd461836963ef10658bec26d9af3f14f7d67e7641ed98bd8b839a37
+Filename: ./libxml2-16_2.15.3+dfsg-1+b1_amd64.deb
+Size: 681732
+MD5sum: 3b1f951b4a17969b8bd2443fc4b6a834
+SHA1: e57947d6acd8b823db09d86ba49592095d8412c1
+SHA256: 88906d19eb611fecfbfa7d21915e82e41ee4b0cfd0ef89a5de33731db72eb0b7
+SHA512: abb08d190afc7551b92fe22dc77b3a6144a6d429ab0a1d6dac486bf8f5eaaa483d67150e6641fd581e045f6084a77858bdc014ee434cbf1055a7f4165e18f2b7
 Homepage: http://xmlsoft.org
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
@@ -51487,20 +51487,20 @@ Description: GNOME XML library
 
 Package: libxml2-utils
 Architecture: amd64
-Version: 2.15.3+dfsg-1
+Version: 2.15.3+dfsg-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: text
-Source: libxml2
+Source: libxml2 (2.15.3+dfsg-1)
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 211
+Installed-Size: 212
 Depends: libc6 (>= 2.38), libreadline8t64 (>= 6.0), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.2.3.4)
-Filename: ./libxml2-utils_2.15.3+dfsg-1_amd64.deb
-Size: 123324
-MD5sum: 9a6b9a01b5a265db0c21a299d628f9c1
-SHA1: b7a25e07e32b8b6f5c929894fe189a0940be805b
-SHA256: bc94ae4bfa788911b5667d592109de90850804f9787b819938cd7a670650f93d
-SHA512: b864a7b221a9bcf691246668bcc3d2136f6de4ece40d5cc36c9cebc6ccdaab27384079bc5640ede1f87d648bdca5ff3c5d5e553de30dc9b94007b2bff70822ed
+Filename: ./libxml2-utils_2.15.3+dfsg-1+b1_amd64.deb
+Size: 124396
+MD5sum: db900172a6e1494daaa7d74f3b832958
+SHA1: fd0259aebca5b1a4ac589f5fec3043eda24d516f
+SHA256: 715b9d1dbe51b8a7bb0a745968d05d8a84e07ebce663b09babe665752b8733f6
+SHA512: 7f34f1c27183f0d465e5182d37a889fab28492ed8a4321c3a5d63b21dfa0856a76dc7ced2997baae552dbf306f5c33518de2d985762b5b185f52138c7a701428
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
@@ -58923,19 +58923,19 @@ Description: Python bindings for libvoikko
 
 Package: python3-libxml2
 Architecture: amd64
-Version: 2.15.3+dfsg-1
+Version: 2.15.3+dfsg-1+b1
 Priority: optional
 Section: python
-Source: libxml2
+Source: libxml2 (2.15.3+dfsg-1)
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 1083
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.28), libxml2-16 (>= 2.15.2)
-Filename: ./python3-libxml2_2.15.3+dfsg-1_amd64.deb
-Size: 216760
-MD5sum: cfe344676cac9b6ae7a1e5b9b11be22e
-SHA1: 3d0f485e1b5663c8d7bd202bead3e51e2987cd2b
-SHA256: e4a60774e1c515172fae168b40ab0b82f4b2c6b90befdd23f58aaaeb471b1156
-SHA512: 75828448e285d81bcb8de148bac658b43c11f215d5daeca0a7e6ef0dd50632e53aaf1b5fc712f5a1393bbbe8a02086f7585685fc36b58276f8c586da8ea76f94
+Installed-Size: 738
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.28), libxml2-16 (>= 2.15.2)
+Filename: ./python3-libxml2_2.15.3+dfsg-1+b1_amd64.deb
+Size: 194076
+MD5sum: c9af98675d29a724797ce031c7ca0871
+SHA1: 35bc72d1a0b8386fb464f95179fffbfd1d365ae2
+SHA256: 0baa85a8e3e483553360f07f74419d2e5fa374834ca736f1ecd949819bc728a6
+SHA512: 209b4c712e9f9d07395513597ad2f4a600cfb4f8dc46bca1cf0c9ccf2ce761c17c621c29e41807a61479cb6f6528a179cd7232a839a4655f08b8e0609d637c78
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - Python3 bindings
  XML is a metalanguage to let you design your own markup language.
@@ -59012,19 +59012,19 @@ Description: fast and lightweight templating for the Python 3 platform
 
 Package: python3-markupsafe
 Architecture: amd64
-Version: 3.0.3-2
+Version: 3.0.3-2+b1
 Priority: optional
 Section: python
-Source: markupsafe
+Source: markupsafe (3.0.3-2)
 Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 68
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14)
-Filename: ./python3-markupsafe_3.0.3-2_amd64.deb
-Size: 13888
-MD5sum: dadcc967478d6fe8ab5d4205a995c7ac
-SHA1: 445a65c6dcae70a53c178a7ca4832b0659303558
-SHA256: 72c231e5716449288dd4d8d0f9e07249ff2a198a2ca0e49156102e723f4330b2
-SHA512: bfba4aa953c34184bb910b289ba8b4e256c8c14187008e793fb286ea6e1a9571a9b52312140c2ac48d7bbe3074bbc7dba3f90cf37ab09c0f04460cadc2f4b882
+Installed-Size: 54
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-markupsafe_3.0.3-2+b1_amd64.deb
+Size: 13744
+MD5sum: 64872d2e7e2ca83f1a2c3fc5b0562e17
+SHA1: 88ed9d7ed394e3d5f94300a5bf3864d85f2d8bda
+SHA256: 473dd57a7bb11636cfa5a8c161ead426c54592b000637855b94cc863899610a1
+SHA512: a9cdd2080cef226beba4a26118512ae40500c7712c19667b806c88b532bf8c59ce0f44f787e9ed44efcf28728cf6f68c72b681498e51641398cdf6aa80afe0d5
 Homepage: https://palletsprojects.com/p/markupsafe/
 Description: HTML/XHTML/XML string library
  MarkupSafe is a Python library implementing a unicode subclass that is
