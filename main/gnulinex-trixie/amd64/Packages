@@ -14253,21 +14253,21 @@ Description: daemon for global keyboard shortcuts on the Plasma desktop
 
 Package: kimageformat6-plugins
 Architecture: amd64
-Version: 6.28.1-1+b1
+Version: 6.28.1-2
 Priority: optional
 Section: kde
-Source: kf6-kimageformats (6.28.1-1)
+Source: kf6-kimageformats
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3294
+Installed-Size: 3293
 Depends: libheif-plugin-j2kdec, libheif-plugin-libde265, libheif-plugin-x265, libavif16 (>= 1.4.2), libc6 (>= 2.38), libgcc-s1 (>= 12), libheif1 (>= 1.19.1), libimath-3-2-30 (>= 3.2.2), libjxl0.11 (>= 0.9.2), libkf6archive6 (>= 6.28.0~), libopenexr-3-4-33-imath-3-2, libopenjp2-7 (>= 2.2.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6printsupport6 (>= 6.9.0~), libraw25 (>= 0.22.0), libstdc++6 (>= 13.1)
 Breaks: kf6-kimageformat-plugins
 Replaces: kf6-kimageformat-plugins
-Filename: ./kimageformat6-plugins_6.28.1-1+b1_amd64.deb
-Size: 585924
-MD5sum: f41b1d3c52ae16cdadce431cb6b96a47
-SHA1: 72f46626e8314f53ee411ca0d8e897793c710794
-SHA256: 2a644e54c903c61079561773713ec7499a12eb4377fa3c7a64195d32859e6d4a
-SHA512: ce6aecfdcb980806d541972e1d7cd6b68ed2a1aa5718570bc26e28b6157b78914a0dcc23b46f2b320254ad82461719e11c80a34f4a94be6946942919bd65ddfa
+Filename: ./kimageformat6-plugins_6.28.1-2_amd64.deb
+Size: 585676
+MD5sum: 1001b77001c4d06ad0bf2e6338228b19
+SHA1: 90f8d31cded1179fc6af19bcb9b430c545145d2b
+SHA256: d636cf5ee50921f01dd74cdb430d5fe5f2e805dbb0cdb1d19f371620c5b859ab
+SHA512: c116968502f928dbc130b16ed0d160853b1cb1d951a49afa8f7444ea2b5feddb26f4c3b6fde7e4fb47e9ac3a4be5a1172ec148518c0fbe0020266fdebb27d158
 Homepage: https://invent.kde.org/frameworks/kimageformats
 Description: additional image format plugins for Qt Gui
  This framework provides additional image format plugins for QtGui.  As
@@ -51864,7 +51864,7 @@ Description: high performance JSON library written in ANSI C
 
 Package: libzeitgeist-2.0-0
 Architecture: amd64
-Version: 1.0.4-6
+Version: 1.0.4-7
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -51873,12 +51873,12 @@ Maintainer: Debian semweb Team <team+semweb@tracker.debian.org>
 Installed-Size: 506
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libsqlite3-0 (>= 3.5.9)
 Suggests: zeitgeist-core | zeitgeist
-Filename: ./libzeitgeist-2.0-0_1.0.4-6_amd64.deb
-Size: 152564
-MD5sum: 2bfca2dcf55213dc2a55b8606e8cacea
-SHA1: b39d9c32bff0bce1d35ec2088f6cb9b9f5a062f9
-SHA256: 751afbd737251818d416df76661082aec340c31d22a2b6ecdee64d58a987fb5b
-SHA512: 93dff1f932e3c617b7bf95c13ce57e66adb9c3138fc98f57e7532c4e4041478127578eb775edfc03e9e7823ee22e5dda1e16a9f455ca3d6cf873533bfad6d422
+Filename: ./libzeitgeist-2.0-0_1.0.4-7_amd64.deb
+Size: 151996
+MD5sum: b4ed7baba30c898dd2e1d8930a50c473
+SHA1: 96b20b5d0c315e31b620127418e67519bc9c07da
+SHA256: 31e050b23f97f83e1a9de956e9842225bc25bb19f64454485ab76acca85d5867
+SHA512: 2e31f62fb35277dc00e36dcfb2bfc576b493f666b2997a5f1f79c05fa921a583bded21875ecc1cc28be5324f5c3f75d71f88d98c8d06e5bcdc71dbc5c0a24721
 Homepage: https://zeitgeist.freedesktop.org/
 Description: event logging framework - shared library
  Zeitgeist is a service which logs the user's activities and events
@@ -73715,21 +73715,21 @@ Description: Help browser for GNOME
 
 Package: zeitgeist-core
 Architecture: amd64
-Version: 1.0.4-6
+Version: 1.0.4-7
 Priority: optional
 Section: utils
 Source: zeitgeist
 Maintainer: Debian semweb Team <team+semweb@tracker.debian.org>
-Installed-Size: 491
+Installed-Size: 487
 Provides: zeitgeist-extension-fts
 Depends: libc6 (>= 2.38), libdee-1.0-4 (>= 1.0.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), libxapian30 (>= 1.4.28~), libzeitgeist-2.0-0 (>= 0.9.14), init-system-helpers (>= 1.66~)
 Suggests: zeitgeist-datahub
-Filename: ./zeitgeist-core_1.0.4-6_amd64.deb
-Size: 158828
-MD5sum: 33b44e65edccee42382af54bb9fbc122
-SHA1: 7e0e0c02a08c6cfac4afcfdcf6d7e8fa29e51d7d
-SHA256: e5ee38c08d0660483b9ae514f27d75911924f117be7c1b5922ebb3c1890d4919
-SHA512: cc1d053e87462fc8d947b187277c49d06b8b2da502974109dddc4264e23756c12108ab4ded4cad4bef030d7a27ff9ab8c4b6a92b9f47512f178b70fcf26c5cdd
+Filename: ./zeitgeist-core_1.0.4-7_amd64.deb
+Size: 157852
+MD5sum: 4eed149af26ac583ab58a5e3fffd7600
+SHA1: e415d7c5c4c1843314b78c6766fb1ca24191b66b
+SHA256: c7778fe110569b0c4df33451216aabb881dd95cbd12d927945698888f31aa5f1
+SHA512: 8b80a714de6e8406bf025252d6254f78c2189457c5c312c83cbdab4b0a97e5352156110777aff162e1a3dc169e9eca0daa160696ddff29d39bd90b5bcc345b45
 Homepage: https://zeitgeist.freedesktop.org/
 Description: event logging framework - engine
  Zeitgeist is a service which logs the user's activities and events
