@@ -400,22 +400,22 @@ Description: Java based build tool like make
 
 Package: apache2-bin
 Architecture: amd64
-Version: 2.4.68-1
+Version: 2.4.68-2
 Priority: optional
 Section: httpd
 Source: apache2
 Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
-Installed-Size: 5165
+Installed-Size: 5261
 Provides: apache2-api-20120211, apache2-api-20120211-openssl1.1
 Depends: perl:any, libapr1t64 (>= 1.7.0), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libaprutil1t64 (>= 1.6.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libcurl4t64 (>= 7.28.0), libjansson4 (>= 2.14), libldap2 (>= 2.6.2), liblua5.4-0 (>= 5.4.6), libnghttp2-14 (>= 1.50.0), libpcre2-8-0 (>= 10.22), libssl3t64 (>= 3.0.0), libsystemd0, libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.1.4)
 Suggests: apache2-doc, apache2-suexec-pristine | apache2-suexec-custom, www-browser
 Breaks: fossil (<< 1:2.24-5~)
-Filename: ./apache2-bin_2.4.68-1_amd64.deb
-Size: 1419228
-MD5sum: 6ac9bedd0e8cd555bca7f29e9189bf81
-SHA1: eca640d5c527559c04b8bd63739569be31ee3f82
-SHA256: 05319b1b6b730dddfc79d9c8a6a238577a11385065c377f5fff1d3fc2b4289b0
-SHA512: 3d3283fb73e828eb1cf0713a12fc208591203410a202ea71e86bcf579bf3a89a969e3a9ec033af7c36ecb812aa8ddbb8a184e25987d63e925274a1652179043d
+Filename: ./apache2-bin_2.4.68-2_amd64.deb
+Size: 1471364
+MD5sum: c980c5c997efa38afcd2140b94be1089
+SHA1: edbe3483402984c5214ef150fef077c11c6b9185
+SHA256: bd74b80e66472d7e2fd16550627ceb2698de34a5b5dbcf21483e47adb1225671
+SHA512: f394f34b40649f2621a2f6e526600366ab4cc07cd670882208e7945f9737cd277e6f2a22780e5a9ce53041264a31ff8c67db4f3fcc4ef41f99877e3fee0eeba3
 Homepage: https://httpd.apache.org/
 Description: Apache HTTP Server (modules and other binary files)
  The Apache HTTP Server Project's goal is to build a secure, efficient and
