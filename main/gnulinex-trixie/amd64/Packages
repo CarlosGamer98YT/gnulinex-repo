@@ -3633,22 +3633,22 @@ Description: make color lines of five or more length
 
 Package: flatpak
 Architecture: amd64
-Version: 1.18.1-1
+Version: 1.18.2-1
 Priority: optional
 Section: admin
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 9278
+Installed-Size: 9267
 Depends: bubblewrap (>= 0.10.0~), fuse3, xdg-dbus-proxy (>= 0.1.0), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-4 (>= 3.17.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpgme45 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxml2-16 (>= 2.14.1), libzstd1 (>= 1.5.5)
 Recommends: ca-certificates, default-dbus-system-bus | dbus-system-bus, desktop-file-utils, gtk-update-icon-cache, hicolor-icon-theme, libpam-systemd, p11-kit, polkitd, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
 Suggests: avahi-daemon, malcontent-gui
 Conflicts: xdg-app
 Replaces: xdg-app
-Filename: ./flatpak_1.18.1-1_amd64.deb
-Size: 1690604
-MD5sum: a733f051fa9baac278c888ccda3f1e50
-SHA1: 5ade0bc1db5e17cb545afaac2c6a7bb5739ff4bd
-SHA256: 1b33ac3916aeeaefbd894303b0c2a69bf4ea1afdf1b1452180413caba5c85ac5
-SHA512: 50f49c1d249a72141e1b6031752ec4a161ded741c300b7af9b2d166d4572724f935ca55ee51abcacd50bfb43c8ee620b87f1facdc9bc5ed201adcfddefd8524d
+Filename: ./flatpak_1.18.2-1_amd64.deb
+Size: 1687120
+MD5sum: 9ab490d225f6b7f5729d9ed1fd766363
+SHA1: 547f2a53679d4d00009ca37057456743748f2a0e
+SHA256: efad0f0687c1bef9f005c9dca705fa17d4305d7f977d0052de9658ba11f24e2e
+SHA512: c48e7bc40b7e571aa68fd1043e0f13d1a324668f8e204f7143f056daec7c3c72445c3166d9c2c09f18fbbca568815a153f2608403bb8e4c2a3620bcbfe3bb404
 Homepage: https://flatpak.org/
 Description: Application deployment framework for desktop apps
  Flatpak installs, manages and runs sandboxed desktop application bundles.
@@ -13920,19 +13920,19 @@ Description: KCM Module for kscreenlocker
 
 Package: kde-config-updates
 Architecture: amd64
-Version: 6.7.4-1
+Version: 6.7.4-2
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 97
 Depends: systemsettings, plasma-version-base-6.7, libc6 (>= 2.4), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./kde-config-updates_6.7.4-1_amd64.deb
-Size: 24512
-MD5sum: 890f118d352741bc086a939e5d55a4d0
-SHA1: da62c8e6f5f3f7f970eb3f5a5eb0573207b475ef
-SHA256: 257dc8368293fd2ae3bf98a4e90e6d4d4f265d33faf4131e0a705ef65234a67a
-SHA512: 2bf9961cb05d80d561dac1eb0fc87e6e5618a5f928c706e2f9c3c41ac39de76ab3317786900e83d59c04533fb0e11247ce56d1f5d6278822024c530bf7f18ae5
+Filename: ./kde-config-updates_6.7.4-2_amd64.deb
+Size: 24612
+MD5sum: 404331c05385a5a8306139f136ead025
+SHA1: 67cf85c153bcbae87e5901f31db8fa8c2f1bbf6c
+SHA256: d74b681da0682b81b60735659e3fe94c5ad44e543dafd661044d0d5f9a2bbfa4
+SHA512: 1aac33c8170053f67d341779c257f2d584b118c686596ceba7505fe1c9eab5b17ee1d1d304adb13f72c141c8add0800117bc919da26e7992fc78d0261bb21120
 Homepage: https://invent.kde.org/plasma/discover
 Description: Unattended updates configuration
  This package contains a configuration module for configuring
@@ -17077,22 +17077,22 @@ Description: Theme library for budgie-desktop
 
 Package: libc-bin
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: foreign
 Priority: required
 Essential: yes
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2117
+Installed-Size: 2118
 Depends: libc6 (>> 2.43), libc6 (<< 2.44)
 Recommends: manpages
-Filename: ./libc-bin_2.43-3_amd64.deb
-Size: 619936
-MD5sum: 1fff5cce6b103b4c59fdacbc6144005d
-SHA1: 295e8a8f513bf29af05f72a3ad9a4e6fc8fd6fc0
-SHA256: 70c95058070a663788034a625db6ef5d253e3bd6d284603003057fe37bbd8f87
-SHA512: fb798be022fe9253f9b1220475d39646fa1762e7a4df0ed518e353bb6ea2baca27b57f5b6d0bafabfe82128e52e610fdb6d06d4211e7219b72734129d4164839
+Filename: ./libc-bin_2.43-4_amd64.deb
+Size: 620048
+MD5sum: 82ed453bb949af7841b8de0eeb3c808d
+SHA1: d56e9a84d22cf06134433240798e927d195b863b
+SHA256: a7d3db189822c759f8bc0f85d1f0ac1dbd57b477e8e77f25db7d4559f4eb1033
+SHA512: d3596f409531470f76bd515a3d34cd0ade52ac664a68034fe35adfea5e54bf044e4a3c4c79f12ce902dea226af9f201635616b91373fa00a6b12b8134ac1a7f9
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
@@ -17106,22 +17106,22 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 107
+Installed-Size: 108
 Depends: libc6 (>> 2.43), libc6 (<< 2.44)
 Recommends: manpages, manpages-dev
 Suggests: libc-devtools (>> 2.43)
-Filename: ./libc-dev-bin_2.43-3_amd64.deb
-Size: 38756
-MD5sum: 61c90cb1980d55d3063fdc580b0c8ce4
-SHA1: 0cdd790c44444d35a95aae004f5bfd38953bf8d2
-SHA256: eb846d9bd4abf221c4f847a8279f2e2c992ccdfe9e63737f8fd8ca8036794b2b
-SHA512: a59e67c6c88e4e776d366c7a0ccd636e487d0884785e8a36f40ad62c450b566475c1ed038a5356355277092ccac8dc87bdd6064db36f5a94d7fc731089c14acc
+Filename: ./libc-dev-bin_2.43-4_amd64.deb
+Size: 38860
+MD5sum: 620308d6c1c72cf3e165d15c76ff0642
+SHA1: 5044d8a28c93fe0ea6b69ddc100f301020afe1b4
+SHA256: 71a371733a3c15d78a284fae2a191ed863e948394795b5b21472ef62d3a50f0a
+SHA512: 6a964c03ec7c40366d6ff51fb618b008f0e5a8b1e2b9fe9c994499bf153fb0aa4802b9c791a0debd9a26b19ada5c225a219aeb90a21490a1de1739f4d8dd6888
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
@@ -17131,21 +17131,21 @@ Description: GNU C Library: Development binaries
 
 Package: libc-gconv-modules-extra
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 7988
+Installed-Size: 7989
 Breaks: libc6 (<< 2.42-1)
 Replaces: libc6 (<< 2.42-1)
-Filename: ./libc-gconv-modules-extra_2.43-3_amd64.deb
-Size: 1096572
-MD5sum: f785b59c76d512e7789e8f6c5da0175d
-SHA1: 067d9f436ebe0663b11572f1e1cc16981abbf639
-SHA256: 65df9da82e7276d7699a68c05ef2fffb6434b2ad416bb3192e2c816811482ad0
-SHA512: 3c291b78a1c5436e09ccb8b30a90200f14f724b7879c7a8084de88b44d1e52d1e43e2b86fdcf8d385d64a0e0058bda3bed8a1c10c5e3514cadc9e35843e589c0
+Filename: ./libc-gconv-modules-extra_2.43-4_amd64.deb
+Size: 1100936
+MD5sum: 51de5d95ee95775eeb3dd119dc29d842
+SHA1: ea960d37803226ab4689a1d7673b1aa13a389070
+SHA256: 053a7ba90e115c76a937c3355fab99fe83302e8ff62c0ffb2536679a5903da99
+SHA512: 4f2eedd3a91422246c6bbf2bc14f18c8a3ce6a5464e66172505fa8159e2f820b5b447a02ee7dbf4b133c7a8b388079a61a18a05900547b7cde5d7aabdd94bc4a
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Non-essential gconv modules
  This package provides additional character set conversion modules for the GNU
@@ -17154,19 +17154,19 @@ Description: GNU C Library: Non-essential gconv modules
 
 Package: libc-l10n
 Architecture: all
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: foreign
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 4943
-Filename: ./libc-l10n_2.43-3_all.deb
-Size: 749084
-MD5sum: 1d040649eca73999dd312199ed4a40ad
-SHA1: 417a175759e5e1b6c80db6112b63952a44daa6c8
-SHA256: 488e242a40bfc6cb8b0acb6f9794b879495edef451329d9e9444786f886d7145
-SHA512: 3ff285eb36a1e3fb16a551e28854d8147932c59c31aa70bdf9b6789e24b77e8148ac8b04f01f8dbbdf72deeb7275dfcfe4c7d836e2c4aeb5778dc439b2b323be
+Installed-Size: 4944
+Filename: ./libc-l10n_2.43-4_all.deb
+Size: 749780
+MD5sum: 9115bcf8d369cd45fcbbdca087b58bae
+SHA1: d6502c79fc146362bbb366ef9aa133224010e881
+SHA256: 2ecf419c3296b46306a5bb0b3c3b5bca1ce23221dc5c4d3831915966198ecd1e
+SHA512: c5efc82b3bb234108e1c411c00fa87b76ee5ab550871456122c39cdc294d8f8256e30c8e0178e8f8c67fe308fe1a1b96f9b620d169d25c4b65b7b1c15ce8b246
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
@@ -17174,24 +17174,24 @@ Description: GNU C Library: localization files
 
 Package: libc6-dev
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12861
-Provides: libc-dev (= 2.43-3)
-Depends: libc6 (= 2.43-3), libc-dev-bin (= 2.43-3), linux-libc-dev
+Installed-Size: 12863
+Provides: libc-dev (= 2.43-4)
+Depends: libc6 (= 2.43-4), libc-dev-bin (= 2.43-4), linux-libc-dev
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: catch (<< 1.12.2-0.1), libc6-dev-amd64-cross (<< 2.43~), libdpkg-perl (<< 1.22.22), libmysqlclient-dev (<= 8.0.29-1)
-Filename: ./libc6-dev_2.43-3_amd64.deb
-Size: 2067004
-MD5sum: 96438641e4cc706095d6f0cde86d551e
-SHA1: d215b69894f07ea85cf42c2fdf7375848f7d6edd
-SHA256: 766722924c0389030c2bb6f1d53f6dec67c186d77ff0035e59f3fd0634865ae2
-SHA512: c2e6036cf31c3a33042831538a6ede0f89ba1c829ab7caeb8a608712ea2c2ac0794fb3ea65ada0907cb5f903348a01e991a326e7721c22f239766b30219463c7
+Filename: ./libc6-dev_2.43-4_amd64.deb
+Size: 2066888
+MD5sum: e704d48fa9d6a5182c524a1853163199
+SHA1: 6602bb7c9e8c560c8d8f7b2b97ccf8b26471e08c
+SHA256: 941c6c309b8ecfc6b21292d95c55677aab5d43b4cfa47cbb6b5fdd6ed3d35940
+SHA512: b84d75123fc139a5e641ea5a3bdbf901dbe6f5857fdbbdc6ae9a9027812ad1b02058cbf95bd3b21323d36be6e2d82438e1886ba42d621bec35f9c40c55de848b
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
@@ -17199,21 +17199,21 @@ Description: GNU C Library: Development Libraries and Header Files
 
 Package: libc6-i386
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12292
-Depends: libc6 (= 2.43-3)
+Installed-Size: 12293
+Depends: libc6 (= 2.43-4)
 Conflicts: libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-sparc, libc6-sparc64, libc6-x32:i386
 Replaces: libc6-dev-i386
-Filename: ./libc6-i386_2.43-3_amd64.deb
-Size: 2609176
-MD5sum: 95be86c7174bfec002597ad4b66ea189
-SHA1: cc48bd3672bfbc4e8f5474e9dfc5a0f2f1f7ad5a
-SHA256: 6b07cfd503569ed0fb6112418229a886e1e8c718b20f54395413efba34651d8d
-SHA512: 8d7f5cca17a051b8555fc3f47ae46d1489daa2082584c77e262733be57515cba2a5cf3792caacbcb86d12e67fe35003788d5f34fb24b78276683c223959dc204
+Filename: ./libc6-i386_2.43-4_amd64.deb
+Size: 2608368
+MD5sum: 0f460653210d7373f1759a11fed6d1f2
+SHA1: 4e70bd288ee0f65fbd256729e62a17d4c1645db3
+SHA256: 2da0d33a12e138f5e35881aa11e93dbb2343ec6da63462566af4f7ddc8a6e495
+SHA512: fbe6981f90ecd3160b1d11ebc9812d074d363a521e63c1758102144fabf894fdc92d5a222194a61e79e275da3c57a2e612c170d4ad86c664d6a7d094e770d785
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: 32-bit shared libraries for AMD64
  This package includes shared versions of the standard C
@@ -17222,24 +17222,24 @@ Description: GNU C Library: 32-bit shared libraries for AMD64
 
 Package: libc6
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 5481
-Depends: libgcc-s1, libc-gconv-modules-extra (= 2.43-3)
+Installed-Size: 5483
+Depends: libgcc-s1, libc-gconv-modules-extra (= 2.43-4)
 Recommends: libidn2-0 (>= 2.0.5~)
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis
 Breaks: base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.43), locales-all (<< 2.43), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.43), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)
 Replaces: libc6-amd64
-Filename: ./libc6_2.43-3_amd64.deb
-Size: 1864136
-MD5sum: a9b7c38144b6734838055ad58bfdeb20
-SHA1: b0c15f2913097a610b4728f90b78a2ff0b26f8b4
-SHA256: 3ec675d9e6315acfdb6821385fc30c1b5e37cd3248e3b4ee0464aa75b7629f2c
-SHA512: a07f7fc955025ffadbeb7e6b784795b95e93249ea1f76203ee965f1b3839042ade891d6a7b26965474154d756e97a83c4c84341e5965b8d628b04b3680b6fc06
+Filename: ./libc6_2.43-4_amd64.deb
+Size: 1865600
+MD5sum: 6317b68a7585bb797143553891ed4fee
+SHA1: cd59a67e30614671e6d9a33be6624db15f70c21b
+SHA256: ecb203d544bc9a34137f2ff06595abafd91a7b026d91b468f55a6424291f7528
+SHA512: 5cd11208c9a31fb991df6694d6d22e2ecb8575537e8d3cc1bbe547f600304dff136fc77e8477e2e497717f41cc7c18bc3627b0b581bb0504e718b3b095ba4df4
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -18188,19 +18188,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.1.8-2
+Version: 7.1.12-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 433
+Installed-Size: 446
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.1.8-2_amd64.deb
-Size: 396696
-MD5sum: bb6f1f6e4194aa3717c050e40910fd08
-SHA1: 875590f5173b3b98e9e7b7f3c65e4f7ffce28dbd
-SHA256: f6869785fb997b631c150a01c463c7cf6de98890c44afbfac9cab1c92e9fb763
-SHA512: b5b71461680ff9d2365d00943f563942f2194241fb6e74ab998e2c3caa53a0e809c9be063973d0f52edd77a62457cb7d38547b3e4bce012f74a138e7f119ae98
+Filename: ./libcpupower1_7.1.12-1_amd64.deb
+Size: 410096
+MD5sum: b0077edc6f274b0bf61d14e7dd7176d9
+SHA1: 8675ed821e6e334167438bc4f3508d8a768dbbdb
+SHA256: bb012bfc36f9efec01c3a968e8775f6f2299d8a9d3eed86268b961292e3dff58
+SHA512: d9fb33b994d1edaf0136682b547ebdd927b2069731f605591a3e3c4943ac5a4e22cc70b7e5897bacd3dfd7f55be135562db8f79aa0b29dded4ae7cfb56fb0f98
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
@@ -21031,7 +21031,7 @@ Description: Library for computing Fast Fourier Transforms - Single precision
 
 Package: libflatpak0
 Architecture: amd64
-Version: 1.18.1-1
+Version: 1.18.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -21039,12 +21039,12 @@ Source: flatpak
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 1157
 Depends: bubblewrap (>= 0.10.0~), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0t64 (>= 2.83.0), libgpgme45 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxml2-16 (>= 2.14.1), libzstd1 (>= 1.5.5)
-Filename: ./libflatpak0_1.18.1-1_amd64.deb
-Size: 415992
-MD5sum: 6cd8b7672288c6f8cb925cd7c7e5b926
-SHA1: 3eba3c581175d269748633e061f4b2924786f664
-SHA256: 25a3a2702a51c99f7d901ec11eefa3174680650280d375ce68c68eee1e56d636
-SHA512: 70eab376d2c47101c0feecd55e1f5bdb69d83d2a9c5cb34ec5968257f7a442368038a13fb3e063a963b3b917f7b8303cb8cd95ac071151bdf1d79301886ccf3e
+Filename: ./libflatpak0_1.18.2-1_amd64.deb
+Size: 415996
+MD5sum: c4126f465fec09efe7427810335d8b71
+SHA1: 334eb43f6169170aaff4bfa34db369a30238ee1a
+SHA256: 077dbcffcd0fc49026909761e86f65ee5a743c6b022a3192f9df484858722dde
+SHA512: f2a379d2e3cd49d2d20c0facaa3ecfb9f2ec03f1005bf9ed3df3874211b548d232adfeeb93bd7a4566e3c2cebe44c067845ca7966d5fb9a23a04aba18a4f705e
 Homepage: https://flatpak.org/
 Description: Application deployment framework for desktop apps (library)
  Flatpak installs, manages and runs sandboxed desktop application bundles.
@@ -25992,19 +25992,19 @@ Description: JavaScript display engine for LaTeX and MathML
 
 Package: libjs-sphinxdoc
 Architecture: all
-Version: 9.1.0-6
+Version: 9.1.0-7
 Multi-Arch: foreign
 Priority: optional
 Section: javascript
 Source: sphinx
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 286
-Filename: ./libjs-sphinxdoc_9.1.0-6_all.deb
-Size: 46064
-MD5sum: 95ae975c9d442fedf67d3241f437ad67
-SHA1: 0f36c163c8a2117522fc2c12ccfd9337bb508b87
-SHA256: 584fdc19a58d2742c08093e4f93d188a0f81a99cdec9623d5cadb1ad735d1584
-SHA512: 42be454137d9a83ac40425dff88ae7a1d9c101ff21319c4b4c15c228cef1b4f9f1fd9efe9d46792525013e6e8818bed92bc4071f22c0ce0141b4c6fbf53eec22
+Filename: ./libjs-sphinxdoc_9.1.0-7_all.deb
+Size: 46076
+MD5sum: 00ffcd2166807ed60369413b340ab07c
+SHA1: e2c286b743467547c37e3c66097417fa4630f9a2
+SHA256: 2abaef8ba1f98c5b6273c5ec63b592d99bd976ee9956f5dc102b1713558325d2
+SHA512: b77e50d99c929cff17a04d7683f440a4feb6d65ea7f7413ed779ffce2344d95d0483363c374514da4bb4494a1795aa45e8502ca5dca3c594c20297f53254dbda
 Homepage: https://www.sphinx-doc.org/
 Description: JavaScript support for Sphinx documentation
  Sphinx is a tool for producing documentation for Python projects, using
@@ -29127,20 +29127,20 @@ Description: Syntax highlighting Engine
 
 Package: libkf6textaddonswidgets1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 325
-Depends: libktextaddons-data (>= 2.0.2-3), kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.20.0~), libkf6i18n6 (>= 6.20.0~), libkf6itemviews6 (>= 6.20.0~), libkf6kiocore6 (>= 6.20.0~), libkf6kiofilewidgets6 (>= 6.20.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textaddonswidgets1_2.0.2-3_amd64.deb
-Size: 70328
-MD5sum: 05b984d415056d4c7eb397389dffcb99
-SHA1: c1f80740c3ffe3fd2885c2a6a46d83d857044939
-SHA256: ca0454b502b2747f2dfbffcd6bef0b2f32308e193b1d939493b102e9e420a4ad
-SHA512: 2088280440cddcb24d635f93d6c5e6dc21190a68691839cd50139d0ee0ddb2d0046a57a47b4c8a5e9fc4adb94270ce7bda4d1d602d743715f674f871706414cf
+Installed-Size: 462
+Depends: libktextaddons-data (>= 2.1.2-8), kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0), libkf6i18n6 (>= 6.20.0~), libkf6itemviews6 (>= 6.20.0~), libkf6kiocore6 (>= 6.20.0~), libkf6kiofilewidgets6 (>= 6.20.0~), libkf6kiogui6 (>= 6.20.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6textutils1 (>= 1.5.4), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textaddonswidgets1_2.1.2-8_amd64.deb
+Size: 93336
+MD5sum: 7d45f4ed1db1957ee84eb7aca239cc24
+SHA1: c73cf9491c309fea2c2c5dbb35336f2aba922235
+SHA256: 3ec96a65f66a78f9b846bcda2c3b09eaac4c18536ab8d5ce177b9708b0b083f5
+SHA512: 8a3434dae51e6ee899d5c7f7442c424f3f5af53f654a05691dbc8708f6b0a8bc75e6844b820d4eac9491859bcd18a368732772047036e5732a8298b25020061b
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - widgets library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29153,20 +29153,20 @@ Description: KDE text handling addons - widgets library
 
 Package: libkf6textautocorrectioncore1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 253
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14), libkf6archive6 (>= 6.20.0~), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6xml6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textautocorrectioncore1_2.0.2-3_amd64.deb
-Size: 62932
-MD5sum: e2dd2a52f20731027a8f68807159e581
-SHA1: f70af757acb048963d053d5898b75b7f8c160df1
-SHA256: c0879d1c510646fc1226c49a04be8ae46a02fe4c791c79c7f6b0eb4916a67081
-SHA512: c11cb04992ced45de7a63e8ec31b7e131939548988f229f48b6985da7ae5537d9370489b2406245bfc391da791dd86fecab5743f9e9f830a27004225572bc502
+Installed-Size: 263
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6archive6 (>= 6.20.0~), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6xml6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textautocorrectioncore1_2.1.2-8_amd64.deb
+Size: 66360
+MD5sum: faca1f39d0de8d65582f5f95e25fba2b
+SHA1: 10b5097a389c2ff0f803e263a79cc97487a24597
+SHA256: d654a1c48bd0c150f02dbf777609fd3e4b707c259bd322862095494286de3129
+SHA512: b445e9bb668f7e3cb3b5c8a6975481b2a7da548e5dcb77e16d75fd30a01f581bb8a8ec76181be13e51a96b3f1be4fd8ecde79e75f1786bb81618d802afcb346b
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - correction core library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29179,20 +29179,20 @@ Description: KDE text handling addons - correction core library
 
 Package: libkf6textautocorrectionwidgets1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 263
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14), libkf6i18n6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 1.5.4), libkf6textautocorrectioncore1 (>= 1.5.4), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textautocorrectionwidgets1_2.0.2-3_amd64.deb
-Size: 57292
-MD5sum: 10c14cf2a22642515aab82cb07d7c761
-SHA1: 0a8ca525c9046dd3110c255675e742bcad7ea99c
-SHA256: 408adce85e763afb74da39494229c96ad6c772401bcd6ac1881c3dc5eeffebcb
-SHA512: 98be42fcf615648fedff4fb6816956e44819fadfd7f1c797b5c13da8fa4535f66586ce182e575e313ce88b21a53c8119661173d05ec183969251ba77b16fd2e3
+Installed-Size: 273
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6i18n6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 1.5.4), libkf6textautocorrectioncore1 (>= 1.5.4), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textautocorrectionwidgets1_2.1.2-8_amd64.deb
+Size: 59164
+MD5sum: fcee0c637ae9c53b3d2335f4475711f1
+SHA1: 1af1814bac1547abdfae685366bab4bb9e1fab6a
+SHA256: 746b29fc17d0e85bd92082b106ee4e72c0d6b6e0232a7fbfc89e2a969c8cc56c
+SHA512: cf1f34e4f1897e128ac7a74d5462261712d1a6484a389e9be8f269ba0064d55412bd249b36afc2c1976488d43b8534338e67564deefaf67a980b0c1a2d18b11b
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - correction widget library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29205,20 +29205,20 @@ Description: KDE text handling addons - correction widget library
 
 Package: libkf6textautogeneratetext1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3134
-Depends: libktextaddons-data (>= 2.0.2-3), kio6, libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6coreaddons6 (>= 6.20.0~), libkf6i18n6 (>= 6.20.0~), libkf6iconthemes6 (>= 6.20.0~), libkf6kiocore6 (>= 6.20.0~), libkf6kiogui6 (>= 6.20.0~), libkf6kiowidgets6 (>= 6.20.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 1.9.1), libkf6textcustomeditor1 (>= 1.5.4), libkf6textedittexttospeech1 (>= 1.9.1), libkf6textutils1 (>= 1.9.1), libkf6textwidgets6 (>= 6.20.0~), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0+dfsg~), libqt6gui6 (>= 6.9.1), libqt6keychain1 (>= 0.15.0~), libqt6network6 (>= 6.9.0+dfsg~), libqt6sql6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textautogeneratetext1_2.0.2-3_amd64.deb
-Size: 612404
-MD5sum: 7f576642e9b54e0b0da3df55436644b0
-SHA1: 3cee0dc2df8dae0d810cb974b41c8bb01f93a023
-SHA256: 3c00fc6fc441dc70d6826340cb66c9133d7ca92c9d62d3ec429046467763c2c6
-SHA512: b5479ec817cd76fb7508289e9af32023bf1bc2d0671c76dab5ddf66a26b5a14d749571c9c0138769ebf78bbffe15d5405688f7b14f0fe65f285f7cf470a93a10
+Installed-Size: 3716
+Depends: libktextaddons-data (>= 2.1.2-8), kio6, libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6coreaddons6 (>= 6.20.0~), libkf6i18n6 (>= 6.20.0~), libkf6iconthemes6 (>= 6.20.0~), libkf6kiocore6 (>= 6.20.0~), libkf6kiogui6 (>= 6.20.0~), libkf6kiowidgets6 (>= 6.20.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 2.1.2), libkf6textautogeneratetextmcpprotocolcore1 (>= 2.1.2), libkf6textcustomeditor1 (>= 1.5.4), libkf6textedittexttospeech1 (>= 1.9.1), libkf6textutils1 (>= 2.1.2), libkf6textwidgets6 (>= 6.20.0~), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0+dfsg~), libqt6gui6 (>= 6.9.1), libqt6keychain1 (>= 0.15.0~), libqt6network6 (>= 6.9.0+dfsg~), libqt6sql6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textautogeneratetext1_2.1.2-8_amd64.deb
+Size: 703196
+MD5sum: ffaa7bcff3941aed5fbc1e53bc707bf3
+SHA1: e50a40241f45890b2e8fa617442f6c6b60e5d8ac
+SHA256: 55773cb1d4d64939bfeb891bd02908cbf0312a531ed61d7e3ee3eea8f9e7d9db
+SHA512: 71b68f93d1106cf14fb3e7952f0900316340000d30cb2a1f41ff0388f0ee8e507fa109d85aa1d8f8ea9aea9d95f2a0b3328eb43f5cec60e63288381ae6a35d85
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - auto-generate text library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29231,20 +29231,20 @@ Description: KDE text handling addons - auto-generate text library
 
 Package: libkf6textcustomeditor1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 408
-Depends: libktextaddons-data (>= 2.0.2-3), kio6, libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6i18n6 (>= 6.20.0~), libkf6kiowidgets6 (>= 6.20.0~), libkf6sonnetcore6 (>= 6.20.0~), libkf6sonnetui6 (>= 6.20.0~), libkf6syntaxhighlighting6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 1.5.4), libkf6textedittexttospeech1 (>= 1.5.4), libkf6textemoticonswidgets1 (>= 1.5.4), libkf6textutils1 (>= 1.5.4), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textcustomeditor1_2.0.2-3_amd64.deb
-Size: 84424
-MD5sum: f15a55f45453f767421aff4ca6e7b392
-SHA1: eb6abc0682f90f4f7056c8614d6feee8ae25b798
-SHA256: 9ef6e5d071e6f708f47034c6e465789518c7354f08eeac1daa297c766770cd61
-SHA512: 94f526f5f94190536500d0bcfa2ed5198676e70f206396b4f26d500d1d19550df4e1691870d56f230f973edcc02dc74a8ee6d4436dfee75e1a1935fd2daaf20a
+Installed-Size: 401
+Depends: libktextaddons-data (>= 2.1.2-8), kio6, libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6i18n6 (>= 6.20.0~), libkf6kiowidgets6 (>= 6.20.0~), libkf6sonnetcore6 (>= 6.20.0~), libkf6sonnetui6 (>= 6.20.0~), libkf6syntaxhighlighting6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 2.1.2), libkf6textedittexttospeech1 (>= 1.5.4), libkf6textemoticonswidgets1 (>= 1.5.4), libkf6textutils1 (>= 1.5.4), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textcustomeditor1_2.1.2-8_amd64.deb
+Size: 83464
+MD5sum: 5194d006bf2415daf4179f556da16271
+SHA1: 61107dd97f865e584c588a4671f1e9012ff7b768
+SHA256: cc61f4b14ab6a60cbe0b0af09c89579fc3303781d128ea7e7b104648231d3dec
+SHA512: a56d80e60d9f36a00af5e1bdf387720027414e15e83ae6bf008cc525b3ccad1d8ad20b193b1a8e740c0cf480f8b1a8e55332fcfa08ac39545a8cc1fe1e7b0004
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - custom editor library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29364,20 +29364,20 @@ Description: provide advanced plain text editing services
 
 Package: libkf6textedittexttospeech1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 218
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.4), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6texttospeech6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textedittexttospeech1_2.0.2-3_amd64.deb
-Size: 45352
-MD5sum: 16ab6b4f45d0b55e085b15405cac98fc
-SHA1: 17f2d639df24d45f3b6006afd5d0766b47300494
-SHA256: aa40795eb48e6bf4bdceb0f7f62c32843a9778f3700f59004ba026d80bbcce21
-SHA512: 807458a52b1daccf30ed8b257e2dfa1398b6d9185a59dbac48fabe980d99d250b7dc1e92a165a14c7f637d42e3b8e4087e75f30c54b1ed9f6bc7afe16012b9f7
+Installed-Size: 228
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.4), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 2.1.2), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6texttospeech6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textedittexttospeech1_2.1.2-8_amd64.deb
+Size: 46760
+MD5sum: 5b047bc9a85aa9419fb014c521c94378
+SHA1: 5c4b253fbcf7d26e1387a667484184b062b3923b
+SHA256: 6b14aa3f2ec1625a237d96a8f112852f26463a72843d31f5b624aa02f86e3212
+SHA512: b8ad3069c064d93c3471357558b5348eb7957515627a426ee0287221c6bd8b0469156db736b55fcf2bedfc2138c1ac478f7943331b9b31a140c363c3ebe2e5d9
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text edit text-to-speech library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29390,20 +29390,20 @@ Description: KDE text handling addons - text edit text-to-speech library
 
 Package: libkf6textemoticonscore1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 363
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.4), libkf6configcore6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textemoticonscore1_2.0.2-3_amd64.deb
-Size: 175460
-MD5sum: 587f4cd65c96828a2af843b9f13b885f
-SHA1: 94bcb9d4864391be7843c5ddadba6e588e9bdca3
-SHA256: 9b803506b0a401163c6a87017384834087aaa38d89a62af51b985dbbf78a98a9
-SHA512: 86d7548c89dfd9085abd8794abb26977baea581f564e6cd56de5ac26dc3a7433c09cca4d47b19513491ec6c31a1ad6b2d09148ea80e7ec62d29bfd2f53c19b27
+Installed-Size: 365
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textemoticonscore1_2.1.2-8_amd64.deb
+Size: 177824
+MD5sum: 24b4ca507fa2fecfbb33ee44aeddbb3b
+SHA1: 9f5f26617bdaebac1d2dc2375960004001275afd
+SHA256: 32b8a819357d554f66d3156028f335afe4e75c7b55d969639117d99ee5ce1f2c
+SHA512: 7a9f7325ad3c120ffd41259ae512944920a677fb11377da61fa53411faa2315cf88e7fdcac2ccf982290abd911ede83cbed50e2e0b4d43fb47c4c29184057441
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text emoticons library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29416,20 +29416,20 @@ Description: KDE text handling addons - text emoticons library
 
 Package: libkf6textemoticonswidgets1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 183
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.4), libkf6i18n6 (>= 6.20.0~), libkf6textemoticonscore1 (>= 1.8.0), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textemoticonswidgets1_2.0.2-3_amd64.deb
-Size: 37036
-MD5sum: 9fb3f3ebca6094c241482c3ff7c90ffd
-SHA1: 1275fd8d39fe92fbc407cb5988256ae82b60a979
-SHA256: a4a618d30006fb4831dbff6b9d31129e733e6d13fddf83171f86a9dc52770f87
-SHA512: 5a161ad1043539b2cd3140c1cad2e854c947cdf9a50a0bdd95e1a061e216255190693bd9356270f67bc371ffee3308da70b4112ca939d56e595716ad20525b57
+Installed-Size: 189
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.4), libkf6i18n6 (>= 6.20.0~), libkf6textemoticonscore1 (>= 1.8.0), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textemoticonswidgets1_2.1.2-8_amd64.deb
+Size: 38676
+MD5sum: af8688ccbc477068d9c092f3ba6cdd1e
+SHA1: 03ff4657e0b24d1c05b9ab29b5c652beeb369820
+SHA256: bf9b1e034392ce369f82935e4888b72b80225c61ed2e7f44e6fb50920292b640
+SHA512: d0ed63dcfc7fd72628f1d964f5bdbbb28d791f2f5aa1c0dc45bd19882c9ff9f96d98bef12ff62c106c2ebebec6a66412d6c23b464cfb3a343630ce7e90b28240
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text emoticons widgets library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29442,20 +29442,20 @@ Description: KDE text handling addons - text emoticons widgets library
 
 Package: libkf6textgrammarcheck1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 361
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6i18n6 (>= 6.20.0~), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6network6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6textgrammarcheck1_2.0.2-3_amd64.deb
-Size: 81312
-MD5sum: be2e5880725cf6cba6d73f894d7561bc
-SHA1: 17a7438b746d3ab20a26b111af277bf63a9ff618
-SHA256: 2d7a7c5be14bae9cc09761357eac3c8aff92218f75d371079731780126ada58b
-SHA512: 6580efb7f9336d5b3d9b676c6831e82df918d58f1e1f0e6e3f6fa7da483e539542807f064e621dc83eb220d22684f046a4aac5ecccdfd330bdb876df6c2a42a2
+Installed-Size: 367
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6i18n6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 2.1.2), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6network6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6textgrammarcheck1_2.1.2-8_amd64.deb
+Size: 83108
+MD5sum: ba424f96ead0e28a333f984a1bc24805
+SHA1: 413b654556295e8c1547f914d9187a52937912b2
+SHA256: d581bf54092b0bf69c33f35aaf24b9b1bf91758cf3e45ea0eb814fc69eb6aa00
+SHA512: e55d260a4b93f20b61646da1d2da974b14e5eed314ace7a250fe39ddbf9b03c4bca91c35f6762d209ead7d818aa68a8b2b74e0a1f0f9424152c8d890443ef883
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text grammar check library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29468,20 +29468,20 @@ Description: KDE text handling addons - text grammar check library
 
 Package: libkf6texttranslator1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 595
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6keychain1 (>= 0.15.0~), libqt6network6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
-Filename: ./libkf6texttranslator1_2.0.2-3_amd64.deb
-Size: 109904
-MD5sum: a40e3b016f84125ccb6d969fcda82524
-SHA1: 72c58259596ee713ae175a7b82610c7c16af7488
-SHA256: be6812f37cc16639ec7dd17181d2c32852b72a8e25ad2240ff823632e4255abb
-SHA512: 36b0b32a08f22d0d34b4d6560e72644b757d9f48add416151569e8a1156f5453eef4fd70e4d94338535b6f06b6509014636f1d4c78b12ee783a6fa16106e01e6
+Installed-Size: 609
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6i18n6 (>= 6.20.0~), libkf6textaddonswidgets1 (>= 2.1.2), libkf6widgetsaddons6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libqt6keychain1 (>= 0.15.0~), libqt6network6 (>= 6.9.0+dfsg~), libqt6widgets6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5)
+Filename: ./libkf6texttranslator1_2.1.2-8_amd64.deb
+Size: 112196
+MD5sum: 74e6026771c1b943d43669ff276df3bf
+SHA1: ac8aa43fda1b07e48fcdfb42b7ca62717fa2f1c1
+SHA256: 0fcb830c6573de1c0938bc554551f4acb089973fc6cc454f83389493450b3467
+SHA512: 29ae9b3cffcf23c4e5715ec119244a1139eb362b17035760c0601d74928bc707a716ad39e09fb7734619f3f2551fc57046c5bef8992ef212ff3973196a6569c1
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text translator library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -29494,20 +29494,20 @@ Description: KDE text handling addons - text translator library
 
 Package: libkf6textutils1
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 145
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6coreaddons6 (>= 6.20.0~), libkf6iconthemes6 (>= 6.20.0~), libkf6syntaxhighlighting6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5), libtextutils-cmark-rc-copy0 (>= 1.8.0)
-Filename: ./libkf6textutils1_2.0.2-3_amd64.deb
-Size: 33672
-MD5sum: 814092428c16efd9b1841666a2e8f009
-SHA1: 83da879b898d2cbb5ea36a9f6c96dc67cbf53280
-SHA256: 4f35c84e9b9ad3be200085d1d462855231731bdcfb1f1786f43445b9568247f8
-SHA512: 06d4e7d367a163a236e51eac48a064c090672df29fc97cc540828aad82d38e543acb6713f71ce61238351cd71af168f52ec1d8da19f3a757114cc938063f079d
+Installed-Size: 156
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14), libkf6colorscheme6 (>= 6.20.0~), libkf6coreaddons6 (>= 6.20.0~), libkf6iconthemes6 (>= 6.20.0~), libkf6syntaxhighlighting6 (>= 6.20.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0+dfsg~), libstdc++6 (>= 5), libtextutils-cmark-rc-copy0 (>= 1.8.0)
+Filename: ./libkf6textutils1_2.1.2-8_amd64.deb
+Size: 38436
+MD5sum: da19a43b2b759794b30de1305d461ba5
+SHA1: 1fe42eb11a43bcf0d5673a4ddfba6ccbf2e67da2
+SHA256: 6d3e41d0715f83e8a88acc0e6083ae5e9dd19efcb4bf0cc9c2df4a9d44676b98
+SHA512: 0d40500a1b4cf44b6ca0b6bb3c9c0b00672c7b177c38f0e80a6752503e6230320560ddf9dff265ea5377618fa6a89a8268674d5cb0f56e51712740613516936d
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - text utils library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -32471,21 +32471,21 @@ Description: library for system monitoring - ksysguardsystemstats shared library
 
 Package: libktextaddons-data
 Architecture: all
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2844
+Installed-Size: 3109
 Breaks: libkf5textaddons-data, libkf6textaddons-data
 Replaces: libkf5textaddons-data, libkf6textaddons-data
-Filename: ./libktextaddons-data_2.0.2-3_all.deb
-Size: 370900
-MD5sum: 155616b9b9369ba2b7c07b0d0be30701
-SHA1: c5901e82d6d7658c40ea5a50cae33962769a8285
-SHA256: 99d193d5016d316c106c9ce98c4a7cfa4ac6251dba8a3eb306febac9013def47
-SHA512: 6fa0ff9bc22ad88c250ce939fa620d3fe17215c89ad6adb34222553436b2ee669db7a9f25e4807ac9ad000afc8df0b150132abb48fb91e38742acfc072acbb82
+Filename: ./libktextaddons-data_2.1.2-8_all.deb
+Size: 403124
+MD5sum: 46ca71f0f688eb88a14b9e088196d117
+SHA1: 10ff8eae7d5eeda48007346f4dd15cea39ac6d27
+SHA256: 45b474bcff929fa6a1a5a4aba383c24740e9edf2740c64e1ab9bc6f9a7ea1c17
+SHA512: 73aec5c54e08efc7464284c71574b63a4838eb2a18f9f9f343df00523589c8682f51cbaaf1ae4cda204da3bb051369ebf00e65ea0d0db6a3a3b627ea81699bd4
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - data files
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -48023,20 +48023,20 @@ Description: TeX Live: Lua 5.3, modified for use with LuaTeX
 
 Package: libtextutils-cmark-rc-copy0
 Architecture: amd64
-Version: 2.0.2-3
+Version: 2.1.2-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ktextaddons
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 230
-Depends: libktextaddons-data (>= 2.0.2-3), libc6 (>= 2.14)
-Filename: ./libtextutils-cmark-rc-copy0_2.0.2-3_amd64.deb
-Size: 77760
-MD5sum: af897486b0983664d8136230c4c5a21b
-SHA1: 764ba7de4d9a1b672281d00bbd64584e15fa465a
-SHA256: 3d6c2f3eb5bd28bb7cbf7f044eb4403dabef6ee5b3beb5463883d29db58ed947
-SHA512: a88abd32d957ef0cc7038792a827a8ed8360a6dd3c4c7abbf0fd10273621ecc737079133429575380e5febb20065c22994725365ad72abe6c802f7a1bf1a46f4
+Installed-Size: 232
+Depends: libktextaddons-data (>= 2.1.2-8), libc6 (>= 2.14)
+Filename: ./libtextutils-cmark-rc-copy0_2.1.2-8_amd64.deb
+Size: 76516
+MD5sum: 4b051c62b6aaa55a64fa9fd92387d750
+SHA1: 03da23f0e3a84ae6ef7d5a6b5526ec55df56f204
+SHA256: 9005b1554427a6b489f13367bde9a967993839bfd52189d3bebf3985a4e53062
+SHA512: d63af846f5ad1c33c4fe260ed6d273a7bb3738105920a55d8c9e28f26585a00006b5300ef726f703478f64824bb34414aad9c594cae1886196cead9302310449
 Homepage: https://invent.kde.org/libraries/ktextaddons
 Description: KDE text handling addons - CommonMark library
  KTextAddons is a collection of text addons libraries developed by the KDE
@@ -52154,20 +52154,20 @@ Description: scalable PostScript and OpenType fonts based on Computer Modern
 
 Package: locales-all
 Architecture: amd64
-Version: 2.43-3
+Version: 2.43-4
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 236586
+Installed-Size: 236587
 Depends: libc-l10n (>> 2.43)
-Filename: ./locales-all_2.43-3_amd64.deb
-Size: 11175420
-MD5sum: 4617809558f68d43b6ff31b06c2d8910
-SHA1: d738ba3a7f327894d1574fcfbc5414d93f1fb443
-SHA256: bc80e23c660401dafebbd2331192ef835de002b5da8267b21a41f23e438447d2
-SHA512: 00e7c84a3004136b61b84ce393d672d2f9cbc5645fc8fe253183b1602d29c7327adfbe5d1a618affb6778ecd1a4c35f1f5a622f121f1e2b696fc9bf031c4f9db
+Filename: ./locales-all_2.43-4_amd64.deb
+Size: 11154244
+MD5sum: 45ca40416b62e140659d88a62f8eedbf
+SHA1: 4e8cb94604c4b0e7889a64882cf39818b9508838
+SHA256: dcf922fce208790839c8fa9e4884e8cfa13b79a43859cd99265ea460632e4774
+SHA512: 48f7cc885877f8c2677966cb7e8a8c8062a4e3a061037e722cff04275323710cdfcc0c306a14846f848642a593cb0144013c48aa8e8a06e492277e5ac7db3cb5
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
@@ -52177,19 +52177,19 @@ Description: GNU C Library: Precompiled locale data
 
 Package: locales
 Architecture: all
-Version: 2.43-3
+Version: 2.43-4
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 15770
+Installed-Size: 15771
 Depends: libc-bin (>> 2.43), libc-l10n (>> 2.43), debconf (>= 0.5) | debconf-2.0
-Filename: ./locales_2.43-3_all.deb
-Size: 3911012
-MD5sum: 24772029fe067d322a4fa502e5108072
-SHA1: 8ffd2a60427c719f4fd99aa63be34f0497082ef6
-SHA256: 64bd1a1a3300954374def02c824632558ffe931e9fbd4aba6d93e5b6025db1f5
-SHA512: af8948ea655baa79e0e92259434450132ac198ce18969be9ba87eb5fa9c25dfef016d6707fc233406ebc970b5c2726e826c9d4974327cc9f5f35cc9517482a4f
+Filename: ./locales_2.43-4_all.deb
+Size: 3910904
+MD5sum: 4948b4a5bdeb778e2c9d3cd7edeec0a0
+SHA1: 51cdc684c6dae75278e0df13dc7c302a3499be04
+SHA256: 73f2a8f585c7fb35ccb11cfdc0d2039ce00edc09f2a92d584a2948a40c118696
+SHA512: 7f97e5e2eb95d5943c7a210925167b429d0a72a2d13db8caa7e8f229d0aac9a97e01790acb780ab5b82a6fbc12c777b035f38022a6b079fe726fe52a80dac3f7
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
@@ -57508,19 +57508,19 @@ Description: Plasma Runtime components
 
 Package: plasma-discover-backend-flatpak
 Architecture: amd64
-Version: 6.7.4-1
+Version: 6.7.4-2
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 849
-Depends: flatpak, plasma-discover (= 6.7.4-1), plasma-version-base-6.7, libappstreamqt3 (>= 1.1.5), libc6 (>= 2.32), libflatpak0 (>= 1.16), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.56.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqcoro6core0t64 (>= 0.4.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 14)
-Filename: ./plasma-discover-backend-flatpak_6.7.4-1_amd64.deb
-Size: 261308
-MD5sum: a9ee8a6f54c79c79d9d37e03dd60d2e9
-SHA1: 346e804350045b1ef02c4b034b44a1a42e18a918
-SHA256: 445a5689f89afffbea28f39947f84a692262e4fdee6acbb47257170259df41ce
-SHA512: e98d30d08633427e7e716947adbede1fe7532152a387bb968f1d2850e99dd152125d24aa0b1284f4a0fbf289b594677960ee66e3b093e223c9c81cc92e64e766
+Depends: flatpak, plasma-discover (= 6.7.4-2), plasma-version-base-6.7, libappstreamqt3 (>= 1.1.6), libc6 (>= 2.32), libflatpak0 (>= 1.16), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.56.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqcoro6core0t64 (>= 0.4.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 14)
+Filename: ./plasma-discover-backend-flatpak_6.7.4-2_amd64.deb
+Size: 260960
+MD5sum: 152664c817489d3ce37b9dca8a22e69e
+SHA1: 8300d26cb52ad261a77d1feae5937d8727768148
+SHA256: 0b07bee903877ddb47fa88529b93ddf4f64ed041e7a9dee10af9675adc6a34b5
+SHA512: f3eacd400574dcfe3e7b7689517a13d3b07142865f1e88be4ea22251c130da86dbb5d926a356318b40e9bbf3e375b43765a3c88b189fbacdb8d6e01fc7b8706f
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite - Flatpak backend
  Discover is a graphical software manager for the Plasma workspace.
@@ -57532,20 +57532,20 @@ Description: Discover software management suite - Flatpak backend
 
 Package: plasma-discover-backend-fwupd
 Architecture: amd64
-Version: 6.7.4-1
+Version: 6.7.4-2
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 159
-Depends: plasma-discover (= 6.7.4-1), plasma-version-base-6.7, libc6 (>= 2.32), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
+Depends: plasma-discover (= 6.7.4-2), plasma-version-base-6.7, libc6 (>= 2.32), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
 Recommends: fwupd
-Filename: ./plasma-discover-backend-fwupd_6.7.4-1_amd64.deb
-Size: 45424
-MD5sum: 32753fd899996d6b5108d862b4cd5330
-SHA1: 5e2d27de4c462d66183a8f7cb963ce0e5606ab3d
-SHA256: 122fd97ed27e9471cb13cc85b42794affc5c6742b755da9f0702b566b72cf1be
-SHA512: fb78db3e6e9501f9324923b474cf6bf16713287450b427698596eacf29026c3df78c97dcfdc9a00b2417da187b8e929a536b601a99fa1f329e0e3a2b47b8c93a
+Filename: ./plasma-discover-backend-fwupd_6.7.4-2_amd64.deb
+Size: 45624
+MD5sum: fea4b30d3a6fb04230ee755d7f56e29c
+SHA1: 0e2e6473030d29c25995aa15601825ba71ae4db5
+SHA256: 893bdd90bb93b1ebc6c2692fdd7d699e0359ade77783ac0ab0dcc0086ee622c0
+SHA512: 3f32ceffb1050cb80875c2b08b141f401d50db32de88783692674f08a5233f14c7882798aaadd667a5889fbea91b4c196eb58cdc4cf6767d0405c7bacebb7ee9
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite - fwupd backend
  Discover is a graphical software manager for the Plasma workspace.
@@ -57556,19 +57556,19 @@ Description: Discover software management suite - fwupd backend
 
 Package: plasma-discover-common
 Architecture: all
-Version: 6.7.4-1
+Version: 6.7.4-2
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 4414
 Depends: plasma-version-base-6.7
-Filename: ./plasma-discover-common_6.7.4-1_all.deb
-Size: 559280
-MD5sum: c54c63c6d93418b411771e2957cb36c5
-SHA1: 2ca1a0b750949118bec7e89d4927d5c32c29666b
-SHA256: dc001b28ec3af9090ac6dc0ebf8d65fb76b3343792a47d3b52cebda90f897803
-SHA512: d12c8266bf15c61bf2268c96527cc6bf32b1cf665bc1944c09d2035bd552beab1bc23e4f97ed7e4ea20ef49ae3703563e5d2d12ae49f1ffaee74290bebc3e29c
+Filename: ./plasma-discover-common_6.7.4-2_all.deb
+Size: 559408
+MD5sum: 06a699f38d26228f85488cbbf3ec70e0
+SHA1: 9ca22ac352df63d1e38bfb16c2ae643ea27c6293
+SHA256: 81593725f9bdfa69b2f08b691e90cbf0eba24d25d6f0004f2de4bb39b3bfc96e
+SHA512: 957f28570e4298a6fddc2c72ca351bac07ec2b452c2987983189002157fd98645c156c4eefba28e2b005cb4290936c281c0fbf54d9481e60c0ae9d0aecb5394f
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software manager suite (common data files)
  Discover is a graphical software manager for the Plasma workspace.
@@ -57578,20 +57578,20 @@ Description: Discover software manager suite (common data files)
 
 Package: plasma-discover
 Architecture: amd64
-Version: 6.7.4-1
+Version: 6.7.4-2
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2875
-Depends: appstream (>= 1.0), apt-config-icons, packagekit (>= 1.0), plasma-discover-common (= 6.7.4-1), plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-purpose, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtnetwork, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtwebview, kio6, libappstreamqt3 (>= 1.1.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6attica6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkirigamiapp6 (>= 1.11.0), libmarkdown2 (>= 2.0.6), libpackagekitqt6-2 (>= 1.1.4), libqcoro6core0t64 (>= 0.4.0), libqt6concurrent6 (>= 6.10.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6webview6 (>= 6.6.1), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 11)
+Depends: appstream (>= 1.0), apt-config-icons, packagekit (>= 1.0), plasma-discover-common (= 6.7.4-2), plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-purpose, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtnetwork, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtwebview, kio6, libappstreamqt3 (>= 1.1.6), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6attica6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkirigamiapp6 (>= 1.11.0), libmarkdown2 (>= 2.0.6), libpackagekitqt6-2 (>= 1.1.4), libqcoro6core0t64 (>= 0.4.0), libqt6concurrent6 (>= 6.10.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6webview6 (>= 6.6.1), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 11)
 Recommends: apt-config-icons-hidpi, apt-config-icons-large, apt-config-icons-large-hidpi, kde-config-updates, plasma-discover-backend-fwupd, software-properties-qt
 Suggests: plasma-discover-backend-flatpak, plasma-discover-backend-snap
-Filename: ./plasma-discover_6.7.4-1_amd64.deb
-Size: 761608
-MD5sum: 48d4f645a7e50e0be659982a59f79266
-SHA1: aac76c7ee895ca263fe1f2ada191582e5f7b178c
-SHA256: f3d9b79b3cc516263bd36148de5f46cb89bc09bb51f92fe840672488d351ce46
-SHA512: b700de1db13a71bb479d860dccb32b99c5b89b25a941d0abe47d20a394c95cd42c1108f48156b9602b8bdcc4426a01bffced6957232f498c3539318c00c21866
+Filename: ./plasma-discover_6.7.4-2_amd64.deb
+Size: 760520
+MD5sum: 1430e59cd298e419ede2121a28bc5ed8
+SHA1: 7feea6b886654ecddb5c6cf8b551c9e715b320d3
+SHA256: 552d1a4b8d0d665676b9d28c57e4e8066a0f0f2c840531b35f7107c6cd0e0de5
+SHA512: 64f517fabcc0cddd45f73c43516552c607ae210595f8149b9e65e7c5226576a990d49f27d5e5c37623184f17675f311e692ebf405e2680efadf268e35ffce72a
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite
  Discover is a graphical software manager for the Plasma workspace.
