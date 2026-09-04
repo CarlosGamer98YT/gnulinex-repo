@@ -2889,22 +2889,21 @@ Description: X11 window manager based on EFL
 
 Package: eog
 Architecture: amd64
-Version: 50.2-1+b1
+Version: 50.2-2
 Priority: optional
 Section: gnome
-Source: eog (50.2-1)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 10535
+Installed-Size: 10534
 Depends: gir1.2-peas-1.0 (>= 1.38), gsettings-desktop-schemas, libjxl-gdk-pixbuf, librsvg2-common, shared-mime-info, webp-pixbuf-loader, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcairo2 (>= 1.10.0), libexempi8 (>= 2.5.0), libexif12 (>= 0.6.21), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.85.1), libglib2.0-0t64 (>= 2.86), libgnome-desktop-3-21 (>= 51~alpha), libgtk-3-0t64 (>= 3.21.5), libhandy-1-0 (>= 1.5.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libpeas-1.0-1 (>= 1.38), librsvg2-2 (>= 2.44), libx11-6, zlib1g (>= 1:1.1.4), gir1.2-gtk-3.0
 Recommends: yelp
 Suggests: eog-plugins
 Breaks: python3-gi (<< 3.52)
-Filename: ./eog_50.2-1+b1_amd64.deb
-Size: 3316700
-MD5sum: bef7824184e934b883a3a29cbc2cac99
-SHA1: bad2aaf173e1b4c5cee0edaa845ad3a7ed44bd55
-SHA256: d6dce093fc66f72bb999f3c1acbe5148c96d93476ee3476986cc611aae0de3c9
-SHA512: 362ae7d53dec42593aa5a29fb8ac10a0baf5f1d1b9067a99b422c2af3fd08602c2d0f28114aff9dbd5830491935c99d37130964e087d4ecb114116f096f8e0f6
+Filename: ./eog_50.2-2_amd64.deb
+Size: 3316536
+MD5sum: 7c693347a3f7086fd33a49230961fed1
+SHA1: 74111475ef9d059340ee27db97842a852a4442aa
+SHA256: 3bc16be03a0746dfec36c4a82066645551902394abad7cccca76ab021e655d04
+SHA512: c6e2d783e15e046e5524478ebbb0ff4aaaae5ef1e0149bf767d03587fc72cdfa2d41167f9f2934c34064d42d4c4a078cedae088da2c0d4958d4e30b995434d16
 Homepage: https://gitlab.gnome.org/GNOME/eog
 Description: Eye of GNOME graphics viewer program
  eog or the Eye of GNOME is a simple graphics viewer for the GNOME
@@ -7485,21 +7484,21 @@ Description: GObject introspection data for the eom library
 
 Package: gir1.2-evince-3.0
 Architecture: amd64
-Version: 48.4+dfsg-1
+Version: 48.4+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: evince-gtk3
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 166
-Provides: gir1.2-evincedocument-3.0 (= 48.4+dfsg-1), gir1.2-evinceview-3.0 (= 48.4+dfsg-1)
+Provides: gir1.2-evincedocument-3.0 (= 48.4+dfsg-2), gir1.2-evinceview-3.0 (= 48.4+dfsg-2)
 Depends: gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, libevdocument3-4t64 (>= 43~alpha), libevview3-3t64 (>= 43~alpha)
-Filename: ./gir1.2-evince-3.0_48.4+dfsg-1_amd64.deb
-Size: 45472
-MD5sum: 1b9980677b19b52f80bf8e9cb3b00e4e
-SHA1: 430b7aec92922fac643eb5a887097bef0ab22ab2
-SHA256: 9fc263f09cfd6dabf48b7bc7ff874ef427c2608a47e9459f1a5bf110a3f92056
-SHA512: 235761ce7b631375aadad1b915f2a66b78a689c7db5654babf294bdeb5f8d65d881a5ef4cc418cd81ca366fbd778922e48d148634acc69fd3f14d0b35acf290a
+Filename: ./gir1.2-evince-3.0_48.4+dfsg-2_amd64.deb
+Size: 45452
+MD5sum: 8ec8b516421b1e331ac00dfe200018fb
+SHA1: 63e71f59abb0ea4d39dfcbfeec105ffb7578f92b
+SHA256: 1e713a5f2cc10226294c9f115ddcd6fe89a59a87430513dc774c98e652c2b0c4
+SHA512: d51b16ddbb4f192752cb38731a9a7b9fbb4a262a10eaeac1347d4f2b446219e673176f15886d78df9debd433728845248b448a3e7add1ae3410cacd9c44c0c23
 Homepage: https://apps.gnome.org/Evince/
 Description: GObject introspection data for the evince libraries
  This package contains introspection data for the libevview and
@@ -8709,22 +8708,22 @@ Description: GObject introspection data for the MATE menu specification
 
 Package: gir1.2-matepanelapplet-4.0
 Architecture: amd64
-Version: 1.27.1-4.1+b2
+Version: 1.27.1-5
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: mate-panel (1.27.1-4.1)
+Source: mate-panel
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 52
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, libmate-panel-applet-4-1 (>= 1.20.2)
 Breaks: gir1.2-mate-panel (<< 1.18.7-3~)
 Replaces: gir1.2-mate-panel (<< 1.18.7-3~)
-Filename: ./gir1.2-matepanelapplet-4.0_1.27.1-4.1+b2_amd64.deb
-Size: 21624
-MD5sum: cf81ca8a4884f00f51014d51c3e3c3bf
-SHA1: 9f77d7c2da2138eb3bcd847217535b739fddef1e
-SHA256: bc5a42d4e80b0eb1927d6a58947914065de84005e8bccfa002b115464b5d5d21
-SHA512: 48b419ea682de49405a76e2ae32f3b68316419c8f520f0ae3449f3b3855577043bc1a2084b8255153b441aa656d8a9d029bcb4bf53bf8f56d47d130bd4bece7b
+Filename: ./gir1.2-matepanelapplet-4.0_1.27.1-5_amd64.deb
+Size: 21544
+MD5sum: 7bff8c6a390fcd976b690749f71595e6
+SHA1: 960aa11a3fa8bbc2eac6c99ba06bb76092a9f8d0
+SHA256: 63d47da5fc3359286367f767d2cc187c479ebaf5b679c4f3fd941a2eb4c1fe14
+SHA512: 1876d73a26d68868fc4e5c2ef741105e9cf58636fe046053634df7e2e09d6daab83861864f7ac487d0a338f7029a6166ff4dc9950e6bf7c62aabfa3d0fd8a77e
 Homepage: http://www.mate-desktop.org/
 Description: GObject introspection data for MATE panel
  The MATE Panel is an essential part of the MATE Desktop, providing
@@ -20557,23 +20556,23 @@ Description: Document (PostScript, PDF) rendering library
 
 Package: libevdocument3-4t64
 Architecture: amd64
-Version: 48.4+dfsg-1
+Version: 48.4+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evince-gtk3
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 670
-Provides: libevdocument3-4 (= 48.4+dfsg-1)
+Installed-Size: 677
+Provides: libevdocument3-4 (= 48.4+dfsg-2)
 Depends: libarchive13t64 (>= 3.4.0), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libdjvulibre21 (>= 3.5.30), libgdk-pixbuf-2.0-0 (>= 2.39.2), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libgxps2t64 (>= 0.2.1), libkpathsea6 (>= 2026.20260303.78225+ds), libpango-1.0-0 (>= 1.18.0), libpoppler-glib8t64 (>= 22.02.0), libspectre1 (>= 0.2.3), libsynctex2 (>= 2026.20260303.78225+ds), libtiff6 (>= 4.0.3), libxml2-16 (>= 2.14.1)
-Breaks: libevdocument3-4 (<< 48.4+dfsg-1)
+Breaks: libevdocument3-4 (<< 48.4+dfsg-2)
 Replaces: libevdocument3-4
-Filename: ./libevdocument3-4t64_48.4+dfsg-1_amd64.deb
-Size: 181716
-MD5sum: 1093717fdd760331ef57a98176da15fe
-SHA1: 19ecc6b78f1a877e2622909ef1fce376d433386d
-SHA256: 389f62c652f3d50afbe87478c90b77edc9710befc73b21dc4bf999fde6514ad4
-SHA512: 622de67744ac8c3fe5a2f4f04c46dadd23537ff3d53023dd7e8b4fc2d9633e3e6d39ad76c50591f6968b456623646431761f5a791e0c4e6c99fba7547a5233d7
+Filename: ./libevdocument3-4t64_48.4+dfsg-2_amd64.deb
+Size: 189796
+MD5sum: bf0d88dd25a51d72b9fd9c95dbd72509
+SHA1: c54d35c838e0ff7deac905b7678e07df8594b404
+SHA256: 8ebc5ac29d4c969fcd024478cc975c11eb7a49bbbbdf983d713ed90ea1cdf3cb
+SHA512: e5219d126c7e31522deb06d6c4ee5d007b14ab9c9bc3dfa7ecd99eca4c6f8af1a7e92b01942e9e4e76b244ec597da5632241948f3f67122bb0a556680c6fa75d
 Homepage: https://apps.gnome.org/Evince/
 Description: Document (PostScript, PDF) rendering library
  This package contains libevdocument, which performs the rendering of the
@@ -20695,23 +20694,23 @@ Description: Document (PostScript, PDF) rendering library - Gtk+ widgets
 
 Package: libevview3-3t64
 Architecture: amd64
-Version: 48.4+dfsg-1
+Version: 48.4+dfsg-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evince-gtk3
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 454
-Provides: libevview3-3 (= 48.4+dfsg-1)
+Installed-Size: 470
+Provides: libevview3-3 (= 48.4+dfsg-2)
 Depends: gstreamer1.0-plugins-base, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libevdocument3-4t64 (>= 43~alpha), libglib2.0-0t64 (>= 2.80.0), libgspell-1-3 (>= 1.8.2), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0)
-Breaks: libevview3-3 (<< 48.4+dfsg-1)
+Breaks: libevview3-3 (<< 48.4+dfsg-2)
 Replaces: libevview3-3
-Filename: ./libevview3-3t64_48.4+dfsg-1_amd64.deb
-Size: 145076
-MD5sum: 0cca26ff4e80cf4d9c22fdc400d87b05
-SHA1: b4999b5e730748f4f4858d10239273e0e8225be9
-SHA256: 04c8fa616a7b7824441cc3857601b0fe386c0154e2d403ba0a08c73cc9a6b9e4
-SHA512: 0fbd0668c056e7e057d16f95e7480930c5617c5956b2662e19ed51595d2b5c970f353392d0cad7545e32dbc2fce5d775bea7b354b7733df849b4dd475032f597
+Filename: ./libevview3-3t64_48.4+dfsg-2_amd64.deb
+Size: 152048
+MD5sum: 6cb0afc20ca8dc069bad439aa6372649
+SHA1: d41310a11c40f7b279e22d6cb8282bc7ab5fd27a
+SHA256: 3f1ec2d8d89185a39ea97bb029319ffb706c3d19da16146902826797e3d216c3
+SHA512: ac8f761e1290893eef0d131fceaf87963a7cc03558b137f57b8d9f1342e19df2d31fb69cf04e7141e7fdedb76d7c7f2b5b15dbff71e53fa87adc9c1de5d23586
 Homepage: https://apps.gnome.org/Evince/
 Description: Document (PostScript, PDF) rendering library - Gtk+ widgets
  This package contains libevview, which provides GTK+ widgets for displaying
@@ -32832,20 +32831,20 @@ Description: lightweight KMS plane library
 
 Package: liblightdm-gobject-1-0
 Architecture: amd64
-Version: 1.33.0-1
+Version: 1.33.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: lightdm
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 159
+Installed-Size: 160
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libx11-6, libxklavier16 (>= 5.0)
-Filename: ./liblightdm-gobject-1-0_1.33.0-1_amd64.deb
-Size: 58540
-MD5sum: 1357cc7614e9a4666d9d6c2169569d94
-SHA1: ee407459656f8ef3fa52e87d3c4744836470d259
-SHA256: 21f66d1570f941503238607939734bfe67b862e96070e23568398e67a183d7b8
-SHA512: d78a244adb58b8fa5b4933e69a0104e90f2e7c99090a33dfa884ab58091e9b1f6972f01f683981cf7f1c2aafe6101f3726f03a7b799aa830b8c4409a5cd01071
+Filename: ./liblightdm-gobject-1-0_1.33.1-1_amd64.deb
+Size: 58652
+MD5sum: 6b4d283b185add08f2aa5772832862eb
+SHA1: bcc8c99a6e0d4c275b640b62daf86db95d15cd87
+SHA256: 0ccd4dddc2bef482119f088fa6b5164e9216beae678297f341b774a1bda748c2
+SHA512: 982ff0cf6bf2d479e5284d08bf6f336e30b936302869454b4ecb801ef285eb044df839977b67bf1fd9a51a48649a9fe5a55604376d40b2cdd473a6565f74b7dd
 Homepage: https://discourse.ubuntu.com/c/light-dm/107
 Description: simple display manager (GObject library)
  This package contains the GObject library for lightdm, used by the GTK+
@@ -33493,23 +33492,23 @@ Description: implementation of the freedesktop menu specification for MATE (libr
 
 Package: libmate-panel-applet-4-1
 Architecture: amd64
-Version: 1.27.1-4.1+b2
+Version: 1.27.1-5
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: mate-panel (1.27.1-4.1)
+Source: mate-panel
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 117
+Installed-Size: 121
 Provides: libmate-panel-applet4-1, libmatepanelapplet
 Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libx11-6
 Breaks: libmate-panel-applet4-1, libmatepanelapplet, mate-panel (<= 1.0.0-3)
 Replaces: libmate-panel-applet4-1, libmatepanelapplet
-Filename: ./libmate-panel-applet-4-1_1.27.1-4.1+b2_amd64.deb
-Size: 39692
-MD5sum: 86b264e4187f2c6556280a484df4d8fd
-SHA1: 8f7e1d23b2edaaeac0d80de11cdf7d0e5268618c
-SHA256: 6c31a162465725f4f4e654d61d84b4d21d3b2cb7d9255e8bd8fcf2a21ae6fa17
-SHA512: a115418892576c7c6bd54bacfa19b98402fc91b973b15eab9427be2e4ac8657fabea6f5237708d13e42099c75ff8bc1348f53ed62dedb1bb9c88ab2326ab01fe
+Filename: ./libmate-panel-applet-4-1_1.27.1-5_amd64.deb
+Size: 40628
+MD5sum: 45fc11f452cf216062c600383464c27c
+SHA1: d1196267d23d09fc9b4a872e65146cf72e2f265a
+SHA256: c9302c92571105b2640363406c68b841e0328beb060bd0f099dac1551234a09d
+SHA512: 51f78ca2352f8a8201504f9009f34e813141ebba93ebe9eace4b88966323530ece5fc0787902094ebcfe936fa2856e56a7767ab6304bc7e6878ad33d9d42c555
 Homepage: http://www.mate-desktop.org/
 Description: library for MATE Panel applets
  The MATE Panel is an essential part of the MATE Desktop, providing
@@ -33681,19 +33680,19 @@ Description: MATE library to manage keyboard configuration
 
 Package: libmatemixer-common
 Architecture: all
-Version: 1.26.1-1
+Version: 1.28.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libmatemixer
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 647
-Filename: ./libmatemixer-common_1.26.1-1_all.deb
-Size: 59804
-MD5sum: 655077821e222d3386aaa3e0bdbe4af1
-SHA1: a26e358463a07a01c2553092bc6d4cf71afb15e0
-SHA256: 1a4792881c0d940a5a72127840bf174fe5765cecb1ca43248ea4f67dee1b33bc
-SHA512: 7c518d138c0d895f6271364a365e418e3c9988b3bd1de0fe86434bba9741937b7aeb8c30397708783b92d65f3e6c374951cc4df51f561ca4a7e25be9297a89c8
+Installed-Size: 651
+Filename: ./libmatemixer-common_1.28.0-1_all.deb
+Size: 61228
+MD5sum: c99d5f940f8f86ebe36044548c4e53cf
+SHA1: c5f02868e8e066fc124aaf4fca6c335b101470bb
+SHA256: e711df2d93559c448e037afd8acdee7f532a6e3ca1a8ec500dfb6538db241ea4
+SHA512: c7d780e198b155c6cb72928a4619410976d03fe209276d6ca5f0421900b5e96fed2599f301b36698bb34b0c498c9f4c8fa2deb5f86ddf6357c391bb97cb55763
 Homepage: http://www.mate-desktop.org/
 Description: Mixer library for MATE Desktop (common files)
  Mixer library for MATE Desktop. It provides an abstract API allowing
@@ -33704,20 +33703,20 @@ Description: Mixer library for MATE Desktop (common files)
 
 Package: libmatemixer0
 Architecture: amd64
-Version: 1.26.1-1+b3
+Version: 1.28.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libmatemixer (1.26.1-1)
+Source: libmatemixer
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 384
-Depends: iso-codes, libmatemixer-common (= 1.26.1-1), libasound2t64 (>= 1.0.17), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1)
-Filename: ./libmatemixer0_1.26.1-1+b3_amd64.deb
-Size: 83680
-MD5sum: 8c577b59f46445099f3dee6e6c21ca71
-SHA1: d4cea8be53547c8a3f660f57c0f0235d1749973d
-SHA256: 49fc40e49b14bf66050761436bf2b618fe7f33b845418b696eb4bb53789b1493
-SHA512: ad0dcb60acee42fdebb1843557778dd8c2a84c90630312aeba63d9b59169cd439daeb02b3a51b43c84d67e5f4985e7b3ef1267951dc18a630c2715592aab8b50
+Installed-Size: 414
+Depends: iso-codes, libmatemixer-common (= 1.28.0-1), libasound2t64 (>= 1.0.17), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1)
+Filename: ./libmatemixer0_1.28.0-1_amd64.deb
+Size: 92380
+MD5sum: 410dd7f9466ae187edf3258fa9acdc21
+SHA1: 3c3588a47b370540c7ee82e8d69bc1de07551de9
+SHA256: 34ddddee36fc16444e396b0875b37eaf550b5dab7f92cf92d66c2b48c9282d99
+SHA512: c2afe542c8e9283e81fa92b4e72528ea0c9e8a12db7d323d04bfbd0fc6609b6ddfd1bd337c46e7efbed2d0752f6a0fd6805f3fcec0a32b6c1912969f84dba3ef
 Homepage: http://www.mate-desktop.org/
 Description: Mixer library for MATE Desktop
  Mixer library for MATE Desktop. It provides an abstract API allowing
@@ -33728,21 +33727,21 @@ Description: Mixer library for MATE Desktop
 
 Package: libmateweather-common
 Architecture: all
-Version: 1.26.3-5
+Version: 1.28.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libmateweather
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 6365
+Installed-Size: 4830
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: libmateweather (<= 1.0.0-3)
-Filename: ./libmateweather-common_1.26.3-5_all.deb
-Size: 2645240
-MD5sum: 6357d4565b9c24d338accb8052948db5
-SHA1: e3e898067aa9ceddc77d1c96559bce8250a6c611
-SHA256: 747b2fbe47e9fbaccfb648b0932c8fd9455c04797291c968e7e32a70b00534cc
-SHA512: 073a0cecb7b0af267ae568c6663f1a36b65d099453c04f7d6548f6aa3a4eb03e7f3ce6d4c8a719d9af8546353f57aaca6388bb163b8d8b61b491e2f63a428948
+Filename: ./libmateweather-common_1.28.2-1_all.deb
+Size: 800788
+MD5sum: 2d4417bac7f123e6d3bf79528ea9bd14
+SHA1: 24dcb4798126db20ca53854a01538dabd1c1b552
+SHA256: 71585943560accf5e04dcf9ee2019e8813b6d904450709e304f600bcf024ae1b
+SHA512: d70ca2345e84566ba829f7e822533a3d60f432000d8c4d64836ed9e4f645830777f3d024316d8945aae8112bed67bbde6a10105c3aa71a8fd2037e614d5dd691
 Homepage: http://www.mate-desktop.org/
 Description: MateWeather shared library (common files)
  libmateweather is a library to access weather information from online
@@ -33752,23 +33751,23 @@ Description: MateWeather shared library (common files)
 
 Package: libmateweather1t64
 Architecture: amd64
-Version: 1.26.3-5
+Version: 1.28.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libmateweather
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 143
-Provides: libmateweather1 (= 1.26.3-5)
-Depends: libmateweather-common (= 1.26.3-5), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.27.1), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
-Breaks: libmateweather, libmateweather1 (<< 1.26.3-5)
+Installed-Size: 196
+Provides: libmateweather1 (= 1.28.2-1)
+Depends: libmateweather-common (= 1.28.2-1), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.27.1), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Breaks: libmateweather, libmateweather1 (<< 1.28.2-1)
 Replaces: libmateweather, libmateweather1
-Filename: ./libmateweather1t64_1.26.3-5_amd64.deb
-Size: 43048
-MD5sum: 4ded1d8d79d5ff0530a9017a6975ca27
-SHA1: f4a401911c033faa9215db8d4938c4dd129b4d66
-SHA256: 3581a1f5043372fc2a89267e8c2155c082e2ff4a6798230fa057b0c7320a69db
-SHA512: f56fb57be3af77e2468d3db57e56e51c9d090b97dbc022b160c1b6d7663af08afec5e54b483b9766824308e714e390989e8947030d0463bb600f43884e6f4564
+Filename: ./libmateweather1t64_1.28.2-1_amd64.deb
+Size: 90388
+MD5sum: 05db7f090fa924c67e17f430ac3fe795
+SHA1: 8a5c99ca7bcb14b7ac8b225c13d7d5ab4ad92b64
+SHA256: f0c527bcb4d2038768def783ba306382428243c05366aa9f0ca2a185a39c5918
+SHA512: 4cf2b62eb9f7cde790e938d1e491f0a48226e8277e98d3ad203acac9caf31cde9a0739337ad54b9a5b8e0ce44b395e74d6cf54f24b59fc6922d25bec56b96edc
 Homepage: http://www.mate-desktop.org/
 Description: MateWeather shared library
  libmateweather is a library to access weather information from online
@@ -37323,21 +37322,21 @@ Description: Shared Python runtime library (version 3.14)
 
 Package: libqalculate-data
 Architecture: all
-Version: 5.11.0-1
+Version: 5.12.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libqalculate
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 2611
+Installed-Size: 2618
 Breaks: libqalculate20-data (<< 3.20.1), libqalculate21-data
 Replaces: libqalculate20-data (<< 3.20.1), libqalculate21-data
-Filename: ./libqalculate-data_5.11.0-1_all.deb
-Size: 411892
-MD5sum: ea02b254fe70774471d03a4cdc9412e3
-SHA1: 4f069c6a119bf15ac0cc444ed6027a54077722d0
-SHA256: 1c29e9a44dcaed5390743fa3585ae606cddba2421df1c8625cd4ce3ff658e23a
-SHA512: fa25d50673eb9f363c29651c24350452980d4826f995e4765a96e0e491faef3f89f42eac14d351f8a7e89f7ec0b10ee6d6b8dadf8e97de518f70eda02176257f
+Filename: ./libqalculate-data_5.12.0-1_all.deb
+Size: 413532
+MD5sum: d5240b3b5dc8a74fa3bff52db880c1b3
+SHA1: 4046a77d090b1f5f81941af59ee0882cc9cdc41b
+SHA256: 6473544321843baced1335853c0865d55777f5321462d159db59a3585a13720b
+SHA512: 4c4492c3259332b5301bea72ef2449775b4015b9c087d298b67cb48aa71d35c56aabf7d75a33549084b4096a63d0efe3dad900fe99d5a293ae57403d8a05ba2f
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - data
  Qalculate! is small and simple to use but with much power and versatility
@@ -37350,20 +37349,20 @@ Description: Powerful and easy to use desktop calculator - data
 
 Package: libqalculate23
 Architecture: amd64
-Version: 5.11.0-1
+Version: 5.12.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libqalculate
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 6766
+Installed-Size: 7296
 Depends: libqalculate-data, libc6 (>= 2.38), libcurl4-gnutls (>= 8.20.0-3~), libgcc-s1 (>= 3.0), libgmp10 (>= 2:6.3.0+dfsg), libicu78 (>= 78.1-1~), libmpfr6 (>= 4.0.0), libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1)
-Filename: ./libqalculate23_5.11.0-1_amd64.deb
-Size: 1879028
-MD5sum: 97782f0e6789b329c5c82896b06fdc6e
-SHA1: c49fa2fe254502f28824ab7ba2a919abb07db6fd
-SHA256: da6dcf0f7fbc77724b9b4bf1218e275d788a7f24fa45468bdd2e0dd5d4569617
-SHA512: d817c9ead1ab0837384b530cb26133581b82d34f436f668cce264dfb76a5cadaf9f84ec83a2291c74791ff73b9808d25fc2643b29d7bb0e1daf03a85627305b2
+Filename: ./libqalculate23_5.12.0-1_amd64.deb
+Size: 2106240
+MD5sum: de6f2aa164a7669cf9b8086776c9a499
+SHA1: 283014e5e111c1adf72edae4eca7a37e5659f9aa
+SHA256: cc0ae8f4d67ca22b1ec37b54e80c99d485b9447c35e596a50e61e72905c9c6e5
+SHA512: c8db81759440097ad8eee2ef0a083359a10d2f1bb122bf403b965a56595608b0b98ba5b354ac1377f93a7d6b59bff5351c6f8cb12c02a8d35b36d8a54337a61b
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - library
  Qalculate! is small and simple to use but with much power and versatility
@@ -52049,21 +52048,21 @@ Description: simple display manager (GTK+ greeter)
 
 Package: lightdm
 Architecture: amd64
-Version: 1.33.0-1
+Version: 1.33.1-1
 Priority: optional
 Section: x11
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 831
+Installed-Size: 832
 Provides: x-display-manager
 Depends: adduser, default-dbus-system-bus | dbus-system-bus, default-logind | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6 (>= 1:1.1.5)
 Recommends: xserver-xorg
 Suggests: accountsservice, upower, xserver-xephyr
-Filename: ./lightdm_1.33.0-1_amd64.deb
-Size: 171248
-MD5sum: 125556c911f7a838e57fea6ba9ffaad4
-SHA1: 0a3932b52e89766f4016ab9f6256aef47a686f15
-SHA256: d15951f63ebfbd74f90a2942ea0e0a44179ea06cf3561e7a0ae2b2e84e18caed
-SHA512: 07ce17bd53b1b0bf46bccf6b70e3ea8b4e5afbeff8036e1274f3af63e2434524f1ec8f66005b1d39c98738b26d3030635e48556022cf1621f220fd9db6cbc479
+Filename: ./lightdm_1.33.1-1_amd64.deb
+Size: 171360
+MD5sum: 8416e4fc326fd98702049a671b77b88a
+SHA1: cddf4ca7ecd491a1df3540b363dc97351646476f
+SHA256: c9742c0e3a79d2153560a3b0fd4d86b0b41fcf0906c3df9c4fb6b60b148079a0
+SHA512: 3b023ef420044513f024706c534d1a4c169dd81d8157510102c5c6218864e9507c3bba125a505f6c142f15b07654017320ca1fa0223aa2cc44b65af25f7c9fe3
 Homepage: https://discourse.ubuntu.com/c/light-dm/107
 Description: simple display manager
  An X display manager that:
@@ -54141,17 +54140,17 @@ Description: Various applets for the MATE panel
 
 Package: mate-backgrounds
 Architecture: all
-Version: 1.26.0-1
+Version: 1.28.0-1
 Priority: optional
 Section: x11
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 46043
-Filename: ./mate-backgrounds_1.26.0-1_all.deb
-Size: 46638500
-MD5sum: ef71d29fbd8637a0c1ba3c372fd955bc
-SHA1: 00dc62fcfd2f45c98fe8ee348a333d43c053faca
-SHA256: 7bf4c2209f34b4f61ba6d24c8b58c28b361e82e4b943aae6d42c030169af9e04
-SHA512: cbebe69e549bb83694c3b6698cb21ee06d09143b0f43e4473b761d0d48391d60922864ca152601b599f618b703178170a9c4def8fa161197a0da57a4ec6653e6
+Installed-Size: 46030
+Filename: ./mate-backgrounds_1.28.0-1_all.deb
+Size: 46633404
+MD5sum: 239b3d3311fa054ef738d4c6405233a7
+SHA1: 55453f67d87a58600c742a04b4c880ec01eb0208
+SHA256: e958e937560dae6da143b92f454d3a1ec187ff0eb3a18be9ddd683998097119b
+SHA512: 298d68e4df8e8d1796f1baa8dc7e456c8250dadc0f76c96cc2710577cfaccc005e0547691ef301b1a0d3f944b448915225000531a43d50a5c2de6637847a1d71
 Homepage: http://www.mate-desktop.org/
 Description: Set of backgrounds packaged with the MATE Desktop Environment
  This package provides a collection of desktop wallpapers created with MATE
@@ -54448,18 +54447,18 @@ Description: MATE Panel dock applet
 
 Package: mate-icon-theme
 Architecture: all
-Version: 1.26.0-1
+Version: 1.28.0-1
 Priority: optional
 Section: x11
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 35170
+Installed-Size: 35200
 Depends: hicolor-icon-theme, gtk-update-icon-cache, librsvg2-common
-Filename: ./mate-icon-theme_1.26.0-1_all.deb
-Size: 13923300
-MD5sum: 174c4001c26762f5ef07989f6a8a350a
-SHA1: 6c17d6e5c5037912b3190c6371155bd958ba3571
-SHA256: 356945b21bf2449ab4d3c0cead5abbc84fab247b140c6d0252263470df49dc54
-SHA512: d0f87ea92eb3c5586c84179f3d75a6d9ec8b82ab90905f51c0d5b6a4c014bea5e331284f0a115ac744a2e654ad6cbfafcf46153f5d247e3aed54fa7e7c091f23
+Filename: ./mate-icon-theme_1.28.0-1_all.deb
+Size: 13965052
+MD5sum: 6616541c29f9efb63dae4dd8a4658e83
+SHA1: ac7fbe77c796b6492711a8992afed7607d67ebb1
+SHA256: 66b3d7199a5f0293cbae0ec87c1f250be03792652a6c369651a6391bf3929845
+SHA512: b642058017a6f80b57207bc490dde099458b28468a5cf1b5e86208490f6f4110f657df6359b233379e38eaffebe692e31b2d4e7f6ea5cbcdfe58a2b14d4b88f0
 Homepage: http://www.mate-desktop.org/
 Description: MATE Desktop icon theme
  This package contains the default icon theme used by the MATE desktop.
@@ -54685,20 +54684,20 @@ Description: daemon to display passive popup notifications
 
 Package: mate-panel-common
 Architecture: all
-Version: 1.27.1-4.1
+Version: 1.27.1-5
 Priority: optional
 Section: x11
 Source: mate-panel
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 13362
+Installed-Size: 14347
 Breaks: mate-panel (<= 1.9.0)
 Replaces: mate-panel (<= 1.9.0)
-Filename: ./mate-panel-common_1.27.1-4.1_all.deb
-Size: 1470176
-MD5sum: fff1349aae72cdd30c4c87a9e844c584
-SHA1: 6815190c5910a28d06a0635e5c1dc8a2a9a1ba3a
-SHA256: 33ecd2c377ed9e65ebd952a7b8ebfc942bc9522daa7153d877cd3e9fea42c2aa
-SHA512: 36918bf69d5c42fcaa30f304059a2f89b744f491178c046eb67dd4b0922ceb9e9e3af5a3be7e642a834ce0185cb88f55507038f33b5117f167e7efd26e781897
+Filename: ./mate-panel-common_1.27.1-5_all.deb
+Size: 1470092
+MD5sum: 5657596edec9bd2d6b029e58a922a23b
+SHA1: 5ce44d95d172682ac3d81566131a7f5e7820f4a2
+SHA256: c04cc9bc4126accd88815d10adf72dcca34dcec45d29d8796748be445c39d2fb
+SHA512: 46098405c7f12dc19b2b0dd3686ed15dedeea406259b32a2e5a301882618bf51964fed0b0bb022237d7d0a4c60d23c00e8588d1429e7842a5a9d6a346ea1e4ec
 Homepage: http://www.mate-desktop.org/
 Description: launcher and docking facility for MATE (common files)
  The MATE Panel is an essential part of the MATE Desktop, providing
@@ -54712,21 +54711,20 @@ Description: launcher and docking facility for MATE (common files)
 
 Package: mate-panel
 Architecture: amd64
-Version: 1.27.1-4.1+b2
+Version: 1.27.1-5
 Priority: optional
 Section: x11
-Source: mate-panel (1.27.1-4.1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 1652
-Depends: libmate-panel-applet-4-1 (= 1.27.1-4.1+b2), mate-desktop, mate-menus, mate-panel-common (= 1.27.1-4.1), mate-polkit, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.1.0), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.24), libmate-menu2 (>= 1.22.0), libmateweather1t64 (>= 1.18), libpango-1.0-0 (>= 1.18.0), librda0 (>= 0.0.3-2~), libsm6 (>= 2:1.2.6), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 3.32), libx11-6, libxrandr2 (>= 2:1.2.99.3)
+Installed-Size: 1692
+Depends: libmate-panel-applet-4-1 (= 1.27.1-5), mate-desktop, mate-menus, mate-panel-common (= 1.27.1-5), mate-polkit, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.1.0), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.24), libmate-menu2 (>= 1.22.0), libmateweather1t64 (>= 1.18), libpango-1.0-0 (>= 1.18.0), librda0 (>= 0.0.3-2~), libsm6 (>= 2:1.2.6), libwayland-client0 (>= 1.20.0), libwnck-3-0 (>= 3.32), libx11-6, libxrandr2 (>= 2:1.2.99.3)
 Breaks: mate-panel-common (<< 1.1.1-4)
 Replaces: mate-panel-common (<< 1.1.1-4)
-Filename: ./mate-panel_1.27.1-4.1+b2_amd64.deb
-Size: 572680
-MD5sum: d4a6807c89679fa8f3c547c6c3723217
-SHA1: e15760bf1fd3eef092e92e998faf709f37df021c
-SHA256: 2c1ea1e9f0874cbc5a2ad965a4fd41f4423a46b05ad7801b589591dee628b651
-SHA512: 94a45e9c79405766f5bc764c5ea7f2e3353a49504a9b44e568cf8f714b964f2375d1e81038ac3e13035c2cc29fab16106b4cb75c9a58582fdca7d4f3264918f0
+Filename: ./mate-panel_1.27.1-5_amd64.deb
+Size: 587576
+MD5sum: eeea32a9ff9d8cb588968429a823bea6
+SHA1: f32ee8c3337abeece78240077dbe3f00cfb2f786
+SHA256: c8723ed37e53a3a8bfda6b07c8a9573a569966a8a2874ea78ca09f3414d69806
+SHA512: 6ad66b2c8ac70df81bfa8be0c56bc661d95b68b0f66bb1dfc071a5918458b2d7221153806052cb2d9950e7c28f73fc010145dbb5adc615cee7132296b7b9f62b
 Homepage: http://www.mate-desktop.org/
 Description: launcher and docking facility for MATE
  The MATE Panel is an essential part of the MATE Desktop, providing
@@ -54842,20 +54840,20 @@ Description: power management tool for the MATE desktop
 
 Package: mate-screensaver-common
 Architecture: all
-Version: 1.26.2-1
+Version: 1.28.1-1
 Priority: optional
 Section: x11
 Source: mate-screensaver
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 6185
+Installed-Size: 6202
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: mate-screensaver (<< 1.5.2)
-Filename: ./mate-screensaver-common_1.26.2-1_all.deb
-Size: 4585280
-MD5sum: 63092d60b38e7e0f0ac9c3ae93ee1760
-SHA1: bb0759fb19866d84f070755001b3c6919324afd6
-SHA256: 3474a8fd2795ae1d277ac4300b32d0795b1ee59854bc50e79aca4cde3d984607
-SHA512: f3302064cbfa9a5adc6c0bf7cba722ce64636013e612a59068cbc392de2299bca9c2ef1a67da249b595222f0819349165736373c4b872a1c5074b1b647398f0f
+Filename: ./mate-screensaver-common_1.28.1-1_all.deb
+Size: 4590364
+MD5sum: 1d09ee1f2836f9d3e7f8f72cfb095300
+SHA1: 4bad76d345bf3e298efb4a40770b80d8d83de359
+SHA256: 6f939a263a95634912eb3d8985b83682cf5abaab8d9dc5012502aa7db00a4990
+SHA512: 2347a663805e133e604020bf60795fe11d9e0d6cebe26355e934367ec0a0006af48d665e26c3414eae2d0f58d20301dc8148598a14206787cb0dd0d21d099124
 Homepage: http://www.mate-desktop.org/
 Description: MATE screen saver and locker (common files)
  mate-screensaver is a screen saver and locker that aims to have simple,
@@ -54865,23 +54863,22 @@ Description: MATE screen saver and locker (common files)
 
 Package: mate-screensaver
 Architecture: amd64
-Version: 1.26.2-1+b1
+Version: 1.28.1-1
 Priority: optional
 Section: x11
-Source: mate-screensaver (1.26.2-1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 514
-Depends: dbus-x11, mate-desktop-common, mate-screensaver-common (= 1.26.2-1), mate-session-manager (>= 1.11.0), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0t64 (>= 2.75.3), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.18), libmate-menu2 (>= 1.22.0), libmatekbd4 (>= 1.18), libnotify4 (>= 0.7.0), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.18.0), librda0 (>= 0.0.3-2~), libsystemd0, libx11-6, libxext6, libxklavier16 (>= 5.0), libxss1, libxxf86vm1
+Installed-Size: 572
+Depends: dbus-x11, mate-desktop-common, mate-screensaver-common (= 1.28.1-1), mate-session-manager (>= 1.11.0), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libdbus-1-3 (>= 1.10), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.18), libmate-menu2 (>= 1.22.0), libmatekbd4 (>= 1.18), libnotify4 (>= 0.7.0), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.18.0), librda0 (>= 0.0.3-2~), libsystemd0, libx11-6, libxext6, libxklavier16 (>= 5.0), libxss1, libxxf86vm1 (>= 1:1.1.4), python3:any
 Recommends: mate-power-manager
 Suggests: rss-glx, xscreensaver-data
 Breaks: mate-screensaver-common (<< 1.9.0)
 Replaces: mate-screensaver-common (<< 1.9.0)
-Filename: ./mate-screensaver_1.26.2-1+b1_amd64.deb
-Size: 129524
-MD5sum: 52d02f9bd24e23b1f6bf0c704f35c22f
-SHA1: e2522d909505834aede585938cf2785abb7dd308
-SHA256: 8debbdf7c79938ef7cf244a5b53ffed7a6b38515fd270d44c80205a655acf1b7
-SHA512: e362410aff13a9b4dfaba7fca2f951ddd653719e00b2ffb068a6a8e6731c3891403c5a8ade9f2dc3932fef884cb6059ab93dd037903c686b9b053f3023528a89
+Filename: ./mate-screensaver_1.28.1-1_amd64.deb
+Size: 143768
+MD5sum: 7c7019521d69500a8514572c7f6c5dae
+SHA1: d11f9bf4644701bc91d901ca03f829ec658c4d98
+SHA256: 2ede562a936d0414ee51434d21b7f7babb00a616632f9423e13357965aee39e2
+SHA512: 16ed3c28f5de644ca8f87bf476060aba38a6b23c45016222edba7bdbb034b6dcf9d7c62bd1a69043fc6887845d8d46a4c02ce0e67480d082703d57880b82e768
 Homepage: http://www.mate-desktop.org/
 Description: MATE screen saver and locker
  mate-screensaver is a screen saver and locker that aims to have simple,
@@ -55102,21 +55099,21 @@ Description: Process viewer and system resource monitor for MATE
 
 Package: mate-terminal-common
 Architecture: all
-Version: 1.26.1-1
+Version: 1.28.3-1
 Priority: optional
 Section: x11
 Source: mate-terminal
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 14093
+Installed-Size: 13941
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: mate-terminal (<< 1.1.0-2)
 Replaces: mate-terminal (<< 1.1.0-2)
-Filename: ./mate-terminal-common_1.26.1-1_all.deb
-Size: 1166088
-MD5sum: 81da45c0fd24b5464a3694b3f792677e
-SHA1: 75c43875ea1b3b13fe0a1189e5c89afd26401975
-SHA256: 4cfaba2303a301c45a934676671a2b8845af1b03eb88b44578d726c99243a508
-SHA512: fb7f11ac567074925f8d0028e6c680193e0a7713728f27f0befcb0567490daf6ce99a27b2178fecf77c3fe9e23bbda21ba1e40847c92cc3cb0ac88b7e74e6145
+Filename: ./mate-terminal-common_1.28.3-1_all.deb
+Size: 1220100
+MD5sum: 1110848f5e7de2cdbe51a02b76ba6e02
+SHA1: cdeb3e3f053c1438c5c6700bad361e526dfdb503
+SHA256: 324a2b92a0cfda4df682c9eb7d02a5113ad968dad829f0a90c348fcff5dee168
+SHA512: 600f29afe7019a24284bc36fea56602854aafcf1e3c7eda9eb79bc6dbe5a7de4ac5b90541e6c69f15d658d6ae37f77347a2887bcd0c85a847e11bb03416b74ad
 Homepage: http://www.mate-desktop.org
 Description: MATE terminal emulator application (common files)
  MATE Terminal is a terminal emulation application that you can use to
@@ -55132,21 +55129,20 @@ Description: MATE terminal emulator application (common files)
 
 Package: mate-terminal
 Architecture: amd64
-Version: 1.26.1-1+b1
+Version: 1.28.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Source: mate-terminal (1.26.1-1)
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 423
+Installed-Size: 418
 Provides: x-terminal-emulator
-Depends: gsettings-desktop-schemas, mate-desktop-common, mate-terminal-common (= 1.26.1-1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.75.3), libgtk-3-0t64 (>= 3.22), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6, libvte-2.91-0 (>= 0.51.90), libx11-6
-Filename: ./mate-terminal_1.26.1-1+b1_amd64.deb
-Size: 144244
-MD5sum: 599c27aba563ef79989b2620ba5e99c4
-SHA1: 234286f995409732879c2d8bd0e9af17214c75b4
-SHA256: bb8148d8c9ef080e0140f159025b51c80072aa13f7cb9f9a2c1b880f2d90496d
-SHA512: 86df5a98f2cb2c5d1f2c701b7efbce705599364d36aa8f50b128e38af2ae21d69a0dbf97d744e39f36370fdd7933f22c6b2867706d75a3cfe5af3ba755c04f91
+Depends: gsettings-desktop-schemas, mate-desktop-common, mate-terminal-common (= 1.28.3-1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.22), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), libvte-2.91-0 (>= 0.51.90), libx11-6, perl:any
+Filename: ./mate-terminal_1.28.3-1_amd64.deb
+Size: 147008
+MD5sum: fd210a7d65567b9485e30af936ead958
+SHA1: 4e95b04fa7fc23078096dfadebaeb35e2583e3a3
+SHA256: 979c9f58ad5c2f24f0c943c05090e7c448a3571a688d93294d0e005a9d4cf09e
+SHA512: a2e65221aa9e804c5438a9913daf92c6b0712052d040dbc3014ec3ea27cebe0777359a69721928236ae04435879c8191ff687810267d28cc65468df4ce713de0
 Homepage: http://www.mate-desktop.org
 Description: MATE terminal emulator application
  MATE Terminal is a terminal emulation application that you can use to
@@ -55157,6 +55153,7 @@ Description: MATE terminal emulator application
  .
  MATE Terminal features the ability to use multiple terminals in a single
  window (tabs) and profiles support.
+Commands: mate-terminal.wrapper
 
 Package: mate-themes
 Architecture: all
@@ -55556,25 +55553,26 @@ Description: simple Xfce oriented text editor
 
 Package: mozo
 Architecture: all
-Version: 1.28.0-1
+Version: 1.28.0-2
 Priority: optional
 Section: utils
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 734
 Depends: gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-matemenu-2.0 (>= 1.22), mate-menus, python3-gi, python3:any
 Recommends: mate-panel
-Filename: ./mozo_1.28.0-1_all.deb
-Size: 95632
-MD5sum: 17ae9b0fb83efe7846d70305300cff4e
-SHA1: 6c2f2fe767e82d021baa77df692d18b837407c6f
-SHA256: 5069c3e91b84361021a795f9e87384c201d2afbe43f07e5560e6f1d96eb7253a
-SHA512: 328570816510d516ac929ea1dc3bd2c1c71be47e9869db6e0d04b4bdf8601535a9498e1991be47746ddef4f445b570e52b82338caf7285b12a3fa3a877ff434e
+Filename: ./mozo_1.28.0-2_all.deb
+Size: 95760
+MD5sum: 81930eafa85fc011ff83fd81f00d8ac9
+SHA1: b7c098efde0d8723f062d110a7231ac0b08f4e47
+SHA256: 5370df1ec25803e2efd7adab48947753d8172f2b7a89e414153d2e11db6d27f8
+SHA512: acd04a1a8ec100d473707a53960ed2feafc705fe82d3b1c2049fe8194444ca51aee93c7e9e929781dfde59c387832833d948ed7a64aa7f2451a0a78c2606bb6f
 Homepage: http://www.mate-desktop.org/
 Description: easy MATE menu editing tool
  Mozo is an easy-to-use menu editor for MATE that can add
  and edit new entries and menus. It works with the freedesktop.org
  menu specification and should work with any desktop environment
  that uses the spec.
+Commands: mozo
 
 Package: mtools
 Architecture: amd64
@@ -60117,21 +60115,21 @@ Description: interactive high-level object-oriented language (default python3 ve
 
 Package: qalculate-gtk
 Architecture: amd64
-Version: 5.11.0-1
+Version: 5.12.0-1
 Priority: optional
 Section: math
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 8591
-Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libqalculate23 (>= 5.11.0), libstdc++6 (>= 13.1)
+Installed-Size: 8900
+Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libqalculate23 (>= 5.12.0), libstdc++6 (>= 13.1)
 Recommends: gnuplot-x11 | gnuplot-nox | gnuplot-qt
 Breaks: qalculate (<< 0.8)
 Replaces: qalculate
-Filename: ./qalculate-gtk_5.11.0-1_amd64.deb
-Size: 2721300
-MD5sum: 38df3017a4f0a88307059aa51919deae
-SHA1: 6d4184af1fcb59f754a7e5fe659e682093457149
-SHA256: a8bb9529e15405b90f0dec08e56b735a8045336185b4321004a4a50b72fa138f
-SHA512: 66584dee295a1e63644b3be4e9205a647121a071fd5827b0799602ca652b5e6e750a74b3eb38bd7f830f8648e953e78b4efcc36292e2bcb45fad6229c87fa31f
+Filename: ./qalculate-gtk_5.12.0-1_amd64.deb
+Size: 2853784
+MD5sum: fc4f90eb1750b0565066ccec499c479c
+SHA1: 73fef43f3c2f977597c37c337b4a93d7ae3e7881
+SHA256: 329f0458d0ea3b35fbd8f95acbb7bc1de8d6a87904b8c6851d6fe33bfcaad26f
+SHA512: 54434cb0d928427119f2a0b6f349c947835bbfc7b91419da25f7017eead1cc9c4c09fbd57f7504ef08a43fcf1674ab18ae0957255977527f7b42d6387b5805fe
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - GTK+ version
  Qalculate! is small and simple to use but with much power and versatility
@@ -60144,21 +60142,21 @@ Description: Powerful and easy to use desktop calculator - GTK+ version
 
 Package: qalculate-qt
 Architecture: amd64
-Version: 5.11.0-1
+Version: 5.12.0-1
 Priority: optional
 Section: math
 Maintainer: Qalculate Team <team+qalculate@tracker.debian.org>
-Installed-Size: 4634
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqalculate23 (>= 5.11.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1)
+Installed-Size: 4780
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqalculate23 (>= 5.12.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.4.0), libstdc++6 (>= 13.1)
 Recommends: gnuplot-x11 | gnuplot-nox | gnuplot-qt
 Breaks: qalculate (<< 0.8)
 Replaces: qalculate
-Filename: ./qalculate-qt_5.11.0-1_amd64.deb
-Size: 1337704
-MD5sum: aec4e07e179e000c3daaf22a984bd3d2
-SHA1: da6d7b4458c58b538e23f8417b0f53cc0b60df74
-SHA256: d5c34911a5bdaed31e4af501e5f02050e60b573bd2f9342ada29c4311ae66e27
-SHA512: 3c4d5dcbbdcddf08becbeb3242fd6a404ead3c7d4d12767f432eff8db44bc92fd7b5229667e03294356b8589400e303cf7d13ea10d9f036ea6c65648e0d232c1
+Filename: ./qalculate-qt_5.12.0-1_amd64.deb
+Size: 1405356
+MD5sum: 888a652a73a65a54bc80bd39e63e8261
+SHA1: 88b523aa87ad138d635c078401e6d88be786bb6f
+SHA256: 8e91ba3962fd5fc575937404d1cc313e48d08364a57df4b57ad8887c869cb5ea
+SHA512: 438b1d51e9340e70d49e171e1bf3f3056a673b53bc09dedc69d43694d86b288dc5bc251dfcbbf17b7b0899705e6b17693f91ac2c5ff395f2739016630e2709f1
 Homepage: https://qalculate.github.io/
 Description: Powerful and easy to use desktop calculator - Qt version
  Qalculate! is small and simple to use but with much power and versatility
@@ -64090,18 +64088,18 @@ Description: Watch without distraction
 
 Package: simple-scan
 Architecture: amd64
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6367
-Depends: default-dbus-session-bus | dbus-session-bus, xdg-utils, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord2 (>= 0.1.10), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.15.2), libgusb2a (>= 0.2.2), libpackagekit-glib2-18 (>= 0.9.4), libsane1 (>= 1.0.27), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: ./simple-scan_50.0-1_amd64.deb
-Size: 1070992
-MD5sum: 3ced5996532991a6ed447f3f97cc0277
-SHA1: f56e0d9c0b6fed6d57bf1e0e11bcb7897909c3be
-SHA256: 2f81bee1b6719b61bd3a5db21c493b53257c84d27be7413e06da16f697b3975e
-SHA512: 99ea87072a50803905cfad1ab1672ed2cc2e31e6252291b7bfb87f762f0042bc5d9f035ff82c231f9edf4e194a60731af2d21d12e41934f72173040f92b72f09
+Installed-Size: 6583
+Depends: xdg-utils, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcolord2 (>= 0.1.10), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.15.2), libgusb2a (>= 0.2.2), libpackagekit-glib2-18 (>= 0.9.4), libsane1 (>= 1.0.27), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Filename: ./simple-scan_50.0-2_amd64.deb
+Size: 1071584
+MD5sum: 3d18d322f435a3866c1175899ea4050f
+SHA1: 0e885f72803ad55b14457ef29ec83d22f13a261a
+SHA256: 9801dd2a224df96aa69d938a3a05380ce3a8df095dbe6adef1245c98ae90f57e
+SHA512: 7fcc8ec450399921159884af57e272e18083d9218398d3174b474cfafa64561ac444909e23e161cdf191ad6430c05324260fbd3108008a15b9f4da67bfdf04f7
 Homepage: https://apps.gnome.org/SimpleScan/
 Description: Simple Scanning Utility
  Simple Scan is an easy-to-use application, designed to let users
@@ -72282,20 +72280,19 @@ Description: clipboard history utility
 
 Package: xfce4-cpufreq-plugin
 Architecture: amd64
-Version: 1.2.8-2+b4
+Version: 1.3.0-1
 Multi-Arch: same
 Priority: optional
 Section: xfce
-Source: xfce4-cpufreq-plugin (1.2.8-2)
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 564
+Installed-Size: 586
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.18.0), libgtk-3-0t64 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.17.2)
-Filename: ./xfce4-cpufreq-plugin_1.2.8-2+b4_amd64.deb
-Size: 104592
-MD5sum: d9c6cc00f67a1f1d2787122f90c83df0
-SHA1: 97047f326f6bd730e5217dc315bb2a471832035e
-SHA256: 24d2072f7b3f0bcd3e098ac5e5ad3d82b5839bfa0873320e5fc7e231bcbd0e96
-SHA512: e3ac6d1958e5996c459c941e0df20a32e83bcdc3a56fbca0b30ec056a402e45a2978ec3ae47e42b4b79e6cb562f7d207913619d0a5a8d0a9f52de4a7683ea976
+Filename: ./xfce4-cpufreq-plugin_1.3.0-1_amd64.deb
+Size: 113336
+MD5sum: c84f54685f0d8b17fda702bbf4d6078c
+SHA1: d08598b31d61d73ff59489e39ea2977030c9043a
+SHA256: c71a5df3602727e6847520e8eb94ff7cdf8759a6d2df9ab59b4deb7ba3b28958
+SHA512: 7d104a6c0c00512ec8eddc82ca5f8cede0a19b0508740fb572d6271377571348fa3ba89a5ae7abeed7d9037be4694343a285e922ad0de76be68069f825976265
 Homepage: https://docs.xfce.org/panel-plugins/xfce4-cpufreq-plugin
 Description: cpufreq information plugin for the Xfce4 panel
  This plugin displays the current frequency of the CPU, in GHz or MHz as
