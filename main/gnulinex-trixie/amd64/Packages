@@ -39581,22 +39581,22 @@ Description: Remote Desktop Awareness (shared library)
 
 Package: libre2-11
 Architecture: amd64
-Version: 20251105-1+b1
+Version: 20251105-1+b2
 Built-Using: unicode-data (= 17.0.0-2)
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: re2 (20251105-1)
 Maintainer: Stefano Rivera <stefanor@debian.org>
-Installed-Size: 457
+Installed-Size: 465
 Provides: libre2-11-absl20260526
 Depends: libabsl20260526 (>= 20260526.0-0~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
-Filename: ./libre2-11_20251105-1+b1_amd64.deb
-Size: 168092
-MD5sum: f93abf5f606ed512a51558d9e7d0aa32
-SHA1: c627158401169b996b4a19d93131597839729ecb
-SHA256: 983b10edde688b9b8b9a5dbaa99682d779fe978889e57d9c11b7418fbe4db502
-SHA512: 167e6ef9a67d571d94aa194a65d90711cdcc654b1d953ade5d9977cbbe94490a507ef0299e22fadaf4573853c6ec7d45df266bb879044d2d846cb1770c2670ba
+Filename: ./libre2-11_20251105-1+b2_amd64.deb
+Size: 175796
+MD5sum: 2fad577539df3e78acfeac0bfe37d478
+SHA1: 5f9de0085659f4dba458e45c7e551a29dbf733d6
+SHA256: 1f5abbd38ffe1f9d6db734b9282dbe95d91514c4480aa47fedfa1642280ec16e
+SHA512: 5aa2daf4a1401b584194ce2d77038f404a7d9d95bda465622f3870093b5fd98d30bbf7fd7236c1aa424b8bc4edf8038f5fdadec1c57feaf92bcdf1a056886e36
 Homepage: https://github.com/google/re2
 Description: efficient, principled regular expression library
  RE2 is a fast, safe, thread-friendly alternative to backtracking regular
@@ -58233,24 +58233,24 @@ Description: Low-level CSS parser (test data)
 
 Package: python3-apt
 Architecture: amd64
-Version: 3.1.0
+Version: 3.1.0+b1
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Source: python-apt
+Source: python-apt (3.1.0)
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 1105
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libapt-pkg7.0 (>= 2.9.27+exp1), libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
+Installed-Size: 707
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libapt-pkg7.0 (>= 2.9.27+exp1), libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
 Recommends: lsb-release, iso-codes
 Suggests: python-apt-doc, apt
 Breaks: apt-xapian-index (<< 0.51~), kthresher (<= 1.4.0-1), python-apt (<< 0.7.98+nmu1)
 Replaces: python-apt (<< 0.7.98+nmu1)
-Filename: ./python3-apt_3.1.0_amd64.deb
-Size: 193828
-MD5sum: 927d2642ba62c591f25cdb89f9945a57
-SHA1: 3bdb61612a776c2bfbf66cc7d1525b681a65dab6
-SHA256: a5cae9e41be31f5083518f33188015b6c862c98b9b513d9f8ab7e680cb1bf908
-SHA512: 0c5ac3ccce7ed141da6a1539ade01022d68d4d678fd39e2af0d6ed2530dbfc31f7d14adea2a219a592077ce7351816c00a21218728f3c3a645fd163a852286dd
+Filename: ./python3-apt_3.1.0+b1_amd64.deb
+Size: 166960
+MD5sum: b56fdbb000b89085cc8a11608279d5c5
+SHA1: c7439af7c16e574f96c83fd43963346f72824291
+SHA256: 6f094fb8c06716af256bbcc48a2ba0fa0c2967b66a450dba8e9060d9940f30bc
+SHA512: ffe10d4884ba11c7be6c8a19364ab66823b02d36892cf0db959622d3d2f6f7d45eb03f6a56f33db15c72363efe19eef5592b7fbc45eec26c79080dfc6a01bc8f
 Description: Python 3 interface to libapt-pkg
  The apt_pkg Python 3 interface will provide full access to the internal
  libapt-pkg structures allowing Python 3 programs to easily perform a
@@ -58316,21 +58316,21 @@ Description: tools for internationalizing Python applications - Python 3.x
 
 Package: python3-bcrypt
 Architecture: amd64
-Version: 5.0.0-6
+Version: 5.0.0-6+b1
 Static-Built-Using: rust-base64 (= 0.22.1-3), rust-bcrypt (= 0.19.2-1), rust-bcrypt-pbkdf (= 0.10.0-1), rust-getrandom (= 0.4.2-3), rust-subtle (= 2.6.1-1)
 Priority: optional
 Section: python
-Source: python-bcrypt
+Source: python-bcrypt (5.0.0-6)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 962
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Installed-Size: 501
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Breaks: python3-passlib (<< 1.9.3-1~)
-Filename: ./python3-bcrypt_5.0.0-6_amd64.deb
-Size: 229148
-MD5sum: 049922163bc864fe600c80b1e5b15480
-SHA1: 93a939e1f72bbf273189036b4635d6fbe4362b2c
-SHA256: 5e3c995128291a0ef1b40455d9874d3dd6f2250572af4094825946f6d70b6a86
-SHA512: d1c61814464417c2dbaa49dd626417749fd611e950ec8284aff33f2503fd67a6dea0b29964868ab9e87afabd6f2ff8ce28868563644ffc259c1cce4496bc8d88
+Filename: ./python3-bcrypt_5.0.0-6+b1_amd64.deb
+Size: 201148
+MD5sum: 8e342bc0b2a3f9b3a8ad60c77c77d0e5
+SHA1: 02597439dbf1ea423a1b5f78c7f99cd1f55cfa3a
+SHA256: 997708bbac4aecce33f500f747c22c78fd320ad6a7c629ce4d02e37d80972953
+SHA512: fc4937b9a67a9bfdd230ff3fde2ffaac3ade30f0b8df28ced3c3c4473fc9c160f375c8bab5f67bd221896a124df8874db46cfe7c10842ec786cf059f4acd0f76
 Homepage: https://github.com/pyca/bcrypt
 Description: password hashing library for Python 3
  bcrypt is a Python module which provides a password hashing method based on
@@ -58395,19 +58395,19 @@ Description: error-tolerant HTML parser for Python 3
 
 Package: python3-cairo
 Architecture: amd64
-Version: 1.29.0-1
+Version: 1.29.0-1+b1
 Priority: optional
 Section: python
-Source: pycairo
+Source: pycairo (1.29.0-1)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 705
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libcairo2 (>= 1.18.4)
-Filename: ./python3-cairo_1.29.0-1_amd64.deb
-Size: 124312
-MD5sum: 8ff99be18edb8c62f22fa0bb6d251e77
-SHA1: f556e226803abbece5a4b58bae2d439edf34c188
-SHA256: 353543ae21d9d7964288d320b0ae235b6d025245626764387dd81068b2151c96
-SHA512: f32f729b0ded9385245d09c8e7c3a699afe91c26a31c2d1b2a9371df542ef861ff69532157445a6f03f31cb92fe129b7c395ef9fa94d708805df40403a7bb7d9
+Installed-Size: 489
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libcairo2 (>= 1.18.4)
+Filename: ./python3-cairo_1.29.0-1+b1_amd64.deb
+Size: 111056
+MD5sum: f7e6f19ada49c92007891ecf7e95b2ae
+SHA1: d4266ff757cbed63aaab1eddadd3732a25563417
+SHA256: 33da9efac47091436eb2542dc8b7475fd7b21f329af296390bae0975da08fcc0
+SHA512: 6c87c666e261cbc118690f4626002c66f2f2d6ee0950e6d049d69ae5b52b4785fe7256ba0931ddada4d28dfd47abd93bc49f25b96b5265fc1107a754b630375e
 Homepage: https://cairographics.org/pycairo/
 Description: Python3 bindings for the Cairo vector graphics library
  This package contains modules that allow you to use the Cairo vector
@@ -58441,21 +58441,21 @@ Description: Python3 binding for Caja components
 
 Package: python3-cffi-backend
 Architecture: amd64
-Version: 2.1.1-1
+Version: 2.1.1-1+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: python-cffi
+Source: python-cffi (2.1.1-1)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 463
+Installed-Size: 246
 Provides: python3-cffi-backend-api-9729, python3-cffi-backend-api-max (= 10495), python3-cffi-backend-api-min (= 9729)
-Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.38), libffi8 (>= 3.4)
-Filename: ./python3-cffi-backend_2.1.1-1_amd64.deb
-Size: 120680
-MD5sum: c39c4cef7c38e6cde21ba92bf47f1e32
-SHA1: 14fd718c82cbcff02aef301a6e7dad59204edeec
-SHA256: 6badb35f485cd7006f43d9f3a1aae961ebeb11ea6246fcaa0e3377739a4e1731
-SHA512: 4d5f649e6d481d9cc3621b129b8761e2b7ffabcc29808c0552bff9cad0d531b08835059f5c8056e45a78cc09b69c23133bca2a9e3ef643121f51a2f0253dbb7f
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.38), libffi8 (>= 3.4)
+Filename: ./python3-cffi-backend_2.1.1-1+b1_amd64.deb
+Size: 99604
+MD5sum: 1678e37e0708978c50752c23119100f6
+SHA1: 93b450139d7bcc23790c71a5be8c9d441255bd35
+SHA256: b5685292434e9f6609c04af0a8d20bb7c692f6ae01de98fd96d20f070c7da95d
+SHA512: 0baf8470e490d43f09c28fa041c30ce4244295f6be0e563e7ccb34304332ca9a383d851c79d289c241f5d0448f03055410c7bc6e190807ccd14b30585d92ea37
 Homepage: https://cffi.readthedocs.org/
 Description: Foreign Function Interface for Python 3 calling C code - runtime
  Convenient and reliable way of calling C code from Python 3.
@@ -58469,20 +58469,20 @@ Description: Foreign Function Interface for Python 3 calling C code - runtime
 
 Package: python3-charset-normalizer
 Architecture: amd64
-Version: 3.4.7-2
+Version: 3.4.7-2+b1
 Priority: optional
 Section: python
-Source: python-charset-normalizer
+Source: python-charset-normalizer (3.4.7-2)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 1132
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.38)
+Installed-Size: 709
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.38)
 Suggests: python-charset-normalizer-doc
-Filename: ./python3-charset-normalizer_3.4.7-2_amd64.deb
-Size: 246840
-MD5sum: ce0fc6f343da4fcbf4279a31676b3167
-SHA1: 19abec93572d11fabe03b588665b622254da66a1
-SHA256: 5d79c86d33eed50383024bfdce5d14b832b8a9143e4229051dc17bb8a440bd74
-SHA512: b90a6904fe33f0630b89c104ec2fef476f5e148ab42a96ecbd0b54c5d69023ba3acfcec346fb4714f9dc6f48d1c2138bed04d8fe8fa63bdafec8efdfc998e213
+Filename: ./python3-charset-normalizer_3.4.7-2+b1_amd64.deb
+Size: 190448
+MD5sum: a3789977d11e877b3e6e9133f3d323cd
+SHA1: 9a7ed4e8feb5d086665a050843b420d02c1f05e3
+SHA256: b5f6d60cfed38174e03acd2872c7945305c0a24bc9c2ba4dab79d3fcda947e12
+SHA512: 0dac5bf88518a04da6be9c942e334e2c21e4063c351f1aa200876f3ee673ca46094a8ab957995320fd9e44a7070d6e16fcf69658cefc30a823a20070f7e5fec3
 Homepage: https://github.com/ousret/charset_normalizer
 Description: charset, encoding and language detection (Python 3)
  charset-normalizer is a library for detection of charsets, encodings,
@@ -58560,19 +58560,19 @@ Description: cssselect parses CSS3 Selectors and translates them to XPath 1.0
 
 Package: python3-cups
 Architecture: amd64
-Version: 2.0.4-3+b1
+Version: 2.0.4-3+b2
 Priority: optional
 Section: python
 Source: python-cups (2.0.4-3)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 454
-Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.38), libcups2t64 (>= 1.7.0)
-Filename: ./python3-cups_2.0.4-3+b1_amd64.deb
-Size: 75032
-MD5sum: f5facfed3e1f598ccc9ab661be0ec7b3
-SHA1: ead9a79ed0889d60d6565b182de491191e2fbc08
-SHA256: 702dc222dfbf4f9ec0467cb4716d819093417404ab366a29b76db069d68f0c74
-SHA512: 6d91f3b6caa2c2b9a945ca20009274be0dee821e305da58c3e85aeea50ed1cd27f6f94f82070ef23b8b4f590fb9e3db4c632302f6a9e06b0186712d81f2a0808
+Installed-Size: 239
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.38), libcups2t64 (>= 1.7.0)
+Filename: ./python3-cups_2.0.4-3+b2_amd64.deb
+Size: 58900
+MD5sum: b6dfec5edd357e4460dd6f4301b64307
+SHA1: 059aadc69f29c3b60a7dd818ed30635c5f556d39
+SHA256: 31d76e07abaf1442ee1cee37467a7da8aa2d7a1fba3e01a01963f3291eae2a41
+SHA512: 5c698db58d42db594807f86d543f21cc95ebef05573fae3e16d3cf4e321c5c9e81fde55f42efa8bea84f15983dbd36cea04c0880e220d64bd0282cce9bdc8e1a
 Homepage: https://github.com/OpenPrinting/pycups
 Description: Python3 bindings for CUPS
  A module of python3 bindings for using the CUPS 2+ API in
@@ -59383,21 +59383,21 @@ Description: simple Linux inotify Python bindings
 
 Package: python3-pylibacl
 Architecture: amd64
-Version: 0.7.3-0.1
+Version: 0.7.3-0.1+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: python-pylibacl
+Source: python-pylibacl (0.7.3-0.1)
 Maintainer: Iustin Pop <iustin@debian.org>
-Installed-Size: 128
-Depends: python3 (<< 3.15), python3 (>= 3.13~), libacl1 (>= 2.2.23), libc6 (>= 2.4)
+Installed-Size: 79
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libacl1 (>= 2.2.23), libc6 (>= 2.4)
 Suggests: python-pylibacl-doc
-Filename: ./python3-pylibacl_0.7.3-0.1_amd64.deb
-Size: 23228
-MD5sum: f7fb16eedb6b4d4577435935d40e5fc9
-SHA1: 9875afecf5b749b4facfb545432ef86861ad26be
-SHA256: 198d248b3019887a2ea201b40e77ff39a870c04af5a59c4f0143d14174237983
-SHA512: 799affc31818a13f91326efc7fec1713a1a9cee8c633d4fde9502390a51dfebad0207a88ff5a32c7e629c09efcf25c2079c5b5bfee7f223dd27be7801d76bdc0
+Filename: ./python3-pylibacl_0.7.3-0.1+b1_amd64.deb
+Size: 21964
+MD5sum: 6746cc8fb18455c9f1c7f6a2c04e4468
+SHA1: d7fb6731bf00bb8c4cfb8bbba59ad4b6de26c235
+SHA256: ab12e3db30f58ccdb674cfe794dc3302d8e6f54529752ad7085a439af6c518ac
+SHA512: 392a790b2b5c0c188618502577d7e9971cd373eec13668a977426d916aae0de42715986f8c8b95c80165d575b4612d199f4a1c9e3cbbbfbb9edfb92b61861e84
 Homepage: https://pylibacl.k1024.org/
 Description: module for manipulating POSIX.1e ACLs (Python3 version)
  pylibacl is a Python interface to the libacl library. It allows
@@ -59408,19 +59408,19 @@ Description: module for manipulating POSIX.1e ACLs (Python3 version)
 
 Package: python3-pyqt6.sip
 Architecture: amd64
-Version: 13.12.0-1
+Version: 13.12.0-1+b1
 Priority: optional
 Section: python
-Source: pyqt6-sip
+Source: pyqt6-sip (13.12.0-1)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 331
-Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4)
-Filename: ./python3-pyqt6.sip_13.12.0-1_amd64.deb
-Size: 72988
-MD5sum: 31039d1ce516c0400f7fd39757eedbe2
-SHA1: 5b9caced061e8a31d8832ba36bbbd699f5984c40
-SHA256: 783220be9c59646b8712b3e690908a2845dced36ef5db86c7d2c92cc5d33b9b8
-SHA512: f8514893c7ac0f21c04f7e9476bb40a791375f3c03904f0096487eca9f71ac402fe9dde0432258fb89f93ca59cafc92817f0e3470aa2635429303340166039bf
+Installed-Size: 175
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4)
+Filename: ./python3-pyqt6.sip_13.12.0-1+b1_amd64.deb
+Size: 58708
+MD5sum: 4a1c25008de1f4ffa1f93ee23422e86f
+SHA1: 9b1fe34e6943b10d0981c8ab9c3f8634da67ebdc
+SHA256: d8bb3cbd374b5e0b67efa95a2c5c23526e1d6b9f8d986e753a27110b527cc8e7
+SHA512: 829a1e5eaa875b53684b7eb005512afb4d0ffe59579afaf597d688784a273b0bbaec1b34f8751968cc50430e07ec5a4ade05829e5c57e762292d3cc2e7f808e3
 Homepage: https://github.com/Python-SIP/sip
 Description: runtime module for Python extensions using SIP
  SIP is a collection of tools that makes it very easy to create Python bindings
@@ -59493,21 +59493,21 @@ Description: Python3 version of the Olson timezone database
 
 Package: python3-pyxattr
 Architecture: amd64
-Version: 0.8.1-1+b7
+Version: 0.8.1-1+b8
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python-pyxattr (0.8.1-1)
 Maintainer: Iustin Pop <iustin@debian.org>
-Installed-Size: 97
-Depends: python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4)
+Installed-Size: 62
+Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4)
 Suggests: python-pyxattr-doc
-Filename: ./python3-pyxattr_0.8.1-1+b7_amd64.deb
-Size: 18660
-MD5sum: 61731b4bbae458d9f488c67c9b68cefd
-SHA1: 370caf14dd6dd112718b1643b6dbe3ecfd6bedd7
-SHA256: b7ab1590406ac305f1040cd4d48eb34d3ae33de5120d4e986c4fd04bc6c501ea
-SHA512: 41b5634eff98bf2ac6c414dd4ab228838a16422eceaa62c4a45c3fa3e58b684ecbacc70a98a11d1e78d11a1286254bd76923bcf5ab8e8c35edf47b3a42ae9766
+Filename: ./python3-pyxattr_0.8.1-1+b8_amd64.deb
+Size: 18088
+MD5sum: a3abf2576950dd19913edb433fae9977
+SHA1: 419c99d3848afe6aca45b139c00f4f30c94103ed
+SHA256: dbd94a7e26a736428425e15e6cb44f77f31496c0a9ffc14a270a80c0189ab4e9
+SHA512: b7be819b503bb46c6ae9b256d975da12087511a730578423eef1727fd2ce37cd01415042556d05f66466e6d82c74df38a4d3084e5af27ebfe05858e6ae6816f4
 Homepage: https://pyxattr.k1024.org/
 Description: module for manipulating filesystem extended attributes (Python3)
  pyxattr is a Python interface to the libattr library. It allows
@@ -59518,20 +59518,20 @@ Description: module for manipulating filesystem extended attributes (Python3)
 
 Package: python3-setproctitle
 Architecture: amd64
-Version: 1.3.7-3
+Version: 1.3.7-3+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: python-setproctitle
+Source: python-setproctitle (1.3.7-3)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 77
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4)
-Filename: ./python3-setproctitle_1.3.7-3_amd64.deb
-Size: 18980
-MD5sum: dce6740c9e730ff4e4909bee2f0de690
-SHA1: 1f19e4b49def44b36b7beb1e0582b917089684c8
-SHA256: 957c6df8b36501171379380476815031858d5ec54a9f145515a5b809167d6644
-SHA512: f1c40c9dfbb775ddf286315a2ec01852766b3a4a0796e35114fedf25ed2459c6d0f51cdc52001dc2057135213467ea0dd1eca3bf1eca74b42a24794c0124dbb0
+Installed-Size: 59
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.4)
+Filename: ./python3-setproctitle_1.3.7-3+b1_amd64.deb
+Size: 18468
+MD5sum: 79e28eacca994f5664b588c6dd292e1d
+SHA1: e7fc248188e64c6b29a28a80c500f42ee98e80ab
+SHA256: c49edb8b80305b137108e741284c720d1af925edb899fd7524168fd8707fcb9b
+SHA512: c7c5f2ff61dd33638f149e9ab0a54fc40b52b3e0f296d2093c623f4b0403b07b8d71e01c153a7c16d676befa68e112e205f6628beca07ae6167240c8dd98289b
 Homepage: https://github.com/dvarrazzo/py-setproctitle
 Description: Setproctitle implementation for Python 3
  The library allows a process to change its title (as displayed by system tools
