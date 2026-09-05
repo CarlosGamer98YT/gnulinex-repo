@@ -16727,20 +16727,20 @@ Description: Blu-ray disc playback support library (shared library)
 
 Package: libboost-iostreams1.90.0
 Architecture: amd64
-Version: 1.90.0-6.1
+Version: 1.90.0-6.1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: boost1.90
+Source: boost1.90 (1.90.0-6.1)
 Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
-Installed-Size: 2169
+Installed-Size: 2170
 Depends: libbz2-1.0, libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblzma5 (>= 5.2.2), libstdc++6 (>= 5.2), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
-Filename: ./libboost-iostreams1.90.0_1.90.0-6.1_amd64.deb
-Size: 247600
-MD5sum: 17ef01841613e55e4334277c7b7ed386
-SHA1: 44fb2681e2b366631f40ca438dafa3f90f40a73b
-SHA256: 362909ea2b5966a9e1eb04785b9703d0329b8654a000fec16629a577173b053e
-SHA512: b3f307c8ca067861520e2a06f46ccddac5708e78c75a2e0ea7de5df02a4d01dce08e100c03b380105b6a22fc091f034d98d090dd46ec61a7b186d4879567ff49
+Filename: ./libboost-iostreams1.90.0_1.90.0-6.1+b1_amd64.deb
+Size: 247716
+MD5sum: 338d25844a03a3f9db6059654919bd04
+SHA1: 0643efcef8621a0360ddcf3fb468d5b526d0cba2
+SHA256: a2a01d637870c9f068709d193b3d385f427f5769e4f836b4e80bf53cc314dc4a
+SHA512: bc347ab8a7614cbab46fce7a9ccc59734287c110b35237e167ff79c19920c59e6ff562b18fbb73cc9053479d96d6e1199b670234610834971e789b10714460bc
 Homepage: http://www.boost.org/libs/iostreams/
 Description: Boost.Iostreams Library
  This package forms part of the Boost C++ Libraries collection.
@@ -16751,20 +16751,20 @@ Description: Boost.Iostreams Library
 
 Package: libboost-locale1.90.0
 Architecture: amd64
-Version: 1.90.0-6.1
+Version: 1.90.0-6.1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: boost1.90
+Source: boost1.90 (1.90.0-6.1)
 Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
-Installed-Size: 3153
+Installed-Size: 3154
 Depends: libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), libstdc++6 (>= 13.1)
-Filename: ./libboost-locale1.90.0_1.90.0-6.1_amd64.deb
-Size: 512384
-MD5sum: ac94c5596ce0d57d358eccfa2f36dd39
-SHA1: d1ec14de976922489e8a1e9e5a756ecf79faf633
-SHA256: 98434d5ca8e3cc675517cc5f572c71c658f5a17115e8837d6dbc1fb83794aea0
-SHA512: 82ff76a368fb505546b6b257c30d4afa917e8865907cd5fa47392b465791c52f7929f1cff3f20c61955ded41cc79af7858c8152973e74af037a9441ba260bf4e
+Filename: ./libboost-locale1.90.0_1.90.0-6.1+b1_amd64.deb
+Size: 512552
+MD5sum: fec2693c2347c4ae311ff59c14d130e6
+SHA1: 049bef7ec5baa1bda0ff3a468a7a7857f185bd74
+SHA256: 6aebdc2c605922aab81b0697310a9d4b897e9f0fbd555f8ab04cbac9a9cf062e
+SHA512: 6c7da1f732cd8841b4745f969ca26c8af46465eb21d9d8630ba60b641fc38ae687d6d38fcb02904a9b99eed9e4b1280f9eb73c72b798a82502dbeb3396f766a5
 Homepage: http://www.boost.org/libs/locale/
 Description: C++ facilities for localization
  This package forms part of the Boost C++ Libraries collection.
@@ -16791,20 +16791,20 @@ Description: C++ facilities for localization
 
 Package: libboost-thread1.90.0
 Architecture: amd64
-Version: 1.90.0-6.1
+Version: 1.90.0-6.1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: boost1.90
+Source: boost1.90 (1.90.0-6.1)
 Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
-Installed-Size: 2201
+Installed-Size: 2202
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
-Filename: ./libboost-thread1.90.0_1.90.0-6.1_amd64.deb
-Size: 259452
-MD5sum: 9051d877638dc41e5a9b737cb4f9163a
-SHA1: 02941b2f4ecfb1787ea556fc66bf517d2ad1c66c
-SHA256: a36aafc93522a85b47bcd8917bc3ed3dff29a13e288d4d6fc1012af44db83609
-SHA512: b513419fa586ba5e128281c9241a804c9ffe8595053dc768533ccb71eb9809d102694e2b288822b3873ba0f979ae1db217144e8b43a32b3291f7a45993c6d6a3
+Filename: ./libboost-thread1.90.0_1.90.0-6.1+b1_amd64.deb
+Size: 259724
+MD5sum: 53256a99ad70a2ed33da5fd9304f4594
+SHA1: 45c5fda1039f18a5f0b42fb9f43a302bb0af9aed
+SHA256: 22df7ba3f84ec3dd5d80c012d3541f7212262bd2abd6028b43bb30effbb51c34
+SHA512: 9ccb136c4b76bfd4495ca68683419701ec00f8f4914a35e27402754702ef778fbf0fbade77697b59e4036324a5600b68226678741ef01066cc794585e3cdab87
 Homepage: http://www.boost.org/libs/thread/
 Description: portable C++ multi-threading
  This package forms part of the Boost C++ Libraries collection.
@@ -58687,19 +58687,19 @@ Description: command-line interface description language (Python3)
 
 Package: python3-gi-cairo
 Architecture: amd64
-Version: 3.57.1-1
+Version: 3.57.1-1+b1
 Priority: optional
 Section: python
-Source: pygobject
+Source: pygobject (3.57.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 65
-Depends: python3-cairo, python3-gi (= 3.57.1-1), python3 (<< 3.15), python3 (>= 3.13~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
-Filename: ./python3-gi-cairo_3.57.1-1_amd64.deb
-Size: 13344
-MD5sum: 27aa95d3dffce6536cac9d595439b1d9
-SHA1: c40d87f3227f1e28c3c82f0c1fad4853ea623fad
-SHA256: 3c0cd318e6929cb1f3c7822589ef2fda20aa3b98cdd3e62a363820075c62bdcd
-SHA512: f0ee48ea85cff283971934174a163f45b95fe7b4e573aaaf6194179011ce07ce8b3c86518d13d552d39de71bea48d3c6129522214e71a829345811fd28abcb2d
+Installed-Size: 43
+Depends: python3-cairo, python3-gi (= 3.57.1-1+b1), python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
+Filename: ./python3-gi-cairo_3.57.1-1+b1_amd64.deb
+Size: 13008
+MD5sum: a9f37f0692239beee7a33fc72ade2af3
+SHA1: 8c6ece99e93742ffe8170284698a20aa21005333
+SHA256: 04aea7c2a2ca1ad7ad4ed95f8866d248c17609c0b6d9feeb76a32b105905a427
+SHA512: 3be96e9ecf49cb9d6b487b607c677e39b64a807234ca4688677e9ee8468e2ae97261e69c38ab8a93da8887f3e45b02e6d61c1b45864c0aa491db536094c5e5cd
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 Cairo bindings for the GObject library
  GObject is an abstraction layer that allows programming with an object
@@ -58711,21 +58711,21 @@ Description: Python 3 Cairo bindings for the GObject library
 
 Package: python3-gi
 Architecture: amd64
-Version: 3.57.1-1
+Version: 3.57.1-1+b1
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Source: pygobject
+Source: pygobject (3.57.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1127
-Depends: gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0 (>= 2.86.0-7~), python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~)
+Installed-Size: 769
+Depends: gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0 (>= 2.86.0-7~), python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~)
 Breaks: autoradio (<< 3.6.4-1.1~), blueprint-compiler (<< 0.16.0), budgie-desktop (<< 10.9.3-1.1~), entangle (<< 3.0-5.1~), eog (<< 47.0-4~), eom (<< 1.28.0-1.1~), exaile (<< 4.1.4), gedit (<< 48.1-8~), gir1.2-peas-1.0 (<< 1.36.0-6~), gnome-music (<< 48.0), liferea (<< 1.16.1+ds-2.1~), pluma (<< 1.28.0-1.1~), rednotebook (<< 2.39), rhythmbox (<< 3.4.9-2~), streamtuner2 (<< 2.2.2+dfsg-2.3~), totem (<< 43.2-7~)
-Filename: ./python3-gi_3.57.1-1_amd64.deb
-Size: 284124
-MD5sum: 5e8f51a8c8801064edc24d807f480fe0
-SHA1: 9642ea8a5b7c8cc2d78750eb113f860990e772f1
-SHA256: dcf216c7beb4b0e02827ff5227405daf064b2fc509d8b80958530f63f04a9abf
-SHA512: f95a17071bc6afd5ad66728e60ddf54479a6039c98a442c3e67052199e66a5709282bbe7c0d1d1baea0d96dc6a051ae1c1ba17b56d6710fee4dc6c45255c114e
+Filename: ./python3-gi_3.57.1-1+b1_amd64.deb
+Size: 239476
+MD5sum: 48211f3afec94af7b057f70793869ef7
+SHA1: 5bddbbd2e7878aa885f06df10d6b039aafb95efe
+SHA256: 7f307ed4e876e6677fe4887a629a8d987718281c3707719082c7123aeb93b2d2
+SHA512: 0bf5cbbc28a9855df6a0a56abae3abc9aa5d7f7a73539716da1a4f2acd06e02e2c1d27fd1e90a671d15a4958e5cc9f5e0d2f24d283c67d950c62db9afca7e9f0
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 bindings for gobject-introspection libraries
  GObject is an abstraction layer that allows programming with an object
@@ -59173,26 +59173,26 @@ Description: Python 3 module for automating interactive applications
 
 Package: python3-pil
 Architecture: amd64
-Version: 12.3.0-1
+Version: 12.3.0-1+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: pillow
+Source: pillow (12.3.0-1)
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2692
+Installed-Size: 2027
 Provides: python3-pillow
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, media-types | python3-pil.imagetk, libavif16 (>= 1.4.2), libc6 (>= 2.38), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.4.0), libraqm0 (>= 0.7.0), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libxcb1, zlib1g (>= 1:1.1.4)
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, media-types | python3-pil.imagetk, libavif16 (>= 1.4.2), libc6 (>= 2.38), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.4.0), libraqm0 (>= 0.7.0), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libxcb1, zlib1g (>= 1:1.1.4)
 Recommends: python3-olefile
 Suggests: python-pil-doc
 Conflicts: python3-imaging (<< 1.1.7+2.0.0-1.1)
 Breaks: python3-imaging (<< 1.1.7+2.0.0-1.1)
 Replaces: python3-imaging (<< 1.1.7+2.0.0-1.1)
-Filename: ./python3-pil_12.3.0-1_amd64.deb
-Size: 562176
-MD5sum: fd556a38d509ebe17a34f77353255f62
-SHA1: 2fb11aec79892779409207ea944488d617f4631d
-SHA256: 7a97a8828a12f43bc3f9a843f68ac37b7cd7070d4f2300f1a2c550066c79c5bf
-SHA512: 3e1bf7f9e7cb490f8655c5444722958cad4f5ab351cf1dde7c126bf4f0d85e3312b6e5bf874e8ea38f3e01524cf672b6034f2a940d32862723fb4772e3c31237
+Filename: ./python3-pil_12.3.0-1+b1_amd64.deb
+Size: 554936
+MD5sum: 7c6973a94de47b34e88d2b7a66390447
+SHA1: f018360823311c6fb73539eff280f840e1bc0557
+SHA256: 6fbf1849a70a82da22ea2abf24f28c2ba7c29279198ff2ef0e80e3f8ac264fcd
+SHA512: ca8f2394d167473cf7385a4caa4331858e98be2385a070814fc4124235c08c0b7d397dae6cbf56f9814703961e591cb717b04f9a343e2981af615dd0da82efb0
 Homepage: http://python-pillow.github.io/
 Description: Python Imaging Library (Python3)
  The Python Imaging Library (PIL) adds an image object to your Python
@@ -59963,20 +59963,20 @@ Description: extract data from Microsoft Excel spreadsheet files (Python3 versio
 
 Package: python3-yaml
 Architecture: amd64
-Version: 6.0.3-1
+Version: 6.0.3-1+b1
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Source: pyyaml
+Source: pyyaml (6.0.3-1)
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 814
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libyaml-0-2
-Filename: ./python3-yaml_6.0.3-1_amd64.deb
-Size: 185748
-MD5sum: 6b0169d79c36cb2c83708d6797931933
-SHA1: 0dd2a36c5f28b2da946b096acbd91481650b32f2
-SHA256: 077a7ddd1870a82aa4a0dcedcac29dc592a5a62fc3f4889ecdbd19eb6269a229
-SHA512: f6755f33cb240e63376438764c5c3a38d5740238dc56ab7f8d403b826d5c4aa695c7a8822eea6179931e366c68346a212e3cc613355b060b78b5934c185708da
+Installed-Size: 557
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libyaml-0-2
+Filename: ./python3-yaml_6.0.3-1+b1_amd64.deb
+Size: 138000
+MD5sum: 3258fdf5c78abbd1c5353fe19b0bab9e
+SHA1: 38b497e3edfcf98ee023e4003efec427c2d951b0
+SHA256: 193e8b1e04f7fe855579b1025fda76e779485a4819c7722fc71d8d89700b420c
+SHA512: 197520f5696e7f0b14bc3dfe061de74bf03be47e18b010d0ed9aed61c29afbd28b4d1355d4ada66ec68e4910d2d3dc89b83269ac29aeb691c9484fb96a03010a
 Homepage: https://github.com/yaml/pyyaml
 Description: YAML parser and emitter for Python3
  Python3-yaml is a complete YAML 1.1 parser and emitter for Python3.  It can
