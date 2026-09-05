@@ -10896,21 +10896,21 @@ Description: GNOME Session Manager - default GNOME session
 
 Package: gnome-settings-daemon-common
 Architecture: all
-Version: 51~beta-2
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Source: gnome-settings-daemon
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5378
-Provides: gnome-settings-daemon-schemas (= 51~beta-2)
-Depends: dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~)
+Installed-Size: 5372
+Provides: gnome-settings-daemon-schemas (= 51~rc-1)
+Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: gdm (<< 49~alpha.1), gnome-initial-setup (<< 49~alpha), gnome-session (<< 49~alpha.1), gnome-shell (<< 49~alpha.1), ubuntu-session (<< 49~alpha.1)
-Filename: ./gnome-settings-daemon-common_51~beta-2_all.deb
-Size: 646308
-MD5sum: c65df308d5231efd6d413266853c352b
-SHA1: fba6a804faf668b2c731ccfd19f47512bf633c28
-SHA256: 34539ac5181f97d024895c2636e546567c4d05acae385635dadb3e00df36f5a1
-SHA512: 9cb03dcdfac8aed24a770cb774aebe363786dd33d1710b9401ec0fd5f96eab308fb2adc1be3b610f168427ece7379983df5b55eaaed55de6004c6d23babe8702
+Filename: ./gnome-settings-daemon-common_51~rc-1_all.deb
+Size: 645664
+MD5sum: 6631f0860d380f0374ea39d49c851e99
+SHA1: 043633e34a5701c4f3f8511b82d06623c91f30bf
+SHA256: 6e50cd14df8d3be085625f1c8500a1121566e72ee9a4a3083f10cf9fba69bc42
+SHA512: f08f9f8d801072a3fa15296b4aa4438d45f961ac32e937e1d1a02fc7d6843fad49c1c44adc30cfc6db3dc3e7637e65416a5dbe71a0cff5d3a6a51513243d2f2e
 Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 Description: daemon handling the GNOME session settings - common files
  This package contains GSettings schemas and other architecture-independent
@@ -10921,21 +10921,21 @@ Description: daemon handling the GNOME session settings - common files
 
 Package: gnome-settings-daemon
 Architecture: amd64
-Version: 51~beta-2
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1303
-Depends: default-logind | logind, gnome-settings-daemon-common (= 51~beta-2), gsettings-desktop-schemas (>= 46~beta), libspa-0.2-bluetooth | pulseaudio-module-bluetooth, pipewire-audio | pulseaudio, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcanberra0 (>= 0.16), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgck-2-2 (>= 3.2.2), libgcr-4-4 (>= 3.8.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib-2-0 (>= 0.99.1), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.34.2), libgudev-1.0-0 (>= 146), libgweather-4-0t64 (>= 3.91.0), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.0.0), libnotify4 (>= 0.8.7), libp11-kit0 (>= 0.25.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsystemd0 (>= 213), libupower-glib3 (>= 0.99.8), libx11-6, libxfixes3 (>= 1:6.0.0)
+Depends: default-logind | logind, gnome-settings-daemon-common (= 51~rc-1), gsettings-desktop-schemas (>= 46~beta), libspa-0.2-bluetooth | pulseaudio-module-bluetooth, pipewire-audio | pulseaudio, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcanberra0 (>= 0.16), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgck-2-2 (>= 3.2.2), libgcr-4-4 (>= 3.8.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib-2-0 (>= 0.99.1), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-4-2t64 (>= 3.34.2), libgudev-1.0-0 (>= 146), libgweather-4-0t64 (>= 3.91.0), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.0.0), libnotify4 (>= 0.8.7), libp11-kit0 (>= 0.25.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsystemd0 (>= 213), libupower-glib3 (>= 0.99.8), libx11-6, libxfixes3 (>= 1:6.0.0)
 Recommends: iio-sensor-proxy, pipewire-audio, pkexec, systemd-oomd, x11-xserver-utils
 Suggests: usbguard
 Breaks: gnome-shell (<< 47~rc), mutter-common (<< 47~rc), phosh (<< 0.50~rc)
-Filename: ./gnome-settings-daemon_51~beta-2_amd64.deb
-Size: 318508
-MD5sum: 0c7d26e620c199babe2a31b55844cece
-SHA1: 42b2df538f0cee10aa7a67f1c91fbb4eb5eab770
-SHA256: 54c404b5bad8c8060e986a797509e0fd70d376b21f90cf8b910daafd1d74f0f0
-SHA512: e9bf03c4de1f2b9df7d594ebda80ec55c287853122b5399e5587212be27dbea594c75164bccf0fa50ef32dd056196a4574e1a14329ddffdf1b7878600c71a2d2
+Filename: ./gnome-settings-daemon_51~rc-1_amd64.deb
+Size: 318336
+MD5sum: 4121bfed067533d838ac8dd6fab989b0
+SHA1: 3a052e9f6880f38e2fc7dab77b3a088a07df0fe0
+SHA256: 9be055ad5de669eed17043cecccd92ad8c884382747b816d26955b71fabcd858
+SHA512: 5608ada8982afd4a929b5daa3ffa05dc8463c4401bcd40fc4af62e8cb89217c13314f5c8d8b5c0d1cc20b14b421919a7f1881472e374be1c175d56e70095985c
 Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 Description: daemon handling the GNOME session settings
  This package contains the daemon which is responsible for setting the
@@ -47415,7 +47415,7 @@ Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
 
 Package: libsso-mib0
 Architecture: amd64
-Version: 0.10.1-1
+Version: 0.10.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -47423,12 +47423,12 @@ Source: sso-mib
 Maintainer: Luca Boccassi <bluca@debian.org>
 Installed-Size: 97
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0), libjson-glib-1.0-0 (>= 1.5.2), libuuid1 (>= 2.16)
-Filename: ./libsso-mib0_0.10.1-1_amd64.deb
-Size: 23608
-MD5sum: 360b1ee93e2d72faba5c5c47a90313cc
-SHA1: 91e677063a6755f5d0d709fc7336ee803a2f7762
-SHA256: 606b79640e958ee855283d8e44304529bd48ff28e6f40275e629f0fdc9234629
-SHA512: 48bd687fde73cf551bd706fd37e8794837f430c3df196d6fcfda6b8762408774ea9905a440b38febefe3e0145da3293de3fdf0ceedd0c0f3411ed7ab8ccdb03c
+Filename: ./libsso-mib0_0.10.2-1_amd64.deb
+Size: 24312
+MD5sum: bf8dd6e8ef4911e801ae0e190bf9d489
+SHA1: 393b0c9162b22f4092c2106e902bc49527873049
+SHA256: aafbbfb8cab777b21b249fa0bbef6df5a139f5f76f8bc5b8c5cd04c7b45af17e
+SHA512: bd74dba2c3c2a7b55f46d24a493ebdc52a1d238b0f2528aacc04eaf28b556f986ebe549e400ca44e8f6a44f4fab248db8a27ad595d88c99cd94ffeab5cfae17b
 Homepage: https://siemens.github.io/sso-mib/
 Description: Single-Sign-On with CA for Entra via Himmelblau (library)
  Applications can link with this library to get Entra Conditional Access tokens
