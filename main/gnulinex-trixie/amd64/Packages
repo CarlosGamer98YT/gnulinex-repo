@@ -7330,21 +7330,21 @@ Description: Introspection data for CinnamonDesktop
 
 Package: gir1.2-cloudproviders-0.3.0
 Architecture: amd64
-Version: 0.4.0-3
+Version: 0.4.1-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 29
-Provides: gir1.2-cloudproviders-0.3 (= 0.4.0-3)
+Provides: gir1.2-cloudproviders-0.3 (= 0.4.1-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, libcloudproviders0 (>= 0.2.5)
-Filename: ./gir1.2-cloudproviders-0.3.0_0.4.0-3_amd64.deb
-Size: 7344
-MD5sum: a7129550d2c5d6c92ad73743f0fccc35
-SHA1: 4b2aaefc0d326a91dba6e7c8e4213530a707a8ca
-SHA256: 8c371812fe28ecfca80e4f723ee3d23ebf3ec7a49bf57e0e963933c4c1f684cc
-SHA512: deec831b74e0720bd8eee37df232efa4651183d9c7af7456612589e679ff5a2c9c9dc52c31a5b823a2c9ad1297c4a55698dc3ba2b62b32bc48c3da22b5d782e6
+Filename: ./gir1.2-cloudproviders-0.3.0_0.4.1-1_amd64.deb
+Size: 7368
+MD5sum: 53f341d0101d0b7b6a85e644100000a4
+SHA1: fec1ccc1f64756c495fd157cfe68107378c27038
+SHA256: 051fbf402f1d36afb33b544ebdadc861e96cdc716efffcbd323e415f27a32e7a
+SHA512: 5cc6acda743c1ea147031814a0923c93860268ac76680ddd5b9a75c11b1fb28613518f48c6b5ec436649e5c300e99c4b130467acef66dbedf1b8faf772316a36
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - introspection data
  libcloudproviders is a glib based library that makes it easier to implement
@@ -9880,19 +9880,19 @@ Description: GNOME Shell extensions integration for web browsers
 
 Package: gnome-calculator
 Architecture: amd64
-Version: 1:51~beta-1
+Version: 1:51~rc-1
 Priority: optional
 Section: math
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9482
+Installed-Size: 9502
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgmp10 (>= 2:6.3.0+dfsg), libgtk-4-1 (>= 4.17.0), libgtksourceview-5-0 (>= 5.2.0), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libsoup-3.0-0 (>= 3.4.0), libxml2-16 (>= 2.14.1)
 Recommends: gvfs, yelp
-Filename: ./gnome-calculator_1%3a51~beta-1_amd64.deb
-Size: 1247460
-MD5sum: 3b242c1f5e6d0f279a441ff4b99decf1
-SHA1: 19bc14b9e3bd5faddbed6b8ec42ad5d7fd55b31f
-SHA256: 0587069abd4add6f8438430b14e4c2e7d48f3d061f76cde9d8a0b02505e1adcf
-SHA512: 850bffda5574337f3810d36a50f8d24df6b4d64bc71fa5461de890aa6781a082a6d07373a02af98bcdf90eb00960a99847a071adc18633cbd47ec5f1e849c4f3
+Filename: ./gnome-calculator_1%3a51~rc-1_amd64.deb
+Size: 1242284
+MD5sum: 1fb027f6f91927c90902743944b3dc2d
+SHA1: 039383d4d76df7014188f14e5ff3aa5614239f37
+SHA256: 891c574eaf1b165bda81125115becd984e1c3847a887f64bb3487e55a805981e
+SHA512: eebdbd64365b70a108022a7a95a3c7b4616be8bd98b0f1dedf48337a6bde18eefc2c8107dda4c6fc4b72a172f84e13a47869463a048cd9c97dcfad34b685fde1
 Homepage: https://apps.gnome.org/Calculator/
 Description: GNOME desktop calculator
  The GNOME calculator is a powerful graphical calculator with financial,
@@ -9901,19 +9901,19 @@ Description: GNOME desktop calculator
 
 Package: gnome-calendar
 Architecture: amd64
-Version: 51~beta-1
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2935
+Installed-Size: 3007
 Depends: gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libedataserverui4-1.0-0t64 (>= 3.16.2), libfribidi0 (>= 0.19.2), libgeoclue-2-0 (>= 2.4.0), libglib2.0-0t64 (>= 2.83.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.2), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 3.0.3)
-Recommends: evolution-data-server
-Filename: ./gnome-calendar_51~beta-1_amd64.deb
-Size: 559756
-MD5sum: d7d48b72f076ff82e168e0e59854f8ea
-SHA1: dade4120f4efefc5f4f72997ef67ff932900bdc1
-SHA256: ae9a6cb71cd0731d222bc022354b8ac68ada6b4132983183ccbf4f7c68662d05
-SHA512: e89ea5493290ed94e7a31a20cab8259bbdd046fc6f7cab946c03216deed4957ab300d503b0baa54701b76fd7232610cc1be08528732fa3adf151c2b3d1743c01
+Recommends: evolution-data-server, gnome-online-accounts
+Filename: ./gnome-calendar_51~rc-1_amd64.deb
+Size: 567932
+MD5sum: ee3eb56656f0a8fdbf2bcf124b82476c
+SHA1: 464b2a583b0a3b94d486c6fa5f00d86c26c6ee11
+SHA256: 3aace20f8d0d6e7e82c18646421ccb9aac57049c924acf7d68682c25b16ad62a
+SHA512: 003263ded2d5b72fd64525c01e79203c504242546042bab1efa9bf4fb3bea38f92800e612a4e7eaa0cadb5fedc145bf365a459898146eed8b17afc14188dbda4
 Homepage: https://apps.gnome.org/Calendar/
 Description: Calendar application for GNOME
  GNOME Calendar is a simple and beautiful calendar application designed
@@ -10179,20 +10179,18 @@ Description: Common files for GNOME desktop apps
 
 Package: gnome-disk-utility
 Architecture: amd64
-Version: 46.1-2+b1
+Version: 46.1-3
 Priority: optional
 Section: admin
-Source: gnome-disk-utility (46.1-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 7149
-Depends: udisks2 (>= 2.7.6), dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libdvdread8t64 (>= 4.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libhandy-1-0 (>= 1.5.0), liblzma5 (>= 5.1.1alpha+20120614), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsystemd0 (>= 209), libudisks2-0 (>= 2.7.6)
-Breaks: gnome-settings-daemon (<< 3.24)
-Filename: ./gnome-disk-utility_46.1-2+b1_amd64.deb
-Size: 1023280
-MD5sum: 6d57f33c3d8a40e666fb47151c372fe5
-SHA1: 5ed09234aaebc3ab4dcfdc35ce39adda60c79fa5
-SHA256: 9278fcc7912078558815718f0280ead33692b47ede1001a40061ff4a0edbf6d2
-SHA512: b6bb92ffb10e0652e63e4d9c97269b76346e5d787241fcfbc20f8a429ec9c17db50e08b81eaf0a6059cfd1c90def1431498254cb4f2065cc3f5b04dbe21e2543
+Installed-Size: 7150
+Depends: udisks2, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libdvdread8t64 (>= 4.1.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libhandy-1-0 (>= 1.5.0), liblzma5 (>= 5.1.1alpha+20120614), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.7.6)
+Filename: ./gnome-disk-utility_46.1-3_amd64.deb
+Size: 1026192
+MD5sum: e9eb4e3da0ff9ff150271294144571d9
+SHA1: be7cdfe1852fa88b2bdd0c51fb62fd51ba2bfb67
+SHA256: 0f2e7897401dc7c1c7d87853cdea5c6cd98b43917b57314c50107fcab9382c8f
+SHA512: 06165f542e4ca34e7da1d4587d46121159126458998806dd29bfa2e49ecbbeae06f96f6b37b80cfe023f430fb3123aa521165d0ae8c98ba359d640c5c1944a35
 Homepage: https://apps.gnome.org/DiskUtility/
 Description: manage and configure disk drives and media
  GNOME Disks is a tool to manage disk drives and media:
@@ -10290,18 +10288,18 @@ Description: helper application for the GNOME Flashback session
 
 Package: gnome-font-viewer
 Architecture: amd64
-Version: 50.0-1
+Version: 50.0-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1562
 Depends: libadwaita-1-0 (>= 1.8), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.9.2), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0)
-Filename: ./gnome-font-viewer_50.0-1_amd64.deb
-Size: 193472
-MD5sum: af3285fb26465b41e0e21ea4743e3521
-SHA1: 89106d81d62b4d8a87a63341089166d935946ee2
-SHA256: a365acb701ec03b5a618944990c35bab9806030e9f40589bd9aaac8b26b85bab
-SHA512: e49ef72152feafc149062016f09d7addca65621beb3abb961fa6ca79b19692e86b925d59b2aa16a87f1db507699ad5d7927bc31824d2856c0322e18dbfff9586
+Filename: ./gnome-font-viewer_50.0-2_amd64.deb
+Size: 194044
+MD5sum: d2414c90e085e4df8f1c1d61fe8ad918
+SHA1: aaa5c417837ae8fd7dad8d300fa09de0527e5a4b
+SHA256: e5532534caa90c304d47ca95a8dfe07e1af0b20b759ea0c1cc6a056279644166
+SHA512: c14fff946526347f9edac95a3dbd6e5ce6a58bbe33d02f31e0be714f5fff16d4a00503daa4f93d9fa225bb000cb8e7d78f6d29e57c7b9a25794a065a0f49f84b
 Homepage: https://apps.gnome.org/FontViewer/
 Description: font viewer for GNOME
  This program can preview fonts and create thumbnails for fonts.
@@ -11319,7 +11317,7 @@ Description: game to move tiles so that they reach their places
 
 Package: gnome-terminal-data
 Architecture: all
-Version: 3.60.0-4
+Version: 3.60.0-5
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
@@ -11327,12 +11325,12 @@ Source: gnome-terminal
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 8702
 Recommends: gnome-terminal
-Filename: ./gnome-terminal-data_3.60.0-4_all.deb
-Size: 991792
-MD5sum: 712d154ed44eb7fa930f4e133a561dc5
-SHA1: b3e354fd626c86353e87a0ce20f8bb2a68ebab05
-SHA256: f6b47000fbb2845efa2fc9f7989e12bf67af0c87f91c5aa666f3563e084b0919
-SHA512: 14197b8599ae3a35a2997255af4b5d278aef9d93739ba84a5e87e8500df997b4ebf19dae8136d2b3ff54e8b899f8cadbb94cf9ee2c6a73fa3791cd514ff468df
+Filename: ./gnome-terminal-data_3.60.0-5_all.deb
+Size: 992032
+MD5sum: 8bac090a71c5e9db65c15eb892d94aed
+SHA1: e7d63c9bf5f7a944a5fc81168a80b722c6b371c1
+SHA256: 8e7dc077f8df9ab2c0cf7d2b440a07455fe2ed10a266540798f4e4601aba3b7e
+SHA512: 6692e972f4f76c1d03c12393070da7b66b088d251b7f6796f2369d201e9a377a1c2cdce6d4ade14395e54919c6eaeb712ecacd7d93636b63683518a9aba485aa
 Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: Data files for the GNOME terminal emulator
  GNOME Terminal is a terminal emulation application that you can use to
@@ -11346,21 +11344,21 @@ Description: Data files for the GNOME terminal emulator
 
 Package: gnome-terminal
 Architecture: amd64
-Version: 3.60.0-4
+Version: 3.60.0-5
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 968
 Provides: x-terminal-emulator
-Depends: default-dbus-session-bus | dbus-session-bus, gnome-terminal-data (<< 3.62), gnome-terminal-data (>= 3.60), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.23.0), libhandy-1-0 (>= 1.5.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libuuid1 (>= 2.16), libvte-2.91-0 (>= 0.84.0), libx11-6
+Depends: gnome-terminal-data (<< 3.62), gnome-terminal-data (>= 3.60), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.23.0), libhandy-1-0 (>= 1.5.0), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libuuid1 (>= 2.16), libvte-2.91-0 (>= 0.84.0), libx11-6
 Recommends: gvfs, nautilus-extension-gnome-terminal, xdg-terminal-exec, yelp
-Filename: ./gnome-terminal_3.60.0-4_amd64.deb
-Size: 244264
-MD5sum: f729cff80e0a438e7db9085b3d4ae12d
-SHA1: f4beb2a646c76088ef745c7e3502bfef94e7b227
-SHA256: 32e3e0be59bed6b861bc6c7d17d2a9629426fd8dd3b52f20c531d64c5c86e18e
-SHA512: 481e0812f8bc30ae969cf466067f031118577c8470e5fa06788cf3edf5a56fd74f48b85fa7ba5274a7854c007c1fb5eef7ea0d2433ab46d60ed9bf06710a054a
+Filename: ./gnome-terminal_3.60.0-5_amd64.deb
+Size: 244532
+MD5sum: 944d9cede1f6f500f0b4c5246c131782
+SHA1: ec76672a32d0073c794036dbbc2695575c261f92
+SHA256: 874428e5d78ab34d91c07c448b54c5a6d19e8857affd89c023d5a8a5cc9a7a04
+SHA512: 6512937baa993f2ff8f23be22554e2297c1c63a516fece77a37627b0542dda240b438f129c91443c4e8b329f8302dfc4e43431dee404ada679d5345ca1924c14
 Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: GNOME terminal emulator application
  GNOME Terminal is a terminal emulation application that you can use to
@@ -17908,22 +17906,22 @@ Description: Library of the javascript bindings for the Cinnamon
 
 Package: libcloudproviders-dev
 Architecture: amd64
-Version: 0.4.0-3
+Version: 0.4.1-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 242
-Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.0-3)
-Depends: libcloudproviders0 (= 0.4.0-3), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.0-3), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
+Installed-Size: 246
+Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.1-1)
+Depends: libcloudproviders0 (= 0.4.1-1), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.1-1), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
 Suggests: libcloudproviders-doc
-Filename: ./libcloudproviders-dev_0.4.0-3_amd64.deb
-Size: 17828
-MD5sum: 9abaea14a04e3c6ddd4f73618211255f
-SHA1: 51475dfddd6fe65f15a4a054b586af5c8a19344c
-SHA256: c03197f7cb5365038ef6eca250e8e7a25bb622c42562031676e09059f799a961
-SHA512: d2ce2eb70c5c1d8bd8213c8b99af15a20fa47a5cae4d5614e1496fe56020c6623af755d67f84b49c9848925160210413008929c013dd409dc6318a88b3ed6846
+Filename: ./libcloudproviders-dev_0.4.1-1_amd64.deb
+Size: 18132
+MD5sum: 0c9d7a95fd6ec793f46697e04ce0c310
+SHA1: 1d2b5dabf651ecb2570d1276f1781257d91906d5
+SHA256: b8e74450108daab483b3d80c531e9d7141902d19fb00c8808528ed3445068eda
+SHA512: a7731da3bc57853b3957df12b034176366590810f87512e6e77b589fab580ee874c48fab966685c19062cedf8217ddf65bad894494c684e72415764059ae5c6f
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - development files
  libcloudproviders is a glib based library that makes it easier to implement
@@ -17938,7 +17936,7 @@ Description: cloud provider library - development files
 
 Package: libcloudproviders0
 Architecture: amd64
-Version: 0.4.0-3
+Version: 0.4.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -17946,12 +17944,12 @@ Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 117
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.56.0)
-Filename: ./libcloudproviders0_0.4.0-3_amd64.deb
-Size: 29500
-MD5sum: ea10d83c2d358d458d4cb242b63c1076
-SHA1: 13883ff385d8798f3c22ca5d6cc0be94509d3361
-SHA256: 8b8bce20229f86e69031d4e4ebd0399e7f63b1f6ae77abb00855538ac2453721
-SHA512: fe978b0902cf16076b830ca8b7bd10830ee5b44dc83250854b07f630ae88165f27a460be82450ddedfd2b6109e71d905f1aad94193eb1d343221d95acb2c7e0d
+Filename: ./libcloudproviders0_0.4.1-1_amd64.deb
+Size: 29584
+MD5sum: 2653b62c8c0d9c1a90ce98721298d30c
+SHA1: 627d3f68baf572e0afdf3d308131c6b11253773a
+SHA256: 1bc8aaa412057c6b85e12b48202f69921f236e86fcda186e988ad179b7337ca0
+SHA512: 40781fe9437ebea26eaba229e0a22cc95e4fd5e86f1502dfba940bdb588b6bd02b8b04363802b5d0b0b1c0be748c0c9a67c0ea172e39cf216bd6c2d5e0570f27
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library
  libcloudproviders is a glib based library that makes it easier to implement
@@ -30730,20 +30728,20 @@ Description: Kontact interface library - data files
 
 Package: libkpathsea6
 Architecture: amd64
-Version: 2026.20260303.78225+ds-4
+Version: 2026.20260303.78225+ds-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 249
+Installed-Size: 245
 Depends: libc6 (>= 2.38)
-Filename: ./libkpathsea6_2026.20260303.78225+ds-4_amd64.deb
-Size: 157864
-MD5sum: fb80108013bfcd2d7eaf3733bb75ee07
-SHA1: 02d0082543e63065c25aa627658a17c7520127e6
-SHA256: 08048ca8f3fb00d6dfe3d32b91d9a96c9e3ab15cd5bcc9622d20a2f786f837f4
-SHA512: 9d33f9fb6f94f2917071fdd70bc222625a5c0a713f63117e485ddc0590271fb50f51de6885c102e0a325bbce691704e08a335e574f1576393403ee6440a923b2
+Filename: ./libkpathsea6_2026.20260303.78225+ds-5_amd64.deb
+Size: 159524
+MD5sum: 1ea14a531496258de0cc43843ae28617
+SHA1: 870d4c78f3e1f53023bc20fac21d13ea67de9a50
+SHA256: ce79fbcebe326a3b373c972508c0d6c8076e74bbae5b56be235d3ff1a6bc2438
+SHA512: 9e054ed492e340cda6e8e83128822880c8358e2240133378686796da655e5f96f9c76eb7786366fbfae16263382fa68b05c6be6d5ce39135cacc46d4fe5b30b5
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: path search library for TeX (runtime part)
  This package contains the runtime part of the Kpathsea[rch] library,
@@ -37154,7 +37152,7 @@ Description: OATH Toolkit Libpskc library
 
 Package: libptexenc1
 Architecture: amd64
-Version: 2026.20260303.78225+ds-4
+Version: 2026.20260303.78225+ds-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -37162,12 +37160,12 @@ Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
 Installed-Size: 117
 Depends: libc6 (>= 2.33), libkpathsea6 (>= 2026.20260303.78225+ds)
-Filename: ./libptexenc1_2026.20260303.78225+ds-4_amd64.deb
-Size: 51700
-MD5sum: f140fba2a0650f68da19f2218ad4ad57
-SHA1: eb7c1bb83202b5d70b5c989e704e7b93d8ab6c19
-SHA256: d63477a25461e5bd4a175b0e562c4b8789b7bc38574b96bf2acacf1a1f697fac
-SHA512: 3fa1bdfe058a172d643847505495ed3b89c8905c0c92e85cfd5128d33a9fd1930444bef9f3fab6ef87e9c1d9585c879def78085607a13e625daa4ddfafbc7147
+Filename: ./libptexenc1_2026.20260303.78225+ds-5_amd64.deb
+Size: 51852
+MD5sum: f31586c8aa8b8f3b07e8a4e9e4496099
+SHA1: 4949c820f0194710eabbb6909c3408e2872a713f
+SHA256: 2c0304bb23deb42c0447ebeb57c09e63d2980671cfbabe2ab4f7e29f334d7d5f
+SHA512: 229622e7f04f6c118450e03f79670e848a2f3335c109e818b9ab4ee62cdfdde58bfb07cbdcc9ce641e1a0d8984af0b375f728e05503e2e1f8be37cd579dde76e
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: pTeX encoding library
  library for encoding support in pTeX, a Japanese TeX engine.
@@ -47705,20 +47703,20 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
 
 Package: libsynctex2
 Architecture: amd64
-Version: 2026.20260303.78225+ds-4
+Version: 2026.20260303.78225+ds-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 175
+Installed-Size: 179
 Depends: libc6 (>= 2.38), zlib1g (>= 1:1.1.4)
-Filename: ./libsynctex2_2026.20260303.78225+ds-4_amd64.deb
-Size: 63192
-MD5sum: a34303f5c1abc9ac8fd107268a540c2b
-SHA1: 04abd4b6efd2dd8a2e4f317ec2cd5907d5dda4d0
-SHA256: 8e3a8282f22686bf439c4b6f4de19ad6d68c80834149a0b572654ee31c4c44f4
-SHA512: 0c4cb9613f8b61d165d1b3d23cb09ca37327a0323a0184cc6ade52d15a440406508cd2e4ef88b7195f2a8c7191f944d5ba22477e9195040f9f81a87b73588462
+Filename: ./libsynctex2_2026.20260303.78225+ds-5_amd64.deb
+Size: 65352
+MD5sum: e3a5efc516fe6e4f14971e21431536b0
+SHA1: 4d020b3f09a658ec2ac1dd7bc75f93dcb60b8aa1
+SHA256: 04849389e81ec75a8fcf104e4754649d8c44a8a1563825a5882aa8c938037061
+SHA512: 5d20df7e5ebad984c0f4f41d7b048d9b1ffab6036740ae7d5b8b7df4d7a0beaefab629d8c590d3b44e73092912521652a925676dd9184ff1bab23d27320be350
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: SyncTeX parser library
  Library for SyncTeX parsing support.
@@ -48000,22 +47998,22 @@ Description: Tesseract OCR library
 
 Package: libtexlua53-5
 Architecture: amd64
-Version: 2026.20260303.78225+ds-4
+Version: 2026.20260303.78225+ds-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 297
+Installed-Size: 301
 Depends: libc6 (>= 2.38)
 Breaks: libtexlua53 (<< 2022.20220321.62855-2~)
 Replaces: libtexlua53 (<< 2022.20220321.62855-2~)
-Filename: ./libtexlua53-5_2026.20260303.78225+ds-4_amd64.deb
-Size: 113144
-MD5sum: 9842d4a3cf86335e033e2094f66a1140
-SHA1: e4e9c9b1a58af64173a531d749147edff6cbf928
-SHA256: a353014430d5cee5c190523d334e841ebcb4052efffd883f7ce0a654c0e41e33
-SHA512: dc6d6acb130a9d7e78ff4a1162ec0ae00b337f2736f4484a20d09dabfd58f995ba79c1b100823c51cad704f1007f1d78d4e38d4a2b4d49c0ac1de28b740cb615
+Filename: ./libtexlua53-5_2026.20260303.78225+ds-5_amd64.deb
+Size: 116484
+MD5sum: 121b86a60f352a0269eafb2124b764df
+SHA1: 583a3cb1c8ca4cac9588203e99e215171631ae2e
+SHA256: c598013689bcee95fa86a8d74d00ccab386c7982633d4ea82d0311de8caa35ac
+SHA512: 5d2e750dc8ff151a9fa3fd5038cbba069f1f369dcab763bc79fca4609e01a64cf7755c1632ca880e2807253cde6e49033b7539e0678d6dc9b8e14a6c014782ca
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: Lua 5.3, modified for use with LuaTeX
  The Lua 5.3 library as used within LuaTeX.
@@ -55815,22 +55813,22 @@ Description: data files for nautilus
 
 Package: nautilus-extension-gnome-terminal
 Architecture: amd64
-Version: 3.60.0-4
+Version: 3.60.0-5
 Multi-Arch: same
 Priority: optional
 Section: gnome
 Source: gnome-terminal
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 107
-Depends: gnome-terminal (= 3.60.0-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libnautilus-extension4 (>= 3.14.1), libstdc++6 (>= 4.1.1)
+Depends: gnome-terminal (= 3.60.0-5), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libnautilus-extension4 (>= 3.14.1), libstdc++6 (>= 4.1.1)
 Replaces: brasero (<< 3.27.92-2~)
 Enhances: nautilus
-Filename: ./nautilus-extension-gnome-terminal_3.60.0-4_amd64.deb
-Size: 32692
-MD5sum: df37548111022a452b7e057d36e1a4cd
-SHA1: 2d28289570817affb9aa10166fb683ee142212fc
-SHA256: 45e86fbe21c06d9379649ffc93733e4cfeed4462561b44c3bd02c48bc01c618a
-SHA512: a1240d9d5f0f5a2b326d62a551978f2fa20cb5813b011d7a7a7595929be126ad1f32af4964c614e5bad844414e2567ac0b78b9ce3354fa3db85e382ba9181759
+Filename: ./nautilus-extension-gnome-terminal_3.60.0-5_amd64.deb
+Size: 32780
+MD5sum: 0235e21186d9fedfb93e86efffa76214
+SHA1: 142ed85691cc84f53220a1901ccf720495e3a676
+SHA256: 0151f839bc130bb783bc7017b41390cc9bb06fccca1c8d74858ec5ba2a3eda73
+SHA512: bfb926696ce4c92089c4ae6520733f10752fb5151248a6aeec0272edadc4249fdb1a4e0ce8f3612cbb900b2ed50b50f6cdc8883a77aef50753e413f5f67a3869
 Homepage: https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home
 Description: GNOME terminal emulator application - Nautilus extension
  GNOME Terminal is a terminal emulation application that you can use to
@@ -58609,21 +58607,21 @@ Description: Pythonic D-Bus library
 
 Package: python3-dbus
 Architecture: amd64
-Version: 1.4.0-1+b1
+Version: 1.4.0-1+b2
 Priority: optional
 Section: python
 Source: dbus-python (1.4.0-1)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 608
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.16.0)
+Installed-Size: 419
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.4), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.16.0)
 Recommends: python3-gi
 Suggests: python-dbus-doc
-Filename: ./python3-dbus_1.4.0-1+b1_amd64.deb
-Size: 113148
-MD5sum: 0a81035ac2d726dd4168f96815169e81
-SHA1: 1d00d01c12b8245f21b8c47435cd09dabab4afc3
-SHA256: 5259584a4f270d7768d32609c48def0cd05ef79b5df9dd0aa632a92514652a0a
-SHA512: 0256f697330632be1471bb7ed42f605337a590c65568db723da85a612e7b1bd78d20e3f76cc9d05a127fb50b003d98158df8a51146f482173344b2fbc5f58638
+Filename: ./python3-dbus_1.4.0-1+b2_amd64.deb
+Size: 99740
+MD5sum: 3b45687e98013f266b17380800f316ae
+SHA1: 03580f81ffd43ed16528a16bda59f7e018f5dc1c
+SHA256: 6e79e2042e85b3562e404075c89a75f072f814f2aadf303c7088819f4cfc2e43
+SHA512: 0e12a3320af5b02bfec9ce4574e493df77525f1f12289e12628e5cb3babffcb191680317e36f9a60ef9141e3b5bbcea53cf7b33110c6fb6ba33a869f0735b7c6
 Homepage: https://www.freedesktop.org/wiki/Software/DBusBindings#Python
 Description: simple interprocess messaging system (Python 3 interface)
  D-Bus is a message bus, used for sending messages between applications.
@@ -58948,22 +58946,22 @@ Description: GNOME XML library - Python3 bindings
 
 Package: python3-lxml
 Architecture: amd64
-Version: 6.1.0-1
+Version: 6.1.0-1+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: lxml
+Source: lxml (6.1.0-1)
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 9207
-Depends: python3 (<< 3.15), python3 (>= 3.13~), python3:any, libc6 (>= 2.14), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.26)
+Installed-Size: 5581
+Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.26)
 Recommends: python3-bs4, python3-cssselect, python3-html5lib
 Suggests: python-lxml-doc
-Filename: ./python3-lxml_6.1.0-1_amd64.deb
-Size: 2232120
-MD5sum: 1e4659e352dd0a1e5b4d76cd2dc2e65b
-SHA1: dfe8e46826ab16c7012ee0762c2671cd5483539b
-SHA256: 11cfd3ae74d1ba9104616b0da11afe19ddbc7f823209f2bd188832d46e2cc0ea
-SHA512: dfa644a8f6d3dbd0f73407dd1314ec6252fffee1e43f0e32c82c791f65f82527ca8bea76c5f6ef9264577bd8dc092950bdec5d1d92cb468f19f903ebbde1acd4
+Filename: ./python3-lxml_6.1.0-1+b1_amd64.deb
+Size: 1528744
+MD5sum: a193bd0963f31831825661aa0eae016c
+SHA1: 8ceec7d9e22eb383af359171615655c3817505bd
+SHA256: 41cbb9a457a393e6ab9946e81c77a11d94be4ea88b1b68488a979881b49df0bf
+SHA512: 924342040fbee798f64c8cac01a128b4dce54e7f929218139537be8fa3dd74de985e09f5bc8c850d4796ffefe53c8eebce08579e5780e1f37014a352b7d6c824
 Homepage: http://lxml.de/
 Description: pythonic binding for the libxml2 and libxslt libraries
  lxml is a new Python binding for libxml2 and libxslt, completely
@@ -65370,26 +65368,26 @@ Description: TeX Live: Essential programs and files
 
 Package: texlive-binaries
 Architecture: amd64
-Version: 2026.20260303.78225+ds-4
+Version: 2026.20260303.78225+ds-5
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-bin
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 37504
+Installed-Size: 37560
 Provides: dvidvi, jmpost, luatex, makejvf, mendexk, texlive-base-bin
-Depends: libptexenc1 (>= 2026.20260303.78225+ds-4), libptexenc1 (<< 2026.20260303.78225+ds-4.1~), libkpathsea6 (>= 2026.20260303.78225+ds-4), libkpathsea6 (<< 2026.20260303.78225+ds-4.1~), libsynctex2 (>= 2026.20260303.78225+ds-4), libsynctex2 (<< 2026.20260303.78225+ds-4.1~), libtexlua53-5 (>= 2026.20260303.78225+ds-4), libtexlua53-5 (<< 2026.20260303.78225+ds-4.1~), t1utils, tex-common, perl:any, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 4.0), libgraphite2-3 (>= 1.2.2), libharfbuzz-subset0 (>= 7.3.0), libharfbuzz0b (>= 5.1.0), libicu78 (>= 78.1-1~), libmpfi0 (>= 1.5.4), libmpfr6 (>= 3.1.3), libpaper2 (>= 2.2.5), libpixman-1-0 (>= 0.10.0), libpng16-16t64 (>= 1.6.46), libpotrace0, libstdc++6 (>= 13.1), libteckit0 (>= 2.5.10+ds1-1), libx11-6 (>= 2:1.2.99.901), libxaw7 (>= 2:1.0.16), libxi6 (>= 2:1.2.99.4), libxmu6 (>= 2:1.1.3), libxpm4, libxt6t64, libzzip-0-13t64 (>= 0.13.56), zlib1g (>= 1:1.2.3.4)
+Depends: libptexenc1 (>= 2026.20260303.78225+ds-5), libptexenc1 (<< 2026.20260303.78225+ds-5.1~), libkpathsea6 (>= 2026.20260303.78225+ds-5), libkpathsea6 (<< 2026.20260303.78225+ds-5.1~), libsynctex2 (>= 2026.20260303.78225+ds-5), libsynctex2 (<< 2026.20260303.78225+ds-5.1~), libtexlua53-5 (>= 2026.20260303.78225+ds-5), libtexlua53-5 (<< 2026.20260303.78225+ds-5.1~), t1utils, tex-common, perl:any, libc6 (>= 2.43), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc-s1 (>= 4.0), libgraphite2-3 (>= 1.2.2), libharfbuzz-subset0 (>= 7.3.0), libharfbuzz0b (>= 5.1.0), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1:2.0.2), libmpfi0 (>= 1.5.4), libmpfr6 (>= 3.1.3), libpaper2 (>= 2.2.5), libpixman-1-0 (>= 0.10.0), libpng16-16t64 (>= 1.6.46), libpotrace0, libstdc++6 (>= 13.1), libteckit0 (>= 2.5.10+ds1-1), libtiff6 (>= 4.0.3), libx11-6 (>= 2:1.2.99.901), libxaw7 (>= 2:1.0.16), libxi6 (>= 2:1.2.99.4), libxmu6 (>= 2:1.1.3), libxpm4, libxt6t64, libzzip-0-13t64 (>= 0.13.56), zlib1g (>= 1:1.2.3.4)
 Recommends: texlive-base, dvisvgm
 Suggests: texlive-binaries-sse2, hintview
 Conflicts: dvidvi, jmpost, makejvf, mendexk
 Breaks: context (<= 2021.03.05.20230120+dfsg-1), gregorio (<= 2.3-1), luatex (<< 2014), texlive-base (<< 2021), texlive-extra-utils (<< 2020.20200329), texlive-formats-extra (<< 2023.20230613), texlive-luatex (<< 2020.20200329)
 Replaces: dvidvi, gregorio (<= 2.3-1), jmpost, luatex (<< 2014), mendexk, ptex-bin, texlive-extra-utils (<< 2020.20200329), texlive-luatex (<< 2020.20200329)
-Filename: ./texlive-binaries_2026.20260303.78225+ds-4_amd64.deb
-Size: 9244276
-MD5sum: 260d96d4a5fad759a497cf9d891cc55c
-SHA1: 7fb2e2c9a3bb0eea367d92be9d637fc5ecdcf832
-SHA256: 02663d68d51f2227b4bd517ba996ba4cd673a1e16978cc5722244f260972de20
-SHA512: a9f1e440714fe44841f66deec532e9c24333be0f37a52d6ecf81296fb7576caa082c5d3faa6a0977f7df44525f918e561863962fa86ca0cfb741cc170cdc8879
+Filename: ./texlive-binaries_2026.20260303.78225+ds-5_amd64.deb
+Size: 9308612
+MD5sum: af4788f5c98d8d96c18363bd515bf7ea
+SHA1: 93feac2fa4b605e12dad9bd2faf3f88e757ef1e3
+SHA256: 955606ef3a051bb6c1c80ff22326367cd994db576e91ab31b7c3ec4c82452c18
+SHA512: a59b6cf4f1390e7dd7f366b68a177ef18c757cbefd068916ec4c4a86da74a2d5ec64231d6648cce9740e8ace78786947d61bd7100f367bec797afc6e8116bbc3
 Homepage: https://www.tug.org/texlive/
 Description: Binaries for TeX Live
  This package contains all the binaries of TeX Live packages.
