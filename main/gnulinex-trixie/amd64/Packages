@@ -573,21 +573,22 @@ Description: APT configuration snippet to enable icon downloads
 
 Package: apvlv
 Architecture: amd64
-Version: 0.7.0-final-3
+Version: 0.7.0-final-3+b1
 Priority: optional
 Section: text
+Source: apvlv (0.7.0-final-3)
 Maintainer: xiao sheng wen <atzlinux@sina.com>
-Installed-Size: 1127
+Installed-Size: 1191
 Provides: pdf-viewer
-Depends: libc6 (>= 2.38), libcmark0.30.2 (>= 0.30.2), libdjvulibre21 (>= 3.5.30), libgcc-s1 (>= 3.0), libmupdf27.0 (>= 1.25.1+ds1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.2), libqt6pdf6 (>= 6.6.0), libqt6pdfwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libquazip1-qt6-1.7 (>= 1.7.1), libstdc++6 (>= 14), libtesseract5 (>= 5.5.0)
+Depends: libc6 (>= 2.38), libcmark0.30.2 (>= 0.30.2), libdjvulibre21 (>= 3.5.30), libgcc-s1 (>= 3.0), libmupdf28.2 (>= 1.28.2+ds1), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.7.2), libqt6pdf6 (>= 6.6.0), libqt6pdfwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libquazip1-qt6-1.7 (>= 1.7.2), libstdc++6 (>= 14), libtesseract5 (>= 5.5.0)
 Recommends: tesseract-ocr-chi-sim, tesseract-ocr-eng
 Suggests: poppler-data
-Filename: ./apvlv_0.7.0-final-3_amd64.deb
-Size: 374772
-MD5sum: 93634f4ff646ba3c265dcfc27e3850ae
-SHA1: 0c35ebb08f8ff2781257812df4573c425601c465
-SHA256: bb4f4b7cbd52278217fb7fd8bea33a2deeb1d21f21e606bfbaccda9899af99f0
-SHA512: 80a36701dd67a59be1ce2bf8c31be57f361fb03b1f46c40181b2d67ce994d265f4d8d05145ff3536a5d43a10a590c33ce804f495eb6ad6a40ec49061038fa76b
+Filename: ./apvlv_0.7.0-final-3+b1_amd64.deb
+Size: 396864
+MD5sum: 4cabbbb41798cd10c1b9f212639b800b
+SHA1: 5d45ff83dd5fe561e763e9715c9caef0874f21ac
+SHA256: 30d7be881c48624ea562fb9a8e26f9cdb163aea3fde5730b02df0f2d27f0fb80
+SHA512: 26dc2b96888b585e2807fff01070f7d4e2efac86e173175d6381bd1bc57d051e047bb3ce7faa95e6ee04293354e2db82241c238f46658561512d9b291684a55e
 Homepage: https://naihe2010.github.io/apvlv/
 Description: PDF/EPUB/TXT/FB2/MOBI/CBZ/HTML ... viewer with Vim-like behaviour
  apvlv (Alf's PDF Viewer Like Vim) is a small and fast PDF/EPUB/TXT/FB2 viewer,
@@ -20950,20 +20951,20 @@ Description: font loading and glyph rasterization library
 
 Package: libffado2
 Architecture: amd64
-Version: 2.5.0-5
+Version: 2.5.0-5+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libffado
+Source: libffado (2.5.0-5)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2631
-Depends: libc6 (>= 2.38), libconfig++11 (>= 1.7.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libiec61883-0 (>= 1.2.0), libraw1394-11 (>= 2.1.2), libstdc++6 (>= 14)
-Filename: ./libffado2_2.5.0-5_amd64.deb
-Size: 694748
-MD5sum: 4d687ab238f97539db9d69230a27492e
-SHA1: ac6843d7f8eecf03580ece49ef7a0e1917956ff3
-SHA256: 3a32a3282df306abde04b5647c98374d793285c6db95666e297623e69dfc0990
-SHA512: 7012bee3002c24e072a20822f7eb82a28b4856749d56091993d324531997f12c785addfd2bab68c8766a87eefec83a210251aef4cf86345c445e7a8a772ee456
+Installed-Size: 2844
+Depends: libc6 (>= 2.38), libconfig++15 (>= 1.8.2+ds), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libiec61883-0 (>= 1.2.0), libraw1394-11 (>= 2.1.2), libstdc++6 (>= 14)
+Filename: ./libffado2_2.5.0-5+b1_amd64.deb
+Size: 771296
+MD5sum: 9575dafbf3d12fcd2cec889b765977ce
+SHA1: f5d05ba577fe62c18c120c2e93b6f01ac3776bea
+SHA256: 8d7e14996e0f70fa8be6a2dbb9911f91ef6bd6bf1e201f6a7e38f7117d9af409
+SHA512: 8ad7c66c54c5acfb040a0ca6a894bdb4dcf307cec071d2a2e935d79f897667b8873878b08a9d90bd9e842a72fb633f42f58bfdd76248b3beb1baa95f03c0cdef
 Homepage: http://www.ffado.org/
 Description: FFADO API
  FFADO is a Linux driver for FireWire (IEEE1394) audio devices.
@@ -34041,23 +34042,23 @@ Description: SpiderMonkey JavaScript library
 
 Package: libmpdclient2t64
 Architecture: amd64
-Version: 2.24-1
+Version: 2.27-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libmpdclient
 Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
-Installed-Size: 198
-Provides: libmpdclient2 (= 2.24-1)
+Installed-Size: 204
+Provides: libmpdclient2 (= 2.27-1)
 Depends: libc6 (>= 2.38)
-Breaks: libmpdclient2 (<< 2.24-1)
+Breaks: libmpdclient2 (<< 2.27-1)
 Replaces: libmpdclient2
-Filename: ./libmpdclient2t64_2.24-1_amd64.deb
-Size: 54380
-MD5sum: a365383caf6a8b74815e2ae144a42405
-SHA1: 34b1449d4cd22e209a08ee601182038ecec3b28a
-SHA256: b1666a3ce757badb5a0377372f70f7af4f15bf2c590ac4ae9343b19ec6e44e35
-SHA512: 325bedafddc49d77f836cbe128c56a56683287a3ee4d1a85e1f2cb53a93139e80dc7d10d7221549134abb33cfe3f25976c39b6bd6bb46417c7a0153b2444341c
+Filename: ./libmpdclient2t64_2.27-1_amd64.deb
+Size: 56712
+MD5sum: fdfc47a85ecf6b5199151793e48735d4
+SHA1: 2c78c6a02457f4a78f7625b9d1387eb163a148a0
+SHA256: 3d327199701adf903a23e13f34fa19cf81eb148448081945b43b8718c34002e0
+SHA512: c638bf18198f7f36a3095c72edc91c660e6cfb1f317216407a88439f1f8072c2c47e8d09562feef3bff2620d145d53a80bdb13bff56db1cfa191bae9dc8b1195
 Homepage: https://www.musicpd.org/libs/libmpdclient/
 Description: client library for the Music Player Daemon
  libmpdclient provides an API for interfacing the Music Player Daemon (MPD). It
@@ -55648,19 +55649,19 @@ Description: window and compositing manager
 
 Package: mupdf-tools
 Architecture: amd64
-Version: 1.27.0+ds1-6
+Version: 1.28.2+ds1-2
 Priority: optional
 Section: text
 Source: mupdf
 Maintainer: Kan-Ru Chen (陳侃如) <koster@debian.org>
-Installed-Size: 682
-Depends: libjbig2dec0 (>= 0.19), libmupdf27.0 (= 1.27.0+ds1-6), libc6 (>= 2.38), libmujs3 (>= 1.3.8), libssl3t64 (>= 3.0.0)
-Filename: ./mupdf-tools_1.27.0+ds1-6_amd64.deb
-Size: 209864
-MD5sum: 83abcc0fca9482fdafb2803ed6c094ce
-SHA1: fb48aa73e8b2b954907df3a2d9ae32afcee48c61
-SHA256: 91a1f985ebb744e8dd9a07eff308e15be48e81804f42e1f965b41e6db694cc0b
-SHA512: df9200518a5293503c4bf62e2492dfccca254105a6b7c9a4ba499d80b006f701c8e130bb8b66b626aa7a78b2e24360cd9e37063268bd685747a04b7ba3295b8a
+Installed-Size: 700
+Depends: libjbig2dec0 (>= 0.19), libmupdf28.2 (= 1.28.2+ds1-2), libc6 (>= 2.38), libmujs3 (>= 1.3.8), libssl3t64 (>= 3.0.0)
+Filename: ./mupdf-tools_1.28.2+ds1-2_amd64.deb
+Size: 217964
+MD5sum: 32ca61db943b96445a3ea7fdd3a4cfd4
+SHA1: 77842c1288e61bd90a6ec878a24dda670cf0454b
+SHA256: 03fb80cc1298cdd8f5858ece9de87d97f833be1afc395e1514acb723ad920893
+SHA512: e8357d186a046aec89e16c990f191f8399293be3f0f52158973b5907963d47491a5b1c4f18f643b4f29e2b4dfb001e73a3e06ac20d4cb1a9496d235baea5c338
 Homepage: https://mupdf.com/
 Description: command line tools for the MuPDF viewer
  MuPDF is a lightweight PDF viewer and toolkit written in portable C.
@@ -56999,18 +57000,19 @@ Description: Larry Wall's Practical Extraction and Report Language
 
 Package: picom
 Architecture: amd64
-Version: 13-1
+Version: 13-1+b1
 Priority: optional
 Section: x11
+Source: picom (13-1)
 Maintainer: Nikos Tsipinakis <nikos@tsipinakis.com>
-Installed-Size: 896
-Depends: python3, libc6 (>= 2.38), libconfig11 (>= 1.7.3), libdbus-1-3 (>= 1.10), libepoxy0 (>= 1.5.4), libev4t64 (>= 1:4.04), libpcre2-8-0 (>= 10.22), libpixman-1-0 (>= 0.25.2), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-damage0, libxcb-glx0, libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0 (>= 1.12), libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb1 (>= 1.9.2)
-Filename: ./picom_13-1_amd64.deb
-Size: 280060
-MD5sum: adc2590e35c1b2aab45f9b000dae20f0
-SHA1: ce3e39e67f8fa1ae3bf8e29429a9ca4a68531d41
-SHA256: f4e85ab6231f506ea764c8de69e24246e056cad5e738d83b4f1bf71de91a494f
-SHA512: df53cd3fb619d2022943e8312bdc40c16aabaaf3565fbc4243d255cfd6f92365d4a8763929d7f1dac673c589449a83c304f18c9bb674e3f50a23b1d6dfef4c00
+Installed-Size: 913
+Depends: python3, libc6 (>= 2.38), libconfig15 (>= 1.8.2+ds), libdbus-1-3 (>= 1.10), libepoxy0 (>= 1.5.4), libev4t64 (>= 1:4.04), libpcre2-8-0 (>= 10.22), libpixman-1-0 (>= 0.25.2), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-damage0, libxcb-glx0, libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0 (>= 1.12), libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Filename: ./picom_13-1+b1_amd64.deb
+Size: 288984
+MD5sum: a0567b33e7f13f70dc562a1573798e50
+SHA1: 40e08548c1441ee5ed05f48b19493e77f86a9fc3
+SHA256: 5bea4d2f1237b625f735821a198b695897f4032183008e9b39949a28c7e5ba4f
+SHA512: 7128913c956aed977026a189e81fdb97e83c9c3e549222fecee73042e6ced8096dcec317ae7a4d581ff935dac8d422fe77c597e99c51a5e6c4f6080e2666d995
 Homepage: https://github.com/yshui/picom
 Description: lightweight compositor for X11
  picom is a compositor for X11, based on xcompmgr. In addition to shadows,
