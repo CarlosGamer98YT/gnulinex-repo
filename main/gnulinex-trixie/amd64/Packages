@@ -8409,20 +8409,20 @@ Description: GObject introspection data for the GWeather library
 
 Package: gir1.2-handy-1
 Architecture: amd64
-Version: 1.8.3-4
+Version: 1.8.3-6
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: libhandy-1
+Source: libhandy
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 71
+Installed-Size: 73
 Depends: gir1.2-gio-2.0, gir1.2-gtk-3.0, libhandy-1-0 (>= 1.5.0)
-Filename: ./gir1.2-handy-1_1.8.3-4_amd64.deb
-Size: 16848
-MD5sum: ff04286ee491b431a8327c150b3b0ad3
-SHA1: dd1b8a7110220b85105d0aafc6b6503acaa1177f
-SHA256: 0c4f9f1c13bf5aac966623d0198d31e1b74a771cf8f46c1f679fdfd6749ca519
-SHA512: b867e2619d5a9caf07ce387b45ef2707827ccab8ad02b446126e95acbf3137c7c52b45ea25e71ad11e6cf70a8564136f9a632077a8b84676847a18b7fabcd1fe
+Filename: ./gir1.2-handy-1_1.8.3-6_amd64.deb
+Size: 17332
+MD5sum: 48c1d2f7704e42308e4202f75f76d40f
+SHA1: 0217cd99ee1a1107944ea5c6a3b54373ef98d293
+SHA256: 8387fbe35da1f8f039b22314bec8146c9e502010499890a8bcfc5194caad4e5f
+SHA512: cc727d1f68d089a8a218d53028497f13d8b5261920ce930795176f2f6c73b592bc498b57cb353693647fb7bda2e5003f5b3cfbc3a4fc7977aea7759a781c4555
 Homepage: https://gnome.pages.gitlab.gnome.org/libhandy/
 Description: GObject introspection files for libhandy
  libhandy provides GTK widgets and GObjects to ease developing
@@ -24777,20 +24777,20 @@ Description: library of matchers for building test expressions
 
 Package: libhandy-1-0
 Architecture: amd64
-Version: 1.8.3-4
+Version: 1.8.3-6
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libhandy-1
+Source: libhandy
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1383
+Installed-Size: 1385
 Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.14.0), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.23.1), libpango-1.0-0 (>= 1.14.0)
-Filename: ./libhandy-1-0_1.8.3-4_amd64.deb
-Size: 321168
-MD5sum: f3a5f363288ffba4a04e186680e56d10
-SHA1: 0b6b385a655d2890f9dd48d2c290cb308adc3e84
-SHA256: deb1fd3fa895bf1d6d04141e06e63755627a45ee0476e76901e965342c644592
-SHA512: a2b009f6fae1b8a5564ceac844774408e00ddb08ba61c8f8e45746be5d564240e875dd1248e84c2bd2377777b4aaf13aaf83724d2804db891846c109cdad1815
+Filename: ./libhandy-1-0_1.8.3-6_amd64.deb
+Size: 321048
+MD5sum: 4e3cba36c5d4fccdfd2801144f14d5fa
+SHA1: c2adbe631d75590de29735cce231a2b9fec8b22d
+SHA256: f1703ca1e4801dfb16e39febb0589221c63b3e9d59ce6a480b7157908948bd3f
+SHA512: 73fe6617c020be07464475f0e4d5f50360c1a056863785e6e9b2aa033d569f1a4a20ffbd9bc054a8bf8d40e5346056e2be0ee60ac6ce4c2b42ca6defe7bb69cf
 Homepage: https://gnome.pages.gitlab.gnome.org/libhandy/
 Description: Library with GTK widgets for mobile phones
  libhandy provides GTK widgets and GObjects to ease developing
