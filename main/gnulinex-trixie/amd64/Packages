@@ -7916,20 +7916,20 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-girepository-3.0
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 109
-Depends: gir1.2-glib-2.0 (= 2.89.4-2), libgirepository-2.0-0 (= 2.89.4-2)
-Filename: ./gir1.2-girepository-3.0_2.89.4-2_amd64.deb
-Size: 44768
-MD5sum: 68243f6cba232b899adb86ea9a540d92
-SHA1: c6f6cb16a4452ba3b518d8eb0d55f819c5ae5c78
-SHA256: e80983cfde723d91bc55691c14db8c1dd0b683105ad3b140ddb212936b083ca4
-SHA512: 786527adfc4a91c364b9fe1f7ec8afa79bf5e3cbba15c171669fbbb11a6f6ae545a9a64f3275f95c725e0a9174c083b3b1c2483714f6ffa633abdcb9fceb3922
+Installed-Size: 110
+Depends: gir1.2-glib-2.0 (= 2.89.4-2+b1), libgirepository-2.0-0 (= 2.89.4-2+b1)
+Filename: ./gir1.2-girepository-3.0_2.89.4-2+b1_amd64.deb
+Size: 45044
+MD5sum: e64fbdf874b64651d6716fa6a32ca513
+SHA1: 95881fb12e5cb0870be9c51e0402fd22c0bef8cf
+SHA256: 06feffa015abe1d9387d0114a2e4c595d56d84d11a6f3059288f5e607b0ef10a
+SHA512: 8b540b97d221a9ed78c9cdd4a904fe5422559547ec325dcb6a7cc14d48c72d668db01629adf87a41323c30d579d61d7ca49120959d3f2455e2cbaf34fec99b02
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GIRepository library, API version 3.0
  GObject Introspection is a project for providing machine readable
@@ -7944,23 +7944,23 @@ Description: Introspection data for GIRepository library, API version 3.0
 
 Package: gir1.2-glib-2.0-dev
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11649
-Provides: gir1.2-gio-2.0-dev (= 2.89.4-2), gir1.2-giounix-2.0-dev (= 2.89.4-2), gir1.2-glibunix-2.0-dev (= 2.89.4-2), gir1.2-gmodule-2.0-dev (= 2.89.4-2), gir1.2-gobject-2.0-dev (= 2.89.4-2)
-Depends: gir1.2-glib-2.0 (= 2.89.4-2)
+Installed-Size: 11650
+Provides: gir1.2-gio-2.0-dev (= 2.89.4-2+b1), gir1.2-giounix-2.0-dev (= 2.89.4-2+b1), gir1.2-glibunix-2.0-dev (= 2.89.4-2+b1), gir1.2-gmodule-2.0-dev (= 2.89.4-2+b1), gir1.2-gobject-2.0-dev (= 2.89.4-2+b1)
+Depends: gir1.2-glib-2.0 (= 2.89.4-2+b1)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~), libgirepository1.0-dev (<< 1.78.1-7~)
 Replaces: libgirepository1.0-dev (<< 1.78.1-7~)
-Filename: ./gir1.2-glib-2.0-dev_2.89.4-2_amd64.deb
-Size: 907896
-MD5sum: 3c1a1810a8645e53890967fbae867752
-SHA1: 768b8a2cb4a3d0f1be1d92f4f1e018f680bbd546
-SHA256: b21f339b35a6e35cf257c7fbf376f34c54f323ace6aa96b3f9115d4680649f16
-SHA512: 23e4ecb1938cebbbc1786473b240fa6d0df748fa4dabe09d2bc523040e1ab96c42d03d78e38aad89ab6923879d6c4396d6998a039949e50c42fb70abbcffbb08
+Filename: ./gir1.2-glib-2.0-dev_2.89.4-2+b1_amd64.deb
+Size: 908180
+MD5sum: d52ae2aec652c93ad0871277987fa99c
+SHA1: c43525781e3e6de819847529982448d326ba663f
+SHA256: da0bb3bce3503ed1b79bb9cae72f2d80deb8ebb93567f94c7e212071105421d5
+SHA512: 8851c45113fb33323b04c816cc8060a9110872544e0334eba1bc315c401dffeabca833279942c81e7f7064ff4c98be44466df36ff58ad3f1ff61bc958e3a2bd5
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GIR XML for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -7975,22 +7975,22 @@ Description: GIR XML for GLib, GObject, Gio and GModule
 
 Package: gir1.2-glib-2.0
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 748
-Provides: gir1.2-gio-2.0 (= 2.89.4-2), gir1.2-giounix-2.0 (= 2.89.4-2), gir1.2-glibunix-2.0 (= 2.89.4-2), gir1.2-gmodule-2.0 (= 2.89.4-2), gir1.2-gobject-2.0 (= 2.89.4-2)
-Depends: libglib2.0-0t64 (= 2.89.4-2)
+Installed-Size: 749
+Provides: gir1.2-gio-2.0 (= 2.89.4-2+b1), gir1.2-giounix-2.0 (= 2.89.4-2+b1), gir1.2-glibunix-2.0 (= 2.89.4-2+b1), gir1.2-gmodule-2.0 (= 2.89.4-2+b1), gir1.2-gobject-2.0 (= 2.89.4-2+b1)
+Depends: libglib2.0-0t64 (= 2.89.4-2+b1)
 Breaks: awesome (<< 4.3-8~), cinnamon (<< 6.4.12-1~), gnome-menus (<< 3.36.0-4~), gnome-shell (<< 48.5-3~), libgirepository-1.0-1 (<< 1.78.1-3~), libgjs0 (<< 1.87.2~), libgjs0g (<< 1.82.3-2~), python3-gi (<< 3.55.3~)
-Filename: ./gir1.2-glib-2.0_2.89.4-2_amd64.deb
-Size: 180724
-MD5sum: c56a866a5e8495fe61d4880085f9f737
-SHA1: 68acaf450f36394ebc6604b3a1adcad5503c6cf7
-SHA256: 2499b63492e95d19e18bbf9c99a076ac39995ff5c5bcc10494b566a2632361e4
-SHA512: cc77a8d2c8e56875d32aba1e40277c5671ee65e8ac25896da09f6b46d51b47227c47380c45d95e85a7be261993dd4ed86d1b83ee855a9a90fe96266a826df597
+Filename: ./gir1.2-glib-2.0_2.89.4-2+b1_amd64.deb
+Size: 180956
+MD5sum: aaf7e351af70e03095dece4dcb63977d
+SHA1: 9c58d10705d84442ba9f3e776a98953af5f5b52d
+SHA256: 3c54a31af3058e7f4348e7e49fba713009ffde9769c4307d56a092d6489997cb
+SHA512: b6d1922bf96fb893bdc9b1228c2881f5b3b9f958b9cb9b0c06bd5815593fcc6a19ff7e7e73ec53ea6f310ccdbb3d6eeea1712402517a179551a123a78033a195
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -9524,22 +9524,22 @@ Description: GObject introspection data for libxmlb
 
 Package: girepository-tools
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 373
-Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.89.4-2), libglib2.0-0t64 (= 2.89.4-2)
+Installed-Size: 374
+Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.89.4-2+b1), libglib2.0-0t64 (= 2.89.4-2+b1)
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./girepository-tools_2.89.4-2_amd64.deb
-Size: 137648
-MD5sum: 7a6ec3359b2b8c1cd00f6e9dc2a5238b
-SHA1: 5ac810a1267f23ac3777debdcb85f4775d04cf50
-SHA256: 01be100175dccb8fe1cf5753c934072d0ceaf4f6e39a27cfb70da1722a53df84
-SHA512: 646cfe0df89f7d7854e9489644633bc9a109c12be172c04ca41d86595430ceb81f2bad4182c0e7eb29eca1d255f24f66198fa01ce96dbf1218f465f3a8250ea2
+Filename: ./girepository-tools_2.89.4-2+b1_amd64.deb
+Size: 137876
+MD5sum: fea9d536f1bf2223510a01885f90e0b5
+SHA1: 4d2d00955d1cfc6683d51c56ad40f26c2cc7b97b
+SHA256: af526b0223e4ea063859bad180fdd0628fbc4c013a64f97a1a36a81d9bee56b7
+SHA512: f02d43cc269ed7fdca5f73d27d85107f3adc8d04ba4668f34aba536a97604aa6382023c96ffc6d37de506aa4d34863244db0ee24f0d76e32b2164a2fc1cd8b63
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Tools for working with GObject-Introspection repositories
  GLib is a library containing many useful C routines for things such
@@ -16867,20 +16867,20 @@ Description: CD/DVD burning library for GNOME - runtime
 
 Package: libbrlapi0.8
 Architecture: amd64
-Version: 6.9.1+repack-1
+Version: 6.9.1+repack-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: brltty
+Source: brltty (6.9.1+repack-1)
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 145
+Installed-Size: 146
 Depends: libc6 (>= 2.38), libsystemd0
-Filename: ./libbrlapi0.8_6.9.1+repack-1_amd64.deb
-Size: 94068
-MD5sum: 6b04ed75d4d8e12b97f20162a7999cd6
-SHA1: f85e3d0cef6b75ffea7554575fabbbc3a6a0a15d
-SHA256: 7e0104389c5a725ca7e12761a2de64d4f449c74d6af15dd3788c147db478e19c
-SHA512: dbe04b35ea8094cba77efa507152b234d56dfc3532171490dbbf54e7ea3ebea9d1f457fbbd97e2b87d93c842a1ef20299cd5e4c55cfd9e5ba1009a60778188a5
+Filename: ./libbrlapi0.8_6.9.1+repack-1+b1_amd64.deb
+Size: 94664
+MD5sum: 6bd6ac6c2fd149d3d7c2f7227023cdb8
+SHA1: 1671bc797866f6b7b59c8d5a31e469f416dc76dc
+SHA256: b610bfcecc5b18e75cd80e94314e639d9a94bb5f01098ac0431188ef0c7067d4
+SHA512: 7e7b7e654ef5e628ffc8697c51f1dbc8525fa6ef812b3b63e7b48cde0cf340662ed3af4205df0b7dc3b3a64bed2fa8bc7f8e02402c675a12f3284929b8db66f2
 Homepage: https://brltty.com
 Description: braille display access via BRLTTY - shared library
  BRLTTY is a daemon which provides access to the console (text mode)
@@ -22548,24 +22548,24 @@ Description: Libraries for the GNU Image Manipulation Program
 
 Package: libgio-2.0-dev-bin
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 694
-Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.89.4-2)
-Recommends: libglib2.0-bin (= 2.89.4-2)
+Installed-Size: 695
+Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.89.4-2+b1)
+Recommends: libglib2.0-bin (= 2.89.4-2+b1)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev-bin_2.89.4-2_amd64.deb
-Size: 152340
-MD5sum: 90f5439d293585000a5a39fc5edb1270
-SHA1: 0ce0d2fa3070640f23f155186983fdd1d069c2dd
-SHA256: 17380f6f64b7b9dd81a73793292448aa47a3e8dac755481cf52bd9d58e2a58e4
-SHA512: e0e7f750ebf02114da054d86602e7cf876279d252dbb4edb41685b3921a541db50b3c631a72f073ccefd38eccd524a22ff433630fe182d9f4e3fb92070e6dce8
+Filename: ./libgio-2.0-dev-bin_2.89.4-2+b1_amd64.deb
+Size: 152624
+MD5sum: dac0c7191290d32f1a8809d08f878686
+SHA1: 87b44995cc0fc1b690fcdeca7835dd48cef8e4d3
+SHA256: 3cc717dce3b2202b30149c4b53dbf0cb25db1e5d14438b9d909d51cde2618ad7
+SHA512: 72139463dd201891ccc0f33d76aeb76be7b33e295dfe6cf51bcf5313ecb6a5de4c8af59051fc4b2db66445432163f67ce3e146c0d48ab962b984480d11b36d0f
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22593,24 +22593,24 @@ Description: Development utilities for GLib, GObject and GIO libraries
 
 Package: libgio-2.0-dev
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11081
-Depends: libffi-dev, libglib2.0-0t64 (= 2.89.4-2), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
-Recommends: libgio-2.0-dev-bin (= 2.89.4-2), libglib2.0-bin (= 2.89.4-2)
+Installed-Size: 11082
+Depends: libffi-dev, libglib2.0-0t64 (= 2.89.4-2+b1), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
+Recommends: libgio-2.0-dev-bin (= 2.89.4-2+b1), libglib2.0-bin (= 2.89.4-2+b1)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev_2.89.4-2_amd64.deb
-Size: 1778536
-MD5sum: b1036dbdfe294707fb57d49ff0881477
-SHA1: 93e1906ba6fb5ec1704eaca784fd77161c2d1aec
-SHA256: 3afe8e66d008fefb2ebb268d0e13d962285e6ff71aa226cd42e8e8d24e290c8a
-SHA512: db11aa715bc871a77cd49d6810885b8d7900752c95a58d5e033dd89e65c146fa08f5f6c3a70c166e0b17f0de0e715ee4e7bf01f2605949b6aab2faa475a9588b
+Filename: ./libgio-2.0-dev_2.89.4-2+b1_amd64.deb
+Size: 1777880
+MD5sum: f6890fe43e44a04eb2e29cf14ac0c959
+SHA1: 52f7ad85981c63fb368bf2332393bf63deda7ee0
+SHA256: 926d1c0849b25895193fb08e6b3ff6a918e62895c405e5ee8acfab8a50464fcb
+SHA512: 13b12e8cc4de69190a68988abe8a6b57fdce8c34e60d0ce5f9e01d73332c74a99321cabf2e876f49fb5566bd72f5a45ba072270fa71741621d8bebe72e7f08b9
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development files for the GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22662,21 +22662,21 @@ Description: Library for handling GObject introspection data (runtime library)
 
 Package: libgirepository-2.0-0
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 351
-Provides: libgirepository-2.0-0-with-libffi8 (= 2.89.4-2)
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.89.4-2)
-Filename: ./libgirepository-2.0-0_2.89.4-2_amd64.deb
-Size: 130488
-MD5sum: cdb844b7370529401333e6fd48fc6b7e
-SHA1: b94be03f3e098a1cb103bc7c99a18b34cc534430
-SHA256: d58833a63d6c34291e4a3777206847392406b4a779ff99a121b8b5fc7d93c798
-SHA512: 1f6a29428d810b9bb03e8e58894ef3c355fa6799c90364e4b9ca689412fccc3a722660640d4dcdafdf28e2bd245c3f056e378ef098d0134b7caf01e26f14c0eb
+Installed-Size: 352
+Provides: libgirepository-2.0-0-with-libffi8 (= 2.89.4-2+b1)
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.89.4-2+b1)
+Filename: ./libgirepository-2.0-0_2.89.4-2+b1_amd64.deb
+Size: 130800
+MD5sum: b1f52c40a169a465560f3372629b4acc
+SHA1: 539a7ad85adf921483f5f95784d91c6ab5487d63
+SHA256: 24013e6ee55519b3ab70f31410c90f2fdbcfc573a3eacc0c135943b9319dfa29
+SHA512: 8ccd0803979c72239830fe438abdfaab6988b559a342144492deabca0f460fa1d672be17659bd05b1cae0a00b187f8887ff4598e6ac1f05eaa5c14211da3839e
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib runtime library for handling GObject introspection data
  GLib is a library containing many useful C routines for things such
@@ -22767,25 +22767,25 @@ Description: interface to the GLib and GObject libraries
 
 Package: libglib2.0-0t64
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4615
-Provides: libgio-2.0-0 (= 2.89.4-2), libglib-2.0-0 (= 2.89.4-2), libglib2.0-0 (= 2.89.4-2), libgmodule-2.0-0 (= 2.89.4-2), libgobject-2.0-0 (= 2.89.4-2), libgthread-2.0-0 (= 2.89.4-2)
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
+Installed-Size: 4616
+Provides: libgio-2.0-0 (= 2.89.4-2+b1), libglib-2.0-0 (= 2.89.4-2+b1), libglib2.0-0 (= 2.89.4-2+b1), libgmodule-2.0-0 (= 2.89.4-2+b1), libgobject-2.0-0 (= 2.89.4-2+b1), libgthread-2.0-0 (= 2.89.4-2+b1)
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.47), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
 Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
 Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.89.4-2_amd64.deb
-Size: 1618104
-MD5sum: 225d55afa040fca982b4644c807c5be6
-SHA1: 68ee07df6429f8c448368efd362167318a3094a2
-SHA256: 6fc710846497e8ceb34d4d2e79b08ddca6200aa03dc92840e8eee16b0922fdb3
-SHA512: ed25435469db78280c1498c9c22c40a0f77e43efe2b6bd6d7339eca959335da40b1cc4b11c44f47e6165fcd7079052480daa7e203ea03211d8699fafc54e5b8d
+Filename: ./libglib2.0-0t64_2.89.4-2+b1_amd64.deb
+Size: 1616684
+MD5sum: 4e7c803207bc203a54ff6eb113e7346f
+SHA1: 0961a91e0e7217bbc7758a0071007190ea8f4757
+SHA256: 3e283825fd0ce23e83a9d8f061ec74052be90848adc272e2d50b7c24dfdc70d8
+SHA512: cd779cbc2e91b7ad67895870eb97d1a734b340d86f8a21befb43f2ed3ca909c3764e72fc26f7ba5a8a6cc30a9c24a3cee2623c235d89d48fa462d650756c035a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
@@ -22796,20 +22796,20 @@ Description: GLib library of C routines
 
 Package: libglib2.0-bin
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 353
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.89.4-2)
-Filename: ./libglib2.0-bin_2.89.4-2_amd64.deb
-Size: 117360
-MD5sum: 19ac74b8f7354cb80b90fa15251e6f30
-SHA1: 4f306b2b5ba4bf14139fe025b5712a3c33890df1
-SHA256: 8bde81906d3fa99f5693ca495b628efdbd691c5f6e3594f82cfeed1368f52397
-SHA512: 65b099210a5118f6a26c08edffd0d24b19d743877522414f2765975ffba8b092824abe58c0424f0f3dd3499b640140b4489495ac3a9dcabc0b906cf1ea0b68ab
+Installed-Size: 354
+Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.89.4-2+b1)
+Filename: ./libglib2.0-bin_2.89.4-2+b1_amd64.deb
+Size: 117696
+MD5sum: 1407f373cc0789cfa0d53ac97705113f
+SHA1: 8eb92aa4fcbb6a2373b0ed412a4480db59951572
+SHA256: 353aaeb1a4766f6cf3772359fa2ccf98ab671de18e5906541c8fb54fa2bdaed7
+SHA512: d2255bad8b79133c3c26aec3b04c837dab33df1d1eb1da2dedc6ea33ad306387085e8894a2a6d5a3d472a77e619c45e16fa01ef758515789bbff3db078cd592b
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22853,21 +22853,21 @@ Description: Common files for GLib library
 
 Package: libglib2.0-dev-bin
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 85
-Depends: girepository-tools (= 2.89.4-2), libgio-2.0-dev-bin (= 2.89.4-2)
+Installed-Size: 86
+Depends: girepository-tools (= 2.89.4-2+b1), libgio-2.0-dev-bin (= 2.89.4-2+b1)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Filename: ./libglib2.0-dev-bin_2.89.4-2_amd64.deb
-Size: 38564
-MD5sum: d1647b722086608491ff07affb2196e9
-SHA1: 4ae49c9c19466ccc0f53762848196916066b3b5f
-SHA256: 2577e5b959d1b5ff9554fb1fc70456416e243969423c2b0517b1784340790911
-SHA512: 8e8ce21cabbfbadc1561fc9a611c4538634d3a42c7cb05191e48910df3ab62a4b0869bb86ce70c7738f2546b634f90a138957cb6810b1fda17c35382fd52f170
+Filename: ./libglib2.0-dev-bin_2.89.4-2+b1_amd64.deb
+Size: 38848
+MD5sum: 3a58d7b1dd2fc85e5813759674f7403c
+SHA1: 32f3040a5809e6790690e60a6672809d4ca7a568
+SHA256: ce73752ac459dac0dcd155c396c8db3c9773949f744ddc26fc184a68f0170572
+SHA512: 728e25c0fb31684fabed53a13960b555ebcefd9d16dc43b1898b898941a2ea9fed5cc48c581a786764409b9a21f1424d14a951dd8f99cf9753217fda9692b400
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22880,21 +22880,21 @@ Description: Development utilities for the GLib library
 
 Package: libglib2.0-dev
 Architecture: amd64
-Version: 2.89.4-2
+Version: 2.89.4-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0
+Source: glib2.0 (2.89.4-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 89
-Depends: girepository-tools (= 2.89.4-2), libgio-2.0-dev (= 2.89.4-2), libglib2.0-bin (= 2.89.4-2), libglib2.0-dev-bin (= 2.89.4-2)
+Installed-Size: 90
+Depends: girepository-tools (= 2.89.4-2+b1), libgio-2.0-dev (= 2.89.4-2+b1), libglib2.0-bin (= 2.89.4-2+b1), libglib2.0-dev-bin (= 2.89.4-2+b1)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Filename: ./libglib2.0-dev_2.89.4-2_amd64.deb
-Size: 39288
-MD5sum: cee7a4cd2a6709725d7a381ce3a71edf
-SHA1: 9dc67443e1467694b5443aae31f4a6ed5fcffa43
-SHA256: 16b64b7633800b062ae9aa894b62d5add0e8f5d1f4e003d580f4af7052c5357d
-SHA512: 0db56704a50cde257f031bb552cef2251a2d2ff4aaa6cd5677a1cc3275c8a308fb61dcd1bf2ede6dc1f3447cb1d18762e5f9fe943d51582f58a70d9db2726f64
+Filename: ./libglib2.0-dev_2.89.4-2+b1_amd64.deb
+Size: 39564
+MD5sum: b22bf655fce6ba8563c55333eb5da330
+SHA1: 44c32cf29cfd5521b9f1bf1f38b643aa84c67149
+SHA256: 921474e2f3cb7aa1281ca5c033084c2b462bc2c5570c6b6fb156009836a3f5db
+SHA512: 2bfbb746c1d1c3cb2c14ae237413e18c55d2925073ba7fd03e23bedc2de5c3494d0cb4b98b1cb14839bd7eb9634015f695f8af16da86849d316f21b98b1982e7
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development metapackage for the GLib family of libraries
  GLib is a library containing many useful C routines for things such
@@ -50022,23 +50022,23 @@ Description: library for converting fonts to WOFF 2.0
 
 Package: libwxbase3.2-1t64
 Architecture: amd64
-Version: 3.2.11+dfsg-1
+Version: 3.2.11+dfsg1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 3727
-Provides: libwxbase3.2-1 (= 3.2.11+dfsg-1)
-Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libpcre2-32-0 (>= 10.22), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.11+dfsg-1)
+Installed-Size: 4012
+Provides: libwxbase3.2-1 (= 3.2.11+dfsg1-1)
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libpcre2-32-0 (>= 10.47), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
+Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.11+dfsg1-1)
 Replaces: libwxbase3.2-0, libwxbase3.2-1
-Filename: ./libwxbase3.2-1t64_3.2.11+dfsg-1_amd64.deb
-Size: 1073740
-MD5sum: d7cabd063a2c4901ada8a16c5648cdbc
-SHA1: d319863f959595ccc879fc586e329184a67aa85f
-SHA256: 64cb8f1aa15e70f76ae7cb77b658ae5c3f82c7da03b4ed1d836395d5888f2e13
-SHA512: ffb3b7a4e2fca11b634100ed3123669528d59528254134e4edbbad81b82462d2d2d577c898c5186109bb50e91a1162772c40949e4c7161f48035157db4f40d25
+Filename: ./libwxbase3.2-1t64_3.2.11+dfsg1-1_amd64.deb
+Size: 1200352
+MD5sum: 3edd2a46b66e6dda868a089e8ac7ccd8
+SHA1: 0fc6a17ae1dbb8bf8bd35da02219a92b42be7995
+SHA256: 4a07d6d6d3e1c67cebaf40b207261c314d3a68648793131fb148c5f8d5cd5983
+SHA512: bbbbd3660b6e5784962799d46d3cba4d08928fa2e70749404fbe3d8ffffab283d835d409dc2e5ceba179817e4b96c7a22d544467333510a14d59f62a440ba328
 Homepage: https://www.wxwidgets.org/
 Description: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
  wxBase is a collection of C++ classes providing basic data structures
@@ -50056,23 +50056,23 @@ Description: wxBase library (runtime) - non-GUI support classes of wxWidgets too
 
 Package: libwxgtk3.2-1t64
 Architecture: amd64
-Version: 3.2.11+dfsg-1
+Version: 3.2.11+dfsg1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 19471
-Provides: libwxgtk3.2-1 (= 3.2.11+dfsg-1)
-Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.11+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
-Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.11+dfsg-1)
+Installed-Size: 20140
+Provides: libwxgtk3.2-1 (= 3.2.11+dfsg1-1)
+Depends: libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.11+dfsg1), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
+Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.11+dfsg1-1)
 Replaces: libwxgtk3.2-0, libwxgtk3.2-1
-Filename: ./libwxgtk3.2-1t64_3.2.11+dfsg-1_amd64.deb
-Size: 4894380
-MD5sum: 01a0bbcf4153201cd367c864030af8b9
-SHA1: aeb96f829e802c4d5b90c8e7bbc97ec5935fccce
-SHA256: ac4b7798d0bd6a7d1b84643e635231095d6d5f3a05b4fc766fcf818c4ec67a35
-SHA512: a4115756dfcde78b1b159b7945f4421dfbee99264031d223d53cd6cc8946adeea4dd8cdf4a6ecdae245759ff0094eff2376612f8b40391384feb07c0e3c46470
+Filename: ./libwxgtk3.2-1t64_3.2.11+dfsg1-1_amd64.deb
+Size: 5238496
+MD5sum: 73f0de4a0ef880b41990474231f62fec
+SHA1: 8e43228a98537020e2ffb9329d7bb310f991cdcb
+SHA256: f97cac90365723d7d468c4cd0f85c664967f3809d6dd164dc5b044af004dd4fd
+SHA512: 0986e2035b23d3832fcee0f9cc5f84ef80b1f53bb3485ba8889d0bd0ed5694a61277b155e6e8b9f55f2d4899319a200727db1a67e36dc5317ef89da032b8e32d
 Homepage: https://www.wxwidgets.org/
 Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
  wxWidgets (formerly known as wxWindows) is a class library for C++ providing
@@ -58342,20 +58342,20 @@ Description: password hashing library for Python 3
 
 Package: python3-brlapi
 Architecture: amd64
-Version: 6.9.1+repack-1
+Version: 6.9.1+repack-1+b1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: brltty
+Source: brltty (6.9.1+repack-1)
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 698
-Depends: libbrlapi0.8 (>= 6.9.1+repack), libc6 (>= 2.34), python3 (<< 3.15), python3 (>= 3.13~)
-Filename: ./python3-brlapi_6.9.1+repack-1_amd64.deb
-Size: 206948
-MD5sum: d4630d9151938424859c664cfb8e241f
-SHA1: c7606e043eeb2b719f13b2a99c89c513f07bf061
-SHA256: 5d617d884e3a7648dec4a195301eb21fe196e7640952b87107b5957aab194033
-SHA512: 847f66ad3c76fa996b8801c81ad381cd2f40ef028c4dc621501d8a31ca02c4a192ccecae4d633f26ade75c1324567674a14e7211e85c31bde6840a09fa6a27f8
+Installed-Size: 401
+Depends: libbrlapi0.8 (>= 6.9.1+repack), libc6 (>= 2.34), python3 (<< 3.15), python3 (>= 3.14~)
+Filename: ./python3-brlapi_6.9.1+repack-1+b1_amd64.deb
+Size: 166420
+MD5sum: 253e8ecee477db009ec28467c91f7e27
+SHA1: 93829950bfd900ec3d40525796674c6ce74bad89
+SHA256: 2fc7490865764520aff5b1e203eb30779dff59ea66cf30ab3af8432d78e843c9
+SHA512: 06aebb2d6654dce5c687f7deabcef9c34b331cde563d21d7ada9efe74deee75ece7f55804656264688e6a13f3553a251fa45fe2ac1cc395396cbc68b96995a73
 Homepage: https://brltty.com
 Description: Braille display access via BRLTTY - Python3 bindings
  BRLTTY is a daemon which provides access to the console (text mode)
