@@ -18186,19 +18186,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.1.12-1
+Version: 7.1.13-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 446
+Installed-Size: 448
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.1.12-1_amd64.deb
-Size: 410096
-MD5sum: b0077edc6f274b0bf61d14e7dd7176d9
-SHA1: 8675ed821e6e334167438bc4f3508d8a768dbbdb
-SHA256: bb012bfc36f9efec01c3a968e8775f6f2299d8a9d3eed86268b961292e3dff58
-SHA512: d9fb33b994d1edaf0136682b547ebdd927b2069731f605591a3e3c4943ac5a4e22cc70b7e5897bacd3dfd7f55be135562db8f79aa0b29dded4ae7cfb56fb0f98
+Filename: ./libcpupower1_7.1.13-1_amd64.deb
+Size: 411916
+MD5sum: e5b930c10db66e51a39af203cd50a572
+SHA1: 2d7b8c60fa1c04da2284e29760598e5393b906ee
+SHA256: 9a766f8d5d8585d8c4a34d451a8b12f3f67b535255fd6f2d3c155c19111a37df
+SHA512: e2e459ba48e618a3416c0860c12bda6c6963146cef5620e97810659215b426f6a6ae6f1053d87c429f783d3b34bcecf29d1edd4b403a87b15179d58c0c014e10
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
@@ -23490,21 +23490,21 @@ Description: GnuPG development runtime library
 
 Package: libgpgme45
 Architecture: amd64
-Version: 2.1.2-1
+Version: 2.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gpgme1.0
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 589
+Installed-Size: 602
 Depends: gnupg (>= 2.1.21-4) | gpg, libassuan9 (>= 2.4.2), libc6 (>= 2.38), libgpg-error0 (>= 1.50)
 Recommends: dirmngr, gpg-agent, gpg-wks-client, gpgsm
-Filename: ./libgpgme45_2.1.2-1_amd64.deb
-Size: 352204
-MD5sum: 3435f6fc7622628f1f73768283a02fb7
-SHA1: b63eeffb3c060ab2f035a4c9f0013d8ece9b21bd
-SHA256: 5d12873347512bb9527950d289815757c9eb721352479ee986cd3d90859a16c0
-SHA512: 93abd0360ee3b2c608328c7727bda2c2696698e9224b1d0673cbaeb1c802e9bbcde3f30e4a38b6093de82200083f8da837e90e8e2ce25ac1b585ea63e7765d32
+Filename: ./libgpgme45_2.2.0-2_amd64.deb
+Size: 360108
+MD5sum: a4ebbcb920e4e2742a1032a621a438e3
+SHA1: 34f408d511228a6d0fa3fcef8afc84c7494f5e54
+SHA256: fac6ca780ade1cd55897015563f6a756854aefd8918e0af55aacfb5e9e032ad3
+SHA512: 3d9c8ebd529e4d82eed88c768bf3385e646af9c97ea7ea7f84b692f439a990cd8af8df3ad590d870536190e426c74da587fcf1bbe1a84b02d670de2bfdda35ff
 Homepage: https://gnupg.org/software/gpgme/
 Description: GPGME - GnuPG Made Easy (library)
  GPGME is a wrapper library which provides a C API to access some of the
@@ -40235,21 +40235,21 @@ Description: office productivity suite -- GTK 4 integration
 
 Package: libreoffice-h2orestart
 Architecture: all
-Version: 0.7.13-1
+Version: 0.7.14-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
 Source: h2orestart
 Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
-Installed-Size: 654
+Installed-Size: 662
 Depends: default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, liblibreoffice-java, libreoffice-core, libreoffice-java-common
 Enhances: libreoffice-writer
-Filename: ./libreoffice-h2orestart_0.7.13-1_all.deb
-Size: 576900
-MD5sum: a7600414c95c38dd007dd66e6f4c0d1c
-SHA1: 0bfb4cf2541b4eaa4856354e6278006f10478d5e
-SHA256: 9b88c9f20558285aa95aec63e5dc677ea9edb7ae1e83b1d47821de61d2a71d80
-SHA512: 830401a4bf98b10879df5a1544e9b9437d449e170a5cdab122218c9728343d5b8c8c0079e2a511efbc40cbb39a4a125736cdd6784f7f18caee79df0c6b9bd25e
+Filename: ./libreoffice-h2orestart_0.7.14-1_all.deb
+Size: 585552
+MD5sum: 05a0a00b544ff2932746cd1a34df4018
+SHA1: ae58e4ea25efe4236b89c1107d4f3d3383f1f62a
+SHA256: 41b3354e546e162e1a9a9c2858ebeb6d4b38a5018094f933c53a9941b41ea634
+SHA512: ebc526d1ef41575ddc2b9aacac1b3e9b0021d03142ba2ab936736e7dfd768c38390c8b2d4585451bb55af9cab4d80f8962d147dbab6b091b4722171fc4a67753
 Homepage: https://github.com/ebandal/H2Orestart
 Description: LibreOffice import filter for Hancom HWP/HWPX document
  This enhances LibreOffice Writer to read Hancom Office documents, as known as
