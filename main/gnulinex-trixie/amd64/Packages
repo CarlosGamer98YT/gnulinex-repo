@@ -59275,23 +59275,23 @@ Description: Python package installer
 
 Package: python3-pkg-resources
 Architecture: all
-Version: 78.1.1-0.1
+Version: 80.9.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: setuptools
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 696
+Installed-Size: 693
 Depends: python3-autocommand, python3-inflect, python3-jaraco.context, python3-jaraco.functools, python3-more-itertools, python3:any
 Suggests: python3-setuptools
 Breaks: python3-setuptools (<< 75.2)
 Replaces: python3-setuptools (<< 75.2)
-Filename: ./python3-pkg-resources_78.1.1-0.1_all.deb
-Size: 224360
-MD5sum: 0851b7ee6ed95d98ee53ce8d413cf12b
-SHA1: 00eb266dab14e105ed18f489a9f4e54a9c0c1810
-SHA256: cf8749251172abc945216cf878367f614cf91d3d9a1043ba3bacc5a74e8cc1a8
-SHA512: f68c0995b47c9f6dd685925f3960303653f3ce9647bee1e5e609043ab548fc8732b1f648aaf0010a50751f527111dfb4c0ed0c9f576ac59665b417aba83277fd
+Filename: ./python3-pkg-resources_80.9.0-2_all.deb
+Size: 223888
+MD5sum: 95af10609532b438e1f7ab224c687d7e
+SHA1: 1a018f582ae942c18f9bf3f150d2a304ab35cd50
+SHA256: 4697dadc7c632023a1e4b8ab695ddfc82442235e2bb0b3d4a1a36e833802711c
+SHA512: cde794a6743c3d2789e92928c508af5125fe297f915fa730af1000db59f158abf9a4b27c7a1e8ef84c805a9d03129b5064ba32f4f3e48e23cc971f3bc3bd1b38
 Homepage: https://pypi.python.org/pypi/setuptools
 Description: Package Discovery and Resource Access using pkg_resources
  The pkg_resources module provides an API for Python libraries to
@@ -59546,20 +59546,20 @@ Description: Setproctitle implementation for Python 3
 
 Package: python3-setuptools-whl
 Architecture: all
-Version: 78.1.1-0.1
+Version: 80.9.0-2
 Priority: optional
 Section: python
 Source: setuptools
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 1324
+Installed-Size: 1269
 Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
 Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
-Filename: ./python3-setuptools-whl_78.1.1-0.1_all.deb
-Size: 1268108
-MD5sum: e934bc86bda1f654ec0ea5424888cbf5
-SHA1: 468cf3d650ab46d0f28d03542b09bff6d5fdf2e8
-SHA256: 0caf134e73ab90ffeaa5ce2529d73ea7d48078b2a9251ed9d1b7b514a61e9483
-SHA512: c568e788dbbd1d2b75ab24cdff458296ddeb6cb4cb960d59b627431e898c8efff169226f4c2eb63008c059e71e46f4a0d5f6df99c87912696e92999b0ae5f9a4
+Filename: ./python3-setuptools-whl_80.9.0-2_all.deb
+Size: 1211784
+MD5sum: ef97de575a327b07fa590987570ece08
+SHA1: 771f4928a1de7032d9649e1fb55d54dd8ac93921
+SHA256: c5f4ed923d105f778b5b13962a10a3382773b5936cc20649ee77e4f31ca435af
+SHA512: 7c69005da0ddd945f2e9ad48dc7e9ce0ba61fe36ceebfb70988478c31a8a047018521f95bd5ff731c8cf2234a21a57bdd8718b3f152041085d68b1a3a79461b5
 Homepage: https://pypi.python.org/pypi/setuptools
 Description: Python Distutils Enhancements (wheel package)
  Extensions to the python-distutils for large or complex distributions.
@@ -59569,22 +59569,22 @@ Description: Python Distutils Enhancements (wheel package)
 
 Package: python3-setuptools
 Architecture: all
-Version: 78.1.1-0.1
+Version: 80.9.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: setuptools
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 3897
-Depends: python3-pkg-resources (= 78.1.1-0.1), python3-importlib-metadata | python3-supported-min (>= 3.10), python3-jaraco.text, python3-more-itertools, python3-typeguard, python3-typing-extensions, python3-zipp, python3:any
+Installed-Size: 3680
+Depends: python3-pkg-resources (= 80.9.0-2), python3-jaraco.text, python3-more-itertools, python3-typeguard, python3-typing-extensions, python3-zipp, python3:any
 Suggests: python-setuptools-doc
 Breaks: python3-wheel (<< 0.46.0)
-Filename: ./python3-setuptools_78.1.1-0.1_all.deb
-Size: 738228
-MD5sum: 6e11f68e303b39cca6b4b38b37c85622
-SHA1: f06173b1018aa4e7ee5d229f5afb91e87604cc19
-SHA256: 90c4bc8e311873e5b571b407ce6b1fd38195dff77f9de056301a0f950e6df5a5
-SHA512: bb242c068e39c43cb3fd425abf39978d86eb7fbbd86f043c78396cef712b3e124e2168e4e0b952df4aeb32e77d0e0cabcdaca90ccebcedba1a3d667a2d84c281
+Filename: ./python3-setuptools_80.9.0-2_all.deb
+Size: 697912
+MD5sum: 67f2d567c30bc8cbbb89d3f5c08bc6c8
+SHA1: 6f6828c554988005a40a4e8ca052223a415e7332
+SHA256: ced4f64a940e0ed0f6e53c3141c32a5f42a74e8b6195634dc9adf2ef0602a7dc
+SHA512: 8e156b2dbf0b4ccced05b00aa3681a0c510c4ea74171f860c4e6a099e5d03df6f171dd491b77a137d6b9fcc41e111a00a6f3d4f51f73d910a576b10c2b7d38b6
 Homepage: https://pypi.python.org/pypi/setuptools
 Description: Python3 Distutils Enhancements
  Extensions to the python-distutils for large or complex distributions.
@@ -64216,22 +64216,22 @@ Description: sphinx theme from readthedocs.org (common files)
 
 Package: starship
 Architecture: amd64
-Version: 1.26.0-1
+Version: 1.26.0-2
 Built-Using: rustc (= 1.95.0+dfsg1-2)
 Static-Built-Using: rustc (= 1.95.0+dfsg1-2)
 Multi-Arch: allowed
 Priority: optional
 Section: utils
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Installed-Size: 9191
+Installed-Size: 9283
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
 Recommends: fonts-font-awesome, fonts-material-design-icons-iconfont, fonts-weather-icons
-Filename: ./starship_1.26.0-1_amd64.deb
-Size: 2918280
-MD5sum: 59da51dbf47f7817f2d0ea4f9ac48568
-SHA1: 95efe1a71b59394f2d4f081241f6caf8f9abcce6
-SHA256: da886a981da635a8a285704b17c6d3e4c84a779ade080ad8755b653c96082ea3
-SHA512: 206cf0a5ee29d055a5b20e4091aa37061959e11f37c374f84eb2fec816ea7225cb36d662e54f676fb470b34b495b60688864ed969ce2add5b969946b79112367
+Filename: ./starship_1.26.0-2_amd64.deb
+Size: 2938428
+MD5sum: a76ed15e137962a350448b46255fa3e1
+SHA1: 53ba5acdfc96897953976b96dbbc1a3a2522c338
+SHA256: 00fafbb023c2084b354163f629f5a1c2f553e570ffb18a4d195058c940676c0f
+SHA512: 199204c865f4caaca5b979c23368e2f3f7dfb876ea7916b4d2683eff0115cd674c7c39888322c941bf6a7bfa4be79d0d4f029836cac6c69c18ac575e8a4e8ef6
 Homepage: https://starship.rs
 Description: fast and customizable shell prompt
  Starship is a shell prompt that is fast and configurable, and works on most
