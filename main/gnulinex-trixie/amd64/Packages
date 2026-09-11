@@ -868,20 +868,20 @@ Description: Set of tools to manage Bluetooth devices for linux
 
 Package: bluez
 Architecture: amd64
-Version: 5.87-2
+Version: 5.87-3
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 5479
+Installed-Size: 5480
 Depends: default-dbus-system-bus | dbus-system-bus, kmod, udev, systemd | systemd-standalone-sysusers | systemd-sysusers, libasound2t64 (>= 1.0.17), libc6 (>= 2.42), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196)
 Suggests: pulseaudio-module-bluetooth
-Filename: ./bluez_5.87-2_amd64.deb
-Size: 1725604
-MD5sum: ce5fac98fdb53d99676a6ff420d4421e
-SHA1: 1aa60a23afcbce4cc20f32e996e99c39db0a4564
-SHA256: 905f44a759279013783e5faf28238186d96bd715382813e8d2e12d7b09d9c1f6
-SHA512: 298b55e15dc302e792f2dcfaf8daeaaf5fc1839e0a3fad36df8b3b6f81561ae18949ba32d97e81611a2c69be53a1d4e0dbb5aac4c8d01deca6226e17341bdc50
+Filename: ./bluez_5.87-3_amd64.deb
+Size: 1727160
+MD5sum: 81e4db04885843da1ac0accabb04fdc6
+SHA1: 7225a787e4a49f2af7c278ec2138a2caf89160ed
+SHA256: 3a5acd8e02d7e0ba20dec45698b835722cd957c75f2ba20916f8b6dcfc6deb21
+SHA512: 04f0507ddcf70b4d76db534977c3756d7e0b78d938b165ce5eef286907bd0b82a94eced54f895a80044b57480f4c5af46730a69c4beeaa945f289a36d5850e1b
 Homepage: http://www.bluez.org
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
@@ -52201,20 +52201,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: localsearch-extractor-ffmpeg
 Architecture: amd64
-Version: 3.11.1-3
+Version: 3.11.2-1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 89
-Depends: libavformat62 (>= 7:8.1.1), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-ffmpeg_3.11.1-3_amd64.deb
-Size: 24140
-MD5sum: d0ea8a1d5e229df4087472bcd43dec10
-SHA1: 70580fad49ba2b877ff5b8673393eca06a0103f1
-SHA256: 695bf35f16c69dabd091d1062d73ba70124fcb13ade20ccd213a79dbbaccc539
-SHA512: d9a1f09bf40c8db287224a5cc085ca4d6f201919fd87aa2f742d8f31d668299e680bf63f50f9c0b634d3ce1b57ac46a9464ddd5bef1cabc94af2c2864e391ae4
+Installed-Size: 90
+Depends: libavformat62 (>= 7:8.1.2), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
+Filename: ./localsearch-extractor-ffmpeg_3.11.2-1_amd64.deb
+Size: 24824
+MD5sum: c9c0f4e014bedc190ebb6d1610c2e529
+SHA1: 20823265f1ed396e2c003b481be8e06a8f9f66eb
+SHA256: e32b497507bdc7ddea58cd8e56a274cbd8f1df944a7b6edeb9d4ccbba7a24941
+SHA512: ef55400e8c875939e403dfddd142d38d964e65cde7187dcda8ae93bdcb15e21bb4bbc5d8e290d85152e8a3fe3bb390821cf254e887f7132b3480d6f69ec50f1a
 Homepage: https://tracker.gnome.org/
 Description: FFmpeg powered media metadata extractor
  This package contains the FFmpeg powered metadata extractor.
@@ -52225,22 +52225,22 @@ Description: FFmpeg powered media metadata extractor
 
 Package: localsearch-extractor-iso
 Architecture: amd64
-Version: 3.11.1-3
+Version: 3.11.2-1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 59
+Installed-Size: 60
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libosinfo-1.0-0 (>= 0.2.9), libtinysparql-3.0-0 (>= 3.11~)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-iso_3.11.1-3_amd64.deb
-Size: 14188
-MD5sum: ebae0f0cfc61e45980a672b1a4e9550d
-SHA1: 7dbcfa0d094c2bb3e5af562588e23bb7c98bc0ac
-SHA256: 4d2b6ce1552e68c2e398652ebe11b76bb32c910da24230ba4f05d54b5b348d8b
-SHA512: c7ebea5fb57e5bf16078c2b143c46bd978b9cafd43a82659abf81d32c94782bd03e9923ed7f8fa5eed269404af9234c3140031a69e1c26e1f0bebc8f872a28a1
+Filename: ./localsearch-extractor-iso_3.11.2-1_amd64.deb
+Size: 14352
+MD5sum: 522a9048daeb37629e54ad8fa52985f1
+SHA1: 8f3499de89054348eb9d6480e8b484f2363296ed
+SHA256: f98a59bcb83be41fac85fc7317141d9b5d7740e24ae5c7f9175dfbe7ca82c767
+SHA512: 743f0ee28f7bf2b0227409dd99834d8c13dfcb042a03fef6078dca7712f05685c972e1a2a68adfffeede3cc39bb6016683222cb4450c8ef13f69de94979ca1ac
 Homepage: https://tracker.gnome.org/
 Description: Extractor for ISO files
  This package contains the ISO file format metadata extractors.
@@ -52251,22 +52251,22 @@ Description: Extractor for ISO files
 
 Package: localsearch-extractor-office
 Architecture: amd64
-Version: 3.11.1-3
+Version: 3.11.2-1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 131
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libzip5 (>= 1.0)
+Installed-Size: 136
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libxml2-16 (>= 2.14.1), libzip5 (>= 1.0)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-office_3.11.1-3_amd64.deb
-Size: 26744
-MD5sum: c023940b077bf6b9e64c8b1e566eea8e
-SHA1: b9b63f4d2c93c68c6e1e81693dd93d4a90c6d7a5
-SHA256: 86dcc54206eef5982eb744dc92f43c17549003e8395dafa0debcf1c6a5b52cd6
-SHA512: f73e19dff5c56889e8f4bd53e318407218d3a956d80446014e41387c1e305ea92739af3475da5ec961543ec1b48c2d89624cfec6583e4e4555257f78511e890b
+Filename: ./localsearch-extractor-office_3.11.2-1_amd64.deb
+Size: 29972
+MD5sum: eb09d512223a5c9313397f5d08462ead
+SHA1: 79138ba9e2bff99f6a9876475b195de71536c3ee
+SHA256: 2d4767cb20d23aa1a4485594796200d41474339e3dac62e5465e15bdee916bbf
+SHA512: a4cdabc994b7fea5fb51717ddc95e1568734ec095f92ecab76d85f2fb09eca732b944689bec9ebff05e1d73b74dc648c99b7a2868e27d9a214b0e25f8d1b964b
 Homepage: https://tracker.gnome.org/
 Description: Extractors for some compressed office file formats
  This package contains the extractors for various compressed
@@ -52278,21 +52278,21 @@ Description: Extractors for some compressed office file formats
 
 Package: localsearch
 Architecture: amd64
-Version: 3.11.1-3
+Version: 3.11.2-1
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3259
+Installed-Size: 3290
 Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.5.0), libxml2-16 (>= 2.14.1)
 Recommends: localsearch-extractor-ffmpeg, localsearch-extractor-iso, localsearch-extractor-office
 Breaks: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
-Filename: ./localsearch_3.11.1-3_amd64.deb
-Size: 657904
-MD5sum: 1aca03a34dc9ad7d012a146d36d0787e
-SHA1: a75d2f6b01a4a243c68bd99ee4514d550867ea84
-SHA256: 6b91f151cdc0274804e7a1a33a8cf0b29b140780fd261f61163e845812d44ab7
-SHA512: 8a438b4c5f4b748ffcde0ab3e6cd8cb82056d43c3a655bab32a3bdfd35bcf8ad112a90f7813a35ae5609710aa324110199ffe1d9daefc8970127b3fce61bd22e
+Filename: ./localsearch_3.11.2-1_amd64.deb
+Size: 671088
+MD5sum: e935a954fdfdd9e3e6842e2726021699
+SHA1: d779b84c5c9d361c0cc39d02f3c56ff2909f4ac3
+SHA256: 6d8d783e891e8dbac1e51fa9319240eb4b2f27362010185b2a8fd6157105ef01
+SHA512: 290d854086670c9e413745be80cc9f55f9ba58d0f99338179bc2cdbc0dea8bd657f712c000509fa2403e8fdd2ebf48ee8b047c0b26ce5cc0960f4adc2b89ff76
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - metadata extractors
  This package contains the metadata extractors.
@@ -72099,20 +72099,20 @@ Description: Xapp's Cinnamon, MATE and Xfce backends for xdg-desktop-portal
 
 Package: xdg-terminal-exec
 Architecture: all
-Version: 0.14.2-1
+Version: 0.14.3-2
 Priority: optional
 Section: x11
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 71
+Installed-Size: 72
 Suggests: x-terminal-emulator
 Breaks: reform-tools (<< 1.82-3~)
 Replaces: reform-tools (<< 1.82-3~)
-Filename: ./xdg-terminal-exec_0.14.2-1_all.deb
-Size: 22712
-MD5sum: d39c6c6e872d4e53e67f356184333cf5
-SHA1: f6c70bfea493bc89a7b3eabff934b3f2738ceac6
-SHA256: 7d88e8e7d089024a6db19a729228a95741ad67365234a4bf0e48b2170a602b18
-SHA512: 2f568e2a7ba3baa16ad6b55eb062b5800388bb817656fa018621b5716130fd501a992f0f0166893529ae763f45b408fa41d20a1e61c1316f07d4f832d659cf3e
+Filename: ./xdg-terminal-exec_0.14.3-2_all.deb
+Size: 23088
+MD5sum: e46dd3675562441c73b1f16f8838a28a
+SHA1: b971e0432205c5552b82b8661c3da6a288d1aa8a
+SHA256: 3b8998866debaa04b1432922dbafb1b3fd7d274057122a0bc0861940b309285e
+SHA512: 1762a251b99658aaae8a37bb806ce76420413ebbd1a2a78c84ed6d31ba3f618ce26ff87957b9e19ef63e4b743eec38f0382554fe0ece659de60e5e2bf2710d58
 Homepage: https://github.com/Vladimir-csp/xdg-terminal-exec
 Description: user default terminal execution utility
  xdg-terminal-exec is an implementation of a proposed freedesktop.org
