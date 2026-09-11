@@ -11028,19 +11028,19 @@ Description: Take pictures and videos from your webcam
 
 Package: gnome-software-common
 Architecture: all
-Version: 50.3-1
+Version: 51~rc-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 7576
-Filename: ./gnome-software-common_50.3-1_all.deb
-Size: 945040
-MD5sum: ba7615998de2fd80f5003d2071174c5f
-SHA1: 49a70f7373ba90859c69f203bae7b2913a662a76
-SHA256: 422f07a713ad2e073c1d494925bd925e2e93ad579240cdf118960c4aeba0f848
-SHA512: cd94ad5b57ea3de904de649d00b45a9a0a9297fe65e0a0eab6efc35a55ee5fd89583599699feb1e6399cd74ea5f315c396ea9f31e5c74ce87043a17c26dc2752
+Installed-Size: 7725
+Filename: ./gnome-software-common_51~rc-1_all.deb
+Size: 984920
+MD5sum: 10a329819115f527688baa53d303befc
+SHA1: 235d1a125af09b929ecc8900230b65ae4f1a0cd6
+SHA256: d7618f14d7aa7301b7037e78542fa97ba28ee6f701a782588018d4c0030583aa
+SHA512: f7171e7518be9e7aebff3069830a1481bda013ebc4a63e51b64605aa98fe4682dc7872ebea7a7f56bc86fc3487477492aa378dd656a7c14b8d2c2cbc04e0fade
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME (common files)
  Software lets you install and update applications and system extensions.
@@ -11055,23 +11055,23 @@ Description: Software Center for GNOME (common files)
 
 Package: gnome-software-plugin-deb
 Architecture: amd64
-Version: 50.3-1
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 293
-Provides: gnome-software-plugin (= 50.3-1)
-Depends: appstream, apt-config-icons, gnome-software (= 50.3-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
+Installed-Size: 296
+Provides: gnome-software-plugin (= 51~rc-1)
+Depends: appstream, apt-config-icons, gnome-software (= 51~rc-1), libgtk3-perl, packagekit, libappstream5 (>= 1.0.0), libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libpackagekit-glib2-18 (>= 1.2.7), libxmlb2 (>= 0.3.2)
 Suggests: apt-config-icons-hidpi
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-deb_50.3-1_amd64.deb
-Size: 76356
-MD5sum: e7f963bab5adbe033d38c1f9cc58319d
-SHA1: 556b2a86418362455d961dd2f95a377828e9f810
-SHA256: 21f0db73bdca3d583a177053798e6e1ee7267eba4b1401377ae3239abe1d019d
-SHA512: 7c7de2ab8b328195275575c0405b4726f8056c47ee375be14549f96765c2b5e524dfb0aabfd0010db7e29ed51e741d27769ca657312ba02f19c7b8b9efa709e8
+Filename: ./gnome-software-plugin-deb_51~rc-1_amd64.deb
+Size: 78672
+MD5sum: f92791d8a4e98f64ec83db1e48524ab2
+SHA1: ac4dbeeb2547edfb12c9a836507924cbfc893275
+SHA256: 023f066e1d67d9d663993416293fe11c1d0b8c49ff3492bb76aa003e449e11cc
+SHA512: 1d0bbcd742bcc8b46cfd9b5ed7474f3682d4f0611defb187296e8e0b5435622f3d7644c739e76643fe6dcc20a59db3c18c8468060efd37a8def34158a0a60bf6
 Homepage: https://apps.gnome.org/Software/
 Description: .deb support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -11087,22 +11087,22 @@ Description: .deb support for GNOME Software
 
 Package: gnome-software-plugin-flatpak
 Architecture: amd64
-Version: 50.3-1
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 283
-Provides: gnome-software-plugin (= 50.3-1)
-Depends: flatpak, gnome-software (= 50.3-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.16), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.2)
+Installed-Size: 290
+Provides: gnome-software-plugin (= 51~rc-1)
+Depends: flatpak, gnome-software (= 51~rc-1), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libflatpak0 (>= 1.16), libglib2.0-0t64 (>= 2.80.0), libostree-1-1 (>= 2017.10), libxmlb2 (>= 0.3.27)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-flatpak_50.3-1_amd64.deb
-Size: 85828
-MD5sum: 0a3f30f6e1aa7907a6eac82c6f001205
-SHA1: 681234889cbd5ee9a683d30c0c369d7d8436501b
-SHA256: 7a646b611562c2a17bffe4db1b82d8e5a9e4ced9f3fa120e7e337295032e464b
-SHA512: 2846ed070292bd71c13640290f5b877db5160b0398403409ca1b52f1b493ce187962154425c44e4bc26226c5396a40a603f771834360472bc7eeaefd17ced1d2
+Filename: ./gnome-software-plugin-flatpak_51~rc-1_amd64.deb
+Size: 88152
+MD5sum: 098e7df328e8a7f66b53588246c57ee8
+SHA1: 95385d623df4fe69d106ef1aee1c35abe7f206ad
+SHA256: aae277285ba5382000af4d049b57b234a574f648deff9e44c608d5ef9b99f6ec
+SHA512: 63294dc13fcc3fb24a90cd1ad9b62a060e4691873d3a51818a95c67b4fac54c145d415309a5ad194d4264078ea7747d25ebcbcb363517fe39e269223434c01c3
 Homepage: https://apps.gnome.org/Software/
 Description: Flatpak support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -11117,21 +11117,21 @@ Description: Flatpak support for GNOME Software
 
 Package: gnome-software-plugin-fwupd
 Architecture: amd64
-Version: 50.3-1
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Source: gnome-software
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 135
-Depends: fwupd, gnome-software (= 50.3-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
+Installed-Size: 134
+Depends: fwupd, gnome-software (= 51~rc-1), libappstream5 (>= 1.0.0), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.80.0)
 Breaks: gnome-software (<< 46.0-2~)
 Replaces: gnome-software (<< 46.0-2~)
-Filename: ./gnome-software-plugin-fwupd_50.3-1_amd64.deb
-Size: 36016
-MD5sum: 0b2e6a0d900367fb28afd4e5fcfd9b63
-SHA1: cfda724b6e468c8e9c6863e30419cb9a75f8213f
-SHA256: a3e578aff2bda02d1217f9d6620ea96d7935367243e887a7897dba69b4dbdcea
-SHA512: 3cc59d3b5534e9d4704e20875fca43cb5ec3e5c17f4ff77ffb33dbfa89b7e501009a99fd6f83ce47c2cdc22d7596ba0477d24424ac5fff78389248c25acbbf4f
+Filename: ./gnome-software-plugin-fwupd_51~rc-1_amd64.deb
+Size: 36980
+MD5sum: f051d89c2ad546ebfa6dab629ebcc09f
+SHA1: 96d4dbb63e4284a28e9be869eb687b7ae7011e7b
+SHA256: a05f6b7357ee6fca9ff17d4ef8bfd660ca121f024c4b157290d75e306cdf2bfe
+SHA512: 092af3c03d37c43860261cda37158ae2395b0315a4cb1619f861e2f75ba25bee49e8241bee0b65bbd20cc911237c9cba5852641d85b1a9c73d33b1069c387cc2
 Homepage: https://apps.gnome.org/Software/
 Description: Firmware updater support for GNOME Software
  Software lets you install and update applications and system extensions.
@@ -11146,21 +11146,21 @@ Description: Firmware updater support for GNOME Software
 
 Package: gnome-software
 Architecture: amd64
-Version: 50.3-1
+Version: 51~rc-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4707
-Depends: gnome-software-common (= 50.3-1), gnome-software-plugin-deb (= 50.3-1) | gnome-software-plugin (= 50.3-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.4)
+Installed-Size: 4671
+Depends: gnome-software-common (= 51~rc-1), gnome-software-plugin-deb (= 51~rc-1) | gnome-software-plugin (= 51~rc-1), gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libadwaita-1-0 (>= 1.8~alpha), libappstream5 (>= 1.0.0), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-4-1 (>= 4.17.5), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libsoup-3.0-0 (>= 3.0.3), libxmlb2 (>= 0.3.27)
 Recommends: gnome-software-plugin-fwupd, gnome-software-plugin-deb
 Suggests: gnome-software-plugin-flatpak, gnome-software-plugin-snap
 Conflicts: sessioninstaller
-Filename: ./gnome-software_50.3-1_amd64.deb
-Size: 1214432
-MD5sum: adc5c447b90a2ee1395475267002d9af
-SHA1: 2905a7a94786c76f8c228fd699fd55cef751a414
-SHA256: a5a7de0790faab77c7d20b70bdb03a2836cbd819205b460f342c403ab172a74f
-SHA512: e9702adf93de98a1fddf358641d26f63662204886210c7a878a7296755ed8a6f60f740eb0ef9441ba556d88fc8858cc9f05ceaeedb6072e5af5e5c140385985b
+Filename: ./gnome-software_51~rc-1_amd64.deb
+Size: 1256204
+MD5sum: 2de5796f957752519632b7bced3b0128
+SHA1: 56ef949d35a1441037745f5fdf6dcbc174f7319a
+SHA256: 325cddcf5482fa5a0ab8ddd16f343c309f5fac07761912eedefada4e9050e494
+SHA512: f3b183f43f8feb2baa14ea70e3aaba353d01d7f85425581249cff98630749efda374a893ad6750e8769f424ac960b1f36da18634b2f7dcba782a8406c15deb26
 Homepage: https://apps.gnome.org/Software/
 Description: Software Center for GNOME
  Software lets you install and update applications and system extensions.
@@ -51455,22 +51455,22 @@ Description: namespace aware SAX-Parser utility library
 
 Package: libxml2-16
 Architecture: amd64
-Version: 2.15.3+dfsg-1+b1
+Version: 2.15.4+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libxml2 (2.15.3+dfsg-1)
+Source: libxml2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 1681
+Installed-Size: 1682
 Depends: libc6 (>= 2.38), zlib1g (>= 1:1.2.2.3)
 Conflicts: w3c-dtd-xhtml
 Breaks: libxml-libxml-perl (<< 2.0207+dfsg+really+2.0134-3~)
-Filename: ./libxml2-16_2.15.3+dfsg-1+b1_amd64.deb
-Size: 681732
-MD5sum: 3b1f951b4a17969b8bd2443fc4b6a834
-SHA1: e57947d6acd8b823db09d86ba49592095d8412c1
-SHA256: 88906d19eb611fecfbfa7d21915e82e41ee4b0cfd0ef89a5de33731db72eb0b7
-SHA512: abb08d190afc7551b92fe22dc77b3a6144a6d429ab0a1d6dac486bf8f5eaaa483d67150e6641fd581e045f6084a77858bdc014ee434cbf1055a7f4165e18f2b7
+Filename: ./libxml2-16_2.15.4+dfsg-1_amd64.deb
+Size: 682688
+MD5sum: 9c208734a48d62de76fa4e5b21e57e7a
+SHA1: b711aac427bea64c95cc76c600efed5c2d959cc0
+SHA256: 36f043b5014adf26ff722f693361d1d677088d1eb384fe4522ad514b52053c88
+SHA512: 4652ce568378409c62aae07e82cb9726b31d84b14416ce56a44ee9fbfc572d66127572d760e7b0ab516ad2e789822e71959412f9044df28dccf71cf3776457fd
 Homepage: http://xmlsoft.org
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
@@ -51485,20 +51485,20 @@ Description: GNOME XML library
 
 Package: libxml2-utils
 Architecture: amd64
-Version: 2.15.3+dfsg-1+b1
+Version: 2.15.4+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
-Source: libxml2 (2.15.3+dfsg-1)
+Source: libxml2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 212
+Installed-Size: 213
 Depends: libc6 (>= 2.38), libreadline8t64 (>= 6.0), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.2.3.4)
-Filename: ./libxml2-utils_2.15.3+dfsg-1+b1_amd64.deb
-Size: 124396
-MD5sum: db900172a6e1494daaa7d74f3b832958
-SHA1: fd0259aebca5b1a4ac589f5fec3043eda24d516f
-SHA256: 715b9d1dbe51b8a7bb0a745968d05d8a84e07ebce663b09babe665752b8733f6
-SHA512: 7f34f1c27183f0d465e5182d37a889fab28492ed8a4321c3a5d63b21dfa0856a76dc7ced2997baae552dbf306f5c33518de2d985762b5b185f52138c7a701428
+Filename: ./libxml2-utils_2.15.4+dfsg-1_amd64.deb
+Size: 125016
+MD5sum: 8bfcf25d01722ed0c5e4ff7b32972fcf
+SHA1: 3a7e408292bbf6d670c5c47665f86c66997d15e3
+SHA256: a90c61a5e60e2ff76ed34e2c88e8367d2b03f27d2d5fb9b744c7bdd9726d8d13
+SHA512: d2e207cca8b4de1aace3c1d2ab0f9d1a3540c5790e1516d3f84b7e5dea7d6bc639e829fe36755c8167147c466a1664d1c062ce0efcb1d78ce3e7fcafdfaf7bd5
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
@@ -58921,19 +58921,19 @@ Description: Python bindings for libvoikko
 
 Package: python3-libxml2
 Architecture: amd64
-Version: 2.15.3+dfsg-1+b1
+Version: 2.15.4+dfsg-1
 Priority: optional
 Section: python
-Source: libxml2 (2.15.3+dfsg-1)
+Source: libxml2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 738
+Installed-Size: 739
 Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.28), libxml2-16 (>= 2.15.2)
-Filename: ./python3-libxml2_2.15.3+dfsg-1+b1_amd64.deb
-Size: 194076
-MD5sum: c9af98675d29a724797ce031c7ca0871
-SHA1: 35bc72d1a0b8386fb464f95179fffbfd1d365ae2
-SHA256: 0baa85a8e3e483553360f07f74419d2e5fa374834ca736f1ecd949819bc728a6
-SHA512: 209b4c712e9f9d07395513597ad2f4a600cfb4f8dc46bca1cf0c9ccf2ce761c17c621c29e41807a61479cb6f6528a179cd7232a839a4655f08b8e0609d637c78
+Filename: ./python3-libxml2_2.15.4+dfsg-1_amd64.deb
+Size: 194212
+MD5sum: c1587c85bf99feb228cf9c3564367de0
+SHA1: 849deba300c5656662a95ce41615ea916bf19781
+SHA256: 4f0c47111425facc03668c0a9e087fc230a5a66a43f80d947be252e7d9919027
+SHA512: 334104d41003d73e133f1f0eb215e394da73636e99df957dafaedfd33df3ead0d75909e02a4a1201e3bb2cfdcd5523bf0619715bff803cfc7447b2fd91f83166
 Homepage: http://xmlsoft.org
 Description: GNOME XML library - Python3 bindings
  XML is a metalanguage to let you design your own markup language.
