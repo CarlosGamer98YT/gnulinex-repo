@@ -37248,44 +37248,44 @@ Description: interactive high-level object-oriented language (default python3 ve
 
 Package: libpython3.14-minimal
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 5653
+Installed-Size: 5674
 Depends: libc6 (>= 2.14), libssl3t64 (>= 3.4.0)
 Recommends: libpython3.14-stdlib
 Conflicts: binfmt-support (<< 1.1.2)
 Breaks: libpython3.14-stdlib (<< 3.13.1-3~)
 Replaces: libpython3.14-stdlib (<< 3.13.1-3~)
-Filename: ./libpython3.14-minimal_3.14.7-1_amd64.deb
-Size: 899376
-MD5sum: a70e567a8c6ca172e1cc791870b75ca0
-SHA1: b4581171b12f1348852fca16714f59a08130efd7
-SHA256: 451e1ad383b61346bfb1fe5fff60fa8a1b51f50afd0b518058c7665a3f3dfdaa
-SHA512: 81e53c5c9abdef8ec246703755d233a4f7c7d747ab0641082dc4da5c7e0deebdbb764c2e7b2c29c697567f0481e4ccdf19ae260853059e42007bb0a62b30b9ee
+Filename: ./libpython3.14-minimal_3.14.7-3_amd64.deb
+Size: 902296
+MD5sum: 74762c090bb8131e6367e1891b9082fa
+SHA1: 2af3431c2c38a8898ee42f79604f71e9cac92486
+SHA256: b489df1c70674ac474a717873750030766a305823203a45ac9926858aedfa705
+SHA512: df8631f937d8c0005141758c1f1f4205402bdba7e7ee18f40af978db1f4cc4e1c15217f4b04c520a1bc456b111e4f992b2e6492bea3111bce84cb97b6a99eae8
 Description: Minimal subset of the Python language (version 3.14)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python3.14-minimal.
 
 Package: libpython3.14-stdlib
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 10300
-Depends: libpython3.14-minimal (= 3.14.7-1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.42), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), libzstd1 (>= 1.5.5)
-Filename: ./libpython3.14-stdlib_3.14.7-1_amd64.deb
-Size: 2356500
-MD5sum: df61bb9daca36dbff2a2aaa77cfef9d2
-SHA1: c1b7e2ccd2823af409d038beb50bee93541244cc
-SHA256: c68307ab20db30853d7e09017fc91f8c77e11be0fd3c704066d6f14646879073
-SHA512: 40272f6d4d13c36fdd7687e294bf57bd058e61d4db3d52ebd71b041c3d9a7f73dbf0ae4f10c16854637cc73ee2af0f51a3fa4da028021ddedd53849fecaabe18
+Installed-Size: 10316
+Depends: libpython3.14-minimal (= 3.14.7-3), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.42), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), libzstd1 (>= 1.5.5)
+Filename: ./libpython3.14-stdlib_3.14.7-3_amd64.deb
+Size: 2359684
+MD5sum: dd59e018c67b8a93072ff4ffca977a3e
+SHA1: e2626f8de8dad63902687d2526de45f2354f8563
+SHA256: 7ef6bcc0978be0b8201f473cc99414968de0a89010543289da03d3cc542d6d36
+SHA512: ff0c8106169040ee7c199a0ccbe2effe3c57dc371b0c538c8d05579f34649212c304aca5d08ca0ca7878cd7edca40195bbe4f0065452295cc7afa5749d54e017
 Description: Interactive high-level object-oriented language (standard library, version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -37296,21 +37296,21 @@ Description: Interactive high-level object-oriented language (standard library, 
 
 Package: libpython3.14
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 8483
-Depends: libpython3.14-stdlib (= 3.14.7-1), libc6 (>= 2.38), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Installed-Size: 8503
+Depends: libpython3.14-stdlib (= 3.14.7-3), libc6 (>= 2.38), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
 Replaces: libpython3.14
-Filename: ./libpython3.14_3.14.7-1_amd64.deb
-Size: 2522288
-MD5sum: e7e4bbff504b1e066a2c64dbe7a43f03
-SHA1: b3f34fbbafef9c881cf4b701bc91d9a3f1efb2cc
-SHA256: fe8e72990049934a3023ce64222fe9cc4458d30906a4f50c866a4e7584ec73bb
-SHA512: f649a4da493df7a7a3b0d466e2a8347207c360192b9a2d1be33c1ab56a4907324ebcea928dc46f2952a4685dceed8b769770397548065f39d8e85e67ae1153a8
+Filename: ./libpython3.14_3.14.7-3_amd64.deb
+Size: 2530400
+MD5sum: 0fe689736d0dee9555c44218acad3353
+SHA1: 665793008a28039fe30e5325e698c0b24a8594e8
+SHA256: 14dc83f94319184b6ddb3b1d936f7172d64373916ad0f9069eb05cd9c55e9e5a
+SHA512: efb1b778260ab82f3caae181be791ea17d49bfc06e27fdf84515afd125edc27f9931138caa8d3ad0801f9094649a5ac5c8cc4810c39534c94c9ba0721ba52453
 Description: Shared Python runtime library (version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -60011,24 +60011,24 @@ Description: pathlib-compatible Zipfile object wrapper - Python 3.x
 
 Package: python3.14-minimal
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 8167
+Installed-Size: 8155
 Pre-Depends: libc6 (>= 2.38)
-Depends: libpython3.14-minimal (= 3.14.7-1), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Depends: libpython3.14-minimal (= 3.14.7-3), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
 Recommends: python3.14
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
-Filename: ./python3.14-minimal_3.14.7-1_amd64.deb
-Size: 2714476
-MD5sum: ab311dbdc0ecfbe3d66ecba7dd468962
-SHA1: 696d0d3ed6f3b8c1b2946a5b141835f78b2e0578
-SHA256: 0f884b128c837b69c21392a9bb2db5944e5670bc9d81bbc6cd745fdc0d152571
-SHA512: eeb92096e96b437ac945bb0d6582b3c93327cf32b0f2c700b81dcf7f91f36e266a12f33a0f4ecaf6c9a58dca62cbfe93b900978222aa58a781e759de93e65b50
+Filename: ./python3.14-minimal_3.14.7-3_amd64.deb
+Size: 2711936
+MD5sum: dd4feb4c715d74559cc90d0576bc11c3
+SHA1: 0ba103c6b582a2eaa1ef621281cfb8e7facd093b
+SHA256: dd32a759888c5d856d88fa0bdebdaaaa838f3e47004af25e60b28379528aa26a
+SHA512: 0074fe31fb82c0e156b1e92a9c0466b68b552a65bd1b0a4cb16778dd8d1660d40ff07a88315ee3061e5084d0b543c951954ab16f65669e3b2cf8b597a4771b75
 Description: Minimal subset of the Python language (version 3.14)
  This package contains the interpreter and some essential modules.  It can
  be used in the boot process for some basic tasks.
@@ -60038,21 +60038,21 @@ Cnf-Visible-Pkgname: python3.14
 
 Package: python3.14-venv
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 27
-Depends: python3.14 (= 3.14.7-1), python3-pip-whl (>= 22.2), python3-setuptools-whl (>= 70.1)
+Depends: python3.14 (= 3.14.7-3), python3-pip-whl (>= 22.2), python3-setuptools-whl (>= 70.1)
 Breaks: python3-pip (<< 1.5.6-4)
-Filename: ./python3.14-venv_3.14.7-1_amd64.deb
-Size: 5460
-MD5sum: 8121d1156260384695bd4c434536bf81
-SHA1: 103c3d59750b201d0f81b6449bf7e0495a9cdbcf
-SHA256: dbfc8e9f8f3e0efa3a566e57dfb3df1ac04a1210703cb900e07d1da18fb24b6c
-SHA512: a339e7dab5a0ad618fa8071573e3a6976520843bc5a4ebd2aee4a399c95fc4a12c406deabb35da5cf14df3b81de0165a28c706a4e666c1993e0a7ef729f9ec4c
+Filename: ./python3.14-venv_3.14.7-3_amd64.deb
+Size: 5456
+MD5sum: d1507cbcab7b8802ec4d6deb89c8f985
+SHA1: f8e3bdd51551bfcd1f1637f39782b43cebf229aa
+SHA256: 0eee13be14b1a6e3ca364558921ebb0e9c2ef2a8b672b3406eafd2df9db96a71
+SHA512: 06c2838c4ea5444588e87b598785485fa8e6626dd35352ed2488f4e77af73e1c80dc99b5a18b9b49daa8ffab4e1b6021aa3f31523ddb85627e4b6d35ad89d778
 Description: Interactive high-level object-oriented language (pyvenv binary, version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -60062,22 +60062,22 @@ Description: Interactive high-level object-oriented language (pyvenv binary, ver
 
 Package: python3.14
 Architecture: amd64
-Version: 3.14.7-1
+Version: 3.14.7-3
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 934
-Depends: python3.14-minimal (= 3.14.7-1), libpython3.14-stdlib (= 3.14.7-1), media-types | mime-support, tzdata
+Depends: python3.14-minimal (= 3.14.7-3), libpython3.14-stdlib (= 3.14.7-3), media-types | mime-support, tzdata
 Recommends: ca-certificates
 Suggests: python3.14-venv, python3.14-doc, binutils
 Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
-Filename: ./python3.14_3.14.7-1_amd64.deb
-Size: 860732
-MD5sum: 5d03b4a71d18a40039bcaf551df0a6c2
-SHA1: 89584befc0f5daeed23da78ce9efab487b335aa3
-SHA256: 8210b90871aff326efe0beac663a91d8c8d4dd716dcd1a2f0da74c0b0d14f0bd
-SHA512: 2db09205267d96f4f3a1233c5b7d1092491d4f6be1796057bdc85e67a7f34e2ad07da18bf6d8e0b87513ff31c5e4c0616a0b80339ab10d10698934913e9eb09e
+Filename: ./python3.14_3.14.7-3_amd64.deb
+Size: 860820
+MD5sum: 98a36df205769cd95c341135c5de41cd
+SHA1: c37e0d1853b2730d2f7700e4d597eec19bd38e70
+SHA256: e343cd8814fb06bd188ffd3e04e0f56ee35477d3dfb7e49ff4fa67f759c824b8
+SHA512: ceaf6d24973d3f1866f524887c6374596d8e53aa32a9d80bc58acaa19df73690e080f399268e209b33a1720f50b389b6f91417d6bfb9031e1876618d4ceb2f21
 Description: Interactive high-level object-oriented language (version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
