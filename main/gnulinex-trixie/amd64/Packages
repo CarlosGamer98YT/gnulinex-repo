@@ -13107,19 +13107,19 @@ Description: HTML to text rendering aimed for E-mail
 
 Package: hwdata
 Architecture: all
-Version: 0.394-1
+Version: 0.411-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Pino Toscano <pino@debian.org>
-Installed-Size: 15
-Depends: pnp.ids (= 0.394-1), pci.ids, usb.ids
-Filename: ./hwdata_0.394-1_all.deb
-Size: 4336
-MD5sum: 32fd26a3522afa2a742529d979bdd01f
-SHA1: 6bceca330a3c6a6b30894b64dd59ff52f9537c09
-SHA256: 5051b76cdbb3f5984fd5525f0fbf09860627b8770030f4e3132694b088f84aca
-SHA512: c061f8348d898dddfdf7526e3dbc8fe353103e5b5da5f658d5d5d7dbeeb5d39a5427f17da149d4b2bf0bbf3525ce5fdbf2fedafe616a599a771c3af98c8196dd
+Installed-Size: 13
+Depends: pnp.ids (= 0.411-1), pci.ids, usb.ids
+Filename: ./hwdata_0.411-1_all.deb
+Size: 2724
+MD5sum: 7ac611291baa0a19a384551b38de5bbb
+SHA1: 84faf3fdfd69c59f1cba26a85f3c253058c57f3f
+SHA256: 7207574187515035015cbefff7e0a00c756bed586d4b7dccfb24eef7813ce598
+SHA512: 05e40d0ddc81197f0dcc45c18642b45c0108db2c1c3e19e02ee3b1f58a6c2a59a78f8c20926cd20ddc3078aa40547e260e797782dcc21a94022cfceecca27bf3
 Homepage: https://github.com/vcrhonek/hwdata
 Description: hardware identification / configuration data
  This package contains various hardware identification and configuration data,
@@ -33726,7 +33726,7 @@ Description: Mixer library for MATE Desktop
 
 Package: libmateweather-common
 Architecture: all
-Version: 1.28.2-1
+Version: 1.28.2-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -33735,12 +33735,12 @@ Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 4830
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: libmateweather (<= 1.0.0-3)
-Filename: ./libmateweather-common_1.28.2-1_all.deb
-Size: 800788
-MD5sum: 2d4417bac7f123e6d3bf79528ea9bd14
-SHA1: 24dcb4798126db20ca53854a01538dabd1c1b552
-SHA256: 71585943560accf5e04dcf9ee2019e8813b6d904450709e304f600bcf024ae1b
-SHA512: d70ca2345e84566ba829f7e822533a3d60f432000d8c4d64836ed9e4f645830777f3d024316d8945aae8112bed67bbde6a10105c3aa71a8fd2037e614d5dd691
+Filename: ./libmateweather-common_1.28.2-2_all.deb
+Size: 800944
+MD5sum: d6969fd1ebe330080ae976ec95e1f6e5
+SHA1: 7a4b363b75827cd093716545b2b2066d5d06d744
+SHA256: 533c849d0055ffa5c6e91b59857689b169934980a22810ca087a55ec80b15eb5
+SHA512: 273e397308c8fa8cca5322ca812d4885164c136f37720f2fca71713eca31c5568c2dcdfba8f7617886084433009e975a37168de96e11d522a8f027e4f6025278
 Homepage: http://www.mate-desktop.org/
 Description: MateWeather shared library (common files)
  libmateweather is a library to access weather information from online
@@ -33750,23 +33750,23 @@ Description: MateWeather shared library (common files)
 
 Package: libmateweather1t64
 Architecture: amd64
-Version: 1.28.2-1
+Version: 1.28.2-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libmateweather
 Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
 Installed-Size: 196
-Provides: libmateweather1 (= 1.28.2-1)
-Depends: libmateweather-common (= 1.28.2-1), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.27.1), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
-Breaks: libmateweather, libmateweather1 (<< 1.28.2-1)
+Provides: libmateweather1 (= 1.28.2-2)
+Depends: libmateweather-common (= 1.28.2-2), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.27.1), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Breaks: libmateweather, libmateweather1 (<< 1.28.2-2)
 Replaces: libmateweather, libmateweather1
-Filename: ./libmateweather1t64_1.28.2-1_amd64.deb
-Size: 90388
-MD5sum: 05db7f090fa924c67e17f430ac3fe795
-SHA1: 8a5c99ca7bcb14b7ac8b225c13d7d5ab4ad92b64
-SHA256: f0c527bcb4d2038768def783ba306382428243c05366aa9f0ca2a185a39c5918
-SHA512: 4cf2b62eb9f7cde790e938d1e491f0a48226e8277e98d3ad203acac9caf31cde9a0739337ad54b9a5b8e0ce44b395e74d6cf54f24b59fc6922d25bec56b96edc
+Filename: ./libmateweather1t64_1.28.2-2_amd64.deb
+Size: 90084
+MD5sum: 42832d729be0ee94af50b23bbb569293
+SHA1: 2ed30d3e8e06c0130886368b4818fcadcd056af1
+SHA256: 6f9148bc25b6ea1c3fe55fcdc0e16cad7b20615e9d63db4f42bf8ba0b4d41d5f
+SHA512: 0c11375bf02a74448ffba46af1f04d2f3447e384b831cf66c0db8106df53581190626e37ec08032d312646279002884c01bd736142243cd93fa61c3dcfe46fbe
 Homepage: http://www.mate-desktop.org/
 Description: MateWeather shared library
  libmateweather is a library to access weather information from online
@@ -56362,23 +56362,23 @@ Description: standards-compliant, fast, light-weight and extensible window manag
 
 Package: openjdk-25-jre-headless
 Architecture: amd64
-Version: 25.0.4+7-1
+Version: 25.0.4.1+1-1
 Multi-Arch: same
 Priority: optional
 Section: java
 Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
-Installed-Size: 239466
+Installed-Size: 240026
 Provides: java-runtime-headless (= 25)
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), liblcms2-2 (>= 2.8), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Recommends: libcups2t64, libfontconfig1, libfreetype6 (>= 2.3.5), libharfbuzz0b (>= 2.1.1), libasound2t64 (>= 1.0.16)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
-Filename: ./openjdk-25-jre-headless_25.0.4+7-1_amd64.deb
-Size: 53701508
-MD5sum: 9ee511688ce4d4889392c208c6003b5a
-SHA1: 83f453f8e498c8c75640bdc49d41cb970778ec52
-SHA256: 0aead3ed453cc49244f2e7d94f0ac5468191f0131ef7145d1ae18de14eac4286
-SHA512: e871d01ab8657e81fa0d0eae56826ffe21987af9a83f11ba3587c00c01875fb5a302c8b0420bea21271d6ab8d4e2bdfbc89e1783adbb83c8db339fcb9651042e
+Filename: ./openjdk-25-jre-headless_25.0.4.1+1-1_amd64.deb
+Size: 53928032
+MD5sum: c45e7d250da3cae5eebc9c160b8a5a8b
+SHA1: 4078183a66681c5cde97717298c9554238adde27
+SHA256: cd362081eed2fe9ac8be0dbe7b9768d22de8ebaf1fe9aa7cb6ccc72301a79fa3
+SHA512: 42ae7ba0017a48baa5e5e421ea16cc4c2c8ee53bc1a5ea0495ea8d2452d5a91591132ddb37673c5e6aeea5d9b81d98dc61be37ded097a0b5d0959a36f2a3d0da
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
@@ -56386,22 +56386,22 @@ Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 
 Package: openjdk-25-jre
 Architecture: amd64
-Version: 25.0.4+7-1
+Version: 25.0.4.1+1-1
 Multi-Arch: same
 Priority: optional
 Section: java
 Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
-Installed-Size: 645
+Installed-Size: 657
 Provides: java-runtime (= 25)
-Depends: openjdk-25-jre-headless (= 25.0.4+7-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
+Depends: openjdk-25-jre-headless (= 25.0.4.1+1-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
-Filename: ./openjdk-25-jre_25.0.4+7-1_amd64.deb
-Size: 203604
-MD5sum: 93dbaacccc6773508b1973e1e7d181f5
-SHA1: 7e90cdac82717ef2dab17b65e6015e84b46cccb9
-SHA256: ff3c0e43987f5a01792eaac93667f97b20c460441f164f00445c5bac515d2065
-SHA512: e19ef65fbacc175f44f7cc2cea31ffc002cfb6ad9f786814e9cf9e947fb0f3f4608155cbd65689eb0c1cdcc010d718b389dab65ac7594ae44227dd4bf0af1e57
+Filename: ./openjdk-25-jre_25.0.4.1+1-1_amd64.deb
+Size: 209292
+MD5sum: 159c1923fd30ef00612ed724ba98092d
+SHA1: 2bcfbf4ba752e8fce4f1278c721627d4dfbf739e
+SHA256: a10af7a6095095e432ad0b57160deb683779bea9deeee5e370b60dc2ea9b8cf1
+SHA512: 902917378e05bcb238ae440644c087fe6bf1e64fe53fc6afd4f322440a27e533455fd3e485db6faa74afcf3b6da44dda12de0f82cfe5c4018d12a1b7ccc588d0
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
