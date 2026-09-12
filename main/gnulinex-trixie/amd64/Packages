@@ -3188,19 +3188,19 @@ Description: Modern replacement for ls
 
 Package: fastfetch
 Architecture: amd64
-Version: 2.66.0+dfsg-1
+Version: 2.67.1+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: Hiago De Franco <hiago@defranco.dev.br>
-Installed-Size: 2151
+Installed-Size: 2217
 Depends: libc6 (>= 2.38), libyyjson0 (>= 0.12.0+ds)
-Filename: ./fastfetch_2.66.0+dfsg-1_amd64.deb
-Size: 632728
-MD5sum: c4b5eb6ca202f1cda343261ccd67289f
-SHA1: e76c1e35384b3f4e9e17b1fb7248763867591b63
-SHA256: 4963635be09c2440eab95e8e07217aa66fdfda4deaa23ed2e5557fd6d7616c80
-SHA512: 321f41180fadc3d45d35fe0fe02561fd41ed6d835e984bbe2c95bccfa738ddfee10254e3b1a48a80a1edd6fee0174bfa79e9ee76e1c355a68e5d58cb1b16463f
+Filename: ./fastfetch_2.67.1+dfsg-1_amd64.deb
+Size: 667772
+MD5sum: 141e1582ca89c86e67255e09dafcbe18
+SHA1: ea4bd4313cf68cbddc81fd9f4a0c1c7577a82b97
+SHA256: 2a58925072689dfeeaa479f41fd3cee145d42b22a503e26fc965afedc1aab6e7
+SHA512: 0b618c09b2b4c36126457b154aa298bda8f4b5164c37f14115e3590de8badac4250f08ac1f54b32ff47562f26a92d3c76f24aae444da875c6966421ce33dbb68
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Description: neofetch-like tool for fetching system information
  Fastfetch is a neofetch-like tool for fetching system information and
