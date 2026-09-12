@@ -17075,7 +17075,7 @@ Description: Theme library for budgie-desktop
 
 Package: libc-bin
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: foreign
 Priority: required
 Essential: yes
@@ -17085,12 +17085,12 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 2118
 Depends: libc6 (>> 2.43), libc6 (<< 2.44)
 Recommends: manpages
-Filename: ./libc-bin_2.43-4_amd64.deb
-Size: 620048
-MD5sum: 82ed453bb949af7841b8de0eeb3c808d
-SHA1: d56e9a84d22cf06134433240798e927d195b863b
-SHA256: a7d3db189822c759f8bc0f85d1f0ac1dbd57b477e8e77f25db7d4559f4eb1033
-SHA512: d3596f409531470f76bd515a3d34cd0ade52ac664a68034fe35adfea5e54bf044e4a3c4c79f12ce902dea226af9f201635616b91373fa00a6b12b8134ac1a7f9
+Filename: ./libc-bin_2.43-5_amd64.deb
+Size: 620748
+MD5sum: a788a0d199e41c0180c6079365bad6e7
+SHA1: 03b12b58104eb495335424f03d4401a4bbd646da
+SHA256: 3a01046e354c3ff6e81f5af7ac7499183c3e2b9229da292a911971cbe44e8593
+SHA512: 09a87e7fad4292f133e897f297395b38d272130edb7c9b0a67545d3551281022fcac2b78dda6d2b83bf0595fc51c281681e55bec82aede61a0f00c1e33f30cea
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
@@ -17104,7 +17104,7 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
@@ -17114,12 +17114,12 @@ Installed-Size: 108
 Depends: libc6 (>> 2.43), libc6 (<< 2.44)
 Recommends: manpages, manpages-dev
 Suggests: libc-devtools (>> 2.43)
-Filename: ./libc-dev-bin_2.43-4_amd64.deb
-Size: 38860
-MD5sum: 620308d6c1c72cf3e165d15c76ff0642
-SHA1: 5044d8a28c93fe0ea6b69ddc100f301020afe1b4
-SHA256: 71a371733a3c15d78a284fae2a191ed863e948394795b5b21472ef62d3a50f0a
-SHA512: 6a964c03ec7c40366d6ff51fb618b008f0e5a8b1e2b9fe9c994499bf153fb0aa4802b9c791a0debd9a26b19ada5c225a219aeb90a21490a1de1739f4d8dd6888
+Filename: ./libc-dev-bin_2.43-5_amd64.deb
+Size: 39328
+MD5sum: 819b9f09a7e1fc8133fc08ef763325ee
+SHA1: 04ae4f528fcc8d5ff13705402a05f5d494e44384
+SHA256: ac1acdb5676a1914fc11b81c471bfd0ea62780aff2423605472b0714da31fc8f
+SHA512: 90fdf526a9b8c05962a28c0195ee563a1fa8248cc0ddb813bc3d976c25a8725a6a379f6d7df9469315d5926f4ef6aa5afe6311e12618ed1b47dae26aaaf7d64c
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
@@ -17129,7 +17129,7 @@ Description: GNU C Library: Development binaries
 
 Package: libc-gconv-modules-extra
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -17138,12 +17138,12 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 7989
 Breaks: libc6 (<< 2.42-1)
 Replaces: libc6 (<< 2.42-1)
-Filename: ./libc-gconv-modules-extra_2.43-4_amd64.deb
-Size: 1100936
-MD5sum: 51de5d95ee95775eeb3dd119dc29d842
-SHA1: ea960d37803226ab4689a1d7673b1aa13a389070
-SHA256: 053a7ba90e115c76a937c3355fab99fe83302e8ff62c0ffb2536679a5903da99
-SHA512: 4f2eedd3a91422246c6bbf2bc14f18c8a3ce6a5464e66172505fa8159e2f820b5b447a02ee7dbf4b133c7a8b388079a61a18a05900547b7cde5d7aabdd94bc4a
+Filename: ./libc-gconv-modules-extra_2.43-5_amd64.deb
+Size: 1100312
+MD5sum: d6a4362f25df32781daf718f83483482
+SHA1: 189cea42bb861ee11cdc7b23df29d548327653c1
+SHA256: 51187a1e9e54e837240b5061e35f6dcb9fb06b0e23ec9e1fa689dc954d6557fd
+SHA512: 8bb82b2ab705ee82952832530359c8b9dbc32d71687c698da280a2727f7c912b42423e6924145dd9bbaf53b4c26af7e68cd313fb4292fdd8fc6b5375d8c8cacc
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Non-essential gconv modules
  This package provides additional character set conversion modules for the GNU
@@ -17152,19 +17152,19 @@ Description: GNU C Library: Non-essential gconv modules
 
 Package: libc-l10n
 Architecture: all
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: foreign
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4944
-Filename: ./libc-l10n_2.43-4_all.deb
-Size: 749780
-MD5sum: 9115bcf8d369cd45fcbbdca087b58bae
-SHA1: d6502c79fc146362bbb366ef9aa133224010e881
-SHA256: 2ecf419c3296b46306a5bb0b3c3b5bca1ce23221dc5c4d3831915966198ecd1e
-SHA512: c5efc82b3bb234108e1c411c00fa87b76ee5ab550871456122c39cdc294d8f8256e30c8e0178e8f8c67fe308fe1a1b96f9b620d169d25c4b65b7b1c15ce8b246
+Filename: ./libc-l10n_2.43-5_all.deb
+Size: 749664
+MD5sum: de2876d64f54fef458486c8bba76c575
+SHA1: 2f422a59e1bf1a3af0f0ae57b3138d528c546e54
+SHA256: e9d7aa241c33abb085cd3613ae84bca8c237dde4709a6fb0982a9ff68b30e7ba
+SHA512: e9159d506fa8a8816aa4b7f1019535f81011b10d18671e9a7582d468feeb082c7c9028e3eeeed711149944a64551c794035a61e8fa3a00cae08377c4835afae7
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
@@ -17172,24 +17172,24 @@ Description: GNU C Library: localization files
 
 Package: libc6-dev
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 12863
-Provides: libc-dev (= 2.43-4)
-Depends: libc6 (= 2.43-4), libc-dev-bin (= 2.43-4), linux-libc-dev
+Provides: libc-dev (= 2.43-5)
+Depends: libc6 (= 2.43-5), libc-dev-bin (= 2.43-5), linux-libc-dev
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: catch (<< 1.12.2-0.1), libc6-dev-amd64-cross (<< 2.43~), libdpkg-perl (<< 1.22.22), libmysqlclient-dev (<= 8.0.29-1)
-Filename: ./libc6-dev_2.43-4_amd64.deb
-Size: 2066888
-MD5sum: e704d48fa9d6a5182c524a1853163199
-SHA1: 6602bb7c9e8c560c8d8f7b2b97ccf8b26471e08c
-SHA256: 941c6c309b8ecfc6b21292d95c55677aab5d43b4cfa47cbb6b5fdd6ed3d35940
-SHA512: b84d75123fc139a5e641ea5a3bdbf901dbe6f5857fdbbdc6ae9a9027812ad1b02058cbf95bd3b21323d36be6e2d82438e1886ba42d621bec35f9c40c55de848b
+Filename: ./libc6-dev_2.43-5_amd64.deb
+Size: 2069040
+MD5sum: e2a91a16b99cdea23a23e91bf615bc6a
+SHA1: 8dec3572b29f3b0a853918875c8d4616fc8fc9b9
+SHA256: a07519f25cbc3e5eaa1a76f5696b30a368bab1863a58b228c6e5686bc35e4573
+SHA512: 44e76b565f9b5e03969bfeedb1d23a5e06adf0a87f449181ac83153b72613a214d1100fa280c7eb6595055d200610ce850641e3e85050aa31f8724b3b1cc7795
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
@@ -17197,21 +17197,21 @@ Description: GNU C Library: Development Libraries and Header Files
 
 Package: libc6-i386
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 12293
-Depends: libc6 (= 2.43-4)
+Depends: libc6 (= 2.43-5)
 Conflicts: libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-sparc, libc6-sparc64, libc6-x32:i386
 Replaces: libc6-dev-i386
-Filename: ./libc6-i386_2.43-4_amd64.deb
-Size: 2608368
-MD5sum: 0f460653210d7373f1759a11fed6d1f2
-SHA1: 4e70bd288ee0f65fbd256729e62a17d4c1645db3
-SHA256: 2da0d33a12e138f5e35881aa11e93dbb2343ec6da63462566af4f7ddc8a6e495
-SHA512: fbe6981f90ecd3160b1d11ebc9812d074d363a521e63c1758102144fabf894fdc92d5a222194a61e79e275da3c57a2e612c170d4ad86c664d6a7d094e770d785
+Filename: ./libc6-i386_2.43-5_amd64.deb
+Size: 2612068
+MD5sum: 31cd140fe85de25b687c354c56aee4af
+SHA1: 1fe2caeb83be973804f38687dd96d4dd6d1f5acf
+SHA256: b29d136eef97d2e900dff52419263e72b72d2246865517b3c31163ae7f6ac831
+SHA512: 4b6883bca5d1073cf982dd2e334c3494f9537e546fbb3897e4ed8105cd9af810e08669f554a6b0c01b8fd9c443018cb7ecd4cd696cc1e993763deaab188f8e92
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: 32-bit shared libraries for AMD64
  This package includes shared versions of the standard C
@@ -17220,24 +17220,24 @@ Description: GNU C Library: 32-bit shared libraries for AMD64
 
 Package: libc6
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 5483
-Depends: libgcc-s1, libc-gconv-modules-extra (= 2.43-4)
+Depends: libgcc-s1, libc-gconv-modules-extra (= 2.43-5)
 Recommends: libidn2-0 (>= 2.0.5~)
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis
 Breaks: base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.43), locales-all (<< 2.43), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.43), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)
 Replaces: libc6-amd64
-Filename: ./libc6_2.43-4_amd64.deb
-Size: 1865600
-MD5sum: 6317b68a7585bb797143553891ed4fee
-SHA1: cd59a67e30614671e6d9a33be6624db15f70c21b
-SHA256: ecb203d544bc9a34137f2ff06595abafd91a7b026d91b468f55a6424291f7528
-SHA512: 5cd11208c9a31fb991df6694d6d22e2ecb8575537e8d3cc1bbe547f600304dff136fc77e8477e2e497717f41cc7c18bc3627b0b581bb0504e718b3b095ba4df4
+Filename: ./libc6_2.43-5_amd64.deb
+Size: 1864972
+MD5sum: 265240881e51a88d457f6d42509f0882
+SHA1: a8724492a4bc6eb3dddf74299b852a03df7a379d
+SHA256: c2390d26f4ba5aacfa24625f8076005f05af08121e40ae5795128a495391c16d
+SHA512: e24f6fabf6018efc57bb2abfd36514c3cc76a04c8ce8b48928cc1505646295d88a3295498972a04e80ef87b1b7ae8bf223373a7f80f349f91945335778acacad
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -52152,7 +52152,7 @@ Description: scalable PostScript and OpenType fonts based on Computer Modern
 
 Package: locales-all
 Architecture: amd64
-Version: 2.43-4
+Version: 2.43-5
 Multi-Arch: foreign
 Priority: optional
 Section: localization
@@ -52160,12 +52160,12 @@ Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 236587
 Depends: libc-l10n (>> 2.43)
-Filename: ./locales-all_2.43-4_amd64.deb
-Size: 11154244
-MD5sum: 45ca40416b62e140659d88a62f8eedbf
-SHA1: 4e8cb94604c4b0e7889a64882cf39818b9508838
-SHA256: dcf922fce208790839c8fa9e4884e8cfa13b79a43859cd99265ea460632e4774
-SHA512: 48f7cc885877f8c2677966cb7e8a8c8062a4e3a061037e722cff04275323710cdfcc0c306a14846f848642a593cb0144013c48aa8e8a06e492277e5ac7db3cb5
+Filename: ./locales-all_2.43-5_amd64.deb
+Size: 11151248
+MD5sum: 39bd870e28fd40290125d4d5022e6ba3
+SHA1: 6a08ae4203ad93afc5ac86a484f59fba966fd0a4
+SHA256: ab700518ddaa16a52e07fecf5286c5a6f4d0c84fcad9d39126c7e813421b6b6f
+SHA512: 9b15dc3b2812064a6ee11021750d713995506f3b64e70c288bf68224f5262818fdf8edc0fd7034319d83bb282ce7e7006678eb0e351450e5f90b16b7a2290e4a
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
@@ -52175,19 +52175,19 @@ Description: GNU C Library: Precompiled locale data
 
 Package: locales
 Architecture: all
-Version: 2.43-4
+Version: 2.43-5
 Priority: standard
 Section: localization
 Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15771
 Depends: libc-bin (>> 2.43), libc-l10n (>> 2.43), debconf (>= 0.5) | debconf-2.0
-Filename: ./locales_2.43-4_all.deb
-Size: 3910904
-MD5sum: 4948b4a5bdeb778e2c9d3cd7edeec0a0
-SHA1: 51cdc684c6dae75278e0df13dc7c302a3499be04
-SHA256: 73f2a8f585c7fb35ccb11cfdc0d2039ce00edc09f2a92d584a2948a40c118696
-SHA512: 7f97e5e2eb95d5943c7a210925167b429d0a72a2d13db8caa7e8f229d0aac9a97e01790acb780ab5b82a6fbc12c777b035f38022a6b079fe726fe52a80dac3f7
+Filename: ./locales_2.43-5_all.deb
+Size: 3911156
+MD5sum: 5324804bd964a931850e327eb9518903
+SHA1: fe7002023399597c1572fda4c7564d7d5a88ead6
+SHA256: a0c9bd9f803d54b73fa172975d23e2d2187fe670afaf226b373995ee9ec0f42e
+SHA512: b9828095bd39f1bbb9c28de2606a037c8d0444aee2ac1be376be99fb5fd7fe30e08da7b6f04249e6164896eed7aa40b00dc873da3a3cd9a6fa2091f3e2d266b6
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
