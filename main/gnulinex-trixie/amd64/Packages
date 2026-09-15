@@ -8957,20 +8957,20 @@ Description: sends desktop notifications to a notification daemon (Introspection
 
 Package: gir1.2-packagekitglib-1.0
 Architecture: amd64
-Version: 1.3.6-1
+Version: 1.4.0-1
 Priority: optional
 Section: introspection
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 111
-Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 1.36), gir1.2-gobject-2.0, libpackagekit-glib2-18 (>= 1.2.7)
-Filename: ./gir1.2-packagekitglib-1.0_1.3.6-1_amd64.deb
-Size: 24448
-MD5sum: d7d40daf9ccb2ff4519b4c139b13eb14
-SHA1: 5d4f8ae1509c4cc9053e851aedd4af0506ab6caf
-SHA256: eafef4b9e8f937992a80eef562596906b1ed0b5647b09b17d82735e7763d5a42
-SHA512: a12bbcc933491afc70cf061fae17d1a0497366d9eec71c4e7cd719c586f7b39cb585c63f809f973c23891fa468ef1627faffb065f0cbb0211234837636daef8a
-Homepage: https://www.freedesktop.org/software/PackageKit/
+Installed-Size: 112
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 1.36), gir1.2-gobject-2.0, libpackagekit-glib2-18 (>= 1.4.0)
+Filename: ./gir1.2-packagekitglib-1.0_1.4.0-1_amd64.deb
+Size: 24484
+MD5sum: 1927a4a20f6307c92109aadfdc1c2347
+SHA1: ffe507ad50e3f349135467ba3af00cbe009c6804
+SHA256: c002285f8f0ddc1c01ab16a975362c64bcdef746de4ab6168aa87b5090f33057
+SHA512: 55c14be43b3908c1e6b93a4b70ed899920fa6b9c40923cafd517421dc50e72c2fe151f90bea14224b4e2ce97e470c017657dd93763f48a314f09ab80ed762bd2
+Homepage: https://packagekit.freedesktop.org/
 Description: GObject introspection data for the PackageKit GLib library
  PackageKit allows performing simple software management tasks over a DBus
  interface e.g. refreshing the cache, updating, installing and removing
@@ -9364,7 +9364,7 @@ Description: GObject introspection data for the Totem Playlist Parser library
 
 Package: gir1.2-upowerglib-1.0
 Architecture: amd64
-Version: 1.91.3-1
+Version: 1.91.4-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -9372,12 +9372,12 @@ Source: upower
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 25
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libupower-glib3 (>= 0.99.14)
-Filename: ./gir1.2-upowerglib-1.0_1.91.3-1_amd64.deb
-Size: 7996
-MD5sum: 95b62632832afe33fd8eb60795b72797
-SHA1: 08be2374ae162726eb49dc4e1f08894d11d038ef
-SHA256: 530d8ca37d5bb6ac45aeae5d20563e3c74dafff3d6de4ec75dc0ea8c2214148f
-SHA512: b4c8cb3d2b4b4d5c557fc93e6dcf0b7790e2d40ce138c3179c1da4a1af4c5ae0b55f417e4611139ad1f60cdd479206ab20d17e57792dc7a573fbc888cdb702c9
+Filename: ./gir1.2-upowerglib-1.0_1.91.4-1_amd64.deb
+Size: 8020
+MD5sum: 3acae47f514e9f3029de143c877ddace
+SHA1: 01cea85d9938b9f39478fa7d808d1036c8efd2c0
+SHA256: 5aecf75efe938fc0b30a20d215c43b9f9e884535bed5c68c6ca2d33ffe1a855f
+SHA512: 8566d2a164909e63d4cfce6510820b388b2a9ccf85c6c8cf6f5e5e6a7715c4fd87d7620fc50fc360957aeec49ccf8f11476e49acb202073fb171649bfbdae1c9
 Homepage: https://upower.freedesktop.org/
 Description: GObject introspection data for upower
  upower provides an interface to enumerate power sources on the system
@@ -12313,23 +12313,23 @@ Description: complex camera support library (GStreamer plugin)
 
 Package: gstreamer1.0-packagekit
 Architecture: amd64
-Version: 1.3.6-1
+Version: 1.4.0-1
 Priority: optional
 Section: libs
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 41
-Depends: packagekit (= 1.3.6-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 0.9.4)
+Installed-Size: 42
+Depends: packagekit (= 1.4.0-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 0.9.4)
 Recommends: gnome-software | apper | packagekit-installer
 Conflicts: gstreamer0.10-packagekit
 Replaces: gstreamer0.10-packagekit
-Filename: ./gstreamer1.0-packagekit_1.3.6-1_amd64.deb
-Size: 10784
-MD5sum: 75fb5c4a28b8c8ac7a420db5f6d2047e
-SHA1: 20b2091b0cc4b1dcad3c1f49e7670d71164f3698
-SHA256: 6039619bdc0c17844152ebc6f74b4cd650d0d52d5a40fb651fd73d7efc210ea4
-SHA512: 472bd003040155d0cd4f73da403f639ede92891e34844e6f343075aed77efed208773a1db566339b07024e350f8029d5aa20ebb4f33bcc94ba504ca33dd385ca
-Homepage: https://www.freedesktop.org/software/PackageKit/
+Filename: ./gstreamer1.0-packagekit_1.4.0-1_amd64.deb
+Size: 10888
+MD5sum: 8d1142bc3384450a03ad6eb225e52a62
+SHA1: ac392b594a20cfd672da6841ab13c9d6bcc14a0c
+SHA256: 5ce30f3324c591370be78dbd526c173167991a4958f2a5fdb0330bf9a5a3bca6
+SHA512: d6c26fda2a8f309111d08728f30aaf44dbf13d527a761f95ddd5661bee866bd4a8a502111c7a4ba76fb7fbf9debe0b305a39d3683e4e40afbbb4498eb515d127
+Homepage: https://packagekit.freedesktop.org/
 Description: GStreamer plugin to install codecs using PackageKit
  PackageKit allows performing simple software management tasks over a DBus
  interface e.g refreshing the cache, updating, installing and removing
@@ -32895,23 +32895,23 @@ Description: LeakSanitizer -- a memory leak detector (runtime)
 
 Package: liblttng-ust-common1t64
 Architecture: amd64
-Version: 2.15.1-1
+Version: 2.16.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ust
 Maintainer: Jon Bernard <jbernard@debian.org>
-Installed-Size: 181
-Provides: liblttng-ust-common1 (= 2.15.1-1)
+Installed-Size: 188
+Provides: liblttng-ust-common1 (= 2.16.0-2)
 Depends: libc6 (>= 2.38)
-Breaks: liblttng-ust-common1 (<< 2.15.1-1)
+Breaks: liblttng-ust-common1 (<< 2.16.0-2)
 Replaces: liblttng-ust-common1
-Filename: ./liblttng-ust-common1t64_2.15.1-1_amd64.deb
-Size: 73880
-MD5sum: 2de91985f6ec1bd2f06781b0e956ea5c
-SHA1: 75973efe4ea11df7f6e8ed6c2910eaad53217e70
-SHA256: 6f2227a45fe012ffce2f954a2f41daa93adb2fdf8f74763371048ce5d5865c30
-SHA512: 4c1b19da0bdd3a62628639441fbae47028e27e703f566f5daa7e852ee7337febdaddb1519c711a4a21b13462f3eca43c2e230377d3713d30abcd33cb9a8b794d
+Filename: ./liblttng-ust-common1t64_2.16.0-2_amd64.deb
+Size: 76612
+MD5sum: 159744a508e0ed08958251b309db72af
+SHA1: 552107b43517419a6771d6309817b02ac6c9c467
+SHA256: 89c9ec4243ad50a79a2f42f057c95058126e4e9cb386d6cd29bb709456bbc763
+SHA512: dfa71cae47c81fa65d33fa8059bb724b8eb358ae9287b32a7eefc773c3623a660b72a485c341646bae13ec5ed38f5888c98709b7575a12130a52df3b20c34be4
 Homepage: https://lttng.org/
 Description: LTTng 2.0 Userspace Tracer (common library)
  The userspace tracer is designed to provide detailed information about
@@ -32924,20 +32924,20 @@ Description: LTTng 2.0 Userspace Tracer (common library)
 
 Package: liblttng-ust-ctl6
 Architecture: amd64
-Version: 2.15.1-1
+Version: 2.16.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ust
 Maintainer: Jon Bernard <jbernard@debian.org>
-Installed-Size: 490
-Depends: libc6 (>= 2.38), liblttng-ust-common1t64 (= 2.15.1-1), libnuma1 (>= 2.0.11)
-Filename: ./liblttng-ust-ctl6_2.15.1-1_amd64.deb
-Size: 146484
-MD5sum: 63b67749ad08224f94041451647c4814
-SHA1: ea02f4ae28a107b01118c28fd8b76406a0e444f0
-SHA256: 25e79959e0d4749c4c4f7effdf26969009b71ec1cb17cc6f9105dcba996d1848
-SHA512: 2273343e1893f38a99dc16c2cba5e1943d14cdda0fc8f86100ae7c4ac82255ddc28e76c8e7b1d49c9633b8b70d4f0c66d101b1e9735b42dcec0920b28d4185b8
+Installed-Size: 513
+Depends: libc6 (>= 2.38), liblttng-ust-common1t64 (= 2.16.0-2), libnuma1 (>= 2.0.11)
+Filename: ./liblttng-ust-ctl6_2.16.0-2_amd64.deb
+Size: 154044
+MD5sum: 2f43fb6c0a84c88d3a76fd2356fbb5d1
+SHA1: 3ebe639de43a0282a5ce89cfb6300d59567bf18f
+SHA256: d077e23a4670583c8c2b07dbaf7977c433a4e50b8f604f81ac859643171afa0d
+SHA512: c836dd2c6c776a6b5ad661b3c6945fb03c853d8f1338d6d32d6989df46916eef870f4e338ecf3c5526ccc2fb43268fe956e8e2e0fe156ae0c36155d66d8f96ab
 Homepage: https://lttng.org/
 Description: LTTng 2.0 Userspace Tracer (trace control library)
  The userspace tracer is designed to provide detailed information about
@@ -32950,23 +32950,23 @@ Description: LTTng 2.0 Userspace Tracer (trace control library)
 
 Package: liblttng-ust1t64
 Architecture: amd64
-Version: 2.15.1-1
+Version: 2.16.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ust
 Maintainer: Jon Bernard <jbernard@debian.org>
-Installed-Size: 1096
-Provides: liblttng-ust1 (= 2.15.1-1)
-Depends: libc6 (>= 2.38), liblttng-ust-common1t64 (= 2.15.1-1), libnuma1 (>= 2.0.11), liblttng-ust-ctl6 (= 2.15.1-1)
-Breaks: liblttng-ust1 (<< 2.15.1-1)
+Installed-Size: 1143
+Provides: liblttng-ust1 (= 2.16.0-2)
+Depends: libc6 (>= 2.38), liblttng-ust-common1t64 (= 2.16.0-2), libnuma1 (>= 2.0.11), liblttng-ust-ctl6 (= 2.16.0-2)
+Breaks: liblttng-ust1 (<< 2.16.0-2)
 Replaces: liblttng-ust1
-Filename: ./liblttng-ust1t64_2.15.1-1_amd64.deb
-Size: 255128
-MD5sum: 233f80bf69fbafc9c72888a10e58d593
-SHA1: f34c54e51e8b61225d700d0e776f8c4766b0cd60
-SHA256: b441f20c3a696d9c5633868580b4730ac92c5a8c724a2f220f21e26d3b020172
-SHA512: 671caf83203979225e90b2a9f9325161a6620f5f555235002ca96d3592a947728f393588044f3b91b6ad42cb8e1129c2e82e701afd223ec19fa5243607d3621c
+Filename: ./liblttng-ust1t64_2.16.0-2_amd64.deb
+Size: 268216
+MD5sum: 0942f10c10c9b8792dcb2dc7b783ae6f
+SHA1: 3dc58f4029e09fd28a452ae4bdc417a38511d4bd
+SHA256: 0da90ec7c0453efa3140068ce025b0bc2e99be1a31393be2038182682ef8110f
+SHA512: 320d4f1ebdd163fd3966bba7844e24bfb23b65037270be081aa539b0d640379c337a259ba0974a92ecc3ed66fb3645014b899d1e5a5018a790ba76f78d334506
 Homepage: https://lttng.org/
 Description: LTTng 2.0 Userspace Tracer (tracing libraries)
  The userspace tracer is designed to provide detailed information about
@@ -35689,21 +35689,21 @@ Description: Off-the-Record Messaging library
 
 Package: libpackagekit-glib2-18
 Architecture: amd64
-Version: 1.3.6-1
+Version: 1.4.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: packagekit
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 459
+Installed-Size: 472
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0)
-Filename: ./libpackagekit-glib2-18_1.3.6-1_amd64.deb
-Size: 115028
-MD5sum: ae63fe525b43f3d27ca042e72c69b0a2
-SHA1: 3870c05da355a35df97a29b7bcebb3d3d54473ee
-SHA256: d83ce8cace13ced4cd4293cfeada8b7fb4b6159f6f1035607f360f7e80d5e04d
-SHA512: d9dfd6368d9a979d945e0d52e10ff89e94e017a7e4564bea956160744f453288ac26434c40ea326cbc442ac920bfe6067f1f81a647494d70b23e1d2361ba3946
-Homepage: https://www.freedesktop.org/software/PackageKit/
+Filename: ./libpackagekit-glib2-18_1.4.0-1_amd64.deb
+Size: 120472
+MD5sum: 0f357e956feea9edfa18ba287be2c374
+SHA1: 58d664e01372df6f819a05f4f4e813d6fa093543
+SHA256: ad235a10665e33ad4ecaa09550100092625ab717da35e3cd6937ade0bcadcd2a
+SHA512: 6ff0f9cdede5ec8c86ada5f83ff1da1dd497cba67a764e8b56197bd457ceac7d76938afe65405e5a8761022c448ea2ef790afb43afd60fedff64c94c8a1e45ae
+Homepage: https://packagekit.freedesktop.org/
 Description: Library for accessing PackageKit using GLib
  PackageKit allows performing simple software management tasks over a DBus
  interface e.g. refreshing the cache, updating, installing and removing
@@ -47392,20 +47392,20 @@ Description: module to create Excel spreadsheets
 
 Package: libsrt1.5-gnutls
 Architecture: amd64
-Version: 1.5.6-1
+Version: 1.5.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: srt
 Maintainer: Florian Ernst <florian@debian.org>
-Installed-Size: 1034
+Installed-Size: 1002
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.7.0), libnettle8t64, libstdc++6 (>= 14)
-Filename: ./libsrt1.5-gnutls_1.5.6-1_amd64.deb
-Size: 353180
-MD5sum: 4679385c41eda81a25463f39a5df0dc3
-SHA1: 282d55ad7a5974aaab570e2bcab9c65a173e7fd8
-SHA256: 5eaff3b73f812e9067ecf8aeb54d673f10d96ef9d1627fc12672240875ac30b8
-SHA512: 38339dbe37c7e7755bdc306ce34c640e760f807ffedf5d0eb110b81d1692ca802f269c3a0ae279be732ca93193a13b445063d09aeb95f4da14b8e0ad9e06fd4c
+Filename: ./libsrt1.5-gnutls_1.5.7-1_amd64.deb
+Size: 357544
+MD5sum: 5eb179eba51b638adbdafbf99a99414f
+SHA1: 977104c78b063bcadda2f9beb1ba4518e40fda12
+SHA256: 2e763c59091d9eccdca7256dfd32a45acd60f83b42f9d4126b68645d0da3906e
+SHA512: 61cbd2f5ea04d25e0182ad1545fee3590e16a1158964ddc7736ffda7fb284ec0da114dcf27c3630b73367a2a09e274696c68d1ce117df6b25e89970f11d706fc
 Homepage: https://github.com/Haivision/srt
 Description: Secure Reliable Transport UDP streaming library (GnuTLS flavour)
  SRT is a latency-aware UDP transport mechanism optimized for video streams.
@@ -49186,7 +49186,7 @@ Description: LibreOffice UNO runtime environment -- (Java) UNO loader
 
 Package: libupower-glib3
 Architecture: amd64
-Version: 1.91.3-1
+Version: 1.91.4-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -49195,12 +49195,12 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 171
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0)
 Recommends: upower
-Filename: ./libupower-glib3_1.91.3-1_amd64.deb
-Size: 39724
-MD5sum: 58deb37cbb82452ae2585ab8624df242
-SHA1: f02e5fa4f47325da726160fa3f6f536c6d48621d
-SHA256: 1f9d426ec6dda2d158655cff9495552cf8e4dfdaf2e7a9ca71be5036af49fcc6
-SHA512: a97756ec1926e6e0dd2318c4b4caffb53a8f9a3125daec26713942b4a8a25b78dc38181230f2caefac514f7d9d0afdf4378cfa2de70651552ecca45bb7eee341
+Filename: ./libupower-glib3_1.91.4-1_amd64.deb
+Size: 40452
+MD5sum: e5ae27d64650867a2a7a6a6c3c735b88
+SHA1: 00a0bcffc2f95fe0ecca004c60a07776d348624f
+SHA256: cf0b8b4818117f149cadcc102106684a64bb93a8e15f34bb005483f8fa77b6ff
+SHA512: e4a5b5b3fe838c40d8a0f43719d3b1e564e99880e365f254e6add87bf73031ffb0a90e4140ab509fe979502d2414540a82a2988d42d7c5cb75c8958671459a6b
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management - shared library
  upower provides an interface to enumerate power sources on the system
@@ -49431,19 +49431,19 @@ Description: Library of free natural language processing tools
 
 Package: libvpl2
 Architecture: amd64
-Version: 1:2.16.0-1
+Version: 1:2.17.0-1
 Priority: optional
 Section: libs
 Source: libvpl
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
-Installed-Size: 430
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
-Filename: ./libvpl2_1%3a2.16.0-1_amd64.deb
-Size: 134620
-MD5sum: 1eaebecf9359d7edd8cffe9ed29faa76
-SHA1: adb70e24243ea6fbb9f8abb04eec656c632106f7
-SHA256: fbbf7b6021625aa4c5159ebb0a86ff37f1c3be1f10630affb829febdafac929c
-SHA512: b4ce611ef724703a49624249f723439b884899e263a656994b8fe8eaeb8fcd0ea636362487d5098f3fa1b2f685926ecd9ac9eb4d402c0c6c288736b6ab7d41f5
+Installed-Size: 445
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libvpl2_1%3a2.17.0-1_amd64.deb
+Size: 145180
+MD5sum: fc80cdb5517be194ec58044ec54a9a30
+SHA1: 1951ed739dccfc923d6e302c04dff6d6b5d9f6e0
+SHA256: f5318e8e045771db4ff44b0ded97a68199055d82a7e8cda1bbf00dffdc93406e
+SHA512: 1dd20615ba2d42f7dfceb217e6e1ff25dfd0811a43eb8c5a9b18f2f2ae588b7fa29329031fe8db625c02cdaf90cb6ed51ed1d27d2ad33026fff28aeac073136d
 Homepage: https://github.com/intel/libvpl
 Description: Intel Video Processing Library -- shared library
  Intel Video Processing Library (Intel VPL) provides access to hardware
@@ -49563,7 +49563,7 @@ Description: Terminal emulator widget for GTK 4 - runtime files
 
 Package: libwacom9
 Architecture: amd64
-Version: 2.18.0-1
+Version: 2.20.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -49571,13 +49571,13 @@ Source: libwacom
 Maintainer: Timo Aaltonen <tjaalton@debian.org>
 Installed-Size: 83
 Depends: libc6 (>= 2.38), libevdev2 (>= 1.6.901), libglib2.0-0t64 (>= 2.68.0), libgudev-1.0-0 (>= 146), libwacom-common
-Suggests: libwacom-bin (= 2.18.0-1)
-Filename: ./libwacom9_2.18.0-1_amd64.deb
-Size: 27000
-MD5sum: 775ac3d5011917ec563436ead2b7369d
-SHA1: 94db6840bb9314258842e0280701c2c9301df090
-SHA256: 8db015ab8737977615e42e43304f45ed534f41535c5d799b9f6ae9bdf60233fe
-SHA512: 77ee806a9b0f88be4645f558e6864877289b9b7b273b79602d8b9b7c0c077b69fe1b323dfd61d0a147f9082b772888656719ebb296960270e43374e58447d7c4
+Suggests: libwacom-bin (= 2.20.0-1)
+Filename: ./libwacom9_2.20.0-1_amd64.deb
+Size: 26520
+MD5sum: e25981c0b62a8b2f26d7d5a00c2b86cc
+SHA1: f2b4164cb0823a44cfd2e0a0f4ac62ebb8b55348
+SHA256: 20542df020f98ddf199702b8a93ca922e0b28406af7f945cda9c188dca4bb1c3
+SHA512: fe9ce1a45f9afe0c1e973ce42c641a1d847f65d64778b590ad1c4cd36645a02fe4737867dee15f99aed859b254e159dd398d46d621a2f10cc8e64bb01413df3f
 Description: Wacom model feature query library
  libwacom is a library to identify wacom tablets and their model-specific
  features. It provides easy access to information such as "is this a built-in
@@ -56525,22 +56525,22 @@ Description: transitional package
 
 Package: packagekit
 Architecture: amd64
-Version: 1.3.6-1
+Version: 1.4.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 3896
-Depends: libglib2.0-bin, polkitd, libappstream5 (>= 1.0.0), libapt-pkg7.0 (>= 1.9.2), libc6 (>= 2.38), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.80.0), libgstreamer1.0-0 (>= 1.0.0), libjansson4 (>= 2.14), libpackagekit-glib2-18 (>= 1.3.3), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), libsystemd0 (>= 214)
+Installed-Size: 3852
+Depends: libglib2.0-bin, polkitd, init-system-helpers (>= 1.66~), libappstream5 (>= 1.0.0), libapt-pkg7.0 (>= 1.9.2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer1.0-0 (>= 1.0.0), libjansson4 (>= 2.14), libpackagekit-glib2-18 (>= 1.4.0), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 16), libsystemd0 (>= 214)
 Recommends: appstream
 Breaks: plymouth (<< 0.9.5)
-Filename: ./packagekit_1.3.6-1_amd64.deb
-Size: 821892
-MD5sum: fedd9aa2915dab8175fbbd243c80557a
-SHA1: 8c07e3ef8cada43d365558d04d8005767e5624eb
-SHA256: 059a0682732f76f4495ddbbf370b523af032e1628ec913132a594f359282c5bc
-SHA512: 0043f3d7a78e65420948b25245b62a99799f35754252b6553f70b409cc4e6dbb708d476cd32069861eeb1f1c05c8d59e1721b979ead8c8e5431f451e8ed0d086
-Homepage: https://www.freedesktop.org/software/PackageKit/
+Filename: ./packagekit_1.4.0-1_amd64.deb
+Size: 806880
+MD5sum: 5e81f652d18b9a153570b649e36b8bd9
+SHA1: b3157bc6e94a02d3ef4d2ed6ea9e07bca4c983b0
+SHA256: dd24b4e671b34fb03ba4adf844e774f0455a7d9f2627b333811bea8caf5bdaca
+SHA512: 902fa5363a0c05f94a420d48dad779f4c7ec43f847e32ee38a5b04646763e7f211707eccc52afa4e41d50f98655aeb0abab92849cd2323fec837dde1b3504c18
+Homepage: https://packagekit.freedesktop.org/
 Description: Provides a package management service
  PackageKit allows performing simple software management tasks over a DBus
  interface e.g. refreshing the cache, updating, installing and removing
@@ -63596,23 +63596,23 @@ Ruby-Versions: all
 
 Package: ruby-rubygems
 Architecture: all
-Version: 4.0.18-1
+Version: 4.0.20-1
 Multi-Arch: foreign
 Priority: optional
 Section: ruby
 Source: rubygems
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 1807
+Installed-Size: 1811
 Depends: ruby:any, ruby
 Breaks: ruby (<< 1:2.7+2~)
 Replaces: ruby (<< 1:2.7+2~)
-Filename: ./ruby-rubygems_4.0.18-1_all.deb
-Size: 413404
-MD5sum: db37dc374889fdc43124d005b3df2f99
-SHA1: 9372d109d43dc0fc27c14e04dd369fe5683a9032
-SHA256: 578bed447d36ff13a215184e39a3be6637aacd01a9ec5c8377a523cd7854f894
-SHA512: 00d7de9ee9c8dcd3e9dc3f8d887d8c14e62e9e4e085c8889f2cf9386fd062d997558ebbbe9871dc7cf429d9e743f6673b04f0195993c5749f4cbb3b61a4f6f1a
-Homepage: https://rubygems.org
+Filename: ./ruby-rubygems_4.0.20-1_all.deb
+Size: 414688
+MD5sum: 416a5d9e8254875ee4ac942af7638e2e
+SHA1: 786ae4dd9f3d20d4524f4cb01dfede53b5846a0c
+SHA256: ceba4bd3cc47b74f41697ae38bfeba991672bed1aecb630a8cce05849bbd40d5
+SHA512: b07b60f2a67befffa9242f0d53478bcb6a81370935e2904e558d3fdb3dfc06eb9fd70e2bced74c8f4cc8b3e5d6fd7367573223f411f26f54b2517d7096c06cc4
+Homepage: https://github.com/ruby/rubygems
 Description: Package management framework for Ruby
  A package (also known as a library) contains a set of functionality that can
  be invoked by a Ruby program, such as reading and parsing an XML file. These
@@ -70828,20 +70828,20 @@ Description: remove LaTeX commands from input
 
 Package: upower
 Architecture: amd64
-Version: 1.91.3-1
+Version: 1.91.4-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 361
-Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.3-1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.99)
+Installed-Size: 370
+Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.4-1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.99)
 Recommends: polkitd
-Filename: ./upower_1.91.3-1_amd64.deb
-Size: 105648
-MD5sum: f83088105458558dbc190fb4e9618e75
-SHA1: 66ab7485e08a8d1cd35ec255d6f3d8313559397f
-SHA256: f15c478a7f8aefc26cdfb4a0a8346e3cd0f5bd99f5d20ff6fbaced385a93f2a1
-SHA512: f9da5763d836afa8eee4517cbc8c92ae0ed446db2e3bb276c0642e261c00be64f19fa8db1c7929608d12b7bebe05a91abb8a9f641628b79dbe88978ade49dcbf
+Filename: ./upower_1.91.4-1_amd64.deb
+Size: 110012
+MD5sum: d9fe1adca5773ce47862753b9277d38c
+SHA1: 012cdc7b924191180093cb17ceb2abf2ce1eec63
+SHA256: 4f6b3ca46e6283594f643642fa52f8fb6b907e3ebc58f228911b283f535b77f4
+SHA512: 9f2921042eab9a95cc366cd3a3ca5d330f88a49036eb65b8ca7fa441d0a0c04e9488378c4e140a223daa018edce3f7f1ab1ccfb3e111018426e2f93e9f017c33
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management
  upower provides an interface to enumerate power sources on the system
