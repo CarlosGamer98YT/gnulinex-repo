@@ -6543,20 +6543,20 @@ Description: Open-source, libre fonts for Latin + Gujarati
 
 Package: foot
 Architecture: amd64
-Version: 1.27.0-1
+Version: 1.28.0-1
 Priority: optional
 Section: x11
 Maintainer: Birger Schacht <birger@debian.org>
-Installed-Size: 694
+Installed-Size: 706
 Provides: x-terminal-emulator
-Depends: libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Depends: libc6 (>= 2.43), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.24.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
 Suggests: foot-themes
-Filename: ./foot_1.27.0-1_amd64.deb
-Size: 302712
-MD5sum: 17ce3ffb6c05e2f8bcf15562e478109d
-SHA1: c438f2b5a8d8b7ce19dcb692d59dc4cff5e14965
-SHA256: b1b4445f2a4bcfc8d0a0141a1935826c916d20ed9d9674bdc49244aa7141bae6
-SHA512: f1f3d28b227728640232f3f95b5c88370f876c0b6cca69804c78081aa2de98b7e0d9a93b9326c11db9275205527803ce5be809e5cc4b0fe8741ab5eae6ab9882
+Filename: ./foot_1.28.0-1_amd64.deb
+Size: 307680
+MD5sum: 5509166f221e5e54a2efc6a8800fc4b6
+SHA1: b161d873fe1bb6f3904055ff0d9a16dd47abb8b7
+SHA256: f8d910d2446410af73b47d296d045ef464ea0cfa3a5aa74c1bf230c03e5ed3f2
+SHA512: 0c384548ebb2cb00c871feadc26882a54fdfc76a819e59bcbfd473c776dfa0907d99b7a578031953cbf9455b050a90bfeb85d154c672d3ebbed97263b3075a32
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator
  The fast, lightweight and minimalistic Wayland terminal emulator.
@@ -7916,20 +7916,20 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-girepository-3.0
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 110
-Depends: gir1.2-glib-2.0 (= 2.89.4-2+b1), libgirepository-2.0-0 (= 2.89.4-2+b1)
-Filename: ./gir1.2-girepository-3.0_2.89.4-2+b1_amd64.deb
-Size: 45044
-MD5sum: e64fbdf874b64651d6716fa6a32ca513
-SHA1: 95881fb12e5cb0870be9c51e0402fd22c0bef8cf
-SHA256: 06feffa015abe1d9387d0114a2e4c595d56d84d11a6f3059288f5e607b0ef10a
-SHA512: 8b540b97d221a9ed78c9cdd4a904fe5422559547ec325dcb6a7cc14d48c72d668db01629adf87a41323c30d579d61d7ca49120959d3f2455e2cbaf34fec99b02
+Installed-Size: 109
+Depends: gir1.2-glib-2.0 (= 2.90.0-1), libgirepository-2.0-0 (= 2.90.0-1)
+Filename: ./gir1.2-girepository-3.0_2.90.0-1_amd64.deb
+Size: 44788
+MD5sum: cc016d6758edecd89ca5c1005395dda4
+SHA1: 687cc97810e7a9a586912d8f839d65e38ad83a50
+SHA256: f9b615093e604212d5b8d10cb63379ced47207cf8f6e7c751401b8aeb82e01a1
+SHA512: 3947c04455a013e232b31a7127acf6c913a92ec63e265498fad8bf57ed607b4c5f74ae947b64f4ffd7141f26790de83fc51278a01bada4265ced576bd5777c6b
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GIRepository library, API version 3.0
  GObject Introspection is a project for providing machine readable
@@ -7944,23 +7944,23 @@ Description: Introspection data for GIRepository library, API version 3.0
 
 Package: gir1.2-glib-2.0-dev
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11650
-Provides: gir1.2-gio-2.0-dev (= 2.89.4-2+b1), gir1.2-giounix-2.0-dev (= 2.89.4-2+b1), gir1.2-glibunix-2.0-dev (= 2.89.4-2+b1), gir1.2-gmodule-2.0-dev (= 2.89.4-2+b1), gir1.2-gobject-2.0-dev (= 2.89.4-2+b1)
-Depends: gir1.2-glib-2.0 (= 2.89.4-2+b1)
+Installed-Size: 11649
+Provides: gir1.2-gio-2.0-dev (= 2.90.0-1), gir1.2-giounix-2.0-dev (= 2.90.0-1), gir1.2-glibunix-2.0-dev (= 2.90.0-1), gir1.2-gmodule-2.0-dev (= 2.90.0-1), gir1.2-gobject-2.0-dev (= 2.90.0-1)
+Depends: gir1.2-glib-2.0 (= 2.90.0-1)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~), libgirepository1.0-dev (<< 1.78.1-7~)
 Replaces: libgirepository1.0-dev (<< 1.78.1-7~)
-Filename: ./gir1.2-glib-2.0-dev_2.89.4-2+b1_amd64.deb
-Size: 908180
-MD5sum: d52ae2aec652c93ad0871277987fa99c
-SHA1: c43525781e3e6de819847529982448d326ba663f
-SHA256: da0bb3bce3503ed1b79bb9cae72f2d80deb8ebb93567f94c7e212071105421d5
-SHA512: 8851c45113fb33323b04c816cc8060a9110872544e0334eba1bc315c401dffeabca833279942c81e7f7064ff4c98be44466df36ff58ad3f1ff61bc958e3a2bd5
+Filename: ./gir1.2-glib-2.0-dev_2.90.0-1_amd64.deb
+Size: 907948
+MD5sum: c9e0dbcc2ae96781e79caf1f464ae957
+SHA1: 5e3f1fe42a535673a5128512a6724421e7e33473
+SHA256: 761385a5ec53c18badf02f1fa2f253054d2a2128f71c572fafd6c4ff87d129ab
+SHA512: 18a8a558942b2fa2b399d40a786fb6a14c790f09d34c2e208e2171fd81b42835795950b21f17f3eef26eeab8e0dc5e1547f52f646dba35d39241750b640f208a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GIR XML for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -7975,22 +7975,22 @@ Description: GIR XML for GLib, GObject, Gio and GModule
 
 Package: gir1.2-glib-2.0
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 749
-Provides: gir1.2-gio-2.0 (= 2.89.4-2+b1), gir1.2-giounix-2.0 (= 2.89.4-2+b1), gir1.2-glibunix-2.0 (= 2.89.4-2+b1), gir1.2-gmodule-2.0 (= 2.89.4-2+b1), gir1.2-gobject-2.0 (= 2.89.4-2+b1)
-Depends: libglib2.0-0t64 (= 2.89.4-2+b1)
+Installed-Size: 748
+Provides: gir1.2-gio-2.0 (= 2.90.0-1), gir1.2-giounix-2.0 (= 2.90.0-1), gir1.2-glibunix-2.0 (= 2.90.0-1), gir1.2-gmodule-2.0 (= 2.90.0-1), gir1.2-gobject-2.0 (= 2.90.0-1)
+Depends: libglib2.0-0t64 (= 2.90.0-1)
 Breaks: awesome (<< 4.3-8~), cinnamon (<< 6.4.12-1~), gnome-menus (<< 3.36.0-4~), gnome-shell (<< 48.5-3~), libgirepository-1.0-1 (<< 1.78.1-3~), libgjs0 (<< 1.87.2~), libgjs0g (<< 1.82.3-2~), python3-gi (<< 3.55.3~)
-Filename: ./gir1.2-glib-2.0_2.89.4-2+b1_amd64.deb
-Size: 180956
-MD5sum: aaf7e351af70e03095dece4dcb63977d
-SHA1: 9c58d10705d84442ba9f3e776a98953af5f5b52d
-SHA256: 3c54a31af3058e7f4348e7e49fba713009ffde9769c4307d56a092d6489997cb
-SHA512: b6d1922bf96fb893bdc9b1228c2881f5b3b9f958b9cb9b0c06bd5815593fcc6a19ff7e7e73ec53ea6f310ccdbb3d6eeea1712402517a179551a123a78033a195
+Filename: ./gir1.2-glib-2.0_2.90.0-1_amd64.deb
+Size: 180644
+MD5sum: 2d1bb3b399fccadd4cb8a208841e084c
+SHA1: 9ddb125976188f165f3dc99c3b177f28fa28b4ad
+SHA256: d33f054e19e8537fa8d1501a3ef52c92b3f1c6bcc50a114fb2abd169c96ac0e3
+SHA512: 79d6015eabf95134c480d14da4ac6aa75112db867dfd149b3feee8701cb8d76c9325ecf5f9ebbe52d020e62a8be43545662250bd9449fe5ff4ac934d83fa8e4a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -8215,21 +8215,21 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 556
-Provides: gir1.2-gstallocators-1.0 (= 1.28.6-2), gir1.2-gstapp-1.0 (= 1.28.6-2), gir1.2-gstaudio-1.0 (= 1.28.6-2), gir1.2-gstgl-1.0 (= 1.28.6-2), gir1.2-gstglegl-1.0 (= 1.28.6-2), gir1.2-gstglwayland-1.0 (= 1.28.6-2), gir1.2-gstglx11-1.0 (= 1.28.6-2), gir1.2-gstpbutils-1.0 (= 1.28.6-2), gir1.2-gstrtp-1.0 (= 1.28.6-2), gir1.2-gstrtsp-1.0 (= 1.28.6-2), gir1.2-gstsdp-1.0 (= 1.28.6-2), gir1.2-gsttag-1.0 (= 1.28.6-2), gir1.2-gstvideo-1.0 (= 1.28.6-2)
+Installed-Size: 559
+Provides: gir1.2-gstallocators-1.0 (= 1.28.7-1), gir1.2-gstapp-1.0 (= 1.28.7-1), gir1.2-gstaudio-1.0 (= 1.28.7-1), gir1.2-gstgl-1.0 (= 1.28.7-1), gir1.2-gstglegl-1.0 (= 1.28.7-1), gir1.2-gstglwayland-1.0 (= 1.28.7-1), gir1.2-gstglx11-1.0 (= 1.28.7-1), gir1.2-gstpbutils-1.0 (= 1.28.7-1), gir1.2-gstrtp-1.0 (= 1.28.7-1), gir1.2-gstrtsp-1.0 (= 1.28.7-1), gir1.2-gstsdp-1.0 (= 1.28.7-1), gir1.2-gsttag-1.0 (= 1.28.7-1), gir1.2-gstvideo-1.0 (= 1.28.7-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstbase-1.0 (>= 1.28.3), libgstreamer-gl1.0-0 (>= 1.27.2), libgstreamer-plugins-base1.0-0 (>= 1.27.50)
-Filename: ./gir1.2-gst-plugins-base-1.0_1.28.6-2_amd64.deb
-Size: 166488
-MD5sum: 260196882b592244d292d95d6428c98d
-SHA1: 20c5264299bda98cbce4d8d3e43e49112e99db51
-SHA256: 063b5ae305182b081c7f208cd360141bb7cf13f1e04c86a8dcf52d42a0606099
-SHA512: df99ce1f69e2c149d1ffcd919366f1bab1060121d3ec50565a8fbc7152ce9fecec2c0c50a8638d3c8e58e61e4f3ff764a0741d38d25f8fbf34238678d24019dc
+Filename: ./gir1.2-gst-plugins-base-1.0_1.28.7-1_amd64.deb
+Size: 169340
+MD5sum: 649861a4186f629af98961a3627be375
+SHA1: 73cf10148e7eeaa72b4a439324e39a17ee6f3099
+SHA256: c0c0b973d00e6c3436f89467477cd3f417c97a0ebb8e85ac72c5a40595efe6a4
+SHA512: 172caf6dc8f7929b86d4cbd636609f438b1c49a2788e3122756a5173a3f7a718ccd1a309e295123aa201ac78ca6201a3f7e5e6568f2b013b702c5faab5888d4d
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer Plugins Base library
  This package contains introspection data for the GStreamer Plugins Base
@@ -8247,21 +8247,21 @@ Description: GObject introspection data for the GStreamer Plugins Base library
 
 Package: gir1.2-gstreamer-1.0
 Architecture: amd64
-Version: 1.28.4-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 428
-Provides: gir1.2-gst-1.0 (= 1.28.4-2), gir1.2-gstbase-1.0 (= 1.28.4-2), gir1.2-gstcheck-1.0 (= 1.28.4-2), gir1.2-gstcontroller-1.0 (= 1.28.4-2), gir1.2-gstnet-1.0 (= 1.28.4-2)
+Installed-Size: 432
+Provides: gir1.2-gst-1.0 (= 1.28.7-1), gir1.2-gstbase-1.0 (= 1.28.7-1), gir1.2-gstcheck-1.0 (= 1.28.7-1), gir1.2-gstcontroller-1.0 (= 1.28.7-1), gir1.2-gstnet-1.0 (= 1.28.7-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libgstreamer1.0-0 (>= 1.28.3)
-Filename: ./gir1.2-gstreamer-1.0_1.28.4-2_amd64.deb
-Size: 120692
-MD5sum: b06baa5478301fc5b38a1687d2eefa28
-SHA1: d5265eab75a2ce1cdbb4abb35795a4cb1debc8dc
-SHA256: 5a1123db0f7a053fcdfb4c4f079d31d7d8a00bbee383779c2a6592f68a36431d
-SHA512: 7d8ecba8cd6b9db236c47e14ece53dafa6ca2e78a397edb6aabc0a379edd386a09bc8ef48d31a1aeb302d099b303e95f41ce183c36c803fcfd13376e6ef25a52
+Filename: ./gir1.2-gstreamer-1.0_1.28.7-1_amd64.deb
+Size: 125380
+MD5sum: b6688bc69e35b1203ffffb369473c12a
+SHA1: 92bc273e889c907ed416266173b8fb3acaa093ac
+SHA256: 3b1b834040e60c3650bce74a4fc0cca9853bf51cf5a97126f94730a6ae8080b3
+SHA512: c6e7bc519028acfa29c841b36079e7df0b419e3ebd4a77b5ae317080b2f203efc7493242a8c6f9d0fdf045da414b8231680578c10347ab51f9739cc57d03bc59
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer library
  This package contains introspection data for the GStreamer streaming media
@@ -9524,22 +9524,22 @@ Description: GObject introspection data for libxmlb
 
 Package: girepository-tools
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 374
-Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.89.4-2+b1), libglib2.0-0t64 (= 2.89.4-2+b1)
+Installed-Size: 373
+Depends: native-architecture | cross-exe-wrapper, libc6 (>= 2.38), libffi8 (>= 3.4), libgirepository-2.0-0 (= 2.90.0-1), libglib2.0-0t64 (= 2.90.0-1)
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./girepository-tools_2.89.4-2+b1_amd64.deb
-Size: 137876
-MD5sum: fea9d536f1bf2223510a01885f90e0b5
-SHA1: 4d2d00955d1cfc6683d51c56ad40f26c2cc7b97b
-SHA256: af526b0223e4ea063859bad180fdd0628fbc4c013a64f97a1a36a81d9bee56b7
-SHA512: f02d43cc269ed7fdca5f73d27d85107f3adc8d04ba4668f34aba536a97604aa6382023c96ffc6d37de506aa4d34863244db0ee24f0d76e32b2164a2fc1cd8b63
+Filename: ./girepository-tools_2.90.0-1_amd64.deb
+Size: 137572
+MD5sum: f2b56b23f60a44b4bfcb5732633ace18
+SHA1: c045505adc9557954a1bd8c7b7d6f9d56fc7503b
+SHA256: d113d16ba89294862ef20b87dfeb6d3661407088f83acd2c9c34065eb9d22047
+SHA512: 20ade788379b9f29a156516968d08788214c424f6cddc4911c593117bff21834ae7c9a0d5235b436945e8dfba7ba7bd34530bf7ffe7316026104dbc9551c6f5c
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Tools for working with GObject-Introspection repositories
  GLib is a library containing many useful C routines for things such
@@ -12201,23 +12201,23 @@ Description: GSettings desktop-wide schemas
 
 Package: gstreamer1.0-gl
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 486
+Installed-Size: 489
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Depends: libc6 (>= 2.29), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-gl_1.28.6-2_amd64.deb
-Size: 189524
-MD5sum: 32477c6b6214a8411f4663f68ec7a52b
-SHA1: 644e68b211680cb8db131b7031e3b884e07778be
-SHA256: f690e3b3d588b187ce8373f6f073fb0f0a73b729cb1ead4743213ef99a3b1c9f
-SHA512: 400cba6cb0f56716195258bead3a62b00e6ea99b8e4f421d6a4078974546ce3bc61827131d8b6ece9cd032217b95ccab6eb157a5b4a110bcb647b0054acaac7d
+Filename: ./gstreamer1.0-gl_1.28.7-1_amd64.deb
+Size: 192464
+MD5sum: 3e5899a0f9d47fe0fa73f35a5ed18ff2
+SHA1: 8429267ff471237ff085d5fe33faac3172d68e32
+SHA256: 7b997d42b48dbee20bb1813069694e341c567de8bf49fecc509256691d188f70
+SHA512: f8fde5c6c3eaf5f4fdcebbf949d3a7e4d1fff2eabf58aa957306e374b267ff232c21068e3e2261c3318f90835eb42c83e4a4b1290b405f81ebb2f942f5e07cd2
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for GL
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12410,24 +12410,24 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-plugins-base
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2688
+Installed-Size: 2691
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.81.1), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
 Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
-Filename: ./gstreamer1.0-plugins-base_1.28.6-2_amd64.deb
-Size: 821904
-MD5sum: f649ef33587457c71acbda3d7ad29499
-SHA1: c0443f2ab35e6d09150b2cff825fbc330446a094
-SHA256: e36b21cb643045fe6a034ebf1b4d61aa846953a59a47e615d842e2869c2caad0
-SHA512: 7995b5970a647c2cd34f334787ec2fd974224438e38ffd34a4a077d5982f7cb5a8607885005a00ac9dd8ceaaa241a869c77f6d96b80c9483e5e8c9be33aa8d77
+Filename: ./gstreamer1.0-plugins-base_1.28.7-1_amd64.deb
+Size: 825172
+MD5sum: 7133e5af8eb75db28060229a0e0dfe0a
+SHA1: a0662cd623f2731b5615ffc4942269246461123d
+SHA256: a70152fd1c2243d8581f3f4eebd367e6f546e8f05795207bd7d3c476a1ad6c0e
+SHA512: 1ac35da38ac4213c22e0db6e5c282c62d2dad4b1b284fefa741a35d4736a1c9040139f968018bfc406164ff3b131f1c674487a3d24a83ae301f7b24ce863e784
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -12486,21 +12486,21 @@ Gstreamer-Version: 1.28
 
 Package: gstreamer1.0-x
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 383
+Installed-Size: 386
 Provides: gstreamer1.0-videosink
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1 (>= 2:1.0.13)
-Filename: ./gstreamer1.0-x_1.28.6-2_amd64.deb
-Size: 151832
-MD5sum: e7856509d5b82409c7dafc759d4e8410
-SHA1: 786ef576b1d54891323b6a31691306d0b5ba72d3
-SHA256: c4d76d18464f07671e179baf51befc4bff760d2e33a4e5047b260d4150f3cd6a
-SHA512: d86fb91ec74a1477ff4feeacbe95db0eb011392fc98ab75beaaafdbd893685653cda89c76bd7e90a229cb558c94539b408daa6bcea5afae52fa49e2ae57a7b46
+Filename: ./gstreamer1.0-x_1.28.7-1_amd64.deb
+Size: 154620
+MD5sum: 4f8f5bab23936dd6e41036c5d4c64dcd
+SHA1: 327b40b8a82046ce46a6dd4d61564582cca1da44
+SHA256: 4ba99414e79283b06c296e76ccde9d4fbde7e31e182d0491b88f4a5b7c005eef
+SHA512: 40b042346458281252ff7a2042fa8bc3b637a95621e5df1e3ac9d7c1eb97cb843822dd75bc39ef2d86690a621e24efdd38189d871326cec3160e88a461319b03
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins for X11 and Pango
  GStreamer is a streaming media framework, based on graphs of filters
@@ -22547,24 +22547,24 @@ Description: Libraries for the GNU Image Manipulation Program
 
 Package: libgio-2.0-dev-bin
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 695
-Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.89.4-2+b1)
-Recommends: libglib2.0-bin (= 2.89.4-2+b1)
+Installed-Size: 694
+Depends: python3-packaging, python3:any, libc6 (>= 2.38), libglib2.0-0t64 (= 2.90.0-1)
+Recommends: libglib2.0-bin (= 2.90.0-1)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev-bin_2.89.4-2+b1_amd64.deb
-Size: 152624
-MD5sum: dac0c7191290d32f1a8809d08f878686
-SHA1: 87b44995cc0fc1b690fcdeca7835dd48cef8e4d3
-SHA256: 3cc717dce3b2202b30149c4b53dbf0cb25db1e5d14438b9d909d51cde2618ad7
-SHA512: 72139463dd201891ccc0f33d76aeb76be7b33e295dfe6cf51bcf5313ecb6a5de4c8af59051fc4b2db66445432163f67ce3e146c0d48ab962b984480d11b36d0f
+Filename: ./libgio-2.0-dev-bin_2.90.0-1_amd64.deb
+Size: 152368
+MD5sum: 5b387c24ecaf00f20884279ce49e5ae4
+SHA1: 92206ae5629b530dd84958cc2abba5eb81e83f5e
+SHA256: c9dadbbee0b40a7dda1b96e44aa2ad35b9730324375d49e9e9c1c5be3ea5f0de
+SHA512: 767e3b865eaae58ad5bdb42444d8fa35221bee231c43bbbb2017a27629821a32e6520d447738e11ef8c827f8a2e9c6b99704c3ad4a5c8e0bd504acec53164c57
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22592,24 +22592,24 @@ Description: Development utilities for GLib, GObject and GIO libraries
 
 Package: libgio-2.0-dev
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 11082
-Depends: libffi-dev, libglib2.0-0t64 (= 2.89.4-2+b1), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
-Recommends: libgio-2.0-dev-bin (= 2.89.4-2+b1), libglib2.0-bin (= 2.89.4-2+b1)
+Installed-Size: 11081
+Depends: libffi-dev, libglib2.0-0t64 (= 2.90.0-1), libmount-dev, libpcre2-dev, libselinux-dev, libsysprof-capture-4-dev, pkgconf, zlib1g-dev
+Recommends: libgio-2.0-dev-bin (= 2.90.0-1), libglib2.0-bin (= 2.90.0-1)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
 Breaks: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
 Replaces: libglib2.0-dev (<< 2.83), libglib2.0-dev-bin (<< 2.83)
-Filename: ./libgio-2.0-dev_2.89.4-2+b1_amd64.deb
-Size: 1777880
-MD5sum: f6890fe43e44a04eb2e29cf14ac0c959
-SHA1: 52f7ad85981c63fb368bf2332393bf63deda7ee0
-SHA256: 926d1c0849b25895193fb08e6b3ff6a918e62895c405e5ee8acfab8a50464fcb
-SHA512: 13b12e8cc4de69190a68988abe8a6b57fdce8c34e60d0ce5f9e01d73332c74a99321cabf2e876f49fb5566bd72f5a45ba072270fa71741621d8bebe72e7f08b9
+Filename: ./libgio-2.0-dev_2.90.0-1_amd64.deb
+Size: 1778528
+MD5sum: 4ef3a864ee6d6ce279d7b7aed4a1060a
+SHA1: 17caf0f5a451acf3a6df5425172255f92eff49a5
+SHA256: 8dcd85fafe5e0a925a5b885dea9a574e5999efe18ddcf933dff10186cac70b44
+SHA512: 519b5468568ca303832a980f1731a31ce09fbeeeef257d85027a68e34a63295dd5b003a712f85b8784be2db09db335db74122f379f676791cce530a40a3d51db
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development files for the GLib, GObject and GIO libraries
  GLib is a library containing many useful C routines for things such
@@ -22661,21 +22661,21 @@ Description: Library for handling GObject introspection data (runtime library)
 
 Package: libgirepository-2.0-0
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 352
-Provides: libgirepository-2.0-0-with-libffi8 (= 2.89.4-2+b1)
-Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.89.4-2+b1)
-Filename: ./libgirepository-2.0-0_2.89.4-2+b1_amd64.deb
-Size: 130800
-MD5sum: b1f52c40a169a465560f3372629b4acc
-SHA1: 539a7ad85adf921483f5f95784d91c6ab5487d63
-SHA256: 24013e6ee55519b3ab70f31410c90f2fdbcfc573a3eacc0c135943b9319dfa29
-SHA512: 8ccd0803979c72239830fe438abdfaab6988b559a342144492deabca0f460fa1d672be17659bd05b1cae0a00b187f8887ff4598e6ac1f05eaa5c14211da3839e
+Installed-Size: 351
+Provides: libgirepository-2.0-0-with-libffi8 (= 2.90.0-1)
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libglib2.0-0t64 (= 2.90.0-1)
+Filename: ./libgirepository-2.0-0_2.90.0-1_amd64.deb
+Size: 130636
+MD5sum: 72335746bf1f33d7ec36d125c51b1bd3
+SHA1: 6ef24b631a8382efbe1b02fc27eca5c438fcdaf8
+SHA256: b012e7960fe60208b22df75fbbb818bf643647895478bf63da01008301c38e0c
+SHA512: 46b4966e7d75f49c561c8f9e8dcebdaa282a416c184bb6d5d4e4b9c68949f51b1fd0a6971a16e25f658acfe6fbd3e42824c0a01cbf75919cbcac5ce4d665414a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib runtime library for handling GObject introspection data
  GLib is a library containing many useful C routines for things such
@@ -22766,25 +22766,25 @@ Description: interface to the GLib and GObject libraries
 
 Package: libglib2.0-0t64
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4616
-Provides: libgio-2.0-0 (= 2.89.4-2+b1), libglib-2.0-0 (= 2.89.4-2+b1), libglib2.0-0 (= 2.89.4-2+b1), libgmodule-2.0-0 (= 2.89.4-2+b1), libgobject-2.0-0 (= 2.89.4-2+b1), libgthread-2.0-0 (= 2.89.4-2+b1)
+Installed-Size: 4615
+Provides: libgio-2.0-0 (= 2.90.0-1), libglib-2.0-0 (= 2.90.0-1), libglib2.0-0 (= 2.90.0-1), libgmodule-2.0-0 (= 2.90.0-1), libgobject-2.0-0 (= 2.90.0-1), libgthread-2.0-0 (= 2.90.0-1)
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.43), libffi8 (>= 3.4), libmount1 (>= 2.40), libpcre2-8-0 (>= 10.47), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
 Breaks: gnome-shell (<< 44.9-2~), libglib2.0-0 (<< 2.80.0-7~)
 Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Filename: ./libglib2.0-0t64_2.89.4-2+b1_amd64.deb
-Size: 1616684
-MD5sum: 4e7c803207bc203a54ff6eb113e7346f
-SHA1: 0961a91e0e7217bbc7758a0071007190ea8f4757
-SHA256: 3e283825fd0ce23e83a9d8f061ec74052be90848adc272e2d50b7c24dfdc70d8
-SHA512: cd779cbc2e91b7ad67895870eb97d1a734b340d86f8a21befb43f2ed3ca909c3764e72fc26f7ba5a8a6cc30a9c24a3cee2623c235d89d48fa462d650756c035a
+Filename: ./libglib2.0-0t64_2.90.0-1_amd64.deb
+Size: 1617620
+MD5sum: 4385ad4b73e3ac811cdd0f6b52efee5d
+SHA1: 03f76d4f65c9e78146f72f01093364be7113ce29
+SHA256: 9757d41c83fea6c45aec01a63fb94d962d8311db87fde6efba9cd83e0c2422f5
+SHA512: 4bd9abf7d3533ef6e02d2e79c1bbd80e0507137e354009a8321b36d3d0ba323c6b3f79ad3ff6b7ffa2cb9db4bcc2c1894cd21e68d890feec53d4ac540be3e46d
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
@@ -22795,20 +22795,20 @@ Description: GLib library of C routines
 
 Package: libglib2.0-bin
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 354
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.89.4-2+b1)
-Filename: ./libglib2.0-bin_2.89.4-2+b1_amd64.deb
-Size: 117696
-MD5sum: 1407f373cc0789cfa0d53ac97705113f
-SHA1: 8eb92aa4fcbb6a2373b0ed412a4480db59951572
-SHA256: 353aaeb1a4766f6cf3772359fa2ccf98ab671de18e5906541c8fb54fa2bdaed7
-SHA512: d2255bad8b79133c3c26aec3b04c837dab33df1d1eb1da2dedc6ea33ad306387085e8894a2a6d5a3d472a77e619c45e16fa01ef758515789bbff3db078cd592b
+Installed-Size: 353
+Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.90.0-1)
+Filename: ./libglib2.0-bin_2.90.0-1_amd64.deb
+Size: 117392
+MD5sum: 6d318735112025df7928e484f6332854
+SHA1: dd39ebf924638751c62b0462a7352d70673ef164
+SHA256: 26259b12ded5a4410d6e83478f950f94e245eef31a628447db07cf3d99b5f7c9
+SHA512: e0e56c9102bc37c830202726e0799880b41754e0ea97a5207eda5095384b0716068f21ed3592ae676b1c3b6a39bd86b1a57b00d9c352e79c30a27babf1e01422
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22828,19 +22828,19 @@ Description: Programs for the GLib library
 
 Package: libglib2.0-data
 Architecture: all
-Version: 2.89.4-2
+Version: 2.90.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 10231
-Filename: ./libglib2.0-data_2.89.4-2_all.deb
-Size: 1296924
-MD5sum: 88baadad6b32180c8aaf35f3f00545ae
-SHA1: b52bd4f16dfb3681c79e1e1b5a0c15d2d2a0849d
-SHA256: 15cef35e133e3d06894a9cd7b632c714caaacb7e688c9a8b5be74a8a6afe4efc
-SHA512: c6d2e97c5fd5675cbe1a89ad39ad789dcd27e02a8f05f02f0301fe5e1683b0ad933cc92b5ab00521eb6b50eeb62e9b667f0214a310f44525d5afada89068297f
+Installed-Size: 10252
+Filename: ./libglib2.0-data_2.90.0-1_all.deb
+Size: 1300512
+MD5sum: 9e4896ee37bacc121e3bd11df8861fc5
+SHA1: f2227102034b3af276050e4605a29ea022cbf88a
+SHA256: 4187b32719166336560028d0e69f644dfa1342235ff8d635cfca37c43eee5d07
+SHA512: f087c86ba63c2d9623658549e33b063c23014881230294df41c059068ff64b6177aba57310ac7f8485aad355b552602d45cfd0c5a9bd08ced6cf8c37f1ba5348
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
@@ -22852,21 +22852,21 @@ Description: Common files for GLib library
 
 Package: libglib2.0-dev-bin
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 86
-Depends: girepository-tools (= 2.89.4-2+b1), libgio-2.0-dev-bin (= 2.89.4-2+b1)
+Installed-Size: 85
+Depends: girepository-tools (= 2.90.0-1), libgio-2.0-dev-bin (= 2.90.0-1)
 Suggests: libgdk-pixbuf2.0-bin, libxml2-utils
-Filename: ./libglib2.0-dev-bin_2.89.4-2+b1_amd64.deb
-Size: 38848
-MD5sum: 3a58d7b1dd2fc85e5813759674f7403c
-SHA1: 32f3040a5809e6790690e60a6672809d4ca7a568
-SHA256: ce73752ac459dac0dcd155c396c8db3c9773949f744ddc26fc184a68f0170572
-SHA512: 728e25c0fb31684fabed53a13960b555ebcefd9d16dc43b1898b898941a2ea9fed5cc48c581a786764409b9a21f1424d14a951dd8f99cf9753217fda9692b400
+Filename: ./libglib2.0-dev-bin_2.90.0-1_amd64.deb
+Size: 38596
+MD5sum: 156ab240f5429a9e26a1b09a94f7bd5a
+SHA1: 637929a155c7deb5d902e176b71b3ed37a30e0ea
+SHA256: dad0403d4dc142a17f22e3b04a8c95f9dd4f03b723b808b4537cbb4d6d29c28e
+SHA512: b919cfa9dc70a698b080a2c64800421f0d83b74b4f284485b56506d28b64cc01d218eff05e112f026f7304e210baf3caf63f15ba15a5d35797bc7d821306ed51
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development utilities for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -22879,21 +22879,21 @@ Description: Development utilities for the GLib library
 
 Package: libglib2.0-dev
 Architecture: amd64
-Version: 2.89.4-2+b1
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: glib2.0 (2.89.4-2)
+Source: glib2.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 90
-Depends: girepository-tools (= 2.89.4-2+b1), libgio-2.0-dev (= 2.89.4-2+b1), libglib2.0-bin (= 2.89.4-2+b1), libglib2.0-dev-bin (= 2.89.4-2+b1)
+Installed-Size: 89
+Depends: girepository-tools (= 2.90.0-1), libgio-2.0-dev (= 2.90.0-1), libglib2.0-bin (= 2.90.0-1), libglib2.0-dev-bin (= 2.90.0-1)
 Suggests: gir1.2-glib-2.0-dev, libglib2.0-doc
-Filename: ./libglib2.0-dev_2.89.4-2+b1_amd64.deb
-Size: 39564
-MD5sum: b22bf655fce6ba8563c55333eb5da330
-SHA1: 44c32cf29cfd5521b9f1bf1f38b643aa84c67149
-SHA256: 921474e2f3cb7aa1281ca5c033084c2b462bc2c5570c6b6fb156009836a3f5db
-SHA512: 2bfbb746c1d1c3cb2c14ae237413e18c55d2925073ba7fd03e23bedc2de5c3494d0cb4b98b1cb14839bd7eb9634015f695f8af16da86849d316f21b98b1982e7
+Filename: ./libglib2.0-dev_2.90.0-1_amd64.deb
+Size: 39324
+MD5sum: 0a4c84cc40502e847d3672ab985c0d3b
+SHA1: 6a283472463b1120bec6bd7365af44d47308c273
+SHA256: 4af5d25b92badd8355df6974596338a4d06119e1623f937b305001538fc39528
+SHA512: 7199f104a404d9c330494908c5ccb31ef99f7a05e2f66a0e87591c6284d8a2998fcd15c40a31cdd2d2fc0d16d5078d1d90ad5bdd36c3986e01db7e0a75199a5a
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Description: Development metapackage for the GLib family of libraries
  GLib is a library containing many useful C routines for things such
@@ -23952,23 +23952,23 @@ Description: libgspell architecture-independent files
 
 Package: libgstreamer-gl1.0-0
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 787
+Installed-Size: 790
 Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.27.50), libgstreamer1.0-0 (>= 1.28.3), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: ./libgstreamer-gl1.0-0_1.28.6-2_amd64.deb
-Size: 290824
-MD5sum: f6040dd1f05e96a534a3bf2f090c85e7
-SHA1: c3b100ac6fb429e15a4cda030118067a964659ee
-SHA256: d4b4c955fd411efe2c535410c94d02345eb4a1913bee8d477aa313fc0c50d97e
-SHA512: bf81b48aff0a6b26b702ab5e66cd7ad54a7c843d527532609d16e6ec318a1429684daab0c59f18be6f25d4eed8c931d74066c03d17a30e6ed5382488ff7dcead
+Filename: ./libgstreamer-gl1.0-0_1.28.7-1_amd64.deb
+Size: 294048
+MD5sum: 9920f7a2d612def079026dfa66a96726
+SHA1: bcd9ec431a7fbe2995d4e65290c26aa078470a7b
+SHA256: 256a44eade00f53dd8fb9b9ef2f0c8b397af494e4a2511cb41f24b0c43545cb3
+SHA512: 28e315c74e5c6677b09b1142d998a48143395005381d9bb88fc26aa9ef92b9a005685c7376df793b7d0f6f3fd421cb89a3a4bb25b83f7aa29836c59375534bba
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer GL libraries
  GStreamer is a streaming media framework, based on graphs of filters
@@ -24016,24 +24016,24 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Architecture: amd64
-Version: 1.28.6-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-base1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 3928
+Installed-Size: 3935
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.81.1), libgstreamer1.0-0 (>= 1.28.3), liborc-0.4-0t64 (>= 1:0.4.34), zlib1g (>= 1:1.1.4), iso-codes
 Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: ./libgstreamer-plugins-base1.0-0_1.28.6-2_amd64.deb
-Size: 1086676
-MD5sum: ddaf7c36e1be744374c5b25f01e429d6
-SHA1: 76679c0e6298d36b9b7eebf7c97307bac2cd36cc
-SHA256: 167e219aad68c69f2292bbba8b46211517577a93949e4e19620be0cc41fb919f
-SHA512: eab0a6888907a6f331802d5e877c6b138127517c02ccf355554ee91abd599f69a147ef2b1474c0fc9b2b12be1772934ca03c26c2e0c35fbebacf8cff073cf3a1
+Filename: ./libgstreamer-plugins-base1.0-0_1.28.7-1_amd64.deb
+Size: 1089684
+MD5sum: fb45f577e62d58869d1231d3c4f8a350
+SHA1: e9a28eb097b592bdd8b3643663641b9c1304e323
+SHA256: 6bcdfdbd8d614003e32fcf4f937d9565dcadf0e5d2ab667799e1ce6b004942ca
+SHA512: 0a58e0a1f5054537c33e5f4b1ed64f22472e07605976f25b2cf9ad9adc6dfb116799968471b3e83ef372ef7dcf31c13e8006b26a10ac99342708f8551ccb9af1
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -24048,21 +24048,21 @@ Description: GStreamer libraries from the "base" set
 
 Package: libgstreamer1.0-0
 Architecture: amd64
-Version: 1.28.4-2
+Version: 1.28.7-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gstreamer1.0
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 5313
+Installed-Size: 5417
 Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.81.1), libcap2-bin
 Suggests: gstreamer1.0-tools
-Filename: ./libgstreamer1.0-0_1.28.4-2_amd64.deb
-Size: 1465756
-MD5sum: e41dfb1a07e28c90eb83c1cdccaa376e
-SHA1: bc21a5850e83d1a9b6cbf211e29d34dfefa5d1b4
-SHA256: b178d9f642f9da7f3fcbf3b929f67ee9d367c1b8d10945ff8a684b0bf55cbe75
-SHA512: 98f4325c5069570d4573ce1534ad83d8abd69ca1f32863203193e948ad238df81b75582f8d8b94ee9942e7ffb6f093c4208b78b69d2cf2a54e6c287a56dfe8c1
+Filename: ./libgstreamer1.0-0_1.28.7-1_amd64.deb
+Size: 1522324
+MD5sum: 61c14d8d30e4101f9ca0c0d10585c96b
+SHA1: 510fd530154d54cf8292297f4f87b151c7ef7997
+SHA256: eb644c9c41e2839bd0baf3cd1fd9e5df177567e981ef084f6dd467efa2b2d6f1
+SHA512: 02c08a9e77f6f0fe3a9e87f5e94efd76ade10f15f075cf8df4080d4d56aea7f2a31762e656e5461ce2a794899a278f499f650c252d0bce005a0e2aced1931b53
 Homepage: https://gstreamer.freedesktop.org
 Description: Core GStreamer libraries and elements
  GStreamer is a streaming media framework, based on graphs of filters
