@@ -59641,22 +59641,22 @@ Description: modern CSS selector implementation for BeautifulSoup (Python 3)
 
 Package: python3-talloc
 Architecture: amd64
-Version: 2:2.4.4+samba4.24.6+dfsg-1
+Version: 2:2.4.4+samba4.24.7+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: samba (2:4.24.6+dfsg-1)
+Source: samba (2:4.24.7+dfsg-1)
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 96
 Depends: python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libpython3.14 (>= 3.14.1), libtalloc2 (>= 2.0.4~git20101213)
 Breaks: python3-talloc-dev
 Replaces: python3-talloc-dev
-Filename: ./python3-talloc_2%3a2.4.4+samba4.24.6+dfsg-1_amd64.deb
-Size: 34660
-MD5sum: 47647a9b1e63fd1ba15482e349e01d0c
-SHA1: 3d6caacab76ce57a324e5a1143a6e82a19790887
-SHA256: 0b68a14667f1cba323e5ba28f26caad84f899e28939dbe50b780867dca205483
-SHA512: bf67ee6c1ae0bd5e0d0e82df925973efebd83831af1d376177e8ae1470f9677bb87ade9e8858e14640560b9abb1555435322b34756711427b3a6609622ff1b8e
+Filename: ./python3-talloc_2%3a2.4.4+samba4.24.7+dfsg-1_amd64.deb
+Size: 35120
+MD5sum: 63195534785895a7fb054bafa5b2e138
+SHA1: 36b3506b1ac752d8080e6640edbb222236ed2eae
+SHA256: 8f386907fc0497e99446251975487cdd75178da59f8dc10bb0f5b42581398431
+SHA512: f919dc6b9746d0cf4bf5224a8c636bae6c51f11c6e5663238d34aab8e7f128a8041d06633684b5672db020ff3859fc6e25b720b6ea97aa6aa7f1b3665c918820
 Homepage: https://www.samba.org
 Description: hierarchical pool based memory allocator - Python3 bindings
  A hierarchical pool based memory allocator with destructors. It uses
@@ -59666,19 +59666,19 @@ Description: hierarchical pool based memory allocator - Python3 bindings
 
 Package: python3-tdb
 Architecture: amd64
-Version: 2:1.4.15+samba4.24.6+dfsg-1
+Version: 2:1.4.15+samba4.24.7+dfsg-1
 Priority: optional
 Section: python
-Source: samba (2:4.24.6+dfsg-1)
+Source: samba (2:4.24.7+dfsg-1)
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 94
 Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.4), libtdb1 (>= 1.3.11)
-Filename: ./python3-tdb_2%3a1.4.15+samba4.24.6+dfsg-1_amd64.deb
-Size: 37188
-MD5sum: 358b3ef8ab5a08d66a1fafebc031f37d
-SHA1: a054ffcc454f2e961e56fb0b2d2f0c66e211bd9d
-SHA256: 2f23abfd6e2904399651ad03047c3430854f6e97659e19e96319db068691c15a
-SHA512: 04f3597d7d67e5e30ff199098469869cb920d202694bdf5786849e7278a494ab6f4c79e9e9ab2daeabf28f4a1dff51138bfb3b3067eaedee4aeab2dfa966c58c
+Filename: ./python3-tdb_2%3a1.4.15+samba4.24.7+dfsg-1_amd64.deb
+Size: 37644
+MD5sum: 0988b125f6e489f01a6f789787675f90
+SHA1: 16ab6d50a7e03ba3938f81450395b422b2738602
+SHA256: 88d6ecd6af6ba5e91bac26762aa8fc6c5220ef30f2566f8146e514a0935d285f
+SHA512: f6318fe0017881b464c47ceba3777657e01f976a0777f1ab4ab767bde33f716a7d69af241e47a92fe2aa7b838aa1cfe61903893d3709f3e17d0d3bf13a08c2f5
 Homepage: https://www.samba.org
 Description: Python3 bindings for TDB
  This is a simple database API. It is modelled after the structure
