@@ -8455,20 +8455,20 @@ Description: OpenType text shaping engine (GObject introspection data)
 
 Package: gir1.2-ibus-1.0
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 658
+Installed-Size: 666
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libibus-1.0-5 (>= 1.5.34~beta1)
-Filename: ./gir1.2-ibus-1.0_1.5.34-1_amd64.deb
-Size: 387156
-MD5sum: 56fc313d02ee65fe38d4894f446afc5f
-SHA1: 83b157e9f37e09b2252aff94b480749a22000b7e
-SHA256: f3f3591771806773e64d05a5ce67de2e35218d4f058901e1aa60efaf8c56b1e0
-SHA512: 0e28a78fbb495b76e9dc6486f64bde14fdf39d7a83bcb88284ef77f25c7f31f2461534b51cacf4668cf59c9c90083a56487e8d2022fbed42c623889543c94471
+Filename: ./gir1.2-ibus-1.0_1.5.35~beta2-1_amd64.deb
+Size: 400564
+MD5sum: 887a9abad1c4042232ca886799dbc5c5
+SHA1: 8512e9736b2dc30a3936a74bd5b1f89a8ed2af7e
+SHA256: 80cdf822861f2351d66fd5ef94ede67f487c514d8dd472e1df61ef46f35bd9bc
+SHA512: cd07407f136b07d43685763e5c552a7dfe73cabbb02bee423bbcef026e9704b0aaeb06227a757d76b2be1db37f561e92dc224301e39b18b23a17ece450f54b9e
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - introspection data
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -13266,21 +13266,21 @@ Description: popular Othello game for GNOME
 
 Package: ibus-data
 Architecture: all
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 150308
+Installed-Size: 150544
 Depends: dconf-gsettings-backend | gsettings-backend, librsvg2-common
 Suggests: ibus
-Filename: ./ibus-data_1.5.34-1_all.deb
-Size: 14465384
-MD5sum: 7ce52651d36c3cfe2c199a736069cee0
-SHA1: 03c478cdbd1915ae584fe0fe9d9aed4f6f2d4010
-SHA256: 6b35ac276b28f31216e5217f9c657d096d4d63c9c321a428e0275111527a57a8
-SHA512: 2085ce3cc622932ec9c0d1e3d3b9e2a779b21d710248acff83f0727d6aedf463f1d646bdbfd8aad2661380d088e667c425cc7a74d9f92a3b0f2d28ac7356769d
+Filename: ./ibus-data_1.5.35~beta2-1_all.deb
+Size: 14502904
+MD5sum: 5bff5d4d3217ee579eaee9c282517f2b
+SHA1: 6fe2f9339da62ff3c205fc8a0a662147131bc03b
+SHA256: 4277a294b35894fe36ead0844690ca0ac4618d37131c3bf8ff8f7b140cf7aa18
+SHA512: 1104c13cefff3baf95002c0cafb159a07c7adf15ae57b416e192129c631bb73d3ac6bf09de008035f63f19b89e3ff42445c5104af051a23edb38d6da42f67c09
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - data files
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -13291,20 +13291,20 @@ Description: Intelligent Input Bus - data files
 
 Package: ibus-gtk3
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 382
+Installed-Size: 398
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.33), libpango-1.0-0 (>= 1.14.0)
-Filename: ./ibus-gtk3_1.5.34-1_amd64.deb
-Size: 334780
-MD5sum: 5fd2ea6fa5eedb77e2f29365eccdd72c
-SHA1: b3b1006a9364aab9f62a3f6fae9779b539d35d65
-SHA256: 7b4773bde9aa54238dea1af4e6e0703425d4ce2c6e813a2863184bd5d337f477
-SHA512: 4e7ab8ca211ab7a479f13caf95740f549835c21b5ed8743137119aaaf2342b516dbb1c735feb98469dd2a5101c9d4d48198f6cbacc302cfd9350f3c5a63c06f1
+Filename: ./ibus-gtk3_1.5.35~beta2-1_amd64.deb
+Size: 349388
+MD5sum: b1ed34812fe5ef0773db35bbe73b5348
+SHA1: 794be451366237d76431df40abb9bb8e88b778cf
+SHA256: 8b95f6cd3a4b5e5927424d68aab7fa9ea057be1f983720d430ef3a8c358d5f3c
+SHA512: 8fc1ced28cde5802b1bbee077bc1bd6c476b6a14f40babc4cd42eaaf971bf0e6f4d435543a7fec3cb6de78f2d669870f69898a453617084ce164fc2c0a48ee49
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - GTK3 support
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -13315,20 +13315,20 @@ Description: Intelligent Input Bus - GTK3 support
 
 Package: ibus-gtk4
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 382
+Installed-Size: 398
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libibus-1.0-5 (>= 1.5.33), libpango-1.0-0 (>= 1.14.0)
-Filename: ./ibus-gtk4_1.5.34-1_amd64.deb
-Size: 334016
-MD5sum: 3fdbdce812f73dd66cd9d79ff218ae47
-SHA1: cef96f53119a2765ae78f5d3f0235bf6076f1ff2
-SHA256: 6fe3316c4f70e415255381d75cf10db74cff7d2d8b45f669f2920b38cad33512
-SHA512: c4ddc04809c5031cd4108856d6f8347d4cd2ea8110654616eb0286236248c4b6baf46237f7c59d2e01ee22a7474eb0e93dd447d4158a045276979adc8c9d4b2f
+Filename: ./ibus-gtk4_1.5.35~beta2-1_amd64.deb
+Size: 348712
+MD5sum: c68ec6dde1bbc1f059d1fd8b1f8d63f1
+SHA1: 138dd2bc0a5bd526f4f27bfb6688782bb978a1c4
+SHA256: 601a26bcaeec28983eaeb03159ba2b91be5ec4d1feaa7490a9cc267fa8238965
+SHA512: 0e65c2eb65588fe4ce7f0034336937327a0140a02bd96c175ee01bcea4fac8e9c3c39405d311337fdf94bfa5959a40f1553deb274479732f201df4049a0fc311
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - GTK4 support
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -13339,21 +13339,21 @@ Description: Intelligent Input Bus - GTK4 support
 
 Package: ibus
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 1828
-Depends: python3:any, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libibus-1.0-5 (>= 1.5.34~beta1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), adwaita-icon-theme, dconf-cli, ibus-data (= 1.5.34-1), gir1.2-gtk-3.0 (>= 3.8.5), gir1.2-ibus-1.0 (= 1.5.34-1), python3-gi, python3-ibus-1.0 (= 1.5.34-1)
+Installed-Size: 1929
+Depends: init-system-helpers (>= 1.66~), python3:any, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libibus-1.0-5 (>= 1.5.34~beta1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), adwaita-icon-theme, dconf-cli, ibus-data (= 1.5.35~beta2-1), gir1.2-gtk-3.0 (>= 3.8.5), gir1.2-ibus-1.0 (= 1.5.35~beta2-1), python3-gi, python3-ibus-1.0 (= 1.5.35~beta2-1)
 Recommends: im-config
 Suggests: ibus-clutter, ibus-doc
-Filename: ./ibus_1.5.34-1_amd64.deb
-Size: 668724
-MD5sum: 51639dba880261b5afddff498cd72840
-SHA1: d16b8959a7dd71c9077729f9b7e587dc850eb713
-SHA256: 645b8a80e248df1cd05878523966027d0f5092f97c27f943a9c16ff1ae1e638a
-SHA512: f7f8e88bf5684a1dc91ce50f9616f68befc2707fea32e09c98e3f01fd942c770d6d1376d8bf1b4f6ef6f18f782d1b5ab91dac0368d292f167bf39c33c4d92574
+Filename: ./ibus_1.5.35~beta2-1_amd64.deb
+Size: 711420
+MD5sum: fda0aca5a8c6830db7559a85cb8056e1
+SHA1: 93f195f6d4c709f1099597c953e380075a0cac99
+SHA256: fd889dbae539a970e61dced662e659cfd96c383a50166205d016e208a72671a7
+SHA512: beb4f1006c81a62a71e2db9e977c238d16e7053977954a4d2af0212262dc855bb8f20db745e149f02c0f567f6629d7e5a1162763e6046f2ed259b2dac8f86972
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - core
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -25407,21 +25407,21 @@ Description: Fast and consistent wire protocol for IPC -- binary files
 
 Package: libibus-1.0-5
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 897
+Installed-Size: 969
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0)
 Breaks: libqt5gui5t64 (<< 5.15.1)
-Filename: ./libibus-1.0-5_1.5.34-1_amd64.deb
-Size: 479968
-MD5sum: 859a73123a174aef6665b296a5770041
-SHA1: ec7f95042ed642ebe2c87bdb6b0d171ec2541497
-SHA256: 951d930d50b7d49ddcb5dd0a5c32cec961a8ce6253f9a11d67b7a2d40b629a48
-SHA512: 4d4bb8adac3e4ea0311ee19eaa34b801eca6441f78584a21d72725dce052961134326fdc987694479b3a27a90c8ca72ca8f6669cc256962e33d8d18c36b3e52a
+Filename: ./libibus-1.0-5_1.5.35~beta2-1_amd64.deb
+Size: 510300
+MD5sum: 6e3dd54a3d3466c630e7487f583c0bea
+SHA1: ea31f1729338798afa450e05dd33c308c666ff29
+SHA256: 8d4c5ebb407b420212c6245884ad36a8bcd57fcca473584d16a589055457a902
+SHA512: 1becc0dac652279346722ca640790b9742983340ce2866918543e8493c88a66e5ed2359cb15886b57af227d0dd16434cd2a0e0eb6313b03e8f19dd4f2e5f22d9
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - shared library
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -25432,21 +25432,21 @@ Description: Intelligent Input Bus - shared library
 
 Package: libibus-1.0-dev
 Architecture: amd64
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 3152
-Provides: gir1.2-ibus-1.0-dev (= 1.5.34-1)
-Depends: gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-ibus-1.0 (= 1.5.34-1), libdbus-1-dev, libglib2.0-dev, libibus-1.0-5 (= 1.5.34-1)
-Filename: ./libibus-1.0-dev_1.5.34-1_amd64.deb
-Size: 512448
-MD5sum: 53eb34367f72e282d5beadf3597dd465
-SHA1: 060609dccd7f5d6702a8319c25498ec4357a55d9
-SHA256: c1f05f88dbad8591a703ca0db7f9a0c13623bb911e62eab639d5c882fb1a087b
-SHA512: e43928b7550e275c4cfd1358934c142ab688852d592d7e37f377e3c6dc84856244415d2f354868236ac058d70e8e94b4ed094de18040135efa21fb197aaf2a66
+Installed-Size: 3190
+Provides: gir1.2-ibus-1.0-dev (= 1.5.35~beta2-1)
+Depends: gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-ibus-1.0 (= 1.5.35~beta2-1), libdbus-1-dev, libglib2.0-dev, libibus-1.0-5 (= 1.5.35~beta2-1)
+Filename: ./libibus-1.0-dev_1.5.35~beta2-1_amd64.deb
+Size: 527160
+MD5sum: 8e253b025263fca236200183eb7aeb17
+SHA1: 8151d077dfd0aa60f700231a965f11096a637b1b
+SHA256: 4eee2cfcab75ed9014a37ac163361337a7f21577baa1fbffcbe9d4dbe67e48c6
+SHA512: 7638c31ce1638c19bfe83ca1d88d26c06513620d3fa04721a40afd823e3aeeeabbfe5ddaabfea57962a127a769c04dd57ab510396ad392b5271f721ec71d5903
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - development file
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
@@ -58761,19 +58761,19 @@ Description: HTML parser/tokenizer based on the WHATWG HTML5 specification
 
 Package: python3-ibus-1.0
 Architecture: all
-Version: 1.5.34-1
+Version: 1.5.35~beta2-1
 Priority: optional
 Section: python
 Source: ibus
 Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
-Installed-Size: 351
+Installed-Size: 359
 Depends: python3:any, gir1.2-ibus-1.0, python3-gi
-Filename: ./python3-ibus-1.0_1.5.34-1_all.deb
-Size: 323844
-MD5sum: 72f4a69aa7113411a5fb3754d5f6f9de
-SHA1: 0ef11b19fcccc5e99b2ec21bcc2308761926daa0
-SHA256: 35704616b4988edd04969b3177737f5ecc096ef565ad2399c92d5e002a4e1d4a
-SHA512: 1019e90b471b3e9f829725fb523d1c77fbfb2c823649294cabf39b38c9b848ce836e27aec6cf9af5769c5679b65786a74e1480e22a914da3c1dd349802b5f676
+Filename: ./python3-ibus-1.0_1.5.35~beta2-1_all.deb
+Size: 337252
+MD5sum: d386e244574067b78741f9f6f59b7873
+SHA1: 0c6de4079edb236dd2762b2a7cd2d9de34034f13
+SHA256: f898700392224f75546836d092e4aa8890e8991774c36f0150ab33edc5c4eb94
+SHA512: ffcbb2fe1e948a805aba90eb01ab4d8a4d077c6b0de05e5aaf4b8380d5aa57e7f4ce042c3590891af02a232be220263c0efff274f79f5dd0db65fdb84bbb2b7b
 Homepage: https://github.com/ibus/ibus
 Description: Intelligent Input Bus - introspection overrides for Python (Python 3)
  IBus is an Intelligent Input Bus. It is a new input framework for the Linux
