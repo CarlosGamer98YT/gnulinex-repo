@@ -5279,21 +5279,21 @@ Description: smart Unicode font for Arabic
 
 Package: fonts-smc-anjalioldlipi
 Architecture: all
-Version: 7.1.2-2
+Version: 7.1.2-3
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 351
+Installed-Size: 348
 Breaks: fonts-smc (<< 6.1~)
 Replaces: fonts-smc (<< 6.1~)
-Filename: ./fonts-smc-anjalioldlipi_7.1.2-2_all.deb
-Size: 98560
-MD5sum: d03b0df6fc5883310f7b24590b995053
-SHA1: beb29aa702cfce761ab30873a93f279293290053
-SHA256: 988fa16850493fb22e24da9cdc388dc687f501c111eaf0b2ae38d9d21fd358bd
-SHA512: 86281d9ed64f35bf0609eedb6a7639319587e3044af77b8431b6de196862adddfccf8b39a88f3f770a2cf8fe5106e6bf795dfab3200c777c888b4ef0d8ee6bd1
-Homepage: http://smc.org.in
+Filename: ./fonts-smc-anjalioldlipi_7.1.2-3_all.deb
+Size: 96972
+MD5sum: 4fcf4715a1bdde8f0e5275b0642db35e
+SHA1: 5033bcc1a37eac03a09b6cc80daf4484f4a1f548
+SHA256: 11770663e704e44c63c4ebeec27ccb46b854e703dff2255025113633a407ed29
+SHA512: 0591446cc9641de8f0ebf2a86da17ab72f3698d33314440bed928e53c7a6a0a6cc46e8639d4c065e79c26c125f801cf2305a6a8ffeffbda89050fc0c6c4d2376
+Homepage: https://smc.org.in/ml/fonts/anjalioldlipi/
 Description: AnjaliOldLipi malayalam font
  This package provides AnjaliOldLipi font for Malayalam script
  which is primarily used in the state of Kerala. The font is
@@ -5363,19 +5363,19 @@ Description: Gayathri Malayalam font
 
 Package: fonts-smc-karumbi
 Architecture: all
-Version: 1.1.2-2
+Version: 1.1.2-3
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Installed-Size: 472
-Filename: ./fonts-smc-karumbi_1.1.2-2_all.deb
-Size: 213292
-MD5sum: b38e5988df0e983a0949d15b0b6446f3
-SHA1: e9a99827b4605a974cda2f690d3e5d11f9ffa55d
-SHA256: 20b715da4c69fd49ccba0b19c0da273ea47d9e9590849b4e283cdabfed3ac3a4
-SHA512: 337e59afa0b4fd2f399b16742eac1ab382a9ffa23ac771ef481f5e4b6ff710c1b182915f9d267034deccbfe0f132ec969fd43d5b04bc5a0172208553f60d252c
-Homepage: https://smc.org.in
+Installed-Size: 468
+Filename: ./fonts-smc-karumbi_1.1.2-3_all.deb
+Size: 211788
+MD5sum: 9364d754fab09fb3bc93f602717b8964
+SHA1: 2a367b71c33df56cfb7029efa319311bc9fe524d
+SHA256: 455753e561f98557c641a56e65e508be293e006321c36edbaca9bc65db91c89a
+SHA512: 08380a93245b8059a95eed462b7f4489a1a01f5b7c04ca47e63bb21bf125fe8dee7c3f65b306e0997dbd2f631f031d8f670c0916520c433797d8d365abef236a
+Homepage: https://smc.org.in/ml/fonts/karumbi/
 Description: Karumbi malayalam font
  This package provides Karumbi font for Malayalam script
  which is primarily used in the state of Kerala. The font is
@@ -9392,20 +9392,20 @@ Description: GObject introspection data for upower
 
 Package: gir1.2-vte-2.91
 Architecture: amd64
-Version: 0.84.1-1
+Version: 0.84.1-1+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: vte2.91
+Source: vte2.91 (0.84.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 80
+Installed-Size: 81
 Depends: gir1.2-cairo-1.0, gir1.2-gdk-3.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, libvte-2.91-0 (>= 0.84.0)
-Filename: ./gir1.2-vte-2.91_0.84.1-1_amd64.deb
-Size: 24468
-MD5sum: cc54b61c9bc47928f2e852c3d6371124
-SHA1: 2f090d86ee003949653f4dbba98d7f30d1e5ceb5
-SHA256: 7070c8a2a092ecc037432498e884aae6428a4a61bc9772c4eb3fbd993d751060
-SHA512: 09d3ca6bbfb3a88473d57c1eaf0e7e5b516882ef6a0489c5ceed486797fadfd75489191ddc68b40db836343c36f34b33b529b9731225efc9e407758f7919f173
+Filename: ./gir1.2-vte-2.91_0.84.1-1+b1_amd64.deb
+Size: 24704
+MD5sum: 5d7131a874aed1688808f3069fb32849
+SHA1: f67dcca62c48a74804fc32717e550ae2e70730e6
+SHA256: e0e8978c540a8aa2b2644fefcddf01b4ef73122cf39cb675d7cad345b7edfea6
+SHA512: 1a2fe162959dcdc856639f51b68a224d60244e29ae1026856915aac3694bfa3f15ff92a2847b9317795ba61c472d7808af069c0970bfe4ece4b816838415964e
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: GObject introspection data for the VTE library (GTK 3 version)
  This package contains introspection data for VTE, a terminal emulator
@@ -49484,20 +49484,20 @@ Description: VP8 and VP9 video codec (shared library)
 
 Package: libvte-2.91-0
 Architecture: amd64
-Version: 0.84.1-1
+Version: 0.84.1-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: vte2.91
+Source: vte2.91 (0.84.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1092
-Depends: libvte-2.91-common (= 0.84.1-1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgtk-3-0t64 (>= 3.21.5), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
-Filename: ./libvte-2.91-0_0.84.1-1_amd64.deb
-Size: 380384
-MD5sum: 78dfdcfe55f03740613d1265436c0813
-SHA1: 4ee81bad9e2bb158a0b4308a15b27d869d5bec0c
-SHA256: c72c5f1889e32c0737cc415559430071fa88a978980b88783cc55fbf56f79d0d
-SHA512: e84db0b35e0deb8e4b630b04601c45fbdafc0e5a8454aacfa37846c6e01723b79156cf48db99f0211de16e9122737bf62b030e81a50c885b3f0639a634fa8789
+Installed-Size: 1133
+Depends: libvte-2.91-common (= 0.84.1-1+b1), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgtk-3-0t64 (>= 3.21.5), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.47), libsimdutf35 (>= 9.1.2), libstdc++6 (>= 14), libsystemd0 (>= 220)
+Filename: ./libvte-2.91-0_0.84.1-1+b1_amd64.deb
+Size: 399008
+MD5sum: e6f8e3381da3b3da7015dcb709b20120
+SHA1: aa4c791a905e4eb032ae9983389c367e653757b1
+SHA256: 88c13557d0045e157e6e7e8e4b9dee96f2a6a924f529fa27bae4b483e59464db
+SHA512: 8a887039d2a762d9118bde5eb372caf9e498c4e65ac2664f03728b3d641423f7d01bab9af88565825f4d8146143b1783c11e433a03e0c4d2495eecf403ed2c7e
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 3 - runtime files
  The VTE library provides a terminal emulator widget VteTerminal for
@@ -49510,20 +49510,20 @@ Description: Terminal emulator widget for GTK 3 - runtime files
 
 Package: libvte-2.91-common
 Architecture: amd64
-Version: 0.84.1-1
+Version: 0.84.1-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: vte2.91
+Source: vte2.91 (0.84.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 512
+Installed-Size: 513
 Depends: libc6 (>= 2.34)
-Filename: ./libvte-2.91-common_0.84.1-1_amd64.deb
-Size: 61684
-MD5sum: feed65e34e397989b455e1b46ca7db94
-SHA1: f018b79c01b5c25aee14e1897d8edab3dbad12c4
-SHA256: 229ff084daf09f3259e3d9d3303a92e7c484a6b86b7f8f971845a6c5453a3531
-SHA512: 08fa05935723104116d97a115eee03e80e5523ac7ab4fb41970023f29f7516310baf333ebcdf1157688f47653a82113d475cb8dd5890e21c8e595de5f8fb4586
+Filename: ./libvte-2.91-common_0.84.1-1+b1_amd64.deb
+Size: 61996
+MD5sum: d204ddb041ac9edca7c3eafa20a3adf4
+SHA1: 72b2191135bcad87aecdac761bbad2d2e5a9d8e1
+SHA256: dd4c8284fc8f51c10e2d289fce935688d3e2548abe97ad19c80c9f21d90e617d
+SHA512: 8978f3941a3ad0ef02df8cd2558933fa88aac07fe3f02ae7965911974f4393b4eb14005dedad7b8bcab5353fabcdcf3011420c8f3e9e4f0227b9d5eab1f98924
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 3 - common files
  The VTE library provides a terminal emulator widget VteTerminal for
@@ -49536,20 +49536,20 @@ Description: Terminal emulator widget for GTK 3 - common files
 
 Package: libvte-2.91-gtk4-0
 Architecture: amd64
-Version: 0.84.1-1
+Version: 0.84.1-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: vte2.91
+Source: vte2.91 (0.84.1-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1098
-Depends: libvte-2.91-common (= 0.84.1-1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.14.1), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.32), libsimdutf33 (>= 8.2.0), libstdc++6 (>= 14), libsystemd0 (>= 220)
-Filename: ./libvte-2.91-gtk4-0_0.84.1-1_amd64.deb
-Size: 382168
-MD5sum: bef47ae501760ce71dff0a44a436dfa9
-SHA1: 56ac4287c81f0c19223b73505f8f93878be64ed6
-SHA256: 34c504c81238084db4447dac969ef73dd725664a6b18ed7e3e6681078cc209e8
-SHA512: 446b8ed6be365c8c47c993c6e6c7fb7c327416f2a56f4ebe14aef17a158949bb2acd147cb2fffbcba621795ae2cd25b677fc6b7d9bcd3a8319fe606894b43314
+Installed-Size: 1139
+Depends: libvte-2.91-common (= 0.84.1-1+b1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.78.0), libgnutls30t64 (>= 3.7.2), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.14.1), libicu78 (>= 78.1-1~), liblz4-1 (>= 0.0~r130), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpcre2-8-0 (>= 10.47), libsimdutf35 (>= 9.1.2), libstdc++6 (>= 14), libsystemd0 (>= 220)
+Filename: ./libvte-2.91-gtk4-0_0.84.1-1+b1_amd64.deb
+Size: 400844
+MD5sum: 8825ee916361d719a98b3c75a21625c9
+SHA1: 912bb5d24fa70c6c3800ba8563d37a24ead694a1
+SHA256: 62c967679501f1f31e4de41e9c89563b51809ae3fa306392516add1276a5b281
+SHA512: d26a532a16a28c71668282c73f13db6472f7155afcb891994779c51974b81d51bf952bd34fbff7970c4b0fc6fcb93c631c602b5a17de5a9e520abab8facd4347
 Homepage: https://wiki.gnome.org/Apps/Terminal/VTE
 Description: Terminal emulator widget for GTK 4 - runtime files
  The VTE library provides a terminal emulator widget VteTerminal for
