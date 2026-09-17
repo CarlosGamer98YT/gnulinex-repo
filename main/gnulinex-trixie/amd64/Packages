@@ -51800,23 +51800,23 @@ Description: Library for the GNOME help browser
 
 Package: libyuv0
 Architecture: amd64
-Version: 0.0.1949.20260706-1
+Version: 0.0.1971.20260904-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libyuv
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 691
+Installed-Size: 687
 Provides: libyuv
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 5)
 Conflicts: libyuv
 Replaces: libyuv
-Filename: ./libyuv0_0.0.1949.20260706-1_amd64.deb
-Size: 177280
-MD5sum: b01ebe914b5ec74e60fc197e3cac49ec
-SHA1: 5cfcb8bca78b4505459c6617ce8cd1b1e08116d0
-SHA256: 2c3a34d265cec38a3cd170796c8d0fb6ddb578e263b3e3e2e48ddb060965ec2f
-SHA512: 15a688fdd09359c56f7ce9c76c6a8e4a4e3fc15578083382658d085fca159f5f715e287168480fcf6b33e095f02bb7978c9e7f5520732af2d88385869ff3ac26
+Filename: ./libyuv0_0.0.1971.20260904-2_amd64.deb
+Size: 186792
+MD5sum: 1a94414be96d47e7c3f6ad970b63c69f
+SHA1: 51b6696d2726845d8d546d656c0351ca990dbb00
+SHA256: 3e997ca63bbc8ed9703cdc5cc30c6ccd701df60e13871c696e8121820148c129
+SHA512: e9e57c500c3d354b3833671557d5df0f7eedac18a659cc7dab1202e774cdd33dcf830eb3d5277b80de28fddbd71929af8dc3a7a499f8129fad5dc397cc15ed26
 Homepage: https://chromium.googlesource.com/libyuv/libyuv/
 Description: Library for YUV scaling (shared library)
  libyuv is an open source project that includes YUV scaling and
