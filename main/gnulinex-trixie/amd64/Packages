@@ -428,20 +428,20 @@ Description: Apache HTTP Server (modules and other binary files)
 
 Package: appstream
 Architecture: amd64
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 4335
-Depends: shared-mime-info, libappstream5 (>= 1.1.4), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0)
+Installed-Size: 4310
+Depends: shared-mime-info, libappstream5 (>= 1.2.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0)
 Suggests: apt-config-icons
-Filename: ./appstream_1.1.6-1_amd64.deb
-Size: 626748
-MD5sum: 68f0de3b3ba91ead22ff6cbcf7ae83b8
-SHA1: 41cec670522e0829c190e427502d067cc843de2f
-SHA256: 0460b7fa17e7ad91cdefeb412670a4de3bdb07385835474dfe38a55197730803
-SHA512: 0c7568fb0ef169316a6dd8d1044d0ca9681e02f20e4924a32fd0d2baef7d416550a575a275b3b4b05666cbbd02b51eccedcf1f65cb94e5ef41e8a612b55314fc
+Filename: ./appstream_1.2.0-2_amd64.deb
+Size: 623640
+MD5sum: fc09ce604076b9d5d30922eb691003e5
+SHA1: bfef56bfef5feb11cd0bdd4a19d63b834ef60579
+SHA256: e871337d3eb8a751399a886567332fe69c4f63ff758fa6ec9b37629bb2d7eb88
+SHA512: cbad720b1a1147d62b1aa8629af735755ab3ba607ac27c1ecc784bcce9901c768871667095eab64f51f47bc7307e2cece032c267269bb7db914c0dc184c6826e
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Software component metadata management
  AppStream is a metadata specification which permits software components to
@@ -461,7 +461,7 @@ Description: Software component metadata management
 
 Package: apt-config-icons-hidpi
 Architecture: all
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -469,12 +469,12 @@ Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 21
 Depends: apt-config-icons
-Filename: ./apt-config-icons-hidpi_1.1.6-1_all.deb
-Size: 5944
-MD5sum: 787bcb562f736e392816844b4db44072
-SHA1: 7b4410a862d9953b085316b2baa638597abd85b0
-SHA256: 1bd31401baf1a6acbc125696347efc180af0c79cd911852e687ca0315795bce4
-SHA512: 381cac3a88a6902b2f45738bf666d1db0ca327bbc220d87bb780bc9ef328d8c4fada9c39ea4bfda4cbe21d1e2359b0d6253a82c6a84224e9fe06bbb6946965a7
+Filename: ./apt-config-icons-hidpi_1.2.0-2_all.deb
+Size: 5588
+MD5sum: edbf565c62cbb5b7c68b3778cddad5fe
+SHA1: 2d7cc92ca53eb275ed7c07853c4874566dbef9ac
+SHA256: fa502526689a26be5ed68d7cb7af212fd67c8117e4502a8e7ca04663fa17a73f
+SHA512: 439bd8ec0df50049d66781c8397c3d5ed72cf7349bfa9e12828216cefcc07143ed50cae9bf7cc4f5fc2929941ad25d12cfba41a09508d8301006bf4d1d8e7725
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable HiDPI icon downloads
  This package contains an APT configuration snippet that enables the
@@ -488,7 +488,7 @@ Description: APT configuration snippet to enable HiDPI icon downloads
 
 Package: apt-config-icons-large-hidpi
 Architecture: all
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -496,12 +496,12 @@ Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 21
 Depends: apt-config-icons-large
-Filename: ./apt-config-icons-large-hidpi_1.1.6-1_all.deb
-Size: 6036
-MD5sum: 8679ee07105b18bdbbc8dac14b000fd9
-SHA1: a3de133df2177152ef083b14efcd5fc225a7276f
-SHA256: 249b876bf7ecac781895e949cb4f6b1ad2cf0eb764e966f9e2779064450d9a3e
-SHA512: 8dd676ecbfee736bd64b4f8bfe6a0b116c61a793d36a5ce0df0b6270757d6cd2d21ddcbafdcabc6c104ce102ea432f2d8d8559cdca6b20e2c91a656ae8a03d0e
+Filename: ./apt-config-icons-large-hidpi_1.2.0-2_all.deb
+Size: 5676
+MD5sum: 56609aa138ae747f7631bad5b00bfa56
+SHA1: a63cdae506216ad77ed0c71ccb61ff3880c5e53b
+SHA256: 7ed6ee86018f2e80eba5b7723de2e4457a8b449dbb9fe7cb1a3ce79f07176989
+SHA512: f5bbef6a78169f54aa64c195fb7732f6a375570c9305c0ae83809bedf544a1fd520065d54a8e33e5929d06858da55474ca2a32585419be1f9f55c9c9c15052ca
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable large HiDPI icon downloads
  This package contains an APT configuration snippet that enables the
@@ -517,7 +517,7 @@ Description: APT configuration snippet to enable large HiDPI icon downloads
 
 Package: apt-config-icons-large
 Architecture: all
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -525,12 +525,12 @@ Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 21
 Depends: apt-config-icons
-Filename: ./apt-config-icons-large_1.1.6-1_all.deb
-Size: 6028
-MD5sum: c6e9b63235e412d7e0e10e0bf79ed1e8
-SHA1: f434f0e29c6384b4b6640f4bfd2276ea4eb2852a
-SHA256: eb0d23c577c7977665840322cd8bb80266b89ee6f598be4d21b6ed607513d3ec
-SHA512: e0ebbdff65d1ed33749ae56b54028b202f4fbe222e360fdc0e1f79f5b0665b98f741cf6310eb56fbf5173c6f4ba0e65baa1a35a709ef94bb34619743585c1b8b
+Filename: ./apt-config-icons-large_1.2.0-2_all.deb
+Size: 5672
+MD5sum: 03fe0b3dcb901458e2e92af72071e9cd
+SHA1: 46987dcddf3c7b54558865771002bdf07681e4b8
+SHA256: 1c205ecbca01a23669fa06d200bd8eec3c776ecec84a34b392200a6a480bbed0
+SHA512: 4573d7082f97a59b0bb85f1aa4ce1ca21ebe3e5479e4ff0879f4a76c91730af56e525b76aa038f82f96765c924b6ea19fab15f8ed1e0a81034ff6dfdec08505a
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable large icon downloads
  This package contains an APT configuration snippet that enables the
@@ -545,7 +545,7 @@ Description: APT configuration snippet to enable large icon downloads
 
 Package: apt-config-icons
 Architecture: all
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -553,12 +553,12 @@ Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 21
 Depends: appstream
-Filename: ./apt-config-icons_1.1.6-1_all.deb
-Size: 6024
-MD5sum: c4f83ede121ab82c185bec416ab27e71
-SHA1: c45f4f31c7331b50866b71f835d66fa5ccc60af8
-SHA256: 116f8cae0aaadf6686e1649659d175a62f83af04baed33fa969cda69b9fa9d1a
-SHA512: 0582d52532c3a79a841fc8417302550ad2a8d5ddf2431e7ef5459dea2667459a66bf99e42edfed61837db49aa27954267d45ac95e7e9050768a5fcf47e7e51f1
+Filename: ./apt-config-icons_1.2.0-2_all.deb
+Size: 5676
+MD5sum: 5cf19e0e8d5ea4a9b67273984a8fbe33
+SHA1: 31cbca82fff34af404184b35be99c1ddeda6d978
+SHA256: ac8eca8082cb038c97c0f02a56be188eb160717a36075adbf0c7f21dac003526
+SHA512: 4a0d9e39020494860652de484f274954ed4ddd5b11785da2de79cb82c2870b7f2eaa7e8058643285b089a9e646f1fe36bc9890f3e39fe08b71fcce01d95e9caf
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: APT configuration snippet to enable icon downloads
  This package contains an APT configuration snippet that enables the
@@ -15463,20 +15463,20 @@ Description: Zeroconf support for Apache 2 via avahi
 
 Package: libappstream5
 Architecture: amd64
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 850
+Installed-Size: 870
 Depends: libc6 (>= 2.33), libcurl4-gnutls (>= 8.20.0-3~), libfyaml0 (>= 0.9.4), libglib2.0-0t64 (>= 2.80.0), libstemmer0d (>= 0+svn527), libsystemd0 (>= 242), libxml2-16 (>= 2.14.1), libxmlb2 (>= 0.3.13), libzstd1 (>= 1.5.5)
-Filename: ./libappstream5_1.1.6-1_amd64.deb
-Size: 253008
-MD5sum: 18ea65354a41c23a73db9419e34ff0dd
-SHA1: 613facde6c82b45791cedf75635ddc8a7cf9440a
-SHA256: 103a7212c7d00f6d7ff75a334c284b0730c210e0da82d0e05c69ab1d857092f6
-SHA512: b1064bd6acfaefbc639519ddb64a39422be4c7655c2190dc91a0bb9419b4d7749ffff493fbcdde081a8123601aca5a0b20773ea10ef19baa9832bf2de54fa24d
+Filename: ./libappstream5_1.2.0-2_amd64.deb
+Size: 260504
+MD5sum: 1f635bffcaaffceab65eaee19929de0d
+SHA1: b6658da8a76c39efbbbb2cdaf12fb704a4773f60
+SHA256: 0384ad2a2a1ddc09475623065a47e45181d24b9db58624b80d4e8d7d221b7502
+SHA512: e1ea319a4485819138e362d50a4826a588b4f17a0622470861afa2c9405e73500eda06d4b2b28c753a0eb0c47a5eb0ba734a370c89064e5d3d7f41fe6d6e2033
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Library to access AppStream services
  AppStream is a metadata specification which permits software components to
@@ -15493,20 +15493,20 @@ Description: Library to access AppStream services
 
 Package: libappstreamqt3
 Architecture: amd64
-Version: 1.1.6-1
+Version: 1.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: appstream
 Maintainer: Matthias Klumpp <mak@debian.org>
-Installed-Size: 761
+Installed-Size: 717
 Depends: libappstream5 (>= 1.1.4), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.62), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libappstreamqt3_1.1.6-1_amd64.deb
-Size: 133008
-MD5sum: 49b1cacb2af09cd831167dd3beb80042
-SHA1: b16c81c40751bee1633748ccdb8fc63d5915146c
-SHA256: cbbfff275aa1bf576a1bd3ec1d7aef710b4f191624f722a0e1030151406232ac
-SHA512: 3beee4a1521e23b7b63e1673ac5b25e477f398b04507cbf6c6ff41f3275001db1b4131697b6037b1839777a7d72a024e6933e9c217aa018123d1fffd7cc70cb5
+Filename: ./libappstreamqt3_1.2.0-2_amd64.deb
+Size: 123948
+MD5sum: 2d022b2f44af686e03c05e6334bcfddb
+SHA1: 8895f9ba4afaf3b76d4be3ac8bc2f6f7c7f51906
+SHA256: 2e15182da5630786909ff54f32da8aa402ee739b3b16bd3cbf2104aa1eeb5a82
+SHA512: b598de83dc0bb06a5e448b513889a5c0e547a58e8a22380d11feaa5ee81848a1ad754f3c76249b5f46eec130d306ffc506104188364e78c58668c234d044f40d
 Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
 Description: Qt6 library to access AppStream services
  AppStream is a metadata specification which permits software components to
