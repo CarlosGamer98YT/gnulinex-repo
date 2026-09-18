@@ -6938,19 +6938,19 @@ Description: icons for the geocode-glib library
 
 Package: gimp-data
 Architecture: all
-Version: 3.2.4-3
+Version: 3.2.6-1
 Priority: optional
 Section: graphics
 Source: gimp
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 78604
+Installed-Size: 78632
 Enhances: gimp
-Filename: ./gimp-data_3.2.4-3_all.deb
-Size: 13376728
-MD5sum: 0d3f6b9ee97f5dd76bf17ce3cc8b5d7d
-SHA1: bf0f0ebbdc82c2e14b634673f0ca8875f0a3d016
-SHA256: 1223a5518d98b2a9c3a0ad3cbd0d17e8f544b66ac345fb27687e126dbca61e9b
-SHA512: 46a2fe6c1bbbf9be6e79a60a80ff1f1271ac2f6c4588bc385a15f00cfe76570af6b4f97c25eb1c0ba15589dc6ddd34d10149329bfaed0ce944c0b155f319f588
+Filename: ./gimp-data_3.2.6-1_all.deb
+Size: 13416908
+MD5sum: fc76b37733e3d99a7f018e64916cfcdd
+SHA1: 767c262fdca67f4f6910e2481d25ee0bdec0c6ae
+SHA256: 8ca80609219f10e8c0a5873006d741130a81ff2ca6da767968d37d69df753394
+SHA512: e10b553a38d29c991d005f22f4c66f562ebb349088dbc88a00b07fef769322e52c764c5b11ef6af30e316ec0ed506e3b092e54332e87226fcab3f56834986265
 Homepage: https://www.gimp.org/
 Description: Data files for GIMP
  This package contains architecture-independent supporting data files
@@ -6958,23 +6958,22 @@ Description: Data files for GIMP
 
 Package: gimp
 Architecture: amd64
-Version: 3.2.4-3+b1
+Version: 3.2.6-1
 Priority: optional
 Section: graphics
-Source: gimp (3.2.4-3)
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 33408
-Depends: gimp-data (<= 3.2.4-z), gimp-data (>= 3.2.4), gir1.2-gimp-3.0 (= 3.2.4-3+b1), graphviz, libgimp-3.0-0 (<= 3.2.4-z), libgimp-3.0-0 (>= 3.2.4), librsvg2-common, python3-gi, python3-gi-cairo, xdg-utils, libaa1 (>= 1.4p5), libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libasound2t64 (>= 1.0.16), libbabl-0.1-0 (>= 1:0.1.118), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.14.0), libcfitsio10t64 (>= 4.2.0~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.27.1), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 6), libgs10 (>= 9.10~dfsg), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libharfbuzz0b (>= 2.6.5), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1:3.1.3), libjson-glib-1.0-0 (>= 1.5.2), libjxl0.11 (>= 0.7.0), liblcms2-2 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), libmng2 (>= 2.0.2), libmypaint-1.5-1 (>= 1.5.0), libopenexr-3-4-33-imath-3-2, libopenjp2-7 (>= 2.2.0), libpango-1.0-0 (>= 1.50.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.47.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), librsvg2-2 (>= 2.52.5), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwmf-0.2-7 (>= 0.2.12), libwmflite-0.2-7 (>= 0.2.12), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxmu6 (>= 2:1.1.3), libxpm4, zlib1g (>= 1:1.1.4)
+Installed-Size: 33315
+Depends: gimp-data (<= 3.2.6-z), gimp-data (>= 3.2.6), gir1.2-gimp-3.0 (= 3.2.6-1), graphviz, libgimp-3.0-0 (<= 3.2.6-z), libgimp-3.0-0 (>= 3.2.6), librsvg2-common, python3-gi, python3-gi-cairo, xdg-utils, libaa1 (>= 1.4p5), libappstream5 (>= 1.0.0), libarchive13t64 (>= 3.0.4), libasound2t64 (>= 1.0.16), libbabl-0.1-0 (>= 1:0.1.118), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.14.0), libcfitsio10t64 (>= 4.2.0~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.27.1), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libglib2.0-0t64 (>= 2.80.0), libgomp1 (>= 6), libgs10 (>= 9.10~dfsg), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libharfbuzz0b (>= 2.6.5), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1:3.1.3), libjson-glib-1.0-0 (>= 1.5.2), libjxl0.11 (>= 0.7.0), liblcms2-2 (>= 2.7), liblzma5 (>= 5.1.1alpha+20120614), libmng2 (>= 2.0.2), libmypaint-1.5-1 (>= 1.5.0), libopenexr-3-4-33-imath-3-2, libopenjp2-7 (>= 2.2.0), libpango-1.0-0 (>= 1.50.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.47.0), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), librsvg2-2 (>= 2.52.5), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwmf-0.2-7 (>= 0.2.12), libwmflite-0.2-7 (>= 0.2.12), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxmu6 (>= 2:1.1.3), libxpm4, zlib1g (>= 1:1.1.4)
 Recommends: ghostscript
 Suggests: gimp-data-extras, gimp-help-en | gimp-help, gvfs-backends, python3
 Conflicts: gimp-dds
 Replaces: gimp-dds
-Filename: ./gimp_3.2.4-3+b1_amd64.deb
-Size: 7119704
-MD5sum: 5b99d3b268206be55e2db8e623dda558
-SHA1: fb5c26a41daa668538f1e3bdc534b2700d1c5999
-SHA256: 60a1f3dcf36407f1be90e0e781c57b36648beb019f5e33470dec75ff1a64438f
-SHA512: 4ece961217fbfc7f4925a2142272d04d0ff24c9ab1196247d32db1c963eec79bc1194ef7a827ee547ba5bd1140928aefbe0d85efb100bc5f58c88b7d5d088f2e
+Filename: ./gimp_3.2.6-1_amd64.deb
+Size: 7124424
+MD5sum: 7418cca9f3dc335b3e7567c59a0ac42e
+SHA1: 8dd84b6664da5ecd6ef4bac6766e13c703f6c5e5
+SHA256: 1687d79dfd63e5d05fd2f23c24dbb1c0900003e2d387e9783c0d96b339c878f7
+SHA512: 3ccf2f0aecf185c67abe488d03cca5e808ff7a2f33c840159b8a0eded0e8ca8a3fb8f439e47449f0b102b72af4d9fb7268eb6ef42a3f285765d03fec80fa3a55
 Homepage: https://www.gimp.org/
 Description: GNU Image Manipulation Program
  GIMP is an advanced picture editor. You can use it to edit, enhance, and
@@ -7861,21 +7860,21 @@ Description: GObject-based wrapper around the Exiv2 library - introspection data
 
 Package: gir1.2-gimp-3.0
 Architecture: amd64
-Version: 3.2.4-3+b1
+Version: 3.2.6-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gimp (3.2.4-3)
+Source: gimp
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 414
-Provides: gir1.2-gimpui-3.0 (= 3.2.4-3+b1)
+Installed-Size: 413
+Provides: gir1.2-gimpui-3.0 (= 3.2.6-1)
 Depends: gir1.2-babl-0.1 (>= 1:0.1.118), gir1.2-cairo-1.0, gir1.2-gdkpixbuf-2.0, gir1.2-gegl-0.4 (>= 1:0.4.66), gir1.2-gexiv2-0.16 (>= 0.16), gir1.2-gio-2.0, gir1.2-giounix-2.0, gir1.2-glib-2.0, gir1.2-glibunix-2.0, gir1.2-gobject-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, libgimp-3.0-0 (>= 3.2.4)
-Filename: ./gir1.2-gimp-3.0_3.2.4-3+b1_amd64.deb
-Size: 93204
-MD5sum: 8cc291aff6fdc72589f3d53122ece082
-SHA1: ec1157109359a4f87ebf3f21a44ff2c35afce65a
-SHA256: 659a6cdb2846fe1ad4da7d2707700621e37daf089e0474c63d3af538b8cea2ff
-SHA512: 58e99637277071d2dcec07aafff18d352a1ea13418f1210205c15a78c8fcd99304107712fc7c9a93dcf4312b692d6201985697064b348968e3f058446d442949
+Filename: ./gir1.2-gimp-3.0_3.2.6-1_amd64.deb
+Size: 93312
+MD5sum: 747cffbf10d4c271f3c4099b7c95874f
+SHA1: fbb914f1cc773ab2e74c57309989ca31b4bfd6fd
+SHA256: 317aad7f508a70aa61afadd4e60d3282d85e3f050f26871784c4cca5375f5bf9
+SHA512: 49587e3efdeba49c3e7f745ce3edc9d31f236c6a8eef1492adf7b5fc4729b536f63cf081ff2f9a8db4d0495e390635ab7745522415feb7e8f7b0f25d98b9c89c
 Homepage: https://www.gimp.org/
 Description: Introspection data for the GIMP library
  This package includes the libgimp libraries, which are necessary to run
@@ -10645,19 +10644,19 @@ Description: GUI Utility for logging into online accounts
 
 Package: gnome-online-accounts
 Architecture: amd64
-Version: 3.58.1-1
+Version: 3.58.1-2
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 333
-Depends: libgoa-1.0-0b (= 3.58.1-1), libgoa-backend-1.0-2 (= 3.58.1-1), libc6 (>= 2.34), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.84.0), libkeyutils1 (>= 1.6.3), libkrb5-3 (>= 1.10+dfsg~alpha1), librest-1.0-0 (>= 0.9.1)
+Depends: libgoa-1.0-0b (= 3.58.1-2), libgoa-backend-1.0-2 (= 3.58.1-2), libc6 (>= 2.34), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.84.0), libkeyutils1 (>= 1.6.3), libkrb5-3 (>= 1.10+dfsg~alpha1), librest-1.0-0 (>= 0.9.1)
 Recommends: gnome-control-center | gnome-online-accounts-gtk, evolution-ews-core
-Filename: ./gnome-online-accounts_3.58.1-1_amd64.deb
-Size: 93808
-MD5sum: 87de368da3b6ca67a50a28e05acfac49
-SHA1: 3696b02c7661c16f41d80d46447e8ba0bf906552
-SHA256: ea735ee9926b8d5340e1eb08deaf6cafeaf3364342c5ad37102543693098d572
-SHA512: 60fa53dc3f1d31d810045fd367e13d0a70d5cd3a5b387fff87d0dea8e7995b669968eb2ccf3ea581e37df40dd33fe6b4203b9e93d1cb0342c4f608f073ceabdd
+Filename: ./gnome-online-accounts_3.58.1-2_amd64.deb
+Size: 96276
+MD5sum: 9f957eb1c24b47c11f9e93dbc6219445
+SHA1: f9540305ecda16490102771c6ca41a1ee23c15d3
+SHA256: ffa9e4cec44f06b2579bc71c3b77c4e6254970550298abb9b5d99c8f568d193c
+SHA512: 14dd520cdcfbe4a5e78c3814f14ec415c8af62e651efabb2d226712363bf1c0a1c874844665b93fad2a8c6bdd034d935c597f84979fbffae7141735223054036
 Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 Description: service to manage online accounts for the GNOME desktop
  This package contains the GNOME Online Accounts service, which provides a
@@ -22524,21 +22523,21 @@ Description: library for GIF images (library)
 
 Package: libgimp-3.0-0
 Architecture: amd64
-Version: 3.2.4-3+b1
+Version: 3.2.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gimp (3.2.4-3)
+Source: gimp
 Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
-Installed-Size: 7390
+Installed-Size: 5487
 Depends: libbabl-0.1-0 (>= 1:0.1.118), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgegl-0.4-0t64 (>= 1:0.4.66), libgexiv2-0.16-4 (>= 0.16), libgirepository-1.0-1 (>= 0.9.2), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.5), liblcms2-2 (>= 2.2+git20110628), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
-Recommends: gimp-data (<= 3.2.4-z), gimp-data (>= 3.2.4)
-Filename: ./libgimp-3.0-0_3.2.4-3+b1_amd64.deb
-Size: 1113680
-MD5sum: df72542d646a566b2c7a0ad3b47b53af
-SHA1: 113236d32212a6f28539940d2d267354e8e1ee4c
-SHA256: 0d2fc9507d86977c1184a81afd1e074c5c457f766d7e0db6fb0170be5fd909a7
-SHA512: c065a14f2a3509920167672f6e879b6089305b95ab2aad94ab95e002e27e03ca3b8d317bb3653b47f088d9462d404eac105a3521d28686bfa707a9c8160131b2
+Recommends: gimp-data (<= 3.2.6-z), gimp-data (>= 3.2.6)
+Filename: ./libgimp-3.0-0_3.2.6-1_amd64.deb
+Size: 1138104
+MD5sum: a77528c314af369a3b2dbb8f0f478716
+SHA1: 5ce223971b5e6ae7da309f7fe9e725b6ec589194
+SHA256: 51aa0c52b3ca4551878d527337054472eab9b0aa9b275bc2b99c9a6c43d86ebb
+SHA512: f8876fb748f2e0d5176ba4b99e56b0fa59dbe2f48988a212767ad79e20dcf54b4a21e2bd2b7cba0d8d1d13174f03faaf42548b45b02449253d26de3921b51062
 Homepage: https://www.gimp.org/
 Description: Libraries for the GNU Image Manipulation Program
  This package includes the libgimp libraries, which are
@@ -23311,20 +23310,20 @@ Description: GNOME library to manage keyboard configuration - shared library
 
 Package: libgoa-1.0-0b
 Architecture: amd64
-Version: 3.58.1-1
+Version: 3.58.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-online-accounts
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 346
-Depends: libgoa-1.0-common (>= 3.58.1-1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.84.0)
-Filename: ./libgoa-1.0-0b_3.58.1-1_amd64.deb
-Size: 63544
-MD5sum: 1fbccc884f43d6458357eca95b44f8f1
-SHA1: 0e23da14ce78541514e52d55d7dd193172febb78
-SHA256: 973a832359249303972f03c3442320f54e4f2ccea53d6dfe2bbf31a395d475fa
-SHA512: 654308c8fd550cffc6f982b7c7b5021371499b82bbbd1a4c31c3d0d238a488a2911046d8f07ac06fade0433d232a38fd0963dc37c0f10737aff4518cb3f91817
+Installed-Size: 350
+Depends: libgoa-1.0-common (>= 3.58.1-2), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.84.0)
+Filename: ./libgoa-1.0-0b_3.58.1-2_amd64.deb
+Size: 63936
+MD5sum: 202c1810c829d30a4fbdc28af0052cfd
+SHA1: 44d9ea2fbc03df952043a52e064e64429a566234
+SHA256: 16c33d6e0d426dc5befd133561a02242c283568bd950ae1c9ab2e0679c802a11
+SHA512: 22de640b1c8272edea4ae62e4664f3b7999fb0b9d8828f7dcc1f3e387b4978d3651df7413c646ec37234bcae27deeb3c70f85966ec262ea5c1b0df32f9c87eb7
 Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 Description: library for GNOME Online Accounts
  This package contains the GNOME Online Accounts service, which provides a
@@ -23335,7 +23334,7 @@ Description: library for GNOME Online Accounts
 
 Package: libgoa-1.0-common
 Architecture: all
-Version: 3.58.1-1
+Version: 3.58.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -23344,12 +23343,12 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Installed-Size: 1421
 Breaks: libgoa-1.0-0 (<< 3.8.2)
 Replaces: libgoa-1.0-0 (<< 3.8.2)
-Filename: ./libgoa-1.0-common_3.58.1-1_all.deb
-Size: 193960
-MD5sum: 50092cb2a058568cff1d5d10ca339ab2
-SHA1: be4aa8073ea0b435b0452b473efba222be51b06c
-SHA256: 1c9d651f34fb42d6d4e5bb210137a2e3144b8138febe6046e69fa6e396425c08
-SHA512: 0ffd56c3b7f6509e620b68701a379e6bfdb8185cf814a261629877defcbff3f51d11210419bb4f86709d47436413458dcabd2d39779a1727653c623ba05d2b51
+Filename: ./libgoa-1.0-common_3.58.1-2_all.deb
+Size: 194120
+MD5sum: d2934cccaa41cf23f32bb1ab184de42b
+SHA1: a0c11f045e75b3b99648a8dd8ed4674aec981d19
+SHA256: f14a0d8f5233491b942886af0b8c95ee0907abdcb4d65876bd84f9b623a01a2f
+SHA512: 2256d06443c984b3dba3269ee131d3464a570836f2745aa39eb762981efc4df47a22f2aff1968873988a40eba860a2a3859e8ead2acd5d0ca5bcf393f0c21b03
 Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 Description: library for GNOME Online Accounts - common files
  This package contains the GNOME Online Accounts service, which provides a
@@ -23360,20 +23359,20 @@ Description: library for GNOME Online Accounts - common files
 
 Package: libgoa-backend-1.0-2
 Architecture: amd64
-Version: 3.58.1-1
+Version: 3.58.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-online-accounts
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 383
-Depends: libgoa-1.0-common (>= 3.58.1-1), libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.4), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.84.0), libgoa-1.0-0b (>= 3.17.92), libgtk-4-1 (>= 4.15.2), libjson-glib-1.0-0 (>= 1.5.2), librest-1.0-0 (>= 0.9.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
-Filename: ./libgoa-backend-1.0-2_3.58.1-1_amd64.deb
-Size: 115212
-MD5sum: 28c71c394315e6ebe2984d18ce2059e0
-SHA1: 5c4066b0c88de80d82178a39f72158a64b886dd2
-SHA256: e151740962b4f7679d9e6d2bc73c42108fdc99e32f97f6bfff144dabed352892
-SHA512: 34780d742ae4b17d5c8ea30c2d8f4c5ccd10e246eff2c77147bb048db58a4ae7e97f39b4b4ba204db9921029cf04fe29af99065664d1067bbbf7152c62508071
+Installed-Size: 391
+Depends: libgoa-1.0-common (>= 3.58.1-2), libadwaita-1-0 (>= 1.6~beta), libc6 (>= 2.4), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.84.0), libgoa-1.0-0b (>= 3.17.92), libgtk-4-1 (>= 4.15.2), libjson-glib-1.0-0 (>= 1.5.2), librest-1.0-0 (>= 0.9.1), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Filename: ./libgoa-backend-1.0-2_3.58.1-2_amd64.deb
+Size: 119916
+MD5sum: 14942b5c13b1e6cccea87ceca7f8837b
+SHA1: d44bd71d7e32e95863ff4d8743db565f2df9f2b0
+SHA256: 8ef13b232641a786fc7d2ab234ac77eec1b7c5b5db7e1a8cedf780c25d53f950
+SHA512: 8715bebdff0c03bdfaa652d63cd949a964637f2283245db6663e4d8ed808e7efcbed64837e3e66913e547029c704a2897e500b3b3aa16eb985423a012a836edf
 Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 Description: backend library for GNOME Online Accounts
  This package contains the GNOME Online Accounts service, which provides a
