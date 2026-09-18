@@ -6689,20 +6689,20 @@ Description: Adjust display hue to outside lighting conditions
 
 Package: gcc-16-base
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 105
+Installed-Size: 106
 Breaks: gnat (<< 7)
-Filename: ./gcc-16-base_16.2.0-1_amd64.deb
-Size: 37984
-MD5sum: df5d4290b975c1102d91f936e6c3f841
-SHA1: 60d9f5a4056316be2eb58428827bcc5c820a9ad2
-SHA256: 2c83b8b5a3ebe4431ca1f8f20370af04f8e80ca5a8726afd56f3fa1523f83e16
-SHA512: a7244635fb87e3e51cf006f7927f5969e8481fde741b14e47fd92cb582ad64b911502ed76e09f618b360a458bffb096185462f7cc58bb7fd79772ec308bf8198
+Filename: ./gcc-16-base_16.2.0-2_amd64.deb
+Size: 38352
+MD5sum: 67f3e751da91d8f90dcf0784bc8a80ec
+SHA1: a6204623a9da489d1cb995b286d940e7a85a93d0
+SHA256: 265cb9df5076878b51cebe553135975e00a4e1d2ccdecb1616879e2e2a6b223f
+SHA512: 86db1b84dace66014d3a1a7ea9f6dfd4bf596915b17c72f828662dbe03d23b9d3444f8667ab4d87aadb2eaddec62e57ada998113816530b78c0c8fbc09781790
 Homepage: https://gcc.gnu.org/
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
@@ -15689,20 +15689,20 @@ Description: Apache Arrow data processing library
 
 Package: libasan8
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 11299
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libasan8_16.2.0-1_amd64.deb
-Size: 2889016
-MD5sum: f7ddaf798c210a710eae5e6fab7cece6
-SHA1: 51052cd381745199f431d04652fdce8f653750d3
-SHA256: bc0ea89095da58424dc156de953231ae809e21e307e524879f6d59b2d5d8915e
-SHA512: 951c9d0db72df36471a3d17b233eeb11db8c6af13eaa3169a6600f45db632365ee344cf073614f4637c4f666f5c3c372ac87ca0eed431b7ec07bea9a7b3b2174
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libasan8_16.2.0-2_amd64.deb
+Size: 2889024
+MD5sum: 52d659dce9e356c6a75647358f707f33
+SHA1: f007e2acb439cc0a984e0f02729b8a5132d2b7bc
+SHA256: 701930ebc547a62850f204b8beb1d3d729f4e1b4e16dde33cb502bdfcb505681
+SHA512: c9f0a775d51efcb3a9cf252f7445f5e30e8ae4a42f5bea2e9cf383c940a402f19cfe6d9f1c346f0783b358db9f86a145090d905406ad578a7b5ac61189d82630
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
@@ -16012,20 +16012,20 @@ Description: Development files for the ATK accessibility toolkit
 
 Package: libatomic1
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 49
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.14)
-Filename: ./libatomic1_16.2.0-1_amd64.deb
-Size: 10404
-MD5sum: d93e04976e1a79e63abbf39fc1990359
-SHA1: 498a2195b4571d05d11357263398371a5542bcf5
-SHA256: e73093bae9f29771425780a07b674eb8c2ef6036c2d6563d299a34f8120a4593
-SHA512: 998e64ae81751a2ddbfb823e2b478e2eb4f77f5327c504c321707f051ca4944740ad52e286c883db351342c561735067930120f9fcd4ac083cc6efbf8a386b2f
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.14)
+Filename: ./libatomic1_16.2.0-2_amd64.deb
+Size: 10412
+MD5sum: 03dc3f0eaa8b591161ac5bbf302879ce
+SHA1: 3b9a907af1557d4521c36c0599964563f9278920
+SHA256: 6f25844ae2b5494825ab29cad89753b5be965450c3b13d6820b54193d245d0ac
+SHA512: e85d894fd101a9d166d6fcada6f099a398807862ff1156c8d1c707c8cef8b687f99d29f87d41e1ced53393fb70aebd734cd25883f590e421700b778e0b2a0943
 Homepage: https://gcc.gnu.org/
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
@@ -17703,20 +17703,20 @@ Description: Configurable on screen keyboard with scanning mode - library
 
 Package: libcc1-0
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 148
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libcc1-0_16.2.0-1_amd64.deb
-Size: 46164
-MD5sum: bcd8740646b409aef148e5a14163512f
-SHA1: e9bb507e444fe7fd46c6cf32c44a59ef8a92c2ab
-SHA256: 834a31a138d69f957f846b0efc5a552cdf204b92906e88d817060cc54338ec80
-SHA512: 8410d504485f91b84248fb6b10dd1c2872794b748bcb2a862d1350f02c497f69059b239b1312325a1981c83a7ed3bef60e482e864dbe3aa9717e8e192140abb7
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libcc1-0_16.2.0-2_amd64.deb
+Size: 46080
+MD5sum: ef7f9cd57649e1ef3cea74e9aeb58cee
+SHA1: c9d0691be884aed3117f3a5527281220f395633f
+SHA256: 2466efa2057d4784b55613a1bf1b9ecccca8360360246680a933b506e5b1ca37
+SHA512: 1cdf699ca48644a4c10eefa65bc58a5d382f37f4537bd47db13c874005bcd6f8e1b6a2f323aaabb0ce5e549f1bf4019b6b0f84c91cac66e1ae553a3e0f150522
 Homepage: https://gcc.gnu.org/
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
@@ -21762,7 +21762,7 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgcc-s1
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Protected: yes
@@ -21771,15 +21771,15 @@ Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 197
-Provides: libgcc1 (= 1:16.2.0-1)
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.35)
+Provides: libgcc1 (= 1:16.2.0-2)
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.35)
 Replaces: libgcc1 (<< 1:10)
-Filename: ./libgcc-s1_16.2.0-1_amd64.deb
-Size: 74112
-MD5sum: e92d5a33d5f961cd274fd39643fec50f
-SHA1: a4f92528472dec4a01242c5e61dd61728114821f
-SHA256: 9c41e1c5492be427c847d6ef9c7929be7e4f05f7af5b1054aa5180103e958c12
-SHA512: a4a98e9b14324a83a6195c383ff085fb5acf4dd00658c5db6c267a823730f3016b1f3b4a5d1aed3caf892d2662df5c2251b3af2d928b7e95f99656514ae47f56
+Filename: ./libgcc-s1_16.2.0-2_amd64.deb
+Size: 74068
+MD5sum: cb83adb158dadb3e3de591b6187d3593
+SHA1: bda3d48ad14710908f62380262dfcb7fea1c2fe7
+SHA256: 707b314365f88f9e27fa5c506f8d8b21a6669781c09cdaf1257be2d814950c8b
+SHA512: 4aa4873f2462ac9d975fb1200ca9fd9911898329689e8e9c670a625e26c98eeb329e959a2ba629d08b1a490cbf05bc84c462f5ab1ced2f42ec9eef476a0e102b
 Homepage: https://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
@@ -22478,21 +22478,21 @@ Description: GObject-based wrapper around the Exiv2 library
 
 Package: libgfortran5
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3530
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.43), libgcc-s1 (>= 4.3)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgfortran5_16.2.0-1_amd64.deb
-Size: 878116
-MD5sum: 5de1257fb9f3fe3ec89176e5779085f0
-SHA1: 910486b891eb3007551aac115cb75a935a602aff
-SHA256: 3ca9f191dbd938681d9ab7fe8827e7d6d6b628d2ddbed1069b796c741bab30a3
-SHA512: 244b3d48b496864f6789e9b983c77816f751d92840719d7d6a9ec7546220db87c46746e928ff4839244eddeeba7969e2c6f8e9bcc817de57273e7574951c8cff
+Filename: ./libgfortran5_16.2.0-2_amd64.deb
+Size: 878416
+MD5sum: 4de91eda42103a44ad804f7b83f2f007
+SHA1: 3de1931478e8790126be710f709da8fd45b8a9cd
+SHA256: 3c245fbc2707fcbe05f05d7481eaebe0175a9abb87d7b4366b01dea3b2fb343e
+SHA512: 2f5143603b638409411344b6cd50e2526c17b5be954927258982eef9f0ac1a18240f78a4a8a17532827f4032012a58b65a7076ed42fac113d0b8529f624e7982
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
  Library needed for GNU Fortran applications linked against the
@@ -23410,21 +23410,21 @@ Description: Object mapper from GObjects to SQLite
 
 Package: libgomp1
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 402
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38)
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.38)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgomp1_16.2.0-1_amd64.deb
-Size: 151448
-MD5sum: 9cede8f831e7f72adaed7847cd191c57
-SHA1: 8e42b44da859cc046c9888aa14ae5f7dee38e54b
-SHA256: 07fb753348b98e18b40b0ebf81c83a468bde7a3d312fb6cd44700b6ab28f607a
-SHA512: 1e627a03a36ea4d42daafcb80744f22bd4c99186344911aef1a4f0313aff7f4310ebb18a42c260e60a99dd0447fa31444f589894760b9ed9d13f3adade64b0fc
+Filename: ./libgomp1_16.2.0-2_amd64.deb
+Size: 151128
+MD5sum: 997e971b6a0aba1bdf71602b4093f650
+SHA1: 79f7d49b6882866dc13c64f453e2e99387eb4fd0
+SHA256: 66845804c8c8a3bc6dd1a954f7bbf9d0278a6e19c7d963898f1b58f030312696
+SHA512: 6c5a43de6ecaacb8a371ad0586f9547ed6db4e7a0722770ab42d43b7c9cd5636729595d26f6e570c021f5bb2872e48bd408a31d2322ddb5d9a38ed82d972a72c
 Homepage: https://gcc.gnu.org/
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
@@ -25227,20 +25227,20 @@ Description: spell checker and morphological analyzer (shared library)
 
 Package: libhwasan0
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 5089
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libhwasan0_16.2.0-1_amd64.deb
-Size: 1580084
-MD5sum: f8b4fb98a419bd0f2a8b81f20555668c
-SHA1: ea8426f0e488767220f351b495d93987b8af34aa
-SHA256: fb1f2ec2e1ec040f7df165b0c4ae2e878102ba6c33ef0f36c6fa59d2e423f47e
-SHA512: 6cac5646648c97956fd34c44f8d66758a1df490946f99718ccf92025f2c2060831ae3a26451bfce575789a08aaec3038a0f9563651951671893a7af4fb56e3d2
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libhwasan0_16.2.0-2_amd64.deb
+Size: 1580212
+MD5sum: d7537b7194ff1d23596b66c92ec689fd
+SHA1: c1c515dcfc970604234637a93c2e2a1d4cf877c3
+SHA256: 82546048dd2db7ba801ddb14de934f2ee1296614a26f719e099f040c9ed746b7
+SHA512: 18e0362f30f6d3f3eee41a4cc017b1087c194b464a67c6645ae77fe26f8be86c5a4339eca99b0d677235514031110269bc163d5de04b39d78e6bd6d43e40579f
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (HWASan) is a fast memory error detector.  It finds
@@ -25677,20 +25677,20 @@ Description: Java Library to create and manipulate PDF on the fly
 
 Package: libitm1
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 115
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34)
-Filename: ./libitm1_16.2.0-1_amd64.deb
-Size: 26968
-MD5sum: 1dc59840929588b17c24830e1dd861b8
-SHA1: 0e7365751f665fe83d0a93ace1b594dde2058377
-SHA256: 53f2cbcf1cd8e9d809c462dfacf921b0d237d2ecbbec7fdead1c68736e130fe9
-SHA512: 3e32a15e86a1b5f2ad11305a86554700fec4907f410262a226da15dbdbc577c7723e098e9746a2563432af734b832af33571fcb9c4d66de868d93173312d935f
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34)
+Filename: ./libitm1_16.2.0-2_amd64.deb
+Size: 26980
+MD5sum: 7f936f6471177c43eac7866bff03c1fd
+SHA1: 934c1be7ff11ad94d6fd7c2398168666d014b7cc
+SHA256: e397cbcc5da4c9bf36b42fe6cce22e3ec69ed31c6984515d60c4e3e653ed9c62
+SHA512: c019ca825f197cdf7e1d0695cc38dba5550ed784ffb9f1f13df769f2a1eb801f9e2688426d56f7372dfe4182a1c9690ded54e13ff30d78b22280962741e25d63
 Homepage: https://gcc.gnu.org/
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
@@ -32871,20 +32871,20 @@ Description: Java general purpose resource loading framework
 
 Package: liblsan0
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3977
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./liblsan0_16.2.0-1_amd64.deb
-Size: 1280476
-MD5sum: 9584924502896d84cdf3e88d7822f11c
-SHA1: 958e6e65a0da3a7e38d053a3c8215a1b09f6b37a
-SHA256: 3dc2d3f43d39af159405d31eb6332e382a39f634507a42be5491c3efd0db04bf
-SHA512: ae43d0c8ed507c154a78f602dba9438426b10221a0117470644de5d7528a2a2aed1315815def222f3324145b448b8b7884cde7fcb214c3929ba359743c111e3c
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./liblsan0_16.2.0-2_amd64.deb
+Size: 1280560
+MD5sum: da15fb92efd54283de93243b1a05d5c2
+SHA1: a5ab7608bd08d71305cbd29db09295201ee3a922
+SHA256: 0774d68c05f1d4b77c5a8acfd4049f8a218876cf8c0fd61ae167c0d245185f92
+SHA512: f5d24c210faa71b7a9198551b35d8e6a1f9894c5c9c1571c5f9a7d81c18529fe87fcadf6e1792ccaa567fbda5f2d08777335b24dbcb89cdcf425162bf2e6ffdc
 Homepage: https://gcc.gnu.org/
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
@@ -35131,20 +35131,20 @@ Description: C library implementing OAuth Core 1.0a API (runtime)
 
 Package: libobjc4
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 209
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
-Filename: ./libobjc4_16.2.0-1_amd64.deb
-Size: 44884
-MD5sum: ae289ab1383295c0bde85ae4f8600d89
-SHA1: d056683bc1f19150385ea84840454e65e952ff68
-SHA256: 5cf94ecee87db55efad4f16d7e4f59d396147e20257c4792ad62f80a6d1ffc36
-SHA512: 0ed7131b2c58eaa92be0581759dacd1077e0e76dcc99b87b59522cca3065b2039bc180472d38dde3f7dd64f12787a1c941c4a10a32fc5713745bd6a82eea1c55
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
+Filename: ./libobjc4_16.2.0-2_amd64.deb
+Size: 44960
+MD5sum: 485172c2c4282d464f6c8a00beaf8a15
+SHA1: 3b71429b4839de39d126ee1f7699d048d50e799b
+SHA256: e6063097cfcbbb191e81cb659aa6ba9892ffe494fcee2300d5b2fcfbbdbbe151
+SHA512: 6e7194b7fa0f76de6bffbae3ea8f52529e9bb97a9dcce6ae38005734d0952a76c88625418555d646e5ca0e43f14747df639fddf4db08b50938ad5759f1099508
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
@@ -37245,44 +37245,44 @@ Description: interactive high-level object-oriented language (default python3 ve
 
 Package: libpython3.14-minimal
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 5674
+Installed-Size: 5675
 Depends: libc6 (>= 2.14), libssl3t64 (>= 3.4.0)
 Recommends: libpython3.14-stdlib
 Conflicts: binfmt-support (<< 1.1.2)
 Breaks: libpython3.14-stdlib (<< 3.13.1-3~)
 Replaces: libpython3.14-stdlib (<< 3.13.1-3~)
-Filename: ./libpython3.14-minimal_3.14.7-3_amd64.deb
-Size: 902296
-MD5sum: 74762c090bb8131e6367e1891b9082fa
-SHA1: 2af3431c2c38a8898ee42f79604f71e9cac92486
-SHA256: b489df1c70674ac474a717873750030766a305823203a45ac9926858aedfa705
-SHA512: df8631f937d8c0005141758c1f1f4205402bdba7e7ee18f40af978db1f4cc4e1c15217f4b04c520a1bc456b111e4f992b2e6492bea3111bce84cb97b6a99eae8
+Filename: ./libpython3.14-minimal_3.14.7-4_amd64.deb
+Size: 902188
+MD5sum: 77367af9055b57db7b9d2345f4ea38cd
+SHA1: a5593d7b824aa323460c3ca9cf868cde0442df12
+SHA256: 428191fd9062d0cfcfbdd4fe285b7405a1088cbe8a28457d5b2e8544eebe347b
+SHA512: d07b240e49052f92a65963f357c8f72852a86b1532dcb6ec1fc75606814fe7e4db0aec48f22a053d23b5599b690180150da8b3917bd65e649ed285752b8c9dec
 Description: Minimal subset of the Python language (version 3.14)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python3.14-minimal.
 
 Package: libpython3.14-stdlib
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 10316
-Depends: libpython3.14-minimal (= 3.14.7-3), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.42), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), libzstd1 (>= 1.5.5)
-Filename: ./libpython3.14-stdlib_3.14.7-3_amd64.deb
-Size: 2359684
-MD5sum: dd59e018c67b8a93072ff4ffca977a3e
-SHA1: e2626f8de8dad63902687d2526de45f2354f8563
-SHA256: 7ef6bcc0978be0b8201f473cc99414968de0a89010543289da03d3cc542d6d36
-SHA512: ff0c8106169040ee7c199a0ccbe2effe3c57dc371b0c538c8d05579f34649212c304aca5d08ca0ca7878cd7edca40195bbe4f0065452295cc7afa5749d54e017
+Installed-Size: 10318
+Depends: libpython3.14-minimal (= 3.14.7-4), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.42), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), libzstd1 (>= 1.5.5)
+Filename: ./libpython3.14-stdlib_3.14.7-4_amd64.deb
+Size: 2362068
+MD5sum: 94cea564682997d3e63f104ab8516d31
+SHA1: b8ae227bd91e1cc5a26e0278860a3adfa54c9bf4
+SHA256: 1c466ba4810549157a11bc8f7cb5b8920c59a4554824fe302c777e6f980d48e5
+SHA512: c191f4655767f7125518e4bc2b9f18fe0333a2d2b2c847ec440140b6e48ccccf4d1ea751076d367143c2668d0a4dc1ff53c2580018bec494ba81928f2a4d60a3
 Description: Interactive high-level object-oriented language (standard library, version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -37293,21 +37293,21 @@ Description: Interactive high-level object-oriented language (standard library, 
 
 Package: libpython3.14
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 8503
-Depends: libpython3.14-stdlib (= 3.14.7-3), libc6 (>= 2.38), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Depends: libpython3.14-stdlib (= 3.14.7-4), libc6 (>= 2.38), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
 Replaces: libpython3.14
-Filename: ./libpython3.14_3.14.7-3_amd64.deb
-Size: 2530400
-MD5sum: 0fe689736d0dee9555c44218acad3353
-SHA1: 665793008a28039fe30e5325e698c0b24a8594e8
-SHA256: 14dc83f94319184b6ddb3b1d936f7172d64373916ad0f9069eb05cd9c55e9e5a
-SHA512: efb1b778260ab82f3caae181be791ea17d49bfc06e27fdf84515afd125edc27f9931138caa8d3ad0801f9094649a5ac5c8cc4810c39534c94c9ba0721ba52453
+Filename: ./libpython3.14_3.14.7-4_amd64.deb
+Size: 2527776
+MD5sum: d7aff693965de635a4e86fee6a0d4a0e
+SHA1: a54f33731de5988fccadb42425cf19c25735a53f
+SHA256: f7aff3147e6edd6dd187cdd2831973d7174a8f41a00e59855f1f322618632a2f
+SHA512: 7c2df75a23353e341c4cd865c7500258f162b1545458d75dd304f874dc8ed6c676482b4e10007f271e66e74bf0b7b730edb68fbec28b47bc32326a2d479ec09d
 Description: Shared Python runtime library (version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -39347,20 +39347,20 @@ Description: Terminal emulator widget for Qt 6 (shared libraries)
 
 Package: libquadmath0
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 300
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38)
-Filename: ./libquadmath0_16.2.0-1_amd64.deb
-Size: 147696
-MD5sum: 000faceebe740d5e4711933b02aa6be4
-SHA1: 7a7b176edde3bb8079555b1fb8ec57dffc25803c
-SHA256: 84ac5039a25bf4d0d38a65c899f9f8353f372abb68339ec4c04fcfad5ee16263
-SHA512: f6632f901f6ca340af3e779b188bf735cc018c2c3540475c71024f63ab2790407e6dd4588b5b04d089134005485744be9479e8caf2ccdbc89771df2a626656d8
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.38)
+Filename: ./libquadmath0_16.2.0-2_amd64.deb
+Size: 147252
+MD5sum: 0df38dd36a37666ee5fa244369f7c935
+SHA1: 159bc83b5ec3645b171afe34d03e6d2d854feaa9
+SHA256: 391965be91aae915e40434a8b43bb8d563f1036a8e134ab6141d572b2d1f301e
+SHA512: 1177dc9e1bab4d6394d9f85659471bfeb6e0c49bdd8c2236c9912714006701b41a0138d85034520be97045e1ac1b17f3e3ba86cfca06c76ff9402873c92ad9d0
 Homepage: https://gcc.gnu.org/
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
@@ -47483,23 +47483,23 @@ Description: library being useful interface to system statistics
 
 Package: libstdc++6
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3320
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Replaces: libstdc++6-16-dbg (<< 4.9.0-3)
-Filename: ./libstdc++6_16.2.0-1_amd64.deb
-Size: 823688
-MD5sum: 59f29e3625c9a86f5f84b34bb7fa927f
-SHA1: 2a85a29b6d5638843a7f63d8f039ca60fef8bbcd
-SHA256: fc0706f1e0ab327dfa3495d227b6bfd719d10803477b7503769cc75a161a619e
-SHA512: 5325f6df7b178ffa6ae9678737c829af48b547d475522bdcae32a9fb9aa88f5b89016a8eb7390aeeb7054f0920372d2b80c63b77b480a01b67cd5bf390eff314
+Filename: ./libstdc++6_16.2.0-2_amd64.deb
+Size: 823220
+MD5sum: 7b3fd2aa664cfd6a12507651de769ea6
+SHA1: cb7f613f5977e2da391c995dadcdee193ac87efe
+SHA256: 1288288617f93c402c2163799579b733ec393fe504abe51bb2f77590908e8151
+SHA512: e3da5a03b579860f8bbb80d4be5b80176d55e9fb73000a3d87889d17677830e08232abe1c63ddfd56fdf2e4dbd719311dfa01f78d3a4ceb81812f85a086373d1
 Homepage: https://gcc.gnu.org/
 Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
@@ -48421,20 +48421,20 @@ Description: Main library for the Totem media player
 
 Package: libtsan2
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 9181
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
-Filename: ./libtsan2_16.2.0-1_amd64.deb
-Size: 2572728
-MD5sum: f0e8068bdc2bdce93955a90facd2eabf
-SHA1: 8c7869c2c729f55341f1cd9c13034355e1782de2
-SHA256: 6b2d2e6eb50f3c14bbbee53cd13760510b14bee8bae2f1860a00904ac457fb0f
-SHA512: e3366094a97f80b01522973ca084035033f38c55312265d7abb2199a7293e981965a1dc63c216ff9621d8d4480a071d3a4fcc2efbe899777b952fa9c2fa6e3dd
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
+Filename: ./libtsan2_16.2.0-2_amd64.deb
+Size: 2573948
+MD5sum: bb5fd812dff71163a6d96653c2c8c7d3
+SHA1: 7fbbad1c085c803b1cea17dfbe16645e0170b647
+SHA256: 632e1856c30721634730fe338cab54407157db9f3ef2749da8a82ecc5e4d316b
+SHA512: ec2c47b6a868f09e651c84ead73b1b7ef186e355470ddc5d2544b18c547613481c3cc88d64a3dfdaa1cfea031f149456c2b736f1f03898f0673b8b5d94191a01
 Homepage: https://gcc.gnu.org/
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
@@ -48897,20 +48897,20 @@ Description: TurboJPEG runtime library - SIMD optimized
 
 Package: libubsan1
 Architecture: amd64
-Version: 16.2.0-1
+Version: 16.2.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3483
-Depends: gcc-16-base (= 16.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
-Filename: ./libubsan1_16.2.0-1_amd64.deb
-Size: 1136120
-MD5sum: 3e3f3f166f7cba759a18f1db812866c6
-SHA1: ea3aef6653f23e3f76d19464618a9607f999d0af
-SHA256: 91caaea38352356b23f245d8911a2dc53688db6c6395458c58d0b417421b3d62
-SHA512: 14804a4737ac5be249414039a362f2bf057727560e14ebda2f088243534d209ec7707fcc425610b9096dc91e004662a4c4148d3e91d7d342cd0b15f655cc2ce6
+Depends: gcc-16-base (= 16.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
+Filename: ./libubsan1_16.2.0-2_amd64.deb
+Size: 1136020
+MD5sum: 8abc61dc1fbf946747f8fc2a327376ef
+SHA1: db3cd6b2d02ec1c0d28297d9ee04099fab72777d
+SHA256: a3e3c6b333ac7a7e341b35bb96e11f9cfd2c82fe83c8d54b4eff65999c1db258
+SHA512: fb3c29446c5119cd103f48133a2e39b10104a06ec803367ee09c422128d9f1574c05638cea98c68fb07a5f6a4f392aab1794eccb306e7c314bfb70673a74bd8f
 Homepage: https://gcc.gnu.org/
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
@@ -60008,24 +60008,24 @@ Description: pathlib-compatible Zipfile object wrapper - Python 3.x
 
 Package: python3.14-minimal
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 8155
+Installed-Size: 8160
 Pre-Depends: libc6 (>= 2.38)
-Depends: libpython3.14-minimal (= 3.14.7-3), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
+Depends: libpython3.14-minimal (= 3.14.7-4), libexpat1 (>= 2.8.0), zlib1g (>= 1:1.2.0)
 Recommends: python3.14
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
-Filename: ./python3.14-minimal_3.14.7-3_amd64.deb
-Size: 2711936
-MD5sum: dd4feb4c715d74559cc90d0576bc11c3
-SHA1: 0ba103c6b582a2eaa1ef621281cfb8e7facd093b
-SHA256: dd32a759888c5d856d88fa0bdebdaaaa838f3e47004af25e60b28379528aa26a
-SHA512: 0074fe31fb82c0e156b1e92a9c0466b68b552a65bd1b0a4cb16778dd8d1660d40ff07a88315ee3061e5084d0b543c951954ab16f65669e3b2cf8b597a4771b75
+Filename: ./python3.14-minimal_3.14.7-4_amd64.deb
+Size: 2712636
+MD5sum: 83701aff3bc14742641396a48d99367b
+SHA1: 5522d2553763ebd8a14eb941d38003af8343b551
+SHA256: d98f0191840c482db054307ec0962111ea9ed9a08ba91fdda19c73d9b8719093
+SHA512: 94c95d1e4c60f982018f03f2f204810e375955c05d9476464d5b7264811c0bf2bc696dc53a5a33171537f846432959d6674ecf5813e3312641613d68bab1ef29
 Description: Minimal subset of the Python language (version 3.14)
  This package contains the interpreter and some essential modules.  It can
  be used in the boot process for some basic tasks.
@@ -60035,21 +60035,21 @@ Cnf-Visible-Pkgname: python3.14
 
 Package: python3.14-venv
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Source: python3.14
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 27
-Depends: python3.14 (= 3.14.7-3), python3-pip-whl (>= 22.2), python3-setuptools-whl (>= 70.1)
+Depends: python3.14 (= 3.14.7-4), python3-pip-whl (>= 22.2), python3-setuptools-whl (>= 70.1)
 Breaks: python3-pip (<< 1.5.6-4)
-Filename: ./python3.14-venv_3.14.7-3_amd64.deb
-Size: 5456
-MD5sum: d1507cbcab7b8802ec4d6deb89c8f985
-SHA1: f8e3bdd51551bfcd1f1637f39782b43cebf229aa
-SHA256: 0eee13be14b1a6e3ca364558921ebb0e9c2ef2a8b672b3406eafd2df9db96a71
-SHA512: 06c2838c4ea5444588e87b598785485fa8e6626dd35352ed2488f4e77af73e1c80dc99b5a18b9b49daa8ffab4e1b6021aa3f31523ddb85627e4b6d35ad89d778
+Filename: ./python3.14-venv_3.14.7-4_amd64.deb
+Size: 5460
+MD5sum: 60549c8b08985d5956a51ae749a8bce6
+SHA1: 288ff4d6f199aa863735d3d222655bb66c08031a
+SHA256: cc9163d687d6dd5f5735a6e1edc4f615298f07de5fd20498e4aa9f44b7758990
+SHA512: b0dd1544a977392aa8dd26b5fd5562fea7513a29d05ac1494b8df4ad979798735e6e8776598d626c4dddc9794da9cc65d52cf265f5752c8753325f0b2962f2d1
 Description: Interactive high-level object-oriented language (pyvenv binary, version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
@@ -60059,22 +60059,22 @@ Description: Interactive high-level object-oriented language (pyvenv binary, ver
 
 Package: python3.14
 Architecture: amd64
-Version: 3.14.7-3
+Version: 3.14.7-4
 Multi-Arch: allowed
 Priority: optional
 Section: python
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 934
-Depends: python3.14-minimal (= 3.14.7-3), libpython3.14-stdlib (= 3.14.7-3), media-types | mime-support, tzdata
+Installed-Size: 935
+Depends: python3.14-minimal (= 3.14.7-4), libpython3.14-stdlib (= 3.14.7-4), media-types | mime-support, tzdata
 Recommends: ca-certificates
 Suggests: python3.14-venv, python3.14-doc, binutils
 Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
-Filename: ./python3.14_3.14.7-3_amd64.deb
-Size: 860820
-MD5sum: 98a36df205769cd95c341135c5de41cd
-SHA1: c37e0d1853b2730d2f7700e4d597eec19bd38e70
-SHA256: e343cd8814fb06bd188ffd3e04e0f56ee35477d3dfb7e49ff4fa67f759c824b8
-SHA512: ceaf6d24973d3f1866f524887c6374596d8e53aa32a9d80bc58acaa19df73690e080f399268e209b33a1720f50b389b6f91417d6bfb9031e1876618d4ceb2f21
+Filename: ./python3.14_3.14.7-4_amd64.deb
+Size: 860872
+MD5sum: ee57cfdb725f268d1d9399714eaca76b
+SHA1: fd2df5e7513631f9ad7b5da356eb388c05cc14e7
+SHA256: 3fe916a2ea858e5add216b34f14c9aa02dcde81966e1649b4ed4be02a5509b4f
+SHA512: 17a503a636fde2846295cae2faae6f291bfe95a608561a81bb65b4e4f421e340457d06d6d77662bc65a5b39c2bcf50ac87ba36bcdca9639b142eb3eee6b3dc84
 Description: Interactive high-level object-oriented language (version 3.14)
  Python is a high-level, interactive, object-oriented language. Its 3.14 version
  includes an extensive class library with lots of goodies for
