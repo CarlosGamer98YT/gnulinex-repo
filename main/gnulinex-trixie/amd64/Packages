@@ -7680,19 +7680,19 @@ Description: GObject introspection data for the GCR library
 
 Package: gir1.2-gdesktopenums-3.0
 Architecture: amd64
-Version: 51~beta-1
+Version: 51.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gsettings-desktop-schemas
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 31
-Filename: ./gir1.2-gdesktopenums-3.0_51~beta-1_amd64.deb
-Size: 10432
-MD5sum: 4e999adf87d27a66a718189b038f70ee
-SHA1: bb5b9ba9add79288e7d992b24009c36d99232bdc
-SHA256: c94f40ecb8a62b5bd58978362fb72b3632304a9b60d3a42c042f39c0ef9b95eb
-SHA512: d9e041292a786a2b5f2f4a00b016effa819df22ac07f9b07ca78acb694d7c0cb1cdc154cf7718019f9aa0390c95fe0c6cd747072924110f57e4eaf2708e7c574
+Filename: ./gir1.2-gdesktopenums-3.0_51.0-2_amd64.deb
+Size: 10512
+MD5sum: cd927f5faa470b3dbb085cd71e9860bb
+SHA1: f6ad662704383157adf42aaf340297c345da7864
+SHA256: cf3085bb3650b10fa81e986177849d3172ce328d06edca18d0ec2f6f053c59f3
+SHA512: 774fe21984b4570d204afcd1504269ff78c191c80e5ee8099271f108ff22b1b7268b170213d7a203cc0b94478f8b2a1c02df176816685a9579a5b8d9cf96c4c5
 Homepage: https://www.gnome.org/
 Description: GObject introspection for GSettings desktop-wide schemas
  gsettings-desktop-schemas contains a collection of GSettings schemas for
@@ -9208,7 +9208,7 @@ Description: gir files for renderer library for SVG files
 
 Package: gir1.2-shumate-1.0
 Architecture: amd64
-Version: 1.7~beta-1
+Version: 1.7.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -9216,12 +9216,12 @@ Source: libshumate
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 63
 Depends: gir1.2-gdk-4.0, gir1.2-gobject-2.0, gir1.2-gsk-4.0, gir1.2-gtk-4.0, libshumate-1.0-1 (>= 1.7~beta)
-Filename: ./gir1.2-shumate-1.0_1.7~beta-1_amd64.deb
-Size: 16060
-MD5sum: 44bbb0df247c7a2e7cb5e2deb39a9c75
-SHA1: da6b8039b641850800e91f69472214186ce0488f
-SHA256: a681f9f85b5076d1c0a55cd95b9c78c001ebe520b7fa578f1700085b490933a9
-SHA512: 6ece8de04e847514bdeaf2f59a770943374f1b553ceef03e948f79cd7335ff249212a27691c2bea11f2d82a382e2bfbeb07eb5cecb747657b14178e2a68ca09c
+Filename: ./gir1.2-shumate-1.0_1.7.0-2_amd64.deb
+Size: 16132
+MD5sum: 4ec923e619a63f7bf7130bafd5001576
+SHA1: 0e269be6f920dadcd4aff95003a0f75d803f504c
+SHA256: 7f7b3db655ad67fd3ea5cb50913318e6800f57920879c761d6a8b347c9139d85
+SHA512: 5b4155553a2572662e08564cda4ac2d03eecc93e860d4f19eee0d9717ecd4e9a7961752253f84f0a64029d427fb39cba075ede9ac9bd66f9a89003cbad5668bd
 Homepage: https://gitlab.gnome.org/GNOME/libshumate
 Description: GTK4 widgets for embedded maps - gir bindings
  It supports numerous free map sources such as OpenStreetMap,
@@ -9471,20 +9471,20 @@ Description: Introspection data for Xapp
 
 Package: gir1.2-xdp-1.0
 Architecture: amd64
-Version: 0.10.0-1
+Version: 0.11.0-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 44
-Depends: gir1.2-gio-2.0, libportal1 (>= 0.10.0)
-Filename: ./gir1.2-xdp-1.0_0.10.0-1_amd64.deb
-Size: 12612
-MD5sum: 6eadfaa063e7511fe570bc6d7bea4fc1
-SHA1: 32eee6dc91056a007af915cbe759a04a09279a5a
-SHA256: afddcd067c2b0d93fa257dfbdecec39fc458100740a702c3ad3015d24dca927b
-SHA512: 6a1f47fdf331ac967612df97ce8490b021987a15e50b78b4a60e7169880181928a1adc52b7c4a89336899e5245ee87ebc39900ffa046b83710b073478b79d1d3
+Installed-Size: 47
+Depends: gir1.2-gio-2.0, libportal1 (>= 0.11.0)
+Filename: ./gir1.2-xdp-1.0_0.11.0-1_amd64.deb
+Size: 13264
+MD5sum: 3324ed24253f7167915af67b267ae6e7
+SHA1: 9ff1acfb671a8c5933dbbeb9907284c69acc889a
+SHA256: 7d4b20910d44ba6936b71b0ebbae0226320aa3b694271eb2dd2d15f197ddff01
+SHA512: f0be354ca132daf14ea1d99583a86189ceda3241b1e86cb6153bbdb858872ff8dbc1be28a5ce964de01269a4c56fafe7993a2cb2c4ea8f827e5c78dae036064a
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library - introspection data
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -12179,20 +12179,20 @@ Description: GRand Unified Bootloader (common files for version 2)
 
 Package: gsettings-desktop-schemas
 Architecture: all
-Version: 51~beta-1
+Version: 51.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 6819
+Installed-Size: 6993
 Depends: dconf-gsettings-backend | gsettings-backend, user-session-migration
 Recommends: python3, python3-gi
-Filename: ./gsettings-desktop-schemas_51~beta-1_all.deb
-Size: 818112
-MD5sum: b2ccebca55ac8f4aa0e98c8b80e23615
-SHA1: e236bb146590279d8cdc0bd25d260706e1817f72
-SHA256: b94ca77c3c96b2dc9073dcca79cc011f31fd536a93d23a9948add4af0ad60613
-SHA512: 684c6ed7e5e62c58503d2c6b8e053dc2be1737d7b4963aaa37c3ff40730ebc996adc18e8abfcd3d536d99fafc9ada4e057ede4406ac59905c70be77182f6c5f2
+Filename: ./gsettings-desktop-schemas_51.0-2_all.deb
+Size: 846224
+MD5sum: f41d1cb112391965d7d5d026c20ce919
+SHA1: 18f47ae6c7db46451824056ad1f3b88e39c51769
+SHA256: 98347ec0e280db3de64603b3d5a2c9d96b7cbfbb8f99d1e7d1408127b6f64164
+SHA512: fe28341309d6d051fb2fd3678a92611acaddd504ec358e7af80b72b75af8e4771f64acaa1003bf60e61334321a840272db7433fa4c3574a2a16993b610a0cee7
 Homepage: https://www.gnome.org/
 Description: GSettings desktop-wide schemas
  gsettings-desktop-schemas contains a collection of GSettings schemas for
@@ -16864,20 +16864,20 @@ Description: CD/DVD burning library for GNOME - runtime
 
 Package: libbrlapi0.8
 Architecture: amd64
-Version: 6.9.1+repack-1+b1
+Version: 6.9.1+repack-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: brltty (6.9.1+repack-1)
+Source: brltty
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 146
+Installed-Size: 145
 Depends: libc6 (>= 2.38), libsystemd0
-Filename: ./libbrlapi0.8_6.9.1+repack-1+b1_amd64.deb
-Size: 94664
-MD5sum: 6bd6ac6c2fd149d3d7c2f7227023cdb8
-SHA1: 1671bc797866f6b7b59c8d5a31e469f416dc76dc
-SHA256: b610bfcecc5b18e75cd80e94314e639d9a94bb5f01098ac0431188ef0c7067d4
-SHA512: 7e7b7e654ef5e628ffc8697c51f1dbc8525fa6ef812b3b63e7b48cde0cf340662ed3af4205df0b7dc3b3a64bed2fa8bc7f8e02402c675a12f3284929b8db66f2
+Filename: ./libbrlapi0.8_6.9.1+repack-2_amd64.deb
+Size: 94804
+MD5sum: c40cdeb06c1d6194fd0140735a975da7
+SHA1: 50e36f1699bb414e13de80117f5b220387b00a7f
+SHA256: 25333c8bce07e7f6139443bd1bc4e9d52d3b2f1f1594039c80efff5f95d84588
+SHA512: e9c4f5d19803765280a01874a03017d6d44705ca23bcb3f0e040e8ecf918ab564cb0fd11f9033bdcfebb5e4dd9c7303444b0cf246a1106674f9d95ee3cf5def7
 Homepage: https://brltty.com
 Description: braille display access via BRLTTY - shared library
  BRLTTY is a daemon which provides access to the console (text mode)
@@ -18279,43 +18279,43 @@ Description: CUE Sheet Parser Library
 
 Package: libcurl3t64-gnutls
 Architecture: amd64
-Version: 8.21.0-2
+Version: 8.22.0-1
 Multi-Arch: same
 Priority: optional
 Section: oldlibs
 Source: curl
 Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 36
-Depends: libcurl4-gnutls (>= 8.21.0-2)
-Filename: ./libcurl3t64-gnutls_8.21.0-2_amd64.deb
-Size: 16968
-MD5sum: fe3685cb63b3b61108c71f0891b38cc3
-SHA1: 1442af2f9fc7578e580618be2dc963611de826b5
-SHA256: c08c71d13ed0bd5e076e2107f4fafbe605a5667c2aff3988edd4fc8003ca6970
-SHA512: bc2bf83d0aaf67175a44908042381f22a0d001efe29d4dc1e86be00070d71e8c50524747bb4237c52a17647253b2025f46d0842e7418e91a56160af348e915fb
+Installed-Size: 37
+Depends: libcurl4-gnutls (>= 8.22.0-1)
+Filename: ./libcurl3t64-gnutls_8.22.0-1_amd64.deb
+Size: 17812
+MD5sum: 2ccebf1db735d7cbccfdaf2aa3c7d9b9
+SHA1: 7dff548154ec594f48f5068734feeeeb8790c8a4
+SHA256: d73e82c8aaa1d930e02b67c17b45a3ee1ca00b418ea2b78e1ca7eb7f63cd8036
+SHA512: 3ba8734fd8d0d0526c0193e7db7e52018b672fa8658924f0bd541d066e989b0f03e464a2472382d7e231b40adb34b32e936d75e5f5311f31026541baae00c240
 Homepage: https://curl.se/
 Description: transitional package for libcurl4-gnutls
  This is a transitional package.  It can be safely removed.
 
 Package: libcurl4-gnutls
 Architecture: amd64
-Version: 8.21.0-2
+Version: 8.22.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: curl
 Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 1075
-Depends: libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
+Installed-Size: 1148
+Depends: libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.24.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
 Recommends: ca-certificates
 Breaks: libcurl3t64-gnutls (<< 8.20.0-3~)
 Replaces: libcurl3t64-gnutls (<< 8.20.0-3~)
-Filename: ./libcurl4-gnutls_8.21.0-2_amd64.deb
-Size: 416400
-MD5sum: d98dd1d33e0f9f29a4434a5b3a548abe
-SHA1: 8879effb3ba66ba885d36ce3b6750e81c76da25b
-SHA256: ba5927ccbe56ae983badb14903d50ce83a5a74300746956df1703880c8da7df2
-SHA512: 9ebf62e1473db0da1d49d4a8d401cb4963115bb59fa204d4e29eef39e37bee84f211a4e46b5177499525428e850f72841b8cab1c7af16e5a5f63786a059c83f6
+Filename: ./libcurl4-gnutls_8.22.0-1_amd64.deb
+Size: 457056
+MD5sum: 0964b2549d9c71cb8c7e709894f02d14
+SHA1: f6b473752145fbd89c40b8a618bd395639c25c95
+SHA256: b447d589f22edb57af899ea0ebdbd1b6d19fdef1706b604084ad5a7bf0bba887
+SHA512: 23b441149d6214e875e3299a051559ab4aa051603de96b378f9adcec8286f4d3b5638feeccb6904fd654cabda97064d931da0b67f9f1331350dfa6e7317fd935
 Homepage: https://curl.se/
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
  libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
@@ -22909,23 +22909,23 @@ Description: Development metapackage for the GLib family of libraries
 
 Package: libglibmm-2.68-1t64
 Architecture: amd64
-Version: 2.88.1-2
+Version: 2.90.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glibmm2.68
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3584
-Provides: libglibmm-2.68-1 (= 2.88.1-2)
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.87.3), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 14)
-Breaks: libglibmm-2.68-1 (<< 2.88.1-2)
+Installed-Size: 3628
+Provides: libglibmm-2.68-1 (= 2.90.0-1)
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.90), libsigc++-3.0-0 (>= 3.2.0), libstdc++6 (>= 14)
+Breaks: libglibmm-2.68-1 (<< 2.90.0-1)
 Replaces: libglibmm-2.68-1
-Filename: ./libglibmm-2.68-1t64_2.88.1-2_amd64.deb
-Size: 677544
-MD5sum: b786087e1a90f6f55e59a379d347e5e1
-SHA1: 4d12bce893da42319fac5875fa3699ff2b77369d
-SHA256: d98e472c397208269f20decd2d56e5ca41a7ed56bd37d614b8c47e1807c2270c
-SHA512: 43884f1a63e2ef51866a50f32b222665b6877fb6464207c48e835db7cb859cd337a339b9cb5191428d5684f26bf2bc73702f90b8287b57755929620cdd8ca3da
+Filename: ./libglibmm-2.68-1t64_2.90.0-1_amd64.deb
+Size: 694112
+MD5sum: 15b24c1912015f67b468fbae31755718
+SHA1: 022b3b8437186f264293d5a4c0e7800439108620
+SHA256: 0681cf4df679327320fa82c72ff812c59830261e26ef256d414fc5def1bd0184
+SHA512: 63a5e463ea9b7732454017d39f5b2af255713fd5b548409e05a09311985ab64e2711fd112b5ce0ac3b7554307cafc44d785e831afe233c4869f5e21b78e01029
 Homepage: https://www.gtkmm.org/
 Description: C++ wrapper for the GLib toolkit (shared libraries)
  GLib is a low-level general-purpose library used mainly by GTK+/GNOME
@@ -32827,21 +32827,21 @@ Description: lightweight KMS plane library
 
 Package: liblightdm-gobject-1-0
 Architecture: amd64
-Version: 1.33.1-1
+Version: 1.33.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: lightdm
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 160
+Installed-Size: 169
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libx11-6, libxklavier16 (>= 5.0)
-Filename: ./liblightdm-gobject-1-0_1.33.1-1_amd64.deb
-Size: 58652
-MD5sum: 6b4d283b185add08f2aa5772832862eb
-SHA1: bcc8c99a6e0d4c275b640b62daf86db95d15cd87
-SHA256: 0ccd4dddc2bef482119f088fa6b5164e9216beae678297f341b774a1bda748c2
-SHA512: 982ff0cf6bf2d479e5284d08bf6f336e30b936302869454b4ecb801ef285eb044df839977b67bf1fd9a51a48649a9fe5a55604376d40b2cdd473a6565f74b7dd
-Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Filename: ./liblightdm-gobject-1-0_1.33.1-3_amd64.deb
+Size: 60772
+MD5sum: c0dd7b949b73361f74601db77885030b
+SHA1: ce84c89e45b1562a988780cbb2da5dd6d6e05f84
+SHA256: ea429c364b62470e12bc7d2a21bfe471d98515ea0e19beba28940f57789d2757
+SHA512: 37410da86818dc9dde05fdfba01c78097f487ad6782dba2bc3e6072eb0e684356077adf74e276c622c3ec65cdc131fc87a59ff653f59a06e819166632af90c52
+Homepage: https://github.com/ubuntu/lightdm
 Description: simple display manager (GObject library)
  This package contains the GObject library for lightdm, used by the GTK+
  greeter.
@@ -36886,7 +36886,7 @@ Description: PDF rendering library
 
 Package: libportal-gtk3-1
 Architecture: amd64
-Version: 0.10.0-1
+Version: 0.11.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36894,12 +36894,12 @@ Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 53
 Depends: libglib2.0-0t64 (>= 2.80), libgtk-3-0t64 (>= 3.21.5)
-Filename: ./libportal-gtk3-1_0.10.0-1_amd64.deb
-Size: 12204
-MD5sum: d2fc8151479c3775d6583238ff9681e7
-SHA1: 22f99ec2eb26532b4f75235613da09b67aa87025
-SHA256: be1766a306da8455de81b50f5328d103767df3e4c38c5aa68f358d791d457113
-SHA512: 9a76511fa163bc4a427891abee341d773df87299f65397ba4b0ba78dc503826e2366204328dfa4753045d2288a9476e738bc630be0ef748286a4502cd304f337
+Filename: ./libportal-gtk3-1_0.11.0-1_amd64.deb
+Size: 12320
+MD5sum: c801b639efd1d72fb5dafa0231c1459c
+SHA1: 9e4275a9ecc1bb44e2681261ede2a48c508f0710
+SHA256: 468d0939dc5e8e264a0b21a1fa13271a62a2e8c86559f962495adcecb1da7f31
+SHA512: ce106170760f0bb7a5291849612f768b8a67f8cec479b9b39a7778b9c6d6631e24ec16fbb88b4aaef07911c17d0f7f651c77b747b5d2366be5db61b7f4b9e4e3
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library for GTK 3 GUIs
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -36914,7 +36914,7 @@ Description: Flatpak portal library for GTK 3 GUIs
 
 Package: libportal-gtk4-1
 Architecture: amd64
-Version: 0.10.0-1
+Version: 0.11.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36922,12 +36922,12 @@ Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 53
 Depends: libglib2.0-0t64 (>= 2.80), libgtk-4-1 (>= 4.12.0)
-Filename: ./libportal-gtk4-1_0.10.0-1_amd64.deb
-Size: 12240
-MD5sum: 21190b18a46d0f83a29fbb385110e6b5
-SHA1: f21d9e2baa35bdfa378c1fdacc695237c8eb2933
-SHA256: bc9ba2d9ebbc150d8d0032f21e46e017f7108040ec1c9d801fffe929fc62a0d2
-SHA512: 936abea2b9497b5634f95fa78d603aad8668c8c87951ae8c038e145784d8c9c4fe3e05437ffbc949aad1c74e67b541c6f640d8ef1edb58b785072aa9a2795b39
+Filename: ./libportal-gtk4-1_0.11.0-1_amd64.deb
+Size: 12352
+MD5sum: 8039a260eb67d813ef6d50131357507f
+SHA1: 677a4d998886a4ca93916fa5f56f140346c904f1
+SHA256: 29ef8cb141db728e10e5ca533db014e0249b59ddfb80ed51b82e2b342208fd5b
+SHA512: c47cf683bd39e36b69c2abd7d502b4302f0fafc96b22b3b12fc9b5df043346967085efee5d287b2e57ee35e04aaca4c6a770275c2992c52d62cfbcbafd04d85f
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library for GTK 4 GUIs
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -36942,20 +36942,20 @@ Description: Flatpak portal library for GTK 4 GUIs
 
 Package: libportal1
 Architecture: amd64
-Version: 0.10.0-1
+Version: 0.11.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libportal
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 207
+Installed-Size: 228
 Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0)
-Filename: ./libportal1_0.10.0-1_amd64.deb
-Size: 61216
-MD5sum: 20ef063bf4cf480d20d69e65ceaf2552
-SHA1: 2701e53726c3b356792b599b422bf5cd3b0102a8
-SHA256: a39e80afe82923d3a643a45b55b2107004bc8a9a0558d5ef924f8c807b2d98e8
-SHA512: e00461b08dcfdaa3b4fd01ef43becba05ebb13a1649158a0884c471e50e71cbb33c4502680675d11c21050c0642d1d94dbf02965c78b7994913a66d24da2340b
+Filename: ./libportal1_0.11.0-1_amd64.deb
+Size: 68280
+MD5sum: e907373e691a1931a4b361da3abb3717
+SHA1: 6df8faca6a9f6014f81d3e3bc1f99b66fb2e32f0
+SHA256: 9caffa6d16ff2922125afeaf1228625ba5d0196c0c3a267eeeb1243e3e9aea5b
+SHA512: 017321900accc93d561643e6aed996889ea366a1b10bbaffbd453afdb2a09f9cbfbd8b838cffe4fbf21c66c01e8f2008075f3fc22496a2ca0433efbca03c006f
 Homepage: https://github.com/flatpak/libportal
 Description: Flatpak portal library - non-GUI part
  libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -46895,20 +46895,20 @@ Description: utilities for devices using the SCSI command set (shared libraries)
 
 Package: libshumate-1.0-1
 Architecture: amd64
-Version: 1.7~beta-1
+Version: 1.7.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libshumate
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 501
-Depends: libshumate-common (>= 1.7~beta-1), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.7.2), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.37.5), libprotobuf-c1 (>= 1.0.1), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.5.9)
-Filename: ./libshumate-1.0-1_1.7~beta-1_amd64.deb
-Size: 149160
-MD5sum: 03f72194b11a798d5aa3b30755934368
-SHA1: 689fea49a0aa02090be004d066d03e78b87b43b8
-SHA256: 78b0a824e5d8514bcc370622535014b7b9ca9ae9db821f41fb8fc006307a0139
-SHA512: 041cf38f00b71a955d59945f1d15546cb95677d85663396c2ac4572dc5c50362ccda87cf4fb3252a506d7bc288b5cf2b7b9b8151525b5190bb69615c42f34248
+Depends: libshumate-common (>= 1.7.0-2), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.7.2), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.37.5), libprotobuf-c1 (>= 1.0.1), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.5.9)
+Filename: ./libshumate-1.0-1_1.7.0-2_amd64.deb
+Size: 149348
+MD5sum: df467422499992e2b57360a8b31d3042
+SHA1: 1e76cdcbfc598cdaaff446bcf0f37b7ae2c5ed2f
+SHA256: a5c1e9b63550f4ae6ee097db8379f880c896bfa5e6d1d7dba562c10d8f1c1114
+SHA512: 2213eaf6570d23257a7ec503bc599fbb554bbf804414a8b1652758d863f4957ca0dd918b40cea92b03726a237c724ae8a66c0cb9446790849ceb8bfada8ed1e7
 Homepage: https://gitlab.gnome.org/GNOME/libshumate
 Description: GTK4 widgets for embedded maps
  It supports numerous free map sources such as OpenStreetMap,
@@ -46916,19 +46916,19 @@ Description: GTK4 widgets for embedded maps
 
 Package: libshumate-common
 Architecture: all
-Version: 1.7~beta-1
+Version: 1.7.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: libshumate
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 200
-Filename: ./libshumate-common_1.7~beta-1_all.deb
-Size: 17160
-MD5sum: 980b6f856a4e88e55580a57fac4a69d3
-SHA1: 2e1688d59133db641fc4e548c0fea2ce2af92fd7
-SHA256: 7dfbe2fe72c53b9ff3c2a5b8306b27bffd777201ee1495a8e446f8ab585bfb69
-SHA512: fdd0e1678cc654d917dcfbcd3982fd16930f4d11915fa5c6dc738b1cb051afe0da8d2ebc93866857a02397bce85a6559bb3321edf085f90ae657e52844874c62
+Filename: ./libshumate-common_1.7.0-2_all.deb
+Size: 17236
+MD5sum: 275cd678c4f4e251a2d9105d03fd3368
+SHA1: 5fcafaa73634108b84e4a1ab11d48ed0a46ae62c
+SHA256: 866cc73a451351a4984ade71f11a8a8d78fcfd9eb1d20ac9177345dd5dac4294
+SHA512: 170e6bb3bd36b4d48ce5e97c0dc9be094ae1eb4615bb4f98e1e0adbee1f5752785b09595229b4f6048e11512a1c8cf74147b0e6f22c449271e266fbdeb002987
 Homepage: https://gitlab.gnome.org/GNOME/libshumate
 Description: GTK4 widgets for embedded maps - common files
  It supports numerous free map sources such as OpenStreetMap,
@@ -52044,22 +52044,22 @@ Description: simple display manager (GTK+ greeter)
 
 Package: lightdm
 Architecture: amd64
-Version: 1.33.1-1
+Version: 1.33.1-3
 Priority: optional
 Section: x11
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 832
+Installed-Size: 844
 Provides: x-display-manager
-Depends: adduser, default-dbus-system-bus | dbus-system-bus, default-logind | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6 (>= 1:1.1.5)
+Depends: default-dbus-system-bus | dbus-system-bus, default-logind | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6 (>= 1:1.1.5)
 Recommends: xserver-xorg
 Suggests: accountsservice, upower, xserver-xephyr
-Filename: ./lightdm_1.33.1-1_amd64.deb
-Size: 171360
-MD5sum: 8416e4fc326fd98702049a671b77b88a
-SHA1: cddf4ca7ecd491a1df3540b363dc97351646476f
-SHA256: c9742c0e3a79d2153560a3b0fd4d86b0b41fcf0906c3df9c4fb6b60b148079a0
-SHA512: 3b023ef420044513f024706c534d1a4c169dd81d8157510102c5c6218864e9507c3bba125a505f6c142f15b07654017320ca1fa0223aa2cc44b65af25f7c9fe3
-Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Filename: ./lightdm_1.33.1-3_amd64.deb
+Size: 173388
+MD5sum: 07d9186adae74e39382e546c8f213749
+SHA1: 888ad95f50221701879a198af25b560fd107c355
+SHA256: e6956ce007823e845cb3572692957834dd6fb3047c66fb39bc8384f057979441
+SHA512: 62b3bf4fc46758a69146bbf8e3d2e0d0d503ff85c0da802811a54482872fcf04daa934ecc2dd98f98de8f2751172c8bfc992702a3fbb7ebc2562de04db3ec282
+Homepage: https://github.com/ubuntu/lightdm
 Description: simple display manager
  An X display manager that:
   * Has a lightweight codebase
@@ -58339,20 +58339,20 @@ Description: password hashing library for Python 3
 
 Package: python3-brlapi
 Architecture: amd64
-Version: 6.9.1+repack-1+b1
+Version: 6.9.1+repack-2
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: brltty (6.9.1+repack-1)
+Source: brltty
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 401
+Installed-Size: 400
 Depends: libbrlapi0.8 (>= 6.9.1+repack), libc6 (>= 2.34), python3 (<< 3.15), python3 (>= 3.14~)
-Filename: ./python3-brlapi_6.9.1+repack-1+b1_amd64.deb
-Size: 166420
-MD5sum: 253e8ecee477db009ec28467c91f7e27
-SHA1: 93829950bfd900ec3d40525796674c6ce74bad89
-SHA256: 2fc7490865764520aff5b1e203eb30779dff59ea66cf30ab3af8432d78e843c9
-SHA512: 06aebb2d6654dce5c687f7deabcef9c34b331cde563d21d7ada9efe74deee75ece7f55804656264688e6a13f3553a251fa45fe2ac1cc395396cbc68b96995a73
+Filename: ./python3-brlapi_6.9.1+repack-2_amd64.deb
+Size: 166868
+MD5sum: ad8337e8a75508f50559c9ce84884ecd
+SHA1: 09e28d4713147afa931800973baf4f0d98ed9733
+SHA256: 463fd5387f1c5f6c14f8c8dac2c4f5e9e81404f0a55c0fc2b35bb3fec4cdfb40
+SHA512: 66595f321f9d65dbafd3701fb95a5d90f8ad9d75a6d443fa8ca2a0f4b7c56fdb366b8af7852426877e8f161a5e6c640d23e6fdbe47d31f9cf448fd6792125871
 Homepage: https://brltty.com
 Description: Braille display access via BRLTTY - Python3 bindings
  BRLTTY is a daemon which provides access to the console (text mode)
@@ -58945,22 +58945,22 @@ Description: GNOME XML library - Python3 bindings
 
 Package: python3-lxml
 Architecture: amd64
-Version: 6.1.0-1+b1
+Version: 6.1.3-1
 Multi-Arch: same
 Priority: optional
 Section: python
-Source: lxml (6.1.0-1)
+Source: lxml
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 5581
+Installed-Size: 5790
 Depends: python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.26)
 Recommends: python3-bs4, python3-cssselect, python3-html5lib
 Suggests: python-lxml-doc
-Filename: ./python3-lxml_6.1.0-1+b1_amd64.deb
-Size: 1528744
-MD5sum: a193bd0963f31831825661aa0eae016c
-SHA1: 8ceec7d9e22eb383af359171615655c3817505bd
-SHA256: 41cbb9a457a393e6ab9946e81c77a11d94be4ea88b1b68488a979881b49df0bf
-SHA512: 924342040fbee798f64c8cac01a128b4dce54e7f929218139537be8fa3dd74de985e09f5bc8c850d4796ffefe53c8eebce08579e5780e1f37014a352b7d6c824
+Filename: ./python3-lxml_6.1.3-1_amd64.deb
+Size: 1526700
+MD5sum: 38a8deb6f54141d4275a5562a5cbb6b1
+SHA1: 2d3f1a1148523131dc585e63f28be996baa9039a
+SHA256: 9879d1511227bf7ce132f62ed72da4e5d364123b64c89192ee2de089a4aa6d99
+SHA512: 52ebe16def3aabf2fa098fdf75bb72a2a554de6bca844f99dba40f020be4734527680fc5cd81eafbbf2681f043fa7594f0250bba291048d51b5961dadcf35971
 Homepage: http://lxml.de/
 Description: pythonic binding for the libxml2 and libxslt libraries
  lxml is a new Python binding for libxml2 and libxslt, completely
