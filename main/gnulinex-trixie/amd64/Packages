@@ -25991,19 +25991,19 @@ Description: JavaScript display engine for LaTeX and MathML
 
 Package: libjs-sphinxdoc
 Architecture: all
-Version: 9.1.0-7
+Version: 9.1.0-8
 Multi-Arch: foreign
 Priority: optional
 Section: javascript
 Source: sphinx
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 286
-Filename: ./libjs-sphinxdoc_9.1.0-7_all.deb
-Size: 46076
-MD5sum: 00ffcd2166807ed60369413b340ab07c
-SHA1: e2c286b743467547c37e3c66097417fa4630f9a2
-SHA256: 2abaef8ba1f98c5b6273c5ec63b592d99bd976ee9956f5dc102b1713558325d2
-SHA512: b77e50d99c929cff17a04d7683f440a4feb6d65ea7f7413ed779ffce2344d95d0483363c374514da4bb4494a1795aa45e8502ca5dca3c594c20297f53254dbda
+Filename: ./libjs-sphinxdoc_9.1.0-8_all.deb
+Size: 46124
+MD5sum: d08a89471f92034c01e9320d171f3bde
+SHA1: 905823d9e12f425ce8c3cc17bcd3c1512862f3ad
+SHA256: d8e93d8f8a6e760ed3910c13453cbb3ed612351605e289177c9dfeb5466162b2
+SHA512: 4600ef00bc13d6af94d7e33a18410348ea5d8dc3618bbde1a88d265037687d5de75082f7d396e8ad1212a54189cc132dc8aaced3bd47daff6a932eeeb99e2e26
 Homepage: https://www.sphinx-doc.org/
 Description: JavaScript support for Sphinx documentation
  Sphinx is a tool for producing documentation for Python projects, using
