@@ -6710,26 +6710,26 @@ Description: GCC, the GNU Compiler Collection (base package)
 
 Package: gcr4
 Architecture: amd64
-Version: 4.4.0.1-8+b2
+Version: 4.4.1-3
 Priority: optional
 Section: gnome
-Source: gcr4 (4.4.0.1-8)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1311
-Depends: default-dbus-session-bus | dbus-session-bus, gcr, libgcr-4-4 (= 4.4.0.1-8+b2), libc6 (>= 2.34), libgck-2-2 (>= 3.3.90), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.20), libsystemd0
+Installed-Size: 1350
+Depends: default-dbus-session-bus | dbus-session-bus, gcr, libgcr-4-4 (= 4.4.1-3), init-system-helpers (>= 1.66~), libc6 (>= 2.34), libgck-2-2 (>= 3.3.90), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsystemd0
 Breaks: gcr (<< 3.41.1-5~)
 Replaces: gcr (<< 3.41.1-5~)
-Filename: ./gcr4_4.4.0.1-8+b2_amd64.deb
-Size: 199792
-MD5sum: fc407a82ed22b5b5fa2e4290075fc070
-SHA1: a7145789ee22d11870788dd64a47f6c656b77962
-SHA256: fb036783ea0ee2b6eb17a2b1001e52b58a4e881a76cec56ebc772865db7837d4
-SHA512: 775ac3e93c1cc4d61ba706ca9a34c42573081688583fbfc42893d47f5b5d20e84e9712c1bfd93c2f2c3282b61992caaa44e5cf5ecdb2a3be78a16e80a0bb257b
+Filename: ./gcr4_4.4.1-3_amd64.deb
+Size: 205920
+MD5sum: e47880461529b0a189ebea4f34588c73
+SHA1: 9fc2a630ff45dc0dc3b16de503fab2194bbeafad
+SHA256: 8a7d4a792e66ec89a182f33586977bb3818ca5300181766964df7deae0f76ea8
+SHA512: 54870ec5fad03195234e9a84a0fc96b0ceacb7e96e2eaef1bcc455242c6e92fa467ef87c0f3729617d1d255f8a32e0c075cd7e5c20a83b1e05e7956bc596416b
 Homepage: https://wiki.gnome.org/Projects/GnomeKeyring
 Description: GNOME crypto services (daemon and tools)
  GCR is a library for crypto UI and related tasks.
  .
  This package contains the certificate viewer and prompter service.
+Commands: gcr-viewer-gtk4
 
 Package: gcr
 Architecture: amd64
@@ -7607,20 +7607,20 @@ Description: GObject introspection data for the GCK library
 
 Package: gir1.2-gck-2
 Architecture: amd64
-Version: 4.4.0.1-8+b2
+Version: 4.4.1-3
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gcr4 (4.4.0.1-8)
+Source: gcr4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 48
-Depends: libgck-2-2 (= 4.4.0.1-8+b2), gir1.2-gio-2.0, gir1.2-gobject-2.0
-Filename: ./gir1.2-gck-2_4.4.0.1-8+b2_amd64.deb
-Size: 12404
-MD5sum: e506dbf4f2cf847b11d62ebc6bfeede9
-SHA1: c7ff94f5fc171a230ab358c40ee1669fbc26a873
-SHA256: 132f96470d0db8b9799e139ef8e475e616fb019fdf2d0cf7a941666f0251afa8
-SHA512: 21250caccf44eb0a8a620106758368619df7f38c995c17eabd52f6d0706ec79d4588d62beb04ad7cdc8e7024a1b6af6ead09ba406f7d8ebf61f3d0fefe5749f8
+Installed-Size: 47
+Depends: libgck-2-2 (= 4.4.1-3), gir1.2-gio-2.0, gir1.2-gobject-2.0
+Filename: ./gir1.2-gck-2_4.4.1-3_amd64.deb
+Size: 12284
+MD5sum: 6a1de5e1a4a086f130399114ad67b8dd
+SHA1: 2ffc4e3b2fddff9016dac45902ee7ed061b6685d
+SHA256: 0529e5646d02ca0afea087a575a8911e95838f5205e0ac2afc6af20381ce090c
+SHA512: 47772b5e9bd4b75e068495e9e2917b81d6c5daf21d835d8d6e0a8eafc67ecd8fab9b3d0f4a9394092f2e91785ffdf086c30c5ddf7e9689b3cbe4083a6c56dece
 Homepage: https://wiki.gnome.org/Projects/GnomeKeyring
 Description: GObject introspection data for the GCK library
  This package contains introspection data for GCK, a wrapper based on GLib
@@ -7656,20 +7656,20 @@ Description: GObject introspection data for the GCR library
 
 Package: gir1.2-gcr-4
 Architecture: amd64
-Version: 4.4.0.1-8+b2
+Version: 4.4.1-3
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: gcr4 (4.4.0.1-8)
+Source: gcr4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 59
-Depends: libgcr-4-4 (= 4.4.0.1-8+b2), gir1.2-gck-2 (= 4.4.0.1-8+b2), gir1.2-gio-2.0, gir1.2-gobject-2.0
-Filename: ./gir1.2-gcr-4_4.4.0.1-8+b2_amd64.deb
-Size: 15224
-MD5sum: d1f15eb26960c2cc6b449b6bb3e19ad8
-SHA1: 70d7756b42606a72f1323698a30970c39a45a992
-SHA256: c8bc60a2af7911757485e539dab1605eabe1c0a7675a0cda76142f3ebe2b3039
-SHA512: 0db552cd7021bc95c7f30c2674de4afaa9d059bacea046438ca25e111bcd01dbe771c8cc070f198a06030972c62662d170273f22ff83861dab5df815ad121dd0
+Installed-Size: 58
+Depends: libgcr-4-4 (= 4.4.1-3), gir1.2-gck-2 (= 4.4.1-3), gir1.2-gio-2.0, gir1.2-gobject-2.0
+Filename: ./gir1.2-gcr-4_4.4.1-3_amd64.deb
+Size: 15160
+MD5sum: 0b4eab593d563010fe1f39ca3e253b9c
+SHA1: 4d557135c8f4f66a6c5561e2cb1003b8add5cd56
+SHA256: 76842fbd5fddbb6fae92ce32240165b15b1b4b61553e8ee0eab763e2340a1d74
+SHA512: b91034049320e2196d49ff1a8385d14d552e901906d425a8dc50d3fb4645b17c5bd23d6dba8cc4cf012b8768e8afa19fd8b759accef4546babb04dd0d6e72749
 Homepage: https://wiki.gnome.org/Projects/GnomeKeyring
 Description: GObject introspection data for the GCR library
  This package contains introspection data for GCR, a library for crypto UI
@@ -8795,20 +8795,20 @@ Description: GObject introspection data for Mutter
 
 Package: gir1.2-mutter-18
 Architecture: amd64
-Version: 50.4-1
+Version: 50.5-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 544
-Depends: libmutter-18-0 (= 50.4-1), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
-Filename: ./gir1.2-mutter-18_50.4-1_amd64.deb
-Size: 133388
-MD5sum: d73bb6467bc90221caa1319c73c5de70
-SHA1: 85138c313970b2b9984e103b23dc78469a7ab14a
-SHA256: 18572d641ca80b045959b5753860eeb495381e3eb67a1fdf6a39cc4ec0e268f6
-SHA512: 33956155564e9f0f043e4096813cb9e508e001d6d3aeba1f74506d37504b1f0d5c8c5401b63256eec4b3a223646f32c0aef800b8b337206655ef5a38d3236f9d
+Depends: libmutter-18-0 (= 50.5-1), gir1.2-atk-1.0, gir1.2-gdesktopenums-3.0 (>= 50~alpha), gir1.2-gio-2.0, gir1.2-gl-1.0, gir1.2-gobject-2.0, gir1.2-graphene-1.0, gir1.2-pango-1.0, gir1.2-xfixes-4.0, gir1.2-xlib-2.0
+Filename: ./gir1.2-mutter-18_50.5-1_amd64.deb
+Size: 133324
+MD5sum: 3077daaa48f3c9315216e0cbc78340da
+SHA1: b68da1cfe8a3a6610ffe20904c7813794a68df47
+SHA256: ce5f820431c7a2705bc484b774b9149b9ecae6b03d3bb4194674ea2090e910e5
+SHA512: a3c6f57357bd787568a952adbf6c30bbeb616c700a0968b322165079ddae0e199cf59aec7eae87a2089d35888d81310ae8fdf34ded539f2c49813dac52b327ef
 Homepage: https://mutter.gnome.org/
 Description: GObject introspection data for Mutter
  Mutter is a Wayland display server and X11 window manager and
@@ -21816,20 +21816,20 @@ Description: Glib wrapper library for PKCS#11 - runtime
 
 Package: libgck-2-2
 Architecture: amd64
-Version: 4.4.0.1-8+b2
+Version: 4.4.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gcr4 (4.4.0.1-8)
+Source: gcr4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 239
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.74.0), libp11-kit0 (>= 0.25.0)
-Filename: ./libgck-2-2_4.4.0.1-8+b2_amd64.deb
-Size: 72880
-MD5sum: aac44d969577bdb6265444879383bd97
-SHA1: 293bc61997797ba4178a026e8fced6e471acd110
-SHA256: 9e7529f942e38b078b33634ef312d268f6e21632afe42bf82a3725dd7c319bd2
-SHA512: 0d805937e20cea2d2906b2240fa3dd7af4e7cd08b5452742dbec3da8c0341ecec3b52a6ea00575c483d095ab75dbc2d984f6c52a6437a2cacbbcdf5dd2947153
+Installed-Size: 242
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68.0), libp11-kit0 (>= 0.25.0)
+Filename: ./libgck-2-2_4.4.1-3_amd64.deb
+Size: 76904
+MD5sum: fb796449b2a993bbf660126658a9cb0d
+SHA1: 9fd51bcb74f9237e75a82bd46d6e74a08d77c811
+SHA256: 9d1d9b26e271c20549f533069ab9cd108d7bca70ffa12a316f2e0b0971666410
+SHA512: 96505306ce315870e90a241c3b50d976776d3aac36cf9f1afee4226498e6d75b4b08d0d9d4b396a42ae502111a23938f9be7683967c1763cbf3247b617857ace
 Homepage: https://wiki.gnome.org/Projects/GnomeKeyring
 Description: Glib wrapper library for PKCS#11 - runtime
  GCK is a wrapper based on GLib implementing the PKCS#11 (Cryptoki)
@@ -21840,20 +21840,20 @@ Description: Glib wrapper library for PKCS#11 - runtime
 
 Package: libgcr-4-4
 Architecture: amd64
-Version: 4.4.0.1-8+b2
+Version: 4.4.1-3
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gcr4 (4.4.0.1-8)
+Source: gcr4
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 704
-Depends: libgck-2-2 (= 4.4.0.1-8+b2), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.74.0), libp11-kit0 (>= 0.25.0)
-Filename: ./libgcr-4-4_4.4.0.1-8+b2_amd64.deb
-Size: 202664
-MD5sum: 5f8ef4efeb5d90136f0f4e9e00510e45
-SHA1: 8b9993ae421b857af6b3ce05869719eb0a5be265
-SHA256: 9c88051262b7265bce44dbe4481382aca3f5f40dbd2c08356c9cb11dd7c8aeb1
-SHA512: 67fd07003af80a918141f51bcdd3df805dcbbc498899dd462a79171aefdf5b2f1fcb0ba8a21cef772ea45cb15ae7a44541594007a634ad02b65703721050e544
+Installed-Size: 728
+Depends: libgck-2-2 (= 4.4.1-3), libc6 (>= 2.38), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.68.0), libp11-kit0 (>= 0.25.0)
+Filename: ./libgcr-4-4_4.4.1-3_amd64.deb
+Size: 215252
+MD5sum: fcd4276bb37a246964203d8fc3fdf338
+SHA1: d6dda4130bae78411b2f2a7063fbd9a956fbc2b6
+SHA256: 4292efaf4be501c8d42a360bad3976eb132cf89167780b0c331366a1f1a45319
+SHA512: 587b4ad06132bea8c8324c2d974bc22f05100047447d5d7dca18edba430d08b0f21d4f4d38c0d579d3052885619035c0b9d3f859a6d21026678a89c16e347c91
 Homepage: https://wiki.gnome.org/Projects/GnomeKeyring
 Description: Library for Crypto related tasks
  GCR is a library for crypto UI and related tasks.
@@ -34419,21 +34419,21 @@ Description: window manager library from the Mutter window manager
 
 Package: libmutter-18-0
 Architecture: amd64
-Version: 50.4-1
+Version: 50.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mutter
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5189
+Installed-Size: 5209
 Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 40~alpha), mutter-common (>= 50~beta), mutter-common-bin (>= 49.0), libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libcanberra0 (>= 0.2), libcolord2 (>= 1.4.5), libdisplay-info3 (>= 0.3.0), libdrm2 (>= 2.4.119), libegl1, libeis1 (>= 1.5.0), libfribidi0 (>= 0.19.2), libgbm1 (>= 21.3.0~rc1), libgl1, libglib2.0-0t64 (>= 2.83.0), libglycin-2-0 (>= 2.0~beta.2), libgnome-desktop-4-2t64 (>= 3.17.92), libgraphene-1.0-0 (>= 1.10.0), libgudev-1.0-0 (>= 238), libharfbuzz0b (>= 0.6.0), libinput10 (>= 1.30.0), liblcms2-2 (>= 2.6), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.18.0), libpipewire-0.3-0t64 (>= 1.6.1), libpixman-1-0 (>= 0.11.2), libstartup-notification0 (>= 0.11), libsystemd0 (>= 226), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-server0 (>= 1.24.0), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbregistry0 (>= 1.0.0), libxrandr2 (>= 2:1.2.99.3)
 Breaks: gnome-kiosk (<< 50~rc~), gnome-shell (<< 50~rc~), xwayland (<< 2:23.1.0)
-Filename: ./libmutter-18-0_50.4-1_amd64.deb
-Size: 1571460
-MD5sum: 7100ba0e3d750db1bb723ff25a45df0e
-SHA1: b2d6f0e5fdef899062134a73be98cfce403ec7fa
-SHA256: efc7e5343bc4bdc2c93dc34bdd2b626e5b3bb1e701e8400d752257128ffdcaf5
-SHA512: 10b900b6b0dadfc693dc9f75859bc4393b5d71e0ed758299971c08bbbe2d0bf7b7d0f95a2922e382e5cd8e7fe993d452fabc966dd21c42ae4c05b7a1131d8760
+Filename: ./libmutter-18-0_50.5-1_amd64.deb
+Size: 1579200
+MD5sum: 9919c366a0d1baf3ff3cd263a1467745
+SHA1: a42b07dcba44072367fa88cbcbd1f676be7cc245
+SHA256: 5dd7a3b2c7e30fd251d6849339fca621853cdbad6eb2c3c05efe7bae07b4d04e
+SHA512: 2e88049c64d13e5b2b4a8b3ba31934d1dd4c1d716c1fb987b7799d919512b12bdaabd046d44e7272886f7cf7cd94a023d79d85cb4d444f29993af79ff0b447d3
 Homepage: https://mutter.gnome.org/
 Description: window manager library from the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -55681,7 +55681,7 @@ Description: command line tools for the MuPDF viewer
 
 Package: mutter-common-bin
 Architecture: amd64
-Version: 50.4-1
+Version: 50.5-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -55692,12 +55692,12 @@ Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgtk-4-1 (>= 4.22.0), l
 Suggests: python3-argcomplete
 Breaks: libmutter-17-0 (<< 50~), mutter (<< 48.1~)
 Replaces: mutter (<< 48.1~)
-Filename: ./mutter-common-bin_50.4-1_amd64.deb
-Size: 47720
-MD5sum: 18c920b793a16221709829fc716ddb8c
-SHA1: 640e9762595bddb28d64dd3466e00daef32c07e3
-SHA256: 2c5bb6a216b3114535de51ced844578091d3425c72cfe3df2e1af997197e5f8d
-SHA512: a8a614cdf367dea1610f91570d06c324729eb16270536b935d27653d1ca3c568b9ea5eb1a95bb9781e6e1b14a7b1700475eba50ad7fffe0bec865e6b28241eb9
+Filename: ./mutter-common-bin_50.5-1_amd64.deb
+Size: 47712
+MD5sum: 8b5867da3ea9b9c990377608b3b0d872
+SHA1: cf03c6020ed4717ae0964818e98d06be1985d37c
+SHA256: ce3da940d09dc26164d34a15dd32b51fa08f388704f3b12e81ffbbec0550fc78
+SHA512: b01db382dad74461e86de87ac8fec7fa911b9ed303632a6a295b2fd2846b3828aad5fba56caf0e760a0b75663fd5a30c2d32586b235c4b90cf5d2cb538e230a7
 Homepage: https://mutter.gnome.org/
 Description: shared programs for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -55714,7 +55714,7 @@ Description: shared programs for the Mutter window manager
 
 Package: mutter-common
 Architecture: all
-Version: 50.4-1
+Version: 50.5-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -55724,12 +55724,12 @@ Installed-Size: 3974
 Depends: dconf-gsettings-backend | gsettings-backend, python3:any
 Breaks: libmutter-10-0 (<< 49~), libmutter-11-0 (<< 49~), libmutter-12-0 (<< 49~), libmutter-13-0 (<< 49~), libmutter-14-0 (<< 49~), libmutter-15-0 (<< 49~), libmutter-16-0 (<< 49~), libmutter-17-0 (<< 50~), magpie-common (<< 0.9.3-0ubuntu8~)
 Replaces: magpie-common (<< 0.9.3-0ubuntu8~)
-Filename: ./mutter-common_50.4-1_all.deb
-Size: 504880
-MD5sum: 09f421d066bb488ed21ec24748351738
-SHA1: 6abba36a04dda99c28e7c4ee8f6342d58ddcf85f
-SHA256: c4384355953cf6214ce039da29706e50def58e347ab1b2ca73324168d9e5f59e
-SHA512: e9f3c21fa7f9fcb99dc1c45f86c73e41763117a190eac57414e1f85477d25d22da2fd4baec09674686ad368b2134b5620b41fd699a6b60cdca52a1141c781c05
+Filename: ./mutter-common_50.5-1_all.deb
+Size: 504960
+MD5sum: 098284a6d9824a4f0c9c61e954d0d7b2
+SHA1: f2fd76edc51c6713bbd0e124718c96111b642eec
+SHA256: de68a5685f007465c56bbf01d61e7b0e92ea2c6a660c2b00a14bec374978d092
+SHA512: c7a45a21a40d78b03cc0344aa4d35765934cefb3dabe438b7d72426951f18d6ea46b84da24741c471bf1d1ffdaac21f802312d4652a49eb8827fe73bd4f08d8b
 Homepage: https://mutter.gnome.org/
 Description: shared files for the Mutter window manager
  Mutter is a Wayland display server and X11 window manager and
@@ -59923,7 +59923,7 @@ Description: Python 3 XApp library
 
 Package: python3-xlib
 Architecture: all
-Version: 0.33-5
+Version: 0.33-6
 Multi-Arch: foreign
 Priority: optional
 Section: python
@@ -59931,12 +59931,12 @@ Source: python-xlib
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 727
 Depends: python3:any
-Filename: ./python3-xlib_0.33-5_all.deb
-Size: 122272
-MD5sum: f69528220f467d8b0ae3636c207f1610
-SHA1: b57ebff7613f3aab81012cf7111498da964da4b7
-SHA256: 995a0d88db215409c5eec1bf568d86b2718837c2c6c1e3157d945753e80e2229
-SHA512: 8147678fba75f0da465fa1f836637599ebb6d2a23d0ba8c660052962648eddfc7cc1569a8664dd6a50a19396ff533e9f1aa2422c0fd8ce9934b2aa833b9ae797
+Filename: ./python3-xlib_0.33-6_all.deb
+Size: 122904
+MD5sum: ca13d472ab477dce0971aad71bdf5e0f
+SHA1: 93e724042c1910e57095873c48a2162eee203ff1
+SHA256: efcac217cc8faed63c380b0a03438b14f1af1ab1fa9cd546c6e62e0b429c975f
+SHA512: be62d84d796e1028057a44678a5f350f9c0e6cab760e7dbf508990b23b51e9686822e9292927cbb74b9ef6437b54105c655d4bfde75cc12c7bf160c56eb40359
 Homepage: https://github.com/python-xlib/python-xlib
 Description: interface for Python 3 to the X11 protocol
  python-xlib is a 100% pure Python 3 implementation of the X11
