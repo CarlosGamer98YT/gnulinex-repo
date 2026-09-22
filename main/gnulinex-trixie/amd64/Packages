@@ -23314,34 +23314,31 @@ Description: GNOME Bluetooth 3 UI support library
  .
  The libraries included provide support to gnome-bluetooth.
 
-Package: libgnome-desktop-3-20t64
+Package: libgnome-desktop-3-21
 Architecture: amd64
-Version: 44.5-2
+Version: 51.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-desktop
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 236
-Provides: libgnome-desktop-3-20 (= 44.5-2)
-Depends: bubblewrap, gnome-desktop3-data (>= 44.5-2), gnome-desktop3-data (<< 45~), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
+Installed-Size: 242
+Depends: bubblewrap, gnome-desktop3-data (<< 52~), gnome-desktop3-data (>= 51.0-1), gsettings-desktop-schemas, iso-codes, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.9.10), libseccomp2 (>= 1.0.1), libsystemd0, libudev1 (>= 196), libxkbregistry0 (>= 1.0.0)
 Recommends: locales | locales-all
-Breaks: libgnome-desktop-3-20 (<< 44.5-2)
-Replaces: libgnome-desktop-3-20
-Filename: ./libgnome-desktop-3-20t64_44.5-2_amd64.deb
-Size: 71880
-MD5sum: 9e647a859091fb3b100596eccb4fd56e
-SHA1: 4a947abdd4323d8e5b798e25373ea0a57c2ad02f
-SHA256: c3b0becb85682ecaa880df6e75f71c2d144cdd573149ea2f609a8b4bacb1f5d2
-SHA512: b9f76f79e04bac12b7a14109cc91e39539c82ea3ac46cb3d8bbe0f30a7dc41c99a5d1af44b1a19ac0d90c22349321cfb36f186df61de103b3e3a2bdb9ad8f815
+Filename: ./libgnome-desktop-3-21_51.0-1_amd64.deb
+Size: 76248
+MD5sum: 2246a4fc37c09cff2eb1d85d3ddc8919
+SHA1: 8ac843401740104f325819ca6c91d15551d228dc
+SHA256: 1a91b24cad581a27a3de2b47605d58d95215e2b4a2eb0ab3ec2d0d68206ad096
+SHA512: 7e9ae9b8630ff7209f2a972e7ba636d2d9ac821b0df853c2eb709fd02f6e60a0eb597fc94d0942737443faa466375e94841d3460fd537f634df75f97c3e9bcd5
 Description: Utility library for the GNOME desktop - GTK 3 version
  This library provides various utility functions that are used in multiple
  components of the GNOME desktop, but do not have a sufficiently stable API
  to be included in core libraries such as GLib and GTK.
  .
  This package provides a legacy GTK-3-based library with functionality
- similar to a combination of libgnome-bg-4-2t64, libgnome-desktop-4-2t64
- and libgnome-rr-4-2t64, for compatibility with older GNOME components.
+ similar to a combination of libgnome-bg-4-2t64 and libgnome-desktop-4-2t64
+ for compatibility with older GNOME components.
 
 Package: libgnome-desktop-4-2t64
 Architecture: amd64
@@ -23468,6 +23465,55 @@ Description: library for GNOME Panel modules
  .
  This package contains the shared library, that is used by GNOME Panel
  modules.
+
+Package: libgnome-qr-4-0
+Architecture: amd64
+Version: 51.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gnome-desktop
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 95
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0)
+Filename: ./libgnome-qr-4-0_51.0-1_amd64.deb
+Size: 54272
+MD5sum: 6bc764281aaadcafec8f782c13a8e02a
+SHA1: 433e898a4dbee14b3acb90b87fcfc2fb7d230ad5
+SHA256: 2c3e93170f576c33307994f34185cec6421a225dbb2997936f230d1c53ab6c6c
+SHA512: 5c574c85fe2d5e22c827068d5a055c0f3d64566c7416fb47997c1dac73c3450d148d333d849fdf3f36ef38fabad757457086b6bc93989a6fbb90821bf95d6965
+Description: Utility library for QR Codes - runtime files
+ The gnome-desktop set of libraries provides various utility functions
+ that are used in multiple components of the GNOME desktop, but do not
+ have a sufficiently stable API to be included in core libraries such
+ as GLib and GTK.
+ .
+ This library provides utilities for creating QR Codes textures.
+
+Package: libgnome-qr-gtk-4-0
+Architecture: amd64
+Version: 51.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gnome-desktop
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 79
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgnome-qr-4-0 (>= 51~alpha), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0)
+Recommends: locales | locales-all
+Filename: ./libgnome-qr-gtk-4-0_51.0-1_amd64.deb
+Size: 45372
+MD5sum: 68b312d60f23f71c75d686320b01367e
+SHA1: c39c20fd501525b5e4e8bf73e8dcef35fd6e7352
+SHA256: 3e8c4da414d9164cbe93e39fbb405cc9cc486b8570fbea31a203285e8938c8a2
+SHA512: fefec450433cc1bf77065bdaa88ae6b4ac175a7167f09433c5936f924fdf9779b54e7487f94d3c8fe77d5834b41401bf2dfc8de49b30ee2f4128552c393c641d
+Description: Utility library for GTK4 QR codes - runtime files
+ The gnome-desktop set of libraries provides various utility functions
+ that are used in multiple components of the GNOME desktop, but do not
+ have a sufficiently stable API to be included in core libraries such
+ as GLib and GTK.
+ .
+ This library provides utilities for creating QR Codes GTK Widgets.
 
 Package: libgnomekbd-common
 Architecture: all
@@ -25731,6 +25777,35 @@ Description: ID3 tag reading library from the MAD project
  ID3 tag manipulation library with full support for reading ID3v1, ID3v1.1,
  ID3v2.2, ID3v2.3, and ID3v2.4 tags, as well as support for writing ID3v1,
  ID3v1.1, and ID3v2.4 tags.
+
+Package: libimath-3-2-30
+Architecture: amd64
+Version: 3.2.2-2+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: imath (3.2.2-2)
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Installed-Size: 342
+Depends: libc6 (>= 2.4), libstdc++6 (>= 13.1)
+Filename: ./libimath-3-2-30_3.2.2-2+b1_amd64.deb
+Size: 49488
+MD5sum: 5c9dfe36c3bf9fd8de5c358e2273697c
+SHA1: a86243f3be70f6fb467e39e62cc6dc63d7448c21
+SHA256: 556e5b33770224c6eb1cd742d1bf39f1e3e8567da5a638400f3429c6314436f1
+SHA512: 819cd91f0f8ab9ddb643488d862786764a73a4a874604e31f059d4ce9a13627ef515ce832c690c8af5ac82221ffcc26ff117f8b5113fe16674641d8b392221a5
+Homepage: https://www.openexr.com
+Description: Utility libraries from ASF used by OpenEXR - runtime
+ Imath is a basic, light-weight, and efficient C++ representation of
+ 2D and 3D vectors and matrices and other simple but useful
+ mathematical objects, functions, and data types common in computer
+ graphics applications, including the “half” 16-bit floating-point type.
+ .
+ Imath also includes optional Python bindings for all types and
+ functions, including optimized implementations of vector and
+ matrix arrays.
+ .
+ This package provides the runtime libraries.
 
 Package: libimlib2t64
 Architecture: amd64
@@ -35899,31 +35974,6 @@ Description: runtime files for the OpenEXR image library
  .
  This package contains the following shared library:
     * IlmImf - a library that reads and writes OpenEXR images.
-
-Package: libopenjph0.27
-Architecture: amd64
-Version: 0.27.3-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: openjph
-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
-Installed-Size: 531
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
-Filename: ./libopenjph0.27_0.27.3-1_amd64.deb
-Size: 153956
-MD5sum: 2961fed8212add32c130e51bd80ebc0f
-SHA1: 7540ecebc72c5fbae2ccd96f62172828b3336509
-SHA256: d55f9ea8299c3e2d003b385cb9487e7d53674636626ef47fc9ee658c9c3493c3
-SHA512: 51ac22121f14f324d3fdbfa1660be514476c72bacc0c8c894baf5d10f5d6c09623cbf86c4808764f21d6b001078bf29eacb1ae47033a7157fb096f26069580cc
-Homepage: https://github.com/aous72/OpenJPH
-Description: HTJ2K image compression/decompression library (runtime files)
- Implementation of High-throughput JPEG2000 (HTJ2K), also known as JPH, JPEG2000
- Part 15, ISO/IEC 15444-15, and ITU-T T.814. This library only implements HTJ2K
- only, supporting features that are defined in JPEG2000 Part 1 (for example, for
- wavelet transform, only reversible 5/3 and irreversible 9/7 are supported).
- .
- This package installs the runtime files.
 
 Package: libopenjph0.28
 Architecture: amd64
