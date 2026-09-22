@@ -13146,6 +13146,30 @@ Description: HTML to text rendering aimed for E-mail
  sequences somewhat. Reason for this is that in the wild, particularly with
  Email, incorrect HTML is (still) often seen.
 
+Package: htop
+Architecture: amd64
+Version: 3.5.3-1
+Priority: optional
+Section: utils
+Maintainer: Daniel Lange <DLange@debian.org>
+Installed-Size: 586
+Depends: libc6 (>= 2.38), libncursesw6 (>= 6), libtinfo6 (>= 6), libunwind8
+Suggests: libnl-3-200, libnl-genl-3-200, lm-sensors, lsof, strace
+Filename: ./htop_3.5.3-1_amd64.deb
+Size: 234656
+MD5sum: 5cc76022b3ca5300ff5e9aac3ad6c0b7
+SHA1: de89f99f625994a62947d247014bee28cf16905a
+SHA256: 5052c4de51bb6d428cee35d8268182e52426376bba757afee1580e03c8a654f2
+SHA512: 0f2a3e2175230585068ab7881ed8d66b3a961c3c7735b339544a1e0d7b4d9d838c31b3a71601982de4581393f4e090b5ca9e9758b75a2f0efa9d3658e5ed329a
+Homepage: https://htop.dev/
+Description: interactive processes viewer
+ Htop is an ncursed-based process viewer similar to top, but it
+ allows one to scroll the list vertically and horizontally to see
+ all processes and their full command lines.
+ .
+ Tasks related to processes (killing, renicing) can be done without
+ entering their PIDs.
+
 Package: hunspell-en-us
 Architecture: all
 Version: 1:2020.12.07-4
