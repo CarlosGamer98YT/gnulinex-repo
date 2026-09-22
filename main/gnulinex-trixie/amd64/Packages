@@ -18382,6 +18382,26 @@ Description: CUE Sheet Parser Library
  char string or a file pointer. For handling of the parsed
  data a convenient API is available.
 
+Package: libcurl3t64-gnutls
+Architecture: amd64
+Version: 8.22.0-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: curl
+Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
+Installed-Size: 37
+Depends: libcurl4-gnutls (>= 8.22.0-1)
+Filename: ./libcurl3t64-gnutls_8.22.0-1_amd64.deb
+Size: 17812
+MD5sum: 2ccebf1db735d7cbccfdaf2aa3c7d9b9
+SHA1: 7dff548154ec594f48f5068734feeeeb8790c8a4
+SHA256: d73e82c8aaa1d930e02b67c17b45a3ee1ca00b418ea2b78e1ca7eb7f63cd8036
+SHA512: 3ba8734fd8d0d0526c0193e7db7e52018b672fa8658924f0bd541d066e989b0f03e464a2472382d7e231b40adb34b32e936d75e5f5311f31026541baae00c240
+Homepage: https://curl.se/
+Description: transitional package for libcurl4-gnutls
+ This is a transitional package.  It can be safely removed.
+
 Package: libcurl4-gnutls
 Architecture: amd64
 Version: 8.22.0-1
