@@ -1,23 +1,23 @@
 Architectures: amd64 all
 Codename: forky
 Components: main
-Date: Tue, 22 Sep 2026 13:41:52 +0000
+Date: Tue, 22 Sep 2026 13:44:07 +0000
 Label: GnuLinex Repository
 Origin: GnuLinex
 Suite: stable
 MD5Sum:
  13c76aff309eb83c31c78a975a12461a          3609501 Packages
- 68fe420b0db6ff00b3bfe50b50252b1d          1043802 Packages.gz
- efa62eed551ebb0ba833f1e67b14def9              154 Release
+ e9517bc1ee3c4e25f69fba18c0f8309a          1043802 Packages.gz
+ a173e0c8ff50d0b76786b850e227e830              154 Release
 SHA1:
  af1ef4dcd6ed0cd283b1ad87ee423f00ba4e5b04          3609501 Packages
- a0783fc9188ebfd9bcd32ef056ca229444739d11          1043802 Packages.gz
- 92f67958530ac36c2725205064f4a61711ad5d95              154 Release
+ bc69df482ce9a4c19659031abf2a12d986077625          1043802 Packages.gz
+ c2e65e40d821232a2e07a6e173949763e51d9af8              154 Release
 SHA256:
  bb6ae9e1a1fc2d479f18d2ae13e966a19714076275e8678dc8c6822ca33bffab          3609501 Packages
- 660ffc9d29c7fcf344c360ab1c5336b64302cc8501f7e66e90a3359920c1f6b3          1043802 Packages.gz
- ef9aa64a66a99ab5e22268bf41efd7652ffb56e94f7efbf5917dc3ac11543c39              154 Release
+ 46fd5772ccc77b81caf569ee769e1994a3f1ec3d41d70f265d3a6b1d2ab3c777          1043802 Packages.gz
+ c3d080b47305d372f8404dd46be80bc04f94b99fa5918f5ed52ba6ee78e2bf07              154 Release
 SHA512:
  a99c7390e7e3f1ceef422108d26140648c39268ce88a4b18a598bd0a47435492c9976c44737c5ce9f7637ee1e0d426a6137e1c900fa4012ee998f5c7b6bdbb12          3609501 Packages
- 4e9485abdeecb1a59f37571b7efce80de911af24d159f32cf36aab5ede0c7a3d9b21cf6e240691138b7b9e1bb07c19075a42b34ca6d892437c851dd92e058aff          1043802 Packages.gz
- 74fedbcae14cc2331fa6ff34d234249d96fcefe1e7e9d2527783da4b5e96dca01fc33ad54f7f5ecaba61f805d645661cd7e4077dcb58a2761302a08c1a028e59              154 Release
+ 29698a5458e18041472fc0d1c37d3a0293880c34bddaa9020f2242c031f9fa114c5b0abe571ab2fc41ec83369319d8ea6ac3d35aeda984965517c94c893f4978          1043802 Packages.gz
+ 0bb35bb364e00694fd7f91b820f9dadc5a4e75c3de186a1d727e2c92c043dd148c5fa0a71ef29a0caa8912eaaefeaad1312aa60d46e431e7af9032e62765af7c              154 Release
