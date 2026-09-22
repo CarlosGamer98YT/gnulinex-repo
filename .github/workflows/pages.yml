@@ -3,6 +3,10 @@ name: Desplegar a GitHub Pages (Soporte LFS)
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+      - 'hold_packages.txt'
   workflow_dispatch:
 
 permissions:

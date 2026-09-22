@@ -1,0 +1,52 @@
+Package: enlightenment-data
+Architecture: all
+Version: 0.27.1-2
+Priority: optional
+Section: x11
+Source: e17
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 403117
+Conflicts: enlightenment-data
+Enhances: enlightenment
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
+Size: 400653372
+MD5sum: 1eca4262b66d69f7496f7f5886340caa
+SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
+SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
+SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
+Homepage: https://www.enlightenment.org
+Description: X11 window manager based on EFL - run time data files
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ These are the architecture independent runtime support files for the
+ Enlightenment Window Manager.
+
+Package: libreoffice-dev-doc
+Architecture: all
+Version: 4:26.8.0.3-2
+Priority: optional
+Section: doc
+Source: libreoffice
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 600778
+Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
+Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
+Size: 210837432
+MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
+SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
+SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
+SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- SDK documentation
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the documentation of the LibreOffice SDK:
+ .
+  * C++/Java API reference
+  * IDL reference
+  * C++/Java/Basic examples
