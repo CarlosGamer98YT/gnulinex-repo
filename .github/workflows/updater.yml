@@ -118,6 +118,8 @@ jobs:
 
       - name: Guardar y subir cambios
         if: env.UPDATED == 'true' || github.event_name != 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GGITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -130,6 +132,8 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update: Paquetes e indices (Archivos grandes en Releases)"
             git push
+            echo "Disparando despliegue en GitHub Pages..."
+            gh workflow run pages.yml || true
           else
             echo "Nada que subir."
           fi
