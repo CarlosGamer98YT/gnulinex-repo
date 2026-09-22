@@ -16745,7 +16745,7 @@ Installed-Size: 347
 Depends: libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libudfread3 (>= 1.2.0), libxml2-16 (>= 2.14.1)
 Recommends: libaacs0
 Suggests: libbluray-bdj
-Filename: ./libbluray4_1.5.0-3_amd64.deb
+Filename: ./libbluray4_1%3a1.5.0-3_amd64.deb
 Size: 138784
 MD5sum: 4a41c315187639cfe310497550bea30d
 SHA1: 7f55a21e9a4e0e2eb15a86e39593582e921b6dfb
@@ -74295,4 +74295,3 @@ Description: office productivity suite -- SDK documentation
   * C++/Java API reference
   * IDL reference
   * C++/Java/Basic examples
-
