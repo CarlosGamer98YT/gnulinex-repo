@@ -2488,6 +2488,35 @@ Description: Backup utility
  .
  Déjà Dup is a GNOME Circle app.
 
+Package: dictionaries-common
+Architecture: all
+Version: 1.31.4
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Maintainer: Agustin Martin Domingo <agmartin@debian.org>
+Installed-Size: 717
+Provides: openoffice.org-updatedicts
+Depends: debconf (>= 0.5) | debconf-2.0, libtext-iconv-perl, emacsen-common
+Suggests: ispell | aspell | hunspell, wordlist
+Breaks: myspell-ca (<= 0.6-10), myspell-cs-cz (<= 20040229-5), myspell-de-de-oldspell (<= 1:2-27), myspell-eu-es (<= 0.4.20081029-4), myspell-fi (<= 0.7-17.3), myspell-gl-es (<= 2.2a-8), myspell-ku (<= 0.20.0-1.1), myspell-nl (<= 1:2.0-1), myspell-nr (<< 20070206-4ubuntu1), myspell-ns (<< 20070206-4ubuntu1), myspell-sl (<< 1.0-3ubuntu1), myspell-ss (<< 20070206-4ubuntu1), myspell-tn (<< 20070206-4ubuntu1), myspell-ts (<< 20070207-4ubuntu1), myspell-ve (<< 20070206-3ubuntu1), myspell-xh (<< 20070206-4ubuntu1), myspell-zu (<< 20070207-5ubuntu1), openoffice.org-thesaurus-it (<< 2.0.7.gh.deb1-1.1ubuntu3)
+Replaces: openoffice.org-updatedicts
+Filename: ./dictionaries-common_1.31.4_all.deb
+Size: 172432
+MD5sum: 769c3bd9a72b83970df3607b366f3afb
+SHA1: 1b747b4dab91215b858b7020fff621d909172434
+SHA256: cfb7797446de8fadc08d734a6aa68b4f454a113e54db804f9b57a1348c77968a
+SHA512: b2d9eeee1d881065f5a0ecc7875b254de386b1c5e2cb343cf5420c05d6ba718988bc01ae48b0e06f7e9adbdc12f1c061a33d4766076416c738cc2ace49dffc88
+Homepage: https://salsa.debian.org/debian/dictionaries-common
+Description: spelling dictionaries - common utilities
+ This package provides utilities shared between all wordlists and spelling
+ dictionaries for Ispell, Aspell, or MySpell/Hunspell. It also includes
+ support infrastructure for software using them (such as JED and Mutt),
+ and some patched spell-checking Lisp files for better Emacs integration.
+ .
+ More information about the availability of these dictionaries and their
+ naming conventions is available in the README.Debian file.
+
 Package: diodon
 Architecture: amd64
 Version: 1.13.0-1+b5
@@ -2835,32 +2864,6 @@ Description: archive manager for MATE
  .
  Engrampa doesn't perform archive operations by itself, but relies on
  standard tools for this.
-
-Package: enlightenment-data
-Architecture: all
-Version: 0.27.1-2
-Priority: optional
-Section: x11
-Source: e17
-Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 403117
-Conflicts: enlightenment-data
-Enhances: enlightenment
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
-Size: 400653372
-MD5sum: 1eca4262b66d69f7496f7f5886340caa
-SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
-SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
-SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
-Homepage: https://www.enlightenment.org
-Description: X11 window manager based on EFL - run time data files
- Enlightenment is an advanced window manager for X11. Unique
- features include: a fully animated background, nice drop shadows
- around windows, backed by an extremely clean and optimized
- foundation of APIs.
- .
- These are the architecture independent runtime support files for the
- Enlightenment Window Manager.
 
 Package: enlightenment
 Architecture: amd64
@@ -13105,6 +13108,36 @@ Description: HTML to text rendering aimed for E-mail
  It interprets HTML in a somewhat relaxed way, in order to cope with incorrect
  sequences somewhat. Reason for this is that in the wild, particularly with
  Email, incorrect HTML is (still) often seen.
+
+Package: hunspell-en-us
+Architecture: all
+Version: 1:2020.12.07-4
+Multi-Arch: foreign
+Priority: standard
+Section: text
+Source: scowl (2020.12.07-4)
+Maintainer: Don Armstrong <don@debian.org>
+Installed-Size: 1565
+Provides: hunspell-dictionary, hunspell-dictionary-en, hunspell-dictionary-en-us
+Depends: dictionaries-common (>= 0.10)
+Suggests: hunspell, openoffice.org-hunspell | openoffice.org-core (>= 2.0.2)
+Conflicts: firefox (<< 2.0.0.3-2), iceape-browser (<< 1.1.1-2), icedove (<< 2.0.0.0-4), iceweasel (<< 2.0.0.3-2), libxul0d (= 1.8.0.11-3), mozilla-browser (<< 1.8+1.1.1-2), myspell-en-us, openoffice.org (<= 1.0.3-2), openoffice.org-core (<< 2.1~m190-1), thunderbird (<< 2.0.0.1+dfsg-0)
+Replaces: myspell-en-us, openoffice.org-spellcheck-en-us
+Filename: ./hunspell-en-us_2020.12.07-4_all.deb
+Size: 557976
+MD5sum: aaba98f8b3a7b8ecc9453b9ec73d3d46
+SHA1: 322341a399472e974279a293d50e1035d9db6024
+SHA256: 962d774fd74f94ea8e781291319706fc5172d7d02c806e4c3a0c6af3ec9ccdc7
+SHA512: aea44e725497baf2b145865deb7415f1c20aa7efab3032f2baa9b56844dacade3b9ba4d4d98ef35ee67662827b83bb726324d5cedf8036db773bd7f3ea5a72c5
+Homepage: http://wordlist.sourceforge.net/
+Description: English_american dictionary for hunspell
+ This is the English_american dictionary for use with the hunspell spellchecker
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding or
+ character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
 
 Package: hwdata
 Architecture: all
@@ -32883,6 +32916,32 @@ Description: Java general purpose resource loading framework
  allow the processing of that content data in a generic way, totally
  transparent to the user of that library.
 
+Package: liblocale-gettext-perl
+Architecture: amd64
+Version: 1.07-10+b1
+Priority: optional
+Section: perl
+Source: liblocale-gettext-perl (1.07-10)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 52
+Pre-Depends: perl-base (>= 5.42.2-3), perlapi-5.42.2
+Depends: libc6 (>= 2.3)
+Filename: ./liblocale-gettext-perl_1.07-10+b1_amd64.deb
+Size: 15088
+MD5sum: 7c92ba3987392fbacf2017eeb30b9e8f
+SHA1: fef1105f21169d0d315540c34d9aea584596e533
+SHA256: 4a307a85f383a597ea1ce66e287d36937fe7ff9b622979ad853f9d399cf61ac5
+SHA512: d02393041dcd9fe0316555b25062fc6bb134cf9ad6ade361ba97bff517b33f11644e9f6b47a2e7ee6344666587d8b54783dbe96ffd2e564970688dd0fd98c5e8
+Homepage: https://metacpan.org/release/Locale-gettext
+Description: module using libc functions for internationalization in Perl
+ The Locale::gettext module permits access from perl to the gettext() family of
+ functions for retrieving message strings from databases constructed
+ to internationalize software.
+ .
+ It provides gettext(), dgettext(), dcgettext(), textdomain(),
+ bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext()
+ and dngettext().
+
 Package: liblsan0
 Architecture: amd64
 Version: 16.2.0-2
@@ -36350,32 +36409,32 @@ Description: report library for java
     * support for servlets (uses the JFreeReport extensions)
     * extensive documentation in Acrobat PDF format, plus full Javadocs;
 
-Package: libperl5.40
+Package: libperl5.42
 Architecture: amd64
-Version: 5.40.1-8
+Version: 5.42.3-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: perl
 Maintainer: Niko Tyni <ntyni@debian.org>
-Installed-Size: 29345
-Depends: libbz2-1.0, libc6 (>= 2.42), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.4), perl-modules-5.40 (>= 5.40.1-8)
+Installed-Size: 25223
+Depends: libbz2-1.0, libc6 (>= 2.43), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.4), perl-modules-5.42 (>= 5.42.3-1)
 Suggests: sensible-utils
-Breaks: libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libfilter-perl (<< 1.64), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01)
-Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
-Filename: ./libperl5.40_5.40.1-8_amd64.deb
-Size: 4343516
-MD5sum: 38020f04c56e7f6c3fc40224e3eb7c2a
-SHA1: 5bb5e37d185b82a2b31f7f8f29cb60a002e3974d
-SHA256: 467a2610ca5dd402e2257d066e06aafddfe79ecba842ccbda49cd69fc0a4a735
-SHA512: 0fb6c28529043b579078089fc492e05af4dfb41ea412628bebdff4cfa7da05d8e5d30530328cc04c834444bab944b9c7a7e6098325ce9dfe7becd3a5f261c432
+Breaks: libcompress-raw-bzip2-perl (<< 2.218), libcompress-raw-zlib-perl (<< 2.222), libcompress-zlib-perl (<< 2.223), libdigest-md5-perl (<< 2.59), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libfilter-perl (<< 1.64), libio-compress-base-perl (<< 2.223), libio-compress-bzip2-perl (<< 2.223), libio-compress-perl (<< 2.223), libio-compress-zlib-perl (<< 2.223), libmime-base64-perl (<< 3.16.01), libstorable-perl (<< 3.37.01), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.43), libthreads-shared-perl (<< 1.70), libtime-hires-perl (<< 1.9778), libtime-piece-perl (<< 1.3600)
+Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.218), libcompress-raw-zlib-perl (<< 2.222), libcompress-zlib-perl (<< 2.223), libdigest-md5-perl (<< 2.59), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libio-compress-base-perl (<< 2.223), libio-compress-bzip2-perl (<< 2.223), libio-compress-perl (<< 2.223), libio-compress-zlib-perl (<< 2.223), libmime-base64-perl (<< 3.16.01), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.37.01), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.43), libthreads-shared-perl (<< 1.70), libtime-hires-perl (<< 1.9778), libtime-piece-perl (<< 1.3600), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
+Filename: ./libperl5.42_5.42.3-1_amd64.deb
+Size: 4272212
+MD5sum: ab2ab65f5806c52bd425e1b7365e6bd2
+SHA1: 02be14122e26e6673abfe6c8f95efa903ef4fe4c
+SHA256: f16e5e3de1aefc52cdc95c2132c5939e8af620a0418a01774914d290d813fe7f
+SHA512: 365683e8153822ee3373a657486ae99a3ec2e4e9a5c99a52bee54254ab626a64fac1ed249666d9f66d4309a7a7b491a2eb6c24a869fcdd622f2a1b311d6bf6eb
 Homepage: https://dev.perl.org/perl5/
 Description: shared Perl library
  This package contains the shared Perl library, used by applications
  which embed a Perl interpreter.
  .
  It also contains the architecture-dependent parts of the standard
- library (and depends on perl-modules-5.40 which contains the
+ library (and depends on perl-modules-5.42 which contains the
  architecture-independent parts).
 
 Package: libpimcommon-data
@@ -39953,33 +40012,6 @@ Description: office productivity suite -- SDK -- architecture-independent parts
  .
  This package contains the (architecture-independent) files needed to build
  plugins/add-ons for LibreOffice (includes, IDL files, ...)
-
-Package: libreoffice-dev-doc
-Architecture: all
-Version: 4:26.8.0.3-2
-Priority: optional
-Section: doc
-Source: libreoffice
-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 600778
-Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
-Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
-Size: 210837432
-MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
-SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
-SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
-SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
-Homepage: http://www.libreoffice.org
-Description: office productivity suite -- SDK documentation
- LibreOffice is a full-featured office productivity suite that provides
- a near drop-in replacement for Microsoft(R) Office.
- .
- This package contains the documentation of the LibreOffice SDK:
- .
-  * C++/Java API reference
-  * IDL reference
-  * C++/Java/Basic examples
 
 Package: libreoffice-dev-gui
 Architecture: amd64
@@ -48029,6 +48061,78 @@ SHA512: 5d2e750dc8ff151a9fa3fd5038cbba069f1f369dcab763bc79fca4609e01a64cf7755c16
 Homepage: https://www.tug.org/texlive/
 Description: TeX Live: Lua 5.3, modified for use with LuaTeX
  The Lua 5.3 library as used within LuaTeX.
+
+Package: libtext-charwidth-perl
+Architecture: amd64
+Version: 0.04-12+b1
+Multi-Arch: same
+Priority: optional
+Section: perl
+Source: libtext-charwidth-perl (0.04-12)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: perl-base (>= 5.42.2-3), perlapi-5.42.2, libc6 (>= 2.4)
+Filename: ./libtext-charwidth-perl_0.04-12+b1_amd64.deb
+Size: 9344
+MD5sum: e564666b66834a4ff8737b3be4b12a89
+SHA1: e2f88f422bc02776ee4d82a18e53098c5b156e5e
+SHA256: 2d63cee7fdc39836f37a87846f1998be615fdc8de6db4c892aec427b32c1907a
+SHA512: 847a34272d22202588597b57c385fe1a83ee5e4ed1ca81d02d6d3dbf856aa706b042dcedfc389687429dd48a991137813ad38839f792890c8320c55ceb6a6bfd
+Homepage: https://metacpan.org/release/Text-CharWidth
+Description: get display widths of characters on the terminal
+ Text::CharWidth permits one to get the display widths of characters
+ and strings on the terminal, using wcwidth() and wcswidth() from libc.
+ .
+ It provides mbwidth(), mbswidth(), and mblen().
+
+Package: libtext-iconv-perl
+Architecture: amd64
+Version: 1.7-9+b1
+Multi-Arch: same
+Priority: optional
+Section: perl
+Source: libtext-iconv-perl (1.7-9)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 49
+Depends: perl-base (>= 5.42.2-3), perlapi-5.42.2, libc6 (>= 2.4)
+Filename: ./libtext-iconv-perl_1.7-9+b1_amd64.deb
+Size: 14312
+MD5sum: a8dbbace0fc960f1b7aef3e63078e0a0
+SHA1: 742428a78a624a2ed25b87d50f8eac352241b20b
+SHA256: 93c31eea97a3d2cb4ee18b01eddd63cd2a9c8cea36eec7eaa3c9b6744fe5f8a1
+SHA512: baf3134056b0dc89c068c26039d1962084ce8b45cb42e933de5051c6ab7ad5ee3b8597d2eb75e46a873c1e4fa8400db9f3e8826c89aef86ee51aefc88634c317
+Homepage: https://metacpan.org/release/Text-Iconv
+Description: module to convert between character sets in Perl
+ The iconv() family of functions from XPG4 defines an API for converting
+ between character sets (e.g. UTF-8 to Latin1, EBCDIC to ASCII). They
+ are provided by libc6.
+ .
+ This package allows access to them from Perl via the Text::Iconv
+ package.
+
+Package: libtext-wrapi18n-perl
+Architecture: all
+Version: 0.06-11
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 26
+Depends: libtext-charwidth-perl
+Filename: ./libtext-wrapi18n-perl_0.06-11_all.deb
+Size: 7788
+MD5sum: a4762874be271627fb1b1e7c895535dc
+SHA1: 7ea04fa77928d67cfc3a487cf6992c820f9cd5ac
+SHA256: 78f3e536289c5f07351b1251980d42ec8706a4638de160dbe184a479d7e5bc14
+SHA512: 24d13187ac8785c587321311bb1830ecd156c18e605b3b5d2af7fce4a3e1cd99683fd0e5f9761adf4d993e4a093bb00c19780ef8162fe2f1a959981bba3bf4d6
+Homepage: https://metacpan.org/release/Text-WrapI18N
+Description: internationalized substitute of Text::Wrap
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth characters
+ such as east Asian characters, combining characters such as diacritical marks
+ and Thai, and languages which don't use whitespaces between words such as
+ Chinese and Japanese.
+ .
+ It provides wrap().
 
 Package: libtextutils-cmark-rc-copy0
 Architecture: amd64
@@ -56943,27 +57047,27 @@ Description: minimal Perl system
  Perl installation, install "perl" (and its dependencies, "perl-modules-5.42"
  and "perl-doc").
 
-Package: perl-modules-5.40
+Package: perl-modules-5.42
 Architecture: all
-Version: 5.40.1-8
+Version: 5.42.3-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: perl
 Maintainer: Niko Tyni <ntyni@debian.org>
-Installed-Size: 19986
+Installed-Size: 22000
 Provides: perl-modules
-Depends: perl-base (>= 5.40.1-1)
-Recommends: perl (>= 5.40.1-1)
+Depends: perl-base (>= 5.42.3-1)
+Recommends: perl (>= 5.42.3-1)
 Conflicts: perl-modules (<< 5.22.0~)
-Breaks: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 3.02.001), libattribute-handlers-perl (<< 1.03), libautodie-perl (<< 2.37), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.143), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.032), libextutils-cbuilder-perl (<< 0.280240), libextutils-command-perl (<< 7.70), libextutils-install-perl (<< 2.22), libextutils-parsexs-perl (<< 3.510000), libfile-spec-perl (<< 3.9100), libhttp-tiny-perl (<< 0.088), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.15), libjson-pp-perl (<< 4.16000), liblocale-maketext-perl (<< 1.33), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 2.003002), libmath-complex-perl (<< 1.6200), libmodule-corelist-perl (<< 5.20250118.40), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000038), libnet-perl (<< 1:3.15), libnet-ping-perl (<< 2.76), libparams-check-perl (<< 0.38), libparent-perl (<< 0.241), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.45), libterm-table-perl (<< 0.018), libtest-harness-perl (<< 3.48), libtest-simple-perl (<< 1.302199), libtest-tester-perl (<< 1.302199), libtest-use-ok-perl (<< 1.302199), libtest2-suite-perl (<< 0.000162), libtext-balanced-perl (<< 2.06), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3500), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9930), maildirsync (<< 1.2-2.1), perl (<< 5.40.1~), podlators-perl (<< 5.01.02)
-Replaces: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 3.02.001), libattribute-handlers-perl (<< 1.03), libautodie-perl (<< 2.37), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.143), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.032), libextutils-cbuilder-perl (<< 0.280240), libextutils-command-perl (<< 7.70), libextutils-install-perl (<< 2.22), libextutils-parsexs-perl (<< 3.510000), libfile-spec-perl (<< 3.9100), libhttp-tiny-perl (<< 0.088), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.15), libjson-pp-perl (<< 4.16000), liblocale-maketext-perl (<< 1.33), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 2.003002), libmath-complex-perl (<< 1.6200), libmodule-corelist-perl (<< 5.20250118.40), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000038), libnet-perl (<< 1:3.15), libnet-ping-perl (<< 2.76), libparams-check-perl (<< 0.38), libparent-perl (<< 0.241), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.45), libterm-table-perl (<< 0.018), libtest-harness-perl (<< 3.48), libtest-simple-perl (<< 1.302199), libtest-tester-perl (<< 1.302199), libtest-use-ok-perl (<< 1.302199), libtest2-suite-perl (<< 0.000162), libtext-balanced-perl (<< 2.06), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3500), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9930), perl-base (<< 5.22.0~), perl-modules, podlators-perl (<< 5.01.02)
-Filename: ./perl-modules-5.40_5.40.1-8_all.deb
-Size: 3018616
-MD5sum: 34e9444e7a66dac509900a74410e0a4b
-SHA1: 4ca2ae9e7b571980dbdda236a5bdb55152466420
-SHA256: 531e78e10cc5d4cf7cb110fafef016cc4d2f883b081e79226ab82d6a73228651
-SHA512: f8418a094566228ec45d38afdadaa1dc54bf55dd8880f7a4e8f2ca9ede0dab6a98cb019edd70d1514a8517a5c539c9ce4f6f4da0bec0ca67f05cf46e86703878
+Breaks: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 3.12), libattribute-handlers-perl (<< 1.03), libautodie-perl (<< 2.37), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.143), libcpan-meta-yaml-perl (<< 0.020), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.035), libextutils-cbuilder-perl (<< 0.280242), libextutils-command-perl (<< 7.76), libextutils-install-perl (<< 2.22), libextutils-parsexs-perl (<< 3.570000), libfile-spec-perl (<< 3.9400), libhttp-tiny-perl (<< 0.096), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.15), libjson-pp-perl (<< 4.16000), liblocale-maketext-perl (<< 1.33), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 2.005002), libmath-complex-perl (<< 1.6300), libmodule-corelist-perl (<< 5.20260802.42), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000038), libnet-perl (<< 1:3.15), libnet-ping-perl (<< 2.76), libparams-check-perl (<< 0.38), libparent-perl (<< 0.244), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.45), libterm-table-perl (<< 0.024), libtest-harness-perl (<< 3.50), libtest-simple-perl (<< 1.302210), libtest-tester-perl (<< 1.302210), libtest-use-ok-perl (<< 1.302210), libtest2-suite-perl (<< 1.302210), libtext-balanced-perl (<< 2.06), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3500), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9933), maildirsync (<< 1.2-2.1), perl (<< 5.42.3~), podlators-perl (<< 6.0.2)
+Replaces: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 3.12), libattribute-handlers-perl (<< 1.03), libautodie-perl (<< 2.37), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.143), libcpan-meta-yaml-perl (<< 0.020), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.035), libextutils-cbuilder-perl (<< 0.280242), libextutils-command-perl (<< 7.76), libextutils-install-perl (<< 2.22), libextutils-parsexs-perl (<< 3.570000), libfile-spec-perl (<< 3.9400), libhttp-tiny-perl (<< 0.096), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.15), libjson-pp-perl (<< 4.16000), liblocale-maketext-perl (<< 1.33), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 2.005002), libmath-complex-perl (<< 1.6300), libmodule-corelist-perl (<< 5.20260802.42), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000038), libnet-perl (<< 1:3.15), libnet-ping-perl (<< 2.76), libparams-check-perl (<< 0.38), libparent-perl (<< 0.244), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.45), libterm-table-perl (<< 0.024), libtest-harness-perl (<< 3.50), libtest-simple-perl (<< 1.302210), libtest-tester-perl (<< 1.302210), libtest-use-ok-perl (<< 1.302210), libtest2-suite-perl (<< 1.302210), libtext-balanced-perl (<< 2.06), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3500), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9933), perl-base (<< 5.22.0~), perl-modules, podlators-perl (<< 6.0.2)
+Filename: ./perl-modules-5.42_5.42.3-1_all.deb
+Size: 3212612
+MD5sum: 0d2fb774b6d94c31aabc1cb7e1cc1773
+SHA1: d5d2b7ae5f7004f0ffa5ce683785d53c7493c63c
+SHA256: 8e9d6e4efe5efe86c29efbdd5d0e2f47d7f639757d454c068940a11cb4a532a9
+SHA512: 0cb8288862b26843311b13eb3f0be8e1448b2fd90634517f900f1be67366b84c86368e0b5715dd8cffa738d268d75abd5e1b0572047b9b5c4fcdfa666c9f2cf7
 Homepage: https://dev.perl.org/perl5/
 Description: Core Perl modules
  Architecture independent Perl modules.  These modules are part of Perl and
@@ -56971,8 +57075,8 @@ Description: Core Perl modules
  .
  Note that this package only exists to save archive space and should be
  considered an internal implementation detail of the `perl' package.
- Other packages should not depend on `perl-modules-5.40' directly, they
- should use `perl' (which depends on `perl-modules-5.40') instead.
+ Other packages should not depend on `perl-modules-5.42' directly, they
+ should use `perl' (which depends on `perl-modules-5.42') instead.
 
 Package: perl
 Architecture: amd64
@@ -70777,6 +70881,49 @@ Description: D-Bus thumbnailing service
  URI schemes and MIME types. It is an implementation of the thumbnail management
  D-Bus specification described on http://live.gnome.org/ThumbnailerSpec.
 
+Package: ucf
+Architecture: all
+Version: 3.0056
+Multi-Arch: foreign
+Priority: standard
+Section: utils
+Maintainer: Mark Hindley <leepen@debian.org>
+Installed-Size: 162
+Depends: debconf (>= 0.5) | debconf-2.0, libtext-wrapi18n-perl, procps, sensible-utils
+Filename: ./ucf_3.0056_all.deb
+Size: 47144
+MD5sum: b5a4111a435ac73a72798f4cec382cad
+SHA1: f81ba2c9e920773d047cb67b96df26fd7772ea5e
+SHA256: d96c7609eea296fd04fd8d47ea7c42800d6520b342851c00ce289acacd9aa685
+SHA512: 5813a1e9f75ff509c2a711e868fb087999ddef04f5cfd46eb8ecc51175a1f9b5090fce1ff10533cc44bb85587cf70a494dcd13d107bfe4d8712fd1fb175b3d78
+Description: Update Configuration File(s): preserve user changes to config files
+ Debian policy mandates that user changes to configuration files must be
+ preserved during package upgrades. The easy way to achieve this behavior
+ is to make the configuration file a 'conffile', in which case dpkg
+ handles the file specially during upgrades, prompting the user as
+ needed.
+ .
+ This is appropriate only if it is possible to distribute a default
+ version that will work for most installations, although some system
+ administrators may choose to modify it. This implies that the
+ default version will be part of the package distribution, and must
+ not be modified by the maintainer scripts during installation (or at
+ any other time).
+ .
+ This script attempts to provide conffile-like handling for files that
+ may not be labelled conffiles, and are not shipped in a Debian package,
+ but handled by the postinst instead. This script allows one to
+ maintain files in /etc, preserving user changes and in general
+ offering the same facilities while upgrading that dpkg normally
+ provides for 'conffiles'.
+ .
+ Additionally, this script provides facilities for transitioning a
+ file that had not been provided with conffile-like protection to come
+ under this schema, and attempts to minimize questions asked at
+ installation time. Indeed, the transitioning facility is better than the
+ one offered by dpkg while transitioning a file from a non-conffile to
+ conffile status.
+
 Package: udev
 Architecture: amd64
 Version: 261.2-1
@@ -73902,4 +74049,57 @@ Description: shell with lots of features
  built-in spelling correction, programmable command completion,
  shell functions (with autoloading), a history mechanism, and a
  host of other features.
+
+Package: enlightenment-data
+Architecture: all
+Version: 0.27.1-2
+Priority: optional
+Section: x11
+Source: e17
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 403117
+Conflicts: enlightenment-data
+Enhances: enlightenment
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
+Size: 400653372
+MD5sum: 1eca4262b66d69f7496f7f5886340caa
+SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
+SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
+SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
+Homepage: https://www.enlightenment.org
+Description: X11 window manager based on EFL - run time data files
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ These are the architecture independent runtime support files for the
+ Enlightenment Window Manager.
+
+Package: libreoffice-dev-doc
+Architecture: all
+Version: 4:26.8.0.3-2
+Priority: optional
+Section: doc
+Source: libreoffice
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 600778
+Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
+Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
+Size: 210837432
+MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
+SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
+SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
+SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- SDK documentation
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the documentation of the LibreOffice SDK:
+ .
+  * C++/Java API reference
+  * IDL reference
+  * C++/Java/Basic examples
 
