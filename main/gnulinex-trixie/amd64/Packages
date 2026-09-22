@@ -2865,32 +2865,6 @@ Description: archive manager for MATE
  Engrampa doesn't perform archive operations by itself, but relies on
  standard tools for this.
 
-Package: enlightenment-data
-Architecture: all
-Version: 0.27.1-2
-Priority: optional
-Section: x11
-Source: e17
-Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
-Installed-Size: 403117
-Conflicts: enlightenment-data
-Enhances: enlightenment
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
-Size: 400653372
-MD5sum: 1eca4262b66d69f7496f7f5886340caa
-SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
-SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
-SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
-Homepage: https://www.enlightenment.org
-Description: X11 window manager based on EFL - run time data files
- Enlightenment is an advanced window manager for X11. Unique
- features include: a fully animated background, nice drop shadows
- around windows, backed by an extremely clean and optimized
- foundation of APIs.
- .
- These are the architecture independent runtime support files for the
- Enlightenment Window Manager.
-
 Package: enlightenment
 Architecture: amd64
 Version: 0.27.1-2
@@ -16759,24 +16733,24 @@ Description: Bouncy Castle ASN.1 Extension and Utility APIs
  The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used
  to support bcpkix and bctls.
 
-Package: libbluray3
+Package: libbluray4
 Architecture: amd64
-Version: 1:1.4.1-2
+Version: 1:1.5.0-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libbluray
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 338
+Installed-Size: 347
 Depends: libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libudfread3 (>= 1.2.0), libxml2-16 (>= 2.14.1)
 Recommends: libaacs0
 Suggests: libbluray-bdj
-Filename: ./libbluray3_1%3a1.4.1-2_amd64.deb
-Size: 132368
-MD5sum: 24f69b556e92e922ae3a657d7f003803
-SHA1: e8e95e0b9b7e0f88b586835b5200a05437307bb6
-SHA256: b18787ffef31f14f2fd2188e4aba3185ce8f1f1f9151897e54ce31a1947d03c9
-SHA512: 2bb8401527dc8f4a49766b041f1ac4f1bd28d2258cbffc3994d5b70311cd58fdc75f54a93d6e78e31e2b19b77a95da8fe0de5669a11bd95db6e06598d4680005
+Filename: ./libbluray4_1.5.0-3_amd64.deb
+Size: 138784
+MD5sum: 4a41c315187639cfe310497550bea30d
+SHA1: 7f55a21e9a4e0e2eb15a86e39593582e921b6dfb
+SHA256: f3a152e588781c7eb311597ae49519aae0da7f5f00008251e11fd40a3c4a30f9
+SHA512: da41b0f27039e5770e7e2cf9cc3ee8b44c3eef770693d1a2a09e52b13d2ef18798828be3ebab4bd5d8c6157a7dc32403c76086ac97a3134779eb199c17f73eed
 Homepage: https://www.videolan.org/developers/libbluray.html
 Description: Blu-ray disc playback support library (shared library)
  libbluray is an open-source library designed for Blu-Ray Discs playback for
@@ -18661,6 +18635,28 @@ Description: Control monitor settings - shared library
  Set). Normally, communication is performed using the DDC/CI protocol on the
  I2C bus.  Alternatively, communication can be performed over USB as per the
  USB Monitor Control Class Specification.
+
+Package: libde265-0
+Architecture: amd64
+Version: 1.1.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libde265
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 542
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./libde265-0_1.1.2-1_amd64.deb
+Size: 212832
+MD5sum: 7236257f2b9fe202f7988cd607df28c9
+SHA1: a5ae017eedb5d8bf5a499896a907b71d9367ca1a
+SHA256: 7eb6fc5f86c305ab0864c7da89ae0f51d7ccc25746dcd1cefed2a3ddca262e50
+SHA512: 942d33aa7052d1f081ec06c027486df47076ee90da0970b607a10e830576cfe84fb60c22adb5d03c01706f60b3ec77d7b3956b538eb0bad911ddb8b626c3ddfd
+Homepage: https://github.com/strukturag/libde265
+Description: Open H.265 video codec implementation
+ libde265 is an open source implementation of the H.265 video codec.
+ It is written from scratch in plain C for simplicity and efficiency.
+ Its simple API makes it easy to integrate it into other software.
 
 Package: libdigest-perl-md5-perl
 Architecture: all
@@ -36298,6 +36294,149 @@ Description: Perl module to create and use recursive-descent parsers
    * Incremental extension of the parsing grammar (even during a parse)
    * The ability to retrieve the generated parsing code
 
+Package: libpcre2-16-0
+Architecture: amd64
+Version: 10.48-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 732
+Depends: libc6 (>= 2.34)
+Filename: ./libpcre2-16-0_10.48-3_amd64.deb
+Size: 294696
+MD5sum: 05a128f5909f0609dda0dd7fefcef005
+SHA1: e98953acb1bc1eb5afb4900d15da12b95410db34
+SHA256: aa32a9663c32a294ac61743204959f97c6481ac6e350c2a84ac470c92266e4b6
+SHA512: ed453dd70c5d35c9fa92f43c774f1fc8d0cacfd0f41ecc2230e6067fb7a0af0824a9a38ea05737c39e8fd5fff0cd1acb6bac88b0e0f416e7c8fcb24582e456ca
+Homepage: https://github.com/PCRE2Project/pcre2
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 16 bit runtime library, which operates on
+ UTF-16 input.
+
+Package: libpcre2-32-0
+Architecture: amd64
+Version: 10.48-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 704
+Depends: libc6 (>= 2.34)
+Filename: ./libpcre2-32-0_10.48-3_amd64.deb
+Size: 281568
+MD5sum: 88a247364f6a22b4359ef4ea6e3fa218
+SHA1: cacf05ce0964655179b0523b537061e998f66195
+SHA256: 270582b4ab372983a7576de758e73b688de3b407c87b07e260c22f9f56603110
+SHA512: ae13c31c423e71c4e4e80876cb4470b1f9f744c8a46a88f4a7c755ad6e8be974dce4b87d0c485677e2a0b9814a743f3768f2c3650a1926365f7e233cdf9f269f
+Homepage: https://github.com/PCRE2Project/pcre2
+Description: New Perl Compatible Regular Expression Library - 32 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 32 bit runtime library, which operates on
+ UTF-32 input.
+
+Package: libpcre2-8-0
+Architecture: amd64
+Version: 10.48-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 793
+Depends: libc6 (>= 2.34)
+Filename: ./libpcre2-8-0_10.48-3_amd64.deb
+Size: 312120
+MD5sum: c8940968d8e7f9f5adf32d7f784c9367
+SHA1: 705971d9ad99e015286b975f3057f1083c25dde5
+SHA256: b146e5b3ee63262f2d50cf431878f2304a4262edd287f3257fdfaa4b734a36be
+SHA512: 1df998d1d666a2e785319db5f37299e8a803a85c224b5e737969e2bc525ed3bc44af2912b91b9533ae3ae86f2d4cc06742f0f6f6c969a629bedf1649475381d8
+Homepage: https://github.com/PCRE2Project/pcre2
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 8 bit runtime library, which operates on
+ ASCII and UTF-8 input.
+
+Package: libpcre2-dev
+Architecture: amd64
+Version: 10.48-3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 2957
+Depends: libc-dev, libpcre2-8-0 (= 10.48-3), libpcre2-16-0 (= 10.48-3), libpcre2-32-0 (= 10.48-3), libpcre2-posix3 (= 10.48-3)
+Conflicts: libpcre3-dev (<< 2:8.35-8)
+Filename: ./libpcre2-dev_10.48-3_amd64.deb
+Size: 879976
+MD5sum: ddbae002aa21e0be6367da56e0dbab8b
+SHA1: 65510efb4fe57036f852a4547a58aa1b692b8695
+SHA256: 9e7067b3cb1dd652610e2c0566454dbeed96369460393668569c2c0e94108110
+SHA512: 17609ca258d68b15808edb4f20553e10ade161db21ab439b1114ac68bde3c2762796add264945e667a1cf4e8c3660b1b3dcbd9fb25686322cc23c1f8e07cc7db
+Homepage: https://github.com/PCRE2Project/pcre2
+Description: New Perl Compatible Regular Expression Library - development files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ Unlike the previous version of PCRE, there is no C++ library included
+ with PCRE2. Users who wish to avoid porting their C++ code to use the
+ PCRE2 C API might want to consider the libre2-dev package in Debian
+ which attempts to provide a similar C++ API to that provided by
+ libpcrecpp in previous versions of PCRE.
+ .
+ This package contains the development files, including headers,
+ static libraries, and documentation.
+
+Package: libpcre2-posix3
+Architecture: amd64
+Version: 10.48-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 93
+Depends: libc6 (>= 2.4), libpcre2-8-0 (>= 10.47)
+Conflicts: libpcre2-posix0
+Replaces: libpcre2-posix0
+Filename: ./libpcre2-posix3_10.48-3_amd64.deb
+Size: 67180
+MD5sum: 4c03147bf198cab35fb6a9c195164b7c
+SHA1: 972e8ab7f897c39a42c1cf1076b59753dc68a658
+SHA256: b3ca070b39ba282d79b771d0f83171868428ac4c1e64c73fbf3226ad977ddc18
+SHA512: f06245a8197b7c0b0c92acf8d831bb067dac4991a877c34cd7cdeffe4d5664ad417eda3fd8805a8e0ea93d24c544b7aaf3c022fb4185aa970e72440f05091925
+Homepage: https://github.com/PCRE2Project/pcre2
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the runtime library for the posix-compatible API.
+
 Package: libpdfbox-java
 Architecture: all
 Version: 1:1.8.16-5
@@ -40038,33 +40177,6 @@ Description: office productivity suite -- SDK -- architecture-independent parts
  .
  This package contains the (architecture-independent) files needed to build
  plugins/add-ons for LibreOffice (includes, IDL files, ...)
-
-Package: libreoffice-dev-doc
-Architecture: all
-Version: 4:26.8.0.3-2
-Priority: optional
-Section: doc
-Source: libreoffice
-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 600778
-Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
-Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
-Size: 210837432
-MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
-SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
-SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
-SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
-Homepage: http://www.libreoffice.org
-Description: office productivity suite -- SDK documentation
- LibreOffice is a full-featured office productivity suite that provides
- a near drop-in replacement for Microsoft(R) Office.
- .
- This package contains the documentation of the LibreOffice SDK:
- .
-  * C++/Java API reference
-  * IDL reference
-  * C++/Java/Basic examples
 
 Package: libreoffice-dev-gui
 Architecture: amd64
@@ -46389,6 +46501,34 @@ Description: support library for the rhythmbox music player
  This package contains the core support library used by rhythmbox and
  programs interacting with it.
 
+Package: librist4
+Architecture: amd64
+Version: 0.2.20+dfsg-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: librist
+Maintainer: Florian Ernst <florian@debian.org>
+Installed-Size: 300
+Depends: libc6 (>= 2.38), libcjson1 (>= 1.7.5), libgmp10 (>= 2:6.3.0+dfsg), libgnutls30t64 (>= 3.7.0), libhogweed6t64, liblz4-1 (>= 0.0~r130), libnettle8t64
+Filename: ./librist4_0.2.20+dfsg-1_amd64.deb
+Size: 142248
+MD5sum: d6155300d701b1b2f1dcb5199690b863
+SHA1: e33b9d8ae727fd3587e1e44454e6e561d092e227
+SHA256: b4803c44053fb5bb75825e5e65f2e55c36321b6b3ba2c63a6d1b64bcfa5ae5d9
+SHA512: 59dd7c702e40e55039df45ad87f2641e68f600014b84e8701e717d7323b27dcf9d6dca658827bfd20261e47e35e5828c16a8a668f910af29d1877df928f25b5b
+Homepage: https://code.videolan.org/rist/librist
+Description: Reliable Internet Stream Transport -- shared library
+ Reliable Internet Stream Transport (RIST) is a transport protocol
+ designed for reliable transmission of video over lossy networks
+ (including the Internet) with low latency and high quality.
+ .
+ RIST is intended as a more reliable successor to Secure Reliable
+ Transport (SRT), and as an open alternative to proprietary commercial
+ options such as Zixi, VideoFlow, QVidium, and DVEO (Dozer).
+ .
+ This package contains the shared library.
+
 Package: librnp0
 Architecture: amd64
 Version: 0.18.1-1.1+b1
@@ -47085,22 +47225,22 @@ Description: type-safe Signal Framework for C++ - runtime
  These are the runtime files for libsigc++, needed only if you wish to
  run software which depends on it.
 
-Package: libsimdutf33
+Package: libsimdutf35
 Architecture: amd64
-Version: 8.2.0-1
+Version: 9.1.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: simdutf
 Maintainer: Mo Zhou <lumin@debian.org>
-Installed-Size: 569
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
-Filename: ./libsimdutf33_8.2.0-1_amd64.deb
-Size: 141128
-MD5sum: 8cbf707fce41f876263fe23510f29992
-SHA1: fac303296462ed15500882e28dad4f4fb756160a
-SHA256: 093ad1293d40e7c71c3e616c87e31ba67b2b7fd604a7e45ae3beeddc8dcbee05
-SHA512: a995936e36e1c7597e63f8ae3e6f8dc0103618ff71bf0d7d452aa9eec1c866eea223930954855ebd031a159f1ac8d69e01a5df3f58ffd89ca53472f079bd0520
+Installed-Size: 581
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Filename: ./libsimdutf35_9.1.2-1_amd64.deb
+Size: 149052
+MD5sum: e1f6c57db327716fee56d9fe02defce1
+SHA1: cb951ba27b0083eaaca83b611284f4958e3afd66
+SHA256: 89676af929aa8f1fec16e54f7806e9abede88c1071e216a39fd1ccac1defff53
+SHA512: ec0286aae5f400ad1e0ba63c19c443bda02a323db9062dc53f4e2cd633f25e9d6f6b68a787ca6d01b81d7515fe5fcfff3e50d0be4667307a3137914de187958a
 Homepage: https://simdutf.github.io/simdutf/
 Description: Fast Unicode validation and transcoding
  Most modern software relies on the Unicode standard. In memory, Unicode
@@ -74102,4 +74242,57 @@ Description: shell with lots of features
  built-in spelling correction, programmable command completion,
  shell functions (with autoloading), a history mechanism, and a
  host of other features.
+
+Package: enlightenment-data
+Architecture: all
+Version: 0.27.1-2
+Priority: optional
+Section: x11
+Source: e17
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 403117
+Conflicts: enlightenment-data
+Enhances: enlightenment
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/enlightenment-data_0.27.1-2_all.deb
+Size: 400653372
+MD5sum: 1eca4262b66d69f7496f7f5886340caa
+SHA1: b6f0561b67055ef3085a5c3837ded78b27456f2c
+SHA256: c236686e8ef8df5a05ef2ffdd0e937d0928b292e93330719c5d446d974cd7539
+SHA512: e60450e0c41a2105ebf2dc452eba3280b9d4425c97817242ccafa1fd1acadaa2439482c4c39d5b9ed7746cab4534943a20ea735f125c85e30e9f0ebea735d1ec
+Homepage: https://www.enlightenment.org
+Description: X11 window manager based on EFL - run time data files
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ These are the architecture independent runtime support files for the
+ Enlightenment Window Manager.
+
+Package: libreoffice-dev-doc
+Architecture: all
+Version: 4:26.8.0.3-2
+Priority: optional
+Section: doc
+Source: libreoffice
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 600778
+Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
+Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
+Size: 210837432
+MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
+SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
+SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
+SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- SDK documentation
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the documentation of the LibreOffice SDK:
+ .
+  * C++/Java API reference
+  * IDL reference
+  * C++/Java/Basic examples
 
