@@ -4080,6 +4080,43 @@ Description: free TrueType fonts for Persian language
  The package provides a standard set of Unicode Persian (Farsi) fonts, including
  Titr, Nazli, Nazli Bold, and Homa.
 
+Package: fonts-font-awesome-legacy
+Architecture: all
+Version: 6-3
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Debian Font Task Force <debian-fonts@lists.debian.org>
+Installed-Size: 4200
+Breaks: fonts-font-awesome (<< 7)
+Replaces: fonts-font-awesome (<< 7)
+Filename: ./fonts-font-awesome-legacy_6-3_all.deb
+Size: 1546928
+MD5sum: dcfdb6111f86df06138b63b4107487bc
+SHA1: e0e21d14deeb1417760058a6feefb93d06775389
+SHA256: 3f28067002950dbe18c21b8c62d8394de9cb4130b5f9f011f10b8c708f82a756
+SHA512: 52b699a65ad6d9340ff98a124c6b24a29be33413607e15bc59242bdc4af964cb38e1b450f7ca8f2c97db1540bf8edaa803fac51b0e05e3dfc823a6074e50d530
+Homepage: https://github.com/FortAwesome/Font-Awesome
+Description: FontAwesome free icon webfonts (legacy versions 4, 5 and 6)
+ Font Awesome is the Internet's icon library and toolkit, used by
+ millions of designers, developers, and content creators.
+ .
+ For versions 5 and 6 of Font Awesome (specifically 5.15.4 and 6.7.2),
+ this package provides the font in TTF and WOFF2 formats.  The package
+ includes the icons.yml metadata file but not CSS files or NodeJS
+ packages.  The current version of the font is available in the
+ fonts-font-awesome package, and the NodeJS package is available in
+ the node-fortawesome-fontawesome-* packages.
+ .
+ For version 4.7.0 of Font Awesome, this package provides the font in
+ the original upstream formats, but rebuilt from the SVG font.  The
+ package also provides the LESS, SCSS and CSS files, as older versions
+ of the fonts-font-awesome package did, and these can be found in the
+ same locations as before.
+ .
+ The fonts in this package are built from the SVG sources, and are not
+ bitwise identical to the upstream versions.
+
 Package: fonts-font-awesome
 Architecture: all
 Version: 7.3.0+dfsg-1
@@ -15149,32 +15186,6 @@ Description: use the Wayland wl-layer-shell protocol - plugin
  .
  This package contains the plugin.
 
-Package: libabsl20260107
-Architecture: amd64
-Version: 20260107.0-5
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: abseil
-Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2772
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
-Filename: ./libabsl20260107_20260107.0-5_amd64.deb
-Size: 549164
-MD5sum: 44090635cf936324cc7bfd53ad330fd9
-SHA1: 8e447f0b2e279c8a1ee7f5bffbeaf62dca8eaebe
-SHA256: 78ff51f81522f068c393f0427d2cadec727508f19654ef1f9928075ad142f181
-SHA512: 712799afb666c3d3aa84b69676eb40be357730f9f5d0e019d7246b67d239664d9c1b15611df8b0467a5cdb1659c6672fe896579a9d0946476d38a3780378d672
-Homepage: https://abseil.io/
-Description: extensions to the C++ standard library
- Abseil is an open-source collection of C++ library code designed to augment the
- C++ standard library. The Abseil library code is collected from Google's C++
- codebase and has been extensively tested and used in production. In some cases,
- Abseil provides pieces missing from the C++ standard; in others, Abseil
- provides alternatives to the standard for special needs.
- .
- This package contains Abseil's shared libraries.
-
 Package: libabsl20260526
 Architecture: amd64
 Version: 20260526.0-2
@@ -15696,22 +15707,22 @@ Description: Light-weight rendering library for Linux (binary files)
  .
  This package includes the binaries for the aquamarine library.
 
-Package: libarrow2300
+Package: libarrow2500
 Architecture: amd64
-Version: 23.0.1-11+b3
+Version: 25.0.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: apache-arrow (23.0.1-11)
+Source: apache-arrow
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 30112
-Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.4.1+ds), libre2-11-absl20260526, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
-Filename: ./libarrow2300_23.0.1-11+b3_amd64.deb
-Size: 6484008
-MD5sum: 56f8060cb2259efd7357d55be4adead1
-SHA1: 14c391568eb2c765c882b6608532d19fb2e5d086
-SHA256: d2ffd0fe554cffd8247df8643cafec53d19ff7193bbc2ca2d9fd40be92846604
-SHA512: 3a601acd0119170d54828d128a78ec618fdd824bfe3966741c375bcaa024c3ac73d5e0ca85a17fcee15b529829cba74b458c03f3a67860b6a134e24fa2872c63
+Installed-Size: 30934
+Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 7), liblz4-1 (>= 1.8.0), libmimalloc3 (>= 3.4.3+ds), libre2-11-absl20260526, libsnappy1v5 (>= 1.2.2), libstdc++6 (>= 14), libutf8proc3 (>= 2.9.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
+Filename: ./libarrow2500_25.0.0-2_amd64.deb
+Size: 6818796
+MD5sum: 6f94eba521cb2b8b8edc911039e0cadf
+SHA1: 30c1009cbb1e7c1ea69caa1948629a3c260f3adc
+SHA256: d5a6ce371cd96277c93e61a2d0fc32601a21ea67516ce23b7e9205b4d50b2585
+SHA512: c6bff2016d0dc4ff22c2fba467f890369991d30d78bebc529a1fce1da5f1d388f813fd12b5223dfbb337c33bdaac0d7f4f0b216ad51ec4ee4fe735873b92684e
 Homepage: https://arrow.apache.org/
 Description: Apache Arrow data processing library
  Apache Arrow defines a language-independent columnar memory format
@@ -18195,6 +18206,34 @@ Description: Maven metadata for Apache Commons project
  This package contains the Maven metadata shared between all components of
  the Apache Commons project.
 
+Package: libconfig++15
+Architecture: amd64
+Version: 1.8.2+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libconfig
+Maintainer: Mohammed Bilal <rmb@debian.org>
+Installed-Size: 148
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libconfig++15_1.8.2+ds-1_amd64.deb
+Size: 50848
+MD5sum: f5f7159776662f2f714acdec35fc944d
+SHA1: b093d65fc2370aaf85d733d846abef307baf95cd
+SHA256: 383fd99c576ce90ba075def6e89cfa032c2eba49a9ef5cd8f59f1b701c1bab3d
+SHA512: 039fcdc603e1294060aebcf88adf4b0dbadf4afbee6e26b4ced2ffa7feaf558b25ec80416461292264674326daee64cc66eae13b7b669ab4c4728fd73e26e544
+Homepage: https://hyperrealm.github.io/libconfig/
+Description: parsing/manipulation of structured configuration files (C++ binding)
+ This library features a fully reentrant parser and includes bindings for
+ both the C and C++ programming languages. It runs on modern POSIX-compliant
+ systems such as Linux, Solaris, and Mac OS X (Darwin), as well as on
+ Microsoft Windows 2000/XP and later (Visual Studio or MinGW).
+ .
+ This library allows parsing, manipulating and writing structured configuration
+ files.
+ .
+ This is the C++ binding.
+
 Package: libconfig11
 Architecture: amd64
 Version: 1.7.3-2.1+b1
@@ -18211,6 +18250,32 @@ MD5sum: 98ac4f280d66ad729d612d2b5ad131ad
 SHA1: e3ef92062ffac5ecfaeed4cbf9e60211849fc137
 SHA256: 27f243ce0c1c20cf0b42f923aca1523edd5d1286b8b8c0a735a1538ebb9dde20
 SHA512: 88a6a07bca0a36fd30b57f2aa3f4bd316ce01c6624292128a5115b8330b5c053dd44746303c4bafc641388fad83c22445f56a465599d76496c0f56debea8ef4e
+Homepage: https://hyperrealm.github.io/libconfig/
+Description: parsing/manipulation of structured configuration files
+ This library features a fully reentrant parser and includes bindings for
+ both the C and C++ programming languages. It runs on modern POSIX-compliant
+ systems such as Linux, Solaris, and Mac OS X (Darwin), as well as on
+ Microsoft Windows 2000/XP and later (Visual Studio or MinGW).
+ .
+ This library allows parsing, manipulating and writing structured configuration
+ files.
+
+Package: libconfig15
+Architecture: amd64
+Version: 1.8.2+ds-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libconfig
+Maintainer: Mohammed Bilal <rmb@debian.org>
+Installed-Size: 99
+Depends: libc6 (>= 2.38)
+Filename: ./libconfig15_1.8.2+ds-1_amd64.deb
+Size: 37888
+MD5sum: 0b65cb6f3233ad152213b2e29c949f5f
+SHA1: e1e0381c8f22e06605e3cc592a9e9f7e454a0c05
+SHA256: 87e37acca35590eacfc9a71f8db3ad5dc375fc5572a85b9e6e50e8eb0c06375f
+SHA512: 71dc2a52dbd8da729a516ef160a2ada8188f620f544e82a84b67a91c2ea66b037c9d031fae91fdb64f566fafaece1c376df717038df76e443f5664e04c44efed
 Homepage: https://hyperrealm.github.io/libconfig/
 Description: parsing/manipulation of structured configuration files
  This library features a fully reentrant parser and includes bindings for
@@ -18316,26 +18381,6 @@ Description: CUE Sheet Parser Library
  Libcue is intended to parse a so called cue sheet from a
  char string or a file pointer. For handling of the parsed
  data a convenient API is available.
-
-Package: libcurl3t64-gnutls
-Architecture: amd64
-Version: 8.22.0-1
-Multi-Arch: same
-Priority: optional
-Section: oldlibs
-Source: curl
-Maintainer: Debian Curl Maintainers <team+curl@tracker.debian.org>
-Installed-Size: 37
-Depends: libcurl4-gnutls (>= 8.22.0-1)
-Filename: ./libcurl3t64-gnutls_8.22.0-1_amd64.deb
-Size: 17812
-MD5sum: 2ccebf1db735d7cbccfdaf2aa3c7d9b9
-SHA1: 7dff548154ec594f48f5068734feeeeb8790c8a4
-SHA256: d73e82c8aaa1d930e02b67c17b45a3ee1ca00b418ea2b78e1ca7eb7f63cd8036
-SHA512: 3ba8734fd8d0d0526c0193e7db7e52018b672fa8658924f0bd541d066e989b0f03e464a2472382d7e231b40adb34b32e936d75e5f5311f31026541baae00c240
-Homepage: https://curl.se/
-Description: transitional package for libcurl4-gnutls
- This is a transitional package.  It can be safely removed.
 
 Package: libcurl4-gnutls
 Architecture: amd64
@@ -18907,6 +18952,32 @@ Description: Utility library for evolution data servers
  .
  Evolution is the integrated mail, calendar, task and address book
  distributed suite from Novell, Inc.
+
+Package: libebml5
+Architecture: amd64
+Version: 1.4.7-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libebml
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 171
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./libebml5_1.4.7-2_amd64.deb
+Size: 52060
+MD5sum: c6b4d1b5ef94a1e0c08816a5b3907c06
+SHA1: ca3ceeb42294ad86087038322777bb2a5f12d7ee
+SHA256: 9a192b894ff39d29e53ee10139f2b01333cab8cd25c94052ae59ebaa6fd356ec
+SHA512: dde0aed3e6c69ef00bea5f31b8193cae94f6d132f9d9e1cfc6ab7cf9de3324eff34cab5c0b8e6db37e6f4a5c648d795908fdaf680f1adc4bc43d32dc11a08a04
+Homepage: https://dl.matroska.org/downloads/libebml/
+Description: access library for the EBML format (shared library)
+ The libebml library allows one to read and write files using EBML (the
+ Extensible Binary Meta Language), a binary pendant to XML. Using libebml
+ makes it easier to extend a file format without breaking support in
+ older parsers.
+ .
+ This package contains the shared library needed to run applications that
+ use libebml.
 
 Package: libebook-1.2-21t64
 Architecture: amd64
@@ -25407,22 +25478,22 @@ Description: Modern, wayland-native C++ GUI toolkit -- binary files
  This package contains the shared library needed for running applications which
  use this library.
 
-Package: libhyprutils11
+Package: libhyprutils13
 Architecture: amd64
-Version: 0.12.0-2
+Version: 0.14.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprutils
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 401
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.3), libpixman-1-0 (>= 0.25.2), libstdc++6 (>= 15)
-Filename: ./libhyprutils11_0.12.0-2_amd64.deb
-Size: 143616
-MD5sum: dc9214519e2d4bdf9ba9cda22dad3979
-SHA1: 9b8f6d01b5d75ba4aa844d7e76ad975e8ed3b662
-SHA256: 01e46907e4737db1c544c4b245351e6df3d9a9ba613fb0068fa8f4c288a792c1
-SHA512: 044b68187c8d1c3f0717ab511d881e551c7f2bc21fc72b2b7e73680ad13bae41ac050dc5bef4810ce2bfe67976272d17a8ca3b81e6525e6a10db7d71750943fc
+Installed-Size: 642
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 13), libpixman-1-0 (>= 0.25.2), libstdc++6 (>= 16.2.0-2)
+Filename: ./libhyprutils13_0.14.2-1_amd64.deb
+Size: 213840
+MD5sum: b6d39bc721269709a05c593a065ec7a4
+SHA1: 4cef6069286f5cca169f66208dafe4fb757ada01
+SHA256: e97643f15377539b4ae77be3f9bc9da2c7e85192af96bff171e08a84f8990c64
+SHA512: 0b89b289bd98b150f48418f8a57174418ccc7ccd284ec3323f5938c3b5ec7f35f064c8cd12a0c225a017e392101f54b9de2b9c527ee7d7acf3874b590280f611
 Homepage: https://github.com/hyprwm/hyprutils
 Description: Utilities used across the Hyprland ecosystem (library)
  Hyprutils is a small C++ library for utilities used across the Hyprland
@@ -30256,6 +30327,37 @@ Homepage: https://invent.kde.org/libraries/kirigami-addons/
 Description: app library
  This package contains the kirigami-addons app library.
 
+Package: libkirigamicontrols6
+Architecture: amd64
+Version: 6.30.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kf6-kirigami
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 324
+Depends: libkirigami-data (= 6.30.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkirigamicontrols6_6.30.0-2_amd64.deb
+Size: 122064
+MD5sum: 812516e0ea50d3662387f9496b6bdde6
+SHA1: 234bfa7b1bd9c9ddff8569074723e67e9c5bf1df
+SHA256: 5ec9ee402b3bd569c6b5082d5a1cd21caadb2ec88e5c228a5f20ea4e87be367a
+SHA512: eca0e249b7f2d4b1a55a65f2744abb4c2ea9461bfe0d5b42cf9eb2fa3aed89586f57cedc98db65261a282d1d695ddbedf258a32cccdb09fb47bd88098a8a3adc
+Homepage: https://invent.kde.org/frameworks/kirigami
+Description: set of QtQuick components targeted for mobile use - controls
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the kirigami controls library.
+
 Package: libkirigamidelegates6
 Architecture: amd64
 Version: 6.30.0-2
@@ -30317,6 +30419,130 @@ Description: set of QtQuick components targeted for mobile use - dialogs
  Android and Windows.
  .
  This package contains the kirigami dialogs library.
+
+Package: libkirigamiforms6
+Architecture: amd64
+Version: 6.30.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kf6-kirigami
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 57
+Depends: libkirigami-data (= 6.30.0-2), libc6 (>= 2.14), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
+Filename: ./libkirigamiforms6_6.30.0-2_amd64.deb
+Size: 15552
+MD5sum: 26709ccb2d8a8090e3d4d0789d129aef
+SHA1: 4e2e35aca855ac9035d48e54e019a802b23fe206
+SHA256: 10f24c49544f8bac6599d3403f14e09000cca54cc05d36441a23df5a8fc9e708
+SHA512: ac5762e23e124a8d63f1844e70e7028ba8490d02c2dc284d29bc70d3595eb242b96ee1ff168087ccdd9203663025e13caf6631f64cf9cc0c2f64c4abbc62b43e
+Homepage: https://invent.kde.org/frameworks/kirigami
+Description: set of QtQuick components targeted for mobile use - forms
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the kirigami forms library.
+
+Package: libkirigamiformsprivatecards6
+Architecture: amd64
+Version: 6.30.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kf6-kirigami
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 48
+Depends: libkirigami-data (= 6.30.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamiformsprivatecards6_6.30.0-2_amd64.deb
+Size: 12784
+MD5sum: 45473b6e3a913d97f62a9091256d2647
+SHA1: d53f84bcd8e5602e1b6a3d42ced84f5e2a2d9b14
+SHA256: eb50fa6294af7085c7861c82cf8da79c8b85422359fc8c6df9533bd0736b3714
+SHA512: 0f38f09a318f13ddf32ee2b54400c7d9c3447f26c334930d54597438ac8a118917c2570235d105a15541a31eb59e8f3a7a6c27d3b0103f988294f4f66dbeb4a3
+Homepage: https://invent.kde.org/frameworks/kirigami
+Description: set of QtQuick components targeted for mobile use - forms private cards
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the kirigami forms private cards library.
+
+Package: libkirigamiformsprivateflat6
+Architecture: amd64
+Version: 6.30.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kf6-kirigami
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 48
+Depends: libkirigami-data (= 6.30.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamiformsprivateflat6_6.30.0-2_amd64.deb
+Size: 12200
+MD5sum: 0e0e9f80fa8872bab0c828398912c385
+SHA1: 1b81762a6914db77386902a3a8e9c2cf400b5147
+SHA256: 1d1a733198081104a7b143b5ed76ebc6eafbf877201283f2e8e05307009c38ef
+SHA512: 8e36175d76842ec718a1fc12d6462f789602c76cf78e3dcbb2aff0e14a09837c42c7983430044394de80ca0d73a21eada078839bd94b9003609c5fbef51c576e
+Homepage: https://invent.kde.org/frameworks/kirigami
+Description: set of QtQuick components targeted for mobile use - forms private flat
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the kirigami forms private flat library.
+
+Package: libkirigamiformsprivatetemplates6
+Architecture: amd64
+Version: 6.30.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kf6-kirigami
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 56
+Depends: libkirigami-data (= 6.30.0-2), libc6 (>= 2.2.5), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~)
+Filename: ./libkirigamiformsprivatetemplates6_6.30.0-2_amd64.deb
+Size: 12252
+MD5sum: 8d0229ca2a194e31b9a0c18e83dd4784
+SHA1: d23ea2cd64034dafa1d0a4a5b7749f2b33600de2
+SHA256: 303ed4dcf2fe9c0311e536fb0053f241cc111974b9f412d28da1cb5271f47bfd
+SHA512: 454399458798ef06e96e2e48da3b8d9ce48f69dd0698f74187801e51675e13ba6160ca3225d0a51f54ffca66cb82815c1be53df951e61e8fc758f7e4c065f056
+Homepage: https://invent.kde.org/frameworks/kirigami
+Description: set of QtQuick components targeted for mobile use - forms private templates
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the kirigami forms private templates library.
 
 Package: libkirigamilayouts6
 Architecture: amd64
@@ -33866,6 +34092,33 @@ Description: MateWeather shared library
  .
  This package contains the shared library.
 
+Package: libmatroska7
+Architecture: amd64
+Version: 1.7.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libmatroska
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 686
+Depends: libc6 (>= 2.14), libebml5 (>= 1.4.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./libmatroska7_1.7.2-1_amd64.deb
+Size: 110500
+MD5sum: c0fe5c1871d973203608452a79e4ff3f
+SHA1: a9d7cc3f2289590bfe6779effcb51bb5dc6d8eb7
+SHA256: 360687931c128939c0c6d378481216696b2337b1971e38daa503274523f2a8e6
+SHA512: ff5008aee39c191b63e569729c292006777546d4d9c510fc6dec3ed32569734aedc8524b959f6d127705b156a64240e400b35426d1bada8176e7fbb5b6354341
+Homepage: https://www.matroska.org/
+Description: extensible open standard audio/video container format (shared library)
+ Matroska is aiming to become the standard of Multimedia
+ Container Formats one day. It is based on EBML (Extensible Binary
+ Meta Language), a kind of binary version of XML. This way the
+ significant advantages in terms of future format extensibility
+ are gained without breaking file support in old parsers.
+ .
+ This package contains the shared library needed to run applications that
+ use libmatroska.
+
 Package: libmediaart-2.0-0
 Architecture: amd64
 Version: 1.9.7-3
@@ -34531,6 +34784,27 @@ Description: window manager library from the Mutter window manager
  .
  This package contains the window manager shared library, used by mutter
  itself, and gnome-shell.
+
+Package: libmwaw-0.3-3
+Architecture: amd64
+Version: 0.3.23-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libmwaw
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 8941
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), librevenge-0.0-0 (>= 0.0.6), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
+Filename: ./libmwaw-0.3-3_0.3.23-1_amd64.deb
+Size: 2850004
+MD5sum: b1067c12bbe926895e42301f2699134b
+SHA1: 2fa451ba6411a033a0d640179c907b9f8dd48b0a
+SHA256: fff0c2270571819454c2bd752de7fec83fa4b0bf82faa970985b2f19c942fa4d
+SHA512: e4d0f97853c297e66b67503bf67443b3b5fef64f44142ec61f1af854e60121a3e4efd128a16a8124d2cb9cae2c8517e522cb5792033c88a13162257d477bcac6
+Homepage: https://sourceforge.net/projects/libmwaw
+Description: import library for some old Mac text documents
+ libmwaw contains some import filters for old Mac text documents
+ (MacWrite, ClarisWorks, ... ) based on top of libwpd.
 
 Package: libmythes-1.2-0
 Architecture: amd64
@@ -36231,22 +36505,22 @@ Description: Library for Parlatype - runtime version
  .
  This package contains runtime libraries needed by Parlatype.
 
-Package: libparquet2300
+Package: libparquet2500
 Architecture: amd64
-Version: 23.0.1-11+b3
+Version: 25.0.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: apache-arrow (23.0.1-11)
+Source: apache-arrow
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 4760
-Depends: libarrow2300 (>= 23.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.23.0 (>= 0.23.0-1~)
-Filename: ./libparquet2300_23.0.1-11+b3_amd64.deb
-Size: 1426728
-MD5sum: 1146e17f88466b5f4ec190b5d40f885f
-SHA1: 3208d9cd837c7cb8b1373cb1bca07b0802926902
-SHA256: 648563fb5cc01d36859dd4ef6813d2740d2c2bad255bb1faeb0612f3b7d70213
-SHA512: 1ca53f9312f30683bbb5c364f4febb73e699cf730028dd4192e49e5abad4ace2c45328a25ec8a36a06a03746d17023c4efced640d525ac976d13d3456de1d53a
+Installed-Size: 5107
+Depends: libarrow2500 (>= 25.0.0), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libthrift-0.23.0 (>= 0.23.0-1~)
+Filename: ./libparquet2500_25.0.0-2_amd64.deb
+Size: 1526164
+MD5sum: 3c33df85ab2be687ad0706dd8f55d7d3
+SHA1: 032ffe99cb77074a2ce3da9cab67c1a3f746c670
+SHA256: 757db5bd30355b1a5481c997ca219110e50f93cc03f0175bc1e2d4ca55aca9c3
+SHA512: 8ac0177e49b3c21f6538d1b97d57ab490479db4c26e552c5a9cfb65a0f134d47749846a6209f404072de0b9dc2af8d380f3f71ea90f6d9e25d3433eca9717bd1
 Homepage: https://arrow.apache.org/
 Description: Apache Parquet is a columnar storage format
  Apache Arrow defines a language-independent columnar memory format
@@ -37098,24 +37372,24 @@ Description: polkit Authorization API
  .
  This package contains a library for accessing polkit.
 
-Package: libpoppler156
+Package: libpoppler162
 Architecture: amd64
-Version: 26.01.0-5
+Version: 26.07.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: poppler
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
-Installed-Size: 4989
+Installed-Size: 5313
 Depends: libc6 (>= 2.38), libcurl4-gnutls (>= 8.20.0-3~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgpgmepp7 (>= 2.1.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), zlib1g (>= 1:1.1.4)
 Recommends: poppler-data
 Suggests: gpgsm (>= 2.2.42)
-Filename: ./libpoppler156_26.01.0-5_amd64.deb
-Size: 2115876
-MD5sum: abb0cf5b25b8f822b2761929c7658f8f
-SHA1: 25582d3110b16f9233fb70ef5af392e1b312eabd
-SHA256: 003d82bcf7a89b27685a77838ffbe3c4084455d5ce4282c81b461b8e255b8600
-SHA512: 762077d4c5425dd3e145f8f51ccfa92c4880ff5c0eb646ceb8fae40cafb7a16461956d5ee2e7a31dada6167597c140d88e38d6e5a3f0a44295b11f3fb85573be
+Filename: ./libpoppler162_26.07.0-2_amd64.deb
+Size: 2266412
+MD5sum: c862c5bfb8438adf8bbc7ecb34c2ae48
+SHA1: 1e205384dc83008f4aee2fd9791b05239060be56
+SHA256: 8227e553ffa589ba0e9762a6a4f45f78c68a9ac034c5012dda991d0e655b77bd
+SHA512: 9990c85e912dd0f8e63f80e46437f1924e26b1f1b3db2f5237bdbdb5f271e608b7f60add3f9b8c9f938ff2ecef82484f16e23693c455e19274e51b2e464f74a8
 Homepage: https://poppler.freedesktop.org/
 Description: PDF rendering library
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
@@ -48480,32 +48754,6 @@ Description: Theora Video Compression Codec (shared library - libtheoraenc)
  .
  This package contains the shared library libtheoraenc.
 
-Package: libthrift-0.22.0
-Architecture: amd64
-Version: 0.22.0-4
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: thrift
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 1374
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5network5t64 (>= 5.6.0~beta), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Filename: ./libthrift-0.22.0_0.22.0-4_amd64.deb
-Size: 401192
-MD5sum: 9032abbc5d05fce3190ebd3f33eafde3
-SHA1: d5d3c84ceb2793e1657a940308f0bd926fb8c3f7
-SHA256: 65d84ff8620abbcd8185cbba81ec9ac7cef7c03a355f99582ce4a8be95991765
-SHA512: 0f5ecc68370f2d200d981d60ff30ac201aa7f559838a4941e66cec02e77a614bb35cb1b55fdcae5a0e6bfa9fbbf78f7d3712abd3fa6cef20cbac07f3c29c4386
-Homepage: https://thrift.apache.org/
-Description: Thrift C++ library
- Thrift is a software framework for the development of reliable and
- performant communication and data serialization.  It combines a software
- stack with code generation to build services that operate seamlessly
- across a number of different development languages.
- .
- This package contains the runtime libraries needed for C++ applications
- using Thrift.
-
 Package: libthrift-0.23.0
 Architecture: amd64
 Version: 0.23.0-3+b1
@@ -51819,6 +52067,32 @@ Description: GNOME XML library - utilities
  This package provides xmllint, a tool for validating and reformatting
  XML documents, and xmlcatalog, a tool to parse and manipulate XML or
  SGML catalog files.
+
+Package: libxmlb2
+Architecture: amd64
+Version: 0.3.29-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxmlb
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Installed-Size: 194
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.5.5)
+Filename: ./libxmlb2_0.3.29-1_amd64.deb
+Size: 63804
+MD5sum: 0cbbad991232ba4190c51053bf422efa
+SHA1: 6893e99c6c43d1534e4e349ded2b90089f717ae9
+SHA256: a793e15da09e86cd1f06f6669f8fdba28c6b0ff8e0ec4c1ad2f1e928e2915b5f
+SHA512: 1dd6878fd9f860af55602449490f0f71b7a7ac7b430c2aa08af85e40520104a10b78bd62cad850a98ef130ee336c6a3fe9a07a80b651285bde3d2bb945bbe5ed
+Homepage: https://github.com/hughsie/libxmlb
+Description: Binary XML library
+ The libxmlb library takes XML source, and
+ converts it to a structured binary representation with a deduplicated string
+ table -- where the strings have the NULs included.
+ .
+ This allows an application to mmap the binary XML file, do an XPath query and
+ return some strings without actually parsing the entire document. This is all
+ done using (almost) zero allocations and no actual copying of the binary data.
 
 Package: libxmlgraphics-commons-java
 Architecture: all
