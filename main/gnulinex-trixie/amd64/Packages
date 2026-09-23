@@ -3050,20 +3050,20 @@ Description: Document (PostScript, PDF) viewer
 
 Package: evolution-data-server-common
 Architecture: all
-Version: 3.56.2-8
+Version: 3.56.2-9
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9519
+Installed-Size: 9515
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: ./evolution-data-server-common_3.56.2-8_all.deb
-Size: 1444352
-MD5sum: 644aa50d78eea328b391e4fb5fc8d3df
-SHA1: 12b175b7f8dfe76b76c1c7561f6de430652b0d25
-SHA256: 24490c9ccbe606a25dc60017037e97af00cc06cf6ce468128a2c764e7dba24a9
-SHA512: ab8333f049b6e72c34515a2432d5785148d4f5efed1f40ba040eba7cf559660d5521f21051730e38d0b8cf7652456a84796b2d60d73664b83b65ea4590c5cc00
+Filename: ./evolution-data-server-common_3.56.2-9_all.deb
+Size: 1441520
+MD5sum: 9682b55b36fb0f570e8bf73e562ff597
+SHA1: 679c040bc843254c4e7a664f0c746e695cc723f2
+SHA256: 29b24118b9b080417d5c94c5fa4bc39734fe7105803301e2cab4aa402c4c9a8b
+SHA512: 5623bedeca0da4f8521ded430a5dd567d04a4dadb0744ce83c55819b3b22090bebd2a70d583e661157bd5a0e20b3e533c04eac69a840746ca2d34d5e573cf536
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: architecture independent files for Evolution Data Server
  The data server, called "Evolution Data Server" is responsible for managing
@@ -3074,20 +3074,19 @@ Description: architecture independent files for Evolution Data Server
 
 Package: evolution-data-server
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Priority: optional
 Section: gnome
-Source: evolution-data-server (3.56.2-8)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2513
-Depends: evolution-data-server-common (>= 3.56.2-8), gnome-keyring, libcamel-1.2-64t64 (= 3.56.2-8+b1), libc6 (>= 2.38), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdb5.3t64, libebackend-1.2-11t64 (>= 3.38.0), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.49.2), libecal-2.0-3 (>= 3.39.2), libedata-book-1.2-27t64 (>= 3.49.2), libedata-cal-2.0-2t64 (>= 3.48.1), libedataserver-1.2-27t64 (>= 3.56.2-8~), libedataserverui-1.2-4t64 (>= 3.45.3), libglib2.0-0t64 (>= 2.70.0), libgoa-1.0-0b (>= 3.11.90), libgtk-3-0t64 (>= 3.3.16), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libldap2 (>= 2.6.2), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Installed-Size: 2533
+Depends: evolution-data-server-common (>= 3.56.2-9), gnome-keyring, libcamel-1.2-64t64 (= 3.56.2-9), init-system-helpers (>= 1.66~), perl:any, libc6 (>= 2.38), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdb5.3t64, libebackend-1.2-11t64 (>= 3.38.0), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.49.2), libecal-2.0-3 (>= 3.39.2), libedata-book-1.2-27t64 (>= 3.49.2), libedata-cal-2.0-2t64 (>= 3.48.1), libedataserver-1.2-27t64 (>= 3.56.2-8~), libedataserverui-1.2-4t64 (>= 3.45.3), libglib2.0-0t64 (>= 2.70.0), libgoa-1.0-0b (>= 3.11.90), libgtk-3-0t64 (>= 3.3.16), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libldap2 (>= 2.6.2), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
 Suggests: evolution
-Filename: ./evolution-data-server_3.56.2-8+b1_amd64.deb
-Size: 687752
-MD5sum: e273e33e08a1cab15bb41317f11fbd94
-SHA1: 459f7c9fbbcd3749c9069a923c626950ad186b37
-SHA256: bd6f55012604210a9368ec31575a3aa1fa6d0dc41f1351e4c19eafba92d2ac75
-SHA512: f766fe72421794c25fe0b310b4a54a1a4275067093b0674f154296d5c10790d6b8d2384bccb25f0c9501e4fdc2d149ee68486f33da6aaee32cc4f288818aca52
+Filename: ./evolution-data-server_3.56.2-9_amd64.deb
+Size: 714928
+MD5sum: affce3761083bf795e23b24e1f62b542
+SHA1: 95cccb9be565ce62ad6134e129e22836ac4d46aa
+SHA256: 26e0a29a0e18319b1af957417876a8cddbb31542aaae588bf9f0d3a867a11719
+SHA512: 505b6b286d561ff9f05dd81ed091d0704f84b9a2b41bb6a51bc0f956d5efe870cd7f10c2ab1702cfe20b2ca2e460f2e5831d674d066abc3bd4dd1601f752ad47
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: evolution database backend server
  The data server, called "Evolution Data Server" is responsible for managing
@@ -7297,20 +7296,20 @@ Description: GObject introspection data for Caja
 
 Package: gir1.2-camel-1.2
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 264
+Installed-Size: 263
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-libxml2-2.0, libcamel-1.2-64t64 (>= 3.53.2)
-Filename: ./gir1.2-camel-1.2_3.56.2-8+b1_amd64.deb
-Size: 61208
-MD5sum: b5d6d8e3bac7cab46870eb6d7e9f04e2
-SHA1: 93b2a31fe37e4ec97183d0f1fa03e5031cceb09e
-SHA256: 44dbae4d255c86c73a16869a4ea9c01aacdcd64bcefc84b7cc371825f2377b21
-SHA512: 3c9963362f5e978fcf093c6ade0b23a39b18c1245c7070d2459937e2e45bc8b291f63a10c9587e31505e50a04d3b5f0f9db65285e081c4fe7fe3cfadf53990ee
+Filename: ./gir1.2-camel-1.2_3.56.2-9_amd64.deb
+Size: 61092
+MD5sum: 3de3d2e143008098468a3db8e3ca440a
+SHA1: 9978695eccd48f081914dcd770936094c49e578e
+SHA256: 6906ecd35ae3e7afe989356efe530e7cba4c4454d0e2e454000e1f8b2e0b4bfc
+SHA512: 451b19a77b4e46bcb3d7418f978f1e8c09b6254b5bc001d05d207343eb73256c864dbb1b71edfe9aae835ce314a069c297fbf45f3a508cc268abdf1f6c17ae3b
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GObject introspection for the Camel library
  Camel is a generic messaging library. It supports the standard
@@ -7448,20 +7447,20 @@ Description: Introspection data for Cinnamon pulseaudio abstraction
 
 Package: gir1.2-ecal-2.0
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 93
-Depends: gir1.2-camel-1.2 (= 3.56.2-8+b1), gir1.2-edataserver-1.2 (= 3.56.2-8+b1), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-icalglib-3.0, libecal-2.0-3 (>= 3.52.0)
-Filename: ./gir1.2-ecal-2.0_3.56.2-8+b1_amd64.deb
-Size: 23892
-MD5sum: 363065c6b196a0d9e9eb49516414feea
-SHA1: 7575699b6fc19149e3acf12e6110b462381a44ff
-SHA256: 74f1f6a7f5ff3d614034532a3ada1c75aec5be0569b3ef244221dc919c16adf9
-SHA512: c9c079004adf83a110705c499fc73798c7cbfeb4f506a47a12ac90dab944ecaf2a9af7b7dbf754d7e570bd820d1a7bf652212a44e85c506470fd40eaee8be75b
+Installed-Size: 92
+Depends: gir1.2-camel-1.2 (= 3.56.2-9), gir1.2-edataserver-1.2 (= 3.56.2-9), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-icalglib-3.0, libecal-2.0-3 (>= 3.52.0)
+Filename: ./gir1.2-ecal-2.0_3.56.2-9_amd64.deb
+Size: 23836
+MD5sum: 634d484f9ab4334ec91cecad3fb6b867
+SHA1: 60661fc3438726bf8defb585b3c7d85f4ae343ea
+SHA256: 8ab444bf252181972e1a8fb41b8ef4aa44bdd685731143086f5935a002ce3bcb
+SHA512: c4a98efeca2feca6a0ae8298db3aa0a3818b464c9f0c2ef04034c4a55e2ab369c8a632b09568d288f784b5b8e7f9e7233445fb12fdee0908644ae3ccd8b58c5d
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GObject introspection for the ECal library
  The data server, called "Evolution Data Server" is responsible for managing
@@ -7473,20 +7472,20 @@ Description: GObject introspection for the ECal library
 
 Package: gir1.2-edataserver-1.2
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 179
-Depends: gir1.2-camel-1.2 (= 3.56.2-8+b1), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-json-1.0, gir1.2-libxml2-2.0, gir1.2-soup-3.0, libedataserver-1.2-27t64 (>= 3.56.2-8~)
-Filename: ./gir1.2-edataserver-1.2_3.56.2-8+b1_amd64.deb
-Size: 42048
-MD5sum: 4ffe734f7244b2584f74db182775662d
-SHA1: 3b62d79372a854be61c5aaeabbefdfd44f532944
-SHA256: 90b45959d53db027c4a39b1d98bc1cd2f41f8ba6e81a6c856003d656ae7ca11d
-SHA512: 7b7f9c24767444dc486a1ee848250b1f57228c45503f115728e9fdeb44f9caa173515580b8826502f84c25bec2465d15f5fbc2102aeb95a475c7d965bb011ca2
+Installed-Size: 178
+Depends: gir1.2-camel-1.2 (= 3.56.2-9), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-json-1.0, gir1.2-libxml2-2.0, gir1.2-soup-3.0, libedataserver-1.2-27t64 (>= 3.56.2-8~)
+Filename: ./gir1.2-edataserver-1.2_3.56.2-9_amd64.deb
+Size: 41884
+MD5sum: 0817f63c61ce3fe7eaa9f8563225f0ab
+SHA1: bb023f232e34a42db5eafb4a0c11be5e868e3afa
+SHA256: 0f3f3946ff8ad1b9387b43949fbfe953c2195b4f63663d2ddf93125455dd3cfb
+SHA512: 4f31a924c3e71aeea539d3daf139e1f0dd6bdd9c1eb6fcdf61ea58037b60867fc5d04341bf606829c3a7a727d4eda67df85bb11e244d8b6c9ef775ec264b765a
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GObject introspection for the EDataServer library
  The data server, called "Evolution Data Server" is responsible for managing
@@ -17554,23 +17553,23 @@ Description: KDE PIM Calendar support - data files
 
 Package: libcamel-1.2-64t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1535
-Provides: libcamel-1.2-64 (= 3.56.2-8+b1)
+Installed-Size: 1574
+Provides: libcamel-1.2-64 (= 3.56.2-9)
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68.0), libgssapi-krb5-2 (>= 1.17), libicu78 (>= 78.1-1~), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
-Breaks: libcamel-1.2-64 (<< 3.56.2-8)
+Breaks: libcamel-1.2-64 (<< 3.56.2-9)
 Replaces: libcamel-1.2-64
-Filename: ./libcamel-1.2-64t64_3.56.2-8+b1_amd64.deb
-Size: 467368
-MD5sum: babb34ef9fd7d1a4d7b2466e0a8670b5
-SHA1: 21c9073bbacb49b701181e76258f8ebb9775ea6c
-SHA256: 0f428cc64796f1bb8b0a02787b22dabd5732816164d64fc8e39b0c286b398418
-SHA512: c49e33578299da0ddbc58ca8e2d239012aee96621609991da33e6d426011ce5d30448ac4bea66cffee4ad88588a494bb4cb48930cdee8578dfce706fb1ab573e
+Filename: ./libcamel-1.2-64t64_3.56.2-9_amd64.deb
+Size: 490504
+MD5sum: e97997e5ca7332ba6c85fbe82e951d3b
+SHA1: 00b7b12bebe075b1035ca45479561522d69689f1
+SHA256: 5f62f07c1e3216136110ed851e39dfb5fa7f392f5870ee5a673fa90bfedadfc6
+SHA512: 64eb0cc45cf49b7be55da6002a1c3327316c9d3b9a9712bbf64c424bd6b513cdd2bdf7407bfd07a14bbf31bf95840fffb62f33421d9d69b69c612878bd371fc3
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Evolution MIME message handling library
  Camel is a generic messaging library. It supports the standard
@@ -19005,23 +19004,23 @@ Description: library for reading and converting various  e-book formats
 
 Package: libebackend-1.2-11t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 379
-Provides: libebackend-1.2-11 (= 3.56.2-8+b1)
+Installed-Size: 394
+Provides: libebackend-1.2-11 (= 3.56.2-9)
 Depends: libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.19.92), libdb5.3t64, libedataserver-1.2-27t64 (>= 3.45.2), libglib2.0-0t64 (>= 2.68.0), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.6.0)
-Breaks: libebackend-1.2-11 (<< 3.56.2-8)
+Breaks: libebackend-1.2-11 (<< 3.56.2-9)
 Replaces: libebackend-1.2-11
-Filename: ./libebackend-1.2-11t64_3.56.2-8+b1_amd64.deb
-Size: 113132
-MD5sum: 9a7743321f47048403114d3bc3e57be6
-SHA1: 0a017ef02902231c827480466e09d5a9098769f5
-SHA256: 673cbc6d1729c16a48e5fb13907f0b5b2e41907b4f745d5b3af0d95d7a65d6b7
-SHA512: f87222ac4c664a4c9d317be4fb43817f266d50d109ac397f902ded6082a930a4d5b60269f3a38fde6883f06a8b48b747ef138e2e2ed7816497225ba4b128061c
+Filename: ./libebackend-1.2-11t64_3.56.2-9_amd64.deb
+Size: 120332
+MD5sum: 8916a356fc6aaf136809a117875afc17
+SHA1: 9392f715c6d96cb5fe53fc6b4fa20aa98d7946bc
+SHA256: c6e6486c5e22dc386dd88c7f8ba0259dd09a08d5afeefe591bb5bccfbb5eb560
+SHA512: 1e8b778b167cad6f940a4bc88d4d6171cf4fe78ea4f06c58c46d1b74b69a9ecbb6a6ec1bbe775dfaa275b36a8ca456758894cf715cbe27ad91e79a44aaba6bb5
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Utility library for evolution data servers
  This package is a utility library for evolution-data-servers providing
@@ -19058,23 +19057,23 @@ Description: access library for the EBML format (shared library)
 
 Package: libebook-1.2-21t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 360
-Provides: libebook-1.2-21 (= 3.56.2-8+b1)
+Installed-Size: 371
+Provides: libebook-1.2-21 (= 3.56.2-9)
 Depends: libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.42.1), libebook-contacts-1.2-4t64 (>= 3.49.2), libedata-book-1.2-27t64 (>= 3.43.2), libedataserver-1.2-27t64 (>= 3.17), libglib2.0-0t64 (>= 2.68.0), libnss3 (>= 2:3.13.4-2~), libxml2-16 (>= 2.14.1)
-Breaks: libebook-1.2-21 (<< 3.56.2-8)
+Breaks: libebook-1.2-21 (<< 3.56.2-9)
 Replaces: libebook-1.2-21
-Filename: ./libebook-1.2-21t64_3.56.2-8+b1_amd64.deb
-Size: 89628
-MD5sum: 11937a96d1fb1c5d3ff1f84704f1a22f
-SHA1: 5a40e55223f261bd7bc6345dd4840acf732b4dcc
-SHA256: 6a590d6d522c20590e1b16d3e90903577ce94a1574c9644024ff021063605bf9
-SHA512: 07812eece5bce1a4892d1c48708f8d23b562ca2ad7d6a23a854da8f280f98b59311f3fb4137ad856011696c16272cad5b65ba6f724e0ce394de9d08afd9188f5
+Filename: ./libebook-1.2-21t64_3.56.2-9_amd64.deb
+Size: 94776
+MD5sum: e8ceaeb3d71080c95c43f7dc3ae1eb85
+SHA1: 7fd96c3be6c46d994a6f07b90b5d65bc64ebf83a
+SHA256: 609efa461441952ee6e78bfa877be5b7ff00bcfebdb492acf45400c665b99dd4
+SHA512: 49239ee19f58f02c1a3498d7fc41fde779ff5dcda48d23568fd6a8144e491911396502eddb8ef801dc369269e7560e5cd5fbc9fbb6fc431d23523f19e1030080
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Client library for evolution address books
  This package is a client library for evolution addressbooks.
@@ -19084,23 +19083,23 @@ Description: Client library for evolution address books
 
 Package: libebook-contacts-1.2-4t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 218
-Provides: libebook-contacts-1.2-4 (= 3.56.2-8+b1)
+Installed-Size: 221
+Provides: libebook-contacts-1.2-4 (= 3.56.2-9)
 Depends: libc6 (>= 2.14), libcamel-1.2-64t64 (>= 3.19.92), libedataserver-1.2-27t64 (>= 3.31.90), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.58.0), libphonenumber8t64-protobuf32, libstdc++6 (>= 13.1)
-Breaks: libebook-contacts-1.2-4 (<< 3.56.2-8)
+Breaks: libebook-contacts-1.2-4 (<< 3.56.2-9)
 Replaces: libebook-contacts-1.2-4
-Filename: ./libebook-contacts-1.2-4t64_3.56.2-8+b1_amd64.deb
-Size: 66800
-MD5sum: d699bd9bbe181fcc60c59be446a03c22
-SHA1: c1018c8b8ecd718e5bf050f27268b231a9ae47b6
-SHA256: 0548ab1eff8b7c4415492e700184ecfaa498f855cdd376c913ee55780aae4dc0
-SHA512: 3a57f50d444d115c30d632881deb6354ffd9ebbb2681db9af657f99d6f84ecf12ece5e319acce57f12f61d36496864940628e569e8b949c84df77469625cea59
+Filename: ./libebook-contacts-1.2-4t64_3.56.2-9_amd64.deb
+Size: 69872
+MD5sum: cef557041f8dc56dd5f6bcf283d2ef99
+SHA1: 736acad5566628acfe1d4918fc47f7c1b03a49b7
+SHA256: b3e250c9d0139d5ac7183abfb6307a947d3b53b615924df2627427d610ac8b4f
+SHA512: d6eb0bbace7d9865b85f5849252d72f544a522b701b3947ae37ce704a55710a63d3d2d6e5885e7cac3a6ce91bde7fbf0b43c99d1b7f44a18aebac74264a8fb1b
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Client library for evolution contacts books
  This package is a client library for evolution addressbooks.
@@ -19110,20 +19109,20 @@ Description: Client library for evolution contacts books
 
 Package: libecal-2.0-3
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 611
+Installed-Size: 630
 Depends: libc6 (>= 2.33), libcamel-1.2-64t64 (>= 3.24.1), libedataserver-1.2-27t64 (>= 3.51.2), libglib2.0-0t64 (>= 2.62.0), libical3t64 (>= 3.0.15)
-Filename: ./libecal-2.0-3_3.56.2-8+b1_amd64.deb
-Size: 166796
-MD5sum: 3da2425812f80b53ff801058f9cc0559
-SHA1: 22d7f70c2055fdc526c805cd7ea3fe2ae39f2231
-SHA256: 1b8a0894d0216664063f9aced2e8f4a5f9b97153a4a3ce571809d92c395bb47f
-SHA512: b5874cb30ad5228c08cb0fe466a7030236558116ff5571d2020d7305ad5abfb7d7a0e4bc9174a3b4861202e8fd4fff177c1fa60f376fd4fa7715d5e2a399e6be
+Filename: ./libecal-2.0-3_3.56.2-9_amd64.deb
+Size: 176432
+MD5sum: 1e11d18612ba6e03f267aab03ae33d19
+SHA1: 1382fcde4d7b69985155c050a6bbbd6d8b1fcf71
+SHA256: 2a1fd84fc1d8418de71d47407169ef38da2768499605e45c6f641841f949d03e
+SHA512: 7d47c3cb3c2bd8e3782d53973b544953e0c4183a5e932696232cf170913cd1ce65b17486d54b55666b8412883b3eb8aec25c072e511c1ee1b00806ff335ac620
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Client library for evolution calendars
  Evolution is the integrated mail, calendar, task and address book
@@ -19530,23 +19529,23 @@ Description: EFL vector graphics capabilities
 
 Package: libedata-book-1.2-27t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 904
-Provides: libedata-book-1.2-27 (= 3.56.2-8+b1)
+Installed-Size: 947
+Provides: libedata-book-1.2-27 (= 3.56.2-9)
 Depends: libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.24.1), libebackend-1.2-11t64 (>= 3.49.2), libebook-contacts-1.2-4t64 (>= 3.49.2), libedataserver-1.2-27t64 (>= 3.56.2-8~), libglib2.0-0t64 (>= 2.70.0), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9)
-Breaks: libedata-book-1.2-27 (<< 3.56.2-8)
+Breaks: libedata-book-1.2-27 (<< 3.56.2-9)
 Replaces: libedata-book-1.2-27
-Filename: ./libedata-book-1.2-27t64_3.56.2-8+b1_amd64.deb
-Size: 251604
-MD5sum: 2c6c3c79d821d2b0bc039642eefa82c1
-SHA1: d42c70e6e63a0fb965d9630cbf3cc803e140e497
-SHA256: 16deeb64b27dcf320d931ee90c26dcfc16d32bfc6acc3410236e0852cde51211
-SHA512: 1afb9be571223f94ce5f03ed45f3281a031fee9cf22854167909a00fdc82bb1e7b4c368f4bb0d3cfbcc0f15c7c2c45bdbfe06e3e1946d24c52681ce24c8c4610
+Filename: ./libedata-book-1.2-27t64_3.56.2-9_amd64.deb
+Size: 269860
+MD5sum: ca5f1d59c9ee87f4760e1cfe566c5824
+SHA1: 249035741962261c704d230315bb89bda60540a4
+SHA256: 5051da67f950a63a36e92fa6f5193abc5d40fcdd15074e428d9276f122877ab0
+SHA512: 53effa59c563c8b1bdf10c287b5601b464100ec5e8a4954e0830dc7f156375d15edae2fb08f2e71e217f105053dcca7554ec52361a8fc67c2b2167c67633c941
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Backend library for evolution address books
  Evolution is the integrated mail, calendar, task and address book
@@ -19556,23 +19555,23 @@ Description: Backend library for evolution address books
 
 Package: libedata-cal-2.0-2t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 493
-Provides: libedata-cal-2.0-2 (= 3.56.2-8+b1)
+Installed-Size: 512
+Provides: libedata-cal-2.0-2 (= 3.56.2-9)
 Depends: libc6 (>= 2.14), libcamel-1.2-64t64 (>= 3.24.1), libebackend-1.2-11t64 (>= 3.49.2), libecal-2.0-3 (>= 3.47.3), libedataserver-1.2-27t64 (>= 3.56.2-8~), libglib2.0-0t64 (>= 2.70.0), libical3t64 (>= 3.0.0), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9)
-Breaks: libedata-cal-2.0-2 (<< 3.56.2-8)
+Breaks: libedata-cal-2.0-2 (<< 3.56.2-9)
 Replaces: libedata-cal-2.0-2
-Filename: ./libedata-cal-2.0-2t64_3.56.2-8+b1_amd64.deb
-Size: 134108
-MD5sum: 21bcff22bd5c98e53d72e846738c5f5d
-SHA1: cf8359d391fe19fe44550b0ff6a0a48c7102c014
-SHA256: 002f94a34e3c72e13606346ea7593fb2135c5fca2716d6e3d80e7cf34ecc3cfe
-SHA512: 7c7167972083cf6f521b036ee30621d8a886dd1de1add7db3b07089b2ea36696160ba7a72385d0b15d201ef0b06b65b89c56bf0f8129f065eebf62313458de3e
+Filename: ./libedata-cal-2.0-2t64_3.56.2-9_amd64.deb
+Size: 143272
+MD5sum: cf28f9f395c1c3dc14d6caed93df5a24
+SHA1: 5d62cd8cf8dd42f39d9fd154adde7c9a3573f760
+SHA256: ee168566f722a3ce66bcd6b489a778931fa5b9834c4504a262e55bfd3546bbaa
+SHA512: 177fc6f8fbbb96d3b8da1397c4538fd25536e66aef27708a58854833ff90b338e9e5aefa8b800e695fc6872eacfc78fb6cca2e3f529efd3e814386f393e5c1f1
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Backend library for evolution calendars
  Evolution is the integrated mail, calendar, task and address book
@@ -19582,23 +19581,23 @@ Description: Backend library for evolution calendars
 
 Package: libedataserver-1.2-27t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1017
-Provides: libedataserver-1.2-27 (= 3.56.2-8+b1)
-Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.53.2), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.68.0), libicu78 (>= 78.1-1~), libjson-glib-1.0-0 (>= 1.5.2), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.3.1), libstdc++6 (>= 5.2), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1)
-Breaks: libedataserver-1.2-27 (<< 3.56.2-8)
+Installed-Size: 1060
+Provides: libedataserver-1.2-27 (= 3.56.2-9)
+Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.53.2), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.68.0), libicu78 (>= 78.1-1~), libjson-glib-1.0-0 (>= 1.5.2), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.3.1), libstdc++6 (>= 13), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1)
+Breaks: libedataserver-1.2-27 (<< 3.56.2-9)
 Replaces: libedataserver-1.2-27
-Filename: ./libedataserver-1.2-27t64_3.56.2-8+b1_amd64.deb
-Size: 272596
-MD5sum: 5bcf7c7dc3ad79df756a2cd7c055ed8a
-SHA1: 8eecdc3a8cf4490b3a2a5a5cc436a3f9c1556c0a
-SHA256: 03011f6899ab82582836a5531b9c4f3a98165efe1dc22d1cd7cf756f9efee8ba
-SHA512: a6080386f97eafdeaea83847ebb7c67f2851ba732480779e6bd71595b248a7c16a66b764add67ded53a0b22e88bdec6630e66e2f41b3dded320c231c20fa083f
+Filename: ./libedataserver-1.2-27t64_3.56.2-9_amd64.deb
+Size: 288604
+MD5sum: 2105019a70eac848edd63ec4d26ab66d
+SHA1: 6054e90c129f1ef535edc1112325ac7a771856de
+SHA256: bfec7e908a812a33735de243ba49c026aca9d32358ae919d3e78018661926f8b
+SHA512: 8454c62f4bbfe28bdea7c4704f492fa78aa210e0b3abf21ff1a0755123b1b84ab52b722e9fcc8cfdbe28e0ed9632faf5c1b55a9428b5d9bbd876ac200027acc5
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -19608,23 +19607,23 @@ Description: Utility library for evolution data servers
 
 Package: libedataserverui-1.2-4t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 255
-Provides: libedataserverui-1.2-4 (= 3.56.2-8+b1)
+Installed-Size: 262
+Provides: libedataserverui-1.2-4 (= 3.56.2-9)
 Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcamel-1.2-64t64 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-27t64 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.19.12), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkit2gtk-4.1-0 (>= 2.31.1)
-Breaks: libedataserverui-1.2-4 (<< 3.56.2-8)
+Breaks: libedataserverui-1.2-4 (<< 3.56.2-9)
 Replaces: libedataserverui-1.2-4
-Filename: ./libedataserverui-1.2-4t64_3.56.2-8+b1_amd64.deb
-Size: 78732
-MD5sum: b18916ac9732473f7b7ed153e32bc447
-SHA1: ac85424deb92182204cca76edd07f86da3455204
-SHA256: 6fcb68aab75ec4f436cf196bb3d64041948a3791b11df203148c498bc4c3d2e5
-SHA512: 277dd1bacd4a3da49d82f64e23030f0f5c0fe468f2aa5ac6edeff540c2d82657ca2896035831c9d660c9ea2720ab52fc1f8d7eb985107cc351bf0da653d78e7a
+Filename: ./libedataserverui-1.2-4t64_3.56.2-9_amd64.deb
+Size: 82788
+MD5sum: 3ab86d7c0bef5e401a16ce51f5afde4b
+SHA1: 087cc2c562179601d80df1f8dc957461354c8470
+SHA256: 2a04fbf4e670d2968ba983ee6e84f85384653e4ae6d70ceca55e7199faae3e14
+SHA512: 33dc3e1769e9542db70daa4e16018f504787ade7df5eca1583d2f3908d63e3a7c95f17d085a21b6520d12367a6618f33f1728d0d51a45b0748faf7d01ad9f519
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -19634,23 +19633,23 @@ Description: Utility library for evolution data servers
 
 Package: libedataserverui4-1.0-0t64
 Architecture: amd64
-Version: 3.56.2-8+b1
+Version: 3.56.2-9
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: evolution-data-server (3.56.2-8)
+Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 255
-Provides: libedataserverui4-1.0-0 (= 3.56.2-8+b1)
+Installed-Size: 262
+Provides: libedataserverui4-1.0-0 (= 3.56.2-9)
 Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-27t64 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-4-1 (>= 4.0.0), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkitgtk-6.0-4 (>= 2.39.7)
-Breaks: libedataserverui4-1.0-0 (<< 3.56.2-8)
+Breaks: libedataserverui4-1.0-0 (<< 3.56.2-9)
 Replaces: libedataserverui4-1.0-0
-Filename: ./libedataserverui4-1.0-0t64_3.56.2-8+b1_amd64.deb
-Size: 78968
-MD5sum: 0d76ca017de31426af9bc05770e0c245
-SHA1: 0e8f98a438d888d204256f5ffdbd1e85ad0d9f9b
-SHA256: 74d84aa21cefca9dfa13e87d0d0728445eaeebbbaf9fafaf65120419121335f3
-SHA512: e5c342605e49e412727f7bb74afe5ab170880146f39552a56411ed744166cf517673f683848b37e9c1d3102e6ffa15f761cc0da7cbdb5afe44de37a2b7afc59a
+Filename: ./libedataserverui4-1.0-0t64_3.56.2-9_amd64.deb
+Size: 83172
+MD5sum: 5314b23c0ac6dfc00b62d674bbffb5e5
+SHA1: fb47ab34cdd37915341fe658c6ee5e6df90bdbc1
+SHA256: 1dd5dc328e19829a9356f7d10c347955f1fec8e775eaa0ea18c3c9f4e743ffbb
+SHA512: 1d0d39c645ec19154ae7031de1a0c69b6aa5820dd2f2c13774a58e5702e339c28e46bebf3ccdf7c7f860b5eb9522703114d1d7edf5328d238779e5bb0e005447
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GTK4 utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -60698,20 +60697,20 @@ Description: YAML parser and emitter for Python3
 
 Package: python3-zipp
 Architecture: all
-Version: 3.23.0-1
+Version: 3.23.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-zipp
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 46
+Installed-Size: 44
 Depends: python3:any
-Filename: ./python3-zipp_3.23.0-1_all.deb
-Size: 10952
-MD5sum: 10e7a2fcd7fd80ca4cc91c5a564b50e6
-SHA1: 19f1f3fbb47eb95674741a53acb16dd5c010ce3c
-SHA256: 220b7a0d1c10031f46e100d41ccc90f57fc3f10f8d08590d39bf94abc35e355c
-SHA512: d919de34588f0e4720622c85f59d4bf28ae2833acd6f2ea0657a66a892363af29dd989b7124c9ea299a432e34b81c4de02f17247fdfdd09e6f24854e0bc90c0c
+Filename: ./python3-zipp_3.23.0-2_all.deb
+Size: 10228
+MD5sum: 8ac7e046cd1cf97566047e2cf76ba73e
+SHA1: 9d2cf9dff5b2a9ef5a62191ecf1b04711b41ec3a
+SHA256: 0b2c7514519b193a63ab6510ada438354dfc659fe82a462f39a853cc3f7b33d5
+SHA512: 0265c78a1a6c66773b13934dc5e3a3dde5a02971b63a1afc53faff1563f508463e158ef7b462762e0aef5290bf572182503a7b94eb6e2880751067926fe1a015
 Homepage: https://github.com/jaraco/zipp
 Description: pathlib-compatible Zipfile object wrapper - Python 3.x
  A backport of the Path object to older versions of Python.
