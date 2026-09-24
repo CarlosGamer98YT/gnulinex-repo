@@ -1642,21 +1642,22 @@ Description: web browser
 
 Package: cinnamon-common
 Architecture: all
-Version: 6.6.9-2
+Version: 6.6.9-3
 Priority: optional
 Section: x11
 Source: cinnamon
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 9212
 Depends: gettext, gir1.2-cinnamondesktop-3.0 (>= 6.6), gir1.2-meta-muffin-0.0 (>= 6.6~), libglib2.0-bin, procps, python3-xapp, xdg-utils, dconf-gsettings-backend | gsettings-backend, python3:any
+Recommends: xwayland
 Breaks: cinnamon (<< 6.0.4-2~)
 Replaces: cinnamon (<< 6.0.4-2~)
-Filename: ./cinnamon-common_6.6.9-2_all.deb
-Size: 1535376
-MD5sum: dcc10f4aed5c3074e980a817c914352b
-SHA1: 2928899711677f23829b0a33624b6466ee27375a
-SHA256: 2f22904bad278ac7f39835966bb6a606d5e5ddfacc1e48bd6db289a0589621aa
-SHA512: daa388e3e044ba8e1d53546920122e81d6a5d7173c568802f4c532b6d533a0e7f3cd38a4f7e472e31c6734b52b6ccd6e9c73833db19a6d923b64d9bc288d7ec6
+Filename: ./cinnamon-common_6.6.9-3_all.deb
+Size: 1535500
+MD5sum: f1ea90a5e362e07606f36ecb9da62e4a
+SHA1: d3f72d3ad01581557b71f0476640ba09fb779640
+SHA256: 2ce040516f3b4d098356e29f947299f15954c0805b415960139cec09eba164bb
+SHA512: 4a031550973d2e2f2ed3e1507c57924a3bf4e06796af6fc17e2b648e1494c37d15ab6cba8d25a370f2607d8cdd2da0ccfd3069d977b2027b33779c7ffbf5e3bd
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop (Common data files)
  Cinnamon is a desktop environment which provides advanced innovative
@@ -1916,23 +1917,23 @@ Description: daemon handling the Cinnamon session settings
 
 Package: cinnamon
 Architecture: amd64
-Version: 6.6.9-2
+Version: 6.6.9-3
 Priority: optional
 Section: x11
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 1548
 Provides: notification-daemon, polkit-1-auth-agent, x-window-manager
-Depends: accountsservice, cinnamon-common (= 6.6.9-2), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, tecla, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
-Recommends: blueman, cinnamon-core, cups-client, gnome-online-accounts-gtk, gnome-terminal, ibus, inxi, libcanberra-pulse, libxapp-gtk3-module, metacity-common, python3-babel, touchegg, xapp-sn-watcher, xdg-desktop-portal-gtk, xdg-desktop-portal-xapp
+Depends: accountsservice, cinnamon-common (= 6.6.9-3), cinnamon-control-center (>= 6.6), cinnamon-desktop-data (>= 6.6), cinnamon-l10n (>= 6.6), cinnamon-screensaver (>= 6.6), cinnamon-session (>= 6.6), cinnamon-settings-daemon (>= 6.6), cjs (>= 140~), dbus-bin, default-dbus-session-bus | dbus-session-bus, gir1.2-accountsservice-1.0, gir1.2-cmenu-3.0 (>= 5.4), gir1.2-cvc-1.0 (>= 6.6), gir1.2-ecal-2.0, gir1.2-edataserver-1.2, gir1.2-gcr-3, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-graphene-1.0, gir1.2-gsound-1.0, gir1.2-gtk-3.0, gir1.2-ibus-1.0, gir1.2-ical-3.0, gir1.2-keybinder-3.0, gir1.2-nemo-3.0 (>= 6.6), gir1.2-nm-1.0, gir1.2-nma-1.0, gir1.2-notify-0.7, gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-soup-3.0, gir1.2-timezonemap-1.0, gir1.2-upowerglib-1.0, gir1.2-xapp-1.0 (>= 2.6.0), gnome-backgrounds, gsettings-desktop-schemas (>= 0.1.7), iso-flags-png-320x240, libcinnamon-menu-3-0 (>= 5.4), libcjs0 (>= 140~), libglib2.0-bin, libjxl-gdk-pixbuf, mate-icon-theme, mesa-utils, muffin (>= 6.6~), nemo (>= 6.6), nm-connection-editor, pkexec, psmisc, python3, python3-gi, python3-gi-cairo, python3-pampy, python3-pexpect, python3-pil, python3-pytz, python3-requests, python3-setproctitle, python3-tinycss2, tecla, xapp-symbolic-icons, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcinnamon-desktop4t64 (>= 6.6~), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-2.0-0 (>= 2.86.0-7~), libgles2, libglib2.0-0t64 (>= 2.83.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0t64 (>= 3.9.12), libmuffin0t64 (>= 6.6~), libnm0 (>= 1.6), libpango-1.0-0 (>= 1.37.5), libpolkit-agent-1-0 (>= 0.100), libpolkit-gobject-1-0 (>= 0.94), libsecret-1-0 (>= 0.7), libx11-6, libxapp1 (>= 2.6.0), libxfixes3, libxml2-16 (>= 2.14.1)
+Recommends: blueman, cinnamon-core, cups-client, gnome-online-accounts-gtk, gnome-terminal, ibus, inxi, libcanberra-pulse, libxapp-gtk3-module, metacity, metacity-common, python3-babel, tint2, touchegg, xapp-sn-watcher, xdg-desktop-portal-gtk, xdg-desktop-portal-xapp
 Suggests: cinnamon-desktop-environment, cinnamon-doc, python3-opencv
 Breaks: cinnamon-common (<< 6.0.4-2~), cinnamon-core (<< 5.4~)
 Replaces: cinnamon-common (<< 6.0.4-2~)
-Filename: ./cinnamon_6.6.9-2_amd64.deb
-Size: 432048
-MD5sum: a65baf1f78c4b7a5ce77b053c9fd42c1
-SHA1: a5816e26e1ad0bfbdfa6270541ee56b9c0c8b548
-SHA256: 20a6297e2745db3dd31633c865dabe662ba59a5c42dd13bb433784c8ddf992e2
-SHA512: e5e0820a45d3ef15d1242efb1629673679e0f34427752853bcdfd7b9e2b10c9668a6211e3566f89e877702108c8526c8330264084e729ac1abb04d7a6c054e42
+Filename: ./cinnamon_6.6.9-3_amd64.deb
+Size: 432528
+MD5sum: 90230b0783637deeabb301b741395b48
+SHA1: 635ce7dfb29bad1dee982189b26eb861ba9ea313
+SHA256: ff88b32865dffa92a36419fecd5aae67d7a560cc7b66788d99ebc09bf3192976
+SHA512: 41ff4004a0f4ed64138c783c15634c48c8c2a0548b20ae656db357369043d60688ccac33995bb68c4a7700d6ed2e15e0afe76dee525d56cc868eeaa6c2150ba3
 Homepage: https://github.com/linuxmint/cinnamon
 Description: Innovative and comfortable desktop
  Cinnamon is a desktop environment which provides advanced innovative
@@ -8219,21 +8220,21 @@ Description: small library for playing system sounds (gir bindings)
 
 Package: gir1.2-gst-plugins-bad-1.0
 Architecture: amd64
-Version: 1.28.7-1
+Version: 1.28.7-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 665
-Provides: gir1.2-cudagst-1.0 (= 1.28.7-1), gir1.2-gstanalytics-1.0 (= 1.28.7-1), gir1.2-gstbadaudio-1.0 (= 1.28.7-1), gir1.2-gstcodecparsers-1.0 (= 1.28.7-1), gir1.2-gstcodecs-1.0 (= 1.28.7-1), gir1.2-gstcuda-1.0 (= 1.28.7-1), gir1.2-gstdxva-1.0 (= 1.28.7-1), gir1.2-gsthip-1.0 (= 1.28.7-1), gir1.2-gsthipgl-1.0 (= 1.28.7-1), gir1.2-gstinsertbin-1.0 (= 1.28.7-1), gir1.2-gstmpegts-1.0 (= 1.28.7-1), gir1.2-gstmse-1.0 (= 1.28.7-1), gir1.2-gstplay-1.0 (= 1.28.7-1), gir1.2-gstplayer-1.0 (= 1.28.7-1), gir1.2-gsttranscoder-1.0 (= 1.28.7-1), gir1.2-gstva-1.0 (= 1.28.7-1), gir1.2-gstwebrtc-1.0 (= 1.28.7-1)
+Installed-Size: 666
+Provides: gir1.2-cudagst-1.0 (= 1.28.7-2), gir1.2-gstanalytics-1.0 (= 1.28.7-2), gir1.2-gstbadaudio-1.0 (= 1.28.7-2), gir1.2-gstcodecparsers-1.0 (= 1.28.7-2), gir1.2-gstcodecs-1.0 (= 1.28.7-2), gir1.2-gstcuda-1.0 (= 1.28.7-2), gir1.2-gstdxva-1.0 (= 1.28.7-2), gir1.2-gsthip-1.0 (= 1.28.7-2), gir1.2-gsthipgl-1.0 (= 1.28.7-2), gir1.2-gstinsertbin-1.0 (= 1.28.7-2), gir1.2-gstmpegts-1.0 (= 1.28.7-2), gir1.2-gstmse-1.0 (= 1.28.7-2), gir1.2-gstplay-1.0 (= 1.28.7-2), gir1.2-gstplayer-1.0 (= 1.28.7-2), gir1.2-gsttranscoder-1.0 (= 1.28.7-2), gir1.2-gstva-1.0 (= 1.28.7-2), gir1.2-gstwebrtc-1.0 (= 1.28.7-2)
 Depends: gir1.2-gobject-2.0, gir1.2-gst-1.0 (>= 1.28.3), gir1.2-gstaudio-1.0 (>= 1.28.0), gir1.2-gstbase-1.0 (>= 1.28.3), gir1.2-gstgl-1.0 (>= 1.28.0), gir1.2-gstpbutils-1.0 (>= 1.28.0), gir1.2-gstsdp-1.0 (>= 1.28.0), gir1.2-gsttag-1.0 (>= 1.28.0), gir1.2-gstvideo-1.0 (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (>= 1.28.7)
-Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.7-1_amd64.deb
-Size: 259532
-MD5sum: a42263b88249df1602849348c0aa75d8
-SHA1: 474693610dec48cf39b7dcbc3971e13d3e111b57
-SHA256: 0eff31826145b4b5cfb9a62eabbe7be706efaf6f3eeb8cfe8d8712ae0c07c82e
-SHA512: 01474cb799fd8bfa3c7debb5344a3340be354a945401580df0b338ab7a0e75fe765a2dc49017e547e42eab447948bae23ec691d47b45c2ad14a40cc20cb644ec
+Filename: ./gir1.2-gst-plugins-bad-1.0_1.28.7-2_amd64.deb
+Size: 259416
+MD5sum: fe66a5832e471237bca54812c42ca3f0
+SHA1: d455978618d7f090c95ff39e967703217bec0ab2
+SHA256: acecd786a775a17b0840ad0768a284f759035799078b9cf5d06902c18e6bf111
+SHA512: 488e1150af7a32695276527973eb5ea331c91211861f222a65426179a0a15cbe7abe2fdd807e7f31d736110137860ef42d56b84a78253c909488879e05b9964b
 Homepage: https://gstreamer.freedesktop.org
 Description: GObject introspection data for the GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -10173,21 +10174,21 @@ Description: utilities to configure the GNOME desktop
 
 Package: gnome-core
 Architecture: amd64
-Version: 1:50+1
+Version: 1:50+3
 Priority: optional
 Section: metapackages
-Source: meta-gnome (50+1)
+Source: meta-gnome (50+3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 15
 Depends: gdm3 (>= 50), gnome-backgrounds (>= 50), gnome-bluetooth-sendto (>= 47), gnome-control-center (>= 50), gnome-keyring (>= 50), gnome-menus (>= 3.38), gnome-session (>= 50), gnome-settings-daemon (>= 50), gnome-shell (>= 50), gnome-user-docs (>= 50), orca (>= 50), gnome-sushi (>= 50), tecla (>= 50), adwaita-icon-theme (>= 50), glib-networking (>= 2.80), gsettings-desktop-schemas (>= 50), baobab (>= 50), gnome-calculator (>= 1:50), gnome-calendar (>= 50), gnome-characters (>= 50), gnome-clocks (>= 50), gnome-connections (>= 50), ptyxis (>= 50), gnome-contacts (>= 50), gnome-disk-utility (>= 46), gnome-font-viewer (>= 50), gnome-logs (>= 50), gnome-maps (>= 50), gnome-software (>= 50), gnome-system-monitor (>= 50), gnome-text-editor (>= 50), gnome-weather (>= 50), loupe (>= 50), nautilus (>= 50), papers (>= 49), showtime (>= 50), simple-scan (>= 46), gnome-snapshot (>= 50), yelp (>= 49), cups, evolution-data-server (>= 3.56), fonts-adwaita (>= 50), gstreamer1.0-packagekit, gstreamer1.0-plugins-base (>= 1.28), gstreamer1.0-plugins-good (>= 1.28), gvfs-backends (>= 1.60), gvfs-fuse (>= 1.60), ibus, ibus-gtk4, libatk-adaptor (>= 2.60), libcanberra-pulse, libglib2.0-bin (>= 2.88), libpam-gnome-keyring (>= 50), pipewire-audio, system-config-printer-common, system-config-printer-udev, totem-video-thumbnailer, zenity (>= 4)
 Recommends: firefox-esr (>= 140) | firefox (>= 140) | chromium | epiphany-browser | gnome-www-browser, gnome-remote-desktop (>= 50), gnome-software-plugin-deb (>= 50), gnome-software-plugin-fwupd (>= 50), gnome-tour (>= 50), gnome-user-share (>= 48), locales-all, network-manager, rygel-localsearch (>= 45), rygel-playbin (>= 45)
 Suggests: gnome, gnome-color-manager (>= 3.36), gnome-initial-setup (>= 50)
-Filename: ./gnome-core_1%3a50+1_amd64.deb
-Size: 7296
-MD5sum: 730f02ecb8478c69a4b2bcf495abdc88
-SHA1: 29b3ec6ae6645fa8bcc39329534d6ab503c27617
-SHA256: 72742f1116ad30f5979f78f2872ab0e88014dda3c3c38d7c62305ef1a8e86e34
-SHA512: 36d4de1dfea58a64b5aac7bf601b9b89ead83b48fd198e84335cd0e9a63fd46a3ae244c9e15c3087a0922d54f61d71d6df16e906afb185e84bbdb392eb67b1be
+Filename: ./gnome-core_1%3a50+3_amd64.deb
+Size: 7476
+MD5sum: 7d2541811b5671d2d0a9e2d311039588
+SHA1: 8c49820cc237b023a1f2a6a40e69a69c7ad860ab
+SHA256: 7d289ab348a6c597cd5ef00afd6fc9c763b115e3d2cabad48501e513f9081909
+SHA512: d0439ac77deb5db6c647bf0d51ebed3c99cddd17a21906ba3720370a96f7d716fda1b610b50e48a8ed46a3805a001c6d2d8e8378e7f434064d38f7994b44aa28
 Description: GNOME Desktop Environment -- essential components
  These are the core components of the GNOME Desktop environment, an
  intuitive and attractive desktop.
@@ -10347,19 +10348,19 @@ Description: font viewer for GNOME
 
 Package: gnome-games
 Architecture: all
-Version: 1:50+1
+Version: 1:50+3
 Priority: optional
 Section: metapackages
-Source: meta-gnome (50+1)
+Source: meta-gnome (50+3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12
 Depends: aisleriot (>= 1:3.22), five-or-more (>= 1:48), four-in-a-row (>= 1:3.38), gnome-2048 (>= 49), gnome-chess (>= 1:50), gnome-klotski (>= 1:3.38), gnome-mahjongg (>= 1:49), gnome-mines (>= 1:50), gnome-nibbles (>= 1:4.5), gnome-robots (>= 1:50), gnome-sudoku (>= 1:50), gnome-taquin (>= 3.38), gnome-tetravex (>= 1:3.38), hitori (>= 44), iagno (>= 1:50), lightsoff (>= 1:50), quadrapassel (>= 1:50), swell-foop (>= 1:50), tali (>= 1:40)
-Filename: ./gnome-games_1%3a50+1_all.deb
-Size: 6172
-MD5sum: 98173962383a073d4401356c2b50c5dd
-SHA1: 0b5440a9e7d7e35bdd2146aa2559901f83497f6a
-SHA256: 6bfcfb4ceb479d57adf43bfa2a9df46508681e24b57975ce6d8c23105404c133
-SHA512: 9547fcfe78071be7671a4f507dd6478c5303ad2bc1cf7308ebebd4b2fc377c04b4d41d1bc3cf8a19be9595e914f27176bcf621b3be5c086524bc9916f78f1818
+Filename: ./gnome-games_1%3a50+3_all.deb
+Size: 6348
+MD5sum: 344377cebba38809cbd1cc8327e6f00d
+SHA1: f3fb3591af14c2516c1e7e3b23351f9c5f303b5a
+SHA256: 68a950c526b6fa38bf6ffc790cea4f0836551e58794871e2be3ebffbc55322a3
+SHA512: b9443bbad7f84b297d0252368091e1f39496a23b1d26dffb8c36f3c2583e271493b00b540885bf9a9f48941cbac6f50d035f9b75f69bf5b17e3e397dd5418c50
 Description: games for the GNOME desktop
  These are the games from the official GNOME release. They have the look and
  feel of the GNOME desktop, but can be used without it.
@@ -12411,25 +12412,25 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-plugins-bad
 Architecture: amd64
-Version: 1.28.7-1
+Version: 1.28.7-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12608
+Installed-Size: 12609
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.7-1), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-2-30 (>= 3.2.2), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33-imath-3-2, libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.6), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.16.0), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
+Depends: gstreamer1.0-plugins-base (>= 1.28.0), gstreamer1.0-plugins-good (>= 1.28.0), libgstreamer-plugins-bad1.0-0 (= 1.28.7-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.43), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4-gnutls (>= 8.20.0-3~), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdrm2 (>= 2.4.108), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 165), libimath-3-2-30 (>= 3.2.2), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.2-0 (>= 1:2.2.1), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.2-0 (>= 1:2.2.1), libmplex2-2.2-0 (>= 1:2.2.1), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.23 (>= 1.23.1), libopenal1 (>= 1:1.14), libopenexr-3-4-33-imath-3-2, libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.7), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc4 (>= 4.0.1), libtensorflow-lite2.14.1 (>= 2.14.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvpl2 (>= 1:2.17.0), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.6.0), libwebpmux3 (>= 1.6.0), libwebrtc-audio-processing-1-3 (>= 1.3), libwildmidi2 (>= 0.4.2), libx11-6, libx265-216 (>= 4.2), libxml2-16 (>= 2.14.1), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing4 (>= 3.0)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
-Filename: ./gstreamer1.0-plugins-bad_1.28.7-1_amd64.deb
-Size: 3599528
-MD5sum: d4d81b8cf3fdbd48add463d9597f92a5
-SHA1: bc63cf2ed155481a1c8102e99b63e0a7aa80dede
-SHA256: 6104ee92dcedbf31ebb8afd8c119c35944bfb92092f94de11f2bd662ef87d292
-SHA512: 74f8c2548d5046e25bd4974d2b1165f1c5c95109a0def1484404abac2876ac95a76d2269ba823d692f006fb16b251ae8bb1888d559f33c4e31a46572df104d16
+Filename: ./gstreamer1.0-plugins-bad_1.28.7-2_amd64.deb
+Size: 3600328
+MD5sum: 95abf1c86c40cd2aaa931a1c23046ce5
+SHA1: 845fc23ab58848f1d1866807dbd253e5335c16bb
+SHA256: 27bc2fad5414310e8e41279eed28bfbb1583c71aadd3bb0178beaa45aeab6f92
+SHA512: cee3f02cdf2f5ff9216df16347006eee4ba64ca69b88c06b4d3707bbbace503d3a3e22030f7d0923a6e980be05a8cf2ff2e7e35c8205bb5c7a4de40427553b28
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -14522,21 +14523,21 @@ Description: data files for kirigami-addons
 
 Package: kitty-doc
 Architecture: all
-Version: 0.48.2-1
-Built-Using: sphinx (= 9.1.0-6)
+Version: 0.48.2-1.1
+Built-Using: sphinx (= 9.1.0-8)
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: kitty
-Maintainer: Nilesh Patra <nilesh@debian.org>
+Maintainer: Maytham Alsudany <maytham@debian.org>
 Installed-Size: 18526
 Depends: libjs-sphinxdoc (>= 9.0)
-Filename: ./kitty-doc_0.48.2-1_all.deb
-Size: 3230212
-MD5sum: c4c1ea12eab7da54249d140aab9e07ae
-SHA1: 36317cdaeff37072d77dc5ba5de2640dc14de2f6
-SHA256: f808a19d6f01aab27b754e2aa20ad1355fcb8d3cc2ab5889fc68df6d56cd4e02
-SHA512: 3a05c97132d12716c6330f271db4fda071f74c036adbff60ce189b77c60e3d1f36f6ffc963531f1dfef9b1680f486f4955bf777a91ac549c7dd16ba1077ce607
+Filename: ./kitty-doc_0.48.2-1.1_all.deb
+Size: 3230372
+MD5sum: 5eda600ce381102c27fc7b4fb515c9fa
+SHA1: 8b75d8d44a6dc8d9c1f0afa58f1706b4b8b78307
+SHA256: d0d01197f7462ac78bde0cc4b829c2b1659324235b63f379c1e1f52c2ef66b6d
+SHA512: bc78444c3060b69b114507ee2779d6a5df117a13966d855e8a6bc180e811cf1293174e78569a45d11accdec6996b77be115be0281fc909bce06f0f712f68b976
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (documentation)
  This package contains the AsciiDoc/HTML documentation for the kitty terminal
@@ -14544,19 +14545,19 @@ Description: fast, featureful, GPU based terminal emulator (documentation)
 
 Package: kitty-shell-integration
 Architecture: all
-Version: 0.48.2-1
+Version: 0.48.2-1.1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
-Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 223
-Filename: ./kitty-shell-integration_0.48.2-1_all.deb
-Size: 111132
-MD5sum: 88a76d5115b4c378f8bb9ddb658127be
-SHA1: efc81837c321b7ad9f6c1b7bcc18746b83d162ec
-SHA256: 4afcb5bab76ec3092949211d19ecf0cee3ddf1d15a93a8698f99d0dbe0b08097
-SHA512: bc36e980a58ba3b058c53285fa5f55e5f46d30e0907373774f9e98fbd0f54457d26ca040568b6552d869279e29a92b3cfc215fb3ee4c4250a8547faa483ddd62
+Maintainer: Maytham Alsudany <maytham@debian.org>
+Installed-Size: 224
+Filename: ./kitty-shell-integration_0.48.2-1.1_all.deb
+Size: 111232
+MD5sum: f2e45b069773c0030afb168e2da394ad
+SHA1: bdf8c20e6f488b0c8fb8348204b346361cc768fd
+SHA256: aeacaca9037833ed99664533d0b0d86503793c45ced8fb4c00f60d6bb2aba113
+SHA512: d6d6b14d71164be5954a249785153ba2dc55cf6b1286ededc60764ed78a6e4cbaefd6920eb6ff7c8ffc91020d35d09ecd8556ae5143ab38e400edda0b6738ea1
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (shell integration files)
  This package provides Kitty's shell-integration files so that it can easily
@@ -14564,19 +14565,19 @@ Description: fast, featureful, GPU based terminal emulator (shell integration fi
 
 Package: kitty-terminfo
 Architecture: all
-Version: 0.48.2-1
+Version: 0.48.2-1.1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: kitty
-Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 120
-Filename: ./kitty-terminfo_0.48.2-1_all.deb
-Size: 89788
-MD5sum: 46696554b40cad39821be876e2b123e6
-SHA1: f5c07f737233c7812804db5c1a88cfbf2927e017
-SHA256: 3469fc3cf9826056e503be439bfe3e1854dcd5b13971f2a0c192fdfa69c58f2b
-SHA512: b5536af512c3a3a4adbd232624a03ad41e1fc336a3d5b603ffa2c0e6fd588708d2842b52b09959f537954730744fc8b945818d68b86e8387fb002dddc4e3e84f
+Maintainer: Maytham Alsudany <maytham@debian.org>
+Installed-Size: 121
+Filename: ./kitty-terminfo_0.48.2-1.1_all.deb
+Size: 89880
+MD5sum: c5bb0452322e62e4d9e3d23113e2e619
+SHA1: 9d65b2898ffd56a6950676a0a15b54c76ba6c224
+SHA256: 9cac05181df1c8b5a08ff5c12cc3f7b68628f3be1b8e5eb6dd44843fbf00c1cf
+SHA512: ae50f301539a7c5904745e8ca6c0a8a59cbb722b0b541a26bdec2270954ffdefd725237ddea42f379406298397f34d11f27d59bd6274c731c5336969442fe2af
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator (terminfo file)
  This package provides the xterm-kitty terminfo definition for the kitty
@@ -14584,23 +14585,23 @@ Description: fast, featureful, GPU based terminal emulator (terminfo file)
 
 Package: kitty
 Architecture: amd64
-Version: 0.48.2-1
-Built-Using: golang-1.26 (= 1.26.5-1), golang-github-alecthomas-chroma-v2 (= 2.27.0-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.10.0-1), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-dlclark-regexp2-v2 (= 2.5.2+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-nwaples-rardecode (= 2.3.0-1), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.6-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.1.0-1), golang-golang-x-exp (= 0.0~git20260529.c761662-1), golang-golang-x-image (= 0.42.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
-Static-Built-Using: golang-1.26 (= 1.26.5-1), golang-github-alecthomas-chroma-v2 (= 2.27.0-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.10.0-1), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-dlclark-regexp2-v2 (= 2.5.2+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-nwaples-rardecode (= 2.3.0-1), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.6-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.1.0-1), golang-golang-x-exp (= 0.0~git20260529.c761662-1), golang-golang-x-image (= 0.42.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-text (= 0.36.0-1), golang-howett-plist (= 1.0.1+ds1-1)
+Version: 0.48.2-1.1
+Built-Using: golang-1.27 (= 1.27.1-2), golang-github-alecthomas-chroma-v2 (= 2.27.0-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.10.0-1), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-dlclark-regexp2-v2 (= 2.5.2+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.20.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-nwaples-rardecode (= 2.4.1-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.6-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.1.0-1), golang-golang-x-exp (= 0.0~git20260820.ca53665-1), golang-golang-x-image (= 0.45.0-1), golang-golang-x-sys (= 0.47.0+dfsg-1), golang-golang-x-text (= 0.41.0-1), golang-howett-plist (= 1.0.1+ds1-1), simde (= 0.8.4~rc3-5)
+Static-Built-Using: golang-1.27 (= 1.27.1-2), golang-github-alecthomas-chroma-v2 (= 2.27.0-1), golang-github-altree-bigfloat (= 0.0~git20220102.38c8b72-2), golang-github-bmatcuk-doublestar (= 4.10.0-1), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-dlclark-regexp2 (= 1.11.0+ds1-1), golang-github-dlclark-regexp2-v2 (= 2.5.2+ds1-1), golang-github-google-go-cmp (= 0.7.0-1), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.20.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-nwaples-rardecode (= 2.4.1-2), golang-github-rwcarlsen-goexif (= 0.0~git20190401.9e8deec-2), golang-github-seancfoley-bintree (= 1.2.1-2), golang-github-seancfoley-ipaddress-go (= 1.5.4-3), golang-github-shirou-gopsutil (= 4.26.6-1), golang-github-tklauser-go-sysconf (= 0.3.11-1), golang-github-tklauser-numcpus (= 0.3.0-2), golang-github-ulikunitz-xz (= 0.5.15-1), golang-github-zeebo-xxh3 (= 1.1.0-1), golang-golang-x-exp (= 0.0~git20260820.ca53665-1), golang-golang-x-image (= 0.45.0-1), golang-golang-x-sys (= 0.47.0+dfsg-1), golang-golang-x-text (= 0.41.0-1), golang-howett-plist (= 1.0.1+ds1-1)
 Priority: optional
 Section: x11
-Maintainer: Nilesh Patra <nilesh@debian.org>
-Installed-Size: 32885
+Maintainer: Maytham Alsudany <maytham@debian.org>
+Installed-Size: 33170
 Provides: x-terminal-emulator
 Depends: kitty-shell-integration, kitty-terminfo, python3 (<< 3.15), python3 (>= 3.14~), python3.14, python3:any, libc6 (>= 2.38), libcairo2 (>= 1.17.8), libdbus-1-3 (>= 1.12), libfreetype6 (>= 2.11.0), libharfbuzz0b (>= 5.1.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.46), libpython3.14 (>= 3.14.1), libssl3t64 (>= 3.0.0), libwayland-client0 (>= 1.20.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcursor1 (>> 1.1.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 1.0.0), libxxhash0 (>= 0.8.0), zlib1g (>= 1:1.1.4)
 Recommends: kitty-doc, libcanberra0
 Suggests: imagemagick, fonts-noto-color-emoji
-Filename: ./kitty_0.48.2-1_amd64.deb
-Size: 9850108
-MD5sum: a41b23f296b0a50940be5f9737a1a71c
-SHA1: e318c4da2569dda96e26fe9b80ace900d84cf1ad
-SHA256: 81f10ec7fc13d1ccc7f8533b05e34fed05722e05a5e87d50910db1ae974979e6
-SHA512: cb5c60d4c9927681761071baf206578fac91732855fa30e4116d45bd7463eabcf74e20a51af42ed634701aeb7115cde67ce3c472643d9b07ae87d4d4cf86a289
+Filename: ./kitty_0.48.2-1.1_amd64.deb
+Size: 10056068
+MD5sum: 2a5adb9656023f8b4fa72f7e361b6442
+SHA1: 074733aa56cceb51762aa918e306b7cbeaf51df5
+SHA256: 25f38f2615e3c8cf21efb580bf2c2732322fdabf280cd2ac612ce0743f7b242f
+SHA512: 14249b295584b604e0cc659ca4501d01199a8423bcfe2f1965051c5da9f1402299cbe20ba48ae43392ad796581ef00314f99b279e934b7f86db72a5ef6be18da
 Homepage: https://sw.kovidgoyal.net/kitty/
 Description: fast, featureful, GPU based terminal emulator
  Kitty supports modern terminal features like: graphics, unicode,
@@ -14609,7 +14610,7 @@ Description: fast, featureful, GPU based terminal emulator
  .
  Kitty has a framework for "kittens", small terminal programs that can be used
  to extend its functionality.
-Commands: x-terminal-emulator
+Commands: kitten, kitty, x-terminal-emulator
 
 Package: kmail
 Architecture: amd64
@@ -24235,21 +24236,21 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-plugins-bad1.0-0
 Architecture: amd64
-Version: 1.28.7-1
+Version: 1.28.7-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gst-plugins-bad1.0
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3195
+Installed-Size: 3196
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.81.1), libgstreamer-gl1.0-0 (>= 1.28.0), libgstreamer-plugins-base1.0-0 (>= 1.28.0), libgstreamer1.0-0 (>= 1.28.3), libnice10 (>= 0.1.21), libstdc++6 (>= 14), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libwayland-client0 (>= 1.23.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: ./libgstreamer-plugins-bad1.0-0_1.28.7-1_amd64.deb
-Size: 1044864
-MD5sum: 62b03c426a28a862dd572a50f0744470
-SHA1: 2dfa70657ba913e2380dcaf55744eaee8e363c40
-SHA256: 2cf5145204bcb51aaf90dc1dc4a69b4a890246c98c96fdd3787bc1a676fe3ab1
-SHA512: c8e26e831a5c2f8aa0465075239348701973b52bee90ea3cfc2ea1833ae47f46df7915510f203520eb6286225b93732156934dbc22cda233a80d90cd1956abce
+Filename: ./libgstreamer-plugins-bad1.0-0_1.28.7-2_amd64.deb
+Size: 1044800
+MD5sum: 65152c7b37913f1180c6f3d5e6ce0bbb
+SHA1: 513910deea0e5f018a786ca57bc27c8cfc05bed3
+SHA256: 1d91b3881b1937399540b26dac1ce950d046bcf4af091241cb15e1b7f7a3c0e4
+SHA512: b6b4a92158cb79c7d33f9818bff34e501acfe51745f5872205278c49e2d8addda37d16e4e0cb04f3753edfd7f4230955f223d55003c1b56b88095c23cd567090
 Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer libraries from the "bad" set
  GStreamer is a streaming media framework, based on graphs of filters
@@ -34377,22 +34378,22 @@ Description: library for the Metacity window manager
 
 Package: libmimalloc3
 Architecture: amd64
-Version: 3.5.1+ds-1
+Version: 3.5.3+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mimalloc
 Maintainer: Alex Myczko <tar@debian.org>
-Installed-Size: 212
+Installed-Size: 217
 Depends: libc6 (>= 2.34)
 Breaks: libmimalloc2.0 (<< 3.0.1+ds-2)
 Replaces: libmimalloc2.0 (<< 3.0.1+ds-2)
-Filename: ./libmimalloc3_3.5.1+ds-1_amd64.deb
-Size: 78640
-MD5sum: e8a5c1e0295775713cb3d2374610fdc0
-SHA1: a9dbfed9dd657f3e69bd1f4bd72fdddf72014944
-SHA256: 8679b48bd1076c106964befe8016514ebe52e476eb3ab6d7a5454725809e50fc
-SHA512: d590f1526210e59792a38a325385c66b8a04d64ec9d42e27428e03f83e246724b29982115cb31bf0d78fb7b479ef665c2c17c0e852632282e2d6713402e6a9d3
+Filename: ./libmimalloc3_3.5.3+ds-1_amd64.deb
+Size: 81744
+MD5sum: 8d83269aef65181965a7cbd5e3097db4
+SHA1: d86aecaadf57e25c1a3445695701ca845bdbeb17
+SHA256: b15082e295db6fb8a046c283034b4eab6bc2848d9a49febb8966d6de3443eb38
+SHA512: 405cd53c5b9996ffbfa26ad8de550f35f81e37e3f22b7cb55d7d0ab5715f4d145a219af3b11389ce2adb63aaf0443342b0f52a64fc335c44ce36f109c4843da7
 Homepage: https://github.com/microsoft/mimalloc
 Description: compact general purpose allocator with excellent performance
  This is a general purpose allocator with excellent performance characteristics.
