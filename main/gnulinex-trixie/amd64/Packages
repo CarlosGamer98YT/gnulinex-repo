@@ -24681,20 +24681,20 @@ Description: common files for the GTK+ syntax highlighting widget
 
 Package: libgtksourceview-5-0
 Architecture: amd64
-Version: 5.20.0-1
+Version: 5.22.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gtksourceview5
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3108
-Depends: libgtksourceview-5-common (>= 5.20.0-1), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.37.2), libpcre2-8-0 (>= 10.22), libxml2-16 (>= 2.14.1)
-Filename: ./libgtksourceview-5-0_5.20.0-1_amd64.deb
-Size: 580552
-MD5sum: 15deb466eba89a7a20a0d7e3cd80e652
-SHA1: f7a5212630e5f84a5ea530290821165213a0c4cc
-SHA256: d88f025e6d8227824da42b746a9bf9f058a9597f972aa193da79dcda7f25852c
-SHA512: 204ca2a2c9759f1fc63228e66323e7d18c635fd03cd1875b972c8d2cc1fd82cf55c66d70aa4927f74a0d65f12b59fbfb675332bcbd7527fe4a4da4b8af9cb7fd
+Installed-Size: 3158
+Depends: libgtksourceview-5-common (>= 5.22.0), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.17.1), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.37.2), libpcre2-8-0 (>= 10.47), libxml2-16 (>= 2.14.1)
+Filename: ./libgtksourceview-5-0_5.22.0-2_amd64.deb
+Size: 604080
+MD5sum: 3f81e2fe05c9305459aaa2bf9dbe1943
+SHA1: efa654720ee5b59a59cbbb35e1bed66d67c43e63
+SHA256: 6008215059906806d8945a1906775c89a989d146ebeaabf66187999dff68182b
+SHA512: 78321098eac19030bd077d975c2f0fefdadf8f5e02a670d463b18c2852d3168bc250618a6e2a2ae8cc341b5ac88482d7859741b6d1610cdef62e1e6988d2f594
 Homepage: https://gitlab.gnome.org/GNOME/gtksourceview
 Description: shared libraries for the GTK 4 syntax highlighting widget
  GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -24706,19 +24706,19 @@ Description: shared libraries for the GTK 4 syntax highlighting widget
 
 Package: libgtksourceview-5-common
 Architecture: all
-Version: 5.20.0-1
+Version: 5.22.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: gtksourceview5
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1803
-Filename: ./libgtksourceview-5-common_5.20.0-1_all.deb
-Size: 278712
-MD5sum: ccf87362e2e6cbabe56eb254f7eba0a7
-SHA1: dfcd4b829c3f0ddb35c7bb42cad693ee2ccd5433
-SHA256: 3ac132944fc71b37fae1066a9713ca094bd52b5575f1bd7f9a7ed2fc31d84c13
-SHA512: 24481919d6ab6fd1542854a5402623e0ed5172e37ccfd1b80e1896b15fe5cedb0a6382a1680e1fdf325a5ee030616acd32bc01fa6739a053e750c88e430a8573
+Installed-Size: 1807
+Filename: ./libgtksourceview-5-common_5.22.0-2_all.deb
+Size: 277408
+MD5sum: 60e14d2054facf987ecf399960b22e19
+SHA1: 1d68a8fa75ad050460112f51a11e42434abd38ec
+SHA256: 813caabcef407eead5754db636e7e97c77375edbcf1879408a34c9c7b0e5b2bc
+SHA512: 726e6b8b7252f9519cbbc2a47a90cff0813b43f538e4aa84891ed2bd05c5374d33afc5ee25a6b00b36563290581b7cf31ef0bc80eaaf1a594c81fc650d82a81d
 Homepage: https://gitlab.gnome.org/GNOME/gtksourceview
 Description: common files for the GTK 4 syntax highlighting widget
  GtkSourceView is a text widget that extends the standard GTK 4 text widget
