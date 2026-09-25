@@ -6931,21 +6931,21 @@ Description: popular text editor for the GNOME desktop environment
 
 Package: geoclue-2.0
 Architecture: amd64
-Version: 2.8.1-1
+Version: 2.8.2-1
 Priority: optional
 Section: utils
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 476
+Installed-Size: 500
 Depends: systemd | systemd-standalone-sysusers | systemd-sysusers, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.83.0), libjson-glib-1.0-0 (>= 1.5.2), libmm-glib0 (>= 1.18.2), libnotify4 (>= 0.7.0), libsoup-3.0-0 (>= 3.0.3)
 Recommends: avahi-daemon, iio-sensor-proxy, modemmanager, wpasupplicant
 Breaks: geoclue (>= 2.0)
 Replaces: geoclue (>= 2.0)
-Filename: ./geoclue-2.0_2.8.1-1_amd64.deb
-Size: 124944
-MD5sum: a118b5c5a1207f2b12498a17b478fc3e
-SHA1: c3bb39c578d25e5c39b714ebcfd33f467d2b640e
-SHA256: 5b7a2cc52e9ee1c27eb58070dd66dc66a9648d38bfd4d037f0c58464dfa48cb6
-SHA512: c4e7adfa845781b92e7c1fdd0bb18ca72c69d4ceec151966a238b6d23088a57b1ab3648ac5e2f538e87e332bc4ff28efc3f99b8cabef27fe2c52cb27be36a8ef
+Filename: ./geoclue-2.0_2.8.2-1_amd64.deb
+Size: 131232
+MD5sum: d1ae1f11c0817cda365c09266933f667
+SHA1: 36af895342e06067ebf585a0f0536de5a59323af
+SHA256: dc39c6318c9555eed9eb66670298ba57747ac363307debedd33fde29f3118ff5
+SHA512: ed6a6af8f1ae3b293d4700fada1c3cbfa84c11d1b68b74d0a490f81c94ce54b555660000c6344f672bbc3399b62512da5b89925dafcf23aa9fd6637166f1b1ee
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: geoinformation service
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -7829,7 +7829,7 @@ Description: GObject introspection data for the Generic Graphics Library
 
 Package: gir1.2-geoclue-2.0
 Architecture: amd64
-Version: 2.8.1-1
+Version: 2.8.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -7837,12 +7837,12 @@ Source: geoclue-2.0
 Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 41
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libgeoclue-2-0 (>= 2.6.0)
-Filename: ./gir1.2-geoclue-2.0_2.8.1-1_amd64.deb
-Size: 18212
-MD5sum: 98bc84e2b1820fa2e339a5084d04c513
-SHA1: 95033c141f9485868b7aee6a38d3b8c2313e9079
-SHA256: 86879de6c8fbb0b7c394076d4daeb0cd5e4cefaa01d25e234fb2f41edbff79a9
-SHA512: 6c6aa49742f4aafeee512c121b78767e5e789af459021b194a6f34a69e8499040e54c0aa21f5a09e0b3c9b43b9ec21d80e54f7f55acc7beaf12c017473c3e3a0
+Filename: ./gir1.2-geoclue-2.0_2.8.2-1_amd64.deb
+Size: 18452
+MD5sum: 33645bbbab8397272401c8746af1364a
+SHA1: 8d533e57593768bd58bb921a514021ac2fe8aaf3
+SHA256: 5e12d8294d95b4174a7edf422475b6f0c0a95acb730a6f62c8155acbc58b782a
+SHA512: 06e3d074f1650655bf86e73c1a217119f12fbda1885f25847547b2b41cf6223e68b386cdd92ed91377b330bee473e78c8765db6d8060034c245f119ae03c417e
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: convenience library to interact with geoinformation service (introspection)
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -9921,66 +9921,69 @@ Description: GNOME Shell extensions integration for web browsers
 
 Package: gnome-calculator
 Architecture: amd64
-Version: 1:51~rc-1
+Version: 1:51.0-1
 Priority: optional
 Section: math
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9502
+Installed-Size: 9645
 Depends: dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgmp10 (>= 2:6.3.0+dfsg), libgtk-4-1 (>= 4.17.0), libgtksourceview-5-0 (>= 5.2.0), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libsoup-3.0-0 (>= 3.4.0), libxml2-16 (>= 2.14.1)
 Recommends: gvfs, yelp
-Filename: ./gnome-calculator_1%3a51~rc-1_amd64.deb
-Size: 1242284
-MD5sum: 1fb027f6f91927c90902743944b3dc2d
-SHA1: 039383d4d76df7014188f14e5ff3aa5614239f37
-SHA256: 891c574eaf1b165bda81125115becd984e1c3847a887f64bb3487e55a805981e
-SHA512: eebdbd64365b70a108022a7a95a3c7b4616be8bd98b0f1dedf48337a6bde18eefc2c8107dda4c6fc4b72a172f84e13a47869463a048cd9c97dcfad34b685fde1
+Filename: ./gnome-calculator_1%3a51.0-1_amd64.deb
+Size: 1260528
+MD5sum: 0b8ba31ded72fe3022e50021a23d803b
+SHA1: ea53d29fc2751691a73c28f0f4a76195c25fbf2e
+SHA256: cf89c2eb9f058997a3011a895d0474603826b5434964dd1e1ece0a3efba658c7
+SHA512: 62d690d777ddd664b74419b3ec934768e4425cc65e6e05d8f9b95c1c6d50e68accd858cb465401346c70b782310d36885d39068bc9189a27a3dcbfc85a76ae26
 Homepage: https://apps.gnome.org/Calculator/
 Description: GNOME desktop calculator
  The GNOME calculator is a powerful graphical calculator with financial,
  logical and scientific modes. It uses a multiple precision package to do its
  arithmetic to give a high degree of accuracy.
+Commands: gcalccmd, gnome-calculator
 
 Package: gnome-calendar
 Architecture: amd64
-Version: 51~rc-1
+Version: 51.0-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3007
+Installed-Size: 3094
 Depends: gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libedataserverui4-1.0-0t64 (>= 3.16.2), libfribidi0 (>= 0.19.2), libgeoclue-2-0 (>= 2.4.0), libglib2.0-0t64 (>= 2.83.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.2), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 3.0.3)
 Recommends: evolution-data-server, gnome-online-accounts
-Filename: ./gnome-calendar_51~rc-1_amd64.deb
-Size: 567932
-MD5sum: ee3eb56656f0a8fdbf2bcf124b82476c
-SHA1: 464b2a583b0a3b94d486c6fa5f00d86c26c6ee11
-SHA256: 3aace20f8d0d6e7e82c18646421ccb9aac57049c924acf7d68682c25b16ad62a
-SHA512: 003263ded2d5b72fd64525c01e79203c504242546042bab1efa9bf4fb3bea38f92800e612a4e7eaa0cadb5fedc145bf365a459898146eed8b17afc14188dbda4
+Filename: ./gnome-calendar_51.0-1_amd64.deb
+Size: 577040
+MD5sum: 8b2078192bd7cf9c79a267d4d688dd49
+SHA1: df4c034ca439b103dae4cb7daa0de91fc41e6f31
+SHA256: a7c4a5c86b19eda72f515025427457c742bf2a46ba4908bc6452cc36b80f26ad
+SHA512: d416de2ecec325c7f808236f5c77465cf994d132bcf76991e9e1274d230f49745536e0ca7dcdd5b438728afffc4602c6687aa10755e71ebc93600e0761890db9
 Homepage: https://apps.gnome.org/Calendar/
 Description: Calendar application for GNOME
  GNOME Calendar is a simple and beautiful calendar application designed
  to perfectly fit the GNOME desktop. By reusing the components which the
  GNOME desktop is build on, Calendar nicely integrates with the GNOME
  ecosystem.
+Commands: gnome-calendar
 
 Package: gnome-characters
 Architecture: amd64
-Version: 50.0-1
+Version: 51.0-1
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4135
+Installed-Size: 4159
 Depends: gir1.2-adw-1 (>= 1.6), gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gnomedesktop-4.0, gir1.2-gtk-4.0, gjs, libglib2.0-bin, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.14), libglib2.0-0t64 (>= 2.87)
 Recommends: fonts-noto-color-emoji
-Filename: ./gnome-characters_50.0-1_amd64.deb
-Size: 454556
-MD5sum: 7ab5ccea905b0dcefb6d0c2f3d074c7c
-SHA1: 455e5fc734cf598218dd2ed5849b2d631f5c2e73
-SHA256: afab816a9d1a4bbc6b85305d9f759634c3d731908b9f32e9780b7304ee694b82
-SHA512: 4717e9a93eb2d0802645931d1af96a6e373f2b1da2ba017276a731db788a8d65df9a0d7a58acb2e852467d5768b47a0e246976620cb0183cc8d4e9e8ee06cc8d
+Filename: ./gnome-characters_51.0-1_amd64.deb
+Size: 458108
+MD5sum: ea9210f4de6ece29768427e1361cd74f
+SHA1: e6b1a9d8393f5fcb7eba744ee71e617635dfbfe9
+SHA256: fba86de1343c95fe4e62e1063742e30f0e4757d4cff4c996918ca0d3cf848628
+SHA512: c4688f59d908623e6ad0c8c50ef4f0838cf3b29a24f717ecc7df7a360105f5db9c20c31bdfb72da2caab50c9ca32df1ba5eb5447317a227532f3a9158854e3e9
 Homepage: https://apps.gnome.org/Characters/
 Description: character map application
  Characters is a simple utility application to find and
  insert unusual characters.
+Commands: gnome-characters
 
 Package: gnome-chess
 Architecture: amd64
@@ -22580,20 +22583,20 @@ Description: Generic Graphics Library - common files
 
 Package: libgeoclue-2-0
 Architecture: amd64
-Version: 2.8.1-1
+Version: 2.8.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: geoclue-2.0
 Maintainer: Laurent Bigonville <bigon@debian.org>
-Installed-Size: 159
+Installed-Size: 155
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.83.0)
-Filename: ./libgeoclue-2-0_2.8.1-1_amd64.deb
-Size: 44528
-MD5sum: 56d8885db67feddf0a67620fdd010927
-SHA1: 07857767bd9ffdc27fb59da4dec3031c7be8822e
-SHA256: 5b4a74cfb89b611f56f185dddc0b8620ffa77d3da84317cf09f891667409322b
-SHA512: 7e0beca17499b56c8e515c305cba91d3401aa2373df505e7277edcee61adbc6ae7e0825177e6e9650c638c267e2e49e53b4ed2f5429a7cc90c3f6be7341b2671
+Filename: ./libgeoclue-2-0_2.8.2-1_amd64.deb
+Size: 45144
+MD5sum: eb8e48549ce179e9a5e893d558b82fc7
+SHA1: 4ebdef67a4ec029d3b1af0dfcf92ca2dbe2cee10
+SHA256: de259cfcf34a67df9f8455e58a256386fd3ca597d1377f2c67bd0965284078c6
+SHA512: 6f38a7a8927f167c46b5c84f55a7faa877595b0a104e1349880c1ceaf59c7c83f3c1b4fc4d3e16fe4143e9bc1efe0dcba716c33c08162b0ebb7f586eab614650
 Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
 Description: convenience library to interact with geoinformation service
  GeoClue is a D-Bus geoinformation service. The goal of the Geoclue project
@@ -34661,7 +34664,7 @@ Description: MJPEG capture/editing/replay and MPEG encoding toolset (library)
 
 Package: libmsgraph-1-1
 Architecture: amd64
-Version: 0.3.4-2
+Version: 0.3.5-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -34669,12 +34672,12 @@ Source: msgraph
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 124
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgoa-1.0-0b (>= 3.1.1), libjson-glib-1.0-0 (>= 1.5.2), libsoup-3.0-0 (>= 3.0.3)
-Filename: ./libmsgraph-1-1_0.3.4-2_amd64.deb
-Size: 36636
-MD5sum: 86e771d2bf2a079044ae5dd0c0f3e0c4
-SHA1: 93e53fca342849e2d7e63ea616a69579bb3d17e5
-SHA256: 74048feebce22995e31292708c80bd6c3e6267cdb7326f784217b6f24a6604d8
-SHA512: 068b508d9cb1becf75851e0c785be1587be8311e0b1ac40024eb0882e47435170d49b8ee40709cb36df881977352ac57b5698934af1764bb929104c31953c66d
+Filename: ./libmsgraph-1-1_0.3.5-1_amd64.deb
+Size: 36788
+MD5sum: 0b437406dc0f547e915e832a05aa8443
+SHA1: 205a0e2c499cc802524f96f70622c46b63117c2c
+SHA256: c1a092df2d98c067261284d286dbf73f7301c6113b3bb26dd18d136983144b1b
+SHA512: c24076d9fd8ad343e6af946c07d13ba875a4fb6a1c970d87e322ac3fb616458cc78701fa699c57938d7964ddb7b476b52b9afec519e5da5d7dc1cd753a147f17
 Homepage: https://gnome.pages.gitlab.gnome.org/msgraph/
 Description: library for accessing the Microsoft Graph API
  libmsgraph is a GLib-based library for accessing online service APIs
@@ -72446,24 +72449,25 @@ Description: wayland output power management
 
 Package: wlr-randr
 Architecture: amd64
-Version: 0.4.1-1
+Version: 0.5.0-1
 Priority: optional
 Section: x11
 Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
-Installed-Size: 44
+Installed-Size: 45
 Depends: libc6 (>= 2.34), libwayland-client0 (>= 1.20.0)
-Filename: ./wlr-randr_0.4.1-1_amd64.deb
-Size: 12328
-MD5sum: 62caa07b47427da21018da197f795138
-SHA1: 2cf6376ca2a7a9a5741b8fa40a9eb89d0f87780a
-SHA256: fd6a462fca32c9555f11b40eaeba61c7c31ed7b56d0cbd5bb3db06f92d0ec4fb
-SHA512: 12d031c05ff0163e0c02dc36235c0e26b0c8d9f439e94a2c751cdfaec269b262a0a5a5594b551fa7441d6b8660811293a243004deb7c96a9f8bfb9baf37dacfd
+Filename: ./wlr-randr_0.5.0-1_amd64.deb
+Size: 13280
+MD5sum: 916da9a086900c6bed37157eeed1e338
+SHA1: 6538cd9f36da4516eb6e65d6ee3c7e7b702e264b
+SHA256: 1a97aef0b6ffa614cd7540554604fc3384cffcf6572ba5c2c443f8f2ed1e273c
+SHA512: d62aa3cba36e5df89b82926cc841a5cc5f7dcff21c579c72c57503e49765bf88b44e87e6146255fce18618a60b1cc6318990f455c680e17e369e84c8c1840394
 Homepage: https://sr.ht/~emersion/wlr-randr/
 Description: Utility to manage outputs of a Wayland compositor
  Command line interface which allows setting the size, scale,  orientation of
  the output for a screen. This is the wayland equivalent to xrandr under X11.
  This utility requires the compositor to implement the wlr output management
  protocol. Currently, only wlroots based compositor support this protocol.
+Commands: wlr-randr
 
 Package: wmenu
 Architecture: amd64
