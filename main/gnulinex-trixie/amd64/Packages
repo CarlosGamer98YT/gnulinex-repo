@@ -15216,20 +15216,20 @@ Description: use the Wayland wl-layer-shell protocol - plugin
 
 Package: libabsl20260526
 Architecture: amd64
-Version: 20260526.0-2
+Version: 20260526.0-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: abseil
+Source: abseil (20260526.0-2)
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2842
+Installed-Size: 2895
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
-Filename: ./libabsl20260526_20260526.0-2_amd64.deb
-Size: 563208
-MD5sum: 87a9b88d433488acec08b16c947292be
-SHA1: f01fb804a73e20026af221068bf8ba31d6e8fb8c
-SHA256: f5d582707a247f92724526b9aae53c28f60ab5fa5c33fd9f31ac3ea9d2b4d880
-SHA512: 8d0774632e022d1776558e2b8e5b01113129dcaa88cdeb51ae98672180c98a09aa2f4522fe43382dcd5c11a6497de65bbf42e9f684470a9282259a00782d8ac1
+Filename: ./libabsl20260526_20260526.0-2+b1_amd64.deb
+Size: 583560
+MD5sum: 4a833b398f6e737076ee8a4c7e76e29b
+SHA1: 11e97ec6ae1309fb717e0f8cdb882c81dd1b8995
+SHA256: 951c69d645eea81e17d908ff3f79b6d70a33346f65ba283d564cdab07b660952
+SHA512: 14a5697208d1897088664506a8509b9cf099085df31f11ed4b9e9dd4b55766874424f49fb247f8206041dfd8f8823277d5f76a2f7c5f803ec04668d781eb1cb0
 Homepage: https://abseil.io/
 Description: extensions to the C++ standard library
  Abseil is an open-source collection of C++ library code designed to augment the
@@ -24866,23 +24866,23 @@ Description: DLNA utility library for GUPnP
 
 Package: libgusb2a
 Architecture: amd64
-Version: 0.4.9-7+b1
+Version: 0.4.9-8
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libgusb (0.4.9-7)
+Source: libgusb
 Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
-Installed-Size: 128
+Installed-Size: 131
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libjson-glib-1.0-0 (>= 1.5.2), libusb-1.0-0 (>= 2:1.0.22)
 Recommends: usb.ids
 Breaks: libgusb2 (<< 0.4.9-6~)
 Replaces: libgusb2 (<< 0.4.9-6~)
-Filename: ./libgusb2a_0.4.9-7+b1_amd64.deb
-Size: 37444
-MD5sum: 97bbe5f906ec03b33020a8e3601e26a2
-SHA1: 3fafd93e37e0da98bee34a5abaa2230991b26f6a
-SHA256: 771855245b4a5ddd9f7497e5ae7e25429c16f03b59f02b242cdbc0406ac3f793
-SHA512: f0ca608c7f8406699fff906542dc416f950102ae869152550a108d7a43278d70541599187e2f88ee4f3b303d24c95639064efc01efcdf7edbc09771a708a75e0
+Filename: ./libgusb2a_0.4.9-8_amd64.deb
+Size: 38796
+MD5sum: 2a32deee7e3833acfe0f2ad2a9279f61
+SHA1: 5f164c7f7cfca9482c9e4c9a336e2149c3fab6ff
+SHA256: 30a74e51e7c78acb5ad56710035a953d2ce4683074d0969da117e0c994581f01
+SHA512: d5904652fc1c093fa60270d03e47d26fcc24292af2158827eeea3a13b88eb409f860c458d5647c18545c9b80b371c8b6635980f0f568cd7d9ca45e6be9fa1672
 Homepage: https://github.com/hughsie/libgusb
 Description: GLib wrapper around libusb1
  GUsb is a GObject wrapper for libusb1 that makes it easy to do
