@@ -657,40 +657,40 @@ Description: GNU Aspell spell-checker
 
 Package: at-spi2-common
 Architecture: all
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 1374
+Installed-Size: 1377
 Breaks: at-spi2-core (<< 2.46.0-2~)
 Replaces: at-spi2-core (<< 2.46.0-2~)
-Filename: ./at-spi2-common_2.61.90-1_all.deb
-Size: 171424
-MD5sum: 684d8e5a88381e95116c9bf03dc601a0
-SHA1: ca6d67b44b125861ed41e6dc3dedaced1a820aaa
-SHA256: 48d51ff5318b6d867376d4bbf02e6a05f2c618add39a741e5c97f1f0606d77a6
-SHA512: 85ed7a070db659870eafd6b9eb4e777e3ec94660376e0dbc5cb2ed527b46a29bd631c9a1cd412a7a258bf5b24fa1255dbee756c7aaf10d61fa0564a6acfe68fa
+Filename: ./at-spi2-common_2.62.0-2_all.deb
+Size: 171212
+MD5sum: 9932038c783de29fa8b07ac53bdcc090
+SHA1: 4325f1f45b9d663fb8f0101206aa03ab17c7b680
+SHA256: ac41641bcb49c7f0a4a09510e1ea274f2861613e54f9b2bc026073c0e8217919
+SHA512: dbe5106ef825db7125fbb6b90d5cef96a664274c7ca8b38bd9e543aa78a030216073d86558ceddb13c57dedfe0bf6238c06961593ab2372a8fb779417aa6438b
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
 Package: at-spi2-core
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 221
-Depends: libatspi2.0-0t64 (= 2.61.90-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
-Filename: ./at-spi2-core_2.61.90-1_amd64.deb
-Size: 63800
-MD5sum: b76c35406033ab412eb39d8d74f088ca
-SHA1: 41611e0983c7f7d6ee44e8cfd7da2b11c2f714cc
-SHA256: 100ac1adb894e087ed06e65c23ba40ccf8a95fe8d2b8ac8a152c0bba4de3e0e5
-SHA512: fd15052ead4c426ae26a59a87c577d6d59ef0db2b8c844c87ed8228a2a6e5a61fd524f023af6bcc68e37e1581b4c742a7fb9cf3e8880381d0a477a1270efc0a1
+Installed-Size: 222
+Depends: libatspi2.0-0t64 (= 2.62.0-2), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
+Filename: ./at-spi2-core_2.62.0-2_amd64.deb
+Size: 63808
+MD5sum: c74bc2cd4889b80055cbf32312cb97bb
+SHA1: 4b4251826874ff4dd8dcc32c83240fabd900d810
+SHA256: 04d4140950e78407aa33e6c21f17d9903997856ff8462c5810bb9d5da4398b83
+SHA512: 4673bd2c120a4a34e94b7229bc75ed93df41fd072b216ae06cba99fd2588433b8e36c0d723e629c2994e40af01686258ba75405ebc24cd660d72b8e1f50d70a7
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (D-Bus core)
  This package contains the core components of GNOME Accessibility.
@@ -1566,22 +1566,22 @@ Description: records CDs in Disk-At-Once (DAO) mode
 
 Package: chromium-common
 Architecture: amd64
-Version: 153.0.8010.52-1
+Version: 154.0.8037.57-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 66086
+Installed-Size: 65880
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
-Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
-Breaks: chromium (<< 153.0.8010.52-1)
-Replaces: chromium (<< 153.0.8010.52-1)
-Filename: ./chromium-common_153.0.8010.52-1_amd64.deb
-Size: 30831416
-MD5sum: 36682d6aa48139ef37b4ec4e3a7e616f
-SHA1: 35016eddbc4bf4582ce63d1a56df89771f4c2d01
-SHA256: 54cac73dfbc63b94a68c507ec3756adbb59715b5545218eeb67074386239f610
-SHA512: 1916edf35c0d86b1afa5b3faadc2b2192abefed7c1fa0589cd8ca7c29d7b3e37d25ed29c979cce7ed8f34f28c393dfbf438b57b1e97d81ee4a62049e002c8606
+Recommends: upower, udev, libgl1-mesa-dri, fonts-liberation, notification-daemon, system-config-printer
+Breaks: chromium (<< 154.0.8037.57-1)
+Replaces: chromium (<< 154.0.8037.57-1)
+Filename: ./chromium-common_154.0.8037.57-1_amd64.deb
+Size: 30576652
+MD5sum: cdaa3cb46531d24b50e756a88a301c47
+SHA1: d1a723fb121b4347b9e6aed4c8a49982a2eadc60
+SHA256: 390571ee5776fded27be8f5d06fcbdde937106530e17784050c88ca84dd6c270
+SHA512: 72281b4d56f05b5b15f22041127a0d31ac962d2bbab08639cc8158cc140f9a89656993575e40d2c1502d2b8a2ac1037ec08f4b9b3bed47f1068fdecaed312993
 Homepage: http://www.chromium.org/Home
 Description: web browser - common resources used by the chromium packages
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1592,21 +1592,21 @@ Description: web browser - common resources used by the chromium packages
 
 Package: chromium-sandbox
 Architecture: amd64
-Version: 153.0.8010.52-1
+Version: 154.0.8037.57-1
 Priority: optional
 Section: web
 Source: chromium
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 374
+Installed-Size: 376
 Depends: libc6 (>= 2.38)
-Breaks: chromium (<< 153.0.8010.52-1)
-Replaces: chromium (<< 153.0.8010.52-1)
-Filename: ./chromium-sandbox_153.0.8010.52-1_amd64.deb
-Size: 116500
-MD5sum: c0522427e551439981cd784e0d65dff6
-SHA1: c69f44ba6cbc11d8fba55f74f8f38832e84f5851
-SHA256: 5e0e613d8ca26c57cec1b94dfd9f6b010bf5b854db592a258b45872d900d6433
-SHA512: d4a4d5a88329cb90c1e000ed0c155240eabf3b7f8a8d63c48b36e7ee977c11d59044151eeb6186e752d9f13b67e43f6e420322ffd5d77c06399ca011cd64bb40
+Breaks: chromium (<< 154.0.8037.57-1)
+Replaces: chromium (<< 154.0.8037.57-1)
+Filename: ./chromium-sandbox_154.0.8037.57-1_amd64.deb
+Size: 118592
+MD5sum: cd45057a1e0d63efd578b2919adef97c
+SHA1: e5fba26aa5016faad5225a897d41fa96386e4ce9
+SHA256: a9ae95db73ef2921bb1e8b97d2b9306f0936e9bdd87bcfa33ce830e8e4a5c6b3
+SHA512: 9322b502f34ce41726fe14459702be0c71027266f1dff641765c60066b244369c3fd4d12218b2c64553168088dd2cc32bbbd14d70bb2f60f585d87256102cb25
 Homepage: http://www.chromium.org/Home
 Description: web browser - setuid security sandbox for chromium
  Web browser that aims to build a safer, faster, and more stable internet
@@ -1616,23 +1616,22 @@ Description: web browser - setuid security sandbox for chromium
 
 Package: chromium
 Architecture: amd64
-Version: 153.0.8010.52-1
+Version: 154.0.8037.57-1
 Priority: optional
 Section: web
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 318262
+Installed-Size: 320268
 Provides: gnome-www-browser, www-browser
-Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.43), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 153.0.8010.52-1)
-Recommends: chromium-sandbox
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.43), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libdav1d7 (>= 0.1.0), libdbus-1-3 (>= 1.10), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 10.0.1), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1t64, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-8 (>= 2.6.0+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0t64 | xdg-desktop-portal-backend, chromium-common (= 154.0.8037.57-1)
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
-Filename: ./chromium_153.0.8010.52-1_amd64.deb
-Size: 90011328
-MD5sum: ed84f1aac0d7c5a00ada045a68ae4eec
-SHA1: e8eec70882c582461dc02406e8934426836290d5
-SHA256: ee1da180f44f532ff5b845797f56f38dea99aa272452f4ccc05bee12dd02e30c
-SHA512: 1182c030532c2b679013948edce296ba32248c982d33411990ea1a56a8d70129335b4974791c6391c7f6cba033c21b60f14dbfae16fab1d01df436cf0d2eec06
+Filename: ./chromium_154.0.8037.57-1_amd64.deb
+Size: 90601236
+MD5sum: 1f12bf07019e07c9c984a2307df0e876
+SHA1: b33c1d89bf57105e4c1802604b0c9295beccf9cc
+SHA256: cca2f97626db4cbff6d7fa0eef6745f4957b5a9c99157e7a85bdc7c9717b101d
+SHA512: 685b0d3643a8fd192ff4b2f4b46d7491e22ba79f76224e3c4e9f3a5c6255dccf94d93fb22e29adf90af8e3f1a35f2f5707b92c0c6a7b24db1036384afe417fb6
 Homepage: http://www.chromium.org/Home
 Description: web browser
  Web browser that aims to build a safer, faster, and more stable internet
@@ -3306,19 +3305,20 @@ Description: lightweight plain-text editor written in Qt
 
 Package: ffmpegthumbnailer
 Architecture: amd64
-Version: 2.3.0+dfsg-3
+Version: 2.3.1+dfsg-1+b1
 Priority: optional
 Section: video
+Source: ffmpegthumbnailer (2.3.1+dfsg-1)
 Maintainer: Nicolas Mora <babelouest@debian.org>
-Installed-Size: 52
-Depends: libc6 (>= 2.38), libffmpegthumbnailer4v5 (>= 2.3.0+dfsg), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Installed-Size: 53
+Depends: libc6 (>= 2.38), libffmpegthumbnailer4v5 (>= 2.3.1+dfsg), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Suggests: libglib2.0-0
-Filename: ./ffmpegthumbnailer_2.3.0+dfsg-3_amd64.deb
-Size: 16552
-MD5sum: ae175fbf4b2e3d6c29e2567004b26ca4
-SHA1: 40f1e529c2751650eec40e3841148f83a8b635d8
-SHA256: d9e5efae6143a18849fa7048c1a3fec5c3a156a200348f51d9da758a46e2fe6b
-SHA512: a0ff894cb811812363b3a60ec3ce46bab54c7db6d17283690b045bf5c6fa21b70f8d5f46a68756ebbce1dbd1776908567155ce7e3e48047ef739178f63453bf3
+Filename: ./ffmpegthumbnailer_2.3.1+dfsg-1+b1_amd64.deb
+Size: 17500
+MD5sum: 74dc304643503aa390c8cbcbea2e9a2c
+SHA1: 39a5cee5104c6f2104bcf44ecfda547ebd21de4c
+SHA256: 9559e44936953e33d3a261fc83ff08ae1c1ac8d2ed491940917e1ce76a29333d
+SHA512: e62aaeacf16c327b87a730177512775df5e2930d759cab79046b5f21c209f4a6ee264bbf8608192baaf910a5cdda6c2b0510cfbaceb765725908d22709e104f4
 Homepage: https://github.com/dirkvdb/ffmpegthumbnailer
 Description: fast and lightweight video thumbnailer
  FFmpegthumbnailer is a lightweight video thumbnailer that can be used by file
@@ -3327,6 +3327,7 @@ Description: fast and lightweight video thumbnailer
  configuration flags of ffmpeg.
  .
  This package contains the ffmpegthumbnailer executable.
+Commands: ffmpegthumbnailer
 
 Package: file-roller
 Architecture: amd64
@@ -7110,20 +7111,20 @@ Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
 
 Package: gir1.2-atk-1.0
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 100
-Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.61.90-1)
-Filename: ./gir1.2-atk-1.0_2.61.90-1_amd64.deb
-Size: 23480
-MD5sum: 2e9a712ca8363d943949895ddb079c81
-SHA1: 9a78a73b3bd0b011993107cd7b2651bb52686981
-SHA256: f34da5c81d744c8af255efa8739e962b4926cdb7971ec26e3befd25fef51324c
-SHA512: f71c2bf211ad5c86d982a2464bff61b827c853bb25bb11f02d65b6c134c90a99c4e38c7332c566e9e10b2b468f3f5a83abd9731ea3e3c8f267634ba172ffdc9c
+Installed-Size: 101
+Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.62.0-2)
+Filename: ./gir1.2-atk-1.0_2.62.0-2_amd64.deb
+Size: 23556
+MD5sum: 8f0fa83963a619f8cf5236a2402c1d35
+SHA1: 6bddb4b1e6ffaaeebe04dc356815bd8e00dee9d8
+SHA256: 00a0ea4f971df517235b6b38bd3aaf77e45218ad3fe274fb4f381a19519af4c2
+SHA512: 8203caff19aeb9aa0d1849d85c118148d97d9d0ce474913ce0f7265b4b4b664fa755ec43b6ebcc8ebda63e974a083439cf2608d8482923b3441f9c603cc32906
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit (GObject introspection)
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -7136,22 +7137,22 @@ Description: ATK accessibility toolkit (GObject introspection)
 
 Package: gir1.2-atspi-2.0
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 96
-Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.61.90-1), python3:any
+Installed-Size: 97
+Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.62.0-2), python3:any
 Breaks: python3-pyatspi (<< 2.57.0-1)
 Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
-Filename: ./gir1.2-atspi-2.0_2.61.90-1_amd64.deb
-Size: 23280
-MD5sum: fbd33930b3238df3abff99ffd3ec465e
-SHA1: df55e1cf65be8be99672dcdb928317ce42aeae7c
-SHA256: 383ce7b8f34f084395aee06b1c6756ca301d10251a2a42f5c1f38402d8637ad5
-SHA512: b7c39b4bb32f2144744482b8cdba42bb4e2680d6f434c97510442d55a0bf222fd94a4c3c63ab902b3a4c39baf2c05ddd0a30894648e2436bceb2bbd39b6a6c67
+Filename: ./gir1.2-atspi-2.0_2.62.0-2_amd64.deb
+Size: 23364
+MD5sum: 868270645c483ed76286a510f75da163
+SHA1: 44d466978e504d4b05d54f61add5f1254dc5742f
+SHA256: 78f05b2185297a1480cb65069a13aadff7fa35a486517daaeacba806eb36d027
+SHA512: 3ba4c150704e1afee9093f2785972bf36065c01d1f0937d27eb749cfaf5ed4711e9b7c6d00a921fe46ec27d2677c8dd6a228f7c322edbc0b242b8eb9efe13925
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
@@ -12881,20 +12882,20 @@ Description: image viewer by KDE
 
 Package: heif-gdk-pixbuf
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: graphics
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 41
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0)
-Filename: ./heif-gdk-pixbuf_1.23.3-1_amd64.deb
-Size: 11252
-MD5sum: 02254723ff7a1bdd34a55a6147118184
-SHA1: 54feb9ed514a3d7a7ee82306ee998306d55419e6
-SHA256: b7494458dacf77e39e2758e3853ddd662ada25a61078a947983415d33589ead8
-SHA512: 7c42fbe8a76fad29a586b9e10284f5fb05e1d2c09f279f220a40a41c834fec4afb88fada905b002baa412da6208a2da74b74bcddf8e55e1834984a5da1aacec3
+Installed-Size: 42
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0)
+Filename: ./heif-gdk-pixbuf_1.23.4-1+b1_amd64.deb
+Size: 11860
+MD5sum: ed197095ee7255a39a376445251bb8ac
+SHA1: b6515abe906e9b53da3bff13d6592fa0e461acdb
+SHA256: 63a7c38e9c0b4b779345f45374e4d110eb9100377e7d8e421ffd4cf4adb96bbe
+SHA512: 82bb7caf20fe87cef9b7df3ee5ab89e0dc327e2256065a2d87ba1c41188666a1dbe9a91fcca32ecafbad94f1ad1b4e10047da887b7705a82cd772f15e242c9e0
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - gdk-pixbuf loader
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -12912,20 +12913,20 @@ Description: HEIF and AVIF file format decoder and encoder - gdk-pixbuf loader
 
 Package: heif-thumbnailer
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: graphics
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 66
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1)
-Filename: ./heif-thumbnailer_1.23.3-1_amd64.deb
-Size: 20668
-MD5sum: a89bebd089babda7be294b5e81284bf5
-SHA1: 6913673a1376e63d5d89a58bfa47a2760ba4615b
-SHA256: cfac3b3800c7d8c429b06ca0b43d21fad13d14fd336771593b0f0f4ac30dd381
-SHA512: 161b2e56f339e59dc8700a8122368dfe6e3557f7d4e066ad10b27d4c6190b8e9d835edee544817ecfbcb0c02ba6ddbc8af52a2815acd641dde9b773f1c8b658f
+Installed-Size: 67
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1)
+Filename: ./heif-thumbnailer_1.23.4-1+b1_amd64.deb
+Size: 21292
+MD5sum: 78b9c36f5692cf361bdeadc72a43d291
+SHA1: af7660b700f4064d1713a39a9a9b44348f491962
+SHA256: 88b29efccfbd6a0a318eb4594a6b6ccdf8873c9841cc48b129bf89b30306aeba
+SHA512: 57f5300dc4449f0abfe3c5fb17d6a3427f5d71f47b346369ee68801611e5a3a536dd02408994842926875ca8dd25337f008fbff46796c3c2cae149ff2dc74490
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - thumbnailer
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -15925,23 +15926,23 @@ Description: GNU Aspell spell-checker runtime library
 
 Package: libatk-adaptor
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: misc
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 56
+Installed-Size: 57
 Provides: at-spi
-Depends: libatk-bridge2.0-0t64 (= 2.61.90-1), libglib2.0-0t64 (>= 2.62)
+Depends: libatk-bridge2.0-0t64 (= 2.62.0-2), libglib2.0-0t64 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
-Filename: ./libatk-adaptor_2.61.90-1_amd64.deb
-Size: 9100
-MD5sum: 8ceeebe55de49b06f864ba54cc64b36a
-SHA1: 1a50c045f66d8430c1d240db28635e1a03d52275
-SHA256: e3c8f41958f48de9bdeb6c171238eb6381f01d19b84e11b76e581e4c400b96b2
-SHA512: 72c3688504bd3a7a70bbfc491ffee508ff8e3b70d52d88e6f02bb22391adec8b6329de06326e68120a1616026d16b82cc2a1c1f97ff421dd4169811b30eda3b5
+Filename: ./libatk-adaptor_2.62.0-2_amd64.deb
+Size: 9180
+MD5sum: fb5ab71df0be760cdb2e36ab8ffbdffc
+SHA1: a323d07c28b6fdd5a3d5f71ead0212277450e373
+SHA256: 5dcac71d9e448257b8b6971387c68776610accda5902a23fe321c527b6d14c50
+SHA512: 6e26fa945d61f92666855d252af26b53ff1b9865a1463f8c67833d1509a5f054550d61634f8a2ff8f81f714c161c815078b58e8b95e59b6e0f64bd16f9e78c78
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
@@ -15949,43 +15950,43 @@ Description: AT-SPI 2 toolkit bridge
 
 Package: libatk-bridge2.0-0t64
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 287
-Provides: libatk-bridge2.0-0 (= 2.61.90-1)
-Depends: libatk1.0-0t64 (= 2.61.90-1), libatspi2.0-0t64 (= 2.61.90-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libatk-bridge2.0-0 (<< 2.61.90-1)
+Installed-Size: 288
+Provides: libatk-bridge2.0-0 (= 2.62.0-2)
+Depends: libatk1.0-0t64 (= 2.62.0-2), libatspi2.0-0t64 (= 2.62.0-2), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
+Breaks: libatk-bridge2.0-0 (<< 2.62.0-2)
 Replaces: libatk-bridge2.0-0
-Filename: ./libatk-bridge2.0-0t64_2.61.90-1_amd64.deb
-Size: 68900
-MD5sum: 0057cfc2df841f8e8e2e0c3340d9e896
-SHA1: a3482db0f0fcf4764d775b438c3e0def4a0c516b
-SHA256: d4af5fc55f17942f1ba84da8f6ae9a85aa80e16c2df90943400f17f52319aff6
-SHA512: e516b81c9cb288187ae4e82f24b020573be11975daa615b63deb9cd60d69a7f671ebdf62f00821bed215389c66f07c78553859585de447515d0679b0fdbca2e1
+Filename: ./libatk-bridge2.0-0t64_2.62.0-2_amd64.deb
+Size: 69312
+MD5sum: 8ff8356e43b33ebf8a840592045dc92a
+SHA1: 275452f3add4cac810f1a33e9b5aff9fd1f2a134
+SHA256: 7d745fd5ea4636c19954968e0c58d1362553ac5aa479b7afe54ac3b400de11c0
+SHA512: d8450ea2d93294198320490fb10f49c14bc53139fdf55d79bc10fbb64d10d4913a512ec819e09fe2a4fa6659215cdb6bc8102a95adfb0ac1ffeccf757497a7ed
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge - shared library
  This package contains the ATK bridge shared library.
 
 Package: libatk-bridge2.0-dev
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 32
-Depends: libatk-bridge2.0-0t64 (= 2.61.90-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.61.90-1)
-Filename: ./libatk-bridge2.0-dev_2.61.90-1_amd64.deb
-Size: 7636
-MD5sum: 8a6eeac101c042b4b8bba7c0caca6ca7
-SHA1: c62bb4eff3a2f17bee46edc836c7a954ecbf0ded
-SHA256: 8a3c8dcf42958e8eecc598622b3cf985393425dfb84801a89650233234a7c8ef
-SHA512: c2c4a85da892ea6cfa8290884b148394f2a2bd174426b34753227923b762736707f05c44641066a72074b4ce2d2e20bf4b61c8e4b9d4cd638d838b7607dd322d
+Installed-Size: 33
+Depends: libatk-bridge2.0-0t64 (= 2.62.0-2), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.62.0-2)
+Filename: ./libatk-bridge2.0-dev_2.62.0-2_amd64.deb
+Size: 7720
+MD5sum: 5949aa7d7b38dafe448b75687a55a3a7
+SHA1: 69834613783a9517e04e6f39b63881da2ef82540
+SHA256: 304e5a75d378e0b7a1d6134345538e60ae960a6410e7ba68598efd502d719b9f
+SHA512: f913d2f9a1379f25616be972df64dfb21977b2228857b64f5f09e7b87be8d8772eaf581dbe3f22d91d65f2c7d723e71ab7a85456b824073674a839d79212f744
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the AT-SPI 2 toolkit bridge
  These are the development files for libatk-bridge2.0, needed for
@@ -16040,23 +16041,23 @@ Description: ATK implementation for Java using JNI
 
 Package: libatk1.0-0t64
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 208
-Provides: libatk1.0-0 (= 2.61.90-1)
+Installed-Size: 209
+Provides: libatk1.0-0 (= 2.62.0-2)
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), at-spi2-common
-Breaks: libatk1.0-0 (<< 2.61.90-1)
+Breaks: libatk1.0-0 (<< 2.62.0-2)
 Replaces: libatk1.0-0
-Filename: ./libatk1.0-0t64_2.61.90-1_amd64.deb
-Size: 51648
-MD5sum: f912f1e87a01a3775f07cc34ecc94d94
-SHA1: 5415ac9bccf150f5a65f70a07c60ec58a8378cad
-SHA256: 202b771f9e8944be7f5ccd2df46a490d36c5f20096bb72ba1df1fda8fe2423aa
-SHA512: 98279a88dadecfabc02409a062a0a5f468d15c8a708da7bcb0a619705f51cc4bbe553dadf34fba23be592dc224e977c736f5c50c22bfbccb2376067f84540729
+Filename: ./libatk1.0-0t64_2.62.0-2_amd64.deb
+Size: 51696
+MD5sum: 7e9f77e8a2e9e71dfcebe2aef0fb44d1
+SHA1: 17d5cb85548385fed18665686331a75fed1e4e15
+SHA256: 7e6abbb33ac4b0473cd9d03b510b53d3d0bb92ba529eb1241580f30036c1fa4e
+SHA512: 6c8554bda0f180c95c0c857f8e0f5aa0ab06597c4932ff9d189f15011c2d14ef7e460b129eb58a0d91b668f8b1b91125c30a35ccf1b1a546a85d94d5874ebd13
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -16068,22 +16069,22 @@ Description: ATK accessibility toolkit
 
 Package: libatk1.0-dev
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 1357
-Provides: gir1.2-atk-1.0-dev (= 2.61.90-1)
-Depends: gir1.2-atk-1.0 (= 2.61.90-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.61.90-1), pkgconf, libglib2.0-dev
+Installed-Size: 1358
+Provides: gir1.2-atk-1.0-dev (= 2.62.0-2)
+Depends: gir1.2-atk-1.0 (= 2.62.0-2), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.62.0-2), pkgconf, libglib2.0-dev
 Replaces: gir-repository-dev
-Filename: ./libatk1.0-dev_2.61.90-1_amd64.deb
-Size: 103692
-MD5sum: 8f7ea65803e11364a641738989abe405
-SHA1: 4a2ac190b43b186302d0f6b668f93b7340c16ea7
-SHA256: 2bb321ab3d71bb1cd323b0d27a4842b565152d9c0ae358c9469132ec736a298e
-SHA512: 3a5edb9ce62b96471a0810295e93930dfd2ff107d6548501a0ed5efd51d4544e475eb7220710fc23b83ad483163c6e380a568dc69654905772b894c84d658e08
+Filename: ./libatk1.0-dev_2.62.0-2_amd64.deb
+Size: 103764
+MD5sum: 9149dc13f9685302fb0e5dd7b18d7028
+SHA1: a32be71dc23e86e202d31425e6e0e5412b501d68
+SHA256: 2fc5e4732b37d3dde6155b0d5c5e1209138291a6980454b99e2b77e278f558d6
+SHA512: d435722c989228833e5a06373e999db837dc22dc98c6a610e3baf0b566ca6c077e1ba472e0995dd73519d8c106adb38c7941867b5ad8b77bbcc2d06954f41408
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -16196,24 +16197,24 @@ Description: MATE document viewing library
 
 Package: libatspi2.0-0t64
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 297
-Provides: libatspi2.0-0 (= 2.61.90-1)
+Installed-Size: 298
+Provides: libatspi2.0-0 (= 2.62.0-2)
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4), libxres1 (>= 2:1.2.1)
-Recommends: at-spi2-core (= 2.61.90-1)
-Breaks: libatspi2.0-0 (<< 2.61.90-1)
+Recommends: at-spi2-core (= 2.62.0-2)
+Breaks: libatspi2.0-0 (<< 2.62.0-2)
 Replaces: libatspi2.0-0
-Filename: ./libatspi2.0-0t64_2.61.90-1_amd64.deb
-Size: 86692
-MD5sum: 94f775b82a9844a7e324cb0d5beb7b22
-SHA1: 716c38bbbcfb77b58205b83b31bc88b4957ab1d6
-SHA256: dd47225c4fcade68f237145856a590f5f65ea7b854280076dade61d241c2da79
-SHA512: 86314f9ebf18709bd2a4176b2a691df0798d3a6543c9a3719246b3192195e35172770a2d97e1ca19f7ffb7427018bc90d576feda61d5370a990f2e434e3f010b
+Filename: ./libatspi2.0-0t64_2.62.0-2_amd64.deb
+Size: 86884
+MD5sum: 8a53c252a6468381f2d3e774ce611893
+SHA1: e2b33c9fe5c854a4712a23c6a6dad9fdea7c9416
+SHA256: e6296ad1116cc3e387fd8f7c84f81ab8fb958bfdf2ad29ea467681a253132035
+SHA512: 1a909d771a036cf774825aa94a53ab421954892e8f8a44cd0a394f46c4d41d0c39b48d615f3e599c29b355bfc3280f973477e52057eb7a3793115550065a0967
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface - shared library
  This package contains the shared library for applications that wish to use
@@ -16221,22 +16222,22 @@ Description: Assistive Technology Service Provider Interface - shared library
 
 Package: libatspi2.0-dev
 Architecture: amd64
-Version: 2.61.90-1
+Version: 2.62.0-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 893
-Provides: gir1.2-atspi-2.0-dev (= 2.61.90-1)
-Depends: gir1.2-atspi-2.0 (= 2.61.90-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.61.90-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
+Installed-Size: 894
+Provides: gir1.2-atspi-2.0-dev (= 2.62.0-2)
+Depends: gir1.2-atspi-2.0 (= 2.62.0-2), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.62.0-2), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
 Replaces: gir-repository-dev
-Filename: ./libatspi2.0-dev_2.61.90-1_amd64.deb
-Size: 83012
-MD5sum: 8e0f5273bc4dc7145bd8fb968e3955b8
-SHA1: e44eb9fad2ef9b86c0d89c0d569bea118667d1e1
-SHA256: 15f13babb09b591e9dddf09e09618118772f512e076a2f63aa6d361702482f19
-SHA512: 1c5ed882a300eaa8caa48f97b6a88d0834fdc3cae7f9cc7811743d80fa3b5a21e6b40a711fb15a56ab742c992d05f3abf03fb984ecdfa3a3891138cb687f7746
+Filename: ./libatspi2.0-dev_2.62.0-2_amd64.deb
+Size: 83112
+MD5sum: dcbe7efec870462e69f1321105569851
+SHA1: 2d0cdea469d24249123899c40419faa5d2889f91
+SHA256: f47e6f03a41d9e6e0730bc632a753de3a54162912480774bfd7d0ac15049fad3
+SHA512: b9d8440123a639296d9b3b839b4123459114dfa8a03e61d2d3078b2ba5c4329682efc6006f2c46971cc7885577ea7a09422c25b760c652cdd2b43abe592b5b0f
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the assistive technology service provider
  These are the development files for at-spi2, needed for compilation of
@@ -16244,20 +16245,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libavcodec-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 27277
-Depends: libavcodec62 (= 7:8.1.2-2+b3), libavutil-dev (= 7:8.1.2-2+b3), libswresample-dev (= 7:8.1.2-2+b3)
-Filename: ./libavcodec-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 7512868
-MD5sum: 6e048acd4b1295a8c4d9f87f1a1e0ac6
-SHA1: 72e9e245f9f865a6f5347a79db97e54076335624
-SHA256: a097b781f9e4be2daea518313627844b6da0fb71227c0bf4f4d4afafb72798c9
-SHA512: 00aae2bac83f6db0b20f091ef5d0dc16e5211f7f7c10ff9454ea6fd6c5887344ecb16dbb89036efe4930599efbbca8960a4b715e7da79ae4725b99d8105b19c0
+Installed-Size: 28350
+Depends: libavcodec63 (= 7:9.0.2-1), libavutil-dev (= 7:9.0.2-1), libswresample-dev (= 7:9.0.2-1)
+Filename: ./libavcodec-dev_7%3a9.0.2-1_amd64.deb
+Size: 8463124
+MD5sum: a2f4cbf0bd0135e0bdf2122b0fa4d5fe
+SHA1: faf1afd8be45b12ee7f8e066485c540a8aad42ea
+SHA256: b2c12022e31ec1b4a93e1ce01899f4757bfc47eb7fafc9fc6ba52fb169bdb9b7
+SHA512: f0bc761ba0fcf6a82fb4fde6053594a3b32c0ae65890dc2744b3fba5992c373240fb7020bf6f11f5abe0a28785c8ac23080f098422f6a3dd7a50642b4bf9b4d6
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16311,20 +16312,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavfilter-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10680
-Depends: libavcodec-dev (= 7:8.1.2-2+b3), libavfilter11 (= 7:8.1.2-2+b3), libavformat-dev (= 7:8.1.2-2+b3), libavutil-dev (= 7:8.1.2-2+b3), libswresample-dev (= 7:8.1.2-2+b3), libswscale-dev (= 7:8.1.2-2+b3)
-Filename: ./libavfilter-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 2569584
-MD5sum: 3e945036fea3996bd7fec6a4c0702ba9
-SHA1: d2c253f7eff0bc4e9a4fb037488c1f74595c3033
-SHA256: e7e82433de94d799ec079e7033ccec5f9d78a5db8dbbcde14f7054a1a3ae9d74
-SHA512: 77bd593b138813495fc014eaec3447fd287120e73a92c042ba4f3c7b4990a7bc628c8fb9fd5f3ebfba4b2b693c8f1da53c50acd1ec8ca72f999551a28d225e1c
+Installed-Size: 10835
+Depends: libavcodec-dev (= 7:9.0.2-1), libavfilter12 (= 7:9.0.2-1), libavformat-dev (= 7:9.0.2-1), libavutil-dev (= 7:9.0.2-1), libswresample-dev (= 7:9.0.2-1), libswscale-dev (= 7:9.0.2-1)
+Filename: ./libavfilter-dev_7%3a9.0.2-1_amd64.deb
+Size: 2739516
+MD5sum: 3a3ff0af0a1e99ff8cb016bd71d7238b
+SHA1: 2c7a645767fc800f11f92ed553b7ca72249d9a9d
+SHA256: 04be2002c0afa75194f7eea56067ef30bb1f02038336179ef38bae51549c59ea
+SHA512: b21717f972cebf3636e4a95b6bf0d84c68b6c947debd33c42dd82992971fd16a25c239129b766b8afa0ef0de4465c9bb010060817dde44089447dd1c4bfb6a0b
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16368,20 +16369,20 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavformat-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 6453
-Depends: libavcodec-dev (= 7:8.1.2-2+b3), libavformat62 (= 7:8.1.2-2+b3), libavutil-dev (= 7:8.1.2-2+b3), libswresample-dev (= 7:8.1.2-2+b3)
-Filename: ./libavformat-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 1570848
-MD5sum: 5de024742c9212199d02dd70091af330
-SHA1: 60ad2637eba1413309015462be61f8f670ddbb0a
-SHA256: d818fa08dbb4e5399606e6c7c75257f79de3c5f98ee307c98a6937df05bd3978
-SHA512: 11bf06b20df7f51faf088dc897242ee182126644db5e05b36fb00797addf8b10ed8dc285fef6de3b55f46efd1160266694aa0518da96a45a59283f5ac10bf2f0
+Installed-Size: 6563
+Depends: libavcodec-dev (= 7:9.0.2-1), libavformat63 (= 7:9.0.2-1), libavutil-dev (= 7:9.0.2-1), libswresample-dev (= 7:9.0.2-1)
+Filename: ./libavformat-dev_7%3a9.0.2-1_amd64.deb
+Size: 1598096
+MD5sum: 68932cb3102025f95aee8ef29eb88dbb
+SHA1: 60b5d2e40953e6025fa467f682264489dee5e797
+SHA256: 6f286f61a94d8ba3a63a0fc57451f3404bbf800b618945c958d73ded8461d9ab
+SHA512: b7addc098712151d19a6b56d82e1b35ac8839eb311e27dbee59435155131d46dc505a71ce9c058a8a325e3f40079f89c5487f880a44bf6b4f86bb31d792244c0
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -16451,20 +16452,20 @@ Description: Library for handling .avif files
 
 Package: libavutil-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2683
-Depends: libavutil60 (= 7:8.1.2-2+b3)
-Filename: ./libavutil-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 627644
-MD5sum: 779ce60abbaedc66225cdb9d4840a274
-SHA1: 753dc0ab601ec60caf30a47c9b1d0cbb98eee94e
-SHA256: e0eac9fbf6342b6cd892494bc33ccc26d25bcfccc98116649128be4477bb9ce4
-SHA512: 9c8bec700bd3f9ca14cbb4b7fc10f79b71557f0fae9d726b8f526ea4c5fd7b89b053840a46e44a320504379b51c67103b6e00b9441cfb502af53119df938b274
+Installed-Size: 2688
+Depends: libavutil61 (= 7:9.0.2-1)
+Filename: ./libavutil-dev_7%3a9.0.2-1_amd64.deb
+Size: 630136
+MD5sum: 66015d2cd3276c134e07bdc09811ea9e
+SHA1: 91782511d6916b46d0101c748d81718030e4f42d
+SHA256: 152deea94a03e0ebda5775edb2244f45dec28125d834f4b27385eebf2ffd6674
+SHA512: 601355e5927806f5ec09579d0649674af2eaede816bfe46d3439d1aa227913be2f2b01fa851029f5e61a30087ae461f813fccfcaed5511972504aa96ccbf5bf5
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -18736,20 +18737,20 @@ Description: Control monitor settings - shared library
 
 Package: libde265-0
 Architecture: amd64
-Version: 1.1.2-1
+Version: 1.1.3-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libde265
+Source: libde265 (1.1.3-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 542
+Installed-Size: 559
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
-Filename: ./libde265-0_1.1.2-1_amd64.deb
-Size: 212832
-MD5sum: 7236257f2b9fe202f7988cd607df28c9
-SHA1: a5ae017eedb5d8bf5a499896a907b71d9367ca1a
-SHA256: 7eb6fc5f86c305ab0864c7da89ae0f51d7ccc25746dcd1cefed2a3ddca262e50
-SHA512: 942d33aa7052d1f081ec06c027486df47076ee90da0970b607a10e830576cfe84fb60c22adb5d03c01706f60b3ec77d7b3956b538eb0bad911ddb8b626c3ddfd
+Filename: ./libde265-0_1.1.3-1+b1_amd64.deb
+Size: 218828
+MD5sum: f10146e378ed4c3889d82a7ca47ca409
+SHA1: 0b4ec601c92f80b1cb1cba55be0121e8cffd0a16
+SHA256: 7b7fc4f5d17c726abd320db4c0a3102d89bc74ca6a15810f9a0b03a73fce5b45
+SHA512: ff109568896bda4395c3d7e0c1a67fb0b0b7cd0ff06e8dd1729c1833c6c6dc72e63f226cf37719f853551e8171a7040e47fc67f6f81c7df221f9dd8635fa4b6f
 Homepage: https://github.com/strukturag/libde265
 Description: Open H.265 video codec implementation
  libde265 is an open source implementation of the H.265 video codec.
@@ -21191,22 +21192,22 @@ Description: FFADO API
 
 Package: libffmpegthumbnailer4v5
 Architecture: amd64
-Version: 2.3.0+dfsg-3
+Version: 2.3.1+dfsg-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ffmpegthumbnailer
+Source: ffmpegthumbnailer (2.3.1+dfsg-1)
 Maintainer: Nicolas Mora <babelouest@debian.org>
-Installed-Size: 279
-Depends: libavcodec62 (>= 7:8.0.1), libavfilter11 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 9)
+Installed-Size: 291
+Depends: libavcodec63 (>= 7:9.0.2), libavfilter12 (>= 7:9.0.2), libavformat63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libc6 (>= 2.43), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 9)
 Conflicts: libffmpegthumbnailer4
 Replaces: libffmpegthumbnailer4
-Filename: ./libffmpegthumbnailer4v5_2.3.0+dfsg-3_amd64.deb
-Size: 81432
-MD5sum: 1cc7ac62d550f2405f9aa660910526de
-SHA1: 8de21b400b0f6e8f22282026fcde8ee7b01ac6bc
-SHA256: 3810913bf96ffe9453d2dfd0eb153531b20cef210c112bff55a0acd94ed0238c
-SHA512: a0fdefd16804dba7359bcba1676934673e7398d792501c8a857e08b337ad6d9fd1e42819a1075b2ab529327197e18d7a503229ac46d75379956afd24f904a54d
+Filename: ./libffmpegthumbnailer4v5_2.3.1+dfsg-1+b1_amd64.deb
+Size: 84708
+MD5sum: 6bc40e67df2572088e49103b11e0b33e
+SHA1: ae4d53b14da873ed94f59c61601ad8221560df97
+SHA256: cbbf96ae2c6d96e282b588e9820f0aa9bb09706c682a9fb1cb89cfcf7669cc8e
+SHA512: 6720c3b01c4ded48d2013de0ca85c5a29ee88cea0500f31ab7ad40d9ab0eb41b76dbde6c50cb9a167e8860a312b6383ddafb1da5feb54d63435450a7d439a3cd
 Homepage: https://github.com/dirkvdb/ffmpegthumbnailer
 Description: shared library for ffmpegthumbnailer
  FFmpegthumbnailer is a lightweight video thumbnailer that can be used by file
@@ -21725,20 +21726,20 @@ Description: Library for parsing the FreeHand file format structure
 
 Package: libfreerdp-client3-3
 Architecture: amd64
-Version: 3.31.1+dfsg-1
+Version: 3.32.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 866
-Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.31.1+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.31.0)
-Filename: ./libfreerdp-client3-3_3.31.1+dfsg-1_amd64.deb
-Size: 301872
-MD5sum: 46b19e9fec95b9881f7d28ae38a51ad7
-SHA1: 09d8d468457bf37e1ef8c36b7a5b1b409f08c454
-SHA256: c68eb9ef64187a23bba589c9dba9f5d630d996bc9ed6b95f6edb1e1b2f19800b
-SHA512: f73adcda0ec970dfe36896cca4cccbfae988c515bce7bce8d7bc071e06f8bdeed00ebfa893e49fbb9d893ac6d25fc047d9490d326bc695974b75eede14d71cbf
+Installed-Size: 898
+Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcbor0.10 (>= 0.10.2), libcups2t64 (>= 1.7.0), libfido2-1 (>= 1.14.0), libfreerdp3-3 (= 3.32.0+dfsg-1), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.28.0), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libsso-mib0 (>= 0.5.0), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.32.0)
+Filename: ./libfreerdp-client3-3_3.32.0+dfsg-1_amd64.deb
+Size: 314216
+MD5sum: 580fa62c8f6db2f13b48aba55d3fc1c3
+SHA1: e9b2cd05f2bfdaf13e829e9466ba870112a9a800
+SHA256: ccd7fabe212c5bcb71a83e23573f1abfc2ac96788d005a5df58a90e29c6ad338
+SHA512: 117e6c0b113cb1b0c0fcaab45e26cc168e4e3d3cef284b796b4ca0914d31e3fd4ebef38f43a7906831636775ead08c24eee50286245973813b7a1a0e5e18c6eb
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (client library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -21748,20 +21749,20 @@ Description: Free Remote Desktop Protocol library (client library)
 
 Package: libfreerdp-server3-3
 Architecture: amd64
-Version: 3.31.1+dfsg-1
+Version: 3.32.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 324
-Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.31.1+dfsg-1), libwinpr3-3 (>= 3.31.0)
-Filename: ./libfreerdp-server3-3_3.31.1+dfsg-1_amd64.deb
-Size: 101492
-MD5sum: 089a2668613e4cba2718d569104f980e
-SHA1: 93ae845916e7ce9c4b2158a7e9af9104b6fc0caa
-SHA256: 209f9f7748ee798b98e4c83becba7f6a7a98019abaa1ea135a4e88ec102a19a8
-SHA512: 39d364e5a12227dd1422125468b84f06bb09c260d71823dae65d99e003eb803a3aec427eeebd38a34a979065cc53a3a6db2fe189ee3d8b2922ef6fcd6eafc7ce
+Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.32.0+dfsg-1), libwinpr3-3 (>= 3.31.0)
+Filename: ./libfreerdp-server3-3_3.32.0+dfsg-1_amd64.deb
+Size: 101560
+MD5sum: 42112bca8d1e670c871249696da49c43
+SHA1: 2166152606d1294f40396f67ab2c54eda12cf922
+SHA256: f9d878485a4ffb9724abb19d5c6e5158ec7391c339675126ea319d877f6b747f
+SHA512: 81c580e543eecf7728312d971defb30104d1457de765e7d15ca67fe1c5fbda19b4541444e8db84bad3ec409844d9d6404f7ce53be25c35bf364a6f3ef0b4bdc6
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (server library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -21771,21 +21772,21 @@ Description: Free Remote Desktop Protocol library (server library)
 
 Package: libfreerdp3-3
 Architecture: amd64
-Version: 3.31.1+dfsg-1
+Version: 3.32.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 2318
-Depends: libavcodec62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libwinpr3-3 (= 3.31.1+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
+Installed-Size: 2334
+Depends: libavcodec63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libc6 (>= 2.32), libssl3t64 (>= 3.0.0), libswresample7 (>= 7:9.0.2), libswscale10 (>= 7:9.0.2), libwinpr3-3 (= 3.32.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
 Suggests: freerdp-x11
-Filename: ./libfreerdp3-3_3.31.1+dfsg-1_amd64.deb
-Size: 790256
-MD5sum: 13dd8422c3c144f1b27408229ead4020
-SHA1: 8136d293bf5050a1c9e12c978721b476e84f4631
-SHA256: 02c142dc13c25fe82ba5322f53e468150b480ba5a11ff63125380a7e90ff758d
-SHA512: ec71a9d5b4d81c8ceb554fac08c963252d9cfe71ccafc5a8396ea400cd462697cc718cb17fb46a0f93a5fa98a0b9dc477d5a061537e33f65e41eed37b47a174e
+Filename: ./libfreerdp3-3_3.32.0+dfsg-1_amd64.deb
+Size: 797464
+MD5sum: 2c4a49f767ecd24515f37ba60e465163
+SHA1: 7766874a147c625e39a30eed153fac9a35739feb
+SHA256: 1b21ac39ae4c7c80fa82be40ce5982501efd5fe5989d550b769f9c7067c37c43
+SHA512: 3e177c67eaf6068a173ad6e9c25d0089fd2d99a0b69de3c2bfb9056dbf4c046238a8172bad801c5500f1900c7999b5b7f3116480508615aad11e4efb39869500
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -25205,20 +25206,20 @@ Description: OpenType text shaping engine (shared library)
 
 Package: libheif-plugin-aomenc
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 80
-Depends: libheif1 (= 1.23.3-1), libaom3 (>= 3.2.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-aomenc_1.23.3-1_amd64.deb
-Size: 29664
-MD5sum: d38acc20a461fb4f98ce04dc7267f450
-SHA1: 0a4e731aa03437ea4cc9d1eb560d6bbc40c252f2
-SHA256: 4cd80d170f702d00d61474be0cd8c4b9a7029f189154037c4c3485583448b2d5
-SHA512: 1addade9b0b0a544607164fecb798edae9a7f86e9fd02e9a7ab10d7274447d9e3e2fc1db327f759b1c405b2202927ee19aec1fc88037078b9640c7dfa697e68a
+Installed-Size: 89
+Depends: libheif1 (= 1.23.4-1+b1), libaom3 (>= 3.2.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-aomenc_1.23.4-1+b1_amd64.deb
+Size: 30940
+MD5sum: f48d7101736b116bf7b78b61acb5ef27
+SHA1: 48b002fdeafd2752d620a1b6c5d4f98dfd4148d8
+SHA256: 39cea411cf7c9f729c75dfb2ad860fd63a0aa3e9642cd3d4ecfdec0fdbaf737a
+SHA512: 5e6b2d8fd09441baa44d5ffcf210e9e1a93344c002f50f4d5b6e39dd71767ff1eadc1500d7272c54ed727879d4a805acc74022abfefae9011b39c7861d0337e8
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - aomenc plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25237,20 +25238,20 @@ Description: HEIF and AVIF file format decoder and encoder - aomenc plugin
 
 Package: libheif-plugin-dav1d
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 60
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.14), libdav1d7 (>= 0.1.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-dav1d_1.23.3-1_amd64.deb
-Size: 20788
-MD5sum: e16ea6987e69f65902cf6d01e66cd127
-SHA1: a207612bcf61051f03374b409de2888874d79253
-SHA256: bdaa9961b90e87a94e92832820e3bf6003e16693c05756c8dc78d0eb5165cdbf
-SHA512: f612f07fa84e5a139c56bfe310f864aa22c2a474a8009ab639347fcf1fb904285a74ae64b245afeadd27b98d515b9e3eecb9a9be2108252218d4f2f034917b3e
+Installed-Size: 61
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.14), libdav1d7 (>= 0.1.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-dav1d_1.23.4-1+b1_amd64.deb
+Size: 21400
+MD5sum: b894faafd9240a9126389b392e6106c6
+SHA1: 2b172ed1f41ffd6dfc992c493bcbd9f13c95540c
+SHA256: 8c16ee89dd6b0bd65ab1f332f6efe7af2429b0ecd66f785dc4c2c472416dc510
+SHA512: 7125e717dd4e9512a774bd73f43427183b90b9d63d5cf25bdd4b30e274f47ca0905024b7c06091bca7065eaa33f2d36ba4342d087c23d912a471e84fe9cfdd10
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - dav1d plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25269,20 +25270,20 @@ Description: HEIF and AVIF file format decoder and encoder - dav1d plugin
 
 Package: libheif-plugin-j2kdec
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 68
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopenjp2-7 (>= 2.0.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-j2kdec_1.23.3-1_amd64.deb
-Size: 21284
-MD5sum: 5100cf3036a130513a38d9d9b06026f4
-SHA1: 039134ae23d2f36472c1d492b7b2aaf26571fcc2
-SHA256: 8ba8166c16525cf0210d0f9163d592cc5ba54f6d61d31a6e314bfcc97d5c61ea
-SHA512: b80b4a1a6c5bc9bb7d4e6db96a8e1aaf6503e9b3d22e0e8cdcaa44b97ea3cc50db7736da65ca9e95814eed5766ce97805c005965b814892b72f93e846cec992b
+Installed-Size: 69
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopenjp2-7 (>= 2.0.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-j2kdec_1.23.4-1+b1_amd64.deb
+Size: 21884
+MD5sum: 3301b7c998dbc835adae268e0288edbe
+SHA1: 6962e4b9f53485e4c76d36d5f4ab76be9c6fc805
+SHA256: 0206bc8be74de69a893741b25f839fd72730f81a7161065cbfb25c238e3521de
+SHA512: c9f4eb7ee877d6982cb7e7ddc8a47940ab40b2d456445a9914d6279e53fd187e37b1fc15fa07c155de8a5011a67417e4ac8e8ba8264f62a7f7915ccabf15c842
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - j2kdec plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25302,20 +25303,20 @@ Description: HEIF and AVIF file format decoder and encoder - j2kdec plugin
 
 Package: libheif-plugin-libde265
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 56
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.14), libde265-0 (>= 1.1.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libheif-plugin-libde265_1.23.3-1_amd64.deb
-Size: 18340
-MD5sum: 465c74f243dcddd42be5312cde388b4d
-SHA1: eb1e811cc01ac66e676f163962f8d65d305d172f
-SHA256: e22def20115d7c41f196746c602d491f78ca4de5c4b9debb7ab23c2a7e3aa44b
-SHA512: b22122c86f8109e9cbbf6f4cb43368225080313cd862f165266c3ddd08f1ba2dcfb828de566b2027a2fd26e3063531f92b935e8a9f9533f2990c5ad648a5c601
+Installed-Size: 57
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.14), libde265-0 (>= 1.1.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libheif-plugin-libde265_1.23.4-1+b1_amd64.deb
+Size: 18932
+MD5sum: b614486d6d333b1fd45014cff91366a8
+SHA1: 01b4dc7006ad32b4c5594f2c1c3b2a60a2ccb076
+SHA256: 710711ea80366eb149da188db922c7dc9754d37169612b5546ee70449b5703d9
+SHA512: 85805157193212a8e648880cac6a16ee28536d9d2b65124f3e276f952dd5f672477ae1bb795c513fca61d27122d01e249f9eb7b3ed1bec54804d8c2508ef3801
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - libde265 plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25335,20 +25336,20 @@ Description: HEIF and AVIF file format decoder and encoder - libde265 plugin
 
 Package: libheif-plugin-x265
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 72
-Depends: libheif1 (= 1.23.3-1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libx265-216 (>= 4.2)
-Filename: ./libheif-plugin-x265_1.23.3-1_amd64.deb
-Size: 26160
-MD5sum: 865ab7e7918c86f158a0f8ace6c6526e
-SHA1: bc3a6a1b79546a1c00b65182a87d36cec4726907
-SHA256: c11c6f930535a911beb2d6dda6e377d43c37c630edffd27c4eee7066eab9d5ef
-SHA512: 64686615b0a083df120408f1978566b19e257b1e50a5947cecd869712016a298f5c9363e1cf480c546003314972f3754da0487b60fcdf9216538be14d18e84b7
+Installed-Size: 77
+Depends: libheif1 (= 1.23.4-1+b1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libx265-216 (>= 4.2)
+Filename: ./libheif-plugin-x265_1.23.4-1+b1_amd64.deb
+Size: 27300
+MD5sum: 7447eb5604029527df1edc09e8ee63a2
+SHA1: 481e85104795561a6744186c5e04846e174ade45
+SHA256: 17742de80d1ae81c9389cad351a98e6e67922788bf6fa7c747e09ccba4702962
+SHA512: 805d08732ee7e374ed3cfc040c0c33eb8e11257e7c5d644cf11438978d4027af152e856b13ab55f06ad2aed4ac17addb15df65cc71b776f7d009bb4419d0b52d
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - x265 plugin
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -25367,22 +25368,22 @@ Description: HEIF and AVIF file format decoder and encoder - x265 plugin
 
 Package: libheif1
 Architecture: amd64
-Version: 1.23.3-1
+Version: 1.23.4-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libheif
+Source: libheif (1.23.4-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2787
-Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libsharpyuv0 (>= 1.5.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libheif-plugin-libde265 (= 1.23.3-1), libheif-plugin-dav1d (= 1.23.3-1) | libheif-plugin-aomdec (= 1.23.3-1)
-Recommends: libheif-plugin-x265 (= 1.23.3-1), libheif-plugin-aomenc (= 1.23.3-1)
-Suggests: libheif-plugin-ffmpegdec (= 1.23.3-1), libheif-plugin-jpegdec (= 1.23.3-1), libheif-plugin-jpegenc (= 1.23.3-1), libheif-plugin-j2kdec (= 1.23.3-1), libheif-plugin-j2kenc (= 1.23.3-1), libheif-plugin-kvazaar (= 1.23.3-1), libheif-plugin-rav1e (= 1.23.3-1), libheif-plugin-svtenc (= 1.23.3-1)
-Filename: ./libheif1_1.23.3-1_amd64.deb
-Size: 857436
-MD5sum: 35752662ac6246b029b44e1581e18882
-SHA1: 72460da1dd0d71acfa160f4bd666739eed7acbd0
-SHA256: b3a2b8bb788d43c2974cecd6b81f9e221fd0a1e3e7c93a885448d1519b34386a
-SHA512: cd341bcae14eda5ac40fd9b75b003fa3a36ad939c6e0a44e5578ef7f2b0f4b0461423d55439e401a171407a1cd7a33489e06c999dbaba6781d78273ccc9d1663
+Installed-Size: 2812
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libsharpyuv0 (>= 1.6.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libheif-plugin-libde265 (= 1.23.4-1+b1), libheif-plugin-dav1d (= 1.23.4-1+b1) | libheif-plugin-aomdec (= 1.23.4-1+b1)
+Recommends: libheif-plugin-x265 (= 1.23.4-1+b1), libheif-plugin-aomenc (= 1.23.4-1+b1)
+Suggests: libheif-plugin-ffmpegdec (= 1.23.4-1+b1), libheif-plugin-jpegdec (= 1.23.4-1+b1), libheif-plugin-jpegenc (= 1.23.4-1+b1), libheif-plugin-j2kdec (= 1.23.4-1+b1), libheif-plugin-j2kenc (= 1.23.4-1+b1), libheif-plugin-kvazaar (= 1.23.4-1+b1), libheif-plugin-rav1e (= 1.23.4-1+b1), libheif-plugin-svtenc (= 1.23.4-1+b1)
+Filename: ./libheif1_1.23.4-1+b1_amd64.deb
+Size: 867344
+MD5sum: 766ba09a0aa4bf157cf210f838f2d896
+SHA1: d2deeea7bf9d4537071445cc7b213cb2f62a0be5
+SHA256: 37a923310c423dcbd4471f156da1a8de10102abbbfd633f2ae7450d9e058fe78
+SHA512: 15d98e76c712e94ba16be73385afa6938a92e58dee0bba4ecb89d76027684a5eea4d1d8d559b93d27799a011260d39b520be27d8f2485aba978274f3d9be8017
 Homepage: http://www.libheif.org
 Description: HEIF and AVIF file format decoder and encoder - shared library
  libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file
@@ -35445,20 +35446,20 @@ Description: sends desktop notifications to a notification daemon
 
 Package: libnss-myhostname
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 274
+Installed-Size: 290
 Depends: libc6 (>= 2.34)
-Filename: ./libnss-myhostname_261.2-1_amd64.deb
-Size: 107108
-MD5sum: 6fcf3301b4f0d70e02fcda2b15a3eeaa
-SHA1: 9ddf2a7924f12a2eea43e6d5bad022ae41223540
-SHA256: 6b942f182826209fe7ad04c440e6225c6c3d08003f528b13bf7a0b504ba7b634
-SHA512: 437c36fc390b31ba9687ce773038a943e1db6fca31ffd7b51dcbcb757e46319d2cf2cf22c3c39161971eeb795cb7b079af71b67a639d2e253d43c73e5abad4a5
+Filename: ./libnss-myhostname_262-1_amd64.deb
+Size: 115188
+MD5sum: 6e02d24e5864218a5b0fe0a7987a86c5
+SHA1: 5567ec0895a3ffc11aefd225cd4abdf795ef2a0d
+SHA256: 25ddaf000f26a5c64a4db73eb0a09a74ebc0e33396ec503869b803bb44bdad62
+SHA512: f1176f02712f9d5e8bfce4fbb16cc3f90534c67d79e9a5c1cab467df3be42ce0d449a58c25063b0c17226856bea09d90d14f8355fdaf83ed09607d14720e8f5b
 Homepage: https://systemd.io
 Description: nss module providing fallback resolution for the current hostname
  This package contains a plugin for the Name Service Switch, providing host
@@ -35475,21 +35476,21 @@ Description: nss module providing fallback resolution for the current hostname
 
 Package: libnss-mymachines
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 491
+Installed-Size: 519
 Depends: libc6 (>= 2.34)
 Recommends: systemd-container
-Filename: ./libnss-mymachines_261.2-1_amd64.deb
-Size: 212840
-MD5sum: c55a669aa190e05dcf24a562b8beb824
-SHA1: 0caeae703603d3fc81ae9c5b2be97ba91ee0c2dc
-SHA256: 6860d1b474b88ad3eaced58515ae94cd01376add5204e3bd6803d28bdc3de14b
-SHA512: 3ae7d266e5fb4ac5501cf44c1fac404fc78d97a8ee378dabb557ef5dc03ca011d56bf7996090fa04b1dc58fe3d582e0d802b54f0e08c9bc6158dafb9317c18ef
+Filename: ./libnss-mymachines_262-1_amd64.deb
+Size: 227476
+MD5sum: 3498a20164a48730d34255f4314cf54e
+SHA1: 4ff74bf7db901ad8cdacdb50a7e301a1673e0c92
+SHA256: b5811ace1b86ff0df934e3394ea862f3e65a48fb482c2db6a50417335bf9294b
+SHA512: 7dbb8a4ce487baac74038589872411b7fc6e4e0329e926b14b0098d117fee2bd0fe4cfdc31f46fa9982e3288dbe757c9e1ea67590944a490dc1fe767fcd81c83
 Homepage: https://systemd.io
 Description: nss module to resolve hostnames for local container instances
  nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
@@ -35501,21 +35502,21 @@ Description: nss module to resolve hostnames for local container instances
 
 Package: libnss-systemd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 557
+Installed-Size: 597
 Depends: libc6 (>= 2.34)
 Recommends: systemd-userdbd
-Filename: ./libnss-systemd_261.2-1_amd64.deb
-Size: 226512
-MD5sum: 3fa5a028eefb058d240ca446e1d3b854
-SHA1: d1b78725ad0cc0daf2c818046060e2c46f2487de
-SHA256: 0a7e646ad3f468a2c4e76a107c45d9e99b87355f1fdf849d817e64e799a1d2da
-SHA512: 097352440cc66bef93d6a48a132df18e2777e69123303c25df4fe6f7247e7f78a7d3f88c7798fa75a4cbb54123543a453314c626538fcb892100b5bb77e8931c
+Filename: ./libnss-systemd_262-1_amd64.deb
+Size: 245568
+MD5sum: 8aef9a0cc20476cb746d5bf28921d9b9
+SHA1: 784df01238c0b52a8f8f30360557130dfbccb8d5
+SHA256: 5903088dee5c8ded1be149f058f570e4e869b29a70d14ba789cc3d324ecb2b1d
+SHA512: 4a1ce6779773701b46ceca3c1be06e2ed7c703ad5ae754e41f3f173c65f792eaf478d84ec285d6c8620eff635c1bc7662ab23732c7686f636a25556ac14f1b1f
 Homepage: https://systemd.io
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
@@ -36366,23 +36367,23 @@ Description: Pluggable Authentication Modules for PAM
 
 Package: libpam-systemd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 785
-Provides: default-logind (= 261.2-1), logind (= 261.2-1)
-Depends: libc6 (>= 2.34), libpam0g, systemd (= 261.2-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Installed-Size: 848
+Provides: default-logind (= 262-1), logind (= 262-1)
+Depends: libc6 (>= 2.34), libpam0g, systemd (= 262-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
 Conflicts: libpam-elogind-compat
-Filename: ./libpam-systemd_261.2-1_amd64.deb
-Size: 317208
-MD5sum: 4825faefb5e7695132c59cadc4336e0e
-SHA1: 94d4bba2e40d83c86529cec1a568d812e5e7783f
-SHA256: 0bde39e2084f4515a82b90a8e98e6da785d81da422f2f1d9a84513a0814c3b89
-SHA512: 617df984bfd8c4567140bd70ce452c0fc113d7387a40efb83358badeb4d3a83bb9daa07d1f1fcaced747685fde3b31017317f80e5f4a6060cf173ff3c908b1ec
+Filename: ./libpam-systemd_262-1_amd64.deb
+Size: 345840
+MD5sum: 2c1953334ecc5ad5043ba3def81cdb0d
+SHA1: 6cca8d2eb0f72390ad18e6b3eabcd5e09749d2f7
+SHA256: b775a867e2cd0ddbb01b15c6e033a3652f8e22dbbc3859e03bd36524a1ca71ed
+SHA512: 6564e11083f595008c59feaeddd6f7e2e8e473257c008a039cd175a1e07c61bff2aca3e23af9c6d0f5fc3590acd1f69f6c3bfb968d50207ca95358a1644df42e
 Homepage: https://systemd.io
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
@@ -46940,20 +46941,20 @@ Description: Reliable Internet Stream Transport -- shared library
 
 Package: librnp0
 Architecture: amd64
-Version: 0.18.1-1.1+b1
+Version: 0.18.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: rnp (0.18.1-1.1)
+Source: rnp
 Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
-Installed-Size: 1255
+Installed-Size: 1306
 Depends: libbotan-3-12 (>= 3.12.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libsexpp0 (>= 0.8.7), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Filename: ./librnp0_0.18.1-1.1+b1_amd64.deb
-Size: 440104
-MD5sum: 500f076b1558f43a380eee56c0b4aafb
-SHA1: 0def3fc64002b15ecdfdd5bb61882d1a83b46fc7
-SHA256: 7744086fa94b54701d9bda509c2f9c493874189b0cf569f1737f9f86a35ac01f
-SHA512: 8c41330c27f5a7e052333c60e3639fe1d06ed5bea98206ab4ab8fb20249bd0dc75188aa5a5d128b10656d74a73eea3077627062d583486403168882edd5e2ae1
+Filename: ./librnp0_0.18.1-2_amd64.deb
+Size: 466408
+MD5sum: 0163b330952b9c80260d1c70d5519e59
+SHA1: 677507e110eb8316f650d0764ec94f53790b2f33
+SHA256: 1c2ca026d2311d29ddfd7dce63474cf9766f687bbe8b897178d834076f8504e2
+SHA512: 2a702ba819527d1cf9c1bd94abdb99cd43fa46d8441a69b876bd506341e256ff8f32d77272af1844cee992d6b988c4a7cbbb2aeeb648b2bc85a72cad5b6fec83
 Homepage: https://www.rnpgp.com/software/rnp/
 Description: Cross-platform OpenPGP (RFC4880) tools (library)
  RNP is a set of cross-platform tools implementing OpenPGP (RFC 4880) and
@@ -48185,20 +48186,20 @@ Description: Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
 Package: libswresample-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 411
-Depends: libavutil-dev (= 7:8.1.2-2+b3), libswresample6 (= 7:8.1.2-2+b3)
-Filename: ./libswresample-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 125328
-MD5sum: e43463527e90e57770a5bc7f3100f432
-SHA1: 33cd2a370777ea8481e00de2f133e9f26f7a5b4f
-SHA256: 9b3b75830f27d3b9cfcfdd3bbd09c5905d27bcc1119fcb698f972607cfbcdf23
-SHA512: 244c478715b15be9c36fc3ff30cc9c565e2e5318aa3d570467f5c3c570fbfedd15855ea8f4954c90f460216bbf35bd73f28e11a9d9a464bdf91a4e98539863bc
+Installed-Size: 410
+Depends: libavutil-dev (= 7:9.0.2-1), libswresample7 (= 7:9.0.2-1)
+Filename: ./libswresample-dev_7%3a9.0.2-1_amd64.deb
+Size: 124496
+MD5sum: ed02c32d66b4acafeae725ecf388ad2f
+SHA1: 9d8f41088eb207ba26d37b76351f13b77991afcc
+SHA256: cc5d6b5e19a21a66761907a12d6a353cb1d371ebe06adae8b49090262c222779
+SHA512: 1eb4a812d4944722d99d0548992c42d23b241e3b127672e16b4719f26afba309aa509e92f8b6f1be4e92ee8ec7062b31718bbffed40bdd1e0516256e16fdb97a
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -48273,20 +48274,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswscale-dev
 Architecture: amd64
-Version: 7:8.1.2-2+b3
+Version: 7:9.0.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: ffmpeg (7:8.1.2-2)
+Source: ffmpeg
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2524
-Depends: libavutil-dev (= 7:8.1.2-2+b3), libswscale9 (= 7:8.1.2-2+b3)
-Filename: ./libswscale-dev_7%3a8.1.2-2+b3_amd64.deb
-Size: 560816
-MD5sum: 5c44da3b329bdf9a4a719dc24b5ac256
-SHA1: 0056632f0b74f01adc7bd00aca8349b3e54a93d1
-SHA256: 26349ea2b80ae6ff96ea579eaaa9c4e3a8eaa7caf2922e3c92823f08649127f2
-SHA512: 26cf39b4d5819b3c381bb335de9e86316ba5ae2f723414d0e6315633d3b410bfef914efcf6060e23669374e93c808cd70bb53c85dc3320e2f0b8a0a9e0927a08
+Installed-Size: 2829
+Depends: libavutil-dev (= 7:9.0.2-1), libswscale10 (= 7:9.0.2-1)
+Filename: ./libswscale-dev_7%3a9.0.2-1_amd64.deb
+Size: 623024
+MD5sum: e8a80de3f7f35ff1980589f47a2be1f4
+SHA1: 4e985e5ddeaf5fbc9fb15e949b480a78e8174550
+SHA256: 33b72cfabfcc207c1fde680343b2797830b0f03ab646321178e2fbe2312c689e
+SHA512: e0b10b401f7c808241d785bbc9d7e723706659aaf922e980529b94282bb023b1c2455cf3a8e6573d805d55a4efaa9f6e94d37d1d9ebaf89b29085c2f7e9496ce
 Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
@@ -48391,20 +48392,20 @@ Description: Qt-based interface to system statistics
 
 Package: libsystemd-dev
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 6146
-Depends: libsystemd0 (= 261.2-1)
-Filename: ./libsystemd-dev_261.2-1_amd64.deb
-Size: 1385444
-MD5sum: 9b639383b13a7aa5fa6299a030764824
-SHA1: 90b8b1ac769b96f49e6c9dc988756517f3f176a1
-SHA256: d99f6eadc54fd7735ceb1d9531aceb453c6b4ba4f6580e8ad65aeee9ceb73a07
-SHA512: 81aefd17cc608cfc9ae67d95cfb5de0d907afbd921e14e43b22696c974835f87a9aa7beabc2ee3eda8be9882184ff3ee30adb1259db516340016cfd6cb784758
+Installed-Size: 7759
+Depends: libsystemd0 (= 262-1)
+Filename: ./libsystemd-dev_262-1_amd64.deb
+Size: 1561300
+MD5sum: a3d833a3f44086e52212af9b7a8c6965
+SHA1: 4d5e21f37cdfb2bbe0535720b7fec76810ceeda7
+SHA256: 89d37ed3c096161e8d7d7042884d4cec927ee73e4ec5fa022df27da6fba7e2cb
+SHA512: cbc9a304da0af0a3f88ccc61640d984d669914f26cb2de2d63fb0c52bfb992ed15a636d9c196d46d4e07652a56873464f8a6d618b969f2993ef49c921e19d51b
 Homepage: https://systemd.io
 Description: systemd utility library - development files
  This library provides APIs to interface with various system components such as
@@ -48415,22 +48416,21 @@ Description: systemd utility library - development files
 
 Package: libsystemd-shared
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 8535
+Installed-Size: 9076
 Depends: libc6 (>= 2.34)
-Recommends: libacl1, libapparmor1, libaudit1, libblkid1, libbpf1, libcrypt1, libcryptsetup12, libkmod2, libmount1, libpam0g, libseccomp2, libselinux1, libzstd1
-Suggests: libarchive13t64, libbz2-1.0, libcurl4t64, libdw1t64, libelf1t64, libfdisk1, libfido2-1, libgcrypt20, libidn2-0, liblz4-1, liblzma5, libmicrohttpd12t64, libp11-kit0, libpcre2-8-0, libpwquality1, libqrencode4, libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, zlib1g
-Filename: ./libsystemd-shared_261.2-1_amd64.deb
-Size: 2571312
-MD5sum: b89fe34348fd613d415d2edd650a90a8
-SHA1: 705e20c5107c7c91323ef11a3f0f7ef28f61eab8
-SHA256: 9e8eaa464d61998bddef02d517a0eae04b9457cad78b54e603f3621d6a13365a
-SHA512: d1a5c843ebc53377fb0aafcf1c9880c5bd994a4e799220224a09902ddd872bb29993a9422227f0f03b256cea6f0183d07a8e7cf5127daf90e214d5c0cd7b2f4e
+Suggests: libacl1, libapparmor1, libarchive13t64, libaudit1, libblkid1, libbpf1, libbz2-1.0, libcrypt1, libcryptsetup12, libcurl4t64, libdw1t64, libelf1t64, libfdisk1, libfido2-1, libidn2-0, libkmod2, liblz4-1, liblzma5, libmicrohttpd12t64, libmount1, libp11-kit0, libpam0g, libpcre2-8-0, libpwquality1, libqrencode4, libseccomp2, libselinux1, libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, libzstd1, zlib1g
+Filename: ./libsystemd-shared_262-1_amd64.deb
+Size: 2788776
+MD5sum: 0008f1220b67aec2b7a7e8cc503169be
+SHA1: b0b5770eef5ff5ef15a042e73be35a4df813055f
+SHA256: 66978b0102d1da834afa5ec670f8f6a1ded893be9fbe08fa2a5c95c152f90b51
+SHA512: f32f9cbe75dbddca52cd14f2d476fb7208ab08eed1186f082039540f1ec07dd92cc75bc9bbe5eb0ac5bbc6644a316f97609e50b73543d8f6121c1f6360f3d176
 Homepage: https://systemd.io
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
@@ -48439,22 +48439,21 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 1281
+Installed-Size: 1381
 Depends: libc6 (>= 2.34)
-Recommends: libzstd1
-Suggests: libgcrypt20, liblz4-1, liblzma5
-Filename: ./libsystemd0_261.2-1_amd64.deb
-Size: 468248
-MD5sum: 3c38224892124a7457ac5f363c60ecd9
-SHA1: b8ec59dd0d74f8b95447e984672730410093d43a
-SHA256: 13b8835c64c5fa97ca03107032a73c288962fa0300654a285d78624028cee6b6
-SHA512: f4d1dd0f309bb8c737a3561953a07e1ebb6d37ebce3c7ca453c7fdc8d533e9a89ff6eb5b3148c6957fdfa9496b2bed84cc6af3ff4fa7c0f2ffc6bf398d365c44
+Suggests: liblz4-1, liblzma5, libzstd1
+Filename: ./libsystemd0_262-1_amd64.deb
+Size: 511728
+MD5sum: 5117ea9479fcfa37a9c46a249da31ecd
+SHA1: 11373dc2b61701456f3425aebf2a55725ba3f0f5
+SHA256: 4d28018b91c1f7e605c0e35a2f5be0cb00dd7d8afaea93d15a9bc554343bb7ac
+SHA512: 85c54778e37f83d8ab66f952f0ca20688a288e749fbf7f02a8dc21cac21a00e7ebfa406f41d04033f91bcb986ca7de2efa63fdba651388589959749bb7cd8432
 Homepage: https://systemd.io
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
@@ -49613,20 +49612,20 @@ Description: UBSan -- undefined behaviour sanitizer (runtime)
 
 Package: libudev-dev
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 147
-Depends: libudev1 (= 261.2-1)
-Filename: ./libudev-dev_261.2-1_amd64.deb
-Size: 54020
-MD5sum: afa4e2d0a164e900d587533c821832a7
-SHA1: 197918d29c44db42b22f8e5b6ca4a36aa13c9a7d
-SHA256: c476367bf60d765fa0c72df4bddda21c4ac71fa32504e5de1c5f94e909ad6ea2
-SHA512: cfb20c202c3bac05542fb9496f3acbf55966a1173796a00436329d418a1c57d551c309abfe36a95d4f66e004dbd48af3dfd3ae7356b3e20cc9519c4afd8641c7
+Depends: libudev1 (= 262-1)
+Filename: ./libudev-dev_262-1_amd64.deb
+Size: 54480
+MD5sum: d1e2149e788e9336c14ee9a4e9aefab7
+SHA1: 1123103c194926bbadc6455eb1aa0bce3e64fa7d
+SHA256: 6b457c4a15331f31f1168532908e04fd30fef9fa20728bab72bad274a200eec2
+SHA512: ba9525481509e8f6d16f9b399f9cb9d3d535d5673f3f813707117769db6007795b74150a19dec6176cc0a39b6f2b2927e9da1c23c603dd8d7910faa618198da8
 Homepage: https://systemd.io
 Description: libudev development files
  This library provides APIs to introspect and enumerate devices on the local
@@ -49637,20 +49636,20 @@ Description: libudev development files
 
 Package: libudev1
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 357
+Installed-Size: 377
 Depends: libc6 (>= 2.34)
-Filename: ./libudev1_261.2-1_amd64.deb
-Size: 139796
-MD5sum: d63534f63c427e6446c0a1dd9b3bcd2b
-SHA1: fefe8b7ee346fa89e2f661ef78b1942d525c1c85
-SHA256: 23d38d6777cac55b02b999c88f9ff17a9b14a7046b6eeb6d9901cb6bac7df15b
-SHA512: d59d89598d0fe2c16b075d6a6da690a32a0f14a3032e4258f2055f6f28a66573c1242103271e4e77610a2cc52206f2c650918194c37aecded85074669d441f46
+Filename: ./libudev1_262-1_amd64.deb
+Size: 148216
+MD5sum: bcb61d81acc919ef333ecc40abcde1c6
+SHA1: 11568af6ed01c0b8a6895664734bde79e5de46c1
+SHA256: c34216896e550fb8691e65103ac3854455d4ae047b15ed797998edbc3d9230ff
+SHA512: 0a1433dbf0d193a3022a09590b94122acdd4237eb772bdb6b28ff25a4bd7e30e92af9fb99bb7529e4121f24b806ddceb525dbf8a812eb61f1924569068e9729c
 Homepage: https://systemd.io
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
@@ -50007,20 +50006,20 @@ Description: library for parsing the visio file structure
 
 Package: libvlc-bin
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 167
-Depends: libc6 (>= 2.34), libvlc5 (>= 3.0.23)
-Filename: ./libvlc-bin_3.0.23-3+b4_amd64.deb
-Size: 92900
-MD5sum: 75d32ca285ec314df63b65fe45ec8179
-SHA1: 1dd8f859b332f1b369ba9d8f62a0038bf7ee0e16
-SHA256: 525669b1d7eb27086c3443003845f69b90d073fd4d87d79f2027a35f58a61840
-SHA512: a809a386f4f8a7d7fe207459a9e801b1a130e572a5dd92d2d5b409bc1e128c072a32693b0044b614e50204cfe49496dbd271caa3d69c4df0024052846277c5b8
+Installed-Size: 163
+Depends: libc6 (>= 2.34), libvlc5 (>= 3.0.24)
+Filename: ./libvlc-bin_3.0.24-1_amd64.deb
+Size: 93960
+MD5sum: 1b68605dc5de26df18ac88c27e901763
+SHA1: 3a05574d70152577b3db09d504690a5e778dbc34
+SHA256: fbfdbb698463efa3ce4c24d6441a195a626e4cd3fef99016741e2551aa12f557
+SHA512: 38cbe5a939c2c7187bd77aa879049828991d181391f0bcd3bacc909776412100fd8a2e3fb249f6564f63db13107857363dfa455b77b66ea9ead49e55b4047dec
 Homepage: https://www.videolan.org/vlc/
 Description: tools for VLC's base library
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -50031,21 +50030,21 @@ Description: tools for VLC's base library
 
 Package: libvlc5
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 310
-Depends: libc6 (>= 2.34), libvlccore9 (>= 3.0.23)
-Recommends: libvlc-bin (= 3.0.23-3+b4)
-Filename: ./libvlc5_3.0.23-3+b4_amd64.deb
-Size: 144392
-MD5sum: 2fc3820bafb773ee422bce3efb494cae
-SHA1: 9056e9ff939b0b231da761208d8d885832ceff35
-SHA256: ece426a1a21ec6aed6b5dcd473173b3e59cc87d55c669b8672365e7b352c6159
-SHA512: d83767e9de3004e8e2d894bf7d97fe819a987b018f653bdf81ed5de4d6e76ea67e9862f25587cef960abb4b9396f68a74609d4def3e1981b3c51b2274b6123f6
+Installed-Size: 306
+Depends: libc6 (>= 2.34), libvlccore9 (>= 3.0.24)
+Recommends: libvlc-bin (= 3.0.24-1)
+Filename: ./libvlc5_3.0.24-1_amd64.deb
+Size: 145432
+MD5sum: 5d43fcbd1f60d737419acfdacc149a04
+SHA1: 5f4f9b8c56cb08dd11152004e9e1f565d3027990
+SHA256: 100bddfef309620cb042d71c7eed0f4c4dd4c81ac5c7b24fd2da93bd2ca1d9c2
+SHA512: 8924a403a0697d288e29a01e58f02dfde8fcc0dc8fed416a5f740a41ec56ef51fc050ffd4b25dda00bce5e197e93d3522249a375c4f663bce942f6f6993707f1
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer library
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -50057,22 +50056,22 @@ Description: multimedia player and streamer library
 
 Package: libvlccore9
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1317
+Installed-Size: 1313
 Provides: vlc-plugin-abi-3-0-0ft64
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libidn12 (>= 1.13)
 Recommends: libproxy-tools
-Filename: ./libvlccore9_3.0.23-3+b4_amd64.deb
-Size: 535672
-MD5sum: a9e69ee4e3b983cf72d7a09bee547268
-SHA1: 30e1e9f66c516ba1f2ab28d4346f6ce744ef2799
-SHA256: f20326ef0c0d12108f9bf7df2206f36af17649adf8f1d12fcd7228b0473a68fc
-SHA512: 43f7385e2fdf8b3a23b8562ca5cfa849e895c36bef671c1c7c53a79e7cbb40596aa8ae60236a5b69cbb9ec4449837d346fcafebbf88d22b4bedbf974936a073d
+Filename: ./libvlccore9_3.0.24-1_amd64.deb
+Size: 537280
+MD5sum: e9e9bad82a79263d7752f02ae521c858
+SHA1: ac6704a96901ad0abb5835d169744db4900b5889
+SHA256: 3ef257a75b9df9009badcbb2a06e740a38d3c28f35ac524846d7f5b02a1aa9ec
+SHA512: 5c4e0b1bcd9dc248185aadc254b8ba1c31513053ceef91b18ff5b7bcfb4a44eb23d7b3b021057c8c7f9b3b45e8d3ff6b5c2c1f6126cf2faec9feb95505701bae
 Homepage: https://www.videolan.org/vlc/
 Description: base library for VLC and its modules
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -50609,22 +50608,22 @@ Description: Java WebSocket API
 
 Package: libwinpr3-3
 Architecture: amd64
-Version: 3.31.1+dfsg-1
+Version: 3.32.0+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1524
+Installed-Size: 1552
 Depends: libc6 (>= 2.42), libgcc-s1 (>= 3.3), libicu78 (>= 78.1-1~), libjson-c5 (>= 0.15), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.15~beta1), libssl3t64 (>= 3.0.0), liburiparser1 (>= 0.9.0)
 Suggests: freerdp-x11
 Replaces: libwinpr2-2, libwinpr2-2t64
-Filename: ./libwinpr3-3_3.31.1+dfsg-1_amd64.deb
-Size: 420184
-MD5sum: aa87576579c10b6fd23ff149ce60244a
-SHA1: edeeb530a2cf62e5bfec2ff8fe2c5538d6d5656f
-SHA256: ae4b1909d66d5a9d897d1ca080259244d98c41080815aa34a57d81a62c2ffdeb
-SHA512: 71f41e2563b2113dc4e3415d25bcedb616ca18a437103530667fcbf0fb33c4ca14cbc76b1b93c9104188f0f168e04108a388a1aa209ea4d7ed500c0bfaa5f225
+Filename: ./libwinpr3-3_3.32.0+dfsg-1_amd64.deb
+Size: 432380
+MD5sum: ed61d8eb901ae739293cf365ca32ad5b
+SHA1: d8d98529670a98c00001c8236b4b6812c7d331c6
+SHA256: 28e44d3344597cb7c37bf7ff4ce2e8c2d41f793b6bc8f8fb4c613bc910d158d8
+SHA512: da7b483afc0599caa056be456bc0b6ce3626695088d6f7f24abdb715b7bc2da054f8406be3a77e5c247db2f8e15832f53b43976f27b741bd82f661144fcee0f4
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -50776,20 +50775,20 @@ Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
 
 Package: libx264-165
 Architecture: amd64
-Version: 2:0.165.3223+git20250910.0480cb0-1
+Version: 2:0.165.3223+git20250910.0480cb0-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: x264
+Source: x264 (2:0.165.3223+git20250910.0480cb0-1)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1912
+Installed-Size: 1921
 Depends: libc6 (>= 2.38)
-Filename: ./libx264-165_2%3a0.165.3223+git20250910.0480cb0-1_amd64.deb
-Size: 554580
-MD5sum: 621d13e60bc6d4007b367808934f053c
-SHA1: de0c61cfe41e5ce4d35257d2906c96c60934d19f
-SHA256: eb4b2b4b2cf30100eff986fb6cfb4c2781d872c61782e3cfb5cc45a082357b4a
-SHA512: 1e71abc7e42ecfe613650c699848f1f0ec1f030dbf9deba8136603901111a1e0ab2259bb3f0ab099ef9890e3a8e594b3764afbb736473c2c728be32ca940c4c2
+Filename: ./libx264-165_2%3a0.165.3223+git20250910.0480cb0-1+b1_amd64.deb
+Size: 556208
+MD5sum: 9b842ee96273f2a00ad5cea5e7caf0b3
+SHA1: 4cde059b05628c92f3de3772dd2056967d55908b
+SHA256: bb5d222fa7517b2371e1e333aea661c2a540b6c6684f2a16251e3ab2ba9fbdb9
+SHA512: d9a952c92df747003234f8c08347ca2540515d955740f24607f5c781941775d891182becad9daecced5d26f32797891b5d836c800ee2c6045c6f1e0149de2b08
 Homepage: https://www.videolan.org/developers/x264.html
 Description: x264 video coding library
  libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
@@ -52340,19 +52339,19 @@ Description: Openssl engine for the XML security library
 
 Package: libxmmsclient-glib1
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: libs
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 49
 Depends: libglib2.0-0t64 (>= 2.12.0), libxmmsclient6 (>= 0.7DrNo)
-Filename: ./libxmmsclient-glib1_0.8+dfsg-30+b1_amd64.deb
-Size: 11144
-MD5sum: 94061beeb2b9a5120e7f30891bb9a845
-SHA1: 4aac15a6fc398bfb8605d2955168a97510429237
-SHA256: d5cdeeb6fe8c9312db90373fe8b233862f3e2303c58596dad365837c7657575e
-SHA512: 8b97e5de2abf7d944adc32cadbd712ea0a7a49bbfc1df1e22f44f69fc5ccb1ed51fcc654f4a6fe4205e82ffda5fb105a24f565bc8b85f59c4be1eb86dfaa9e14
+Filename: ./libxmmsclient-glib1_0.8+dfsg-30+b2_amd64.deb
+Size: 11160
+MD5sum: 65d31b8ff73bd1462cf45327778c36d6
+SHA1: b2f974608aba198d344f5cf692ffcb0beb94d010
+SHA256: 139de82f735f4a137f2536f0f61b4517977f3a2418ac9964b9c376f740e8c75f
+SHA512: 64c54a98837f80628fc031d64cb52be3718e12b0bd0e1541d3ca4d0bb5c290c06866c6d83f9eeb7c06df705e9e7b94bb46369f79699a4371e688b6a5444305a4
 Description: XMMS2 - glib client library
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -52363,22 +52362,22 @@ Description: XMMS2 - glib client library
 
 Package: libxmmsclient6
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: libs
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 215
+Installed-Size: 227
 Depends: libc6 (>= 2.38)
 Conflicts: libxmmsclient2, libxmmsclient3, libxmmsclient4, libxmmsclient5
 Breaks: xmms2-core (<< 0.6DrMattDestruction)
 Replaces: libxmmsclient2, libxmmsclient3, libxmmsclient4, libxmmsclient5
-Filename: ./libxmmsclient6_0.8+dfsg-30+b1_amd64.deb
-Size: 62172
-MD5sum: 9229b33b37194f7d7cf1d186af74c666
-SHA1: f8d1f5682152159802ca7bc76755e40189c40b8a
-SHA256: bc1c3682a0dafaead1a2adbd1a3ed1e0a6e63eff00dc27c66a2084f2ff141bf9
-SHA512: 819b29ee3616df14ac32a4f0937ebedf0edc8e645b8a1b460c9f01ef9fceb08300946cbb6b87c39647a2dcdd2c795df2304471bdb28b08c5519f2284b6d2a0f7
+Filename: ./libxmmsclient6_0.8+dfsg-30+b2_amd64.deb
+Size: 68376
+MD5sum: 723045f2e65b7573e598da9715f7b15d
+SHA1: 73d13d436ce291d31da9906b13add5366d4e6afa
+SHA256: 352b33b1f7a0b4a8fad1042619ce4d4894a9e10fd52e37030d78157420aca046
+SHA512: c70408052b5506ab93771a0ebd38935e486291c0a388da1abf7a165bf57f6399fa7af0c0f5893e7c51914e245d399e28a86eeec66d65d3dcb2c432228da86a08
 Description: XMMS2 - client library
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -52918,20 +52917,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: localsearch-extractor-ffmpeg
 Architecture: amd64
-Version: 3.11.2-1
+Version: 3.11.2-1+b1
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch
+Source: localsearch (3.11.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 90
-Depends: libavformat62 (>= 7:8.1.2), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-ffmpeg_3.11.2-1_amd64.deb
-Size: 24824
-MD5sum: c9c0f4e014bedc190ebb6d1610c2e529
-SHA1: 20823265f1ed396e2c003b481be8e06a8f9f66eb
-SHA256: e32b497507bdc7ddea58cd8e56a274cbd8f1df944a7b6edeb9d4ccbba7a24941
-SHA512: ef55400e8c875939e403dfddd142d38d964e65cde7187dcda8ae93bdcb15e21bb4bbc5d8e290d85152e8a3fe3bb390821cf254e887f7132b3480d6f69ec50f1a
+Installed-Size: 91
+Depends: libavformat63 (>= 7:9.0.2), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
+Filename: ./localsearch-extractor-ffmpeg_3.11.2-1+b1_amd64.deb
+Size: 25128
+MD5sum: 2a2847d294e978d591d05f30dce3abb1
+SHA1: 9f535ae3768a3935ab2b8b40769fc2d0a1e53030
+SHA256: 78e19d8109279147255472b360737e69a930c79d7756a8b907d0dad89efecb45
+SHA512: 3f4ab19aaa5bce58bac6d2c577fe1132c4ba4d2483294840562c362ac96f931fdb807b6c04ec09edfbe59ba7356a4b4addf9c45c7bd6a401d893cbb883f5d969
 Homepage: https://tracker.gnome.org/
 Description: FFmpeg powered media metadata extractor
  This package contains the FFmpeg powered metadata extractor.
@@ -52942,22 +52941,22 @@ Description: FFmpeg powered media metadata extractor
 
 Package: localsearch-extractor-iso
 Architecture: amd64
-Version: 3.11.2-1
+Version: 3.11.2-1+b1
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch
+Source: localsearch (3.11.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 60
+Installed-Size: 61
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libosinfo-1.0-0 (>= 0.2.9), libtinysparql-3.0-0 (>= 3.11~)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-iso_3.11.2-1_amd64.deb
-Size: 14352
-MD5sum: 522a9048daeb37629e54ad8fa52985f1
-SHA1: 8f3499de89054348eb9d6480e8b484f2363296ed
-SHA256: f98a59bcb83be41fac85fc7317141d9b5d7740e24ae5c7f9175dfbe7ca82c767
-SHA512: 743f0ee28f7bf2b0227409dd99834d8c13dfcb042a03fef6078dca7712f05685c972e1a2a68adfffeede3cc39bb6016683222cb4450c8ef13f69de94979ca1ac
+Filename: ./localsearch-extractor-iso_3.11.2-1+b1_amd64.deb
+Size: 14640
+MD5sum: 30a85b95115521660067b59acc2fa8ea
+SHA1: d7f5163f8dd42cc0842a3f5d3227b474a9da5d1e
+SHA256: 4971a66d779922691bb7f73bd9e0e729e8c44ec43c4935bc7705d8010628ef7f
+SHA512: 645d79d95d606468e2d21fc7d20749b178bd19da16cbb1c54d14a66aed71e5e232240c0d5d7854100161673f0fb49a7807f96e88519e68f70fc2e98c34a09272
 Homepage: https://tracker.gnome.org/
 Description: Extractor for ISO files
  This package contains the ISO file format metadata extractors.
@@ -52968,22 +52967,22 @@ Description: Extractor for ISO files
 
 Package: localsearch-extractor-office
 Architecture: amd64
-Version: 3.11.2-1
+Version: 3.11.2-1+b1
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch
+Source: localsearch (3.11.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 136
+Installed-Size: 137
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libxml2-16 (>= 2.14.1), libzip5 (>= 1.0)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-office_3.11.2-1_amd64.deb
-Size: 29972
-MD5sum: eb09d512223a5c9313397f5d08462ead
-SHA1: 79138ba9e2bff99f6a9876475b195de71536c3ee
-SHA256: 2d4767cb20d23aa1a4485594796200d41474339e3dac62e5465e15bdee916bbf
-SHA512: a4cdabc994b7fea5fb51717ddc95e1568734ec095f92ecab76d85f2fb09eca732b944689bec9ebff05e1d73b74dc648c99b7a2868e27d9a214b0e25f8d1b964b
+Filename: ./localsearch-extractor-office_3.11.2-1+b1_amd64.deb
+Size: 30320
+MD5sum: 1bc89950b283ca51e270d4c0a7e97a14
+SHA1: 2ecdad3e96a366fcd7faa1821bb7dbc80146af00
+SHA256: d0901436a854eec4ef15cdac3e2b5ff02a81be16256d51c4410b7f6ff7a5f571
+SHA512: 5a570efca1b169eef7bd03da99919f86f99d77716ab92b57841cab57f778b3965c350e88d1d88be8af7cf46fa2eeee414f2b701684ad2221b51f854f5b05faa3
 Homepage: https://tracker.gnome.org/
 Description: Extractors for some compressed office file formats
  This package contains the extractors for various compressed
@@ -52995,21 +52994,22 @@ Description: Extractors for some compressed office file formats
 
 Package: localsearch
 Architecture: amd64
-Version: 3.11.2-1
+Version: 3.11.2-1+b1
 Priority: optional
 Section: utils
+Source: localsearch (3.11.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3290
-Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.5.0), libxml2-16 (>= 2.14.1)
+Installed-Size: 3291
+Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.6.0), libxml2-16 (>= 2.14.1)
 Recommends: localsearch-extractor-ffmpeg, localsearch-extractor-iso, localsearch-extractor-office
 Breaks: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
-Filename: ./localsearch_3.11.2-1_amd64.deb
-Size: 671088
-MD5sum: e935a954fdfdd9e3e6842e2726021699
-SHA1: d779b84c5c9d361c0cc39d02f3c56ff2909f4ac3
-SHA256: 6d8d783e891e8dbac1e51fa9319240eb4b2f27362010185b2a8fd6157105ef01
-SHA512: 290d854086670c9e413745be80cc9f55f9ba58d0f99338179bc2cdbc0dea8bd657f712c000509fa2403e8fdd2ebf48ee8b047c0b26ce5cc0960f4adc2b89ff76
+Filename: ./localsearch_3.11.2-1+b1_amd64.deb
+Size: 671220
+MD5sum: 9de38141c8f7c3f1a31e09681211d760
+SHA1: db9ba6eb8a50c5623e935d2e04a4dd2a50b48a55
+SHA256: 99f4ca0e0ed8fa8f00f6b42e4731219a7e17900c4d8ad23d29f84bf83f40d114
+SHA512: 1f67539763482d3753c1859ffcccf7c4d104865925ae5b5b82c4baf3826e89403574c614c4323eb544195895ec19d128f9558399be7846c1747dffd42c07571a
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - metadata extractors
  This package contains the metadata extractors.
@@ -53017,6 +53017,7 @@ Description: metadata database, indexer and search tool - metadata extractors
  Tracker is an advanced framework for first class objects with associated
  metadata and tags. It provides a one stop solution for all metadata, tags,
  shared object databases, search tools and indexing.
+Commands: localsearch
 
 Package: loupe
 Architecture: amd64
@@ -59406,19 +59407,19 @@ Description: command-line interface description language (Python3)
 
 Package: python3-gi-cairo
 Architecture: amd64
-Version: 3.57.1-1+b1
+Version: 3.58.0-1
 Priority: optional
 Section: python
-Source: pygobject (3.57.1-1)
+Source: pygobject
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 43
-Depends: python3-cairo, python3-gi (= 3.57.1-1+b1), python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
-Filename: ./python3-gi-cairo_3.57.1-1+b1_amd64.deb
-Size: 13008
-MD5sum: a9f37f0692239beee7a33fc72ade2af3
-SHA1: 8c6ece99e93742ffe8170284698a20aa21005333
-SHA256: 04aea7c2a2ca1ad7ad4ed95f8866d248c17609c0b6d9feeb76a32b105905a427
-SHA512: 3be96e9ecf49cb9d6b487b607c677e39b64a807234ca4688677e9ee8468e2ae97261e69c38ab8a93da8887f3e45b02e6d61c1b45864c0aa491db536094c5e5cd
+Installed-Size: 42
+Depends: python3-cairo, python3-gi (= 3.58.0-1), python3 (<< 3.15), python3 (>= 3.14~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.86.0-7~)
+Filename: ./python3-gi-cairo_3.58.0-1_amd64.deb
+Size: 12804
+MD5sum: 0bd3b9c8596cbcc25cdf138e573dcfaf
+SHA1: 1fe3350f876ed009884011bf7205b016d0090e35
+SHA256: d93bd16d422abacca927ffb1600a01a45324769736a92dea751d9022c8d6782f
+SHA512: 54ef4b54e9797b131ee8c9c747647df4e7db45a4517b213cd6dcedf219ac37500566a53287c9b3472279c616614c4b903bf7cac08a5740d678d50c21bf105c3d
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 Cairo bindings for the GObject library
  GObject is an abstraction layer that allows programming with an object
@@ -59430,21 +59431,21 @@ Description: Python 3 Cairo bindings for the GObject library
 
 Package: python3-gi
 Architecture: amd64
-Version: 3.57.1-1+b1
+Version: 3.58.0-1
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Source: pygobject (3.57.1-1)
+Source: pygobject
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 769
+Installed-Size: 768
 Depends: gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0 (>= 2.86.0-7~), python3 (<< 3.15), python3 (>= 3.14~), python3:any, libc6 (>= 2.14), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~)
 Breaks: autoradio (<< 3.6.4-1.1~), blueprint-compiler (<< 0.16.0), budgie-desktop (<< 10.9.3-1.1~), entangle (<< 3.0-5.1~), eog (<< 47.0-4~), eom (<< 1.28.0-1.1~), exaile (<< 4.1.4), gedit (<< 48.1-8~), gir1.2-peas-1.0 (<< 1.36.0-6~), gnome-music (<< 48.0), liferea (<< 1.16.1+ds-2.1~), pluma (<< 1.28.0-1.1~), rednotebook (<< 2.39), rhythmbox (<< 3.4.9-2~), streamtuner2 (<< 2.2.2+dfsg-2.3~), totem (<< 43.2-7~)
-Filename: ./python3-gi_3.57.1-1+b1_amd64.deb
-Size: 239476
-MD5sum: 48211f3afec94af7b057f70793869ef7
-SHA1: 5bddbbd2e7878aa885f06df10d6b039aafb95efe
-SHA256: 7f307ed4e876e6677fe4887a629a8d987718281c3707719082c7123aeb93b2d2
-SHA512: 0bf5cbbc28a9855df6a0a56abae3abc9aa5d7f7a73539716da1a4f2acd06e02e2c1d27fd1e90a671d15a4958e5cc9f5e0d2f24d283c67d950c62db9afca7e9f0
+Filename: ./python3-gi_3.58.0-1_amd64.deb
+Size: 239136
+MD5sum: 2b3b619333eea21a32b01070c7432b89
+SHA1: ea0e8e807116c48feac7928a8fd377a2067d0c27
+SHA256: d32642b757551d24a441e61b017b0ed8a736aadcc65364876a8e9a32a6b19b74
+SHA512: ae8e9c163ee22e86565c44c4076118c868ba8678ee1f7b51b81aee361a05a3dfc8e286c6098998362768f378bd023d33441b36edbc35bc2235d1f55d1a0a1fa0
 Homepage: https://pygobject.readthedocs.io/
 Description: Python 3 bindings for gobject-introspection libraries
  GObject is an abstraction layer that allows programming with an object
@@ -65203,22 +65204,23 @@ Description: System Tools to manage computer configuration -- scripts
 
 Package: systemd-container
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 2726
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd, libmount1, libarchive13t64 | libarchive13
-Recommends: libnss-mymachines, default-dbus-system-bus | dbus-system-bus, libarchive13t64, libbpf1, libcryptsetup12, libfdisk1, libseccomp2, libselinux1, libssl3t64
+Installed-Size: 2906
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), libmount1, libarchive13t64 | libarchive13, systemd
+Recommends: libnss-mymachines, default-dbus-system-bus | dbus-system-bus, libacl1, libapparmor1, libarchive13t64, libaudit1, libblkid1, libbpf1, libbz2-1.0, libcryptsetup12, libfdisk1, liblz4-1, liblzma5, libseccomp2, libselinux1, libssl3t64, libzstd1, zlib1g
+Suggests: libcurl4t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-container_261.2-1_amd64.deb
-Size: 850600
-MD5sum: 18932ac7bdd98f566783b7967cfa9b12
-SHA1: 4720d09eb3d228c3b11ae40446ead94b033111cc
-SHA256: 0d70a295a329c8733c8c17cca11f7b4b68889272109526078153320006883e8b
-SHA512: 724fae66a4a7f5ff251fd5f51cca92713fde46c8241a9f275c17fd16954f05884d3765b9c4529449ceb00ead98bc1c979c8195233facf961a337b99de030d5d8
+Filename: ./systemd-container_262-1_amd64.deb
+Size: 910904
+MD5sum: 99f2c50a2b66baefd7646c2fb5a6c5ba
+SHA1: 0849c599696011308255b88bde89b06ee824189c
+SHA256: 6b09555464fe97486b6b2e3c9a2a52e8eb81708ca0fff8712d6a2542da86299b
+SHA512: c3b634662b9c1158b1e286f9c9a6d10714d5c35123dc95129ffac1aee61819c1c14e7877ee4009902f23f00e98adaa291307324a5f2352657a6b0f4c8913770a
 Homepage: https://systemd.io
 Description: systemd container/nspawn tools
  This package provides systemd's tools for nspawn and container/VM management:
@@ -65229,23 +65231,25 @@ Description: systemd container/nspawn tools
 
 Package: systemd-coredump
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 258
+Installed-Size: 298
 Provides: core-dump-handler
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), systemd
+Recommends: libacl1, libblkid1, libmount1, libselinux1, libzstd1
+Suggests: libbz2-1.0, libcryptsetup12, libdw1t64, libelf1t64, liblz4-1, liblzma5, libssl3t64, zlib1g
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
-Filename: ./systemd-coredump_261.2-1_amd64.deb
-Size: 99144
-MD5sum: 5c0bcc3cb081968addc8433c5aff40ba
-SHA1: 2facfd1dfa17d016f71688abfdb24803eb825ffb
-SHA256: 4b3f1f73d3d45ee979dc71c1785780fac7e4df6a409f01c8ab5512a47f3c7e8f
-SHA512: 253dfccf4aa90c217f8a625ca02f61ff5d5a56bd58d1460de9c292ace04f949cf4a207b3b62c65bed1202a9414ebc5f1cb0c023a19b2f9d3aadde11e7e63cbf6
+Filename: ./systemd-coredump_262-1_amd64.deb
+Size: 113628
+MD5sum: 3850f2bc4384053e379500256aada258
+SHA1: a7258c0cc87ec1f9d183bde6663ca2fd42ef4795
+SHA256: 1c2c08f713aa200f41fb0a1629c04da3854eec9247f83be2dbd485bceadccc14
+SHA512: e4bf805d822917283c20b4c83522a6466365603fbefdae72967053d3b2e457fa7e1c6c4ab7e9bd3b9d74680b2ff88fd973abb4bd44bedab7934814319b005edd
 Homepage: https://systemd.io
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
@@ -65254,21 +65258,22 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-cryptsetup
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 501
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), libcryptsetup12
-Recommends: libssl3t64
+Installed-Size: 611
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), libcryptsetup12
+Recommends: libmount1, libssl3t64
+Suggests: libfido2-1, libp11-kit0, libpwquality1, libqrencode4, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
 Conflicts: systemd (<< 256-2~)
-Filename: ./systemd-cryptsetup_261.2-1_amd64.deb
-Size: 156680
-MD5sum: 080c3ef7fca8d7dad02212d874c5e6ae
-SHA1: 2c1f8c4ea6d787876d801ac6043d78993a159d29
-SHA256: e2ec21831edbd3775d1c787fc77aaa6fb854e0e0e8f18a7ebd0882217b936fd7
-SHA512: 591a03d04920339febf0e89e2cbecfb1ca713309253f4a2b58f1834520adcbe510136f6175030ab96f5d06c6a94ffe5a230562bd5916b7313a7dfa93b188cfee
+Filename: ./systemd-cryptsetup_262-1_amd64.deb
+Size: 186336
+MD5sum: 10722c89110537f6fbf6aafbb713871b
+SHA1: ad63d9a15419447a717cfc9d26eea232af9c73e9
+SHA256: 5dba3ab527fdb681c3c872149325c9ff47cd20f2c3a1b7a8f2eb88da1c9a1950
+SHA512: 896bc8b901eae19e0c10df1d561f641bc140164ac54113419e7151a9fff93058744b26584cdab8a2edad329a14ef857ee30e558f6cf6479f2a6a079b4832242b
 Homepage: https://systemd.io
 Description: Provides cryptsetup, integritysetup and veritysetup utilities
  Utilities and units that integrated cryptsetup/integritysetup/veritysetup
@@ -65276,21 +65281,21 @@ Description: Provides cryptsetup, integritysetup and veritysetup utilities
 
 Package: systemd-oomd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 219
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd | systemd-standalone-sysusers | systemd-sysusers
+Installed-Size: 215
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), systemd | systemd-standalone-sysusers | systemd-sysusers
 Breaks: systemd (<< 250.2-2~)
 Replaces: systemd (<< 250.2-2~)
-Filename: ./systemd-oomd_261.2-1_amd64.deb
-Size: 81472
-MD5sum: 5bf42ada64120d41008f375c3a20f7bd
-SHA1: 96e171c46cdf1c8fc8fb3f47ae888b7f40695dad
-SHA256: 1de14dc99706f21c0064115819f72cdb7b2aad0db3da6e256c2c7918c1f1ad7d
-SHA512: 476e119b6ce27e631b43e3dc53dc828d6533a9993c617bceca987fe303d0441855cc0b6641bf4bc21331cf19c8c73f9c6c05eb4828e28c189906aed2b2981be0
+Filename: ./systemd-oomd_262-1_amd64.deb
+Size: 82864
+MD5sum: f34e4d35106c7948a945358b3c32223f
+SHA1: b7c86bd1688a5cec5e14f2652e7628eafc9fb5c0
+SHA256: c44eff073c0c22f0ff4fa541a7708c09a9f2d0f3f7a067d30c7547624aeb1434
+SHA512: 68dae2feb8e35e7a4f4f6322a7e6c85d837064518257f2cae5de6663f0d767974140221ce65dac03722f4404085b1c197e89d1c884dbb82df63b93a0c48fdc85
 Homepage: https://systemd.io
 Description: userspace out-of-memory (OOM) killer
  systemd-oomd is a system service that uses cgroups-v2 and
@@ -65299,7 +65304,7 @@ Description: userspace out-of-memory (OOM) killer
 
 Package: systemd-sysv
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: important
 Protected: yes
@@ -65308,16 +65313,16 @@ Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 76
 Pre-Depends: systemd
-Depends: systemd (= 261.2-1)
+Depends: systemd (= 262-1)
 Recommends: libpam-systemd, libnss-systemd
 Conflicts: bfh-container (<< 20211009-22~), file-rc, finit-sysv, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, runit-init, startpar, systemd-shim, sysuser-helper, sysv-rc, sysvinit-core
 Replaces: sysvinit-core
-Filename: ./systemd-sysv_261.2-1_amd64.deb
-Size: 41156
-MD5sum: 4caca7a0a92af7eb32e7d95342e8339b
-SHA1: 1cb0ca727744f79f87e5d78e0a2c43ef8fc2c64a
-SHA256: e84bfea91ab975dbb55a9702a588ea2323c1c43f8986d8a71e7f8bb33026c126
-SHA512: 19533d637d1f84eda83e323d531362735e93879e630513854b4aabbea44a7aea8baffcfbaf82af19ef8b774f368f06b2022a1eef19e4fa7ded1dbde1b1148de9
+Filename: ./systemd-sysv_262-1_amd64.deb
+Size: 41632
+MD5sum: 083bfcb08d0509659d5a238d1ebe1658
+SHA1: 26b55703ab93885a40f79e0847c4da20d25ce866
+SHA256: 0f4fe45caddd18626697f890a9595b39975b1b83bc3cb65458d2c718f5b7f1c8
+SHA512: ea4d17b314487b76745987a13e45a7fd2ff9149c20fb6e4c6c8931a85dc353e663067e382cbea769fb347350600898d4c45b70293a02967490926416b56c1b0d
 Homepage: https://systemd.io
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
@@ -65327,23 +65332,23 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: standard
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 182
+Installed-Size: 194
 Provides: time-daemon
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), systemd
 Conflicts: systemd (<< 256.2-2~), time-daemon
 Replaces: time-daemon
-Filename: ./systemd-timesyncd_261.2-1_amd64.deb
-Size: 71296
-MD5sum: 936bc0f5bd381ebca8c984d2e0961cc2
-SHA1: 4781b41eb894888e74bbdf414e980f89385cb530
-SHA256: b020aa9ff075c2f6f16c88e225adca66d7de61ce19ada20ac9705682ef244184
-SHA512: c82d5b88b79728c4948be7d587319914e1cef4cd45ace0af42f908b222c60c861033110172500066fed4b71bc1912d3eebe0b710ff682395fb01f1444066b66a
+Filename: ./systemd-timesyncd_262-1_amd64.deb
+Size: 73808
+MD5sum: a8bcffcb9bea3f57a69b46522ff8458b
+SHA1: ca18cc8002009543bfef5c3c90bb56f40a922969
+SHA256: 4bac9b3b8bc9ea8b47ebd9fd51d268ea8cb39ea78eff86eefbb5eceb210b2cb7
+SHA512: e2d4c7146d2993acfa3852a6438995774ecc9327f263a0eda77682e5e2afa7003acbc406b969bdf1a6f85484ac490477078b2020652fd73f7b6e0b8710250070
 Homepage: https://systemd.io
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
@@ -65351,21 +65356,22 @@ Description: minimalistic service to synchronize local time with NTP servers
 
 Package: systemd-tpm
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 520
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, tpm-udev
+Installed-Size: 532
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), libssl3t64, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, tpm-udev
+Recommends: libblkid1, libselinux1
 Breaks: systemd (<< 261-2~)
 Replaces: systemd (<< 261-2~)
-Filename: ./systemd-tpm_261.2-1_amd64.deb
-Size: 158300
-MD5sum: 9b2a6edef17bdf3ed2e7e41ebfca0bb0
-SHA1: b56cd010b2b94d3b925228408b72af88f48af71d
-SHA256: 6384d7565752f61728d4330085c9dbe2b446343a9b8129ee8f0ab7c8ad1ef547
-SHA512: 6e188d4bf2437b60c35981a868464bfc2ea4650f68dc9f8943d7efa748948d4a5d6c4adfcbbc603382b71becd7b99a15e9983da100027e7236a6f5244110719f
+Filename: ./systemd-tpm_262-1_amd64.deb
+Size: 167384
+MD5sum: ae56d2c79985de0523ce65f93a73b046
+SHA1: 6ba3976ac7e76ab3a287f1b27e48ce6d74f2c225
+SHA256: 0a90c38628a23628b2c70beebb21b0dd3c3a009c044d6cfe6bc197c7b741e4f2
+SHA512: 65edbab213e27615e41965e643e5dae365394ba84c963682201ce1ea0d290ffc8936db5e7a605d1f3704312f1d2345b00cea8d2eb8ea69ae3e816b9c81fb6136
 Homepage: https://systemd.io
 Description: Provides tpm2 utilities and units
  Utilities and units that provide tpm2 functionality and support in systemd,
@@ -65373,20 +65379,21 @@ Description: Provides tpm2 utilities and units
 
 Package: systemd-userdbd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 228
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd (= 261.2-1), libnss-systemd (= 261.2-1)
-Filename: ./systemd-userdbd_261.2-1_amd64.deb
-Size: 82944
-MD5sum: 9004dd2881b9a93b77690fbeea8d6c57
-SHA1: 3167ed2f3ac9a27ec51714f63858bbe4d1838a72
-SHA256: 89c9e51973e322358149e3b7a98fd460d5d5e2dfeff369cab49db9e4c29f4544
-SHA512: 7fb06a19d163ab7ad1bdfb87382b2636ddbc3d99bda557d7c44e3a6aaa16fc62185b7128f978389f5702bb2a4a8cdb07fed62f1db21fd7bd861b9ebb5912257b
+Installed-Size: 232
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), libnss-systemd (= 262-1), systemd (= 262-1)
+Recommends: libselinux1
+Filename: ./systemd-userdbd_262-1_amd64.deb
+Size: 84644
+MD5sum: 3529057316bf489137b85f32e4dcb577
+SHA1: cec30e5fa40681dad0bbdc15c4e0a29bb726bd6b
+SHA256: 59b0f6141870637295ae63abd6f434d21ab2f4a3e2c28d9cff0b28c2bffc3dd4
+SHA512: 30f4e2ce2a09ba7010440e9e2540b63cb2e84dcf502545cc157b9d59ffd7d08d2359da9f81da628768759b4e0273a43b2ac1790ca62c53fdfebdb7953fc70f8c
 Homepage: https://systemd.io
 Description: dynamic user/group manager
  systemd-userdbd is a system service that multiplexes user/group lookups to all
@@ -65397,25 +65404,25 @@ Description: dynamic user/group manager
 
 Package: systemd
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 11013
-Provides: systemd-sysusers (= 261.2-1), systemd-tmpfiles (= 261.2-1)
-Pre-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1)
-Depends: libblkid1, libmount1, libsystemd0 (= 261.2-1)
-Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, login, mount, systemd-timesyncd | time-daemon, systemd-tpm, systemd-cryptsetup, libacl1, libbpf1, libcryptsetup12, libgcrypt20, libpam0g, libseccomp2, libselinux1, libssl3t64
-Suggests: systemd-container, systemd-homed, systemd-imds, systemd-userdbd, systemd-boot, systemd-report, systemd-resolved, systemd-repart, polkitd
+Installed-Size: 11386
+Provides: systemd-sysusers (= 262-1), systemd-tmpfiles (= 262-1)
+Pre-Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1)
+Depends: libblkid1, libmount1, libsystemd0 (= 262-1)
+Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, login, mount, systemd-timesyncd | time-daemon, systemd-tpm, systemd-cryptsetup, libacl1, libapparmor1, libaudit1, libbpf1, libcrypt1, libcryptsetup12, libkmod2, libpam0g, libseccomp2, libselinux1, libssl3t64, libzstd1
+Suggests: systemd-container, systemd-homed, systemd-imds, systemd-userdbd, systemd-boot, systemd-report, systemd-resolved, systemd-repart, polkitd, libbz2-1.0, libdw1t64, libelf1t64, libidn2-0, liblz4-1, liblzma5, libpcre2-8-0, libpwquality1, libqrencode4, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64, zlib1g
 Conflicts: consolekit, elogind, libpam-ck-connector, opensysusers (<< 0.7.3-4.1~), systemctl, systemd-shim
 Breaks: dracut-core (<< 102-2~), less (<< 563), sicherboot (<< 0.1.6)
-Filename: ./systemd_261.2-1_amd64.deb
-Size: 3329380
-MD5sum: 1dcd15e1f27afc70164b2c3788656b0e
-SHA1: c555b1597b97eed82ece14311c959754dc5f9876
-SHA256: 6dd5641b1fe3f830a8188f56684009d33231d6d814fb65deaf7ecb2f53845207
-SHA512: ee9324c07e54138f62f93d118ef6325c48d69456280be174013c2b1436a8ebc04981a41cdd01ca136444c019b96c096d45bd8cd92a2b13b74726ef8d5cde5ef8
+Filename: ./systemd_262-1_amd64.deb
+Size: 3476836
+MD5sum: 79b7368c1e7845f1e46ba86a2994e3af
+SHA1: 514660c298ed3869fc8df5581dbaf63aa6dcb0c2
+SHA256: 6de3a3df3fb9d264b48c6306b55fb4d83f6114a25ad6299b3bd83e5bc28436d2
+SHA512: fd5addc75468af7aef7ad6299b53ac1f4754493905cedec5eda4f331ce15aed11d9ee5bad54efe7e6f9d63bf6dcc6ad3aeff5d6e1cb0ec75a16e0eda29910308
 Homepage: https://systemd.io
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
@@ -71530,24 +71537,24 @@ Description: Update Configuration File(s): preserve user changes to config files
 
 Package: udev
 Architecture: amd64
-Version: 261.2-1
+Version: 262-1
 Multi-Arch: foreign
 Priority: important
 Section: admin
 Source: systemd
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 10652
-Depends: libc6 (>= 2.34), libsystemd-shared (= 261.2-1), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libblkid1, libkmod2, libudev1 (= 261.2-1)
-Recommends: libacl1, libmount1, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
+Installed-Size: 10754
+Depends: libc6 (>= 2.34), libsystemd-shared (= 262-1), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 262-1)
+Recommends: libacl1, libblkid1, libmount1, libselinux1, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64, libtss2-tcti-device0t64
 Conflicts: systemd (<< 261.1-3~)
-Breaks: systemd (<< 261.2-1)
+Breaks: systemd (<< 262-1)
 Replaces: systemd (<< 261.1-3~)
-Filename: ./udev_261.2-1_amd64.deb
-Size: 1485344
-MD5sum: 97f701c01d299c3d64aa06f217a1a949
-SHA1: 40d57831a0a1afb4c95e9dc06aabe265b732a210
-SHA256: 8eed7103bd900cb415002bc322b690d8c9f77d7953a40e0115eb53579334085c
-SHA512: 315e00112b921e320da5580256ad0ba468ab3624f1a46fb428beb78a86a3559efa8dacc73f88e78dadf0ac20538ce3c9d785c98a98dadeec2dea6f2efca42af2
+Filename: ./udev_262-1_amd64.deb
+Size: 1494460
+MD5sum: 79cdd4b8ebd44c3e9ac818d6167666e5
+SHA1: f7c1789b6921b0e8ae6dab51899a67ba580d4ce3
+SHA256: 0878367b18c0e77e961d632d5d1cc614058f162b2391fbe5a3b0eb33cfc96bed
+SHA512: 91e02174b96a0aa60ffa8dbf9d39b2ce6ce7f987be7e5285fc5cd99b2c92a63c2b89eb9bd376709471adcb555bd32d94c155773140a59a7471e85bdea8b0a2bc
 Homepage: https://systemd.io
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
@@ -71875,19 +71882,19 @@ Description: Vi IMproved - enhanced vi editor
 
 Package: vlc-bin
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 184
-Depends: libvlc-bin (= 3.0.23-3+b4), libc6 (>= 2.38), libvlc5 (>= 3.0.23)
-Filename: ./vlc-bin_3.0.23-3+b4_amd64.deb
-Size: 98868
-MD5sum: d8237cfc18c214ec4bdbd0f243e40087
-SHA1: d23364532d369aeba4ce571a26e1ed317b90693e
-SHA256: 72cc6c609966e6a5d515ab61eac41a2262b53812b57cec29d7500f6982d288d2
-SHA512: 4e646515c34bd3a0f007116145e2ab354767a174eeca632d549e32bd9674b7eebcdf267bdb2dce6475415bfaf343adec415f936713a1517823400de2914be0da
+Installed-Size: 180
+Depends: libvlc-bin (= 3.0.24-1), libc6 (>= 2.38), libvlc5 (>= 3.0.24)
+Filename: ./vlc-bin_3.0.24-1_amd64.deb
+Size: 99888
+MD5sum: ade1a951a16659033fed2c8dda6b5773
+SHA1: e11916e62e161131008acf8dc86f27fdf05e9581
+SHA256: 1eed72da66d067b231b86f7036d664b46365f668fab0f849f666ed5b18f31592
+SHA512: 0a96d8245701e8119727726817ca77c82c342db362582e6417ae6a5aef26d3b3278c64cdfd59ce8121acaa610b149c6caf46274c54f70285f9705374d59da626
 Homepage: https://www.videolan.org/vlc/
 Description: binaries from VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -71895,22 +71902,23 @@ Description: binaries from VLC
  podcasts, and multimedia streams from various network sources.
  .
  This package contains the VLC binaries.
+Commands: cvlc, nvlc, rvlc, vlc, vlc-wrapper
 
 Package: vlc-data
 Architecture: all
-Version: 3.0.23-3
+Version: 3.0.24-1
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 958
-Filename: ./vlc-data_3.0.23-3_all.deb
-Size: 421712
-MD5sum: 385bd914391eb1bfa80a6ee633c69870
-SHA1: 491805b50c9dc6d915bde573e8c30902b3a08bee
-SHA256: 21a8dc6413ca038462a23d5629f99357486953f5a36a46816c1c7955f9001480
-SHA512: ec6afbcceb74f682a694b88a937bf690918c2ebf5422d88b8d2206588703805a27dccd2bd56b6812653d18fbcb1db25ab04e1999d6375a9b19bac241adc8693e
+Installed-Size: 945
+Filename: ./vlc-data_3.0.24-1_all.deb
+Size: 412536
+MD5sum: 34612d7c561b909b5577b6ca74806e06
+SHA1: aa4dbff0ac7d97ce3ff609f781106d20cab80781
+SHA256: 014e7b80811dca5b404f40933dad9c4f5f3c4a5647494fd5837edf8ddcebbed9
+SHA512: 8442622d3963c0ab74fc0277730b1f54e435c7c8d6b164b28e26cd74fd664d61d99ad62cb3f949f5592afd44e4698865084bce433f77f16fc61724240703e759
 Homepage: https://www.videolan.org/vlc/
 Description: common data for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -71922,19 +71930,19 @@ Description: common data for VLC
 
 Package: vlc-l10n
 Architecture: all
-Version: 3.0.23-3
+Version: 3.0.24-1
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 43124
-Filename: ./vlc-l10n_3.0.23-3_all.deb
-Size: 6372884
-MD5sum: 8a8abac71fe2f0a003665ebed50bcb3a
-SHA1: 6525bfe4941a9cb096139044d4dbf67274253043
-SHA256: d4ca9d620c85813fe1c8c8f37179c5716a3129f6e5be77b0ce2ac74b09addf4e
-SHA512: 9179f543db44469c2e98479691510816ee1c91236218e44fedb137aba8c7f73ba4b1dec1999690c645fa2365d70de6e20096ad334c179268120ad69d57210e4e
+Installed-Size: 43307
+Filename: ./vlc-l10n_3.0.24-1_all.deb
+Size: 6398144
+MD5sum: 6cdc09c4b6462570799c7283b15f7682
+SHA1: 1b988a15979cadeb6dc453183041d838ae9da54e
+SHA256: b435b056b7af6022ed2017dc92fe44e55ad96c9a32440662e7756198b1bab336
+SHA512: eccc15afaee749681bd1f5f137428f5eae743d5554337bab1da1b279e98e5c6bbb5f0f2d68e21bbfe9484583ec647b699c56abb48388abb59d503377c19ae74c
 Homepage: https://www.videolan.org/vlc/
 Description: translations for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -71945,21 +71953,21 @@ Description: translations for VLC
 
 Package: vlc-plugin-access-extra
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 228
-Depends: libc6 (>= 2.38), libsrt1.5-gnutls (>= 1.5.6), libvlccore9 (>= 3.0.23), libvncclient1 (>= 0.9.10), libxcb-composite0, libxcb-shm0, libxcb1 (>= 1.6), vlc-plugin-abi-3-0-0ft64
+Installed-Size: 224
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.38), libsrt1.5-gnutls (>= 1.5.7), libvlccore9 (>= 3.0.24), libvncclient1 (>= 0.9.10), libxcb-composite0, libxcb-shm0, libxcb1 (>= 1.6)
 Enhances: vlc
-Filename: ./vlc-plugin-access-extra_3.0.23-3+b4_amd64.deb
-Size: 108968
-MD5sum: b1fe0a05b80621b288abb22e06ad5d59
-SHA1: d42f4bf1aa398f04e7794b65b5e750a12cbbbb3d
-SHA256: 815a40eabd372e181ea18d2d91f5edacc669804b3f0e8c24a52d7ccf7213a8f6
-SHA512: 81ad4d974ba10337d4615ab22da418ac57e3196ac3ba8db9c0fd8d8d8aab2bbf60242d42a6d37087f0aa20647b9454a8a0556a860168b6d2de12e313e5c9af90
+Filename: ./vlc-plugin-access-extra_3.0.24-1_amd64.deb
+Size: 110608
+MD5sum: 2f16c9d1e3961a49e6a5a8560e098a05
+SHA1: 3842df0aecaac57d7ef4701a3bd27b9cab6db73c
+SHA256: 90baa4655ee821b4e2608dd50764f42028e4a09e01c0dddc00219d67f370e650
+SHA512: 16da3bf5c3d8039d69bd4d7a662c331015d31a7867bb011e91516f78c7c0afd09b05b4b37ab0954ac20757a9acc20235775b2c1a76110f754a6c08397582fd3e
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (extra access plugins)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -71970,22 +71978,22 @@ Description: multimedia player and streamer (extra access plugins)
 
 Package: vlc-plugin-base
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 13513
-Depends: vlc-data (= 3.0.23-3), libarchive13t64 (>= 3.1.2), libaribb24-0t64 (>= 1.0.3), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.13.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libavcodec62 (>= 7:8.1.2), libavformat62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libbluray4 (>= 1:1.0.0), libc6 (>= 2.38), libcairo2 (>= 1.13.1), libcddb2 (>= 1.3.2), libchromaprint1 (>= 1.3.2), libdav1d7 (>= 1.1.0), libdbus-1-3 (>= 1.10), libdc1394-25 (>= 2.2.6), libdvbpsi10 (>= 1.3.0), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libebml5 (>= 1.4.7), libfaad2 (>= 2.7), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.4), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.28.0), libgnutls30t64 (>= 3.8.4), libgpg-error0 (>= 1.14), libharfbuzz0b (>= 0.9.4), libixml11t64 (>= 1:1.14.0), libjpeg62-turbo (>= 1.3.1), libkate1 (>= 0.3.0), liblirc-client0t64 (>= 0.10.2), liblua5.4-0 (>= 5.4.6), libmatroska7 (>= 1.7.2), libmpcdec6 (>= 1:0.1~r435), libmpg123-0t64 (>= 1.28.0), libmtp9t64 (>= 1.1.0), libncursesw6 (>= 6), libnfs14 (>= 1.9.7), libogg0 (>= 1.1.0), libopenmpt-modplug1 (>= 0.8.9), libopus0 (>= 1.3~beta+20180516), libpng16-16t64 (>= 1.6.46), libprotobuf-lite32t64 (>= 3.21.12), libpulse0 (>= 1.0), libraw1394-11 (>= 2.1.2), libresid-builder0c2a (>= 2.1.1), librsvg2-2 (>= 2.14.4), libsamplerate0 (>= 0.1.7), libsecret-1-0 (>= 0.7), libshine3 (>= 3.1.0), libshout3 (>= 2.2.2), libsidplay2 (>= 2.1.1), libsoxr0 (>= 0.1.2), libspatialaudio2 (>= 0.4.1), libspeex1 (>= 1.2~), libspeexdsp1 (>= 1.2.1), libssh2-1t64 (>= 1.2.3), libstdc++6 (>= 14), libswscale9 (>= 7:8.1.2), libsystemd0, libtag2 (>= 2.0), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtinfo6 (>= 6), libtwolame0 (>= 0.3.6), libudev1 (>= 183), libupnp17t64 (>= 1:1.14.0), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libvlccore9 (>= 3.0.23), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-165 (>= 2:0.165.3223+git20250910.0480cb0), libx265-216 (>= 4.2), libxcb-keysyms1 (>= 0.4.1), libxcb1, libxml2-16 (>= 2.14.1), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.1.4), vlc-plugin-abi-3-0-0ft64
+Installed-Size: 13283
+Depends: vlc-data (= 3.0.24-1), vlc-plugin-abi-3-0-0ft64, libarchive13t64 (>= 3.1.2), libaribb24-0t64 (>= 1.0.3), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.13.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libavcodec63 (>= 7:9.0.2), libavformat63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libbluray4 (>= 1:1.0.0), libc6 (>= 2.43), libcairo2 (>= 1.13.1), libcddb2 (>= 1.3.2), libchromaprint1 (>= 1.3.2), libdav1d7 (>= 1.1.0), libdbus-1-3 (>= 1.10), libdc1394-25 (>= 2.2.6), libdvbpsi10 (>= 1.3.0), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libebml5 (>= 1.4.7), libfaad2 (>= 2.7), libflac14 (>= 1.5.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 1.0.0), libgcc-s1 (>= 3.4), libgcrypt20 (>= 1.12.0), libglib2.0-0t64 (>= 2.28.0), libgnutls30t64 (>= 3.8.4), libgpg-error0 (>= 1.14), libharfbuzz0b (>= 0.9.4), libixml11t64 (>= 1:1.14.0), libjpeg62-turbo (>= 1.3.1), libkate1 (>= 0.3.0), liblirc-client0t64 (>= 0.10.2), liblua5.4-0 (>= 5.4.6), libmatroska7 (>= 1.7.2), libmpcdec6 (>= 1:0.1~r435), libmpg123-0t64 (>= 1.28.0), libmtp9t64 (>= 1.1.0), libncursesw6 (>= 6), libnfs14 (>= 1.9.7), libogg0 (>= 1.1.0), libopenmpt-modplug1 (>= 0.8.9), libopus0 (>= 1.3~beta+20180516), libpng16-16t64 (>= 1.6.46), libprotobuf-lite32t64 (>= 3.21.12), libpulse0 (>= 1.0), libraw1394-11 (>= 2.1.2), libresid-builder0c2a (>= 2.1.1), librist4 (>= 0.2.6+dfsg), librsvg2-2 (>= 2.14.4), libsamplerate0 (>= 0.1.7), libsecret-1-0 (>= 0.7), libshine3 (>= 3.1.0), libshout3 (>= 2.2.2), libsidplay2 (>= 2.1.1), libsoxr0 (>= 0.1.2), libspatialaudio2 (>= 0.4.1), libspeex1 (>= 1.2~), libspeexdsp1 (>= 1.2.1), libssh2-1t64 (>= 1.2.8), libstdc++6 (>= 14), libswscale10 (>= 7:9.0.2), libsystemd0, libtag2 (>= 2.0), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtinfo6 (>= 6), libtwolame0 (>= 0.3.6), libudev1 (>= 183), libupnp17t64 (>= 1:1.14.0), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libvlccore9 (>= 3.0.24), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-165 (>= 2:0.165.3223+git20250910.0480cb0), libx265-216 (>= 4.2), libxcb-keysyms1 (>= 0.4.1), libxcb1, libxml2-16 (>= 2.14.1), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.1.4)
 Recommends: xdg-utils
 Suggests: libdvdcss2
-Filename: ./vlc-plugin-base_3.0.23-3+b4_amd64.deb
-Size: 3266496
-MD5sum: a6243c88ba6b1fdf916204419b2a5966
-SHA1: 344d44e037faae70ffac6b9ddb328abfe6bad6fc
-SHA256: f350cf0f35c965048918189406d609e7e220b9f636ea76a3be5b8fd0b428284c
-SHA512: 778902d99aa50abb5f04319a89fc12f26ee50ddf7cd8d8a3505737b7ed20e3a7700c3ef148a8e4bda95195699661e20724c15ef14c64823536e2368953b5a0da
+Filename: ./vlc-plugin-base_3.0.24-1_amd64.deb
+Size: 3268092
+MD5sum: 41aefe18e4292e33c0581350a506c1d2
+SHA1: b7a4bf7f12ff7ef3a39fdc38c3f421b68c4a1196
+SHA256: ac59196fc795b03a812e93b4bd9779d13a30984834d6eb6823de0268c7c87c14
+SHA512: 4cb02949f3f9cf219eec6be7f733a37a558b9bd62eebdac9d09a0a05184aab8e7a225551cc4ef67582b51e43bfb4948532e377c4d2e75e5b1b3558f3307e5306
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (base plugins)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -71997,21 +72005,21 @@ Description: multimedia player and streamer (base plugins)
 
 Package: vlc-plugin-notify
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 165
-Depends: libc6 (>= 2.8), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.0.0), libnotify4 (>= 0.7.0), libvlccore9 (>= 3.0.23), vlc-plugin-abi-3-0-0ft64
+Installed-Size: 161
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.8), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.0.0), libnotify4 (>= 0.7.0), libvlccore9 (>= 3.0.24)
 Enhances: vlc
-Filename: ./vlc-plugin-notify_3.0.23-3+b4_amd64.deb
-Size: 94100
-MD5sum: 834f7b8b3f34c04ef3ee61a4caa8fa8d
-SHA1: af4e3ed2c6fb84603c2c908704476ba6ff87dce9
-SHA256: ba3b9ce4fb614636fe1e0dcb45d3d930bb7cb10ab24be4e0152d972842528b08
-SHA512: df02750ce82f57c75acd05a5565b092da704eca439ade4cabbf28fe930d60f014ee71f12a098d1bc17353a2f9c510a6c1b7dc61c2c62753b1261b843c8bd1e9f
+Filename: ./vlc-plugin-notify_3.0.24-1_amd64.deb
+Size: 95100
+MD5sum: fa4f49ab994017cbb0ec23eb337c5eb5
+SHA1: b8525b1a2213c7362ba9845f1b99dabd2f8d5a74
+SHA256: d449141b1930bb9470d2dd5effbf53aa723da909a392287176223afc6601d456
+SHA512: b0565e110168da58360307b96d3896a2c7910bdccefe8b9e7a21b46a67fa6a3c34fa1fc71fcf6cae6af28cc27815e2fff51685fd8e7e1692b2ea7e7dab2a4013
 Homepage: https://www.videolan.org/vlc/
 Description: LibNotify plugin for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72023,21 +72031,21 @@ Description: LibNotify plugin for VLC
 
 Package: vlc-plugin-qt
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3767
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 14), libvlccore9 (>= 3.0.23), libwayland-client0 (>= 1.0.2), libx11-6, vlc-plugin-abi-3-0-0ft64
+Installed-Size: 3807
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 14), libvlccore9 (>= 3.0.24), libx11-6
 Recommends: vlc-bin
-Filename: ./vlc-plugin-qt_3.0.23-3+b4_amd64.deb
-Size: 1196984
-MD5sum: ad89c081185cdb687dc343a1416a129d
-SHA1: d9a4854459c3ca58975ead8ecf4c40fbe4e19f1c
-SHA256: b789189afb22d6d7637563c2d67cdc260d6cdad971d7f7dabc60d260e5a7097d
-SHA512: 057cfc76713855388479caf4551b8a466466369df13ac55251111d9c34457f1ec6867f585f629879a1732a78033b4c4217935d566703e220a530b0a10c78afb8
+Filename: ./vlc-plugin-qt_3.0.24-1_amd64.deb
+Size: 1226952
+MD5sum: 49ad659702d8caaf1cae418946bfef32
+SHA1: 262f122c4f13ad176cd953eb39111ea2f639ab4b
+SHA256: c34547a7fbc4dfe2629d27d47cd785a439ddb398311d444a5fafae49d7e04ee1
+SHA512: 9e3140b6fb0aec054f607081cc570f503981b1a201cfd693f224255b60c71e57b369739924772dfb07f8a7c548d80c6e1922af2ebd2a634b13f2467823c0a2b2
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (Qt plugin)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72045,24 +72053,25 @@ Description: multimedia player and streamer (Qt plugin)
  podcasts, and multimedia streams from various network sources.
  .
  This package contains VLC's Qt interface.
+Commands: qvlc
 
 Package: vlc-plugin-samba
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 165
-Depends: libc6 (>= 2.8), libsmbclient0 (>= 2:4.0.3+dfsg1), libvlccore9 (>= 3.0.23), vlc-plugin-abi-3-0-0ft64
+Installed-Size: 161
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.8), libsmbclient0 (>= 2:4.0.3+dfsg1), libvlccore9 (>= 3.0.24)
 Enhances: vlc
-Filename: ./vlc-plugin-samba_3.0.23-3+b4_amd64.deb
-Size: 95012
-MD5sum: d78a309b051c4ec87fc80bc177a49984
-SHA1: 5b49a71fc5d5e71389cac612a085f5b8b03adf3d
-SHA256: 6b2d5038445e29905be3d5fb10b3a99968b3ab99c4cd485f3789efd6a43a032b
-SHA512: c1bafe1b53248c6e95bb5a1f32d7e63347cd4e4cb7fd523278114dfb02e4a0b017a8eefd61d17d42ba440285e2d647ec05f461770007bf27642f636680da61a8
+Filename: ./vlc-plugin-samba_3.0.24-1_amd64.deb
+Size: 96032
+MD5sum: e557fa29092fb16924e0b9886e7bddf0
+SHA1: 2a8904646fd2efa5ac1e66b356f52fd61adfc92b
+SHA256: 103cf5ead5e73258a80be6ef31f5a000c76174db454da0d3f6f983b11aaa2f31
+SHA512: 7a1e2f5aefad73a30cc0473f3ed10121c1cd489a07235be2eb2b7cc6c5b9340fd2d7da9812bdb14cc97fbfc65125514654fe5ab4077e0d44637ae5172adbcab3
 Homepage: https://www.videolan.org/vlc/
 Description: Samba plugin for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72073,22 +72082,22 @@ Description: Samba plugin for VLC
 
 Package: vlc-plugin-skins2
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 1284
-Depends: fonts-freefont-ttf, vlc-plugin-qt (= 3.0.23-3+b4), libc6 (>= 2.38), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libvlccore9 (>= 3.0.23), libx11-6, libxext6, libxinerama1 (>= 2:1.1.4), libxpm4, vlc-plugin-abi-3-0-0ft64
+Installed-Size: 1288
+Depends: fonts-freefont-ttf, vlc-plugin-qt (= 3.0.24-1), vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.43), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 13), libvlccore9 (>= 3.0.24), libx11-6, libxext6, libxinerama1 (>= 2:1.1.4), libxpm4
 Recommends: vlc-bin
 Enhances: vlc
-Filename: ./vlc-plugin-skins2_3.0.23-3+b4_amd64.deb
-Size: 590652
-MD5sum: b85d53e3bb6b7394b1e6b35f504976c5
-SHA1: a012a7e3af3bcd32dacc92e64e3b32890c170492
-SHA256: 01998c3017804bb7aa06bb47bae31147e8ad624b04751dd000b39b8b6fcde24f
-SHA512: 40f7bcf328c6f64439d21062b05699c053bc039852a539480260a2975a4177a0157987ce51bf8a970eed7593d2cde46b548f1f772293c798b5bfd732302f8629
+Filename: ./vlc-plugin-skins2_3.0.24-1_amd64.deb
+Size: 593340
+MD5sum: f20e89f922f529f711a3bc2c3da381ed
+SHA1: 7801cc3e5d07a8dfb6511b9c8e7659e4700d75da
+SHA256: 0919962ce54cba18a64b28aab60257ccbe529da891218c0fb691c32699bed638
+SHA512: f53cdc7af8947bb2e2bcca730116383028c53d90d6b549501f6a22d9310f9a1167cb518d7227642b95693d5951db5890dd5dd006243d55f64d5b02254689fe60
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (Skins2 plugin)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72096,24 +72105,25 @@ Description: multimedia player and streamer (Skins2 plugin)
  podcasts, and multimedia streams from various network sources.
  .
  This package contains VLC's Skins2 interface.
+Commands: svlc
 
 Package: vlc-plugin-video-output
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 931
-Depends: libaa1 (>= 1.4p5), libavcodec62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libc6 (>= 2.34), libegl1, libgl1, libgles2, libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvlccore9 (>= 3.0.23), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-shm0, libxcb-xv0 (>= 1.2), libxcb1, vlc-plugin-abi-3-0-0ft64
+Installed-Size: 902
+Depends: vlc-plugin-abi-3-0-0ft64, libaa1 (>= 1.4p5), libavcodec63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libc6 (>= 2.34), libegl1, libgl1, libgles2, libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvlccore9 (>= 3.0.24), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6, libxcb-keysyms1 (>= 0.4.1), libxcb-shm0, libxcb-xv0 (>= 1.2), libxcb1
 Enhances: vlc
-Filename: ./vlc-plugin-video-output_3.0.23-3+b4_amd64.deb
-Size: 239960
-MD5sum: 947fa21c0c78d72a68b07b108d6b815e
-SHA1: dce958a9644f7d5015f8283fbe783f376f3e9add
-SHA256: 86cfe26ecf857d41098321d56046ff750b0d86bddc7d141ec9d958d1f0927a7e
-SHA512: 00f55cd18637a363a840c3f1c5c1f29c4233d7d0488aed6bf8f5046da0e60b635ba4964beb808763599b3cc39344ed263133fe95a82ecd2dcf7be01438db6073
+Filename: ./vlc-plugin-video-output_3.0.24-1_amd64.deb
+Size: 239156
+MD5sum: 27da41d8afebf487257131545b5eea77
+SHA1: 42fef1fe0afc5ed19332f492efed129188b3848b
+SHA256: 1f0388c116d525c1fa92a5a5c597ce7256f2890cda5b4584e540d81283fc9587
+SHA512: 4ce0617886587f382d66f6f1b11c7711b7fee4ad2099746682b301648185a44dedea485d8e0760fa155931daadb2417bea6e5ed8085a383979bd94b26c20888a
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (video output plugins)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72124,21 +72134,21 @@ Description: multimedia player and streamer (video output plugins)
 
 Package: vlc-plugin-video-splitter
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 228
-Depends: libc6 (>= 2.38), libvlccore9 (>= 3.0.23), libxcb-randr0 (>= 1.1), libxcb1, vlc-plugin-abi-3-0-0ft64
+Installed-Size: 221
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.38), libvlccore9 (>= 3.0.24), libxcb-randr0 (>= 1.1), libxcb1
 Enhances: vlc
-Filename: ./vlc-plugin-video-splitter_3.0.23-3+b4_amd64.deb
-Size: 112496
-MD5sum: 0794b18ebc87f2e0746069692cb0425e
-SHA1: af068044db7fdc789df553f2e2d8044304c8e933
-SHA256: 65c0fdd8129c4843e87d4d6d25de3d7de5f034c14e91a423edef1b66403e05a7
-SHA512: 4a1001b9cd1a53af028706751dc8a16931b996db2591672a196232aa9ef7ea19f95c39abd6ecf1980f808961221321dafdf90aa43e1ce6de76cd496c70a51d57
+Filename: ./vlc-plugin-video-splitter_3.0.24-1_amd64.deb
+Size: 113748
+MD5sum: 2e9142da06475304bf3964334f912e22
+SHA1: 65701d3ad2d1b91beb4fb48ba6a429ddc21cec66
+SHA256: 7cb6bcae60d96df80bfb246122d1271a009ceaa2e1edc6abfec5a1ac884af6d5
+SHA512: a154099f96a435e4547eb64f083a584339d2099da852b6414a2c5b08edb9cf57021bd6738c53e7bda223f5f1ce15590d84ea095a9309eeb3a97659a91470899e
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (video splitter plugins)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72149,21 +72159,21 @@ Description: multimedia player and streamer (video splitter plugins)
 
 Package: vlc-plugin-visualization
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
+Source: vlc
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 229
-Depends: libc6 (>= 2.29), libgl1, libvlccore9 (>= 3.0.23), vlc-plugin-abi-3-0-0ft64
+Installed-Size: 223
+Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.29), libgl1, libvlccore9 (>= 3.0.24)
 Enhances: vlc
-Filename: ./vlc-plugin-visualization_3.0.23-3+b4_amd64.deb
-Size: 115484
-MD5sum: a6dc2f5a00f2984b9500ed24873c7c22
-SHA1: 1ffa6d1de9dc4547f40259d4fcdd7218a077eade
-SHA256: 012995836053b152f077b5f62334bddb486080e5ad6f42ff43b7cae1c4557818
-SHA512: 0a522186789f112cc44ceaacb0ec270b86ae56daeb4be395adb42435c46ad46d53ce8aa4409ef087ec44fa4bb486d956d0c7593f944c61fc94174891893a81c5
+Filename: ./vlc-plugin-visualization_3.0.24-1_amd64.deb
+Size: 116464
+MD5sum: b030aa8323c94209718c1910bb18121a
+SHA1: 8670997e3e0bddb000e28f5de25cb80f1c381927
+SHA256: 8cbf9c06a933724309d311827f5b29c23130bb3ebc6bda175e5e010608166de9
+SHA512: 96810c6ddd2f8d1f218ac81525c972b044d94f4d468388b24f18b6647dfe7f43eceda25ea0033aca385ecdeca3579ff91e3158752d9d57c758b9a609341735a0
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer (visualization plugins)
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -72174,22 +72184,21 @@ Description: multimedia player and streamer (visualization plugins)
 
 Package: vlc
 Architecture: amd64
-Version: 3.0.23-3+b4
+Version: 3.0.24-1
 Priority: optional
 Section: video
-Source: vlc (3.0.23-3)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 194
+Installed-Size: 199
 Provides: mp3-decoder
-Depends: vlc-bin (= 3.0.23-3+b4), vlc-plugin-base (= 3.0.23-3+b4), vlc-plugin-qt (= 3.0.23-3+b4), vlc-plugin-video-output (= 3.0.23-3+b4)
-Recommends: vlc-l10n (= 3.0.23-3), vlc-plugin-access-extra (= 3.0.23-3+b4), vlc-plugin-notify (= 3.0.23-3+b4), vlc-plugin-samba (= 3.0.23-3+b4), vlc-plugin-skins2 (= 3.0.23-3+b4), vlc-plugin-video-splitter (= 3.0.23-3+b4), vlc-plugin-visualization (= 3.0.23-3+b4)
-Suggests: vlc-plugin-fluidsynth (= 3.0.23-3+b4), vlc-plugin-jack (= 3.0.23-3+b4), vlc-plugin-pipewire, vlc-plugin-svg (= 3.0.23-3+b4)
-Filename: ./vlc_3.0.23-3+b4_amd64.deb
-Size: 110940
-MD5sum: a48e550cc2fc6bddfbf647e5c010d7b0
-SHA1: 0592952aa680069590e05a6537dfdff41640bc13
-SHA256: eefbd063bf7dab98e9ebdfa0d265321b60e96cb5e3bf66603120ef91a7799239
-SHA512: 7287ee714b9836e0a96ad771cfe3bf6d000463967ae6686fa7709755a86524b78a6068f1f633c986a6e6af1f80ec11b00c8bae7f11863fdfb8413f501078ccf7
+Depends: vlc-bin (= 3.0.24-1), vlc-plugin-base (= 3.0.24-1), vlc-plugin-qt (= 3.0.24-1), vlc-plugin-video-output (= 3.0.24-1)
+Recommends: vlc-l10n (= 3.0.24-1), vlc-plugin-access-extra (= 3.0.24-1), vlc-plugin-notify (= 3.0.24-1), vlc-plugin-samba (= 3.0.24-1), vlc-plugin-skins2 (= 3.0.24-1), vlc-plugin-video-splitter (= 3.0.24-1), vlc-plugin-visualization (= 3.0.24-1)
+Suggests: vlc-plugin-fluidsynth (= 3.0.24-1), vlc-plugin-jack (= 3.0.24-1), vlc-plugin-pipewire, vlc-plugin-svg (= 3.0.24-1)
+Filename: ./vlc_3.0.24-1_amd64.deb
+Size: 113020
+MD5sum: 0778ee0383657ef608b9e0816b24dde5
+SHA1: c8a2aa01ef4069e86b2da1118c79e84d1dfd9426
+SHA256: 21d66b20a95036cc125c6f5fc6d41026dbced1e3f3614b8a6e7d47bcadd4b8c2
+SHA512: ac849038b5895c617443bef101f5e6b1acc5e0201710041bc333871f978c9fa425325e65079b923170bdfd8a41ed29e71b7891856fd6dbdb4b7c216711d1c94a
 Homepage: https://www.videolan.org/vlc/
 Description: multimedia player and streamer
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -74099,20 +74108,20 @@ Description: X color management daemon
 
 Package: xmms2-core
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: sound
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 986
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.36.0), libsqlite3-0 (>= 3.5.9)
+Installed-Size: 994
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libsqlite3-0 (>= 3.5.9)
 Conflicts: libxmmsclient++1, libxmmsclient++2, libxmmsclient++3, libxmmsclient++4, libxmmsclient2, libxmmsclient3, libxmmsclient4
-Filename: ./xmms2-core_0.8+dfsg-30+b1_amd64.deb
-Size: 543136
-MD5sum: ca3ab600bf4d0154242b0e72d2b95719
-SHA1: 04a76a059cc362442b407f7cf8b54adce2ef3d2f
-SHA256: 3aecca7225f1f96308d3ad09cf6d9bd3033d3020f7f877cd27c1fe09679c0864
-SHA512: fd978d0fc3210b083d3fe31125c3bf0f62bfba1201dafd9c1990c79f679a4aef64e17b03f80c4397de156710391ee9db06e26c7d4edb41185599670052a6e9f5
+Filename: ./xmms2-core_0.8+dfsg-30+b2_amd64.deb
+Size: 551308
+MD5sum: 0c297e638f63519324816ad7c47bf46d
+SHA1: 33946faa0535e1314c9133f19a9ee6934834458c
+SHA256: 45f728a738bc633eb29644f4d7abe8e82c6210ee77f3d58192ee25cfcf84f567
+SHA512: 937f002d5d7df71322fba509e3c45a2d4130ba6e10767638df4bc4359b0949a7bb2343defd31db9918efad7c95a5393386ebcb3a5900f3a6d0795bffd36397a6
 Description: XMMS2 - core package
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -74124,21 +74133,21 @@ Description: XMMS2 - core package
 
 Package: xmms2-plugin-alsa
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: sound
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 56
 Provides: xmms2-plugin-output
-Depends: xmms2-core (= 0.8+dfsg-30+b1), libasound2t64 (>= 1.0.16), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0)
+Depends: xmms2-core (= 0.8+dfsg-30+b2), libasound2t64 (>= 1.0.16), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0)
 Enhances: xmms2-core
-Filename: ./xmms2-plugin-alsa_0.8+dfsg-30+b1_amd64.deb
-Size: 15360
-MD5sum: d0263e590d9d363fe2cd62d39a276dc7
-SHA1: 6961ee101d222c0a3491f603ee0c78e87caf9eb4
-SHA256: 499ed3683d0dea73df2f4a5fa774aeaa689daf75c22c29c2ad59f1191c6e43e0
-SHA512: 3c5b4431ed59de733ae12b122026d31b43eae55574b82523bbd1b10728bd27ef3c7ea956fa00acb7db5f01e1538eea7c106fc9c3aaf0a34ec330bf4e49bb4aa3
+Filename: ./xmms2-plugin-alsa_0.8+dfsg-30+b2_amd64.deb
+Size: 15608
+MD5sum: fb1c81aea8808dbb0ccd28630454d64a
+SHA1: e7200699dc3cf74c39a389fa5393eb4b7b88e711
+SHA256: 44d16bc0520dca2a66505be8f42cd2bbe1baf6dc3638a7014bc52c5cd9a9c5a4
+SHA512: dfb5c5682e5cb49d1523cd1c8484e9009b30393ed9b4a05aeb71b72cd58a029a6e8cca5e0c01b51e5159652bb2b588cae2c427932e97a899135791a6675f709c
 Description: XMMS2 - ALSA output
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -74149,20 +74158,20 @@ Description: XMMS2 - ALSA output
 
 Package: xmms2-plugin-id3v2
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: sound
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 56
-Depends: xmms2-core (= 0.8+dfsg-30+b1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.12.0)
+Depends: xmms2-core (= 0.8+dfsg-30+b2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.12.0)
 Enhances: xmms2-core
-Filename: ./xmms2-plugin-id3v2_0.8+dfsg-30+b1_amd64.deb
-Size: 16392
-MD5sum: 1cf667737a3f09b7ccaf161d7e3b9420
-SHA1: 5b5db1060015feb68467446fca1ca23e18bfde16
-SHA256: 6fc53668c50a67e194bd0628b44f01f19bd0f3e1c76dc4e77215509c4ae78f54
-SHA512: 24fec81b3768f28dd991ba59b29275ec09d8031c5d6f7a7aece98240c8f8359a2d36bd892ea750aab6cb9278f268224ed39fc56e9a224a6d10e9dda9ac5f41b6
+Filename: ./xmms2-plugin-id3v2_0.8+dfsg-30+b2_amd64.deb
+Size: 16600
+MD5sum: 83baced5e1a7bcf34516674e83274fe2
+SHA1: dbbaab371b37924ca791719fb8d1953fb2896826
+SHA256: 40714f3bca7f86d9a0e81143dbefc82d75349cffa7a027afa45f5343914be37d
+SHA512: 23204bb706478e899823271c1ae3dddbcee10cb0d9ca1dc83e687550317bd11d0816aa28f07405d7b1515412aea27bd8571d2c43526be6eb0c39cb98899cf774
 Description: XMMS2 - ID3v2 plug-in
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -74173,21 +74182,21 @@ Description: XMMS2 - ID3v2 plug-in
 
 Package: xmms2-plugin-mad
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: sound
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 60
-Depends: xmms2-core (= 0.8+dfsg-30+b1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libmad0 (>= 0.15.1b)
+Depends: xmms2-core (= 0.8+dfsg-30+b2), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0), libmad0 (>= 0.15.1b)
 Recommends: xmms2-plugin-id3v2
 Enhances: xmms2-core
-Filename: ./xmms2-plugin-mad_0.8+dfsg-30+b1_amd64.deb
-Size: 16316
-MD5sum: 38fda7f286f725d38c2f443a561e5a39
-SHA1: f8afb3100caaa78dc1688919183a6a9ff113739f
-SHA256: 72dd3d6f359573cb4fcbe6b1cca004331f3475f551bb08198fb099d3888e2f49
-SHA512: a397f2b44330866d1e947c28f37f13c54491433d796e01dfd18f294ba88fb839e4bae57bf4525782fc0c8cb083012d37ad72ec997f100ff1e8d68a1db23a8cb4
+Filename: ./xmms2-plugin-mad_0.8+dfsg-30+b2_amd64.deb
+Size: 16624
+MD5sum: 29033c9fc4dd83e9f81a584ebbf13f9e
+SHA1: 4c95208257026cc92f5671656848afa82f3a6517
+SHA256: 6a1d4fb44f6769c774147537ba59a44a72c95b2f52dfc09f7a55a21ccd003418
+SHA512: b62526c146381ad4195c4ed46745d1c9df97ec9b046c5c84bfdd02c623ec0f11f90b959324a48622489e110e2a0a4f92d5484479905c408b12c209205e88aab0
 Description: XMMS2 - libmad based mp3 decoder
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
@@ -74198,20 +74207,20 @@ Description: XMMS2 - libmad based mp3 decoder
 
 Package: xmms2-plugin-vorbis
 Architecture: amd64
-Version: 0.8+dfsg-30+b1
+Version: 0.8+dfsg-30+b2
 Priority: optional
 Section: sound
 Source: xmms2 (0.8+dfsg-30)
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 48
-Depends: xmms2-core (= 0.8+dfsg-30+b1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.12.0), libvorbisfile3 (>= 1.1.2)
+Installed-Size: 52
+Depends: xmms2-core (= 0.8+dfsg-30+b2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.12.0), libvorbisfile3 (>= 1.1.2)
 Enhances: xmms2-core
-Filename: ./xmms2-plugin-vorbis_0.8+dfsg-30+b1_amd64.deb
-Size: 13524
-MD5sum: 34b3332e7149a06aaa0da264169ae619
-SHA1: 93430175f6aa2667e97011823b5f144cea4ede0a
-SHA256: abe7174055eb6b973964d96d83a7594bde14702748d956defff5aa25aab664f7
-SHA512: b35477847e9718d69b960b8c9cb12e997f8f5a6c863680e47c2415b9903e4cdca0c9c856c309883e3f58fa47d85aa936c197830a7d14aed7f0b50de29ae1aa9a
+Filename: ./xmms2-plugin-vorbis_0.8+dfsg-30+b2_amd64.deb
+Size: 13732
+MD5sum: f2aaed33a8885004aaaee2a4d257bc5c
+SHA1: e7d27ab5a3f38eafeb641b182154bf5b16f7f563
+SHA256: 91e1d8887100251c67ebc8710c2c0deb9418e7adfc59432f42541e4ed0081462
+SHA512: 521fbbfb0632ea9a188e3f454247d7eeef518df9e22a2315c88ceb1b4110926e6c1cc2af38f9dd25c1b72178f48fb4627f992de7b5693164deae630f7af45771
 Description: XMMS2 - vorbis decoder
  XMMS2 is a redesign of the XMMS music player. It features a client-server
  model, allowing multiple (even simultaneous!) user interfaces, both textual
