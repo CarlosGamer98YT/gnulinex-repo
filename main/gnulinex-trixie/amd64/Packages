@@ -7747,21 +7747,21 @@ Description: GObject introspection for GSettings desktop-wide schemas
 
 Package: gir1.2-gdkpixbuf-2.0
 Architecture: amd64
-Version: 2.44.7+dfsg-1
+Version: 2.44.8+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gdk-pixbuf
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 41
-Provides: gir1.2-gdkpixdata-2.0 (= 2.44.7+dfsg-1)
+Provides: gir1.2-gdkpixdata-2.0 (= 2.44.8+dfsg-1)
 Depends: gir1.2-gio-2.0, gir1.2-gmodule-2.0, libgdk-pixbuf-2.0-0 (>= 2.39.2)
-Filename: ./gir1.2-gdkpixbuf-2.0_2.44.7+dfsg-1_amd64.deb
-Size: 12400
-MD5sum: dc7259475b91a20061bde183f60a3069
-SHA1: 5c2d805ea24c83fa8303b1e13bbf34ccce833b18
-SHA256: 094d8fe1023ba63f1da3818efc37cd5fcb715620900c3712acfd50b36d51c972
-SHA512: 808d2c8cc3fecf53385d4b215f418ddf6fadcabddfefc624212bc886b3107e35266a57bfec0c214805f48e3a9b6ee148aa7672aa4cc4bdb25d5fb0d53c959202
+Filename: ./gir1.2-gdkpixbuf-2.0_2.44.8+dfsg-1_amd64.deb
+Size: 12596
+MD5sum: 5efc987df69fd8a2e776e53c3067ef76
+SHA1: e2677c1b54fd5ec596ea3308ade4193758f2e137
+SHA256: 4293036c434975f6ac47ac5f13d287679a772d45889bd41fc63f2a0c8c53eb8e
+SHA512: 9c931a012c82aaa781f670bdd09dfa174a6f963787d13e8527d8fd509d4d9fa135bb1fd2d44b7152986fdfea798733b61f9286fb8a74f7359c81abb744e7f262
 Homepage: https://www.gtk.org/
 Description: GDK Pixbuf library - GObject-Introspection
  The GDK Pixbuf library provides:
@@ -8047,20 +8047,20 @@ Description: Introspection data for GLib, GObject, Gio and GModule
 
 Package: gir1.2-gly-2
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 49
-Depends: libglycin-2-0 (= 2.1.5+ds-2), gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0
-Filename: ./gir1.2-gly-2_2.1.5+ds-2_amd64.deb
-Size: 15204
-MD5sum: 961fca9baf294a63e2c3389c233f09c4
-SHA1: 61f25302bcd30f101201215ba92a9f4dcd2cfe14
-SHA256: 2cd7d9f6ad3ee6378f40e1b5085035725bf171ef0b8d05ae95ef686dd56795ae
-SHA512: 76f90223d8d222da7dce3542cf6794a87de15b62d0633e0fd40bf35e47d54781ad7c2ad0109cb7fa995d84097b925f8390a7d297e90e05ddb0fe28f86a366112
+Installed-Size: 51
+Depends: libglycin-2-0 (= 2.2.1+ds-2), gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gobject-2.0
+Filename: ./gir1.2-gly-2_2.2.1+ds-2_amd64.deb
+Size: 16048
+MD5sum: 4ff3f5c9f6e574e2aee5aa0cbf3de8d9
+SHA1: f03bcdb3dd2552360b1c4df97be1437341b6fcbc
+SHA256: d09384973a07fec3f8ef76c973bec46302e0755ecb198e173f74178fb726ef8a
+SHA512: 76049c8c28adbb1e4261132f884b74a63f3c6b948ac89456d458af8d1b78db16f7cd89af2a07afc670ecb364769241de3daabf3e02fac6d767e7b3968303dccf
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -9648,22 +9648,22 @@ Description: GNOME control center tools for libgnomekbd
 
 Package: glycin-loaders
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 13503
-Depends: bubblewrap, libc6 (>= 2.39), libcairo2 (>= 1.4.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.16.0), libheif1 (>= 1.17.0), libjxl0.11 (>= 0.11.0), librsvg2-2 (>= 2.52.5)
-Recommends: libheif-plugin-aomenc | libheif-plugin-rav1e | libheif-plugin-svtenc
-Suggests: libheif-plugin-x265 | libheif-plugin-kvazaar
-Filename: ./glycin-loaders_2.1.5+ds-2_amd64.deb
-Size: 2732712
-MD5sum: 5ed6b1eab334a3b79377b78aed83d227
-SHA1: cb550cdacf89dac72034fae4ea1f756ec8c86dae
-SHA256: ec678ae96046ae8c68808e40773d856d284ba125648c0b8388bb767ddcb7f819
-SHA512: 85dbf549096bf58094ae79888541c9258305040e188d0aea170e854ddce8258701f329370b16baed914340dc5fa39887e925c58b7f9807b3f76d847f6f9bffb5
+Installed-Size: 14884
+Depends: bubblewrap, libc6 (>= 2.39), libcairo2 (>= 1.4.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.34.0), libheif1 (>= 1.20.0), libjxl0.11 (>= 0.11.2), librsvg2-2 (>= 2.52.5)
+Recommends: libheif-plugin-aomdec | libheif-plugin-dav1d, libheif-plugin-aomenc | libheif-plugin-rav1e | libheif-plugin-svtenc
+Suggests: libheif-plugin-libde265 | libheif-plugin-ffmpegdec, libheif-plugin-x265 | libheif-plugin-kvazaar
+Filename: ./glycin-loaders_2.2.1+ds-2_amd64.deb
+Size: 2995204
+MD5sum: 81aadacd52107158d7786d75291beae6
+SHA1: d01bc6ddb995bc1e59b77a1ebd8ea0521ee3bca0
+SHA256: 2618b0639fda6819dec4e9b3ff2e1b6c505ef2a41f14d4094f96f0261d66ed16
+SHA512: ec4ddd5b14d68fa7a7ded134be6adf254d7d51a51174fbf4c6e5c32911a28c514a2688ba93d1aad5d355986767758e7fa47a1b6269a8d5408e337dcc8959410d
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -9675,20 +9675,20 @@ Description: sandboxed image loaders for GNOME
 
 Package: glycin-thumbnailers
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 505
+Installed-Size: 477
 Depends: glycin-loaders (>= 2~), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.42.0), libglycin-2-0 (>= 2.0~beta)
-Filename: ./glycin-thumbnailers_2.1.5+ds-2_amd64.deb
-Size: 214604
-MD5sum: b8e419e3b817d4602f8cff31aa7baed8
-SHA1: fcecc8ddba835dfa9a83cd65386ad5bca456b0f5
-SHA256: fe28038aea197d531fac02f379528319f91534367ccccdcae9dded7a4d4ebe19
-SHA512: 869df5f56b353d85864195a7879bbbc7c7dd8442e1e9b251da14c24aef2745e10825ee209c89f5c15431c6feca71d192aea451012ca7c1512f9c47956af103e7
+Filename: ./glycin-thumbnailers_2.2.1+ds-2_amd64.deb
+Size: 207788
+MD5sum: af1ea7c85ec9e4f7f92b5d381a732313
+SHA1: a6e6b5d8d38574cf68d8268d88dbc768d3d9e570
+SHA256: 6cfcd80b36eb1e3e5c3d681fda476061cb381df4efd431b35f131ad46a66f647
+SHA512: db9d5748f65c83633f2abf2a86dccb02c4ecafa61d9a85e2d22e3f4019a705301d4f5711d8312be7d7d36cdac66fcf71c0687cd530fac6921e19018cd9e53cca
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -22160,20 +22160,20 @@ Description: LGPL Crypto library - runtime library
 
 Package: libgdk-pixbuf-2.0-0
 Architecture: amd64
-Version: 2.44.7+dfsg-1
+Version: 2.44.8+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gdk-pixbuf
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 265
-Depends: glycin-thumbnailers (>= 2.0.8), libgdk-pixbuf2.0-common (>= 2.44.7+dfsg-1), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libglycin-2-0 (>= 2.0.8)
-Filename: ./libgdk-pixbuf-2.0-0_2.44.7+dfsg-1_amd64.deb
-Size: 96360
-MD5sum: b584897f4c192cf0166df612c47ec864
-SHA1: d7ac189d0274c46d85d3f58a0be0c19095a0df24
-SHA256: 579ce5d975e819db3350f666a7c3ce27a7e09922d4ce78f7f63ada4e0324c3d2
-SHA512: 9a6d83f801686568345d34163c6db74ecc99c4611966658cdc459cac3ba78d76d19e57841dd0f5af5706696a9f128e306a41f0b4fd7f8179fe9ada9b67e21a61
+Installed-Size: 281
+Depends: glycin-thumbnailers (>= 2.2~alpha.7), libgdk-pixbuf2.0-common (>= 2.44.8+dfsg-1), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libglycin-2-0 (>= 2.2~beta.1)
+Filename: ./libgdk-pixbuf-2.0-0_2.44.8+dfsg-1_amd64.deb
+Size: 102784
+MD5sum: 1b9a0b9d06c74d0925bf061a60ffe0f0
+SHA1: ecdb8a4b79c71293521756c845ac8b6f7ca84e3b
+SHA256: 5a0cf676d68e18ad8a7e2c0c88f2aeaad6c0238461bf9c4a14fa4b611c77f4ee
+SHA512: d0209161fab3c3be587dd536053ac2691aa919b0036dc9d4e36dda68ac83fce886f1ce5ee136b15de74d6dea13ef249569b2b7859eda6e11093bef88a16ea972
 Homepage: https://www.gtk.org/
 Description: GDK Pixbuf library
  The GDK Pixbuf library provides:
@@ -22183,21 +22183,21 @@ Description: GDK Pixbuf library
 
 Package: libgdk-pixbuf-2.0-dev
 Architecture: amd64
-Version: 2.44.7+dfsg-1
+Version: 2.44.8+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: gdk-pixbuf
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 477
-Provides: gir1.2-gdkpixbuf-2.0-dev (= 2.44.7+dfsg-1), gir1.2-gdkpixdata-2.0-dev (= 2.44.7+dfsg-1)
-Depends: gir1.2-gdkpixbuf-2.0 (= 2.44.7+dfsg-1), libgdk-pixbuf-2.0-0 (= 2.44.7+dfsg-1), libgdk-pixbuf2.0-bin (= 2.44.7+dfsg-1), libglib2.0-dev, libglycin-2-dev (>= 2.0.8), shared-mime-info, gir1.2-gio-2.0-dev, gir1.2-gmodule-2.0-dev
-Filename: ./libgdk-pixbuf-2.0-dev_2.44.7+dfsg-1_amd64.deb
-Size: 50924
-MD5sum: e7d5e88d3781cd147adec020243c46b0
-SHA1: 47c62ff0a70b34ed46093a99d6f1a730080afb1c
-SHA256: 88eecfa145fbc6b92739403610d9c5490ff93d39e834dbda0c74475a90ecbaf1
-SHA512: 984e6229247adcc0c798be0495a7db602b4089486531ff7d7f15b07ca3bc51cfcbec61058affe72f209e61c2e896b9208d830c872b2052cd8913ab978de1e72d
+Provides: gir1.2-gdkpixbuf-2.0-dev (= 2.44.8+dfsg-1), gir1.2-gdkpixdata-2.0-dev (= 2.44.8+dfsg-1)
+Depends: gir1.2-gdkpixbuf-2.0 (= 2.44.8+dfsg-1), libgdk-pixbuf-2.0-0 (= 2.44.8+dfsg-1), libgdk-pixbuf2.0-bin (= 2.44.8+dfsg-1), libglib2.0-dev, libglycin-2-dev (>= 2.2~alpha.7), shared-mime-info, gir1.2-gio-2.0-dev, gir1.2-gmodule-2.0-dev
+Filename: ./libgdk-pixbuf-2.0-dev_2.44.8+dfsg-1_amd64.deb
+Size: 51144
+MD5sum: ca46bef538647a9a26e9893edd01729b
+SHA1: ae3566359014354c3f9f95005c83bc3a5957fdc8
+SHA256: 253d1849c90de9fbd41f6952259eb7a1511223f0293a9e33c662e8d39d91250f
+SHA512: 4855c70b76e23392ef0b60fc7c86bbd538a62aa7b22e9e6f78da17ab2eacc0d86e9667991e2ab5949d5580f453a0069450f49ee50fef43f5923b6d3bafb0cf9b
 Homepage: https://www.gtk.org/
 Description: GDK Pixbuf library (development files)
  The GDK Pixbuf library provides:
@@ -22209,7 +22209,7 @@ Description: GDK Pixbuf library (development files)
 
 Package: libgdk-pixbuf2.0-bin
 Architecture: amd64
-Version: 2.44.7+dfsg-1
+Version: 2.44.8+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -22217,12 +22217,12 @@ Source: gdk-pixbuf
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 52
 Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0)
-Filename: ./libgdk-pixbuf2.0-bin_2.44.7+dfsg-1_amd64.deb
-Size: 14248
-MD5sum: c1f6fe7200389a22c426fac0a508d703
-SHA1: df5faa2ee5df705e7b8531bba986c2922855c640
-SHA256: f4dd3966e4090b7963b59c48451f507af11f09494b4d9184d3aa9dcf75076809
-SHA512: 3be00ef1643c18eb16e7d55c6c35fac55b594ba134a4d535d459762189b394a02fade70f7b5e1aa2b2b9c4de7f9b84627f2af8be5183e09f99235c6c1bea9b76
+Filename: ./libgdk-pixbuf2.0-bin_2.44.8+dfsg-1_amd64.deb
+Size: 14560
+MD5sum: e7a4942b2e9617a4bfae05a28d653799
+SHA1: 18baee955815746bea8c86c0bba10b3ad32923ab
+SHA256: f891caeb35868b81ebc265c1d1dcf48df9024c1976da97a76daf65e472cd515b
+SHA512: 9390f2e5e01af6b4e82c90e4496c2cb94326cfdd457e39bca32b2db77fde969d12ace7c7a46b252d9764c37f1a749ba0bcfe369180e6c25bd9bb8505a8d089a4
 Homepage: https://www.gtk.org/
 Description: GDK Pixbuf library (thumbnailer)
  The GDK Pixbuf library provides:
@@ -22235,19 +22235,19 @@ Description: GDK Pixbuf library (thumbnailer)
 
 Package: libgdk-pixbuf2.0-common
 Architecture: all
-Version: 2.44.7+dfsg-1
+Version: 2.44.8+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: gdk-pixbuf
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 2618
-Filename: ./libgdk-pixbuf2.0-common_2.44.7+dfsg-1_all.deb
-Size: 316168
-MD5sum: 9aa73b7d04e76fb6f148fef3028afd76
-SHA1: 1a845331e06fde5bde0e8490c155e49c44e005ba
-SHA256: ed61ed29c39df1524b65b5f7d4c6225c8bf9bc19805a436476314e2a577ef36c
-SHA512: 5e17f3f324f8dac96e4096d70c9c25cfa5fe5e8058284ff7efd8a4cb50eb6e05e271fed7e2cac805fc9c4701c19e317aae96fa7ae76bcc5e256a4fcf8471820a
+Filename: ./libgdk-pixbuf2.0-common_2.44.8+dfsg-1_all.deb
+Size: 315612
+MD5sum: 45668c0845d95b02a2677088994c21c1
+SHA1: 066450d992575062023cb424e82370411e80672b
+SHA256: 5ba1653c195e434b72ef9e1e880ae8bdad8b3c84a0602bbdb33a003de4aa5d64
+SHA512: 8ff518c4e662890ed8e2430b077bad5e2287c8231703e90abc82db75ef5340c369b440bd337202e005170c504b44c3d5ec2dc65f3c8898777f2a12c24fc5a9b1
 Homepage: https://www.gtk.org/
 Description: GDK Pixbuf library - data files
  This package contains the common files and translations for the GDK
@@ -23155,20 +23155,21 @@ Description: C++ wrapper for the GLib toolkit (shared libraries)
 
 Package: libglycin-2-0
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4198
-Depends: glycin-loaders (>= 2~), libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.68.0), liblcms2-2 (>= 2.2+git20110628), libseccomp2 (>= 2.1.0)
-Filename: ./libglycin-2-0_2.1.5+ds-2_amd64.deb
-Size: 1393472
-MD5sum: b8130231af56b7adf9aaae529d190657
-SHA1: 3c5b95c591a004526adfd684f05a3a7ecd5b6df9
-SHA256: 84146cd7a656fe8c71a2962937f56b91e2c7074cc8b1bc6a9eb8d86550f4c657
-SHA512: 3226ceed3197eb124946b983847db239c5c10b8e5915beb3ea23565c4ff6b1f255b3f4248f3af1aa0fcbb19eb39101c3c44bababdd570240cd6e9ca3f76e377b
+Installed-Size: 4769
+Depends: glycin-loaders (>= 2~), libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.68.0), libseccomp2 (>= 2.1.0)
+Breaks: viking (<< 1.11+git20260816.2a242096-2~)
+Filename: ./libglycin-2-0_2.2.1+ds-2_amd64.deb
+Size: 1615096
+MD5sum: bd82f98c49772ae1b4ead7d408a949ff
+SHA1: 007e74fac91cabcc4639a53c3168a1b565724eb6
+SHA256: 8c6a77ec1b436e08325c00f12cf7c77e7bb23e5cca252019920bce6f14483d67
+SHA512: cc5f7cac3971db828674fde1ee93659e55bd3a6069f4fc03ebffca1e9562307e61ebc1fc5454ca61a6a44108ba78c19bebeae43d587e98f43a0096e6ed09be52
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -23180,21 +23181,21 @@ Description: sandboxed image loaders for GNOME
 
 Package: libglycin-2-dev
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 173
-Provides: gir1.2-gly-2-dev (= 2.1.5+ds-2)
-Depends: libfontconfig-dev, libgio-2.0-dev, libglycin-2-0 (= 2.1.5+ds-2), liblcms2-dev, libseccomp-dev, gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gly-2 (= 2.1.5+ds-2), gir1.2-gobject-2.0-dev
-Filename: ./libglycin-2-dev_2.1.5+ds-2_amd64.deb
-Size: 24984
-MD5sum: a29520a7010fd40c3c5306a98c9f3204
-SHA1: 5f8059ff82266debc762eb8eb2f6a567979aa5cd
-SHA256: a9750753d61c98616c4e3318da867cb0ef6cec2720ed30bb1ade6705498d0512
-SHA512: 84a9ebe3cc9487447e312f1b83eb0eff8726485375d89d94f35e1d403d205457981ee06021ee43c8715e5a71274a923b24d321a803ab942274ffa4001cbf6e07
+Installed-Size: 198
+Provides: gir1.2-gly-2-dev (= 2.2.1+ds-2)
+Depends: libfontconfig-dev, libgio-2.0-dev, libglycin-2-0 (= 2.2.1+ds-2), liblcms2-dev, libseccomp-dev, gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gly-2 (= 2.2.1+ds-2), gir1.2-gobject-2.0-dev
+Filename: ./libglycin-2-dev_2.2.1+ds-2_amd64.deb
+Size: 27284
+MD5sum: 91b5fc41b7cf427fcbd269ba23a1163a
+SHA1: d744b91dbaf88d003e784ed6fb436da1ed1052f6
+SHA256: e563e57d4c9c339a1cf0ac4e0a5bdd6e5f3848dfdc96c1bc8d92f1493aaa3755
+SHA512: b19614a20723af91f0b5c160e1beb0f97a7fcab306ab1cf858bcc217ca2c7f79c9dbde5cd29c2bb9c1fcdb1aa9fd17f9af2d3b49c77ad10c3d297f4cf910fd08
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -23206,7 +23207,7 @@ Description: sandboxed image loaders for GNOME
 
 Package: libglycin-gtk4-2-0
 Architecture: amd64
-Version: 2.1.5+ds-2
+Version: 2.2.1+ds-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -23214,12 +23215,12 @@ Source: glycin
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 320
 Depends: libc6 (>= 2.33), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libglycin-2-0 (>= 2.0~beta), libgtk-4-1 (>= 4.15.4)
-Filename: ./libglycin-gtk4-2-0_2.1.5+ds-2_amd64.deb
-Size: 133256
-MD5sum: 4da0558de40e33fe348dc398f9962865
-SHA1: 82da6df6a369c11ba3a1ddbb983fc72b2088f767
-SHA256: 5a74261f3bcbc936894f654b9d00e86d7d2478f5a448f0d3f464ec28b018cea3
-SHA512: f462747f08570e29079058dcfa475a251a8177a0362cc4ff6fecfd31ea29c839d4e361e7f2403fca3646c7952985603b5a11ae87c69847626c5be94f69944e9e
+Filename: ./libglycin-gtk4-2-0_2.2.1+ds-2_amd64.deb
+Size: 133392
+MD5sum: bc7131603fc1613812939f3d6030d688
+SHA1: f685ce0012fccd845c3a0da635cd9817c550d1e9
+SHA256: 14b1263c1a1b5db57eda1e4d7cb6837391f04c9b6455391f164d7451e95954f9
+SHA512: d1829b34134d7a2d34ca5fa6b238a5edce236a54c0a16eb931e235160fe5438eba19fa171ff4cf5224bd2ea75fa2aa48fd4c777d2ab3c786bf14ebd2e9a3bbd2
 Homepage: https://gitlab.gnome.org/GNOME/glycin
 Description: sandboxed image loaders for GNOME
  Glycin provides sandboxed modular image loaders for decoding
@@ -53021,20 +53022,20 @@ Commands: localsearch
 
 Package: loupe
 Architecture: amd64
-Version: 50.0-3
-Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 3.1.0-3), rust-glycin-common (= 1.0.4-3), rust-glycin-utils (= 4.1.0-3), rust-gufo (= 0.4.1-3), rust-gufo-common (= 1.1.0-3), rust-gufo-exif (= 0.4.0-3), rust-gufo-jpeg (= 0.4.0-3), rust-gufo-png (= 0.4.1-4), rust-gufo-tiff (= 0.4.0-3), rust-gufo-webp (= 0.4.0-3), rust-gufo-xmp (= 0.4.0-3), rust-nix (= 0.30.1-3), rustc (= 1.95.0+dfsg1-2)
-Static-Built-Using: rust-adler2 (= 2.0.1-3), rust-aho-corasick (= 1.1.4-2), rust-anyhow (= 1.0.103-1), rust-arc-swap (= 1.9.2-1), rust-ashpd (= 0.13.13-1), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.6.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.13.0-1), rust-blocking (= 1.6.2-1), rust-bytemuck (= 1.25.0-1), rust-byteorder (= 1.5.0-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-3), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.45-1), rust-concurrent-queue (= 2.5.0-4), rust-crc32fast (= 1.5.0-2), rust-crossbeam-deque (= 0.8.7-1), rust-crossbeam-epoch (= 0.9.20-1), rust-crossbeam-utils (= 0.8.22-1), rust-dlib (= 0.5.3-1), rust-either (= 1.17.0-1), rust-encoding-rs (= 0.8.35-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 1.0.1-1), rust-env-logger (= 0.11.10-1), rust-equivalent (= 1.0.1-1), rust-errno (= 0.3.14-1), rust-event-listener (= 5.4.1-3), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-foreign-types (= 0.5.0-1), rust-foreign-types-shared (= 0.3.0-1), rust-futures-channel (= 0.3.33-1), rust-futures-core (= 0.3.33-1), rust-futures-executor (= 0.3.33-1), rust-futures-io (= 0.3.33-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.33-1), rust-futures-timer (= 3.0.4+ds-1), rust-futures-util (= 0.3.33-1), rust-gdk-pixbuf (= 0.22.0-3), rust-gdk-pixbuf-sys (= 0.22.0-3), rust-gdk4 (= 0.11.2-2), rust-gdk4-sys (= 0.11.2-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.8-1), rust-gio-sys (= 0.22.8-1), rust-glib (= 0.22.8-2), rust-glib-sys (= 0.22.8-2), rust-glycin (= 3.1.0-3), rust-glycin-common (= 1.0.4-3), rust-glycin-utils (= 4.1.0-3), rust-gobject-sys (= 0.22.6-3), rust-graphene-rs (= 0.22.8-1), rust-graphene-sys (= 0.22.8-2), rust-gsk4 (= 0.11.1-2), rust-gsk4-sys (= 0.11.1-2), rust-gtk4 (= 0.11.3-3), rust-gtk4-sys (= 0.11.3-1), rust-gufo (= 0.4.1-3), rust-gufo-common (= 1.1.0-3), rust-gufo-exif (= 0.4.0-3), rust-gufo-jpeg (= 0.4.0-3), rust-gufo-png (= 0.4.1-4), rust-gufo-tiff (= 0.4.0-3), rust-gufo-webp (= 0.4.0-3), rust-gufo-xmp (= 0.4.0-3), rust-gweather-sys (= 4.8.0-3), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-indexmap (= 2.14.0-1), rust-jiff (= 0.2.27-1), rust-lazy-static (= 1.5.0-3), rust-lcms2 (= 6.1.1-1), rust-lcms2-sys (= 4.0.6-1), rust-libadwaita (= 0.9.1-2), rust-libadwaita-sys (= 0.9.1-2), rust-libc (= 0.2.186-1), rust-libgweather (= 4.8.0-3), rust-libloading (= 0.8.9-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.12.1-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.32-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.3-1), rust-memfd (= 0.6.5-1), rust-memmap2 (= 0.9.11-1), rust-memoffset (= 0.8.0-1), rust-miniz-oxide (= 0.9.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-pango (= 0.22.8-1), rust-pango-sys (= 0.22.0-4), rust-parking (= 2.2.1-1), rust-pin-project-lite (= 0.2.16-1), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-quote (= 1.0.46-1), rust-rayon (= 1.11.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.13.1-1), rust-regex-automata (= 0.4.16-1), rust-regex-syntax (= 0.8.11+dfsg-1), rust-rmp (= 0.8.14-1), rust-rmp-serde (= 1.3.1-1), rust-rustix (= 1.1.4+dfsg-1), rust-serde (= 1.0.228-3), rust-serde-core (= 1.0.228-2), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.8-1), rust-slab (= 0.4.12-1), rust-smallvec (= 1.15.2-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.28.0-2), rust-syn (= 2.0.118-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.10-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-subscriber (= 0.3.23-1), rust-unicode-ident (= 1.0.24-1), rust-uuid (= 1.23.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-xml-rs (= 0.8.19-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.18.0-1), rust-zbus-names (= 4.3.4-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.13.1-1), rust-zvariant-utils (= 3.5.0-1), rustc (= 1.95.0+dfsg1-2)
+Version: 51.0-1
+Built-Using: rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.7.0+ds-1), rust-event-listener (= 5.4.2+ds-1), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 4.0.0-1), rust-glycin-common (= 2.0.0-1), rust-glycin-core (= 4.0.0-2), rust-glycin-external (= 4.0.0-1), rust-glycin-utils (= 5.0.1-1), rust-gufo (= 0.5.0-2), rust-gufo-common (= 2.0.0-1), rust-gufo-exif (= 0.5.0-1), rust-gufo-xmp (= 0.5.0-1), rust-nix (= 0.30.1-3), rustc (= 1.95.0+dfsg1-2)
+Static-Built-Using: rust-aho-corasick (= 1.1.4-2), rust-aliasable (= 0.1.3-5), rust-anyhow (= 1.0.103-1), rust-arc-swap (= 1.9.2-1), rust-ashpd (= 0.13.13-3), rust-async-broadcast (= 0.7.2-1), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-global-executor (= 3.1.0-2), rust-async-io (= 2.6.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-signal (= 0.2.13-1), rust-async-task (= 4.7.1-4), rust-atomic-waker (= 1.1.2-1), rust-bitflags (= 2.13.0-1), rust-blocking (= 1.7.0+ds-1), rust-bytemuck (= 1.25.0-1), rust-cairo-rs (= 0.22.0-2), rust-cairo-sys-rs (= 0.22.0-3), rust-cfg-if (= 1.0.4-1), rust-chrono (= 0.4.45-1), rust-concurrent-queue (= 2.5.0-4), rust-crossbeam-deque (= 0.8.7-1), rust-crossbeam-epoch (= 0.9.20-1), rust-crossbeam-utils (= 0.8.22-1), rust-dlib (= 0.5.3-1), rust-either (= 1.17.0-1), rust-endi (= 1.1.1-1), rust-enumflags2 (= 0.7.12-1), rust-env-filter (= 1.0.1-1), rust-env-logger (= 0.11.10-1), rust-equivalent (= 1.0.2-1), rust-errno (= 0.3.14-1), rust-event-listener (= 5.4.2+ds-1), rust-event-listener-strategy (= 0.5.4-2), rust-fastrand (= 2.3.0-2), rust-field-offset (= 0.3.6-1), rust-futures-channel (= 0.3.34-1), rust-futures-core (= 0.3.34-1), rust-futures-executor (= 0.3.34-1), rust-futures-io (= 0.3.34-1), rust-futures-lite (= 2.6.1-1), rust-futures-task (= 0.3.34-1), rust-futures-timer (= 3.0.4+ds-1), rust-futures-util (= 0.3.34-1), rust-gdk-pixbuf (= 0.22.0-3), rust-gdk-pixbuf-sys (= 0.22.0-3), rust-gdk4 (= 0.11.4-2), rust-gdk4-sys (= 0.11.4-2), rust-gdk4-wayland (= 0.11.0-2), rust-gdk4-wayland-sys (= 0.11.0-2), rust-gdk4-x11 (= 0.11.0-2), rust-gdk4-x11-sys (= 0.11.0-2), rust-getrandom (= 0.4.2-3), rust-gettext-rs (= 0.7.7-1), rust-gettext-sys (= 0.21.3-3), rust-gio (= 0.22.9-1), rust-gio-sys (= 0.22.9-1), rust-gio-unix (= 0.22.8-1), rust-gio-unix-sys (= 0.22.0-3), rust-glib (= 0.22.8-4), rust-glib-sys (= 0.22.9-1), rust-glycin (= 4.0.0-1), rust-glycin-common (= 2.0.0-1), rust-glycin-core (= 4.0.0-2), rust-glycin-external (= 4.0.0-1), rust-glycin-utils (= 5.0.1-1), rust-gobject-sys (= 0.22.6-3), rust-graphene-rs (= 0.22.8-1), rust-graphene-sys (= 0.22.8-2), rust-gsk4 (= 0.11.4-2), rust-gsk4-sys (= 0.11.4-1), rust-gtk4 (= 0.11.4-3), rust-gtk4-sys (= 0.11.4-5), rust-gufo (= 0.5.0-2), rust-gufo-common (= 2.0.0-1), rust-gufo-exif (= 0.5.0-1), rust-gufo-xmp (= 0.5.0-1), rust-gweather-sys (= 4.8.0-3), rust-half (= 2.7.1-2), rust-hashbrown (= 0.16.1-2), rust-hex (= 0.4.3-3), rust-indexmap (= 2.14.2-1), rust-jiff (= 0.2.35-1), rust-jiff-core (= 0.1.0-1), rust-lazy-static (= 1.5.0-3), rust-libadwaita (= 0.9.2-2), rust-libadwaita-sys (= 0.9.2-1), rust-libc (= 0.2.186-1), rust-libgweather (= 4.8.0-3), rust-libloading (= 0.8.9-1), rust-libseccomp (= 0.4.0-3), rust-libseccomp-sys (= 0.3.0-2), rust-linux-raw-sys (= 0.12.1-1), rust-locale-config (= 0.3.0-1), rust-log (= 0.4.34-1), rust-matchers (= 0.2.0-1), rust-memchr (= 2.8.3-1), rust-memmap2 (= 0.9.11-1), rust-memoffset (= 0.8.0-1), rust-moxcms (= 0.8.1-2), rust-nix (= 0.30.1-3), rust-nu-ansi-term (= 0.50.1-1), rust-num-traits (= 0.2.19-2), rust-once-cell (= 1.21.4-1), rust-ordered-stream (= 0.2.0-2), rust-ouroboros (= 0.18.5-2), rust-pango (= 0.22.8-1), rust-pango-sys (= 0.22.0-4), rust-parking (= 2.2.1-1), rust-pin-project-lite (= 0.2.17-1), rust-polling (= 3.11.0-1), rust-proc-macro2 (= 1.0.106-1), rust-pxfm (= 0.1.23-1), rust-quote (= 1.0.47-1), rust-rayon (= 1.12.0-1), rust-rayon-core (= 1.13.0-1), rust-regex (= 1.13.1-1), rust-regex-automata (= 0.4.18-1), rust-regex-syntax (= 0.8.11+dfsg-1), rust-rmp (= 0.8.15-1), rust-rmp-serde (= 1.3.1-2), rust-rustix (= 1.1.4+dfsg-1), rust-serde (= 1.0.229-1), rust-serde-core (= 1.0.229-1), rust-sharded-slab (= 0.1.4-2), rust-signal-hook-registry (= 1.4.8-1), rust-slab (= 0.4.12-1), rust-smallvec (= 1.15.2-1), rust-static-assertions (= 1.1.0-1), rust-strum (= 0.28.0-2), rust-syn (= 3.0.4-1), rust-thiserror (= 2.0.18-1), rust-thread-local (= 1.1.10-1), rust-tracing (= 0.1.44-1), rust-tracing-core (= 0.1.36-1), rust-tracing-subscriber (= 0.3.23-1), rust-unicode-ident (= 1.0.24-1), rust-uuid (= 1.26.1-1), rust-winnow (= 0.7.13-1), rust-x11-dl (= 2.21.0-1), rust-xml (= 1.4.0-1), rust-yeslogic-fontconfig-sys (= 6.0.0-1), rust-zbus (= 5.19.0-1), rust-zbus-names (= 4.3.4-1), rust-zcheapstr (= 1.1.0-1), rust-zerocopy (= 0.8.26-4), rust-zvariant (= 5.15.0-1), rust-zvariant-utils (= 4.2.0-1), rustc (= 1.95.0+dfsg1-2)
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 8141
-Depends: libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-4-1 (>= 4.16), libgweather-4-0t64 (>= 4.0.0), liblcms2-2 (>= 2.12.0), libseccomp2 (>= 2.5.0), dconf-gsettings-backend | gsettings-backend, glycin-loaders (>= 2.0~rc+ds-~~)
-Filename: ./loupe_50.0-3_amd64.deb
-Size: 2128168
-MD5sum: 707c9b2e2e4ca2bd161c46606155341f
-SHA1: ccaa348d66decff3ca2df2ac95997c58bb122fba
-SHA256: 9a45551c3adb7f3b94eeebd7ff827fff8bfced6e106dbf1d192a90a7f247bafc
-SHA512: eb9817c0741f3ea3e22639959712701e7b07cae7b4fe22efabe23b5f7c4dab0945afe1052459896e48a3437c5acbce69772f7e9f24119bf74f7c7265450d59c7
+Installed-Size: 9285
+Depends: glycin-loaders (>= 2.0~rc+ds-~~), dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8.0), libc6 (>= 2.39), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.74.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-4-1 (>= 4.16), libgweather-4-0t64 (>= 3.16.1), libseccomp2 (>= 2.1.0)
+Filename: ./loupe_51.0-1_amd64.deb
+Size: 2395000
+MD5sum: 8b218c6779125f74b97cd1a39735a086
+SHA1: 7b9ee9f08cb78595e07b4c25b455d73099fbc3f4
+SHA256: 149d90c80c1a9fdbfee1953bedbde3fc336e1b13bf7b1edab55bebd7aa69e3aa
+SHA512: d82927affba290575afc71d7b375917ecd757c401a2fb095a5a3e83a41748d61a4bf15e0c09db06ac50da6f977dd9355a89bbbb0db8e80dca107af871550cae2
 Homepage: https://apps.gnome.org/Loupe/
 Description: Image viewer for GNOME
  Loupe is a simple image viewer for the GNOME desktop.
@@ -53042,6 +53043,7 @@ Description: Image viewer for GNOME
  A wide range of image formats is supported.
  Basic image editing like cropping and rotation is supported.
  Starting with GNOME 45 this is the default image viewer.
+Commands: loupe
 
 Package: lsd
 Architecture: amd64
@@ -57080,23 +57082,23 @@ Description: standards-compliant, fast, light-weight and extensible window manag
 
 Package: openjdk-25-jre-headless
 Architecture: amd64
-Version: 25.0.4.1+1-1
+Version: 25.0.5~7ea-1
 Multi-Arch: same
 Priority: optional
 Section: java
 Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
-Installed-Size: 240026
+Installed-Size: 240359
 Provides: java-runtime-headless (= 25)
 Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), liblcms2-2 (>= 2.8), libjpeg62-turbo (>= 1.3.1), libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
 Recommends: libcups2t64, libfontconfig1, libfreetype6 (>= 2.3.5), libharfbuzz0b (>= 2.1.1), libasound2t64 (>= 1.0.16)
 Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
-Filename: ./openjdk-25-jre-headless_25.0.4.1+1-1_amd64.deb
-Size: 53928032
-MD5sum: c45e7d250da3cae5eebc9c160b8a5a8b
-SHA1: 4078183a66681c5cde97717298c9554238adde27
-SHA256: cd362081eed2fe9ac8be0dbe7b9768d22de8ebaf1fe9aa7cb6ccc72301a79fa3
-SHA512: 42ae7ba0017a48baa5e5e421ea16cc4c2c8ee53bc1a5ea0495ea8d2452d5a91591132ddb37673c5e6aeea5d9b81d98dc61be37ded097a0b5d0959a36f2a3d0da
+Filename: ./openjdk-25-jre-headless_25.0.5~7ea-1_amd64.deb
+Size: 53972456
+MD5sum: dff0c2b2798f4d1c8852d2a3d71570ce
+SHA1: 3eec72583d1c5caa0de244a7b828fc473f4509ff
+SHA256: 7d13ed0abc5a58a2f272115d7f12679d7bd7815dd63424d77c44a2eca9506c51
+SHA512: 57adcc67815d3406c0397c882a1977881843eeeac77161fb699c984abbc700fe0cddf11dbbfbc590695c98e5ffa961b8a5248b83a4027c514f37e2c8c6b5303a
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
  Minimal Java runtime - needed for executing non GUI Java programs,
@@ -57104,7 +57106,7 @@ Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 
 Package: openjdk-25-jre
 Architecture: amd64
-Version: 25.0.4.1+1-1
+Version: 25.0.5~7ea-1
 Multi-Arch: same
 Priority: optional
 Section: java
@@ -57112,14 +57114,14 @@ Source: openjdk-25
 Maintainer: OpenJDK Team <openjdk-25@packages.debian.org>
 Installed-Size: 657
 Provides: java-runtime (= 25)
-Depends: openjdk-25-jre-headless (= 25.0.4.1+1-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
+Depends: openjdk-25-jre-headless (= 25.0.5~7ea-1), libglib2.0-0t64, libgtk-3-0t64, libxrandr2, libxinerama1, libgl1, libharfbuzz0b (>= 2.1.1), libcups2t64, libfontconfig1, libc6 (>= 2.38), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1), libasound2t64 (>= 1.0.16), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libx11-6, libxext6, libxi6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4)
 Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
-Filename: ./openjdk-25-jre_25.0.4.1+1-1_amd64.deb
-Size: 209292
-MD5sum: 159c1923fd30ef00612ed724ba98092d
-SHA1: 2bcfbf4ba752e8fce4f1278c721627d4dfbf739e
-SHA256: a10af7a6095095e432ad0b57160deb683779bea9deeee5e370b60dc2ea9b8cf1
-SHA512: 902917378e05bcb238ae440644c087fe6bf1e64fe53fc6afd4f322440a27e533455fd3e485db6faa74afcf3b6da44dda12de0f82cfe5c4018d12a1b7ccc588d0
+Filename: ./openjdk-25-jre_25.0.5~7ea-1_amd64.deb
+Size: 209576
+MD5sum: 9561b5ac73b01fd42eeea2adbd1977b1
+SHA1: ed7da50c891c93d8e769c7e02033f8c99aa5ad21
+SHA256: 525ac726b105a66e4921fd2080cd169f0d3f0287e07db479542f61437a5c72e8
+SHA512: 0d625f05a5b03ca489f1d9e31d05781083e3d4a7b1dee11d0f4f764b0b0da8d873513ffaa00bc1ebde5336ec422be74deed2426ea944907b474c3c92052e5a0a
 Homepage: https://openjdk.java.net/
 Description: OpenJDK Java runtime, using Hotspot JIT
  Full Java runtime environment - needed for executing Java GUI and Webstart
