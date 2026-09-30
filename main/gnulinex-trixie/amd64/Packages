@@ -868,20 +868,20 @@ Description: Set of tools to manage Bluetooth devices for linux
 
 Package: bluez
 Architecture: amd64
-Version: 5.87-3
+Version: 5.87-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 5480
+Installed-Size: 5484
 Depends: default-dbus-system-bus | dbus-system-bus, kmod, udev, systemd | systemd-standalone-sysusers | systemd-sysusers, libasound2t64 (>= 1.0.17), libc6 (>= 2.42), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196)
 Suggests: pulseaudio-module-bluetooth
-Filename: ./bluez_5.87-3_amd64.deb
-Size: 1727160
-MD5sum: 81e4db04885843da1ac0accabb04fdc6
-SHA1: 7225a787e4a49f2af7c278ec2138a2caf89160ed
-SHA256: 3a5acd8e02d7e0ba20dec45698b835722cd957c75f2ba20916f8b6dcfc6deb21
-SHA512: 04f0507ddcf70b4d76db534977c3756d7e0b78d938b165ce5eef286907bd0b82a94eced54f895a80044b57480f4c5af46730a69c4beeaa945f289a36d5850e1b
+Filename: ./bluez_5.87-4_amd64.deb
+Size: 1727412
+MD5sum: 26959eba482e69979fed9e59b0100ad1
+SHA1: b28beca77fa4592040827b03dd62a7eb2b566182
+SHA256: d9692688319245e4d1716abae69710f9062015973eb6e3b102e9f9bdd623b365
+SHA512: fd2d5a22d6516f9d8faf2b7c112584bdccdc20e0381613dd0b588bd01a7452cf4b2ce8957f1697bab4db31c2f16d6baf5d04bd0850bda2e05af1c080c5971016
 Homepage: http://www.bluez.org
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
@@ -8321,21 +8321,21 @@ Description: GObject introspection data for the GStreamer library
 
 Package: gir1.2-gtk-3.0
 Architecture: amd64
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: gtk+3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 983
-Provides: gir1.2-gdk-3.0 (= 3.24.52-1), gir1.2-gdkx11-3.0 (= 3.24.52-1)
-Depends: gir1.2-atk-1.0 (>= 2.35.1), gir1.2-cairo-1.0, gir1.2-gdkpixbuf-2.0 (>= 2.40.0), gir1.2-gio-2.0, gir1.2-pango-1.0 (>= 1.44.0), gir1.2-xlib-2.0, libgtk-3-0t64 (>= 3.24.30), libgtk-3-common
-Filename: ./gir1.2-gtk-3.0_3.24.52-1_amd64.deb
-Size: 214456
-MD5sum: 3a4209d55eff06df9af9b5873ff6d014
-SHA1: dc1b5974458f037c72280b21f3945f2b764a9776
-SHA256: 8d1bf0dfb204559abc1de7b06dd29b999b2b3e9bd1cb61c1e50c128719fe49c4
-SHA512: 1dc4a8dd423b8e8c041d9382ea13e2cdb687587e4c713993511c5fa8eb6b7c3286b6a86084cdacb3bc28600712b365f892d9ff3fb8169691933765a6962a180b
+Provides: gir1.2-gdk-3.0 (= 3.24.52-2), gir1.2-gdkx11-3.0 (= 3.24.52-2)
+Depends: gir1.2-atk-1.0, gir1.2-cairo-1.0, gir1.2-gdkpixbuf-2.0, gir1.2-gio-2.0, gir1.2-pango-1.0, gir1.2-xlib-2.0, libgtk-3-0t64 (>= 3.24.30)
+Filename: ./gir1.2-gtk-3.0_3.24.52-2_amd64.deb
+Size: 214528
+MD5sum: 08ba5cebda297c61c5b42c704491f4db
+SHA1: 7f91e462e8f26bdca984b0abcc52a6bbf99005bb
+SHA256: c44f35f21a1618e42ad61777891091d8184470435a5dfab07c0031781f5728c1
+SHA512: a64a53376a80376d5c20ebf18e25d07fa78301064809323acc1c153d4e82613127bb7ce549b7d67d92f1d2f64462a7dddcc60b15d1ca195a2f9140bb5ccb268c
 Homepage: https://www.gtk.org/
 Description: GTK graphical user interface library -- gir bindings
  GTK is a multi-platform toolkit for creating graphical user
@@ -21865,21 +21865,21 @@ Description: Fully feature complete YAML parser and emitter (library)
 
 Package: libgail-3-0t64
 Architecture: amd64
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gtk+3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 117
-Provides: libgail-3-0 (= 3.24.52-1)
-Depends: at-spi2-core, libatk1.0-0t64 (>= 2.35.1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.57.2), libgtk-3-0t64 (= 3.24.52-1), libpango-1.0-0 (>= 1.44.0)
-Filename: ./libgail-3-0t64_3.24.52-1_amd64.deb
-Size: 34892
-MD5sum: ac50e7cb7275c09ad0eb1e2b87d229a6
-SHA1: 9fc865907f4a46062e0622c845d219f5e2ed90ea
-SHA256: ec8620e6d64a56478a444b345352a2e864ee2c1eb0b17ec11c5d77a16bba1204
-SHA512: 4be1917afce6522a22ff9ab14c4d0817261046cff866da96ce1851e8897bd1a129c977fab28612c82359ddc8d374fffebc7204cb0db9038daa9b377c467fcb5e
+Provides: libgail-3-0 (= 3.24.52-2)
+Depends: at-spi2-core, libgtk-3-0t64 (= 3.24.52-2), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libpango-1.0-0 (>= 1.14.0)
+Filename: ./libgail-3-0t64_3.24.52-2_amd64.deb
+Size: 35284
+MD5sum: 89f95c6eee45a4554c81b26a09c808ec
+SHA1: 5c150033ad3b7a95f2dc6a69216033fd2349869e
+SHA256: 521f7d1c0c9f375474059c6bbcec86c4ec06b36c0281ff53ef621ee71d2f5368
+SHA512: 22d52da6545c1e32eb3a3ea35ad557a5a3349a720987cefaed7eeb728f7cc5cbbd20353443553d5a7b0dcfc3131d1653a114661a72c9d8ecdd532a9493023b83
 Homepage: https://www.gtk.org/
 Description: GNOME Accessibility Implementation Library -- shared libraries
  Gail implements ATK interfaces for GTK widgets which are dynamically
@@ -24340,24 +24340,24 @@ Description: Core GStreamer libraries and elements
 
 Package: libgtk-3-0t64
 Architecture: amd64
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gtk+3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9252
-Provides: gtk3-binver-3.0.0, libgtk-3-0 (= 3.24.52-1)
-Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0t64 (>= 2.15.1), libatk1.0-0t64 (>= 2.35.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcloudproviders0 (>= 0.3.2), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0t64 (>= 2.78.0), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.23), libwayland-cursor0 (>= 1.23), libwayland-egl1 (>= 1.23), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.52-1)
+Installed-Size: 9599
+Provides: gtk3-binver-3.0.0, libgtk-3-0 (= 3.24.52-2)
+Depends: adwaita-icon-theme, hicolor-icon-theme, libgtk-3-common (>= 3.24.52), shared-mime-info, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.35.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libcloudproviders0 (>= 0.3.2), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.78.0), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.37.2), libwayland-client0 (>= 1.23), libwayland-cursor0 (>= 1.23), libwayland-egl1 (>= 1.23), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0)
 Recommends: ibus-gtk3, libgtk-3-bin, librsvg2-common
 Suggests: gvfs
 Breaks: libgtk-layer-shell0 (<< 0.9.0)
-Filename: ./libgtk-3-0t64_3.24.52-1_amd64.deb
-Size: 2919984
-MD5sum: db324e14f46ca6ac70776454c8a25fd3
-SHA1: 0a3f8525ed8c4e1b310765ee3f63da120548058a
-SHA256: c43bcf37840d78ec0cca5920f95853568f1dadb372a41464ee516c9c0c77e140
-SHA512: 0619d8185e42001d0e925deda5fea9dad2f8e1baf6d0b563823c5dfd0eeb06aeb122e941f2f133ab3538273749c5bbe4881358cca527aecae11dd278fc1aca26
+Filename: ./libgtk-3-0t64_3.24.52-2_amd64.deb
+Size: 3067188
+MD5sum: acf4f819e2f39ee6bad83a9849534e0c
+SHA1: e390cde5da5863361d2a56fff7741a66781f8872
+SHA256: 4ed56a5a9b2ffd9da018fea688858289fc9a886c6e0457b17c3d330a63667951
+SHA512: 783bd0126702b84358a1e7926cbea0aa086d5b8c6c72ff5b32c542a9e3fcfb9101ae7c2274ba370672d1adf6f7b4cd86eafcc9dd3db840cc058539f5a8749c96
 Homepage: https://www.gtk.org/
 Description: GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -24369,20 +24369,20 @@ Description: GTK graphical user interface library
 
 Package: libgtk-3-bin
 Architecture: amd64
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: gtk+3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 303
-Depends: gtk-update-icon-cache, libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0t64 (>= 2.57.2), libgtk-3-0t64 (>= 3.24.52-1), libgtk-3-common (>= 3.24.52-1)
-Filename: ./libgtk-3-bin_3.24.52-1_amd64.deb
-Size: 76920
-MD5sum: 32e505d7a3216ec54e6dbd22db16778d
-SHA1: 9499792baa728f8bbc267f1e1eafdaa0f835c8f1
-SHA256: ad32daf28a522431c93e3e5302351c47be5b2b8ff26ac39c0d05f4dbe7db735f
-SHA512: 0b601f24122e2d5707da059455cb6c62f3837561ec67570d232609d7ce339506fed14f9ec42f0a2c09ba427727fb2c849e74dd080aae4ab85939ece4afee28b4
+Installed-Size: 307
+Depends: gtk-update-icon-cache, libgtk-3-0t64 (>= 3.24.52-2), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.56.0)
+Filename: ./libgtk-3-bin_3.24.52-2_amd64.deb
+Size: 78316
+MD5sum: 1df9912304ce24b90641dde678ab58dc
+SHA1: ec30f29f2399b922acef36c9bd473a13ffcf2343
+SHA256: 920472a2ce627282750121dde55e74b9e0fb648a57176db0aabeb977130b5cee
+SHA512: 8fcd3f949e725f446326328e8ddcb283104c4b2cc74bcffd09d2b27defb7ae7064a1fc9fa9f8702d1cdfcdbb88af91d57e513d1c68c59f873d86712abc1ad89a
 Homepage: https://www.gtk.org/
 Description: programs for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -24392,10 +24392,11 @@ Description: programs for the GTK graphical user interface library
  .
  This package contains the utilities which are used by the libraries
  and other packages.
+Commands: broadwayd, gtk-builder-tool, gtk-encode-symbolic-svg, gtk-launch, gtk-query-settings
 
 Package: libgtk-3-common
 Architecture: all
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: foreign
 Priority: optional
 Section: misc
@@ -24404,12 +24405,12 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Installed-Size: 31460
 Depends: dconf-gsettings-backend | gsettings-backend
 Recommends: libgtk-3-0t64
-Filename: ./libgtk-3-common_3.24.52-1_all.deb
-Size: 4929308
-MD5sum: 16fba31cad2bb1dee3409ae440d9ff73
-SHA1: 563ecf7b2752f6c3e62a7de57f23b6983141afa7
-SHA256: 0898898c5ae720e7aa6f7bc72e493fb09fc43d3e4515ae758296880c0038b0d9
-SHA512: 2dfc2655a31e2a96ef786929693975168576fbb55ac91338b5a0add23d2bcd23a538317a0d121b2c0bc243df84183845550541877238fa9abc3d28dae3ac5879
+Filename: ./libgtk-3-common_3.24.52-2_all.deb
+Size: 4928620
+MD5sum: 34ba4df05fa695f519ad0001dfe1de82
+SHA1: dcdd3c9a34f64ef89dc61f09cb2c7dcf074ddf8a
+SHA256: 19b1c181b08067f6fb4d2dbad0c9aa678f07fcedc68181bb8d57b7380cbcb849
+SHA512: 470d4ea656ab888eb3b217235b2fe441e03f85b689bb9a7ab9f67fee3b56c1e8ec4c7171508982f719cc5f7b2aefbcb0fbb9d07a1a3ef9238e16b076f1f46c64
 Homepage: https://www.gtk.org/
 Description: common files for the GTK graphical user interface library
  GTK is a multi-platform toolkit for creating graphical user
@@ -24421,22 +24422,22 @@ Description: common files for the GTK graphical user interface library
 
 Package: libgtk-3-dev
 Architecture: amd64
-Version: 3.24.52-1
+Version: 3.24.52-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: gtk+3.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 14079
-Provides: gir1.2-gdk-3.0-dev (= 3.24.52-1), gir1.2-gdkx11-3.0-dev (= 3.24.52-1), gir1.2-gtk-3.0-dev (= 3.24.52-1)
-Depends: libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.44.0), libwayland-dev (>= 1.23), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkgconf, wayland-protocols (>= 1.41), gir1.2-atk-1.0-dev, gir1.2-cairo-1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gtk-3.0 (= 3.24.52-1), gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev, libcloudproviders-dev (>= 0.3.2), libgtk-3-common (>= 3.24.52-1), libgtk-3-0t64 (= 3.24.52-1)
+Provides: gir1.2-gdk-3.0-dev (= 3.24.52-2), gir1.2-gdkx11-3.0-dev (= 3.24.52-2), gir1.2-gtk-3.0-dev (= 3.24.52-2)
+Depends: libatk-bridge2.0-dev, libatk1.0-dev, libcairo2-dev, libegl1-mesa-dev, libepoxy-dev, libfontconfig-dev, libfribidi-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev, libgtk-3-0t64 (= 3.24.52-2), libpango1.0-dev, libwayland-dev (>= 1.23), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkgconf, wayland-protocols (>= 1.41), libcloudproviders-dev (>= 0.3.2), gir1.2-atk-1.0-dev, gir1.2-cairo-1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gtk-3.0 (= 3.24.52-2), gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev
 Suggests: libgtk-3-doc
-Filename: ./libgtk-3-dev_3.24.52-1_amd64.deb
-Size: 1120032
-MD5sum: a012ee1207615da4ee3f0d3f5823a0c1
-SHA1: caa14b3417f797abf9266393b92d8d310b62d190
-SHA256: e997cb9b68388d45f68db4a7f46d16365bb3e4e79b1c3c0388a219a76e6c70ff
-SHA512: fe107c7d8442d55c5a2147439f3cba70f9fdf2be4a4f69ccae2628c017753bbb3c80e5768653516751e0523b45ee0546cb12f7337d8a6d1d0b112ddb1a00bd32
+Filename: ./libgtk-3-dev_3.24.52-2_amd64.deb
+Size: 1119936
+MD5sum: 6318e9e61e207fb38db0f6f7d4868754
+SHA1: 041fe0db8aa2690720324052d7fda79cb537fcb3
+SHA256: c3d6fe1f22f86ba7a52438cf99efecd3998f0a65b6883dae716d0192f81c7dc4
+SHA512: 544fb51808b53f2950e2786ab1dd596c230599e27e321eed1b9c21a90a85579ea3d1a283f06eec9e2df703b1006832e63639e10dbc53c3ad1143ac4786534223
 Homepage: https://www.gtk.org/
 Description: development files for the GTK library
  GTK is a multi-platform toolkit for creating graphical user
