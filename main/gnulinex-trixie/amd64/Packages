@@ -16691,19 +16691,19 @@ Description: Plasma Workspace battery control library
 
 Package: libbcmail-java
 Architecture: all
-Version: 1.80-3
+Version: 1.86-1
 Priority: optional
 Section: java
 Source: bouncycastle
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 202
-Depends: libbcpkix-java (>= 1.80-3), libmail-java
-Filename: ./libbcmail-java_1.80-3_all.deb
-Size: 163028
-MD5sum: ba8261e09942adf3d57aa5117d645a22
-SHA1: e1cf4de568dbaf166a86945f55d2a37a29f85564
-SHA256: 2d0e2bf9399e84dbaf46d80cf5f981258ea7fa04a4b73f2402072d1615fe5939
-SHA512: 33ede6af9055b44e10ed51e087e2a919a8f9f557ee383f8c9fd523dc67d3a50ff621392b2d65c947fec654d7ad0909be7289de75fec9012fbce5ec4ac672479b
+Installed-Size: 384
+Depends: libbcpkix-java (>= 1.86-1), libmail-java
+Filename: ./libbcmail-java_1.86-1_all.deb
+Size: 350568
+MD5sum: 29b15827526ffed1f61b2b6b00ca980e
+SHA1: a490b7e77a2ddc9775dfd5b499ccbc2d18660654
+SHA256: c01de8188efeecb8b950cace0062fb7ef0e9debcbe37d326ed23621f035807d7
+SHA512: e0df4e807631c002ed95c5ca1867bdcb1ccf7d1168f5dc0976c5a16047d137f571a642ddbaa0a12f2c28b2ae190628710f82a87c0b80ca5b3c8a7d48a2b7914c
 Homepage: https://www.bouncycastle.org
 Description: Bouncy Castle generators/processors for S/MIME and CMS
  The Bouncy Castle Crypto package is a Java implementation of
@@ -16714,19 +16714,19 @@ Description: Bouncy Castle generators/processors for S/MIME and CMS
 
 Package: libbcpkix-java
 Architecture: all
-Version: 1.80-3
+Version: 1.86-1
 Priority: optional
 Section: java
 Source: bouncycastle
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 1144
-Depends: libbcutil-java (>= 1.80-3)
-Filename: ./libbcpkix-java_1.80-3_all.deb
-Size: 985484
-MD5sum: cd47f3d4dfef89be0a216ccf45589cc0
-SHA1: 7d39d133a630b4fa6c7ab3d5b00b10235389b023
-SHA256: 6715a8a36acc71fac8fda1743bfb7b1ce12545be561860e0255d7f9c042c1ef5
-SHA512: f25f980f8bfb7c2d77928213967848d95c41e920d0788f923a9263e2bac6b71b880d535be27a7579d2f0cd104dc6de677e5f70fd7edb36d4089d25f579ac53b2
+Installed-Size: 1541
+Depends: libbcutil-java (>= 1.86-1)
+Filename: ./libbcpkix-java_1.86-1_all.deb
+Size: 1362048
+MD5sum: f7dd0c8748fa70c4c8320ada4cecc04b
+SHA1: 267a107017138b24dac33952d0dff839bb46af48
+SHA256: d9ae8c96d932b3b47a0521ea279117e654a48f9bf583c3e09391adc7c3a1362c
+SHA512: 3b2c32c0212490e1174c925413d563916db838238cb5d42a2a5f11f7de1d2b43464f6e0c485cadabc4f39680bec0db0fcf867acf7fef57ab3a3ec2759bc97137
 Homepage: https://www.bouncycastle.org
 Description: Bouncy Castle Java API for PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF
  The Bouncy Castle Crypto package is a Java implementation of
@@ -16737,19 +16737,19 @@ Description: Bouncy Castle Java API for PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, an
 
 Package: libbcprov-java
 Architecture: all
-Version: 1.80-3
+Version: 1.86-1
 Priority: optional
 Section: java
 Source: bouncycastle
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 6439
+Installed-Size: 6781
 Breaks: jakarta-jmeter (<< 2.8-1~), jenkins-instance-identity (<< 1.3-1~), jglobus (<< 2.0.6-1~), voms-api-java (<< 2.0.9-1.1~)
-Filename: ./libbcprov-java_1.80-3_all.deb
-Size: 5543256
-MD5sum: 350b6a97baa9f26d38f1c47bbc01d518
-SHA1: 674e0f3c3abe17f31b63a80f9f23ab4cedc8e449
-SHA256: 50e49bdaec41da915caf52501e16c89c5365ad1eeb4806c1a2a9ac6aa0703a09
-SHA512: d9ed55eafd32bf9c65599fa310f8a7baacc7b2e828af6250e1bf9467214c2d6e5e660931f189d7d174b0baa4e497cc59eedc0a6471e9eb1b3040f3d70f6c46cd
+Filename: ./libbcprov-java_1.86-1_all.deb
+Size: 5670556
+MD5sum: b569efae5626f8edaf4163f0290566d3
+SHA1: a989582201647313d6c0663195209b37ae42a90e
+SHA256: c878d0b496dace93cbb9083762a4a70836eb439e73f3bf574a05b9a25aa68203
+SHA512: 84feb0280ef9af920cfab8888df80bee60a4c1d0141441da244c84ae0c36cd9ac7bce6d97779f856131e5d03c103f3b72c0d80fb44570f4397366e21e5784a5a
 Homepage: https://www.bouncycastle.org
 Description: Bouncy Castle Java Cryptographic Service Provider
  The Bouncy Castle Crypto package is a Java implementation of
@@ -16759,20 +16759,20 @@ Description: Bouncy Castle Java Cryptographic Service Provider
 
 Package: libbcutil-java
 Architecture: all
-Version: 1.80-3
+Version: 1.86-1
 Multi-Arch: foreign
 Priority: optional
 Section: java
 Source: bouncycastle
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 737
-Depends: libbcprov-java (>= 1.80-3)
-Filename: ./libbcutil-java_1.80-3_all.deb
-Size: 615380
-MD5sum: 7fd3c69392c28c9dbaa80466a5e9fa4d
-SHA1: 19164489ce094d7e2d0ba181cb9ef242d455d1ad
-SHA256: fba8c2149a7538b63d7022a184caa6b3d4dc62ec85aacf5a49fe120fa457e690
-SHA512: fdaa55155782177a22b9678c271b08d09f50f56017f693d43c42791f5d8ae8d96cdaf333639b352a1872d70f30c550dc4f94bbd8b45cfdfaf687b87f6fafff8e
+Installed-Size: 1027
+Depends: libbcprov-java (>= 1.86-1)
+Filename: ./libbcutil-java_1.86-1_all.deb
+Size: 903592
+MD5sum: c748c46fca6e637aefccfb606aed7153
+SHA1: 8021183f6180c3085bddad8440972e7d818ade53
+SHA256: f6cd762322e3f5bda68ae9e32d0d13452f4dfd1ca76fff8687bd143a2589773b
+SHA512: 5a70265880909d32bec6f38c104618f3792dd5f924b24c746a170ea8684c496e8dbe2a587c0af45b00047c9619fb88bbedd4244d2163580fda0cb77c240c7aab
 Homepage: https://www.bouncycastle.org
 Description: Bouncy Castle ASN.1 Extension and Utility APIs
  The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used
@@ -18637,20 +18637,20 @@ Description: simple interprocess messaging system (development headers)
 
 Package: libdbus-glib-1-2
 Architecture: amd64
-Version: 0.114-2+b1
+Version: 0.116-1
 Multi-Arch: same
 Priority: optional
 Section: oldlibs
-Source: dbus-glib (0.114-2)
+Source: dbus-glib
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 203
+Installed-Size: 205
 Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.32.0)
-Filename: ./libdbus-glib-1-2_0.114-2+b1_amd64.deb
-Size: 62288
-MD5sum: c44d523a8a7657e3d01d85531cb84121
-SHA1: e45563886229a8df2bd3fbb77902f443ae71b728
-SHA256: 4aa2e75ceadefae91a3057b44d14743dd50ea1f3a5d75f0935dac2f308fcc5e4
-SHA512: cc1c85ebbe48e7eb29e10d4792429570beac8aa24e16ac08b3524ea1e2196b6fa8d31e3ed8d8d7093d420f12774c30907a9ca789eba65c353e7e4b58ef05dc0a
+Filename: ./libdbus-glib-1-2_0.116-1_amd64.deb
+Size: 64776
+MD5sum: 93155117f535b157b71cb89a4519173d
+SHA1: 0505713cec1adcea11f41fa0f97484dccba3dbb5
+SHA256: ae2392fdac7df9e616c8e4dd74620002130ba6f20fffc0d60ccacfe5e57075af
+SHA512: 592f34ab65e421c849ce4b8124a578a8ebceef29d7a9083aab0b2a5b63c39a1874f8b3416bf9bbd4a0dff3b8ca964150f03da7973cb1b78bde87f76de8b6268f
 Homepage: https://www.freedesktop.org/wiki/Software/DBusBindings
 Description: deprecated library for D-Bus IPC
  D-Bus is a message bus, used for sending messages between applications.
@@ -52919,20 +52919,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: localsearch-extractor-ffmpeg
 Architecture: amd64
-Version: 3.11.2-1+b1
+Version: 3.11.2-2
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch (3.11.2-1)
+Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 91
+Installed-Size: 90
 Depends: libavformat63 (>= 7:9.0.2), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-ffmpeg_3.11.2-1+b1_amd64.deb
-Size: 25128
-MD5sum: 2a2847d294e978d591d05f30dce3abb1
-SHA1: 9f535ae3768a3935ab2b8b40769fc2d0a1e53030
-SHA256: 78e19d8109279147255472b360737e69a930c79d7756a8b907d0dad89efecb45
-SHA512: 3f4ab19aaa5bce58bac6d2c577fe1132c4ba4d2483294840562c362ac96f931fdb807b6c04ec09edfbe59ba7356a4b4addf9c45c7bd6a401d893cbb883f5d969
+Filename: ./localsearch-extractor-ffmpeg_3.11.2-2_amd64.deb
+Size: 24944
+MD5sum: b4cdde37711ad9eba46dded4fd8f05ef
+SHA1: 54530c81b42faedef79ddd265e375bfd044ec73d
+SHA256: 50b5676b7b2afb48d14950578cb3d47c3736897cd7d6e9c62dd48f28d53ab7d2
+SHA512: cfff9ea1eb0c6e82b6e744614eab86a62c44ac948e8f79233c6a5a129059854dc5a9cc5c1ae624f9dc0627bbe82aedd6c66929163525bc518f0b9f6f506dc5ab
 Homepage: https://tracker.gnome.org/
 Description: FFmpeg powered media metadata extractor
  This package contains the FFmpeg powered metadata extractor.
@@ -52943,22 +52943,22 @@ Description: FFmpeg powered media metadata extractor
 
 Package: localsearch-extractor-iso
 Architecture: amd64
-Version: 3.11.2-1+b1
+Version: 3.11.2-2
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch (3.11.2-1)
+Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 61
+Installed-Size: 60
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libosinfo-1.0-0 (>= 0.2.9), libtinysparql-3.0-0 (>= 3.11~)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-iso_3.11.2-1+b1_amd64.deb
-Size: 14640
-MD5sum: 30a85b95115521660067b59acc2fa8ea
-SHA1: d7f5163f8dd42cc0842a3f5d3227b474a9da5d1e
-SHA256: 4971a66d779922691bb7f73bd9e0e729e8c44ec43c4935bc7705d8010628ef7f
-SHA512: 645d79d95d606468e2d21fc7d20749b178bd19da16cbb1c54d14a66aed71e5e232240c0d5d7854100161673f0fb49a7807f96e88519e68f70fc2e98c34a09272
+Filename: ./localsearch-extractor-iso_3.11.2-2_amd64.deb
+Size: 14472
+MD5sum: 4b6aefdc8e38dd9a3a419170654586c1
+SHA1: 4613d4150a96cf07291fcaf4c620fd81066bad5a
+SHA256: a36fa57ac138edf1b34db9e9076f3428a27e28218cbeb67975c691aa207b5ff9
+SHA512: 66fa0c7f6aff4f0d2b09510fec2725f2451aec853e845552b9c607819ea364df78c0eae4ac49594d9b6ed6854f7842572ece574e128ce7ce94bb06832c907c7c
 Homepage: https://tracker.gnome.org/
 Description: Extractor for ISO files
  This package contains the ISO file format metadata extractors.
@@ -52969,22 +52969,22 @@ Description: Extractor for ISO files
 
 Package: localsearch-extractor-office
 Architecture: amd64
-Version: 3.11.2-1+b1
+Version: 3.11.2-2
 Multi-Arch: same
 Priority: optional
 Section: utils
-Source: localsearch (3.11.2-1)
+Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 137
+Installed-Size: 136
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libxml2-16 (>= 2.14.1), libzip5 (>= 1.0)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-office_3.11.2-1+b1_amd64.deb
-Size: 30320
-MD5sum: 1bc89950b283ca51e270d4c0a7e97a14
-SHA1: 2ecdad3e96a366fcd7faa1821bb7dbc80146af00
-SHA256: d0901436a854eec4ef15cdac3e2b5ff02a81be16256d51c4410b7f6ff7a5f571
-SHA512: 5a570efca1b169eef7bd03da99919f86f99d77716ab92b57841cab57f778b3965c350e88d1d88be8af7cf46fa2eeee414f2b701684ad2221b51f854f5b05faa3
+Filename: ./localsearch-extractor-office_3.11.2-2_amd64.deb
+Size: 30132
+MD5sum: 06d46a748f6461becee8457a849379a1
+SHA1: db13210f59da2d0250b9a9b6c2487bc2a4f7ed70
+SHA256: f47739bc5653971dd5e6d8235d1c34c5729423c50f134eb5ac40f68b40b234aa
+SHA512: 9dc17004eb0e38c4763662bbe6647d38b4e73f1986836ee1d49696f60f85dd45bd49483fead3004a170c4a8a4e9601d419d3cd752f45e4d9adcdcc1f1513aedd
 Homepage: https://tracker.gnome.org/
 Description: Extractors for some compressed office file formats
  This package contains the extractors for various compressed
@@ -52996,22 +52996,21 @@ Description: Extractors for some compressed office file formats
 
 Package: localsearch
 Architecture: amd64
-Version: 3.11.2-1+b1
+Version: 3.11.2-2
 Priority: optional
 Section: utils
-Source: localsearch (3.11.2-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3291
+Installed-Size: 3290
 Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.6.0), libxml2-16 (>= 2.14.1)
 Recommends: localsearch-extractor-ffmpeg, localsearch-extractor-iso, localsearch-extractor-office
 Breaks: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
-Filename: ./localsearch_3.11.2-1+b1_amd64.deb
-Size: 671220
-MD5sum: 9de38141c8f7c3f1a31e09681211d760
-SHA1: db9ba6eb8a50c5623e935d2e04a4dd2a50b48a55
-SHA256: 99f4ca0e0ed8fa8f00f6b42e4731219a7e17900c4d8ad23d29f84bf83f40d114
-SHA512: 1f67539763482d3753c1859ffcccf7c4d104865925ae5b5b82c4baf3826e89403574c614c4323eb544195895ec19d128f9558399be7846c1747dffd42c07571a
+Filename: ./localsearch_3.11.2-2_amd64.deb
+Size: 670388
+MD5sum: 033ad40a26a8b3d19482ba6448d56bbe
+SHA1: 3fbfdd18a2b6f03d4a4888180c3c72f6a1771a48
+SHA256: 076de5a73f65968cdb8b924888a88e10f822e28824794cd963fe84482692286f
+SHA512: 83c69d2be2727edd2cf9f6e32d58749d1acfdba3d0430e75ae756e006d4d93b9e5790c91dc9e38d02804632802054040903c489ee84516e55af9fd9afa34fbe7
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - metadata extractors
  This package contains the metadata extractors.
