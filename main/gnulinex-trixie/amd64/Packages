@@ -34622,24 +34622,24 @@ Description: MJPEG capture/editing/replay and MPEG encoding toolset (library)
 
 Package: libmpfi0
 Architecture: amd64
-Version: 1.5.4+ds-5
+Version: 1.5.5+ds-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mpfi
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Installed-Size: 130
+Installed-Size: 142
 Provides: libmpfi
-Depends: libc6 (>= 2.4), libgmp10 (>= 2:6.3.0+dfsg), libmpfr6 (>= 4.0.0)
-Suggests: libmpfi-doc (= 1.5.4+ds-5)
+Depends: libc6 (>= 2.4), libgmp10 (>= 2:6.3.0+dfsg), libmpfr6 (>= 4.2.0)
+Suggests: libmpfi-doc (= 1.5.5+ds-3)
 Conflicts: libmpfi
 Replaces: libmpfi (<< 1.5.1+ds-1)
-Filename: ./libmpfi0_1.5.4+ds-5_amd64.deb
-Size: 36028
-MD5sum: 011ddb26cae128ae3ed2539250654b0c
-SHA1: e0833e94fa4f9c181a67c96c1ca045b52a77a565
-SHA256: b0f90afc1591de317aba4088856d02c2cda818f777613ffa59d899db1bb14627
-SHA512: 8422d79cf9d563481c116dd2e1a7d630ce1704cd10d561bc2fa4909db3b42acf8e9f6cb56d1f290b6609d0f3e260570ff5cad3eb9658d1537d39f61bd3bea639
+Filename: ./libmpfi0_1.5.5+ds-3_amd64.deb
+Size: 43248
+MD5sum: a7f362d9208af85762b642bfce30a733
+SHA1: 701df36e48d1379287fc052d14f629903394b2b9
+SHA256: 4640acc70110c96ce8dd0a273f9d628d7abc080e578a383df1303daea1801e68
+SHA512: 0a5e437c3dc6db39ae69a967b93e31c03c02cacbf383485dd7875e22c83a2179ad5c4b7f4271b895a01bfd011c8368a698978a7636e42509b7ab361d22d833a5
 Homepage: https://gitlab.inria.fr/mpfi/mpfi
 Description: multiple precision floating-point interval computation library -- lib
  This package provides a C library of functions for interval arithmetic
