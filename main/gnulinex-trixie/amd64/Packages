@@ -9030,21 +9030,21 @@ Description: GObject introspection data for the PackageKit GLib library
 
 Package: gir1.2-pango-1.0
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 133
-Provides: gir1.2-pangocairo-1.0 (= 1.58.0-1), gir1.2-pangofc-1.0 (= 1.58.0-1), gir1.2-pangoft2-1.0 (= 1.58.0-1), gir1.2-pangoot-1.0 (= 1.58.0-1), gir1.2-pangoxft-1.0 (= 1.58.0-1)
-Depends: gir1.2-cairo-1.0, gir1.2-fontconfig-2.0, gir1.2-freetype2-2.0, gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-harfbuzz-0.0 (>= 11.4.5), gir1.2-xft-2.0, gir1.2-xlib-2.0, libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1)
-Filename: ./gir1.2-pango-1.0_1.58.0-1_amd64.deb
-Size: 34208
-MD5sum: 069b705a5cffcee3007719faa23634af
-SHA1: fe8cd1f669b81eb569ec47355116e689ba33b6c8
-SHA256: f040264fc499b659fb37ddc51472cb2c12efd5f16fc361f6ba4919b8d0528a93
-SHA512: 8c41b1d3491b359e0c33c17323fc8d8464ed109009ec75a1c5fd6c11a82af9dbd8dc0a406b7a8de2a622c9998550b2c7ea656d6af9aa3ce5b8c140beef5b22e1
+Provides: gir1.2-pangocairo-1.0 (= 1.58.2-1), gir1.2-pangofc-1.0 (= 1.58.2-1), gir1.2-pangoft2-1.0 (= 1.58.2-1), gir1.2-pangoot-1.0 (= 1.58.2-1), gir1.2-pangoxft-1.0 (= 1.58.2-1)
+Depends: gir1.2-cairo-1.0, gir1.2-fontconfig-2.0, gir1.2-freetype2-2.0, gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-harfbuzz-0.0 (>= 11.4.5), gir1.2-xft-2.0, gir1.2-xlib-2.0, libpango-1.0-0 (= 1.58.2-1), libpangocairo-1.0-0 (= 1.58.2-1), libpangoft2-1.0-0 (= 1.58.2-1), libpangoxft-1.0-0 (= 1.58.2-1)
+Filename: ./gir1.2-pango-1.0_1.58.2-1_amd64.deb
+Size: 34288
+MD5sum: 4ad7841ff671063b7dbb854071f9b43a
+SHA1: 0711f4b615a3e37b513bd690f3c64e8e281c5c75
+SHA256: 6403229dfc6451ae85c6da8044f32b97cf2fb7b8d92b183342913b0c14fe31fe
+SHA512: cca6c10f8aaa94672144c2de081137d43f5b282e7e36733096691eec34a98ae52c4a0e030a5523c9f20d165067a459fe27c9d7d2e69f7b4fafea30f75a98fbcd
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text - gir bindings
  Pango is a library for layout and rendering of text, with an emphasis
@@ -11914,20 +11914,20 @@ Description: DVD+-RW/R recorder
 
 Package: grub-common
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub2-common (= 2.14-3)
-Filename: ./grub-common_2.14-3_amd64.deb
-Size: 2376
-MD5sum: 2111c000482d1305dd3be41df337c494
-SHA1: 7308542e51b870fbe1b3f15b68e5ccb20536fb70
-SHA256: e2a21744746060aa7a0033a68a76ae99610555e46ef0c592f6c0434af3cde315
-SHA512: 3b1826b61ff5da61987f72174fa72f100261e669f33c3aabd64b36b3dd7272b1d1e71a86c35cdcb9d65a735c61918919fc7cf54a47b60614b38948f54cfad3f9
+Depends: grub2-common (= 2.14-4)
+Filename: ./grub-common_2.14-4_amd64.deb
+Size: 2380
+MD5sum: df472ddc0ea1b2f6eb23c43cc8beb05f
+SHA1: be7168a60b040b8a1b7a5eeb30e45f439fa2e855
+SHA256: e6722387541c80a1000825b932ab640364e73e8973fc03e80b074a0d9b3733a2
+SHA512: 6f0ebb8310076869f3b18a6b1de004a13cf05e57e9f53de3bceda557fc75b9f16af2773e7e8fb40b75adb051d4982eb9763f4aba075a36dff8e8f3696a8ef67b
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy transitional package that depends on grub2-common.
@@ -11935,23 +11935,23 @@ Description: GRand Unified Bootloader, version 2 (dummy package)
 
 Package: grub-efi-amd64-bin
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 3984
-Depends: grub2-common (= 2.14-3), grub-efi-amd64-unsigned
+Installed-Size: 3989
+Depends: grub2-common (= 2.14-4), grub-efi-amd64-unsigned
 Recommends: grub-efi-amd64-signed, efibootmgr
 Breaks: grub-efi-amd64-signed (<< 1+2.12~rc1)
-Replaces: grub2 (<< 2.14-3)
-Filename: ./grub-efi-amd64-bin_2.14-3_amd64.deb
-Size: 1282952
-MD5sum: c02dc9b987208ebb04e08bddf46e7396
-SHA1: cf2bacae17517f04319149af1255cde617e18140
-SHA256: 100398d04dc5a475fb25c861364f9e2cbded742203edec4886e38069d0e64e40
-SHA512: b84e9f72de475b5722152b4a04218aa7a777eb6bf11dcb776c28f364b9d8e5de4360c2d6c803a39232924df9e5347560c875fac5c329d1e54b58024c6da33b15
+Replaces: grub2 (<< 2.14-4)
+Filename: ./grub-efi-amd64-bin_2.14-4_amd64.deb
+Size: 1282620
+MD5sum: 42c9d9ba789aee349552cb05187b3ef2
+SHA1: 3baa5f629141b8381e7b55624969dbc633e304f0
+SHA256: 950ac43320dcd7c7b6c5235631724dbbdae2a9351060f4e09b2637bf7fc55905
+SHA512: e416b7dee010027fbcc94ddb5bf00e22cdf89fde7c6356e5f933eeebb34c110d7f738781b4e0351c103b6f9bd82b333ef395383f9bc7f3e20e4ce60093fda295
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -11973,21 +11973,21 @@ Efi-Vendor: debian
 
 Package: grub-efi-amd64-signed
 Architecture: amd64
-Version: 1+2.14+3
-Built-Using: grub2 (= 2.14-3)
+Version: 1+2.14+4
+Built-Using: grub2 (= 2.14-4)
 Priority: optional
 Protected: yes
 Section: admin
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 9932
-Depends: grub2-common (= 2.14-3)
+Installed-Size: 9940
+Depends: grub2-common (= 2.14-4)
 Recommends: shim-signed
-Filename: ./grub-efi-amd64-signed_1+2.14+3_amd64.deb
-Size: 1412952
-MD5sum: 8dce36be4c1b92cfd995824f12929bd2
-SHA1: 5bb806f5f9e2d06a47d1fe129bdbad1758a1620b
-SHA256: 76c745f21292f7f9638a4422bd63c3f62a95bf86ea90e4d5afb4deec04b89f1f
-SHA512: e36695bb62513c9cb1ef5b63d0dbebd39ffa94578cf48d65ce0a50a09e401896457893ed6e5e197cfb6e23b21237da84acab2328a03227bb94f1ffc1a708a544
+Filename: ./grub-efi-amd64-signed_1+2.14+4_amd64.deb
+Size: 1413644
+MD5sum: c3037cf52088f7ce6cfb6d79ed106bde
+SHA1: bdb7832cbd2b4752b231ac4aae19933f1af521a1
+SHA256: 2cfc3adeaeb4fc091d5cdeb95531612ce7fd50d929ec75d117cc962f31f554d2
+SHA512: 78abb074e2b6b1b464b63809d2dd4d3aa42648c2bec1648295c14a24c961a6902bbbb3671ecb7a540b3dc1d4386f290ee094f3892d79637a4a6e1efcf925eb9e
 Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -12003,22 +12003,22 @@ Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
 
 Package: grub-efi-amd64-unsigned
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 9927
-Depends: grub2-common (= 2.14-3)
+Installed-Size: 9935
+Depends: grub2-common (= 2.14-4)
 Breaks: grub-efi-amd64-bin (<< 2.12-3~)
 Replaces: grub-efi-amd64-bin (<< 2.12-3~)
-Filename: ./grub-efi-amd64-unsigned_2.14-3_amd64.deb
-Size: 1411676
-MD5sum: 8a5b5e80dbe7d3df488501a77199c536
-SHA1: 19737a5ab8b9cd80016091e1db9d1b40759c1296
-SHA256: 850feac8d85a9d1dd7c24ae59f0261d29ce4abb1834eff77c7c252f3fc1217a3
-SHA512: c2ee51ab613996bec24d14dfc61ffe65228e72caf1aa7760881cd9355b85d8f8bb619ff1c6cbc1f473c4a262b3410d775d1db3c87eeaaa5dbd5a549ea9bcb4d1
+Filename: ./grub-efi-amd64-unsigned_2.14-4_amd64.deb
+Size: 1412124
+MD5sum: 67af7542fd383603a1e8707e9746f0db
+SHA1: 3fa39c39611828e9b487b54eeaf981053281bc56
+SHA256: 6541bddbc2792b516035a6e0974a40fe2783d6bf1e12986aab67847eec71e717
+SHA512: 762f7ba2aea3a7632c8eec14b4f81f5b32d8d9e26737bb65d59dfff6c9e80e7807fc812ed521d589ffa37afba0f37955b9da62c4cd0adf38219f104b9669d956
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 images)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -12040,22 +12040,22 @@ Efi-Vendor: debian
 
 Package: grub-efi-amd64
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 142
-Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.14-3), grub2-common (= 2.14-3), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.14-4), grub2-common (= 2.14-4), ucf
 Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
-Replaces: grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.14-3)
-Filename: ./grub-efi-amd64_2.14-3_amd64.deb
+Replaces: grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.14-4)
+Filename: ./grub-efi-amd64_2.14-4_amd64.deb
 Size: 42868
-MD5sum: 4aa13de8e64060a5b3f902a5dba1a308
-SHA1: c2d292b96f29d08e8b7a2e43d484802b603d883a
-SHA256: 6211be575d14afbea74f5f1f55c8f53ace9630593baa1913c46ea5e94fc0d961
-SHA512: 93308b28b9aed72e564adb5d55ab01e90540833b17a99d9427fabc6cf1ffb653f42f81dcefbeed53eee0398d5009657207fb67b6c4419b94b8baff3fcad9f173
+MD5sum: adcb7db4798644f1aed93e16084c2b8e
+SHA1: bc01929edec681fb56d717eef8e8d8d8eca5d5d0
+SHA256: 9aff6ff0f66425bf2d3ce6864f6bab5ce0b0a6a3b5c3c1669ce3f33eea07456a
+SHA512: 86c632026e7414da3dd815baf3255a6fc8c11e650d5eff07ff94374afc3044233a0734a3f7ddb5127957c3a2741bce6a7cdd0f5eb1388fcc2132f042a9450617
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -12074,23 +12074,23 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
 
 Package: grub-efi-ia32-bin
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 2621
-Depends: grub2-common (= 2.14-3), grub-efi-ia32-unsigned
+Installed-Size: 2618
+Depends: grub2-common (= 2.14-4), grub-efi-ia32-unsigned
 Recommends: efibootmgr
 Breaks: grub-efi-ia32-signed (<< 1+2.12~rc1)
-Replaces: grub-efi, grub2 (<< 2.14-3)
-Filename: ./grub-efi-ia32-bin_2.14-3_amd64.deb
-Size: 820440
-MD5sum: 0d0c38f7328a81c1391b40cc9f368edb
-SHA1: 2ad4c7736e5117aea63bfcd65c57da0d6de46d52
-SHA256: ebcf491c4ade69b82c25d1c4edfc1962c1d6a9474f12391d84c7cb0dd0486156
-SHA512: 1e8f845bc1f0f71cffe2afdb3ab9f325867a07da74d8bd5a34b3bfcec4f59717caa50009ff69d6d2cb7fbc0761f68825b2ea7cebfae1362e88482265bb097d9c
+Replaces: grub-efi, grub2 (<< 2.14-4)
+Filename: ./grub-efi-ia32-bin_2.14-4_amd64.deb
+Size: 820956
+MD5sum: c4ba43adc659263bb3d1e724d1a4273a
+SHA1: f7950066cf0295a6bf40339e7238c0e9a5127d56
+SHA256: 0e1b9deea5c72562aea5e5a283da175823720f070f7279ee96cc8339a8ce1aa7
+SHA512: ee870d061c79fb152b530f77d54cf5dff09faa342c77e89f6f0963e700aba42d23e812cf9dd3c25b178c2ecaad5e4b267694861b035575a19b282c97229b3fbb
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -12112,22 +12112,22 @@ Efi-Vendor: debian
 
 Package: grub-efi-ia32-unsigned
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 7839
-Depends: grub2-common (= 2.14-3)
+Depends: grub2-common (= 2.14-4)
 Breaks: grub-efi-ia32-bin (<< 2.12-3~)
 Replaces: grub-efi-ia32-bin (<< 2.12-3~)
-Filename: ./grub-efi-ia32-unsigned_2.14-3_amd64.deb
-Size: 1360804
-MD5sum: deee4b97c27eec48733bd786cd1feb17
-SHA1: 295ee7b11edd23c8936a459c92310133ef4dc325
-SHA256: 9a870caf13de749379f6a53b012353341e04669b36eb7d0da9192155c3f311d2
-SHA512: a34019473b57d618a562bcfd4038acd44b62f388b16fa79a6d2bb84761f1dcafcfae16724b335f49a12193694a0b00e1015e7513764ab481641f32570bfa69bf
+Filename: ./grub-efi-ia32-unsigned_2.14-4_amd64.deb
+Size: 1360144
+MD5sum: 7b86ed15a2d06cb0031bb832dd8ee4fc
+SHA1: b4281a027c826b172ecd4a0aeacf09f52167a88c
+SHA256: ea2174743e1f1995d5b1703b1a5277f2922e2e39f334ae23a88d4683bf6b9a06
+SHA512: 0315beb73144a9c2cb45f4e75f2a640d3a08df4939173cfffb29b19e6a1c05764e2b1b5d9da1bc189f63dad329de0dd132a963609530b45eceb2001f8bd73afe
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 images)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -12149,20 +12149,20 @@ Efi-Vendor: debian
 
 Package: grub-efi
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub2-common (= 2.14-3), grub-efi-amd64 (= 2.14-3)
-Filename: ./grub-efi_2.14-3_amd64.deb
-Size: 2388
-MD5sum: 73f13ed6d0cdf83b965129771c3466a4
-SHA1: 634ae06a254db372408dfc96597ff57c21fe967b
-SHA256: 2f46d46d9e65b7a64028a56d2a550341ed33ae864beabfb47cc5785955e2931d
-SHA512: c60968f820bdfd149ae513f0dadb84473a3cbfcf2c00901da631d68274240e9db17b7c804c72df4be8e59ab4d1951bb506779492887c5162f1eded98d897a1a0
+Depends: grub2-common (= 2.14-4), grub-efi-amd64 (= 2.14-4)
+Filename: ./grub-efi_2.14-4_amd64.deb
+Size: 2392
+MD5sum: b91b527cfa2ba901321bd9c2b9fb8bf1
+SHA1: a9df402ee1d6897ef9b085980f9b3c8339a2c9c1
+SHA256: a5c17c001448a3cd012838dff482434c8f40401759e9d41b39b2cb3a5f056d5b
+SHA512: 422efc3d9a245d109d4cc1f0097a7517de8f2f51e842a2bf7baffb2cf0f35a614db7d078518710f964abee4d854f259f04f60f063d62e897a46b7c712d4a39a1
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy package that depends on the grub-efi-$ARCH package most likely
@@ -12170,22 +12170,22 @@ Description: GRand Unified Bootloader, version 2 (dummy package)
 
 Package: grub-pc-bin
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 3765
-Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub2-common (= 2.14-3)
+Installed-Size: 3783
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub2-common (= 2.14-4)
 Suggests: desktop-base
-Replaces: grub2 (<< 2.14-3)
-Filename: ./grub-pc-bin_2.14-3_amd64.deb
-Size: 1221440
-MD5sum: cce60e70e76fa32e3d8c70900f49fef4
-SHA1: 76db2272177fe448d3a327c0d21403a13cf6efca
-SHA256: 39b0aaf159f9ae29dd891ca1a6fba7cdf9b993649ed8e904a83528e73dc4c6d6
-SHA512: a542f9a7c7c65bb1d15c08f6b7e41b50b6b074241f08f16057ac57e778a0a372a6e5ebb22e140a1b60945110c2d0ac012d97861a1ce85af0f18ac24455354f89
+Replaces: grub2 (<< 2.14-4)
+Filename: ./grub-pc-bin_2.14-4_amd64.deb
+Size: 1237464
+MD5sum: 4aae876249a3dbf6b3bea27c48eea6c1
+SHA1: 011effcd1a37f5e1a457c35f4d64f5e31f05dcd8
+SHA256: e4eb8b00f87cbe2d689029b2bff4b0138fcdf74bc1cac4579963dfe92030224b
+SHA512: 1a2b486eb7d254cdb45f239a58e974eb14278cfe8d2461f98fec2388e80c052da1749874730fc44b41da3b77e8a8a039bdd1197817f6e2978cea132120759f8a
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
@@ -12209,25 +12209,25 @@ Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
 
 Package: grub2-common
 Architecture: amd64
-Version: 2.14-3
+Version: 2.14-4
 Multi-Arch: foreign
 Priority: optional
 Section: admin
 Source: grub2
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 22235
-Provides: grub-common (= 2.14-3)
+Installed-Size: 22560
+Provides: grub-common (= 2.14-4)
 Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libefiboot1t64 (>= 39), libefivar1t64 (>= 39), libfreetype6 (>= 2.2.1), libfuse3-4 (>= 3.17.2), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
 Recommends: os-prober
 Suggests: multiboot-doc, grub-emu, mtools, xorriso, desktop-base, console-setup
 Breaks: grub-common (<< 2.14~), grub-legacy (<< 0.97-83~)
 Replaces: grub, grub-common, grub-legacy
-Filename: ./grub2-common_2.14-3_amd64.deb
-Size: 3555180
-MD5sum: 2f80c20bee568c5f6075f95a52c4068d
-SHA1: b795651f3ba5b303a97856d45ee2168b9f3f8e76
-SHA256: 27d7d369c73019c4a9c290d2ed31f7f159ef27d95ddfc9da0e4f79db51ee6fcc
-SHA512: 109e3aa56436b7a339d7dba198fea921a43b8a1d94213662fe281bb04a06d9652a10297b6322ebccb67c3f2f75c519a51c612dc517b62d2d7e8ff976eccb7735
+Filename: ./grub2-common_2.14-4_amd64.deb
+Size: 3591188
+MD5sum: c8aa7399378ea235b13123d074a17d52
+SHA1: 7eb87f33f33e8b143ac8ae186e35d62686f742d5
+SHA256: bee153ff7bb2c609a3a7e6d1a0c63f7ae372a38e5be48d48cb6af4ac091daec6
+SHA512: 9c6d917c25508679c20ebfd521904cf0b20159f47ffa097506a04fca1a1dd863657ed551aae88a9eb9765e02825b7baec4bd9f80f32d0a7cd56ee7fae9cbdab1
 Homepage: https://www.gnu.org/software/grub/
 Description: GRand Unified Bootloader (common files for version 2)
  This package contains common files shared by the distinct flavours of GRUB.
@@ -33886,23 +33886,23 @@ Description: library for Marco window manager
 
 Package: libmariadb-java
 Architecture: all
-Version: 2.7.6-1
+Version: 3.5.10-1
 Multi-Arch: foreign
 Priority: optional
 Section: java
 Source: mariadb-connector-java
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 661
-Suggests: libjna-java, libjna-platform-java, libslf4j-java (>= 1.7.32)
-Filename: ./libmariadb-java_2.7.6-1_all.deb
-Size: 601300
-MD5sum: 0745dcde13202f3b8aa021d69b229730
-SHA1: 6e4b21ae59b3ef32d1e6332048a0892d7ad1eada
-SHA256: 6be594486de3829457e7cf3430637b43043b0b14207807b89dc5ca9baf26ccb9
-SHA512: 097cb7bfb30861d7df058e159bd7ca6cb7a60b4234d529ad3fb7ca56f6070dcddb1dbd16341e49a3ab78ca2d4a0dad5e73ad951f91065f3107ea6f37f05f9915
+Installed-Size: 831
+Suggests: libbcpkix-java, libjna-java, libjna-platform-java, libslf4j-java (>= 1.7.32)
+Filename: ./libmariadb-java_3.5.10-1_all.deb
+Size: 761116
+MD5sum: 3c51514b9fd345bceb9adf396c8bc38a
+SHA1: d6fe06c575a95acdba2c5931a3c64d46ab540ce2
+SHA256: 821c69ae4d414135d536425d780f9ac8d41109c02848de53ee84722cbafe9f43
+SHA512: 5d59ec4319483b6275446c6c832ff67901442a4eb69108a81e4d33249f3e5be6fb52e90d2a8caee9c79472f32a256561172e2cad5c84ad9a03a3e76307b6b642
 Homepage: https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/
 Description: Java database driver for MariaDB and MySQL
- MariaDB Connector/J is a pure Java JDBC 4.2 compatible driver, used to
+ MariaDB Connector/J is a pure Java JDBC 4.5 compatible driver, used to
  connect applications developed in Java to MariaDB and MySQL databases.
 
 Package: libmariadb3
@@ -36443,20 +36443,20 @@ Description: Pluggable Authentication Modules library
 
 Package: libpango-1.0-0
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 559
-Depends: fontconfig (>= 2.17.0), libc6 (>= 2.38), libfribidi0 (>= 1.0.0), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libthai0 (>= 0.1.25)
-Filename: ./libpango-1.0-0_1.58.0-1_amd64.deb
-Size: 225336
-MD5sum: 0f05c2e4551bcf561142c97a6805419c
-SHA1: 41ec4a6516193acccc9079d9ac0a3c834cdc95de
-SHA256: f7b063fccb5eea0fc9fd4e8f354ec8d579421171a5912fd7f15553ffd26a36aa
-SHA512: 9da2b420f5581a522c8621170cc5dbd15fe3d9081db35d53db16f6354e67952cc86fca3a8daad6460877f13cee7906897549f2fd69900c2a2bef899a7aeb041b
+Installed-Size: 575
+Depends: fontconfig (>= 2.17.0), libc6 (>= 2.38), libfribidi0 (>= 1.0.0), libglib2.0-0t64 (>= 2.88), libharfbuzz0b (>= 11.4.5), libthai0 (>= 0.1.25)
+Filename: ./libpango-1.0-0_1.58.2-1_amd64.deb
+Size: 232872
+MD5sum: b16c46d92e820be542e554015fec33a4
+SHA1: 8f8dfdd050647263581cafec4124b0ec4435c851
+SHA256: 64d732b72e09e2689767f44914b0ad29011e85994a21ac3f9308fb03e30373e8
+SHA512: b4aa80d309b696f0739e6c875a87abade9b562076d6d175d9483ce73ed9d1077de479fcdb8b62e28ac1b425d9e3e916b49a2e3a1822c966dce9293228dfb9999
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -36476,22 +36476,22 @@ Description: Layout and rendering of internationalized text
 
 Package: libpango1.0-dev
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 1637
-Provides: gir1.2-pango-1.0-dev (= 1.58.0-1), gir1.2-pangocairo-1.0-dev (= 1.58.0-1), gir1.2-pangofc-1.0-dev (= 1.58.0-1), gir1.2-pangoft2-1.0-dev (= 1.58.0-1), gir1.2-pangoot-1.0-dev (= 1.58.0-1), gir1.2-pangoxft-1.0-dev (= 1.58.0-1)
-Depends: libcairo2-dev (>= 1.18.0), libfontconfig-dev (>= 2.17.0), libfreetype-dev, libfribidi-dev, libglib2.0-dev (>= 2.82), libharfbuzz-dev (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1), libsysprof-capture-4-dev, libthai-dev, libx11-dev, libxft-dev, libxrender-dev, pango1.0-tools (= 1.58.0-1), pkgconf, gir1.2-cairo-1.0-dev, gir1.2-fontconfig-2.0-dev, gir1.2-freetype2-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-harfbuzz-0.0-dev (>= 11.4.5), gir1.2-pango-1.0 (= 1.58.0-1), gir1.2-xft-2.0-dev, gir1.2-xlib-2.0-dev
+Provides: gir1.2-pango-1.0-dev (= 1.58.2-1), gir1.2-pangocairo-1.0-dev (= 1.58.2-1), gir1.2-pangofc-1.0-dev (= 1.58.2-1), gir1.2-pangoft2-1.0-dev (= 1.58.2-1), gir1.2-pangoot-1.0-dev (= 1.58.2-1), gir1.2-pangoxft-1.0-dev (= 1.58.2-1)
+Depends: libcairo2-dev (>= 1.18.0), libfontconfig-dev (>= 2.17.0), libfreetype-dev, libfribidi-dev, libglib2.0-dev (>= 2.88), libharfbuzz-dev (>= 11.4.5), libpango-1.0-0 (= 1.58.2-1), libpangocairo-1.0-0 (= 1.58.2-1), libpangoft2-1.0-0 (= 1.58.2-1), libpangoxft-1.0-0 (= 1.58.2-1), libsysprof-capture-4-dev, libthai-dev, libx11-dev, libxft-dev, libxrender-dev, pango1.0-tools (= 1.58.2-1), pkgconf, gir1.2-cairo-1.0-dev, gir1.2-fontconfig-2.0-dev, gir1.2-freetype2-2.0-dev, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-harfbuzz-0.0-dev (>= 11.4.5), gir1.2-pango-1.0 (= 1.58.2-1), gir1.2-xft-2.0-dev, gir1.2-xlib-2.0-dev
 Suggests: libpango1.0-doc
-Filename: ./libpango1.0-dev_1.58.0-1_amd64.deb
-Size: 152416
-MD5sum: 299c1a48257009c2bef0cf773e0d715c
-SHA1: d3ee28a9df21445237e126d5333992082f7dc5f7
-SHA256: 3356a87b156a40d38049024c0cc6f5cf80c4a2aae22c0da9f7ecd22e8a61f59e
-SHA512: fcf829184e3da3994419aed3697953084147664526ab29a82a07450a6aa82a331a9f6a2e460e3744e40db80398d9565452766b93682ac56d68bb48abe8ecf030
+Filename: ./libpango1.0-dev_1.58.2-1_amd64.deb
+Size: 152472
+MD5sum: c009001cc4e90d907ea9d3754bfc1a37
+SHA1: 64e4822335f9981ecfb8545a70dc6e346e8e031e
+SHA256: fd936a4836c6cb27b4c4f9d48cf0be700f5defe396d14bf8e513e6d9e2ec3caf
+SHA512: 1dba7cb5b0ce6341a073ecc4c8f56887beb17a375b428bedd36acd29b6a876123fd3514eaa87424284929408a8d34d408be4a6174f103c65719aed0b3fa9ab0d
 Homepage: https://www.pango.org/
 Description: Development files for the Pango
  Pango is a library for layout and rendering of text, with an emphasis
@@ -36512,20 +36512,20 @@ Description: Development files for the Pango
 
 Package: libpangocairo-1.0-0
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 106
-Depends: libc6 (>= 2.35), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1)
-Filename: ./libpangocairo-1.0-0_1.58.0-1_amd64.deb
-Size: 34244
-MD5sum: 2a16e447c190e6445a85f202d537ac13
-SHA1: 1f0bba6057319169715a97110b136bba2763ac8b
-SHA256: 8127b2daed6e1d6ca4436eec2f20831de6093671d74c2ba0e73ec195ac810d46
-SHA512: 4e0b2206342bbfc85229328f68f9ec8718b69ecbcfb7f264cf8c7f59531e9a2d10247809ecd4e1360824aad4960b784262d0ce09d02ddc473f391d55d8041b1d
+Depends: libc6 (>= 2.35), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.1), libglib2.0-0t64 (>= 2.88), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.2-1), libpangoft2-1.0-0 (= 1.58.2-1)
+Filename: ./libpangocairo-1.0-0_1.58.2-1_amd64.deb
+Size: 35328
+MD5sum: c9be1afbea1ccf3716ba1ced5697af35
+SHA1: 29b5ec6ee9e2c8d8aa9e8c5c439890ab2874ccd4
+SHA256: 8abbca9b8abde2657d971fdbba5778c2fcd934c7d9770b70aa6a439f3ace866f
+SHA512: 7bcd74711758c05ee29e222b770cabcdb32eb457ab57975fd22f798d1aaca575ada1291594bba397474f8c94fb772bd72a63cce4a9e32e94eab088a27f57bc67
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -36545,20 +36545,20 @@ Description: Layout and rendering of internationalized text
 
 Package: libpangoft2-1.0-0
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 161
-Depends: libc6 (>= 2.38), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1)
-Filename: ./libpangoft2-1.0-0_1.58.0-1_amd64.deb
-Size: 53056
-MD5sum: 3dcff869e53a652f548318d6f314a8c9
-SHA1: b9745d79287ac159b5ba9db2413c42e39f7d3268
-SHA256: 95feca5d4ade1b90bd224b8b76342e1feb5c1f01b511852442234cab0c2a4ce4
-SHA512: f5389bcd2af04cba32e7a3064595ba748159ce32a53b3bdb48f7699947b272699fd5eecfdcf6ff63b454b2a3e49cfdbc0ecf8bb764d488f78e0da45241125eb6
+Installed-Size: 165
+Depends: libc6 (>= 2.38), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.88), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.2-1)
+Filename: ./libpangoft2-1.0-0_1.58.2-1_amd64.deb
+Size: 56036
+MD5sum: 17bb637f0df07c76191e1659158f9c0e
+SHA1: 0073c96ba8b14c8429cc943d2a4d032a1b6c6444
+SHA256: fa73c6a5e927b11642ffb28fcfd38973e29ec0bcaa8e613b4d7852464d2570fd
+SHA512: 1a512d24bcb57984f6770318b76de0a1ab6e78529147854b5052ebf21f2a7969212baccffbbeed0596194e6987954f60deab8d50c6b4f63b88593dfb339b8753
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -36605,20 +36605,20 @@ Description: C++ Wrapper for pango (shared libraries)
 
 Package: libpangoxft-1.0-0
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 73
-Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libpango-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libx11-6, libxft2 (>> 2.1.1), libxrender1 (>= 1:0.9.12)
-Filename: ./libpangoxft-1.0-0_1.58.0-1_amd64.deb
-Size: 22284
-MD5sum: e0a2b797198eabd7454183a07eeaa7b8
-SHA1: 3e864e1e9c2e507c18220548264e3eb5a78347b9
-SHA256: 1e67a6fa24c1bfcf44bce21bab4316f6e72db66d67d10d33c0d4381c586f9758
-SHA512: 8066b0de70706d01a294b914ab4dd4145d791aa27f7c824df81bbb5ba78a0758e288f9a3ca7ecf8f077be7211a69613e96df4703977765d6d16dae46cd8fa1fb
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.88), libpango-1.0-0 (= 1.58.2-1), libpangoft2-1.0-0 (= 1.58.2-1), libx11-6, libxft2 (>> 2.1.1), libxrender1 (>= 1:0.9.12)
+Filename: ./libpangoxft-1.0-0_1.58.2-1_amd64.deb
+Size: 23076
+MD5sum: 3ca04f65d750d17b270d0ded42aeac40
+SHA1: c39a3087bb278ecf1b479c18aa51ffdf7e66c640
+SHA256: 0ec8cc2f54845eb99a537f4f6741183b69072939681a23cf407f997126a3cd9b
+SHA512: 13864b4f8b730228674e876fd82f979298edb3aa680d4ee12091fefeaeab6f226a52f8e2bff64f2d21d64090df84a9873bc6a1afc7f24faf1d5f862119f1464d
 Homepage: https://www.pango.org/
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
@@ -57321,21 +57321,21 @@ Description: pulseaudio command line mixer
 
 Package: pango1.0-tools
 Architecture: amd64
-Version: 1.58.0-1
+Version: 1.58.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: pango1.0
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 145
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.82), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.0-1), libpangocairo-1.0-0 (= 1.58.0-1), libpangoft2-1.0-0 (= 1.58.0-1), libpangoxft-1.0-0 (= 1.58.0-1), libx11-6, libxft2 (>> 2.1.1)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.18.0), libfontconfig1 (>= 2.17.0), libglib2.0-0t64 (>= 2.88), libharfbuzz0b (>= 11.4.5), libpango-1.0-0 (= 1.58.2-1), libpangocairo-1.0-0 (= 1.58.2-1), libpangoft2-1.0-0 (= 1.58.2-1), libpangoxft-1.0-0 (= 1.58.2-1), libx11-6, libxft2 (>> 2.1.1)
 Suggests: graphicsmagick
-Filename: ./pango1.0-tools_1.58.0-1_amd64.deb
-Size: 38708
-MD5sum: 881d3c85cdf11924c7e78d286ccf0368
-SHA1: 452b0e60628d58d9faac258dcb06da3dd9cca509
-SHA256: 8feab582348b97b0f025ff331c281059cdecd7f2c20581a8e088d9926e6513fb
-SHA512: c872209aec2dd6409c7d3100d7fc07aed3f2e906d129d62038681ecf1e6aa41d95093c63dba46b2866cddbfe03ad879af87f0d1e9ca75b30c6f675a16af2b4af
+Filename: ./pango1.0-tools_1.58.2-1_amd64.deb
+Size: 39760
+MD5sum: a2f181b1e50cd901bf5161fbb581a564
+SHA1: 3b780db4e3257b40fc439b9c4a47113739900766
+SHA256: e7e52f5c1f1e4944fbf03358ce823ed3aa2829aa81b6c8caa2445c30bb1195f2
+SHA512: 48ff600692adb782230e82a9385054399cf34012825eae5c2b88fe8b3df82eb611d482df551ddb001522e303ff5f7e496ac1c519a91a93a00cf9d788dcbf6fbf
 Homepage: https://www.pango.org/
 Description: Development utilities for Pango
  Pango is a library for layout and rendering of text, with an emphasis
@@ -57353,6 +57353,7 @@ Description: Development utilities for Pango
  .
  This package contains pango-view, the Pango text viewer, and pango-list,
  a utility that outputs a list of compatible system fonts.
+Commands: pango-list, pango-segmentation, pango-view
 
 Package: papers-common
 Architecture: all
