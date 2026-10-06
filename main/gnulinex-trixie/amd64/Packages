@@ -9609,18 +9609,18 @@ Description: Tools for working with GObject-Introspection repositories
 
 Package: gjs
 Architecture: amd64
-Version: 1.89.2+really1.88.1-1
+Version: 1.90.0-2
 Priority: optional
 Section: interpreters
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 197
-Depends: libgjs0 (= 1.89.2+really1.88.1-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.14.0)
-Filename: ./gjs_1.89.2+really1.88.1-1_amd64.deb
-Size: 124572
-MD5sum: c25afed3384b49846b7980f628ea96da
-SHA1: 987a3fa5e9e3412647bd5759ea16c2a39dfa58d0
-SHA256: af57786b279a146bc0a8c3904ce5ccb09b7ae89f5619f79294dd2485b98d17b5
-SHA512: b53982b528628f9219f6db7446bbfb844f71a3c88b5297c5053618de89b0f8d0975e88e05cb018347e02788aca77255d806dca58bf84d1281a4e5be6a29013a3
+Installed-Size: 199
+Depends: libgjs0 (= 1.90.0-2), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.17.0)
+Filename: ./gjs_1.90.0-2_amd64.deb
+Size: 126740
+MD5sum: 35c0bb4796984b7e9ec271049535d841
+SHA1: a9aef4cb3d13b178a39361d856715ae5d6029c7f
+SHA256: 3c478340bf084de15929843e3e00c967e02181add5e735a4bab123b6644d33f8
+SHA512: fa087fe185b513f69016003bb0e8a95521aee471d195547a825735a9ed680005554b48d06d16f47bfc5ce8940b5b73bd4f67b6d82ad2850b3df11bf2ec252a55
 Homepage: https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md
 Description: Mozilla-based javascript bindings for the GNOME platform (cli tool)
  Makes it possible for applications to use all of GNOME's platform
@@ -9628,6 +9628,7 @@ Description: Mozilla-based javascript bindings for the GNOME platform (cli tool)
  Mozilla JavaScript engine and the GObject introspection framework.
  .
  This package contains the interactive console application.
+Commands: gjs, gjs-console
 
 Package: gkbd-capplet
 Architecture: amd64
@@ -22919,22 +22920,23 @@ Description: GLib runtime library for handling GObject introspection data
 
 Package: libgjs0
 Architecture: amd64
-Version: 1.89.2+really1.88.1-1
+Version: 1.90.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gjs
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1965
-Depends: gir1.2-gio-2.0, gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0, gir1.2-gobject-2.0, libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.14.0), libreadline8t64 (>= 6.0), libstdc++6 (>= 12), libx11-6
+Installed-Size: 1987
+Depends: gir1.2-gio-2.0, gir1.2-girepository-3.0 (>= 2.86.0-7~), gir1.2-glib-2.0, gir1.2-gobject-2.0, libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libffi8 (>= 3.4), libgirepository-2.0-0 (>= 2.86.0-7~), libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~), libglib2.0-0t64 (>= 2.86.0-7~), libmozjs-140-0 (>= 140.17.0), libreadline8t64 (>= 6.0), libstdc++6 (>= 12), libx11-6
 Conflicts: libgjs0g
+Breaks: gnome-shell (<< 50.4)
 Replaces: libgjs0g
-Filename: ./libgjs0_1.89.2+really1.88.1-1_amd64.deb
-Size: 571524
-MD5sum: 50a3e91413732c8ab72a02499d0d2851
-SHA1: d2ad7c22fe237e10f64128f77b139828b032ba47
-SHA256: 455309fdbc68654f06f586dc4c3168064fefef5e36a6fcbeb9f3eef15e57371d
-SHA512: 412eefcfc02cc64c5883c61f417ca025817f95daae06256fb94c45ec57aeb31c1e3df5fa99bc47dd533b938e6226aa1c1e92ff20e7cd490057b0745739df1155
+Filename: ./libgjs0_1.90.0-2_amd64.deb
+Size: 581012
+MD5sum: 258e994114cdc1326b87453faeb4bc43
+SHA1: 6aa45fd46740ec3325eac02d048c85cfcf0cbcf8
+SHA256: e484e9c13943579afb1a392a079baddaddfb79282de43c5251ad5f23fce0238d
+SHA512: 624f6eaf6dc4e453ac66990809c4f8305bfc6314d467aaad469584d97822ed85fd2da0518883125b847cf87af86a7eb4d99aabc9d0ad01d6cb76730536203eaf
 Homepage: https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md
 Description: Mozilla-based javascript bindings for the GNOME platform
  Makes it possible for applications to use all of GNOME's platform
@@ -56210,20 +56212,20 @@ Description: lightweight GTK window manager
 
 Package: meteo-qt-l10n
 Architecture: all
-Version: 4.3-1
+Version: 4.3-2
 Multi-Arch: foreign
 Priority: optional
 Section: localization
 Source: meteo-qt
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 1165
+Installed-Size: 1166
 Depends: qttranslations5-l10n
-Filename: ./meteo-qt-l10n_4.3-1_all.deb
-Size: 147956
-MD5sum: 9b3597576a710bf1b0aef873ebc27593
-SHA1: b9cf42f3b44ec3875c1ffbb1bf2e7c842f21d616
-SHA256: 2908002748dbd91a02995096a279a945a6372ca757e563258e1cd5098f09191d
-SHA512: 88976985d0cc23fc5c2e205e0f207c65fccb11a0e5340332bb3c331ae9c214c8e8d109448e2d5e4327794e26716391eef9226098444889d8a265627e95e545f9
+Filename: ./meteo-qt-l10n_4.3-2_all.deb
+Size: 147508
+MD5sum: a2dc35552244f625b0f0a0517faaf1ff
+SHA1: ce5ba502486c3a72cc2ff4d34e958677d7f2b473
+SHA256: 30073ef29f8572dd7a143fc3486bce61a0c0df552e9fb9b11fe4be090c0d6d74
+SHA512: 0eb33c4245aae01be6e313a908157b8436dd2fc661027985604f89c48c39958705412635beed49d9158097d89ee48e198e24bf29afecb939f28e85046a5e6942
 Homepage: https://github.com/dglent/meteo-qt
 Description: Application to display weather information (translations)
  meteo-qt is an application to display weather information in desktop panels,
@@ -56233,19 +56235,19 @@ Description: Application to display weather information (translations)
 
 Package: meteo-qt
 Architecture: amd64
-Version: 4.3-1
+Version: 4.3-2
 Priority: optional
 Section: python
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
-Installed-Size: 2669
+Installed-Size: 2670
 Depends: python3-lxml, python3-pyqt6, python3:any
 Recommends: meteo-qt-l10n
-Filename: ./meteo-qt_4.3-1_amd64.deb
-Size: 475780
-MD5sum: 8724c0d755fcf24ca447a70521a740db
-SHA1: bf3613bcb60e546e21c5fd36f276aac0947523f0
-SHA256: 86a72911d991f8ca006597588bf0087b480ec66ac148ec50b12c1a61f3394fad
-SHA512: 3777482a227952f00062a26b146993999c1bc6ae3f2047043ec5c47af3518170a1d9fcb96b331a0b56d5b1b211f6847c536dfcedc9c462f0a17cda6c19b79efa
+Filename: ./meteo-qt_4.3-2_amd64.deb
+Size: 475320
+MD5sum: 0bf433921f96d831cb5277613a98d36f
+SHA1: 8128317327c886d396538ca69e7ac0a9e82dc221
+SHA256: 3d0654ba95c015763abe764e3e2253a6f556a6ade0175d3d1361e31ed9740af5
+SHA512: d117ac5d5f8222c36c56f15b9e095ce522c9408ac120362a9a9a7dde85335cb1ee1266d37b2794f33dde95742de31b66309be6a7b7abcd45d38467aee7ac5c31
 Homepage: https://github.com/dglent/meteo-qt
 Description: Application to display weather information
  meteo-qt is an application to display weather information in desktop panels,
