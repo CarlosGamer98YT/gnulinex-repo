@@ -15813,7 +15813,7 @@ Description: AddressSanitizer -- a fast memory error detector
 
 Package: libasound2-data
 Architecture: all
-Version: 1.2.16.1-1
+Version: 1.2.16.1-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
@@ -15822,14 +15822,14 @@ Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Installed-Size: 195
 Recommends: alsa-ucm-conf, alsa-topology-conf
 Suggests: alsa-utils
-Breaks: libasound2t64 (<< 1.2.16.1-1)
-Replaces: libasound2t64 (<< 1.2.16.1-1)
-Filename: ./libasound2-data_1.2.16.1-1_all.deb
-Size: 19364
-MD5sum: e96db8ea369e557c42179c9603660550
-SHA1: 80823196ffdf8963d06274f68d99f294ef83012a
-SHA256: 05d0bce6ccb66c60d8dea6ddf28ddb2765b4455e5dd9c71f96f30e4a67ca6b41
-SHA512: 1df9137da8ec69cf8c350c786e7ec3d45c8d946d28b049de7fe08d75be56b783164e63a0675f10261744799232d49121a6ab7344426c1cee9ffe0e551f7ea813
+Breaks: libasound2t64 (<< 1.2.16.1-2)
+Replaces: libasound2t64 (<< 1.2.16.1-2)
+Filename: ./libasound2-data_1.2.16.1-2_all.deb
+Size: 19432
+MD5sum: c74794eea668afea469f6beb1c781873
+SHA1: 70cbed7e713d35f92ca53c09d825a9d7c72e27fd
+SHA256: 7983ec78dc65f53be74cc87dd27aa02a7f0b38ff6e832d3a44a08b1270eabd6c
+SHA512: 0ae2f37c99772424ae57e70bcdf881f58b25513d1822c2155fdd747c552fadb0362a1fb0a07a77716438c5ca288e03e869bea12cf71b080b93e0f802b8835e98
 Homepage: https://www.alsa-project.org/
 Description: Configuration files and profiles for ALSA drivers
  This package contains configuration files for ALSA drivers.
@@ -15838,7 +15838,7 @@ Description: Configuration files and profiles for ALSA drivers
 
 Package: libasound2-dev
 Architecture: amd64
-Version: 1.2.16.1-1
+Version: 1.2.16.1-2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -15846,45 +15846,18 @@ Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 Installed-Size: 740
 Provides: libasound-dev
-Depends: libasound2t64 (= 1.2.16.1-1)
+Depends: libasound2t64 (= 1.2.16.1-2)
 Suggests: libasound2-doc
-Filename: ./libasound2-dev_1.2.16.1-1_amd64.deb
-Size: 119220
-MD5sum: 6857ca16a37a25362374fb9ad467998c
-SHA1: 738871246314ce3733f488429733e15061948501
-SHA256: fb97b57e7d0b95ec1a3810c6d83c643ab2176eb733a7b394ec9b5503bb103c27
-SHA512: 1100379355555868f37538f7e3ad3c44eb7dc1926e49b1d3937093793a7be523b227e21081c8d06adb2fff6907c4780d850fff58ac368404a268939debb0ad09
+Filename: ./libasound2-dev_1.2.16.1-2_amd64.deb
+Size: 119296
+MD5sum: 756b0d83f0d08f4a508580dc94b0ef8d
+SHA1: 94913a837956be9564770d00cc675e822f240356
+SHA256: 1bd5fd10bd53cf6493702583fff5663fe88845cf914620fe015803655d890c77
+SHA512: 1e1300d6b65d1053ce9065b843b754b531dc2f4493bb23fb991e661c69483954fcfef00fe7ef7036cfed3f24908a7bb8c087215e08ad000945b4e7fc2d871e81
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications -- development files
  This package contains files required for developing software
  that makes use of libasound2t64, the ALSA library.
- .
- ALSA is the Advanced Linux Sound Architecture.
-
-Package: libasound2t64
-Architecture: amd64
-Version: 1.2.16.1-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: alsa-lib
-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 1299
-Provides: libasound2 (= 1.2.16.1-1)
-Depends: libasound2-data (>= 1.2.16.1-1), libc6 (>= 2.38)
-Suggests: libasound2-plugins (>= 1.0.24)
-Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16.1-1)
-Replaces: libasound2
-Filename: ./libasound2t64_1.2.16.1-1_amd64.deb
-Size: 396876
-MD5sum: 65865cd2a1777649f675028f887d9b0f
-SHA1: 98e95a2ab12c3f40b4a1a5358438196fa58230d9
-SHA256: 8e6970b2bdf54b1f66a75b78018f9640cda78dca440a15293fdafbcf697cc95e
-SHA512: f16769f66e2d6cd1211b1e44e63de2a2efdffec84930f1e60fef650b64834f7d36295c55b32a96de6ca2d28d2b6b89910fc1194c64b3034e1d6031284d44c287
-Homepage: https://www.alsa-project.org/
-Description: shared library for ALSA applications
- This package contains the ALSA library and its standard plugins, as well
- as the required configuration files.
  .
  ALSA is the Advanced Linux Sound Architecture.
 
@@ -15908,6 +15881,33 @@ MD5sum: 3aee64e5c3df3f72fc418eece3f98853
 SHA1: dc1881933603c960bfc86be436accd941555751d
 SHA256: 474e76cae3e058e2bf24e3f86336d29e4086d801d960ec5a6f227d23bc239a98
 SHA512: f57f2b08ce8bbe16af68e249a8c50a30e60a1d7e2b93ea7b60c77602edfa739ee71ce550133caeb69cd6ba606a8289d676e5e530e2fc13895110db7cae7acd7c
+Homepage: https://www.alsa-project.org/
+Description: shared library for ALSA applications
+ This package contains the ALSA library and its standard plugins, as well
+ as the required configuration files.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: libasound2t64
+Architecture: amd64
+Version: 1.2.16.1-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: alsa-lib
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Installed-Size: 1331
+Provides: libasound2 (= 1.2.16.1-2)
+Depends: libasound2-data (>= 1.2.16.1-2), libc6 (>= 2.43)
+Suggests: libasound2-plugins (>= 1.0.24)
+Breaks: alsa-utils (<< 1.2.1), libasound2 (<< 1.2.16.1-2)
+Replaces: libasound2
+Filename: ./libasound2t64_1.2.16.1-2_amd64.deb
+Size: 416548
+MD5sum: a10999b46c6262a602bd999b2758d780
+SHA1: 36efba11356defcdf755c849d6a00c4695b7deda
+SHA256: 0d6981040d02b9a714074476634284b9cfed2318a4db1352e3a1a790698125e4
+SHA512: aed48e92f34608001500cf961614a021e8a2a571fd73b5865954ea33b25899e1d30c3fd93faf3d35774e523ddc91ac472e0f687a5d1efa8e5dff0d91d244783d
 Homepage: https://www.alsa-project.org/
 Description: shared library for ALSA applications
  This package contains the ALSA library and its standard plugins, as well
@@ -16136,23 +16136,23 @@ Description: support library providing __atomic built-in functions
 
 Package: libatopology2t64
 Architecture: amd64
-Version: 1.2.16.1-1
+Version: 1.2.16.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: alsa-lib
 Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
-Installed-Size: 143
-Provides: libatopology2 (= 1.2.16.1-1)
+Installed-Size: 147
+Provides: libatopology2 (= 1.2.16.1-2)
 Depends: libasound2t64 (>= 1.2.15), libc6 (>= 2.38)
-Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.16.1-1)
+Breaks: libasound2t64 (<< 1.2.1.1), libatopology2 (<< 1.2.16.1-2)
 Replaces: libasound2t64 (<< 1.2.1.1), libatopology2
-Filename: ./libatopology2t64_1.2.16.1-1_amd64.deb
-Size: 50572
-MD5sum: 01306e9f8c2a48e486c3b74e1486ddc5
-SHA1: 070edf72f21b6e106ee24dae2217ef0915c18f3b
-SHA256: 305796f2cd7a47318f23d1ecaeaecd02d0cd9620ec085cfb5f812e5b5d7a1264
-SHA512: 54cc68b68909ea9af391bb458a547255a03b055bdcf2fa4f63d3d7477b4b84436abb012f3743187b88f2ad55e81a0bb9dd1db5e7e1fbbfa8809c36a2e9a55016
+Filename: ./libatopology2t64_1.2.16.1-2_amd64.deb
+Size: 54152
+MD5sum: 2eb120abba26e5bda9dff8968dc5f40b
+SHA1: 9d3ad4ccd2ebdd60a753b00b2c4d81303f707238
+SHA256: f878ee9a63173b9c51c363ec482efca30b3bfeecc1c7a501571129c7984ff76e
+SHA512: 83be2ff5672a2c2a7975734ba6de909f4da878872e3aecc2e1354c3025576f70cc1d3ac560f6fa301608a7cc96ec92dda9e132ff6a6e04e356980691235b7660
 Homepage: https://www.alsa-project.org/
 Description: shared library for handling ALSA topology definitions
  This package contains the ALSA topology library.
@@ -49006,22 +49006,22 @@ Description: GTK+3 timezone map widget
 
 Package: libtinysparql-3.0-0
 Architecture: amd64
-Version: 3.11.1-2
+Version: 3.12.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: tinysparql
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 937
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libicu78 (>= 78.1-1~), libjson-glib-1.0-0 (>= 1.5.2), libsoup-3.0-0 (>= 3.1.3), libsqlite3-0 (>= 3.20.0), libstemmer0d (>= 0+svn527), libxml2-16 (>= 2.14.1)
+Installed-Size: 972
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libicu78 (>= 78.1-1~), libjson-glib-1.0-0 (>= 1.5.2), libsoup-3.0-0 (>= 3.1.3), libsqlite3-0 (>= 3.20.0), libstemmer0d (>= 0+svn527), libxml2-16 (>= 2.14.1)
 Breaks: libtracker-sparql-3.0-0 (<< 3.8.2-5~)
 Replaces: libtracker-sparql-3.0-0 (<< 3.8.2-5~)
-Filename: ./libtinysparql-3.0-0_3.11.1-2_amd64.deb
-Size: 288572
-MD5sum: bd70f80a62551c562e7d2b406e4e23ba
-SHA1: 60cb80efbe476319324700dc9bf73ff305c746b9
-SHA256: 4e088cf86015fb173fd200201709d6b216efa0ec0793018471895d08774cab21
-SHA512: 359bd626d39df79adb1b5c2800231f5f2a57e2917c37c563371e9f35f235ee5e2ed7d1a3e75663ff7f4e89ac7a243753c8c6563b3efc64890f6e408c6475e1dc
+Filename: ./libtinysparql-3.0-0_3.12.0-1_amd64.deb
+Size: 305908
+MD5sum: 23a493ed6fc449ee4930609723630b5e
+SHA1: 67612c8c9dfc24f5ca30b1ff3ce1634230f22369
+SHA256: 3e33c0c1578bf27c059f9992f683dd737b9156cf5315e6a677ae3bd6e7fb3b9d
+SHA512: b88bd0501c805b3f422f96f3628bcb9e5507b92d35f8a71eb1fd48c1e196ee915f497a576b2e757f350d1b36e469487213a060a960badac900fb5bc24026c9d4
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - library
  This package contains a library to perform SPARQL queries and updates in the
@@ -71230,26 +71230,27 @@ Description: mail/news client with RSS, chat and integrated spam filter support
 
 Package: tinysparql
 Architecture: amd64
-Version: 3.11.1-2
+Version: 3.12.0-1
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2192
-Depends: default-dbus-session-bus | dbus-session-bus, libglib2.0-bin, shared-mime-info, libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libjson-glib-1.0-0 (>= 1.5.2), libsqlite3-0 (>= 3.20.0), libtinysparql-3.0-0 (>= 3.8.1), libxml2-16 (>= 2.14.1)
+Installed-Size: 2255
+Depends: default-dbus-session-bus | dbus-session-bus, libglib2.0-bin, shared-mime-info, init-system-helpers (>= 1.66~), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libjson-glib-1.0-0 (>= 1.5.2), libsqlite3-0 (>= 3.20.0), libtinysparql-3.0-0 (>= 3.8.1), libxml2-16 (>= 2.14.1)
 Recommends: localsearch
 Breaks: tracker (<< 3.8)
 Replaces: tracker (<< 3.8)
-Filename: ./tinysparql_3.11.1-2_amd64.deb
-Size: 585188
-MD5sum: 9904213c13b6230c1957ce903ca057ee
-SHA1: ba8423aaa98729e390604c1f4d73f1b938f29754
-SHA256: 03fc758a344bd0ebf9f4eb08bf4e2af398f992775f1f50c700aa84b7ee55237c
-SHA512: 00897245c3dcc5a324ead1afff12aa41d966b8ca8077eaa84b6837073c48065478418fa6127e9055af20579773a070f44126bd4b0f95ebc17d3ca79ede54a2cc
+Filename: ./tinysparql_3.12.0-1_amd64.deb
+Size: 607204
+MD5sum: 247b9208ecfd0456953d4fdd9b306f24
+SHA1: 72e33736160f9187464e223b0ce5b11bc56736da
+SHA256: 7a9fad3d3e54814fd3bc33aabe922210032c3af3d26418c3093f7ddfdbd05ec3
+SHA512: 8f8bc56c393fb50843cad42bebf8d7c845ead855411d0baff34b650cff00d02c689efe62bc2e6f56e36db3dff7459dc1f80ab1c99d2be1a43a86ab6a56c81a68
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool
  TinySPARQL is an advanced framework for first class objects with associated
  metadata and tags. It provides a one stop solution for all metadata, tags,
  shared object databases, search tools and indexing.
+Commands: tinysparql
 
 Package: tipa
 Architecture: all
