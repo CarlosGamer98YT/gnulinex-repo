@@ -1054,20 +1054,21 @@ Description: configuration applets for Budgie - data files
 
 Package: budgie-control-center
 Architecture: amd64
-Version: 2.1.3-1
+Version: 2.1.3-1+b1
 Priority: optional
 Section: misc
+Source: budgie-control-center (2.1.3-1)
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Installed-Size: 4433
-Depends: accountsservice, budgie-control-center-data, colord (>= 0.1.30), desktop-file-utils, gnome-desktop3-data, gnome-settings-daemon (>= 49), gsettings-desktop-schemas (>= 40), libaccountsservice0 (>= 0.6.40), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.22.20), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 232), libhandy-1-0 (>= 1.5.0), libibus-1.0-5 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.24.0), libnma0 (>= 1.8.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.103), libpulse-mainloop-glib0 (>= 13.0~), libpulse0 (>= 13.0~), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1)
+Installed-Size: 4434
+Depends: accountsservice, budgie-control-center-data, colord (>= 0.1.30), desktop-file-utils, gnome-desktop3-data, gnome-settings-daemon (>= 49), gsettings-desktop-schemas (>= 40), libaccountsservice1 (>= 26.27.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgcr-base-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.22.20), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 232), libhandy-1-0 (>= 1.5.0), libibus-1.0-5 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.24.0), libnma0 (>= 1.8.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.103), libpulse-mainloop-glib0 (>= 13.0~), libpulse0 (>= 13.0~), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1)
 Recommends: budgie-desktop (>= 10.10.2), cracklib-runtime, cups-pk-helper, gnome-user-docs, gnome-user-share, iso-codes, libcanberra-pulse, libnss-myhostname, network-manager-applet, pkexec, polkitd, power-profiles-daemon, rygel | rygel-tracker, system-config-printer-common (>= 1.4), tecla
 Suggests: gnome-software | gnome-packagekit, libcanberra-gtk3-module, realmd
-Filename: ./budgie-control-center_2.1.3-1_amd64.deb
-Size: 1577776
-MD5sum: 6376c74e826b385784938118429fe565
-SHA1: c7616bafadc450dc445a99ddc2d068b1bf2f2520
-SHA256: de7d11d72a57e6980986d43c0fa573e72c7445f0d07eb1d2cddf8b930e426260
-SHA512: 6d2af9f2d43e287eb204d103fd6c0e9ef48576171c0f51449ecd291f70d53ab258592d14ed4ad3cadab75a7d2480983d0daff1b1514fa932de3cc4ea2c580fbf
+Filename: ./budgie-control-center_2.1.3-1+b1_amd64.deb
+Size: 1577508
+MD5sum: f25ce3569e2f6edad8f55b641320297f
+SHA1: 693b44b10e152a93ef6468d25defcb3090864a64
+SHA256: 033326e35583d36a9b5be935955d1adfd906ab43cb75b0f9a3a08d36022ed5e4
+SHA512: a4c4d4f69b5d877171a441ecb491b9382ec89c041f4b45c947001f2d72221aa75fe7ad148920e0e53343de01ae0df369fcb7727e712816a51c9681898ee337a7
 Homepage: https://github.com/buddiesofbudgie/budgie-control-center
 Description: utilities to configure the Budgie desktop
  This package contains configuration applets for the Budgie desktop,
@@ -1835,19 +1836,19 @@ Description: Cinnamon screen saver and locker
 
 Package: cinnamon-session-common
 Architecture: all
-Version: 6.6.4-1
+Version: 6.6.4-2
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: cinnamon-session
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
 Installed-Size: 58
-Filename: ./cinnamon-session-common_6.6.4-1_all.deb
-Size: 12452
-MD5sum: 53224c1d28ea580d8dcf0c7d0d8884e1
-SHA1: 27b3017c89e3bf1ad249b70a0e1c18ee5626f48c
-SHA256: 638f192b4d800978a9037d1993387c6ad411ae77618ffb67baeaf053ddb5ecb0
-SHA512: 7426503bbe89f4ec354f04076427fea5637eff4825951c02f91707c45e2ee494d866837438e07af667a9a07afa88ff133e69559cacd2684db1194a8856185f9b
+Filename: ./cinnamon-session-common_6.6.4-2_all.deb
+Size: 12600
+MD5sum: 74bb670147ddb9ba88236c9d6a4bcdff
+SHA1: 839d5140da4bf58f711f29fe2e76ac19daa18767
+SHA256: 2c469100f35c338d05ba6e5d80ffe1a077a6ddac106ead54b080b574f346421e
+SHA512: 2baffc04e41497c9436017660887a3fc86f6f9f0c006f363511dd6f3b8e0a08b163f9465ab5591fc7b720d4e71e0db34cb645060a8ff036dd74b6d591e0de5de
 Homepage: https://github.com/linuxmint/cinnamon-session
 Description: Cinnamon Session Manager - common files
  The Cinnamon Session Manager is in charge of starting the core components
@@ -28702,19 +28703,19 @@ Description: Configuration system for KNotify
 
 Package: libkf6package-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kpackage
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 534
-Filename: ./libkf6package-data_6.30.0-1_all.deb
-Size: 63612
-MD5sum: 560082ac9dcdeb5cfcd7e308f02d8c05
-SHA1: 7d82b9fed5eeda62ae1b4bc28449ecf43320e107
-SHA256: ab95e967b80b2aa41b873b05fc5aec4d1a777b825dad60762e1607d6865645c7
-SHA512: 457de8ae1a72f4c5a38875aa961285f9a62ca7a5e2b3a327bd44c7274e2649f3207015279983000902d2fb26e97912de414f7fce47722bad2f34031debe4e0d9
+Installed-Size: 536
+Filename: ./libkf6package-data_6.32.0-1_all.deb
+Size: 63976
+MD5sum: 8fbfdcf8a66325da5e2048da6d70e50c
+SHA1: cebaa0547f243767e0deef77ab057ef7bfa33743
+SHA256: 6a124ad5002f1724099b0677bc6260467fa64e6ae8f5445a4cfb6020d15c5cc1
+SHA512: 6bc406968d1198573934b4bb8abc47ef6cb046421a23470f250ccf6c44989a9582ca1f1c6ffe152cefcd286f05c3376e23ec439f8a010ff95b339cc8069e1129
 Homepage: https://invent.kde.org/frameworks/kpackage
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
@@ -30210,19 +30211,19 @@ Description: Convenience access to certain properties and features of the window
 
 Package: libkf6xmlgui-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kxmlgui
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2575
-Filename: ./libkf6xmlgui-data_6.30.0-1_all.deb
-Size: 362580
-MD5sum: 8ba4090b31de39f02ed2b48b9a420bae
-SHA1: 0eb62fe09b11f2db0ced56dacbb0f6bd78c8f47f
-SHA256: f17b5b0b6b98b13acfe66a3117d7ce90dd8398cc44632a6e4096eba60e5b72ef
-SHA512: 8aab3eeaa4ae7aa5cf3d29cc6f6a9e6b1797d7a268cd909aa3f642a2f1659286cb20bd6b4e6f02db250f9a095f79503ca3ee073c5e48f2a3bf2198f868b32c48
+Installed-Size: 2614
+Filename: ./libkf6xmlgui-data_6.32.0-1_all.deb
+Size: 365372
+MD5sum: 7d70b484d8d44eeeb2fd1a90fcf0fba1
+SHA1: f3c80d27f3ee20b47a00980697108a32a23dbca5
+SHA256: 9443b303aac3904d773eeef23a44aa6b9b0ddc8f26103ac63c52030bb3bfaffa
+SHA512: 2510eaf2068987563bc63531014dcdef737f3c199607c33f97ae3bd5c688e7aa97495e085eed44bae98c8925f928970604efcf14bd348d3a533098c7c7f42752
 Homepage: https://invent.kde.org/frameworks/kxmlgui
 Description: User configurable main windows
  framework for designing the user interface
@@ -30233,20 +30234,20 @@ Description: User configurable main windows
 
 Package: libkf6xmlgui6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kxmlgui (6.30.0-1)
+Source: kf6-kxmlgui
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1058
-Depends: libkf6xmlgui-data (= 6.30.0-1), libc6 (>= 2.14), libkf6configcore6 (>= 6.30.0~), libkf6configgui6 (>= 6.30.0~), libkf6configwidgets6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6globalaccel6 (>= 6.30.0~), libkf6guiaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6iconthemes6 (>= 6.30.0~), libkf6iconwidgets6 (>= 6.30.0~), libkf6itemviews6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.11.2), libqt6printsupport6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2)
-Filename: ./libkf6xmlgui6_6.30.0-1+b1_amd64.deb
-Size: 303604
-MD5sum: 52f6d2ccec3e3ffde94ed47c94414941
-SHA1: 04e5ccc8cd337b89b6c582df632a87b855143838
-SHA256: 0e12ac165d135cc7bd5174cdd1fc76e757395df9934b4b03b339791e592ec10f
-SHA512: 1cc6e11c3783b1c9284fcd2ac1d52c6963bec9573a15eeb6624c04eea69d97e2c80fa0c581c8776c59e3a8db0e5d9cf7f27a33ad721bcd7733c3cedc9e79c338
+Installed-Size: 1057
+Depends: libkf6xmlgui-data (= 6.32.0-1), libc6 (>= 2.14), libkf6configcore6 (>= 6.32.0~), libkf6configgui6 (>= 6.32.0~), libkf6configwidgets6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6globalaccel6 (>= 6.32.0~), libkf6guiaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6iconthemes6 (>= 6.32.0~), libkf6iconwidgets6 (>= 6.32.0~), libkf6itemviews6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.11.2), libqt6printsupport6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2)
+Filename: ./libkf6xmlgui6_6.32.0-1_amd64.deb
+Size: 303428
+MD5sum: bc5cce9fbe5121018bd0338658fd92b4
+SHA1: 29d1646249992c6bbe19d9130c63cabd45585421
+SHA256: ed571e073ea0dc2d0b524d6c91fecd44d593fea43d60e8fb31f1665268fcaecb
+SHA512: e923d092d21e17cbc2702cf52e72a4c12e0bb3c01738a4c0340ec19b92f96b80b83bf1e1c0d6366d5183dd6c8ab00bdeda894430b1660947a30e72e256a02516
 Homepage: https://invent.kde.org/frameworks/kxmlgui
 Description: User configurable main windows
  framework for designing the user interface
@@ -30397,19 +30398,19 @@ Description: library for handling IMAP data - arch independent files
 
 Package: libkirigami-data
 Architecture: all
-Version: 6.30.0-2
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kirigami
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 323
-Filename: ./libkirigami-data_6.30.0-2_all.deb
-Size: 36612
-MD5sum: 3aff8d772be0ab11c4dfd34c8143e809
-SHA1: d76e87be3cb0e1a189cbd2c1ac916483b682b534
-SHA256: a43df74ca7cbca97152392efce4ce2c7d0897208c90db47c119778244a8b86d2
-SHA512: 68f25e01a72d3e63379aef8f084d6d5816c99cb53569cee8f277ad4c09b63bbffa1a2dd3624f42f9b3dced0699adb4bd1add60a697f58ba41eba98bf20175959
+Installed-Size: 325
+Filename: ./libkirigami-data_6.32.0-1_all.deb
+Size: 37096
+MD5sum: d7acb0d4268557f37a4ac5a672b373b8
+SHA1: 0483bc915030fc5294457aff669a23196d2efb9a
+SHA256: ee49e14b07966d9897af61ddd9db6aef6ca59fb97fda4f79317079c0490053d3
+SHA512: c3bb2a515ec0a52cad1a744e47a233f2be9eee04f3f9002bc3270e440a1907d1fd96bbbe78559ca908c18d93569ea5884f3c2dc70074bf42d4b5234ae184f2d7
 Homepage: https://invent.kde.org/frameworks/kirigami
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
@@ -30478,20 +30479,20 @@ Description: Kirigami addons components library
 
 Package: libkirigamiapp6
 Architecture: amd64
-Version: 1.12.0-1+b1
+Version: 1.16.1-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kirigami-addons (1.12.0-1)
+Source: kirigami-addons
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>
-Installed-Size: 77
-Depends: kirigami-addons-data (>= 1.12.0-1), libc6 (>= 2.4), libkf6colorscheme6 (>= 6.16.0-~), libkf6coreaddons6 (>= 6.20.0), libkf6crash6 (>= 6.16.0-~), libkf6i18n6 (>= 6.16.0~), libkf6iconthemes6 (>= 6.16.0-~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.8.0~), libqt6qml6 (>= 6.8.0~), libqt6quickcontrols2-6 (>= 6.8.0~), libqt6widgets6 (>= 6.8.0~), libstdc++6 (>= 5)
-Filename: ./libkirigamiapp6_1.12.0-1+b1_amd64.deb
-Size: 18036
-MD5sum: 533ca0b30c5e9561ddc0b2be0b6e6e89
-SHA1: 8ab86cedd854787f4ed3dae55dfde2eb78b3bfb4
-SHA256: 9e3cea2f87e9c1a4959858e95e445a7209b81d8aa12a012d11801c7f0405499b
-SHA512: d2118cc878896b191b647b9242b47d1c7d9bf17c0ae007098ef3e4bb42367a03bb4d08afc6228ec59eb027d0be3daca18976660b12ed8ae969b1c04bf4bd90eb
+Installed-Size: 85
+Depends: kirigami-addons-data (>= 1.16.1-2), libc6 (>= 2.4), libkf6colorscheme6 (>= 6.27.0~), libkf6configcore6 (>= 6.27.0~), libkf6coreaddons6 (>= 6.27.0~), libkf6crash6 (>= 6.27.0~), libkf6i18n6 (>= 6.27.0~), libkf6iconthemes6 (>= 6.27.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quickcontrols2-6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkirigamiapp6_1.16.1-2_amd64.deb
+Size: 21556
+MD5sum: cce1f077105f78a98854eb6e6da5af5b
+SHA1: 26e837fb9d1a606f8517f7cdb6801b3fbe2e7fba
+SHA256: 1617bd18d1aefe7b642a7c9a6ecf452b472c4abbadc4a5b9c7349c6eb8ae0e93
+SHA512: 611962b213ff78489ecc4760f3556b31335d353044c8e25e7ff8ba3755c74c30054a068ec4519a404fc4a6457baad6eeb9d72b114929451c45fad91c5a57c22f
 Homepage: https://invent.kde.org/libraries/kirigami-addons/
 Description: app library
  This package contains the kirigami-addons app library.
@@ -41387,22 +41388,22 @@ Description: office productivity suite -- Italian help
 
 Package: libreoffice-help-ja
 Architecture: all
-Version: 4:26.8.0.3-2
+Version: 4:26.8.2.2-2
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 34784
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ja, libreoffice-help-common (= 4:26.8.0.3-2)
-Recommends: libreoffice-core (>> 4:26.8.0.3), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ja, libreoffice-help-common (= 4:26.8.2.2-2)
+Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-ja_4%3a26.8.0.3-2_all.deb
-Size: 2946708
-MD5sum: cf0a3ef2a99458233529dca103681743
-SHA1: 3c8eb917653ec0ff0c051d0a682515c3ff3c33dd
-SHA256: e075d578ca505b8596dde0b4d1d0ec3d68bc74af01c7727d5473d64cbabdeaec
-SHA512: 15b25609ee3343a7f4ab31df89ae61bc963808028fd37f9669d6ce9e4fbd12f6b77d9f2267392761a757a78cc5653c6efa9fab9ddb027bfcbae76212d68471aa
+Filename: ./libreoffice-help-ja_4%3a26.8.2.2-2_all.deb
+Size: 2947524
+MD5sum: 94ec25f5b1509c115cc58a90eeeffe1a
+SHA1: 751f1b2ede6fef46870c5936310acf6f421ae1c4
+SHA256: 34f700e2a6677908a66d17b346b8d0cb59c9a274a5c41b04abf29af72bef237d
+SHA512: 0c509f1d9b0235d1b69981f808bedf30d02d0e56dc0f0353c36a05065f346ae067055c2428d6874db943834a6d4e8ac99c51fdd3d5ef6f7e4316a289899d4da6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Japanese help
  LibreOffice is a full-featured office productivity suite that provides
@@ -45917,19 +45918,19 @@ Description: JavaScript script support provider for LibreOffice scripting framew
 
 Package: libreoffice-script-provider-python
 Architecture: all
-Version: 4:26.8.0.3-2
+Version: 4:26.8.2.2-2
 Priority: optional
 Section: python
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 109
 Depends: libreoffice-common, libreoffice-core-nogui | libreoffice-core, python3-uno
-Filename: ./libreoffice-script-provider-python_4%3a26.8.0.3-2_all.deb
-Size: 38276
-MD5sum: 24eb81bb9b895f90086030ad971d8260
-SHA1: c8505051f59239188f9967113779291b9a30aa23
-SHA256: 6f60ce38fee79804087569f67d24916ca3d36ffd18298c8532dda180527e7f3f
-SHA512: 88537ae50146589dac890160dbeaf791dc71f0e493229835993364bb1cc1ccb425276df9ee7d9e4816c1d2719800b4a5f6aa6a796d8bed4481f823638a698217
+Filename: ./libreoffice-script-provider-python_4%3a26.8.2.2-2_all.deb
+Size: 39048
+MD5sum: c293638ff2c2e77b22d10f7ca9541522
+SHA1: 9b50f886246586561ff45b25617843152ad44ab5
+SHA256: 79f3f1dd0f0a246a971d42862045dfdc4a7212a2261be3d6bb6d85f1f19e1572
+SHA512: 4e7d1f032258bcd5b489002cab7c0d3560bb0969f58a68c4768b46953a3315ed9dbf3fdedb85378db0f917e3f44fc8b8ed2c982c4ea76d65c2c9af4d8d4f62b7
 Homepage: http://www.libreoffice.org
 Description: Python script support provider for LibreOffice scripting framework
  LibreOffice is a full-featured office productivity suite that provides
@@ -50757,20 +50758,20 @@ Description: x264 video coding library
 
 Package: libx265-216
 Architecture: amd64
-Version: 4.2-3
+Version: 4.2-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: x265
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 17089
+Installed-Size: 17114
 Depends: libc6 (>= 2.38), libnuma1 (>= 2.0.11), libstdc++6 (>= 13.1)
-Filename: ./libx265-216_4.2-3_amd64.deb
-Size: 1241424
-MD5sum: b98c2a19a34449949b78e0b8298fcb46
-SHA1: e9cda7b67c3be7976b7ed1a44c72a25eb02b7dbf
-SHA256: 5b5fe21673d6d55c55f2dc1fa273a40ddb9fbc4edd9581634542667b72c7839a
-SHA512: dc5b388042cbdede83987ab15345bcd395fc9766197c171c0ee32d4c6270fd6ecb75b0f99cfb839cd4b8d0e4e1e5ef371ca48b8bd31010aa1080dfa24077defb
+Filename: ./libx265-216_4.2-4_amd64.deb
+Size: 1252556
+MD5sum: b6342c0ff9f5537d53fe5d4f91dde7f6
+SHA1: b93240ff6e710e936e7d5fafa6a553254223560b
+SHA256: 8f6175fefcd63336d3e285f3775a794e3c60320f7ce6a309d521f279e3aaf7cd
+SHA512: 954440e084cc4b367c81e5c77f5d6f749511cf39c3b586bcaffcc2089c8bb4ad5a7d4b9e916b54afc82c9ba5644072110b56353ba7e8d2d9704d3943240934e7
 Homepage: https://bitbucket.org/multicoreware/x265_git
 Description: H.265/HEVC video stream encoder (shared library)
  libx265 is an encoding library for creating H.265/High Efficiency Video Coding
@@ -63623,22 +63624,22 @@ Description: Terminal emulator widget for Qt 6 (data files)
 
 Package: qtpaths6-bin
 Architecture: amd64
-Version: 6.11.2+dfsg-5
+Version: 6.11.2+dfsg-8
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Source: qt6-base
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 227
+Installed-Size: 228
 Depends: libc6 (>= 2.34), libqt6core6t64 (>= 6.11.2), libstdc++6 (>= 13.1), qt6-base-private-abi (= 6.11.2)
 Breaks: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
 Replaces: qt6-base-dev-tools (<< 6.10.2+dfsg-8~)
-Filename: ./qtpaths6-bin_6.11.2+dfsg-5_amd64.deb
-Size: 58964
-MD5sum: c7acf5b20252f87267a1f61285b9bc6a
-SHA1: dd451aa9d53f14efbf91295562bdd62adfa373ec
-SHA256: e530b0c26b858e35ff76c1fa43680259915418ee73a805fd91b486f555936813
-SHA512: 3a401cdad390017d8eb583e08d1987476466af7acfaad03bf5f4964782001ab7954da14379767dfc07996949b4495a95b30396f2dfa9b8073c18ffbfd7e46a82
+Filename: ./qtpaths6-bin_6.11.2+dfsg-8_amd64.deb
+Size: 59196
+MD5sum: ef906ad21a3144f6a67bd5813c7a8b24
+SHA1: 3923fdeca151f5fbc828a6e6fdabee5b110074cb
+SHA256: 4dc8d2a351a48ba9b98101ab3e1327cef2f92336ec80e92126f66d14016db0f6
+SHA512: a1c1aaddb2d003debb109dbe2e8ed5b0fcd55902d17771bd5abd7c31592508f2871ec3e8e975b210f283651d9b6a3e48c18554fee3e7be994799126eff039728
 Homepage: https://www.qt.io/developers/
 Description: Qt 6 qtpaths quetioning tool — binary file
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -70811,13 +70812,13 @@ Description: TeX Live: Graphics, pictures, diagrams
 
 Package: texlive-plain-generic
 Architecture: all
-Version: 2026.20260911-1
+Version: 2026.20261111-1
 Multi-Arch: foreign
 Priority: optional
 Section: tex
 Source: texlive-extra
 Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
-Installed-Size: 70806
+Installed-Size: 70850
 Provides: tex4ht
 Depends: tex-common (>= 6.13), texlive-base (>= 2026.20260328), texlive-binaries (>= 2026.20260303)
 Recommends: texlive-latex-base
@@ -70825,12 +70826,12 @@ Suggests: default-jre-headless
 Conflicts: tex4ht (<< 20160814), tex4ht-common
 Breaks: tex4ht (<< 20160814), texlive-base (<< 2022.20220405)
 Replaces: tex4ht (<< 20160814)
-Filename: ./texlive-plain-generic_2026.20260911-1_all.deb
-Size: 30543948
-MD5sum: f101d8d1738800c5851f85271938517e
-SHA1: 29cb4143c90bbcc74e112ab467b162f0f41748f8
-SHA256: 5d667332ef45bfe5477656956e26a66a6f9a474d92cfc838544fcd09d6bfe6ed
-SHA512: 3c49739319bb2db3ccc41995a2012b53d19e422678388e20671993f6f26b809f3c2ce80b40eb3979f580f4bd885fc4550c4c1e9ef4481964251b740b699bb0f1
+Filename: ./texlive-plain-generic_2026.20261111-1_all.deb
+Size: 30539396
+MD5sum: 2c9164aca8940d3f5a90277531086b83
+SHA1: aeb8e28604549b59e31c53a6abb5f2ee11af3e76
+SHA256: 5db62b094f9f438752cc1fd865b1ec62d5e2657ae5d85ccf72ffba96c2c4637b
+SHA512: d7eb933a8a8853ca34f8de45a29b9746c3f65152e7eb37bf8a25aee060bb42d0e5b4417e11f73f9054f965eced005a0da90deff8095329303bbd49e1f6b45b29
 Homepage: http://www.tug.org/texlive/
 Description: TeX Live: Plain (La)TeX packages
  Add-on packages and macros that work with plain TeX, often LaTeX, and
@@ -72138,21 +72139,21 @@ Commands: qvlc
 
 Package: vlc-plugin-samba
 Architecture: amd64
-Version: 3.0.24-1
+Version: 3.0.24-4+b1
 Multi-Arch: same
 Priority: optional
 Section: video
-Source: vlc
+Source: vlc (3.0.24-4)
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 161
+Installed-Size: 162
 Depends: vlc-plugin-abi-3-0-0ft64, libc6 (>= 2.8), libsmbclient0 (>= 2:4.0.3+dfsg1), libvlccore9 (>= 3.0.24)
 Enhances: vlc
-Filename: ./vlc-plugin-samba_3.0.24-1_amd64.deb
-Size: 96032
-MD5sum: e557fa29092fb16924e0b9886e7bddf0
-SHA1: 2a8904646fd2efa5ac1e66b356f52fd61adfc92b
-SHA256: 103cf5ead5e73258a80be6ef31f5a000c76174db454da0d3f6f983b11aaa2f31
-SHA512: 7a1e2f5aefad73a30cc0473f3ed10121c1cd489a07235be2eb2b7cc6c5b9340fd2d7da9812bdb14cc97fbfc65125514654fe5ab4077e0d44637ae5172adbcab3
+Filename: ./vlc-plugin-samba_3.0.24-4+b1_amd64.deb
+Size: 96408
+MD5sum: 9289485deb7d665c0ce921409d37a732
+SHA1: 57c0cae1c756182854c30a6162b3081cb229083d
+SHA256: 337fd455d4ef330cec6676922854ba4d12dba9557727640ff4288cc51a1af1aa
+SHA512: dc21dc0517c7420dc424a03235b2f69402b88f6212f22faf497310d2d201b221b1b111683e0a440630dc77429f352758985b1220d99bef4f28825288deb33b22
 Homepage: https://www.videolan.org/vlc/
 Description: Samba plugin for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
