@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Límite de paquetes a actualizar (0 = sin límite)'
+        required: false
+        default: '150'
 
 concurrency:
   group: "repo-updater"
@@ -48,7 +53,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GGITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           chmod +x .github/scripts/sync_repo.py
-          ./.github/scripts/sync_repo.py
+          LIMIT="${{ github.event.inputs.limit || '150' }}"
+          ./.github/scripts/sync_repo.py --limit "$LIMIT"
 
       - name: Generar índices APT y Packages.gz
         if: env.UPDATED == 'true' || github.event_name != 'schedule'
@@ -123,6 +129,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global http.postBuffer 1048576000
 
           git lfs uninstall || true
           rm -f .gitattributes
@@ -134,6 +141,12 @@ jobs:
             git push
             echo "Disparando despliegue en GitHub Pages..."
             gh workflow run pages.yml || true
+
+            # Si quedan más paquetes pendientes por actualizar, encadenar la siguiente ejecución
+            if [ -n "$REMAINING_UPDATES" ] && [ "$REMAINING_UPDATES" -gt 0 ]; then
+              echo "Aún quedan $REMAINING_UPDATES paquetes por actualizar. Despachando siguiente lote automáticamente..."
+              gh workflow run updater.yml || true
+            fi
           else
             echo "Nada que subir."
           fi
