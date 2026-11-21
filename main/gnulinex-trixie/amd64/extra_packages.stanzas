@@ -26,20 +26,20 @@ Description: X11 window manager based on EFL - run time data files
 
 Package: libreoffice-dev-doc
 Architecture: all
-Version: 4:26.8.0.3-2
+Version: 4:26.8.2.2-2
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 600778
-Recommends: libreoffice-dev (= 4:26.8.0.3-2), www-browser
+Installed-Size: 619235
+Recommends: libreoffice-dev (= 4:26.8.2.2-2), www-browser
 Conflicts: libreoffice (<< 1:5.2.5-2~), libreoffice-dev (<= 1:5.0.3~rc1-2), openoffice.org-dev-doc
-Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.0.3-2_all.deb
-Size: 210837432
-MD5sum: bfd858d13c4c2a600538e1580fc6ebf7
-SHA1: 0d58703806045b244f4ec4eed23f3886b4c7b016
-SHA256: 7d0f90e9fc008d43175d97b9d786980a00f2c1e9ed3660e136e2e3838e9d0084
-SHA512: 913beba8f0eccaf489a7ad671cb45bafde4b38de1ec734997a831dab669c7a63873d7a479c982f02b934041dd657d7d69726c1df067ff8a564c620d1af16e783
+Filename: https://github.com/CarlosGamer98YT/gnulinex-repo/releases/download/paquetes-grandes/libreoffice-dev-doc_4%3a26.8.2.2-2_all.deb
+Size: 210525528
+MD5sum: a4451b8193ae976b1c465fccb28b729e
+SHA1: 4d4e7b6931d282f0a9ad6305b1bd43e7c29d4c6b
+SHA256: 0ec4c27c77b1d7a795db3bc13ed328fa26113ad126ab8fbff9b5e946f03a2cff
+SHA512: fa23012c0f90c7072b07e73ff11df3df21ef0a99c0cc6bf31aad2e2864e25e862a404bbbf71cf114f207995cb0209adf2b838122bb321d1653cd9d9f37d00422
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- SDK documentation
  LibreOffice is a full-featured office productivity suite that provides
