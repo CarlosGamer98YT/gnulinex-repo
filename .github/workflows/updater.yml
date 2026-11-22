@@ -139,8 +139,6 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update: Paquetes e indices (Archivos grandes en Releases)"
             git push
-            echo "Disparando despliegue en GitHub Pages..."
-            gh workflow run pages.yml || true
 
             # Si quedan más paquetes pendientes por actualizar, encadenar la siguiente ejecución
             if [ -n "$REMAINING_UPDATES" ] && [ "$REMAINING_UPDATES" -gt 0 ]; then
