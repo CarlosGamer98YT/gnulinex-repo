@@ -751,21 +751,21 @@ Description: MATE document viewer
 
 Package: baloo6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Priority: optional
 Section: utils
 Source: kf6-baloo
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2586
-Depends: init-system-helpers (>= 1.66~), kio6, libc6 (>= 2.34), libkf6baloo6 (>= 6.0.0), libkf6balooengine6 (>= 6.30.0), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6crash6 (>= 6.30.0~), libkf6dbusaddons6 (>= 6.30.0~), libkf6filemetadata3 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6idletime6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0~), libkf6solid6 (>= 6.30.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libstdc++6 (>= 13.1)
+Installed-Size: 2782
+Depends: init-system-helpers (>= 1.66~), kio6, libc6 (>= 2.34), libkf6baloo6 (>= 6.32.0), libkf6balooengine6 (>= 6.32.0), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6crash6 (>= 6.32.0~), libkf6dbusaddons6 (>= 6.32.0~), libkf6filemetadata3 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6idletime6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0~), libkf6solid6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 13.1)
 Breaks: baloo-kf5 (<< 5.115.0-3~)
 Replaces: baloo-kf5 (<< 5.115.0-3~)
-Filename: ./baloo6_6.30.0-1_amd64.deb
-Size: 397768
-MD5sum: 854e2ea03e7a6d214538a4f7bca2aeed
-SHA1: 82378a3ccf4a9c8bbb9b18896ae5365389e17e9e
-SHA256: 4269bfe4e41938b523df78f2ced535fab68b17a7dd7dacc7f841fd92cc8190dd
-SHA512: 3dd1b8d59b67eb1757e22e95d2fe72face0bb1bedfece8d0b8f2022182370cfba3ab4f47b6f66bc9e17ec6970731243f63fc66bcb6f865ea490b96c17267a511
+Filename: ./baloo6_6.32.0-1_amd64.deb
+Size: 422208
+MD5sum: 84c79f03e34b567c9b4b646489861716
+SHA1: 86544abbe8218503f921e5b5d827e2b69158ca67
+SHA256: ff55b421860e4cadc09eb4d789fd08981a27f567b45092dfa2723e81f68afd28
+SHA512: e0066a90563acbd28db0382c7c4aae9e4ecd14fcfd4f745fcb05a8093fbe46be0cbc159af3b452a07b7461d23bd0ab02e49d00751186af34f68ca3e9e1443ecb
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: framework for file search and metadata management
  Baloo is the file indexing and file search framework for KDE Plasma. It
@@ -9407,20 +9407,20 @@ Description: GObject introspection data for the Totem Playlist Parser library
 
 Package: gir1.2-upowerglib-1.0
 Architecture: amd64
-Version: 1.91.5-1
+Version: 1.91.5-1+b1
 Multi-Arch: same
 Priority: optional
 Section: introspection
-Source: upower
+Source: upower (1.91.5-1)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 25
+Installed-Size: 26
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, libupower-glib3 (>= 0.99.14)
-Filename: ./gir1.2-upowerglib-1.0_1.91.5-1_amd64.deb
-Size: 8040
-MD5sum: 5aedbd8d351f90db5a61cfeed28b98d8
-SHA1: 7d6f3f8f41cd36a4103e5837bca72c95fa50ef67
-SHA256: ec9205c10251d8d30024bb27aa5226b1e1f0639245e4e9bdfc9857bcee4ac8d3
-SHA512: d4504e0679a6ccf6fe5a31d4ee6e45f8827ec2ce306df4f2fb89f0dd03c6b254ec1d5be2911c290a84469fb4ccc1208859849db49ab56910921a7957cbccdd98
+Filename: ./gir1.2-upowerglib-1.0_1.91.5-1+b1_amd64.deb
+Size: 8328
+MD5sum: fbfb20cdf5aee4fe6c927981487d4d69
+SHA1: 2dbc1132c22d4bef9a054f4024a798dd68b3768a
+SHA256: 0a1deffa5eb206f70772cc47b5f52e137c9d1e9da5283772ab9831facb59e352
+SHA512: 4c1ff0f783de4eb4879b29b9b3b87b76fcef4d0933ee177c228d0740100d0e5f3598fc0f81c2d65ed77059a3b16f1dd16f6e2bcbc5e615a47bf7f18ad7227e24
 Homepage: https://upower.freedesktop.org/
 Description: GObject introspection data for upower
  upower provides an interface to enumerate power sources on the system
@@ -12698,22 +12698,22 @@ Description: PostScript and PDF viewer for X
 
 Package: gvfs-backends
 Architecture: amd64
-Version: 1.62.0-3
+Version: 1.62.0-3+b1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
-Source: gvfs
+Source: gvfs (1.62.0-3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 1600
-Depends: gvfs (= 1.62.0-3), gvfs-common (= 1.62.0-3), gvfs-daemons (= 1.62.0-3), gvfs-libs (= 1.62.0-3), psmisc, dconf-gsettings-backend | gsettings-backend, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libglib2.0-0t64 (>= 2.83.0), libgoa-1.0-0b (>= 3.57.1), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libgudev-1.0-0 (>= 146), libimobiledevice-1.0-6 (>= 1.3.0), libmsgraph-1-1 (>= 0.1.0), libmtp9t64 (>= 1.1.21), libnfs14 (>= 1.9.8), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.101), libsmbclient0 (>= 2:4.12.0+dfsg), libsoup-3.0-0 (>= 3.0.3), libusb-1.0-0 (>= 2:1.0.21), libxml2-16 (>= 2.14.1)
+Installed-Size: 1601
+Depends: gvfs (= 1.62.0-3+b1), gvfs-common (= 1.62.0-3), gvfs-daemons (= 1.62.0-3+b1), gvfs-libs (= 1.62.0-3+b1), psmisc, dconf-gsettings-backend | gsettings-backend, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libglib2.0-0t64 (>= 2.83.0), libgoa-1.0-0b (>= 3.57.1), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libgudev-1.0-0 (>= 146), libimobiledevice-1.0-6 (>= 1.3.0), libmsgraph-1-1 (>= 0.1.0), libmtp9t64 (>= 1.1.21), libnfs14 (>= 1.9.8), libplist-2.0-12 (>= 2.8.0), libpolkit-gobject-1-0 (>= 0.101), libsmbclient0 (>= 2:4.12.0+dfsg), libsoup-3.0-0 (>= 3.0.3), libusb-1.0-0 (>= 2:1.0.21), libxml2-16 (>= 2.14.1)
 Recommends: gnome-keyring | kwalletmanager
 Suggests: bluez-obexd, openssh-client, pkexec, samba-common, wsdd
-Filename: ./gvfs-backends_1.62.0-3_amd64.deb
-Size: 316884
-MD5sum: 8bd582f2d61f275fd2178e22c4334ed6
-SHA1: 1a4debcfe35fa3d181479f915bc080d586ba432f
-SHA256: f9e95be6c83251c376b20a240873db4837dffd4bcd7ff2a29185c90e6e1e6f6d
-SHA512: d6772ad69e301cce90df03af18f2360444fed5bc8b6609dab7955c5990a8916b1ade1dadf050209df703687be0b1521e07e03f07f990bd3caa0ede444f944d1e
+Filename: ./gvfs-backends_1.62.0-3+b1_amd64.deb
+Size: 317132
+MD5sum: 0507511f1089e7c7aad8462d3b01e5eb
+SHA1: 9b3b3ff920bb38a05df8943520180094d52436c0
+SHA256: 1ed6b2152b3af85685481de9af0343761ba82f7daed55fbb4942bfdfddff79ec
+SHA512: a5febddfaf26b76652188ea4cfe7dc13659c0812e4fd3b9098d8451c85d0bae6397dab948f44eeea7223b47c23484d80438468143fa7155e38421cd8b50c9ce1
 Homepage: https://gitlab.gnome.org/GNOME/gvfs
 Description: userspace virtual filesystem - backends
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12755,22 +12755,22 @@ Description: userspace virtual filesystem - common data files
 
 Package: gvfs-daemons
 Architecture: amd64
-Version: 1.62.0-3
+Version: 1.62.0-3+b1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
-Source: gvfs
+Source: gvfs (1.62.0-3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 509
-Depends: gvfs-common (= 1.62.0-3), gvfs-libs (= 1.62.0-3), lsof, udisks2, libbluray4 (>= 1:0.2.2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.0.91)
+Installed-Size: 510
+Depends: gvfs-common (= 1.62.0-3), gvfs-libs (= 1.62.0-3+b1), lsof, udisks2, libbluray4 (>= 1:0.2.2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd0, libudisks2-0 (>= 2.0.91)
 Recommends: default-dbus-session-bus | dbus-session-bus, gvfs
 Suggests: gvfs-backends
-Filename: ./gvfs-daemons_1.62.0-3_amd64.deb
-Size: 124564
-MD5sum: ba2185ebe4c6c95158eeee1713e6e298
-SHA1: 7938db9634b4d7d2c06fd6a9e6148fc21097ba4f
-SHA256: a3e97fcf0832f6b9bd784f8ce47d8fc3d190b0eda8cba469cc0249910edd733c
-SHA512: 394d901d23d651280d2f76aa492988278ece658a6fa34eedcd1e9ab2de47b067c6340b8303f94bc494420d684295ba7ac37f401813164e14c70efda5b737bf6e
+Filename: ./gvfs-daemons_1.62.0-3+b1_amd64.deb
+Size: 124944
+MD5sum: e9d1b27d4ea3979ce690c82721d4f378
+SHA1: 369167b6d10c745d9786863938d42872db3ca31b
+SHA256: 047852011a5f5d06a80ab53d33d7b47f9b5c5da67ebd19838394be56a0174373
+SHA512: b44fac72a07b42e1b259887992dc20bbb0136902d8a982f86ac4204af5f06e40d90597298a85311d24cdb205377d5ce995e9b4dafbaa23e049a45c7016702c8f
 Homepage: https://gitlab.gnome.org/GNOME/gvfs
 Description: userspace virtual filesystem - servers
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12783,19 +12783,19 @@ Description: userspace virtual filesystem - servers
 
 Package: gvfs-fuse
 Architecture: amd64
-Version: 1.62.0-3
+Version: 1.62.0-3+b1
 Priority: optional
 Section: gnome
-Source: gvfs
+Source: gvfs (1.62.0-3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 64
-Depends: fuse3, gvfs (= 1.62.0-3), libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0)
-Filename: ./gvfs-fuse_1.62.0-3_amd64.deb
-Size: 21108
-MD5sum: bda9000fbf96474ce73aef97070169e4
-SHA1: bf6c48699d8e6e8e8bee9bd02ec7f3386b9725e3
-SHA256: 581a6c1ed21f6ff3e2be00754c18e8bdbe99ea94b6cb258547867a014f545d2a
-SHA512: 1e0ee0136f4bd782c0149519e940c1ce95839dd1e056e61315b43902016024f84a66a8fbf725dec6c5821b85f6381ec9594962ce5ab6ba3839a7abafa9ff72b3
+Installed-Size: 65
+Depends: fuse3, gvfs (= 1.62.0-3+b1), libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), libglib2.0-0t64 (>= 2.83.0)
+Filename: ./gvfs-fuse_1.62.0-3+b1_amd64.deb
+Size: 21372
+MD5sum: 19c7573ff029a556d934cb0b452d3bc8
+SHA1: 2f61ded700348815e120dd026c4aa778085c718a
+SHA256: 47fc9848538d8086736556d1ab0e265ac7c8c94464ad83a6f9a3a214208880ce
+SHA512: 5de7864ef79a6d4a0a6b9825171e9468515e2436c54d6d25cef5613afdc3f2d650c1ff7fe2c7a65cfe6568aa0c9da708c5de1d66e8bc8bfcbdbfc86e6fcc04d1
 Homepage: https://gitlab.gnome.org/GNOME/gvfs
 Description: userspace virtual filesystem - fuse server
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12809,20 +12809,20 @@ Description: userspace virtual filesystem - fuse server
 
 Package: gvfs-libs
 Architecture: amd64
-Version: 1.62.0-3
+Version: 1.62.0-3+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: gvfs
+Source: gvfs (1.62.0-3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 440
+Installed-Size: 441
 Depends: gsettings-desktop-schemas, gvfs-common (= 1.62.0-3), libc6 (>= 2.38), libgcr-4-4 (>= 3.8.0), libglib2.0-0t64 (>= 2.83.0), libsecret-1-0 (>= 0.7)
-Filename: ./gvfs-libs_1.62.0-3_amd64.deb
-Size: 104588
-MD5sum: 57090e8a9138665380a1894313426526
-SHA1: c71f7928e7dad4a39a46d5934bf76d0cc9e71a94
-SHA256: 808c96441d830c22f1001001b31a447c0bf8090b937af14335d75f023ed1c143
-SHA512: 2e7695c9f2d39cfc0db6adc60060b94b6c4bc6871658e5687448018f5d337b7863adab289181b9433b7cf2b0b1a657fba620bdbc46779223b9fab43764aab0a7
+Filename: ./gvfs-libs_1.62.0-3+b1_amd64.deb
+Size: 105024
+MD5sum: d4a7f243f7cf8fd57fb26a98d20994e6
+SHA1: e37878b725a6dbb7d90678dbd7dd7ad7be207f20
+SHA256: 338f1bfbcbf575cc8b831c5adbf885080dc890d21abbe7e0af53fbc3d10c776a
+SHA512: c53e147f48c316097de75a9ae0ab1db9ec9da2d536309ace77cf067cd7fe16906e98ef1f30b719bda6e905ea18962faa210a0070075e04691ce3a7f337384d62
 Homepage: https://gitlab.gnome.org/GNOME/gvfs
 Description: userspace virtual filesystem - private libraries
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -12836,20 +12836,21 @@ Description: userspace virtual filesystem - private libraries
 
 Package: gvfs
 Architecture: amd64
-Version: 1.62.0-3
+Version: 1.62.0-3+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
+Source: gvfs (1.62.0-3)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 398
-Depends: gvfs-common (= 1.62.0-3), gvfs-daemons (<< 1.62.0-3.1~), gvfs-daemons (>= 1.62.0-3), gvfs-libs (= 1.62.0-3), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0)
+Installed-Size: 399
+Depends: gvfs-common (= 1.62.0-3), gvfs-daemons (<< 1.62.0-3.1~), gvfs-daemons (>= 1.62.0-3), gvfs-libs (= 1.62.0-3+b1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.83.0)
 Suggests: gvfs-backends
-Filename: ./gvfs_1.62.0-3_amd64.deb
-Size: 131396
-MD5sum: c94682028cb79d163b28e092a763bc34
-SHA1: d56a5aa88cfe9681b9ced91a310f8c37d4584ddf
-SHA256: 82ea44f792c768c665a65e53d318b73503b2f097d032d26cea7122047449b6af
-SHA512: 041e54e72d586014feb9b12ebb90bb1a3145b1bed9e6e79401c91870fc7338b66d960ed5e3e81e01d365139fa4e3deefa644220f679d0693bddd0869db907725
+Filename: ./gvfs_1.62.0-3+b1_amd64.deb
+Size: 131420
+MD5sum: d8b37078bd309712fd30ac9e6186723d
+SHA1: 39f86b98d2edf9c13d45af77f30769ea5da06667
+SHA256: a055ea94a884d2c23840bafaf68011e0608394df86e1b8cdd9899dfa8a6b4ae6
+SHA512: aee38f5f33533ee5206b8ec97640ce5d938a1a73b6662598cc140da68b4a447b4a41258fc9e575cc098a1fbd15bba765b0abe88a19ff9604f8129329b7cf7e5e
 Homepage: https://gitlab.gnome.org/GNOME/gvfs
 Description: userspace virtual filesystem - GIO module
  gvfs is a userspace virtual filesystem where mounts run as separate
@@ -14462,21 +14463,22 @@ Description: Extra functionality for kioslaves data files
 
 Package: kio-extras
 Architecture: amd64
-Version: 4:26.08.3-1
+Version: 4:26.08.3-1+b1
 Priority: optional
 Section: kde
+Source: kio-extras (4:26.08.3-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3304
-Depends: kio-extras-data (= 4:26.08.3-1), kio6, libappimage1.0abi1t64 (>= 1.0.4-3~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.30.0), libkf6kiogui6 (>= 6.23.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-4-33-imath-3-2, libplasmaactivities7 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-4 (>= 2.3.0), libproxy1v5 (>= 0.5.3), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2)
+Installed-Size: 3305
+Depends: kio-extras-data (= 4:26.08.3-1), kio6, libappimage1.0abi1t64 (>= 1.0.4-3~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.30.0), libkf6kiogui6 (>= 6.23.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-4-33-imath-3-2, libplasmaactivities7 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-12 (>= 2.8.0), libproxy1v5 (>= 0.5.3), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.9.1), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2)
 Recommends: libkf6kcmutils-bin, systemsettings
 Breaks: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
 Replaces: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
-Filename: ./kio-extras_4%3a26.08.3-1_amd64.deb
-Size: 728104
-MD5sum: 67360234c110f9004dcc73dcd8cf4534
-SHA1: eba6b6f2227876b24e93a52401fcb5fe3776cdae
-SHA256: 142097165e8b3ce4cf1778e7ad6df6425fba482deefca82c190c7b99535ddb25
-SHA512: 4b4a25ab5a80a9e513266363eef68d6eb895fa9f2957251688b574a521661e32f41d297c8c71050db48cd5afe56f64f3de2f69ec85545fc8c711e774df7419a1
+Filename: ./kio-extras_4%3a26.08.3-1+b1_amd64.deb
+Size: 728288
+MD5sum: 141c763e4de52c1e819ecd3ba5a43e70
+SHA1: 7c624915adfb19bed1aacf9259c2f1c308c009e2
+SHA256: 05272740e0d5da452724eee3c949bf47cfe10bebd14e93de275a6b7347610cab
+SHA512: cc8da8555705d229428c711d937a139b00f9c9f2557d5f58a111c6edc5fdaaedb6ac5c609ab2c8dfa1a9f69826b185d4f42d62d48c7012fc9dcc866000b91421
 Homepage: https://invent.kde.org/network/kio-extras
 Description: Extra functionality for kioslaves
  A kioslave is a plugin designed to be intimately familiar with a certain
@@ -14513,21 +14515,21 @@ Description: library for accessing LDAP - kio slave
 
 Package: kio6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Priority: optional
 Section: libs
-Source: kf6-kio (6.30.0-1)
+Source: kf6-kio
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 15385
-Depends: kded6, kwallet6, libacl1 (>= 2.2.23), libc6 (>= 2.38), libkf6archive6 (>= 6.30.0~), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6crash6 (>= 6.30.0~), libkf6dbusaddons6 (>= 6.30.0~), libkf6doctools6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0), libkf6kiofilewidgets6 (>= 6.11.0), libkf6kiogui6 (>= 6.3.0), libkf6kiowidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.30.0~), libkf6wallet6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.30.0~), libkf6windowsystem6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), qt6-base-private-abi (= 6.11.2)
+Installed-Size: 16006
+Depends: kded6, kwallet6, libacl1 (>= 2.2.23), libc6 (>= 2.38), libkf6archive6 (>= 6.32.0~), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6crash6 (>= 6.32.0~), libkf6dbusaddons6 (>= 6.32.0~), libkf6doctools6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0), libkf6kiofilewidgets6 (>= 6.11.0), libkf6kiogui6 (>= 6.3.0), libkf6kiowidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.32.0~), libkf6solid6 (>= 6.32.0~), libkf6wallet6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.32.0~), libkf6windowsystem6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), qt6-base-private-abi (= 6.11.2)
 Recommends: switcheroo-control
 Suggests: systemsettings
-Filename: ./kio6_6.30.0-1+b1_amd64.deb
-Size: 2280940
-MD5sum: 36c866baf34ec7f16c120db78396e23e
-SHA1: 4de9ed6ceaf62d9db2ac90b8a5438353c7129146
-SHA256: 7d68d41589162f9816fdabdece27db0f622e4cfd351b67579cf00f722dd13aff
-SHA512: 6e332a450f842497c4e98709488f7a7bcb2ae61da547f3f24098df0b457ab492a9dcebc81277eadd0602bce344b7858305b73eb997614b2431b2dd30b0d3367e
+Filename: ./kio6_6.32.0-1_amd64.deb
+Size: 2372644
+MD5sum: 23d528bed45971e04ad201d43a007149
+SHA1: cf1e629bd98f347bc9027ee5cec9c837eba452de
+SHA256: 2997937f91410866b1317f2fd1081735b25899d6afb01a3f18eb41cfcdd66137
+SHA512: 06bd262c8c74bc05898db5c1a402bf9d543f61a2fc5cabf52bcd4683ac6bf00123a1fa72458610cbd84cea821bae79b0a3aa2dce73ff19c6361b3e4337813b41
 Homepage: https://invent.kde.org/frameworks/kio
 Description: resource and network access abstraction
  KDE Input/Output framework provides a single API for
@@ -23806,20 +23808,20 @@ Description: C++ wrapper library for GPGME
 
 Package: libgpod-common
 Architecture: amd64
-Version: 0.8.3-24
+Version: 0.8.3-24+b1
 Priority: optional
 Section: libs
-Source: libgpod
+Source: libgpod (0.8.3-24)
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 327
-Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgpod4t64 (>= 0.7.90), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libsgutils2-1.48 (>= 1.27), libusb-1.0-0 (>= 2:1.0.8), libxml2-16 (>= 2.14.1)
+Installed-Size: 328
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgpod4t64 (>= 0.7.90), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-12 (>= 2.8.0), libsgutils2-1.48 (>= 1.27), libusb-1.0-0 (>= 2:1.0.8), libxml2-16 (>= 2.14.1)
 Replaces: libgpod0 (<< 0.3.0-4)
-Filename: ./libgpod-common_0.8.3-24_amd64.deb
-Size: 90568
-MD5sum: 381f0be2186b7350a58377c74debf807
-SHA1: 5f389fb6b750e7fba5310a49406e562e411a244e
-SHA256: d1cd98cbb1a610c8466b39f4c14b513cddc9c06e947a7c4f65f0302ff2cf5e57
-SHA512: 2c8e665b6cbe7e733eb40e8dc3a763553b9aafac3472dc3cc4e358d4884c81d9b428dcea973c2be70fb42aedb8cd6be79a459eadeb13b22f5c0c8c2e6b18f8d5
+Filename: ./libgpod-common_0.8.3-24+b1_amd64.deb
+Size: 90864
+MD5sum: 0ee483679233dfba69373ddcf8eebffe
+SHA1: 2408b19804f5878caff1bd60d44c74e9dcec1e1d
+SHA256: 8286da33985b39b3959e2e1aec717b98a927297485dd56cd630246ee6fa3abed
+SHA512: a1c0c1093b4b1e88973b9080c40c818aff03fd260d210500deaaaac83bc562e8e6c1b16419889b4a6383ca1ba781afb2e38e562fa2b2c1118d26f6aa960eec69
 Homepage: http://www.gtkpod.org/wiki/Libgpod
 Description: common files for libgpod
  libgpod is a library meant to abstract access to an iPod's content. It
@@ -23832,24 +23834,24 @@ Description: common files for libgpod
 
 Package: libgpod4t64
 Architecture: amd64
-Version: 0.8.3-24
+Version: 0.8.3-24+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: libgpod
+Source: libgpod (0.8.3-24)
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 570
-Provides: libgpod4 (= 0.8.3-24)
-Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libsqlite3-0 (>= 3.5.9), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.2.0)
+Installed-Size: 571
+Provides: libgpod4 (= 0.8.3-24+b1)
+Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-12 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libxml2-16 (>= 2.14.1), zlib1g (>= 1:1.2.0)
 Recommends: libgpod-common
 Breaks: libgpod4 (<< 0.8.3-24), libgpod4-nogtk (<< 0.8.3-8.1~)
 Replaces: libgpod4, libgpod4-nogtk (<< 0.8.3-8.1~)
-Filename: ./libgpod4t64_0.8.3-24_amd64.deb
-Size: 234900
-MD5sum: 64a76614b1aff9c37977440deeb5d26d
-SHA1: d1b341efa80a831a0bacf51e2c155d113dc458df
-SHA256: 15e8c8f056578ecf4af1d13ae60dcf0a62dc7400426576e27f0389aacdb89a45
-SHA512: 1ac0b502fa81fcee92413261cd769077dca0d8c1794599ae0608de6402fb685c95cbd891ce11b14e04cefb11d1afea308ee8453b6894b906f38a5ad1e6fdc924
+Filename: ./libgpod4t64_0.8.3-24+b1_amd64.deb
+Size: 235264
+MD5sum: ba5fd7f2a02e642c4d3b32e812cd0064
+SHA1: 687243541647da937b3075c94ecf1c3359f8b72a
+SHA256: bdc83fc56343bcbd1fc8770d29acdf95c87aaba05ba7e5f70c00d2a3f94cdb0a
+SHA512: ee5ccd90ebddc045ee55a7553ae3a128b8919665c4b8cc37f1c19d0507248116cce3583dea6b2d8e1560a200bd4eb7259e03da680c98b76a80bed9afc3143cf7
 Homepage: http://www.gtkpod.org/wiki/Libgpod
 Description: library to read and write songs and artwork to an iPod
  libgpod is a library meant to abstract access to an iPod's content. It
@@ -25621,20 +25623,20 @@ Description: Modern, wayland-native C++ GUI toolkit -- binary files
 
 Package: libhyprutils13
 Architecture: amd64
-Version: 0.14.3-1
+Version: 0.14.4-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: hyprutils
 Maintainer: Debian Hyprland Maintainers <team+hyprland@tracker.debian.org>
-Installed-Size: 642
+Installed-Size: 722
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 13), libpixman-1-0 (>= 0.25.2), libstdc++6 (>= 16.2)
-Filename: ./libhyprutils13_0.14.3-1_amd64.deb
-Size: 215524
-MD5sum: 6ada11f760e3e602b200a0969aa4c066
-SHA1: cefb757a8c084a7499aa43c33a0f7d7bb8db5eeb
-SHA256: 7565820a2355f46340e4242ca73d2f8bb607daef351d5f52d643f505c52539d2
-SHA512: c29b7ee733ba20dbc2d9891b98dd058112ebb070b3e02ce3a9e537ce00dcea316ed6b039a0205d1a76f9db76ec58de7cd850e61313446e036dd1a913dc51b090
+Filename: ./libhyprutils13_0.14.4-2_amd64.deb
+Size: 240124
+MD5sum: 69bd333564591aabba924c14f28a524d
+SHA1: a8b8c7708131de9908acc56bc3d5253b0150009f
+SHA256: 8ee5ec7d50409d6292e947558a38fea9ad665abe213342f0daf74e06a3b35efc
+SHA512: d9b10e264b075732a30bf78b0509061d27362c08d6ad9391de305df0bc54d4c41814693400cd509a1849f1311466833cc479864d63ea8eec09ef18914880d92f
 Homepage: https://github.com/hyprwm/hyprutils
 Description: Utilities used across the Hyprland ecosystem (library)
  Hyprutils is a small C++ library for utilities used across the Hyprland
@@ -26832,20 +26834,20 @@ Description: Abstraction to system policy and authentication features
 
 Package: libkf6baloo6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-baloo
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 311
-Depends: libc6 (>= 2.33), libkf6balooengine6 (>= 6.30.0), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6filemetadata3 (>= 6.30.0~), libkf6solid6 (>= 6.30.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6baloo6_6.30.0-1_amd64.deb
-Size: 92932
-MD5sum: 5f8931b5a488cce32043bdb8e2466448
-SHA1: 823196800a15eb4b7fb4b969a6d60de75d1d7f46
-SHA256: b38f80fc255f02a996ecd0f78aacc276feb2a2517863d24ffd4130b8275c59cd
-SHA512: 7b97fa9afe97419067b51a33daefe9a0b927cf6552bcd5c8bc2f12659acbd2049ad54b29483d445c5e48dfea1a3bd1714d8a8bc316982a4047e35d33c473ab0c
+Installed-Size: 316
+Depends: libc6 (>= 2.33), libkf6balooengine6 (>= 6.32.0), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6filemetadata3 (>= 6.32.0~), libkf6solid6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkf6baloo6_6.32.0-1_amd64.deb
+Size: 93512
+MD5sum: e9f8773a59bd124385d58d95e71ec24a
+SHA1: 016f9093c9f84f7c7c65cb2082c858d403f2d9da
+SHA256: 055565a2377016ae0950425292ea7cd10a0ba0130d77ca5ead77a9a2fbe85664
+SHA512: 3a7138306e8700ceb7c04e42beb836d6d0090c5c822cedf1e72fe07789f10590522f89312df0b44f9336fbb8fa9f926e409b43755dbadbf3ea65fbe87d65c66f
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: framework for file search and metadata management - shared library
  Baloo is the file indexing and file search framework for KDE Plasma. It
@@ -26856,20 +26858,20 @@ Description: framework for file search and metadata management - shared library
 
 Package: libkf6balooengine6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-baloo
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 273
-Depends: libc6 (>= 2.33), libkf6i18n6 (>= 6.30.0~), liblmdb0 (>= 0.9.7), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 13.1)
-Filename: ./libkf6balooengine6_6.30.0-1_amd64.deb
-Size: 81704
-MD5sum: c1368dca692233636726edef07c22917
-SHA1: dc39ce91c984c7f3dbc717fe993a7351752db9fe
-SHA256: 78ee3ffb77bca5fc6da1f921d50d5e9009e92e6a832b6a07d47bbe46181cad98
-SHA512: c411b7da60cd20cc311423df5d80c695823e6fedcb889b0265e5fb84de06d6f3e8ebd3ec2a0618aa0e546c4fa76b7c49ac73fb204ad60b08994f4d12be01655d
+Installed-Size: 297
+Depends: libc6 (>= 2.33), libkf6i18n6 (>= 6.32.0~), liblmdb0 (>= 0.9.7), libqt6core6t64 (>= 6.11.2), libstdc++6 (>= 13.1)
+Filename: ./libkf6balooengine6_6.32.0-1_amd64.deb
+Size: 91540
+MD5sum: e64bde4b20513bfa6086971fa432c70b
+SHA1: c1a429c434ab1e41e3c4a41235acb5ac79582ac6
+SHA256: 73696c4d0804e3b7ac38e67c994738ecdb536289aa5ef89fdf24518c50ba5820
+SHA512: f373311d5774db6bd4133bffd94a33758322543362ef09ddac45ab6b1725bcf78bce140a802b7043fa2d4e97feab4b76172b5e272b5866ac82a1b75c238e8904
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: framework for file search and metadata management - internal library
  Baloo is the file indexing and file search framework for KDE Plasma. It
@@ -28357,20 +28359,20 @@ Description: Extra APIs to write KConfig modules
 
 Package: libkf6kiocore6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kio (6.30.0-1)
+Source: kf6-kio
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1808
-Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6crash6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6service-bin, libkf6service6 (>= 6.30.0~), libmount1 (>= 2.26.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 11)
-Filename: ./libkf6kiocore6_6.30.0-1+b1_amd64.deb
-Size: 540824
-MD5sum: 599277adf328d6239550f8a57d733715
-SHA1: 7d6e3331ce9f08cc3e36ee1f46e4e3fce61c02db
-SHA256: fab5f8c6934d2d02b36d71bd210ecb1a0c6e54da587e15fb36ab3952058415f0
-SHA512: cedb1a33ecc42c8f4f1fd43f7ed69081bc64529466aac447487b0889fb73a82377a2373bf312d84439a44d0b697a163b5446a99771575a1db127ded5ee93cbfd
+Installed-Size: 1860
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6crash6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6service-bin, libkf6service6 (>= 6.32.0~), libmount1 (>= 2.26.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 11)
+Filename: ./libkf6kiocore6_6.32.0-1_amd64.deb
+Size: 556732
+MD5sum: ea363cb89604b70a02818d02afa941df
+SHA1: c409efcea94bd07de630b951d8db760cdef202c7
+SHA256: 3385669974a7bada0b0ec09cded44be8685ef26e6bfddbc10272dcb368b689c5
+SHA512: 3e12e6db505658cff3d2597b3e37f9d66c762304710addc71401ab2d28603cc29aa3162a6ea5252a75cec985e68cef6961a1ead1055282ed940b8de55ea9db0a
 Homepage: https://invent.kde.org/frameworks/kio
 Description: resource and network access abstraction (KIO core library)
  KDE Input/Output framework provides a single API for
@@ -28383,20 +28385,20 @@ Description: resource and network access abstraction (KIO core library)
 
 Package: libkf6kiofilewidgets6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kio (6.30.0-1)
+Source: kf6-kio
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1349
-Depends: libc6 (>= 2.14), libkf6bookmarks6 (>= 6.30.0~), libkf6bookmarkswidgets6 (>= 6.30.0~), libkf6colorscheme6 (>= 6.30.0~), libkf6completion6 (>= 6.30.0~), libkf6configcore6 (>= 6.30.0~), libkf6configgui6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6guiaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6iconthemes6 (>= 6.30.0~), libkf6iconwidgets6 (>= 6.30.0~), libkf6itemviews6 (>= 6.30.0~), libkf6kiocore6 (>= 6.18.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.23.0), libkf6solid6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.11.2), libqt6widgets6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6kiofilewidgets6_6.30.0-1+b1_amd64.deb
-Size: 383248
-MD5sum: 9194a3b1d823b6f70a9fde76fd706d41
-SHA1: f204ca27d3070bd3fd97c59148554ddf0ded8664
-SHA256: 20d917d4e91abbbc146a76a4989dc6475eff2d60988dc638ad1eda688289bc0c
-SHA512: 1728e7778f0ee6e3e7d093920e08c55f0c64253374d2623bece22c78c368f629cd4c0c69e2ee4bb9e1fbf832cfaf259b3a766bcbbbaf921aa61531b35debabdd
+Installed-Size: 1356
+Depends: libc6 (>= 2.14), libkf6bookmarks6 (>= 6.32.0~), libkf6bookmarkswidgets6 (>= 6.32.0~), libkf6colorscheme6 (>= 6.32.0~), libkf6completion6 (>= 6.32.0~), libkf6configcore6 (>= 6.32.0~), libkf6configgui6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6guiaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6iconthemes6 (>= 6.32.0~), libkf6iconwidgets6 (>= 6.32.0~), libkf6itemviews6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.23.0), libkf6solid6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.11.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkf6kiofilewidgets6_6.32.0-1_amd64.deb
+Size: 386652
+MD5sum: 62ec54a5295d8d10b60f96c90b8b780d
+SHA1: 00da172d4cce7e6e1aad981dc59e40a89b98dd54
+SHA256: 567a03dc6d32acef8332e2b934492dd18a455e4e7b19ec16e032c978a3a44164
+SHA512: 3e7f69b91638fd44586ef9a36cb96e96d82e92b54f8b5f3f71b7385793ba509576f1344fb9c2167c3ef6c1c35336909f411168835e1cc194f50c5cc061240edf
 Homepage: https://invent.kde.org/frameworks/kio
 Description: resource and network access abstraction (KIO file widgets library)
  KDE Input/Output framework provides a single API for
@@ -28409,20 +28411,20 @@ Description: resource and network access abstraction (KIO file widgets library)
 
 Package: libkf6kiogui6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kio (6.30.0-1)
+Source: kf6-kio
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 666
-Depends: libc6 (>= 2.34), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0), libkf6service-bin, libkf6service6 (>= 6.30.0~), libkf6solid6 (>= 6.30.0~), libkf6windowsystem6 (>= 6.30.0~), libqt6concurrent6 (>= 6.9.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6kiogui6_6.30.0-1+b1_amd64.deb
-Size: 195472
-MD5sum: 1446397a339959047bf4284bfa1cc2eb
-SHA1: 41804fdbf51076c63f4ffbdf567195a413f9c8c6
-SHA256: dde82ad7d4da7b2652b2463e26738ae8b45307452751ac57894b8314dd6fc848
-SHA512: dc38ee822674fb9f30ac35e31ddd33b132c6598e35305ace6a3709796a48930703e7012cfe7ec672f5316efca1ffccdf1b4dcb3e621fa472839cd3609d98613a
+Installed-Size: 673
+Depends: libc6 (>= 2.34), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0), libkf6service-bin, libkf6service6 (>= 6.32.0~), libkf6solid6 (>= 6.32.0~), libkf6windowsystem6 (>= 6.32.0~), libqt6concurrent6 (>= 6.10.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 9)
+Filename: ./libkf6kiogui6_6.32.0-1_amd64.deb
+Size: 198740
+MD5sum: 324fbcf5ba00eb6d8bd482d174dd604d
+SHA1: 4f5435e495e1dd5d01cc87da844cd000b56a7400
+SHA256: afd8c540f4ea9157d6cd674b280cd2f11129a27efe8fe68a3fad36bd4330028d
+SHA512: fb8189f69f8144b15ccdab96c078743ff25447f2746448ee80f0f7c320bfb2f5adae2283195a657d861b663945991685b26ad6bdf3b77740650053f09054bb95
 Homepage: https://invent.kde.org/frameworks/kio
 Description: resource and network access abstraction (KIO gui library)
  KDE Input/Output framework provides a single API for
@@ -28435,20 +28437,20 @@ Description: resource and network access abstraction (KIO gui library)
 
 Package: libkf6kiowidgets6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kio (6.30.0-1)
+Source: kf6-kio
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1440
-Depends: libc6 (>= 2.33), libkf6colorscheme6 (>= 6.30.0~), libkf6completion6 (>= 6.30.0~), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6guiaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6iconthemes6 (>= 6.30.0~), libkf6iconwidgets6 (>= 6.30.0~), libkf6jobwidgets6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0), libkf6kiogui6 (>= 6.18.0), libkf6service-bin, libkf6service6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.30.0~), libkf6windowsystem6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.11.2), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2)
-Filename: ./libkf6kiowidgets6_6.30.0-1+b1_amd64.deb
-Size: 412700
-MD5sum: 6f483ae6754633667a8721d4da702dfd
-SHA1: 8b771d517d94d04bcfb3bccc68d969a896aa957a
-SHA256: 25045d4b5f05d3cc8c196f25ce3d619a1b736eaebee839714a273c5b8faaa07f
-SHA512: c1b90cd45a52ea160b8b763df54d9fae5a7c444ffaa0ea9594b65537648c4c01037fc1b3307e76b8a277fb7b5a700041bf946a1c814934a3064352470d2167ff
+Installed-Size: 1476
+Depends: libc6 (>= 2.33), libkf6colorscheme6 (>= 6.32.0~), libkf6completion6 (>= 6.32.0~), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6guiaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6iconthemes6 (>= 6.32.0~), libkf6iconwidgets6 (>= 6.32.0~), libkf6jobwidgets6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0), libkf6kiogui6 (>= 6.18.0), libkf6service-bin, libkf6service6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.32.0~), libkf6windowsystem6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.11.2), libqt6network6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2)
+Filename: ./libkf6kiowidgets6_6.32.0-1_amd64.deb
+Size: 423716
+MD5sum: f10b56125734afe5217b1e6ebbe10ff4
+SHA1: 51e0d33d08043441264e704ea55f529caeec3a1c
+SHA256: c2e9d2fe3ec0941c6a90f294c846a617d1181b3141984a9a79e4d1b1066c341f
+SHA512: 5895303c5601b3d75239ffadd33182aef6e2fd0350d87ca77f986c382578057f6311b19f5f4662fca6249a3357d75b2578ed8a3035ee55288f7f52929619a3ac
 Homepage: https://invent.kde.org/frameworks/kio
 Description: resource and network access abstraction (KIO widgets library)
  KDE Input/Output framework provides a single API for
@@ -28660,19 +28662,19 @@ Description: Framework for desktop notifications library
 
 Package: libkf6notifyconfig-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-knotifyconfig
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 366
-Filename: ./libkf6notifyconfig-data_6.30.0-1_all.deb
+Installed-Size: 365
+Filename: ./libkf6notifyconfig-data_6.32.0-1_all.deb
 Size: 28148
-MD5sum: 9bd8c776fbe26e72262deb987442a814
-SHA1: 8778cc4657104a75afe013baf389bb6fa39bbe47
-SHA256: 63f015551cfe874ef96f6cca1681ebfe13855deafe405cfcb08665a106c34c1b
-SHA512: 755f51f7a1a89c2c5c76a8a094375d0882a745d503fbc61943078a71ca6a34314e6a30143ea1770b6e7247d5728eca009194c6eea607f417dc555a6bdabae856
+MD5sum: 19c25cf8a58315df42ed9a8f1c01ca17
+SHA1: 30d8bbe28c1a288dc8d956a3769ad3f2a59e618f
+SHA256: 0d123dad72ef0755aa7ea7d56e844381f30ab5d6d7e8dcc456b3b0b381fa75cf
+SHA512: e529fec4c3a472e49e08c2945d55eeaf106f7e4119268dbbb1d41f60139453b519df6ebf89eeffab47b13a195805fc73781967cab39fca96563a50427cbdd08c
 Homepage: https://invent.kde.org/frameworks/knotifyconfig
 Description: Configuration system for KNotify
  This framework offers classes to represent the configuration for an
@@ -28682,20 +28684,20 @@ Description: Configuration system for KNotify
 
 Package: libkf6notifyconfig6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-knotifyconfig
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 118
-Depends: libkf6notifyconfig-data (= 6.30.0-1), kio6, libc6 (>= 2.14), libcanberra0 (>= 0.2), libkf6configcore6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiowidgets6 (>= 6.30.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6notifyconfig6_6.30.0-1_amd64.deb
-Size: 31288
-MD5sum: 638b4b4a28ae2335515f6c42a4413081
-SHA1: 483ebc64e05f5a225580eee1b8fe93fa09fff8da
-SHA256: fdfaed455d30dd06c64a36b41ea1bc0b60c9f23f236503a36838a5806d534c1b
-SHA512: 120d42eb3ff5dd176db30170c613ba7939e09576ac2fa63c0503808120a348d8dc84bc37d6c683444fbd6e096dcaaf4277f6102b3ef9c97e2113b0a943dbe294
+Depends: libkf6notifyconfig-data (= 6.32.0-1), kio6, libc6 (>= 2.14), libcanberra0 (>= 0.2), libkf6configcore6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiowidgets6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkf6notifyconfig6_6.32.0-1_amd64.deb
+Size: 31520
+MD5sum: ee951b4d4df633a96d92dcdf4041fb38
+SHA1: 5e277164ef6a2c513dbcaf9126cfdf9ad02caa71
+SHA256: 4b19a4a4b42ad117ec9d4465debe31253691b5f3462fda37b1978b4b807d67c8
+SHA512: 1e72ecb78404b50c768558283d83cf0e4ce4e7223e6166f47e25a9875c17866e2ff3922fcad3e954e4cc35ba7e75cf7482dad8bc0c2c48ac6a5986583f0b5789
 Homepage: https://invent.kde.org/frameworks/knotifyconfig
 Description: Configuration system for KNotify
  This framework offers classes to represent the configuration for an
@@ -28749,19 +28751,19 @@ Description: non-binary asset management framework
 
 Package: libkf6parts-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-kparts
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 414
-Filename: ./libkf6parts-data_6.30.0-1_all.deb
-Size: 34936
-MD5sum: c56e9d934f6db4cbbc280ff06f87e245
-SHA1: 0372f87ae2bdebe81635e9223627f2abae8e097a
-SHA256: a8ea54dcffc343a39239290b8043d14c9d5f0bf876c65c56d691b72f5817b74e
-SHA512: 279f5f078723300d5e925555105a67c298b95dd10684082e822ef5d0fe124656b6bc44d203e51d651becfe1a07422a4c4cb413112d8f3269b20d37c760a36ccd
+Filename: ./libkf6parts-data_6.32.0-1_all.deb
+Size: 35072
+MD5sum: c2714ff0294115eaaef97d8e0d509267
+SHA1: 6e9cc85e3d1b639e53f17484ad848966637605f8
+SHA256: c847869854dce2846baf9603285965507e23c3d9d0b86bc7ef1645b1d3509f79
+SHA512: 4e6c9251cb73d2c68f7806d6684bf9282dc27e9f18617fa94846f97fb38beb1009163e5e8b088b65fb1f1b13fd1976b24357ca6e9755c5d5c88cd76d49bc2741
 Homepage: https://invent.kde.org/frameworks/kparts
 Description: Document centric plugin system
  Framework providing elaborate user-interface components.
@@ -28770,20 +28772,20 @@ Description: Document centric plugin system
 
 Package: libkf6parts6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kparts
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 328
-Depends: libkf6parts-data (= 6.30.0-1), kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0~), libkf6kiogui6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.30.0~), libkf6xmlgui6 (>= 6.30.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6parts6_6.30.0-1_amd64.deb
-Size: 87900
-MD5sum: da9f42e30bedadd1d0cc2fa1227d0efe
-SHA1: 65ad00c5b0062b5fec2cfbefc941671a2a402186
-SHA256: 49a260622ca0e5cbe7093beecda7c69782a8fb2ff3d7e72a6056fcf2a77f2112
-SHA512: 404531c0ff1bddebc7abf62d63d3fc15b85c4f756a9c30405f6f4c5eba09d9584022df7fa1a916fd0c989f2996ae390b3b26c93347b59d690c0277a69bb77e20
+Installed-Size: 332
+Depends: libkf6parts-data (= 6.32.0-1), kio6, libc6 (>= 2.14), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0~), libkf6kiogui6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.32.0~), libkf6xmlgui6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkf6parts6_6.32.0-1_amd64.deb
+Size: 89072
+MD5sum: 082df071a13037107ecab0848c52f5ae
+SHA1: 1a58f7554d8201ef3037abf30602f85858615872
+SHA256: 3148585beafe67987a5577776899caebb3c4a67190532ccb5775b662b0629ec2
+SHA512: 0be6f8a0e9d10de0815ec22b035d8c1b9434cc38acb85a34f4399af266dacb14f1d794419fd99fa89390c5ad2d2f2b32cf73548b0a447ffa4eb26a7c32ef2773
 Homepage: https://invent.kde.org/frameworks/kparts
 Description: Document centric plugin system
  Framework providing elaborate user-interface components.
@@ -28882,24 +28884,24 @@ Description: Pty abstraction
 
 Package: libkf6purpose-bin
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-purpose (6.30.0-1)
+Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 842
-Depends: qml6-module-org-kde-bluezqt, qml6-module-org-kde-kirigami, qml6-module-org-kde-prison, qml6-module-org-kde-purpose, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, kio6, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiocore6 (>= 6.30.0~), libkf6kiogui6 (>= 6.30.0~), libkf6kiowidgets6 (>= 6.30.0~), libkf6notifications6 (>= 6.30.0~), libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
+Installed-Size: 850
+Depends: qml6-module-org-kde-bluezqt, qml6-module-org-kde-kirigami, qml6-module-org-kde-prison, qml6-module-org-kde-purpose, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, kio6, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.34), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiocore6 (>= 6.32.0~), libkf6kiogui6 (>= 6.32.0~), libkf6kiowidgets6 (>= 6.32.0~), libkf6notifications6 (>= 6.32.0~), libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
 Recommends: qml6-module-org-kde-kdeconnect
 Suggests: kdeconnect
 Breaks: libkf5purpose-bin (<< 5.115.0-3~)
 Replaces: libkf5purpose-bin (<< 5.115.0-3~)
-Filename: ./libkf6purpose-bin_6.30.0-1+b1_amd64.deb
-Size: 175424
-MD5sum: 4f43bf638b85ed884500558afc5cdbdf
-SHA1: 056778a3ff20666702c78ccd2f073c0597b240b5
-SHA256: e93fbb2d79322e553b4be19cff2b09cc95b65b4b5487e3393e2ae9e555274f54
-SHA512: 04d8672cee80b9ba4e4b8d0e9e96ced245239cd8fe280882159c54640b0880a9318c1f75c72c0cb76436fa789ccc6a3bb1aabaaaaa8ef3c94657c6c03d4bc931
+Filename: ./libkf6purpose-bin_6.32.0-1_amd64.deb
+Size: 176396
+MD5sum: ab2bab4516a6b3a23b7a72d0b3b618ca
+SHA1: caa12af9f723fea83bdd0ab187ae9466b8eb4523
+SHA256: 2c6d276d730079e694c1c4f231779f7ee62cde8358c5c0d16f0ca4e337901e04
+SHA512: e64af9b0046e59a9533efbeab374fd5d0fbb8546742318e0dcda15cb7fa8036e427a486599075146508abef834fa2da060e8402ca6c347279f0313b9273d9621
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, runtime
  Purpose offers the possibility to create integrate services and actions on
@@ -28912,19 +28914,19 @@ Description: abstraction to provide and leverage actions of a specific kind, run
 
 Package: libkf6purpose-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 945
-Filename: ./libkf6purpose-data_6.30.0-1_all.deb
-Size: 90688
-MD5sum: 5471dfdc6867febb4aec91bbb5b9e4fb
-SHA1: 86dbcd91c22a3db6a4f64e284f0e939d801e51d2
-SHA256: e1a00f5905d78b248b078265bdc38b70431d08cc102a42a3eb4b81b571a86d98
-SHA512: 0d3029a84facbfefb41925bb8c26bb39cd6efa84c5927e7438738224e348ebb69bbf6d40d40073c9d54d92c34a4afec7ea962ade813d70ecaad4d6671f7f97e2
+Installed-Size: 1026
+Filename: ./libkf6purpose-data_6.32.0-1_all.deb
+Size: 96560
+MD5sum: 5cea436f058ffa9ab868c0ad6542445e
+SHA1: c84a335c90588e80544b5b716e09e9504747f63e
+SHA256: dc9012cdd4db0ba94bbdb2ebd72cd46e182a8bf6b3c3b518a3d2594e79484e46
+SHA512: a380c583f810facc52a8d167fad222840c95fee02833e1e185f16e6ac0e6c2c5b3759e3eede756ec66c58cca9d506edbd6548af21196f5f4994844cbf7c6ca8a
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, translations
  Purpose offers the possibility to create integrate services and actions on
@@ -28937,21 +28939,21 @@ Description: abstraction to provide and leverage actions of a specific kind, tra
 
 Package: libkf6purpose6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-purpose (6.30.0-1)
+Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 175
-Depends: libkf6purpose-data (= 6.30.0-1), libc6 (>= 2.14), libkf6configcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libstdc++6 (>= 5)
-Recommends: qml6-module-org-kde-purpose (= 6.30.0-1+b1)
-Filename: ./libkf6purpose6_6.30.0-1+b1_amd64.deb
-Size: 51748
-MD5sum: 7c3c26b8fd6021224a77f8d848d65890
-SHA1: 115cc237229d6ad82bfe5e0f644acb1260337c13
-SHA256: 730d1f5f2d797d706c5a900b98a21bca806dce5a5010d0d7188812b1dd75fb30
-SHA512: e1f16ab7beb4a4061fa8ecfaf721b19e686884c78b0507cf6f532e9b6c48d9684e3eafa41fe567e9950bc219da73c9d483cb032b97ab9b6d787783bcae64cfc4
+Installed-Size: 174
+Depends: libkf6purpose-data (= 6.32.0-1), libc6 (>= 2.14), libkf6configcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
+Recommends: qml6-module-org-kde-purpose (= 6.32.0-1)
+Filename: ./libkf6purpose6_6.32.0-1_amd64.deb
+Size: 51580
+MD5sum: cf629c4c9c244949994fbb1ac0aa687b
+SHA1: 56dde03084d3c829250f875bfcf92c6d3e014a22
+SHA256: 5bd6ef3889ef19feb53028cbf195a02f5c0942d54d91033266b26df9342c934a
+SHA512: 75050ac013b891fb92efbaee44d1f71f3f0b7d71e80ac14aff56b783b0ef5e4dd2df58cb86da84ee6e011cbe6acd82ad367a1b48cf49a9dcac589bca39c2da9a
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -28960,20 +28962,20 @@ Description: library for abstractions to get the developer's purposes fulfilled
 
 Package: libkf6purposewidgets6
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-purpose (6.30.0-1)
+Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 98
-Depends: libkf6purpose-data (= 6.30.0-1), libc6 (>= 2.14), libkf6i18nqml6 (>= 6.30.0~), libkf6purpose6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.11.2), libqt6qml6 (>= 6.10.2), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2)
-Filename: ./libkf6purposewidgets6_6.30.0-1+b1_amd64.deb
-Size: 27808
-MD5sum: 32a77afa4c93d2fa94619480f71f9956
-SHA1: f5033df6be9c2229884387f8ddcdde126814a262
-SHA256: d1230e4560057aadde551b9af1fa9d06fb148706ae3a29f305ca957db0dc9a21
-SHA512: 607883aa021210f10da45b5c55de6cfaa35a0438afe63f1d6dad25b2901c24193351d0d0a0307ad1b48cebccbac13b6db5c5162d78c3803675469076717ba6a6
+Installed-Size: 97
+Depends: libkf6purpose-data (= 6.32.0-1), libc6 (>= 2.14), libkf6i18nqml6 (>= 6.32.0~), libkf6purpose6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.11.2), libqt6qml6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2)
+Filename: ./libkf6purposewidgets6_6.32.0-1_amd64.deb
+Size: 27536
+MD5sum: 8f88b7fa653c387670ac5b7a9430205c
+SHA1: 3d92dda53f3eb6723b21188325d38c47ac25a89c
+SHA256: 34e1021b0c0be194550f3166c157c5dd3763db0cfd36064dd4a73869081f3e31
+SHA512: 1258d798f928e2d2d4d66c1dfc8ccc470379bece34680b2b9871465f42b9c3badbdfde18a78eb2a209e0cc54e386e0ba9f6e67fbee3418f19a49aca3fdf4b5a7
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -29122,19 +29124,19 @@ Description: Advanced plugin and service introspection
 
 Package: libkf6solid-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-solid
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1152
-Filename: ./libkf6solid-data_6.30.0-1_all.deb
-Size: 118732
-MD5sum: 25cbd9007db5c7075519ef06322c6f04
-SHA1: 755e8f33ebea8dbc434bf15865659257851582dd
-SHA256: 5cd1fb9f83553ce33a841cad7527fb8dfb7a0e278fd20a6f909d1b576bd5fba8
-SHA512: ad5bce760ca337f7951d558754cd2d2962d8853c8a19f88631abc02376feaf9fbf72ba10fda11468ec3c3b371cc852eb65fe7bf29ae7b4bec30b5cb08d1b372e
+Installed-Size: 1150
+Filename: ./libkf6solid-data_6.32.0-2_all.deb
+Size: 118496
+MD5sum: d9b5d2f615455eaf40d899588c603cda
+SHA1: 3c3a80ef7b9f74e38b766b83f32f5e3232b4eb97
+SHA256: 746bce0c87879db35a7d65721a857190ddfc301c6661121ce6ded95df2ec2f01
+SHA512: d4ad947a5ab74b59fe9aff691160a3a5f20136c0cca9373fac7e37728b7b337731c0f1b60c92fe3489229e5661ff70a608762fcb5100d6f0124919b69d1adf18
 Homepage: https://invent.kde.org/frameworks/solid
 Description: Qt library to query and control hardware
  Solid is a device integration framework. It provides a way of querying and
@@ -29146,21 +29148,21 @@ Description: Qt library to query and control hardware
 
 Package: libkf6solid6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-2+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-solid
+Source: kf6-solid (6.32.0-2)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1376
-Depends: libkf6solid-data (= 6.30.0-1), libc6 (>= 2.38), libimobiledevice-1.0-6 (>= 1.3.0), libmount1 (>= 2.26.2), libplist-2.0-4 (>= 2.3.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6xml6 (>= 6.9.0~), libstdc++6 (>= 5), libudev1 (>= 183)
+Installed-Size: 1414
+Depends: libkf6solid-data (= 6.32.0-2), libc6 (>= 2.38), libimobiledevice-1.0-6 (>= 1.3.0), libmount1 (>= 2.26.2), libplist-2.0-12 (>= 2.8.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5), libudev1 (>= 183)
 Recommends: media-player-info
-Filename: ./libkf6solid6_6.30.0-1_amd64.deb
-Size: 348380
-MD5sum: 4785fa33aeb56a7b29f716408e4c3108
-SHA1: f30b2b025145cbd77e0b02cac3b77d716d6dec65
-SHA256: df94fe1f3032c9b0bcac5025fe3707c43617ec02b5e9ffe419f2f2d0df5f7834
-SHA512: bb7bc5fb5868ff71e789b43c7e44357c763394820d7cfbe5ee6fe0ec8d0773c94c1c4cdf05620bb60e936397cfeb4b3065a15819120e3de0e5f2dbd0a04d816e
+Filename: ./libkf6solid6_6.32.0-2+b1_amd64.deb
+Size: 354096
+MD5sum: b5d75ba56f1d40f60ddad868e945cf52
+SHA1: 7020a219217b7acb68976c7248b5596a0d0c737a
+SHA256: 61c03bfc3526dcb1fe42978d37d8364920578f840770d34395edc2208f5356ad
+SHA512: f3d58aa85cafd21ff9ba5695248df8c0b5920d3f6adcc4419738fb79e4d825dfef1ddb85d12a084c8fc2080efa48719c44f012ab4b5a9e84660ece831fcb2254
 Homepage: https://invent.kde.org/frameworks/solid
 Description: Qt library to query and control hardware
  Solid is a device integration framework. It provides a way of querying and
@@ -29561,20 +29563,20 @@ Description: KDE text handling addons - custom editor library
 
 Package: libkf6texteditor-bin
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: kf6-ktexteditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 273
-Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.30.0~), libkf6coreaddons6 (>= 6.0.0), libkf6texteditor6 (>= 6.23.0), libqt6core6t64 (>= 6.10.2), libqt6qml6 (>= 6.9.0~), libqt6widgets6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./libkf6texteditor-bin_6.30.0-1_amd64.deb
-Size: 92192
-MD5sum: 15c7077da29baa0bed26dece7a63bf64
-SHA1: 24d07da0999b4784928c245e112554bc4ee72585
-SHA256: ded4ec7f2d260f0364d08492f73ca66381ec451d62502ae3dd3cfb262f8779d1
-SHA512: 480704238c7c3834cc31d95e73160d7636577bf9c4fd45ac83d567fee8b8c487689d7e4ae06bced689907a79fa7d466af4d2278194656c24531bd540a6637e8c
+Installed-Size: 269
+Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.32.0~), libkf6coreaddons6 (>= 6.0.0), libkf6texteditor6 (>= 6.23.0), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./libkf6texteditor-bin_6.32.0-1_amd64.deb
+Size: 92116
+MD5sum: e7ea9967de87581d8902eab9857e3aab
+SHA1: b1ddde4955ec6e323b76ea5924c35ff5212c1268
+SHA256: 178193560e0d429ffa9ae89db1e662d3169ab6ecf09fa354897b492f2cc6ddc8
+SHA512: a43ef397d6e820f4bcd3972748d429a81c21d6266f362718b01594baeeba3d7e1bfb832c870036c5d1a7454304e7505a93f69de73b008e3c5f92695e7581253c
 Homepage: https://invent.kde.org/frameworks/ktexteditor
 Description: provide advanced plain text editing services (binaries)
  The KTextEditor interfaces - also called KTE interfaces - are a set
@@ -29590,19 +29592,19 @@ Commands: ktexteditor-script-tester6
 
 Package: libkf6texteditor-data
 Architecture: all
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kf6-ktexteditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 10033
-Filename: ./libkf6texteditor-data_6.30.0-1_all.deb
-Size: 1339192
-MD5sum: 3411c357428e8e3a8cde63845a67034c
-SHA1: f7dbe336759e26f0df5c2f8556c8154f662a77de
-SHA256: 629f0a4dde7f38e7334271fb6a100f94378f7ac8c18d311da05960eab48297ff
-SHA512: da6fb4e6d049deb738bcc4cfd1425980cc8f3b5e45423010b1950e159c14f196d7e40f40b7d3d38f478c642be4abbda0649844c25cb24dc3805973be634bc64c
+Installed-Size: 10339
+Filename: ./libkf6texteditor-data_6.32.0-1_all.deb
+Size: 1362952
+MD5sum: 5fd9cf9de373d5bf09751972ef94b3e5
+SHA1: 6e193cfed46057fd6f529e77b9d8dc93372ba65e
+SHA256: dcb92ad80421680f3f272e9de8fd890c6f80ea373024e8e12a44ab222153ded9
+SHA512: 39e14edcd7b0b1d65d7199237d460061023e0a43bfbdacbcb5fe390af44483e4ad06a85dfc0fc6fc2cb6ecc06f787df80db0b4eb52923f8927f1e71417396928
 Homepage: https://invent.kde.org/frameworks/ktexteditor
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
@@ -29615,19 +29617,19 @@ Description: provide advanced plain text editing services
 
 Package: libkf6texteditor-katepart
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Priority: optional
 Section: libs
 Source: kf6-ktexteditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 51
-Depends: libkf6texteditor6 (= 6.30.0-1), libc6 (>= 2.4), libkf6coreaddons6 (>= 6.0.0), libkf6texteditor-bin (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libstdc++6 (>= 5)
-Filename: ./libkf6texteditor-katepart_6.30.0-1_amd64.deb
-Size: 13736
-MD5sum: d11acb42e924dff64a49c51d4efd6ee9
-SHA1: b3a2c05d0ae6d3c1dcb13e03bba1f69de11e1401
-SHA256: b929965d4a8643d5b087b23a1abccde192e60550562613aea4010fc21da33fe9
-SHA512: fa3852f864cc21eeca11d20f27cc8ef5bce6ff88078e5442d2e46ead6c08e50f1fa01322e3c6de40efe7f543a989b00877b177249cab71fd2daac01f5ab67d3a
+Depends: libkf6texteditor6 (= 6.32.0-1), libc6 (>= 2.4), libkf6coreaddons6 (>= 6.0.0), libkf6texteditor-bin (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libstdc++6 (>= 5)
+Filename: ./libkf6texteditor-katepart_6.32.0-1_amd64.deb
+Size: 13916
+MD5sum: f6d21fd3eb15e0b703efa8fc3a56d146
+SHA1: 497daadcf57534e17c238c7ab2d2656fa9cfe821
+SHA256: 2d2a989881067b4ba86e14a3946a56e33cb573d8a7c797565f47c05433fd5d5d
+SHA512: 2692ea3f181d316d9a24b55c94b56a4dcb2d293c5089763109614b484ee6364998302f7c8f5b28a632707ba000c0a9ee461d45b9d07d5ca3fc39dce08c6c0b32
 Homepage: https://invent.kde.org/frameworks/ktexteditor
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
@@ -29642,21 +29644,21 @@ Description: provide advanced plain text editing services
 
 Package: libkf6texteditor6
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-ktexteditor
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4324
-Depends: libjs-underscore, libkf6texteditor-data (= 6.30.0-1), kio6, libc6 (>= 2.32), libeditorconfig0 (>= 0.11.0), libgcc-s1 (>= 3.4), libkf6archive6 (>= 6.30.0~), libkf6authcore6 (>= 6.30.0~), libkf6codecs6 (>= 6.0.0), libkf6colorscheme6 (>= 6.30.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.30.0~), libkf6configgui6 (>= 6.30.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6itemviews6 (>= 6.0.0), libkf6kiocore6 (>= 6.30.0~), libkf6kiogui6 (>= 6.30.0~), libkf6kiowidgets6 (>= 6.30.0~), libkf6parts6 (>= 6.30.0~), libkf6sonnetcore6 (>= 6.30.0~), libkf6sonnetui6 (>= 6.30.0~), libkf6syntaxhighlighting6 (>= 6.30.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.9.1), libqt6printsupport6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libqt6texttospeech6 (>= 6.9.0~), libqt6widgets6 (>= 6.10.2), libstdc++6 (>= 13.1)
-Recommends: libkf6texteditor-katepart (= 6.30.0-1)
-Filename: ./libkf6texteditor6_6.30.0-1_amd64.deb
-Size: 1401104
-MD5sum: b259a487f28a9468b44db99596109fa6
-SHA1: 1b6479171d55ccdb969b9a430e8a817653e24de1
-SHA256: c5596fc2ef3f1add01b7b39e310966d068823a94cc244b63f153d2145834f559
-SHA512: f699fdcb754bc3617c099967999387c99ad152500450bfad78888632f4100c55c2dbd159516774388ef0378ae19aacd32f889a60ead031ed8c7b7421825fa926
+Installed-Size: 4340
+Depends: libjs-underscore, libkf6texteditor-data (= 6.32.0-1), kio6, libc6 (>= 2.32), libeditorconfig0 (>= 0.11.0), libgcc-s1 (>= 3.4), libkf6archive6 (>= 6.32.0~), libkf6authcore6 (>= 6.32.0~), libkf6codecs6 (>= 6.0.0), libkf6colorscheme6 (>= 6.32.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.32.0~), libkf6configgui6 (>= 6.32.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6itemviews6 (>= 6.0.0), libkf6kiocore6 (>= 6.32.0~), libkf6kiogui6 (>= 6.32.0~), libkf6kiowidgets6 (>= 6.32.0~), libkf6parts6 (>= 6.32.0~), libkf6sonnetcore6 (>= 6.32.0~), libkf6sonnetui6 (>= 6.32.0~), libkf6syntaxhighlighting6 (>= 6.32.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.11.2), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6texttospeech6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.2), libstdc++6 (>= 13.1)
+Recommends: libkf6texteditor-katepart (= 6.32.0-1)
+Filename: ./libkf6texteditor6_6.32.0-1_amd64.deb
+Size: 1403692
+MD5sum: dc7553d5c22dafca452f3600be5371e1
+SHA1: 57248c2fed7f83b6abd297fe1d58f9e2fdabffea
+SHA256: 1b57d701fff40cda4bd19d2bc6ca29ffdcfe8140b4220b38ce70067d8848ae58
+SHA512: a8663148342ea7eb28d4accae4231c44712451540bff7d0b0e507bf2999465b347c1cb820a8ef5521fab8ba700a5e1fadadcb225eb0a415458ddf6612c363fa6
 Homepage: https://invent.kde.org/frameworks/ktexteditor
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
@@ -38088,25 +38090,25 @@ Description: tool for generating and solving Sudoku puzzles (library)
 
 Package: libqt5core5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 6349
-Provides: libqt5core5a (= 5.15.19+dfsg-7), qtbase-abi-5-15-19
+Provides: libqt5core5a (= 5.15.19+dfsg-8), qtbase-abi-5-15-19
 Depends: shared-mime-info, libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.22.0), libicu78 (>= 78.1-1~), libpcre2-16-0 (>= 10.47), libstdc++6 (>= 14), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5a (<< 5.15.19+dfsg-7)
+Breaks: libqt5core5a (<< 5.15.19+dfsg-8)
 Replaces: libqt5core5a
-Filename: ./libqt5core5t64_5.15.19+dfsg-7_amd64.deb
-Size: 1972872
-MD5sum: c19d0920761c3902be8ca2652b2f021d
-SHA1: 8f84818c3ade69ecb683d736311b64363c60c899
-SHA256: fbf7c53ed3ee6d69084909d3c61e64063d102c099a6199046d44818a43011fc1
-SHA512: 106d6b33db6d15964d47208ca1a5967db0fbfdb8c69d8ab801095717857f25ed5f9cbc27992558c17439bc74544f72b448432e75d93cc70874e0bd053e4d3512
+Filename: ./libqt5core5t64_5.15.19+dfsg-8_amd64.deb
+Size: 1972596
+MD5sum: b4c42d1acaaf62deaf8c674c6de995c7
+SHA1: 4d643ab34b94a9af21e3852e339951238ed1ed1a
+SHA256: 1b6dfab5365a29e559113c06ff10708db16b7fa0d3c3ea4ffe3e21372d8d1750
+SHA512: 4fb2a355026d7e39b50fbdeea4f54f7a6e69c5a88e0bba9e32492aeb0bcefae08e8b11ccc70025bb2a578e4468c1d24869683cd8f156e3daac7647c506020e0b
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38116,23 +38118,23 @@ Description: Qt 5 core module
 
 Package: libqt5dbus5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 765
-Provides: libqt5dbus5 (= 5.15.19+dfsg-7)
+Provides: libqt5dbus5 (= 5.15.19+dfsg-8)
 Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.10), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-19
-Breaks: libqt5dbus5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5dbus5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5dbus5
-Filename: ./libqt5dbus5t64_5.15.19+dfsg-7_amd64.deb
-Size: 216996
-MD5sum: 7a8590717cf0c311114b8eb9393660b9
-SHA1: 4b28b4d4238a6e329841b42c511252576b6cf5b1
-SHA256: 8287e3365ff58104772cdf0664a272fc1de80136ebc819106b9e8f2101da5885
-SHA512: 9591e8a8b46ae97e75e55a39a8d04f33fc329790acbdfed906fbbce3a5a432b19322ae4414abeeea037ba4bbd938c8ebb58ac5f1d55d78f7f7b9bc84d06fb6ff
+Filename: ./libqt5dbus5t64_5.15.19+dfsg-8_amd64.deb
+Size: 217388
+MD5sum: fef780c37fe297300755506ec46d50c8
+SHA1: 213e8f96f24be1560342f1dd207ab8672219712c
+SHA256: 2d5c577cb162d7ae5df226f57fbec01fe255a634f286d5d0e669f61abc134887
+SHA512: 131d30974b10250dcc77cc113563cdf8f7d73999d1e0e9724e4ad5495e14d40b2d73fb47f8e9e37d0b8afe340fa5076d744012c5f0b649e365e1e070fdc5d03a
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38147,26 +38149,26 @@ Description: Qt 5 D-Bus module
 
 Package: libqt5gui5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 13258
-Provides: libqt5gui5 (= 5.15.19+dfsg-7)
+Provides: libqt5gui5 (= 5.15.19+dfsg-8)
 Depends: fontconfig, libc6 (>= 2.43), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.4), libgl1, libglib2.0-0t64 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmd4c0 (>= 0.2.7), libmtdev1t64 (>= 1.0.8), libpng16-16t64 (>= 1.6.46), libqt5core5t64 (>= 5.15.15), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsm6 (>= 2:1.2.6), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.17.0), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1 (>= 1:0.9.13), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
 Recommends: libqt5svg5, qt5-gtk-platformtheme, qtwayland5
 Suggests: qgnomeplatform-qt5, qt5-image-formats-plugins
 Conflicts: libqt5gui5-gles
-Breaks: libqt5gui5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5gui5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5gui5
-Filename: ./libqt5gui5t64_5.15.19+dfsg-7_amd64.deb
-Size: 3658020
-MD5sum: 290c621b9bfb96ac4fc58b2f791e3f2b
-SHA1: 9267080d9224acbcb2bc97efd34b3eac580d27a8
-SHA256: 7a2e67621e65cde87e927978373fb21bbdf80a5f07d5299e82b1750428cda3ae
-SHA512: 07b486d68932d2f5820310028e16d0e48c89a817feee08fde4af265c97642ba992202f701de74e8d6cc81d6a4f50aefb4a4fa079cf0c4869c2cb30d6b70509f0
+Filename: ./libqt5gui5t64_5.15.19+dfsg-8_amd64.deb
+Size: 3655508
+MD5sum: daccc1b9dba0c6cc8219175394f82691
+SHA1: 736835c3174fcd137a91477b9ff7bffe6541132a
+SHA256: 2958a5e171a9a199970f2345cff4c1e51cbb9860b8e53be15e91118e5376cf5e
+SHA512: 4a1f8a076fb65cba970c9d9c5115f06b3525d9bbc920a4a4ce5d7bc1fb5124ab19624dd9adc94bedc529926b83543c19cde39a03f6488e4f93820a2a234bd10c
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38176,23 +38178,23 @@ Description: Qt 5 GUI module
 
 Package: libqt5network5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2554
-Provides: libqt5network5 (= 5.15.19+dfsg-7)
+Provides: libqt5network5 (= 5.15.19+dfsg-8)
 Depends: libssl3t64, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, zlib1g (>= 1:1.1.4)
-Breaks: libqt5network5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5network5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5network5
-Filename: ./libqt5network5t64_5.15.19+dfsg-7_amd64.deb
-Size: 703412
-MD5sum: 7e32c0c110f6e83104751bdd8ee01b92
-SHA1: 4e30ed84c71378738a926e3dc58ddbf99db438e4
-SHA256: a59991713f60cc67f175266bf069bc5d435131c8665c30325880f33dc0443424
-SHA512: c24d2caee231925150ce8ec944fb86f8b153bad53f6150e28a6d30cc60902c1f5031084bf03832215a662a3b1769e2b689cdaf9027d313b68ea2bb8ddf160085
+Filename: ./libqt5network5t64_5.15.19+dfsg-8_amd64.deb
+Size: 703764
+MD5sum: c944f86fefb15dd2a9eec1aebb3bd257
+SHA1: 543e2893029ee7de917ca5d42a565b303d82ef71
+SHA256: a87773ce561622792bd6253107f29f467ad814b1ce698559e183accaba30e3d9
+SHA512: a7ce9967b3cdea4c1d4c8c504e92dc2f23f761f92d53233e278681edc7697cebc250ee4577dbcb055b695e112ff70fd2f22f2320e9287fcef59fd3656a273f4d
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38203,24 +38205,24 @@ Description: Qt 5 network module
 
 Package: libqt5printsupport5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 741
-Provides: libqt5printsupport5 (= 5.15.19+dfsg-7)
+Provides: libqt5printsupport5 (= 5.15.19+dfsg-8)
 Depends: libc6 (>= 2.14), libcups2t64 (>= 1.4.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-15-19
 Recommends: libcups2
-Breaks: libqt5printsupport5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5printsupport5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5printsupport5
-Filename: ./libqt5printsupport5t64_5.15.19+dfsg-7_amd64.deb
-Size: 203900
-MD5sum: 95df453a58a75c036e0acec21371aebc
-SHA1: fc10bd3285587d1d5361baab66b01bf436231730
-SHA256: b2217c3ccd67b371d1e243f6cb28266d11ba534cd132f26129f707cff67acd09
-SHA512: f521d5f0079d5551d247e4e75fed8bd9e05012dd621b0c6ff04fd4f1dab6b8d2446fa64a6f5d4b9e4b5ad5751a5b367d1c78df40036d2f39d7e16c3d94201a6f
+Filename: ./libqt5printsupport5t64_5.15.19+dfsg-8_amd64.deb
+Size: 203724
+MD5sum: 1ef03714eb557f4ce7175997bc7a4ea2
+SHA1: 117538c16d267963d16ea5109c33f5354366c31a
+SHA256: 315359ccfeccbe7d75f9890984ddd5ee8231e8c772a099e707cf9711b07599e1
+SHA512: b393da4d2de07f705262a5b02c67b8b952a7ecabf2e5788353b9a5a53cc86bda22951f739687f4e879cade545d38f9efa17ac7f231ede963aa8738d224f0bc8e
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38476,23 +38478,23 @@ Description: QtWayland compositor library
 
 Package: libqt5widgets5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7701
-Provides: libqt5widgets5 (= 5.15.19+dfsg-7)
+Provides: libqt5widgets5 (= 5.15.19+dfsg-8)
 Depends: libc6 (>= 2.29), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
-Breaks: libqt5widgets5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5widgets5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5widgets5
-Filename: ./libqt5widgets5t64_5.15.19+dfsg-7_amd64.deb
-Size: 2499800
-MD5sum: 4e7b7ca9efef1ac74e5b8e780b084d60
-SHA1: ec4e56c36bdec9b567d91046cfdd02836839635f
-SHA256: ebf724850daaf2113c424daf3166683be034b32f7cb3a6403813533ea75f139a
-SHA512: 8b959ae66f0ce5132c9c5a2d95ef043deaaa3000dd7e5796c1e885934e1320b6aafefcf00e4e3057ada765179a8a03f5087d79f077b568aba5f43c998413f7f5
+Filename: ./libqt5widgets5t64_5.15.19+dfsg-8_amd64.deb
+Size: 2496776
+MD5sum: 7d03bf867487ed67a214f88d7bf36740
+SHA1: ef982ebcd9ddbf22d92b3a9bef0ad3d03d614088
+SHA256: 33634deaf28ed12531451dc6f2e4e5a78b1f996db133c13126112a0b0070cfd8
+SHA512: 62e17f3311e1c47f47d5c00bb528a7aaffafcf7be89fa4f5f734109c9a9b08c1dce16867ec17e191b880c860cb153c0db7a2e2dbb12cbf3ade60a975ff5e852b
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38502,23 +38504,23 @@ Description: Qt 5 widgets module
 
 Package: libqt5xml5t64
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 460
-Provides: libqt5xml5 (= 5.15.19+dfsg-7)
+Provides: libqt5xml5 (= 5.15.19+dfsg-8)
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-19
-Breaks: libqt5xml5 (<< 5.15.19+dfsg-7)
+Breaks: libqt5xml5 (<< 5.15.19+dfsg-8)
 Replaces: libqt5xml5
-Filename: ./libqt5xml5t64_5.15.19+dfsg-7_amd64.deb
-Size: 126012
-MD5sum: 3b1acfed074f108de93afc246c8c027f
-SHA1: 5dedab5cdc33c48facace4eb5da65eeb6b1e75ec
-SHA256: bf9542573c8b8c20a0c808671fe951a95e3bacfee0e1a94b7e1be4c6bdc5f9d0
-SHA512: e9ef8239583012017e513dbbfd6e626d6b8943d11b0527e286c852f2b45307a24450f786963ccedf39da3e00838d6e550918e78def824ad7a39ba0bf74c9c51c
+Filename: ./libqt5xml5t64_5.15.19+dfsg-8_amd64.deb
+Size: 126036
+MD5sum: ae22d4ca6aff155f9a13d5fcc70419be
+SHA1: 092af6cd0934738e1111bb2e194cf70fd47a42e5
+SHA256: 6527663da10eafe6ddfe292155b96eab177bfb41bfa15a1297eb54c182ae5cda
+SHA512: f7e0e989cad833622a2a8de78ecb4e668dc75ca597000f0cbecbc50d9c84ad93f856fe945df9b5a0831ac4fc29f8bde63b2c9b77fd6607c52991d2ee6e6bf549
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -49892,21 +49894,21 @@ Description: LibreOffice UNO runtime environment -- (Java) UNO loader
 
 Package: libupower-glib3
 Architecture: amd64
-Version: 1.91.5-1
+Version: 1.91.5-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: upower
+Source: upower (1.91.5-1)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 171
+Installed-Size: 172
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0)
 Recommends: upower
-Filename: ./libupower-glib3_1.91.5-1_amd64.deb
-Size: 40620
-MD5sum: fbe85a74286914385a4281ef99ef1f59
-SHA1: bb5887e4ad8af7fdaa487e0cecf23fc6cb834ce7
-SHA256: 1a92d2eb8f80f5a72c0b3ed8f09b4ee2c755991c20ac20051428ad7ee88b9195
-SHA512: c814d77c94fdeded90515c1140be945426c8ceb31a57e7eaa6e2708bf41fddb8f134d88c78a06b43c8cf847412e85cb7688fdaf8c682032124946b0f18ef994d
+Filename: ./libupower-glib3_1.91.5-1+b1_amd64.deb
+Size: 40824
+MD5sum: 42d34ca796609d3372e2b74ce1d9f025
+SHA1: c14441cea8857ffd3fa5465778fdf5509311a14d
+SHA256: 586000d5079c6ebaa2ee6cad5e2541320b2312246172ed6cad7d3600293c637b
+SHA512: ad85c6681cb59d82d8a6b5e310d466599c141988501d7decd1051836ce7a6ab5c856dc951a1743a9090ca21bdb2c8c5882fbd4f71bbddc3d737a703e0532f240
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management - shared library
  upower provides an interface to enumerate power sources on the system
@@ -50000,21 +50002,21 @@ Description: C library for processing UTF-8 Unicode data (shared library)
 
 Package: libvisio-0.1-1
 Architecture: amd64
-Version: 0.1.11-1
+Version: 0.1.12-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libvisio
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 867
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0, libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1)
+Installed-Size: 896
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0 (>= 0.0.6), libstdc++6 (>= 13.1), libxml2-16 (>= 2.14.1)
 Breaks: libvisio-tools (<< 0.0.15~)
-Filename: ./libvisio-0.1-1_0.1.11-1_amd64.deb
-Size: 325284
-MD5sum: b6083294da8556a66d4fc6bcdc922e0c
-SHA1: 80e22813e831da9cc85ff0b17fe1f6c537a9f18b
-SHA256: 88520bf79c01002fc600c2f9a2c6ce5633210e670a5bf26bc2f33449180e12a4
-SHA512: 8f6f844c189d5e41e9bb9ee8d975da49ec82bdb52a935a37d3c2a5d20fb0009c68b651d641c65c4dcb259488b297711b477ac1bdbe1c119bf094b3de414b211e
+Filename: ./libvisio-0.1-1_0.1.12-1_amd64.deb
+Size: 343892
+MD5sum: ea9ff2ce7fa6cfa45bae17ffac9d420c
+SHA1: 08e6854b0799bf1baf88159fbf8e58941bf67491
+SHA256: dc3529847d20067d5158068a279870312bf5c2f56ea348f7b543f078d7429a56
+SHA512: f1464df1246f2a5d14cd9b226502f46e136f1185039a2a38e2c2a1e9d3ec1f823917fe1a0e0cb09ce832ee2657bd5bdb97ffa9cb7104230d826b717939e23fd2
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: library for parsing the visio file structure
  Libvisio is library providing ability to interpret and import visio
@@ -52700,20 +52702,20 @@ Description: simple screen locker for lightDM display manager
 
 Package: lightdm-gtk-greeter
 Architecture: amd64
-Version: 2.0.9-2
+Version: 2.0.9-3
 Priority: optional
 Section: x11
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 612
+Installed-Size: 615
 Provides: lightdm-greeter
 Depends: libayatana-ido3-0.4-0 (>= 0.4.0), libayatana-indicator3-7 (>= 0.6.0), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.9.10), liblightdm-gobject-1-0 (>= 1.8.7), libx11-6
 Recommends: adwaita-icon-theme, polkitd, desktop-base
-Filename: ./lightdm-gtk-greeter_2.0.9-2_amd64.deb
-Size: 108904
-MD5sum: 0ca865608b8317b696e0e1cf811b03ec
-SHA1: d86e6a7d381bb3ce257762214f8add1bfbae5377
-SHA256: b52d08730f7c6f08fda1151e298679d6736af49dbf906993b5f3780071a6a3f6
-SHA512: db307f6aacc8e2f74806d38f36e750fd74704bca42cb1198e0f82bd096d26752f0eaeced89e7f7d248cda8c2c2106c0d9656e881581b4780f7a2d4fe865b03d9
+Filename: ./lightdm-gtk-greeter_2.0.9-3_amd64.deb
+Size: 109828
+MD5sum: 95e24a660111a3fd99e325eaee076fdc
+SHA1: 0ee94bd3a20c15e80f859e1a1ade193f9af87d15
+SHA256: a8d4a107d54525764a415b510b02cf7e7d4bcd924df73316891304e9151965fb
+SHA512: c496cf947b3b2168b880f79362d4a45d61105babac32813e751b924ebfaea9b3d5a16e965be7488023a92aa062c84f439b2af2489e3177413514d7e24d38522d
 Homepage: https://github.com/Xubuntu/lightdm-gtk-greeter
 Description: simple display manager (GTK+ greeter)
  lightdm-gtk-greeter is greeter shell for the LightDM login manager. It uses
@@ -52876,7 +52878,7 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: localsearch-extractor-ffmpeg
 Architecture: amd64
-Version: 3.12.0-1
+Version: 3.12.0-2
 Multi-Arch: same
 Priority: optional
 Section: utils
@@ -52884,12 +52886,12 @@ Source: localsearch
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 90
 Depends: libavformat63 (>= 7:9.0.2), libc6 (>= 2.38), libcue2, libglib2.0-0t64 (>= 2.76.0), libtinysparql-3.0-0 (>= 3.11~)
-Filename: ./localsearch-extractor-ffmpeg_3.12.0-1_amd64.deb
-Size: 23456
-MD5sum: b5a84092d48f18554a4ee01ff61c5c60
-SHA1: 51d55519cd60b9834760efb3013cc342e522f646
-SHA256: 82126773431720a2d5c37434f84e8677e977f028d1a589d8a021c7e25eec6a5b
-SHA512: bd290c0cead6dba89c88178a83ba0698fb119613183b9503d39a8ca9f18d588df47fb3c57fb420e7ebacff95de28db52f10b9352d572d0b286999966ff813e54
+Filename: ./localsearch-extractor-ffmpeg_3.12.0-2_amd64.deb
+Size: 23572
+MD5sum: f2f6ba5d5f36f8f46d862da86f7fc456
+SHA1: 20b8b80c704a6978bfc6a4b76a095542eb6c9bfd
+SHA256: a516297f7a788a14169e6345d16f67c79b9a5a88460138f2c8d0bd5a59378c3f
+SHA512: 78727abb41c6feb6ef154fef7ce04ae5c84f36c9f12c474d6b5d1cb575a47c75caa112f6b95f40d6460ad0e7179ebdc0bedc640e24133fecb51c7ffcc6cc9336
 Homepage: https://tracker.gnome.org/
 Description: FFmpeg powered media metadata extractor
  This package contains the FFmpeg powered metadata extractor.
@@ -52900,7 +52902,7 @@ Description: FFmpeg powered media metadata extractor
 
 Package: localsearch-extractor-iso
 Architecture: amd64
-Version: 3.12.0-1
+Version: 3.12.0-2
 Multi-Arch: same
 Priority: optional
 Section: utils
@@ -52910,12 +52912,12 @@ Installed-Size: 60
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0), libosinfo-1.0-0 (>= 0.2.9), libtinysparql-3.0-0 (>= 3.11~)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-iso_3.12.0-1_amd64.deb
-Size: 13324
-MD5sum: 583d752f101addfc45e8065844162337
-SHA1: 12c78994ed0804ec840d15bb12cc73565641a92f
-SHA256: a8eb7528525c81cc08a75e59c6d92f9099a414df24d215540cf27118d4b08138
-SHA512: b7fb8e8d9b8452438e058f5c6a81b1987e253ef46039a044061b0f699a7c41fa69ddca8bece51cdfcae756a578cdf0cf569e4dfe6d24ce548b64649db7554a23
+Filename: ./localsearch-extractor-iso_3.12.0-2_amd64.deb
+Size: 13436
+MD5sum: db3af9a480fb522d64c28f7bfe870baf
+SHA1: 7405b264d2b8d3d55ba69e06de4ca527d51a2572
+SHA256: e5a909a7b1fd5c983e5f5481dc497e69692e3279addf0b51ed084a259c6639f0
+SHA512: e4b67c8f6650f5471336bec061ad983fca6d06880bd18e2d7097b424dc4863ba25793a4c974dac237db0b5b3bf0a09ef825c0118b049038484e5712a3514aaaa
 Homepage: https://tracker.gnome.org/
 Description: Extractor for ISO files
  This package contains the ISO file format metadata extractors.
@@ -52926,7 +52928,7 @@ Description: Extractor for ISO files
 
 Package: localsearch-extractor-office
 Architecture: amd64
-Version: 3.12.0-1
+Version: 3.12.0-2
 Multi-Arch: same
 Priority: optional
 Section: utils
@@ -52936,12 +52938,12 @@ Installed-Size: 124
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libtinysparql-3.0-0 (>= 3.11~), libxml2-16 (>= 2.14.1), libzip5 (>= 1.0)
 Breaks: tracker-extract (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~)
-Filename: ./localsearch-extractor-office_3.12.0-1_amd64.deb
-Size: 27828
-MD5sum: 51709138f5ca0bbd5fbcbd285994a468
-SHA1: 5cefd981e51aa7f405d8cd5503a0f6f60256c63f
-SHA256: 8c8ce3a0c3bf3bd8045c66681726f97ddd98044448825d5ae624186b6011066b
-SHA512: 083c802238067d7f865e8f9fcaed91e54c4762af7a57720703f8083fd3e7025582bc6d00890c42d16862879f0e7f8de18016453d01025c07c5174b98503cc4e0
+Filename: ./localsearch-extractor-office_3.12.0-2_amd64.deb
+Size: 27960
+MD5sum: 172fefb9aee979bbe2917672011414de
+SHA1: 16768dad6a7be833b20a24273968286b724f5a8a
+SHA256: fdbf13c48c16b53767352ce5abaf9204e8a0242d2c912c3fd7bab44fcce2bfef
+SHA512: 2406a7491893d5ea997fa03b39adc3b47231bd6780e23a2d36ac361458f2a2c15fc3dee54571f40b2fcd2879ee82956f5d29847a82f9e9255e6648ae6c58d0fe
 Homepage: https://tracker.gnome.org/
 Description: Extractors for some compressed office file formats
  This package contains the extractors for various compressed
@@ -52953,21 +52955,21 @@ Description: Extractors for some compressed office file formats
 
 Package: localsearch
 Architecture: amd64
-Version: 3.12.0-1
+Version: 3.12.0-2
 Priority: optional
 Section: utils
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3149
+Installed-Size: 3145
 Depends: procps, tinysparql, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.66~), libc6 (>= 2.38), libcue2, libexempi8 (>= 2.5.0), libgexiv2-0.16-4 (>= 0.16), libgif7 (>= 5.1), libglib2.0-0t64 (>= 2.83.0), libgsf-1-114 (>= 1.14.24), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libgxps2t64 (>= 0.2.1), libicu78 (>= 78.1-1~), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libpoppler-glib8t64 (>= 0.22.1), libseccomp2 (>= 2.1.0), libtiff6 (>= 4.5.0~rc1), libtinysparql-3.0-0 (>= 3.11~), libtotem-plparser18 (>= 3.26.0), libupower-glib3 (>= 0.99.0), libwebpdemux2 (>= 1.6.0), libxml2-16 (>= 2.14.1)
 Recommends: localsearch-extractor-ffmpeg, localsearch-extractor-iso, localsearch-extractor-office
 Breaks: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
 Replaces: tracker-extract (<< 3.11~), tracker-miner-fs (<< 3.11~)
-Filename: ./localsearch_3.12.0-1_amd64.deb
-Size: 647464
-MD5sum: 0ba2e9637df7d382190b93132772be85
-SHA1: af8aa3aac9eca594d8b096fa8674304381af17ef
-SHA256: ae2d518ad4f8b051da19e09966a8a0850b622ae4f4cc2f1d49ed9c36e6e7fd51
-SHA512: bde4dcae729eea3d827be36b0800e41573fc822cffb5b7e05109c224ceaddf04f75c514aa38cdbea3b37a32e9c1b19420b9d38378974a6a1813ba9da999ae194
+Filename: ./localsearch_3.12.0-2_amd64.deb
+Size: 646732
+MD5sum: 4cf1abf801fcd197b0252083dc400dfe
+SHA1: ec56b1e91963d0ac1151cafae776deeffd724db3
+SHA256: 136570638aad07a3e08a3709544c3d62b93389176e163fbf55115c6cdc96f034
+SHA512: feab46ffc5e6654a420692d68fa73c57d986afac4a381be28d6dcbc12514658209ccef56a593fda7bf2c46b5c758e8931411c505a8357a8d8ce98fe195611b01
 Homepage: https://tracker.gnome.org/
 Description: metadata database, indexer and search tool - metadata extractors
  This package contains the metadata extractors.
@@ -60313,20 +60315,20 @@ Description: Python 3 bindings for the Samba client library
 
 Package: python3-soupsieve
 Architecture: all
-Version: 4.1-1
+Version: 4.1.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: soupsieve
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 224
+Installed-Size: 232
 Depends: python3:any
-Filename: ./python3-soupsieve_4.1-1_all.deb
-Size: 55680
-MD5sum: 7f2f44856ad33005dd40ca39ddc2daa7
-SHA1: 82d988612625dade1e3640fa2de1b2470d569969
-SHA256: 5dab5b534c402b137fddda9757e80023779f121b0b4b622c8095bffac3213a79
-SHA512: 0dee614abad1f4a77005becbb8a3d258c69153b9a811fb4aec2d936d4f16557bf96528fd2b4294fe7e322fd653b757c9f983a94d12bb54753f8f9affc6a118b6
+Filename: ./python3-soupsieve_4.1.1-1_all.deb
+Size: 58384
+MD5sum: 3484c4126432ef7b49b79c126f29fb66
+SHA1: dbb4ead306d0ec034489037285add108f4da46b8
+SHA256: 612fc432bec87b3ac2544ee19b5dfb4bb2dd3fb47e092a7756946f5b7886f14c
+SHA512: 4850710c76f36bfae4b1df4cff0b73faf9a39e8bfcafa6fdf4f0d5d2a74e94ebcc640fa98b98270c045c3cec739eeba0d04744eb0dbb1cf313a9ee78a9736383
 Homepage: https://facelessuser.github.io/soupsieve/
 Description: modern CSS selector implementation for BeautifulSoup (Python 3)
  Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4
@@ -61224,20 +61226,20 @@ Description: core components for the KDE's Activities system - QML module
 
 Package: qml6-module-org-kde-baloo
 Architecture: amd64
-Version: 6.30.0-1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: kde
 Source: kf6-baloo
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 191
-Depends: qml6-module-qtcore, libc6 (>= 2.14), libkf6baloo6 (>= 6.0.0), libkf6balooengine6 (>= 6.30.0), libkf6coreaddons6 (>= 6.30.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.9.0~), libqt6qml6 (>= 6.9.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-baloo_6.30.0-1_amd64.deb
-Size: 38992
-MD5sum: 6ec54c6a4599ac545844fb589aec0369
-SHA1: 19fa50482e8a22909a7d2f51ccfc0f1810fa9cd0
-SHA256: 4d4e2cf689ef8ab0cfbc455d9646ff8cce1225794965c1f344ff5c1cf7b0c049
-SHA512: 7e05cdb2d7566962f615680155de03750ddbed31ed82a40df3fea5182f42d7ea664ff4a73319b97d8cf55e7de75e644e6795c5709f4c606244a6b3e72e9d3b03
+Depends: qml6-module-qtcore, libc6 (>= 2.14), libkf6baloo6 (>= 6.0.0), libkf6balooengine6 (>= 6.32.0), libkf6coreaddons6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
+Filename: ./qml6-module-org-kde-baloo_6.32.0-1_amd64.deb
+Size: 39224
+MD5sum: 2742a0dd73997b9a9c34375e3c825e22
+SHA1: 33210baa83fd3f3277fa2505e268f44894c96a4d
+SHA256: b12eefa8b9d165782c52d5eaad7f1e8e9022d88400689a539d8ed156d0c3df18
+SHA512: a108992dbb45f0d0ff78e10b222b7de6f10e23a83b212845bbf2b8eae1fd15077c2df438bc8bac784cb5435bb345983653c2a33a5e5e7796119a3b1d1259b271
 Homepage: https://invent.kde.org/frameworks/baloo
 Description: framework for file search and metadata management - QML module
  Baloo is the file indexing and file search framework for KDE Plasma. It
@@ -62020,21 +62022,21 @@ Description: barcode API for Qt
 
 Package: qml6-module-org-kde-purpose
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-purpose (6.30.0-1)
+Source: kf6-purpose
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 783
-Depends: qml6-module-org-kde-ki18n, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.14), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.30.0~), libkf6i18n6 (>= 6.30.0~), libkf6kiogui6 (>= 6.30.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.28.0), libkf6service-bin, libkf6service6 (>= 6.30.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.9.0~), libqt6gui6 (>= 6.9.0~), libqt6network6 (>= 6.9.0~), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.11.2)
+Installed-Size: 782
+Depends: qml6-module-org-kde-ki18n, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.14), libkaccounts6-2 (>= 24.02.2), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libkf6kiogui6 (>= 6.32.0~), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.28.0), libkf6service-bin, libkf6service6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.11.2)
 Recommends: kdeconnect
-Filename: ./qml6-module-org-kde-purpose_6.30.0-1+b1_amd64.deb
-Size: 159972
-MD5sum: 27b8fb999bb0c43b2fd4a2295893def6
-SHA1: 927aff2110da71215d76ed6394f257472fa19130
-SHA256: 25a13040c58ee7d5430d5cc838c8cd6b27b809bf9ff11bbd2ff3d53dee0841e7
-SHA512: 39ec33b3fdaeb8d69d278d6366012cfca6680a6615127eabce58c840d070cdf28ab0b4c787d612a738b2ecc3c8ac7e28cddd80c1fa4bc6043f82a0bf060f70f8
+Filename: ./qml6-module-org-kde-purpose_6.32.0-1_amd64.deb
+Size: 159372
+MD5sum: c35243533ee50858eb110cc277d89d09
+SHA1: 9a3fe5e101911868fca140f1bf33bb899f41c301
+SHA256: 0fa5839b4a50ef1c45abb39ed78425076e1cc2dc0a1900c96e6513041bd206eb
+SHA512: d2eb429855edf3835c7d6e2e638fd3260e8637e1982e169c2a4e060ad24d7224c47fb2919b648b5b774926b5ec7bbfdc29c4951f0e31e1b281c3a6a9e80bd293
 Homepage: https://invent.kde.org/frameworks/purpose
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
@@ -63162,7 +63164,7 @@ Description: Kvantum style engine (binaries)
 
 Package: qt5-gtk-platformtheme
 Architecture: amd64
-Version: 5.15.19+dfsg-7
+Version: 5.15.19+dfsg-8
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -63170,12 +63172,12 @@ Source: qtbase-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 478
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.34.0), libgtk-3-0t64 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-19
-Filename: ./qt5-gtk-platformtheme_5.15.19+dfsg-7_amd64.deb
-Size: 126640
-MD5sum: 3a29c162111005a245c86ac744eadb07
-SHA1: 8ae25b2b2d8a2ed8722a6f2da5f99267bbefa7b8
-SHA256: eda4c22c2db1cda51e66991f5ecc4265c2945cea3a127ce9a3ede15ea4af53c0
-SHA512: 7b08f5b73c4c3aa8f37ef33e534a5775853d25c282508ae7e8c7a1d871582526298c6da5e694eb74b062dcd6f6bf7e5630d0cb4331c9edbcfed5db37edb35c95
+Filename: ./qt5-gtk-platformtheme_5.15.19+dfsg-8_amd64.deb
+Size: 126268
+MD5sum: e88f92e6d847df860501460f1a58725e
+SHA1: 8a911f4cd870ff7976e38d6fd72c5f4e8b60fdbc
+SHA256: f82fe03e12b4643700b645e31066ca0340a6076d8ba5bc8f51eb4d41a5a8354e
+SHA512: f96436759f9a934742f598603f732b8de449e183996a9e65d58260645c1c8bf67b80fbcfdc67345473582905912bae9fcf061af90a32fe5db659508161d8a0ae
 Homepage: https://www.qt.io/developers/
 Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -64979,20 +64981,20 @@ Description: Wayland native snapshot and editor tool
 
 Package: sway
 Architecture: amd64
-Version: 1.12-1
+Version: 1.12-2
 Priority: optional
 Section: x11
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
-Installed-Size: 977
-Depends: libgl1-mesa-dri, swaybg, libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.113), libevdev2 (>= 0.9.1), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.26.0), libjson-c5 (>= 0.15), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.22), libpixman-1-0 (>= 0.25.2), libsystemd0 (>= 243), libudev1 (>= 183), libwayland-client0 (>= 1.21.0), libwayland-cursor0 (>= 1.21.0), libwayland-server0 (>= 1.23.0), libwlroots-0.20 (>= 0.20.0~), libxcb-icccm4 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.5.0)
+Installed-Size: 1001
+Depends: libgl1-mesa-dri, swaybg, libc6 (>= 2.34), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.113), libevdev2 (>= 0.9.1), libgdk-pixbuf-2.0-0 (>= 2.31.1), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.26.0), libjson-c5 (>= 0.15), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpcre2-8-0 (>= 10.47), libpixman-1-0 (>= 0.25.2), libsystemd0 (>= 243), libudev1 (>= 183), libwayland-client0 (>= 1.21.0), libwayland-cursor0 (>= 1.21.0), libwayland-server0 (>= 1.23.0), libwlroots-0.20 (>= 0.20.0~), libxcb-icccm4 (>= 0.4.2), libxcb1, libxkbcommon0 (>= 1.5.0)
 Recommends: polkitd, foot, wmenu
 Suggests: sway-backgrounds, swayidle, swaylock, xdg-desktop-portal-gtk, xdg-desktop-portal-wlr
-Filename: ./sway_1.12-1_amd64.deb
-Size: 335288
-MD5sum: 52b638f178859d108b239e3eab10f6bf
-SHA1: dae23c414b8d644a76b5a604abc14fe3c81282cd
-SHA256: 1f6a7d1b32d9c765e8e57c6d5f2aa08764f9a6757a073ca3019ac58f9b35f309
-SHA512: cbc79ca81dde4cdbd3f169b4304e65b679dde840f9ce7cbb6a7fad5e8b8cc096389fa5f9c5e10b24673d8c63e01f4e96ea107aeaec25d71fa94bdb68d9de9cc1
+Filename: ./sway_1.12-2_amd64.deb
+Size: 349672
+MD5sum: e7a5842c4002530c083a0523ec00cecc
+SHA1: b9a88854bcdece1e23b168d470a3c8c2f0d1e3a2
+SHA256: a49d80d09163e0838ceb10cb14589c3d29af453f62fd39dc5e6d8fabf0e0a42b
+SHA512: 02d65c949915c4ac43a1b5a58d927878a1733f04568d1d0f0634051ec7d75b68fec99575bbeb54e8dc868c7d6d39f3d6b7f9d1cac2637cae6ffbf49ffd599f4c
 Homepage: https://swaywm.org
 Description: i3-compatible Wayland compositor
  sway (SirCmpwn's Wayland compositor) is a tiling Wayland compositor and a
@@ -71699,41 +71701,43 @@ Description: LibreOffice UNO runtime environment -- private libraries used by pu
 
 Package: untex
 Architecture: amd64
-Version: 1:1.2-10
+Version: 1:1.2-12
 Priority: optional
 Section: tex
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 35
+Maintainer: autext <autext@outlook.com>
+Installed-Size: 33
 Depends: libc6 (>= 2.34)
-Filename: ./untex_1%3a1.2-10_amd64.deb
-Size: 9704
-MD5sum: e41164698c28b1dca51666da7e7826af
-SHA1: adf7e5bf971c5d59111ea19e4b8b141adadf5939
-SHA256: 49e458d80c6580a8d5f11784091434b40283400ec8d047c73f47f5ec36b457de
-SHA512: b8ac2ff240e8982fff233da8b3be7c13372af73cd96acef7f3c2063466f6e334a4ce93b11ada67ec0abf7ced7a4c78722b434897e4b003bd2191519d65963a85
+Filename: ./untex_1%3a1.2-12_amd64.deb
+Size: 9796
+MD5sum: 1b0503b2c2f8688733d84b8c901fd939
+SHA1: 55eda58d5ce85ed570c935c31f722be8ec2691d0
+SHA256: ff0e3334a2925b416c377153bc6d6408a06081e0b28f9f444c722892c448ddf0
+SHA512: 4c6e90c883549258446a62e5558bd9286e6590d4ce025f442af623e63fd0f16ae92f5851768fcab382e5894d68f5951bbb4dc78d7f370c8e49dd9263f44a9bd2
 Homepage: http://www.ctan.org/pkg/untex
 Description: remove LaTeX commands from input
  The program will remove “some LaTeX commands” from a file (it will
  optionally try to strip out all mathematics, too). It also has an
  option to honour \input and \include commands in the file. Input is
  read from files and results are sent to stdout.
+Commands: untex
 
 Package: upower
 Architecture: amd64
-Version: 1.91.5-1
+Version: 1.91.5-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
+Source: upower (1.91.5-1)
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 370
-Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.5-1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-4 (>= 2.3.0), libpolkit-gobject-1-0 (>= 0.99)
+Installed-Size: 371
+Depends: default-dbus-system-bus | dbus-system-bus, udev, libupower-glib3 (= 1.91.5-1+b1), libc6 (>= 2.42), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 238), libimobiledevice-1.0-6 (>= 1.3.0), libplist-2.0-12 (>= 2.8.0), libpolkit-gobject-1-0 (>= 0.99)
 Recommends: polkitd
-Filename: ./upower_1.91.5-1_amd64.deb
-Size: 110388
-MD5sum: 6d0ed370706593b9f98a66c81acbf188
-SHA1: 3871c8c94b5e90a2d894a5dd4a743f8ffe2a0cf0
-SHA256: e89c0472f098c873181dbba5c33e72964da25a587763a1dcaa43bb2a2efaeb0d
-SHA512: 0e602de1aa2de92e627ecaa061b39f9e923bc42f2fa46c54440b91d66089450430e765584885c378537ead4a6722af65aef9c27a0f89358d203603732efdf9b2
+Filename: ./upower_1.91.5-1+b1_amd64.deb
+Size: 110768
+MD5sum: 15d57dc0323c15b9b060f9a4e9043c84
+SHA1: b69ca3555b3c9ad104b3271a6ada2473aa4c13be
+SHA256: f597d409f0d8f07a31264f3b7a035fb2d6b191ae89cae3f0225cb97ca6b11bd6
+SHA512: ddbbd4f8ed8596443fe6e8842421b1e88421ef82d07db54a5b16d27f5e9b1f83964416d39b7b87f593cc0124e8bbbe8b186627141b283ef54c011a47175237cd
 Homepage: https://upower.freedesktop.org/
 Description: abstraction for power management
  upower provides an interface to enumerate power sources on the system
@@ -72332,20 +72336,20 @@ Description: Description of Finnish morphology written for libvoikko
 
 Package: waybar
 Architecture: amd64
-Version: 0.15.0-1+b1
+Version: 0.15.0-1+b2
 Priority: optional
 Section: x11
 Source: waybar (0.15.0-1)
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
-Installed-Size: 3380
-Depends: libatkmm-1.6-1v5 (>= 2.28.5), libc6 (>= 2.38), libcairomm-1.0-1v5 (>= 1.14.6), libdbusmenu-gtk3-4 (>= 0.4.2), libevdev2 (>= 0.9.1), libfmt11 (>= 11.1.1+ds1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libglibmm-2.4-1t64 (>= 2.66.10), libgps32 (>= 3.3), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.9.0), libgtkmm-3.0-1t64 (>= 3.24.11), libinput10 (>= 0.15.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjsoncpp26 (>= 1.9.6), libmpdclient2t64 (>= 2.0), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libpipewire-0.3-0t64 (>= 0.3.1), libplayerctl2 (>= 2.4.1), libpulse0 (>= 5.0), libsigc++-2.0-0v5 (>= 2.8.0), libsndio7.0 (>= 1.8.1), libspdlog1.15-fmt11, libstdc++6 (>= 16.2.0-3), libudev1 (>= 183), libupower-glib3 (>= 0.99.8), libwayland-client0 (>= 1.20.0), libwireplumber-0.5-0 (>= 0.4.81), libxkbregistry0 (>= 1.0.0)
+Installed-Size: 3412
+Depends: libatkmm-1.6-1v5 (>= 2.28.5), libc6 (>= 2.38), libcairomm-1.0-1v5 (>= 1.14.6), libdbusmenu-gtk3-4 (>= 0.4.2), libevdev2 (>= 0.9.1), libfmt12 (>= 12.2.1+ds1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libglibmm-2.4-1t64 (>= 2.66.10), libgps32 (>= 3.3), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.9.0), libgtkmm-3.0-1t64 (>= 3.24.11), libinput10 (>= 0.15.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjsoncpp26 (>= 1.9.6), libmpdclient2t64 (>= 2.0), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libpipewire-0.3-0t64 (>= 0.3.1), libplayerctl2 (>= 2.4.1), libpulse0 (>= 5.0), libsigc++-2.0-0v5 (>= 2.8.0), libsndio7.0 (>= 1.8.1), libspdlog1.17-fmt12, libstdc++6 (>= 16.2), libudev1 (>= 183), libupower-glib3 (>= 0.99.8), libwayland-client0 (>= 1.20.0), libwireplumber-0.5-0 (>= 0.4.81), libxkbregistry0 (>= 1.0.0)
 Suggests: fonts-font-awesome, gir1.2-playerctl-2.0, libappindicator3-1, python3:any, sway
-Filename: ./waybar_0.15.0-1+b1_amd64.deb
-Size: 1035276
-MD5sum: 7ffdc7a920640b778c051e635ef7ccc0
-SHA1: 84abea73cca93786b4d647eee47ad68449291210
-SHA256: 48d21e5e6fc7ed10c256dfd6ca968574dc800bafd672226a0fdd026cd8d1c07d
-SHA512: 6807f1a97ddfa2dff04e863b3a519bae74ed5200bbe8a33cc8411931093c2e76598611d94b0871db1a50369c5f9a6a85ba6f13c9e82a1f1c037c4d9ad2cfdf68
+Filename: ./waybar_0.15.0-1+b2_amd64.deb
+Size: 1048644
+MD5sum: fa42e1ff325f8a30940dd74d45925646
+SHA1: a20f3a94b89969ddaf0641d98614687e40521fd1
+SHA256: 4dd91c0289254c1d8f7c78971580cc4b99856d1baa5426e8cc01cf56c06ee646
+SHA512: 6847c1337b4a6f25171d019b44a74413364f23fddf72b96a4d44068b67aea3e90a7af099c03b1501cc2a0e31b7369a0e6b2ff2d96c487be00e3a44f4c75befd4
 Homepage: https://github.com/Alexays/Waybar/
 Description: Highly customizable Wayland bar for Sway and Wlroots based compositors
  Waybar is a highly customizable wayland bar for Sway and Wlroots based
