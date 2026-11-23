@@ -7373,21 +7373,21 @@ Description: Introspection data for CinnamonDesktop
 
 Package: gir1.2-cloudproviders-0.3.0
 Architecture: amd64
-Version: 0.4.1-1
+Version: 0.4.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 29
-Provides: gir1.2-cloudproviders-0.3 (= 0.4.1-1)
+Provides: gir1.2-cloudproviders-0.3 (= 0.4.2-1)
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, libcloudproviders0 (>= 0.2.5)
-Filename: ./gir1.2-cloudproviders-0.3.0_0.4.1-1_amd64.deb
-Size: 7368
-MD5sum: 53f341d0101d0b7b6a85e644100000a4
-SHA1: fec1ccc1f64756c495fd157cfe68107378c27038
-SHA256: 051fbf402f1d36afb33b544ebdadc861e96cdc716efffcbd323e415f27a32e7a
-SHA512: 5cc6acda743c1ea147031814a0923c93860268ac76680ddd5b9a75c11b1fb28613518f48c6b5ec436649e5c300e99c4b130467acef66dbedf1b8faf772316a36
+Filename: ./gir1.2-cloudproviders-0.3.0_0.4.2-1_amd64.deb
+Size: 7460
+MD5sum: 6ee03909c5a8b1f1005d06e5f8a45be0
+SHA1: 609e545bb2a829288d5c53a9e9a2fe0765bf22fb
+SHA256: dbb400b86ce0eaa7487df25eee6b7529c3096b5f5eff6ef9aa5a775dcf283d26
+SHA512: 2a239615389bf8fbbf4c082ac9a2e0e157f3cca601708cce1abb4a1f233adfb5ed1e38108211a705579566e672e9542f44cc222e912b575858bafeca00c56441
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - introspection data
  libcloudproviders is a glib based library that makes it easier to implement
@@ -18001,22 +18001,22 @@ Description: Library of the javascript bindings for the Cinnamon
 
 Package: libcloudproviders-dev
 Architecture: amd64
-Version: 0.4.1-1
+Version: 0.4.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 246
-Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.1-1)
-Depends: libcloudproviders0 (= 0.4.1-1), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.1-1), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
+Provides: gir1.2-cloudproviders-0.3-dev (= 0.4.2-1)
+Depends: libcloudproviders0 (= 0.4.2-1), libglib2.0-dev, gir1.2-cloudproviders-0.3.0 (= 0.4.2-1), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev
 Suggests: libcloudproviders-doc
-Filename: ./libcloudproviders-dev_0.4.1-1_amd64.deb
-Size: 18132
-MD5sum: 0c9d7a95fd6ec793f46697e04ce0c310
-SHA1: 1d2b5dabf651ecb2570d1276f1781257d91906d5
-SHA256: b8e74450108daab483b3d80c531e9d7141902d19fb00c8808528ed3445068eda
-SHA512: a7731da3bc57853b3957df12b034176366590810f87512e6e77b589fab580ee874c48fab966685c19062cedf8217ddf65bad894494c684e72415764059ae5c6f
+Filename: ./libcloudproviders-dev_0.4.2-1_amd64.deb
+Size: 18232
+MD5sum: 13929f9486f4aa79beb73439cd99d48a
+SHA1: 8d3f9e510343e53d62c107fd006ccb373a045408
+SHA256: 2d8f842f7b96f98359b5b48adb707f2b79c7843b289d1a4725e4ac59478290d9
+SHA512: c720dccfbac0d7ecea6fbcf1dbb3e410126800526ac6fd6ff01f96485323b6fdd25655536ebfb01d7a6f72d1d43d110beaa359d5cdf4bf56c961ea0af9cf36f7
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library - development files
  libcloudproviders is a glib based library that makes it easier to implement
@@ -18031,7 +18031,7 @@ Description: cloud provider library - development files
 
 Package: libcloudproviders0
 Architecture: amd64
-Version: 0.4.1-1
+Version: 0.4.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -18039,12 +18039,12 @@ Source: libcloudproviders
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 117
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.56.0)
-Filename: ./libcloudproviders0_0.4.1-1_amd64.deb
-Size: 29584
-MD5sum: 2653b62c8c0d9c1a90ce98721298d30c
-SHA1: 627d3f68baf572e0afdf3d308131c6b11253773a
-SHA256: 1bc8aaa412057c6b85e12b48202f69921f236e86fcda186e988ad179b7337ca0
-SHA512: 40781fe9437ebea26eaba229e0a22cc95e4fd5e86f1502dfba940bdb588b6bd02b8b04363802b5d0b0b1c0be748c0c9a67c0ea172e39cf216bd6c2d5e0570f27
+Filename: ./libcloudproviders0_0.4.2-1_amd64.deb
+Size: 29744
+MD5sum: 3a152ca8528cb39ac3e34d59a7861ad8
+SHA1: 3c326c1bd4eb97d3d460a561a66c8c5f17351174
+SHA256: 452dd8355f8246b07e7c15cfb36e40dfbcf6b4b2964673ad30f6d5eb7f3a4bf5
+SHA512: fb155ceb610c429fceebcc1254734eb8ca6e549dedab53fdab15f7a1eb4c74be4f8ce7e2dea104eee1ca5ffa26a1323d3a232157a97751e5cbb0c1332e0bb2fc
 Homepage: https://gnome.pages.gitlab.gnome.org/libcloudproviders/
 Description: cloud provider library
  libcloudproviders is a glib based library that makes it easier to implement
@@ -18332,19 +18332,19 @@ Description: parsing/manipulation of structured configuration files
 
 Package: libcpupower1
 Architecture: amd64
-Version: 7.3.4-1
+Version: 7.3.5-1
 Priority: optional
 Section: libs
 Source: linux
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 392
+Installed-Size: 404
 Depends: libc6 (>= 2.38)
-Filename: ./libcpupower1_7.3.4-1_amd64.deb
-Size: 354976
-MD5sum: 601c9fe4208ea0cbba51cc4b02d273ce
-SHA1: 807ef67b6ebc416aaf745ee1a1a705a804b40694
-SHA256: 6b4a04933abe5922bbffc4281d57df70e788fd2e48d8b4e8d1cd3bfb6c7a3da5
-SHA512: 12a32da16342758fc6aac5de90a635979c9a37b34ff9c17c2722685658fef7ce3a320665533c50221265197e242bec6c7404da28aea72e3909f1bd2e297f3108
+Filename: ./libcpupower1_7.3.5-1_amd64.deb
+Size: 367524
+MD5sum: 9a75fa26c5e0f901febb3cfde5b51709
+SHA1: 20b0e3b4e4ec342110202071c81ba8cedcaac0e4
+SHA256: c9924da0640e0cf8ec5a68713466e6848bf337a817711374117056fe5f59c1bc
+SHA512: f70d4264ccca8bd9ec9f3ce77b64691a06751b8ee3cfe2801046c4cd135e52d023924fd27458544414a1d9cd7cce63bc691f035ad169374560d0a1ea573a07a6
 Homepage: https://www.kernel.org/
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
@@ -34400,22 +34400,22 @@ Description: library for the Metacity window manager
 
 Package: libmimalloc3
 Architecture: amd64
-Version: 3.6.1+ds-1
+Version: 3.7.0+ds-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: mimalloc
 Maintainer: Alex Myczko <tar@debian.org>
-Installed-Size: 259
+Installed-Size: 295
 Depends: libc6 (>= 2.34)
 Breaks: libmimalloc2.0 (<< 3.0.1+ds-2)
 Replaces: libmimalloc2.0 (<< 3.0.1+ds-2)
-Filename: ./libmimalloc3_3.6.1+ds-1_amd64.deb
-Size: 99200
-MD5sum: 03cf5f1adc3b01a0f696f38d5d892122
-SHA1: 68a87ad0d915aa49dfbd576899a4167cded6483e
-SHA256: c0decf4b4042866f77ebb1cd6123ee6a96d05d0417272a3e4d5c7c308cfc6761
-SHA512: f3e768f42fc8acb52c2f02a0da5a8cbfb88e0124c7a52c471f1b3ca0b676123ca1ebed118005295dbe52fc2af1a521acec2581370eba403787bb3c438f663248
+Filename: ./libmimalloc3_3.7.0+ds-1_amd64.deb
+Size: 111804
+MD5sum: 082af42eb2757f2ab56ee6d7f1545cb5
+SHA1: c209b930691b314ae8c1eb921ff7533fb08d110f
+SHA256: 61f9187cd28a28eae9603732b70bab77c3d353911bc8b5d0fb2e5cd9beafd129
+SHA512: e2ea9794d48da2c64ad0b21bc0c6d95d50b86c084d0c427a4525d3e84cc71165ed53fdda1ab4ee6d7af3a8c6860ab097087d52313bfbb2073d4d71855d89c69c
 Homepage: https://github.com/microsoft/mimalloc
 Description: compact general purpose allocator with excellent performance
  This is a general purpose allocator with excellent performance characteristics.
@@ -52478,23 +52478,23 @@ Description: Library for the GNOME help browser
 
 Package: libyuv0
 Architecture: amd64
-Version: 0.0.1974.20261008-1
+Version: 0.0.1984.20261118-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libyuv
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 708
+Installed-Size: 888
 Provides: libyuv
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 4.1.1)
 Conflicts: libyuv
 Replaces: libyuv
-Filename: ./libyuv0_0.0.1974.20261008-1_amd64.deb
-Size: 195088
-MD5sum: 95dd886518d49d0d17b6eea73c38f3ba
-SHA1: ee25ecd468ab5c2231421d56e11a0b5487aed13d
-SHA256: 8e01a507764361ed8500c46f49e9142b08c9f8e7eebd7b511ebf2f5102fb7acf
-SHA512: a7f9083f3f055c33bd1a3f445288bea235c021d36046505358094505bc30ad4bbfb080e94eff1922678bb7ca47f316ab757a70253bfcaae9df6f1119356104c7
+Filename: ./libyuv0_0.0.1984.20261118-1_amd64.deb
+Size: 244600
+MD5sum: f6fb520d07163d22ac04b53c186f5d17
+SHA1: c1831abe4c31f991d7f2249a6537684ada819aff
+SHA256: e8731f9e52cf403754057556876973c485688d066009f94dbb3510fdf71fc6e5
+SHA512: 5fa1d5442f33acd361c8882194d11b1625c4a18e0bcaf75104ed5c24dd51e8224c09f3393dfbef395e273991f769bdd0b40ecea63c798059beccc93e26804084
 Homepage: https://chromium.googlesource.com/libyuv/libyuv/
 Description: Library for YUV scaling (shared library)
  libyuv is an open source project that includes YUV scaling and
