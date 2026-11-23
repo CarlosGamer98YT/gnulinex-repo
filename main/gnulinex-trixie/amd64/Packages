@@ -37728,22 +37728,22 @@ Description: Document (Comic Books, DjVu, PDF) rendering library - GTK widgets
 
 Package: libpq5
 Architecture: amd64
-Version: 18.7-1
+Version: 19.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: postgresql-18
+Source: postgresql-19
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 1300
+Installed-Size: 1323
 Depends: libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libldap2 (>= 2.6.2), libssl3t64 (>= 3.0.0)
 Recommends: ca-certificates
 Suggests: libpq-oauth
-Filename: ./libpq5_18.7-1_amd64.deb
-Size: 272852
-MD5sum: 8cd06eedcf82dae506b8eb6561140d21
-SHA1: 042258f66aaeee97a131ba71554867224725df0c
-SHA256: 960f75fa3ff75769bdca702140a58f329f23121466e48033f92ba0db9f3e1231
-SHA512: f4123407ebe41f7a1105b4eb471cb14e1c6ac0a6b0c5bb3e1cde50ecae76475a7e43145245256bf3a3ebf541d40f486fede4f7766073fe68ad76a85e750a2a3f
+Filename: ./libpq5_19.0-2_amd64.deb
+Size: 268792
+MD5sum: 642b88598c1580d249d254976ef00525
+SHA1: c63029714c6cdf84e2d577221f6dd60cd62d44f6
+SHA256: 4dd465481ae93a589e6eb6ae30fd3737a359192c0aea9e6c661512b35e8a294f
+SHA512: 0f256f708873e52e52a9de979a3c8ff38b226876116e4658bcbd7505e72512c8982da9b3e74fb0e011b5e4992b1e02ae4cfd64a74d5c19e0fb65ba7fb634d806
 Homepage: http://www.postgresql.org/
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
