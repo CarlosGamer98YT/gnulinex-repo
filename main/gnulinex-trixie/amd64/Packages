@@ -57102,21 +57102,21 @@ Description: OpenJDK Java runtime, using Hotspot JIT
 
 Package: orca
 Architecture: all
-Version: 51.1-1
+Version: 51.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 19682
+Installed-Size: 19833
 Depends: dconf-gsettings-backend | gsettings-backend, python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-wnck-3.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gir1.2-atspi-2.0 (>= 2.58.6~), python3-babel, python3-brlapi, python3-cairo, python3-gi, python3-louis, at-spi2-core (>= 2.58.6~), python3-speechd, python3-dasbus, python3-dbus, python3-setproctitle, python3-psutil, speech-dispatcher, gsettings-desktop-schemas, xkbset
 Recommends: xbrlapi
 Suggests: brltty, gpaste-2 | klipper
-Filename: ./orca_51.1-1_all.deb
-Size: 2422452
-MD5sum: 53ccb8b20defe2a25daf390dc94112a9
-SHA1: 11e592b3c26e8b7acdce8a3494322d2dfafc6d7a
-SHA256: d2852a0429c20e8618c4363ff56a90bcb7d3ed51b7e44e7cc71f95f93bc3a8e1
-SHA512: 0346f077e5a90d16a8b3f5194d661ffb84145c81620d01ea43fdafedc4e2dada28506aebde2adb776a55349262f3dc990cc94d1fbbdde3d941d089c853deadf8
+Filename: ./orca_51.2-1_all.deb
+Size: 2437300
+MD5sum: 985a007f4b4a3f41defbeef1a510d1ef
+SHA1: decae3369cd0dd1666131245606928705e0694d7
+SHA256: edaf99713c5746bac70928a64b87086194d05a58f0c57d4e273ad9f6318bed2a
+SHA512: 7b69a61aa5011ea1433584913c0292d54a7f1f145860cedfb7f3a664ba16be57cb7bde2d1179e273fb8651113288b81f57e1e11c1450eb9d75c12623edc412a7
 Homepage: https://wiki.gnome.org/Projects/Orca
 Description: Scriptable screen reader
  A flexible, extensible, and powerful assistive technology that
