@@ -34732,20 +34732,20 @@ Description: library for Microsoft compression formats (shared library)
 
 Package: libmspub-0.1-1
 Architecture: amd64
-Version: 0.1.5-1
+Version: 0.1.6-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: libmspub
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 462
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0, libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./libmspub-0.1-1_0.1.5-1_amd64.deb
-Size: 174376
-MD5sum: e1ca3d6b3e5b7e9bbd57834ce68def2a
-SHA1: 25632a684418b04c3d7de97502d3fc1264c976a2
-SHA256: f9c5444d435a3c97a13158c052d3d4e131c1f397993d8fa3994a302c7b799c14
-SHA512: 0875e493e083410d0491a37d38047f729d98ac065b3ca92128d034262d2ca045e41fb164af922ead1216aa2976be4724ef463cca6cfddbcfd26d05755a9d6ef1
+Installed-Size: 500
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libicu78 (>= 78.1-1~), librevenge-0.0-0 (>= 0.0.6), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Filename: ./libmspub-0.1-1_0.1.6-1_amd64.deb
+Size: 195060
+MD5sum: d4b3deb6b6706cbbfb4faabcfeba7745
+SHA1: c461afbb3d4cad1feea19ca9c9504706247fa97d
+SHA256: fb688170c648856adb7e2fcb5f7650d5fa439a5d7d2130f3c741eb63313db300
+SHA512: 2de421f9ae33bcc165c34f2c10e87afaeb8623289f77e07c554429a633c9c55e61b5ab522c8ae86bc1f5e43115a5c67c4a0fd3ed7c94ffd83522d477fa73c7b5
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libmspub
 Description: library for parsing the mspub file structure
  Libmspub is library providing ability to interpret and import mspub
@@ -60618,20 +60618,20 @@ Description: Python 3 XApp library
 
 Package: python3-xlib
 Architecture: all
-Version: 0.33-6
+Version: 1.0-1
 Multi-Arch: foreign
 Priority: optional
 Section: python
 Source: python-xlib
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 727
+Installed-Size: 981
 Depends: python3:any
-Filename: ./python3-xlib_0.33-6_all.deb
-Size: 122904
-MD5sum: ca13d472ab477dce0971aad71bdf5e0f
-SHA1: 93e724042c1910e57095873c48a2162eee203ff1
-SHA256: efcac217cc8faed63c380b0a03438b14f1af1ab1fa9cd546c6e62e0b429c975f
-SHA512: be62d84d796e1028057a44678a5f350f9c0e6cab760e7dbf508990b23b51e9686822e9292927cbb74b9ef6437b54105c655d4bfde75cc12c7bf160c56eb40359
+Filename: ./python3-xlib_1.0-1_all.deb
+Size: 159920
+MD5sum: 33faec1b59f655f7340ccf2576741edf
+SHA1: f75f432dc637a7f38c50cff8022e2a22c6a655ca
+SHA256: d253db37141da1d60eeb5b5a12f7f9690ae8dbdb4cdd550099db0b1ca4e868d7
+SHA512: c870929a30c090dfeadd97fbc2cd1daef0c080027eb42807c0b2a7948cd936b69a0290d379f9129af143f24ec4e8e4b8904fd0c5f5ab104b66c82414136f283e
 Homepage: https://github.com/python-xlib/python-xlib
 Description: interface for Python 3 to the X11 protocol
  python-xlib is a 100% pure Python 3 implementation of the X11
@@ -64785,24 +64785,25 @@ Description: GNOME front end for GnuPG
 
 Package: showtime
 Architecture: all
-Version: 50.0-2
+Version: 50.1.1-1
 Priority: optional
 Section: video
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 707
+Installed-Size: 781
 Depends: gir1.2-adw-1 (>= 1.8), gir1.2-gst-plugins-base-1.0, gir1.2-gtk-4.0 (>= 4.20), gstreamer1.0-gl, gstreamer1.0-gtk4, gstreamer1.0-plugins-good, python3-gi, gir1.2-gst-plugins-bad-1.0, python3:any, dconf-gsettings-backend | gsettings-backend
-Filename: ./showtime_50.0-2_all.deb
-Size: 101040
-MD5sum: 6fe98826de404c0f29c914b09bd99aba
-SHA1: 02c132c0eae48cb97c75b3889e6babfc439de32c
-SHA256: b5b1370439e2fca56000882c8d1521fd1384f7ae03f89ac283bbca287f1db3bf
-SHA512: d3b43a61a19611f8097287c7f46ebb191c785e79dbedd881794cbed80241a6c0f27bbf35400cd67354f95c51bc522e83e400ce8c82374dad5076080f460ae5ad
+Filename: ./showtime_50.1.1-1_all.deb
+Size: 110520
+MD5sum: 85b8a83580398eeb03fd0909fdd7d2c6
+SHA1: 51f7c77eead5b77b883bb7ac0d1f2a5cdee5714a
+SHA256: abf27ebc60b5f223a303b4e945ea1dff63dbd93fb8aeb1868432689403840294
+SHA512: a7d4077ec130459e4b3bc6e996332acf9a28adc65194a5214a0d6fec669bd3a60b8817211fd7fd25ae7f63c39bb190d685681dcb5bfe26c1a87170497dabfe1f
 Homepage: https://apps.gnome.org/Showtime
 Description: Watch without distraction
  Play your favorite movies and video files without hassle. Showtime features
  simple playback controls that fade out of your way when you're watching,
  fullscreen, adjustable playback speed, multiple language and subtitle tracks,
  and screenshots — everything you need for a straightforward viewing experience.
+Commands: showtime
 
 Package: simple-scan
 Architecture: amd64
