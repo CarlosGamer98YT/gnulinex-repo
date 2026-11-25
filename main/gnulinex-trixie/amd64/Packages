@@ -23761,21 +23761,21 @@ Description: GnuPG development runtime library
 
 Package: libgpgme45
 Architecture: amd64
-Version: 2.2.0-2
+Version: 2.3.1-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gpgme1.0
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
-Installed-Size: 602
+Installed-Size: 603
 Depends: gnupg (>= 2.1.21-4) | gpg, libassuan9 (>= 2.4.2), libc6 (>= 2.38), libgpg-error0 (>= 1.50)
 Recommends: dirmngr, gpg-agent, gpg-wks-client, gpgsm
-Filename: ./libgpgme45_2.2.0-2_amd64.deb
-Size: 360108
-MD5sum: a4ebbcb920e4e2742a1032a621a438e3
-SHA1: 34f408d511228a6d0fa3fcef8afc84c7494f5e54
-SHA256: fac6ca780ade1cd55897015563f6a756854aefd8918e0af55aacfb5e9e032ad3
-SHA512: 3d9c8ebd529e4d82eed88c768bf3385e646af9c97ea7ea7f84b692f439a990cd8af8df3ad590d870536190e426c74da587fcf1bbe1a84b02d670de2bfdda35ff
+Filename: ./libgpgme45_2.3.1-1_amd64.deb
+Size: 361224
+MD5sum: 461c74df48e05ca252e8f4d1038445d8
+SHA1: de2b0b3af0b9b9dd575d1859b0373b0b49f41118
+SHA256: db06ffe4c368ae08af19d5ac6d593fab9a074d4d6b89855ef1967a503072423d
+SHA512: af1048ef2514265ba67bf4c74e982df8779355b1d1cc35770f4e6c097a98541b5ab43566dd2dd3945f33fb9931cfdfa1428fd3baa34c09e53b563fa4e3c59df7
 Homepage: https://gnupg.org/software/gpgme/
 Description: GPGME - GnuPG Made Easy (library)
  GPGME is a wrapper library which provides a C API to access some of the
@@ -56261,20 +56261,20 @@ Commands: mozo
 
 Package: mtools
 Architecture: amd64
-Version: 4.0.49-1
+Version: 4.0.50-1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Maintainer: Chris Hofstaedtler <zeha@debian.org>
-Installed-Size: 400
+Installed-Size: 404
 Depends: libc6 (>= 2.38), libc-gconv-modules-extra | libc6 (<< 2.42-1~)
 Suggests: floppyd
-Filename: ./mtools_4.0.49-1_amd64.deb
-Size: 199024
-MD5sum: 24481694bd49ce0671e85f34f998a4ff
-SHA1: 04ce0a36058a2e2f35bbb01a9b7d708e61f10021
-SHA256: 81af1fd07a8c966afb50d24d1ef6edeadbc0cc6650b4e75df1c77aea0a0219bf
-SHA512: 9c3b1d463d9036256a85d0e747bbce359de85089d2f96ef7cb391f33a5db63c73630c2ad504f1ca326f96bb3572a4a5d14eb62790bcfb357a03aa66bbede1237
+Filename: ./mtools_4.0.50-1_amd64.deb
+Size: 201560
+MD5sum: 4a20fe7a83c3904e22a2b2f03e639cd2
+SHA1: c50a66a3061aee343022f8c82d13cfc28a5952cc
+SHA256: e36740b4b5f96e01ae7adb8e725ccd83ef99a0a4e988857356ba38df25042eba
+SHA512: 299eb418021639932d8be5eba41945fa5068cefb78083a20c67d58fb97bd2acab5c7082f199efeb096323799f1c482bf7627c78d95e500a7e1c27999e8387a26
 Homepage: https://www.gnu.org/software/mtools/
 Description: Tools for manipulating MSDOS files
  Mtools is a collection of utilities to access MS-DOS disks from Unix without
