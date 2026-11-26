@@ -6729,7 +6729,7 @@ Description: Adjust display hue to outside lighting conditions
 
 Package: gcc-16-base
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -6737,12 +6737,12 @@ Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 107
 Breaks: gnat (<< 7)
-Filename: ./gcc-16-base_16.2.0-4_amd64.deb
-Size: 39320
-MD5sum: 26e128fa514e77c2959cc3834792d1a2
-SHA1: 61d647e8e0dca0d545d314185019120343d71376
-SHA256: b81ebc677d1e2c4c0db8b3968f29addc18839d173a35366958fa815f3c5d1184
-SHA512: aaa4f1d97449fde79a5793dfb1f9fff3a97a2d17e96d53f0328dbde96aecd7092e4be51b66b1c740d1b30df04ab73488f4cade53ca3d9220e227acdf4ce28918
+Filename: ./gcc-16-base_16.2.0-5_amd64.deb
+Size: 39904
+MD5sum: 93ddb361dacceca6438d68c08cfa5aba
+SHA1: 1c2f7c1793eab70382d3008926ad0c12dd387875
+SHA256: 9455cc2c5f94d980f9b0fd4a0c45c9ae65159bb02d06d30a1436cc9a44ca920a
+SHA512: 689c7abac1852d482f4014253bd498ba161e01a4b0df215e4d2389e9db8b5b278647350294c940f142124cdf99b8dee2c0b3c897394383d867be1e42302226aa
 Homepage: https://gcc.gnu.org/
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
@@ -11014,7 +11014,7 @@ Description: daemon handling the GNOME session settings
 
 Package: gnome-shell-common
 Architecture: all
-Version: 51.0-3
+Version: 51.0-4
 Priority: optional
 Section: gnome
 Source: gnome-shell
@@ -11022,34 +11022,35 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Installed-Size: 8077
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: gnome-session-common (<< 50~alpha)
-Filename: ./gnome-shell-common_51.0-3_all.deb
-Size: 996148
-MD5sum: 4473c9bc2ccfff882c6caab5d1bc15e3
-SHA1: 9652a9949b421f39e63aeea9d54fa6fa8ea183be
-SHA256: 57abcc4b7b03db95a62b1352518c7cdc5917415363c13bd1d90c4dee279b74ca
-SHA512: 964c95db86e040f01fe46ca82b253032bd7d6db46ec236db83622ba2afbd13224f105b4e25779d7c4a605152c8ee0ad592d424b36c3ae6b2621c448da47be5e5
+Filename: ./gnome-shell-common_51.0-4_all.deb
+Size: 996100
+MD5sum: cdda19a77deccaf4ae9d3bd2e73c9123
+SHA1: ef63873513c32b56bd9f530076cd90e3d5c5e880
+SHA256: b0a3d8053230b4872ff5fa3c2b7f53ea018696818ab5bbe01dae7a5f66ac4c46
+SHA512: df5d1c71b8bf51598d90e7cc67bc5e4a5508b7d4a68136af72efae3fb6b6dfc5d7725af2b77983b701a870c8a844df7ee824154cc9617932a4e58d495f638aba
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: common files for the GNOME graphical shell
  This package contains translations and data files for the GNOME shell.
 
 Package: gnome-shell
 Architecture: amd64
-Version: 51.0-3
+Version: 51.0-4+b1
 Priority: optional
 Section: gnome
+Source: gnome-shell (51.0-4)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 7799
+Installed-Size: 7800
 Provides: notification-daemon, polkit-1-auth-agent
-Depends: evolution-data-server-common, gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gly-2 (>= 2.0), gir1.2-gnomebg-4.0, gir1.2-gnomeqr-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gudev-1.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-51 (>= 51.0-2~), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0 (>= 2.46), gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.90), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 51.0-3), gsettings-desktop-schemas (>= 51), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-27t64 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.90), libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.6), libmutter-51-0 (>= 51.0-2~), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.52.5), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
+Depends: evolution-data-server-common, gir1.2-accountsservice-1.0, gir1.2-adw-1, gir1.2-atk-1.0, gir1.2-atspi-2.0, gir1.2-gcr-4 (>= 3.90.0), gir1.2-gdesktopenums-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gdm-1.0 (>= 47.0-4~), gir1.2-geoclue-2.0, gir1.2-glib-2.0 (>= 2.86.0), gir1.2-gly-2 (>= 2.0), gir1.2-gnomebg-4.0, gir1.2-gnomeqr-4.0, gir1.2-gnomebluetooth-3.0 (>= 42.3), gir1.2-gnomedesktop-4.0 (>= 40), gir1.2-graphene-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gir1.2-gudev-1.0, gir1.2-gweather-4.0 (>= 4.1), gir1.2-freedesktop, gir1.2-ibus-1.0, gir1.2-mutter-51 (>= 51.0-2~), gir1.2-nm-1.0, gir1.2-nma4-1.0 (>= 1.10.4), gir1.2-pango-1.0, gir1.2-polkit-1.0, gir1.2-rsvg-2.0 (>= 2.46), gir1.2-soup-3.0, gir1.2-upowerglib-1.0, gjs (>= 1.90), gnome-control-center (>= 1:46), gnome-settings-daemon (>= 49), gnome-shell-common (= 51.0-4), gsettings-desktop-schemas (>= 51), gstreamer1.0-pipewire (>= 0.3.49), libglib2.0-bin (>= 2.86.0), python3, tecla, dconf-gsettings-backend | gsettings-backend, libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libecal-2.0-3 (>= 3.45), libedataserver-1.2-28 (>= 3.45), libgcr-4-4 (>= 3.90.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-2.0-0 (>= 2.86.0), libgjs0 (>= 1.90), libglib2.0-0t64 (>= 2.86.0), libgnome-autoar-0-0 (>= 0.1.1), libgnome-desktop-4-2t64 (>= 40), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.12.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.6), libmutter-51-0 (>= 51.0-2~), libnm0 (>= 1.4.0), libpango-1.0-0 (>= 1.37.5), libpipewire-0.3-0t64 (>= 0.3.49), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.52.5), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsystemd0, libx11-6, libxext6, libxfixes3
 Recommends: bolt, evolution-data-server (>= 3.45), gdm3, gnome-browser-connector, gnome-remote-desktop, gnome-menus, gnome-user-docs, ibus, iio-sensor-proxy, power-profiles-daemon, switcheroo-control, unzip
 Suggests: gir1.2-malcontent-0, gir1.2-telepathyglib-0.12, gir1.2-telepathylogger-0.2
 Breaks: gnome-session (<< 49~beta~), gnome-shell-extension-appindicator (<< 50), gnome-shell-extension-dash-to-panel (<< 55), gnome-shell-extension-dashtodock (<< 79), gnome-shell-extension-desktop-icons (<< 21.04), gnome-shell-extension-desktop-icons-ng (<< 46+really47.0.2-2), gnome-shell-extension-taskbar (<< 57.0-2.1~), gnome-shell-extension-top-icons-plus (<< 27-3~), gnome-shell-extension-workspaces-to-dock (<< 54~), gnome-shell-extensions (<< 40.0~)
-Filename: ./gnome-shell_51.0-3_amd64.deb
-Size: 981440
-MD5sum: 4eff0fa2a539685c492193b12e7531d7
-SHA1: e095d1c8560c3b6d9c2460dd9e63efb78f51c868
-SHA256: 3a8d1b67e7f04a81576ce4f5ee18b449890aa8a3152bb0feacc4d423336affa3
-SHA512: d1f39212e43b609f1e3f539549999faa27f530bd803bcc840b22c6ce3a254537ca8cc55022886ebe0335ccac712650468120a9fa00c517fe87c0c377a18af65a
+Filename: ./gnome-shell_51.0-4+b1_amd64.deb
+Size: 980780
+MD5sum: 4dddca622d4fd9bc06d1fa5844a47819
+SHA1: 4d924a8e46066f38d92ea402ccaa3cf2075f1202
+SHA256: 9cf20e5f6ff85deb747a9829f97636484f0efed48a59fc90e09ecbd0d766eced
+SHA512: a382a3406846a415abf16c022c836f31017bd5c48b9f28a44161f96d5c3b1ad1ad1fc7e723b9116a6d369fbae448a862fc03921eb9ad1a163600bb195d2a7cd9
 Homepage: https://gitlab.gnome.org/GNOME/gnome-shell
 Description: graphical shell for the GNOME desktop
  The GNOME Shell provides core interface functions like switching
@@ -12406,20 +12407,20 @@ Description: GStreamer plugin to install codecs using PackageKit
 
 Package: gstreamer1.0-pipewire
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 271
-Depends: pipewire (= 1.6.9-2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.9-2)
-Filename: ./gstreamer1.0-pipewire_1.6.9-2_amd64.deb
-Size: 92336
-MD5sum: 1c5ccf0e04217170a5d144af8ebe7f89
-SHA1: 49ac8b601fbbd800cea48660d516db6eb6b16656
-SHA256: c668496939cc00bd3210057564e5fb54df80b3c076608ad7d7104a95f00fde79
-SHA512: ad7c4e8090941631a61b0ac2f6562a3d68cb673532b648b86b716e5b0d85ea07d9ae9ba642f4e511c347815d6132f5baa550e6d372a0e26eafb874764bed0e53
+Installed-Size: 274
+Depends: pipewire (= 1.6.11-2), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.11-2)
+Filename: ./gstreamer1.0-pipewire_1.6.11-2_amd64.deb
+Size: 93268
+MD5sum: d555c5c6a514ae52faa7eac083f9f5be
+SHA1: ea0741451e2c4068348c4a9b99ca8a9b7a9dc006
+SHA256: dfc11d9ce96f40c405b12f9095f65f8eb247503fc0d6b9887bb58b539ffcb77a
+SHA512: ff636547d6270ed4288fe4df7954202a462421e4eac4505832916c52e5db7c3b987bea49333e38c23bea772a6b77154d203c4e95ecf45e6f6085a01129a457c2
 Homepage: https://pipewire.org/
 Description: GStreamer 1.0 plugin for the PipeWire multimedia server
  PipeWire is a server and user space API to deal with multimedia
@@ -15814,20 +15815,20 @@ Description: Apache Arrow data processing library
 
 Package: libasan8
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 11299
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libasan8_16.2.0-4_amd64.deb
-Size: 2889084
-MD5sum: e50c3195252b6c099e78f0e96cf64ced
-SHA1: e798aabf8893ebf86f8b6e6f477bba547c28a5aa
-SHA256: abed8389d22b86825c804d3eec680dd55e86d47729825c76a2475e64b0152c2c
-SHA512: c4bb175f1853337cbe0a852b856a9a83a2a00959afd0163b0870478e6f8ea6a4b93e2244bb38f8a87dd7001227cb5b36158ef926a94e89a7ed9749fe51ca6273
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libasan8_16.2.0-5_amd64.deb
+Size: 2889044
+MD5sum: afa5fe2f831106f01897f4881f5f18ac
+SHA1: 48ebe8324c71bd049c28089e183c8b45ea3e60b1
+SHA256: 3125b9b484ccf6caf23a2dbd2795132d3d935f9bcce020e947e2bccaee4d3191
+SHA512: 6baa5afc53fd41ba5d66b5b4bf408250cc4526956833266984881ada3d83fff318132d60925a81ff74167ff4dfbb040608e3d22009a2eb1a0dfbf54d17c8af4a
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (ASan) is a fast memory error detector.  It finds
@@ -16110,20 +16111,20 @@ Description: Development files for the ATK accessibility toolkit
 
 Package: libatomic1
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 49
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.14)
-Filename: ./libatomic1_16.2.0-4_amd64.deb
-Size: 10416
-MD5sum: 1fdd8dfbb4f8f3ff013f92d136688c06
-SHA1: 922e2747d448bba8dd2b6ccb6b6bf4a6ba572199
-SHA256: dbdb5dc514ef881926ff4958d2c312d4fd29f0cc68c8ecb763e9138de338030e
-SHA512: 9286039bfbd1d4e85ccfba1348fb1941ab456dfb9efd6ab2c664426eadcea1b62e789485596f6ea01f5d0a4e700c1fee9bdaa341dd9fdf12584397e7535a1f30
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.14)
+Filename: ./libatomic1_16.2.0-5_amd64.deb
+Size: 10404
+MD5sum: 5c01cddd220aa937ff80928977f8c2e6
+SHA1: 925278e8fc66b99c91b0ffc2a572917231d3750b
+SHA256: ce749f136b37a569178a071081f57dd774eed87c2f8d7adbca3b148e62aa22a0
+SHA512: 7c76a73f5fee3368350107e2e2800e13bbd2e4ece322b0731f16fbd3627a00a55c9d4dcfdc0669bbebf73d22ee63d64bbaa03756a4cf31710c07ae0f1a298ae7
 Homepage: https://gcc.gnu.org/
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
@@ -17803,20 +17804,20 @@ Description: Configurable on screen keyboard with scanning mode - library
 
 Package: libcc1-0
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 148
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
-Filename: ./libcc1-0_16.2.0-4_amd64.deb
-Size: 46052
-MD5sum: 7501a95be5386fa9c9447240b7714f58
-SHA1: f3a1ca8542881817303ff9508f7124c9936c01d3
-SHA256: be1e05b606c2cbc9d2d33a649642038b04f9749b06b32c002022698eceb31734
-SHA512: 78df3dd022948893b1bc807a9e4c669823af47134db3fd4498471ddda7023ba21a7bef4409e2bff1e79b7b03cf823160b1e639e352fbedf32af6d6097b4a64c9
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13)
+Filename: ./libcc1-0_16.2.0-5_amd64.deb
+Size: 46156
+MD5sum: 37aec87195f2564b2dd93a101f13835c
+SHA1: a2779f311d37d07ec17d781b761f4838c7e7d0a6
+SHA256: f86bdc0375389d695fc7d2dcc6afbe00a3e8838242a05b6da2890fe6d1bfa05a
+SHA512: 88172f1a02d890d11a5c9835cdbb288372652abdd319e9db0c88b7417791fea54a58bfe6352bd6dcf2c777f23286c6fca6747ee356494dfe811721b75922ce70
 Homepage: https://gcc.gnu.org/
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
@@ -21992,7 +21993,7 @@ Description: AV1 decoder developed by Google -- runtime library
 
 Package: libgcc-s1
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Protected: yes
@@ -22001,15 +22002,15 @@ Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 197
-Provides: libgcc1 (= 1:16.2.0-4)
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.35)
+Provides: libgcc1 (= 1:16.2.0-5)
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.35)
 Replaces: libgcc1 (<< 1:10)
-Filename: ./libgcc-s1_16.2.0-4_amd64.deb
-Size: 74120
-MD5sum: 3f0b47e00220e5746d23cc1f270e6008
-SHA1: b24b594d16496c6cc51b608a973a39c75e594635
-SHA256: d251ea642c3795e8723ac2b9eeebe511467ca04590ba70f3d555a7616787d7e3
-SHA512: a2ca20f047696078c258a6af27424a9e35f5f7f1bb50ca54ff53ec5e2868476c61e83f0d012fc0c0a9921734b5fe9583a9834e9e4db07a82cc57e94ef1b574e4
+Filename: ./libgcc-s1_16.2.0-5_amd64.deb
+Size: 74100
+MD5sum: 06658066f662cbdcaa9c89dc52e31f2e
+SHA1: 2e73459312cb45fd7f0033403616ed7bd25850c5
+SHA256: 0d20350ed0684d35411ff8d921952b2ca561b6e99a2e8bae0fc303ed6edd3839
+SHA512: bfb8e4c12c0d113d6b7d18bb095bc2b075d07c7ddcaaedf025291d4a0ef07eaafa7b508dbd3805d6825d09621f0d7b9aca4d60a7c414fa392373779fb7eebfa2
 Homepage: https://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
@@ -22706,21 +22707,21 @@ Description: GObject-based wrapper around the Exiv2 library
 
 Package: libgfortran5
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3530
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.43), libgcc-s1 (>= 4.3)
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.43), libgcc-s1 (>= 4.3)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgfortran5_16.2.0-4_amd64.deb
-Size: 877068
-MD5sum: 3469864ba5e0b41687e22dc0366a03a3
-SHA1: 586a486594546646ddce7d0cb886e64cc1b85ddb
-SHA256: d75b52389301c790b42397d262811bd79e47f2b458266d7ba4ccbd394637195d
-SHA512: 2755e97fabbc27b66589dd1a39b9741a76b0f86521d4ca5c0e60b064038cb7f1d0114523d5ef393c9f4917ef0f3bead7bc4d7251d73946f74fe3e68d95e5dbc4
+Filename: ./libgfortran5_16.2.0-5_amd64.deb
+Size: 877408
+MD5sum: cfee224b2afa5ee263344f46a711dbd1
+SHA1: 6d322260634b07b3a9b4125a0ac095e32bc9a982
+SHA256: 38bb31404e019fb25814d24795b8d745f24e70723b6f081012c414577c6a419b
+SHA512: b63debf8ba02b7d622ae62fbeda0879292e2f18abc01bd12b1945a5aa2688444d99cf3a7e3f55ca7cb4d55819ea066a57ebd33dd5cdd55c603a46b0c596eed2e
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
  Library needed for GNU Fortran applications linked against the
@@ -23687,21 +23688,21 @@ Description: Object mapper from GObjects to SQLite
 
 Package: libgomp1
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 402
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.38)
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.38)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
-Filename: ./libgomp1_16.2.0-4_amd64.deb
-Size: 151060
-MD5sum: 4179b2d67db4882c7666ac240cfe9103
-SHA1: 7fcdcf3aa0fd679c483c7fc3a5f4402c4d49b551
-SHA256: 11cb09fd79c2de0acbdc23b0eb350445c563b16a36d879b355dfd45a5d2d6d3e
-SHA512: 332131f66a5269a4245a8bf5da5cd70363170bd663ec6b52bdc9abb4d13d0abd96851a6b535d2edab8fc6bb2f741335cbb08d3582845617fd82cf93f14b95c63
+Filename: ./libgomp1_16.2.0-5_amd64.deb
+Size: 151072
+MD5sum: 44310209fde16c1f597a6d513a46adcc
+SHA1: 61b27b6e5456b7dee612bea262080872509afbea
+SHA256: 7777032f6d8e4c8157ad0417cbf70a81c6b54261d36dcb9fba67c0e7c995cce6
+SHA512: fe409d142f01b772761f2488c13982c9474ccbbc2c2c29c7dd76f56f0b38b1c10b8ab2d95a8f0ec0e7967482b30cc6a9471f57a29cc2e7f2e22a4b9f8018bce9
 Homepage: https://gcc.gnu.org/
 Description: GCC OpenMP (GOMP) support library
  GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
@@ -25506,20 +25507,20 @@ Description: spell checker and morphological analyzer (shared library)
 
 Package: libhwasan0
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 5089
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./libhwasan0_16.2.0-4_amd64.deb
-Size: 1580040
-MD5sum: 684a75b9e07a61c5540a1a1a898e4cf2
-SHA1: 0a3d44a116d7092602bd9ce04f31284344900df2
-SHA256: 143c1d7b7d0e62ebc273494b0d5c1a6fe809b0276c77c14dace5b61e11519855
-SHA512: d97a983b95f3d51e10473fa3584bf8912e4a105692cf9f70a778c3a4ed96cff8ef555d9a76bc2edf2f951b551125fe71e343335e17fd08524b230cefd4c15242
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./libhwasan0_16.2.0-5_amd64.deb
+Size: 1580032
+MD5sum: cc93ba691bd1556b7912b22ec0b7cdc9
+SHA1: ca52cc7213ef037548e0a82e8def582e4f1f1d3d
+SHA256: 054e1cc65c7515280faa92eef78ee30ce7abec363343d3bf0950440a24b47f81
+SHA512: 535bcc141b706303e102b5e27b198378f7dcd26265c3cea20dc2fc23df894278583b930f6d5fe18a64208ef486191b08e2378061989e469e96433ba300b8ab3a
 Homepage: https://gcc.gnu.org/
 Description: AddressSanitizer -- a fast memory error detector
  AddressSanitizer (HWASan) is a fast memory error detector.  It finds
@@ -25985,20 +25986,20 @@ Description: Java Library to create and manipulate PDF on the fly
 
 Package: libitm1
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 115
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34)
-Filename: ./libitm1_16.2.0-4_amd64.deb
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34)
+Filename: ./libitm1_16.2.0-5_amd64.deb
 Size: 26904
-MD5sum: e369ea958935d65fd0b688ba877b9294
-SHA1: 41ffa131e62c5f26183bf3f404f2aca957d9527c
-SHA256: 453b948b39ec0014c27609fd1ea163dcc56f8f73322f5e347c42754dedfb54e9
-SHA512: a9f1e559aeadc26d514dae2c1dda77fcf35ad6ffa015460ab7f436195f5f73388d90604dc50830fbfd85a77bccb905c8fd818e961d0571d52678bcb6a0c1229d
+MD5sum: e92c375f6815de03bbe3d019cf65daba
+SHA1: 75bb00cc1286731c119ad58f698383f398b89bd2
+SHA256: 7b13092ff37d87f36e7760b67612578dd7d5cf4f0cff9136b444a2862c9db6dd
+SHA512: 94b4c1a9d9036abed9cb9a4fbaf671fe2d5d14bba26391a8937ea02fd20e9865dd2288792c875ed1bd7bb27c7e80b7aebf0594c68efdd48d46a36de21465e504
 Homepage: https://gcc.gnu.org/
 Description: GNU Transactional Memory Library
  GNU Transactional Memory Library (libitm) provides transaction support for
@@ -33369,20 +33370,20 @@ Description: module using libc functions for internationalization in Perl
 
 Package: liblsan0
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3977
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: ./liblsan0_16.2.0-4_amd64.deb
-Size: 1280696
-MD5sum: 1597c758d18369e9ce06105809b83cbb
-SHA1: b477d709ff777aa0af5f4df77005851bfbda6fb3
-SHA256: f6391c1f8c2c063807de92b9d98a7e0b632bef4e7dd20ac34a6b77160e5b8683
-SHA512: 74ee115027cefae6c7a8011522aba60493fafd6da3cefdabf4bde18075a258da97ce7c8f83402273b9410311c73dced13f16f39f75a743b82763137b8d2f79fa
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Filename: ./liblsan0_16.2.0-5_amd64.deb
+Size: 1280736
+MD5sum: c8741cd3f06becfe507f540a16d639ef
+SHA1: 2f5521af90bfb122a74fd5b554286cde01b4fc3f
+SHA256: 38ea67dfd5882d50e6891c5723cdcdebab0b1277e3b36acc5793aecc60ddc0b3
+SHA512: c97d6cd4ab0131539b11f562c2cfa94d7592735785291c5ffc67cc087fd3eba86d8e5ec257ef33d5e84315a01ee8b3ed238fb3067e3a3d8f1f07644360cd940d
 Homepage: https://gcc.gnu.org/
 Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
@@ -35680,20 +35681,20 @@ Description: C library implementing OAuth Core 1.0a API (runtime)
 
 Package: libobjc4
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 209
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
-Filename: ./libobjc4_16.2.0-4_amd64.deb
-Size: 44940
-MD5sum: bb55fef0c3936337357b8bb74d1363f7
-SHA1: 3511e365c464bbdc0bf8fe381c04c750baade01a
-SHA256: 8dc2aad668e2266fccd0efe2619a2b3fd827df6c2ace24cd88ece449f368849a
-SHA512: b9d2031ccac23a906255d1f89ad9bc7eb1d25e9215175638fdca405ad620e74a177a0a85c6f345abe5ddcaf6972d19064a81449a5205f15215ed2fab57860737
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.38), libgc1 (>= 1:7.2d), libgcc-s1 (>= 3.0)
+Filename: ./libobjc4_16.2.0-5_amd64.deb
+Size: 44892
+MD5sum: 30f7943e0274af14f71478c7f6c5700a
+SHA1: 86e089c8edf00a205de961476e260f9eb642d4fa
+SHA256: 5936aaebe7ec2edd2a6f1dc240ca5429727cfebebfce8b5f66d3ac97a8aee977
+SHA512: 86843f40924c0cda0abb80e69896b823830a162111b52c3c3465d9806986cd7413a64fd25dd9e15e540129d8b4ff077200d5c21b8c2e44d0f4d79f3d930663c0
 Homepage: https://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
@@ -36060,20 +36061,20 @@ Description: High-level API for basic manipulation of Ogg Opus audio streams
 
 Package: liborcus-0.21-0
 Architecture: amd64
-Version: 0.21.0-11+b3
+Version: 0.21.0-11+b4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: liborcus (0.21.0-11)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 1847
-Depends: libarrow2500 (>= 25.0.0), libboost-iostreams1.92.0 (>= 1.92.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), liborcus-parser-0.21-0 (>= 0.21.0), libparquet2500 (>= 25.0.0), libstdc++6 (>= 13.1)
-Filename: ./liborcus-0.21-0_0.21.0-11+b3_amd64.deb
-Size: 551604
-MD5sum: 1088756912afc81cb6a111f68cdf2a7e
-SHA1: 0aaa01a4c8716927078b4fb912480523925dfba5
-SHA256: 4dad9726b9bb033672c2611881f2d9b3549797bd7235f2527085957f56ce79e6
-SHA512: 275f376b7358c08ffcee1bd6ec8cc6facf3cd7c96fda4a1efab344d24c519e0ebf9ecd67c6db791a06531cc8c0632a7e5a11812b6c89a206a7ce77dafe97dfb1
+Depends: libarrow2600 (>= 26.0.1), libboost-iostreams1.92.0 (>= 1.92.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), liborcus-parser-0.21-0 (>= 0.21.0), libparquet2600 (>= 26.0.1), libstdc++6 (>= 13.1)
+Filename: ./liborcus-0.21-0_0.21.0-11+b4_amd64.deb
+Size: 551048
+MD5sum: ac6aeabce0e9e7a15f92b184b8fea211
+SHA1: 6b74946652c31840be29754c3b8c592e9df5e5a3
+SHA256: 5d06ba2cdabb4d20b5fc598ff5c73d2f7901ade0e19702011bc5139422dc3164
+SHA512: 255d85be2436af47e987342da02d72ba3271ef4501a762c1db1dec405f2f2dfcf010318c6e1b0720889fc2782b43713f8aa1c18c0db3ff04bde288bb74bf863f
 Homepage: https://gitlab.com/orcus/orcus
 Description: library for processing spreadsheet documents
  Orcus is a library that provides a collection of standalone file processing
@@ -36086,7 +36087,7 @@ Description: library for processing spreadsheet documents
 
 Package: liborcus-parser-0.21-0
 Architecture: amd64
-Version: 0.21.0-11+b3
+Version: 0.21.0-11+b4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -36094,12 +36095,12 @@ Source: liborcus (0.21.0-11)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 396
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
-Filename: ./liborcus-parser-0.21-0_0.21.0-11+b3_amd64.deb
-Size: 127636
-MD5sum: f6320ca02ec83fc9e4c4b172e93c0295
-SHA1: 4ba9ad7e01ad8ad50b065795f61a3ba97aa2c092
-SHA256: 5c5fa764c9cf3c7ba8db59bc8de2d19b8181ed8d2988318c988f47f2c673520f
-SHA512: ec01c0e963f703c357d3ee6db42cf3e00bb863551b2c471ee0bd6e4e2d31b500f980f588516ff2345fc3bc5b53c1e4c0c3cde898f8e2d588a40d04f7408d5a59
+Filename: ./liborcus-parser-0.21-0_0.21.0-11+b4_amd64.deb
+Size: 127916
+MD5sum: 31856c2d30eb97fb81054cd34b5f2404
+SHA1: 1d5bab00fbec22019232564f3fb3cdadc1e53262
+SHA256: be79bfe34ce1c7506feecaad86fe4d427f3d1b11f25ac7504082310679f4e8ae
+SHA512: bab4891873730cdf5893f0f109a036ec56ef44668b6b33ae61cfe9b8e6e0159906e7f5588fce8ff9ff28ded2fc319375e0d2386d3822d0942c77a5462f49651b
 Homepage: https://gitlab.com/orcus/orcus
 Description: library for processing spreadsheet documents - parser library
  Orcus is a library that provides a collection of standalone file processing
@@ -37055,25 +37056,25 @@ Description: Common library for KDE PIM - data files
 
 Package: libpipewire-0.3-0t64
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1097
-Provides: libpipewire-0.3-0 (= 1.6.9-2)
-Depends: libspa-0.2-modules (= 1.6.9-2), libc6 (>= 2.38)
+Installed-Size: 1100
+Provides: libpipewire-0.3-0 (= 1.6.11-2)
+Depends: libspa-0.2-modules (= 1.6.11-2), libc6 (>= 2.38)
 Recommends: libpipewire-0.3-common
-Suggests: pipewire (= 1.6.9-2)
-Breaks: libpipewire-0.3-0 (<< 1.6.9-2)
+Suggests: pipewire (= 1.6.11-2)
+Breaks: libpipewire-0.3-0 (<< 1.6.11-2)
 Replaces: libpipewire-0.3-0
-Filename: ./libpipewire-0.3-0t64_1.6.9-2_amd64.deb
-Size: 325240
-MD5sum: c45219c135f6af8b360894ff48d16111
-SHA1: 396af98e9069a726180a2083ceae25501e17c37c
-SHA256: c0d99fbd5d5e422561f6302a0bde5529172c2a3b86b6efa32906210f57902841
-SHA512: abe152807e7ae12a11de31461b692cf3cb32af45bfe06c1f5e44417db1d0ba7c8f8ecb58a420fb18c3c40a26c2186dfeeae99a09fba03a9fede8e62e5a03f300
+Filename: ./libpipewire-0.3-0t64_1.6.11-2_amd64.deb
+Size: 326216
+MD5sum: 5911ec8af6ab6a3732799e1d8215dfee
+SHA1: 5700ed9539aa30ed9a60e75cb78d1328246e285c
+SHA256: 0ad7c4aaf19d9a9ebaa55f54a50194cf44f8dfcdf1fed9fa5d3e112831033499
+SHA512: 0f81bc5f7ab0e3803fd812e2f8a3aa4048b715e77e8b7f6eb6475f22f0916c403151283d59d42edbb7e9aa4ad12a84756ec50dcf2292f8904ac3b8eea0948ba2
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server
  PipeWire is a server and user space API to deal with multimedia
@@ -37086,19 +37087,19 @@ Description: libraries for the PipeWire multimedia server
 
 Package: libpipewire-0.3-common
 Architecture: all
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: foreign
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 707
-Filename: ./libpipewire-0.3-common_1.6.9-2_all.deb
-Size: 79208
-MD5sum: 05bc3f5dc8b969aecd44f614cd32a82d
-SHA1: 7400f730c99e229144879d4016ec2f25ab6b92ce
-SHA256: fe15f1110ca7c96853ea588c1ca6d0baa1ee38198b33240715ea3586d4543adb
-SHA512: a1ccfb7424a369d1e410352a7e5c6a4aaa8be0ba8d999c0004b8ba416f7ef77ae06e71d0d19c39200d54d0721da00d2df0b8d1c5dcbf07533746584722535519
+Installed-Size: 710
+Filename: ./libpipewire-0.3-common_1.6.11-2_all.deb
+Size: 79980
+MD5sum: 3cee78681af75d22c030b6a0e9cc683c
+SHA1: 5c62d779e4a8e1aad54a12a5b03bb99d78f5bd37
+SHA256: 28131c87664d3e973fa1b11b41aec0063ffc26344da9e354df1ce594ac822b8f
+SHA512: 766d3289c81dfd4194d6c1ece03ca7e910b6995245c0676d151862e55d0bc709b64ab1d3248d06cd165cfad4f67251d056acb13b4f0ea55cae683da1d9914795
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - common files
  PipeWire is a server and user space API to deal with multimedia
@@ -37114,22 +37115,23 @@ Description: libraries for the PipeWire multimedia server - common files
 
 Package: libpipewire-0.3-modules
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 4796
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libffado2 (>= 2.5.0), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.9-2), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
+Installed-Size: 4682
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.11-2), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
+Suggests: libpipewire-0.3-modules-extra
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libpipewire-0.3-modules_1.6.9-2_amd64.deb
-Size: 871596
-MD5sum: f1f67755c28009fcbc61903822f9cc06
-SHA1: b1af3579b6816601b9a514076075f142ed98d98b
-SHA256: 23b4bd0f09a33624ab11ab39acfb608088937c6673e6f732a6fee4ca6a052508
-SHA512: 01cf5be3bc9f609599072582fd6ec0a215a3bc09e08d381b6c7d9dd5826eb2e9de9227dbea70892c446ac74adc55e814ebfe3587dbec41882fa3a91c1080997c
+Filename: ./libpipewire-0.3-modules_1.6.11-2_amd64.deb
+Size: 859160
+MD5sum: 0e558e4ed4f749c99bff4c66599f1a17
+SHA1: 5df7fe0703f2c4c24582fa74a797d9cde34e1bf7
+SHA256: de218a4b5aa89c5437f828e5fdcdbeea821034d34422dd6d792dc11a7e682b8a
+SHA512: 61d2adfebcd34b6cd6db7d437d3f52b1d95a04a30bc5876d3133ccbeb5ffe99be2bde3d9a03b0e78f376d19e537f5ee4ee166d47461a397387119b54781ff359
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - modules
  PipeWire is a server and user space API to deal with multimedia
@@ -38236,23 +38238,23 @@ Description: Qt 5 print support module
 
 Package: libqt5qml5
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5081
+Installed-Size: 5221
 Provides: qtdeclarative-abi-5-15-19
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libqt5core5t64 (>= 5.15.15), libqt5network5t64 (>= 5.14.1), libstdc++6 (>= 13.1), qtbase-abi-5-15-19
 Recommends: libgl1, libglx-mesa0
 Suggests: qt5-qmltooling-plugins
-Filename: ./libqt5qml5_5.15.19+dfsg-2_amd64.deb
-Size: 1389364
-MD5sum: 2e309050b95b20d0bf8522f6bac1fdce
-SHA1: 3af65a8950bc86881bed937652011a7e13cdf62f
-SHA256: 5cadf354acafad464c12d1f6fbca1f750e59e4f3979f0909a2715bca7a70d8ec
-SHA512: d061927be711de37887c525693ea5453285c71a1b71618025caba637e679724527b66190212d7da4e77abf29b8bdb9e4b5a5d3db0676feff4a987ede06238783
+Filename: ./libqt5qml5_5.15.19+dfsg-3_amd64.deb
+Size: 1457160
+MD5sum: 989d69d5e80e8214983c8ae17d64c49e
+SHA1: b919ec73f3a51b43d2ab4a6a4ae4bd83312976e7
+SHA256: 1aa95b0cf220f041510f996497c8db4d443f624e0f58847db882c4f7dad7ff60
+SHA512: 3515a088471b6fe7f2728e66d410a3a78f0c5758d21ecd370f89b238ce8ec969a0b512aa630dbe841f2584f1aa99422607e2982c2c2e8448e3eb1c1341333160
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38266,20 +38268,20 @@ Description: Qt 5 QML module
 
 Package: libqt5qmlmodels5
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 638
+Installed-Size: 654
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
-Filename: ./libqt5qmlmodels5_5.15.19+dfsg-2_amd64.deb
-Size: 192376
-MD5sum: 353d7ca81e0e0cd526e0b9320ddec064
-SHA1: bf84b25634fdb536627df0424233375e3afa07b1
-SHA256: 793f199e6bd53443ea8966da2ee575a9ae8a77fc935a6db44366f0a5cc387b4b
-SHA512: 186fdc5c1572000dea1edaa2d29ae40aa4d5e90c62b4d6d1e5aa116201b5e2b8462f538fbfab5dca0828e7bf5cdd989a8c5aee838e52fdec9349953f256d555a
+Filename: ./libqt5qmlmodels5_5.15.19+dfsg-3_amd64.deb
+Size: 201060
+MD5sum: 04092d8edb99d2efa4b5c9ba6da755da
+SHA1: 235cef49dcc477289da5fcec1214b5b3718a4950
+SHA256: 6c12d690424696222d0cc70a0034a220af6b44292df26e4524e32973ca0e4a77
+SHA512: 77299c0042219967fe51cc1137d6b9eb8bd2538c7c153337d902a5a83faae616136ddb2be587915552fec6dc4d1cc563affe434fdcbc923017fab9e6713c3a78
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML Models library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38289,7 +38291,7 @@ Description: Qt 5 QML Models library
 
 Package: libqt5qmlworkerscript5
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -38297,12 +38299,12 @@ Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 125
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5network5t64 (>= 5.0.2), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
-Filename: ./libqt5qmlworkerscript5_5.15.19+dfsg-2_amd64.deb
-Size: 33264
-MD5sum: 980b3bd46b519a8e4246cec453faeb81
-SHA1: faaf8ffca1075e899b7ac5c45a748a6b54320312
-SHA256: 8df02ead608f30c9011a177b54450b59b932eb29b5b3604342f077c59627d6d3
-SHA512: cdcad486626a2d279287803c2e9fe4ce720af8e24fc406d96f605bae5b2f0a0f141509a74d37916c0293ed9726d5b1715950092ba3f5f118fb5c7b01af2b488d
+Filename: ./libqt5qmlworkerscript5_5.15.19+dfsg-3_amd64.deb
+Size: 33908
+MD5sum: 79c7f3fbad5e9902bf0fd11d945f625f
+SHA1: d5dd580be52d958ed444d4d3d196ee75439c3aea
+SHA256: 4124f04f9050611b00c8a0e54876e47dfc7d74f21d89b44dcf09f5390e5fb65c
+SHA512: 15c4ac9e35671e181d3095ee6853724355238c18a00fef10bf55e7e2b20ffbb6eda925efc129175df5d6169fded4b9cd99fbce14d1821d1bc6b55d98d3faa3eb
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QML Worker Script library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -38312,21 +38314,21 @@ Description: Qt 5 QML Worker Script library
 
 Package: libqt5quick5
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6246
-Depends: libc6 (>= 2.38), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.1.0), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
+Installed-Size: 6330
+Depends: libc6 (>= 2.43), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.1.0), libqt5gui5t64 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
 Conflicts: libqt5quick5-gles
-Filename: ./libqt5quick5_5.15.19+dfsg-2_amd64.deb
-Size: 1623908
-MD5sum: 7e9971540a73e297d262f3aa142bbccd
-SHA1: ea35925a166344f8f62b52ae0d312b9d4822cf95
-SHA256: fc4f1961f4a370e8cf7beaafa92a70b14f9bb8580549b813a17b772fa2970499
-SHA512: e5a239f923e6b97f3d403a9478aa6853e829f80ee44c92041042ff398aa07654ae152ca9eaa9592d106ef2c91d44e2662f0ee9bb4cc8b1fa20a2c5f0dbb594aa
+Filename: ./libqt5quick5_5.15.19+dfsg-3_amd64.deb
+Size: 1676040
+MD5sum: a7b1ce159fab56e6ae59853fe030568a
+SHA1: 707921dfa630bc2ebe95656d8b1858e17f7045b2
+SHA256: a5c38d27923376bd8e9900edc298411f6f7d9687b06d5b107600e34c8047b7ba
+SHA512: 44ce128540ec8f46702b1428de73f6798e34663fc81adffe61f7db3e4bdf601eedd148c79c05271db6b0a17c3f8732d42f2a7d7320c81116700d785b582203e4
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Quick library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -40016,20 +40018,20 @@ Description: Terminal emulator widget for Qt 6 (shared libraries)
 
 Package: libquadmath0
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 300
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.38)
-Filename: ./libquadmath0_16.2.0-4_amd64.deb
-Size: 147460
-MD5sum: 2b078b96bba316aa8d211e939b2112f7
-SHA1: bd058d9c428bc3f480c1d5e89fd7ddde9b7b06db
-SHA256: e1d1ad037a083ad337047e3f7d9bf786f262f79745109a756e50f8e3ec85ca1f
-SHA512: 1ef5c41c5c34b60448ae758103e013a0fa8d7a57ce98aa5c9758e2022420d753640983b39cf4bd2cd0687bf7e208566771b275c106c8b946294f0b66497e3197
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.38)
+Filename: ./libquadmath0_16.2.0-5_amd64.deb
+Size: 147436
+MD5sum: a5ab0c7d319dfd26ab5ab0db873562d5
+SHA1: de597a6b470a43e0713f106f48e69d72c662d7b5
+SHA256: b8fe46e2b6e08dbe7384d04b482088e3314393b87311a21640b1643771c43128
+SHA512: 7dec4720a7cc6cd890e59a0477300087ff0abbb3b13e914a41050240fb46bade88722adaaca1eb8a2a9f483c5fd86de4a70485fd1546aa3b824d2de8d6f5bfa8
 Homepage: https://gcc.gnu.org/
 Description: GCC Quad-Precision Math Library
  A library, which provides quad-precision mathematical functions on targets
@@ -47833,20 +47835,20 @@ Description: HTTP library implementation in C -- Common files
 
 Package: libspa-0.2-bluetooth
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1717
-Depends: libspa-0.2-modules (= 1.6.9-2), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
-Filename: ./libspa-0.2-bluetooth_1.6.9-2_amd64.deb
-Size: 479456
-MD5sum: 9703706531ba4b75355f87df445400af
-SHA1: 4128752ea20f4b8d9b9207e7fe65304f42c83042
-SHA256: 2c2fbd1e3bc1dc036de7dfd8c19aa7d48c8ec3df28921dc85e89d0fc2a67d609
-SHA512: 7b6f39c31a6658ca38573d84abd76722e9722064fb83d9bd565a18a8a8b96b8497fb0436a8a64131691223483621e77d74ca1c27462978644518f2b16616f5e2
+Installed-Size: 1728
+Depends: libspa-0.2-modules (= 1.6.11-2), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libspa-0.2-bluetooth_1.6.11-2_amd64.deb
+Size: 482308
+MD5sum: 6f0d7afb50eafb6a9a405892d6caa5fd
+SHA1: 6567be553661acd5d0bad4ca0caba060840cd6e4
+SHA256: 3731605c367214c413e75c76d7f7e6e0adc06f97a82e851dc9f452a810045db9
+SHA512: e9cfe086c3a9e130ab68820dac03ea7c1fa83855cdb8fe064dba053475cbf74837e9e3719e6b710ab20a1f89db5fbecd016813ee43ae21c9c42863888138a35c
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - bluetooth plugins
  PipeWire is a server and user space API to deal with multimedia
@@ -47862,23 +47864,23 @@ Description: libraries for the PipeWire multimedia server - bluetooth plugins
 
 Package: libspa-0.2-libcamera
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: video
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 184
+Installed-Size: 187
 Provides: pipewire-libcamera
-Depends: libspa-0.2-modules (= 1.6.9-2), libc6 (>= 2.32), libcamera0.7 (>= 0.7.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Depends: libspa-0.2-modules (= 1.6.11-2), libc6 (>= 2.32), libcamera0.7 (>= 0.7.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Breaks: pipewire-libcamera (<< 0.3.72-1~)
 Replaces: pipewire-libcamera (<< 0.3.72-1~)
-Filename: ./libspa-0.2-libcamera_1.6.9-2_amd64.deb
-Size: 72924
-MD5sum: d3dfd1a1ec257bdd1fb0906aae73b37d
-SHA1: cf07780ea27422fed033ee7938317ebdf65b23ce
-SHA256: 97a2b92dd670f69aa43299c15d1d70f191042082457c619e7db4ce6b174ba324
-SHA512: 22c55c6b5f097665ea59a9e5da1c87af234cdb6defd0dc85284caba32d8a401ac7d423dafdad121524c92037ec79f69f0724318671728294672d828cf9958bfe
+Filename: ./libspa-0.2-libcamera_1.6.11-2_amd64.deb
+Size: 73660
+MD5sum: 0f7e20c98ac236b9b8e747415e8e7517
+SHA1: 1f16503220df44f98c18abbbd822754cc3a5e366
+SHA256: b47a5eb107df13233768803f50d30a0d46efb5f89f65477990b3b7493d15f4a1
+SHA512: b4b2aaf774ce817dce084bafe87677468e21110ddb55908b7aab44ffe8ff355db2c8ad855c77b740429f681890a1782e1dfaad71343a30aa9f32bec3dc6303a7
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server - libcamera plugin
  PipeWire is a server and user space API to deal with multimedia
@@ -47894,22 +47896,23 @@ Description: libraries for the PipeWire multimedia server - libcamera plugin
 
 Package: libspa-0.2-modules
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 4781
-Depends: libasound2t64 (>= 1.2.10), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libebur128-1 (>= 1.2.0), libfftw3-single3 (>= 3.3.11), libgcc-s1 (>= 3.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.6~), libonnxruntime1.23 (>= 1.23.1), libsndfile1 (>= 1.0.20), libstdc++6 (>= 12), libsystemd0, libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3)
+Installed-Size: 4667
+Depends: libasound2t64 (>= 1.2.10), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfftw3-single3 (>= 3.3.11), libgcc-s1 (>= 3.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 12), libsystemd0, libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3)
+Suggests: libspa-0.2-modules-extra
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libspa-0.2-modules_1.6.9-2_amd64.deb
-Size: 1152840
-MD5sum: b8b667ece87cf3c3f9b5fd3515167669
-SHA1: 31b4648f89f35e4ad0c2a04a1bb4c84c375d6a1b
-SHA256: 261519e01b358c67c4e49273258039958138b8229a987981fae7d90bf5e4538b
-SHA512: 70ee69c9f198c6b55f7d6ea17f1e32865325cd10b275efc87e43692abdcfc1cdc791e917e78d4bcb2e7dc598ecd0a1de72298ea3afcf0cb91495d5ab962ccb7a
+Filename: ./libspa-0.2-modules_1.6.11-2_amd64.deb
+Size: 1135160
+MD5sum: 59d9f6394c046bcaf85666117c5b4113
+SHA1: a03144597a0a8d9dc6a55cd563ccae0702dcb529
+SHA256: f1eb83e53e202a27f6e315079a826ee1d34e3499ce1120f1faf58b8b3e7457b4
+SHA512: 72d2ce098dbc4d15710126afca494acb78368e317d288d71dadcc3014232b5f4e7fd082c75febe11a7e36d10819b8896e64ea91a388415719533c16dfa8f3d1d
 Homepage: https://pipewire.org/
 Description: libraries for the PipeWire multimedia server Simple Plugin API - modules
  PipeWire is a server and user space API to deal with multimedia
@@ -48154,23 +48157,23 @@ Description: library being useful interface to system statistics
 
 Package: libstdc++6
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 3316
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
+Installed-Size: 3320
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.38), libgcc-s1 (>= 4.3)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Replaces: libstdc++6-16-dbg (<< 4.9.0-3)
-Filename: ./libstdc++6_16.2.0-4_amd64.deb
-Size: 822380
-MD5sum: b0f1b05f7a89071930f2b482fe7e63d8
-SHA1: 4fd8dfe2b8b6505c3aeffb06d47c1c06df8d4c38
-SHA256: cef6654bba1daece0bc0dbe0e3f69fa5a26eb6ba139f3536e6f4806bd787f3e7
-SHA512: b6adccd4a3a451da2f4b81b41e199e40819d6d6084bea860f1dcf286657e9ccaad98ffbf05bee48392061c0fe142d294d58ac9730317ae6d9287b46bf02828d5
+Filename: ./libstdc++6_16.2.0-5_amd64.deb
+Size: 823540
+MD5sum: 4ac5f66a082abaa485ae46bd2817cc20
+SHA1: ad47dc0b3ea660abbebdeb768cebe59dd06433a0
+SHA256: 5df23243121f18a1ee994c35667696b003975c6ed3e49bd960681e4a82d15281
+SHA512: ea57fcd57772f96f52e40bb776cbbf25d15bea660ebfd70cbc383d264a4f90e5ef1b6ce7f6dfda709cb74974ae28c4f892cecf1c3c53da864c3f206b596e2ffb
 Homepage: https://gcc.gnu.org/
 Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
@@ -49136,20 +49139,20 @@ Description: Main library for the Totem media player
 
 Package: libtsan2
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 9181
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
-Filename: ./libtsan2_16.2.0-4_amd64.deb
-Size: 2573500
-MD5sum: 40b1cb7fab9aee0f229f090fea843621
-SHA1: d8369c1cc49913f188f683728d4c12100ac3525e
-SHA256: fea7dd754a62af902d0495d42db3e3b52aef91d455b9d770d682080511766881
-SHA512: 08d079af69c4359ac7c9ba8deab38bd6ac04eb4c92570a0940df60b4bfe196879ad72dee3a7edc32a1a14b089132b1627c4619c2cebfc2ff1819dafffe53c55f
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34), libgcc-s1 (>= 3.4)
+Filename: ./libtsan2_16.2.0-5_amd64.deb
+Size: 2571704
+MD5sum: 993d733f61a4be6574fa81046eed6557
+SHA1: 48090d1bb967ed851733b04237224edc9734238b
+SHA256: f9bf7ac1035cd0686c5d1d0d07781558b440067f62ac7c48ff7abcc8686b04eb
+SHA512: 84e38690cf4a6e4636fa638e77f669037a761f8397067aa553ecdff6339362e93d85362a3ff71345c0baaa5a9f6ba1122b812953d8c3369e7043e4a6c06806f3
 Homepage: https://gcc.gnu.org/
 Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
  ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
@@ -49612,20 +49615,20 @@ Description: TurboJPEG runtime library - SIMD optimized
 
 Package: libubsan1
 Architecture: amd64
-Version: 16.2.0-4
+Version: 16.2.0-5
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gcc-16
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 3483
-Depends: gcc-16-base (= 16.2.0-4), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
-Filename: ./libubsan1_16.2.0-4_amd64.deb
-Size: 1136312
-MD5sum: 6ae2f2abe4aa8f488cec25f8a18171f8
-SHA1: 6722e3cd37918e700cec9802b9ad89932d93f0a6
-SHA256: 6a37169e525055fcfaed5b54f7bc1c93babb2338c9b9deff62f2613bdfc04f8d
-SHA512: 1c49b4068bea5fb2ce39356c2d769b8ae3cbd7d0cdf34a5be7d6371e8737da142c64db3d4eb386408ef755bc067664a638c2d4706dbf0241c0ab2b71bfb030cd
+Depends: gcc-16-base (= 16.2.0-5), libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.1.1)
+Filename: ./libubsan1_16.2.0-5_amd64.deb
+Size: 1136296
+MD5sum: eb93743ab550b06bcef6e6f787e317d8
+SHA1: ab30e2c04ac68330296439f7f93d4a1659ff9e8f
+SHA256: ef21eae6db9ad201c63798637ebfb29ef653abf32f57a6ec34db98c5cb0c0dda
+SHA512: 6fc7242bd36fa329eeee3161b1262169c648532b442c592067e1be255fbaf9a611640a843fa8037e5640337e1fd72c572f261c9058eb891df37973b1a01f6118
 Homepage: https://gcc.gnu.org/
 Description: UBSan -- undefined behaviour sanitizer (runtime)
  UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
@@ -57764,23 +57767,23 @@ Commands: sieveeditor
 
 Package: pipewire-alsa
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 194
-Depends: pipewire (= 1.6.9-2), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.9-2)
+Installed-Size: 197
+Depends: pipewire (= 1.6.11-2), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.11-2)
 Conflicts: pulseaudio
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-alsa_1.6.9-2_amd64.deb
-Size: 54168
-MD5sum: 288056f75e27ae205ed546731e6d4829
-SHA1: 527b2072d1bf93ea26d8551ee7bdc931c3f91d3f
-SHA256: 9aea0512b453f56fbb1225959e515f9e727c4d92aca9531107374a30827684aa
-SHA512: fc1aa6aca34c42cededf074cdf60ea1415ab13c478e356d9e7d8cf28e7a8ba2df20db9ee18e02afcc7b84bcc01e7e97a4e3d5c5b4b433b4ec4af4a63d8c660e8
+Filename: ./pipewire-alsa_1.6.11-2_amd64.deb
+Size: 55008
+MD5sum: 7efe3ce17e0cea8e149f6e0703100afe
+SHA1: 375e3135e7bf5aa08179cd96ebfd1f5d8748d0d2
+SHA256: 31719dc64caf440ab6ee316326ed398c97c5d073c30326eb690c1119d649941c
+SHA512: 06274e2b1c6b5a56cafe72d7c74adeff8c5e7f6e2c913c109e5a62e31ab5073c60ad5765d0a41f0cbbfeb5397c20d4290ba1b1c90bc483e160beb7ace090777d
 Homepage: https://pipewire.org/
 Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
  PipeWire is a server and user space API to deal with multimedia
@@ -57795,19 +57798,19 @@ Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
 
 Package: pipewire-audio-client-libraries
 Architecture: all
-Version: 1.6.9-2
+Version: 1.6.11-2
 Priority: optional
 Section: oldlibs
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 21
+Installed-Size: 24
 Depends: pipewire-alsa, pipewire-jack
-Filename: ./pipewire-audio-client-libraries_1.6.9-2_all.deb
-Size: 9960
-MD5sum: 478df89034b71ba7601b9763bae19ab5
-SHA1: 3090863b9bda6321d8971f6fe22c2109b1fdd7e7
-SHA256: 081fe6feb730238f6dc86d5a1513ea87a34133a1df73528c557bd5c705086266
-SHA512: 31fc4fc7b62c246c843955895435c118f4de98fa5179893ea00d82a2dd252633287f6214f4522082ddb9381e1cebc51bf0a1ee81a683eaad4393293285503007
+Filename: ./pipewire-audio-client-libraries_1.6.11-2_all.deb
+Size: 10692
+MD5sum: aef8f1ad48903f7534f63d61eb4384cf
+SHA1: bd501f6e2b3ccf409ef2ac8a138d401cce283030
+SHA256: ceab8e50279f605a576b9619c0c412aa7abe1c121114d6049f40bf52e45838eb
+SHA512: 06af7d7acce33657b1ded11cdadb46dd20d20d92e815520fbb6f80088c4305176d90a18f0ecc0be84d0cb235ca054aee00f32f71c89838e88b886e7ff32badb2
 Homepage: https://pipewire.org/
 Description: transitional package for pipewire-alsa and pipewire-jack
  PipeWire is a server and user space API to deal with multimedia
@@ -57818,21 +57821,21 @@ Description: transitional package for pipewire-alsa and pipewire-jack
 
 Package: pipewire-audio
 Architecture: all
-Version: 1.6.9-2
+Version: 1.6.11-2
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 21
+Installed-Size: 24
 Depends: libspa-0.2-bluetooth, pipewire-alsa, pipewire-pulse, wireplumber (>= 0.5.0)
 Conflicts: pulseaudio, pulseaudio-module-bluetooth
 Replaces: pulseaudio, pulseaudio-module-bluetooth
-Filename: ./pipewire-audio_1.6.9-2_all.deb
-Size: 10148
-MD5sum: 6270bb3ff44f93495af0b7929aae8981
-SHA1: 5fc69513308b06c001ce958623974d36360042b5
-SHA256: acdb7f285b321f4d262837e613b70a399849267c50b61eaf790f3b1e283f3eaa
-SHA512: 078f1b7a14ab494fd18b3d79c874a1a957bb95087c66cdcee4c2bf15b58412092e9a51922bef1f76819c9347ce2b12cd7d05c3475db166a508ff76acece85741
+Filename: ./pipewire-audio_1.6.11-2_all.deb
+Size: 10892
+MD5sum: d88ca5d87a5256f7cf30e2d448a45575
+SHA1: 71ffdc19fdb46d039a870a260b80415510becff1
+SHA256: a7efed2c5cec952375e392c5fc6a9cc6100f030c45b93f6fa3bd396b5a72ad8a
+SHA512: 11f3c8236e57a1b23c9772ce32bfdfd3caf433982a11b2abba7a682adc83587994d846cc67890540be1b9fb02ea2220b1f3f731b93fb0aa89c13cb0d491e7c52
 Homepage: https://pipewire.org/
 Description: recommended set of PipeWire packages for a standard audio desktop use
  PipeWire is a server and user space API to deal with multimedia
@@ -57848,23 +57851,23 @@ Description: recommended set of PipeWire packages for a standard audio desktop u
 
 Package: pipewire-bin
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 2251
-Depends: libpipewire-0.3-modules (= 1.6.9-2), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.9-2), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
+Installed-Size: 2254
+Depends: libpipewire-0.3-modules (= 1.6.11-2), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.11-2), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
 Recommends: dbus-user-session, rtkit, wireplumber
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./pipewire-bin_1.6.9-2_amd64.deb
-Size: 611832
-MD5sum: 922d61143c9bcb1c797acd1f352bf8c4
-SHA1: 3c27c96109a8097397a0f9fdeb8f29227b659bd7
-SHA256: 5e2a561c66422da9296d040e1c5c0d2c5adbbd58fec45b2cde8b3d2064eb3dd6
-SHA512: a0068af5aa02cb64e98d2938da4603e4f3f2ef65732cc3dc1e93270686e1caf7b77c3bbe7d41b109bd085da87253fcec3c19b030d653ccee1daa1c596a9e319a
+Filename: ./pipewire-bin_1.6.11-2_amd64.deb
+Size: 620312
+MD5sum: eb02504d8e05c8bd9680972294db59e9
+SHA1: ce30095c3ad6e5cf66312ed985907041ded8a504
+SHA256: 628989bc8c5ecd5c4e193ebe692af2f179eaf4bf5d7ed5d1c0c15a0b929b3f8c
+SHA512: 38c879e637e043d518c343a8203e04de629e1a3ae6b094b143d9991922c6c5563b016bf892dd9756e525381378e12f7f1564fe51a7c75b716e551fe836a856df
 Homepage: https://pipewire.org/
 Description: PipeWire multimedia server - programs
  PipeWire is a server and user space API to deal with multimedia
@@ -57881,22 +57884,22 @@ Description: PipeWire multimedia server - programs
 
 Package: pipewire-jack
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 568
-Depends: pipewire (= 1.6.9-2), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.9-2)
+Installed-Size: 571
+Depends: pipewire (= 1.6.11-2), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.11-2)
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-jack_1.6.9-2_amd64.deb
-Size: 132692
-MD5sum: 1149cacba29f6e0792e849597d7c0e93
-SHA1: 4b64773aef8386e08757b71264b2b0ba070977d6
-SHA256: 5396529d838fc049554989f6329db60a761d8224e6a20d4cb08c026738a2115f
-SHA512: b50881c09aa5ca655d8291dc41858b5c0fb74cbc8b048937977ab153646b09ac0d8d3ee6716d426f623e1e8eee00ed1f3b4593ec732759c7708cbce8931d53a1
+Filename: ./pipewire-jack_1.6.11-2_amd64.deb
+Size: 133356
+MD5sum: 2ea1680fdf034b00aa107ab2f5f7a06c
+SHA1: d58dc8c98818717b9882749e0594b084abdfd842
+SHA256: 06644e15ab644b439023e1710aba19294f73089baa33fb499d93dc1e59c8ebad
+SHA512: 39d3a2099dae57ec7cb952945d2a9a06294b7605e2d74a6aa870b243e1c63e25a19fe8d39e2373c11b9b464813210d7b81e4d2734090b06fcb58271806f9da0b
 Homepage: https://pipewire.org/
 Description: PipeWire JACK plugin, for JACK applications to output via PipeWire
  PipeWire is a server and user space API to deal with multimedia
@@ -57911,25 +57914,25 @@ Description: PipeWire JACK plugin, for JACK applications to output via PipeWire
 
 Package: pipewire-pulse
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: foreign
 Priority: optional
 Section: sound
 Source: pipewire
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 53
-Depends: pipewire (= 1.6.9-2), dconf-gsettings-backend | gsettings-backend
+Installed-Size: 56
+Depends: pipewire (= 1.6.11-2), dconf-gsettings-backend | gsettings-backend
 Recommends: wireplumber
 Suggests: libspa-0.2-bluetooth, pulseaudio-utils
 Conflicts: pulseaudio-module-gsettings
 Breaks: pipewire-bin (<< 0.3.27-2)
 Replaces: pipewire-bin (<< 0.3.27-2)
-Filename: ./pipewire-pulse_1.6.9-2_amd64.deb
-Size: 15356
-MD5sum: 60728aac61bcef1c99b6195b570199df
-SHA1: ab57aa97caab956e50309e611551bfcbf35d3915
-SHA256: 3acb0acce933105eaefa0bd7c897c164a63dbe51af800ce9d19936f3ede81281
-SHA512: 90fe3150bd5ec4ef5fbbc067bc022166313abc71033f9d04ff61ed24597f5f757a2ea8480677cf7ee07626b4dc1cb963c346c2da308a924c61776cbf6ba55741
+Filename: ./pipewire-pulse_1.6.11-2_amd64.deb
+Size: 16052
+MD5sum: 57ec5a6d8f168886db6c9ebb42e35fee
+SHA1: 8a70b75cfe12af598c92713237cd8e19ef2cb117
+SHA256: e5411f61628d171bb09d1a719fb16d48034e644b2fb0c5a4a1f0f2865fb2e2b0
+SHA512: cb70793fe296839fd6c0f8811489df0e681206b39d2ed57ff9a1f7f011c0f67ddea30f3bb5a80efe87df84a24e13a97068c89654fe2a9f77f3ec7ae93ade98f5
 Homepage: https://pipewire.org/
 Description: PipeWire PulseAudio daemon
  PipeWire is a server and user space API to deal with multimedia
@@ -57944,19 +57947,19 @@ Description: PipeWire PulseAudio daemon
 
 Package: pipewire
 Architecture: amd64
-Version: 1.6.9-2
+Version: 1.6.11-2
 Multi-Arch: same
 Priority: optional
 Section: video
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 136
-Depends: libpipewire-0.3-modules (= 1.6.9-2), pipewire-bin (= 1.6.9-2), systemd | systemd-standalone-sysusers | systemd-sysusers
-Filename: ./pipewire_1.6.9-2_amd64.deb
-Size: 117268
-MD5sum: 9d7f56d8c7b631e4b3e51f46634e3a06
-SHA1: 2e352cd2b2492b24e8885c60d3dfbcf12010298e
-SHA256: b0ceefe4ca72dc815b4b5c5beea37a066373901e6851a55d0a42fd7a5c54771b
-SHA512: 2e283d5ac8a45cfe710adcb9eaa33556c59e20f172a5f525311cde7ee7993fd1386971e115d4bc9203682818fa702f609ab285979163463599f0df3a9ff08f7c
+Installed-Size: 140
+Depends: libpipewire-0.3-modules (= 1.6.11-2), pipewire-bin (= 1.6.11-2), systemd | systemd-standalone-sysusers | systemd-sysusers
+Filename: ./pipewire_1.6.11-2_amd64.deb
+Size: 118748
+MD5sum: bdf39cba3e91b3186472b144ad3b5740
+SHA1: 55577cf39c24cce65436c9bcfac5a37088f4fbc2
+SHA256: ded2cb524391468ab10b363f8d3eec33a531b3f9a0ca6a8c91be8e972b0fc5d8
+SHA512: e8005abbef0757cc346ae7a39c252c38360debcb520d0a05c1fcfe6f19d0f727fd173248947a839da6b0fbf193d12324c80aedf37182b0f3e1939efec3c4edce
 Homepage: https://pipewire.org/
 Description: audio and video processing engine multimedia server
  PipeWire is a server and user space API to deal with multimedia
@@ -61041,7 +61044,7 @@ Description: Qt 5 Graphical Effects module
 
 Package: qml-module-qtqml
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -61051,12 +61054,12 @@ Installed-Size: 86
 Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.15.1), libqt5qmlmodels5 (>= 5.14.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
 Breaks: libqt5qml5 (<< 5.14.1+dfsg-1~)
 Replaces: libqt5qml5 (<< 5.14.1+dfsg-1~)
-Filename: ./qml-module-qtqml_5.15.19+dfsg-2_amd64.deb
-Size: 18204
-MD5sum: 954143a2bbbcead6978bd2539846cfa5
-SHA1: e20dcc48d4fa15d963f2190177e780ab42836bfc
-SHA256: 80fa06163be907032ac8b08b8a738ce878ec72452b5b7789efffa534b24f691c
-SHA512: 68c36a87c720b525f17675130cdafbccd9aea7e3c5971f733fe52d52a0b992c6a3c0f3a6ba2d8e6d31926a46ea5d961dea55cec051f3a863ebea547ea4d3faf3
+Filename: ./qml-module-qtqml_5.15.19+dfsg-3_amd64.deb
+Size: 18300
+MD5sum: 7a19984ad3eab89df16745a678e8c603
+SHA1: 1a2af27c33d568e1b4e4ab999b0e8a9f4ca8c697
+SHA256: 95e52c97cbb7b675d504fee471e8ba306c594e9df25c92d74aea490803e6181b
+SHA512: 8b88dc0dbbf6197ed74273bb278a0570317cbf864c5f2a9e3d1402c972464bbe62da6bbf97538a64cad291bd6f39ec13a5b96859ae2c4e1a693a5e1637703c96
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 QtQml QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -61113,7 +61116,7 @@ Description: Qt 5 Quick Controls QML module
 
 Package: qml-module-qtquick-layouts
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -61121,12 +61124,12 @@ Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 227
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-19, qtdeclarative-abi-5-15-19
-Filename: ./qml-module-qtquick-layouts_5.15.19+dfsg-2_amd64.deb
-Size: 52852
-MD5sum: b90fc138112d4227b4d2fdb2f4edf4db
-SHA1: 5910da41be7ae00a3fb51d71923b571430e8a2b6
-SHA256: f26203c96ea860176534111c1e67037c93a021fa9bcf58038e57dd161bb14129
-SHA512: da6000815484fe16a7cd8da82e50a5fe12642baace3b8c19e0c8ac88ead41b677701686bdfaa28fb4dad08f754c4cfebc9ec78c2c37283ad2651dd637eb13b2c
+Filename: ./qml-module-qtquick-layouts_5.15.19+dfsg-3_amd64.deb
+Size: 54180
+MD5sum: 70bb2be66f06d6b7a6a6cc2e92ec1919
+SHA1: b886bb287061228d77ada010a4646a02d78498b5
+SHA256: 0fb0e365a820ba0c9cb31d5f8f861264dde9b941e18b84d58085c341e60fe3d0
+SHA512: fd972addc47322c2cde291d2fa8770d30a05ee7f4def6f1965656964c98dccea1664f8de0bc9a97d546dc3a8e5738032097c528dfac35c213e4fd93fe2075f2c
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Quick Layouts QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -61160,20 +61163,20 @@ Description: Qt 5 Qt Quick Templates 2 QML module
 
 Package: qml-module-qtquick-window2
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 129
+Installed-Size: 133
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.15.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
-Filename: ./qml-module-qtquick-window2_5.15.19+dfsg-2_amd64.deb
-Size: 25824
-MD5sum: bbd0e3e4380b93e8ad2c6ed2dd04fa8b
-SHA1: f93748f9aba266a8d5d2c62fd828ccd0b878649a
-SHA256: 32e4177d5591bf4954c1f77d9f8cf2e2846d6bc99ce98077511610f2b77320b8
-SHA512: 62286e927397042be76e09906fd17c4bf2d30daa58af506cca4170d0be75f154ffd4c13eb32ccc8060e14a2552bf9b774db99f3060f0d30504844e6b81c500fe
+Filename: ./qml-module-qtquick-window2_5.15.19+dfsg-3_amd64.deb
+Size: 26020
+MD5sum: 858d1e60134fbbe2a23573abd69d4d8b
+SHA1: e0a254036ca17b7b6d5bdfb3d4d5f21b3de77d5a
+SHA256: c7ccb2070e76214e7012a7e6f8201268245e2f7ac0d58dbe467db00cba7fcb3f
+SHA512: b04b93fe52690aedf38352de1b51dd72eb9531e5c865190b5dc37860c566af54eb6d69459713d05b551b6bb1cc95299e728d84582da9af374193755e7a2364ea
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 window 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -61184,7 +61187,7 @@ Description: Qt 5 window 2 QML module
 
 Package: qml-module-qtquick2
 Architecture: amd64
-Version: 5.15.19+dfsg-2
+Version: 5.15.19+dfsg-3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -61192,12 +61195,12 @@ Source: qtdeclarative-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 277
 Depends: libc6 (>= 2.2.5), libqt5core5t64 (>= 5.15.1), libqt5qml5 (>= 5.0.2), libqt5qmlmodels5 (>= 5.14.1), libqt5qmlworkerscript5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 5), qtdeclarative-abi-5-15-19
-Filename: ./qml-module-qtquick2_5.15.19+dfsg-2_amd64.deb
-Size: 34480
-MD5sum: bea7edd2135c8b0fb4baec63712ffd6d
-SHA1: 2f843cb4e78285032eb0cd80bc16532f5559fd06
-SHA256: cc4a6d61aa8a812b6b1f9b0c18ff800ffc486444e71037552427698bdccc4fbf
-SHA512: faa3de2075f656ad6c3673ae812b4c42acf392e77302a0dc71b22c85fd0f14dfbd7773e6f91d1efa40abb7a08838a3676c584ea3e1e01eff0d4f28d55d4ab3a7
+Filename: ./qml-module-qtquick2_5.15.19+dfsg-3_amd64.deb
+Size: 34548
+MD5sum: d243fc527c4d04ecc9b6337fa943fa14
+SHA1: 978e02c263f2a73c75fd744882bf72f17a317f95
+SHA256: 274c76cd52f0d057669851f1d84bda5e62bfa7e1b0dca6606a14bf0ce73a7e55
+SHA512: 2c4361202f5e6233cbd2ed00839bfcd2838f2a1093739c929712889cf52107bbd986514eb0a5d3a6f69eb4d3d870ec89759ff7b44c7933a8699b12a73775a641
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Description: Qt 5 Qt Quick 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
