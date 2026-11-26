@@ -873,20 +873,21 @@ Description: Set of tools to manage Bluetooth devices for linux
 
 Package: bluez
 Architecture: amd64
-Version: 5.88-1
+Version: 5.88-1+b1
 Multi-Arch: foreign
 Priority: optional
 Section: admin
+Source: bluez (5.88-1)
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 5491
+Installed-Size: 5492
 Depends: default-dbus-system-bus | dbus-system-bus, kmod, udev, systemd | systemd-standalone-sysusers | systemd-sysusers, libasound2t64 (>= 1.0.17), libc6 (>= 2.42), libdbus-1-3 (>= 1.10), libdw1t64 (>= 0.127), libglib2.0-0t64 (>= 2.76.0), libreadline8t64 (>= 7.0~rc1), libudev1 (>= 196)
 Suggests: pulseaudio-module-bluetooth
-Filename: ./bluez_5.88-1_amd64.deb
-Size: 1761828
-MD5sum: 3b14af26ca24c1618fb8f43007d52d24
-SHA1: f0b36c398c4ff7a2deea00412055de111f2914a8
-SHA256: 4806b431b54df19634bd69321e9d1bd6d2ac2ba61e51395c9b69612790640782
-SHA512: b07dea6bfe23cd29b11d30ba6d626faebdad02ff798e679107d253dd75aa1442ad18600a956e7a724f2e08635ea2f061c88c9afaae37564d1f398b2626097565
+Filename: ./bluez_5.88-1+b1_amd64.deb
+Size: 1762796
+MD5sum: 7109d3787ee91cc072249776363a4a61
+SHA1: eaebcc5ecb80239fa93872a5741f9dbd5a87a7fd
+SHA256: 6240a10ed7823fac088b73f88c42bfd4740154ac2a4395fa2de76f6cbf796f9a
+SHA512: 962a6dfa5d313d92158e61dc532e0d8bd27903927ff208a1688ce882a445e4110abba6f0d0a0806c9386731493ded3e2895a9c68c54e6a445f255cdaa09fdcf8
 Homepage: https://bluez.github.io/
 Description: Bluetooth tools and daemons
  This package contains tools and system daemons for using Bluetooth devices.
@@ -3068,19 +3069,19 @@ Description: architecture independent files for Evolution Data Server
 
 Package: evolution-data-server
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Priority: optional
 Section: gnome
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 2533
-Depends: evolution-data-server-common (>= 3.56.2-9), gnome-keyring, libcamel-1.2-64t64 (= 3.56.2-9), init-system-helpers (>= 1.66~), perl:any, libc6 (>= 2.38), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdb5.3t64, libebackend-1.2-11t64 (>= 3.38.0), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.49.2), libecal-2.0-3 (>= 3.39.2), libedata-book-1.2-27t64 (>= 3.49.2), libedata-cal-2.0-2t64 (>= 3.48.1), libedataserver-1.2-27t64 (>= 3.56.2-8~), libedataserverui-1.2-4t64 (>= 3.45.3), libglib2.0-0t64 (>= 2.70.0), libgoa-1.0-0b (>= 3.11.90), libgtk-3-0t64 (>= 3.3.16), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libldap2 (>= 2.6.2), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Installed-Size: 2458
+Depends: evolution-data-server-common (>= 3.62.1-4), gnome-keyring, libcamel-1.2-68 (= 3.62.1-4), init-system-helpers (>= 1.66~), perl:any, libc6 (>= 2.38), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdb5.3t64, libebackend-1.2-11t64 (>= 3.38.0), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-5 (>= 3.62.0), libecal-2.0-3 (>= 3.62.1), libedata-book-1.2-27t64 (>= 3.49.2), libedata-cal-2.0-2t64 (>= 3.48.1), libedataserver-1.2-28 (>= 3.62.0), libedataserverui-1.2-4t64 (>= 3.45.3), libglib2.0-0t64 (>= 2.70.0), libgoa-1.0-0b (>= 3.11.90), libgtk-3-0t64 (>= 3.3.16), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libldap2 (>= 2.6.2), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
 Suggests: evolution
-Filename: ./evolution-data-server_3.56.2-9_amd64.deb
-Size: 714928
-MD5sum: affce3761083bf795e23b24e1f62b542
-SHA1: 95cccb9be565ce62ad6134e129e22836ac4d46aa
-SHA256: 26e0a29a0e18319b1af957417876a8cddbb31542aaae588bf9f0d3a867a11719
-SHA512: 505b6b286d561ff9f05dd81ed091d0704f84b9a2b41bb6a51bc0f956d5efe870cd7f10c2ab1702cfe20b2ca2e460f2e5831d674d066abc3bd4dd1601f752ad47
+Filename: ./evolution-data-server_3.62.1-4_amd64.deb
+Size: 704388
+MD5sum: 73df8973e6f762eabedacf65346b31aa
+SHA1: 5db77c745e06d82ef86c155bdb13d17c7d9ea7ad
+SHA256: 3d4322b420f1ba56c7989d3e7129f5da2adc347bdb5b04ab2bd2373ebd03b23a
+SHA512: 21f9b3d0a2de732f71d30b0857e3657f865c9c8e7b5ae678f5ed3cc8059e14f575ee75e50e68e9c7fdbda62f984941dae96ea9dc535d89f76af9badbeb95d81e
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: evolution database backend server
  The data server, called "Evolution Data Server" is responsible for managing
@@ -3088,21 +3089,21 @@ Description: evolution database backend server
 
 Package: evolution-ews-core
 Architecture: amd64
-Version: 3.56.2-3
+Version: 3.62.1-2
 Priority: optional
 Section: gnome
 Source: evolution-ews
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3639
-Depends: evolution-data-server (<< 3.57), evolution-data-server (>= 3.56), libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.56.2), libebackend-1.2-11t64 (>= 3.56.2), libebook-contacts-1.2-4t64 (>= 3.25.90), libecal-2.0-3 (>= 3.56.2), libedata-book-1.2-27t64 (>= 3.56.2), libedata-cal-2.0-2t64 (>= 3.56.2), libedataserver-1.2-27t64 (>= 3.56.2), libglib2.0-0t64 (>= 2.68.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmspack0t64 (>= 0.4), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
+Installed-Size: 4054
+Depends: evolution-data-server (<< 3.63), evolution-data-server (>= 3.62), libc6 (>= 2.38), libcamel-1.2-68 (>= 3.62.0), libebackend-1.2-11t64 (>= 3.62.0), libebook-contacts-1.2-5 (>= 3.25.90), libecal-2.0-3 (>= 3.62.0), libedata-book-1.2-27t64 (>= 3.62.0), libedata-cal-2.0-2t64 (>= 3.62.0), libedataserver-1.2-28 (>= 3.62.0), libglib2.0-0t64 (>= 2.68.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmspack0t64 (>= 0.4), libsoup-3.0-0 (>= 3.0.3), libxml2-16 (>= 2.14.1)
 Breaks: evolution-ews (<< 3.55.2)
 Replaces: evolution-ews (<< 3.55.2)
-Filename: ./evolution-ews-core_3.56.2-3_amd64.deb
-Size: 700092
-MD5sum: 414823c5d4718af4df167e29132d01d7
-SHA1: f61b0a09681635b731977b6b1ab3d6d3c18c8e04
-SHA256: e885ab560ea49b35d5b5fa21949bb84ade0e51a7ce9f1d4ba222452f7fd648b1
-SHA512: 9bbffba89f512f19e3b267657148d71e2703b5f6428e44103baf9ed3bfda557a9756c4390f1c1e475bbc201ceb694888e09ce1f2eae3e149576ad39400bba8e5
+Filename: ./evolution-ews-core_3.62.1-2_amd64.deb
+Size: 767664
+MD5sum: 3758df861fdd8de5e696a460f5388881
+SHA1: a2feca293365cb226a6aa931ba3e86e9654ca329
+SHA256: ff6e8a5642f7147932d698ce5ddd123a9844c413188229c369a99ca1b029167b
+SHA512: fda8c89003e53f312ae4c8e8875e2dee5642e1e6907baa30623e9369f2caa4d1abce1474f4de800fcd24e24d88ad611fe640841bf7d30d1ca0e530bdfb834291
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Exchange Web Services integration for GNOME
  This package allows GNOME apps other than Evolution to connect
@@ -7450,20 +7451,20 @@ Description: Introspection data for Cinnamon pulseaudio abstraction
 
 Package: gir1.2-ecal-2.0
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 92
-Depends: gir1.2-camel-1.2 (= 3.56.2-9), gir1.2-edataserver-1.2 (= 3.56.2-9), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-icalglib-3.0, libecal-2.0-3 (>= 3.52.0)
-Filename: ./gir1.2-ecal-2.0_3.56.2-9_amd64.deb
-Size: 23836
-MD5sum: 634d484f9ab4334ec91cecad3fb6b867
-SHA1: 60661fc3438726bf8defb585b3c7d85f4ae343ea
-SHA256: 8ab444bf252181972e1a8fb41b8ef4aa44bdd685731143086f5935a002ce3bcb
-SHA512: c4a98efeca2feca6a0ae8298db3aa0a3818b464c9f0c2ef04034c4a55e2ab369c8a632b09568d288f784b5b8e7f9e7233445fb12fdee0908644ae3ccd8b58c5d
+Installed-Size: 98
+Depends: gir1.2-camel-1.2 (= 3.62.1-4), gir1.2-edataserver-1.2 (= 3.62.1-4), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-icalglib-3.0, libecal-2.0-3 (>= 3.62.1)
+Filename: ./gir1.2-ecal-2.0_3.62.1-4_amd64.deb
+Size: 24868
+MD5sum: 2793c6e817e330c0e259d347fc4e1f91
+SHA1: e96562c60e52cd230a385bd7a5593387f66c879d
+SHA256: 1e80ea009f72a39ff7749dfdcc989208cf061ebd8a7d5d9c7e469003b441d90e
+SHA512: c8cebf7b2eacea6a74a7020e3738c3146404b96fad1376df115411ace1df11a3b3ebd1cf68e00e34265a7ac0e6e6ba15776f7616f8a99e48c48cd4d55cdf04fe
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GObject introspection for the ECal library
  The data server, called "Evolution Data Server" is responsible for managing
@@ -7475,20 +7476,20 @@ Description: GObject introspection for the ECal library
 
 Package: gir1.2-edataserver-1.2
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 178
-Depends: gir1.2-camel-1.2 (= 3.56.2-9), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-json-1.0, gir1.2-libxml2-2.0, gir1.2-soup-3.0, libedataserver-1.2-27t64 (>= 3.56.2-8~)
-Filename: ./gir1.2-edataserver-1.2_3.56.2-9_amd64.deb
-Size: 41884
-MD5sum: 0817f63c61ce3fe7eaa9f8563225f0ab
-SHA1: bb023f232e34a42db5eafb4a0c11be5e868e3afa
-SHA256: 0f3f3946ff8ad1b9387b43949fbfe953c2195b4f63663d2ddf93125455dd3cfb
-SHA512: 4f31a924c3e71aeea539d3daf139e1f0dd6bdd9c1eb6fcdf61ea58037b60867fc5d04341bf606829c3a7a727d4eda67df85bb11e244d8b6c9ef775ec264b765a
+Installed-Size: 181
+Depends: gir1.2-camel-1.2 (= 3.62.1-4), gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-json-1.0, gir1.2-libxml2-2.0, gir1.2-soup-3.0, libedataserver-1.2-28 (>= 3.62.0)
+Filename: ./gir1.2-edataserver-1.2_3.62.1-4_amd64.deb
+Size: 42440
+MD5sum: f5a9663a7eb84e4759323a795829e5d8
+SHA1: a8dccb63953a1ee56fac657d5dc943696b5025b8
+SHA256: f47aeae61b094d74d7f2123e08512b60cb5f21737a8ce2969caaab5a4e3fdccc
+SHA512: 66489f1d2a8d294ef0d47ee5d964d05ee3d808301422e936096ee80cafbef6a562a20aa086b9f33e94025fbe4584d1336c8773c591b8616dad7e8ba999824e11
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GObject introspection for the EDataServer library
  The data server, called "Evolution Data Server" is responsible for managing
@@ -9948,19 +9949,20 @@ Commands: gcalccmd, gnome-calculator
 
 Package: gnome-calendar
 Architecture: amd64
-Version: 51.0-1
+Version: 51.0-1+b1
 Priority: optional
 Section: gnome
+Source: gnome-calendar (51.0-1)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 3094
-Depends: gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libedataserverui4-1.0-0t64 (>= 3.16.2), libfribidi0 (>= 0.19.2), libgeoclue-2-0 (>= 2.4.0), libglib2.0-0t64 (>= 2.83.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.2), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 3.0.3)
+Installed-Size: 3095
+Depends: gsettings-desktop-schemas, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.8~alpha), libc6 (>= 2.38), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-28 (>= 3.45.2), libedataserverui4-1.0-0t64 (>= 3.16.2), libfribidi0 (>= 0.19.2), libgeoclue-2-0 (>= 2.4.0), libglib2.0-0t64 (>= 2.83.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.21.2), libgweather-4-0t64 (>= 3.91.0), libical3t64 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 3.0.3)
 Recommends: evolution-data-server, gnome-online-accounts
-Filename: ./gnome-calendar_51.0-1_amd64.deb
-Size: 577040
-MD5sum: 8b2078192bd7cf9c79a267d4d688dd49
-SHA1: df4c034ca439b103dae4cb7daa0de91fc41e6f31
-SHA256: a7c4a5c86b19eda72f515025427457c742bf2a46ba4908bc6452cc36b80f26ad
-SHA512: d416de2ecec325c7f808236f5c77465cf994d132bcf76991e9e1274d230f49745536e0ca7dcdd5b438728afffc4602c6687aa10755e71ebc93600e0761890db9
+Filename: ./gnome-calendar_51.0-1+b1_amd64.deb
+Size: 578092
+MD5sum: 1289e110a43385c12d263d1a12c79ad2
+SHA1: 57f1ee14ef0d7e177a71fbc900d4dbd0a3926a83
+SHA256: d5cf81b0ae92df1dcb3235d65c75f25035365c41d2acc6c299a991fde78e68f6
+SHA512: 010284608cf3cbdd0b2ee84abc9d7c3adb30a0b8e720c7b4e8879914aac34d4be9f7dee7aa89ef89e18711bec4b042fca7ebcefcce0c9770f34097ed62ce03d0
 Homepage: https://apps.gnome.org/Calendar/
 Description: Calendar application for GNOME
  GNOME Calendar is a simple and beautiful calendar application designed
@@ -19076,23 +19078,23 @@ Description: access library for the EBML format (shared library)
 
 Package: libebook-1.2-21t64
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 371
-Provides: libebook-1.2-21 (= 3.56.2-9)
-Depends: libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.42.1), libebook-contacts-1.2-4t64 (>= 3.49.2), libedata-book-1.2-27t64 (>= 3.43.2), libedataserver-1.2-27t64 (>= 3.17), libglib2.0-0t64 (>= 2.68.0), libnss3 (>= 2:3.13.4-2~), libxml2-16 (>= 2.14.1)
-Breaks: libebook-1.2-21 (<< 3.56.2-9)
+Installed-Size: 376
+Provides: libebook-1.2-21 (= 3.62.1-4)
+Depends: libc6 (>= 2.38), libcamel-1.2-68 (>= 3.42.1), libebook-contacts-1.2-5 (>= 3.62.0), libedata-book-1.2-27t64 (>= 3.43.2), libedataserver-1.2-28 (>= 3.17), libglib2.0-0t64 (>= 2.68.0), libnss3 (>= 2:3.13.4-2~), libxml2-16 (>= 2.14.1)
+Breaks: libebook-1.2-21 (<< 3.62.1-4)
 Replaces: libebook-1.2-21
-Filename: ./libebook-1.2-21t64_3.56.2-9_amd64.deb
-Size: 94776
-MD5sum: e8ceaeb3d71080c95c43f7dc3ae1eb85
-SHA1: 7fd96c3be6c46d994a6f07b90b5d65bc64ebf83a
-SHA256: 609efa461441952ee6e78bfa877be5b7ff00bcfebdb492acf45400c665b99dd4
-SHA512: 49239ee19f58f02c1a3498d7fc41fde779ff5dcda48d23568fd6a8144e491911396502eddb8ef801dc369269e7560e5cd5fbc9fbb6fc431d23523f19e1030080
+Filename: ./libebook-1.2-21t64_3.62.1-4_amd64.deb
+Size: 95304
+MD5sum: 5006603c4e46f6d12f967c567d415d3e
+SHA1: c6258d3f815e710d635dcb0bfa6656eb2789efcf
+SHA256: 43edbad29c1032e944976a3efb6e8b212c85047741a842b3ef975b502b2791a2
+SHA512: 41c6db8f729e3074ac933ab516f1cf1267fe4a80d927e5f59ec084cfc0f67ddd397c57c018d0c01886a18423831b8d2ae8ca0dae3659cf8297e228cce1629c1f
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Client library for evolution address books
  This package is a client library for evolution addressbooks.
@@ -19128,20 +19130,20 @@ Description: Client library for evolution contacts books
 
 Package: libecal-2.0-3
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 630
-Depends: libc6 (>= 2.33), libcamel-1.2-64t64 (>= 3.24.1), libedataserver-1.2-27t64 (>= 3.51.2), libglib2.0-0t64 (>= 2.62.0), libical3t64 (>= 3.0.15)
-Filename: ./libecal-2.0-3_3.56.2-9_amd64.deb
-Size: 176432
-MD5sum: 1e11d18612ba6e03f267aab03ae33d19
-SHA1: 1382fcde4d7b69985155c050a6bbbd6d8b1fcf71
-SHA256: 2a1fd84fc1d8418de71d47407169ef38da2768499605e45c6f641841f949d03e
-SHA512: 7d47c3cb3c2bd8e3782d53973b544953e0c4183a5e932696232cf170913cd1ce65b17486d54b55666b8412883b3eb8aec25c072e511c1ee1b00806ff335ac620
+Installed-Size: 664
+Depends: libc6 (>= 2.33), libcamel-1.2-68 (>= 3.24.1), libedataserver-1.2-28 (>= 3.51.2), libglib2.0-0t64 (>= 2.62.0), libical3t64 (>= 3.0.15)
+Filename: ./libecal-2.0-3_3.62.1-4_amd64.deb
+Size: 186800
+MD5sum: 51d9f7c14f1a6ca5695ade96379cb5ed
+SHA1: b819dfb4922f146874a51cec4313dbc3eb05cb2f
+SHA256: 8cd559cab252c2ea4ab3f78fd436f399b61c59b74010e153e30997fa36f2d940
+SHA512: a9046aba155dc1683559090e5c9aec09a596e94dd784f6ea00a75105413650d4d0ac974e59600c71c6f83ebb1d5b9085c378d749659be97a060c0ced7a682804
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Client library for evolution calendars
  Evolution is the integrated mail, calendar, task and address book
@@ -19574,23 +19576,23 @@ Description: Backend library for evolution address books
 
 Package: libedata-cal-2.0-2t64
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 512
-Provides: libedata-cal-2.0-2 (= 3.56.2-9)
-Depends: libc6 (>= 2.14), libcamel-1.2-64t64 (>= 3.24.1), libebackend-1.2-11t64 (>= 3.49.2), libecal-2.0-3 (>= 3.47.3), libedataserver-1.2-27t64 (>= 3.56.2-8~), libglib2.0-0t64 (>= 2.70.0), libical3t64 (>= 3.0.0), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9)
-Breaks: libedata-cal-2.0-2 (<< 3.56.2-9)
+Installed-Size: 513
+Provides: libedata-cal-2.0-2 (= 3.62.1-4)
+Depends: libc6 (>= 2.14), libcamel-1.2-68 (>= 3.24.1), libebackend-1.2-11t64 (>= 3.49.2), libecal-2.0-3 (>= 3.62.1), libedataserver-1.2-28 (>= 3.56.2-8~), libglib2.0-0t64 (>= 2.70.0), libical3t64 (>= 3.0.0), libsoup-3.0-0 (>= 2.4.0), libsqlite3-0 (>= 3.5.9)
+Breaks: libedata-cal-2.0-2 (<< 3.62.1-4)
 Replaces: libedata-cal-2.0-2
-Filename: ./libedata-cal-2.0-2t64_3.56.2-9_amd64.deb
-Size: 143272
-MD5sum: cf28f9f395c1c3dc14d6caed93df5a24
-SHA1: 5d62cd8cf8dd42f39d9fd154adde7c9a3573f760
-SHA256: ee168566f722a3ce66bcd6b489a778931fa5b9834c4504a262e55bfd3546bbaa
-SHA512: 177fc6f8fbbb96d3b8da1397c4538fd25536e66aef27708a58854833ff90b338e9e5aefa8b800e695fc6872eacfc78fb6cca2e3f529efd3e814386f393e5c1f1
+Filename: ./libedata-cal-2.0-2t64_3.62.1-4_amd64.deb
+Size: 143140
+MD5sum: 203d7ef4ce4afb3f19fda0e46650d16f
+SHA1: 40687098e3a10af6f88e547a52b777b3201ca464
+SHA256: de2b095fca9f84352a76e3764e0167b369cde61e9c3b2b146c8e6f50f03e8392
+SHA512: 9ef9f684ecbfef27f17bd81d0bb7a0c26940ed7d1e593690d2c98e652e48b42d2ebc15bf429e4ca1d0b494515d7d76a69c0985b56f103ea8cf795ca28b4ccf66
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Backend library for evolution calendars
  Evolution is the integrated mail, calendar, task and address book
@@ -19626,23 +19628,23 @@ Description: Utility library for evolution data servers
 
 Package: libedataserverui-1.2-4t64
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 262
-Provides: libedataserverui-1.2-4 (= 3.56.2-9)
-Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcamel-1.2-64t64 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-27t64 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.19.12), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkit2gtk-4.1-0 (>= 2.31.1)
-Breaks: libedataserverui-1.2-4 (<< 3.56.2-9)
+Installed-Size: 263
+Provides: libedataserverui-1.2-4 (= 3.62.1-4)
+Depends: evolution-data-server-common (>= 3.62), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcamel-1.2-68 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-28 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.19.12), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkit2gtk-4.1-0 (>= 2.31.1)
+Breaks: libedataserverui-1.2-4 (<< 3.62.1-4)
 Replaces: libedataserverui-1.2-4
-Filename: ./libedataserverui-1.2-4t64_3.56.2-9_amd64.deb
-Size: 82788
-MD5sum: 3ab86d7c0bef5e401a16ce51f5afde4b
-SHA1: 087cc2c562179601d80df1f8dc957461354c8470
-SHA256: 2a04fbf4e670d2968ba983ee6e84f85384653e4ae6d70ceca55e7199faae3e14
-SHA512: 33dc3e1769e9542db70daa4e16018f504787ade7df5eca1583d2f3908d63e3a7c95f17d085a21b6520d12367a6618f33f1728d0d51a45b0748faf7d01ad9f519
+Filename: ./libedataserverui-1.2-4t64_3.62.1-4_amd64.deb
+Size: 83536
+MD5sum: a85726a346e2f95ac1a45053ae40109c
+SHA1: 43fbb6fc8f4f57ac0a5c9ac80b86425a1a4ebb1c
+SHA256: e84905f6e031726143c986de03e42c58e08cb0ca39c1a211cca86104ad1e3c21
+SHA512: cc4121570834ecf24818adb86010e81738fc5d2215795e13955a797f19fe0ef9d5e987c1648e24cb7141deb219b6e67845e0c72d868f4cd1291a9aa6927cf052
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -19652,23 +19654,23 @@ Description: Utility library for evolution data servers
 
 Package: libedataserverui4-1.0-0t64
 Architecture: amd64
-Version: 3.56.2-9
+Version: 3.62.1-4
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: evolution-data-server
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 262
-Provides: libedataserverui4-1.0-0 (= 3.56.2-9)
-Depends: evolution-data-server-common (>= 3.56), libc6 (>= 2.38), libcamel-1.2-64t64 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-27t64 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-4-1 (>= 4.0.0), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkitgtk-6.0-4 (>= 2.39.7)
-Breaks: libedataserverui4-1.0-0 (<< 3.56.2-9)
+Installed-Size: 263
+Provides: libedataserverui4-1.0-0 (= 3.62.1-4)
+Depends: evolution-data-server-common (>= 3.62), libc6 (>= 2.38), libcamel-1.2-68 (>= 3.19.92), libecal-2.0-3 (>= 3.45.2), libedataserver-1.2-28 (>= 3.53.2), libglib2.0-0t64 (>= 2.66.0), libgtk-4-1 (>= 4.0.0), libical3t64 (>= 3.0.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.14.0), libsoup-3.0-0 (>= 2.24.3), libwebkitgtk-6.0-4 (>= 2.39.7)
+Breaks: libedataserverui4-1.0-0 (<< 3.62.1-4)
 Replaces: libedataserverui4-1.0-0
-Filename: ./libedataserverui4-1.0-0t64_3.56.2-9_amd64.deb
-Size: 83172
-MD5sum: 5314b23c0ac6dfc00b62d674bbffb5e5
-SHA1: fb47ab34cdd37915341fe658c6ee5e6df90bdbc1
-SHA256: 1dd5dc328e19829a9356f7d10c347955f1fec8e775eaa0ea18c3c9f4e743ffbb
-SHA512: 1d0d39c645ec19154ae7031de1a0c69b6aa5820dd2f2c13774a58e5702e339c28e46bebf3ccdf7c7f860b5eb9522703114d1d7edf5328d238779e5bb0e005447
+Filename: ./libedataserverui4-1.0-0t64_3.62.1-4_amd64.deb
+Size: 83892
+MD5sum: 6b58fcfd08c6342c63b3c47e5e383bdc
+SHA1: 2d0792f8d8e99d949803b5467e7a0b77d2d7e2e3
+SHA256: 41375b0ae6c71ee50a80ea4cbece7a8136022a5c37c8f97114222b6eb8dba7e8
+SHA512: ecc55fcb952e167fafe180cafb7e0b0cb9099079e4db291fcef7f84e640069569ec6a5a97a00f8a692b5876a8ae9679bcdc37a0da0ef163592e8814d00c5d160
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: GTK4 utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -23464,20 +23466,20 @@ Description: GNOME implementation of the freedesktop menu specification
 
 Package: libgnome-panel3
 Architecture: amd64
-Version: 3.58.1-2+b2
+Version: 3.58.1-2+b3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-panel (3.58.1-2)
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 77
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.22.0)
-Filename: ./libgnome-panel3_3.58.1-2+b2_amd64.deb
-Size: 22604
-MD5sum: 097a5a2109ae0847da180d42e040cd58
-SHA1: db822dc7001308ce3e2fed9d988dd680a0191f65
-SHA256: 2011d540685a520dfc6c15b6b3c9a9394cd8623dd689eede1223296c633c30a0
-SHA512: 9b93b67d74a09165ccf8d2059af7e5d97f20acaa37eebcb21daa6914104c96ade0a51a217eaa0a75e297e873b564d24510d2249ad9e40d0cc168565701bf3344
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libgdk-pixbuf-2.0-0 (>= 2.26.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.22.0), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.15.4), libpangocairo-1.0-0 (>= 1.15.4), zlib1g (>= 1:1.1.4)
+Filename: ./libgnome-panel3_3.58.1-2+b3_amd64.deb
+Size: 22764
+MD5sum: 93e8888f546d31e658c9f8975be54b2e
+SHA1: 8f889f1c459d0ea120354f98471dee25688b2849
+SHA256: ba8b544b162733e85d40ce5e68ae185f5af90f77dfdbdbdd0dd2b87304c8b26d
+SHA512: 407c123da437d08cc1d145433c2fac6209b16c85412346cb60a0ed726ea69acee1b2ea0a8b477459f342a7b2f8c4d275175e5ef35bb09ed164d8bcf752093271
 Homepage: https://wiki.gnome.org/Projects/GnomePanel
 Description: library for GNOME Panel modules
  GNOME Flashback continues the traditional desktop interface which was used
@@ -37783,23 +37785,23 @@ Description: library for system monitoring - processcore shared library
 
 Package: libpskc0t64
 Architecture: amd64
-Version: 2.6.15-1
+Version: 2.6.15-1+b1
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: oath-toolkit
+Source: oath-toolkit (2.6.15-1)
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
-Installed-Size: 112
-Provides: libpskc0 (= 2.6.15-1)
-Depends: libc6 (>= 2.38), libxml2-16 (>= 2.14.1), libxmlsec1-10310 (>= 1.2.31), libxmlsec1-openssl10310 (>= 1.3.0)
+Installed-Size: 113
+Provides: libpskc0 (= 2.6.15-1+b1)
+Depends: libc6 (>= 2.38), libxml2-16 (>= 2.14.1), libxmlsec1-10312 (>= 1.2.31), libxmlsec1-openssl10312 (>= 1.3.0)
 Breaks: libpskc0 (<< 2.6.15-1)
 Replaces: libpskc0
-Filename: ./libpskc0t64_2.6.15-1_amd64.deb
-Size: 27396
-MD5sum: 0b64a71c0f5daf4e7baa462d90c77612
-SHA1: 1a31ea16bce41821e570a429f940e741b506781d
-SHA256: a0d42e7aa1394029a8bbe54c899b6ade91d310905b37b50a46ce593740344a46
-SHA512: 048b6f2f2386fb416b474f7512a4c647176ce9c4eee05865b6c08867ce9e3a91b64b34388b33347f2c1691627d6d0249c149671a13860229698160e9bfda1884
+Filename: ./libpskc0t64_2.6.15-1+b1_amd64.deb
+Size: 27628
+MD5sum: b69ff83b42a5203470b6bb3977c16233
+SHA1: 830c626dccad9c30caf17bad402096f5419502a8
+SHA256: 53f957c1d257dec249aad3d69f6aeac94d2183fbf905b22c57db6f0f877250a5
+SHA512: 67f9f05ac2868ed915bf4b013c7c9af5535659494f4b780b527b645e1a70a26beff7c2a4ff47bd37ed47de2e24813189a1f159572ec8a4fb8f59062ffb23e0c4
 Homepage: https://www.nongnu.org/oath-toolkit/
 Description: OATH Toolkit Libpskc library
  OATH Toolkit provide components to build one-time password
@@ -40386,23 +40388,23 @@ Description: office productivity suite -- database (no GUI variant)
 
 Package: libreoffice-base
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: database
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 5134
-Depends: libreoffice-base-core (= 4:26.8.2.2-2), libreoffice-base-drivers (= 4:26.8.2.2-2), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.2.2-2), libreoffice-uiconfig-base (= 4:26.8.2.2-2), libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libreoffice-sal-private-abi (= 26.8.2), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
-Recommends: libreoffice-writer, libreoffice-java-common (>= 4:26.8.2.2~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
+Installed-Size: 5136
+Depends: libreoffice-base-core (= 4:26.8.3.1-3+b1), libreoffice-base-drivers (= 4:26.8.3.1-3+b1), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.3.1-3+b1), libreoffice-uiconfig-base (= 4:26.8.3.1-3), libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libreoffice-sal-private-abi (= 26.8.3), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-writer, libreoffice-java-common (>= 4:26.8.3.1~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
 Suggests: access2base-doc, libreoffice-report-builder, python3-access2base, unixodbc
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~)
-Filename: ./libreoffice-base_4%3a26.8.2.2-2_amd64.deb
-Size: 1458224
-MD5sum: 783eb29941b1e7116af7fe54062a4736
-SHA1: 8242433f8231b1f9460d8154238a9dcbf9ee9de7
-SHA256: 717524ea21bc9468465f4ad9db4cca0022efcb96da458429bfdb128b83c4208b
-SHA512: 57489902e3f3d8c5436ede780275dd46ffac41e07f321e7658f259e9d9bc07809c20b6bed3028d01df6864b6deb382760f64934696c9c5126be4e44bf04e1120
+Filename: ./libreoffice-base_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 1460368
+MD5sum: a509d4e1176430240e009a05bcd61a16
+SHA1: ce3b4b301854e6a93f253fcb358246c62d000a0b
+SHA256: 594e6d444129c65cbd1707fb5ed59174c110d2216a2af2829a85b4f1880ddfcc
+SHA512: 3040eda7b42e1acb85672c41fdeff3930c949de6bd4aca082241471076496c5021f5b04bec806270c7b8dac81f5c7752953f90c5db98b2809546a89fe800dd32
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- database
  LibreOffice is a full-featured office productivity suite that provides
@@ -40439,23 +40441,23 @@ Description: office productivity suite -- spreadsheet (no GUI variant)
 
 Package: libreoffice-calc
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: editors
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 29620
-Depends: libreoffice-base-core (= 4:26.8.2.2-2), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.2.2-2), libreoffice-uiconfig-calc (= 4:26.8.2.2-2), debconf (>= 0.5) | debconf-2.0, coinor-libcoinmp0, libc6 (>= 2.38), libcolamd3 (>= 1:7.0.1), libetonyek-0.1-1 (>= 0.1.13), libgcc-s1 (>= 4.0), libicu78 (>= 78.1-1~), libmd4c-html0 (>= 0.4.4), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.8), liborcus-0.21-0 (>= 0.21.0), liborcus-parser-0.21-0 (>= 0.21.0), libreoffice-sal-private-abi (= 26.8.2), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 4:26.8.0.0.alpha0~), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libwps-0.4-4, libxml2-16 (>= 2.14.3+dfsg-0exp3), uno-libs-private
+Installed-Size: 29622
+Depends: libreoffice-base-core (= 4:26.8.3.1-3+b1), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.3.1-3+b1), libreoffice-uiconfig-calc (= 4:26.8.3.1-3), debconf (>= 0.5) | debconf-2.0, coinor-libcoinmp0, libc6 (>= 2.38), libcolamd3 (>= 1:7.0.1), libetonyek-0.1-1 (>= 0.1.13), libgcc-s1 (>= 4.0), libicu78 (>= 78.1-1~), libmd4c-html0 (>= 0.4.4), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.9), liborcus-0.21-0 (>= 0.21.0), liborcus-parser-0.21-0 (>= 0.21.0), libreoffice-sal-private-abi (= 26.8.3), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 4:26.8.0.0.alpha0~), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libwps-0.4-4, libxml2-16 (>= 2.14.3+dfsg-0exp3), uno-libs-private
 Recommends: liborcus-0.21-0 (>= 0.21.0-5)
 Suggests: ocl-icd-libopencl1 | mesa-opencl-icd | beignet-opencl-icd
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-core (<< 4:25.2.1-3~), libreoffice-core-nogui (<< 4:25.2.1-3~)
-Filename: ./libreoffice-calc_4%3a26.8.2.2-2_amd64.deb
-Size: 8812612
-MD5sum: a1404526730b8b1c11db7701da107f61
-SHA1: 2e4c969507c6637b4adbb9034e2c7482cdccf9f5
-SHA256: 5b94337c396e02a46c73c5228069bed21e20a627f36d03394238104ad616b470
-SHA512: f48f49cde933335469f6553a86fae9017ef605c9a3dc624f8ffb340f1f836f8397df0029cb01d55e2622ed278d645ece7b7b48658b45a83ee66216c539e361b1
+Filename: ./libreoffice-calc_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 8812508
+MD5sum: e386a9990355c36e3303790169e6c48a
+SHA1: 45c9889871a151409eba41fc6014badeca1f269c
+SHA256: af131febb1743dbeb6eee36ae43af3e18693967bded1412b40e5264ee33761dc
+SHA512: dc176b9e9078241038752848273ae5214851187d45c8ddbc26cad4b1b4c1154fcbb15937f4f968282e41d262ed7e19a1d769bbdddd5880a24f9ca66e112961af
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- spreadsheet
  LibreOffice is a full-featured office productivity suite that provides
@@ -40494,25 +40496,25 @@ Description: LibreOffice Extension to organize a German Law Office
 
 Package: libreoffice-common
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 47320
+Installed-Size: 47328
 Provides: libreoffice-access2base, libreoffice-l10n-en-us
-Depends: libreoffice-style-colibre, libreoffice-uiconfig-common (= 4:26.8.2.2-2), ure, ucf, libnumbertext-data
+Depends: libreoffice-style-colibre, libreoffice-uiconfig-common (= 4:26.8.3.1-3), ure, ucf, libnumbertext-data
 Recommends: poppler-data, xdg-utils, fonts-liberation (>= 1:2) | ttf-mscorefonts-installer, apparmor, python3-uno, libexttextcat-data
 Suggests: access2base-doc, libreoffice-style, python3-scriptforge
 Conflicts: broffice, libreoffice-base (<< 4:25.2.1~rc1-3~), libreoffice-base-nogui (<< 4:25.2.1~rc1-3~), libreoffice-calc (<< 4:25.2.1~rc1-3~), libreoffice-calc-nogui (<< 4:25.2.1~rc1-3~), libreoffice-draw (<< 4:25.2.1~rc1-3~), libreoffice-draw-nogui (<< 4:25.2.1~rc1-3~), libreoffice-evolution (<< 4:25.2.1~rc1-3~), libreoffice-filter-mobiledev, libreoffice-gnome (<< 4:25.2.1~rc1-3~), libreoffice-impress (<< 4:25.2.1~rc1-3~), libreoffice-impress-nogui (<< 4:25.2.1~rc1-3~), libreoffice-l10n (<< 7.0), libreoffice-l10n-4.3, libreoffice-l10n-4.4, libreoffice-librelogo (<< 4:25.2.1~rc1-3~), libreoffice-math (<< 4:25.2.1~rc1-3~), libreoffice-math-nogui (<< 4:25.2.1~rc1-3~), libreoffice-report-builder (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-firebird (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-mysql (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-postgresql (<< 4:25.2.1~rc1-3~), libreoffice-wiki-publisher (<< 1.2.0+LibO5.4.0~rc2), libreoffice-writer (<< 4:25.2.1~rc1-3~), libreoffice-writer-nogui (<< 4:25.2.1~rc1-3~), openoffice.org-unbundled, python3-uno (<< 1:7.0.0~alpha~)
 Breaks: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-core (>= 4:27.2~), libreoffice-core (<< 4:26.8~), libreoffice-core-nogui (>= 4:27.2~), libreoffice-core-nogui (<< 4:26.8~), libreoffice-evolution (<< 4:25.2.1~rc1-3~), libreoffice-gnome (<< 4:25.2.1~rc1-3~), libreoffice-help (<< 5.4), libreoffice-help-5.2, libreoffice-l10n (<< 7.0), libreoffice-librelogo (<< 4:25.2.1~rc1-3~), libreoffice-report-builder (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-firebird (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-hsqldb (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-mysql (<< 4:25.2.1~rc1-3~), libreoffice-sdbc-postgresql (<< 4:25.2.1~rc1-3~), libreoffice-style-andromeda (<< 4:26.8~), libreoffice-style-crystal (>= 4:27.2~), libreoffice-style-crystal (<< 4:26.8~), libreoffice-style-galaxy (>= 4:27.2~), libreoffice-style-galaxy (<< 4:26.8~), libreoffice-style-hicontrast (>= 4:27.2~), libreoffice-style-hicontrast (<< 4:26.8~), libreoffice-style-tango, libreoffice-writer2latex (<< 1.0.2-9), libreoffice-writer2xhtml (<< 1.0.2-9), openclipart-libreoffice (<= 1:0.18+dfsg-17), python3-uno (<< 4:25.2.1~rc1-3~)
 Replaces: libreoffice-base (<< 1:6.4.0~beta1-2~), libreoffice-pdfimport (<< 1:5.4~), openclipart-libreoffice (<= 1:0.18+dfsg-17)
-Filename: ./libreoffice-common_4%3a26.8.2.2-2_all.deb
-Size: 21609932
-MD5sum: 4f2a1cf63fe7f67aaee6a3d2745031b4
-SHA1: dddddccd5ff3d4deab71d75cd689f39a7068e3c4
-SHA256: a3bd13c1ed41dc5cd0fe556c38ece9368c8ce46a99e9321f47f147e58c038923
-SHA512: 2cfb619c825057bc33f02388b798ac855ac12055c946a9dff022e1eb1c7d3fcf569b4d3f8a792e93e3c4b9d401a4990b339e5b75276ae575f6267cde0602aa61
+Filename: ./libreoffice-common_4%3a26.8.3.1-3_all.deb
+Size: 21610632
+MD5sum: 3a7abb47877b3aecad040a500bd0f721
+SHA1: 4ae6767ad8a9de42a4564b3e6baae43b0b06f3cf
+SHA256: bcc040e03a2fd45b67a0f86c578d2f8dcd980ebbc3dfa8b7ad8f179d622ea0fc
+SHA512: cd237e78887149fc51bd9a3f66b53b6ac11a9bf623acf073662016ab1d1f25272a32cd2cc3fef02d0e7c9436b943d1c773631d16b636062ef48309d0fbc419d6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- arch-independent files
  LibreOffice is a full-featured office productivity suite that provides
@@ -40685,22 +40687,22 @@ Description: Formula editing plug-in for LibreOffice Writer
 
 Package: libreoffice-draw-nogui
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: editors
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 9877
-Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core-nogui (= 4:26.8.2.2-2) | libreoffice-core (= 4:26.8.2.2-2), libreoffice-uiconfig-draw (= 4:26.8.2.2-2), libreoffice-uiconfig-impress (= 4:26.8.2.2-2), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libcdr-0.1-1 (>= 0.1.9), libfreehand-0.1-1 (>= 0.1.4), libgcc-s1 (>= 3.3.1), libmspub-0.1-1 (>= 0.1.5), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.8), libpagemaker-0.0-0 (>= 0.0.4), libqxp-0.0-0 (>= 0.0.3), libreoffice-sal-private-abi (= 26.8.2), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libvisio-0.1-1 (>= 0.1.11), libwpg-0.3-3 (>= 0.3.4), libxml2-16 (>= 2.14.3+dfsg-0exp3), libzmf-0.0-0 (>= 0.0.2), uno-libs-private
+Installed-Size: 9879
+Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core-nogui (= 4:26.8.3.1-3+b1) | libreoffice-core (= 4:26.8.3.1-3+b1), libreoffice-uiconfig-draw (= 4:26.8.3.1-3), libreoffice-uiconfig-impress (= 4:26.8.3.1-3), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libcdr-0.1-1 (>= 0.1.9), libfreehand-0.1-1 (>= 0.1.4), libgcc-s1 (>= 3.3.1), libmspub-0.1-1 (>= 0.1.6), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.9), libpagemaker-0.0-0 (>= 0.0.4), libqxp-0.0-0 (>= 0.0.3), libreoffice-sal-private-abi (= 26.8.3), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libvisio-0.1-1 (>= 0.1.12), libwpg-0.3-3 (>= 0.3.4), libxml2-16 (>= 2.14.3+dfsg-0exp3), libzmf-0.0-0 (>= 0.0.2), uno-libs-private
 Conflicts: libreoffice-draw
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-impress (<< 1:5.2.0-2)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-draw, libreoffice-impress (<< 4:7.5.4~rc1-1), libreoffice-impress-nogui (<< 4:7.5.4~rc1-1)
-Filename: ./libreoffice-draw-nogui_4%3a26.8.2.2-2_amd64.deb
-Size: 2825120
-MD5sum: 455960791b88ad5d92fa6f10bbf4c924
-SHA1: 6815542b955eaa58622e0ce52d659723ff15433a
-SHA256: 4042c4f5c3d453d8e959dcad21a82a3407c809d0c7f72397f026e12ab76b7890
-SHA512: e2b67081b9ec044d48dc9943c4d60cd6494d41094da876ead94f6d082f111dc61bd6eac5273a27fc6513f8c6adb950ac194ac08fb85fab618487b2d01b9d6dfe
+Filename: ./libreoffice-draw-nogui_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 2826468
+MD5sum: 96c465ff032416e94702f04521a6a95c
+SHA1: 79bf4d9a7228e99014b05eeaeebecd3963367bab
+SHA256: d6f10e685b602b45ad3fba90b3d45233cbe582447561bd11815946a6b47f635b
+SHA512: 47fa2ae389b9ffcc1e972ab3b2674711d9ad56e9e46ccc2a9879b12569c135b8985f14a72cc400cf10b9354abafc7062bbe494bf3616f33099663a959d2369ef
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- drawing (no GUI variant)
  LibreOffice is a full-featured office productivity suite that provides
@@ -40710,21 +40712,21 @@ Description: office productivity suite -- drawing (no GUI variant)
 
 Package: libreoffice-draw
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: editors
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 11422
-Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.2.2-2), libreoffice-uiconfig-draw (= 4:26.8.2.2-2), libreoffice-uiconfig-impress (= 4:26.8.2.2-2), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libcdr-0.1-1 (>= 0.1.9), libdbus-1-3 (>= 1.10), libfreehand-0.1-1 (>= 0.1.4), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libmspub-0.1-1 (>= 0.1.5), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.8), libpagemaker-0.0-0 (>= 0.0.4), libqxp-0.0-0 (>= 0.0.3), libreoffice-sal-private-abi (= 26.8.2), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libvisio-0.1-1 (>= 0.1.11), libwpg-0.3-3 (>= 0.3.4), libxml2-16 (>= 2.14.3+dfsg-0exp3), libzmf-0.0-0 (>= 0.0.2), uno-libs-private
+Installed-Size: 11424
+Depends: libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 4:26.8.3.1-3+b1), libreoffice-uiconfig-draw (= 4:26.8.3.1-3), libreoffice-uiconfig-impress (= 4:26.8.3.1-3), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libcdr-0.1-1 (>= 0.1.9), libdbus-1-3 (>= 1.10), libfreehand-0.1-1 (>= 0.1.4), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libmspub-0.1-1 (>= 0.1.6), libmwaw-0.3-3 (>= 0.3.23), libodfgen-0.1-1 (>= 0.1.9), libpagemaker-0.0-0 (>= 0.0.4), libqxp-0.0-0 (>= 0.0.3), libreoffice-sal-private-abi (= 26.8.3), librevenge-0.0-0 (>= 0.0.6), libstaroffice-0.0-0 (>= 0.0.8), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libvisio-0.1-1 (>= 0.1.12), libwpg-0.3-3 (>= 0.3.4), libxml2-16 (>= 2.14.3+dfsg-0exp3), libzmf-0.0-0 (>= 0.0.2), uno-libs-private
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-core (<< 1:6.4.1~rc1-3), libreoffice-impress (<< 4:7.5.3~rc2-2), libreoffice-texmaths (<< 0.52.6~)
 Replaces: libreoffice-common (<< 1:6.4.2~rc1~), libreoffice-core (<< 1:6.4.1~rc1-3), libreoffice-impress (<< 4:7.5.4~rc1-1), libreoffice-impress-nogui (<< 4:7.5.4~rc1-1)
-Filename: ./libreoffice-draw_4%3a26.8.2.2-2_amd64.deb
-Size: 3227064
-MD5sum: 574c25835334b92e352cd901061a3cd2
-SHA1: dc4f7120f5e8e88516473a601929e03697d0a846
-SHA256: 4188b777c6b3e0bad4dc0f2728653676eae63d5ebcbb32eb0874198596e1d813
-SHA512: 438e8a5237ee42bb2d7805b0c29a843c14bda1d20314af4738b9dddc2765a18e3584e6a2f3529b0de98e67e2b758b5a4a43634a284f31f918bd8a8db71bfcc75
+Filename: ./libreoffice-draw_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 3227736
+MD5sum: ad61d03ed92a1cf50397cfe52846de04
+SHA1: 702510fa6366e3afa18e9aa8598e160f7f29fde8
+SHA256: 79e4c32e8231748ed371ca756cf656e37e4b28aaf495832c7fb4f968376293a7
+SHA512: 1d970a5fe0a1c520092b416a316a1152e9d9451dcd71a3d299887ec3ac98461ce0f461feb800089f914d7537da55845e0eea2eb03f63d84978c046d84727f83e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- drawing
  LibreOffice is a full-featured office productivity suite that provides
@@ -41001,22 +41003,22 @@ Description: office productivity suite -- Danish help
 
 Package: libreoffice-help-de
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 34764
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-de, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-de, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-de_4%3a26.8.2.2-2_all.deb
-Size: 2724000
-MD5sum: ed80ae1b3b03312dcdbd001ecc0ff357
-SHA1: 8a3b701ef6e42010774b3744171489deaa37eacb
-SHA256: b4a5b3e87014820781c60cb70d5f7a0c71d4a503e58576ab88112ee2cc7393b1
-SHA512: 8d4b50ffbbc991a2874e6352222b2a3cfbf7bf8295a84fd7ee88117e6b0ff72f19aaa5913af910d60efff82aaa8d896d285afd5f0b6eaf3c6bb6336e9850ae69
+Filename: ./libreoffice-help-de_4%3a26.8.3.1-3_all.deb
+Size: 2724724
+MD5sum: 06b83c2250aed21ffce69155ec600fb5
+SHA1: ebfe341ffbf7db039566f190d424eb8466ef8ba4
+SHA256: 6bf4ea8b3df206f12ca4e0ae6ca706e331e2ff7f268abb729dbb35b528937d0e
+SHA512: d0905bb8c16e6a473f3377784a4fe86a26faf0fa7a12c557b2396b5fae87cb640ef64e4dc69ed8236a59cd79ee0e4d1ea8b4b16448f9f6e03e5b285d62e44d8e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- German help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41105,22 +41107,22 @@ Description: office productivity suite -- English_british help
 
 Package: libreoffice-help-en-us
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 32787
+Installed-Size: 32788
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-en-us, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-en-us, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-en-us_4%3a26.8.2.2-2_all.deb
-Size: 2014896
-MD5sum: 323afdb72929ef839120b829f4f4f9a8
-SHA1: 9bc917ac4ac207b1c6802e9d43f2df1e506b64f6
-SHA256: e5c1ecf001d27c87c4d862d797b7120fe916402785fbbc2834b55e39378bf49e
-SHA512: ed070c11b557beb27230331a31f26453f0de0d926d4a52e5f07b795b7cb79e6512f00d912184f0cd53e53464bf5594156f5459bb7f4fac469aeb78aedbec99e5
+Filename: ./libreoffice-help-en-us_4%3a26.8.3.1-3_all.deb
+Size: 2015808
+MD5sum: b588e2b4478d17588edcf33e805dfdd4
+SHA1: 7fb25728c8b1316d639f2700e80e2438d0a9c8ef
+SHA256: e51384ccb9730a678bf28f296aa2c07e89eead3fb3b947c56402f8bb9842ea2a
+SHA512: 3ee2431aa24ebd6270b8d18e6bafb751370fc122957a288c0f214fdd96687b347a8c1788ab7b649ee96564852b5792f6b887f2a7f9c42717e88e449063e53d1c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- English_american help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41183,22 +41185,22 @@ Description: office productivity suite -- Estonian help
 
 Package: libreoffice-help-eu
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33956
+Installed-Size: 33957
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-eu, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-eu, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-eu_4%3a26.8.2.2-2_all.deb
-Size: 2663548
-MD5sum: e34058b4353f59e2d339cd4dd35c1270
-SHA1: d266e0f0b91723aa59994a8e12a3977094d69393
-SHA256: 11f1af83d2df6edac36494edde9d5c90428bf0c794bfcc3ed3190c0256251193
-SHA512: 935de7ad49f40f361523e55ed5f4eb261d8466ea94e45e46c1bb6e26b687cf1b3ebb157dabb145edf40b3f6bd09729db80e92c93870c47cf8a287da04e0f0dd8
+Filename: ./libreoffice-help-eu_4%3a26.8.3.1-3_all.deb
+Size: 2664360
+MD5sum: e5c91b14f8222889d531889c91a52f17
+SHA1: b54b372cb3fb195b3825c440c953557018493417
+SHA256: c43dbc346979f288750e62ad1013b9f9580bece86e36a76d99c124b2d707fa4b
+SHA512: eb50164eda385e67d5a5786a751a026659ce26720da2859c5c660f014021a17cb81f0e00c80c7451abfbf0007f790521da97566a795631055f5b789bea51799e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Basque help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41209,22 +41211,22 @@ Description: office productivity suite -- Basque help
 
 Package: libreoffice-help-fi
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33712
+Installed-Size: 33713
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-fi, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-fi, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-fi_4%3a26.8.2.2-2_all.deb
-Size: 2665456
-MD5sum: dc10cc33594418d0ce11fa691472e20c
-SHA1: 75f560b5ed3105548f2d9d15ea63def92cb2a6fa
-SHA256: a97b934eb2a185f431674c8f1b0637afe5d28db5cbdf23ea3385925ce4319b29
-SHA512: 7b0a4941784d2f65d516857cfd7cba38e3d4d99be7910b9f25c43e2d5dff030da0463f4a3eae55869a212222e8e03ebc3bb67201133ca88112d2bf02ffbd887d
+Filename: ./libreoffice-help-fi_4%3a26.8.3.1-3_all.deb
+Size: 2666232
+MD5sum: 47ba6b0bf2b5f2d96f37acc84e2991de
+SHA1: 94a672806d8fe7ea785355ca34f5bd8874986ca6
+SHA256: 12be90c1c56fed7b59f8cdb3c57207b2a70d008fce9865cbc67c69837c875030
+SHA512: bfbc24b04cb5ffa0c7552e8160de18411853e3d0b022104231061ba361967495e71ae4f4b3780aa43682703c580f09270eef0f52e013b4598a27f75baad7a2b9
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Finnish help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41235,22 +41237,22 @@ Description: office productivity suite -- Finnish help
 
 Package: libreoffice-help-fr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 34825
+Installed-Size: 34826
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-fr, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-fr, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-fr_4%3a26.8.2.2-2_all.deb
-Size: 2685964
-MD5sum: 9311c45691419f017d0f32b91570564c
-SHA1: 545683aa20212cbef961c9440154f18937fe4172
-SHA256: da7e7e26282a3247541095a42d52682caf787857a09b03941cca23d7bd636e51
-SHA512: 869a1ef897f76dfdeef0baa03630cceb061b993d8c577913f79cf9442bb51fed519c43f02af5dbaa08560210b116c5c4ab4d526046b2b7ac1a61939c242ed57e
+Filename: ./libreoffice-help-fr_4%3a26.8.3.1-3_all.deb
+Size: 2686444
+MD5sum: dfdeb36efc9be0d8d40dbc0e448ec6c7
+SHA1: 20eddcdc5f9763da80180ceba9997a76c9af21e2
+SHA256: b254823b77a7c67c8e8b6146f5b7ed564b7cb7f8b5d59e377a5d7aca5a509f1d
+SHA512: 3d2751252bd0ecd735b6fa55725d6d82e01d722d3024c58edab871ca6f4823c6e7467b98d42cc6c1193e1f1f16fef8a8dcd41a5833d3e08ef313e8f33a0be44b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- French help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41261,22 +41263,22 @@ Description: office productivity suite -- French help
 
 Package: libreoffice-help-gl
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33902
+Installed-Size: 33905
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-gl, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-gl, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-gl_4%3a26.8.2.2-2_all.deb
-Size: 2685276
-MD5sum: f1afa78794828ae6ce39c646233038b6
-SHA1: c6b4729c3e7aab9487ea2e85945b7a33f5bfe1f3
-SHA256: f0007a857ce7ae1c9ad6099e1173b9c751c695f22db8adf91544402a2243cb91
-SHA512: d4a6e83e4d9f6b02dc9a44d96c2c32633eedb5da3d87bd3122c9a81593d89c29a0fad616d908e11c66cc77d90fd0a59db008cc1e08222603d1c9955f47a58ccd
+Filename: ./libreoffice-help-gl_4%3a26.8.3.1-3_all.deb
+Size: 2686292
+MD5sum: 7ed4d85ee54211c967c85bc5b3fc9b5e
+SHA1: 8812f375eb2abd1134f63eea480e9b9481c71629
+SHA256: 12804fd7d15fc774aa43a05f72c86a52e7bc5d6e1cfd737067f7dfa232055ef4
+SHA512: 68b85440b83c5ee38e20cff2e96fb614043b078d621038d3f59ee0c03dc25c56522c7b296eb87aff279ce8cfd4bc0198e465a36056b63ebf32157534ca769d8d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Galician help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41313,22 +41315,22 @@ Description: office productivity suite -- Hindi help
 
 Package: libreoffice-help-hu
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 34297
+Installed-Size: 34298
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-hu, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-hu, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-hu_4%3a26.8.2.2-2_all.deb
-Size: 2782004
-MD5sum: 8cb18b5799371564fe58e3ff5c248a73
-SHA1: 2ce03dcf09fbcf84db46a0aeefbed6132d29c410
-SHA256: 6dc3a70d500c4698bf15d52192f6e785a733a12bb72cc49cf00c8d50528121f1
-SHA512: a77f7367c54df2b6869729b5b92269104e1276f3b4140313709963417753742b6ad21895aa6da72df71a6ec9453f8b978b67d3e1b1edfbbc43da1c86ac152e31
+Filename: ./libreoffice-help-hu_4%3a26.8.3.1-3_all.deb
+Size: 2782588
+MD5sum: 7aff633450d54688ad9b9fd3fde1b197
+SHA1: 01c75efcd0f0c4e22223837f0f9aa79fc4b5f897
+SHA256: 1785a61cf6d283e7928baa166af0498a336f6697dd2dfca461bcfa38d465510a
+SHA512: 478277561f3a99a83fa377bb32dfb3a53e51e3a235ba3211f0f5b2e042672a085914968ecf7b73eb46fc91b69bb7fd084e672074b69e7367127d9092af57b293
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hungarian help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41365,22 +41367,22 @@ Description: office productivity suite -- Indonesian help
 
 Package: libreoffice-help-it
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 34519
+Installed-Size: 34520
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-it, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-it, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-it_4%3a26.8.2.2-2_all.deb
-Size: 2668468
-MD5sum: 6695221fe1ce2e846f05d13657189822
-SHA1: 4fe32d5ff6cfc063753e4b8b8b515d9804f1d637
-SHA256: cfc097de9754755647ef9bda4292e44154b4ba98c5636a81a96c7a863f91134f
-SHA512: 63bad7b3674a0157aba4d90068c9f6ec185f4ca35e4ae8ff904ffc4b3307fd976609af1379677440fde639c51f6a147145ccfae5fda6e0d3ba47aaf6ce1337ee
+Filename: ./libreoffice-help-it_4%3a26.8.3.1-3_all.deb
+Size: 2669280
+MD5sum: e38958421084c05ebfe3c1a03e511ae8
+SHA1: b80abce843340e0b6e8f062b27fcb2a724452e7a
+SHA256: 0b6eb474250e75b8c3531267284e5ceadd045987b81c6486a34547dbeb812194
+SHA512: 8fb2f94939c5d98116292111a408aeb200bc235ebff92d005ee7b96079bbb90a5cec4d45a2dae04b97c10587b9dabca099b32f96a00b5a06d1128124d8622585
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Italian help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41391,22 +41393,22 @@ Description: office productivity suite -- Italian help
 
 Package: libreoffice-help-ja
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 34784
+Installed-Size: 34786
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ja, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ja, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-ja_4%3a26.8.2.2-2_all.deb
-Size: 2947524
-MD5sum: 94ec25f5b1509c115cc58a90eeeffe1a
-SHA1: 751f1b2ede6fef46870c5936310acf6f421ae1c4
-SHA256: 34f700e2a6677908a66d17b346b8d0cb59c9a274a5c41b04abf29af72bef237d
-SHA512: 0c509f1d9b0235d1b69981f808bedf30d02d0e56dc0f0353c36a05065f346ae067055c2428d6874db943834a6d4e8ac99c51fdd3d5ef6f7e4316a289899d4da6
+Filename: ./libreoffice-help-ja_4%3a26.8.3.1-3_all.deb
+Size: 2948232
+MD5sum: 794844fb043e186a8d2eea9fa2ea1180
+SHA1: 3a9a21fa9af573f8737697b3093a766a105b1ad7
+SHA256: 24843872ce279e349c29a7b21f2a0fcb96f2bcfe049498678e0773c6b20fcce3
+SHA512: b23c1969a598e7eb92823e1c9ccbcd1422266b6769514c21486071d8bbe7ff3a0d4603c4ff80eceed835c04879d10cc6b1589eb3b5640ade538e58dc0f65c526
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Japanese help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41443,22 +41445,22 @@ Description: office productivity suite -- Khmer help
 
 Package: libreoffice-help-ko
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33771
+Installed-Size: 33772
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ko, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-ko, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-ko_4%3a26.8.2.2-2_all.deb
-Size: 2675244
-MD5sum: d5b72e705d561bf8a4436a1b7be29b4f
-SHA1: 47dd04b35c172fb86d3cbfed4dfe52596646898a
-SHA256: da5b8bdafb9229f8e4981742073087079378b1c7f106d6b0323a083e80a8f9b7
-SHA512: ee5c8083e3b58375327f39c820341d92a2a66d0253f8187dbb703d45439c033750da4ee115ac548fad5cd43195c99c442a4ed02ce20446085ca25bdf67483041
+Filename: ./libreoffice-help-ko_4%3a26.8.3.1-3_all.deb
+Size: 2676036
+MD5sum: 55b7dcafa2e4f87a73bc706865cd5bdf
+SHA1: 639484c61f3469190977eeae3eebc4f83d880f3c
+SHA256: 8b65e254afdae24ffb3c0ebf8fce1153f18631e289544bf7297fe7015b68a3e6
+SHA512: 91003d9e807d1dd61dc9f95404cfa56a2c0526e030fab17136f2d4e46e9bcd4ee61d90691e82e5a07af893ccf030f10ad26785d758c00fdf4c7893b4d69d0ccb
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Korean help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41469,22 +41471,22 @@ Description: office productivity suite -- Korean help
 
 Package: libreoffice-help-nl
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 34620
+Installed-Size: 34627
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-nl, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-nl, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-nl_4%3a26.8.2.2-2_all.deb
-Size: 2698828
-MD5sum: 3bd0e1933ac7de9f18339ed768d8d8c6
-SHA1: 0b6e36ad33b54c1a1c479552207d902c2fb64a96
-SHA256: be3596b1c45091a9216ca8e7b5604c3363301f0ee942fda2d035d8937b10603c
-SHA512: f81b51d6220881dcf9f9217927e8cecbe13b4baec47fa861feac33def295c5ddf71609161223582a3ee19d7ede3ea4b775513eb5288fe89551663a92cf94357c
+Filename: ./libreoffice-help-nl_4%3a26.8.3.1-3_all.deb
+Size: 2699496
+MD5sum: 24e3c559eace3232a8668354d6576e7c
+SHA1: 0b8cef8b5ac7e8391b087c07a8b930dfc1abeabc
+SHA256: fe7ab02dd7c0a9543d72af7b41c7c0584f0fc54533ae26318b8400b1e0dbdf07
+SHA512: 1e1fc89b0ccf8b06efed744fd60fed4e4e83290d59ccc2ff4a1b451566032c9cb0d114d130aa85e9a89d1d1f16ac715b4ec24cc51049afc5b308121811e2068d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dutch help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41625,22 +41627,22 @@ Description: office productivity suite -- Russian help
 
 Package: libreoffice-help-sk
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 58
+Installed-Size: 59
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-help-cs, libreoffice-l10n-sk, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-help-cs, libreoffice-l10n-sk, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-sk_4%3a26.8.2.2-2_all.deb
-Size: 28456
-MD5sum: 4dfe9b1c69ce80582d6a747757d3de9c
-SHA1: 00bca69a6c01bdcf1d7517a8d419739d1fb0123b
-SHA256: 056f2ffbcff774cfadf25b0de249b109a9bdf8996eb0085d6af3786bb82a5e0e
-SHA512: 2dd9e485868c058e0b883c6c94eee7b5052905e02fdbf62013fb37033b6250e056227af67ccafdc94d6cba9b229cba02e93c4d5bceca8ecaddc2d74ce65fa288
+Filename: ./libreoffice-help-sk_4%3a26.8.3.1-3_all.deb
+Size: 29236
+MD5sum: fcd0a45584d4d75b0293701e120c6ce4
+SHA1: 0f84784ef80204c924180da95ed5b67aa049047c
+SHA256: fb4db582a7160fc2217a5f879dc247f8bbc0e0be4d8d07ee900da9a5f63e3b76
+SHA512: 737dc7bcc59c54258cb26b81074775f890008516d033b1645c30b4ea909266d04c5bbe3c6945d49b29ef5c3c2f2baf4da39cab8fdf40e81bfc9dbf47b75efc1e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovak help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41651,22 +41653,22 @@ Description: office productivity suite -- Slovak help
 
 Package: libreoffice-help-sl
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33785
+Installed-Size: 33786
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-sl, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-sl, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-sl_4%3a26.8.2.2-2_all.deb
-Size: 2668612
-MD5sum: 14a7f10668ee76354fbdf4057c9a8ebe
-SHA1: a57cce6ddcb2e8350d9d9efd0ec4296b11b4f9cc
-SHA256: 351a27baf565c3843bc9ba0b9fe53c3675a285fecac28df5774713036b2931aa
-SHA512: 2af4ff868eaebe4abeb16059b4526d3ef6190e7f082c9e349d91954022f13f31a548373a259843bb23b4c0109f5d67cb022f0422e6325b29efeec6deec6164f0
+Filename: ./libreoffice-help-sl_4%3a26.8.3.1-3_all.deb
+Size: 2669260
+MD5sum: 7cb1c847d98c4a4e738885e37427d24b
+SHA1: 76901c52477b276e89c5c1c8a296dd60ea87178d
+SHA256: ba8f4b6f763a8150f3d059dbef964dbf4cbf7c743e3f22cff0ced71f1b09261c
+SHA512: 0252ae63e76b5091344d9db263fcbe7ad7be7500a452e9fc17c8340171845cf9e235461d8fc5b416ac0bb76bd6f50fe09c8abdc1bf726ccece454d7d7eef4d6b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovenian help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41703,22 +41705,22 @@ Description: office productivity suite -- Swedish help
 
 Package: libreoffice-help-tr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33937
+Installed-Size: 33938
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-tr, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-tr, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-tr_4%3a26.8.2.2-2_all.deb
-Size: 2707964
-MD5sum: dce5c0438009214c354c673cc6da8174
-SHA1: 8858b90ee90661f07ef5576232bbb6a12a45535c
-SHA256: 295410a93a7ca862920608fcb8422d9d6928de524c168907f879a12926bc311e
-SHA512: 499cdc47b338e9e224fe13cecb8f3c9d310038bd703801c5a527436c85a762e79233b9809a4b62b2ab68fd18ce69989a5f2eb9c75c0f4523a56a94c3304fd496
+Filename: ./libreoffice-help-tr_4%3a26.8.3.1-3_all.deb
+Size: 2708764
+MD5sum: 67eafe7242ae7f78a18fa9fb9ac70258
+SHA1: c77d8fc04425dc2ef4cf280d28fb882adf0191df
+SHA256: 4599ba3b2f99adf191617fb137ed140b4b140c1eb9e94ed9ee9b4dc44ac50b6e
+SHA512: f5f278202a05fdf24bab49f20445fa240569d6aabfaab346dbdbc2cb5a66bb585e47913302e29e7859e9a77c78df0626393c44bb7e5b5217d9675a9541678e3f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Turkish help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41755,22 +41757,22 @@ Description: office productivity suite -- Vietnamese help
 
 Package: libreoffice-help-zh-cn
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33384
+Installed-Size: 33385
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-zh-cn, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-zh-cn, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-zh-cn_4%3a26.8.2.2-2_all.deb
-Size: 2758656
-MD5sum: afc07a842ab8889bd768857d9f310448
-SHA1: 16e2fed2a81e209b9feb63754a3b0acf770eb287
-SHA256: b91dfa7edf9744c7d5431edd2fdf682be9ddc3551b1f22e38e4f809649669fb9
-SHA512: a9f7a00d97d9c25f61d76ee5fd4dc94bd80176aa98e1e992c0290fb606f380a56f0c59810db660c9de91c476ff2fe7946843843ae0ff5ddebc6d6b7cca826b0f
+Filename: ./libreoffice-help-zh-cn_4%3a26.8.3.1-3_all.deb
+Size: 2759544
+MD5sum: 9f4e1a1502dce4f0f474b63f27e1eb33
+SHA1: 74ce463fee8f51cd310d40dcf2ebf60b612f51a5
+SHA256: ed247a7c4f231af038473c706ecc51303ef187efeea92399c632c6c57ddc767c
+SHA512: 6422382592ee440ee438c3973a99c224f9a2a0d039ac6d7aa5552c744796a56285b3ee313ab4a778825e3d884269d5340ddc88da353024ce7af4323f868397bd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_simplified help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41781,22 +41783,22 @@ Description: office productivity suite -- Chinese_simplified help
 
 Package: libreoffice-help-zh-tw
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: doc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 33511
+Installed-Size: 33512
 Provides: libreoffice-help (= 26.8)
-Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-zh-tw, libreoffice-help-common (= 4:26.8.2.2-2)
-Recommends: libreoffice-core (>> 4:26.8.2.2), firefox-esr | epiphany-browser | konqueror | chromium | firefox
+Depends: libreoffice-common (>= 1:6.1.0~), libreoffice-l10n-zh-tw, libreoffice-help-common (= 4:26.8.3.1-3)
+Recommends: libreoffice-core (>> 4:26.8.3.1), firefox-esr | epiphany-browser | konqueror | chromium | firefox
 Replaces: libreoffice-help-common (<< 1:6.4.1~rc1)
-Filename: ./libreoffice-help-zh-tw_4%3a26.8.2.2-2_all.deb
-Size: 2781332
-MD5sum: 5e12ebc097aded750bd77c383c84a84d
-SHA1: 94c5246f3c18c3561fa391ff7e6d4651dee365aa
-SHA256: 7805d5929d43abf3950f81703dee1666c96574f5d905634bd7825a8850eec218
-SHA512: c00af4e80b22e2e89f441323b18173287be184310578196048db10b1d1512b6503a167c9881c8fe99e77734421e75033668d787c8902070d0a04f5b9e0da0fb0
+Filename: ./libreoffice-help-zh-tw_4%3a26.8.3.1-3_all.deb
+Size: 2782128
+MD5sum: 50063d4017004c1a668ea788ca840657
+SHA1: d9fb615832ae5b970565e3ef40cecf3198a6c926
+SHA256: 95c0fa7f6a2470dbc2da4a64b34860b2f4cd948db4b2037e281445445124c49a
+SHA512: 6ada50815c298f0fb2e61b1d7d866e60c580af8ec83402b9876e17fe30cc3d4b34fff66aa1b1439ed2f0dfa82ca01b7f88cc2ba9ee2057cb5a242ab4b81fbd3f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_traditional help
  LibreOffice is a full-featured office productivity suite that provides
@@ -41860,21 +41862,21 @@ Description: office productivity suite -- presentation
 
 Package: libreoffice-java-common
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 612
+Installed-Size: 613
 Depends: liblibreoffice-java, libreoffice-common, libunoloader-java, ure-java
 Breaks: libunoil-java (<< 1:6.4.0~rc1-6)
 Replaces: libunoil-java (<< 1:6.4.0~rc1-6)
-Filename: ./libreoffice-java-common_4%3a26.8.2.2-2_all.deb
-Size: 507412
-MD5sum: 94c914f97963f6cf4400a93f3663f0ae
-SHA1: 5def388815c1e52944aee06b4bb632f81044e06f
-SHA256: 7c28b6f2de3d3393ef04f843bc4f0313c75814deffb09976858c85214ae1e235
-SHA512: 0ae0d1ff4da7a1bb3cd52540ba78043a4c678390b65e7d5a02054617c8b373120fc73ba19a53da96f6e6bc962356ed8c0648c4a8dc30e3421e686f3c35857e9b
+Filename: ./libreoffice-java-common_4%3a26.8.3.1-3_all.deb
+Size: 508192
+MD5sum: 54848c16946a2d640e2fb8254a4baaa6
+SHA1: a34af4c5a1288acb932cf38ac91d007f1027c48f
+SHA256: 38bd253a823db9b1766b0d883ed21f32b0d52c179cfd9a1f62eb74ebf898e9f5
+SHA512: 12d5134d22ccf9bce8b5ddca1d26725fcc3944fa69ea5bd4eed17d8c56b3c48aebf86e4037a8ae6457b0be31d312789cc99e4cb6d6c7e17b64efcbd6da245245
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- arch-independent Java support files
  LibreOffice is a full-featured office productivity suite that provides
@@ -41910,22 +41912,22 @@ Description: office productivity suite -- KDE Frameworks 6 integration
 
 Package: libreoffice-l10n-af
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4111
+Installed-Size: 4112
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-af | myspell-dictionary-af | libreoffice-spellcheck-af, hyphen-af | libreoffice-hyphenation-af, libreoffice-grammarcheck-af, libreoffice-help-af, mythes-af
-Filename: ./libreoffice-l10n-af_4%3a26.8.2.2-2_all.deb
-Size: 838096
-MD5sum: 1d68777b0f1f680d5ae649d1c23c2fd0
-SHA1: 299dceb87e2344e256770640fb036e712a28d41b
-SHA256: 0f2349dd4a7411a97b98c2bf39c4dafcb6f685e6055948a74e054892a4f99562
-SHA512: 06d9a7dbcb2e058e8f60206a6ad6b8784d61e8f30bca9079bcfb22ca074986ebbfef797e7fb8684c9bf16cfbf95e965b56f91bf59369c68ebb60026ade991828
+Filename: ./libreoffice-l10n-af_4%3a26.8.3.1-3_all.deb
+Size: 838516
+MD5sum: 33ee808754af34087f59bc28f5bb8daf
+SHA1: 35ade0c8fd15879929b08a74832e53ee1eceac29
+SHA256: 2d09bd9379ac52f6c8b9eb213d12441a2c554949cb8fa91462ca8a6dea4fa4a9
+SHA512: ed356c0d05c8b33821f6357bee8cfecb05c7bfd91faf9643bbba62484b72a4635080ec150b2e180cef7ad3567db8462d7dd4a949b32961a9c358b65bca280cea
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Afrikaans language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42058,22 +42060,22 @@ Description: office productivity suite -- Assamese language package
 
 Package: libreoffice-l10n-ast
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2576
+Installed-Size: 2577
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ast | myspell-dictionary-ast | libreoffice-spellcheck-ast, hyphen-ast | libreoffice-hyphenation-ast, libreoffice-grammarcheck-ast, libreoffice-help-ast, mythes-ast
-Filename: ./libreoffice-l10n-ast_4%3a26.8.2.2-2_all.deb
-Size: 501060
-MD5sum: 030e3fcaef7c20c2114587dc854d8294
-SHA1: 199d2310bb0489c87647adb4450ded64032a9b2e
-SHA256: 3f97af90f64cb0a4765daaba1f84e60c455b7d743bf158e432391820d93bb4af
-SHA512: ed9560ecdee90506e49a58e419c5cbcd93c92e820b191b89ce4747951a700f4898794a92a52e01583c3eba013901f3a0c3460830b334f9ca67c0ebd577ed60ca
+Filename: ./libreoffice-l10n-ast_4%3a26.8.3.1-3_all.deb
+Size: 501948
+MD5sum: 5db7ccd1b8061c1e515a76813587c0ac
+SHA1: 9666ea5481a1e136fa62c649e7ae951ade5cc952
+SHA256: 151c6cc2eaa887e3740a78a521e355ed86299794f13ab21e5a6d31f8948f497a
+SHA512: 6e04373b2b396cb574b012f3006fe38b8fc4370e6912143fc883aad8ae4110c9715b35f19cb817a10f6dc5c8ef11a1d535eb91f309da785b1692a958dd7cd541
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Asturian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42095,22 +42097,22 @@ Description: office productivity suite -- Asturian language package
 
 Package: libreoffice-l10n-be
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4958
+Installed-Size: 4959
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-be | myspell-dictionary-be | libreoffice-spellcheck-be, hyphen-be | libreoffice-hyphenation-be, libreoffice-grammarcheck-be, libreoffice-help-be, mythes-be
-Filename: ./libreoffice-l10n-be_4%3a26.8.2.2-2_all.deb
-Size: 870172
-MD5sum: fd174059b8abf4011f8dbe8a0003bdd4
-SHA1: 1e8ceb97abdcd499bf65735d1c37e8a1262d5ccb
-SHA256: e3d97c1c389a6ac02edeec66361803967be054fb587f141ceccb7f4cf3a0f383
-SHA512: d93ae31182f0b382fa292e51bc733b28cf4f6fe71cb21c228e35d52f053322f5af6f4b6eec8d50a25677115f31350fb4f07eba735884304d32ebed1f01bae612
+Filename: ./libreoffice-l10n-be_4%3a26.8.3.1-3_all.deb
+Size: 871204
+MD5sum: ec5952df0902e270f2e864b363a04591
+SHA1: 01268d0626a57b59bc72533d3639d34f9048dded
+SHA256: 06d4da2e00d641321d55f2d4b08ef9fa58021c2092297e9408adeea509083c4f
+SHA512: 9e6dff5d80c51ba256247455df6f3e8a67b169123d302c87005e20b8524a007d3873a8b30334393862a437601a14e9fed64e7ef8df824359ce3dbaae1fa48b1f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Belarusian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42169,22 +42171,22 @@ Description: office productivity suite -- Bulgarian language package
 
 Package: libreoffice-l10n-bn
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 5439
+Installed-Size: 5440
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-beng, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-beng, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-bn | myspell-dictionary-bn | libreoffice-spellcheck-bn, hyphen-bn | libreoffice-hyphenation-bn, libreoffice-grammarcheck-bn, libreoffice-help-bn, mythes-bn
-Filename: ./libreoffice-l10n-bn_4%3a26.8.2.2-2_all.deb
-Size: 601272
-MD5sum: 8edfdc154d370b2d5ef762f98eaf7f9d
-SHA1: d11179468a91f7b7c98120a14b8beddcb6e95abf
-SHA256: eed537f322dd7abafd878fed27c20a2588b60e8bae4d0761d8a4bd118d630f91
-SHA512: 6a5555fa49df00725de419c57d8b3d5cdc37f1978985d5021ceb04625bf170536cc9207f9aa7c2bcfb5f8ce2e8d1eb1e28d8442ed593d3a5d96cf58a0b440c66
+Filename: ./libreoffice-l10n-bn_4%3a26.8.3.1-3_all.deb
+Size: 601624
+MD5sum: 62e72813eba7d17ba7ab81db0a4d8222
+SHA1: cf94cc9a3cf21a540bb58fac490bde1f78ac7bc3
+SHA256: 48de408fa45bc90a15a1ceb5a36a9fa41f3244aa0e4d09deb25b57b0cc1d1982
+SHA512: c5beb934d94486c24d5e60a6c07348afab28a8a86d833251b77bcff499593bfe6157f2b7f440dad4b98483b74b081278a8371183240b881084d72a5d943e29d9
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Bengali language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42243,22 +42245,22 @@ Description: office productivity suite -- Breton language package
 
 Package: libreoffice-l10n-bs
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2090
+Installed-Size: 2091
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-bs | myspell-dictionary-bs | libreoffice-spellcheck-bs, hyphen-bs | libreoffice-hyphenation-bs, libreoffice-grammarcheck-bs, libreoffice-help-bs, mythes-bs
-Filename: ./libreoffice-l10n-bs_4%3a26.8.2.2-2_all.deb
-Size: 394980
-MD5sum: 908c707342b1d91fe2586a0d4931e9ea
-SHA1: c26fc7a7b5b4a0c8f2768d342a4c2b8a6acd3d92
-SHA256: aaefa558ab9d786f78d7ccf399eb2f24c2f654a5d85eb21e3fe8ee28d3d53407
-SHA512: fb0d9cf5ed31ea416481c952789425e48006905c6ae2f46d916329d7f71153ab29e5dbf8679c29252e369219ec7384ba9c6e9c3ee71430cc5b4db0f2a4a413d4
+Filename: ./libreoffice-l10n-bs_4%3a26.8.3.1-3_all.deb
+Size: 395552
+MD5sum: 64f36789f534689603b3d0146b5e85c9
+SHA1: f3be272583990cf09a239ab940ae25f277a219db
+SHA256: 0d472e2355e9c8a1e3219242f8dfb187c81459fb5652f463316b80ec7814dad5
+SHA512: 063dfefbe7856b26fc0a719bd00223961b7c231362b91d2066cca1197aac549530ce65623f10ce9d46eb5533f91dd26a59865e9a35989ff65c5fda2776010726
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Bosnian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42317,22 +42319,22 @@ Description: office productivity suite -- Catalan language package
 
 Package: libreoffice-l10n-cs
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4296
+Installed-Size: 4297
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-cs | myspell-dictionary-cs | libreoffice-spellcheck-cs, hyphen-cs | libreoffice-hyphenation-cs, libreoffice-grammarcheck-cs, libreoffice-help-cs, mythes-cs
-Filename: ./libreoffice-l10n-cs_4%3a26.8.2.2-2_all.deb
-Size: 917396
-MD5sum: bb02e8dc304582ad517aa15fa33d5ae5
-SHA1: 4d99d8dce0d9fb57d6f30fecf9af7ba192ebfc04
-SHA256: 6c534b3d7035d5917c8aed102ec4408e0deaf5622d755918eaab8c925e708c42
-SHA512: b278def8efb009130d423d8e5dd32ceed39c32cdca1eea1c737dc62e8acea0fcabde3c56b690e74cb680af26bc1c9b766109268b871fc5c825b3ee79a64bb0d7
+Filename: ./libreoffice-l10n-cs_4%3a26.8.3.1-3_all.deb
+Size: 917992
+MD5sum: a79de1ecc60c5a114a641dbf2445cc52
+SHA1: 46546e6bdc8dfc82b22fb11243d40c060a75b508
+SHA256: 7f232685691b3105c6d1adc2a4e05d6a061716625fd0f6bbb1e4387e493107e3
+SHA512: 6e5303cad7a4679ccb553bd157dd87ba23f7da18542f71bae847142c8b6317a5070cac46912e22e51c45f5355b5d0e368bf5e598ec3600d716786d84694f8e80
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Czech language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42465,22 +42467,22 @@ Description: office productivity suite -- German language package
 
 Package: libreoffice-l10n-dz
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2611
+Installed-Size: 2612
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-dzongkha, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-dzongkha, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-dz | myspell-dictionary-dz | libreoffice-spellcheck-dz, hyphen-dz | libreoffice-hyphenation-dz, libreoffice-grammarcheck-dz, libreoffice-help-dz, mythes-dz
-Filename: ./libreoffice-l10n-dz_4%3a26.8.2.2-2_all.deb
-Size: 339144
-MD5sum: 05cfe2ff48e9ecad1b650de4160cd54c
-SHA1: 77c0f63cbc33eb75c3657d26441b806fd9463b21
-SHA256: b573d213041ca121106121450e06abbb639c4e87565398932d6d038e21e93dee
-SHA512: 61ba09c66772f113d7f57215a67d830297133704ee57350821d45e9fa4f83e1687af44a74292d4d47d1000f9a757932c63100ca68f278fefa9d7090b4d5b21c0
+Filename: ./libreoffice-l10n-dz_4%3a26.8.3.1-3_all.deb
+Size: 339964
+MD5sum: 00c48b366bdf1a3d5b879843b5246db2
+SHA1: 831adf6d3c33c191d1ebbb201bad59c1f440ee63
+SHA256: 19ba4fe3a614f89a8b45eee53f7d9a4b37c97682ea2860e23de2c328a1832f7f
+SHA512: cb33b64c466647b5dc3c3701165c4a5434cf7acd878307dd1c33b623b81451993475ba4ac2ccec635fedb52762a0e3d03669ef1695f4dd0a8bde4705dcbab6ed
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dzongkha language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42613,22 +42615,22 @@ Description: office productivity suite -- English_southafrican language package
 
 Package: libreoffice-l10n-eo
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4089
+Installed-Size: 4090
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-eo | myspell-dictionary-eo | libreoffice-spellcheck-eo, hyphen-eo | libreoffice-hyphenation-eo, libreoffice-grammarcheck-eo, libreoffice-help-eo, mythes-eo
-Filename: ./libreoffice-l10n-eo_4%3a26.8.2.2-2_all.deb
-Size: 817132
-MD5sum: e073769501fc3bc517cbc217ff06e314
-SHA1: 9716a26c18933bba92f7746d2b997f8eef0fcfb0
-SHA256: 28389cb76e50cc429d1c8ed9f672d0e327991fb77d17ea65a8c3f2cd22de8553
-SHA512: b0a29a3c3e912587425f0220e557371717b5d38046ddf2df4583f726e04593b96d0ce095e0ed62bc76648edeab17ec43b30c729ba8448f46fa953b6a7a39543f
+Filename: ./libreoffice-l10n-eo_4%3a26.8.3.1-3_all.deb
+Size: 818320
+MD5sum: 14fb8f0e4b8b66dd4dac9cb7e3d9ebe9
+SHA1: 673d4e40baac266904f3d3bad657bdbcee4c2b6b
+SHA256: 0c5a432fd215f032a69f5b9933d711e037df207e3402533512fd3ff61dc08876
+SHA512: 3d2e3b888c72c137b89a0589a9b5fbc720e6773d076041ee473bdb1a347e9c00272eed88e5de5a52e7e15c44dc937197ffa3c4711825928eacf4ffb1824e74a5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Esperanto language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42650,22 +42652,22 @@ Description: office productivity suite -- Esperanto language package
 
 Package: libreoffice-l10n-es
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4357
+Installed-Size: 4363
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-es | myspell-dictionary-es | libreoffice-spellcheck-es, hyphen-es | libreoffice-hyphenation-es, libreoffice-grammarcheck-es, libreoffice-help-es, mythes-es
-Filename: ./libreoffice-l10n-es_4%3a26.8.2.2-2_all.deb
-Size: 901932
-MD5sum: fa12f9a3b006c733f7fb42a508af0084
-SHA1: 503a42f3a97c1abb523406407c63b5ed57f6446f
-SHA256: 12f1a09688ad3e11030ecece35a5c877b83715185665f6fd9318ad7a0fb598ca
-SHA512: 19a470c220c1c5adcda78b0ca487dff1c6e3ab45589ed3d0dfb4256be5b37f3d2917bd6ffe7817559e935e13b0cab3d4515e06019deae4afd912e7755cee331c
+Filename: ./libreoffice-l10n-es_4%3a26.8.3.1-3_all.deb
+Size: 903928
+MD5sum: 4686445212972b5292fde5dfcd407971
+SHA1: 20abd4245826bf0384e19da66894e178683174a3
+SHA256: 89e55788534002cac58cb45232834f4162e6dba136907abb1e217620486e997b
+SHA512: f98db3f2f83174c2c236db532da49dba6ead93f94f3cb5a49f2764869181311c0880302db254f4b7c1c2bc199618d075d81a57526e912cc4ed8c83bff927ce55
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Spanish language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42687,22 +42689,22 @@ Description: office productivity suite -- Spanish language package
 
 Package: libreoffice-l10n-et
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 3319
+Installed-Size: 3320
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-et | myspell-dictionary-et | libreoffice-spellcheck-et, hyphen-et | libreoffice-hyphenation-et, libreoffice-grammarcheck-et, libreoffice-help-et, mythes-et
-Filename: ./libreoffice-l10n-et_4%3a26.8.2.2-2_all.deb
-Size: 660948
-MD5sum: f5d2c7f3ec0e64731b442f6e04a7c566
-SHA1: 2a2d32333d5955cd0a1094dce4340a44b6af84dc
-SHA256: 6987b6dbb6a7d208d91b711ffc58f9c4ba0f82d59a68230fb3461ffe3cef4161
-SHA512: d5f1724090bcf4e72a660e81a79c41163e9715a4009ec6c0f2dac583192fc98f11cfe161df708e797079bd1cf6f748e18fac183f7cee38c310d9f56d92c4bac0
+Filename: ./libreoffice-l10n-et_4%3a26.8.3.1-3_all.deb
+Size: 661812
+MD5sum: 5b3adb92d3c2a5493a3dea072b16d6fe
+SHA1: b8c77fecea089d2bd638e431feb4c503cfd9e709
+SHA256: b2c049cbc4959781a6e71912672ec07049c046748a7cbc182cb0f53e15bab3cf
+SHA512: e4029089b25daf82ce90ba93859aaa44801dada2630498167cea1fc4784533a28e98631c4ea72f323ef19003de7f0dfe4c6dd697ef1eb9db83e4d7e9b091973a
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Estonian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42798,22 +42800,22 @@ Description: office productivity suite -- Farsi language package
 
 Package: libreoffice-l10n-fi
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 3542
+Installed-Size: 3555
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-fi | myspell-dictionary-fi | libreoffice-spellcheck-fi, hyphen-fi | libreoffice-hyphenation-fi, libreoffice-grammarcheck-fi, libreoffice-help-fi, mythes-fi
-Filename: ./libreoffice-l10n-fi_4%3a26.8.2.2-2_all.deb
-Size: 710620
-MD5sum: 6abaae5f8e949673514b2c1fe0ce66af
-SHA1: 09ce1534240d9dfc4dd8e357bb61b4d3c2ee49e9
-SHA256: 1cdeda48cfb5abd50db17d4a806f639ebf9e3de7aae8b676fb8e9e856ab818d1
-SHA512: 81f9ba11b2b6631cf691e3371e5d32fc4e8651e6033124827d1ebd014965f2f76e8ea9f5252f1bd6082ee7f615a25db8194d9205ccc2b522b65210a247f9ba3a
+Filename: ./libreoffice-l10n-fi_4%3a26.8.3.1-3_all.deb
+Size: 713392
+MD5sum: 08073ad07b70f46b18b2cd27849588a6
+SHA1: f9efcd4f3d178de7284f818eab7d1f2774229e70
+SHA256: 23bcd171e3a8951e44659513981dc968d3e83ed58639819cec565abf14e49b30
+SHA512: b63c275aefbee3737854f5ea1a8d8fe6510aefb5b1b026dba47a76d2a27883d4dc1b367241c436d12c0ff85cd95eaba041cb749304ab96b29869f27aa511cc66
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Finnish language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42835,22 +42837,22 @@ Description: office productivity suite -- Finnish language package
 
 Package: libreoffice-l10n-fr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4409
+Installed-Size: 4410
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-fr | myspell-dictionary-fr | libreoffice-spellcheck-fr, hyphen-fr | libreoffice-hyphenation-fr, libreoffice-grammarcheck-fr, libreoffice-help-fr, mythes-fr
-Filename: ./libreoffice-l10n-fr_4%3a26.8.2.2-2_all.deb
-Size: 902808
-MD5sum: e079521874adb94f0d99439c201ab87c
-SHA1: 689fe344d068b3eafb4e87e2161cfc2d23a72119
-SHA256: a74dc51020ff27808b49818ac44d2f2218b0ee977c6e301a1bb5bce836f91416
-SHA512: 7d57b792a018f3e2afd474f8508880c44da03b269f7a0581df7bb099a562904487090a03f0003cd8cc235151d0dd00af029745af2cfb2566db9fee85c5914c8c
+Filename: ./libreoffice-l10n-fr_4%3a26.8.3.1-3_all.deb
+Size: 903424
+MD5sum: 63812514c6a73f91750fa906d0efd68c
+SHA1: 320f1b1729effe1e52f5e6e39dab45e14706dd1d
+SHA256: 4014c6963aefe33877c948815c48f435a8d1fc0dbbc3ee256888976beb522496
+SHA512: a85b909e1960f119884447550567af3d203c6f3239261b2ef2d1e9c42a883f1198a2ac41816c07e0fed1372dfd4b479f68e2878e8259f725c653bd3c4f02beba
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- French language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42872,22 +42874,22 @@ Description: office productivity suite -- French language package
 
 Package: libreoffice-l10n-ga
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4219
+Installed-Size: 4220
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ga | myspell-dictionary-ga | libreoffice-spellcheck-ga, hyphen-ga | libreoffice-hyphenation-ga, libreoffice-grammarcheck-ga, libreoffice-help-ga, mythes-ga
-Filename: ./libreoffice-l10n-ga_4%3a26.8.2.2-2_all.deb
-Size: 830020
-MD5sum: 82eefe6aa8d30bc22ee17e8043fd3f2a
-SHA1: 4a6dbf103555df4f741be21fbc8c44c2b7edc976
-SHA256: ff5df04a78c5ec88adc704488776b1efd743b18080a9b4fc988c040eb223a631
-SHA512: 99a6c4954f50224205e0e2f2f7b038e7a516c993f4045265b8b8eb88be6327d8e66e87e7d4c5779f51fd6c2a680a0c5fbe2ef07d170fffa03fcea04b67972cd5
+Filename: ./libreoffice-l10n-ga_4%3a26.8.3.1-3_all.deb
+Size: 830372
+MD5sum: edf7b73269e30002195e0cc1d53d46d2
+SHA1: 682695a9126eadcc3bfad69ff34ae202aa7e1bcc
+SHA256: e27941e0449d443b027b7525407cfa9f3ccf66fac5d3f949d220911a60110673
+SHA512: d250854b9c548d90369a9a894689f5f107e6a59adf10330fa5aebcd6482f3b33cc7676469c0bff1420ef1057e73c5ef1e5fd8d336aee1cee19914161836b4f94
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Gaelic language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -42983,22 +42985,22 @@ Description: office productivity suite -- Galician language package
 
 Package: libreoffice-l10n-gu
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2741
+Installed-Size: 2742
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-gujr, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-gujr, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-gu | myspell-dictionary-gu | libreoffice-spellcheck-gu, hyphen-gu | libreoffice-hyphenation-gu, libreoffice-grammarcheck-gu, libreoffice-help-gu, mythes-gu
-Filename: ./libreoffice-l10n-gu_4%3a26.8.2.2-2_all.deb
-Size: 438896
-MD5sum: dfa1ab3efb28cabf757c1b4af3a97df0
-SHA1: b507c541d80bdeda5bedb1acad0126f48eacf498
-SHA256: 209cbf81862e50916d0fcd151343d2e4aa513d0ff712b4f9f61256274f78c440
-SHA512: 83a001210a129634af9eee651f3b81d59cbcce25abf2c048e27062265f1417799549cf5e6bc3e47fe8ed312965e2721da73af0fc44b1ac7a4be185afb3bf16d0
+Filename: ./libreoffice-l10n-gu_4%3a26.8.3.1-3_all.deb
+Size: 440036
+MD5sum: dc099cc01129661be15e6fdc990b2bbd
+SHA1: 62e354c2b823dd777744cf8605a269776b14fb28
+SHA256: 354f5eba9e8a60ea019dd5085c8008e9098a0c1b8ca54bf72364fb0234a3d263
+SHA512: 66fa4addfc5deafd1b9a9ab2a1edb9f6620d3139a2e752da0450c8f94fd9e9a16131a235ec1bcd00db088ca0574a7bfae24b4e82ef2535cf9c22022dce07836b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Gujarati language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43205,22 +43207,22 @@ Description: office productivity suite -- Hungarian language package
 
 Package: libreoffice-l10n-hy
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 5026
+Installed-Size: 5027
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-hy | myspell-dictionary-hy | libreoffice-spellcheck-hy, hyphen-hy | libreoffice-hyphenation-hy, libreoffice-grammarcheck-hy, libreoffice-help-hy, mythes-hy
-Filename: ./libreoffice-l10n-hy_4%3a26.8.2.2-2_all.deb
-Size: 859064
-MD5sum: 5c9d033c9733fd19ef2fe9e59d3d73c7
-SHA1: 2ac2fa93c234397e1fc4c66787a11add9a864751
-SHA256: 00f477613428e75320a1e6b4692b0decfe4dd37393458937b0261dc7a70ee5f9
-SHA512: 93d225d20534e8a0a37585d74c6ed8c5b99f312828c1a11086ef1414dd8b78a80741047d62cde87bbf1fb50d99dc3a546751cedc8771bf3e730af0cb3c0b1843
+Filename: ./libreoffice-l10n-hy_4%3a26.8.3.1-3_all.deb
+Size: 859432
+MD5sum: f919c4e77ec7d865f73a7ef2b6f6cc7a
+SHA1: f8a10e5faa720618e3bff0f89347dbab7ed2751d
+SHA256: 377b662ae26ce968a360812e34acc244995b3f63fea81458c2c4ee900324fe34
+SHA512: a290318047635091f40568def6195a998e91345885e928f0fdbacfbce4d6aadc7b460d9dd4fc667238d7927f300d8047e3b8820b928d13c95699f5571a2aa1f5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Armenian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43279,20 +43281,20 @@ Description: office productivity suite -- Indonesian language package
 
 Package: libreoffice-l10n-in
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: metapackages
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 51
+Installed-Size: 52
 Depends: libreoffice-l10n-as, libreoffice-l10n-bn, libreoffice-l10n-gu, libreoffice-l10n-hi, libreoffice-l10n-kn, libreoffice-l10n-ml, libreoffice-l10n-mr, libreoffice-l10n-ne, libreoffice-l10n-or, libreoffice-l10n-pa-in, libreoffice-l10n-ta, libreoffice-l10n-te
 Recommends: fonts-indic
-Filename: ./libreoffice-l10n-in_4%3a26.8.2.2-2_all.deb
-Size: 28056
-MD5sum: ad1ccff4bffd20c0a5928938a1fd23ca
-SHA1: 0dc314b51fba20cb8f5cac732583e89ccb2ad0b0
-SHA256: 2924e342e24c845dd22992a1b9acb9a3cb9bca0cbc2f7434f7cc240ab2b9a1bd
-SHA512: 61b62341207c53f6d31b81d7ac0286c36b861b1771a57f799b49c55eaabaeb2f327589794a407ec6ffc89c9cc8d41c82aeea172151b6dcc7aac33733453c4659
+Filename: ./libreoffice-l10n-in_4%3a26.8.3.1-3_all.deb
+Size: 28844
+MD5sum: e4f321b5252a8f3ccdef727c7439f1bc
+SHA1: ef1ee61baeb747c1b9a01998556ced1fafc0c73b
+SHA256: 89de032545fc86e1fa7b3705660e3b9386d35f4730e7a29c7bcf7daa663b4547
+SHA512: db00f60fa51bb8024310e644dbd62b85ceb55d61e14650d8eb17892b51e1110c98c68b12ee94266fe87cd7e1d6dd4ce3298e1489d21bc70a864e6de1bf27086d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Indic language packages
  LibreOffice is a full-featured office productivity suite that provides
@@ -43303,22 +43305,22 @@ Description: office productivity suite -- Indic language packages
 
 Package: libreoffice-l10n-is
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2976
+Installed-Size: 2977
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-is | myspell-dictionary-is | libreoffice-spellcheck-is, hyphen-is | libreoffice-hyphenation-is, libreoffice-grammarcheck-is, libreoffice-help-is, mythes-is
-Filename: ./libreoffice-l10n-is_4%3a26.8.2.2-2_all.deb
-Size: 595612
-MD5sum: 70c7c967508523d30123cb8d9d81cb37
-SHA1: 6ab7da5a560e3de2e01e03ad50143ef6e14f73ca
-SHA256: e8420a2947ed3cd2d9bd09a2bdc4a6ba577082addb25d29b69d426cd1d87f0f7
-SHA512: 00fce6a97a54ba4cfdbba2f02ff290a087a803882c98e141541f3d9057b31da9a8cf654e20ea21d2e23395b1eadd5e95e18d3fed35c39021674ec0b99791d807
+Filename: ./libreoffice-l10n-is_4%3a26.8.3.1-3_all.deb
+Size: 596456
+MD5sum: 54d3eb6bc134a62c3b9aa50793fd4166
+SHA1: a050c3f4baab934cebbc17fa6086fe59d8c9eeae
+SHA256: ffb2a1f28eee806339f76d6553750e86730dbb11d72560398e908f89ac31d974
+SHA512: b605e99787715c75ef3bbd58a1e99452e5389cbfb5363d1c3c6dc7b197898ad5b81fb864d51dcba1690c919f1870b40e6a1022a7a3ddda32eaf802c889bfb938
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Icelandic language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43451,22 +43453,22 @@ Description: office productivity suite -- Georgian language package
 
 Package: libreoffice-l10n-kk
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4971
+Installed-Size: 4973
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-kk | myspell-dictionary-kk | libreoffice-spellcheck-kk, hyphen-kk | libreoffice-hyphenation-kk, libreoffice-grammarcheck-kk, libreoffice-help-kk, mythes-kk
-Filename: ./libreoffice-l10n-kk_4%3a26.8.2.2-2_all.deb
-Size: 852316
-MD5sum: 70ff2cd1c82ac3ba95c2846df9b52935
-SHA1: d4e9e69c1b294cee6b0b1132d571009231c293fe
-SHA256: df8d91f68276a56d72f8646b7ae5ce0b3d8b4ee3b5925b2814c39849aeaf591c
-SHA512: 95b91b5ef01a23e23f7aca8637bc78ca30080382565a95af22f2a15807dd7cc543096fba468522358735aac5abce299c1faf567955d80319621183889a4883f6
+Filename: ./libreoffice-l10n-kk_4%3a26.8.3.1-3_all.deb
+Size: 853868
+MD5sum: 54a90b83509eaa89169baaec314b4dc6
+SHA1: 7663c2411655a3d46555f831df2c1b47fc6f75a9
+SHA256: 699c0e94f02b689b4d4fa488d0ac0548dbea29aa187576094120d074234129da
+SHA512: a2aa4bf52a1be6a6970b8d3ea58c41ef677b726492a3f5c79e61c28ff57c0d4b57dc1162693cb350d8c152a258e839070cdb246a2922d445c96eb1965f5e7a48
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kazakh language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43488,22 +43490,22 @@ Description: office productivity suite -- Kazakh language package
 
 Package: libreoffice-l10n-km
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 3477
+Installed-Size: 3478
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-khmeros, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-khmeros, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-km | myspell-dictionary-km | libreoffice-spellcheck-km, hyphen-km | libreoffice-hyphenation-km, libreoffice-grammarcheck-km, libreoffice-help-km, mythes-km
-Filename: ./libreoffice-l10n-km_4%3a26.8.2.2-2_all.deb
-Size: 565240
-MD5sum: 105c1a791bf11a35c86032b786388537
-SHA1: 6ed3dde1df696fbcd6df02707e15ef6c8c593d6e
-SHA256: 1017d532f2f229a130b37316c9c039332a7bef97e8935bf5a3ecd516e81b7f64
-SHA512: 73447c01a1fc0e5bd3d22479820e68ab458e6e2e032f18b0b52561b04d3cd4afea1e7e3e4c546b651f8f44bb6d0c90c6db92c30713f1d12be778aff231bcf9af
+Filename: ./libreoffice-l10n-km_4%3a26.8.3.1-3_all.deb
+Size: 566176
+MD5sum: 7b9fb9c9e67bdcf7623b10d5d549e9be
+SHA1: 70f1a0974c391d73fdc9a2ba58732e8ae96c6be9
+SHA256: 2b800e05d829b99bc715d0812b7b7a45b66f7e2ba963d560ac5b8c6d0fbb3f50
+SHA512: a5a245069fadaf919851c1a405609eb077051a49ccdfb0ba5b866c70bce0217fbd3ff130980d0f46af3c04de097e39ff52e2e5cf17c23157eefba05da15f475d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Khmer language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43599,22 +43601,22 @@ Description: office productivity suite -- Kannada language package
 
 Package: libreoffice-l10n-ko
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 3133
+Installed-Size: 3134
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ko | myspell-dictionary-ko | libreoffice-spellcheck-ko, hyphen-ko | libreoffice-hyphenation-ko, libreoffice-grammarcheck-ko, libreoffice-help-ko, mythes-ko
-Filename: ./libreoffice-l10n-ko_4%3a26.8.2.2-2_all.deb
-Size: 651332
-MD5sum: 78cc245d1f890ea968832115f64c57d0
-SHA1: 884d4b2abf2a5661655258fa9270b7f2413911d9
-SHA256: 9ba5a50ddc7c2c90b0bb637b00e42b666bcc4b5f88a08a914c1c86ebb96a45cf
-SHA512: 392cf9b239104c4a14f8f63b2dcacfaefe349c5f6457c0763027ae65b17557bc2279a5012f79fa85e2fbe655cbfb3fb040db4f5cb5fdebcb5491068e368470a0
+Filename: ./libreoffice-l10n-ko_4%3a26.8.3.1-3_all.deb
+Size: 652284
+MD5sum: 7d27e0713a2c58bac92154acd1ddf77c
+SHA1: 2214f8fb4a2d24c48fbbcbfc21e0efbd6d351ed1
+SHA256: 53ca6db94da2bd6f7a7f076f1a84e86f5eb3c4e96e67711bd6412864b2d07c04
+SHA512: d4efe8f0d49a8e196d07fd3f48638239b246b3d0574a9c7948b4c5f073c59859a582716fda7e06c778d4aa3ed4b9dc9e9060bed3611d4060c0abaf99fdaeae92
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Korean language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43821,22 +43823,22 @@ Description: office productivity suite -- Mongolian language package
 
 Package: libreoffice-l10n-mr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2441
+Installed-Size: 2442
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-deva, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-deva, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-mr | myspell-dictionary-mr | libreoffice-spellcheck-mr, hyphen-mr | libreoffice-hyphenation-mr, libreoffice-grammarcheck-mr, libreoffice-help-mr, mythes-mr
-Filename: ./libreoffice-l10n-mr_4%3a26.8.2.2-2_all.deb
-Size: 391312
-MD5sum: c1eb7e525d97869a810bdbe226630473
-SHA1: bb87a377a4555344854ed12a74bd69f0c97e9c3f
-SHA256: 13a858ef81f47a7f75d3b3cb79414382f301065582c8683078225263738fbd71
-SHA512: 2ea2b03ee21eaae77d305099ecd7b001283432e71e43eba5ab891078cccb308b48eba56bdda54b2841405dfd124fa6cad9e3ec95fa9c325953f07cc6a3df9c08
+Filename: ./libreoffice-l10n-mr_4%3a26.8.3.1-3_all.deb
+Size: 392116
+MD5sum: 058962465a332ec160cddb86b0693e86
+SHA1: 6fbc3a0b0c7fdb665da95b9886876d529887f580
+SHA256: 02554d209e16c25db8885b732f370a173e0d736e74c29894443d4dfa51d3cf55
+SHA512: 9c13d809ed95d2624d49161dccc2fea8f7e1b54df079e5fd0df3d5f6f43e5482a53511619edc9662f709ef419356e58e550bd6d4c8561d23db1e843091eea796
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Marathi language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -43932,22 +43934,22 @@ Description: office productivity suite -- Nepalese language package
 
 Package: libreoffice-l10n-nl
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4303
+Installed-Size: 4304
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-nl | myspell-dictionary-nl | libreoffice-spellcheck-nl, hyphen-nl | libreoffice-hyphenation-nl, libreoffice-grammarcheck-nl, libreoffice-help-nl, mythes-nl
-Filename: ./libreoffice-l10n-nl_4%3a26.8.2.2-2_all.deb
-Size: 914760
-MD5sum: 7dda7077b5b4d3757b86c151b9f52b09
-SHA1: cc0e32d7a3d5d7eebea1366d38cf3a571272feff
-SHA256: 07e3d12d69eaf8c0c9f7b29cffa2c61a7d9fd7037262f80447f3ab72b5d2c8d5
-SHA512: a5717e99afc9450d99faba6440f6d4a8f68e3d1593d1ff23c56ccb5859b2b66a5fc8760d82adbf73ed6cda73f388496b48087e74b52d18394a1d6ae0f9418473
+Filename: ./libreoffice-l10n-nl_4%3a26.8.3.1-3_all.deb
+Size: 915892
+MD5sum: 78d7a1e8c1e0107095fd4b395ab203ef
+SHA1: 1a3e381dfe088b39dd8864b112edba5a250c751c
+SHA256: 64311a1ece2b2eb8b3edb1a9bbd6eb507000c3bf2f3ebffcc3c5ed1b29ae391a
+SHA512: 491eff0312376cd8dc389238c8409ffd93788435f4ea0bb2c9c3d1bca4c5546016ee60424e64d74df2fd824ba7da043b8ac879fba79dd0a42e97a9426d6bf925
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dutch language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44043,22 +44045,22 @@ Description: office productivity suite -- Ndebele language package
 
 Package: libreoffice-l10n-nso
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1481
+Installed-Size: 1482
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-nso | myspell-dictionary-nso | libreoffice-spellcheck-nso, hyphen-nso | libreoffice-hyphenation-nso, libreoffice-grammarcheck-nso, libreoffice-help-nso, mythes-nso
-Filename: ./libreoffice-l10n-nso_4%3a26.8.2.2-2_all.deb
-Size: 244648
-MD5sum: cd2888ece67dd602ff2cebf6b9a1299a
-SHA1: 67002f4125169f8e50e6a41fe77f6023219e35d1
-SHA256: 3ce8a8df590e4c696792f6b5bab2be4350722d2a8a93bfd2eb5ad3801bb6d695
-SHA512: 795451940e2273771620ef1fec685cc9a9f8448271a35a92854c8b4c6a99a89ed40eefb26f6a68ab543ac67746061efba000f4c094be49adfe2945acbdabfd5a
+Filename: ./libreoffice-l10n-nso_4%3a26.8.3.1-3_all.deb
+Size: 245472
+MD5sum: 769bbc8bde35e2407fc18df4cb51c05e
+SHA1: 0ff874b08a061114a6c1736d7bf94b1f80a2c9b6
+SHA256: e3486471a4f75c5cef9d071c97b1e5b8b331237c42855f2d0335b64d4a84d652
+SHA512: 52ce8c2979718cb3bc2f3cc6bf1897b48dcc888de088c12b53b9e00e47f17495e13716eca0bc73b6c14ade7737ce5938ac0169731499800772b08df6dd7b2493
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Northern_sotho language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44191,22 +44193,22 @@ Description: office productivity suite -- Odia language package
 
 Package: libreoffice-l10n-pa-in
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2711
+Installed-Size: 2712
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-guru, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-guru, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-pa-in | myspell-dictionary-pa-in | libreoffice-spellcheck-pa-in, hyphen-pa-in | libreoffice-hyphenation-pa-in, libreoffice-grammarcheck-pa-in, libreoffice-help-pa-in, mythes-pa-in
-Filename: ./libreoffice-l10n-pa-in_4%3a26.8.2.2-2_all.deb
-Size: 451832
-MD5sum: 46dd42576983159456bb4a6486db98ea
-SHA1: 109b3823cbcafce97dd647d5f3304167b01b07ba
-SHA256: 59edc3ef4a1f35211f90a594148ac4e2fcfcba9a54846abea87701a90a1809ad
-SHA512: 94ee54a74ce632f2311f0ad48965124b0014f493e7a5d3ceed07b22698ac5929151a9d6bc6ff60cf844119a9529e8650241373c14c33262421a6d79206230bb0
+Filename: ./libreoffice-l10n-pa-in_4%3a26.8.3.1-3_all.deb
+Size: 452868
+MD5sum: d33c65cb9081023ea71a8a69c6c53176
+SHA1: b2b1a69e2484520d42075e44c2309b6b81020a68
+SHA256: bc1328a3f3d63002137bca99e8a892644b8b53dd355f52d594064b425946cfc8
+SHA512: 2d6ebe92b8333ac7c79a85d9ba38416dc53f3a44e726cda6081c34320615f382aa54e65beb5e848aaf9511870e148cf404a9e7e48f5eed0d113310215ac244a7
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Punjabi language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44265,22 +44267,22 @@ Description: office productivity suite -- Polish language package
 
 Package: libreoffice-l10n-pt-br
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4323
+Installed-Size: 4325
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-pt-br | myspell-dictionary-pt-br | libreoffice-spellcheck-pt-br, hyphen-pt-br | libreoffice-hyphenation-pt-br, libreoffice-grammarcheck-pt-br, libreoffice-help-pt-br, mythes-pt-br
-Filename: ./libreoffice-l10n-pt-br_4%3a26.8.2.2-2_all.deb
-Size: 896100
-MD5sum: cbff59ddfa09e374016d857b2058261f
-SHA1: 42087f58e781e61df90132a0a46ef773627e5826
-SHA256: 22411dd4546ad34c876bc92b803fb9a9411a1c58c06e41b94c080393084727b9
-SHA512: fe44419b08d30353dfe15404019b669f0c5f6d7e97d1cd951531398245ef53ff1512cb3ea29e76870166b767a448bdbbf38f23d679c3fe5e1d4830118d74188d
+Filename: ./libreoffice-l10n-pt-br_4%3a26.8.3.1-3_all.deb
+Size: 897296
+MD5sum: da2d2ca073c197c5c6964d47d054baa0
+SHA1: 577f9f46aceb77237745ad0fa21ec7f0cb282fa4
+SHA256: bda74b0d603a9b22fa983221927732da634d225cac609a3f7238c491782548c0
+SHA512: b8e24255621c35aa9af99c8892daef41a0896b4f6f262d6fefe2f5ac495b467ca4f5044dfc6d1665b522ae918f282e12220de8e0eec1fc86471ad83d54238826
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Portuguese_brazilian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44413,22 +44415,22 @@ Description: office productivity suite -- Russian language package
 
 Package: libreoffice-l10n-rw
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1568
+Installed-Size: 1569
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-rw | myspell-dictionary-rw | libreoffice-spellcheck-rw, hyphen-rw | libreoffice-hyphenation-rw, libreoffice-grammarcheck-rw, libreoffice-help-rw, mythes-rw
-Filename: ./libreoffice-l10n-rw_4%3a26.8.2.2-2_all.deb
-Size: 262732
-MD5sum: 743b9f1c91ec6e7b0e45dfcbb1a5ada9
-SHA1: badca5fa299c1362e112cd9bbc23e3dcbfeca889
-SHA256: c567814dc6520204711185952c6b7f6f98f005ab9050a4f03b03f6938d975159
-SHA512: a3f4589bfd6c98c3e9d097ae3ef4310c5f9040ebe1701ba6aba46f4681add5743af7c185795fd5ab2fd4100b8498c2e523e5bdf1adc5db8e1fffe84a40963ce4
+Filename: ./libreoffice-l10n-rw_4%3a26.8.3.1-3_all.deb
+Size: 263472
+MD5sum: 12f5c18388e46086d48a71d67b34d48c
+SHA1: 7b480edd1977b2f5924f0b873c4e89db2f6cf7cd
+SHA256: f15daf5af0736916ae8c64d50f7f9c78e76bf51f53c6ef3c3ec2799ac29cb74f
+SHA512: 588887043938a9d783f8dbd06eb3f9cb071f70632a1c0477877c5cda5e7f66592f7ff06e46a96b1f0c1427e53f7a48f6547b4693a9cc3e60bdd78b162e9f1469
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kinarwanda language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44450,22 +44452,22 @@ Description: office productivity suite -- Kinarwanda language package
 
 Package: libreoffice-l10n-si
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2130
+Installed-Size: 2131
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-si | myspell-dictionary-si | libreoffice-spellcheck-si, hyphen-si | libreoffice-hyphenation-si, libreoffice-grammarcheck-si, libreoffice-help-si, mythes-si
-Filename: ./libreoffice-l10n-si_4%3a26.8.2.2-2_all.deb
-Size: 327644
-MD5sum: 77dc43ae548b6f3d6174c904dd3108a4
-SHA1: bab93ca167e1ef6b186553d80b6a11f631176d4e
-SHA256: 3e84c3276204095fbd805b80e4e3601e4318d4d6a0e00f63b63c9d2d0f98e017
-SHA512: b138e3e5ab2478b2d1c32f23e728d737dc2440c14050807322fb87fd5f4d471f5325c981903ef8e97790fd474e7926ab0a030ccac5600b479c222cc290b51ef4
+Filename: ./libreoffice-l10n-si_4%3a26.8.3.1-3_all.deb
+Size: 328732
+MD5sum: 2fe74ede1b997d3b4a32c2406919136a
+SHA1: c297c3082e786d5fe461a9413950814e6d044b74
+SHA256: 67595254bfcf558da45ccb88e44cffc3cba6b2e220a55868b4282015f67b334d
+SHA512: 8e1df159c7826a8498361fe43cfb461fc9fa5a462fcaccbe583c33cf3bea92f242fb784e0267782325824a7144a86ec4e923a6d39dae7502279e013b7e3f48bd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sinhala language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44487,22 +44489,22 @@ Description: office productivity suite -- Sinhala language package
 
 Package: libreoffice-l10n-sk
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4217
+Installed-Size: 4218
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-sk | myspell-dictionary-sk | libreoffice-spellcheck-sk, hyphen-sk | libreoffice-hyphenation-sk, libreoffice-grammarcheck-sk, libreoffice-help-sk, mythes-sk
-Filename: ./libreoffice-l10n-sk_4%3a26.8.2.2-2_all.deb
-Size: 907216
-MD5sum: af2f50bbcc773c60f33a4b3e3255c7cf
-SHA1: ef20fb2873e0c9ba770d3f86c01be54a4432a839
-SHA256: 081d64216b9bfcd0a2a39c6583d42ef19969412d8aa64b18568145e3e3ce86de
-SHA512: 375c0a2b40d1cf045a368ed1a10f401bbd302a7b6b79d9b84d688676190de2bd343c09d79d6bd1b88f6274124aae5f8b56e56e9c350bff162b92c911ff22b833
+Filename: ./libreoffice-l10n-sk_4%3a26.8.3.1-3_all.deb
+Size: 907904
+MD5sum: 17459fa621ecc2f76c71d6a358bc7ac5
+SHA1: ac322651d3cd558123dec084b82d9666f271a137
+SHA256: 3540b945231bc907a3e609d6fbbfc5a3a8e6c82fb8567cd93a12d7bef36541de
+SHA512: 4e18fbcfd997946fa80822696804973ad52bfad1f9a2df850c4170fdb5d06aeb81466e2031f70f349db3231970da81923fe1a1417e1a60aecb5f5e6a4006bf61
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovak language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44561,22 +44563,22 @@ Description: office productivity suite -- Slovenian language package
 
 Package: libreoffice-l10n-sr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4702
+Installed-Size: 4704
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-sr | myspell-dictionary-sr | libreoffice-spellcheck-sr, hyphen-sr | libreoffice-hyphenation-sr, libreoffice-grammarcheck-sr, libreoffice-help-sr, mythes-sr
-Filename: ./libreoffice-l10n-sr_4%3a26.8.2.2-2_all.deb
-Size: 711024
-MD5sum: 639675fce7b5f8587be806e4faab46ea
-SHA1: 7ca96fac798282b3d4236520aecf9e28389ca030
-SHA256: 5c74006db031ccd638c99fb191ba7711383aafa533343a588bc0791d0220c8c3
-SHA512: 4c35c05e15abd97521ea9a32d6c489ff0c6df8e20c31de308787aed7013fbb7277980bd4e62aa6bd6fbc36009fef0108a1a771725c561812f2e1233f91d9d5de
+Filename: ./libreoffice-l10n-sr_4%3a26.8.3.1-3_all.deb
+Size: 712672
+MD5sum: 469d7b2a7e79d7999b901b8620563677
+SHA1: 012ff889ac5ac5ff1671bd79729c4e5e7ccaa63b
+SHA256: f46c3610d269bb2e89a81740c945ccb160704ff15e4bdbcc8e5e5893651d4035
+SHA512: ad7ce43d360cfecc5325637566eefd6d8c67a576129091894c13e1841042bc66b14f3efe582198447890bb52eac12a16f01dd8e24adc009bfe7ddcdc4e527181
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Serbian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44672,22 +44674,22 @@ Description: office productivity suite -- Southern_sotho language package
 
 Package: libreoffice-l10n-sv
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4212
+Installed-Size: 4213
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-sv | myspell-dictionary-sv | libreoffice-spellcheck-sv, hyphen-sv | libreoffice-hyphenation-sv, libreoffice-grammarcheck-sv, libreoffice-help-sv, mythes-sv
-Filename: ./libreoffice-l10n-sv_4%3a26.8.2.2-2_all.deb
-Size: 887352
-MD5sum: 389a184c659a4766f3d6f0da7a64030b
-SHA1: 3eca03cc9d68278fab1970560dbd150f9623ff27
-SHA256: f655252b109904fb708d420159648ba2f070c6dfaedccf7ccc60caf3d2fb0f58
-SHA512: 22a31e5cba87f80cf482200c8a0843fd1912ea0d72cfcb3f6e1a33fa5b97a54826bb48e31633385e713cbe0989b59abe1cc32f7875216b2f45a50706b7b70612
+Filename: ./libreoffice-l10n-sv_4%3a26.8.3.1-3_all.deb
+Size: 887924
+MD5sum: f3788375bf32ad7b1a3482021e3345a3
+SHA1: e89fe02251cae313726cef7aae182dcce35103cd
+SHA256: c7bc81ba9ec3e4ec541d011c0d3233e91d3f6c5c0b4ce4dc08051aa03bc36d71
+SHA512: ef59c55b3ecfe052ffa18f175e09857b965ac2be999aaca81c1959df4912d02b11a9f045c315ec0ce654573ccf2e0d36096520e676c869b972e3ff76c808dde0
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Swedish language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44709,22 +44711,22 @@ Description: office productivity suite -- Swedish language package
 
 Package: libreoffice-l10n-szl
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2604
+Installed-Size: 2605
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-szl | myspell-dictionary-szl | libreoffice-spellcheck-szl, hyphen-szl | libreoffice-hyphenation-szl, libreoffice-grammarcheck-szl, libreoffice-help-szl, mythes-szl
-Filename: ./libreoffice-l10n-szl_4%3a26.8.2.2-2_all.deb
-Size: 508868
-MD5sum: 0cdd239dc473265d3c771275de2fed1b
-SHA1: b13f30f7d40589d9eec1d68fbc77d77a827b1640
-SHA256: 516b6607cbee95da701e4ac533694bc4350426674adc645918eaceb30a9325ef
-SHA512: 2c35775446cdfe1de37011a91717e171cf4a657957b85130774acf2db73f6999629954c6b23b7ded29339632b2e791d07fa4af053aaf944b18100d661f470425
+Filename: ./libreoffice-l10n-szl_4%3a26.8.3.1-3_all.deb
+Size: 509640
+MD5sum: a3641af5162bee304b228d37c7205741
+SHA1: 11c5a61d0a5993f4f414bbdea939e4c364e9b0e4
+SHA256: ec00079e514544435ae2407770393511fb6e168753caecf631f478142083bdc6
+SHA512: 16faaeee7fc654d59b6a1bfe27e6edd0b5e1cac0a4485cd314bfe9ae5c444fdffe8ee176a37fb658d8b62f7d493cac454bb677345e78db844d9885d13668b20f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Upper_silesian language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44746,22 +44748,22 @@ Description: office productivity suite -- Upper_silesian language package
 
 Package: libreoffice-l10n-ta
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 3217
+Installed-Size: 3218
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-taml, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-taml, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ta | myspell-dictionary-ta | libreoffice-spellcheck-ta, hyphen-ta | libreoffice-hyphenation-ta, libreoffice-grammarcheck-ta, libreoffice-help-ta, mythes-ta
-Filename: ./libreoffice-l10n-ta_4%3a26.8.2.2-2_all.deb
-Size: 493876
-MD5sum: 677c82c8fda50370627b0b483864154b
-SHA1: 0c05ced82e7bf578ecf620d761382194ce027c77
-SHA256: e5bee5a7a60c60999b04997a6bcc5061497eb51cdb55436a4c99b62ef8c24ebd
-SHA512: dce097358334b598d05693966094d982be53053124a582ee30b4c6b3127869e51a04e16371e37307f4437bae9282c11c78182e83cfd67374933b1ee13e1d1638
+Filename: ./libreoffice-l10n-ta_4%3a26.8.3.1-3_all.deb
+Size: 494856
+MD5sum: fe66275cb599be1086aa6b03028d4889
+SHA1: cd1c950b2815b9a15dd2b1a5b5a19f2ce1bf1b8d
+SHA256: edcc48f2f361df56a5b84a7900a17e64451b1dbf6246861cce1e78781f44dfe3
+SHA512: d73292d48d19b37e0249418a0fcf86dcb6c15e69b2154ba87ebbf0302a39c3089474b8e2d35274476514b46fda1a1f98fd40fb0818a96c8c038442436c936708
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tamil language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44783,22 +44785,22 @@ Description: office productivity suite -- Tamil language package
 
 Package: libreoffice-l10n-te
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 2361
+Installed-Size: 2362
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: fonts-telu, libreoffice-core (>> 4:26.8.2.2)
+Recommends: fonts-telu, libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-te | myspell-dictionary-te | libreoffice-spellcheck-te, hyphen-te | libreoffice-hyphenation-te, libreoffice-grammarcheck-te, libreoffice-help-te, mythes-te
-Filename: ./libreoffice-l10n-te_4%3a26.8.2.2-2_all.deb
-Size: 367684
-MD5sum: 89a416298b6835fcd254adfb9a0a7943
-SHA1: c72b8b32e45837f2acfbe3eecf4d1a9f50538d71
-SHA256: ab464a56bcbcebb0efe4034c596a2bc0f7b0b0c8b1ee1b8ca144491e97aff46a
-SHA512: 931b2b74c24ac0d1402435d6e94e0d8ec1c1f0997ceeb73aa6ad5c40582d442a64d65b0c241c26f6fdace3a0755fac717cdc477d52709015f678a58475c98dca
+Filename: ./libreoffice-l10n-te_4%3a26.8.3.1-3_all.deb
+Size: 369036
+MD5sum: 630ab26bd83cf08f9be9dcf3189ab287
+SHA1: 047808c63ce4cafeac82ee375d72693ddae2bfd0
+SHA256: 660d979701e67146aa08ff5a43ad6b2c61bb014650d3c66db6bcdb601ea1e538
+SHA512: 4a5075cde91db4f04bc17f6cc2b47054f286d163807cd0ac1dfae858176bdff7f03c2cc5d8cd7fb810ad723ae03d0aa327db335a50c2cf30f7d4a053b0f52778
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Telugu language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44820,22 +44822,22 @@ Description: office productivity suite -- Telugu language package
 
 Package: libreoffice-l10n-tg
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1790
+Installed-Size: 1792
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-tg | myspell-dictionary-tg | libreoffice-spellcheck-tg, hyphen-tg | libreoffice-hyphenation-tg, libreoffice-grammarcheck-tg, libreoffice-help-tg, mythes-tg
-Filename: ./libreoffice-l10n-tg_4%3a26.8.2.2-2_all.deb
-Size: 281192
-MD5sum: 3e7bd65296ddd5361a615522933f6870
-SHA1: f630c9edea810d0d55d0d3ed83954d6bf175ce9d
-SHA256: abc0e03e079f1be0223a16177e0ecc1cde62c87b2cf80726d6d109524b24e0bd
-SHA512: adfd798fd94d028fff0ae7fd6dcfc777c3249a97a116ad15559b8531ca772fed575a70eb68c104ed41a3d0ae89cdf245f5afbbdb2067c132b95f4ee12607f6dc
+Filename: ./libreoffice-l10n-tg_4%3a26.8.3.1-3_all.deb
+Size: 282004
+MD5sum: 5581e3a5bd54f9958e84c2725e3d3162
+SHA1: b77f512b2124f74bef687498ee76eaa378f66798
+SHA256: 1492697551b9741c1fc01c15eb49afb5d896b5dd62030bfbbdb207fc79938f69
+SHA512: 9d216a3917a3cea8761725ed193b0fe90102ad8d0f28de43323f7cbf6ad4faca2c55b3b1fc3f4a1b4f6d69460f62b3fb38d456b4ef1756144643615ad759545d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tajik language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -44968,22 +44970,22 @@ Description: office productivity suite -- Tswana language package
 
 Package: libreoffice-l10n-tr
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4038
+Installed-Size: 4042
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-tr | myspell-dictionary-tr | libreoffice-spellcheck-tr, hyphen-tr | libreoffice-hyphenation-tr, libreoffice-grammarcheck-tr, libreoffice-help-tr, mythes-tr
-Filename: ./libreoffice-l10n-tr_4%3a26.8.2.2-2_all.deb
-Size: 831184
-MD5sum: 5ca5a9984e09f90c47dbd1ce1ed5f0b2
-SHA1: a61e94fe6661d2b18db5928b2b47fb01b41eb88c
-SHA256: 98a898d0e1c7fa846533730e3d957d1d76b8f080adbc8586e25a1a48fb0916b1
-SHA512: b74af46d9832ff969cb92d56bf28e3480d27065d09a25eb60fc889013cc32858f13daa25744658b01ab625e66d23dec2c9eea741e4a2cd0be08991c7c439a9f6
+Filename: ./libreoffice-l10n-tr_4%3a26.8.3.1-3_all.deb
+Size: 832388
+MD5sum: 11743d003391484f73d7488d73919624
+SHA1: 67b52c93fba499c44c2e7b70d60a8de8d3f04338
+SHA256: 2bdd3d1ae56a838810641facd40286191c8dfcad364aa027c571b1221e9b6a5b
+SHA512: 0b7ace5c12f89e283ea716bcc1e3872f922d9ebd8778252e911fb7586500fe03013830d5731bf5073aa1b06182b3b8a111cf324ebe3d4c799a5f6d5da7867e44
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Turkish language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -45005,22 +45007,22 @@ Description: office productivity suite -- Turkish language package
 
 Package: libreoffice-l10n-ts
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1365
+Installed-Size: 1366
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ts | myspell-dictionary-ts | libreoffice-spellcheck-ts, hyphen-ts | libreoffice-hyphenation-ts, libreoffice-grammarcheck-ts, libreoffice-help-ts, mythes-ts
-Filename: ./libreoffice-l10n-ts_4%3a26.8.2.2-2_all.deb
-Size: 219840
-MD5sum: d10a466345267952c2df1858f99df723
-SHA1: e7108b7ceaca35954532eb92bfc63590bb8f2911
-SHA256: ece75d474a6c82cf8a095b98c529d274209c5312c700b115401efe4dc94f195d
-SHA512: 2d13afe4d17517129bd101c444e9ee1dbaaabb12c863b9d2b6f46efa3cbdbe40a93ec6859f53a0c724fbd2a48184b87d1a5f90192dda97bc919ab93d777bdcb7
+Filename: ./libreoffice-l10n-ts_4%3a26.8.3.1-3_all.deb
+Size: 220556
+MD5sum: 57f02d7119d8af9b3ba6e65bb581acce
+SHA1: f77025fc4e7f9445f66e909ae854fad35f32941e
+SHA256: bb8081e5454906520fafe067a4762f10f98348896d8e7aaab68f0ffdc4887264
+SHA512: b75efe76358d02fc8b89c29143b006f3f84521d1a6375b2bd51d2a6653ebebca5afc8ceab928525085b86933ecd4b8f39f45e561bb7d9519a39c80aca3d0d4b7
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tsonga language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -45153,22 +45155,22 @@ Description: office productivity suite -- Uzbek language package
 
 Package: libreoffice-l10n-ve
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1374
+Installed-Size: 1375
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-ve | myspell-dictionary-ve | libreoffice-spellcheck-ve, hyphen-ve | libreoffice-hyphenation-ve, libreoffice-grammarcheck-ve, libreoffice-help-ve, mythes-ve
-Filename: ./libreoffice-l10n-ve_4%3a26.8.2.2-2_all.deb
-Size: 222484
-MD5sum: 86b77f6821280988da03d8026b5194c6
-SHA1: 4abb6b6b11487a3656ea3299e78da78dc8f2ded1
-SHA256: 78716fea4594c029770dde9ed3cfb056b9a4b7c05c1fb757530c47572cdaff88
-SHA512: 75ad15d808a508065d62d6c33f74ba952552eb98cf4cc4e56675274a6ce710c0f1ff9da84266f7764bccacc211448b01667272bdb2b824e21543bddddfb99bd1
+Filename: ./libreoffice-l10n-ve_4%3a26.8.3.1-3_all.deb
+Size: 223216
+MD5sum: 341a87c5bf6f56dcd34640bce4b4299b
+SHA1: 68cb7fd87a93bdd3a67dfc0aad9c98de38fadd9a
+SHA256: 07f92bc04fb3224bfcfdd000021119582b6211fdc50b12033cc998accaa4b00c
+SHA512: 444026baca7bd035f27fd7dacb675e9ee193f8fed516d6b990bc88abce61c88b8a75f3a234fcda0f07ffc379136ed430e53de5036c6772132598465077f4a88c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Venda language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -45227,22 +45229,22 @@ Description: office productivity suite -- Vietnamese language package
 
 Package: libreoffice-l10n-xh
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: localization
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1390
+Installed-Size: 1392
 Provides: libreoffice-l10n (= 26.8)
 Depends: libreoffice-common (>= 1:7.0.0~alpha~), locales | locales-all
-Recommends: libreoffice-core (>> 4:26.8.2.2)
+Recommends: libreoffice-core (>> 4:26.8.3.1)
 Suggests: hunspell-dictionary-xh | myspell-dictionary-xh | libreoffice-spellcheck-xh, hyphen-xh | libreoffice-hyphenation-xh, libreoffice-grammarcheck-xh, libreoffice-help-xh, mythes-xh
-Filename: ./libreoffice-l10n-xh_4%3a26.8.2.2-2_all.deb
-Size: 226464
-MD5sum: 9ad08df141ed88bf309a26d4342b63bf
-SHA1: eaa1719a810c2b4070f3afac7fc7f8d02d0ee71b
-SHA256: 209e480206066f3200c134c14dff84cd083e697d6beb1e34988b63f230adb0a7
-SHA512: 4fd9ca667455a86f9641987eb63142f0bf371e14b06d56fdb8eb6ae19c31ee98a1b41839c8bdf9fe2bcbcb990633521c0500c1ab77bf58e4a955ce1c04bf45db
+Filename: ./libreoffice-l10n-xh_4%3a26.8.3.1-3_all.deb
+Size: 227360
+MD5sum: d8401e8b5d040e9f08cec93d70f8845f
+SHA1: cbe6fda255285500556d4bc392609eb604a54578
+SHA256: 1411846f0eea29381367d0e29016dad6d6390a88ce937d7dbc6e14666f82c6a7
+SHA512: 153c45ffa7d55414d0b4e04ce1fc3d774721b9cc2415a193a46fc59ff4e5223e39992f349bc269e7ba4be38d8a97be9ebbfaf95fcf020068ae7d4ad9ac7b54cc
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Xhosa language package
  LibreOffice is a full-featured office productivity suite that provides
@@ -45398,19 +45400,19 @@ Description: office productivity suite -- Zulu language package
 
 Package: libreoffice-librelogo
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: misc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 867
+Installed-Size: 868
 Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core, libreoffice-script-provider-python, libreoffice-writer
-Filename: ./libreoffice-librelogo_4%3a26.8.2.2-2_all.deb
-Size: 200344
-MD5sum: 53e2494bb9ac8a13774006943f10b8ae
-SHA1: a578fe7ffd4481daa0cb01af5b61329e55c03073
-SHA256: 684438e710f86229a966f92ba8a88873fcc47852069a2e6434cfa3ebc8afb1e3
-SHA512: e0a8ac3b52aa9b1900da79ee39ea92ac589268a34f91919edba9eac0af065b7355985302b4da4c63632748d5ae5f90889740f4a27f1be9fab24c232ac65e9752
+Filename: ./libreoffice-librelogo_4%3a26.8.3.1-3_all.deb
+Size: 201092
+MD5sum: 15d415056fd26ecff15dc260f6f3d54b
+SHA1: 32b550d195bc39c7934e6cd4b1d6c3d7090f2741
+SHA256: e64db50b3fa9ba2c65af387b6235d967ca7159cdf7a012bce32363475c3a2f3f
+SHA512: eec42fd0e4c1123f50ba9c0860989690e2d40a8cb00959c30b7d72e263430b149c4762ef76cdb44f332f525ed914b415bc5a64803753a42e013559c76a7869b7
 Homepage: http://librelogo.org
 Description: Logo-like programming language for LibreOffice
  LibreOffice is a full-featured office productivity suite that provides
@@ -45598,21 +45600,21 @@ Description: "Solver for Nonlinear Programming" extension for LibreOffice
 
 Package: libreoffice-nogui
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: metapackages
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 54
-Depends: libreoffice-base-nogui, libreoffice-calc-nogui, libreoffice-core-nogui (= 4:26.8.2.2-2), libreoffice-draw-nogui, libreoffice-impress-nogui, libreoffice-math-nogui, libreoffice-report-builder-bin-nogui, libreoffice-writer-nogui, python3-uno
-Recommends: libreoffice-script-provider-bsh, libreoffice-script-provider-js, libreoffice-script-provider-python, libreoffice-sdbc-mysql, libreoffice-sdbc-postgresql, python3-pip, python3-setuptools, python3-venv, libreoffice-java-common (>= 4:26.8.2.2~)
+Installed-Size: 56
+Depends: libreoffice-base-nogui, libreoffice-calc-nogui, libreoffice-core-nogui (= 4:26.8.3.1-3+b1), libreoffice-draw-nogui, libreoffice-impress-nogui, libreoffice-math-nogui, libreoffice-report-builder-bin-nogui, libreoffice-writer-nogui, python3-uno
+Recommends: libreoffice-script-provider-bsh, libreoffice-script-provider-js, libreoffice-script-provider-python, libreoffice-sdbc-mysql, libreoffice-sdbc-postgresql, python3-pip, python3-setuptools, python3-venv, libreoffice-java-common (>= 4:26.8.3.1~)
 Suggests: ghostscript, gnupg, gpa, hunspell-dictionary, hyphen-hyphenation-patterns, imagemagick, libreoffice-grammarcheck, myspell-dictionary, mythes-thesaurus, pstoedit, unixodbc, afdko-bin, default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre
-Filename: ./libreoffice-nogui_4%3a26.8.2.2-2_amd64.deb
-Size: 28528
-MD5sum: 45a186c1222a3f8faf42ebe674fd2599
-SHA1: 9d9568928992e42f37336fc8ea920679fe19d4f4
-SHA256: c9255e836a59f5f6c4442c0e0c32363e7360a7602111f8fbb0611d511e62ba82
-SHA512: 4a7b3a6d99bd1906982e42d6a9ada4a3bd397b4c7bb762916b6ea7f034cd470617d2867c8a3652825da883c1a202d9a0fdd6501e9dc8e2789b58daed55ce475a
+Filename: ./libreoffice-nogui_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 29632
+MD5sum: 36fa24cedeccfa3b8c82a977891cc840
+SHA1: a2dc60f2ad1b2aa96af6d91e86565aec08179b91
+SHA256: 9963b46048fda110ad7bfef3dad6551c8cce69e744a886642e069d698f354183
+SHA512: dd1472592271351b9d1e1916744dcb1cb62da31a73b03644ac88e6c8078866ed0135383fbf0f64e54c4025bfed92611b29380cf75bebda7f9a7400dfb3cbed2d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite (metapackage, no GUI)
  LibreOffice is a full-featured office productivity suite that provides
@@ -45683,20 +45685,20 @@ Description: LibreOffice Extension for Parlatype
 
 Package: libreoffice-plasma
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 63
+Installed-Size: 64
 Recommends: libreoffice-kf6
 Replaces: libreoffice-kde5 (<< 1:6.4.0~)
-Filename: ./libreoffice-plasma_4%3a26.8.2.2-2_all.deb
-Size: 29088
-MD5sum: 878caaacda9c6979309c717b1dc1ef79
-SHA1: fd1043f32a85e74c9a738e24ac2c81eb0c8e0de2
-SHA256: 1012e89869beafd6128d4f011133ecef4cb6a38167c9c0d83ff287cdf698c7a1
-SHA512: 3302be2e0146caa885e0718768a5b51a46358b28670fc68893c2214c76e619e0dc56e57f510b9ae4a2132924464db85d2fa9ab5aecbc4e3f9cf24a080187f6f7
+Filename: ./libreoffice-plasma_4%3a26.8.3.1-3_all.deb
+Size: 29892
+MD5sum: 40152308e3fad81afcff3a81ff759d01
+SHA1: d9b01d6ca1a8bfd56a61d3bcc891d15e6f55538e
+SHA256: 64d910f16b4b1ba1bf793b8c23d22aa81d1db3bedb5e4960a0e81a9a75db4bf3
+SHA512: 54bb5b8a3d89ce0452d289087bb711b15c93cdbcf660b2206e665dc4882d50efb1c9c09f2d98c08eda5683426d6d8ab35e8975454a22f129afc2ab1ba5f2836e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- some Plasma integration
  LibreOffice is a full-featured office productivity suite that provides
@@ -45809,23 +45811,23 @@ Description: LibreOffice component for building database reports -- libraries
 
 Package: libreoffice-report-builder
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: misc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 407
+Installed-Size: 408
 Provides: libreoffice-reportdesigner
-Depends: liblibreoffice-java, libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core | libreoffice-core-nogui, libreoffice-report-builder-bin (>= 4:26.8.2.2), libreoffice-uiconfig-report-builder (= 4:26.8.2.2-2), libreoffice-java-common, libbase-java, libsac-java, libxml-java, libflute-java, libpentaho-reporting-flow-engine-java, liblayout-java, libloader-java, libformula-java, librepository-java, libfonts-java, libserializer-java
+Depends: liblibreoffice-java, libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core | libreoffice-core-nogui, libreoffice-report-builder-bin (>= 4:26.8.3.1), libreoffice-uiconfig-report-builder (= 4:26.8.3.1-3), libreoffice-java-common, libbase-java, libsac-java, libxml-java, libflute-java, libpentaho-reporting-flow-engine-java, liblayout-java, libloader-java, libformula-java, librepository-java, libfonts-java, libserializer-java
 Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
 Replaces: libreoffice-common (<< 1:6.4.2~r~~)
 Enhances: libreoffice-base
-Filename: ./libreoffice-report-builder_4%3a26.8.2.2-2_all.deb
-Size: 304424
-MD5sum: 1d2e7b28e285baa5a44b1ec5dcd53959
-SHA1: 82ab8ec287d3c7ca8043076a89d711ef4ebea13b
-SHA256: 23460ceed742c03ed8050fba28cda8099d42cb7d171223813f8a3869dc20e213
-SHA512: 838c11a36d512fb31ff0c4e758973ecbe8d76b5eac7bd700b2ce4fca027a70d06d2c9458fb499b03546351128a35466cc7cdac862f9982cf8f4d656d027432f7
+Filename: ./libreoffice-report-builder_4%3a26.8.3.1-3_all.deb
+Size: 305204
+MD5sum: b492982b903aa940bea91de15957132f
+SHA1: def1fd0710107f18f7e4caec2a3a17d48fe22074
+SHA256: 869e9cf0a0818817f1ac46ba01a35befa3bd6ed7903ea5d518b5ce6d98dfcf28
+SHA512: 113ada1a0f5eb13aecf711fced20cd9364ceb32280e39e458fa2eb70e2f351971c3ee2e2c719831bca8ac2adbcf8d295eabb74a4807a8cf7daead2aaa7352524
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports
  LibreOffice is a full-featured office productivity suite that provides
@@ -45921,19 +45923,19 @@ Description: JavaScript script support provider for LibreOffice scripting framew
 
 Package: libreoffice-script-provider-python
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: python
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 109
+Installed-Size: 110
 Depends: libreoffice-common, libreoffice-core-nogui | libreoffice-core, python3-uno
-Filename: ./libreoffice-script-provider-python_4%3a26.8.2.2-2_all.deb
-Size: 39048
-MD5sum: c293638ff2c2e77b22d10f7ca9541522
-SHA1: 9b50f886246586561ff45b25617843152ad44ab5
-SHA256: 79f3f1dd0f0a246a971d42862045dfdc4a7212a2261be3d6bb6d85f1f19e1572
-SHA512: 4e7d1f032258bcd5b489002cab7c0d3560bb0969f58a68c4768b46953a3315ed9dbf3fdedb85378db0f917e3f44fc8b8ed2c982c4ea76d65c2c9af4d8d4f62b7
+Filename: ./libreoffice-script-provider-python_4%3a26.8.3.1-3_all.deb
+Size: 39812
+MD5sum: 853effae47959b8cc1bac0e7185de80f
+SHA1: b6cbdc0ee4697a243c4f756c53ea327e0446937a
+SHA256: 431c19ee9b712db51b7c054b8283cf5b2d4b07b6bd4b4f54772246f93ea4fcd2
+SHA512: c7317906db9b94d4a0032a89c1b5a27fa76f5e6ea7ad7d9c32ee4cdf4a3cff2dd52e1591ac0a13cd5f5457a17672b9c8fe53f05c3889c2e17e82824344074563
 Homepage: http://www.libreoffice.org
 Description: Python script support provider for LibreOffice scripting framework
  LibreOffice is a full-featured office productivity suite that provides
@@ -45948,20 +45950,20 @@ Description: Python script support provider for LibreOffice scripting framework
 
 Package: libreoffice-sdbc-firebird
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: database
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 662
+Installed-Size: 664
 Depends: libreoffice-core-nogui | libreoffice-core, firebird4.0-server-core, libc6 (>= 2.14), libfbclient2 (>= 4.0.7~), libfbclient2 (<< 5.0~), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 5.3.0~alpha), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
 Enhances: libreoffice-base-drivers
-Filename: ./libreoffice-sdbc-firebird_4%3a26.8.2.2-2_amd64.deb
-Size: 182760
-MD5sum: 5698dbe2de9fcf1a990b73bd960d072e
-SHA1: adf0a1a3d83190f5b337c337378078749ae3617b
-SHA256: 4161b56322c435bc6ca26944d15f29837ce3cd22f1b6693c890dda2a17ebcd2a
-SHA512: c73f6a1a4baf8096dfee3f535c463dc65a47012a4de437ed24edbb6583aa8f4aae323cd36537454951d3cb0aea45ff31684553bd1d778120c6402cba2e0c44f3
+Filename: ./libreoffice-sdbc-firebird_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 184264
+MD5sum: 70d2fc6a4b887c3f55ea84e83f04bbde
+SHA1: 1ef4edae3459d9a82a095ac8e3cbbb2d12943a4c
+SHA256: 778ac8ef71785adf18b541ffbbf893a8bca5264888ffb0f30037533589dc3f56
+SHA512: df57f649ecff3cccedd689fefd73c2d4f8dc983b2f6dca371d86e2a29d566be7ff154e5ff1866cbdc12bf9c28e5ba6ee61322bfb7fcbd3c05ce3eac3fd58ea13
 Homepage: http://www.libreoffice.org
 Description: (embedded) Firebird SDBC driver for LibreOffice
  LibreOffice is a full-featured office productivity suite that provides
@@ -45972,21 +45974,21 @@ Description: (embedded) Firebird SDBC driver for LibreOffice
 
 Package: libreoffice-sdbc-hsqldb
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: database
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 445
-Depends: libreoffice-core-nogui | libreoffice-core, libreoffice-java-common (>= 4:26.8.2.2~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, libhsqldb1.8.0-java, libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libreoffice-sal-private-abi (= 26.8.2), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
+Installed-Size: 447
+Depends: libreoffice-core-nogui | libreoffice-core, libreoffice-java-common (>= 4:26.8.3.1~), default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, libhsqldb1.8.0-java, libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libreoffice-sal-private-abi (= 26.8.3), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha), libuno-sal3t64 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
 Replaces: libreoffice-common (= 4:24.8.5-1)
 Enhances: libreoffice-base-drivers
-Filename: ./libreoffice-sdbc-hsqldb_4%3a26.8.2.2-2_amd64.deb
-Size: 141776
-MD5sum: b83ace2b5bc76a8048e2a57118351d79
-SHA1: 7987168aa01a375dfa6aa1b9a600ddea41c40f48
-SHA256: d4b0b8eac1535cb797be48158cc6936674fd2d1e6f13f5fa2a08e33aef5f1c29
-SHA512: 2a27754c3498fed8c759354193bf4299945e3dc0a8e9b996d98757c43e65374158f8f1d89b04bd35eb6f03f4e1915698f73f8efb9f29eedd7eaf73a279b5dca2
+Filename: ./libreoffice-sdbc-hsqldb_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 142776
+MD5sum: 8356a7884e0f3290c10cdc7f7bb0b6b6
+SHA1: 07f2fcd7d74f8e4743bbbc2644030761595025fe
+SHA256: 3880e2cbec025d3c0e6f894c5ce1673ea4ce6e835f77a80d28796e1a74652fe8
+SHA512: ce03e3e86c8b6418f2f0e5aaa4b939578a67fe9ef8e97e1f5f6b26e34128570d0919e5568e1198a54bee7521dd58c84a0fbedab0e4a1a764b65c2408f987c2d6
 Homepage: http://www.libreoffice.org
 Description: embedded HSQLDB SDBC driver for LibreOffice
  LibreOffice is a full-featured office productivity suite that provides
@@ -46021,21 +46023,21 @@ Description: MariaDB/MySQL SDBC driver for LibreOffice
 
 Package: libreoffice-sdbc-postgresql
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: misc
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1021
-Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core-nogui | libreoffice-core, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpq5 (>= 9.0~), libreoffice-sal-private-abi (= 26.8.2), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha), libuno-sal3t64 (>= 6.4.0~beta), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
+Installed-Size: 1023
+Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core-nogui | libreoffice-core, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpq5 (>= 9.0~), libreoffice-sal-private-abi (= 26.8.3), libstdc++6 (>= 11), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha), libuno-sal3t64 (>= 6.4.0~beta), libuno-salhelpergcc3-3t64 (>= 1.4.0), uno-libs-private
 Suggests: postgresql (>= 8.4)
 Enhances: libreoffice-base-drivers
-Filename: ./libreoffice-sdbc-postgresql_4%3a26.8.2.2-2_amd64.deb
-Size: 263240
-MD5sum: dddc7b27dfc853a48442ca3629a55c81
-SHA1: 0f36c7ce5a991c23a460ffa429f47bd6d4a4af47
-SHA256: 1ad0ecf7516733e77904a917b96761bfd46895d405e79523e9de43e1bdd0547f
-SHA512: c030e30d88b3dd5e1eaf47a5fcb0cf4df7d9a5c853956ffd9abee8aa71283961ecf9f84b666e3b96966e0340944087775dcba197ea62717143d84cc3917aea47
+Filename: ./libreoffice-sdbc-postgresql_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 263088
+MD5sum: b9fc3f5722098ad7cf68b91aef164a73
+SHA1: 54230f9b2f822c7838090880ee83b95b57a5df41
+SHA256: a6ce772cef0cb6300dc70af42b5dc7713826dfbfae85384148f6d8745a626979
+SHA512: ad27375c41cbc977badfbd396720669e0ff67fa18d6dbb42046e0897ecbc233b8a30fb019bc58afa717eca8c7d0d17a47893e7c9e7350fd99eff8507ef6edf42
 Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
 Description: PostgreSQL SDBC driver for LibreOffice
  LibreOffice is a full-featured office productivity suite that provides
@@ -46092,21 +46094,21 @@ Description: office productivity suite -- Breeze symbol style
 
 Package: libreoffice-style-colibre
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 11773
+Installed-Size: 11774
 Provides: libreoffice-style
 Recommends: libreoffice-common
 Enhances: libreoffice-core
-Filename: ./libreoffice-style-colibre_4%3a26.8.2.2-2_all.deb
-Size: 7348884
-MD5sum: 086b45d37466dfe29c35a7f41103e9c8
-SHA1: dc28fd661f8419841027a8962f6a26cd2854f6c1
-SHA256: 385bf24afc9ed6a572eaf05a6feaf896b7adeae2f42de4999d34f45daed7a11e
-SHA512: b6d5b7b5abc16a10fab7b5b32ff99283c51a4d46d78a6cdd6f13e14625842c0caa30d15aae6c44a31ac78d377f6c0158b37946f09a96cac77e88c8738e12ca97
+Filename: ./libreoffice-style-colibre_4%3a26.8.3.1-3_all.deb
+Size: 7348804
+MD5sum: fa33987e90d3512ce64d269c89f40ac8
+SHA1: c71d40beeb7dfe6c1e83a4f87a4cdc8388292684
+SHA256: 0e973d7c28bc043d39cae31b6b9a6dee53ea2b7795368cee652d72ba5131a797
+SHA512: 96d28c85a7d375b3d6adde0515dba06a62aad254f02f95e48e8633e3045588ac9e97c60c6d16de3e750ff9e5cc7fc28701372b36460bcd4652e8224dd60fd672
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- colibre symbol style
  LibreOffice is a full-featured office productivity suite that provides
@@ -46117,22 +46119,22 @@ Description: office productivity suite -- colibre symbol style
 
 Package: libreoffice-style-elementary
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 9851
+Installed-Size: 9852
 Provides: libreoffice-style
 Depends: libreoffice-style-colibre
 Recommends: libreoffice-common
 Enhances: libreoffice-core
-Filename: ./libreoffice-style-elementary_4%3a26.8.2.2-2_all.deb
-Size: 8284236
-MD5sum: 2ed0aba31765f5bc6ffb778cdf59a14d
-SHA1: 575a58e1336230bfbc2cac49efa72c021b1b1585
-SHA256: 78ebded94cd17453ccb6cd188d919be3a6074fc209250d4733610ccf91f21331
-SHA512: 1d97db5ca19164340df3a73a9fcfa3c87cdfed143d6fe47dbb5b6c2f5d33c262fb693da5a271ab6bd61ffca70085a07078d5d7ab70378bfaa9773796d70c4fab
+Filename: ./libreoffice-style-elementary_4%3a26.8.3.1-3_all.deb
+Size: 8285316
+MD5sum: bcda3d241fb3d234a321843b64ece3f2
+SHA1: e4740a745ff1e2b355e83bf1c354e67d19b396e3
+SHA256: 90f16636e752579795d7fd124d22201b08ef0768460b11c230bc4551e7ec474b
+SHA512: 0fc020170872a6416f1a5c6b010b8798d5bb0a2ddee5bb9786c516be8aaee33541f1abf18ccb06451ad812ba54d28e36f68411e6c47877ecaed5784237434905
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Elementary symbol style
  LibreOffice is a full-featured office productivity suite that provides
@@ -46143,21 +46145,21 @@ Description: office productivity suite -- Elementary symbol style
 
 Package: libreoffice-style-karasa-jaga
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: editors
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 21029
+Installed-Size: 21030
 Provides: libreoffice-style
 Recommends: libreoffice-common
 Enhances: libreoffice-core
-Filename: ./libreoffice-style-karasa-jaga_4%3a26.8.2.2-2_all.deb
-Size: 18341020
-MD5sum: 982bd0e07e2f803d83523fb639b27692
-SHA1: caf48698030d925cd526394850b22e181e9b991c
-SHA256: a530c1b2d8aec9cc882b42498ae8a1223bdb4fb47f782b8972e8e5c5fe833165
-SHA512: 19d693f917398c36b911260ad311c990f0af0ab5fa9acea6ca76e6b43d016a02696394a663124a839ff49dfda7bfa5c3fd8d6d23c31af0e62841ad5e35dfb512
+Filename: ./libreoffice-style-karasa-jaga_4%3a26.8.3.1-3_all.deb
+Size: 18341212
+MD5sum: 656b3546458826f763684f498ea555be
+SHA1: 2e1067612f2629da5bab5cf539b7ecc711089bc4
+SHA256: 44ebcf44120185a73b7cf656af0a61a2c10dff5c791209ef94f0dc5ff3cf55e1
+SHA512: 9f50feedc808c0125a814644d7116534ab45182d57eaf9c1f775469cc0d1b9d84661e0b847c2143cc3bcdf52ba39105938c8b208ce28b5853ce167d4cfeeb505
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Karasa Jaga symbol style
  LibreOffice is a full-featured office productivity suite that provides
@@ -46289,20 +46291,20 @@ Description: UI data ("config") for LibreOffice Base
 
 Package: libreoffice-uiconfig-calc
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: misc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 5852
+Installed-Size: 5853
 Breaks: libreoffice-calc (<< 4:7.6.0~beta1), libreoffice-calc-nogui (<< 4:7.6.0~beta1), libreoffice-common (<< 4:7.6.0~beta1)
 Replaces: libreoffice-calc (<< 4:7.6.0~beta1), libreoffice-calc-nogui (<< 4:7.6.0~beta1), libreoffice-common (<< 4:7.6.0~beta1)
-Filename: ./libreoffice-uiconfig-calc_4%3a26.8.2.2-2_all.deb
-Size: 202940
-MD5sum: 2ae459c5fff092560d2739ae8b74cd93
-SHA1: 30e1e5610b9f82886a3db1a60756ecd0be81de4e
-SHA256: 59b437b2247264f6f5d99a619fca20f63b36204f67b5ed0872f0fee0f0b1e175
-SHA512: 0c6007299ba703b7dabc66f89d3d650f74e7a3d6bf955f312da99f0a9f2e195ba1eb3376891e28ff4d64858b14c5a5d689c6de76f61967910bc85530aef1304b
+Filename: ./libreoffice-uiconfig-calc_4%3a26.8.3.1-3_all.deb
+Size: 203740
+MD5sum: c39e123fa0008a7bbdeb0fa3c49b7ec5
+SHA1: 4660f6de8a9912d93c9f9bcbb12a15492c87d3e9
+SHA256: 02aa5a9be33a16f431fcfe36a5c12f395ccc5888fb6626633d6bf7cc1db58bfa
+SHA512: 8d1525fdfaa865ea3a65c48e47e346eac61b9df00fb0bdd973aec3f183a5111a7bc2655248a6fb12544b01dbf91e69d733c253aa578d6d1986452056319ba672
 Homepage: http://www.libreoffice.org
 Description: UI data ("config") for LibreOffice Calc
  LibreOffice is a full-featured office productivity suite that provides
@@ -46429,20 +46431,20 @@ Description: UI data ("config") for LibreOffice Math
 
 Package: libreoffice-uiconfig-report-builder
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: misc
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 229
+Installed-Size: 230
 Breaks: libreoffice-common (<< 4:7.6.0~beta1), libreoffice-report-builder (<< 4:7.6.0~beta1)
 Replaces: libreoffice-common (<< 4:7.6.0~beta1), libreoffice-report-builder (<< 4:7.6.0~beta1)
-Filename: ./libreoffice-uiconfig-report-builder_4%3a26.8.2.2-2_all.deb
-Size: 37828
-MD5sum: 6ff0899f9e0824e14e6b6b6bcc3ad1fc
-SHA1: f81b6cfccdbbb21248781f9ff4e82aeb88985feb
-SHA256: b81f6f1dcc9ae315c8acdec3f753e2d1ae8a1d5cb071fd4ffba723c98231d533
-SHA512: d5b50fd0ed53218118737fdc88e1b9eeab17baa6dd116db743cd89b2f3d23b82b36b409e5465a90f4c921788397cce73f4de20746085b75268c8bcab172f2ff5
+Filename: ./libreoffice-uiconfig-report-builder_4%3a26.8.3.1-3_all.deb
+Size: 38604
+MD5sum: 10d85dbd450ca2e7ee8e7b73f95ac81b
+SHA1: c0b19f82f4157b380b67a98ec222255c5df5a412
+SHA256: bb39bd19d78eef2a8f18a88bef63fba9a21ba10a8af82dfc2d29bdbdfd537295
+SHA512: 201a1cee4339b69f00204ab6b83fc3f6da8b2b6cedc1c8cebf9da71b1a03f5ff0c45944c599193c1f2bde6f4cc54be7bad787cad533a555b31f1ec1d7e0524e0
 Homepage: http://www.libreoffice.org
 Description: UI data ("config") for the LibreOffice Report Builder
  LibreOffice is a full-featured office productivity suite that provides
@@ -46787,20 +46789,20 @@ Description: LibreOfficeKit -- Gtk header and introspection development
 
 Package: libreofficekit-dev
 Architecture: all
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3
 Priority: optional
 Section: libdevel
 Source: libreoffice
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 185
+Installed-Size: 186
 Recommends: libreoffice-core, libreofficekit-data
 Suggests: libreofficekit-dev-gtk
-Filename: ./libreofficekit-dev_4%3a26.8.2.2-2_all.deb
-Size: 54752
-MD5sum: 686931799f698806b3af23bb40f5042f
-SHA1: ffb3f113c00138c0e4ce7d7159185e008779d6ab
-SHA256: a71d1e1e78656eccab9784653fcc6469c530c7ba2a4b6d35837960b44c522dd3
-SHA512: 4ec26bb64f16e74408c372507b42ec6c86681c30d9bf3184e2a0182169ac1e121c3fcf2fb4e3f219130cd0b61428498350aa25d1c208d4cefcec11da2eccb956
+Filename: ./libreofficekit-dev_4%3a26.8.3.1-3_all.deb
+Size: 55556
+MD5sum: 50313147d73b6a827c4f2db592c92f54
+SHA1: f569026119ba9e939f2eea410a63bc0f33845963
+SHA256: 6bda6dc1b080420709bf8be47dbeb1124900b9a7cb8e8c3e56d28d5400e04bb7
+SHA512: 1554fbeefc52f391a386b6b130283fb2c61e347038148da9ea8c36040f506f9272b17280b5302aee2d5c3ebe565ee9b1b5a2916f9d12fa063b70f2b88dcded4b
 Homepage: http://www.libreoffice.org
 Description: LibreOfficeKit -- headers
  LibreOfficeKit can be used for accessing LibreOffice functionality through
@@ -49779,22 +49781,22 @@ Description: Perl module for mapping charsets from and to UTF16 Unicode
 
 Package: libuno-cppuhelpergcc3-3t64
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: libs
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 1059
-Provides: libuno-cppuhelpergcc3-3 (= 4:26.8.2.2-2)
-Depends: uno-libs-private (= 4:26.8.2.2-2), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-sal3t64 (>= 5.1.0~alpha), libuno-salhelpergcc3-3t64 (>= 1.4.0)
-Breaks: libreoffice-core (<< 1:4.3.0~), libuno-cppuhelpergcc3-3 (<< 4:26.8.2.2-2), uno-libs3
+Installed-Size: 1061
+Provides: libuno-cppuhelpergcc3-3 (= 4:26.8.3.1-3+b1)
+Depends: uno-libs-private (= 4:26.8.3.1-3+b1), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-sal3t64 (>= 5.1.0~alpha), libuno-salhelpergcc3-3t64 (>= 1.4.0)
+Breaks: libreoffice-core (<< 1:4.3.0~), libuno-cppuhelpergcc3-3 (<< 4:26.8.3.1-3), uno-libs3
 Replaces: libuno-cppuhelpergcc3-3, uno-libs3, ure (<< 5.0.0~rc2-1)
-Filename: ./libuno-cppuhelpergcc3-3t64_4%3a26.8.2.2-2_amd64.deb
-Size: 315948
-MD5sum: 31f203e3017004a4a02970f76e886a87
-SHA1: 1f796192a884f71f5a3d1f198eecbbd0aa6ad884
-SHA256: 2b703f0414ef81c076ff3ba77c855433a222b4ba422353ee092250f3e36fe9fc
-SHA512: c619292544bdc7ada48bb084b65de755087d3fe3e81ab667fe68de93d53dc01b5e8c4ccdb52a40e326209fe3d90f5c99e84bbf616727f820ee8268d9842b8715
+Filename: ./libuno-cppuhelpergcc3-3t64_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 316468
+MD5sum: 39eda6cb4b2de83d976a69b5b6a506ab
+SHA1: c3b5ff40473c9bb0a78303c9d9f886505a453dd9
+SHA256: ff514662abbfb74d3ce826ceb9ba2ea80472d7aed5b7f7ae544ad4aefbb831f2
+SHA512: ec6e8bb3be8cb9b4991a380558290e3a089bfcc9616f5bd6813602b62963c3587234abac3656f5b53268741cadd8619d1a3df15018d4d254dff441f0d7b81cb9
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment -- CPPU helper library
  The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -49811,22 +49813,22 @@ Description: LibreOffice UNO runtime environment -- CPPU helper library
 
 Package: libuno-sal3t64
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: libs
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 508
-Provides: libreoffice-sal-private-abi (= 26.8.2), libuno-sal3 (= 4:26.8.2.2-2)
+Installed-Size: 510
+Provides: libreoffice-sal-private-abi (= 26.8.3), libuno-sal3 (= 4:26.8.3.1-3+b1)
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13), zlib1g (>= 1:1.1.4)
-Breaks: libreoffice-core (<< 1:4.3.0~), libuno-sal3 (<< 4:26.8.2.2-2), uno-libs3
+Breaks: libreoffice-core (<< 1:4.3.0~), libuno-sal3 (<< 4:26.8.3.1-3), uno-libs3
 Replaces: libuno-sal3, uno-libs3, ure (<< 5.0.0~rc2-1)
-Filename: ./libuno-sal3t64_4%3a26.8.2.2-2_amd64.deb
-Size: 204428
-MD5sum: 44b0c36495193640028de9e2ebd7534a
-SHA1: 6e0f75e705290819315c4a686dc6177ec3f14e8d
-SHA256: 0311d5b81abd729d7af5fec5e04751b65a7fea2a79137300286beed12341d6e8
-SHA512: 98f5cf2c4fc1e1f6604bdb79b6243928df0ca310ede463fc82fe4e0dc7f115c2e8bd7c86ce7c5de10a82641b26b54bcc750a1a7ef1901eabfb539564d1385bb7
+Filename: ./libuno-sal3t64_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 206140
+MD5sum: ac11e0178e2b1ebc5b57b4db9394bf29
+SHA1: 4c482e42ad2745f3497f99738e91bcb07783fee2
+SHA256: c450a65e6094db149a3036788f55bc8519bf145f9c2c010159d5bae1a46d29da
+SHA512: 4e1ac3ae3298c0ab5f872acab66bea2b51c8a6b8337435b2cb8c3cd9adcf5d2f85447377d1aea4fc9e5b534e2fa8b9baa22290681ea6c39db55c50d7cdf9cabd
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment -- SAL public library
  The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -49842,22 +49844,22 @@ Description: LibreOffice UNO runtime environment -- SAL public library
 
 Package: libuno-salhelpergcc3-3t64
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: libs
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 106
-Provides: libreoffice-salhelper-private-abi (= 26.8.2), libuno-salhelpergcc3-3 (= 4:26.8.2.2-2)
+Installed-Size: 108
+Provides: libreoffice-salhelper-private-abi (= 26.8.3), libuno-salhelpergcc3-3 (= 4:26.8.3.1-3+b1)
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libuno-sal3t64 (>= 1.8.0)
-Breaks: libreoffice-core (<< 1:4.3.0~), libuno-salhelpergcc3-3 (<< 4:26.8.2.2-2), uno-libs3
+Breaks: libreoffice-core (<< 1:4.3.0~), libuno-salhelpergcc3-3 (<< 4:26.8.3.1-3), uno-libs3
 Replaces: libuno-salhelpergcc3-3, uno-libs3, ure (<< 5.0.0~rc2-1)
-Filename: ./libuno-salhelpergcc3-3t64_4%3a26.8.2.2-2_amd64.deb
-Size: 40416
-MD5sum: cefd04a4e914ca16ec1ddccee238dbe7
-SHA1: 723f4e423b17711ae8f8438d4aecc8188c143fff
-SHA256: 6174a0b63ec260b8797230fba4e3a2350ff9d2bf2f4377bbc0a082a1badc00c4
-SHA512: 578708f182ce461a1dd44e7e30111145e9dabbe08eb3a911d15de07c958427fd1b83e2ab3ced1f42e052424e1f27b70326cba9beab56c1a1044b9ba67c97c905
+Filename: ./libuno-salhelpergcc3-3t64_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 41516
+MD5sum: 3657b049ac907be2006656a94bf8385a
+SHA1: bbe550b1cafff2e8fef568117c5062d1c7f5aed7
+SHA256: 7e982e6050a090cae8909dee02955c405717aac3d5efdffc8e16acd1b81b675c
+SHA512: b57e84edb777a211b0c9fc378a36a70a06f5901e2aedc932dea25a1df673fb33c28282959a3fba9da86ca5054b279b0b3ea1c5a0ad18ae3c12e0b9566dcf6a37
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment -- SAL helpers for C++ library
  The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -56917,21 +56919,21 @@ Description: universal document viewer
 
 Package: open-vm-tools-desktop
 Architecture: amd64
-Version: 2:13.0.10-1.1
+Version: 2:13.0.10-1.1+b1
 Priority: optional
 Section: admin
-Source: open-vm-tools
+Source: open-vm-tools (2:13.0.10-1.1)
 Maintainer: Bernd Zeimetz <bzed@debian.org>
-Installed-Size: 549
-Depends: systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libatkmm-1.6-1v5 (>= 2.28.5), libc6 (>= 2.38), libcairomm-1.0-1v5 (>= 1.14.6), libdrm2 (>= 2.4.3), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.16.0), libglibmm-2.4-1t64 (>= 2.66.9), libgtk-3-0t64 (>= 3.19.12), libgtkmm-3.0-1t64 (>= 3.24.11), libice6 (>= 1:1.0.0), libsigc++-2.0-0v5 (>= 2.8.0), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libtirpc3t64 (>= 1.0.2), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxext6, libxi6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), libxtst6 (>= 2:1.2.5), open-vm-tools (= 2:13.0.10-1.1), fuse3, kmod
+Installed-Size: 550
+Depends: libatkmm-1.6-1v5 (>= 2.28.5), libc6 (>= 2.38), libcairomm-1.0-1v5 (>= 1.14.6), libdrm2 (>= 2.4.3), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.16.0), libglibmm-2.4-1t64 (>= 2.66.10), libgtk-3-0t64 (>= 3.19.12), libgtkmm-3.0-1t64 (>= 3.24.11), libice6 (>= 1:1.0.0), libsigc++-2.0-0v5 (>= 2.8.0), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libtirpc3t64 (>= 1.0.2), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxext6, libxi6, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), libxtst6 (>= 2:1.2.6), open-vm-tools (= 2:13.0.10-1.1+b1), fuse3, kmod
 Recommends: xauth, xserver-xorg-video-vmware
 Suggests: xdg-utils
-Filename: ./open-vm-tools-desktop_2%3a13.0.10-1.1_amd64.deb
-Size: 157772
-MD5sum: 8b595ceab81005ce95c7993d082db5db
-SHA1: eeb468da1217c4f4c1065c577aa251f27d4b4ce1
-SHA256: c13df9430c952e89f3c78c92ccaa4fb8755e025b35d6520a0c92d2297e682cb9
-SHA512: b8dbb5095c441e7a535a45034a98de120b49bebd5237419244bb287a6738cf6697798793a5072eddcf2fcd250c8a46806809592c7214537b026e4970ee94ef8b
+Filename: ./open-vm-tools-desktop_2%3a13.0.10-1.1+b1_amd64.deb
+Size: 157816
+MD5sum: 1ece6c0f597a3cfcefcd3f2c4360e7a8
+SHA1: 57085d0690100d0080671a7436892373d4fc6527
+SHA256: fe7690ccdc3e2fb234f2dc183dc360524e663b5e21481dde317a9c142bbd4101
+SHA512: 817830d55212a69d0f89aaf8f4c93b0f3b1a20344a5957ad831cdae61bb059d75e6ddd376dbf3595d2e4d274730b25265503241ea524289e4995ec9657886c03
 Homepage: https://github.com/vmware/open-vm-tools
 Description: Open VMware Tools for virtual machines hosted on VMware (GUI)
  The Open Virtual Machine Tools (open-vm-tools) project is an open source
@@ -61440,20 +61442,20 @@ Description: Support for icon themes (QML module)
 
 Package: qml6-module-org-kde-kcmutils
 Architecture: amd64
-Version: 6.30.0-1+b1
+Version: 6.32.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
-Source: kf6-kcmutils (6.30.0-1)
+Source: kf6-kcmutils
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 556
-Depends: qml6-module-org-kde-config, qml6-module-org-kde-kirigami, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6itemviews6 (>= 6.30.0~), libkf6kcmutilscore6 (>= 6.0.0), libkf6kcmutilsquick6 (>= 6.0.0), libkf6kiogui6 (>= 6.30.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.9.0~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.11.2)
-Filename: ./qml6-module-org-kde-kcmutils_6.30.0-1+b1_amd64.deb
-Size: 109044
-MD5sum: 59750de39ac575095d830da733fe9f2d
-SHA1: cb6ec5c4ef69d60af6846acff3c9232006a37813
-SHA256: 575336f7b7367f4edb1e362dd226a670d42ecc982edf33c0828cfd2552d387c7
-SHA512: aab9feb075e8c900a9fe9a3678b6611ab43100bc621fed9dfc092e289e562bbc7e66d365111371e2199ab80782587785cac89d689aea358ac7baac2b3b3ee6fd
+Installed-Size: 512
+Depends: qml6-module-org-kde-config, qml6-module-org-kde-kirigami, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6itemviews6 (>= 6.32.0~), libkf6kcmutilscore6 (>= 6.0.0), libkf6kcmutilsquick6 (>= 6.0.0), libkf6kiogui6 (>= 6.32.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.11.2)
+Filename: ./qml6-module-org-kde-kcmutils_6.32.0-2_amd64.deb
+Size: 102024
+MD5sum: 21b51f858c4182e72d082868b86eed4b
+SHA1: cc1091245bada146b61a3eb47fe59250e8e5d39d
+SHA256: 7724b48a1018a1b9269189c09c952b865e04c3034eba294cbeb5eba34fa07138
+SHA512: b4fd267a18af3ff2f1921fc4d231c7f4f73085b02d5efae5df9b711169dce3bed8ac6c905f607269c45fd3e1c93771b3b3c357a74b2be3cdedde7dfc16817c4f
 Homepage: https://invent.kde.org/frameworks/kcmutils
 Description: Extra APIs to write KConfig modules
  KCMUtils provides various classes to work with KCModules. KCModules can be
@@ -63845,20 +63847,20 @@ Description: DBus service for configuring kerberos and other online identities
 
 Package: remmina-common
 Architecture: all
-Version: 1.4.43+dfsg-1
+Version: 1.4.44+dfsg-1
 Multi-Arch: foreign
 Priority: optional
 Section: x11
 Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 4840
+Installed-Size: 5112
 Recommends: remmina
-Filename: ./remmina-common_1.4.43+dfsg-1_all.deb
-Size: 784340
-MD5sum: c419a740c27d2fb0d1212fa1c46e3624
-SHA1: 1f53c0bece62e84145de40ba24397a32d127cff1
-SHA256: e258b22d076f2ef553cced4f4c6d2f2ce1b2bd11735a486a8c78478ba3ed0740
-SHA512: 60cd6a797a927c841d11afa608c12cddb4ea7b87f03a58c14fb79ae8beca4796d22c4d1c9ae4d71502b4cf78bde0d1b7bffe9683bb28a7a13183e7e0a9a1ea0a
+Filename: ./remmina-common_1.4.44+dfsg-1_all.deb
+Size: 815116
+MD5sum: 80c7573ca6230b35ca264e85dc91ff18
+SHA1: 5d3a23e81b11ec4727f6cfb4d750949eaff18961
+SHA256: a19aab8fa067ff62ed46281a1650aa8862657c7e4d9fa67db2e82b98e2cba32d
+SHA512: 7fb69ffd99db12eb3a94977daaac160468e43eaa52fce12924bf516bbc2c4401118402ed712b4d22d190bb284153bcdc71fa8d952478a376aff8ff55a67b0ca5
 Homepage: https://www.remmina.org/
 Description: Common files for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -63875,20 +63877,20 @@ Description: Common files for Remmina
 
 Package: remmina-plugin-rdp
 Architecture: amd64
-Version: 1.4.43+dfsg-1+b1
+Version: 1.4.44+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.43+dfsg-1)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 171
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libwinpr3-3 (>= 3.17.0), remmina (= 1.4.43+dfsg-1+b1)
-Filename: ./remmina-plugin-rdp_1.4.43+dfsg-1+b1_amd64.deb
-Size: 56916
-MD5sum: 9247d5edd6490f43df65b2369e2b54a3
-SHA1: bbcc4c553d18e2617f0e538de7055a31d09da469
-SHA256: 2af7f4c309777b158d468761d97e250a7457abfdee3fdbc4444505d3d90458d6
-SHA512: 4476ad3337858fb401d310ddc337fd8720eeb15835cd45c02dc88505b3e08387eb5777e21c52348067393332bf17a7fa6064c3ad3845c85bcc5cf0907d8959ad
+Installed-Size: 208
+Depends: remmina (= 1.4.44+dfsg-1), libc6 (>= 2.38), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.6.0), libfreerdp-client3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.11.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.19.12), libsso-mib0 (>= 0.5.0), libwebkit2gtk-4.1-0 (>= 2.19.1), libwinpr3-3 (>= 3.17.0)
+Filename: ./remmina-plugin-rdp_1.4.44+dfsg-1_amd64.deb
+Size: 70132
+MD5sum: f7bb581efa945c1a65fe5aa72abe92dd
+SHA1: f8dfc72ef54315278e82c9e8efcd8173c36beaf1
+SHA256: 5909bd9124a54f6f1cf6ad4e1f253898d5cf9b8b75bdbb582f5a0b0a77d5e5ae
+SHA512: f69ab114e061a64606c7bb5d5d7f47a3a08ef93245d45b0bfa5942b6b22766cd531177d36152a9a73761c9342224ac6d0444f7ae5fec98dd7c0610a38f4c7457
 Homepage: https://www.remmina.org/
 Description: RDP plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -63905,22 +63907,22 @@ Description: RDP plugin for Remmina
 
 Package: remmina-plugin-secret
 Architecture: amd64
-Version: 1.4.43+dfsg-1+b1
+Version: 1.4.44+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.43+dfsg-1)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 36
-Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), remmina (= 1.4.43+dfsg-1+b1)
+Installed-Size: 45
+Depends: remmina (= 1.4.44+dfsg-1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7)
 Breaks: remmina-plugin-gnome
 Replaces: remmina-plugin-gnome
-Filename: ./remmina-plugin-secret_1.4.43+dfsg-1+b1_amd64.deb
-Size: 12384
-MD5sum: 3d63cc52f07a1c71d21c807e82c72e74
-SHA1: 294dc30da3f0ce19a47d8ee1604d0bec5ab58a7b
-SHA256: d04b58f4287e34279aa186ced0c4508560fbd03efad90922416d71caa59593e9
-SHA512: 0287561ed5ff1527fcc4263286f8ab102f22c0900cab25f6d1ee3660a2fdae6ee38ba82226dfe06ef866fceed8e8e5d1cb8321aca9cbe8023f20781b511f10be
+Filename: ./remmina-plugin-secret_1.4.44+dfsg-1_amd64.deb
+Size: 14420
+MD5sum: b16c499c037c61c90d4cc024b08619f6
+SHA1: 43e75803d6e732028ca0fe8f706f74990f84743b
+SHA256: 66900b337dd9fa26a887340ff5e639b15be74b6baa5bbef3acbfa9bba9216e98
+SHA512: c9af855718c6e5b269c166fb955c835b84e2243f684b446a9f3da146eb8e0077356506b358129a09f8ff6809396321fe785c2d9db8976f0020fc3625f80b26d9
 Homepage: https://www.remmina.org/
 Description: Secret plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -63939,20 +63941,20 @@ Description: Secret plugin for Remmina
 
 Package: remmina-plugin-vnc
 Architecture: amd64
-Version: 1.4.43+dfsg-1+b1
+Version: 1.4.44+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: x11
-Source: remmina (1.4.43+dfsg-1)
+Source: remmina
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 73
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.26.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14), remmina (= 1.4.43+dfsg-1+b1)
-Filename: ./remmina-plugin-vnc_1.4.43+dfsg-1+b1_amd64.deb
-Size: 26664
-MD5sum: 0effbea9df630078a28c0ce17bf8cce7
-SHA1: 947b5d6837c05f9aac3b3fe5958b7ed996572d1b
-SHA256: 0566a02175ad5fc83310bc50582bfdd52e2a4307296e7469b897a94cca0dddcf
-SHA512: a9a3a1b9b697ea4a6d2a7d8a278a37e5927b769d32ac16729cda1f19e7891c7f2cdf69205a4ce590c5f0782820cbc61e58d341805a52b53cfb61902113c9991b
+Installed-Size: 86
+Depends: remmina (= 1.4.44+dfsg-1), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.9.12), libvncclient1 (>= 0.9.14)
+Filename: ./remmina-plugin-vnc_1.4.44+dfsg-1_amd64.deb
+Size: 29724
+MD5sum: 63543063dcd717e2a5a77d0af2aa1dc5
+SHA1: 595b9e96b880a8fffd26a7498839b3599dc9fa51
+SHA256: da1a8e3c4f9bb417d5f494571256c10af2d4ab02ba71b95e2f16fbc326338ab2
+SHA512: ff4f70a00c1a4f4a0f09fcf33513874abdc85c5d42b91844d2d30cbfbbafb9deadb1a4dfa3749d30ffc9991b691940a626c3f41878043bf641cec231a350bb7f
 Homepage: https://www.remmina.org/
 Description: VNC plugin for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
@@ -71783,21 +71785,21 @@ Description: LibreOffice UNO runtime environment -- Java support
 
 Package: ure
 Architecture: amd64
-Version: 4:26.8.2.2-2
+Version: 4:26.8.3.1-3+b1
 Priority: optional
 Section: libs
-Source: libreoffice
+Source: libreoffice (4:26.8.3.1-3)
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
-Installed-Size: 4408
-Depends: uno-libs-private (= 4:26.8.2.2-2), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libicu78 (>= 78.1-1~), liblangtag1 (>= 0.4.0), libreoffice-sal-private-abi (= 26.8.2), libstdc++6 (>= 14), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha), libuno-purpenvhelpergcc3-3t64 (>= 3.6), libuno-sal3t64 (>= 6.4.0~beta), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libxml2-16 (>= 2.14.3+dfsg-0exp3)
+Installed-Size: 4414
+Depends: uno-libs-private (= 4:26.8.3.1-3+b1), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libicu78 (>= 78.1-1~), liblangtag1 (>= 0.4.0), libreoffice-sal-private-abi (= 26.8.3), libstdc++6 (>= 14), libuno-cppu3t64 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha), libuno-purpenvhelpergcc3-3t64 (>= 3.6), libuno-sal3t64 (>= 6.4.0~beta), libuno-salhelpergcc3-3t64 (>= 3.6.0~beta), libxml2-16 (>= 2.14.3+dfsg-0exp3)
 Breaks: libjuh-java (<< 1:6.4.0~rc1-6), libjurt-java (<< 1:6.4.0~rc1-6), libreoffice-common (<< 1:4.5.0), libreoffice-core (<< 1:7.4.0~), libreoffice-core-nogui (<< 1:7.4.0~), libridl-java (<< 1:6.4.0~rc1-6), libunoloader-java (<< 1:6.4.0~rc1-6), ure-java (<< 1:7.1.1~rc2-1)
 Replaces: libjuh-java (<< 1:6.4.0~rc1-6), libjurt-java (<< 1:6.4.0~rc1-6), libreoffice-common (<< 1:4.5.0), libreoffice-core (<< 1:5.3.0~beta1~), libridl-java (<< 1:6.4.0~rc1-6), libunoloader-java (<< 1:6.4.0~rc1-6), ure-java (<< 1:7.1.1~rc2-1)
-Filename: ./ure_4%3a26.8.2.2-2_amd64.deb
-Size: 1290560
-MD5sum: f10745f36aadf0b0ce36952b610ed18c
-SHA1: a1d2bd5d02886b741a0f9fe84b7f2562ec23a14a
-SHA256: 2e9d9a55064cf26f23bda8aab9165613b21abfeadfa65c000d2402893775d425
-SHA512: 3ca6c73f3f365ef6e77f9993babd30bd55a3a6fb2002450b358e8ce81e451d6a8db3f3da2664efe66700a7bb48155fd82a9002648049fad3d38544a67d85535d
+Filename: ./ure_4%3a26.8.3.1-3+b1_amd64.deb
+Size: 1292868
+MD5sum: 70866865e9c98c4b7e4ceb9ce3545131
+SHA1: d695fa6856e0909defbca99f15372855bdda3602
+SHA256: 2a788d58df529f148903e93b68ba78434c42841ba81f5906d0b3f717c3d5ab40
+SHA512: 0eb20c4a929c1b34ee678afe8f8c7cb71934e623602e0704e0379f105b7bc8fba15dce66acc2421d45f00c4374105bb662181441bc8478d762e1f0f58d4966ef
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment
  The Uno Runtime Environment (URE) is the well-known UNO component model
