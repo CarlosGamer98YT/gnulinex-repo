@@ -40876,21 +40876,21 @@ Description: office productivity suite -- GTK 4 integration
 
 Package: libreoffice-h2orestart
 Architecture: all
-Version: 0.8.0-1
+Version: 0.8.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: text
 Source: h2orestart
 Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
-Installed-Size: 667
+Installed-Size: 672
 Depends: default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre, liblibreoffice-java, libreoffice-core, libreoffice-java-common
 Enhances: libreoffice-writer
-Filename: ./libreoffice-h2orestart_0.8.0-1_all.deb
-Size: 590652
-MD5sum: b608468900bdf338b4c30148804f0a77
-SHA1: 4c9ec79ceb55f7504e487736a09356f1fc44203c
-SHA256: e510834d73151c11bc061093294c8179773c8cc33879c25ba286325d534b02dc
-SHA512: 7de4153870cfb5458a4bac3c804e7e81d474a3459354bb174dce4a2cdcb633ebd69ca354d42059d8ae2f21ba4b50425d462c9147c4c56d9ba44f61fa3677bd61
+Filename: ./libreoffice-h2orestart_0.8.1-1_all.deb
+Size: 595968
+MD5sum: 68e719d72822ff1e6aa0dc29a8b996fe
+SHA1: d2e00b6827bc408d3658024fa5cc07fc9cb252f9
+SHA256: 918f6dec6ebd72b612f8c61412f0cc01f8c713151e0701bd706e2626f03e1455
+SHA512: ae61bf73c2b49967a552e3d1f00a0396a71326513498eab71b75c081e3bddd8e3d9f559753c7125147fc156c36f40361da0186133cf8ad0dbaad0cb80c8c3340
 Homepage: https://github.com/ebandal/H2Orestart
 Description: LibreOffice import filter for Hancom HWP/HWPX document
  This enhances LibreOffice Writer to read Hancom Office documents, as known as
@@ -50681,23 +50681,23 @@ Description: library for converting fonts to WOFF 2.0
 
 Package: libwxbase3.2-1t64
 Architecture: amd64
-Version: 3.2.11+dfsg1-2
+Version: 3.2.12+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
-Installed-Size: 4012
-Provides: libwxbase3.2-1 (= 3.2.11+dfsg1-2)
+Installed-Size: 4016
+Provides: libwxbase3.2-1 (= 3.2.12+dfsg-1)
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), liblzma5 (>= 5.1.1alpha+20120614), libpcre2-32-0 (>= 10.47), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)
-Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.11+dfsg1-2)
+Breaks: libwxbase3.2-0, libwxbase3.2-1 (<< 3.2.12+dfsg-1)
 Replaces: libwxbase3.2-0, libwxbase3.2-1
-Filename: ./libwxbase3.2-1t64_3.2.11+dfsg1-2_amd64.deb
-Size: 1201368
-MD5sum: 352860d217204523b1561d20dea0814c
-SHA1: 5454bb695812f09698a35f84b2e253b9e70f2d2e
-SHA256: 5665b9a86c8a0515999f4108777375c33142a45e66bf915e50cba475452e54c4
-SHA512: 1d0eac05f2d8bc7a8a6885c4d85fbc0433f5e6caadb55b01c6151a15a90530d8fff185c8cb0947c7f23455da85ad5fc5aec0ca2c1deb3fdc01ca7d33c1ef92c9
+Filename: ./libwxbase3.2-1t64_3.2.12+dfsg-1_amd64.deb
+Size: 1203432
+MD5sum: 7c3da4e6a4544023ec0128d695346bb7
+SHA1: fc01ae93399e6a51c5a88af0c7cccc76b21be9eb
+SHA256: e5ab632ff4e4acc4bf3e3db84c3abb1ec77f9ead4e8f4586783b3d1be3e010ca
+SHA512: 67c604093854848adc462018287a3af7608e676c62dcde5f9fd4b17054adfc34724155b08db06422a27790b608b9cb7ee3d3aa355080278571cf933c196218c5
 Homepage: https://www.wxwidgets.org/
 Description: wxBase library (runtime) - non-GUI support classes of wxWidgets toolkit
  wxBase is a collection of C++ classes providing basic data structures
@@ -50715,23 +50715,23 @@ Description: wxBase library (runtime) - non-GUI support classes of wxWidgets too
 
 Package: libwxgtk3.2-1t64
 Architecture: amd64
-Version: 3.2.11+dfsg1-2
+Version: 3.2.12+dfsg-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: wxwidgets3.2
 Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
 Installed-Size: 20140
-Provides: libwxgtk3.2-1 (= 3.2.11+dfsg1-2)
-Depends: libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.22.25), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.11+dfsg1), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.5), libxxf86vm1 (>= 1:1.1.4)
-Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.11+dfsg1-2)
+Provides: libwxgtk3.2-1 (= 3.2.12+dfsg-1)
+Depends: libc6 (>= 2.43), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.24.22), libjpeg62-turbo (>= 1.3.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpng16-16t64 (>= 1.6.46), libsdl2-2.0-0 (>= 2.0.12), libsm6 (>= 2:1.2.6), libstdc++6 (>= 14), libtiff6 (>= 4.0.3), libwxbase3.2-1t64 (>= 3.2.12+dfsg), libx11-6, libxkbcommon0 (>= 0.5.0), libxtst6 (>= 2:1.2.6), libxxf86vm1 (>= 1:1.1.4)
+Breaks: libwxgtk3.2-0, libwxgtk3.2-1 (<< 3.2.12+dfsg-1)
 Replaces: libwxgtk3.2-0, libwxgtk3.2-1
-Filename: ./libwxgtk3.2-1t64_3.2.11+dfsg1-2_amd64.deb
-Size: 5219076
-MD5sum: 7f471f93c3dba3559db1455414698142
-SHA1: 58e701ed85a3de48b93d40d7e8beac1000f18cb0
-SHA256: 170295b4efb51e3657bf83a021a387de2b554860facddd367dd3cff260f399f7
-SHA512: 7cfaf2056414099b2a02991b6b879008b0cba6cbfe198e01852010c2a104100300274c32f653602ac189c77a00598cd5e86625e2d3a343529a8485517ef1f4ac
+Filename: ./libwxgtk3.2-1t64_3.2.12+dfsg-1_amd64.deb
+Size: 5225620
+MD5sum: b7b97748182ce4b43d92e6b6876899d6
+SHA1: 2e5c958225714983c53bd4ab63843604cf0d38f4
+SHA256: b4fadf328846361b097807b183f5f9d2b2cfdbe67ae7299b88bd3c00afe0e2d4
+SHA512: 2d3a2218f1672fdb89093788c123e3240d6a300c7273570799b9d265b6e36b48087bcd141b6f36483d4f2ab5e555957399e1f1578da5e52b5b6ca598c994c5d4
 Homepage: https://www.wxwidgets.org/
 Description: wxWidgets Cross-platform C++ GUI toolkit (GTK 3 runtime)
  wxWidgets (formerly known as wxWindows) is a class library for C++ providing
@@ -72734,19 +72734,19 @@ Description: D-Bus session bus service to support the XApp library
 
 Package: xapp-symbolic-icons
 Architecture: all
-Version: 1.1.0-1
+Version: 1.1.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: gnome
 Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
-Installed-Size: 1366
+Installed-Size: 1370
 Depends: gtk-update-icon-cache, hicolor-icon-theme, python3:any
-Filename: ./xapp-symbolic-icons_1.1.0-1_all.deb
-Size: 148564
-MD5sum: 4bc9281bdb3ad9ee82a7f381624cb1c6
-SHA1: 684b0a2d129618ffb3ef52dec4912a63170c97a0
-SHA256: a11be1b97ec9e2f7c61241b0d20bfa8c9e0d4b038d6102062ccb3644089a13a6
-SHA512: be112f6014e0f94358d9226f15303ed747846a0d2abb8d5ce765a17df5ed8b5ad090e6c92e7e264b785b500233f5cbefd8f349cab258313b01daf7e4fe2a833f
+Filename: ./xapp-symbolic-icons_1.1.2-1_all.deb
+Size: 149132
+MD5sum: cde3181af66e1a391ac3e789bc1aa239
+SHA1: 0c061d03b2b6be46c9ded68b90e47b5cdd1f1848
+SHA256: af8bd7ec1a077c39e0a4f611c5715a896605a9341deed9e13a5eec40c6e80146
+SHA512: f6b1fb63bd9862f96cdbdda315c7081dd1a3c59acabf2febfc57fe4fb172a347018642e14a24fa4cb31bca0eb0f9b50c21643ce87daae001fa840848bfeb1d20
 Homepage: https://github.com/xapp-project/xapp-symbolic-icons
 Description: Set of symbolic icons for GTK applications
  This package contains a set of symbolic icons which replaces the GNOME-specific
