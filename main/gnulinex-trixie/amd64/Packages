@@ -661,40 +661,40 @@ Commands: aspell, aspell-import, precat, preunzip, prezip, prezip-bin, run-with-
 
 Package: at-spi2-common
 Architecture: all
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 1377
+Installed-Size: 1380
 Breaks: at-spi2-core (<< 2.46.0-2~)
 Replaces: at-spi2-core (<< 2.46.0-2~)
-Filename: ./at-spi2-common_2.62.1-1_all.deb
-Size: 171424
-MD5sum: 6c1647c9d7188697e85da8266f3877d1
-SHA1: 9a0779bdec93fdf934904e062bc59a074eb38b5b
-SHA256: 16bde0f42dbc3d93191c85ae58195fc5a40c6a81bad94840f985e21787ae7ca7
-SHA512: 13d2de53beae88ed6e7dde7453072a0735587c2e488944679d84eed9ff9378311eb1e7c7e6c6d8df6ec960094c7ec6de0357808c5a23859ea40cb27a7ebd546d
+Filename: ./at-spi2-common_2.62.2-1_all.deb
+Size: 171772
+MD5sum: d159083c16e6425b41807a855396a2d3
+SHA1: 6b5d4cd911d5add734853dab78d41392b707f087
+SHA256: 220d4c3c838a803404cf2eac36ce82c02eed9829b29094511a9108eaaa95c744
+SHA512: 3f2982e696f65c756ba2de92e247f341fff85f861720e150edb2764e7463acdb6de10d1294eb4e0375147ba3632b5340604b3a9ac7530273c41f2cf1e1b1635d
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
 Package: at-spi2-core
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: foreign
 Priority: optional
 Section: misc
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 223
-Depends: libatspi2.0-0t64 (= 2.62.1-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.5), at-spi2-common, gsettings-desktop-schemas
-Filename: ./at-spi2-core_2.62.1-1_amd64.deb
-Size: 64088
-MD5sum: 9e25f1324f3bcd1f150a156ba738a8a0
-SHA1: ec2902e2277369c707b9f5cb20d6de696d6f7b91
-SHA256: fc76ba935a59b071ab806e7a1ca3c83f74c399709f94291d5ec8472caab63bb9
-SHA512: 2eb853514892976db3b49264b1223331438b20608220fdd08fe25116732a065e90bbdb0eec638724a9518e9178609b8233063df2acfd38275c7522bde5ec6e48
+Depends: libatspi2.0-0t64 (= 2.62.2-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libsystemd0, libx11-6, libxtst6 (>= 2:1.2.6), at-spi2-common, gsettings-desktop-schemas
+Filename: ./at-spi2-core_2.62.2-1_amd64.deb
+Size: 64144
+MD5sum: d6fd420ae6a650f82b007fedf9a486a1
+SHA1: 0792fc714c2d1eda29ed204ee172b3d8e91614bc
+SHA256: 42af76102b7d34f49815e52bf9032551df1ae3611f3c5fb2940d13c075e6ea56
+SHA512: 3b34a8508dba3a41a4483d90de3d77d555782c5ba131876654fd9c165414b397c54cf431404f342b4757a476a3e12fe25c4bf3b1d98b517e264e8620c28e72b3
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface (D-Bus core)
  This package contains the core components of GNOME Accessibility.
@@ -7112,20 +7112,20 @@ Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
 
 Package: gir1.2-atk-1.0
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 101
-Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.62.1-1)
-Filename: ./gir1.2-atk-1.0_2.62.1-1_amd64.deb
-Size: 23568
-MD5sum: 0fa0b6c3e0ca14bec05e5f24b1cec924
-SHA1: d2376e4dec9bfb564174410b820326f8aa1c2825
-SHA256: 21441ac1937576c3ad9d1a028dbc015760d4dfb321ef300c9eb4f359224151bb
-SHA512: 88ad15234d751c16cd10186193fb40da084e887f375fcd33fa26411ebe0a0deddf4ebeb2c26a51bca228b27c05b54b5e520c022616690e313765aded5abf2fec
+Depends: gir1.2-gobject-2.0, libatk1.0-0t64 (= 2.62.2-1)
+Filename: ./gir1.2-atk-1.0_2.62.2-1_amd64.deb
+Size: 23592
+MD5sum: 2239e6c353ad6ea4a825c69a0eaf1ca9
+SHA1: b721f5dd44b9e520745dccb6653ce15715746790
+SHA256: 32ef9d83d0c1452b0cb8ac33793a212c395eb25128e918cd0bf0a0b8059afbf1
+SHA512: 7621d825d5ab9e4fa7a639d40d99503b3e2c37b86eaa092b21f49059984455e9251e422e8b9311022356c256d24916639d7497d0d550042691b6e2ee1e78d0e4
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit (GObject introspection)
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -7138,22 +7138,22 @@ Description: ATK accessibility toolkit (GObject introspection)
 
 Package: gir1.2-atspi-2.0
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: introspection
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 97
-Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.62.1-1), python3:any
+Depends: gir1.2-dbus-1.0, gir1.2-glib-2.0, gir1.2-gobject-2.0, libatspi2.0-0t64 (= 2.62.2-1), python3:any
 Breaks: python3-pyatspi (<< 2.57.0-1)
 Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
-Filename: ./gir1.2-atspi-2.0_2.62.1-1_amd64.deb
-Size: 23404
-MD5sum: 844efda0d4e11026d69c00ace836ee1c
-SHA1: 1612bf9d8b0d1c5998969ec7336db8f4c93e1df9
-SHA256: 8a19150d2ff595a0ba90307fe972ba31219f810a6ec063283aa8fc51d6030455
-SHA512: a2428596e1cf96cb35143a827d1093d2512c5c0a6b431d155bbc06d4e4c478b18ad85ae9a1afcf77e41ff4874eef915b027164171c3bb80d3a3135d67cde8e29
+Filename: ./gir1.2-atspi-2.0_2.62.2-1_amd64.deb
+Size: 23388
+MD5sum: 2a0b33b7510caf92110566835073dbc0
+SHA1: a8df42fcabfeb1f079fcc6ac6d3bf45df9fbc0d7
+SHA256: d7d157ed8e0b1a20ae1906a101833f14c53905e3de5bd966eeb9bc29984a273d
+SHA512: 16160c7a7cfd42b0a46606344e6d58065b4b0039bc9ce0a9d84987225d6603bd87b26c1b713073818eeaa241bb08cb5e95f0b9e0b02aa9fd84fc97036cb94b3d
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider (GObject introspection)
  This package can be used by other packages using the GIRepository format to
@@ -15939,7 +15939,7 @@ Description: GNU Aspell spell-checker runtime library
 
 Package: libatk-adaptor
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: misc
@@ -15947,15 +15947,15 @@ Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 57
 Provides: at-spi
-Depends: libatk-bridge2.0-0t64 (= 2.62.1-1), libglib2.0-0t64 (>= 2.62)
+Depends: libatk-bridge2.0-0t64 (= 2.62.2-1), libglib2.0-0t64 (>= 2.62)
 Conflicts: at-spi
 Replaces: at-spi
-Filename: ./libatk-adaptor_2.62.1-1_amd64.deb
-Size: 9208
-MD5sum: 341160781c43de4288a26ba2b09f723d
-SHA1: 8227fe4042c305a325a2ed15497b57fd9dcac310
-SHA256: d8d3d3232a9a06d9a2a3ef5c4cbcbb2cb11a6b60f5ea1e86da9f2aeeb19d6832
-SHA512: 0370c9e035775afd2723d02b1fb74a542ea7a3e91763c0cc0da7d3d42d3cbe0d597df35e2ece7b6fd8fbb051254eddde02ab9f98e8dbd1b16f6b44dbce803101
+Filename: ./libatk-adaptor_2.62.2-1_amd64.deb
+Size: 9216
+MD5sum: b2d8796ef46cf51cb3819e92f30d513d
+SHA1: 8bcbb38a467be0eea6812d6c48c98736743d1f33
+SHA256: a5b4340619cc34b01eb1a5f141774e10a721f511891a6ee1268874696c8cdbd8
+SHA512: 73e007eb752689a83c307d2ea29153436a48d84453c8c0d0f8c0e1ca5e5318f7834e9dadd3eadf57fa094a881e5a2091e9729002930fc84a005507df7c36ce52
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge
  This package includes a gtk-module that bridges ATK to the new
@@ -15963,43 +15963,43 @@ Description: AT-SPI 2 toolkit bridge
 
 Package: libatk-bridge2.0-0t64
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 288
-Provides: libatk-bridge2.0-0 (= 2.62.1-1)
-Depends: libatk1.0-0t64 (= 2.62.1-1), libatspi2.0-0t64 (= 2.62.1-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
-Breaks: libatk-bridge2.0-0 (<< 2.62.1-1)
+Provides: libatk-bridge2.0-0 (= 2.62.2-1)
+Depends: libatk1.0-0t64 (= 2.62.2-1), libatspi2.0-0t64 (= 2.62.2-1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0)
+Breaks: libatk-bridge2.0-0 (<< 2.62.2-1)
 Replaces: libatk-bridge2.0-0
-Filename: ./libatk-bridge2.0-0t64_2.62.1-1_amd64.deb
-Size: 69152
-MD5sum: d7cc2a86225fae74f647603cc7e64f2b
-SHA1: 23dc47703809bf1d4795d9d1f1056f854146e6f1
-SHA256: 3b1f3c2f55e5f46e6eb38d3303e135f6e5976190da332bb4a7679fd1b57415f8
-SHA512: e975d0ca6731b3ffd755c0bb3f0cbf5c764fd3b2de2bee15080e0bee1e395599bd917a3db51e796ad16e8924fd63670bb0a8a7259a86dfb6c44bba6d3ed52732
+Filename: ./libatk-bridge2.0-0t64_2.62.2-1_amd64.deb
+Size: 69260
+MD5sum: b883ef360d71c12d6973b157e0cfd776
+SHA1: 509587e2615bed9316ca5e78ad7b62075113dcce
+SHA256: 39f596e9ec68ed00f5c7685cfac6d51bb724bce7441df3c0808d05b54d9c93f3
+SHA512: d4eebe524efe7065ca00a6270ea363521a3b0bea99547dfe75a6af56b84d6dbd0db39b2fd654b0ddbb9fac191b40f56bfe45809250f624b681b859c53b4d787d
 Homepage: https://wiki.gnome.org/Accessibility
 Description: AT-SPI 2 toolkit bridge - shared library
  This package contains the ATK bridge shared library.
 
 Package: libatk-bridge2.0-dev
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 33
-Depends: libatk-bridge2.0-0t64 (= 2.62.1-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.62.1-1)
-Filename: ./libatk-bridge2.0-dev_2.62.1-1_amd64.deb
-Size: 7744
-MD5sum: 2c11f3d800e726c2a101ff73522607ed
-SHA1: 0fbe7f390c917cc3442f0947103ef6822f1d2f60
-SHA256: c30f5ead3ffa855c38100072dee6f4bc24d30ee409debe40de35637d5b4190c4
-SHA512: f6a7776f34c0f89a2801ac112cb209553a92cc9ac466293427df9b669839723b64dcdac53ec2bf082ad1585a6d8bf906e382b5a8d84e5d4b53905cc02bf7b5aa
+Depends: libatk-bridge2.0-0t64 (= 2.62.2-1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.62.2-1)
+Filename: ./libatk-bridge2.0-dev_2.62.2-1_amd64.deb
+Size: 7752
+MD5sum: 567a271c3a844daf9b92f6bad8df717e
+SHA1: ecf292adfb854bf55d4a4ff8fd48c5d78dbb8f33
+SHA256: 4c0b2768cf57ea0825b4120a24e2e7ea1195887854ba33e19c1aab5813ebd278
+SHA512: 52ef04ea22e5dbdaf904f00f4b30ed12db6c26f72ce9f455d91e553c4b3005c07594252b31141e633de8ce78545b2dc5e118406cca3063ced62ea330e22d2254
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the AT-SPI 2 toolkit bridge
  These are the development files for libatk-bridge2.0, needed for
@@ -16054,23 +16054,23 @@ Description: ATK implementation for Java using JNI
 
 Package: libatk1.0-0t64
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 209
-Provides: libatk1.0-0 (= 2.62.1-1)
+Provides: libatk1.0-0 (= 2.62.2-1)
 Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.80.0), at-spi2-common
-Breaks: libatk1.0-0 (<< 2.62.1-1)
+Breaks: libatk1.0-0 (<< 2.62.2-1)
 Replaces: libatk1.0-0
-Filename: ./libatk1.0-0t64_2.62.1-1_amd64.deb
-Size: 51736
-MD5sum: 2d9fb1b81de1b4f03fcc4fc22897ae17
-SHA1: 7eb60780045a974195bafd1fdd9cb38cabaecc7e
-SHA256: 39171e7a10f682c89a75063166cef295b82d606fed587a9dccf49f4373efed6f
-SHA512: 481db6503b55bd420a42d47c2e95a48fc253499fe711057621272e48c747d1c43f129728886c623c01902fee85f8b7e2fd43e85aff3a48f7a3c4c0d813310f85
+Filename: ./libatk1.0-0t64_2.62.2-1_amd64.deb
+Size: 51996
+MD5sum: db706d761619d993a8ec614c1fa3f924
+SHA1: 6a18e962d16e2ac8044675ec8ceeadf740c37e90
+SHA256: f15f7f9ab12c36d9668b6f98c87b1d1f4199cda49231767001e70358db697f54
+SHA512: 1bf33770317ef34b9fc564bd4274fb7bca9528f4edeb7ea2bb3217328be074f91133116d2f26c084d4c07c4d559b1919e791b33daa4a2e7967bf9896a2ff858c
 Homepage: https://wiki.gnome.org/Accessibility
 Description: ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -16082,22 +16082,22 @@ Description: ATK accessibility toolkit
 
 Package: libatk1.0-dev
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 1358
-Provides: gir1.2-atk-1.0-dev (= 2.62.1-1)
-Depends: gir1.2-atk-1.0 (= 2.62.1-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.62.1-1), pkgconf, libglib2.0-dev
+Provides: gir1.2-atk-1.0-dev (= 2.62.2-1)
+Depends: gir1.2-atk-1.0 (= 2.62.2-1), gir1.2-gobject-2.0-dev, libatk1.0-0t64 (= 2.62.2-1), pkgconf, libglib2.0-dev
 Replaces: gir-repository-dev
-Filename: ./libatk1.0-dev_2.62.1-1_amd64.deb
-Size: 103776
-MD5sum: b65dc56b89a5c17dd5747d240c2ba7b7
-SHA1: 9f293213822462444ca8c5fe5d6fbb6093c257f9
-SHA256: 534d14ef68cb7b9bda6297b48c70379ab30651de5d35d5231225c99cfc859d51
-SHA512: 6e00552d3d26bd9f3db8e5146453d17836e64965d5b83f4acd8af9b6f44d737442e5b2bb111f03555fba00deecb62ed50cabef8d94df9ea619004d3d672d8f2e
+Filename: ./libatk1.0-dev_2.62.2-1_amd64.deb
+Size: 103800
+MD5sum: 62ae3257bdcc6ed73073719baad76c8a
+SHA1: fbecc3e94f10c86fa6775454b653758a917f78d0
+SHA256: 4569e8575fcf6cd4a0c62afebaf4337fd299f9d7f51cd47c960a35f08d720d44
+SHA512: ec283475afaaba2cd8dab22a03425f29974bc690932a1f1c793364bb1104879a21fa78a5692d467084c97d552f8b306676a8ca162c3cebe1656ed4a68363fbfa
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the ATK accessibility toolkit
  ATK is a toolkit providing accessibility interfaces for applications or
@@ -16210,24 +16210,24 @@ Description: MATE document viewing library
 
 Package: libatspi2.0-0t64
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 298
-Provides: libatspi2.0-0 (= 2.62.1-1)
+Provides: libatspi2.0-0 (= 2.62.2-1)
 Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libglib2.0-0t64 (>= 2.80.0), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4), libxres1 (>= 2:1.2.1)
-Recommends: at-spi2-core (= 2.62.1-1)
-Breaks: libatspi2.0-0 (<< 2.62.1-1)
+Recommends: at-spi2-core (= 2.62.2-1)
+Breaks: libatspi2.0-0 (<< 2.62.2-1)
 Replaces: libatspi2.0-0
-Filename: ./libatspi2.0-0t64_2.62.1-1_amd64.deb
-Size: 86928
-MD5sum: bcf9cf4fede313102714199daf0c8654
-SHA1: cb087d1d86cf633dde942fc32bca89410f046a94
-SHA256: cb528d2a550b39d70c80f0410d5c5d0a9b17b0a32ec55708e1c6af8a3a9d275a
-SHA512: 1dc46050a53e34642ebf626555a1e592266f5bd9157f6cf09095618728f4354d2b3badf97252c0d77d4d0a927e524124e27b155409b5deb4e56305939cc92817
+Filename: ./libatspi2.0-0t64_2.62.2-1_amd64.deb
+Size: 87408
+MD5sum: f3c428f35dca13df8664f037f806a277
+SHA1: 930164f212822813e2d87c6b192d6897d080aac7
+SHA256: 18a1a9ea2918d867039350d53b83b7b6e2dfa0f2a1fe283719fff6c273519637
+SHA512: a58bb2b4f53e38f21ea2a5c5d8798c5670e30d1269008358b17452958a48e02d5917fb51cb7103d234e1b2a33d43c0addccf630f1b33f06c3e1a4b2df1961a35
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Assistive Technology Service Provider Interface - shared library
  This package contains the shared library for applications that wish to use
@@ -16235,22 +16235,22 @@ Description: Assistive Technology Service Provider Interface - shared library
 
 Package: libatspi2.0-dev
 Architecture: amd64
-Version: 2.62.1-1
+Version: 2.62.2-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: at-spi2-core
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 894
-Provides: gir1.2-atspi-2.0-dev (= 2.62.1-1)
-Depends: gir1.2-atspi-2.0 (= 2.62.1-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.62.1-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
+Provides: gir1.2-atspi-2.0-dev (= 2.62.2-1)
+Depends: gir1.2-atspi-2.0 (= 2.62.2-1), gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, libatspi2.0-0t64 (= 2.62.2-1), libglib2.0-dev, libdbus-1-dev, libxtst-dev, libxres-dev
 Replaces: gir-repository-dev
-Filename: ./libatspi2.0-dev_2.62.1-1_amd64.deb
-Size: 83152
-MD5sum: 59e4db0f3fd6b7dfc80c34baed58a27c
-SHA1: 8548e7d0c3791c0b9479d833f3ef8ffb11819b6a
-SHA256: 851d6e497ae0a7abb09b1daf77208ba8734d3b254a0fd9b4e0c29be684f70c7e
-SHA512: a6f4946e008b3a4ceb668c5a136246886acbc1d78463277c0f6c9891316c94f4fbc86c5069b8470ec178a7ed9eb42402ef18aa698e1ce662d58daf3ab587b929
+Filename: ./libatspi2.0-dev_2.62.2-1_amd64.deb
+Size: 83120
+MD5sum: e9ccac3f60847ca8eca7d2c9f372d355
+SHA1: bfb13e10c6be6ca5763c6b3137b9683cbbae5353
+SHA256: 9008433dd390bcbee444818aed32cb4c37918d49049b835617bd92500fbcbd95
+SHA512: e289be718ca5645f47ac2c7d2ba609dad4ff9e516d96dc0924370331f3e9a390d3ecd3c9416ac67f5333a0f596b956b0833ee4e197ed1d81998972b2b1fb19a5
 Homepage: https://wiki.gnome.org/Accessibility
 Description: Development files for the assistive technology service provider
  These are the development files for at-spi2, needed for compilation of
@@ -16682,20 +16682,20 @@ Description: Apache Batik SVG Toolkit (library)
 
 Package: libbatterycontrol6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 248
+Installed-Size: 249
 Depends: plasma-version-base-6.7, libc6 (>= 2.14), libkf6i18n6 (>= 6.26.0~), libkf6solid6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libbatterycontrol6_4%3a6.7.4-2_amd64.deb
-Size: 65684
-MD5sum: a409fc7074ba563e7d9c952836e127fc
-SHA1: 691f80635e095c204ec2942326196240848d2f1b
-SHA256: 0ae91e10e5e6efd8434f65386d350601b8c207be2505990d067a6da249738d59
-SHA512: 0fbb7e42f66112cdd49313813995c9f955f3582c31c1f60191e9f7090e7886a5689f2d23b972f1966b873b84b56427d6959c93dee6b7ed6ceda8b9378b989c7c
+Filename: ./libbatterycontrol6_4%3a6.7.4-3_amd64.deb
+Size: 65752
+MD5sum: 409b54b10be3ed5bde0683b963db4964
+SHA1: 3cdb19ffba6e0b6e014d1454c7f50f11ff3ae359
+SHA256: 8ed1e53135fa7328f67de1968f507f2ea2bb49838e773c17823f9d0a828cea1b
+SHA512: a50fd34a8d4412b797cb75eac993ffdbd2eb3e4624f80e66876995ecc8d17592af87b154eafec5930247499fbc99a72cf83d5227c06098a7ccc2c79aed460310
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace battery control library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -30261,20 +30261,20 @@ Description: User configurable main windows
 
 Package: libkfontinst6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 239
+Installed-Size: 240
 Depends: plasma-version-base-6.7, libc6 (>= 2.33), libfontconfig1 (>= 2.12.6), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./libkfontinst6_4%3a6.7.4-2_amd64.deb
-Size: 68588
-MD5sum: 3a9f412e30f43bd035146e18c935e1b1
-SHA1: 844f66df4981b4c4f04d33879b51832a0046021e
-SHA256: 4348868ebac643aed75d2e9147a3a0b8c46aa7281953f46f944930029b5dc38f
-SHA512: 8b27a33b1d2e9fd82fdab9a06a23ea9684fd8e95c7e1a6049a4f6a8715b2e9430edfe586df22078da3837265dd6ae81ba12c5daba6a3339aade5f1860b876466
+Filename: ./libkfontinst6_4%3a6.7.4-3_amd64.deb
+Size: 68440
+MD5sum: 2696e4c0af4807cab210e6bc3e4ea261
+SHA1: 55cde65ef179699a55a0b48e229d0a4cd2cdf180
+SHA256: 76ed1f17566225d7e71bd43378f956a458f5893ff017a4f617891f98017c3298
+SHA512: 202b9fde8525ecbf80b89bb829e4609691579d34ece91e7a291519229db3198ec7af57c66be79e2aca09050286744853c8d5203045daaa1fcdbd8fc8dd44b57f
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace fonts installation library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -30285,20 +30285,20 @@ Description: Plasma Workspace fonts installation library
 
 Package: libkfontinstui6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 181
+Installed-Size: 182
 Depends: plasma-version-base-6.7, libc6 (>= 2.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libkf6configcore6 (>= 6.0.0), libkf6i18n6 (>= 6.26.0~), libkfontinst6 (>= 4:6.1.4), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxft2 (>> 2.1.1), qt6-base-private-abi (= 6.11.2)
-Filename: ./libkfontinstui6_4%3a6.7.4-2_amd64.deb
-Size: 51492
-MD5sum: 1383834203940882ea52f51ab06837e1
-SHA1: 06a9e0459b5c109d9ca02e2a70870cf3394cbc37
-SHA256: cbacf0863f6e2fe6968be21ec0a2ab904e6c7eb9e0ea212a9ef2dc8bcb8754cd
-SHA512: 2bf0770770706db74b9779d39570f3edba573f52d906c5d82e253b9c9d83982b23929ea4ee2c5e3cf82e832ccbaca8c78a3a23519009dff1205ab7345e320803
+Filename: ./libkfontinstui6_4%3a6.7.4-3_amd64.deb
+Size: 51576
+MD5sum: 2f35514697b1c672931817cabf7facfa
+SHA1: 7b172eba8f6c3d057337c645521ddfec1932e9ba
+SHA256: de04650e421358f9fabeb7e16b7ecee689678f2034226c8fced1daf6152522a2
+SHA512: 01d6a69076c60c6ec2dd81163587b763da7d93cd7a9259f2bde32cc23bf5e97ebde6c561d16a117908e6cece46533d32d2446c3de8e49739948fbc997d417cb6
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace UI components for fonts installation
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -31009,21 +31009,21 @@ Description: KDE PIM cryptographic library, data files
 
 Package: libklipper6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 575
+Installed-Size: 576
 Depends: plasma-version-base-6.7, kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.3.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconwidgets6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkwaylandclient6 (>= 4:6.7.0~), libplasma7 (>= 6.7.2), libplasmaquick7 (>= 6.7.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libxcb-util1 (>= 0.4.0), libxcb1
-Recommends: plasma-workspace-doc (>= 4:6.7.4-2)
-Filename: ./libklipper6_4%3a6.7.4-2_amd64.deb
-Size: 158176
-MD5sum: 136a85befbff151a03e5e71f058dd9b1
-SHA1: 9b38b33aeefd25b13b3dcaa360e759a9733992ea
-SHA256: 5a8caabcf6cf3312dd7cd3583f6dfdb66650546418699561cdb37f0b4f21ddf0
-SHA512: e037778bae57dbd1744c7df2c3205f203d7abaf7821dfd3081918ee85166463819db22b8c750e68d781914941ba2749e03e52dd26c6dd1cf9757a077ad19345e
+Recommends: plasma-workspace-doc (>= 4:6.7.4-3)
+Filename: ./libklipper6_4%3a6.7.4-3_amd64.deb
+Size: 158480
+MD5sum: 0e0b28fabfc30eab5708075bc54dd8c7
+SHA1: 5d3a89657078184aa1bb1e832d2bd532088bfab1
+SHA256: dc97716993f86aa606afabad25620e479977fb397de3114b954d6b16058ee17c
+SHA512: a59802ee5b567d059b2775ccd27ad406d5ddf1d61873723de523672979ea89b7318c2da245ffd0373a54895ee09719d8b20cab324e45903993a47c4fb9a92ec0
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspaces Klipper library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -31038,22 +31038,22 @@ Description: Plasma Workspaces Klipper library
 
 Package: libklookandfeel6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 371
+Installed-Size: 372
 Depends: plasma-version-base-6.7, libc6 (>= 2.38), libkf6colorscheme6 (>= 6.26.0~), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 9), libx11-6, libxcb-cursor0 (>= 0.0.99), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, qt6-base-private-abi (= 6.11.2)
 Breaks: plasma-workspace (<< 4:6.7.4-2~)
 Replaces: plasma-workspace (<< 4:6.7.4-2~)
-Filename: ./libklookandfeel6_4%3a6.7.4-2_amd64.deb
-Size: 98700
-MD5sum: 8ff76c83ecb67f7060d3eb70b3b2ea45
-SHA1: fc89082c7a64aaf549a92bae195e850776f2bf44
-SHA256: ed1b70005971c14e2ebd7f10ea2c8daf3377fec2cbd6ea7d79b9b79d5902478b
-SHA512: e0495f08b392eb5f782ef25805b9df0d9ee01cfe96ee9e0d35235c1cf12fd3afa8e108bb6212e6045234a4eb86de704bc591c62eccf37eee9e3329bd0d3173c4
+Filename: ./libklookandfeel6_4%3a6.7.4-3_amd64.deb
+Size: 98800
+MD5sum: 5ec0744e2c270241d50eb8d2b5862cad
+SHA1: 251f626e47ae627470dc0a2789fad8c1dc55e8c6
+SHA256: b4e9ded85bd0d902bc488375988ef8bf6401d43a0002c469f311c57f0a0287de
+SHA512: 2a929a8c331a71071ea6de88c878dddf0c1357eacbcb598beb02b2b2355a440df624fe819bca481e3b594c72c754a7896860e6d43d9fb4935b0e8786a02172ba
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace look and feel helper library
  This tiny library provides shared helpers for determining whether a global
@@ -31122,20 +31122,20 @@ Description: Arch independent data for library for handling MIME data
 
 Package: libkmpris6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 451
+Installed-Size: 452
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 11)
-Filename: ./libkmpris6_4%3a6.7.4-2_amd64.deb
-Size: 112592
-MD5sum: f7651eec19fd7f697d5144a69a9a9e95
-SHA1: 7117f5db4b26c25de1a980cef1dbb1c514276a43
-SHA256: 296c10dba971b07658b5b4a7dd63a38e8802b4f42b874cf839aab9d6b7fcfbbc
-SHA512: 6688884a401882364ecef080d767099b2fadd1807fe5fbaa6ab55b96f0ccfc810e0360dfd5f6ac3c4f8b49f1283bf8e1bb4b99e6858c32336cfbc55ef2299eb0
+Filename: ./libkmpris6_4%3a6.7.4-3_amd64.deb
+Size: 112272
+MD5sum: 8c0fa44a787d236f25d3526d0ed1aa5f
+SHA1: bb41b14752ee35e23baedcaefa4bd4f65020d5ed
+SHA256: 455ed934ef4e4cf4f4649f8ac626fc9ed3fc63dae0a20a46542bbbf9351429ef
+SHA512: b4dde6c098de85e7fb23959745059579615792b77157f09ed824ac49a39ef400455471dde77f63f66c5eec9c2118212165cd4ee850cecf276d43fa57b17bfa47
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace MPRIS library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -33065,20 +33065,20 @@ Description: KDE window manager library
 
 Package: libkworkspace6-6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 423
+Installed-Size: 424
 Depends: plasma-version-base-6.7, libc6 (>= 2.38), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libplasma7 (>= 6.7.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libxau6 (>= 1:1.0.11), libxcb-randr0 (>= 1.3), libxcb1
-Filename: ./libkworkspace6-6_4%3a6.7.4-2_amd64.deb
-Size: 109912
-MD5sum: d1b576c83994896369dc5db248b76e1d
-SHA1: 48f6695f8949ed4fedce8997d136ffba50299438
-SHA256: 8dbf803d7f7b83ab04723991099583c575db03c369673165d5c706ebe7b61729
-SHA512: 7cdbada79b8c4feaa5cf1b63bf45b2b171005a08184f62132927cd35ee701708a251c4496a9918e0935bd6713ae749d3bbcf9c50d7fd6ab13097255a9df11618
+Filename: ./libkworkspace6-6_4%3a6.7.4-3_amd64.deb
+Size: 109992
+MD5sum: 59f6fd6cac5d382624a62ad7d18d88a4
+SHA1: 9a1735f121212ab3158d9e21bdc334be09dcba26
+SHA256: c4824c26918796131f51bc9f477a3ca4b25f9ef77f232ebcc5513b393e98359d
+SHA512: fffccfae3c3f52b688b17efc6b4cab9fb2209993b308805ff8e588ea171d35ca329e6debe101b46ca10c0301adc079e9d107b76f5d632e62cf98103b08e69225
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -35384,20 +35384,20 @@ Description: NetworkManager GUI library
 
 Package: libnotificationmanager1
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1047
+Installed-Size: 1048
 Depends: plasma-version-base-6.7, kio6, libc6 (>= 2.32), libcanberra0 (>= 0.2), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6itemmodels6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), libtaskmanager6 (>= 4:6.6.1)
-Filename: ./libnotificationmanager1_4%3a6.7.4-2_amd64.deb
-Size: 255188
-MD5sum: 218e4225fb0b30f04d984ca3c82e3d70
-SHA1: bd866b6f02b92af525ca7dc1c5b39ddeb8d31f60
-SHA256: 0b156688f9bfcb27cde5695c7f9bfbae2711156920088da205994c68a99dd526
-SHA512: b064e72b9aa8d04cc5b81b404bb144fc27367b6fda321d44880d13de3dae0867ddfa2541ecc6c439b45b59182bb8d891e2f682f08e4d15b87ba7d7b8dde92f37
+Filename: ./libnotificationmanager1_4%3a6.7.4-3_amd64.deb
+Size: 255248
+MD5sum: 631fc23164fc3a1d9fb6b0d67132c72e
+SHA1: b2a4d6ba84a028ded6cd5500bf9ddfbc730a3d72
+SHA256: 158274d04d51d8cc8a4f28923efd2524a5ce630688b88e6919d58b1983daea20
+SHA512: 694e8618cc0315d9cfc5e431e34235f05540ad9091f23fc990ed7a165f448675db400be92867847fd7df97240d673e1ebdebe3fda3006bed05cfe5c5ad5a8632
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace notification manager library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -48559,20 +48559,20 @@ Description: audio meta-data library
 
 Package: libtaskmanager6
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1158
+Installed-Size: 1159
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6itemmodels6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkworkspace6-6 (>= 4:6.1.0), libplasmaactivities7 (>= 6.7.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0)
-Filename: ./libtaskmanager6_4%3a6.7.4-2_amd64.deb
-Size: 290796
-MD5sum: 6cca6da3ce18dc472f6e05d9a1ad316e
-SHA1: 5b28861a8b209952e5b33a1c3bb1c6ed295101ec
-SHA256: 53dd95d8cc149f38903eb3eb785499f4c07e2cccf6181facc9114c8a77fb37bf
-SHA512: 1ca6f646839217ef0a67e6c93f5f4769d370e3dd9c306aabf580665684761de2fe1d7c602a86aa4244e58bfc52cb21826c25e8374ddd24f0de8c5320b8cf969b
+Filename: ./libtaskmanager6_4%3a6.7.4-3_amd64.deb
+Size: 290696
+MD5sum: b3bc751b9486039b6d6d6aa8ae268756
+SHA1: 3146fe53fe73a7ea182a1ff1ccefdea7291b4349
+SHA256: 4836ad940c489e67f8fff4b1a3fd5c022a01204e4ea491b35a8108ea8e931655
+SHA512: 6d39eb3c51c56a6ccef003ba9c667ef60145ef5dd7cbef0b9df6125635984b917f73d997151dd3f708c57f3248590d831e350bcdc886a3cef90b9159422b9ce1
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace task manager library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -58521,22 +58521,22 @@ Description: additional widgets for Plasma 6
 
 Package: plasma-workspace-data
 Architecture: all
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 28037
+Installed-Size: 28038
 Depends: qtpaths6, plasma-version-base-6.7
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), xdg-desktop-portal-kde (<< 6.2.0~)
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), xdg-desktop-portal-kde (<< 6.2.0~)
-Filename: ./plasma-workspace-data_4%3a6.7.4-2_all.deb
-Size: 11711560
-MD5sum: b15e63ab25f363e9edf45ecd1227ee7c
-SHA1: 346367c4d50d19ed6de415d21d70abf97230173e
-SHA256: 9f52cb6c8cbb33675b025a5fe871a36fe27d3335e9af2c8b36014aec327510ed
-SHA512: b614582fe03591fed66a8d723bf74b05d44f82e4a2f6d67b689172a197153fa30a82e263971f672d927e5bdb02e27a5adc40b72083834c65f52da16462280e4b
+Filename: ./plasma-workspace-data_4%3a6.7.4-3_all.deb
+Size: 11711316
+MD5sum: a19e2297b64ad79fcf812e9379ffa1b0
+SHA1: e4223e1f963bfe525ae1ee154937e335e58d744c
+SHA256: 0ad37a0c720fefdccab13dd430c32e19cd26d35008ea561730c5ce2473cb6fc3
+SHA512: e3acbbfc3351b7deab014925e222f390a551e38e10e696a08790e5a3eb4a7bd92679351d036298396341f9f13aadb45a86b4c4c91d09b0ce9ddd163fd2018888
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace data files
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -58547,22 +58547,22 @@ Description: Plasma Workspace data files
 
 Package: plasma-workspace-doc
 Architecture: all
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4982
+Installed-Size: 4985
 Depends: plasma-version-base-6.7
 Breaks: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~)
 Replaces: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~)
-Filename: ./plasma-workspace-doc_4%3a6.7.4-2_all.deb
-Size: 3170180
-MD5sum: 6b3279e5afd4553539dc8287a8f7f52e
-SHA1: 777d2453c8d5eebef1c4c6231abbf4c59018308c
-SHA256: c136e500e7321972d3b2cd637e184b09be5f7dec10476e9e0e488659cf1c5c39
-SHA512: f105973be1252628d85f392bfd022eda1909bd689d111701da1ea3398a04849e0164f49cf835767ba050216c7b5c7b27fac50fc363bf997a0f2a2d3e3770fa0d
+Filename: ./plasma-workspace-doc_4%3a6.7.4-3_all.deb
+Size: 3171488
+MD5sum: 0026f2e7bcecc16151a2bbebac2c11ae
+SHA1: 1868654d2e88ec083d24ac574295ad2a056a76ce
+SHA256: a74e2470db490dd586ec9b43f781e4e631d26b95ee0c6e68b3c6a900b2964839
+SHA512: 5528dbe79f3538246788ebc3a064f3ec8e080c7841d53e1af01bca0b0fe3e3079db9d1403f26cf2763d17a1784a1ab239ac1fc17c4b20b78f78ec62bf8e38104
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: Plasma Workspace documentation
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -58574,22 +58574,22 @@ Description: Plasma Workspace documentation
 
 Package: plasma-workspace
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 15672
+Installed-Size: 15669
 Provides: notification-daemon, x-session-manager
-Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.7.4-2), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, plasma-version-base-6.7, qml6-module-org-kde-activities, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-milou, qml6-module-org-kde-newstuff, qml6-module-org-kde-notificationmanager, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-quickcharts, qml6-module-org-kde-taskmanager, qml6-module-org-kde-userfeedback, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, kwallet6, libappstreamqt3 (>= 1.2.0), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libkf6archive6 (>= 6.26.0~), libkf6authcore6 (>= 6.26.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.26.0~), libkf6colorscheme6 (>= 6.26.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6holidays6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6networkmanagerqt6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6newstuffwidgets6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6parts6 (>= 6.26.0~), libkf6runner6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6svg6 (>= 6.26.0~), libkf6texteditor-bin (>= 6.26.0~), libkf6texteditor6 (>= 6.26.0~), libkf6textwidgets6 (>= 6.26.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libklookandfeel6 (>= 4:6.7.4-2~), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.7.0~), libkscreenlocker6 (>= 6.7.0~), libksysguardsensorfaces2 (>= 4:6.7.0~), libkwaylandclient6 (>= 4:6.7.0~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.7.0~), libnotificationmanager1 (>= 4:6.7.2), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.7.2), libplasmaactivities7 (>= 6.7.0~), libplasmaactivitiesstats1 (>= 6.7.0~), libplasmaquick7 (>= 6.7.0~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore11 (>= 4:6.7.0~), libqalculate23 (>= 5.12.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.11.2), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.7.2), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2), zlib1g (>= 1:1.1.4)
-Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.7.4-2), powerdevil (>= 4:6.2.90~), systemsettings
+Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.7.4-3), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, plasma-version-base-6.7, qml6-module-org-kde-activities, qml6-module-org-kde-breeze-components, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-milou, qml6-module-org-kde-newstuff, qml6-module-org-kde-notificationmanager, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-quickcharts, qml6-module-org-kde-taskmanager, qml6-module-org-kde-userfeedback, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, kwallet6, libappstreamqt3 (>= 1.2.3), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libkf6archive6 (>= 6.26.0~), libkf6authcore6 (>= 6.26.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.26.0~), libkf6colorscheme6 (>= 6.26.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6holidays6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6networkmanagerqt6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6newstuffwidgets6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6parts6 (>= 6.26.0~), libkf6runner6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6svg6 (>= 6.26.0~), libkf6texteditor-bin (>= 6.26.0~), libkf6texteditor6 (>= 6.26.0~), libkf6textwidgets6 (>= 6.26.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libklookandfeel6 (>= 4:6.7.4-2~), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.7.0~), libkscreenlocker6 (>= 6.7.0~), libksysguardsensorfaces2 (>= 4:6.7.0~), libkwaylandclient6 (>= 4:6.7.0~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.7.0~), libnotificationmanager1 (>= 4:6.7.2), libpackagekitqt6-2 (>= 1.1.1), libplasma7 (>= 6.7.2), libplasmaactivities7 (>= 6.7.0~), libplasmaactivitiesstats1 (>= 6.7.0~), libplasmaquick7 (>= 6.7.0~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore11 (>= 4:6.7.0~), libqalculate23 (>= 5.13.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.11.2), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.7.2), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.6), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2), zlib1g (>= 1:1.1.4)
+Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.7.4-3), powerdevil (>= 4:6.2.90~), systemsettings
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.6.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.6.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland
-Filename: ./plasma-workspace_4%3a6.7.4-2_amd64.deb
-Size: 3955452
-MD5sum: 0a48d14c7c1269dc02a37ec2f7634097
-SHA1: 90c4862096b435a73f97ef71cc74696ec7888c3b
-SHA256: bc09ff17b77f43245328be1339ac09c96d3f40d200c780a35427d5de93f20d8c
-SHA512: 31f091c5a0636e5d9d94e249be47c0a3a0e031bb5fce7de102d8374be582f386446a1b3d9fee219f3cf37e603572ae94ffc7bd5b66ca5495e2c00a499532f759
+Filename: ./plasma-workspace_4%3a6.7.4-3_amd64.deb
+Size: 3957092
+MD5sum: b45354e5046d7839da94fa21c7fbed79
+SHA1: fcbaf34e74c2167ac3c6eff6dfbc25bb4e2a5d4e
+SHA256: 82bcef23e0a4bbc47def8f2a06d34ca10c4227971cee43a2b85f4d42fc549c48
+SHA512: bb96d6d1c415821cf748d32d1a7ca233e0e8ab7abac5ad1fb8018d70d59aa6768861e0914e1985ac6047aff7b6aa7069ddc985a3cdce8d782740c881c5fbea9d
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environments
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61258,22 +61258,22 @@ Description: framework for file search and metadata management - QML module
 
 Package: qml6-module-org-kde-breeze-components
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 202
+Installed-Size: 203
 Depends: plasma-version-base-6.7, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-workspace, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-virtualkeyboard, qml6-module-qtquick-window, libc6 (>= 2.4), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-breeze-components_4%3a6.7.4-2_amd64.deb
-Size: 43596
-MD5sum: 20e7a290ed399190ec447a32bf4e288d
-SHA1: 8f3cf5116c362ea53e98bf97129ccb3318dc0dd9
-SHA256: 27c7dac65e734bc80a94119dc97dac1e449a40c48b424fe45de8fef35ae1528b
-SHA512: 35333c400f3bd4821d4289f4b7d2bf8f939f496eb5489618a4a5c699324f329d0ed638481a4345b8c8df1344154f6b2301b9269d569e9686bfd51f7dc6000903
+Filename: ./qml6-module-org-kde-breeze-components_4%3a6.7.4-3_amd64.deb
+Size: 43652
+MD5sum: d91ce4805e8492dd19700f6b6d80c0b7
+SHA1: f701f400db5f920ee5788c3bb16142818cceeb9e
+SHA256: 811cbab9cf679c50d4629273a70bb04b56454564edf3710bbf11373ca3b0268e
+SHA512: 40a22ede9e60389c6227bf8b81d9272ba351211ecb8f3a7177cca47fe638dddae04f3ae169806ba7f153223de186a2ba0e5a700d7a061238683eab2d31140266
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML breeze components
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61858,22 +61858,22 @@ Description: Support for downloading application assets from the network
 
 Package: qml6-module-org-kde-notificationmanager
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 202
+Installed-Size: 203
 Depends: plasma-version-base-6.7, qml6-module-qtquick, libc6 (>= 2.2.5), libnotificationmanager1 (>= 4:6.1.0), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-notificationmanager_4%3a6.7.4-2_amd64.deb
-Size: 33828
-MD5sum: 9f580925a0369e637a9ee99bb28fb9f8
-SHA1: 9348c4305c9e6425310c533a35ba439455c323cc
-SHA256: 303340ed80a5f8d3dcb6e609a15fd922a1740702b22a8407e86f68f82cd9256d
-SHA512: 6de3badaf3d259b18ece10e0ad16c46ec8736c51b576c6af39572d16f630d0d035a78a3001d69e817a3e7b592ffab314a86a8f57144d56f3910d39be1484b217
+Filename: ./qml6-module-org-kde-notificationmanager_4%3a6.7.4-3_amd64.deb
+Size: 33848
+MD5sum: 8c23e524291f09fc2d1fcdb41a3a4251
+SHA1: 70249429c083ce3d3692af9f9ccc7d06cd3b66f8
+SHA256: 9ad142ced0bab16709bb4f80f052d48a079228697381e80d73e99c38976f7366
+SHA512: 0a941b36ea60f01c73bcdf98626400613ef53f013abf4190748694d2fc21e684cb0f446c4bdc6dd794087fd17eca641417472a8f233c787620b1141ad73670aa
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61907,20 +61907,20 @@ Description: Framework for desktop notifications qml
 
 Package: qml6-module-org-kde-plasma-clock
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 166
+Installed-Size: 167
 Depends: plasma-version-base-6.7, libc6 (>= 2.32), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./qml6-module-org-kde-plasma-clock_4%3a6.7.4-2_amd64.deb
-Size: 38568
-MD5sum: 0392ac71c02c86d6c5a61d72e3bf71e7
-SHA1: 11ad7d5f13fd385def747d999a269d9d6c929ed3
-SHA256: 8a031c9d34c84a4d93dc8d5970e420396d42313c41d925c297081346ca6d8334
-SHA512: b7b5e3e2a0b7014aeee385acf17d8dbe012e11948ea6c8ebe71b273d57257c18c6bb0b5f93fee611a35e0a09e1577a6209f87993fa59f1437ca4757160901d1e
+Filename: ./qml6-module-org-kde-plasma-clock_4%3a6.7.4-3_amd64.deb
+Size: 38604
+MD5sum: 6f1f7c58b4308006c32f7d85ebef5d7d
+SHA1: 17c8f0e7779223cb531aa31029e3861171641f7a
+SHA256: be7e52d334d92d3dd963ccfa711145b88201e40f938f7d34058f0e34aa220251
+SHA512: c39cc0215092c0a2910bbd24c81da531cbb9da95a2a560758f990e82b78b3e49f62b6a1755fd22f301133bcd21545b5c74fcc6166a8e2e87c7b82e179bd188ed
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61933,22 +61933,22 @@ Description: QML datetime engine for Plasma
 
 Package: qml6-module-org-kde-plasma-lookandfeel
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 144
+Installed-Size: 145
 Depends: plasma-version-base-6.7, libc6 (>= 2.4), libkf6configcore6 (>= 6.0.0), libkf6package6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-plasma-lookandfeel_4%3a6.7.4-2_amd64.deb
-Size: 31176
-MD5sum: 4cb40a3d2c85b02c2e473ed7f4ab3dfc
-SHA1: 15dc7f754ed03d73722e1051e1a3d7113f3c334b
-SHA256: 640836f08f5efa953b4c684778e83aa88fbb9289a75c99c278a6e418f5cecebd
-SHA512: bbd9e9612bd18366ce6fa78dda29e7d37cbc3b74a4e41f6aacaeceb36a0dba8f6d31a2c36d99b884e1cde8dbf504dc4b6d1fa0c847edaa82bdc2319c6894f1c7
+Filename: ./qml6-module-org-kde-plasma-lookandfeel_4%3a6.7.4-3_amd64.deb
+Size: 31228
+MD5sum: d888eb246771a41dc144a72fda189ae9
+SHA1: 2361a53215298054bee004c73401a04e9942e2a4
+SHA256: 054f5f920339ce06defdc1ba4009485f743dd2078c2f33ae96e1007eca03f9ff
+SHA512: f5e6494184a1ebc54bdf5044790b9cb40a3d007ff31851ae9851f9a1d94e2f7c773691dd421957d000b4721bd881233b630ce475f0217e7079e45d3df350182f
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -61981,22 +61981,22 @@ Description: support components for porting from KF5/Qt5 to KF6/Qt6 - QML module
 
 Package: qml6-module-org-kde-plasma-workspace
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4934
-Depends: plasma-version-base-6.7, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-prison, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtlocation, qml6-module-qtpositioning, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, libappstreamqt3 (>= 1.2.0), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6calendarevents6 (>= 6.26.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nlocaledata6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6newstuffwidgets6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6runner6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libklipper6 (>= 4:6.4.91), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.7.0~), libkworkspace6-6 (>= 4:6.1.0), libplasma7 (>= 6.7.0~), libplasmaactivities7 (>= 6.7.0~), libplasmaactivitiesstats1 (>= 6.7.0~), libplasmaquick7 (>= 6.7.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.7.2), libwayland-client0 (>= 1.20.0)
+Installed-Size: 4935
+Depends: plasma-version-base-6.7, plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-prison, qml6-module-org-kde-taskmanager, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtlocation, qml6-module-qtpositioning, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, kio6, libappstreamqt3 (>= 1.2.3), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.34), libdbus-1-3 (>= 1.10), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6calendarevents6 (>= 6.26.0~), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.26.0~), libkf6globalaccel6 (>= 6.26.0~), libkf6guiaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nlocaledata6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiofilewidgets6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6newstuffwidgets6 (>= 6.26.0~), libkf6package6 (>= 6.26.0~), libkf6runner6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.20.0), libklipper6 (>= 4:6.4.91), libkmpris6 (>= 4:6.1.4), libknighttime0 (>= 6.7.0~), libkworkspace6-6 (>= 4:6.1.0), libplasma7 (>= 6.7.0~), libplasmaactivities7 (>= 6.7.0~), libplasmaactivitiesstats1 (>= 6.7.0~), libplasmaquick7 (>= 6.7.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.7.2), libwayland-client0 (>= 1.20.0)
 Breaks: plasma-workspace (<< 4:6.6.3-3~)
 Replaces: plasma-workspace (<< 4:6.6.3-3~)
-Filename: ./qml6-module-org-kde-plasma-workspace_4%3a6.7.4-2_amd64.deb
-Size: 1302256
-MD5sum: 7834829b9b8f6247abe499b05cff9c74
-SHA1: 3ccd658345628d2eb15535c96c384f9c1cf97a07
-SHA256: 63912796ea5e8feaf6b3ce5c99b2b994b4540d3ca3018ad167b3b2114c7e9202
-SHA512: 6a234797236a4761cfaa99d73abf011825cd2596b5f6d2d86ce71d579ba552f82c93212152d0121719233c05748696199b9a55bbf69159d359cf2e7e10e6dde6
+Filename: ./qml6-module-org-kde-plasma-workspace_4%3a6.7.4-3_amd64.deb
+Size: 1302488
+MD5sum: f1a120991f61e07a0cca97ee28eeca0c
+SHA1: 2cec652d9ce59eb25e47f17c7ee47015c2988b97
+SHA256: bf9584b657dc16c0c55878a38064909a1a50842e0c4c3eb6dde7fa3b3dd5c298
+SHA512: 3331ad03a1ae11d3b53ccddd6fd3336a8e0ca17d39c243758d5a069068dc145722ded14aa752b4f08c7b3a7e4c491d48420315327f053f918ce06b6a0fc7f756
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: base QML modules for the Plasma Workspace
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
@@ -62108,22 +62108,22 @@ Description: Syntax highlighting Engine (QML module)
 
 Package: qml6-module-org-kde-taskmanager
 Architecture: amd64
-Version: 4:6.7.4-2
+Version: 4:6.7.4-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: plasma-workspace
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 184
+Installed-Size: 185
 Depends: plasma-version-base-6.7, qml6-module-qtcore, qml6-module-qtquick, libc6 (>= 2.2.5), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), libtaskmanager6 (>= 4:6.1.90)
 Breaks: plasma-workspace (<< 4:6.6.3-1~)
 Replaces: plasma-workspace (<< 4:6.6.3-1~)
-Filename: ./qml6-module-org-kde-taskmanager_4%3a6.7.4-2_amd64.deb
-Size: 32288
-MD5sum: 28cf7fbca980ed82f285bdef12e14069
-SHA1: 8da71c064dc0e590a0447d00bb48bc0faa6c2942
-SHA256: 49558a63110837be03b04e8bf52f546d5885fe64f6c34e1f27d2b8839daa73e2
-SHA512: daa3d23f446d5bb68323d7c796fcd9fb3fe84e9af36a1655e02b676c36e0b7648549cdc352143aa62bfdb414f9b6b573a5633d8cb5bc0661c6579304f89eef6c
+Filename: ./qml6-module-org-kde-taskmanager_4%3a6.7.4-3_amd64.deb
+Size: 32332
+MD5sum: 8fbb631e03dcf243a36c88788e565002
+SHA1: 9796f03aa89f76ba33f9a621c90ab12050f711f3
+SHA256: 7adfe0edcb734823a2686325f76847b89549fb7f76b583e79c0980d531518980
+SHA512: 037f513a23cb2673d76803cc3d5835bf41596aaa46b996cababf94358117f8eea29379d2263adda0e558d5c6976a660965610b9e5582b19810628f6d8558d447
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Description: QML datetime engine for Plasma
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
