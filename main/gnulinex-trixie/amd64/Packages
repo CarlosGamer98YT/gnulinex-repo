@@ -342,21 +342,21 @@ Description: easy GNOME menu editing tool
 
 Package: ant-optional
 Architecture: all
-Version: 1.10.18-1
+Version: 1.10.18-2
 Multi-Arch: foreign
 Priority: optional
 Section: java
 Source: ant
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Installed-Size: 1110
-Depends: ant (= 1.10.18-1)
-Suggests: antlr, javacc, junit, junit4, jython, libactivation-java, libbcel-java (>= 5.0), libbsf-java, libcommons-logging-java, libcommons-net-java, libmail-java, libjaxp1.3-java, libjdepend-java, libjsch-java, liblog4j1.2-java, liboro-java, libregexp-java, libxalan2-java (>= 2.4.0-1), libxml-commons-resolver1.1-java, libxz-java
-Filename: ./ant-optional_1.10.18-1_all.deb
-Size: 457608
-MD5sum: ee6595ef9f972ea6498412e682d063e2
-SHA1: b3419d0895e084e3ede43fbb5b483ac6002d4b93
-SHA256: 41cca0aebecc63f482e098007ca1d6b2c66f6c7e1b16d7b88ec75eabcb4aeff0
-SHA512: 24970eb3c9dee487f312c22948902618d662f2fed0a380f026866beda42753edb7fc3d84c353c1d00c37fa588d643c7f135912ff99e308618511fc8faf66a56d
+Depends: ant (= 1.10.18-2)
+Suggests: antlr, javacc, junit, junit4, jython, libactivation-java, libbcel-java (>= 5.0), libbsf-java, libcommons-logging-java, libcommons-net-java, libmail-java, libjdepend-java, libjsch-java, liblog4j1.2-java, liboro-java, libregexp-java, libxalan2-java (>= 2.4.0-1), libxml-commons-resolver1.1-java, libxz-java
+Filename: ./ant-optional_1.10.18-2_all.deb
+Size: 457740
+MD5sum: d93fd4ff1069df2e263cfdef5c39721e
+SHA1: 459e6bb2a6e5d5251745bd8c8436a6beadeea109
+SHA256: fe0b5f160d4c1202059599dc21e00064ede70359d12d6b941e3241e0bfe6f995
+SHA512: a4120c7e7ac88e2653d0a22e68ec8c707e8c53207195f4462c27ee2ec579fe61f08fcc277ab672bb7b94989ad5bad4ba6088153d19c3327c2ede9df7f2d107f2
 Homepage: http://ant.apache.org
 Description: Java based build tool like make - optional libraries
  Apache Ant is a Java library and command-line tool whose mission is to drive
@@ -372,7 +372,7 @@ Description: Java based build tool like make - optional libraries
 
 Package: ant
 Architecture: all
-Version: 1.10.18-1
+Version: 1.10.18-2
 Multi-Arch: foreign
 Priority: optional
 Section: java
@@ -381,12 +381,12 @@ Installed-Size: 2398
 Depends: default-jre-headless (>= 2:1.8) | java8-runtime-headless
 Recommends: ant-optional
 Suggests: ant-doc, default-jdk | java-compiler | java-sdk
-Filename: ./ant_1.10.18-1_all.deb
-Size: 2173528
-MD5sum: a56cbe09c10ae343adb98fc87bf0fc94
-SHA1: b8df801bbb931626c7b1969a5cc53f87e4bb2649
-SHA256: f0e7f4bbcc81848408bc2261d18f0099818b819176c44cfe91873cba4689ae72
-SHA512: 9c3ce3bf9183346765e65b0847a9ff27241fcf76dc1782f65c026486a03fb6ea8df274473e197ed168863525fc80332e787b6698e066a46b487ef03709fc462a
+Filename: ./ant_1.10.18-2_all.deb
+Size: 2174396
+MD5sum: 54c7c1eb873f6280102bfbbeda53cff8
+SHA1: 6d96a08d81485825e371ae2ba5c2c952906b7baf
+SHA256: 4abe8e40f2e4eef2389b5632fd8297809ee19d3870861a1eb9baef50eaa8ecb9
+SHA512: 3eaa156762e05b0396233ebe25f868b47da485eaa1691f93f5c3384691d37dc6fcafc76d8738f2aed979b34a970dd3fd433412e3d257cedea5b7058a8917b0b4
 Homepage: http://ant.apache.org
 Description: Java based build tool like make
  Apache Ant is a Java library and command-line tool whose mission is to drive
@@ -14048,19 +14048,19 @@ Description: KCM Module for kscreenlocker
 
 Package: kde-config-updates
 Architecture: amd64
-Version: 6.7.4-3
+Version: 6.7.4-4
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 97
 Depends: systemsettings, plasma-version-base-6.7, libc6 (>= 2.4), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5)
-Filename: ./kde-config-updates_6.7.4-3_amd64.deb
-Size: 24724
-MD5sum: ffcd5a2eda946f6d99cf2f78a1c3c959
-SHA1: b43b7ad889cc8194df750b43fb98bac26ce48a66
-SHA256: 94f6faafda86af276c04f54a5314ad6790e1b4a1357770cee8efdc97ee588f4b
-SHA512: 73876dbac96430326dd80e2c0c4315168b89e612f88685f7fdb1ad7df9fbba4960debafbbe4d7ffc0f618acfa9b78d9db44a957758abf59365e091159ce53323
+Filename: ./kde-config-updates_6.7.4-4_amd64.deb
+Size: 24980
+MD5sum: 4ddc75701378ffdd80f331c1eb03abbd
+SHA1: 8c653d6243e5d10b108c77ca5ce56402f026f189
+SHA256: 0bf1acdd76a1bcb7928c014451b35c9ffa6361b272170ba10a63ad680a6f8e23
+SHA512: 65ffc2b1ec8d5efd39b8c5bf2f9fa6e5d1ac873f2d523c5c0d731e9d8174c8d6377fd602136fca3228d79b69f7488616daaa04134a1ae83d11ec32de7385d9b2
 Homepage: https://invent.kde.org/plasma/discover
 Description: Unattended updates configuration
  This package contains a configuration module for configuring
@@ -14414,21 +14414,20 @@ Description: additional image format plugins for Qt Gui
 
 Package: kinfocenter
 Architecture: amd64
-Version: 4:6.7.4-1+b1
+Version: 4:6.7.4-2
 Priority: optional
 Section: kde
-Source: kinfocenter (4:6.7.4-1)
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3858
+Installed-Size: 3857
 Depends: libkf6kcmutils-bin, qml6-module-org-kde-kirigami, systemsettings, usb.ids, plasma-version-base-6.7, kio6, libc6 (>= 2.34), libdrm2 (>= 2.4.75), libkf6authcore6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kcmutils6 (>= 6.26.0~), libkf6kcmutilscore6 (>= 6.26.0~), libkf6kcmutilsquick6 (>= 6.26.0~), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6kiowidgets6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.26.0~), libkf6solid6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2)
 Recommends: aha, clinfo, dmidecode, iproute2, libdisplay-info-bin, mesa-utils, pciutils, pulseaudio-utils, vulkan-tools, wayland-utils
 Suggests: samba
-Filename: ./kinfocenter_4%3a6.7.4-1+b1_amd64.deb
-Size: 969228
-MD5sum: 4b4a43bc10637caddb16e13a694f1581
-SHA1: 750420fd0d9d74ea665ec93192b49210af903a9e
-SHA256: fc6441c78ef6bf41c5d516c2fb8cf98b4364edc4201fb4a97e74cd38b142c410
-SHA512: 52db1fdfeb7e82a762db565458df64d0d2e209b36d58ffabf8e0369dbc5e1a985cd4a7826a87c1d846ea7b0f2c60a54ec55bfbfa0aec91e5cbd5bc1e93b21f86
+Filename: ./kinfocenter_4%3a6.7.4-2_amd64.deb
+Size: 969224
+MD5sum: fc3e76395c1b2cbc00554fedfd5bbf34
+SHA1: 6c20249950393750e2cee65c1a8bca8d05ede2e7
+SHA256: 2b4117668304c006d33c0685b5dd8d0edca84ddc1809a6d8df509c938dde5f4a
+SHA512: 9f8bc56c0e4c5e13ec95fff74cd656ecd5e57c5849210209ef313c76648543667d95da9345a56a0e4634bc5e57764f1572273053202dcca51e4d68903351ab99
 Homepage: https://invent.kde.org/plasma/kinfocenter
 Description: system information viewer
  The kinfocenter provides you with a centralized and convenient
@@ -16965,7 +16964,7 @@ Description: CD/DVD burning library for GNOME - runtime
 
 Package: libbrlapi0.8
 Architecture: amd64
-Version: 6.9.1+repack-3
+Version: 6.9.1+repack-4
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -16973,12 +16972,12 @@ Source: brltty
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 145
 Depends: libc6 (>= 2.38), libsystemd0
-Filename: ./libbrlapi0.8_6.9.1+repack-3_amd64.deb
-Size: 94936
-MD5sum: 89171c96d349679ea4e2e416fcfda9d9
-SHA1: 513a7564af9e50599361def0fffa83911ffd6ebc
-SHA256: dfb4a220b26e4a8268afe6f9167ae11d1b68ae4d56f9d3f0e5bb6a4cedd660ea
-SHA512: c6203602ead430857c2b27cfd65addbdb0e4fc2bf35c6996bdb4a68c7ad20c50cfb3d8075c3e43990a314339f591e5d18c4ae2f177a881f99648ec926d86d09d
+Filename: ./libbrlapi0.8_6.9.1+repack-4_amd64.deb
+Size: 95116
+MD5sum: f3c04254c3294ca0b0fbf45ac027ec76
+SHA1: 2cd7c48d97d310a406b92327730d303a9235a367
+SHA256: beaf0211984e78e426024dde358212c686b4e2ad1115d2d6bfd5958e2589fef3
+SHA512: 36f5404da33c5f5d2218bac1565318c1238b616d5d16a135914d8f0bd2eb7a21f539a3285903bd537239be26f897232a6c5a6c5908bd3641320152e58ff28876
 Homepage: https://brltty.com
 Description: braille display access via BRLTTY - shared library
  BRLTTY is a daemon which provides access to the console (text mode)
@@ -23245,20 +23244,20 @@ Description: sandboxed image loaders for GNOME
 
 Package: libgnome-autoar-0-0
 Architecture: amd64
-Version: 0.4.5-5
+Version: 0.5.2-3
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: gnome-autoar
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 110
-Depends: libarchive13t64 (>= 3.4.0), libc6 (>= 2.33), libglib2.0-0t64 (>= 2.80.0)
-Filename: ./libgnome-autoar-0-0_0.4.5-5_amd64.deb
-Size: 29172
-MD5sum: b961039c3d4ca1376ff76650f9c9b38d
-SHA1: 75a1c38493d74aac8646b8f4449568717090c98c
-SHA256: 6c97145ee6a89c83fb920f33fbde91c60ae5b27bbb7907ed2d68b6f8f89732af
-SHA512: 415047208b02fca49140738c4d33c00ee2bf60f527b0452109944babcdafd9500a9adc767efb8277ae0e2e11b4cd341cd975b79eb578a0ac199cfcbf1f40d485
+Installed-Size: 114
+Depends: libarchive13t64 (>= 3.3.3), libc6 (>= 2.33), libglib2.0-0t64 (>= 2.80.0)
+Filename: ./libgnome-autoar-0-0_0.5.2-3_amd64.deb
+Size: 29784
+MD5sum: 6dfd58bbcab68fe976c3dc405c681b7a
+SHA1: c0c60b5daaf74e6bff72f7010f70798a320f848a
+SHA256: 7a654c6e5870cb822344ad0bc21477d12d9043d8df1190e1562551e2f3d3a6d7
+SHA512: 58812032071547ecf7ef48e9eee6d303777df6bc6533c23108dc44d0ddd0e836ddb1d29e99d037fa3e74921ad909a766d87f21ee49564870bccd6469f1d531b5
 Description: Archives integration support for GNOME
  GNOME Autoar is a library which makes creating and extracting archives easy,
  safe, and automatic.
@@ -27665,7 +27664,7 @@ Description: Tools to generate documentation in various formats from DocBook
 
 Package: libkf6filemetadata-bin
 Architecture: amd64
-Version: 6.32.0-1
+Version: 6.32.0-2
 Multi-Arch: same
 Priority: optional
 Section: kde
@@ -27674,12 +27673,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 637
 Depends: libappimage1.0abi1t64 (>= 1.0.4-3~), libavcodec63 (>= 7:9.0.2), libavformat63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libc6 (>= 2.32), libexiv2-28 (>= 0.28.0), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.32.0~), libkf6codecs6 (>= 6.32.0~), libkf6configcore6 (>= 6.32.0~), libkf6filemetadata3 (>= 6.0.0), libpoppler-qt6-3t64 (>= 0.46.0), libqmobipocket6-3 (>= 4:26.04.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5.2), libtag2 (>= 2.0)
 Recommends: catdoc
-Filename: ./libkf6filemetadata-bin_6.32.0-1_amd64.deb
-Size: 124232
-MD5sum: 17d41d3e873965f073dd92ff09303b22
-SHA1: a9dd2dc4ec66f5b800bdfe3a6ab220ecca9e7a03
-SHA256: 256716fc3fd986f385fad43b6a054f4b5834421f919de0d567250787a2030316
-SHA512: c3c210b05829541bebba7d8eca351addbc2f16d0067ce9e1c68b5144e3a42a50854c3174c24b3681588a01c468d44a2952736b6729984511ade7c140dd136f1d
+Filename: ./libkf6filemetadata-bin_6.32.0-2_amd64.deb
+Size: 124684
+MD5sum: 7a02e41473514ddc579e6d0dd16aad08
+SHA1: cce744228ca123342b2f6d77cadb6bf6e655e07d
+SHA256: dec0a83ccba111ec396e3d6287f52b90a5af0509532de49d6ff4610f083ab961
+SHA512: 42aee08ccfa915da7c51a908714643b828ad80f1e0fdb492fc005bb150d4b7c24519a9591cbf49536f0152830d30006b26f4cdfb7ac8b8f9a7c4dc32f6a2c113
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -27690,19 +27689,19 @@ Description: library for extracting file metadata
 
 Package: libkf6filemetadata-data
 Architecture: all
-Version: 6.32.0-1
+Version: 6.32.0-2
 Multi-Arch: foreign
 Priority: optional
 Section: kde
 Source: kf6-kfilemetadata
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 764
-Filename: ./libkf6filemetadata-data_6.32.0-1_all.deb
-Size: 76216
-MD5sum: 3868d36598fb8eb70bf7bb32fb54f417
-SHA1: eab7b7a829c08db2ff7d58942b652adb13f8b1b3
-SHA256: ad5daf4f53b10dc470d24090e4335bd9582e3a5ee851ddb719f3d99edfa97fb5
-SHA512: 1f185b61b2373abc8ce2c38f74c3ae91b1e2cc010897bf89aecddc4ae8775a00b6ed0db6b3f381ba48537feea7a54dd671414bf3cdcc72555de7024dd39ccb93
+Filename: ./libkf6filemetadata-data_6.32.0-2_all.deb
+Size: 76348
+MD5sum: dd4c39cf23f81506cfdfb09cea83d1b0
+SHA1: 96214715111672d63bd87687dd0dd2d540323990
+SHA256: b985825be86900e6f844360827b5b1df8cbf0673a4cd190af5c40148e1408136
+SHA512: 7e733ab66d65e067ad9698e417a1017d39ef34155f9d6767408d8c07e93dad9d5a7369b4e304576a2c2e19800fe7325032ba4a694e949df202e83fc549c6aa42
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -27711,21 +27710,21 @@ Description: library for extracting file metadata
 
 Package: libkf6filemetadata3
 Architecture: amd64
-Version: 6.32.0-1
+Version: 6.32.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: kf6-kfilemetadata
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 243
-Depends: libkf6filemetadata-data (= 6.32.0-1), libc6 (>= 2.14), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libstdc++6 (>= 5)
-Recommends: libkf6filemetadata-bin (= 6.32.0-1)
-Filename: ./libkf6filemetadata3_6.32.0-1_amd64.deb
-Size: 71452
-MD5sum: d9457b74d66bf9c4cfb057a25fb855fd
-SHA1: 4f9cc6e8deb1ed89271c5e16ce3c0b5547f09fa3
-SHA256: 9f23c84ad5ef0c9a6256843649db624984cd210fa7c303d46695a9bc01889c42
-SHA512: f5405d84a23d705cedf1cb7d5e5740bfb2eed74b821028cf3d92d644927e94354ee0cbbf544f48fae3c9c53cb55659759830101060cf5b107bafeaca40c667d3
+Depends: libkf6filemetadata-data (= 6.32.0-2), libc6 (>= 2.14), libkf6coreaddons6 (>= 6.32.0~), libkf6i18n6 (>= 6.32.0~), libqt6core6t64 (>= 6.11.2), libstdc++6 (>= 5)
+Recommends: libkf6filemetadata-bin (= 6.32.0-2)
+Filename: ./libkf6filemetadata3_6.32.0-2_amd64.deb
+Size: 71776
+MD5sum: 73242b4f012aa3cea8fa99f4f99db4b2
+SHA1: fdfbdbf9db502a098248a7b2c14c23e69c0f452c
+SHA256: 3d8a36c1526d0eff163c5d2f6d446ecafc0635a169db8b6ddf6089dcd11e3322
+SHA512: 4b8a415326fae33c970d23a92cdb0aeec65e1c21b7ae68da126198139ab1a037c3d9499aeb24d19d629be80f82eb8646a80b68e7ba10d0aa7d05d330ac722ca8
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -28102,7 +28101,7 @@ Description: Support for icon widgets
 
 Package: libkf6idletime6
 Architecture: amd64
-Version: 6.32.0-1
+Version: 6.32.0-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -28110,12 +28109,12 @@ Source: kf6-kidletime
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 253
 Depends: libc6 (>= 2.14), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6waylandclient6 (>= 6.10.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), libx11-6, libx11-xcb1, libxcb-sync1, libxcb1, libxext6, libxss1
-Filename: ./libkf6idletime6_6.32.0-1_amd64.deb
-Size: 60100
-MD5sum: ca6ed52b9d6eef8cd3aa9af48b6b114d
-SHA1: ba0f1ffa8a3d15802dc5305e6890a95e087fad3a
-SHA256: 2049a91f3f0b46f76770b9ca9efeedec03a1cffc4b4132a5b8505270e8b889d9
-SHA512: 876af9d71e7c8355f9c509ba3f7f2dfc5b28f7615bdf9283a16dae226c218ee7a38bd4b38aabc6ca7c4af398c11ced83cb02e7f25f7af8958d3f32f4a1781258
+Filename: ./libkf6idletime6_6.32.0-2_amd64.deb
+Size: 60012
+MD5sum: 5faa947dceea29fb269be10bbea27c64
+SHA1: caa6b1c462eb0eca8974dabe412cd4382786c889
+SHA256: c3d7c02cfb707d64801b2c6fd3459de92dd842dede7605b3d0a0bf2cb9e9916d
+SHA512: 9a3bbd32a46aa890bf0aee507a839117fdadef9c03341780f0bc70666fdabe3cc1c2de0d6b35a33f8d1c16e9fe6fe0c49a2869ea7e508797723104535699085b
 Homepage: https://invent.kde.org/frameworks/kidletime
 Description: library to provide information about idle time
  This library contains a class that allows applications to watch for
@@ -40180,7 +40179,7 @@ Description: Raven library for budgie-desktop
 
 Package: libraw25
 Architecture: amd64
-Version: 0.22.3-1
+Version: 0.22.3-2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -40188,12 +40187,12 @@ Source: libraw
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
 Installed-Size: 2837
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libstdc++6 (>= 5.2)
-Filename: ./libraw25_0.22.3-1_amd64.deb
-Size: 485400
-MD5sum: 7aaf1b998359a193e15760974b1c6161
-SHA1: 32462c6f51b469868e0de30ca5049edad240b33c
-SHA256: e6c3a9c3c94e40c57661e3ff572740a9d8e20442a3fd4017288dedab40641088
-SHA512: b007fc8d33b6d4298aa8ca454dce58b722427d57516a5011188f6c41170dae0f7530992008062098ba17c84eaa28815b60e719f6de852607834f5382d31b387f
+Filename: ./libraw25_0.22.3-2_amd64.deb
+Size: 485768
+MD5sum: dd1212518c3e792ddb11763d85ea6f05
+SHA1: 9bfaa336f8a7be5902ba5656bb43083baf6f5428
+SHA256: 59720c92825072a22a9b8bb95e5fd9d2ecb8be931006869ac4309e10185099b2
+SHA512: 51b9d089d6179e1bf923be248826356bd834751b71af146f0d621d319a1dafbc72b6e2bc04e402db0c5f158f899e5f14c18a9fbea61ea276fcbd97b5b7f9111c
 Homepage: https://www.libraw.org
 Description: raw image decoder library
  LibRaw is a library for reading RAW files obtained from digital photo cameras
@@ -58214,19 +58213,19 @@ Description: Plasma Runtime components
 
 Package: plasma-discover-backend-flatpak
 Architecture: amd64
-Version: 6.7.4-3
+Version: 6.7.4-4
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 853
-Depends: flatpak, plasma-discover (= 6.7.4-3), plasma-version-base-6.7, libappstreamqt3 (>= 1.2.1), libc6 (>= 2.32), libflatpak0 (>= 1.16), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.56.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqcoro6core0t64 (>= 0.4.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 14)
-Filename: ./plasma-discover-backend-flatpak_6.7.4-3_amd64.deb
-Size: 263720
-MD5sum: be1bee92d8767a033327eed5086060d6
-SHA1: e590a851d6b9e28338f0bfa36beb938684b69c3e
-SHA256: 0efcbc3f8103c3e9716677076640a27af125946acd9ccd91bc96d48f59c46ae1
-SHA512: c0fcf32acc8ae52ae5e865081d89984f0ac366db87eafe4cdbcd2ea627060cf810aae7503d3b8fe6e43b430fea803faa350478cfa678e7a25ebca3a0f615b897
+Depends: flatpak, plasma-discover (= 6.7.4-4), plasma-version-base-6.7, libappstreamqt3 (>= 1.2.3), libc6 (>= 2.32), libflatpak0 (>= 1.16), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.56.0), libkf6configcore6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqcoro6core0t64 (>= 0.4.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 14)
+Filename: ./plasma-discover-backend-flatpak_6.7.4-4_amd64.deb
+Size: 263860
+MD5sum: 30241e5d1297d292dbca3c063e66bfb4
+SHA1: e94587530f5ca9783571576c9691ed875d544f12
+SHA256: af216aa075e8b67549ec0ea95156bdf467be26d387c1c274b143c7ab396a02e1
+SHA512: 577bcfea492b6401c8c335bfc157347cdb6c6d01987e3c60c98599be08577361b049a7356324813bd150c6017d3fdca8427984a473c0039c2953ff114a298e60
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite - Flatpak backend
  Discover is a graphical software manager for the Plasma workspace.
@@ -58238,20 +58237,20 @@ Description: Discover software management suite - Flatpak backend
 
 Package: plasma-discover-backend-fwupd
 Architecture: amd64
-Version: 6.7.4-3
+Version: 6.7.4-4
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 163
-Depends: plasma-discover (= 6.7.4-3), plasma-version-base-6.7, libc6 (>= 2.32), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
+Depends: plasma-discover (= 6.7.4-4), plasma-version-base-6.7, libc6 (>= 2.32), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.26.0~), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libstdc++6 (>= 5)
 Recommends: fwupd
-Filename: ./plasma-discover-backend-fwupd_6.7.4-3_amd64.deb
-Size: 46380
-MD5sum: 43989a681408e46eb7f1d74e5bb3c899
-SHA1: f5d83ff81ecdc609c194d24b1904c1a8b13a56ab
-SHA256: d377ef578031cf1dd43c912c30160c9071a440b7c8459668b3398c0c9997b6b2
-SHA512: 5e2681d2afd42c283439e80d9950d794de67cf88ed7a025611c2c9816c0d3a233545fb2e24251913b4920cf2b7930af50910496eee99b14e22a519c3e0e56495
+Filename: ./plasma-discover-backend-fwupd_6.7.4-4_amd64.deb
+Size: 46400
+MD5sum: 170f9e2eb9353b7e53f568449bc832b3
+SHA1: 2a241aaa77672cd1067ab4ee0b484201f540f5cb
+SHA256: 45c0ed9e06ccf43c78d843d71667e15a965bb529f87021377c7541ddba688064
+SHA512: 0003f9ad77e334a7ed927d3126ac0f8a6e2ed6935e199a0e3412ae1b102b02f71cd3f7204764159aa4239cd979d972ada5c7974e8742bf8879ca8b7d917fbf19
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite - fwupd backend
  Discover is a graphical software manager for the Plasma workspace.
@@ -58262,19 +58261,19 @@ Description: Discover software management suite - fwupd backend
 
 Package: plasma-discover-common
 Architecture: all
-Version: 6.7.4-3
+Version: 6.7.4-4
 Priority: optional
 Section: kde
 Source: plasma-discover
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 4414
 Depends: plasma-version-base-6.7
-Filename: ./plasma-discover-common_6.7.4-3_all.deb
-Size: 559484
-MD5sum: 0e370014ba6a4042bb6cacd1e309a0e6
-SHA1: c1fdbbf08e8c1edfbb805471fdcec79e523c7151
-SHA256: 9d7119e9697e55ac46309096721729c022617f924fbb53fd03134f3e094c124f
-SHA512: 18d997ec86855127435e57f687d99ad00dd2f33051cab126523e7e60e88c64427ef02da123de743b239f16da238d204e8521456a1ef4c0be202b3dede85979a3
+Filename: ./plasma-discover-common_6.7.4-4_all.deb
+Size: 559684
+MD5sum: 86ed842ec6df3b8f41a8fc1e6786c241
+SHA1: b0e3dd48dba6bca7d8b7abe6339b3d4b5820a83c
+SHA256: a4bac9974ed454327e2d3312c35423084ecf543b812b07a22b089370e05bad6f
+SHA512: 62d56f8de51488254e6b7a0f8e4ec1c52e773a9c59ffa15b0ab547d89a1eaafad57cda196d08cb67e19ec9a8ac6aeedaa48e08c1e3ac651e1b017d2f7e0a247d
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software manager suite (common data files)
  Discover is a graphical software manager for the Plasma workspace.
@@ -58284,20 +58283,20 @@ Description: Discover software manager suite (common data files)
 
 Package: plasma-discover
 Architecture: amd64
-Version: 6.7.4-3
+Version: 6.7.4-4
 Priority: optional
 Section: kde
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2895
-Depends: appstream (>= 1.0), apt-config-icons, packagekit (>= 1.0), plasma-discover-common (= 6.7.4-3), plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-purpose, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtnetwork, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtwebview, kio6, libappstreamqt3 (>= 1.2.1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6attica6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkirigamiapp6 (>= 1.11.0), libmarkdown2 (>= 2.0.6), libpackagekitqt6-2 (>= 1.1.4), libqcoro6core0t64 (>= 0.4.0), libqt6concurrent6 (>= 6.10.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6webview6 (>= 6.6.1), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 11)
+Depends: appstream (>= 1.0), apt-config-icons, packagekit (>= 1.0), plasma-discover-common (= 6.7.4-4), plasma-version-base-6.7, qml6-module-org-kde-config, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-purpose, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtnetwork, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtwebview, kio6, libappstreamqt3 (>= 1.2.3), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6attica6 (>= 6.26.0~), libkf6configcore6 (>= 6.26.0~), libkf6configgui6 (>= 6.26.0~), libkf6coreaddons6 (>= 6.26.0~), libkf6crash6 (>= 6.26.0~), libkf6dbusaddons6 (>= 6.26.0~), libkf6i18n6 (>= 6.26.0~), libkf6i18nqml6 (>= 6.26.0~), libkf6iconthemes6 (>= 6.26.0~), libkf6idletime6 (>= 6.26.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.26.0~), libkf6kiogui6 (>= 6.26.0~), libkf6newstuffcore6 (>= 6.26.0~), libkf6notifications6 (>= 6.26.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.26.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkirigamiapp6 (>= 1.11.0), libmarkdown2 (>= 2.0.6), libpackagekitqt6-2 (>= 1.1.4), libqcoro6core0t64 (>= 0.4.0), libqt6concurrent6 (>= 6.10.0~), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6webview6 (>= 6.6.1), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 11)
 Recommends: apt-config-icons-hidpi, apt-config-icons-large, apt-config-icons-large-hidpi, kde-config-updates, plasma-discover-backend-fwupd
 Suggests: plasma-discover-backend-flatpak, plasma-discover-backend-snap
-Filename: ./plasma-discover_6.7.4-3_amd64.deb
-Size: 769436
-MD5sum: c8e44f1cd018b1dd694b565e7b3581fe
-SHA1: bc63b0e8fc3938b4861022131234749078ec9245
-SHA256: 22b49d1f8156c3b6ccbce3c00245fb2f178539c30af54b37d0b795d41f7580a0
-SHA512: eff0994be82d3a6c94c6c26690432b5c3a4c2881ba9d6417706a790443e9d9a0c1c254626e59c5bd72f1b31f00faff08cc9b2d4e8ab2056c0d35b4ae1a95985d
+Filename: ./plasma-discover_6.7.4-4_amd64.deb
+Size: 768360
+MD5sum: 61e8bb231d3721f821aa6bb2e086070a
+SHA1: 79b64a4ddf13c33dae21da2d9b1f295ed2af68b5
+SHA256: b090ec0f70be7859f7bd88e34cbadd2f5e6edb7874659f84fd6379e05c7ec507
+SHA512: 9ce8e086faac9e7f2ef65ab6db63e2532c1872aab15fdab10dc92d4a4b2ca23b189422c2072c1b845633771d199d958bb3199c5a86e3e7564fcdd861ae983f56
 Homepage: https://invent.kde.org/plasma/discover
 Description: Discover software management suite
  Discover is a graphical software manager for the Plasma workspace.
@@ -59054,20 +59053,20 @@ Description: password hashing library for Python 3
 
 Package: python3-brlapi
 Architecture: amd64
-Version: 6.9.1+repack-3
+Version: 6.9.1+repack-4
 Multi-Arch: same
 Priority: optional
 Section: python
 Source: brltty
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 714
+Installed-Size: 682
 Depends: libbrlapi0.8 (>= 6.9.1+repack), libc6 (>= 2.34), python3 (<< 3.16), python3 (>= 3.14~)
-Filename: ./python3-brlapi_6.9.1+repack-3_amd64.deb
-Size: 207652
-MD5sum: 7bb8a6f8009bd6deb1915e88f5247a83
-SHA1: 4c98c11a330d78598d77dcad0f66814480649367
-SHA256: 83271a8b9ade426ab906efbfc4c1f301833e807d54671daebb6d731883cf3b7f
-SHA512: aeb0b6893dbe9bb580d46b43b336d10e15055b97a5f34958ccc533157c5cfe9476d077af7ee1f090cd896176035d72558f8e57c8b54a171592b44a56db8dacc9
+Filename: ./python3-brlapi_6.9.1+repack-4_amd64.deb
+Size: 208028
+MD5sum: 9059a0a18017944001b96dfe6b25922e
+SHA1: 03978f77720f2fed9bdbcb02d99580ff8c513827
+SHA256: b2bc2fd6fc22a256640476c3aaa037d13a5d65173fcb50f24006f95817091b0a
+SHA512: 44487e23bdc5b3956800ac43e9247be051d29ade0f350cd17a82ecc82fdcbc7c017dfd5b4e0055c09ab159b00b391ecc0b2a8b4a9ece4d2ed9f724e8ac6bfff3
 Homepage: https://brltty.com
 Description: Braille display access via BRLTTY - Python3 bindings
  BRLTTY is a daemon which provides access to the console (text mode)
@@ -71653,19 +71652,19 @@ Description: /dev/ and hotplug management daemon
 
 Package: udiskie
 Architecture: all
-Version: 2.7.0-1
+Version: 2.8.2-1
 Priority: optional
 Section: utils
 Maintainer: Gianfranco Costamagna <locutusofborg@debian.org>
-Installed-Size: 523
+Installed-Size: 544
 Depends: python3-gi, udisks2, python3-docopt, python3-yaml, python3:any
 Recommends: gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, gobject-introspection, notification-daemon
-Filename: ./udiskie_2.7.0-1_all.deb
-Size: 92984
-MD5sum: 86ae3a28957103b322614b11a4b9a8e1
-SHA1: 6edc3e3231d226e2f82c1195469ecbf1fb851f05
-SHA256: f81b094148c13921054ef93c38fe6e5af8b1e9a59f4ed1060dd889f8cb4eb215
-SHA512: 722e8f6e88ec67c7bb0d1c9cb77d50e6a77168b411c494e80602ee7d86d273be086b22ba76ab33c861c15278c8600cc18ce976110f8ecca75681ab817ec7e558
+Filename: ./udiskie_2.8.2-1_all.deb
+Size: 93940
+MD5sum: 46aa92d23aabbe78950dd45a0b692138
+SHA1: c987a56cac160d40f09d59e540ea1a7c176d3811
+SHA256: d48a5a374e5d13ada1cc3210fb5078355fa92bbc8785d171cf545760e9234ed1
+SHA512: 0d6b94a012c49ad51d3e8bdd3d1a7691bdec1ae5e3891e3db1cf3b740f43c4735ec50952726086f65fa01b9d0b32e673c7709ba886db5c78bff0533ad8705642
 Homepage: https://github.com/coldfix/udiskie
 Description: automounter for removable media for Python
  udiskie is a front-end for UDisks written in Python. Its main purpose is
